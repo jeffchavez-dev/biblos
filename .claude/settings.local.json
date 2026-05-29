@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(python3 -c ' *)",
+      "Bash(where py *)",
+      "Read(//mnt/c/Windows/**)",
+      "Read(//mnt/**)",
+      "Bash(node -e ' *)",
+      "Bash(npm install *)",
+      "Bash(npm create *)",
+      "Bash(npm run *)",
+      "Bash(mkdir -p \"C:\\\\Users\\\\Jeff Chavez\\\\Claude\\\\Biblos\\\\.claude\")",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(cmd /c \"for /f \\\\\"tokens=5\\\\\" %a in \\('netstat -aon ^| findstr :5173'\\) do taskkill /F /PID %a\")",
+      "Bash(curl -s http://localhost:5173)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(cmd /c \"where py\")",
+      "Bash(cmd /c \"where python\")",
+      "Bash(cmd /c \"python --version\")",
+      "Read(//c/tmp/**)",
+      "Bash(cp \"C:/Users/Jeff Chavez/Downloads/1. 1. Biblos Unit 1 Text and Vocab.docx\" text_vocab.docx)",
+      "Bash(unzip -p text_vocab.docx word/document.xml)",
+      "Bash(cp \"C:/Users/Jeff Chavez/Downloads/1.2. Biblos Unit 1 Grammar and Vocabulary PDF.docx\" grammar.docx)",
+      "Bash(unzip -p grammar.docx word/document.xml)"
+    ]
+  }
+}

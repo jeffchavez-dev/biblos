@@ -1,0 +1,34 @@
+{
+  "title": "Ὁ Κῆπος καὶ Τὰ Ζῷα",
+  "subtitle": "Unit 1 Visual Story — The Garden and the Animals",
+  "panels": [
+    {
+      "id": 1,
+      "scene": "The farmer's garden is full of vegetables, trees, and fruit. Sheep and lambs graze peacefully inside.",
+      "greekCaption": "ὁ κῆπος καλός ἐστιν. τὰ πρόβατα καὶ τὰ ἀρνία ἐστὶν ἐν τῷ κήπῳ.",
+      "englishCaption": "The garden is beautiful. The sheep and lambs are in the garden.",
+      "imageDescription": "A lush garden with trees, vegetables, and peacefully grazing sheep and lambs"
+    },
+    {
+      "id": 2,
+      "scene": "A wolf lurks at the edge of the garden, beyond the river. Its eyes are fixed on the lambs.",
+      "greekCaption": "ὁ λύκος ἐστὶν πέραν τοῦ ποταμοῦ. θέλει ἁρπάζειν τὸ ἀρνίον.",
+      "englishCaption": "The wolf is across the river. He wants to seize the lamb.",
+      "imageDescription": "A wolf watching from across a river, eyeing the lambs in the garden"
+    },
+    {
+      "id": 3,
+      "scene": "The wolf runs into the garden and seizes a lamb. The farmer hears the lamb crying out and runs swiftly.",
+      "greekCaption": "κράζει τὸ ἀρνίον. ὁ γεωργὸς ἀκούει καὶ τρέχει ταχέως εἰς τὸν κῆπον.",
+      "englishCaption": "The lamb cries out. The farmer hears and runs quickly into the garden.",
+      "imageDescription": "A wolf grabbing a lamb while a farmer runs toward the garden with his staff"
+    },
+    {
+      "id": 4,
+      "scene": "The farmer drives the wolf away with his rod. The wolf flees and the lamb is saved. The farmer gives thanks.",
+      "greekCaption": "ὁ γεωργὸς σῴζει τὸ ἀρνίον. ὁ λύκος φεύγει. εὐχαριστεῖ τῷ θεῷ.",
+      "englishCaption": "The farmer saves the lamb. The wolf flees. He gives thanks to God.",
+      "imageDescription": "The farmer standing victorious with his staff, the wolf fleeing, the saved lamb beside him"
+    }
+  ]
+}

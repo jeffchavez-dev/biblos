@@ -1,0 +1,112 @@
+.exercises-tab { display: flex; flex-direction: column; gap: 20px; }
+
+.exercises-header {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+}
+.exercises-header h2 { font-size: 1.3rem; color: var(--deep-blue); }
+
+.score-badge {
+  padding: 4px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600;
+}
+.score-badge--perfect { background: var(--green-light); color: var(--green); }
+.score-badge--good { background: var(--blue-light); color: var(--blue); }
+.score-badge--low { background: var(--red-light); color: var(--red); }
+
+.section-tabs {
+  display: flex;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: #fff;
+}
+.section-tab {
+  flex: 1; padding: 10px; background: none; color: var(--grey);
+  font-size: 0.88rem; font-weight: 500; transition: background 0.15s, color 0.15s;
+  border-right: 1.5px solid var(--border);
+}
+.section-tab:last-child { border-right: none; }
+.section-tab:hover { background: var(--grey-light); }
+.section-tab--active { background: var(--deep-blue); color: #fff; }
+
+.question-list { display: flex; flex-direction: column; gap: 14px; }
+
+.question-card {
+  background: #fff;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  display: flex;
+  gap: 14px;
+  transition: border-color 0.2s;
+}
+.question-card--correct { border-color: var(--green); background: var(--green-light); }
+.question-card--wrong { border-color: var(--red); background: var(--red-light); }
+
+.question-num {
+  font-size: 0.75rem; font-weight: 700; color: var(--grey);
+  text-transform: uppercase; padding-top: 2px; flex-shrink: 0;
+}
+.question-body { flex: 1; display: flex; flex-direction: column; gap: 12px; }
+.question-text { font-size: 0.95rem; line-height: 1.5; }
+
+/* T/F */
+.tf-options { display: flex; gap: 8px; }
+.tf-btn {
+  flex: 1; padding: 8px; border-radius: var(--radius-sm);
+  border: 1.5px solid var(--border); background: #fff;
+  font-size: 0.9rem; font-weight: 500; color: var(--grey);
+  transition: all 0.15s; cursor: pointer;
+}
+.tf-btn:hover { border-color: var(--blue); color: var(--blue); }
+.tf-btn--selected { border-color: var(--blue); background: var(--blue-light); color: var(--blue); }
+.tf-btn--answer { border-color: var(--green) !important; background: var(--green-light) !important; color: var(--green) !important; }
+
+/* MC */
+.mc-options { display: flex; flex-direction: column; gap: 7px; }
+.mc-btn {
+  display: flex; align-items: center; gap: 10px;
+  padding: 9px 13px; border-radius: var(--radius-sm);
+  border: 1.5px solid var(--border); background: #fff;
+  font-size: 0.9rem; color: var(--ink); text-align: left;
+  transition: all 0.15s; cursor: pointer;
+}
+.mc-btn:hover { border-color: var(--blue); background: var(--blue-light); }
+.mc-btn--selected { border-color: var(--blue); background: var(--blue-light); color: var(--blue); }
+.mc-btn--answer { border-color: var(--green) !important; background: var(--green-light) !important; color: var(--green) !important; font-weight: 600; }
+.mc-btn--wrong { border-color: var(--red) !important; background: var(--red-light) !important; color: var(--red) !important; }
+.mc-letter {
+  width: 22px; height: 22px; border-radius: 50%;
+  background: currentColor; color: #fff; font-size: 0.72rem; font-weight: 700;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  opacity: 0.7;
+}
+.mc-btn--answer .mc-letter, .mc-btn--selected .mc-letter { opacity: 1; }
+
+.explanation {
+  font-size: 0.83rem; line-height: 1.5;
+  padding: 8px 12px; border-radius: var(--radius-sm);
+}
+.explanation--correct { background: rgba(45,106,79,0.1); color: var(--green); }
+.explanation--wrong { background: rgba(193,18,31,0.08); color: var(--red); }
+
+.exercises-footer { display: flex; justify-content: center; padding-top: 4px; }
+.submit-btn, .reset-btn {
+  padding: 11px 32px; border-radius: var(--radius);
+  font-size: 0.95rem; font-weight: 600;
+  transition: background 0.15s, opacity 0.15s;
+}
+.submit-btn {
+  background: var(--deep-blue); color: #fff;
+}
+.submit-btn:hover:not(:disabled) { background: var(--blue); }
+.submit-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.reset-btn {
+  background: #fff; color: var(--ink);
+  border: 1.5px solid var(--border);
+}
+.reset-btn:hover { background: var(--grey-light); }
+
+.empty-tab {
+  display: flex; align-items: center; justify-content: center;
+  min-height: 300px; color: var(--grey); font-size: 0.95rem;
+}

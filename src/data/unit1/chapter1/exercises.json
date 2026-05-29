@@ -1,0 +1,71 @@
+{
+  "trueFalse": [
+    {
+      "id": 1,
+      "statement": "The Greek word γεωργός means \"farmer.\"",
+      "answer": true,
+      "explanation": "Correct! γεωργός (geōrgos) means \"farmer\" — it is the root of the English word \"George\" (earth-worker)."
+    },
+    {
+      "id": 2,
+      "statement": "The farmer's field (ἀγρός) is described as large (μέγας).",
+      "answer": false,
+      "explanation": "In the story, the field is described as small (μικρός) but good (καλός): μικρός ἐστιν ὁ ἀγρός, ἀλλὰ καλός."
+    },
+    {
+      "id": 3,
+      "statement": "The preposition ἐν takes the dative case.",
+      "answer": true,
+      "explanation": "Correct! ἐν always governs the dative case: ἐν τῷ οἴκῳ means \"in the house.\""
+    },
+    {
+      "id": 4,
+      "statement": "In the farmer's speech, he says life is difficult because God is not good.",
+      "answer": false,
+      "explanation": "The opposite! The farmer says: ὁ βίος καλός ἐστιν ὅτι ὁ θεὸς ἐστιν ἀγαθὸς καὶ πιστός — \"life is good because God is good and faithful.\""
+    },
+    {
+      "id": 5,
+      "statement": "The word εὐχαριστῶ means \"I give thanks\" and takes the dative case.",
+      "answer": true,
+      "explanation": "Correct! εὐχαριστῶ τῷ θεῷ — \"I give thanks to God.\" The dative marks the recipient."
+    }
+  ],
+  "multipleChoice": [
+    {
+      "id": 1,
+      "question": "What does ὁ γεωργὸς σκάπτει τὸν ἀγρόν mean?",
+      "options": ["The farmer sees the field", "The farmer digs the field", "The farmer loves the field", "The farmer carries the field"],
+      "answer": 1,
+      "explanation": "σκάπτει means \"he digs.\" The farmer digs his small but good field."
+    },
+    {
+      "id": 2,
+      "question": "What case does πρός take to express motion toward?",
+      "options": ["Nominative", "Genitive", "Dative", "Accusative"],
+      "answer": 3,
+      "explanation": "πρός + accusative expresses motion toward: περιπατεῖ πρὸς τὸν ἀγρόν — \"he walks toward the field.\""
+    },
+    {
+      "id": 3,
+      "question": "What is the correct genitive singular of οἶκος?",
+      "options": ["οἶκον", "τῷ οἴκῳ", "τοῦ οἴκου", "τὸν οἶκον"],
+      "answer": 2,
+      "explanation": "The genitive singular of masculine 2nd-declension nouns ends in -ου: τοῦ οἴκου means \"of the house\" or \"out of the house\" (with ἐκ)."
+    },
+    {
+      "id": 4,
+      "question": "Which particle always appears in 2nd position in its clause and means \"for/because\"?",
+      "options": ["καί", "οὖν", "γάρ", "μέν"],
+      "answer": 2,
+      "explanation": "γάρ is postpositive (always 2nd in its clause) and means \"for, because\": ἰσχυρὸς γάρ ἐστιν — \"for he is strong.\""
+    },
+    {
+      "id": 5,
+      "question": "In the story, why does the farmer say life is good?",
+      "options": ["Because the field is large", "Because the toil is easy", "Because God is good and faithful", "Because the sun shines"],
+      "answer": 2,
+      "explanation": "The farmer says: ὁ βίος καλός ἐστιν ὅτι ὁ θεός ἐστιν ἀγαθὸς καὶ πιστός — \"life is good because God is good and faithful.\""
+    }
+  ]
+}

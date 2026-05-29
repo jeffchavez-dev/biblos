@@ -1,0 +1,113 @@
+{
+  "title": "Grammar — Κεφάλαιον Γʹ (The Evening)",
+  "sections": [
+    {
+      "id": 1,
+      "heading": "1. 3rd-Declension Nouns — Introduction",
+      "content": "The 3rd declension is the largest and most varied declension in Greek. Unlike the 1st and 2nd declensions, 3rd-declension nouns have stems that end in consonants or in certain vowels. The nominative singular must be memorized; the other forms are built from the genitive stem.",
+      "table": {
+        "caption": "3rd Declension — νύξ, νυκτός (\"night\") — Singular",
+        "headers": ["Case", "Form", "Function"],
+        "rows": [
+          ["Nominative", "νύξ", "subject"],
+          ["Accusative", "νύκτ-α", "direct object"],
+          ["Genitive", "νυκτ-ός", "of (possession, separation)"],
+          ["Dative", "νυκτ-ί", "to/for/in (+ ἐν = location)"]
+        ]
+      },
+      "examples": [
+        {"greek": "ἐν τῇ νυκτί", "note": "in the night (dative with ἐν)"},
+        {"greek": "φυλάσσει αὐτὸν νυκτός", "note": "he guards him through the night (genitive of time)"}
+      ]
+    },
+    {
+      "id": 2,
+      "heading": "2. Neuter 3rd-Declension Nouns — σῶμα, πῦρ, ὕδωρ",
+      "content": "Several important neuter nouns belong to the 3rd declension. Like all neuters, their nominative and accusative are identical. The stem is found by removing -ος from the genitive.",
+      "table": {
+        "caption": "Selected Neuter 3rd-Declension Nouns",
+        "headers": ["Nominative", "Genitive", "Stem", "Meaning"],
+        "rows": [
+          ["σῶμα", "σώματ-ος", "σωματ-", "body"],
+          ["ὄνομα", "ὀνόματ-ος", "ὀνοματ-", "name"],
+          ["ῥῆμα", "ῥήματ-ος", "ῥηματ-", "word"],
+          ["πνεῦμα", "πνεύματ-ος", "πνευματ-", "spirit"],
+          ["πῦρ", "πυρ-ός", "πυρ-", "fire"],
+          ["ὕδωρ", "ὕδατ-ος", "ὑδατ-", "water"]
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "heading": "3. Present Active Indicative — Full Paradigm",
+      "content": "Now that we have seen 1st and 3rd person singular and 3rd person plural, here is the complete present active indicative for a regular -ω verb.",
+      "table": {
+        "caption": "Present Active Indicative — λύω (\"I loose/destroy\")",
+        "headers": ["Person", "Singular", "Plural"],
+        "rows": [
+          ["1st", "λύ-ω (I loose)", "λύ-ομεν (we loose)"],
+          ["2nd", "λύ-εις (you loose)", "λύ-ετε (you all loose)"],
+          ["3rd", "λύ-ει (he/she/it looses)", "λύ-ουσι(ν) (they loose)"]
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "heading": "4. The Verb εἰμί — Full Present Paradigm",
+      "content": "The verb εἰμί (\"to be\") is highly irregular. Its forms must be memorized. Note that most forms are enclitic (they lean on the preceding word for accent) except εἶ (2nd singular) and εἰσί (3rd plural).",
+      "table": {
+        "caption": "Present Indicative of εἰμί",
+        "headers": ["Person", "Singular", "Plural"],
+        "rows": [
+          ["1st", "εἰμί (I am)", "ἐσμέν (we are)"],
+          ["2nd", "εἶ (you are)", "ἐστέ (you all are)"],
+          ["3rd", "ἐστί(ν) (he/she/it is)", "εἰσί(ν) (they are)"]
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "heading": "5. New Prepositions: πρός, μετά, περί, κατά",
+      "content": "This chapter introduces four more prepositions. Like all Greek prepositions, they govern specific cases which determine their meaning.",
+      "table": {
+        "caption": "New Prepositions",
+        "headers": ["Preposition", "Case", "Meaning", "Example"],
+        "rows": [
+          ["πρός", "accusative", "to, toward, with", "ἔρχεται πρὸς αὐτόν — he comes to him"],
+          ["μετά", "genitive", "with (accompaniment)", "μένει μετὰ τῶν τέκνων — he remains with the children"],
+          ["περί", "genitive", "about, concerning", "λέγει περὶ τοῦ θεοῦ — he speaks about God"],
+          ["κατά", "accusative", "according to, down", "κατὰ τὸν νόμον — according to the law"]
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "heading": "6. Negation — οὐ and μή",
+      "content": "Greek has two negative particles. οὐ (οὐκ before vowels, οὐχ before rough breathing) is used with the indicative mood. μή is used with all other moods (infinitive, imperative, subjunctive, etc.).",
+      "examples": [
+        {"greek": "οὐκ ἔχει εἰρήνην", "note": "he does not have peace (negating indicative)"},
+        {"greek": "μὴ φοβοῦ", "note": "do not fear! (negating imperative)"},
+        {"greek": "θέλει μὴ φεύγειν", "note": "he does not want to flee (negating infinitive)"}
+      ]
+    },
+    {
+      "id": 7,
+      "heading": "7. Dative of Manner",
+      "content": "The dative case can express the manner in which an action is done, without a preposition. This is common with abstract nouns.",
+      "examples": [
+        {"greek": "χαρᾷ πλήρης ἐστίν", "note": "he is full of/with joy (dative of manner)"},
+        {"greek": "εἰρήνῃ μένει", "note": "he remains in peace"},
+        {"greek": "πίστει περιπατεῖ", "note": "he walks by faith"}
+      ]
+    },
+    {
+      "id": 8,
+      "heading": "8. The Conjunction ὅτε (\"when\") and Temporal Clauses",
+      "content": "ὅτε introduces a temporal clause (\"when…\"). The verb in the ὅτε clause takes the indicative mood when referring to a definite past or present time.",
+      "examples": [
+        {"greek": "ὅτε τελεῖ τὸ δεῖπνον, ἅπτει τὸν λύχνον", "note": "when he finishes the meal, he lights the lamp"},
+        {"greek": "ὅτε ἔρχεται ὁ λύκος, φεύγει τὰ πρόβατα", "note": "when the wolf comes, the sheep flee"}
+      ]
+    }
+  ]
+}

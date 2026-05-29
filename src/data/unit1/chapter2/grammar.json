@@ -1,0 +1,129 @@
+{
+  "title": "Grammar — Κεφάλαιον Βʹ (The Garden and the Animals)",
+  "sections": [
+    {
+      "id": 1,
+      "heading": "1. Neuter 2nd-Declension Nouns",
+      "content": "Neuter nouns of the 2nd declension differ from masculine ones chiefly in the nominative and accusative, which are identical (ending -ον singular, -α plural). The article is τό (singular) and τά (plural).",
+      "table": {
+        "caption": "Neuter 2nd Declension — τὸ δένδρον (\"the tree\")",
+        "headers": ["Case", "Singular", "Plural"],
+        "rows": [
+          ["Nominative", "τὸ δένδρ-ον", "τὰ δένδρ-α"],
+          ["Accusative", "τὸ δένδρ-ον", "τὰ δένδρ-α"],
+          ["Genitive", "τοῦ δένδρ-ου", "τῶν δένδρ-ων"],
+          ["Dative", "τῷ δένδρ-ῳ", "τοῖς δένδρ-οις"]
+        ]
+      },
+      "examples": [
+        {"greek": "βλέπει τὸ δένδρον", "note": "he sees the tree (nom. = acc.)"},
+        {"greek": "ἐν τῷ κήπῳ ἐστὶν τὰ δένδρα", "note": "the trees are in the garden"}
+      ]
+    },
+    {
+      "id": 2,
+      "heading": "2. The Neuter Plural Rule",
+      "content": "A distinctive rule of Greek: neuter plural subjects regularly take a singular verb. This applies to all neuter nouns regardless of declension.",
+      "examples": [
+        {"greek": "τὰ ζῷα τρέχει", "note": "the animals run (lit. 'the animals runs')"},
+        {"greek": "τὰ πρόβατα ἐστιν ἐν τῷ κήπῳ", "note": "the sheep are in the garden"}
+      ]
+    },
+    {
+      "id": 3,
+      "heading": "3. Masculine Plural — Nominative and Accusative",
+      "content": "Masculine 2nd-declension nouns in the plural use -οι (nominative) and -ους (accusative). The article is οἱ (nominative) and τούς (accusative).",
+      "table": {
+        "caption": "Masculine 2nd Declension — Plural Forms",
+        "headers": ["Case", "Form", "Function"],
+        "rows": [
+          ["Nominative", "οἱ γεωργ-οί", "plural subject — \"the farmers\""],
+          ["Accusative", "τοὺς γεωργ-ούς", "plural direct object — \"the farmers\""]
+        ]
+      },
+      "examples": [
+        {"greek": "οἱ γεωργοὶ σκάπτουσι τοὺς ἀγρούς", "note": "the farmers dig the fields"}
+      ]
+    },
+    {
+      "id": 4,
+      "heading": "4. Present Active Indicative — 3rd Person Plural",
+      "content": "The 3rd plural ending is -ουσι(ν): they do. Contract verbs in -έω contract the stem vowel: ε + ουσι → -οῦσι.",
+      "table": {
+        "caption": "Present Active — 3rd Plural",
+        "headers": ["Regular (-ω)", "Meaning", "Contract (-έω)", "Meaning"],
+        "rows": [
+          ["τρέχ-ουσι(ν)", "they run", "ἀκολουθ-οῦσι(ν)", "they follow"],
+          ["φεύγ-ουσι(ν)", "they flee", "καλ-οῦσι(ν)", "they call"]
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "heading": "5. Complementary Infinitive — θέλω and μέλλω",
+      "content": "Two verbs introduced in this chapter take a complementary infinitive (an infinitive that completes their meaning). The infinitive of -ω verbs ends in -ειν.",
+      "examples": [
+        {"greek": "θέλει ἁρπάζειν τὸ ἀρνίον", "note": "he wants to seize the lamb"},
+        {"greek": "μέλλει φεύγειν ὁ λύκος", "note": "the wolf is about to flee"},
+        {"greek": "θέλομεν φυτεύειν δένδρα", "note": "we want to plant trees"}
+      ]
+    },
+    {
+      "id": 6,
+      "heading": "6. The Pronoun αὐτός",
+      "content": "αὐτός is the 3rd-person personal pronoun. It declines like a 2nd-declension adjective and agrees with its antecedent in gender and number.",
+      "table": {
+        "caption": "αὐτός — Nominative Forms",
+        "headers": ["Gender", "Singular", "Plural"],
+        "rows": [
+          ["Masculine", "αὐτός (he)", "αὐτοί (they)"],
+          ["Feminine", "αὐτή (she)", "αὐταί (they)"],
+          ["Neuter", "αὐτό (it)", "αὐτά (they)"]
+        ]
+      },
+      "examples": [
+        {"greek": "ὁ λύκος ἔρχεται. αὐτὸς θέλει ἁρπάζειν τὸ ἀρνίον", "note": "The wolf comes. He wants to seize the lamb."}
+      ]
+    },
+    {
+      "id": 7,
+      "heading": "7. Feminine 1st Declension",
+      "content": "Feminine nouns of the 1st declension end in -η or -α. The article is ἡ (nominative singular), τήν (accusative singular), τῆς (genitive), τῇ (dative).",
+      "table": {
+        "caption": "1st Declension Feminine — ἡ φωνή (\"voice\") and ἡ ἡμέρα (\"day\")",
+        "headers": ["Case", "-η type", "-α type"],
+        "rows": [
+          ["Nominative", "ἡ φων-ή", "ἡ ἡμέρ-α"],
+          ["Accusative", "τὴν φων-ήν", "τὴν ἡμέρ-αν"],
+          ["Genitive", "τῆς φων-ῆς", "τῆς ἡμέρ-ας"],
+          ["Dative", "τῇ φων-ῇ", "τῇ ἡμέρ-ᾳ"]
+        ]
+      },
+      "examples": [
+        {"greek": "ἀκούει τὴν φωνὴν τοῦ κυρίου", "note": "he hears the voice of the master"},
+        {"greek": "ἐν ἐκείνῃ τῇ ἡμέρᾳ", "note": "on that day"}
+      ]
+    },
+    {
+      "id": 8,
+      "heading": "8. New Prepositions: εἰς, ἀπό, ἐπί, ὑπό",
+      "content": "This chapter introduces several new prepositions, each governing a specific case.",
+      "table": {
+        "caption": "New Prepositions",
+        "headers": ["Preposition", "Case", "Meaning"],
+        "rows": [
+          ["εἰς", "accusative", "into, to"],
+          ["ἀπό", "genitive", "from, away from"],
+          ["ἐπί", "dative", "on, upon"],
+          ["ὑπό", "dative", "under"]
+        ]
+      },
+      "examples": [
+        {"greek": "εἰσέρχεται εἰς τὸν κῆπον", "note": "he enters into the garden"},
+        {"greek": "φεύγει ἀπὸ τοῦ κήπου", "note": "he flees from the garden"},
+        {"greek": "καθίζει ἐπὶ τῷ λίθῳ", "note": "he sits upon the stone"},
+        {"greek": "ὑπὸ τῷ δένδρῳ σκιά ἐστιν", "note": "under the tree there is shade"}
+      ]
+    }
+  ]
+}

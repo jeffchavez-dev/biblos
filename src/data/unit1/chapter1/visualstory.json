@@ -1,0 +1,34 @@
+{
+  "title": "Ὁ Γεωργός",
+  "subtitle": "Unit 1 Visual Story — The Farmer",
+  "panels": [
+    {
+      "id": 1,
+      "scene": "A farmer stands in his small but beautiful field. The sun shines in the sky above.",
+      "greekCaption": "ὁ γεωργός ἐστιν ἀγαθὸς καὶ ἰσχυρὸς ἄνθρωπος.",
+      "englishCaption": "The farmer is a good and strong person.",
+      "imageDescription": "A strong man standing in a small field under a bright sun"
+    },
+    {
+      "id": 2,
+      "scene": "The farmer digs his field. He spots a large stone in the ground.",
+      "greekCaption": "σκάπτει τὸν ἀγρόν. βλέπει τὸν μέγαν λίθον.",
+      "englishCaption": "He digs the field. He sees the large stone.",
+      "imageDescription": "A farmer digging with a tool, noticing a large rock"
+    },
+    {
+      "id": 3,
+      "scene": "He lifts the great stone and carries it out of the field. His strength is on display.",
+      "greekCaption": "αἴρει τὸν μέγαν λίθον καὶ φέρει. ἰσχυρὸς γάρ ἐστιν.",
+      "englishCaption": "He lifts the large stone and carries it. For he is strong.",
+      "imageDescription": "The farmer carrying a heavy stone, muscles straining"
+    },
+    {
+      "id": 4,
+      "scene": "The farmer rests in the field, listening to the river flow. He looks up and gives thanks.",
+      "greekCaption": "ὁ βίος καλός ἐστιν ὅτι ὁ θεός ἐστιν ἀγαθὸς καὶ πιστός.",
+      "englishCaption": "Life is good because God is good and faithful.",
+      "imageDescription": "The farmer resting by a river, looking peacefully at the sky"
+    }
+  ]
+}

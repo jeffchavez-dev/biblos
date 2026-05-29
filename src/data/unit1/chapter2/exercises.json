@@ -1,0 +1,71 @@
+{
+  "trueFalse": [
+    {
+      "id": 1,
+      "statement": "The Greek word κῆπος means \"garden.\"",
+      "answer": true,
+      "explanation": "Correct! κῆπος (kēpos) means \"garden\" — it is a masculine 2nd-declension noun."
+    },
+    {
+      "id": 2,
+      "statement": "Neuter nouns in Greek always take a plural verb form.",
+      "answer": false,
+      "explanation": "Neuter plural subjects typically take a singular verb: τὰ ζῷα τρέχει — \"the animals run\" (literally, \"the animals runs\"). This is a distinctive rule of Greek grammar."
+    },
+    {
+      "id": 3,
+      "statement": "The preposition πέραν takes the genitive case.",
+      "answer": true,
+      "explanation": "Correct! πέραν + genitive means \"across, beyond\": πέραν τοῦ ποταμοῦ — \"across the river.\""
+    },
+    {
+      "id": 4,
+      "statement": "In the story, the wolf runs away when the farmer appears.",
+      "answer": false,
+      "explanation": "It is the wolf who approaches seeking to seize a lamb. The farmer drives the wolf away — the wolf flees (φεύγει) when confronted."
+    },
+    {
+      "id": 5,
+      "statement": "The pronoun αὐτός can mean \"he,\" \"she,\" or \"it\" depending on context.",
+      "answer": true,
+      "explanation": "Correct! αὐτός is the 3rd-person personal pronoun and agrees in gender and number with its antecedent: αὐτός (he), αὐτή (she), αὐτό (it)."
+    }
+  ],
+  "multipleChoice": [
+    {
+      "id": 1,
+      "question": "What does τὰ ζῷα ἐστιν ἐν τῷ κήπῳ mean?",
+      "options": ["The animal is in the garden", "The animals are in the garden", "The garden has animals", "The animals run in the garden"],
+      "answer": 1,
+      "explanation": "τὰ ζῷα is the neuter plural of ζῷον (\"living creature\"). ἐν τῷ κήπῳ = \"in the garden\" (dative with ἐν)."
+    },
+    {
+      "id": 2,
+      "question": "Which case does the verb θέλω require for its complement?",
+      "options": ["Accusative noun", "Dative noun", "Infinitive verb", "Genitive noun"],
+      "answer": 2,
+      "explanation": "θέλω (\"I wish, want\") and μέλλω (\"I am about to\") take a complementary infinitive: θέλει ἁρπάζειν τὸ ἀρνίον — \"he wants to seize the lamb.\""
+    },
+    {
+      "id": 3,
+      "question": "What is the nominative plural ending for masculine 2nd-declension nouns?",
+      "options": ["-ον", "-ους", "-οι", "-ων"],
+      "answer": 2,
+      "explanation": "Masculine 2nd-declension nouns have -οι in the nominative plural: οἱ γεωργοί (\"the farmers\"), οἱ λύκοι (\"the wolves\")."
+    },
+    {
+      "id": 4,
+      "question": "In the story, what does the farmer use to drive away the wolf?",
+      "options": ["His voice", "A sword", "His rod/staff (ῥάβδος)", "The ox"],
+      "answer": 2,
+      "explanation": "The farmer drives the wolf away with his rod or staff (ῥάβδος). The farmer cries out and runs to protect his flock."
+    },
+    {
+      "id": 5,
+      "question": "What does the genitive case express in the phrase ὁ κύριος τοῦ κήπου?",
+      "options": ["Location in the garden", "Motion toward the garden", "Possession — the master of the garden", "The garden as direct object"],
+      "answer": 2,
+      "explanation": "The genitive expresses possession: τοῦ κήπου = \"of the garden.\" So ὁ κύριος τοῦ κήπου means \"the master of the garden.\""
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Unit 1",
+    "subtitle": "Ὁ Γεωργός — The Farmer",
+    "locked": false,
+    "chapters": [
+      {
+        "id": 1,
+        "title": "Chapter 1",
+        "subtitle": "Ὁ Γεωργός — The Farmer",
+        "locked": false
+      },
+      {
+        "id": 2,
+        "title": "Chapter 2",
+        "subtitle": "Ὁ Κῆπος καὶ Τὰ Ζῷα — The Garden and the Animals",
+        "locked": false
+      },
+      {
+        "id": 3,
+        "title": "Chapter 3",
+        "subtitle": "Ἡ Ὀψία — The Evening",
+        "locked": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Unit 2",
+    "subtitle": "Coming Soon",
+    "locked": true,
+    "chapters": [
+      { "id": 1, "title": "Chapter 1", "subtitle": "Coming Soon", "locked": true }
+    ]
+  }
+]

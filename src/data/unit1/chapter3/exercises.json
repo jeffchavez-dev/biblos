@@ -1,0 +1,71 @@
+{
+  "trueFalse": [
+    {
+      "id": 1,
+      "statement": "The Greek word ὀψία means \"morning.\"",
+      "answer": false,
+      "explanation": "ὀψία means \"evening\" — it is a feminine 1st-declension noun that gives the chapter its title: Ἡ Ὀψία."
+    },
+    {
+      "id": 2,
+      "statement": "The farmer gives thanks before he eats the bread.",
+      "answer": true,
+      "explanation": "Correct! The farmer takes the bread (λαμβάνει τὸν ἄρτον) and gives thanks to God (εὐχαριστεῖ τῷ θεῷ) before eating."
+    },
+    {
+      "id": 3,
+      "statement": "3rd-declension nouns like πῦρ (fire) and ὕδωρ (water) follow the same endings as 2nd-declension nouns.",
+      "answer": false,
+      "explanation": "3rd-declension nouns have their own set of endings and often have a different stem in oblique cases: ὕδωρ (nominative) → ὕδατος (genitive), πῦρ → πυρός."
+    },
+    {
+      "id": 4,
+      "statement": "The preposition μετά with the genitive means \"with.\"",
+      "answer": true,
+      "explanation": "Correct! μετά + genitive = \"with\": μένει μετὰ τῶν τέκνων — \"he remains with the children.\""
+    },
+    {
+      "id": 5,
+      "statement": "The farmer's heart is described as full of sorrow at the end of the story.",
+      "answer": false,
+      "explanation": "The opposite! ἡ καρδία τοῦ γεωργοῦ χαρᾷ πλήρης ἐστίν — \"the heart of the farmer is full of joy.\""
+    }
+  ],
+  "multipleChoice": [
+    {
+      "id": 1,
+      "question": "What does εἰσέρχεται εἰς τὴν οἰκίαν mean?",
+      "options": ["He leaves the house", "He enters into the house", "He remains in the house", "He builds the house"],
+      "answer": 1,
+      "explanation": "εἰσέρχεται means \"he enters\" (a compound of εἰς + ἔρχομαι). εἰς τὴν οἰκίαν = \"into the house\" (εἰς + accusative)."
+    },
+    {
+      "id": 2,
+      "question": "Which preposition does εὐχαριστέω take for the person thanked?",
+      "options": ["Accusative", "Dative", "Genitive", "No case — just add the name"],
+      "answer": 1,
+      "explanation": "εὐχαριστέω takes the dative for the recipient: εὐχαριστεῖ τῷ θεῷ — \"he gives thanks to God.\" This mirrors the dative for indirect objects generally."
+    },
+    {
+      "id": 3,
+      "question": "What is the genitive singular of νύξ (night)?",
+      "options": ["νύξος", "νυκτός", "νύκτου", "νυκτῆς"],
+      "answer": 1,
+      "explanation": "νύξ is a 3rd-declension noun with stem νυκτ-: genitive singular is νυκτός. So \"in the night\" = ἐν τῇ νυκτί (dative)."
+    },
+    {
+      "id": 4,
+      "question": "What does the farmer light after finishing his meal?",
+      "options": ["A fire (πῦρ)", "A lamp (λύχνος)", "A candle", "The hearth"],
+      "answer": 1,
+      "explanation": "ἅπτει τὸν λύχνον — \"he lights the lamp.\" The lamp (λύχνος) then gives light to the whole house."
+    },
+    {
+      "id": 5,
+      "question": "In the phrase ἡ εἰρήνη τοῦ θεοῦ, what case is τοῦ θεοῦ and what does it express?",
+      "options": ["Dative — location", "Accusative — direct object", "Genitive — possession/source", "Nominative — subject"],
+      "answer": 2,
+      "explanation": "τοῦ θεοῦ is genitive singular, expressing possession or source: \"the peace of God\" or \"God's peace.\" The genitive here shows whose peace it is."
+    }
+  ]
+}

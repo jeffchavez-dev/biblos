@@ -1,0 +1,34 @@
+{
+  "title": "Ἡ Ὀψία",
+  "subtitle": "Unit 1 Visual Story — The Evening",
+  "panels": [
+    {
+      "id": 1,
+      "scene": "The sun sets over the field. The weary farmer walks home along a dusty path, his tools resting on his shoulder.",
+      "greekCaption": "ὀψία ἐστίν. ὁ γεωργὸς ἐπιστρέφει ἀπὸ τοῦ ἀγροῦ.",
+      "englishCaption": "It is evening. The farmer returns from the field.",
+      "imageDescription": "A farmer walking home at sunset, silhouetted against the orange sky, carrying farming tools"
+    },
+    {
+      "id": 2,
+      "scene": "Inside his house, the farmer washes his hands and feet. The table is set with bread and wine.",
+      "greekCaption": "εἰσέρχεται εἰς τὴν οἰκίαν. ἡ τράπεζα ἑτοίμη ἐστίν.",
+      "englishCaption": "He enters the house. The table is ready.",
+      "imageDescription": "The interior of a simple home: a wooden table with bread and a clay cup of wine, a lamp casting warm light"
+    },
+    {
+      "id": 3,
+      "scene": "The farmer bows his head over the bread. His lips move in quiet prayer of thanks to God.",
+      "greekCaption": "λαμβάνει τὸν ἄρτον καὶ εὐχαριστεῖ τῷ θεῷ.",
+      "englishCaption": "He takes the bread and gives thanks to God.",
+      "imageDescription": "A man with bowed head, hands holding bread, eyes closed in prayer at a simple table"
+    },
+    {
+      "id": 4,
+      "scene": "Night falls. The farmer lights the lamp. Warm light fills the house. He rests peacefully, knowing God keeps watch.",
+      "greekCaption": "νύξ ἐστίν. ὁ θεὸς φυλάσσει αὐτόν. ἡ εἰρήνη τοῦ θεοῦ μένει ἐν τῇ καρδίᾳ αὐτοῦ.",
+      "englishCaption": "It is night. God watches over him. The peace of God abides in his heart.",
+      "imageDescription": "A lamp glowing on a windowsill at night, stars visible outside, the farmer resting peacefully within"
+    }
+  ]
+}
