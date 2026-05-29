@@ -7,6 +7,7 @@ import './App.css'
 export default function App() {
   const [selectedUnit, setSelectedUnit] = useState(1)
   const [selectedChapter, setSelectedChapter] = useState(1)
+  const [activePart, setActivePart] = useState('A')
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   const currentUnit = units.find(u => u.id === selectedUnit)
@@ -16,8 +17,16 @@ export default function App() {
   function handleSelect(unitId, chapterId) {
     setSelectedUnit(unitId)
     setSelectedChapter(chapterId)
+    setActivePart('A')
     setSidebarOpen(false)
   }
+
+  function handlePartSelect(partId) {
+    setActivePart(partId)
+    setSidebarOpen(false)
+  }
+
+  const currentPart = currentChapter?.parts?.find(p => p.id === activePart)
 
   return (
     <div className="app-shell">
@@ -30,7 +39,8 @@ export default function App() {
           <span className="app-title-sub">Koine Greek Reader</span>
         </div>
         <div className="app-breadcrumb">
-          {currentUnit?.title} · {currentChapter?.title}
+          {currentChapter?.title}
+          {currentPart && <span className="greek"> · {currentPart.label} — {currentPart.subtitle}</span>}
         </div>
       </header>
 
@@ -39,7 +49,9 @@ export default function App() {
           units={units}
           selectedUnit={selectedUnit}
           selectedChapter={selectedChapter}
+          activePart={activePart}
           onSelect={handleSelect}
+          onPartSelect={handlePartSelect}
           open={sidebarOpen}
           onClose={() => setSidebarOpen(false)}
         />
@@ -52,7 +64,11 @@ export default function App() {
           {isLocked ? (
             <LockedView />
           ) : (
-            <ChapterView unitId={selectedUnit} chapterId={selectedChapter} />
+            <ChapterView
+              unitId={selectedUnit}
+              chapterId={selectedChapter}
+              activePart={activePart}
+            />
           )}
         </main>
       </div>

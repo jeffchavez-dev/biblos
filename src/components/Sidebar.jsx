@@ -1,6 +1,6 @@
 import './Sidebar.css'
 
-export default function Sidebar({ units, selectedUnit, selectedChapter, onSelect, open, onClose }) {
+export default function Sidebar({ units, selectedUnit, selectedChapter, activePart, onSelect, onPartSelect, open, onClose }) {
   return (
     <aside className={`sidebar ${open ? 'sidebar--open' : ''}`}>
       <div className="sidebar-header">
@@ -18,19 +18,35 @@ export default function Sidebar({ units, selectedUnit, selectedChapter, onSelect
               const active = selectedUnit === unit.id && selectedChapter === chapter.id
               const locked = unit.locked || chapter.locked
               return (
-                <button
-                  key={chapter.id}
-                  className={`chapter-btn ${active ? 'chapter-btn--active' : ''} ${locked ? 'chapter-btn--locked' : ''}`}
-                  onClick={() => !locked && onSelect(unit.id, chapter.id)}
-                  disabled={locked}
-                >
-                  <span className="chapter-dot" />
-                  <span>
-                    <span className="chapter-title">{chapter.title}</span>
-                    <span className="chapter-subtitle">{chapter.subtitle}</span>
-                  </span>
-                  {locked && <span className="chapter-lock">🔒</span>}
-                </button>
+                <div key={chapter.id}>
+                  <button
+                    className={`chapter-btn ${active ? 'chapter-btn--active' : ''} ${locked ? 'chapter-btn--locked' : ''}`}
+                    onClick={() => !locked && onSelect(unit.id, chapter.id)}
+                    disabled={locked}
+                  >
+                    <span className="chapter-dot" />
+                    <span>
+                      <span className="chapter-title">{chapter.title}</span>
+                      <span className="chapter-subtitle">{chapter.subtitle}</span>
+                    </span>
+                    {locked && <span className="chapter-lock">🔒</span>}
+                  </button>
+
+                  {active && chapter.parts && (
+                    <div className="part-nav">
+                      {chapter.parts.map(part => (
+                        <button
+                          key={part.id}
+                          className={`part-btn ${activePart === part.id ? 'part-btn--active' : ''}`}
+                          onClick={() => onPartSelect(part.id)}
+                        >
+                          <span className="part-btn-label greek">{part.label}</span>
+                          <span className="part-btn-subtitle">{part.subtitle}</span>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
               )
             })}
           </div>

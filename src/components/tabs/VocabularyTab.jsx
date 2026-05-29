@@ -1,35 +1,32 @@
 import { useState, useEffect } from 'react'
 import './VocabularyTab.css'
 
-function getSeenKey(unitId, chapterId) {
-  return `biblos_seen_u${unitId}c${chapterId}`
-}
+export default function VocabularyTab({ words, unitId, chapterId, activePart }) {
+  const filtered = words ? words.filter(w => !w.part || w.part === activePart) : []
 
-export default function VocabularyTab({ words, unitId, chapterId }) {
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
-  const [seen, setSeen] = useState(() => {
-    try {
-      return JSON.parse(localStorage.getItem(getSeenKey(unitId, chapterId)) || '{}')
-    } catch { return {} }
-  })
+  const [seen, setSeen] = useState({})
 
+  // Reset card position when part or chapter changes
   useEffect(() => {
     setIndex(0)
     setFlipped(false)
-  }, [unitId, chapterId])
+  }, [unitId, chapterId, activePart])
 
-  if (!words || words.length === 0) {
-    return <EmptyTab />
+  if (!words || filtered.length === 0) {
+    return (
+      <div className="empty-tab">
+        <p>📋 Vocabulary for this part has not been added yet.</p>
+      </div>
+    )
   }
 
-  const word = words[index]
+  const word = filtered[index]
   const seenCount = Object.values(seen).reduce((a, b) => a + b, 0)
 
   function markSeen(wordId) {
-    const next = { ...seen, [wordId]: (seen[wordId] || 0) + 1 }
-    setSeen(next)
-    localStorage.setItem(getSeenKey(unitId, chapterId), JSON.stringify(next))
+    setSeen(prev => ({ ...prev, [wordId]: (prev[wordId] || 0) + 1 }))
   }
 
   function handleFlip() {
@@ -39,12 +36,12 @@ export default function VocabularyTab({ words, unitId, chapterId }) {
 
   function handleNext() {
     setFlipped(false)
-    setTimeout(() => setIndex(i => (i + 1) % words.length), 150)
+    setTimeout(() => setIndex(i => (i + 1) % filtered.length), 150)
   }
 
   function handlePrev() {
     setFlipped(false)
-    setTimeout(() => setIndex(i => (i - 1 + words.length) % words.length), 150)
+    setTimeout(() => setIndex(i => (i - 1 + filtered.length) % filtered.length), 150)
   }
 
   return (
@@ -52,14 +49,14 @@ export default function VocabularyTab({ words, unitId, chapterId }) {
       <div className="vocab-header">
         <h2>Vocabulary Flashcards</h2>
         <div className="vocab-stats">
-          <span>{index + 1} / {words.length}</span>
-          <span className="seen-badge">{seenCount} reviews total</span>
+          <span>{index + 1} / {filtered.length}</span>
+          <span className="seen-badge">{seenCount} reviews</span>
         </div>
       </div>
 
       {/* Progress dots */}
       <div className="vocab-dots">
-        {words.map((w, i) => (
+        {filtered.map((w, i) => (
           <button
             key={w.id}
             className={`vocab-dot ${i === index ? 'vocab-dot--active' : ''} ${seen[w.id] ? 'vocab-dot--seen' : ''}`}
@@ -100,9 +97,9 @@ export default function VocabularyTab({ words, unitId, chapterId }) {
 
       {/* Word list */}
       <div className="word-list-section">
-        <h3>All Words — Unit {unitId}, Chapter {chapterId}</h3>
+        <h3>All Words — {filtered.length} words</h3>
         <div className="word-list">
-          {words.map((w, i) => (
+          {filtered.map((w, i) => (
             <div
               key={w.id}
               className={`word-row ${i === index ? 'word-row--active' : ''}`}
@@ -116,14 +113,6 @@ export default function VocabularyTab({ words, unitId, chapterId }) {
           ))}
         </div>
       </div>
-    </div>
-  )
-}
-
-function EmptyTab() {
-  return (
-    <div className="empty-tab">
-      <p>📋 Vocabulary for this chapter has not been added yet.</p>
     </div>
   )
 }

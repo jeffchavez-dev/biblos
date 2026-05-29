@@ -1,7 +1,15 @@
 import { useState, useEffect, useRef } from 'react'
 import './StoryTab.css'
 
-export default function StoryTab({ story }) {
+function getParagraphParts(paragraphs) {
+  let current = 'A'
+  return paragraphs.map(para => {
+    if (para.label) current = para.label.includes('Βʹ') ? 'B' : 'A'
+    return { ...para, _part: current }
+  })
+}
+
+export default function StoryTab({ story, activePart }) {
   const [showTranslation, setShowTranslation] = useState(false)
   const [activeWord, setActiveWord] = useState(null)
   const [popoverPos, setPopoverPos] = useState({ top: 0, left: 0 })
@@ -72,6 +80,8 @@ export default function StoryTab({ story }) {
     return <div className="empty-tab">📖 Story text for this chapter has not been added yet.</div>
   }
 
+  const paragraphs = getParagraphParts(story.paragraphs).filter(p => p._part === activePart)
+
   return (
     <div className="story-tab">
       <div className="story-header">
@@ -81,7 +91,7 @@ export default function StoryTab({ story }) {
 
       <div className="story-instruction">Tap any word to see its meaning.</div>
 
-      {story.paragraphs.map(para => (
+      {paragraphs.map(para => (
         <div key={para.id}>
           {para.label && (
             <div className="part-divider">
@@ -114,7 +124,7 @@ export default function StoryTab({ story }) {
 
         {showTranslation && (
           <div className="full-translation">
-            {story.paragraphs.map(para => (
+            {paragraphs.map(para => (
               <div key={para.id} className="translation-block">
                 {para.label && (
                   <p className="translation-part-label">{para.label}</p>

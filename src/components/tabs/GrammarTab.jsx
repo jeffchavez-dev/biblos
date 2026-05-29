@@ -1,11 +1,13 @@
 import './GrammarTab.css'
 
-export default function GrammarTab({ grammar }) {
+export default function GrammarTab({ grammar, activePart }) {
   if (!grammar) {
     return <div className="empty-tab">📐 Grammar for this chapter has not been added yet.</div>
   }
 
-  const parts = grammar.parts ?? [{ label: null, sections: grammar.sections ?? [] }]
+  const allParts = grammar.parts ?? [{ label: null, sections: grammar.sections ?? [] }]
+  const partIndex = activePart === 'B' ? 1 : 0
+  const parts = [allParts[partIndex]].filter(Boolean)
 
   return (
     <div className="grammar-tab">

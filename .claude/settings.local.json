@@ -22,7 +22,16 @@
       "Bash(cp \"C:/Users/Jeff Chavez/Downloads/1. 1. Biblos Unit 1 Text and Vocab.docx\" text_vocab.docx)",
       "Bash(unzip -p text_vocab.docx word/document.xml)",
       "Bash(cp \"C:/Users/Jeff Chavez/Downloads/1.2. Biblos Unit 1 Grammar and Vocabulary PDF.docx\" grammar.docx)",
-      "Bash(unzip -p grammar.docx word/document.xml)"
+      "Bash(unzip -p grammar.docx word/document.xml)",
+      "Read(//usr/**)",
+      "Bash(ls /c/Python*)",
+      "Read(//c/Users/**)",
+      "Bash(gh --version)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)"
     ]
   }
 }
