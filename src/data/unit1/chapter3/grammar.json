@@ -1,112 +1,220 @@
 {
   "title": "Grammar — Κεφάλαιον Γʹ (The Evening)",
-  "sections": [
+  "parts": [
     {
-      "id": 1,
-      "heading": "1. 3rd-Declension Nouns — Introduction",
-      "content": "The 3rd declension is the largest and most varied declension in Greek. Unlike the 1st and 2nd declensions, 3rd-declension nouns have stems that end in consonants or in certain vowels. The nominative singular must be memorized; the other forms are built from the genitive stem.",
-      "table": {
-        "caption": "3rd Declension — νύξ, νυκτός (\"night\") — Singular",
-        "headers": ["Case", "Form", "Function"],
-        "rows": [
-          ["Nominative", "νύξ", "subject"],
-          ["Accusative", "νύκτ-α", "direct object"],
-          ["Genitive", "νυκτ-ός", "of (possession, separation)"],
-          ["Dative", "νυκτ-ί", "to/for/in (+ ἐν = location)"]
-        ]
-      },
-      "examples": [
-        {"greek": "ἐν τῇ νυκτί", "note": "in the night (dative with ἐν)"},
-        {"greek": "φυλάσσει αὐτὸν νυκτός", "note": "he guards him through the night (genitive of time)"}
+      "label": "Μέρος Αʹ — Ἡ Ὀψία",
+      "sections": [
+        {
+          "id": 1,
+          "heading": "1. New feminine nouns (1st & 2nd declension)",
+          "content": "Several feminine nouns appear here. ἡ σελήνη, ἡ θύρα, ἡ τράπεζα, ἡ καθέδρα, ἡ κλίνη, ἡ σκοτία follow the 1st declension. ἡ ὁδός is feminine but follows the 2nd-declension pattern (like ῥάβδος).",
+          "examples": [
+            {"greek": "ἡ σελήνη ἀνατέλλει ἐν τῷ οὐρανῷ", "note": "1st-decl. nominative"},
+            {"greek": "ἀνοίγει τὴν θύραν", "note": "1st-decl. accusative"}
+          ]
+        },
+        {
+          "id": 2,
+          "heading": "2. The preposition ἐπί + genitive — \"on (a surface)\"",
+          "content": "ἐπί is one preposition with three meanings depending on case. With the genitive it means location on a surface; with the dative it means resting upon (already seen); with the accusative it means motion onto.",
+          "table": {
+            "caption": "ἐπί with three cases",
+            "headers": ["Case", "Example", "Meaning"],
+            "rows": [
+              ["+ Gen.", "ἐπὶ τῆς τραπέζης", "on (a surface)"],
+              ["+ Dat.", "ἐπὶ τῷ δένδρῳ", "upon, on (resting)"],
+              ["+ Acc.", "ἐπὶ τὴν καθέδραν", "onto (motion)"]
+            ]
+          },
+          "examples": [
+            {"greek": "εὑρίσκει τὸν λύχνον ἐπὶ τῆς τραπέζης", "note": "gen.: he finds the lamp on the table"},
+            {"greek": "καθίζει ἐπὶ τὴν καθέδραν", "note": "acc.: he sits down onto the chair"}
+          ]
+        },
+        {
+          "id": 3,
+          "heading": "3. Adjective agreement with feminine nouns",
+          "content": "When the noun is feminine, the adjective takes its feminine ending: -η / -α (nom.), -ην / -αν (acc.).",
+          "examples": [
+            {"greek": "καλὴ ἡ ὀψία", "note": "the evening is beautiful"},
+            {"greek": "ἔχει τὴν καλὴν κλίνην", "note": "he has the beautiful bed"}
+          ]
+        },
+        {
+          "id": 4,
+          "heading": "4. The accusative of duration of time",
+          "content": "An accusative without a preposition can express how long an action lasts.",
+          "examples": [
+            {"greek": "πολὺν χρόνον σκάπτει τὸν ἀγρόν", "note": "he digs the field for a long time"},
+            {"greek": "τρέχει ὅλην τὴν ἡμέραν", "note": "it runs the whole day"}
+          ]
+        },
+        {
+          "id": 5,
+          "heading": "5. More adverbs",
+          "content": "Adjectives often form adverbs by replacing -ος with -ως (e.g. καλός > καλῶς). Other useful adverbs: ἔτι, οὐκέτι, σφόδρα.",
+          "examples": [
+            {"greek": "ὁ ποταμὸς ῥεῖ καλῶς", "note": "the river flows well"},
+            {"greek": "ὁ λύχνος ἔτι λάμπει· οὐκέτι σκοτία ἐστίν", "note": "the lamp still shines; it is no longer dark"}
+          ]
+        },
+        {
+          "id": 6,
+          "heading": "6. Infinitive review — chains of infinitives",
+          "content": "A single verb of wanting can govern several infinitives joined by καί.",
+          "examples": [
+            {"greek": "θέλει ἐσθίειν καὶ πίνειν καὶ ἡσυχάζειν", "note": "he wants to eat and drink and rest"},
+            {"greek": "οὐ θέλει ἔτι καθίζειν καὶ μένειν", "note": "he no longer wants to sit and stay"}
+          ]
+        }
       ]
     },
     {
-      "id": 2,
-      "heading": "2. Neuter 3rd-Declension Nouns — σῶμα, πῦρ, ὕδωρ",
-      "content": "Several important neuter nouns belong to the 3rd declension. Like all neuters, their nominative and accusative are identical. The stem is found by removing -ος from the genitive.",
-      "table": {
-        "caption": "Selected Neuter 3rd-Declension Nouns",
-        "headers": ["Nominative", "Genitive", "Stem", "Meaning"],
-        "rows": [
-          ["σῶμα", "σώματ-ος", "σωματ-", "body"],
-          ["ὄνομα", "ὀνόματ-ος", "ὀνοματ-", "name"],
-          ["ῥῆμα", "ῥήματ-ος", "ῥηματ-", "word"],
-          ["πνεῦμα", "πνεύματ-ος", "πνευματ-", "spirit"],
-          ["πῦρ", "πυρ-ός", "πυρ-", "fire"],
-          ["ὕδωρ", "ὕδατ-ος", "ὑδατ-", "water"]
-        ]
-      }
-    },
-    {
-      "id": 3,
-      "heading": "3. Present Active Indicative — Full Paradigm",
-      "content": "Now that we have seen 1st and 3rd person singular and 3rd person plural, here is the complete present active indicative for a regular -ω verb.",
-      "table": {
-        "caption": "Present Active Indicative — λύω (\"I loose/destroy\")",
-        "headers": ["Person", "Singular", "Plural"],
-        "rows": [
-          ["1st", "λύ-ω (I loose)", "λύ-ομεν (we loose)"],
-          ["2nd", "λύ-εις (you loose)", "λύ-ετε (you all loose)"],
-          ["3rd", "λύ-ει (he/she/it looses)", "λύ-ουσι(ν) (they loose)"]
-        ]
-      }
-    },
-    {
-      "id": 4,
-      "heading": "4. The Verb εἰμί — Full Present Paradigm",
-      "content": "The verb εἰμί (\"to be\") is highly irregular. Its forms must be memorized. Note that most forms are enclitic (they lean on the preceding word for accent) except εἶ (2nd singular) and εἰσί (3rd plural).",
-      "table": {
-        "caption": "Present Indicative of εἰμί",
-        "headers": ["Person", "Singular", "Plural"],
-        "rows": [
-          ["1st", "εἰμί (I am)", "ἐσμέν (we are)"],
-          ["2nd", "εἶ (you are)", "ἐστέ (you all are)"],
-          ["3rd", "ἐστί(ν) (he/she/it is)", "εἰσί(ν) (they are)"]
-        ]
-      }
-    },
-    {
-      "id": 5,
-      "heading": "5. New Prepositions: πρός, μετά, περί, κατά",
-      "content": "This chapter introduces four more prepositions. Like all Greek prepositions, they govern specific cases which determine their meaning.",
-      "table": {
-        "caption": "New Prepositions",
-        "headers": ["Preposition", "Case", "Meaning", "Example"],
-        "rows": [
-          ["πρός", "accusative", "to, toward, with", "ἔρχεται πρὸς αὐτόν — he comes to him"],
-          ["μετά", "genitive", "with (accompaniment)", "μένει μετὰ τῶν τέκνων — he remains with the children"],
-          ["περί", "genitive", "about, concerning", "λέγει περὶ τοῦ θεοῦ — he speaks about God"],
-          ["κατά", "accusative", "according to, down", "κατὰ τὸν νόμον — according to the law"]
-        ]
-      }
-    },
-    {
-      "id": 6,
-      "heading": "6. Negation — οὐ and μή",
-      "content": "Greek has two negative particles. οὐ (οὐκ before vowels, οὐχ before rough breathing) is used with the indicative mood. μή is used with all other moods (infinitive, imperative, subjunctive, etc.).",
-      "examples": [
-        {"greek": "οὐκ ἔχει εἰρήνην", "note": "he does not have peace (negating indicative)"},
-        {"greek": "μὴ φοβοῦ", "note": "do not fear! (negating imperative)"},
-        {"greek": "θέλει μὴ φεύγειν", "note": "he does not want to flee (negating infinitive)"}
-      ]
-    },
-    {
-      "id": 7,
-      "heading": "7. Dative of Manner",
-      "content": "The dative case can express the manner in which an action is done, without a preposition. This is common with abstract nouns.",
-      "examples": [
-        {"greek": "χαρᾷ πλήρης ἐστίν", "note": "he is full of/with joy (dative of manner)"},
-        {"greek": "εἰρήνῃ μένει", "note": "he remains in peace"},
-        {"greek": "πίστει περιπατεῖ", "note": "he walks by faith"}
-      ]
-    },
-    {
-      "id": 8,
-      "heading": "8. The Conjunction ὅτε (\"when\") and Temporal Clauses",
-      "content": "ὅτε introduces a temporal clause (\"when…\"). The verb in the ὅτε clause takes the indicative mood when referring to a definite past or present time.",
-      "examples": [
-        {"greek": "ὅτε τελεῖ τὸ δεῖπνον, ἅπτει τὸν λύχνον", "note": "when he finishes the meal, he lights the lamp"},
-        {"greek": "ὅτε ἔρχεται ὁ λύκος, φεύγει τὰ πρόβατα", "note": "when the wolf comes, the sheep flee"}
+      "label": "Μέρος Βʹ — Ὁ Ὕπνος",
+      "sections": [
+        {
+          "id": 7,
+          "heading": "1. The plural across genders — full picture",
+          "content": "This part shows plurals in many cases and genders for the first time. The article forms: οἱ / αἱ / τά (nom. pl.), τούς / τάς / τά (acc. pl.), τῶν (gen. pl. — same for all genders), τοῖς / ταῖς / τοῖς (dat. pl.).",
+          "tables": [
+            {
+              "caption": "The article — full chart, all numbers and genders",
+              "headers": ["Case", "Masculine", "Feminine", "Neuter"],
+              "rows": [
+                ["Nom. sg.", "ὁ", "ἡ", "τό"],
+                ["Acc. sg.", "τόν", "τήν", "τό"],
+                ["Gen. sg.", "τοῦ", "τῆς", "τοῦ"],
+                ["Dat. sg.", "τῷ", "τῇ", "τῷ"],
+                ["Nom. pl.", "οἱ", "αἱ", "τά"],
+                ["Acc. pl.", "τούς", "τάς", "τά"],
+                ["Gen. pl.", "τῶν", "τῶν", "τῶν"],
+                ["Dat. pl.", "τοῖς", "ταῖς", "τοῖς"]
+              ]
+            },
+            {
+              "caption": "Full noun endings — a complete inductive picture",
+              "headers": ["Case", "Masc. (-ος)", "Neut. (-ον)", "Fem. (-η/-α)"],
+              "rows": [
+                ["Nom. sg.", "λύκ-ος", "ζῷ-ον", "ἡμέρ-α / φων-ή"],
+                ["Acc. sg.", "λύκ-ον", "ζῷ-ον", "ἡμέρ-αν / φων-ήν"],
+                ["Gen. sg.", "λύκ-ου", "ζῷ-ου", "ἡμέρ-ας / φων-ῆς"],
+                ["Dat. sg.", "λύκ-ῳ", "ζῷ-ῳ", "ἡμέρ-ᾳ / φων-ῇ"],
+                ["Nom. pl.", "λύκ-οι", "ζῷ-α", "ἡμέρ-αι"],
+                ["Acc. pl.", "λύκ-ους", "ζῷ-α", "ἡμέρ-ας"],
+                ["Gen. pl.", "λύκ-ων", "ζῷ-ων", "ἡμερ-ῶν"],
+                ["Dat. pl.", "λύκ-οις", "ζῷ-οις", "ἡμέρ-αις"]
+              ]
+            }
+          ],
+          "examples": [
+            {"greek": "οὐ μία ἀλλὰ πολλαὶ θύραι εἰσιν", "note": "fem. nom. pl.: there are not one but many doors"},
+            {"greek": "θέλει σῴζειν τὰ ζῷα ἀπὸ τῶν λύκων", "note": "masc. gen. pl.: he wants to save the animals from the wolves"}
+          ]
+        },
+        {
+          "id": 8,
+          "heading": "2. Numerals: εἷς, μία, ἕν (\"one\") and ordinals",
+          "content": "\"One\" has three genders. Ordinals (πρῶτος, δεύτερος, τρίτος) are regular -ος, -η, -ον adjectives.",
+          "table": {
+            "caption": "εἷς, μία, ἕν",
+            "headers": ["Case", "Masc.", "Fem.", "Neut."],
+            "rows": [
+              ["Nom.", "εἷς", "μία", "ἕν"],
+              ["Acc.", "ἕνα", "μίαν", "ἕν"],
+              ["Gen.", "ἑνός", "μιᾶς", "ἑνός"],
+              ["Dat.", "ἑνί", "μιᾷ", "ἑνί"]
+            ]
+          },
+          "examples": [
+            {"greek": "οὐχ εἷς λίθος ἀλλὰ λίθοι πολλοί", "note": "not one stone but many stones"},
+            {"greek": "ἀνοίγει τὴν πρώτην θύραν … τὴν δευτέραν … τὴν τρίτην", "note": "he opens the first door … the second … the third"}
+          ]
+        },
+        {
+          "id": 9,
+          "heading": "3. The irregular adjective πολύς (\"much, many\")",
+          "content": "Like μέγας, πολύς uses two stems: πολυ- in the masc./neut. nom. sg., and πολλ- elsewhere.",
+          "examples": [
+            {"greek": "λίθοι πολλοί εἰσιν ἐν τῷ ἀγρῷ", "note": "masc. nom. pl.: there are many stones in the field"},
+            {"greek": "πολλαὶ θύραι εἰσιν", "note": "fem. nom. pl.: there are many doors"}
+          ]
+        },
+        {
+          "id": 10,
+          "heading": "4. Present active indicative — 1st plural",
+          "content": "The 1st-plural ending is -ομεν. The pronoun ἡμεῖς (\"we\") is used for emphasis.",
+          "examples": [
+            {"greek": "ἡμεῖς θέλομεν ἐσθίειν", "note": "we want to eat"},
+            {"greek": "οὐκ ἔχομεν καρποὺς οὐδὲ ἄρτους", "note": "we have neither fruits nor bread"}
+          ]
+        },
+        {
+          "id": 11,
+          "heading": "5. Present active indicative — 2nd singular",
+          "content": "The 2nd-singular ending is -εις. For \"to be,\" the form is εἶ. The pronoun σύ (\"you\") is emphatic.",
+          "table": {
+            "caption": "Present active indicative — full paradigm",
+            "headers": ["Person", "Regular (-ω)", "Contract (-έω)"],
+            "rows": [
+              ["1 sg.", "λύ-ω", "φιλ-ῶ"],
+              ["2 sg.", "λύ-εις", "φιλ-εῖς"],
+              ["3 sg.", "λύ-ει", "φιλ-εῖ"],
+              ["1 pl.", "λύ-ομεν", "φιλ-οῦμεν"],
+              ["2 pl.", "λύ-ετε", "φιλ-εῖτε"],
+              ["3 pl.", "λύ-ουσι(ν)", "φιλ-οῦσι(ν)"]
+            ]
+          },
+          "examples": [
+            {"greek": "δίκαιος εἶ καὶ πιστός", "note": "you are righteous and faithful"},
+            {"greek": "σὺ σῴζεις αὐτὸ ἀπὸ τοῦ λύκου", "note": "you save it from the wolf"}
+          ]
+        },
+        {
+          "id": 12,
+          "heading": "6. Personal pronouns ἐγώ and σύ",
+          "content": "The 1st- and 2nd-person pronouns have full case forms. They are usually omitted (the verb already shows the person), and when used they are emphatic.",
+          "table": {
+            "caption": "ἐγώ / ἡμεῖς, σύ",
+            "headers": ["Case", "1 sg.", "1 pl.", "2 sg."],
+            "rows": [
+              ["Nom.", "ἐγώ", "ἡμεῖς", "σύ"],
+              ["Acc.", "ἐμέ / με", "ἡμᾶς", "σέ / σε"],
+              ["Gen.", "ἐμοῦ / μου", "ἡμῶν", "σοῦ / σου"],
+              ["Dat.", "ἐμοί / μοι", "ἡμῖν", "σοί / σοι"]
+            ]
+          },
+          "examples": [
+            {"greek": "φιλεῖς με", "note": "you love me"},
+            {"greek": "εὐχαριστῶ σοι", "note": "I give thanks to you"}
+          ]
+        },
+        {
+          "id": 13,
+          "heading": "7. The impersonal οὐ δυνατόν ἐστιν + dat. + inf.",
+          "content": "An impersonal expression: \"it is (not) possible (for X) to do (Y).\" The dative names the person; the infinitive names the action.",
+          "examples": [
+            {"greek": "οὐ δυνατόν ἐστιν αὐτῷ αἴρειν πάντας τοὺς λίθους", "note": "it is not possible for him to lift all the stones"},
+            {"greek": "οὐ δυνατόν ἐστιν εὑρίσκειν τὸν λύχνον", "note": "it is not possible to find the lamp"}
+          ]
+        },
+        {
+          "id": 14,
+          "heading": "8. Interrogatives: τί (\"what?\") and ποῦ (\"where?\")",
+          "content": "τί is the interrogative pronoun \"what?\"; ποῦ is the interrogative adverb \"where?\" Both can also introduce indirect questions.",
+          "examples": [
+            {"greek": "τί λέγεις;", "note": "direct: what are you saying?"},
+            {"greek": "οὐ γινώσκει τί ποιεῖ· ποῦ ἐστιν τὸ ἀρνίον;", "note": "he doesn't know what he is doing; where is the lamb?"}
+          ]
+        },
+        {
+          "id": 15,
+          "heading": "9. The adjective πᾶς, πᾶσα, πᾶν (\"all, every\")",
+          "content": "πᾶς in the singular often means \"every\" (each one); in the plural, \"all.\" Like μέγας, it has irregular forms.",
+          "examples": [
+            {"greek": "πάντας τοὺς λίθους", "note": "masc. acc. pl.: all the stones"},
+            {"greek": "πᾶς ἄνθρωπος", "note": "masc. nom. sg.: every person"}
+          ]
+        }
       ]
     }
   ]

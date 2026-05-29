@@ -1,102 +1,176 @@
 {
   "title": "Grammar — Κεφάλαιον Αʹ (The Farmer)",
-  "sections": [
+  "parts": [
     {
-      "id": 1,
-      "heading": "1. The verb ἐστιν (\"is\") and predicate nominative",
-      "content": "The most common pattern in this chapter is X ἐστιν Y — \"X is Y.\" The verb ἐστιν (3rd singular present of εἰμί) links the subject to a noun or adjective in the same case (the nominative).",
-      "examples": [
-        {"greek": "ὁ ἄνθρωπός ἐστιν γεωργός", "note": "the man is a farmer"},
-        {"greek": "μέγας ἐστὶν ὁ οὐρανός", "note": "the sky is great"}
+      "label": "Μέρος Αʹ — Τί ἐστιν;",
+      "sections": [
+        {
+          "id": 1,
+          "heading": "1. The verb ἐστιν (\"is\") and predicate nominative",
+          "content": "The most common pattern in this part is X ἐστιν Y — \"X is Y.\" The verb ἐστιν (3rd singular present of εἰμί) links the subject to a noun or adjective in the same case (the nominative).",
+          "examples": [
+            {"greek": "ὁ ἄνθρωπός ἐστιν γεωργός", "note": "the man is a farmer"},
+            {"greek": "μέγας ἐστὶν ὁ οὐρανός", "note": "the sky is great"}
+          ]
+        },
+        {
+          "id": 2,
+          "heading": "2. The article ὁ (\"the\") — masculine",
+          "content": "Every noun in this part is masculine, taking ὁ in the nominative singular and τόν in the accusative singular. The noun itself ends in -ος (nominative) and -ον (accusative).",
+          "table": {
+            "caption": "Masculine 2nd declension — introduced so far",
+            "headers": ["Case", "Form", "Function"],
+            "rows": [
+              ["Nominative", "ὁ γεωργ-ός", "subject — \"the farmer\""],
+              ["Accusative", "τὸν γεωργ-όν", "direct object — \"the farmer\""]
+            ]
+          },
+          "examples": [
+            {"greek": "ὁ γεωργός, ὁ οἶκος, ὁ ἀγρός", "note": "nominative subjects"},
+            {"greek": "βλέπει τὸν οἶκον· λαμβάνει τὸν ἄρτον", "note": "accusative direct objects"}
+          ]
+        },
+        {
+          "id": 3,
+          "heading": "3. Adjective agreement",
+          "content": "Adjectives match their noun in gender, number, and case. As predicates (linked by \"is\") they have no article; as attributives (modifying directly) they sit inside the article-noun frame.",
+          "examples": [
+            {"greek": "μικρός ἐστιν ὁ οἶκος", "note": "predicate: the house is small"},
+            {"greek": "λαμβάνει τὸν καλὸν ἄρτον", "note": "attributive: he takes the good bread"}
+          ]
+        },
+        {
+          "id": 4,
+          "heading": "4. Present active indicative — 3rd singular",
+          "content": "Most verbs end in -ει for \"he/she/it [does it].\" Contracted verbs in -έω contract ε + ει > ει (e.g. φιλέ-ει > φιλεῖ).",
+          "examples": [
+            {"greek": "ὁ ἥλιος λάμπει", "note": "the sun shines"},
+            {"greek": "ὁ γεωργὸς φιλεῖ τὸν οἶκον", "note": "the farmer loves the house"}
+          ]
+        },
+        {
+          "id": 5,
+          "heading": "5. Present active indicative — 1st singular",
+          "content": "In the farmer's monologue verbs shift to the 1st person, ending in -ω. For \"to be\" we use εἰμί. The pronoun ἐγώ (\"I\") is added only for emphasis.",
+          "tables": [
+            {
+              "caption": "Present active — introduced so far",
+              "headers": ["Person", "Regular (-ω)", "Contract (-έω)"],
+              "rows": [
+                ["1 sg.", "βλέπ-ω (\"I see\")", "φιλέ-ω > φιλ-ῶ (\"I love\")"],
+                ["3 sg.", "βλέπ-ει (\"he sees\")", "φιλέ-ει > φιλ-εῖ (\"he loves\")"]
+              ]
+            },
+            {
+              "caption": "εἰμί — introduced so far",
+              "headers": ["Person", "Form", "Meaning"],
+              "rows": [
+                ["1 sg.", "εἰμί", "I am"],
+                ["3 sg.", "ἐστί(ν)", "he/she/it is"]
+              ]
+            }
+          ],
+          "examples": [
+            {"greek": "ἔχω τὸν οἶκον", "note": "I have the house"},
+            {"greek": "ἐγὼ δὲ ἔχω τὸν ἀγρόν", "note": "but I have the field (emphatic)"}
+          ]
+        },
+        {
+          "id": 6,
+          "heading": "6. Particles & connectives: μέν … δέ, οὖν, γάρ, καί",
+          "content": "These shape the rhythm of Greek prose: μέν … δέ sets up contrast (\"on the one hand … on the other\"), οὖν = \"therefore,\" γάρ = \"for, because\" (always 2nd in its clause), καί = \"and / also.\"",
+          "examples": [
+            {"greek": "γεωργὸς μὲν εἰμι. … ἐγὼ δὲ ἔχω τὸν οἶκον", "note": "μέν … δέ contrast"},
+            {"greek": "ἰσχυρὸς γάρ ἐστιν ἄνθρωπος", "note": "for he is a strong man"}
+          ]
+        },
+        {
+          "id": 7,
+          "heading": "7. The irregular adjective μέγας (\"great\")",
+          "content": "μέγας uses two stems: μεγα- in the masculine nominative singular, and μεγαλ- elsewhere (with -ν added for the accusative).",
+          "examples": [
+            {"greek": "μέγας ἐστὶν ὁ οὐρανός", "note": "nominative"},
+            {"greek": "αἴρει τὸν μέγαν λίθον", "note": "accusative"}
+          ]
+        }
       ]
     },
     {
-      "id": 2,
-      "heading": "2. The article ὁ (\"the\") — masculine",
-      "content": "Every noun in Part A is masculine, taking ὁ in the nominative singular and τόν in the accusative singular. The noun itself ends in -ος (nominative) and -ον (accusative).",
-      "table": {
-        "caption": "Masculine 2nd Declension — Singular (so far)",
-        "headers": ["Case", "Form", "Function"],
-        "rows": [
-          ["Nominative", "ὁ γεωργ-ός", "subject — \"the farmer\""],
-          ["Accusative", "τὸν γεωργ-όν", "direct object — \"the farmer\""]
-        ]
-      },
-      "examples": [
-        {"greek": "ὁ γεωργός, ὁ οἶκος, ὁ ἀγρός", "note": "nominative subjects"},
-        {"greek": "βλέπει τὸν οἶκον", "note": "accusative direct object"}
-      ]
-    },
-    {
-      "id": 3,
-      "heading": "3. Adjective agreement",
-      "content": "Adjectives match their noun in gender, number, and case. As predicates (linked by \"is\") they have no article; as attributives (modifying directly) they sit inside the article-noun frame.",
-      "examples": [
-        {"greek": "μικρός ἐστιν ὁ οἶκος", "note": "predicate: \"the house is small\""},
-        {"greek": "λαμβάνει τὸν καλὸν ἄρτον", "note": "attributive: \"he takes the good bread\""}
-      ]
-    },
-    {
-      "id": 4,
-      "heading": "4. Present active indicative — 3rd singular",
-      "content": "Most verbs end in -ει for \"he/she/it [does it].\" Contracted verbs in -έω contract ε + ει → ει (e.g. φιλέ-ει → φιλεῖ).",
-      "table": {
-        "caption": "Present Active — Verbs Introduced",
-        "headers": ["Regular (-ω)", "Contract (-έω)"],
-        "rows": [
-          ["βλέπ-ει (he sees)", "φιλ-εῖ (he loves)"],
-          ["λάμπ-ει (it shines)", "περιπατ-εῖ (he walks)"]
-        ]
-      }
-    },
-    {
-      "id": 5,
-      "heading": "5. Present active indicative — 1st singular",
-      "content": "In the farmer's monologue, verbs shift to 1st person, ending in -ω. For \"to be\" we use εἰμί. The pronoun ἐγώ (\"I\") is added only for emphasis.",
-      "table": {
-        "caption": "εἰμί — Forms Introduced",
-        "headers": ["Person", "Form", "Meaning"],
-        "rows": [
-          ["1st sg.", "εἰμί", "I am"],
-          ["3rd sg.", "ἐστί(ν)", "he/she/it is"]
-        ]
-      }
-    },
-    {
-      "id": 6,
-      "heading": "6. Particles & connectives: μέν…δέ, οὖν, γάρ, καί",
-      "content": "These shape the rhythm of Greek prose: μέν…δέ sets up contrast (\"on the one hand…on the other\"), οὖν = \"therefore,\" γάρ = \"for, because\" (always 2nd in its clause), καί = \"and / also.\"",
-      "examples": [
-        {"greek": "γεωργὸς μέν εἰμι. ἐγὼ δὲ ἔχω τὸν οἶκον", "note": "μέν…δέ contrast"},
-        {"greek": "ἰσχυρὸς γάρ ἐστιν ἄνθρωπος", "note": "for he is a strong man"}
-      ]
-    },
-    {
-      "id": 7,
-      "heading": "7. The dative case — \"in/at\" (location)",
-      "content": "New in Part B is the dative singular of masculine 2nd-declension nouns: ending -ῳ with article τῷ. With the preposition ἐν (\"in\") it expresses location. Without a preposition it marks the indirect object.",
-      "table": {
-        "caption": "Masculine 2nd Declension — Singular (now complete)",
-        "headers": ["Case", "Form", "Function"],
-        "rows": [
-          ["Nominative", "ὁ γεωργ-ός", "subject"],
-          ["Accusative", "τὸν γεωργ-όν", "direct object; with πρός = motion toward"],
-          ["Genitive", "τοῦ γεωργ-οῦ", "of…; with ἐκ = motion out of"],
-          ["Dative", "τῷ γεωργ-ῷ", "to/for…; with ἐν = location in"]
-        ]
-      },
-      "examples": [
-        {"greek": "καθίζει ἐν τῷ οἴκῳ", "note": "location: \"he sits in the house\""},
-        {"greek": "εὐχαριστῶ τῷ θεῷ", "note": "indirect object: \"I give thanks to God\""}
-      ]
-    },
-    {
-      "id": 8,
-      "heading": "8. The irregular adjective μέγας (\"great\")",
-      "content": "μέγας uses two stems: μεγα- in the masculine nominative singular, and μεγαλ- elsewhere (with -ν added for the accusative).",
-      "examples": [
-        {"greek": "μέγας ἐστὶν ὁ οὐρανός", "note": "nominative form"},
-        {"greek": "αἴρει τὸν μέγαν λίθον", "note": "accusative form"}
+      "label": "Μέρος Βʹ — Τί Ποιεῖ;",
+      "sections": [
+        {
+          "id": 8,
+          "heading": "1. The dative case — \"in / at\" (location)",
+          "content": "New here is the dative singular of masculine 2nd-declension nouns: ending -ῳ with article τῷ. With the preposition ἐν (\"in\") it expresses location. Without a preposition the dative also marks the indirect object (\"to / for\").",
+          "table": {
+            "caption": "Masculine 2nd declension, singular — now complete",
+            "headers": ["Case", "Form", "Function"],
+            "rows": [
+              ["Nominative", "ὁ γεωργ-ός", "subject"],
+              ["Accusative", "τὸν γεωργ-όν", "direct object; with πρός = motion toward"],
+              ["Genitive", "τοῦ γεωργ-οῦ", "of …; with ἐκ = motion out of"],
+              ["Dative", "τῷ γεωργ-ῷ", "to/for …; with ἐν = location in"]
+            ]
+          },
+          "examples": [
+            {"greek": "καθίζει ἐν τῷ οἴκῳ", "note": "location: he sits in the house"},
+            {"greek": "εὐχαριστῶ τῷ θεῷ", "note": "indirect object: I give thanks to God"}
+          ]
+        },
+        {
+          "id": 9,
+          "heading": "2. The genitive case — \"out of / from\" (source)",
+          "content": "The genitive singular ends in -ου with article τοῦ. With ἐκ (\"out of\") it expresses motion away from a source.",
+          "examples": [
+            {"greek": "ἐκβαίνει ἐκ τοῦ οἴκου", "note": "he goes out of the house"},
+            {"greek": "φέρει τὸν λίθον ἐκ τοῦ ἀγροῦ", "note": "he carries the stone out of the field"}
+          ]
+        },
+        {
+          "id": 10,
+          "heading": "3. The preposition πρός + accusative — motion toward",
+          "content": "πρός with the accusative expresses motion toward a place or person.",
+          "examples": [
+            {"greek": "περιπατεῖ πρὸς τὸν ἀγρόν", "note": "he walks toward the field"},
+            {"greek": "περιπατεῖ πρὸς τὸν οἶκον", "note": "he walks toward the house"}
+          ]
+        },
+        {
+          "id": 11,
+          "heading": "4. Subordinate clauses: ὅτε (\"when\") and ὅτι (\"because, that\")",
+          "content": "ὅτε introduces a temporal clause; ὅτι introduces a causal or content clause.",
+          "examples": [
+            {"greek": "ὅτε ὁ γεωργὸς σκάπτει ἐν τῷ ἀγρῷ", "note": "temporal: when the farmer is digging in the field"},
+            {"greek": "ὁ βίος καλός ἐστιν ὅτι ὁ θεὸς ἀγαθός", "note": "causal: life is good because God is good"}
+          ]
+        },
+        {
+          "id": 12,
+          "heading": "5. New verbs of motion and rest",
+          "content": "All follow the regular -ει (3 sg.) ending. περιπατέω, ποιέω, εὐχαριστέω are -έω contracts.",
+          "examples": [
+            {"greek": "καθίζει καὶ μένει ἐν τῷ οἴκῳ", "note": "he sits and stays in the house"},
+            {"greek": "ὁ θεὸς ποιεῖ τὸν χόρτον", "note": "God makes the grass"}
+          ]
+        },
+        {
+          "id": 13,
+          "heading": "6. Adverbs",
+          "content": "Adverbs typically end in -ως when formed from adjectives. Time adverbs and connectors stand alone.",
+          "examples": [
+            {"greek": "ἀληθῶς ἀγαθός ἐστιν ὁ θεός", "note": "truly God is good"},
+            {"greek": "σήμερον ἐν τῷ ἀγρῷ σκάπτει", "note": "today he digs in the field"}
+          ]
+        },
+        {
+          "id": 14,
+          "heading": "7. The negative conjunction οὐδέ (\"nor, and not\")",
+          "content": "οὐδέ continues a negative clause: \"neither / nor / and not.\" It joins another negated element to a previous one.",
+          "examples": [
+            {"greek": "οὐ σκάπτει τὸν ἀγρόν, οὐδὲ φέρει τὸν λίθον", "note": "he is not digging the field, nor carrying the stone"},
+            {"greek": "οὐ γὰρ σκάπτει οὐδὲ φέρει λίθους", "note": "for he is neither digging nor carrying stones"}
+          ]
+        }
       ]
     }
   ]

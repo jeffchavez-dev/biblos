@@ -1,128 +1,216 @@
 {
   "title": "Grammar — Κεφάλαιον Βʹ (The Garden and the Animals)",
-  "sections": [
+  "parts": [
     {
-      "id": 1,
-      "heading": "1. Neuter 2nd-Declension Nouns",
-      "content": "Neuter nouns of the 2nd declension differ from masculine ones chiefly in the nominative and accusative, which are identical (ending -ον singular, -α plural). The article is τό (singular) and τά (plural).",
-      "table": {
-        "caption": "Neuter 2nd Declension — τὸ δένδρον (\"the tree\")",
-        "headers": ["Case", "Singular", "Plural"],
-        "rows": [
-          ["Nominative", "τὸ δένδρ-ον", "τὰ δένδρ-α"],
-          ["Accusative", "τὸ δένδρ-ον", "τὰ δένδρ-α"],
-          ["Genitive", "τοῦ δένδρ-ου", "τῶν δένδρ-ων"],
-          ["Dative", "τῷ δένδρ-ῳ", "τοῖς δένδρ-οις"]
-        ]
-      },
-      "examples": [
-        {"greek": "βλέπει τὸ δένδρον", "note": "he sees the tree (nom. = acc.)"},
-        {"greek": "ἐν τῷ κήπῳ ἐστὶν τὰ δένδρα", "note": "the trees are in the garden"}
+      "label": "Μέρος Αʹ — Ὁ Κῆπος",
+      "sections": [
+        {
+          "id": 1,
+          "heading": "1. The neuter 2nd declension",
+          "content": "Neuter nouns of the 2nd declension are easy: nominative and accusative are identical (both end in -ον with article τό). Genitive and dative use the same endings as the masculine (-ου / -ῳ).",
+          "table": {
+            "caption": "Neuter 2nd declension, singular — δένδρον (\"tree\")",
+            "headers": ["Case", "Form", "Function"],
+            "rows": [
+              ["Nominative", "τὸ δένδρ-ον", "subject"],
+              ["Accusative", "τὸ δένδρ-ον", "direct object (same as nom.!)"],
+              ["Genitive", "τοῦ δένδρ-ου", "of the tree"],
+              ["Dative", "τῷ δένδρ-ῳ", "in/on the tree"]
+            ]
+          },
+          "examples": [
+            {"greek": "τὸ δένδρον ἔχει τοὺς κλάδους", "note": "nominative: the tree has the branches"},
+            {"greek": "λαμβάνει τὸ δρέπανον", "note": "accusative: he takes the sickle"}
+          ]
+        },
+        {
+          "id": 2,
+          "heading": "2. Neuter plural subject + singular verb",
+          "content": "A characteristic Greek rule: a neuter plural subject often takes a singular verb. The text shows this alongside the regular plural agreement of masculine subjects.",
+          "examples": [
+            {"greek": "τὰ ζῷά ἐστιν ἐν τῷ ἀγρῷ", "note": "neuter pl. + sg. verb: the animals are in the field"},
+            {"greek": "οἱ κλάδοι φέρουσιν τοὺς καρπούς", "note": "masc. pl. + pl. verb: the branches bear the fruits"}
+          ]
+        },
+        {
+          "id": 3,
+          "heading": "3. The plural of the masculine 2nd declension",
+          "content": "Nominative plural ends in -οι (article οἱ); accusative plural ends in -ους (article τούς).",
+          "table": {
+            "caption": "Masculine 2nd declension — nom. & acc., now with plural",
+            "headers": ["Case", "Singular", "Plural", "Function"],
+            "rows": [
+              ["Nom.", "ὁ καρπ-ός", "οἱ καρπ-οί", "subject"],
+              ["Acc.", "τὸν καρπ-όν", "τοὺς καρπ-ούς", "direct object"]
+            ]
+          },
+          "examples": [
+            {"greek": "καλοί εἰσιν οἱ καρποί", "note": "the fruits are good"},
+            {"greek": "θερίζει τοὺς καρπούς", "note": "he harvests the fruits"}
+          ]
+        },
+        {
+          "id": 4,
+          "heading": "4. Present active indicative — 3rd plural",
+          "content": "The 3rd plural ending is -ουσι(ν). The verb \"to be\" has εἰσί(ν) (\"they are\").",
+          "tables": [
+            {
+              "caption": "Present active — with plural added",
+              "headers": ["Person", "Regular (-ω)", "Contract (-έω)"],
+              "rows": [
+                ["1 sg.", "βλέπ-ω", "φιλ-ῶ"],
+                ["3 sg.", "βλέπ-ει", "φιλ-εῖ"],
+                ["3 pl.", "βλέπ-ουσι(ν)", "φιλ-οῦσι(ν)"]
+              ]
+            },
+            {
+              "caption": "εἰμί — with plural added",
+              "headers": ["Person", "Form", "Meaning"],
+              "rows": [
+                ["1 sg.", "εἰμί", "I am"],
+                ["3 sg.", "ἐστί(ν)", "he/she/it is"],
+                ["3 pl.", "εἰσί(ν)", "they are"]
+              ]
+            }
+          ],
+          "examples": [
+            {"greek": "οἱ κλάδοι φέρουσιν τοὺς καρπούς", "note": "the branches bear the fruits"},
+            {"greek": "καρποὶ καὶ κλάδοι εἰσιν ἐπὶ τῷ δένδρῳ", "note": "fruits and branches are on the tree"}
+          ]
+        },
+        {
+          "id": 5,
+          "heading": "5. The preposition ἐπί + dative — \"on, upon\"",
+          "content": "ἐπί + dative expresses resting upon something.",
+          "examples": [
+            {"greek": "καρποί εἰσιν ἐπὶ τῷ δένδρῳ", "note": "fruits are on the tree"},
+            {"greek": "ἐπὶ τῷ δένδρῳ καρποὶ καὶ κλάδοι εἰσιν", "note": "on the tree are fruits and branches"}
+          ]
+        },
+        {
+          "id": 6,
+          "heading": "6. The genitive of possession",
+          "content": "Without a preposition, the genitive expresses possession or close belonging — \"of the X.\"",
+          "examples": [
+            {"greek": "οἱ καρποὶ τοῦ δένδρου", "note": "the fruits of the tree"},
+            {"greek": "ὁ ὄνος ἐστιν ἐν τῷ ἀγρῷ τοῦ γεωργοῦ", "note": "the donkey is in the farmer's field"}
+          ]
+        },
+        {
+          "id": 7,
+          "heading": "7. The preposition πέραν + genitive — \"across, beyond\"",
+          "content": "πέραν takes the genitive and means \"across / on the other side of.\"",
+          "examples": [
+            {"greek": "πέραν τοῦ ποταμοῦ θηρίον ἐστίν", "note": "across the river there is a beast"},
+            {"greek": "βλέπει τὸν λύκον πέραν τοῦ ποταμοῦ", "note": "he sees the wolf across the river"}
+          ]
+        },
+        {
+          "id": 8,
+          "heading": "8. The 3rd-declension noun βοῦς",
+          "content": "βοῦς (\"ox\") is a 3rd-declension noun (a new pattern, treated fully later). For now: nom. ὁ βοῦς, acc. τὸν βοῦν.",
+          "examples": [
+            {"greek": "μέγας ἐστὶν ὁ βοῦς", "note": "nominative"},
+            {"greek": "ὁ λύκος οὐ βλέπει τὸν βοῦν", "note": "accusative"}
+          ]
+        }
       ]
     },
     {
-      "id": 2,
-      "heading": "2. The Neuter Plural Rule",
-      "content": "A distinctive rule of Greek: neuter plural subjects regularly take a singular verb. This applies to all neuter nouns regardless of declension.",
-      "examples": [
-        {"greek": "τὰ ζῷα τρέχει", "note": "the animals run (lit. 'the animals runs')"},
-        {"greek": "τὰ πρόβατα ἐστιν ἐν τῷ κήπῳ", "note": "the sheep are in the garden"}
-      ]
-    },
-    {
-      "id": 3,
-      "heading": "3. Masculine Plural — Nominative and Accusative",
-      "content": "Masculine 2nd-declension nouns in the plural use -οι (nominative) and -ους (accusative). The article is οἱ (nominative) and τούς (accusative).",
-      "table": {
-        "caption": "Masculine 2nd Declension — Plural Forms",
-        "headers": ["Case", "Form", "Function"],
-        "rows": [
-          ["Nominative", "οἱ γεωργ-οί", "plural subject — \"the farmers\""],
-          ["Accusative", "τοὺς γεωργ-ούς", "plural direct object — \"the farmers\""]
-        ]
-      },
-      "examples": [
-        {"greek": "οἱ γεωργοὶ σκάπτουσι τοὺς ἀγρούς", "note": "the farmers dig the fields"}
-      ]
-    },
-    {
-      "id": 4,
-      "heading": "4. Present Active Indicative — 3rd Person Plural",
-      "content": "The 3rd plural ending is -ουσι(ν): they do. Contract verbs in -έω contract the stem vowel: ε + ουσι → -οῦσι.",
-      "table": {
-        "caption": "Present Active — 3rd Plural",
-        "headers": ["Regular (-ω)", "Meaning", "Contract (-έω)", "Meaning"],
-        "rows": [
-          ["τρέχ-ουσι(ν)", "they run", "ἀκολουθ-οῦσι(ν)", "they follow"],
-          ["φεύγ-ουσι(ν)", "they flee", "καλ-οῦσι(ν)", "they call"]
-        ]
-      }
-    },
-    {
-      "id": 5,
-      "heading": "5. Complementary Infinitive — θέλω and μέλλω",
-      "content": "Two verbs introduced in this chapter take a complementary infinitive (an infinitive that completes their meaning). The infinitive of -ω verbs ends in -ειν.",
-      "examples": [
-        {"greek": "θέλει ἁρπάζειν τὸ ἀρνίον", "note": "he wants to seize the lamb"},
-        {"greek": "μέλλει φεύγειν ὁ λύκος", "note": "the wolf is about to flee"},
-        {"greek": "θέλομεν φυτεύειν δένδρα", "note": "we want to plant trees"}
-      ]
-    },
-    {
-      "id": 6,
-      "heading": "6. The Pronoun αὐτός",
-      "content": "αὐτός is the 3rd-person personal pronoun. It declines like a 2nd-declension adjective and agrees with its antecedent in gender and number.",
-      "table": {
-        "caption": "αὐτός — Nominative Forms",
-        "headers": ["Gender", "Singular", "Plural"],
-        "rows": [
-          ["Masculine", "αὐτός (he)", "αὐτοί (they)"],
-          ["Feminine", "αὐτή (she)", "αὐταί (they)"],
-          ["Neuter", "αὐτό (it)", "αὐτά (they)"]
-        ]
-      },
-      "examples": [
-        {"greek": "ὁ λύκος ἔρχεται. αὐτὸς θέλει ἁρπάζειν τὸ ἀρνίον", "note": "The wolf comes. He wants to seize the lamb."}
-      ]
-    },
-    {
-      "id": 7,
-      "heading": "7. Feminine 1st Declension",
-      "content": "Feminine nouns of the 1st declension end in -η or -α. The article is ἡ (nominative singular), τήν (accusative singular), τῆς (genitive), τῇ (dative).",
-      "table": {
-        "caption": "1st Declension Feminine — ἡ φωνή (\"voice\") and ἡ ἡμέρα (\"day\")",
-        "headers": ["Case", "-η type", "-α type"],
-        "rows": [
-          ["Nominative", "ἡ φων-ή", "ἡ ἡμέρ-α"],
-          ["Accusative", "τὴν φων-ήν", "τὴν ἡμέρ-αν"],
-          ["Genitive", "τῆς φων-ῆς", "τῆς ἡμέρ-ας"],
-          ["Dative", "τῇ φων-ῇ", "τῇ ἡμέρ-ᾳ"]
-        ]
-      },
-      "examples": [
-        {"greek": "ἀκούει τὴν φωνὴν τοῦ κυρίου", "note": "he hears the voice of the master"},
-        {"greek": "ἐν ἐκείνῃ τῇ ἡμέρᾳ", "note": "on that day"}
-      ]
-    },
-    {
-      "id": 8,
-      "heading": "8. New Prepositions: εἰς, ἀπό, ἐπί, ὑπό",
-      "content": "This chapter introduces several new prepositions, each governing a specific case.",
-      "table": {
-        "caption": "New Prepositions",
-        "headers": ["Preposition", "Case", "Meaning"],
-        "rows": [
-          ["εἰς", "accusative", "into, to"],
-          ["ἀπό", "genitive", "from, away from"],
-          ["ἐπί", "dative", "on, upon"],
-          ["ὑπό", "dative", "under"]
-        ]
-      },
-      "examples": [
-        {"greek": "εἰσέρχεται εἰς τὸν κῆπον", "note": "he enters into the garden"},
-        {"greek": "φεύγει ἀπὸ τοῦ κήπου", "note": "he flees from the garden"},
-        {"greek": "καθίζει ἐπὶ τῷ λίθῳ", "note": "he sits upon the stone"},
-        {"greek": "ὑπὸ τῷ δένδρῳ σκιά ἐστιν", "note": "under the tree there is shade"}
+      "label": "Μέρος Βʹ — Ὁ Λύκος",
+      "sections": [
+        {
+          "id": 9,
+          "heading": "1. The feminine 1st declension",
+          "content": "Feminine 1st-declension nouns end in -α or -η in the nominative. Article ἡ (nom.), τήν (acc.), τῆς (gen.), τῇ (dat.). Note: ῥάβδος is feminine but follows the 2nd-declension pattern (a feminine 2nd decl. noun).",
+          "table": {
+            "caption": "Feminine 1st declension, singular",
+            "headers": ["Case", "in -η (φωνή)", "in -α (ἡμέρα)"],
+            "rows": [
+              ["Nom.", "ἡ φων-ή", "ἡ ἡμέρ-α"],
+              ["Acc.", "τὴν φων-ήν", "τὴν ἡμέρ-αν"],
+              ["Gen.", "τῆς φων-ῆς", "τῆς ἡμέρ-ας"],
+              ["Dat.", "τῇ φων-ῇ", "τῇ ἡμέρ-ᾳ"]
+            ]
+          },
+          "examples": [
+            {"greek": "καλή ἐστιν ἡ ἡμέρα", "note": "nominative: the day is beautiful"},
+            {"greek": "λαμβάνει τὴν ῥάβδον αὐτοῦ", "note": "accusative: he takes his rod"}
+          ]
+        },
+        {
+          "id": 10,
+          "heading": "2. The dative of means / instrument",
+          "content": "Without a preposition, the dative can express the means by which something is done.",
+          "examples": [
+            {"greek": "κράζει φωνῇ μεγάλῃ", "note": "he cries with a great voice"},
+            {"greek": "βάλλει τοῖς λίθοις ἐπὶ τὸν λύκον", "note": "the stones are the means: he pelts the wolf with the stones"}
+          ]
+        },
+        {
+          "id": 11,
+          "heading": "3. The pronoun αὐτός, αὐτή, αὐτό (\"he, she, it\")",
+          "content": "Forms of αὐτός function as 3rd-person pronouns. The genitive (αὐτοῦ, αὐτῆς) expresses possession (\"his, her\"). The accusative (αὐτόν, αὐτήν, αὐτό) is the direct object.",
+          "table": {
+            "caption": "αὐτός, -ή, -ό — introduced so far",
+            "headers": ["Case", "Masc.", "Fem.", "Neut."],
+            "rows": [
+              ["Nom.", "αὐτ-ός", "αὐτ-ή", "αὐτ-ό"],
+              ["Acc.", "αὐτ-όν", "αὐτ-ήν", "αὐτ-ό"],
+              ["Gen.", "αὐτ-οῦ", "αὐτ-ῆς", "αὐτ-οῦ"]
+            ]
+          },
+          "examples": [
+            {"greek": "οὐ καταλείπει τὰ ζῷα αὐτοῦ", "note": "he does not abandon his animals"},
+            {"greek": "θέλει ἁρπάζειν αὐτό", "note": "he wants to seize it"}
+          ]
+        },
+        {
+          "id": 12,
+          "heading": "4. The complementary infinitive",
+          "content": "Verbs of wanting (θέλω), being about to (μέλλω), and similar verbs take an infinitive complement. The present active infinitive ends in -ειν.",
+          "examples": [
+            {"greek": "θέλει ἁρπάζειν τὸ ἀρνίον", "note": "he wants to seize the lamb"},
+            {"greek": "μέλλει σῴζειν τὸ πρόβατον", "note": "he is about to save the sheep"}
+          ]
+        },
+        {
+          "id": 13,
+          "heading": "5. New prepositions: εἰς, ἀπό, ὑπό",
+          "content": "εἰς + accusative = \"into.\" ἀπό + genitive = \"away from.\" ὑπό + dative = \"under.\"",
+          "examples": [
+            {"greek": "τρέχει εἰς τὸν ποταμόν", "note": "he runs into the river"},
+            {"greek": "σῴζει αὐτὸ ἀπὸ τοῦ λύκου", "note": "he saves it from the wolf"},
+            {"greek": "καθίζει ὑπὸ τῷ δένδρῳ", "note": "he sits under the tree"}
+          ]
+        },
+        {
+          "id": 14,
+          "heading": "6. The imperative — 2nd singular",
+          "content": "The 2nd-singular present active imperative ends in -ε for regular verbs. It gives a direct command.",
+          "examples": [
+            {"greek": "ὕπαγε ἀπὸ τοῦ ἀγροῦ", "note": "go away from the field!"},
+            {"greek": "φέρε τοὺς καρπούς", "note": "bring the fruits!"}
+          ]
+        },
+        {
+          "id": 15,
+          "heading": "7. The interjection ἰδού (\"behold!\")",
+          "content": "ἰδού is a frozen imperative used as an exclamation. It draws attention to a sudden or surprising event.",
+          "examples": [
+            {"greek": "καὶ ἰδοὺ ὁ λύκος τρέχει εἰς τὸν ποταμόν", "note": "and behold, the wolf runs into the river!"},
+            {"greek": "ἀλλ' ἰδού, λύκοι εἰσιν πέραν τοῦ ποταμοῦ", "note": "but behold, there are wolves across the river!"}
+          ]
+        },
+        {
+          "id": 16,
+          "heading": "8. The vocative case (direct address)",
+          "content": "Used to address someone directly. Often introduced by the particle ὦ. Masculine 2nd-declension vocative singular ends in -ε.",
+          "examples": [
+            {"greek": "ὦ κύριε ὁ θεός μου", "note": "O Lord my God!"},
+            {"greek": "ὦ γεωργέ", "note": "O farmer! (the regular vocative pattern)"}
+          ]
+        }
       ]
     }
   ]

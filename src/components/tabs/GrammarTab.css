@@ -1,6 +1,30 @@
 .grammar-tab { display: flex; flex-direction: column; gap: 24px; }
 .grammar-tab > h2 { font-size: 1.3rem; color: var(--deep-blue); }
 
+.grammar-part { display: flex; flex-direction: column; gap: 20px; }
+
+.grammar-part-divider {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 4px 0;
+}
+.grammar-part-divider::before,
+.grammar-part-divider::after {
+  content: '';
+  flex: 1;
+  height: 1.5px;
+  background: var(--gold);
+  opacity: 0.5;
+}
+.grammar-part-label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--deep-blue);
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
 .grammar-section {
   background: #fff;
   border: 1.5px solid var(--border);
