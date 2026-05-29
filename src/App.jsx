@@ -38,9 +38,9 @@ export default function App() {
           <span className="app-title-greek greek">Βίβλος</span>
           <span className="app-title-sub">Koine Greek Reader</span>
         </div>
-        <div className="app-breadcrumb">
+        <div className="app-breadcrumb greek">
           {currentChapter?.title}
-          {currentPart && <span className="greek"> · {currentPart.label} — {currentPart.subtitle}</span>}
+          {currentPart && <> · {currentPart.label} — {currentPart.subtitle}</>}
         </div>
       </header>
 

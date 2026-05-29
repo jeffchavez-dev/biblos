@@ -26,7 +26,7 @@ export default function Sidebar({ units, selectedUnit, selectedChapter, activePa
                   >
                     <span className="chapter-dot" />
                     <span>
-                      <span className="chapter-title">{chapter.title}</span>
+                      <span className="chapter-title greek">{chapter.title}</span>
                       <span className="chapter-subtitle">{chapter.subtitle}</span>
                     </span>
                     {locked && <span className="chapter-lock">🔒</span>}
