@@ -107,7 +107,9 @@
   font-weight: 700;
   color: var(--deep-blue);
   letter-spacing: 0.04em;
-  white-space: nowrap;
+  white-space: normal;
+  text-align: center;
+  flex-shrink: 1;
 }
 
 .story-translation-section {
