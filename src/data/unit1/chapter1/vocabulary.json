@@ -1,62 +1,507 @@
 [
-  { "id": 1,  "part": "A", "greek": "ἄνθρωπος, -ου, ὁ", "transliteration": "anthrōpos", "definition": "human being, person", "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 2,  "part": "A", "greek": "γεωργός, -οῦ, ὁ",  "transliteration": "geōrgos",  "definition": "farmer",              "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 3,  "part": "A", "greek": "οἶκος, -ου, ὁ",    "transliteration": "oikos",    "definition": "house",               "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 4,  "part": "A", "greek": "ἀγρός, -οῦ, ὁ",    "transliteration": "agros",    "definition": "field",               "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 5,  "part": "A", "greek": "οὐρανός, -οῦ, ὁ",  "transliteration": "ouranos",  "definition": "sky, heaven",         "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 6,  "part": "A", "greek": "ἥλιος, -ου, ὁ",    "transliteration": "hēlios",   "definition": "sun",                 "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 7,  "part": "A", "greek": "ποταμός, -οῦ, ὁ",  "transliteration": "potamos",  "definition": "river",               "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 8,  "part": "A", "greek": "ἄρτος, -ου, ὁ",    "transliteration": "artos",    "definition": "bread",               "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 9,  "part": "A", "greek": "καρπός, -οῦ, ὁ",   "transliteration": "karpos",   "definition": "fruit, produce",      "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 10, "part": "A", "greek": "λίθος, -ου, ὁ",    "transliteration": "lithos",   "definition": "stone",               "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 11, "part": "A", "greek": "θεός, -οῦ, ὁ",     "transliteration": "theos",    "definition": "god, God",            "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 12, "part": "A", "greek": "ἀγαθός, -ή, -όν",  "transliteration": "agathos",  "definition": "good",                "partOfSpeech": "adjective" },
-  { "id": 13, "part": "A", "greek": "ἰσχυρός, -ά, -όν", "transliteration": "ischyros", "definition": "strong",              "partOfSpeech": "adjective" },
-  { "id": 14, "part": "A", "greek": "μικρός, -ά, -όν",  "transliteration": "mikros",   "definition": "small",               "partOfSpeech": "adjective" },
-  { "id": 15, "part": "A", "greek": "μέγας, μεγάλη, μέγα", "transliteration": "megas", "definition": "great, large",        "partOfSpeech": "adjective (irregular)" },
-  { "id": 16, "part": "A", "greek": "καλός, -ή, -όν",   "transliteration": "kalos",    "definition": "beautiful, good",     "partOfSpeech": "adjective" },
-  { "id": 17, "part": "A", "greek": "πιστός, -ή, -όν",  "transliteration": "pistos",   "definition": "faithful",            "partOfSpeech": "adjective" },
-  { "id": 18, "part": "A", "greek": "εἰμί",             "transliteration": "eimi",     "definition": "I am",                "partOfSpeech": "verb (irregular)" },
-  { "id": 19, "part": "A", "greek": "λάμπω",            "transliteration": "lampō",    "definition": "I shine",             "partOfSpeech": "verb" },
-  { "id": 20, "part": "A", "greek": "ῥέω",              "transliteration": "rheō",     "definition": "I flow",              "partOfSpeech": "verb" },
-  { "id": 21, "part": "A", "greek": "λαμβάνω",          "transliteration": "lambanō",  "definition": "I take, receive",     "partOfSpeech": "verb" },
-  { "id": 22, "part": "A", "greek": "ἐσθίω",            "transliteration": "esthiō",   "definition": "I eat",               "partOfSpeech": "verb" },
-  { "id": 23, "part": "A", "greek": "χαίρω",            "transliteration": "chairō",   "definition": "I rejoice",           "partOfSpeech": "verb" },
-  { "id": 24, "part": "A", "greek": "ἔχω",              "transliteration": "echō",     "definition": "I have",              "partOfSpeech": "verb" },
-  { "id": 25, "part": "A", "greek": "βλέπω",            "transliteration": "blepō",    "definition": "I see, look at",      "partOfSpeech": "verb" },
-  { "id": 26, "part": "A", "greek": "φιλέω, φιλῶ",      "transliteration": "phileō",   "definition": "I love",              "partOfSpeech": "verb (contract, -έω)" },
-  { "id": 27, "part": "A", "greek": "σκάπτω",           "transliteration": "skaptō",   "definition": "I dig",               "partOfSpeech": "verb" },
-  { "id": 28, "part": "A", "greek": "αἴρω",             "transliteration": "airō",     "definition": "I lift, take up",     "partOfSpeech": "verb" },
-  { "id": 29, "part": "A", "greek": "φέρω",             "transliteration": "pherō",    "definition": "I carry, bear",       "partOfSpeech": "verb" },
-  { "id": 30, "part": "A", "greek": "λέγω",             "transliteration": "legō",     "definition": "I say, speak",        "partOfSpeech": "verb" },
-  { "id": 31, "part": "A", "greek": "μέν … δέ",         "transliteration": "men … de", "definition": "on the one hand … on the other", "partOfSpeech": "particles (contrast pair)" },
-  { "id": 32, "part": "A", "greek": "οὖν",              "transliteration": "oun",      "definition": "therefore, so",       "partOfSpeech": "particle (postpositive)" },
-  { "id": 33, "part": "A", "greek": "γάρ",              "transliteration": "gar",      "definition": "for, because",        "partOfSpeech": "particle (postpositive)" },
-  { "id": 34, "part": "A", "greek": "καί",              "transliteration": "kai",      "definition": "and, also, even",     "partOfSpeech": "conjunction" },
-  { "id": 35, "part": "A", "greek": "ἀλλά",             "transliteration": "alla",     "definition": "but",                 "partOfSpeech": "conjunction" },
-  { "id": 36, "part": "A", "greek": "οὐ / οὐκ",         "transliteration": "ou / ouk", "definition": "not",                 "partOfSpeech": "negative particle" },
-  { "id": 37, "part": "B", "greek": "πόνος, -ου, ὁ",    "transliteration": "ponos",    "definition": "labor, toil, pain",   "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 38, "part": "B", "greek": "βίος, -ου, ὁ",     "transliteration": "bios",     "definition": "life, livelihood",    "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 39, "part": "B", "greek": "χόρτος, -ου, ὁ",   "transliteration": "chortos",  "definition": "grass, hay",          "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 40, "part": "B", "greek": "χαλεπός, -ή, -όν", "transliteration": "chalepos", "definition": "hard, difficult",     "partOfSpeech": "adjective" },
-  { "id": 41, "part": "B", "greek": "ῥᾴδιος, -α, -ον",  "transliteration": "rhadios",  "definition": "easy",                "partOfSpeech": "adjective" },
-  { "id": 42, "part": "B", "greek": "καθίζω",           "transliteration": "kathizō",  "definition": "I sit, sit down",     "partOfSpeech": "verb" },
-  { "id": 43, "part": "B", "greek": "μένω",             "transliteration": "menō",     "definition": "I remain, stay",      "partOfSpeech": "verb" },
-  { "id": 44, "part": "B", "greek": "ἐκβαίνω",          "transliteration": "ekbainō",  "definition": "I go out",            "partOfSpeech": "verb" },
-  { "id": 45, "part": "B", "greek": "περιπατέω, -ῶ",    "transliteration": "peripateō","definition": "I walk, walk around", "partOfSpeech": "verb (contract, -έω)" },
-  { "id": 46, "part": "B", "greek": "εὑρίσκω",          "transliteration": "heuriskō", "definition": "I find",              "partOfSpeech": "verb" },
-  { "id": 47, "part": "B", "greek": "ἡσυχάζω",          "transliteration": "hēsychazō","definition": "I rest, am quiet",    "partOfSpeech": "verb" },
-  { "id": 48, "part": "B", "greek": "ἀκούω",            "transliteration": "akouō",    "definition": "I hear",              "partOfSpeech": "verb (+ acc. or gen.)" },
-  { "id": 49, "part": "B", "greek": "ποιέω, -ῶ",        "transliteration": "poieō",    "definition": "I make, do",          "partOfSpeech": "verb (contract, -έω)" },
-  { "id": 50, "part": "B", "greek": "εὐχαριστέω, -ῶ",   "transliteration": "eucharisteō","definition": "I give thanks",    "partOfSpeech": "verb (+ dative)" },
-  { "id": 51, "part": "B", "greek": "ἐν (+ dat.)",       "transliteration": "en",       "definition": "in, at",              "partOfSpeech": "preposition" },
-  { "id": 52, "part": "B", "greek": "ἐκ / ἐξ (+ gen.)", "transliteration": "ek / ex",  "definition": "out of, from",        "partOfSpeech": "preposition" },
-  { "id": 53, "part": "B", "greek": "πρός (+ acc.)",     "transliteration": "pros",     "definition": "toward, to",          "partOfSpeech": "preposition" },
-  { "id": 54, "part": "B", "greek": "σήμερον",           "transliteration": "sēmeron",  "definition": "today",               "partOfSpeech": "adverb" },
-  { "id": 55, "part": "B", "greek": "νῦν",              "transliteration": "nyn",      "definition": "now",                 "partOfSpeech": "adverb" },
-  { "id": 56, "part": "B", "greek": "ἔπειτα",           "transliteration": "epeita",   "definition": "then, next",          "partOfSpeech": "adverb" },
-  { "id": 57, "part": "B", "greek": "ἀληθῶς",           "transliteration": "alēthōs",  "definition": "truly",               "partOfSpeech": "adverb" },
-  { "id": 58, "part": "B", "greek": "ὅτε",              "transliteration": "hote",     "definition": "when (temporal)",     "partOfSpeech": "conjunction" },
-  { "id": 59, "part": "B", "greek": "ὅτι",              "transliteration": "hoti",     "definition": "because, that",       "partOfSpeech": "conjunction" },
-  { "id": 60, "part": "B", "greek": "οὐδέ",             "transliteration": "oude",     "definition": "and not, nor, neither","partOfSpeech": "conjunction" }
+  {
+    "id": 1,
+    "part": "A",
+    "greek": "ἄνθρωπος, -ου, ὁ",
+    "transliteration": "anthrōpos",
+    "definition": "human being, person",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "c1-anthrōpos.jpeg"
+  },
+  {
+    "id": 2,
+    "part": "A",
+    "greek": "γεωργός, -οῦ, ὁ",
+    "transliteration": "geōrgos",
+    "definition": "farmer",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "c1-geōrgos.jpeg"
+  },
+  {
+    "id": 3,
+    "part": "A",
+    "greek": "οἶκος, -ου, ὁ",
+    "transliteration": "oikos",
+    "definition": "house",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "c1-oikos.jpeg"
+  },
+  {
+    "id": 4,
+    "part": "A",
+    "greek": "ἀγρός, -οῦ, ὁ",
+    "transliteration": "agros",
+    "definition": "field",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "c1-agros.jpeg"
+  },
+  {
+    "id": 5,
+    "part": "A",
+    "greek": "οὐρανός, -οῦ, ὁ",
+    "transliteration": "ouranos",
+    "definition": "sky, heaven",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "c1-ouranos.jpeg"
+  },
+  {
+    "id": 6,
+    "part": "A",
+    "greek": "ἥλιος, -ου, ὁ",
+    "transliteration": "hēlios",
+    "definition": "sun",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "c1-hēlios.jpeg"
+  },
+  {
+    "id": 7,
+    "part": "A",
+    "greek": "ποταμός, -οῦ, ὁ",
+    "transliteration": "potamos",
+    "definition": "river",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "c1-potamos.jpeg"
+  },
+  {
+    "id": 8,
+    "part": "A",
+    "greek": "ἄρτος, -ου, ὁ",
+    "transliteration": "artos",
+    "definition": "bread",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "c1-artos.jpeg"
+  },
+  {
+    "id": 9,
+    "part": "A",
+    "greek": "καρπός, -οῦ, ὁ",
+    "transliteration": "karpos",
+    "definition": "fruit, produce",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "c1-karpos.jpeg"
+  },
+  {
+    "id": 10,
+    "part": "A",
+    "greek": "λίθος, -ου, ὁ",
+    "transliteration": "lithos",
+    "definition": "stone",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "c1-lithos.jpeg"
+  },
+  {
+    "id": 11,
+    "part": "A",
+    "greek": "θεός, -οῦ, ὁ",
+    "transliteration": "theos",
+    "definition": "god, God",
+    "partOfSpeech": "noun (masculine, 2nd decl.)"
+  },
+  {
+    "id": 12,
+    "part": "A",
+    "greek": "ἀγαθός, -ή, -όν",
+    "transliteration": "agathos",
+    "definition": "good",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 13,
+    "part": "A",
+    "greek": "ἰσχυρός, -ά, -όν",
+    "transliteration": "ischyros",
+    "definition": "strong",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 14,
+    "part": "A",
+    "greek": "μικρός, -ά, -όν",
+    "transliteration": "mikros",
+    "definition": "small",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 15,
+    "part": "A",
+    "greek": "μέγας, μεγάλη, μέγα",
+    "transliteration": "megas",
+    "definition": "great, large",
+    "partOfSpeech": "adjective (irregular)"
+  },
+  {
+    "id": 16,
+    "part": "A",
+    "greek": "καλός, -ή, -όν",
+    "transliteration": "kalos",
+    "definition": "beautiful, good",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 17,
+    "part": "A",
+    "greek": "πιστός, -ή, -όν",
+    "transliteration": "pistos",
+    "definition": "faithful",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 18,
+    "part": "A",
+    "greek": "εἰμί",
+    "transliteration": "eimi",
+    "definition": "I am",
+    "partOfSpeech": "verb (irregular)"
+  },
+  {
+    "id": 19,
+    "part": "A",
+    "greek": "λάμπω",
+    "transliteration": "lampō",
+    "definition": "I shine",
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": 20,
+    "part": "A",
+    "greek": "ῥέω",
+    "transliteration": "rheō",
+    "definition": "I flow",
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": 21,
+    "part": "A",
+    "greek": "λαμβάνω",
+    "transliteration": "lambanō",
+    "definition": "I take, receive",
+    "partOfSpeech": "verb",
+    "image": "c1-lambano.jpeg"
+  },
+  {
+    "id": 22,
+    "part": "A",
+    "greek": "ἐσθίω",
+    "transliteration": "esthiō",
+    "definition": "I eat",
+    "partOfSpeech": "verb",
+    "image": "c1-esthio.jpeg"
+  },
+  {
+    "id": 23,
+    "part": "A",
+    "greek": "χαίρω",
+    "transliteration": "chairō",
+    "definition": "I rejoice",
+    "partOfSpeech": "verb",
+    "image": "c1-chairō.jpeg"
+  },
+  {
+    "id": 24,
+    "part": "A",
+    "greek": "ἔχω",
+    "transliteration": "echō",
+    "definition": "I have",
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": 25,
+    "part": "A",
+    "greek": "βλέπω",
+    "transliteration": "blepō",
+    "definition": "I see, look at",
+    "partOfSpeech": "verb",
+    "image": "c1-blepō.jpeg"
+  },
+  {
+    "id": 26,
+    "part": "A",
+    "greek": "φιλέω, φιλῶ",
+    "transliteration": "phileō",
+    "definition": "I love",
+    "partOfSpeech": "verb (contract, -έω)"
+  },
+  {
+    "id": 27,
+    "part": "A",
+    "greek": "σκάπτω",
+    "transliteration": "skaptō",
+    "definition": "I dig",
+    "partOfSpeech": "verb",
+    "image": "c1-skaptō.jpeg"
+  },
+  {
+    "id": 28,
+    "part": "A",
+    "greek": "αἴρω",
+    "transliteration": "airō",
+    "definition": "I lift, take up",
+    "partOfSpeech": "verb",
+    "image": "c1-airō.jpeg"
+  },
+  {
+    "id": 29,
+    "part": "A",
+    "greek": "φέρω",
+    "transliteration": "pherō",
+    "definition": "I carry, bear",
+    "partOfSpeech": "verb",
+    "image": "c1-pherō.jpeg"
+  },
+  {
+    "id": 30,
+    "part": "A",
+    "greek": "λέγω",
+    "transliteration": "legō",
+    "definition": "I say, speak",
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": 31,
+    "part": "A",
+    "greek": "μέν … δέ",
+    "transliteration": "men … de",
+    "definition": "on the one hand … on the other",
+    "partOfSpeech": "particles (contrast pair)"
+  },
+  {
+    "id": 32,
+    "part": "A",
+    "greek": "οὖν",
+    "transliteration": "oun",
+    "definition": "therefore, so",
+    "partOfSpeech": "particle (postpositive)"
+  },
+  {
+    "id": 33,
+    "part": "A",
+    "greek": "γάρ",
+    "transliteration": "gar",
+    "definition": "for, because",
+    "partOfSpeech": "particle (postpositive)"
+  },
+  {
+    "id": 34,
+    "part": "A",
+    "greek": "καί",
+    "transliteration": "kai",
+    "definition": "and, also, even",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "id": 35,
+    "part": "A",
+    "greek": "ἀλλά",
+    "transliteration": "alla",
+    "definition": "but",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "id": 36,
+    "part": "A",
+    "greek": "οὐ / οὐκ",
+    "transliteration": "ou / ouk",
+    "definition": "not",
+    "partOfSpeech": "negative particle"
+  },
+  {
+    "id": 37,
+    "part": "B",
+    "greek": "πόνος, -ου, ὁ",
+    "transliteration": "ponos",
+    "definition": "labor, toil, pain",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "c1b-ponos.jpeg"
+  },
+  {
+    "id": 38,
+    "part": "B",
+    "greek": "βίος, -ου, ὁ",
+    "transliteration": "bios",
+    "definition": "life, livelihood",
+    "partOfSpeech": "noun (masculine, 2nd decl.)"
+  },
+  {
+    "id": 39,
+    "part": "B",
+    "greek": "χόρτος, -ου, ὁ",
+    "transliteration": "chortos",
+    "definition": "grass, hay",
+    "partOfSpeech": "noun (masculine, 2nd decl.)"
+  },
+  {
+    "id": 40,
+    "part": "B",
+    "greek": "χαλεπός, -ή, -όν",
+    "transliteration": "chalepos",
+    "definition": "hard, difficult",
+    "partOfSpeech": "adjective",
+    "image": "c1b-chalepos.jpeg"
+  },
+  {
+    "id": 41,
+    "part": "B",
+    "greek": "ῥᾴδιος, -α, -ον",
+    "transliteration": "rhadios",
+    "definition": "easy",
+    "partOfSpeech": "adjective"
+  },
+  {
+    "id": 42,
+    "part": "B",
+    "greek": "καθίζω",
+    "transliteration": "kathizō",
+    "definition": "I sit, sit down",
+    "partOfSpeech": "verb",
+    "image": "c1b-kathizō.jpeg"
+  },
+  {
+    "id": 43,
+    "part": "B",
+    "greek": "μένω",
+    "transliteration": "menō",
+    "definition": "I remain, stay",
+    "partOfSpeech": "verb",
+    "image": "c1b-menō.jpeg"
+  },
+  {
+    "id": 44,
+    "part": "B",
+    "greek": "ἐκβαίνω",
+    "transliteration": "ekbainō",
+    "definition": "I go out",
+    "partOfSpeech": "verb",
+    "image": "c1b-ekbainō.jpeg"
+  },
+  {
+    "id": 45,
+    "part": "B",
+    "greek": "περιπατέω, -ῶ",
+    "transliteration": "peripateō",
+    "definition": "I walk, walk around",
+    "partOfSpeech": "verb (contract, -έω)",
+    "image": "c1b-peripateo.jpeg"
+  },
+  {
+    "id": 46,
+    "part": "B",
+    "greek": "εὑρίσκω",
+    "transliteration": "heuriskō",
+    "definition": "I find",
+    "partOfSpeech": "verb"
+  },
+  {
+    "id": 47,
+    "part": "B",
+    "greek": "ἡσυχάζω",
+    "transliteration": "hēsychazō",
+    "definition": "I rest, am quiet",
+    "partOfSpeech": "verb",
+    "image": "c1b-hēsychazō.jpeg"
+  },
+  {
+    "id": 48,
+    "part": "B",
+    "greek": "ἀκούω",
+    "transliteration": "akouō",
+    "definition": "I hear",
+    "partOfSpeech": "verb (+ acc. or gen.)"
+  },
+  {
+    "id": 49,
+    "part": "B",
+    "greek": "ποιέω, -ῶ",
+    "transliteration": "poieō",
+    "definition": "I make, do",
+    "partOfSpeech": "verb (contract, -έω)"
+  },
+  {
+    "id": 50,
+    "part": "B",
+    "greek": "εὐχαριστέω, -ῶ",
+    "transliteration": "eucharisteō",
+    "definition": "I give thanks",
+    "partOfSpeech": "verb (+ dative)",
+    "image": "c1b-eucharisteō.jpeg"
+  },
+  {
+    "id": 51,
+    "part": "B",
+    "greek": "ἐν (+ dat.)",
+    "transliteration": "en",
+    "definition": "in, at",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "id": 52,
+    "part": "B",
+    "greek": "ἐκ / ἐξ (+ gen.)",
+    "transliteration": "ek / ex",
+    "definition": "out of, from",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "id": 53,
+    "part": "B",
+    "greek": "πρός (+ acc.)",
+    "transliteration": "pros",
+    "definition": "toward, to",
+    "partOfSpeech": "preposition"
+  },
+  {
+    "id": 54,
+    "part": "B",
+    "greek": "σήμερον",
+    "transliteration": "sēmeron",
+    "definition": "today",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "id": 55,
+    "part": "B",
+    "greek": "νῦν",
+    "transliteration": "nyn",
+    "definition": "now",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "id": 56,
+    "part": "B",
+    "greek": "ἔπειτα",
+    "transliteration": "epeita",
+    "definition": "then, next",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "id": 57,
+    "part": "B",
+    "greek": "ἀληθῶς",
+    "transliteration": "alēthōs",
+    "definition": "truly",
+    "partOfSpeech": "adverb"
+  },
+  {
+    "id": 58,
+    "part": "B",
+    "greek": "ὅτε",
+    "transliteration": "hote",
+    "definition": "when (temporal)",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "id": 59,
+    "part": "B",
+    "greek": "ὅτι",
+    "transliteration": "hoti",
+    "definition": "because, that",
+    "partOfSpeech": "conjunction"
+  },
+  {
+    "id": 60,
+    "part": "B",
+    "greek": "οὐδέ",
+    "transliteration": "oude",
+    "definition": "and not, nor, neither",
+    "partOfSpeech": "conjunction"
+  }
 ]

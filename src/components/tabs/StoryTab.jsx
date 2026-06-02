@@ -4,7 +4,8 @@ import './StoryTab.css'
 function getParagraphParts(paragraphs) {
   let current = 'A'
   return paragraphs.map(para => {
-    if (para.label) current = para.label.includes('Βʹ') ? 'B' : 'A'
+    if (para.label?.includes('Βʹ')) current = 'B'
+    else if (para.label?.includes('Αʹ')) current = 'A'
     return { ...para, _part: current }
   })
 }

@@ -71,6 +71,13 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
         <div className="flashcard-inner">
           <div className="flashcard-front">
             <div className="flashcard-hint">Tap to reveal</div>
+            {word.image && (
+              <img
+                src={`/vocab-images/${word.image}`}
+                alt={word.definition}
+                className="flashcard-image"
+              />
+            )}
             <div className="flashcard-greek greek">{word.greek}</div>
             <div className="flashcard-transliteration">{word.transliteration}</div>
             {seen[word.id] > 0 && (
