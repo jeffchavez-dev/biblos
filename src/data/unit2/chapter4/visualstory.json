@@ -1,0 +1,126 @@
+{
+  "title": "Ὁ Φίλος καὶ Οἱ Γεωργοί",
+  "subtitle": "Unit 2, Chapter 4 — The Friend and the Farmers",
+  "panels": [
+    {
+      "id": 1,
+      "part": "A",
+      "scene": "Teaches: πρωΐ, ἀνατέλλω, φῶς — Morning. The moon is gone; the sun rises. Sunlight enters the farmer's house.",
+      "greekCaption": "πρωΐ ἐστιν. ἡ σελήνη οὐκέτι λάμπει. ὁ ἥλιος ἀνατέλλει. τὸ φῶς τοῦ ἡλίου ἔρχεται εἰς τὸν οἶκον.",
+      "englishCaption": "It is morning. The moon no longer shines. The sun rises. The light of the sun comes into the house.",
+      "image": "story-images/ch4a/1.jpeg"
+    },
+    {
+      "id": 2,
+      "part": "A",
+      "scene": "Teaches: λούω, σῶμα, ὕδωρ — Jacob goes to the river and washes his body in the clean water.",
+      "greekCaption": "ὁ Ἰάκωβος πορεύεται πρὸς τὸν ποταμὸν καὶ λούει τὸ σῶμα αὐτοῦ.",
+      "englishCaption": "Jacob goes to the river and washes his body.",
+      "image": "story-images/ch4a/2.jpeg"
+    },
+    {
+      "id": 3,
+      "part": "A",
+      "scene": "Teaches: ὄνομα, κώμη, κατοικέω — Jacob is a Galilean. His name is Jacob. He dwells in Galilee and his house is in the village.",
+      "greekCaption": "τὸ ὄνομα τοῦ γεωργοῦ ἐστιν Ἰάκωβος. κατοικεῖ ἐν τῇ Γαλιλαίᾳ. ὁ οἶκος αὐτοῦ ἐστιν ἐν τῇ κώμῃ.",
+      "englishCaption": "The name of the farmer is Jacob. He dwells in Galilee. His house is in the village.",
+      "image": "story-images/ch4a/3.jpeg"
+    },
+    {
+      "id": 4,
+      "part": "A",
+      "scene": "Teaches: φίλος, πλησίον, ἀμφότεροι — Jacob visits Philip, his neighbor and friend. Both are farmers.",
+      "greekCaption": "ὁ Ἰάκωβος πορεύεται πρὸς τὸν φίλον αὐτοῦ, τὸν Φίλιππον. ὁ Φίλιππος πλησίον ἐστίν. ἀμφότεροι εἰσιν γεωργοί.",
+      "englishCaption": "Jacob goes to his friend Philip. Philip is nearby. Both are farmers.",
+      "image": "story-images/ch4a/4.jpeg"
+    },
+    {
+      "id": 5,
+      "part": "A",
+      "scene": "Teaches: ἀσπάζομαι, καταφιλέω, εἰρήνη σοι — Jacob greets and embraces Philip. They exchange greetings.",
+      "greekCaption": "ὁ Ἰάκωβος ἀσπάζεται τὸν Φίλιππον καὶ καταφιλεῖ αὐτόν. λέγει, \"εἰρήνη σοι, ὦ φίλε.\"",
+      "englishCaption": "Jacob greets Philip and embraces him. He says, \"Peace to you, O friend.\"",
+      "image": "story-images/ch4a/5.jpeg"
+    },
+    {
+      "id": 6,
+      "part": "A",
+      "scene": "Teaches: μεριμνάω, περί, βούλομαι — Jacob explains his worry: he wants to visit his wife and children but does not know who will guard the field.",
+      "greekCaption": "ὁ Ἰάκωβος λέγει ὅτι μεριμνᾷ περὶ τοῦ ἀγροῦ. βούλεται βλέπειν τὴν Μάρθαν καὶ τὰ τέκνα αὐτοῦ.",
+      "englishCaption": "Jacob says that he worries about the field. He wants to see Martha and his children.",
+      "image": "story-images/ch4a/6.jpeg"
+    },
+    {
+      "id": 7,
+      "part": "A",
+      "scene": "Teaches: δύναμαι, βοηθέω, πάρειμι — Philip offers to help. \"I am here. I am able and willing to guard your field.\"",
+      "greekCaption": "ὁ Φίλιππος λέγει, \"ἐγὼ πάρειμι ὧδε. δύναμαι βοηθεῖν σοι καὶ φυλάσσειν τὸν ἀγρόν σου.\"",
+      "englishCaption": "Philip says, \"I am here. I am able to help you and guard your field.\"",
+      "image": "story-images/ch4a/7.jpeg"
+    },
+    {
+      "id": 8,
+      "part": "A",
+      "scene": "Teaches: χαρά, εὐχαριστέω, ἀπέρχομαι — Jacob gives thanks to Philip and to God, then departs with joy and peace. The donkey follows.",
+      "greekCaption": "ὁ Ἰάκωβος εὐχαριστεῖ τῷ Φιλίππῳ καὶ τῷ θεῷ. ἀπέρχεται μετὰ χαρᾶς. ὁ ὄνος ἀκολουθεῖ αὐτῷ.",
+      "englishCaption": "Jacob gives thanks to Philip and to God. He departs with joy. The donkey follows him.",
+      "image": "story-images/ch4a/8.jpeg"
+    },
+    {
+      "id": 9,
+      "part": "B",
+      "scene": "Teaches: ῥάβδος, πήρα, λάχανα — Jacob walks with his staff carrying a bag of bread. The donkey carries fruit and vegetables from the field.",
+      "greekCaption": "ὁ Ἰάκωβος περιπατεῖ μετὰ τῆς ῥάβδου καὶ φέρει τὴν πήραν. ὁ ὄνος φέρει καρποὺς καὶ λάχανα.",
+      "englishCaption": "Jacob walks with his staff and carries the bag. The donkey carries fruits and vegetables.",
+      "image": "story-images/ch4b/1.jpeg"
+    },
+    {
+      "id": 10,
+      "part": "B",
+      "scene": "Teaches: σκάπτω, λίθος, θερίζω — Farmers at work: some dig the ground and remove stones; others harvest fruit from the trees.",
+      "greekCaption": "οἱ μὲν σκάπτουσιν τὴν γῆν καὶ φέρουσιν τοὺς λίθους. ἄλλοι δὲ θερίζουσιν τοὺς καρπούς.",
+      "englishCaption": "Some dig the ground and carry the stones. Others harvest the fruits.",
+      "image": "story-images/ch4b/2.jpeg"
+    },
+    {
+      "id": 11,
+      "part": "B",
+      "scene": "Teaches: καθίζω, σκία, ἀναπαύομαι — Others sit under the trees in the shade to rest from the heat and talk about life.",
+      "greekCaption": "ἄλλοι καθίζουσιν ὑπὸ τοῖς δένδροις ἐν ταῖς σκίαις καὶ ἀναπαύονται.",
+      "englishCaption": "Others sit under the trees in the shade and rest.",
+      "image": "story-images/ch4b/3.jpeg"
+    },
+    {
+      "id": 12,
+      "part": "B",
+      "scene": "Teaches: πλούσιος, πτωχός, δοῦλος, ἴδιος — Some farmers are rich with many servants; others are poor and work their own fields alone.",
+      "greekCaption": "οἱ μὲν πλούσιοί εἰσιν καὶ ἔχουσιν δούλους. οἱ δὲ πτωχοὶ ἐργάζονται ἐν τοῖς ἰδίοις ἀγροῖς.",
+      "englishCaption": "Some are rich and have servants. The poor work in their own fields.",
+      "image": "story-images/ch4b/4.jpeg"
+    },
+    {
+      "id": 13,
+      "part": "B",
+      "scene": "Teaches: καῦμα, καυματίζω, πεινάω, διψάω — The sun beats down. Jacob is weary, hungry, and thirsty from the heat of the journey.",
+      "greekCaption": "ὁ ἥλιος καυματίζει τὴν ὁδόν. κοπιᾷ ὁ Ἰάκωβος ἐν τῷ σώματι. πεινᾷ καὶ διψᾷ.",
+      "englishCaption": "The sun scorches the road. Jacob is weary in body. He is hungry and thirsty.",
+      "image": "story-images/ch4b/5.jpeg"
+    },
+    {
+      "id": 14,
+      "part": "B",
+      "scene": "Teaches: πηγή, σκία, καθαρός — Jacob finds a large tree near the road. Under it is a spring with clean water. The tree provides shade.",
+      "greekCaption": "εὑρίσκει δένδρον μέγα ἐγγὺς τῆς ὁδοῦ. ὑπὸ τῷ δένδρῳ ἐστὶν ἡ πηγή. καθαρὸν ὕδωρ ἐστὶν ἐν τῇ πηγῇ.",
+      "englishCaption": "He finds a large tree near the road. Under the tree is the spring. There is clean water in the spring.",
+      "image": "story-images/ch4b/6.jpeg"
+    },
+    {
+      "id": 15,
+      "part": "B",
+      "scene": "Teaches: ὑδρία, ἀντλέω, πίνω — Jacob eats his bread but cannot drink: there is water in the spring, but he has no water jar to draw with.",
+      "greekCaption": "ὁ Ἰάκωβος διψᾷ ἀλλὰ οὐ δύναται ἀντλεῖν τὸ ὕδωρ ὅτι οὐκ ἔχει ὑδρίαν.",
+      "englishCaption": "Jacob is thirsty but cannot draw the water because he has no water jar.",
+      "image": "story-images/ch4b/7.jpeg"
+    }
+  ]
+}

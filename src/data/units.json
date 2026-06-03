@@ -40,10 +40,19 @@
   {
     "id": 2,
     "title": "Unit 2",
-    "subtitle": "Coming Soon",
-    "locked": true,
+    "subtitle": "Ὁ Φίλος — The Friend",
+    "locked": false,
     "chapters": [
-      { "id": 1, "title": "Chapter 1", "subtitle": "Coming Soon", "locked": true }
+      {
+        "id": 4,
+        "title": "Κεφάλαιον Δʹ",
+        "subtitle": "Ὁ Φίλος καὶ Οἱ Γεωργοί — The Friend and the Farmers",
+        "locked": false,
+        "parts": [
+          {"id": "A", "label": "Μέρος Αʹ", "subtitle": "Ὁ Φίλος"},
+          {"id": "B", "label": "Μέρος Βʹ", "subtitle": "Οἱ Γεωργοί"}
+        ]
+      }
     ]
   }
 ]
