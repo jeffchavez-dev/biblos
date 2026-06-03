@@ -19,13 +19,19 @@ export default function VisualStoryTab({ story }) {
 
       {/* Main panel */}
       <div className="panel-card">
-        {/* Placeholder image area */}
         <div className="panel-image">
-          <div className="panel-image-placeholder">
-            <div className="panel-scene-desc">{current.scene}</div>
-            <div className="panel-img-note">🖼 Illustration area</div>
-            <div className="panel-img-hint">Replace with your artwork or generated image</div>
-          </div>
+          {current.image ? (
+            <img
+              src={`/${current.image}`}
+              alt={current.scene}
+              className="panel-image-actual"
+            />
+          ) : (
+            <div className="panel-image-placeholder">
+              <div className="panel-scene-desc">{current.scene}</div>
+              <div className="panel-img-hint">Illustration coming soon</div>
+            </div>
+          )}
         </div>
 
         <div className="panel-caption">

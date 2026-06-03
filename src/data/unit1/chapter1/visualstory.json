@@ -1,34 +1,62 @@
 {
   "title": "Ὁ Γεωργός",
-  "subtitle": "Unit 1 Visual Story — The Farmer",
+  "subtitle": "Unit 1, Chapter 1 — The Farmer",
   "panels": [
     {
       "id": 1,
-      "scene": "A farmer stands in his small but beautiful field. The sun shines in the sky above.",
+      "part": "A",
+      "scene": "A farmer stands in his small but beautiful field. The sun shines brightly in the sky above.",
       "greekCaption": "ὁ γεωργός ἐστιν ἀγαθὸς καὶ ἰσχυρὸς ἄνθρωπος.",
       "englishCaption": "The farmer is a good and strong person.",
-      "imageDescription": "A strong man standing in a small field under a bright sun"
+      "image": "story-images/ch1/B1.3.jpeg"
     },
     {
       "id": 2,
-      "scene": "The farmer digs his field. He spots a large stone in the ground.",
+      "part": "A",
+      "scene": "The farmer digs his field. He spots a large stone embedded in the ground.",
       "greekCaption": "σκάπτει τὸν ἀγρόν. βλέπει τὸν μέγαν λίθον.",
       "englishCaption": "He digs the field. He sees the large stone.",
-      "imageDescription": "A farmer digging with a tool, noticing a large rock"
+      "image": "story-images/ch1/B1.7.jpeg"
     },
     {
       "id": 3,
-      "scene": "He lifts the great stone and carries it out of the field. His strength is on display.",
+      "part": "A",
+      "scene": "He lifts the great stone and carries it out of the field. His strength is on full display.",
       "greekCaption": "αἴρει τὸν μέγαν λίθον καὶ φέρει. ἰσχυρὸς γάρ ἐστιν.",
       "englishCaption": "He lifts the large stone and carries it. For he is strong.",
-      "imageDescription": "The farmer carrying a heavy stone, muscles straining"
+      "image": "story-images/ch1/1.1-17.jpeg"
     },
     {
       "id": 4,
-      "scene": "The farmer rests in the field, listening to the river flow. He looks up and gives thanks.",
+      "part": "A",
+      "scene": "The farmer rests under an olive tree by the river. He looks up and gives thanks to God.",
       "greekCaption": "ὁ βίος καλός ἐστιν ὅτι ὁ θεός ἐστιν ἀγαθὸς καὶ πιστός.",
       "englishCaption": "Life is good because God is good and faithful.",
-      "imageDescription": "The farmer resting by a river, looking peacefully at the sky"
+      "image": "story-images/ch1/B1.11.jpeg"
+    },
+    {
+      "id": 5,
+      "part": "B",
+      "scene": "The day's work is done. The farmer walks out of his house early in the morning to begin his labor.",
+      "greekCaption": "ὁ γεωργὸς ἐκβαίνει ἐκ τοῦ οἴκου. ὁ πόνος χαλεπός ἐστιν.",
+      "englishCaption": "The farmer goes out of the house. The labor is hard.",
+      "image": "story-images/ch1/B1.3.jpeg"
+    },
+    {
+      "id": 6,
+      "part": "B",
+      "scene": "He walks around the field, checking the crops. He rests briefly by the river.",
+      "greekCaption": "περιπατεῖ ἐν τῷ ἀγρῷ καὶ ἡσυχάζει ἐγγὺς τοῦ ποταμοῦ.",
+      "englishCaption": "He walks around the field and rests near the river.",
+      "image": "story-images/ch1/B1.11.jpeg"
+    },
+    {
+      "id": 7,
+      "part": "B",
+      "scene": "At the end of a long day of labor, the farmer sits inside his house, content and thankful.",
+      "greekCaption": "ὁ γεωργὸς καθίζει ἐν τῷ οἴκῳ καὶ εὐχαριστεῖ τῷ θεῷ.",
+      "englishCaption": "The farmer sits in the house and gives thanks to God.",
+      "image": "story-images/ch1/B1.15.jpeg"
     }
   ]
 }

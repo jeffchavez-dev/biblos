@@ -1,34 +1,238 @@
 {
   "title": "Ὁ Κῆπος καὶ Τὰ Ζῷα",
-  "subtitle": "Unit 1 Visual Story — The Garden and the Animals",
+  "subtitle": "Unit 1, Chapter 2 — The Garden and the Animals",
   "panels": [
     {
       "id": 1,
-      "scene": "The farmer's garden is full of vegetables, trees, and fruit. Sheep and lambs graze peacefully inside.",
-      "greekCaption": "ὁ κῆπος καλός ἐστιν. τὰ πρόβατα καὶ τὰ ἀρνία ἐστὶν ἐν τῷ κήπῳ.",
-      "englishCaption": "The garden is beautiful. The sheep and lambs are in the garden.",
-      "imageDescription": "A lush garden with trees, vegetables, and peacefully grazing sheep and lambs"
+      "part": "A",
+      "scene": "Teaches: κῆπος, ἐγγύς — The garden is near the house.",
+      "greekCaption": "ὁ κῆπος ἐγγύς ἐστιν τοῦ οἴκου.",
+      "englishCaption": "The garden is near the house.",
+      "image": "story-images/ch2a/1.jpeg"
     },
     {
       "id": 2,
-      "scene": "A wolf lurks at the edge of the garden, beyond the river. Its eyes are fixed on the lambs.",
-      "greekCaption": "ὁ λύκος ἐστὶν πέραν τοῦ ποταμοῦ. θέλει ἁρπάζειν τὸ ἀρνίον.",
-      "englishCaption": "The wolf is across the river. He wants to seize the lamb.",
-      "imageDescription": "A wolf watching from across a river, eyeing the lambs in the garden"
+      "part": "A",
+      "scene": "Teaches: λάχανον — A vegetable grows in the garden.",
+      "greekCaption": "λάχανόν ἐστιν ἐν τῷ κήπῳ.",
+      "englishCaption": "A vegetable is in the garden.",
+      "image": "story-images/ch2a/2.jpeg"
     },
     {
       "id": 3,
-      "scene": "The wolf runs into the garden and seizes a lamb. The farmer hears the lamb crying out and runs swiftly.",
-      "greekCaption": "κράζει τὸ ἀρνίον. ὁ γεωργὸς ἀκούει καὶ τρέχει ταχέως εἰς τὸν κῆπον.",
-      "englishCaption": "The lamb cries out. The farmer hears and runs quickly into the garden.",
-      "imageDescription": "A wolf grabbing a lamb while a farmer runs toward the garden with his staff"
+      "part": "A",
+      "scene": "Teaches: φυτεύω — The farmer plants the vegetable in the garden.",
+      "greekCaption": "ὁ γεωργὸς φυτεύει τὸ λάχανον ἐν τῷ κήπῳ.",
+      "englishCaption": "The farmer plants the vegetable in the garden.",
+      "image": "story-images/ch2a/3.jpeg"
     },
     {
       "id": 4,
-      "scene": "The farmer drives the wolf away with his rod. The wolf flees and the lamb is saved. The farmer gives thanks.",
-      "greekCaption": "ὁ γεωργὸς σῴζει τὸ ἀρνίον. ὁ λύκος φεύγει. εὐχαριστεῖ τῷ θεῷ.",
-      "englishCaption": "The farmer saves the lamb. The wolf flees. He gives thanks to God.",
-      "imageDescription": "The farmer standing victorious with his staff, the wolf fleeing, the saved lamb beside him"
+      "part": "A",
+      "scene": "Teaches: λαμβάνω, ἐσθίω, ἐν τῷ οἴκῳ — He takes the vegetable and eats inside the house.",
+      "greekCaption": "λαμβάνει τὸ λάχανον καὶ ἐσθίει ἐν τῷ οἴκῳ.",
+      "englishCaption": "He takes the vegetable and eats in the house.",
+      "image": "story-images/ch2a/4.jpeg"
+    },
+    {
+      "id": 5,
+      "part": "A",
+      "scene": "Teaches: δένδρον, μέγα — A great tree stands in the field.",
+      "greekCaption": "μέγα δένδρον ἐστὶν ἐν τῷ ἀγρῷ.",
+      "englishCaption": "A great tree is in the field.",
+      "image": "story-images/ch2a/5.jpeg"
+    },
+    {
+      "id": 6,
+      "part": "A",
+      "scene": "Teaches: καρπός (plural) — Fruits are on the tree.",
+      "greekCaption": "καρποὶ ἐπὶ τοῦ δένδρου εἰσίν.",
+      "englishCaption": "Fruits are on the tree.",
+      "image": "story-images/ch2a/6.jpeg"
+    },
+    {
+      "id": 7,
+      "part": "A",
+      "scene": "Teaches: κλάδος, ἐπί — The branches of the tree are great. The fruit hangs from the branches.",
+      "greekCaption": "οἱ κλάδοι τοῦ δένδρου μεγάλοι εἰσίν. ὁ καρπὸς ἐπὶ τοῖς κλάδοις ἐστίν.",
+      "englishCaption": "The branches of the tree are great. The fruit is on the branches.",
+      "image": "story-images/ch2a/7.jpeg"
+    },
+    {
+      "id": 8,
+      "part": "A",
+      "scene": "Teaches: δρέπανον — This is a sickle.",
+      "greekCaption": "τοῦτό ἐστιν δρέπανον.",
+      "englishCaption": "This is a sickle.",
+      "image": "story-images/ch2a/8.jpeg"
+    },
+    {
+      "id": 9,
+      "part": "A",
+      "scene": "Teaches: θερίζω, ἐκ — The farmer harvests the fruits from the tree with the sickle.",
+      "greekCaption": "ὁ γεωργὸς θερίζει τοὺς καρποὺς ἐκ τοῦ δένδρου.",
+      "englishCaption": "The farmer harvests the fruits from the tree.",
+      "image": "story-images/ch2a/9.jpeg"
+    },
+    {
+      "id": 10,
+      "part": "A",
+      "scene": "Teaches: ὄνος — The donkey is in the field.",
+      "greekCaption": "ὁ ὄνος ἐστὶν ἐν τῷ ἀγρῷ.",
+      "englishCaption": "The donkey is in the field.",
+      "image": "story-images/ch2a/10.jpeg"
+    },
+    {
+      "id": 11,
+      "part": "A",
+      "scene": "Teaches: φέρω, ἐκ τοῦ ἀγροῦ — The donkey carries the stones out of the field.",
+      "greekCaption": "ὁ ὄνος φέρει τοὺς λίθους ἐκ τοῦ ἀγροῦ.",
+      "englishCaption": "The donkey carries the stones out of the field.",
+      "image": "story-images/ch2a/11.jpeg"
+    },
+    {
+      "id": 12,
+      "part": "A",
+      "scene": "Teaches: βοῦς, μέγας, ἰσχυρός — The ox is great and strong.",
+      "greekCaption": "ὁ βοῦς μέγας καὶ ἰσχυρός ἐστιν.",
+      "englishCaption": "The ox is great and strong.",
+      "image": "story-images/ch2a/12.jpeg"
+    },
+    {
+      "id": 13,
+      "part": "A",
+      "scene": "Teaches: πρόβατον, ζῷον — The sheep is an animal.",
+      "greekCaption": "τὸ πρόβατον ζῷόν ἐστιν.",
+      "englishCaption": "The sheep is an animal.",
+      "image": "story-images/ch2a/13.jpeg"
+    },
+    {
+      "id": 14,
+      "part": "A",
+      "scene": "Teaches: ζῷα (plural) — The animals are in the field together.",
+      "greekCaption": "τὰ ζῷα ἐν τῷ ἀγρῷ εἰσίν.",
+      "englishCaption": "The animals are in the field.",
+      "image": "story-images/ch2a/14.jpeg"
+    },
+    {
+      "id": 15,
+      "part": "A",
+      "scene": "Teaches: πίνω, ἐκ τοῦ ποταμοῦ — The sheep drinks from the river.",
+      "greekCaption": "τὸ πρόβατον πίνει ἐκ τοῦ ποταμοῦ.",
+      "englishCaption": "The sheep drinks from the river.",
+      "image": "story-images/ch2a/15.jpeg"
+    },
+    {
+      "id": 16,
+      "part": "A",
+      "scene": "Teaches: ἀρνίον, τέκνον, μικρόν — The lamb is the child of the sheep.",
+      "greekCaption": "τὸ ἀρνίον τέκνον ἐστὶν τοῦ προβάτου. μικρόν ἐστιν.",
+      "englishCaption": "The lamb is the child of the sheep. It is small.",
+      "image": "story-images/ch2a/16.jpeg"
+    },
+    {
+      "id": 17,
+      "part": "A",
+      "scene": "Teaches: τρέχω, ταχέως — The lamb runs quickly in the field.",
+      "greekCaption": "τὸ ἀρνίον τρέχει ταχέως ἐν τῷ ἀγρῷ.",
+      "englishCaption": "The lamb runs quickly in the field.",
+      "image": "story-images/ch2a/17.jpeg"
+    },
+    {
+      "id": 18,
+      "part": "A",
+      "scene": "Teaches: βλέπω, χαίρω — The farmer sees the sheep and the lamb and rejoices.",
+      "greekCaption": "ὁ γεωργὸς βλέπει τὸ πρόβατον καὶ τὸ ἀρνίον καὶ χαίρει.",
+      "englishCaption": "The farmer sees the sheep and the lamb and rejoices.",
+      "image": "story-images/ch2a/18.jpeg"
+    },
+    {
+      "id": 19,
+      "part": "A",
+      "scene": "Teaches: πέραν, θηρίον — A wild beast is lurking across the river.",
+      "greekCaption": "θηρίον ἐστὶν πέραν τοῦ ποταμοῦ.",
+      "englishCaption": "A wild beast is across the river.",
+      "image": "story-images/ch2a/19.jpeg"
+    },
+    {
+      "id": 20,
+      "part": "A",
+      "scene": "Teaches: λύκος — The wolf is across the river. His eyes are intent.",
+      "greekCaption": "ὁ λύκος ἐστὶν πέραν τοῦ ποταμοῦ.",
+      "englishCaption": "The wolf is across the river.",
+      "image": "story-images/ch2a/20.jpeg"
+    },
+    {
+      "id": 21,
+      "part": "A",
+      "scene": "Teaches: πονηρός — The wolf is evil. He sees the small lamb.",
+      "greekCaption": "ὁ λύκος πονηρός ἐστιν. βλέπει τὸ μικρὸν ἀρνίον.",
+      "englishCaption": "The wolf is evil. He sees the small lamb.",
+      "image": "story-images/ch2a/21.jpeg"
+    },
+    {
+      "id": 22,
+      "part": "A",
+      "scene": "Teaches: οὐ … βλέπει, contrast μέγας ↔ μικρόν — He does not see the great ox; he sees the small lamb.",
+      "greekCaption": "οὐ βλέπει τὸν μέγαν βοῦν· βλέπει τὸ μικρὸν ἀρνίον.",
+      "englishCaption": "He does not see the great ox; he sees the small lamb.",
+      "image": "story-images/ch2a/22.jpeg"
+    },
+    {
+      "id": 23,
+      "part": "A",
+      "scene": "Teaches: φυλάσσω — The farmer stands guard between the river and the lamb. God guards the lamb.",
+      "greekCaption": "ὁ γεωργὸς φυλάσσει τὸ ἀρνίον. ὁ θεὸς φυλάσσει αὐτό.",
+      "englishCaption": "The farmer guards the lamb. God guards it.",
+      "image": "story-images/ch2a/23.jpeg"
+    },
+    {
+      "id": 24,
+      "part": "B",
+      "scene": "A peaceful day. The farmer rests outside his house while the animals graze beside the river.",
+      "greekCaption": "ἡμέρα καλή ἐστιν. ὁ γεωργὸς καθίζει ἔξω τοῦ οἴκου.",
+      "englishCaption": "It is a good day. The farmer sits outside his house.",
+      "image": "story-images/ch2b/3.jpeg"
+    },
+    {
+      "id": 25,
+      "part": "B",
+      "scene": "A wicked wolf lurks across the river in the tall grass, fixing his eyes on the lambs.",
+      "greekCaption": "ὁ λύκος πονηρός ἐστιν. θέλει ἁρπάζειν τὸ ἀρνίον.",
+      "englishCaption": "The wolf is wicked. He wants to seize the lamb.",
+      "image": "story-images/ch2b/4.jpeg"
+    },
+    {
+      "id": 26,
+      "part": "B",
+      "scene": "The wolf leaps across the river and charges toward the flock.",
+      "greekCaption": "ὁ λύκος τρέχει ταχέως καὶ βαίνει πέραν τοῦ ποταμοῦ.",
+      "englishCaption": "The wolf runs quickly and crosses over the river.",
+      "image": "story-images/ch2b/9.jpeg"
+    },
+    {
+      "id": 27,
+      "part": "B",
+      "scene": "The donkey cries out with a loud voice. The farmer hears and runs quickly to defend the flock.",
+      "greekCaption": "ὁ ὄνος κράζει μεγάλῃ φωνῇ. ὁ γεωργὸς ἀκούει καὶ τρέχει ταχέως.",
+      "englishCaption": "The donkey cries out with a loud voice. The farmer hears and runs quickly.",
+      "image": "story-images/ch2b/12.jpeg"
+    },
+    {
+      "id": 28,
+      "part": "B",
+      "scene": "The farmer shouts and throws stones at the wolf, commanding it to leave his field.",
+      "greekCaption": "ὁ γεωργὸς κράζει· Ὑπαγε ἀπὸ τοῦ ἀγροῦ! βάλλει λίθους εἰς τὸν λύκον.",
+      "englishCaption": "The farmer cries: 'Go away from the field!' He throws stones at the wolf.",
+      "image": "story-images/ch2b/17.jpeg"
+    },
+    {
+      "id": 29,
+      "part": "B",
+      "scene": "The wolf flees. The farmer saves the lamb and holds it tenderly. He gives thanks to the Lord.",
+      "greekCaption": "ὁ λύκος φεύγει. ὁ γεωργὸς σῴζει τὸ ἀρνίον. εὐχαριστεῖ τῷ κυρίῳ.",
+      "englishCaption": "The wolf flees. The farmer saves the lamb. He gives thanks to the Lord.",
+      "image": "story-images/ch2b/26.jpeg"
     }
   ]
 }
