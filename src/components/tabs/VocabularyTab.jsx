@@ -70,18 +70,28 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
       <div className={`flashcard ${flipped ? 'flashcard--flipped' : ''}`} onClick={handleFlip}>
         <div className="flashcard-inner">
           <div className="flashcard-front">
-            <div className="flashcard-hint">Tap to reveal</div>
-            {word.image && (
-              <img
-                src={`/vocab-images/${word.image}`}
-                alt={word.definition}
-                className="flashcard-image"
-              />
-            )}
-            <div className="flashcard-greek greek">{word.greek}</div>
-            <div className="flashcard-transliteration">{word.transliteration}</div>
-            {seen[word.id] > 0 && (
-              <div className="flashcard-seen-count">Seen {seen[word.id]}×</div>
+            {word.image ? (
+              <>
+                <div className="flashcard-strip flashcard-strip--top">
+                  <div className="flashcard-hint">Tap to reveal</div>
+                </div>
+                <img
+                  src={`/vocab-images/${word.image}`}
+                  alt={word.definition}
+                  className="flashcard-image"
+                />
+                <div className="flashcard-strip flashcard-strip--bottom">
+                  <div className="flashcard-greek greek">{word.greek}</div>
+                  {seen[word.id] > 0 && <div className="flashcard-seen-count-inline">Seen {seen[word.id]}×</div>}
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="flashcard-hint">Tap to reveal</div>
+                <div className="flashcard-greek greek">{word.greek}</div>
+                <div className="flashcard-transliteration">{word.transliteration}</div>
+                {seen[word.id] > 0 && <div className="flashcard-seen-count">Seen {seen[word.id]}×</div>}
+              </>
             )}
           </div>
           <div className="flashcard-back">

@@ -37,9 +37,9 @@
 .vocab-dot--seen { background: var(--blue); }
 .vocab-dot--active.vocab-dot--seen { background: var(--gold); }
 
-/* Flashcard */
+/* Flashcard — fade-based flip (avoids backface-visibility + img bugs) */
 .flashcard {
-  perspective: 1000px;
+  position: relative;
   cursor: pointer;
   height: 400px;
   user-select: none;
@@ -48,21 +48,12 @@
   position: relative;
   width: 100%;
   height: 100%;
-  transform-style: preserve-3d;
-  transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.flashcard--flipped .flashcard-inner { transform: rotateY(180deg); }
-
-/* Explicitly hide inactive face — backface-visibility fails when img is inside */
-.flashcard:not(.flashcard--flipped) .flashcard-back { visibility: hidden; }
-.flashcard--flipped .flashcard-front { visibility: hidden; }
 
 .flashcard-front,
 .flashcard-back {
   position: absolute;
   inset: 0;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
   border-radius: var(--radius);
   display: flex;
   flex-direction: column;
@@ -71,30 +62,44 @@
   gap: 10px;
   padding: 28px;
   box-shadow: var(--shadow-md);
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
+/* Front visible by default */
+.flashcard-front { opacity: 1; transform: scale(1); pointer-events: auto; }
+.flashcard-back  { opacity: 0; transform: scale(0.97); pointer-events: none; }
+
+/* Flipped: swap */
+.flashcard--flipped .flashcard-front { opacity: 0; transform: scale(0.97); pointer-events: none; }
+.flashcard--flipped .flashcard-back  { opacity: 1; transform: scale(1);    pointer-events: auto; }
 
 .flashcard-front {
   background: linear-gradient(135deg, var(--deep-blue) 0%, #2d4a7a 100%);
   color: #fff;
 }
+
+/* Image card layout: equal-height strips top + bottom, image fills middle */
 .flashcard-front:has(.flashcard-image) {
-  justify-content: flex-start;
   padding: 0;
-  gap: 6px;
+  gap: 0;
+  justify-content: flex-start;
+  overflow: hidden;
 }
-.flashcard-front:has(.flashcard-image) > *:not(.flashcard-image) {
-  padding-left: 20px;
-  padding-right: 20px;
+.flashcard-strip {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 0 20px;
+  height: 60px;
 }
-.flashcard-front:has(.flashcard-image) .flashcard-hint {
-  position: static;
-  margin-top: 8px;
-}
-.flashcard-front:has(.flashcard-image) .flashcard-seen-count {
-  position: static;
-  margin-top: auto;
-  padding-bottom: 8px;
-}
+.flashcard-strip--top  { order: 1; }
+.flashcard-image       { order: 2; width: 100%; flex: 1; object-fit: cover; object-position: center; }
+.flashcard-strip--bottom { order: 3; height: 60px; }
+.flashcard-strip .flashcard-hint  { position: static; opacity: 0.55; }
+.flashcard-strip .flashcard-greek { font-size: 1.8rem; }
+.flashcard-seen-count-inline { font-size: 0.72rem; color: var(--gold-light); opacity: 0.7; margin-left: 8px; }
 
 /* Vocabulary image — fills card top as a banner */
 .flashcard-image {
