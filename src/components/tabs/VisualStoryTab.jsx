@@ -13,7 +13,7 @@ export default function VisualStoryTab({ story }) {
   return (
     <div className="visual-tab">
       <div className="visual-header">
-        <h2>{story.title}</h2>
+        <h2 className="greek">{story.title}</h2>
         <p className="visual-subtitle">{story.subtitle}</p>
       </div>
 
