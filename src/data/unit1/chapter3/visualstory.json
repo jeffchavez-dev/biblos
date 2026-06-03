@@ -1,34 +1,214 @@
 {
-  "title": "Ἡ Ὀψία",
-  "subtitle": "Unit 1 Visual Story — The Evening",
+  "title": "Ἡ Ὀψία καὶ Ὁ Ὕπνος",
+  "subtitle": "Unit 1, Chapter 3 — The Evening and Sleep",
   "panels": [
     {
       "id": 1,
-      "scene": "The sun sets over the field. The weary farmer walks home along a dusty path, his tools resting on his shoulder.",
-      "greekCaption": "ὀψία ἐστίν. ὁ γεωργὸς ἐπιστρέφει ἀπὸ τοῦ ἀγροῦ.",
-      "englishCaption": "It is evening. The farmer returns from the field.",
-      "imageDescription": "A farmer walking home at sunset, silhouetted against the orange sky, carrying farming tools"
+      "part": "A",
+      "scene": "Teaches: ὀψία, μακρός, νύξ — Evening. The day is long, and the night is near.",
+      "greekCaption": "ὀψία ἐστίν. ἡ ἡμέρα μακρά ἐστιν. ἡ νὺξ ἐγγύς ἐστιν.",
+      "englishCaption": "It is evening. The day is long. The night is near.",
+      "image": "story-images/ch3a/1.jpeg"
     },
     {
       "id": 2,
-      "scene": "Inside his house, the farmer washes his hands and feet. The table is set with bread and wine.",
-      "greekCaption": "εἰσέρχεται εἰς τὴν οἰκίαν. ἡ τράπεζα ἑτοίμη ἐστίν.",
-      "englishCaption": "He enters the house. The table is ready.",
-      "imageDescription": "The interior of a simple home: a wooden table with bread and a clay cup of wine, a lamp casting warm light"
+      "part": "A",
+      "scene": "Teaches: ὤμος, ἐπί — The farmer carries the lamb on his shoulder.",
+      "greekCaption": "ὁ γεωργὸς φέρει τὸ ἀρνίον ἐπὶ τῷ ὤμῳ αὐτοῦ.",
+      "englishCaption": "The farmer carries the lamb on his shoulder.",
+      "image": "story-images/ch3a/2.jpeg"
     },
     {
       "id": 3,
-      "scene": "The farmer bows his head over the bread. His lips move in quiet prayer of thanks to God.",
-      "greekCaption": "λαμβάνει τὸν ἄρτον καὶ εὐχαριστεῖ τῷ θεῷ.",
-      "englishCaption": "He takes the bread and gives thanks to God.",
-      "imageDescription": "A man with bowed head, hands holding bread, eyes closed in prayer at a simple table"
+      "part": "A",
+      "scene": "Teaches: κοπιάω, ὅλος — The lamb is weary. It ran the whole day. (εἷς → πολλοί: one lamb amid many labors)",
+      "greekCaption": "τὸ ἀρνίον κοπιᾷ. ἔτρεχεν ὅλην τὴν ἡμέραν.",
+      "englishCaption": "The lamb is weary. It ran the whole day.",
+      "image": "story-images/ch3a/3.jpeg"
     },
     {
       "id": 4,
-      "scene": "Night falls. The farmer lights the lamp. Warm light fills the house. He rests peacefully, knowing God keeps watch.",
-      "greekCaption": "νύξ ἐστίν. ὁ θεὸς φυλάσσει αὐτόν. ἡ εἰρήνη τοῦ θεοῦ μένει ἐν τῇ καρδίᾳ αὐτοῦ.",
-      "englishCaption": "It is night. God watches over him. The peace of God abides in his heart.",
-      "imageDescription": "A lamp glowing on a windowsill at night, stars visible outside, the farmer resting peacefully within"
+      "part": "A",
+      "scene": "Teaches: ὁδός — The road leads toward the house. The farmer walks on the road.",
+      "greekCaption": "ὁ γεωργὸς βαδίζει ἐν τῇ ὁδῷ πρὸς τὸν οἶκον.",
+      "englishCaption": "The farmer walks on the road toward the house.",
+      "image": "story-images/ch3a/4.jpeg"
+    },
+    {
+      "id": 5,
+      "part": "A",
+      "scene": "Reinforces: ἀκολουθέω, ἐν τῇ ὁδῷ — The sheep follows the farmer on the road.",
+      "greekCaption": "τὸ πρόβατον ἀκολουθεῖ τῷ γεωργῷ ἐν τῇ ὁδῷ.",
+      "englishCaption": "The sheep follows the farmer on the road.",
+      "image": "story-images/ch3a/5.jpeg"
+    },
+    {
+      "id": 6,
+      "part": "A",
+      "scene": "Teaches: σελήνη, ἀνατέλλω — The moon rises in the sky. Stars begin to appear.",
+      "greekCaption": "ἡ σελήνη ἀνατέλλει ἐν τῷ οὐρανῷ.",
+      "englishCaption": "The moon rises in the sky.",
+      "image": "story-images/ch3a/6.jpeg"
+    },
+    {
+      "id": 7,
+      "part": "A",
+      "scene": "Reinforces: λάμπω, ἐπί — The moon shines on the field and on the river.",
+      "greekCaption": "ἡ σελήνη λάμπει ἐπὶ τὸν ἀγρὸν καὶ ἐπὶ τὸν ποταμόν.",
+      "englishCaption": "The moon shines on the field and on the river.",
+      "image": "story-images/ch3a/7.jpeg"
+    },
+    {
+      "id": 8,
+      "part": "A",
+      "scene": "Reinforces: βλέπω, χαίρω — The farmer sees the moon and rejoices.",
+      "greekCaption": "ὁ γεωργὸς βλέπει τὴν σελήνην καὶ χαίρει.",
+      "englishCaption": "The farmer sees the moon and rejoices.",
+      "image": "story-images/ch3a/8.jpeg"
+    },
+    {
+      "id": 9,
+      "part": "A",
+      "scene": "Teaches: ἥκω, ἔξω — The farmer arrives outside the house and sets the lamb down.",
+      "greekCaption": "ὁ γεωργὸς ἥκει ἔξω τοῦ οἴκου. τίθησιν τὸ ἀρνίον.",
+      "englishCaption": "The farmer arrives outside the house. He puts down the lamb.",
+      "image": "story-images/ch3a/9.jpeg"
+    },
+    {
+      "id": 10,
+      "part": "A",
+      "scene": "Reinforces: καταλείπω, ἔξω — He leaves his animals outside. They settle beside the house.",
+      "greekCaption": "καταλείπει τὰ ζῷα ἔξω τοῦ οἴκου.",
+      "englishCaption": "He leaves the animals outside the house.",
+      "image": "story-images/ch3a/10.jpeg"
+    },
+    {
+      "id": 11,
+      "part": "A",
+      "scene": "Teaches: ἀνοίγω, θύρα — He opens the door of the house.",
+      "greekCaption": "ἀνοίγει τὴν θύραν τοῦ οἴκου.",
+      "englishCaption": "He opens the door of the house.",
+      "image": "story-images/ch3a/11.jpeg"
+    },
+    {
+      "id": 12,
+      "part": "A",
+      "scene": "Teaches: μόνος — The farmer is alone in the house.",
+      "greekCaption": "ὁ γεωργὸς μόνος ἐστὶν ἐν τῷ οἴκῳ.",
+      "englishCaption": "The farmer is alone in the house.",
+      "image": "story-images/ch3a/12.jpeg"
+    },
+    {
+      "id": 13,
+      "part": "A",
+      "scene": "Teaches: σκοτία — Darkness in the house. He cannot see. He stretches out his hand.",
+      "greekCaption": "σκοτία ἐστὶν ἐν τῷ οἴκῳ. οὐ βλέπει.",
+      "englishCaption": "There is darkness in the house. He cannot see.",
+      "image": "story-images/ch3a/13.jpeg"
+    },
+    {
+      "id": 14,
+      "part": "A",
+      "scene": "Teaches: ζητέω — He seeks the lamp. He searches with his hands in the dark.",
+      "greekCaption": "ζητεῖ τὸν λύχνον. ψηλαφᾷ ἐν τῇ σκοτίᾳ.",
+      "englishCaption": "He seeks the lamp. He feels his way in the darkness.",
+      "image": "story-images/ch3a/14.jpeg"
+    },
+    {
+      "id": 15,
+      "part": "A",
+      "scene": "Teaches: λύχνος, τράπεζα — He finds the lamp on the table.",
+      "greekCaption": "εὑρίσκει τὸν λύχνον ἐπὶ τῆς τραπέζης.",
+      "englishCaption": "He finds the lamp on the table.",
+      "image": "story-images/ch3a/15.jpeg"
+    },
+    {
+      "id": 16,
+      "part": "A",
+      "scene": "Teaches: ἅπτω — He lights the lamp.",
+      "greekCaption": "ἅπτει τὸν λύχνον.",
+      "englishCaption": "He lights the lamp.",
+      "image": "story-images/ch3a/16.jpeg"
+    },
+    {
+      "id": 17,
+      "part": "A",
+      "scene": "Teaches: φῶς, οὐκέτι — Light! No longer darkness. The room glows warm.",
+      "greekCaption": "φῶς ἐστιν νῦν. οὐκέτι σκοτία ἐστίν.",
+      "englishCaption": "There is light now. There is no longer darkness.",
+      "image": "story-images/ch3a/17.jpeg"
+    },
+    {
+      "id": 18,
+      "part": "A",
+      "scene": "Reinforces: ἄρτος, καρπός, ἐπί — Bread and fruits are on the table. The lamp glows beside them.",
+      "greekCaption": "ἄρτος καὶ καρπὸς ἐπὶ τῆς τραπέζης εἰσίν.",
+      "englishCaption": "Bread and fruit are on the table.",
+      "image": "story-images/ch3a/18.jpeg"
+    },
+    {
+      "id": 19,
+      "part": "A",
+      "scene": "Teaches: καθέδρα — The farmer sits down on the chair beside the table.",
+      "greekCaption": "ὁ γεωργὸς καθίζει ἐπὶ τὴν καθέδραν.",
+      "englishCaption": "The farmer sits down on the chair.",
+      "image": "story-images/ch3a/19.jpeg"
+    },
+    {
+      "id": 20,
+      "part": "A",
+      "scene": "Teaches: πολύς, χρόνος — Much time digging and carrying. He remembers the long day.",
+      "greekCaption": "πολὺν χρόνον ἔσκαπτεν καὶ ἔφερεν.",
+      "englishCaption": "He dug and carried for a long time.",
+      "image": "story-images/ch3a/20.jpeg"
+    },
+    {
+      "id": 21,
+      "part": "A",
+      "scene": "Reinforces: ἐσθίω — He eats the bread and the fruits by lamplight.",
+      "greekCaption": "ἐσθίει τὸν ἄρτον καὶ τοὺς καρπούς.",
+      "englishCaption": "He eats the bread and the fruits.",
+      "image": "story-images/ch3a/21.jpeg"
+    },
+    {
+      "id": 22,
+      "part": "A",
+      "scene": "Reinforces: λάμπω, φῶς, σελήνη — The lamp shines inside; the moon shines outside.",
+      "greekCaption": "ὁ λύχνος λάμπει ἐν τῷ οἴκῳ· ἡ σελήνη λάμπει ἔξω.",
+      "englishCaption": "The lamp shines in the house; the moon shines outside.",
+      "image": "story-images/ch3a/22.jpeg"
+    },
+    {
+      "id": 23,
+      "part": "A",
+      "scene": "Teaches: σφόδρα, κοπιάω — He is exceedingly weary. He can hardly keep his eyes open.",
+      "greekCaption": "σφόδρα κοπιᾷ. οὐκέτι δύναται καθίζειν.",
+      "englishCaption": "He is exceedingly weary. He can no longer sit.",
+      "image": "story-images/ch3a/23.jpeg"
+    },
+    {
+      "id": 24,
+      "part": "A",
+      "scene": "Teaches: ἔτι — He is still in the chair, but he rises to go to the bed.",
+      "greekCaption": "ἔτι κάθηται, ἀλλ᾽ ἐγείρεται πρὸς τὴν κλίνην.",
+      "englishCaption": "He is still sitting, but he rises toward the bed.",
+      "image": "story-images/ch3a/24.jpeg"
+    },
+    {
+      "id": 25,
+      "part": "A",
+      "scene": "Teaches: κλίνη — The bed in the house.",
+      "greekCaption": "κλίνη ἐστὶν ἐν τῷ οἴκῳ.",
+      "englishCaption": "There is a bed in the house.",
+      "image": "story-images/ch3a/25.jpeg"
+    },
+    {
+      "id": 26,
+      "part": "A",
+      "scene": "Teaches: καθεύδω — The farmer sleeps on the bed. The lamp glows softly.",
+      "greekCaption": "ὁ γεωργὸς καθεύδει ἐπὶ τῆς κλίνης.",
+      "englishCaption": "The farmer sleeps on the bed.",
+      "image": "story-images/ch3a/26.jpeg"
     }
   ]
 }
