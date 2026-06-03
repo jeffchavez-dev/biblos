@@ -41,7 +41,7 @@
 .flashcard {
   perspective: 1000px;
   cursor: pointer;
-  height: 340px;
+  height: 400px;
   user-select: none;
 }
 .flashcard-inner {
@@ -95,7 +95,7 @@
 /* Vocabulary image — fills card top as a banner */
 .flashcard-image {
   width: 100%;
-  height: 190px;
+  height: 260px;
   object-fit: cover;
   object-position: center top;
   border-radius: var(--radius) var(--radius) 0 0;
@@ -199,6 +199,8 @@
 .word-row-num { color: var(--grey); width: 20px; flex-shrink: 0; font-size: 0.8rem; }
 .word-row-greek { font-size: 1.05rem; color: var(--deep-blue); font-weight: 500; min-width: 100px; }
 .word-row-def { flex: 1; color: var(--ink); }
+.word-row-def--hidden { opacity: 0; pointer-events: none; filter: blur(4px); transition: opacity 0.2s, filter 0.2s; }
+.word-row-def--visible { opacity: 1; filter: none; transition: opacity 0.2s, filter 0.2s; }
 .word-row-seen { color: var(--green); font-size: 0.75rem; font-weight: 600; margin-left: auto; }
 
 .empty-tab {

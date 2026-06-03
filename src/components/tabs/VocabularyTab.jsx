@@ -114,7 +114,7 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
             >
               <span className="word-row-num">{i + 1}</span>
               <span className="word-row-greek greek">{w.greek}</span>
-              <span className="word-row-def">{w.definition}</span>
+              <span className={`word-row-def ${i === index ? 'word-row-def--visible' : 'word-row-def--hidden'}`}>{w.definition}</span>
               {seen[w.id] > 0 && <span className="word-row-seen">{seen[w.id]}×</span>}
             </div>
           ))}
