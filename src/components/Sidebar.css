@@ -164,3 +164,68 @@
   font-style: italic;
   opacity: 0.7;
 }
+
+/* Vocabulary index footer link */
+.sidebar-footer {
+  border-top: 1px solid rgba(255,255,255,0.12);
+  padding: 12px 10px;
+  margin-top: auto;
+  flex-shrink: 0;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-nav {
+  flex: 1;
+  overflow-y: auto;
+}
+.vocab-index-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255,255,255,0.07);
+  color: rgba(255,255,255,0.85);
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s;
+}
+.vocab-index-link:hover {
+  background: rgba(255,255,255,0.13);
+  color: #fff;
+}
+.vocab-index-link--active {
+  background: rgba(201,168,76,0.22) !important;
+  color: var(--gold-light) !important;
+}
+.vocab-index-link-icon {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+.vocab-index-link-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  flex: 1;
+}
+.vocab-index-link-text .greek {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+.vocab-index-link-sub {
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+.vocab-index-link-count {
+  background: var(--gold, #c9a84c);
+  color: var(--deep-blue);
+  font-size: 0.72rem;
+  font-weight: 800;
+  border-radius: 12px;
+  padding: 2px 8px;
+  flex-shrink: 0;
+}

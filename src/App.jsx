@@ -1,14 +1,28 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Sidebar from './components/Sidebar.jsx'
 import ChapterView from './components/ChapterView.jsx'
+import VocabularyIndex from './components/VocabularyIndex.jsx'
 import units from './data/units.json'
 import './App.css'
+
+const VOCAB_SOURCES = [
+  () => import('./data/unit1/chapter1/vocabulary.json'),
+  () => import('./data/unit1/chapter2/vocabulary.json'),
+  () => import('./data/unit1/chapter3/vocabulary.json'),
+]
 
 export default function App() {
   const [selectedUnit, setSelectedUnit] = useState(1)
   const [selectedChapter, setSelectedChapter] = useState(1)
   const [activePart, setActivePart] = useState('A')
   const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [showVocabIndex, setShowVocabIndex] = useState(false)
+  const [totalWords, setTotalWords] = useState(0)
+
+  useEffect(() => {
+    Promise.all(VOCAB_SOURCES.map(fn => fn().then(m => m.default)))
+      .then(results => setTotalWords(results.reduce((sum, arr) => sum + arr.length, 0)))
+  }, [])
 
   const currentUnit = units.find(u => u.id === selectedUnit)
   const currentChapter = currentUnit?.chapters.find(c => c.id === selectedChapter)
@@ -18,11 +32,21 @@ export default function App() {
     setSelectedUnit(unitId)
     setSelectedChapter(chapterId)
     setActivePart('A')
+    setShowVocabIndex(false)
     setSidebarOpen(false)
   }
 
   function handlePartSelect(partId) {
     setActivePart(partId)
+    setShowVocabIndex(false)
+    setSidebarOpen(false)
+  }
+
+  function handleVocabIndexNavigate(unitId, chapterId, part) {
+    setSelectedUnit(unitId)
+    setSelectedChapter(chapterId)
+    setActivePart(part)
+    setShowVocabIndex(false)
     setSidebarOpen(false)
   }
 
@@ -54,6 +78,9 @@ export default function App() {
           onPartSelect={handlePartSelect}
           open={sidebarOpen}
           onClose={() => setSidebarOpen(false)}
+          totalWords={totalWords}
+          onVocabIndex={() => { setShowVocabIndex(true); setSidebarOpen(false) }}
+          showingVocabIndex={showVocabIndex}
         />
 
         {sidebarOpen && (
@@ -61,7 +88,9 @@ export default function App() {
         )}
 
         <main className="main-content">
-          {isLocked ? (
+          {showVocabIndex ? (
+            <VocabularyIndex onNavigate={handleVocabIndexNavigate} />
+          ) : isLocked ? (
             <LockedView />
           ) : (
             <ChapterView

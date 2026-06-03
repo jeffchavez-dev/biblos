@@ -1,0 +1,120 @@
+.vocab-index {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+}
+
+/* Header */
+.vocab-index-header {
+  margin-bottom: 24px;
+}
+.vocab-index-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 4px;
+}
+.vocab-index-title-row h2 {
+  font-size: 1.8rem;
+  color: var(--deep-blue);
+  margin: 0;
+}
+.vocab-index-count {
+  font-size: 0.85rem;
+  color: var(--grey);
+  background: var(--bg-subtle, #f0f0f0);
+  border-radius: 20px;
+  padding: 2px 10px;
+}
+.vocab-index-subtitle {
+  font-size: 0.85rem;
+  color: var(--grey);
+  margin: 0 0 16px;
+}
+
+/* Sort toggle */
+.vocab-index-sort {
+  display: flex;
+  gap: 8px;
+}
+.sort-btn {
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1.5px solid var(--deep-blue);
+  background: transparent;
+  color: var(--deep-blue);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.sort-btn--active {
+  background: var(--deep-blue);
+  color: #fff;
+}
+.sort-btn:hover:not(.sort-btn--active) {
+  background: var(--deep-blue);
+  color: #fff;
+  opacity: 0.85;
+}
+
+/* Table */
+.vocab-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+.vocab-table thead tr {
+  border-bottom: 2px solid var(--deep-blue);
+}
+.vocab-table th {
+  text-align: left;
+  padding: 8px 12px 8px 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--grey);
+}
+.vt-row-even {
+  background: #f8f8fb;
+}
+.vocab-table td {
+  padding: 9px 12px 9px 4px;
+  vertical-align: middle;
+  border-bottom: 1px solid #eee;
+}
+.vt-greek {
+  font-size: 1.05rem;
+  color: var(--deep-blue);
+  min-width: 200px;
+}
+.vt-english {
+  color: #444;
+}
+.vt-source {
+  width: 72px;
+  text-align: center;
+}
+.vt-source-btn {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  border: 1.5px solid var(--gold, #c9a84c);
+  background: transparent;
+  color: var(--deep-blue);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.vt-source-btn:hover {
+  background: var(--gold, #c9a84c);
+  color: #fff;
+}
+
+.vocab-index-loading {
+  color: var(--grey);
+  padding: 40px 0;
+  text-align: center;
+}

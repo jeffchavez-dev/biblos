@@ -1,6 +1,6 @@
 import './Sidebar.css'
 
-export default function Sidebar({ units, selectedUnit, selectedChapter, activePart, onSelect, onPartSelect, open, onClose }) {
+export default function Sidebar({ units, selectedUnit, selectedChapter, activePart, onSelect, onPartSelect, open, onClose, totalWords, onVocabIndex, showingVocabIndex }) {
   return (
     <aside className={`sidebar ${open ? 'sidebar--open' : ''}`}>
       <div className="sidebar-header">
@@ -52,6 +52,22 @@ export default function Sidebar({ units, selectedUnit, selectedChapter, activePa
           </div>
         ))}
       </nav>
+
+      <div className="sidebar-footer">
+        <button
+          className={`vocab-index-link ${showingVocabIndex ? 'vocab-index-link--active' : ''}`}
+          onClick={onVocabIndex}
+        >
+          <span className="vocab-index-link-icon">📖</span>
+          <span className="vocab-index-link-text">
+            <span className="greek">Λεξικόν</span>
+            <span className="vocab-index-link-sub">All Vocabulary</span>
+          </span>
+          {totalWords > 0 && (
+            <span className="vocab-index-link-count">{totalWords}</span>
+          )}
+        </button>
+      </div>
     </aside>
   )
 }
