@@ -9,6 +9,8 @@ const VOCAB_SOURCES = [
   () => import('./data/unit1/chapter1/vocabulary.json'),
   () => import('./data/unit1/chapter2/vocabulary.json'),
   () => import('./data/unit1/chapter3/vocabulary.json'),
+  () => import('./data/unit2/chapter4/vocabulary.json'),
+  () => import('./data/unit2/chapter5/vocabulary.json'),
 ]
 
 export default function App() {

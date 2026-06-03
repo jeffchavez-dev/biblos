@@ -1,16 +1,17 @@
 import { useState, useEffect } from 'react'
 import './VocabularyIndex.css'
 
-// All vocab sources in lesson order, with their display label
+// All vocab sources in lesson order
 const SOURCES = [
   { file: () => import('../data/unit1/chapter1/vocabulary.json'), unit: 1, chapter: 1 },
   { file: () => import('../data/unit1/chapter2/vocabulary.json'), unit: 1, chapter: 2 },
   { file: () => import('../data/unit1/chapter3/vocabulary.json'), unit: 1, chapter: 3 },
+  { file: () => import('../data/unit2/chapter4/vocabulary.json'), unit: 2, chapter: 4 },
+  { file: () => import('../data/unit2/chapter5/vocabulary.json'), unit: 2, chapter: 5 },
 ]
 
-function sourceLabel(unit, chapter, part) {
-  const partNum = part === 'A' ? 1 : 2
-  return `${unit === 1 ? '' : unit}${chapter}.${partNum}`.replace(/^\./, '')
+function sourceLabel(chapter, part) {
+  return `${chapter}.${part === 'A' ? 1 : 2}`
 }
 
 export default function VocabularyIndex({ onNavigate }) {
@@ -26,8 +27,7 @@ export default function VocabularyIndex({ onNavigate }) {
             ...w,
             unit,
             chapter,
-            source: sourceLabel(unit, chapter, w.part),
-            // sort key for lesson order: chapter * 10 + (A=1, B=2)
+            source: sourceLabel(chapter, w.part),
             lessonOrder: chapter * 10 + (w.part === 'A' ? 1 : 2),
           }))
         )
