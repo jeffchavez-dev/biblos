@@ -23,9 +23,18 @@ export default defineConfig({
         ]
       },
       workbox: {
-        // Cache all app assets for full offline use
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,woff,woff2}'],
+        globPatterns: ['**/*.{js,css,html,ico,svg,woff,woff2}', 'vocab-images/*.jpeg'],
+        globIgnores: ['vocab-images/*.png'],
         runtimeCaching: [
+          {
+            urlPattern: /\/vocab-images\/.*\.png$/i,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'vocab-images-cache',
+              expiration: { maxEntries: 200, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
           {
             // Cache Google Fonts stylesheet
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
