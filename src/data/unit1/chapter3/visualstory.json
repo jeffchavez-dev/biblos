@@ -209,6 +209,246 @@
       "greekCaption": "ὁ γεωργὸς καθεύδει ἐπὶ τῆς κλίνης.",
       "englishCaption": "The farmer sleeps on the bed.",
       "image": "story-images/ch3a/26.jpeg"
+    },
+    {
+      "id": 27,
+      "part": "B",
+      "scene": "Teaches: ὕπνος — The farmer sleeps. The lamp still shines; the moon is outside.",
+      "greekCaption": "ὁ γεωργὸς καθεύδει. ὁ ὕπνος αὐτοῦ εἰρηνικός ἐστιν.",
+      "englishCaption": "The farmer sleeps. His sleep is peaceful.",
+      "image": "story-images/ch3b/1.jpeg"
+    },
+    {
+      "id": 28,
+      "part": "B",
+      "scene": "Teaches: ὕπνος (dream) — Sleep. He enters a dream. The field is hazy and strange.",
+      "greekCaption": "ἐν τῷ ὕπνῳ βλέπει τὸν ἀγρόν.",
+      "englishCaption": "In his sleep he sees the field.",
+      "image": "story-images/ch3b/2.jpeg"
+    },
+    {
+      "id": 29,
+      "part": "B",
+      "scene": "Teaches: εἷς, πολύς — One stone, then many stones. The field is full of great stones.",
+      "greekCaption": "εἷς λίθος — πολλοὶ λίθοι. ὁ ἀγρὸς πλήρης λίθων ἐστίν.",
+      "englishCaption": "One stone — many stones. The field is full of stones.",
+      "image": "story-images/ch3b/3.jpeg"
+    },
+    {
+      "id": 30,
+      "part": "B",
+      "scene": "Teaches: πρῶτος — The farmer lifts the first stone.",
+      "greekCaption": "αἴρει τὸν πρῶτον λίθον.",
+      "englishCaption": "He lifts the first stone.",
+      "image": "story-images/ch3b/4.jpeg"
+    },
+    {
+      "id": 31,
+      "part": "B",
+      "scene": "Teaches: δεύτερος — He lifts the second stone. Many more remain.",
+      "greekCaption": "αἴρει τὸν δεύτερον λίθον. πολλοὶ δὲ ἔτι μένουσιν.",
+      "englishCaption": "He lifts the second stone. But many still remain.",
+      "image": "story-images/ch3b/5.jpeg"
+    },
+    {
+      "id": 32,
+      "part": "B",
+      "scene": "Reinforces: πολύς — Many stones still remain. He can barely make a dent.",
+      "greekCaption": "πολλοὶ λίθοι ἔτι μένουσιν ἐν τῷ ἀγρῷ.",
+      "englishCaption": "Many stones still remain in the field.",
+      "image": "story-images/ch3b/6.jpeg"
+    },
+    {
+      "id": 33,
+      "part": "B",
+      "scene": "Teaches: δυνατός, πᾶς — It is not possible to lift all the stones.",
+      "greekCaption": "οὐ δυνατόν ἐστιν αἴρειν πάντας τοὺς λίθους.",
+      "englishCaption": "It is not possible to lift all the stones.",
+      "image": "story-images/ch3b/7.jpeg"
+    },
+    {
+      "id": 34,
+      "part": "B",
+      "scene": "Teaches: στενάζω — He grows weary and groans among the stones.",
+      "greekCaption": "κοπιᾷ σφόδρα καὶ στενάζει.",
+      "englishCaption": "He is exceedingly weary and groans.",
+      "image": "story-images/ch3b/8.jpeg"
+    },
+    {
+      "id": 35,
+      "part": "B",
+      "scene": "Teaches: ποῦ — Where is the lamb? Where is the sheep? He looks around frantically.",
+      "greekCaption": "ποῦ ἐστιν τὸ ἀρνίον; ποῦ ἐστιν τὸ πρόβατον;",
+      "englishCaption": "Where is the lamb? Where is the sheep?",
+      "image": "story-images/ch3b/9.jpeg"
+    },
+    {
+      "id": 36,
+      "part": "B",
+      "scene": "Reinforces: φεύγω, ἀπό — The sheep flee from the farmer into the distance.",
+      "greekCaption": "τὰ πρόβατα φεύγουσιν ἀπὸ τοῦ γεωργοῦ.",
+      "englishCaption": "The sheep flee from the farmer.",
+      "image": "story-images/ch3b/10.jpeg"
+    },
+    {
+      "id": 37,
+      "part": "B",
+      "scene": "Reinforces: λύκος (plural), πέραν, ἰδού — Behold! Many wolves across the river.",
+      "greekCaption": "ἰδού! πολλοὶ λύκοι εἰσὶν πέραν τοῦ ποταμοῦ.",
+      "englishCaption": "Behold! Many wolves are across the river.",
+      "image": "story-images/ch3b/11.jpeg"
+    },
+    {
+      "id": 38,
+      "part": "B",
+      "scene": "Teaches: διαβαίνω — The wolves are about to cross over the river.",
+      "greekCaption": "οἱ λύκοι μέλλουσιν διαβαίνειν τὸν ποταμόν.",
+      "englishCaption": "The wolves are about to cross over the river.",
+      "image": "story-images/ch3b/12.jpeg"
+    },
+    {
+      "id": 39,
+      "part": "B",
+      "scene": "Reinforces: ταχέως, φωνή — He cannot run quickly; his voice is small. A nightmare.",
+      "greekCaption": "οὐ δύναται τρέχειν ταχέως. ἡ φωνὴ αὐτοῦ μικρά ἐστιν.",
+      "englishCaption": "He cannot run quickly. His voice is small.",
+      "image": "story-images/ch3b/13.jpeg"
+    },
+    {
+      "id": 40,
+      "part": "B",
+      "scene": "Teaches: φόβος — Great fear takes him. His eyes are wide, his face pale.",
+      "greekCaption": "φόβος μέγας λαμβάνει αὐτόν.",
+      "englishCaption": "Great fear takes him.",
+      "image": "story-images/ch3b/14.jpeg"
+    },
+    {
+      "id": 41,
+      "part": "B",
+      "scene": "Teaches: ἐξαίφνης — Suddenly outside the house — many doors! A surreal dream shift.",
+      "greekCaption": "ἐξαίφνης ἔξω τοῦ οἴκου ἐστίν. πολλαὶ θύραι εἰσίν.",
+      "englishCaption": "Suddenly he is outside the house. There are many doors.",
+      "image": "story-images/ch3b/15.jpeg"
+    },
+    {
+      "id": 42,
+      "part": "B",
+      "scene": "Teaches: θαυμάζω — He wonders at the doors. Which one is his?",
+      "greekCaption": "θαυμάζει τὰς θύρας. ποία ἐστὶν ἡ θύρα αὐτοῦ;",
+      "englishCaption": "He wonders at the doors. Which is his door?",
+      "image": "story-images/ch3b/16.jpeg"
+    },
+    {
+      "id": 43,
+      "part": "B",
+      "scene": "Reinforces: πρῶτος, σκοτία, ἀνοίγω — He opens the first door — darkness.",
+      "greekCaption": "ἀνοίγει τὴν πρώτην θύραν — σκοτία.",
+      "englishCaption": "He opens the first door — darkness.",
+      "image": "story-images/ch3b/17.jpeg"
+    },
+    {
+      "id": 44,
+      "part": "B",
+      "scene": "Teaches: πανταχοῦ — He opens the second door — darkness everywhere.",
+      "greekCaption": "ἀνοίγει τὴν δευτέραν θύραν — σκοτία πανταχοῦ.",
+      "englishCaption": "He opens the second door — darkness everywhere.",
+      "image": "story-images/ch3b/18.jpeg"
+    },
+    {
+      "id": 45,
+      "part": "B",
+      "scene": "Teaches: τρίτος — Finally he opens the third door and walks in.",
+      "greekCaption": "τέλος ἀνοίγει τὴν τρίτην θύραν καὶ εἰσέρχεται.",
+      "englishCaption": "Finally he opens the third door and enters.",
+      "image": "story-images/ch3b/19.jpeg"
+    },
+    {
+      "id": 46,
+      "part": "B",
+      "scene": "Teaches: ἔσω — Inside the house, he seeks the lamp. All is dark.",
+      "greekCaption": "ἔσω τοῦ οἴκου ζητεῖ τὸν λύχνον. σκοτία ἐστίν.",
+      "englishCaption": "Inside the house he seeks the lamp. It is dark.",
+      "image": "story-images/ch3b/20.jpeg"
+    },
+    {
+      "id": 47,
+      "part": "B",
+      "scene": "Teaches: πίπτω — He falls because he cannot see the way.",
+      "greekCaption": "πίπτει ὅτι οὐ βλέπει τὴν ὁδόν.",
+      "englishCaption": "He falls because he cannot see the way.",
+      "image": "story-images/ch3b/21.jpeg"
+    },
+    {
+      "id": 48,
+      "part": "B",
+      "scene": "Teaches: ὡς — The animals sit on the chairs like (ὡς) men. A surreal dream vision.",
+      "greekCaption": "τὰ ζῷα κάθηνται ἐπὶ τῶν καθεδρῶν ὡς ἄνθρωποι.",
+      "englishCaption": "The animals sit on the chairs like men.",
+      "image": "story-images/ch3b/22.jpeg"
+    },
+    {
+      "id": 49,
+      "part": "B",
+      "scene": "Reinforces: θαυμάζω — The farmer wonders greatly and stares at the animals.",
+      "greekCaption": "ὁ γεωργὸς θαυμάζει σφόδρα καὶ βλέπει τὰ ζῷα.",
+      "englishCaption": "The farmer wonders greatly and looks at the animals.",
+      "image": "story-images/ch3b/23.jpeg"
+    },
+    {
+      "id": 50,
+      "part": "B",
+      "scene": "Reinforces: λέγω, φωνή — The donkey speaks: 'We want to eat the fruits and the bread.'",
+      "greekCaption": "ὁ ὄνος λέγει· θέλομεν ἐσθίειν τοὺς καρποὺς καὶ τοὺς ἄρτους.",
+      "englishCaption": "The donkey says: 'We want to eat the fruits and the bread.'",
+      "image": "story-images/ch3b/24.jpeg"
+    },
+    {
+      "id": 51,
+      "part": "B",
+      "scene": "Teaches: τίς — 'What are you saying? For you are an animal!'",
+      "greekCaption": "τί λέγεις; ζῷον γὰρ εἶ!",
+      "englishCaption": "'What are you saying? For you are an animal!'",
+      "image": "story-images/ch3b/25.jpeg"
+    },
+    {
+      "id": 52,
+      "part": "B",
+      "scene": "Reinforces: ἀνοίγω, οὐ δυνατόν — He cannot open the door. He pushes but it will not move.",
+      "greekCaption": "οὐ δύναται ἀνοίγειν τὴν θύραν.",
+      "englishCaption": "He cannot open the door.",
+      "image": "story-images/ch3b/26.jpeg"
+    },
+    {
+      "id": 53,
+      "part": "B",
+      "scene": "Reinforces: κράζω, φωνή μεγάλη — He cries out: 'I do not want this!'",
+      "greekCaption": "κράζει μεγάλῃ φωνῇ· οὐ θέλω!",
+      "englishCaption": "He cries out with a great voice: 'I do not want this!'",
+      "image": "story-images/ch3b/27.jpeg"
+    },
+    {
+      "id": 54,
+      "part": "B",
+      "scene": "Teaches: ἐγείρω — His own voice wakes him. He sits up suddenly in bed.",
+      "greekCaption": "ἡ φωνὴ αὐτοῦ ἐγείρει αὐτόν. ἐξαίφνης ἀνίσταται.",
+      "englishCaption": "His voice wakes him. He suddenly sits up.",
+      "image": "story-images/ch3b/28.jpeg"
+    },
+    {
+      "id": 55,
+      "part": "B",
+      "scene": "Teaches: ὀφθαλμός — He opens his eyes and looks around at his house.",
+      "greekCaption": "ἀνοίγει τοὺς ὀφθαλμοὺς αὐτοῦ καὶ βλέπει τὸν οἶκον.",
+      "englishCaption": "He opens his eyes and looks at his house.",
+      "image": "story-images/ch3b/29.jpeg"
+    },
+    {
+      "id": 56,
+      "part": "B",
+      "scene": "Reinforces: ζητέω, ἔξω, ἰδού — He looks outside. Behold — his animals rest peacefully.",
+      "greekCaption": "ζητεῖ τὰ ζῷα. ἰδού — ἔξω ἡσυχάζουσιν.",
+      "englishCaption": "He seeks his animals. Behold — they rest peacefully outside.",
+      "image": "story-images/ch3b/30.jpeg"
     }
   ]
 }

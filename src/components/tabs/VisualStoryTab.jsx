@@ -14,7 +14,11 @@ export default function VisualStoryTab({ story, activePart }) {
     ? story.panels.filter(p => !p.part || p.part === activePart)
     : story.panels
 
-  const current = panels[panel] ?? panels[0]
+  if (!panels.length) {
+    return <div className="empty-tab">🎨 Visual story for this part has not been added yet.</div>
+  }
+
+  const current = panels[Math.min(panel, panels.length - 1)]
 
   return (
     <div className="visual-tab">
