@@ -123,7 +123,7 @@
         {"greek": "τὸν", "definition": "the"},
         {"greek": "καρπὸν", "definition": "fruit"},
         {"greek": "καὶ", "definition": "and"},
-        {"greek": "χαίρει.", "definition": "rejoices"}
+        {"greek": "χαίρει·", "definition": "rejoices"}
       ],
       "translation": "There is fruit. The farmer eats the fruit and rejoices."
     },
@@ -208,7 +208,7 @@
         {"greek": "γεωργὸς", "definition": "farmer"},
         {"greek": "λέγει·", "definition": "says"},
         {"greek": "«γεωργὸς", "definition": "a farmer"},
-        {"greek": "μέν", "definition": "on the one hand (μέν...δέ)"},
+        {"greek": "μὲν", "definition": "on the one hand (μέν...δέ)"},
         {"greek": "εἰμι.", "definition": "I am"},
         {"greek": "ἀγαθὸς", "definition": "good"},
         {"greek": "καὶ", "definition": "and"},
