@@ -73,6 +73,30 @@
   background: linear-gradient(135deg, var(--deep-blue) 0%, #2d4a7a 100%);
   color: #fff;
 }
+.flashcard-front:has(.flashcard-image) {
+  justify-content: flex-start;
+  padding: 0;
+  gap: 12px;
+}
+.flashcard-front:has(.flashcard-image) .flashcard-hint {
+  position: static;
+  order: 2;
+  font-size: 0.68rem;
+  opacity: 0.5;
+  margin-top: 2px;
+}
+.flashcard-front:has(.flashcard-image) .flashcard-greek {
+  order: 3;
+}
+.flashcard-front:has(.flashcard-image) .flashcard-transliteration {
+  order: 4;
+}
+.flashcard-front:has(.flashcard-image) .flashcard-seen-count {
+  order: 5;
+  position: static;
+  margin-top: auto;
+  padding-bottom: 12px;
+}
 .flashcard-back {
   background: linear-gradient(135deg, #fff 0%, var(--parchment) 100%);
   color: var(--ink);
@@ -82,12 +106,13 @@
 
 /* Vocabulary image on flashcard front */
 .flashcard-image {
-  width: 180px;
-  height: 180px;
+  width: calc(100% + 56px);
+  margin-left: -28px;
+  margin-right: -28px;
+  margin-top: -28px;
+  height: 220px;
   object-fit: cover;
-  border-radius: 12px;
-  border: 2px solid rgba(255, 255, 255, 0.25);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  border-radius: var(--radius) var(--radius) 0 0;
   flex-shrink: 0;
 }
 
