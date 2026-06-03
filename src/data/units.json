@@ -52,6 +52,16 @@
           {"id": "A", "label": "Μέρος Αʹ", "subtitle": "Ὁ Φίλος"},
           {"id": "B", "label": "Μέρος Βʹ", "subtitle": "Οἱ Γεωργοί"}
         ]
+      },
+      {
+        "id": 5,
+        "title": "Κεφάλαιον Εʹ",
+        "subtitle": "Ὁ Ἰησοῦς — Jesus",
+        "locked": false,
+        "parts": [
+          {"id": "A", "label": "Μέρος Αʹ", "subtitle": "Ὁ Ἰησοῦς"},
+          {"id": "B", "label": "Μέρος Βʹ", "subtitle": "Ὁ Ἰησοῦς;"}
+        ]
       }
     ]
   }

@@ -1,0 +1,314 @@
+{
+  "title": "Grammar — Κεφάλαιον Εʹ (Jesus)",
+  "parts": [
+    {
+      "label": "Μέρος Αʹ — Ὁ Ἰησοῦς",
+      "sections": [
+        {
+          "id": 1,
+          "heading": "1. The Present Subjunctive — form",
+          "content": "The subjunctive mood expresses possibility, purpose, condition, or indefinite time — anything less certain than a plain statement of fact (indicative). The present subjunctive is formed by lengthening the thematic vowel: -ω → -ω (1st sg.), -ει → -ῃ (3rd sg.), -ουσι → -ωσι (3rd pl.). The key marker is the long vowel -ω- / -η- throughout. Contract verbs lengthen their contracted vowel further.",
+          "table": {
+            "caption": "Present subjunctive — λύω (regular)",
+            "headers": ["Person", "Active Singular", "Active Plural"],
+            "rows": [
+              ["1st", "λύω", "λύωμεν"],
+              ["2nd", "λύῃς", "λύητε"],
+              ["3rd", "λύῃ", "λύωσι(ν)"]
+            ]
+          },
+          "examples": [
+            {"greek": "ἵνα ἀντλῇ τὸ ὕδωρ", "note": "so that she may draw the water (3rd sg. subj.)"},
+            {"greek": "ἵνα πίνῃ", "note": "so that he may drink (3rd sg. subj.)"},
+            {"greek": "ἵνα γινώσκωμεν αὐτόν", "note": "so that we may know him (1st pl. subj.)"}
+          ]
+        },
+        {
+          "id": 2,
+          "heading": "2. ἵνα + subjunctive — purpose clauses",
+          "content": "ἵνα (\"in order that, so that\") introduces a purpose clause and always takes the subjunctive — never the indicative. This is one of the most common constructions in the New Testament Greek tradition. The subject of the purpose clause may differ from the subject of the main verb.",
+          "examples": [
+            {"greek": "ἔρχεται ἵνα ἀντλῇ τὸ ὕδωρ", "note": "she comes in order to draw the water"},
+            {"greek": "παρέχει ὕδωρ τῷ Ἰακώβῳ ἵνα πίνῃ", "note": "she provides water to Jacob so that he may drink"},
+            {"greek": "ὁ Ἰησοῦς βούλεται ἵνα ἡμεῖς γινώσκωμεν αὐτόν", "note": "Jesus wants us to know him"}
+          ]
+        },
+        {
+          "id": 3,
+          "heading": "3. ἐάν + subjunctive — conditional clauses",
+          "content": "ἐάν (= εἰ + ἄν) introduces a conditional clause with the subjunctive when the condition is possible or open (not yet determined). The main clause uses the indicative. This is the \"third-class\" condition in Greek: the outcome is uncertain but possible.",
+          "table": {
+            "caption": "ἐάν structure",
+            "headers": ["Clause", "Mood", "Example"],
+            "rows": [
+              ["Condition (if…)", "Subjunctive", "ἐὰν κλῆμα μένῃ ἐν τῇ ἀμπέλῳ"],
+              ["Result (then…)", "Indicative", "φέρει πολὺν καρπόν"]
+            ]
+          },
+          "examples": [
+            {"greek": "ἐὰν κλῆμα μένῃ ἐν τῇ ἀμπέλῳ, φέρει καρπόν", "note": "if a branch remains in the vine, it bears fruit"},
+            {"greek": "ἐὰν ἀγαπῶμεν ἀλλήλους, ὁ θεὸς ἐν ἡμῖν μένει", "note": "if we love one another, God remains in us"},
+            {"greek": "ἐὰν ἄνθρωπος προσκυνῇ τῷ θεῷ ἐν πνεύματι, ὁ θεὸς ἀκούει αὐτοῦ", "note": "if a person worships God in spirit, God hears him"}
+          ]
+        },
+        {
+          "id": 4,
+          "heading": "4. ὅταν + subjunctive — indefinite temporal clauses",
+          "content": "ὅταν (= ὅτε + ἄν) means \"whenever\" — it introduces a temporal clause expressing indefinite, repeated, or future time. Like ἐάν, it always takes the subjunctive. Compare ὅτε (\"when,\" definite past event) + indicative vs. ὅταν (\"whenever,\" general) + subjunctive.",
+          "examples": [
+            {"greek": "ὅταν ἄνθρωπος πεινᾷ, ἐσθίει ἄρτον", "note": "whenever a person is hungry, he eats bread"},
+            {"greek": "ὅταν διψᾷ, πίνει ὕδωρ", "note": "whenever he is thirsty, he drinks water"},
+            {"greek": "ὅταν ἀγαπῶμεν ἀλλήλους, μένομεν ἐν τῇ ἀγάπῃ", "note": "whenever we love one another, we remain in love"}
+          ]
+        },
+        {
+          "id": 5,
+          "heading": "5. The relative pronoun ὅς, ἥ, ὅ",
+          "content": "The relative pronoun (\"who, which, that\") agrees with its antecedent in gender and number, but takes its case from its own clause. It declines like the article with an initial rough breathing: ὅς (masc. nom. sg.), ἥ (fem. nom. sg.), ὅ (neut. nom. sg.).",
+          "table": {
+            "caption": "ὅς, ἥ, ὅ — selected forms",
+            "headers": ["Case", "Masculine", "Feminine", "Neuter"],
+            "rows": [
+              ["Nom.", "ὅς", "ἥ", "ὅ"],
+              ["Gen.", "οὗ", "ἧς", "οὗ"],
+              ["Dat.", "ᾧ", "ᾗ", "ᾧ"],
+              ["Acc.", "ὅν", "ἥν", "ὅ"]
+            ]
+          },
+          "examples": [
+            {"greek": "ὁ θεός, ὅς ἐστιν ὁ πατήρ", "note": "God, who is the Father (masc. nom.)"},
+            {"greek": "ἡ ἄμπελος, ἥ ἐστιν ἐγγὺς τῆς πηγῆς", "note": "the vine, which is near the spring (fem. nom.)"},
+            {"greek": "ἡ ἀγάπη αὐτοῦ, ἥ ἐστιν μεγάλη", "note": "his love, which is great"}
+          ]
+        },
+        {
+          "id": 6,
+          "heading": "6. ὅστις — the indefinite relative pronoun",
+          "content": "ὅστις (\"whoever, anyone who\") is a compound of ὅς + τις. It is more general or indefinite than ὅς: where ὅς refers to a specific antecedent, ὅστις refers to any member of a class. In the New Testament it often functions like ὅς.",
+          "examples": [
+            {"greek": "ὅστις πίνει τοῦτο τὸ ὕδωρ οὐκέτι διψᾷ", "note": "whoever drinks this water will no longer be thirsty"},
+            {"greek": "ὅστις πιστεύει τῷ Ἰησοῦ καὶ πιστεύει τῷ θεῷ", "note": "whoever believes in Jesus also believes in God"},
+            {"greek": "ὅστις ἔρχεται πρὸς αὐτὸν οὐκέτι πεινᾷ", "note": "whoever comes to him will no longer be hungry"}
+          ]
+        },
+        {
+          "id": 7,
+          "heading": "7. πιστεύω and προσκυνέω + dative",
+          "content": "Both πιστεύω (believe) and προσκυνέω (worship) take the dative for the object of their action, not the accusative. This is the dative of personal relationship. Compare: ἀγαπῶ τὸν θεόν (accusative) vs. πιστεύω τῷ θεῷ (dative). English says \"believe in God\" but Greek says \"believe to/toward God\" with the dative.",
+          "examples": [
+            {"greek": "πιστεύω τῷ θεῷ", "note": "I believe in God (dat.)"},
+            {"greek": "πιστεύω τῷ Ἰησοῦ", "note": "I believe in Jesus (dat.)"},
+            {"greek": "προσκυνοῦμεν αὐτῷ ἐν πνεύματι", "note": "we worship him in spirit (dat.)"}
+          ]
+        },
+        {
+          "id": 8,
+          "heading": "8. The dative of means/instrument",
+          "content": "The dative without a preposition can express the means or instrument by which something is done. This is already familiar from the dative of manner; here it is used with body/spirit: τῷ σώματι (\"with/by the body\") and τῷ πνεύματι (\"with/by the spirit\").",
+          "examples": [
+            {"greek": "τῷ σώματι ἡμεῖς ἐσθίομεν καὶ πίνομεν", "note": "with the body we eat and drink"},
+            {"greek": "τῷ πνεύματι ἡμεῖς γινώσκομεν τὸν θεόν", "note": "with/by the spirit we know God"},
+            {"greek": "σιγᾷ τῷ στόματι", "note": "she is silent with her mouth"}
+          ]
+        },
+        {
+          "id": 9,
+          "heading": "9. τις, τι — the indefinite pronoun/adjective",
+          "content": "τις (masculine/feminine) and τι (neuter) mean \"a certain one, someone, something.\" As an adjective it follows the noun: γυνή τις = \"a certain woman.\" As a pronoun it stands alone: ἐάν τις λέγῃ = \"if anyone says.\" It is always enclitic (clings to the preceding word for accent) and has no rough breathing.",
+          "examples": [
+            {"greek": "γυνή τις ἀπὸ τῆς κώμης", "note": "a certain woman from the village"},
+            {"greek": "ἐάν τις λέγῃ ὅτι ἀγαπῶ τὸν θεόν", "note": "if anyone says that he loves God"}
+          ]
+        },
+        {
+          "id": 10,
+          "heading": "10. ἀλλήλους — the reciprocal pronoun",
+          "content": "ἀλλήλους means \"one another, each other.\" It has no nominative (you cannot be the subject and object of a reciprocal action at the same time). It declines in the plural only and is used frequently with verbs of love, greeting, and mutual action.",
+          "table": {
+            "caption": "ἀλλήλων — declension (plural only, no nominative)",
+            "headers": ["Case", "M./F.", "Neuter"],
+            "rows": [
+              ["Gen.", "ἀλλήλων", "ἀλλήλων"],
+              ["Dat.", "ἀλλήλοις / -αις", "ἀλλήλοις"],
+              ["Acc.", "ἀλλήλους / -άς", "ἄλληλα"]
+            ]
+          },
+          "examples": [
+            {"greek": "ὀφείλομεν ἀγαπᾶν ἀλλήλους", "note": "we ought to love one another"},
+            {"greek": "ἐὰν ἀγαπῶμεν ἀλλήλους", "note": "if we love one another"}
+          ]
+        },
+        {
+          "id": 11,
+          "heading": "11. χωρίς + genitive — \"without\"",
+          "content": "χωρίς takes the genitive and means \"without, apart from, separated from.\" It is used here in the vine-branch illustration to show that a branch apart from the vine is powerless.",
+          "examples": [
+            {"greek": "χωρὶς τῆς ἀμπέλου τὸ κλῆμα οὐδέν ἐστιν", "note": "without the vine the branch is nothing"},
+            {"greek": "χωρὶς αὐτοῦ οὐ δυνάμεθα φέρειν καρπόν", "note": "without him we are not able to bear fruit"}
+          ]
+        },
+        {
+          "id": 12,
+          "heading": "12. εἰ μή — \"except, unless\"",
+          "content": "εἰ μή is literally \"if not\" but functions as an exception expression: \"except, unless, but only.\" It is very common in the New Testament.",
+          "examples": [
+            {"greek": "οὐδεὶς ἔρχεται πρὸς τὸν θεὸν εἰ μὴ δι᾽ αὐτοῦ", "note": "no one comes to God except through him"},
+            {"greek": "οὐ μόνον… ἀλλά", "note": "not only… but also (related contrast pattern)"}
+          ]
+        },
+        {
+          "id": 13,
+          "heading": "13. οὐδείς / οὐδέν and compound negatives",
+          "content": "οὐδείς (no one) and οὐδέν (nothing) are compound negatives formed from οὐδέ + εἷς/ἕν. When a sentence already has οὐ/μή, adding οὐδέ or οὐδείς strengthens the negation rather than canceling it (unlike English double negatives). Greek piles up negatives for emphasis.",
+          "examples": [
+            {"greek": "οὐδεὶς ἔρχεται πρὸς τὸν θεόν", "note": "no one comes to God"},
+            {"greek": "τὸ κλῆμα οὐδέν ἐστιν", "note": "the branch is nothing"},
+            {"greek": "οὐκ ἔχω ὑδρίαν οὐδὲ πιστεύω", "note": "I do not have a jar, nor do I believe"}
+          ]
+        },
+        {
+          "id": 14,
+          "heading": "14. The -μα noun cluster in this chapter",
+          "content": "Chapter 5 introduces a remarkable cluster of -μα nouns, all 3rd declension neuters with the -ματ- stem in oblique cases. Recognizing this pattern allows you to decline any new -μα word automatically.",
+          "table": {
+            "caption": "New -μα nouns in Chapter 5",
+            "headers": ["Nominative", "Genitive", "Meaning"],
+            "rows": [
+              ["στόμα", "στόματος", "mouth"],
+              ["πνεῦμα", "πνεύματος", "spirit"],
+              ["βρῶμα", "βρώματος", "food"],
+              ["πόμα", "πώματος", "drink"],
+              ["ῥῆμα", "ῥήματος", "word, saying"],
+              ["θέλημα", "θελήματος", "will"],
+              ["κλῆμα", "κλήματος", "branch"]
+            ]
+          },
+          "examples": [
+            {"greek": "ἐν τῷ πνεύματι καὶ τῇ ἀληθείᾳ", "note": "in spirit and truth (dat. sg.)"},
+            {"greek": "τὰ ῥήματα ταῦτα", "note": "these words (nom. pl.)"}
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Μέρος Βʹ — Ὁ Ἰησοῦς;",
+      "sections": [
+        {
+          "id": 15,
+          "heading": "15. μι-verbs — introduction (τίθημι, δίδωμι, ἀφίημι, δείκνυμι)",
+          "content": "A small but extremely common group of Greek verbs uses -μι endings rather than the -ω thematic conjugation. They are called μι-verbs. Their 3rd-person singular present active ends in -σι(ν) rather than -ει, and their stems often show vowel alternation (long in singular, short in plural). The four μι-verbs in this chapter are among the most frequent in the New Testament.",
+          "table": {
+            "caption": "Key μι-verb forms in Chapter 5B",
+            "headers": ["Verb", "Meaning", "3rd Sg. Pres.", "3rd Pl. Pres."],
+            "rows": [
+              ["τίθημι", "I place/lay down", "τίθησιν", "τιθέασιν"],
+              ["δίδωμι", "I give", "δίδωσιν", "διδόασιν"],
+              ["ἀφίημι", "I forgive/release", "ἀφίησιν", "ἀφιᾶσιν"],
+              ["δείκνυμι", "I show", "δείκνυσιν", "δεικνύασιν"]
+            ]
+          },
+          "examples": [
+            {"greek": "ὁ ποιμὴν τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν προβάτων", "note": "the shepherd lays down his life for the sheep"},
+            {"greek": "ὁ θεὸς δίδωσιν τὸν υἱὸν αὐτοῦ ἡμῖν", "note": "God gives his Son to us"},
+            {"greek": "ὁ θεὸς ἀφίησιν ἡμῖν τὰς ἁμαρτίας", "note": "God forgives us our sins"},
+            {"greek": "ὁ Ἰησοῦς δείκνυσιν ἡμῖν τὸ φῶς", "note": "Jesus shows us the light"}
+          ]
+        },
+        {
+          "id": 16,
+          "heading": "16. ζάω — a contract verb with special forms",
+          "content": "ζάω (I live) is a -άω contract verb, but it contracts in an unusual way. The 3rd-person singular is ζῇ (not ζᾷ as regular -άω verbs would give). This irregular form is extremely common in theological contexts.",
+          "table": {
+            "caption": "ζάω — present indicative (key forms)",
+            "headers": ["Person", "Singular", "Plural"],
+            "rows": [
+              ["1st", "ζῶ", "ζῶμεν"],
+              ["2nd", "ζῇς", "ζῆτε"],
+              ["3rd", "ζῇ (irregular!)", "ζῶσιν"]
+            ]
+          },
+          "examples": [
+            {"greek": "ὅστις πιστεύει αὐτῷ ζῇ", "note": "whoever believes in him lives"},
+            {"greek": "ζῇ εἰς τὸν αἰῶνα", "note": "he lives forever"}
+          ]
+        },
+        {
+          "id": 17,
+          "heading": "17. ὑπέρ + genitive — \"on behalf of, for\"",
+          "content": "ὑπέρ with the genitive means \"on behalf of, for the sake of.\" It expresses substitution or representation. This is a key theological preposition in the New Testament, used to describe Christ's death on behalf of others.",
+          "examples": [
+            {"greek": "ὁ ποιμὴν τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν προβάτων", "note": "the shepherd lays down his life on behalf of the sheep"},
+            {"greek": "ὁ Ἰησοῦς τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ ἡμῶν", "note": "Jesus lays down his life on behalf of us"}
+          ]
+        },
+        {
+          "id": 18,
+          "heading": "18. εἰς τὸν αἰῶνα — \"forever\"",
+          "content": "εἰς τὸν αἰῶνα is literally \"into the age\" but functions as an idiom meaning \"forever, eternally.\" The noun αἰών (age, eternity) gives us the adjective αἰώνιος (eternal). Both appear in this chapter.",
+          "examples": [
+            {"greek": "ὅστις πιστεύει αὐτῷ οὐκέτι διψᾷ εἰς τὸν αἰῶνα", "note": "whoever believes in him will never thirst forever"},
+            {"greek": "ζῇ εἰς τὸν αἰῶνα", "note": "he lives into the age / forever"},
+            {"greek": "ζωὴν αἰώνιον", "note": "eternal life (adjective αἰώνιος from αἰών)"}
+          ]
+        },
+        {
+          "id": 19,
+          "heading": "19. ἑαυτούς — the reflexive pronoun",
+          "content": "ἑαυτόν / ἑαυτήν / ἑαυτό is the 3rd-person reflexive pronoun meaning \"himself, herself, itself, themselves, ourselves.\" It has no nominative (you cannot be the subject and object of reflexive action simultaneously). In the 1st and 2nd person, Greek often uses ἑαυτ- for all persons in colloquial usage.",
+          "examples": [
+            {"greek": "πλανῶμεν ἑαυτούς", "note": "we deceive ourselves (1st pl. reflexive)"},
+            {"greek": "ὁ ἄνθρωπος σῴζει ἑαυτόν", "note": "the person saves himself"}
+          ]
+        },
+        {
+          "id": 20,
+          "heading": "20. ποιμήν — a 3rd-declension noun with stem change",
+          "content": "ποιμήν (shepherd) is a 3rd-declension masculine noun. The nominative singular ends in -ήν but the stem is ποιμέν- in oblique cases. This accent shift and stem alternation is typical of this noun type.",
+          "table": {
+            "caption": "ποιμήν, -ένος, ὁ — key forms",
+            "headers": ["Case", "Singular", "Plural"],
+            "rows": [
+              ["Nom.", "ποιμήν", "ποιμένες"],
+              ["Gen.", "ποιμένος", "ποιμένων"],
+              ["Dat.", "ποιμένι", "ποιμέσι(ν)"],
+              ["Acc.", "ποιμένα", "ποιμένας"]
+            ]
+          },
+          "examples": [
+            {"greek": "ὁ ποιμὴν ὁ καλός", "note": "the good shepherd (nom.)"},
+            {"greek": "τὴν φωνὴν τοῦ ποιμένος", "note": "the voice of the shepherd (gen.)"},
+            {"greek": "βλέπει τὸν ποιμένα", "note": "he sees the shepherd (acc.)"}
+          ]
+        },
+        {
+          "id": 21,
+          "heading": "21. The good shepherd vs. the hireling — a structural contrast",
+          "content": "Jacob's speech uses the μέν…δέ contrast at a narrative level to compare two types: the good shepherd (ὁ ποιμὴν ὁ καλός) and the hireling (ὁ μισθωτός). This is a model of Greek antithetical parallelism — two persons described in contrasting terms.",
+          "examples": [
+            {"greek": "ὁ καλὸς ποιμὴν τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν προβάτων", "note": "positive: the good shepherd gives his life"},
+            {"greek": "ὁ μισθωτὸς… βλέπει τὸν λύκον καὶ φεύγει", "note": "negative: the hireling sees the wolf and flees"},
+            {"greek": "τοῦτο γίνεται ὅτι μισθωτός ἐστιν καὶ οὐ ἀγαπᾷ τὰ πρόβατα", "note": "reason given: he is hired and does not love the sheep"}
+          ]
+        },
+        {
+          "id": 22,
+          "heading": "22. ἀνάστασις — a 3rd-declension -σις noun",
+          "content": "ἀνάστασις (resurrection) belongs to the -σις type of 3rd-declension feminine nouns. The genitive is -εως (not -ος). This genitive in -εως is characteristic of this large and important class.",
+          "table": {
+            "caption": "ἀνάστασις, -εως, ἡ",
+            "headers": ["Case", "Singular"],
+            "rows": [
+              ["Nom.", "ἀνάστασις"],
+              ["Gen.", "ἀναστάσεως"],
+              ["Dat.", "ἀναστάσει"],
+              ["Acc.", "ἀνάστασιν"]
+            ]
+          },
+          "examples": [
+            {"greek": "ὁ Ἰησοῦς ἐστιν ἡ ἀνάστασις καὶ ἡ ζωή", "note": "Jesus is the resurrection and the life"}
+          ]
+        }
+      ]
+    }
+  ]
+}

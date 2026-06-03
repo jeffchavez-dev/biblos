@@ -1,0 +1,190 @@
+{
+  "title": "Ὁ Ἰησοῦς",
+  "subtitle": "Unit 2, Chapter 5 — Jesus",
+  "panels": [
+    {
+      "id": 1,
+      "part": "A",
+      "scene": "Teaches: γυνή τις, ὑδρία, ἵνα ἀντλῇ — A certain woman arrives at the spring with a water jar to draw water.",
+      "greekCaption": "γυνή τις ἔρχεται πρὸς τὴν πηγήν. ἔχει ὑδρίαν ἵνα ἀντλῇ τὸ ὕδωρ.",
+      "englishCaption": "A certain woman comes to the spring. She has a water jar to draw water.",
+      "image": "story-images/ch5a/1.jpeg"
+    },
+    {
+      "id": 2,
+      "part": "A",
+      "scene": "Teaches: ἄνερ (vocative), ἡμῖν, ὑμῖν — Jacob greets the woman and asks her to draw water for him and his donkey.",
+      "greekCaption": "ὁ Ἰάκωβος λέγει, \"διψῶ σφόδρα. ἆρα δύνασαι ἀντλεῖν ὕδωρ ἡμῖν;\" ἡ δὲ γυνή, \"δύναμαι ἀντλεῖν ὕδωρ ὑμῖν.\"",
+      "englishCaption": "Jacob says, \"I am very thirsty. Can you draw water for us?\" The woman says, \"I am able to draw water for you.\"",
+      "image": "story-images/ch5a/2.jpeg"
+    },
+    {
+      "id": 3,
+      "part": "A",
+      "scene": "Teaches: ἀντλέω, ἵνα πίνῃ — The woman draws water and provides it so that Jacob and the donkey may drink.",
+      "greekCaption": "ἡ γυνὴ ἀντλεῖ ὕδωρ καὶ παρέχει τῷ Ἰακώβῳ ἵνα πίνῃ. παρέχει καὶ τῷ ὄνῳ ἵνα καὶ αὐτὸς πίνῃ.",
+      "englishCaption": "The woman draws water and provides it to Jacob so that he may drink. She gives to the donkey too so that he also may drink.",
+      "image": "story-images/ch5a/3.jpeg"
+    },
+    {
+      "id": 4,
+      "part": "A",
+      "scene": "Teaches: στόμα, ὄνομα exchange — Jacob and the woman exchange names. She is Salome.",
+      "greekCaption": "ἡ γυνή, \"τί ὄνομά σοί ἐστιν;\" ὁ δέ, \"ὄνομά μοι Ἰάκωβος.\" ἡ δέ, \"τὸ ὄνομά μού ἐστιν Σαλώμη.\"",
+      "englishCaption": "The woman: \"What is your name?\" He: \"My name is Jacob.\" She: \"My name is Salome.\"",
+      "image": "story-images/ch5a/4.jpeg"
+    },
+    {
+      "id": 5,
+      "part": "A",
+      "scene": "Teaches: βρῶμα, πόμα, σῶμα, πνεῦμα — Jacob explains: bread and water feed the body, but there is also food and drink for the spirit.",
+      "greekCaption": "ὁ ἄρτος ἐστὶν βρῶμα τοῦ σώματος. τὸ ὕδωρ ἐστὶν πόμα τοῦ σώματος. ἀλλὰ ἔστιν καὶ βρῶμα καὶ πόμα τοῦ πνεύματος.",
+      "englishCaption": "Bread is food of the body. Water is drink of the body. But there is also food and drink of the spirit.",
+      "image": "story-images/ch5a/5.jpeg"
+    },
+    {
+      "id": 6,
+      "part": "A",
+      "scene": "Teaches: προσκυνέω, ἀλήθεια, πνεῦμα — God is spirit, not like the sun or earth. We worship him in spirit and truth.",
+      "greekCaption": "πνεῦμά ἐστιν ὁ θεός. ἡμεῖς προσκυνοῦμεν αὐτῷ ἐν τῷ πνεύματι καὶ τῇ ἀληθείᾳ.",
+      "englishCaption": "God is spirit. We worship him in spirit and in truth.",
+      "image": "story-images/ch5a/6.jpeg"
+    },
+    {
+      "id": 7,
+      "part": "A",
+      "scene": "Teaches: πιστεύω, υἱός, χριστός, χριστιανός — Jacob confesses: Jesus is the Son of God, the Christ. He believes, loves, and follows Jesus.",
+      "greekCaption": "ὁ Ἰάκωβος λέγει, \"ὁ Ἰησοῦς ἐστιν ὁ υἱὸς τοῦ θεοῦ καὶ ὁ χριστός. πιστεύω τῷ Ἰησοῦ καὶ ἀγαπῶ αὐτὸν καὶ ἀκολουθῶ αὐτῷ.\"",
+      "englishCaption": "Jacob says, \"Jesus is the Son of God and the Christ. I believe in Jesus, love him, and follow him.\"",
+      "image": "story-images/ch5a/7.jpeg"
+    },
+    {
+      "id": 8,
+      "part": "A",
+      "scene": "Teaches: ζωή, θάνατος, ὁδός — Jesus is the way, truth, and life. Two roads: one of life, one of death. Jesus is the way of life.",
+      "greekCaption": "ὁ Ἰησοῦς ἐστιν ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ ζωή. ὁδοὶ δύο εἰσί, μία τῆς ζωῆς καὶ μία τοῦ θανάτου.",
+      "englishCaption": "Jesus is the way and the truth and the life. There are two roads, one of life and one of death.",
+      "image": "story-images/ch5a/8.jpeg"
+    },
+    {
+      "id": 9,
+      "part": "A",
+      "scene": "Teaches: ἄμπελος, κλῆμα, χωρίς — Jacob sees the vine near the spring. A branch in the vine bears fruit; apart from it, nothing.",
+      "greekCaption": "βλέπει ἄμπελον ἐγγὺς τῆς πηγῆς. ἐὰν κλῆμα μένῃ ἐν τῇ ἀμπέλῳ, φέρει καρπόν. χωρὶς τῆς ἀμπέλου οὐδέν ἐστιν.",
+      "englishCaption": "He sees a vine near the spring. If a branch remains in the vine it bears fruit. Without the vine it is nothing.",
+      "image": "story-images/ch5a/9.jpeg"
+    },
+    {
+      "id": 10,
+      "part": "A",
+      "scene": "Teaches: ἀληθινός, πατήρ, μένωμεν — Jesus is the true vine, the Father is the farmer, Christians are the branches. If we remain in him we bear fruit.",
+      "greekCaption": "ὁ Ἰησοῦς ἐστιν ἡ ἄμπελος ἡ ἀληθινή. ὁ πατὴρ αὐτοῦ ἐστιν ὁ γεωργός. ἡμεῖς ἐσμὲν τὰ κλήματα.",
+      "englishCaption": "Jesus is the true vine. His Father is the farmer. We are the branches.",
+      "image": "story-images/ch5a/10.jpeg"
+    },
+    {
+      "id": 11,
+      "part": "A",
+      "scene": "Teaches: ἀγάπη, ἀλλήλους, ὀφείλω — God is love. We ought to love one another. Perfect love casts out fear.",
+      "greekCaption": "ὁ θεὸς ἀγάπη ἐστίν. ὀφείλομεν ἀγαπᾶν ἀλλήλους. ἡ τελεία ἀγάπη ἔξω βάλλει τὸν φόβον.",
+      "englishCaption": "God is love. We ought to love one another. Perfect love casts out fear.",
+      "image": "story-images/ch5a/11.jpeg"
+    },
+    {
+      "id": 12,
+      "part": "A",
+      "scene": "Teaches: ἐντολή, θέλημα, φίλος vs. δοῦλος, κύριος — The commandment: love one another. Jesus calls us friends, not servants.",
+      "greekCaption": "αὕτη ἐστὶν ἡ ἐντολή· ἵνα ἀγαπῶμεν ἀλλήλους. ὁ Ἰησοῦς καλεῖ ἡμᾶς φίλους, οὐ δούλους.",
+      "englishCaption": "This is the commandment: that we love one another. Jesus calls us friends, not servants.",
+      "image": "story-images/ch5a/12.jpeg"
+    },
+    {
+      "id": 13,
+      "part": "A",
+      "scene": "Teaches: σιγάω, ῥήματα, πλέον — Salome is silent but her heart is stirred. She wants to know more.",
+      "greekCaption": "ἡ Σαλώμη σιγᾷ τῷ στόματι· ἀλλὰ τὰ ῥήματα τοῦ Ἰακώβου ἐγείρει τὴν καρδίαν αὐτῆς. βούλεται γινώσκειν πλέον.",
+      "englishCaption": "Salome is silent with her mouth; but Jacob's words stir her heart. She wants to know more.",
+      "image": "story-images/ch5a/13.jpeg"
+    },
+    {
+      "id": 14,
+      "part": "B",
+      "scene": "Teaches: τίς ἐστιν οὗτος, πλέον — Salome finally speaks: who is this Jesus? She wants to know more.",
+      "greekCaption": "ἡ Σαλώμη λέγει, \"τίς ἐστιν οὗτος ὁ Ἰησοῦς; βούλομαι γινώσκειν πλέον.\"",
+      "englishCaption": "Salome says, \"Who is this Jesus? I want to know more.\"",
+      "image": "story-images/ch5b/1.jpeg"
+    },
+    {
+      "id": 15,
+      "part": "B",
+      "scene": "Teaches: εἰς τὸν αἰῶνα, ποτε οὐ πεινᾷ οὐδὲ διψᾷ — Whoever believes in Jesus will no longer hunger or thirst forever.",
+      "greekCaption": "ὅστις πιστεύει τῷ Ἰησοῦ οὐκέτι πεινᾷ οὐδὲ διψᾷ εἰς τὸν αἰῶνα.",
+      "englishCaption": "Whoever believes in Jesus will no longer be hungry nor thirsty forever.",
+      "image": "story-images/ch5b/2.jpeg"
+    },
+    {
+      "id": 16,
+      "part": "B",
+      "scene": "Teaches: ποιμήν, χόρτος, ψυχή, ἀκολουθέω — Jacob sees the shepherd and sheep. The sheep eat grass and follow the shepherd.",
+      "greekCaption": "ὁ ποιμὴν ἄγει τὰ πρόβατα. τὰ πρόβατα ἀκολουθεῖ αὐτῷ καὶ ἐσθίει τὸν χόρτον.",
+      "englishCaption": "The shepherd leads the sheep. The sheep follow him and eat the grass.",
+      "image": "story-images/ch5b/3.jpeg"
+    },
+    {
+      "id": 17,
+      "part": "B",
+      "scene": "Teaches: ὁ ποιμὴν ὁ καλός, τίθησιν ψυχήν, ὑπέρ, σῴζω — The good shepherd lays down his life for the sheep. He stays when the wolf comes and saves them.",
+      "greekCaption": "ὁ καλὸς ποιμὴν τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν προβάτων. οὐ φεύγει ὅταν ὁ λύκος ἔρχηται· σῴζει αὐτά.",
+      "englishCaption": "The good shepherd lays down his life for the sheep. He does not flee when the wolf comes; he saves them.",
+      "image": "story-images/ch5b/4.jpeg"
+    },
+    {
+      "id": 18,
+      "part": "B",
+      "scene": "Teaches: μισθωτός, φεύγω, ἁρπάζω, σκορπίζω — The hireling flees when the wolf comes. The wolf seizes and scatters the sheep.",
+      "greekCaption": "ὁ μισθωτὸς βλέπει τὸν λύκον καὶ φεύγει. ὁ οὖν λύκος ἁρπάζει τὰ πρόβατα καὶ σκορπίζει.",
+      "englishCaption": "The hireling sees the wolf and flees. The wolf seizes the sheep and scatters them.",
+      "image": "story-images/ch5b/5.jpeg"
+    },
+    {
+      "id": 19,
+      "part": "B",
+      "scene": "Teaches: θύρα, εἰσέρχομαι, ζωὴ αἰώνιος, σῴζω — Jesus is also the door of the sheep. Whoever enters through him is saved and has eternal life.",
+      "greekCaption": "ὁ Ἰησοῦς ἐστιν ἡ θύρα τῶν προβάτων. ὅστις εἰσέρχεται διὰ τοῦ Ἰησοῦ, ὁ Ἰησοῦς σῴζει. ἔχει ζωὴν αἰώνιον.",
+      "englishCaption": "Jesus is the door of the sheep. Whoever enters through Jesus, Jesus saves. He has eternal life.",
+      "image": "story-images/ch5b/6.jpeg"
+    },
+    {
+      "id": 20,
+      "part": "B",
+      "scene": "Teaches: ἁμαρτία, ὁμολογέω, ἀφίησιν, καθαρίζω, αἷμα — All people have sins. If we confess, God forgives and cleanses. The blood of Jesus cleanses from all sin.",
+      "greekCaption": "ἐὰν ὁμολογῶμεν τὰς ἁμαρτίας ἡμῶν, ὁ θεὸς ἀφίησιν ἡμῖν. τὸ αἷμα Ἰησοῦ καθαρίζει ἡμᾶς ἀπὸ πάσης ἁμαρτίας.",
+      "englishCaption": "If we confess our sins, God forgives us. The blood of Jesus cleanses us from all sin.",
+      "image": "story-images/ch5b/7.jpeg"
+    },
+    {
+      "id": 21,
+      "part": "B",
+      "scene": "Teaches: κόσμος, σκοτία, φαίνω, φωτίζω, κοινωνία — Jesus is the light of the world. He shines in darkness and enlightens all. Walking in the light means fellowship with God and one another.",
+      "greekCaption": "ὁ Ἰησοῦς ἐστιν τὸ φῶς τοῦ κόσμου. τὸ φῶς φαίνει ἐν τῇ σκοτίᾳ καὶ φωτίζει πάντα ἄνθρωπον. ἐν τῷ φωτὶ ἔχομεν κοινωνίαν.",
+      "englishCaption": "Jesus is the light of the world. The light shines in the darkness and enlightens every person. In the light we have fellowship.",
+      "image": "story-images/ch5b/8.jpeg"
+    },
+    {
+      "id": 22,
+      "part": "B",
+      "scene": "Teaches: ἀνάστασις, ζάω, δίδωμι, ἀποθνῄσκω — Jesus is the resurrection and the life. God gives his Son so that whoever believes may not die but have eternal life.",
+      "greekCaption": "ὁ Ἰησοῦς ἐστιν ἡ ἀνάστασις καὶ ἡ ζωή. ὁ θεὸς δίδωσιν τὸν υἱὸν αὐτοῦ ἵνα ὅστις πιστεύῃ μὴ ἀποθνῄσκῃ ἀλλὰ ἔχῃ ζωὴν αἰώνιον.",
+      "englishCaption": "Jesus is the resurrection and the life. God gives his Son so that whoever believes may not die but have eternal life.",
+      "image": "story-images/ch5b/9.jpeg"
+    },
+    {
+      "id": 23,
+      "part": "B",
+      "scene": "Teaches: παρά, ὕδωρ τῆς ζωῆς — Evening comes. Salome's jar sits beside the spring full of water. But she thinks about the water of life, not the jar.",
+      "greekCaption": "ἡ ὑδρία αὐτῆς ἔτι ἐστὶν παρὰ τὴν πηγήν. ἀλλὰ ἡ Σαλώμη μεριμνᾷ περὶ τοῦ ὕδατος τῆς ζωῆς.",
+      "englishCaption": "Her jar is still beside the spring. But Salome thinks about the water of life.",
+      "image": "story-images/ch5b/10.jpeg"
+    }
+  ]
+}

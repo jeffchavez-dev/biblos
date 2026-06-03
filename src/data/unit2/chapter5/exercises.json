@@ -1,0 +1,236 @@
+{
+  "trueFalse": [
+    {
+      "id": 1,
+      "statement": "The woman comes to the spring to draw water because she has a water jar.",
+      "answer": true,
+      "explanation": "Correct! ἔχει ὑδρίαν καὶ ἔρχεται ἵνα ἀντλῇ τὸ ὕδωρ — she has a water jar and comes in order to draw water. This is precisely what Jacob lacks."
+    },
+    {
+      "id": 2,
+      "statement": "Jacob says that God is a spirit and therefore must be worshipped with the body.",
+      "answer": false,
+      "explanation": "Jacob says the opposite: πνεῦμά ἐστιν ὁ θεός, καὶ ἡμεῖς προσκυνοῦμεν αὐτῷ ἐν τῷ πνεύματι καὶ τῇ ἀληθείᾳ — God is spirit, and we worship him in spirit and truth (not with the body)."
+    },
+    {
+      "id": 3,
+      "statement": "ἵνα always takes the subjunctive mood.",
+      "answer": true,
+      "explanation": "Correct! ἵνα is always followed by the subjunctive in this tradition. It introduces purpose clauses (so that, in order that) and never takes the indicative."
+    },
+    {
+      "id": 4,
+      "statement": "Salome already believes in Jesus when Jacob meets her.",
+      "answer": false,
+      "explanation": "Salome explicitly says: οὐ γινώσκω τὸν Ἰησοῦν οὐδὲ πιστεύω τῷ Ἰησοῦ — I do not know Jesus nor do I believe in Jesus. She knows the God of Abraham but not Jesus."
+    },
+    {
+      "id": 5,
+      "statement": "The relative pronoun ὅς agrees with its antecedent in gender, number, and case.",
+      "answer": false,
+      "explanation": "ὅς agrees with its antecedent in gender and number only — its case is determined by its function within its own clause. For example: ὁ θεός, ὅς ἐστιν ὁ πατήρ — ὅς is nominative because it is the subject of ἐστιν, not because θεός is nominative."
+    },
+    {
+      "id": 6,
+      "statement": "According to Jacob, a branch that remains in the vine cannot bear fruit.",
+      "answer": false,
+      "explanation": "The opposite: ἐὰν κλῆμα μένῃ ἐν τῇ ἀμπέλῳ, φέρει πολὺν καρπόν — if a branch remains in the vine, it bears much fruit. It is the branch separated from the vine that cannot bear fruit."
+    },
+    {
+      "id": 7,
+      "statement": "ὅταν takes the subjunctive because it refers to indefinite, repeated time.",
+      "answer": true,
+      "explanation": "Correct! ὅταν = ὅτε + ἄν, and the ἄν element signals indefiniteness, triggering the subjunctive: ὅταν ἄνθρωπος πεινᾷ — whenever a person is hungry. Compare definite ὅτε (when, at a specific past moment) + indicative."
+    },
+    {
+      "id": 8,
+      "statement": "Jacob says Jesus calls us servants rather than friends.",
+      "answer": false,
+      "explanation": "Jacob says: ὁ Ἰησοῦς καλεῖ ἡμᾶς φίλους — Jesus calls us friends, not servants. The servant does not know what his master does, but the friend knows."
+    }
+  ],
+  "multipleChoice": [
+    {
+      "id": 1,
+      "question": "What does ἐάν τις λέγῃ ὅτι ἀγαπῶ τὸν θεόν… mean?",
+      "options": [
+        "Anyone who says he loves God",
+        "If anyone says that he loves God",
+        "Whoever said that he loves God",
+        "When someone says I love God"
+      ],
+      "answer": 1,
+      "explanation": "ἐάν + subjunctive (λέγῃ) = if (conditional, open possibility). τις = \"anyone.\" ὅτι introduces indirect speech: \"that.\" The full phrase: \"If anyone says that 'I love God'…\" — setting up the contrast with hating one's brother."
+    },
+    {
+      "id": 2,
+      "question": "Why does Jacob use the dative τῷ θεῷ with πιστεύω rather than the accusative?",
+      "options": [
+        "Because πιστεύω is a deponent verb",
+        "Because πιστεύω governs the dative for the person trusted",
+        "Because θεός is always dative in religious contexts",
+        "Because the accusative τὸν θεόν would change the meaning to 'worship'"
+      ],
+      "answer": 1,
+      "explanation": "πιστεύω + dative = believe in / trust (a person). This is a lexical property: some Greek verbs take the dative where English uses a preposition ('believe in'). Compare ἀγαπῶ τὸν θεόν (acc.) = I love God, but πιστεύω τῷ θεῷ (dat.) = I believe/trust in God."
+    },
+    {
+      "id": 3,
+      "question": "What grammatical form is μένῃ in ἐὰν κλῆμα μένῃ?",
+      "options": [
+        "Present indicative, 3rd singular",
+        "Present subjunctive, 3rd singular",
+        "Present imperative, 3rd singular",
+        "Imperfect indicative, 3rd singular"
+      ],
+      "answer": 1,
+      "explanation": "μένῃ is the present subjunctive 3rd singular of μένω. The long η vowel (vs. indicative μένει with short ει) is the marker of the subjunctive. ἐάν always triggers the subjunctive."
+    },
+    {
+      "id": 4,
+      "question": "In the vine metaphor, who does Jesus, the vine, the farmer, and the branches represent?",
+      "options": [
+        "Jesus = vine, God = farmer, Christians = branches",
+        "Jesus = farmer, God = vine, disciples = branches",
+        "Jesus = branches, God = vine, Christians = farmer",
+        "Jesus = vine, disciples = farmer, God = branches"
+      ],
+      "answer": 0,
+      "explanation": "Jacob states explicitly: ὁ Ἰησοῦς ἐστιν ἡ ἄμπελος ἡ ἀληθινή (Jesus = the true vine), ὁ πατὴρ αὐτοῦ ἐστιν ὁ γεωργός (his Father = the farmer), ἡμεῖς οἱ χριστιανοὶ ἐσμὲν ὥσπερ τὰ κλήματα (we Christians = like the branches)."
+    },
+    {
+      "id": 5,
+      "question": "What does οὐδεὶς ἔρχεται πρὸς τὸν θεὸν εἰ μὴ δι᾽ αὐτοῦ mean?",
+      "options": [
+        "No one goes to God and through him",
+        "No one comes to God except through him",
+        "Someone comes to God only without him",
+        "No one knows God if not through himself"
+      ],
+      "answer": 1,
+      "explanation": "οὐδεὶς = no one; ἔρχεται = comes; εἰ μή = except; δι᾽ αὐτοῦ = through him (διά + genitive). The full sentence: \"No one comes to God except through him\" — a key Christological statement."
+    },
+    {
+      "id": 6,
+      "question": "What is the difference between ἡ τελεία ἀγάπη and ἡ ἀγάπη ἡ τελεία?",
+      "options": [
+        "One is attributive (modifying the noun directly), the other is predicative (asserting a quality)",
+        "They are identical in meaning and structure",
+        "The first means 'perfect love' and the second means 'the love is perfect'",
+        "Only the second form is grammatically correct"
+      ],
+      "answer": 2,
+      "explanation": "Both positions are attributive here (both mean 'perfect love'), but technically: the article-adjective-noun pattern (ἡ τελεία ἀγάπη) and article-noun-article-adjective (ἡ ἀγάπη ἡ τελεία) are both attributive. The predicative position (ἡ ἀγάπη τελεία, no second article) would mean 'the love is perfect.' This is an important adjective position distinction."
+    },
+    {
+      "id": 7,
+      "question": "Why does the story end with Salome wanting to know πλέον (more)?",
+      "options": [
+        "She has answered all of Jacob's questions",
+        "Jacob's words have stirred her heart and she is not yet satisfied",
+        "She wants more water from the spring",
+        "She disagrees with Jacob and wants to argue further"
+      ],
+      "answer": 1,
+      "explanation": "The closing line: σιγᾷ μὲν τῷ στόματι· ἀλλὰ τὰ ῥήματα τοῦ Ἰακώβου ἐγείρει τὴν καρδίαν αὐτῆς — she is silent with her mouth but Jacob's words stir her heart. This prepares for Part B of the story."
+    },
+    {
+      "id": 8,
+      "question": "What is the genitive of πνεῦμα?",
+      "options": ["πνεύμου", "πνεύματος", "πνεύμης", "πνεύματι"],
+      "answer": 1,
+      "explanation": "πνεῦμα is a 3rd-declension -μα noun: its stem is πνευματ-. The genitive singular adds -ος to the stem: πνεύματος. This follows the same pattern as all -μα nouns: σῶμα → σώματος, ὄνομα → ὀνόματος, ῥῆμα → ῥήματος."
+    },
+    {
+      "id": 9,
+      "question": "What does τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν προβάτων mean?",
+      "options": [
+        "He takes the life of the sheep",
+        "He lays down his life on behalf of the sheep",
+        "He places his soul under the sheep",
+        "He gives the sheep to his soul"
+      ],
+      "answer": 1,
+      "explanation": "τίθησιν = 3rd sg. of τίθημι (he places/lays down); τὴν ψυχήν = the life/soul (accusative); ὑπέρ + genitive = on behalf of; τῶν προβάτων = the sheep. Together: \"he lays down his life on behalf of the sheep.\" This is the key description of the good shepherd — and of Jesus."
+    },
+    {
+      "id": 10,
+      "question": "What is the key difference between the good shepherd and the hireling?",
+      "options": [
+        "The hireling has more sheep than the shepherd",
+        "The shepherd flees from the wolf; the hireling stays",
+        "The hireling does not love the sheep; the shepherd does",
+        "The shepherd is richer than the hireling"
+      ],
+      "answer": 2,
+      "explanation": "Jacob explains explicitly: τοῦτο γίνεται ὅτι μισθωτός ἐστιν καὶ οὐ ἀγαπᾷ τὰ πρόβατα — \"this happens because he is a hireling and does not love the sheep as the good shepherd does.\" The shepherd stays and lays down his life because he loves."
+    },
+    {
+      "id": 11,
+      "question": "What does εἰσέρχομαι mean, and what case does its object take with the compound preposition?",
+      "options": [
+        "I exit — + genitive",
+        "I enter — + accusative (with εἰς)",
+        "I return — + dative",
+        "I pass through — + genitive"
+      ],
+      "answer": 1,
+      "explanation": "εἰσέρχομαι = εἰς + ἔρχομαι = \"I enter, go in.\" It takes εἰς + accusative: εἰσέρχεται διὰ τοῦ Ἰησοῦ — he enters through Jesus. The compound meaning (going into) is carried by the εἰς prefix."
+    },
+    {
+      "id": 12,
+      "question": "Why are μι-verbs like τίθησιν and δίδωσιν recognizable as 3rd-person singular?",
+      "options": [
+        "They end in -ει like regular verbs",
+        "They end in -σι(ν) instead of the usual -ει",
+        "They have a reduplication in the stem",
+        "They always have an accent on the final syllable"
+      ],
+      "answer": 1,
+      "explanation": "The μι-verb 3rd-person singular active ends in -σι(ν): τίθησιν, δίδωσιν, ἀφίησιν, δείκνυσιν. Regular ω-verbs end in -ει: λύει, λέγει, φέρει. This -σιν ending is the key marker for identifying μι-verb 3rd singular forms."
+    },
+    {
+      "id": 13,
+      "question": "What does the ending of Chapter 5B reveal about Salome's inner state?",
+      "options": [
+        "She has decided to reject what Jacob said",
+        "She has forgotten about the water in her jar",
+        "She is now thinking about the water of life rather than her physical water jar",
+        "She is angry that evening has come before she could fill her jar"
+      ],
+      "answer": 2,
+      "explanation": "The final sentence draws a deliberate contrast: ἡ Σαλώμη οὐ μεριμνᾷ περὶ τοῦ ὕδατος τῆς ὑδρίας· μεριμνᾷ περὶ τοῦ ὕδατος τῆς ζωῆς — \"Salome does not think about the water of the jar; she thinks about the water of life.\" The physical jar is forgotten; the spiritual journey has begun."
+    },
+    {
+      "id": 14,
+      "question": "What does ἐὰν ὁμολογῶμεν τὰς ἁμαρτίας ἡμῶν express grammatically?",
+      "options": [
+        "A statement of fact — we always confess our sins",
+        "An open condition — if we confess (possible/future), then God forgives",
+        "A past event — when we confessed our sins",
+        "A command — we must confess our sins"
+      ],
+      "answer": 1,
+      "explanation": "ἐάν + subjunctive (ὁμολογῶμεν) is the open condition (3rd class): the outcome is possible but not certain. It says: IF we confess (something we may or may not do), THEN God forgives (the result). The subjunctive ὁμολογῶμεν is the key form marking this as a conditional."
+    },
+    {
+      "id": 15,
+      "question": "What three images does Jacob use to describe Jesus in Part B?",
+      "options": [
+        "The vine, the branch, the fruit",
+        "The bread, the shepherd, the light",
+        "The shepherd, the door, the resurrection",
+        "The bread of life, the good shepherd, the door — but also the light and the resurrection"
+      ],
+      "answer": 3,
+      "explanation": "Salome herself summarizes three (ὁ ἄρτος, ὁ ποιμήν, τὸ φῶς), and then asks about ζωή. Jacob also presents Jesus as ἡ θύρα τῶν προβάτων (the door of the sheep) and ἡ ἀνάστασις καὶ ἡ ζωή (the resurrection and the life). All five images appear in Part B."
+    },
+    {
+      "id": 16,
+      "question": "What is the accusative singular of ποιμήν?",
+      "options": ["ποιμήνα", "ποιμένος", "ποιμένα", "ποιμένι"],
+      "answer": 2,
+      "explanation": "ποιμήν uses the 3rd-declension stem ποιμέν-. The accusative singular is formed by adding -α to the stem: ποιμένα. From the text: βλέπει τὸν ποιμένα — \"he sees the shepherd.\" Note: the nominative lengthens to ποιμήν but the accent and vowel shorten in oblique cases."
+    }
+  ]
+}
