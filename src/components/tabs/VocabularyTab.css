@@ -41,7 +41,7 @@
 .flashcard {
   perspective: 1000px;
   cursor: pointer;
-  height: 320px;
+  height: 380px;
   user-select: none;
 }
 .flashcard-inner {
@@ -82,12 +82,12 @@
 
 /* Vocabulary image on flashcard front */
 .flashcard-image {
-  width: 90px;
-  height: 90px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 12px;
   border: 2px solid rgba(255, 255, 255, 0.25);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
   flex-shrink: 0;
 }
 
