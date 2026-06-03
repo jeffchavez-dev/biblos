@@ -53,6 +53,10 @@
 }
 .flashcard--flipped .flashcard-inner { transform: rotateY(180deg); }
 
+/* Explicitly hide inactive face — backface-visibility fails when img is inside */
+.flashcard:not(.flashcard--flipped) .flashcard-back { visibility: hidden; }
+.flashcard--flipped .flashcard-front { visibility: hidden; }
+
 .flashcard-front,
 .flashcard-back {
   position: absolute;
