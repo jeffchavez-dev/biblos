@@ -78,7 +78,7 @@ export default function ChapterView({ unitId, chapterId, activePart }) {
             {activeTab === 'vocabulary' && <VocabularyTab words={data.vocabulary} activePart={activePart} />}
             {activeTab === 'grammar'    && <GrammarTab grammar={data.grammar} activePart={activePart} />}
             {activeTab === 'exercises'  && <ExercisesTab exercises={data.exercises} />}
-            {activeTab === 'visual'     && <VisualStoryTab story={data.visualstory} />}
+            {activeTab === 'visual'     && <VisualStoryTab story={data.visualstory} activePart={activePart} />}
           </>
         )}
       </div>

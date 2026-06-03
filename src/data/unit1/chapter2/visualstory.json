@@ -189,50 +189,226 @@
     {
       "id": 24,
       "part": "B",
-      "scene": "A peaceful day. The farmer rests outside his house while the animals graze beside the river.",
-      "greekCaption": "ἡμέρα καλή ἐστιν. ὁ γεωργὸς καθίζει ἔξω τοῦ οἴκου.",
-      "englishCaption": "It is a good day. The farmer sits outside his house.",
-      "image": "story-images/ch2b/3.jpeg"
+      "scene": "Teaches: ἡμέρα, reinforces καλῶς — A beautiful day. The whole farm is peaceful.",
+      "greekCaption": "ἡμέρα καλή ἐστιν. ὁ ἥλιος λάμπει ἐν τῷ οὐρανῷ.",
+      "englishCaption": "It is a beautiful day. The sun shines in the sky.",
+      "image": "story-images/ch2b/1.jpeg"
     },
     {
       "id": 25,
       "part": "B",
-      "scene": "A wicked wolf lurks across the river in the tall grass, fixing his eyes on the lambs.",
-      "greekCaption": "ὁ λύκος πονηρός ἐστιν. θέλει ἁρπάζειν τὸ ἀρνίον.",
-      "englishCaption": "The wolf is wicked. He wants to seize the lamb.",
-      "image": "story-images/ch2b/4.jpeg"
+      "scene": "Teaches: ῥέω, καλῶς — The river flows well.",
+      "greekCaption": "ὁ ποταμὸς ῥεῖ καλῶς.",
+      "englishCaption": "The river flows well.",
+      "image": "story-images/ch2b/2.jpeg"
     },
     {
       "id": 26,
       "part": "B",
-      "scene": "The wolf leaps across the river and charges toward the flock.",
-      "greekCaption": "ὁ λύκος τρέχει ταχέως καὶ βαίνει πέραν τοῦ ποταμοῦ.",
-      "englishCaption": "The wolf runs quickly and crosses over the river.",
-      "image": "story-images/ch2b/9.jpeg"
+      "scene": "Teaches: ἔξω, ἡσυχάζω — The farmer sits outside the house and rests.",
+      "greekCaption": "ὁ γεωργὸς καθίζει ἔξω τοῦ οἴκου καὶ ἡσυχάζει.",
+      "englishCaption": "The farmer sits outside the house and rests.",
+      "image": "story-images/ch2b/3.jpeg"
     },
     {
       "id": 27,
       "part": "B",
-      "scene": "The donkey cries out with a loud voice. The farmer hears and runs quickly to defend the flock.",
-      "greekCaption": "ὁ ὄνος κράζει μεγάλῃ φωνῇ. ὁ γεωργὸς ἀκούει καὶ τρέχει ταχέως.",
-      "englishCaption": "The donkey cries out with a loud voice. The farmer hears and runs quickly.",
-      "image": "story-images/ch2b/12.jpeg"
+      "scene": "Reinforces: πέραν, βλέπει — The wolf stays across the river and watches.",
+      "greekCaption": "ὁ λύκος μένει πέραν τοῦ ποταμοῦ καὶ βλέπει.",
+      "englishCaption": "The wolf stays across the river and watches.",
+      "image": "story-images/ch2b/4.jpeg"
     },
     {
       "id": 28,
       "part": "B",
-      "scene": "The farmer shouts and throws stones at the wolf, commanding it to leave his field.",
-      "greekCaption": "ὁ γεωργὸς κράζει· Ὑπαγε ἀπὸ τοῦ ἀγροῦ! βάλλει λίθους εἰς τὸν λύκον.",
-      "englishCaption": "The farmer cries: 'Go away from the field!' He throws stones at the wolf.",
-      "image": "story-images/ch2b/17.jpeg"
+      "scene": "Teaches: θέλω, ἁρπάζω — The wolf wants to seize the lamb.",
+      "greekCaption": "ὁ λύκος θέλει ἁρπάζειν τὸ ἀρνίον.",
+      "englishCaption": "The wolf wants to seize the lamb.",
+      "image": "story-images/ch2b/5.jpeg"
     },
     {
       "id": 29,
       "part": "B",
-      "scene": "The wolf flees. The farmer saves the lamb and holds it tenderly. He gives thanks to the Lord.",
-      "greekCaption": "ὁ λύκος φεύγει. ὁ γεωργὸς σῴζει τὸ ἀρνίον. εὐχαριστεῖ τῷ κυρίῳ.",
-      "englishCaption": "The wolf flees. The farmer saves the lamb. He gives thanks to the Lord.",
+      "scene": "Reinforces: οὐ βλέπουσιν — The sheep and the lamb do not see the wolf.",
+      "greekCaption": "τὸ πρόβατον καὶ τὸ ἀρνίον οὐ βλέπουσιν τὸν λύκον.",
+      "englishCaption": "The sheep and the lamb do not see the wolf.",
+      "image": "story-images/ch2b/6.jpeg"
+    },
+    {
+      "id": 30,
+      "part": "B",
+      "scene": "Teaches: μέλλω, σῴζω — The farmer is about to save his animals.",
+      "greekCaption": "ὁ γεωργὸς μέλλει σῴζειν τὰ ζῷα αὐτοῦ.",
+      "englishCaption": "The farmer is about to save his animals.",
+      "image": "story-images/ch2b/7.jpeg"
+    },
+    {
+      "id": 31,
+      "part": "B",
+      "scene": "Teaches: καταλείπω, φεύγω — The good farmer does not abandon his animals and flee.",
+      "greekCaption": "ὁ γεωργὸς ἀγαθός ἐστιν. οὐ καταλείπει τὰ ζῷα καὶ οὐ φεύγει.",
+      "englishCaption": "The farmer is good. He does not abandon his animals and does not flee.",
+      "image": "story-images/ch2b/8.jpeg"
+    },
+    {
+      "id": 32,
+      "part": "B",
+      "scene": "Teaches: ἰδού, εἰς — Behold! The wolf runs into the river.",
+      "greekCaption": "ἰδού! ὁ λύκος τρέχει εἰς τὸν ποταμόν.",
+      "englishCaption": "Behold! The wolf runs into the river.",
+      "image": "story-images/ch2b/9.jpeg"
+    },
+    {
+      "id": 33,
+      "part": "B",
+      "scene": "Reinforces: ἐκ, εἰς — The wolf comes out of the river into the field.",
+      "greekCaption": "ὁ λύκος ἐκβαίνει ἐκ τοῦ ποταμοῦ εἰς τὸν ἀγρόν.",
+      "englishCaption": "The wolf comes out of the river into the field.",
+      "image": "story-images/ch2b/10.jpeg"
+    },
+    {
+      "id": 34,
+      "part": "B",
+      "scene": "Reinforces: ἐγγύς — The wolf is now near the lamb.",
+      "greekCaption": "ὁ λύκος ἐγγύς ἐστιν τοῦ ἀρνίου.",
+      "englishCaption": "The wolf is near the lamb.",
+      "image": "story-images/ch2b/11.jpeg"
+    },
+    {
+      "id": 35,
+      "part": "B",
+      "scene": "Teaches: κράζω — The donkey hears the wolf and cries out with a loud voice.",
+      "greekCaption": "ὁ ὄνος ἀκούει τὸν λύκον καὶ κράζει μεγάλῃ φωνῇ.",
+      "englishCaption": "The donkey hears the wolf and cries out with a loud voice.",
+      "image": "story-images/ch2b/12.jpeg"
+    },
+    {
+      "id": 36,
+      "part": "B",
+      "scene": "Teaches: εὐθύς, ῥάβδος — Immediately the farmer takes his staff.",
+      "greekCaption": "εὐθὺς ὁ γεωργὸς λαμβάνει τὴν ῥάβδον αὐτοῦ.",
+      "englishCaption": "Immediately the farmer takes his staff.",
+      "image": "story-images/ch2b/13.jpeg"
+    },
+    {
+      "id": 37,
+      "part": "B",
+      "scene": "Reinforces: λαμβάνω, λίθος — He also takes stones from the field.",
+      "greekCaption": "λαμβάνει καὶ λίθους ἐκ τοῦ ἀγροῦ.",
+      "englishCaption": "He also takes stones from the field.",
+      "image": "story-images/ch2b/14.jpeg"
+    },
+    {
+      "id": 38,
+      "part": "B",
+      "scene": "Teaches: φωνή — The farmer runs into the field and cries with a great voice.",
+      "greekCaption": "ὁ γεωργὸς τρέχει εἰς τὸν ἀγρὸν καὶ κράζει μεγάλῃ φωνῇ.",
+      "englishCaption": "The farmer runs into the field and cries with a great voice.",
+      "image": "story-images/ch2b/15.jpeg"
+    },
+    {
+      "id": 39,
+      "part": "B",
+      "scene": "Teaches: βάλλω — He throws stones at the wolf.",
+      "greekCaption": "βάλλει λίθους εἰς τὸν λύκον.",
+      "englishCaption": "He throws stones at the wolf.",
+      "image": "story-images/ch2b/16.jpeg"
+    },
+    {
+      "id": 40,
+      "part": "B",
+      "scene": "Teaches: ὑπάγω, ἀπό — 'Go away from the field!'",
+      "greekCaption": "Ὕπαγε ἀπὸ τοῦ ἀγροῦ!",
+      "englishCaption": "'Go away from the field!'",
+      "image": "story-images/ch2b/17.jpeg"
+    },
+    {
+      "id": 41,
+      "part": "B",
+      "scene": "Teaches: φεύγω — The wolf flees from the lamb.",
+      "greekCaption": "ὁ λύκος φεύγει ἀπὸ τοῦ ἀρνίου.",
+      "englishCaption": "The wolf flees from the lamb.",
+      "image": "story-images/ch2b/18.jpeg"
+    },
+    {
+      "id": 42,
+      "part": "B",
+      "scene": "Teaches: διώκω — The farmer pursues the wolf.",
+      "greekCaption": "ὁ γεωργὸς διώκει τὸν λύκον.",
+      "englishCaption": "The farmer pursues the wolf.",
+      "image": "story-images/ch2b/19.jpeg"
+    },
+    {
+      "id": 43,
+      "part": "B",
+      "scene": "Teaches: τέλος — Finally the wolf flees across the river.",
+      "greekCaption": "τέλος ὁ λύκος φεύγει πέραν τοῦ ποταμοῦ.",
+      "englishCaption": "Finally the wolf flees across the river.",
+      "image": "story-images/ch2b/20.jpeg"
+    },
+    {
+      "id": 44,
+      "part": "B",
+      "scene": "Reinforces: βλέπω — The farmer looks at his animals. All are safe.",
+      "greekCaption": "ὁ γεωργὸς βλέπει τὰ ζῷα αὐτοῦ. πάντα σῴζεται.",
+      "englishCaption": "The farmer looks at his animals. All are safe.",
+      "image": "story-images/ch2b/21.jpeg"
+    },
+    {
+      "id": 45,
+      "part": "B",
+      "scene": "Teaches: ὑπό — The farmer sits under the tree.",
+      "greekCaption": "ὁ γεωργὸς καθίζει ὑπὸ τὸ δένδρον.",
+      "englishCaption": "The farmer sits under the tree.",
+      "image": "story-images/ch2b/22.jpeg"
+    },
+    {
+      "id": 46,
+      "part": "B",
+      "scene": "Teaches: κύριος, δίκαιος — He gives thanks: 'O Lord, you are righteous and faithful.'",
+      "greekCaption": "εὐχαριστεῖ τῷ θεῷ· Ὦ κύριε, σὺ δίκαιος καὶ πιστός εἶ.",
+      "englishCaption": "He gives thanks: 'O Lord, you are righteous and faithful.'",
+      "image": "story-images/ch2b/23.jpeg"
+    },
+    {
+      "id": 47,
+      "part": "B",
+      "scene": "Teaches: καλέω — The farmer calls the sheep and the lamb.",
+      "greekCaption": "ὁ γεωργὸς καλεῖ τὰ πρόβατα καὶ τὸ ἀρνίον.",
+      "englishCaption": "The farmer calls the sheep and the lamb.",
+      "image": "story-images/ch2b/24.jpeg"
+    },
+    {
+      "id": 48,
+      "part": "B",
+      "scene": "Teaches: γινώσκω — The sheep knows the voice of the farmer.",
+      "greekCaption": "τὸ πρόβατον γινώσκει τὴν φωνὴν τοῦ γεωργοῦ.",
+      "englishCaption": "The sheep knows the voice of the farmer.",
+      "image": "story-images/ch2b/25.jpeg"
+    },
+    {
+      "id": 49,
+      "part": "B",
+      "scene": "Reinforces: αἴρω, φέρω — The farmer lifts the lamb and carries it.",
+      "greekCaption": "αἴρει τὸ ἀρνίον καὶ φέρει αὐτό.",
+      "englishCaption": "He lifts the lamb and carries it.",
       "image": "story-images/ch2b/26.jpeg"
+    },
+    {
+      "id": 50,
+      "part": "B",
+      "scene": "Teaches: ἀκολουθέω — The sheep follows the farmer.",
+      "greekCaption": "τὸ πρόβατον ἀκολουθεῖ τῷ γεωργῷ.",
+      "englishCaption": "The sheep follows the farmer.",
+      "image": "story-images/ch2b/27.jpeg"
+    },
+    {
+      "id": 51,
+      "part": "B",
+      "scene": "Teaches: ἄγω — The farmer leads his animals toward the house.",
+      "greekCaption": "ὁ γεωργὸς ἄγει τὰ ζῷα πρὸς τὸν οἶκον.",
+      "englishCaption": "The farmer leads his animals toward the house.",
+      "image": "story-images/ch2b/28.jpeg"
     }
   ]
 }
