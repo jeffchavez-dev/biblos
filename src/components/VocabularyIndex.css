@@ -105,6 +105,77 @@
   font-style: normal;
 }
 
+/* POS filter chips */
+.pos-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+.pos-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1.5px solid transparent;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  background: #f0f2f7;
+  color: #444;
+}
+.pos-chip:hover { filter: brightness(0.95); }
+.pos-chip-count {
+  font-size: 0.68rem;
+  font-weight: 700;
+  opacity: 0.65;
+}
+.pos-chip-clear {
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1.5px solid #ccc;
+  background: transparent;
+  color: #888;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+.pos-chip-clear:hover { background: #f0f0f0; color: #333; }
+
+/* Active states — each category gets its own colour */
+.pos-chip--noun.pos-chip--active        { background: #dbeafe; border-color: #3b82f6; color: #1d4ed8; }
+.pos-chip--verb.pos-chip--active        { background: #dcfce7; border-color: #22c55e; color: #15803d; }
+.pos-chip--adjective.pos-chip--active   { background: #fef9c3; border-color: #eab308; color: #854d0e; }
+.pos-chip--adverb.pos-chip--active      { background: #ffedd5; border-color: #f97316; color: #9a3412; }
+.pos-chip--preposition.pos-chip--active { background: #f3e8ff; border-color: #a855f7; color: #6b21a8; }
+.pos-chip--conjunction.pos-chip--active { background: #fce7f3; border-color: #ec4899; color: #9d174d; }
+.pos-chip--pronoun.pos-chip--active     { background: #e0f2fe; border-color: #0ea5e9; color: #0c4a6e; }
+.pos-chip--particle.pos-chip--active    { background: #f0fdf4; border-color: #86efac; color: #166534; }
+.pos-chip--other.pos-chip--active       { background: #f1f5f9; border-color: #94a3b8; color: #334155; }
+
+/* Inline POS tag in table */
+.vt-pos { width: 90px; }
+.pos-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  white-space: nowrap;
+  background: #f0f2f7;
+  color: #555;
+}
+.pos-tag--noun        { background: #dbeafe; color: #1d4ed8; }
+.pos-tag--verb        { background: #dcfce7; color: #15803d; }
+.pos-tag--adjective   { background: #fef9c3; color: #854d0e; }
+.pos-tag--adverb      { background: #ffedd5; color: #9a3412; }
+.pos-tag--preposition { background: #f3e8ff; color: #6b21a8; }
+.pos-tag--conjunction { background: #fce7f3; color: #9d174d; }
+.pos-tag--pronoun     { background: #e0f2fe; color: #0c4a6e; }
+.pos-tag--particle    { background: #f0fdf4; color: #166534; }
+.pos-tag--other       { background: #f1f5f9; color: #334155; }
+
 /* Sort toggle */
 .vocab-index-sort {
   display: flex;
