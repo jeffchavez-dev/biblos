@@ -32,6 +32,79 @@
   margin: 0 0 16px;
 }
 
+/* Search */
+.vocab-search-row {
+  margin-bottom: 12px;
+}
+.vocab-search-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1.5px solid #dde0ea;
+  border-radius: 10px;
+  padding: 0 12px;
+  gap: 8px;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.vocab-search-box:focus-within {
+  border-color: var(--deep-blue);
+  box-shadow: 0 0 0 3px rgba(26, 54, 93, 0.1);
+}
+.vocab-search-icon {
+  font-size: 0.95rem;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+.vocab-search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 0.95rem;
+  padding: 11px 0;
+  background: transparent;
+  font-family: inherit;
+  color: #222;
+}
+.vocab-search-input::placeholder {
+  color: #aaa;
+}
+.vocab-search-clear {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: #999;
+  padding: 4px;
+  border-radius: 50%;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: color 0.15s, background 0.15s;
+}
+.vocab-search-clear:hover {
+  color: #333;
+  background: #eee;
+}
+
+.vocab-index-result-count {
+  font-size: 0.78rem;
+  color: var(--grey);
+  margin: 0 0 8px;
+}
+.vocab-index-empty {
+  padding: 48px 0;
+  text-align: center;
+  color: var(--grey);
+  font-size: 0.95rem;
+}
+
+/* Highlight */
+.vt-highlight {
+  background: #fff3b0;
+  border-radius: 2px;
+  padding: 0 1px;
+  font-style: normal;
+}
+
 /* Sort toggle */
 .vocab-index-sort {
   display: flex;
