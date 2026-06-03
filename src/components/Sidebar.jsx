@@ -1,6 +1,14 @@
+import { useState } from 'react'
 import './Sidebar.css'
 
 export default function Sidebar({ units, selectedUnit, selectedChapter, activePart, onSelect, onPartSelect, open, onClose, totalWords, onVocabIndex, showingVocabIndex }) {
+  // All units expanded by default
+  const [collapsed, setCollapsed] = useState({})
+
+  function toggleUnit(unitId) {
+    setCollapsed(prev => ({ ...prev, [unitId]: !prev[unitId] }))
+  }
+
   return (
     <aside className={`sidebar ${open ? 'sidebar--open' : ''}`}>
       <div className="sidebar-header">
@@ -8,49 +16,62 @@ export default function Sidebar({ units, selectedUnit, selectedChapter, activePa
         <span>Table of Contents</span>
       </div>
       <nav className="sidebar-nav">
-        {units.map(unit => (
-          <div key={unit.id} className="unit-group">
-            <div className={`unit-label ${unit.locked ? 'unit-label--locked' : ''}`}>
-              {unit.locked ? '🔒 ' : ''}{unit.title}
-              <span className="unit-subtitle">{unit.subtitle}</span>
-            </div>
-            {unit.chapters.map(chapter => {
-              const active = selectedUnit === unit.id && selectedChapter === chapter.id
-              const locked = unit.locked || chapter.locked
-              return (
-                <div key={chapter.id}>
-                  <button
-                    className={`chapter-btn ${active ? 'chapter-btn--active' : ''} ${locked ? 'chapter-btn--locked' : ''}`}
-                    onClick={() => !locked && onSelect(unit.id, chapter.id)}
-                    disabled={locked}
-                  >
-                    <span className="chapter-dot" />
-                    <span>
-                      <span className="chapter-title greek">{chapter.title}</span>
-                      <span className="chapter-subtitle">{chapter.subtitle}</span>
-                    </span>
-                    {locked && <span className="chapter-lock">🔒</span>}
-                  </button>
+        {units.map(unit => {
+          const isCollapsed = !!collapsed[unit.id]
+          return (
+            <div key={unit.id} className="unit-group">
+              <button
+                className={`unit-label unit-label--btn ${unit.locked ? 'unit-label--locked' : ''}`}
+                onClick={() => toggleUnit(unit.id)}
+                aria-expanded={!isCollapsed}
+              >
+                <span className="unit-label-main">
+                  {unit.locked ? '🔒 ' : ''}{unit.title}
+                </span>
+                <span className="unit-subtitle">{unit.subtitle}</span>
+                <span className={`unit-chevron ${isCollapsed ? 'unit-chevron--collapsed' : ''}`}>
+                  ‹
+                </span>
+              </button>
 
-                  {active && chapter.parts && (
-                    <div className="part-nav">
-                      {chapter.parts.map(part => (
-                        <button
-                          key={part.id}
-                          className={`part-btn ${activePart === part.id ? 'part-btn--active' : ''}`}
-                          onClick={() => onPartSelect(part.id)}
-                        >
-                          <span className="part-btn-label greek">{part.label}</span>
-                          <span className="part-btn-subtitle">{part.subtitle}</span>
-                        </button>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              )
-            })}
-          </div>
-        ))}
+              {!isCollapsed && unit.chapters.map(chapter => {
+                const active = selectedUnit === unit.id && selectedChapter === chapter.id
+                const locked = unit.locked || chapter.locked
+                return (
+                  <div key={chapter.id}>
+                    <button
+                      className={`chapter-btn ${active ? 'chapter-btn--active' : ''} ${locked ? 'chapter-btn--locked' : ''}`}
+                      onClick={() => !locked && onSelect(unit.id, chapter.id)}
+                      disabled={locked}
+                    >
+                      <span className="chapter-dot" />
+                      <span>
+                        <span className="chapter-title greek">{chapter.title}</span>
+                        <span className="chapter-subtitle">{chapter.subtitle}</span>
+                      </span>
+                      {locked && <span className="chapter-lock">🔒</span>}
+                    </button>
+
+                    {active && chapter.parts && (
+                      <div className="part-nav">
+                        {chapter.parts.map(part => (
+                          <button
+                            key={part.id}
+                            className={`part-btn ${activePart === part.id ? 'part-btn--active' : ''}`}
+                            onClick={() => onPartSelect(part.id)}
+                          >
+                            <span className="part-btn-label greek">{part.label}</span>
+                            <span className="part-btn-subtitle">{part.subtitle}</span>
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                )
+              })}
+            </div>
+          )
+        })}
       </nav>
 
       <div className="sidebar-footer">
