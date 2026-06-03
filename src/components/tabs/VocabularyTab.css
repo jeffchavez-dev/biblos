@@ -60,6 +60,7 @@
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   border-radius: var(--radius);
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,43 +77,28 @@
 .flashcard-front:has(.flashcard-image) {
   justify-content: flex-start;
   padding: 0;
-  gap: 12px;
+  gap: 10px;
+}
+.flashcard-front:has(.flashcard-image) > *:not(.flashcard-image) {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .flashcard-front:has(.flashcard-image) .flashcard-hint {
   position: static;
-  order: 2;
-  font-size: 0.68rem;
-  opacity: 0.5;
-  margin-top: 2px;
-}
-.flashcard-front:has(.flashcard-image) .flashcard-greek {
-  order: 3;
-}
-.flashcard-front:has(.flashcard-image) .flashcard-transliteration {
-  order: 4;
+  margin-top: 10px;
 }
 .flashcard-front:has(.flashcard-image) .flashcard-seen-count {
-  order: 5;
   position: static;
   margin-top: auto;
-  padding-bottom: 12px;
-}
-.flashcard-back {
-  background: linear-gradient(135deg, #fff 0%, var(--parchment) 100%);
-  color: var(--ink);
-  transform: rotateY(180deg);
-  border: 2px solid var(--border);
+  padding-bottom: 14px;
 }
 
-/* Vocabulary image on flashcard front */
+/* Vocabulary image — fills card top as a banner */
 .flashcard-image {
-  width: calc(100% + 56px);
-  margin-left: -28px;
-  margin-right: -28px;
-  margin-top: -28px;
+  width: 100%;
   height: 220px;
   object-fit: cover;
-  border-radius: var(--radius) var(--radius) 0 0;
+  object-position: center top;
   flex-shrink: 0;
 }
 
