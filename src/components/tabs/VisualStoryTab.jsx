@@ -46,7 +46,6 @@ export default function VisualStoryTab({ story, activePart }) {
 
         <div className="panel-caption">
           <div className="caption-greek greek">{current.greekCaption}</div>
-          <div className="caption-english">{current.englishCaption}</div>
         </div>
       </div>
 
