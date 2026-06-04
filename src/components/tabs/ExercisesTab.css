@@ -52,6 +52,7 @@
 }
 .question-card--correct { border-color: var(--green); background: var(--green-light); }
 .question-card--wrong   { border-color: var(--red);   background: var(--red-light);   }
+.question-card--example { border-color: var(--gold);  background: #fdf6e3; }
 
 .question-num {
   font-size: 0.72rem; font-weight: 700; color: var(--grey);

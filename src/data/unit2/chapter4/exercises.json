@@ -79,288 +79,338 @@
       "answers": ["ἀποκρίνεται", "ἀπέρχῃ"],
       "explanation": "Philip stays 3rd sg. (ἀποκρίνεται — he responds to you). Jacob's verb becomes 2nd sg.: ἀπέρχεται → ἀπέρχῃ. αὐτῷ becomes σοι (to you).",
       "part": "A"
-    },
-    {
-      "id": 11,
-      "original": "μαθητὴς 1· βούλομαι ἐργάζεσθαι ἐν τῷ ἀγρῷ.",
-      "cue": "μαθητὴς 2· _______",
-      "answers": ["ἐργάζου ἐν τῷ ἀγρῷ"],
-      "explanation": "The imperative of ἐργάζομαι is ἐργάζου. Middle deponent imperatives 2nd sg. end in -ου.",
-      "part": "A"
-    },
-    {
-      "id": 12,
-      "original": "μαθητὴς 1· βούλομαι ἐγείρεσθαι ἐκ τοῦ ὕπνου.",
-      "cue": "μαθητὴς 2· _______",
-      "answers": ["ἐγείρου ἐκ τοῦ ὕπνου"],
-      "explanation": "The imperative of ἐγείρομαι is ἐγείρου. Respond by giving the imperative form with the same phrase.",
-      "part": "A"
-    },
-    {
-      "id": 13,
-      "original": "μαθητὴς 1· βούλομαι πορεύεσθαι πρὸς τὸν ποταμόν.",
-      "cue": "μαθητὴς 2· _______",
-      "answers": ["πορεύου πρὸς τὸν ποταμόν"],
-      "explanation": "The imperative of πορεύομαι is πορεύου. Middle deponent imperatives drop the -σθαι infinitive ending and add -ου.",
-      "part": "A"
-    },
-    {
-      "id": 14,
-      "original": "μαθητὴς 1· βούλομαι λούεσθαι ἐν τῷ ποταμῷ.",
-      "cue": "μαθητὴς 2· _______",
-      "answers": ["λούου ἐν τῷ ποταμῷ"],
-      "explanation": "The imperative of λούομαι is λούου. Same pattern: infinitive -εσθαι → imperative -ου.",
-      "part": "A"
-    },
-    {
-      "id": 15,
-      "original": "μαθητὴς 1· βούλομαι ἀπέρχεσθαι ἀπὸ τοῦ ἀγροῦ.",
-      "cue": "μαθητὴς 2· _______",
-      "answers": ["ἀπέρχου ἀπὸ τοῦ ἀγροῦ"],
-      "explanation": "The imperative of ἀπέρχομαι is ἀπέρχου. Compound verb ἀπό + ἔρχομαι follows the same middle imperative pattern.",
-      "part": "A"
-    },
-    {
-      "id": 16,
-      "original": "μαθητὴς 1· δύναμαι ἀποκρίνεσθαι τῷ Φίλῳ.",
-      "cue": "μαθητὴς 2· _______",
-      "answers": ["ἀποκρίνου τῷ Φίλῳ"],
-      "explanation": "The imperative of ἀποκρίνομαι is ἀποκρίνου. Note: δύναμαι (I am able) expresses desire/ability; the imperative simply gives the command.",
-      "part": "A"
-    },
-    {
-      "id": 17,
-      "original": "μαθητὴς 1· βούλομαι ἔρχεσθαι πρὸς τὸν οἶκόν μου.",
-      "cue": "μαθητὴς 2· _______",
-      "answers": ["ἔρχου πρὸς τὸν οἶκόν σου"],
-      "explanation": "The imperative of ἔρχομαι is ἔρχου. Note: μου (my) becomes σου (your) when student 2 replies to student 1.",
-      "part": "A"
-    },
-    {
-      "id": 18,
-      "original": "μαθητὴς 1· βούλομαι ἀσπάζεσθαι τὴν Μάρθαν καὶ τὰ τέκνα.",
-      "cue": "μαθητὴς 2· _______",
-      "answers": ["ἀσπάζου τὴν Μάρθαν καὶ τὰ τέκνα"],
-      "explanation": "The imperative of ἀσπάζομαι is ἀσπάζου. The object (Martha and the children) stays the same in the reply.",
-      "part": "A"
     }
   ],
-  "fillBlank": [
+  "infinitives": [
     {
       "id": 1,
+      "label": "Αʹ",
+      "isExample": true,
+      "prompt": "ὁ Ἰάκωβος βούλεται _______ (πορεύεται) πρὸς τὸν οἶκον αὐτοῦ.",
+      "answer": "πορεύεσθαι",
+      "explanation": "πορεύομαι → infinitive πορεύεσθαι. This is the model answer.",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "label": "Βʹ",
       "prompt": "βούλομαι _______ (ἀσπάζομαι) τὸν φίλον μου.",
       "answer": "ἀσπάζεσθαι",
       "explanation": "ἀσπάζομαι → infinitive ἀσπάζεσθαι. Middle/deponent infinitives end in -εσθαι.",
       "part": "A"
     },
     {
-      "id": 2,
+      "id": 3,
+      "label": "Γʹ",
       "prompt": "ὁ Ἰάκωβος μέλλει _______ (πορεύεται) μετὰ τοῦ ὄνου.",
       "answer": "πορεύεσθαι",
-      "explanation": "πορεύομαι → infinitive πορεύεσθαι. μέλλει + infinitive = \"he is about to / intends to.\"",
-      "part": "A"
-    },
-    {
-      "id": 3,
-      "prompt": "ὁ Ἰάκωβος θέλει _______ (ἐγείρεται) ἐκ τοῦ ὕπνου.",
-      "answer": "ἐγείρεσθαι",
-      "explanation": "ἐγείρομαι → infinitive ἐγείρεσθαι. θέλει + infinitive = \"he wants to.\"",
+      "explanation": "πορεύομαι → infinitive πορεύεσθαι. μέλλει + infinitive = he is about to.",
       "part": "A"
     },
     {
       "id": 4,
-      "prompt": "ὁ Φίλιππος δύναται _______ (ἀποκρίνεται) τῷ Ἰακώβῳ.",
-      "answer": "ἀποκρίνεσθαι",
-      "explanation": "ἀποκρίνομαι → infinitive ἀποκρίνεσθαι. δύναται + infinitive = \"he is able to.\"",
+      "label": "Δʹ",
+      "prompt": "ὁ Ἰάκωβος θέλει _______ (ἐγείρεται) ἐκ τοῦ ὕπνου.",
+      "answer": "ἐγείρεσθαι",
+      "explanation": "ἐγείρομαι → infinitive ἐγείρεσθαι. θέλει + infinitive = he wants to.",
       "part": "A"
     },
     {
       "id": 5,
-      "prompt": "βούλομαι _______ (ἔρχομαι) πρὸς τὴν κώμην.",
-      "answer": "ἔρχεσθαι",
-      "explanation": "ἔρχομαι → infinitive ἔρχεσθαι. βούλομαι + infinitive = \"I want to.\"",
+      "label": "Εʹ",
+      "prompt": "ὁ Φίλιππος δύναται _______ (ἀποκρίνεται) τῷ Ἰακώβῳ.",
+      "answer": "ἀποκρίνεσθαι",
+      "explanation": "ἀποκρίνομαι → infinitive ἀποκρίνεσθαι. δύναται + infinitive = he is able to.",
       "part": "A"
     },
     {
       "id": 6,
-      "prompt": "θέλεις _______ (ἀσπάζῃ) τὸν οἶκον;",
-      "answer": "ἀσπάζεσθαι",
-      "explanation": "ἀσπάζομαι → infinitive ἀσπάζεσθαι. θέλεις + infinitive = \"do you want to?\"",
+      "label": "Ϛʹ",
+      "prompt": "βούλομαι _______ (ἔρχομαι) πρὸς τὴν κώμην.",
+      "answer": "ἔρχεσθαι",
+      "explanation": "ἔρχομαι → infinitive ἔρχεσθαι. βούλομαι + infinitive = I want to.",
       "part": "A"
     },
     {
       "id": 7,
-      "prompt": "ὁ Ἰάκωβος μέλλει _______ (ἀπέρχεται) ἀπὸ τοῦ Φιλίππου.",
-      "answer": "ἀπέρχεσθαι",
-      "explanation": "ἀπέρχομαι → infinitive ἀπέρχεσθαι. Compound verbs keep the prefix: ἀπο- + ἔρχεσθαι = ἀπέρχεσθαι.",
+      "label": "Ζʹ",
+      "prompt": "θέλεις _______ (ἀσπάζῃ) τὸν οἶκον;",
+      "answer": "ἀσπάζεσθαι",
+      "explanation": "ἀσπάζομαι → infinitive ἀσπάζεσθαι. θέλεις + infinitive = do you want to?",
       "part": "A"
     },
     {
       "id": 8,
-      "prompt": "δύνασαι _______ (πορεύῃ) πρὸς τὴν κώμην σήμερον;",
-      "answer": "πορεύεσθαι",
-      "explanation": "πορεύομαι → infinitive πορεύεσθαι. δύνασαι + infinitive = \"are you able to?\" (2nd sg. of δύναμαι).",
+      "label": "Ηʹ",
+      "prompt": "ὁ Ἰάκωβος μέλλει _______ (ἀπέρχεται) ἀπὸ τοῦ Φιλίππου.",
+      "answer": "ἀπέρχεσθαι",
+      "explanation": "ἀπέρχομαι → infinitive ἀπέρχεσθαι. Compound verbs keep the prefix: ἀπο- + ἔρχεσθαι.",
       "part": "A"
     },
     {
       "id": 9,
-      "prompt": "ὁ Ἰάκωβος βούλεται _______ (λούεται) ἐν τῷ ποταμῷ.",
-      "answer": "λούεσθαι",
-      "explanation": "λούομαι → infinitive λούεσθαι. βούλεται + infinitive = \"he wants to.\"",
+      "label": "Θʹ",
+      "prompt": "δύνασαι _______ (πορεύῃ) πρὸς τὴν κώμην σήμερον;",
+      "answer": "πορεύεσθαι",
+      "explanation": "πορεύομαι → infinitive πορεύεσθαι. δύνασαι + infinitive = are you able to? (2nd sg. of δύναμαι).",
       "part": "A"
     },
     {
       "id": 10,
-      "prompt": "ὁ Ἰάκωβος ἀγαπᾷ τὸν οἶκον αὐτοῦ. καὶ σύ, _______ (ἀγαπάω) τὸν οἶκόν σου;",
-      "answer": "ἀγαπᾷς",
-      "explanation": "ἀγαπάω is a contract verb (-άω). 2nd sg.: ἀγαπά-εις → ἀγαπᾷς (α + ει = ᾳ with iota subscript, then + ς).",
+      "label": "Ιʹ",
+      "prompt": "ὁ Ἰάκωβος βούλεται _______ (λούεται) ἐν τῷ ποταμῷ.",
+      "answer": "λούεσθαι",
+      "explanation": "λούομαι → infinitive λούεσθαι. βούλεται + infinitive = he wants to.",
+      "part": "A"
+    }
+  ],
+  "imperatives": [
+    {
+      "id": 1,
+      "label": "Αʹ",
+      "isExample": true,
+      "student1": "βούλομαι πορεύεσθαι πρὸς τὴν κώμην.",
+      "student2": "πορεύου πρὸς τὴν κώμην.",
       "part": "A"
     },
     {
-      "id": 11,
+      "id": 2,
+      "label": "Βʹ",
+      "isExample": true,
+      "student1": "βούλομαι ἀσπάζεσθαι τὸν Φίλιππον.",
+      "student2": "ἀσπάζου τὸν Φίλιππον.",
+      "part": "A"
+    },
+    {
+      "id": 3,
+      "label": "Γʹ",
+      "student1": "βούλομαι ἐργάζεσθαι ἐν τῷ ἀγρῷ",
+      "answer": "ἐργάζου ἐν τῷ ἀγρῷ",
+      "explanation": "The imperative of ἐργάζομαι is ἐργάζου. Middle deponent imperatives 2nd sg. end in -ου.",
+      "part": "A"
+    },
+    {
+      "id": 4,
+      "label": "Δʹ",
+      "student1": "βούλομαι ἐγείρεσθαι ἐκ τοῦ ὕπνου.",
+      "answer": "ἐγείρου ἐκ τοῦ ὕπνου",
+      "explanation": "The imperative of ἐγείρομαι is ἐγείρου.",
+      "part": "A"
+    },
+    {
+      "id": 5,
+      "label": "Εʹ",
+      "student1": "βούλομαι πορεύεσθαι πρὸς τὸν ποταμόν.",
+      "answer": "πορεύου πρὸς τὸν ποταμόν",
+      "explanation": "The imperative of πορεύομαι is πορεύου.",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "label": "Ϛʹ",
+      "student1": "βούλομαι λούεσθαι ἐν τῷ ποταμῷ.",
+      "answer": "λούου ἐν τῷ ποταμῷ",
+      "explanation": "The imperative of λούομαι is λούου.",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "label": "Ζʹ",
+      "student1": "βούλομαι ἀπέρχεσθαι ἀπὸ τοῦ ἀγροῦ.",
+      "answer": "ἀπέρχου ἀπὸ τοῦ ἀγροῦ",
+      "explanation": "The imperative of ἀπέρχομαι is ἀπέρχου.",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "label": "Ηʹ",
+      "student1": "δύναμαι ἀποκρίνεσθαι τῷ Φίλῳ.",
+      "answer": "ἀποκρίνου τῷ Φίλῳ",
+      "explanation": "The imperative of ἀποκρίνομαι is ἀποκρίνου.",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "label": "Θʹ",
+      "student1": "βούλομαι ἔρχεσθαι πρὸς τὸν οἶκόν μου.",
+      "answer": "ἔρχου πρὸς τὸν οἶκόν σου",
+      "explanation": "The imperative of ἔρχομαι is ἔρχου. μου (my) becomes σου (your) in the reply.",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "label": "Ιʹ",
+      "student1": "βούλομαι ἀσπάζεσθαι τὴν Μάρθαν καὶ τὰ τέκνα.",
+      "answer": "ἀσπάζου τὴν Μάρθαν καὶ τὰ τέκνα",
+      "explanation": "The imperative of ἀσπάζομαι is ἀσπάζου.",
+      "part": "A"
+    }
+  ],
+  "contractVerbs": [
+    {
+      "id": 1,
+      "label": "Αʹ",
+      "prompt": "ὁ Ἰάκωβος ἀγαπᾷ τὸν οἶκον αὐτοῦ. καὶ σύ, _______ (ἀγαπάω) τὸν οἶκόν σου;",
+      "answer": "ἀγαπᾷς",
+      "explanation": "ἀγαπάω contract verb. 2nd sg.: ἀγαπά-εις → ἀγαπᾷς.",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "label": "Βʹ",
       "prompt": "ὁ Ἰάκωβος μεριμνᾷ περὶ τῶν ζῴων. καὶ σύ, _______ (μεριμνάω) περὶ τῶν ζῴων;",
       "answer": "μεριμνᾷς",
       "explanation": "μεριμνάω contract verb. 2nd sg.: μεριμνά-εις → μεριμνᾷς.",
       "part": "A"
     },
     {
-      "id": 12,
+      "id": 3,
+      "label": "Γʹ",
       "prompt": "ὁ Ἰάκωβος κοπιᾷ ἐν τῇ ὁδῷ. κἀγώ, _______ (κοπιάω) ἐν τῇ ὁδῷ.",
       "answer": "κοπιῶ",
-      "explanation": "κοπιάω contract verb. 1st sg.: κοπιά-ω → κοπιῶ (α + ω = ω with circumflex).",
+      "explanation": "κοπιάω contract verb. 1st sg.: κοπιά-ω → κοπιῶ.",
       "part": "A"
     },
     {
-      "id": 13,
+      "id": 4,
+      "label": "Δʹ",
       "prompt": "ἀγαπῶ τὴν Μάρθαν καὶ τὰ τέκνα μου. καὶ ὁ Ἰάκωβος _______ (ἀγαπάω) τὴν Μάρθαν καὶ τὰ τέκνα αὐτοῦ.",
       "answer": "ἀγαπᾷ",
-      "explanation": "ἀγαπάω contract verb. 3rd sg.: ἀγαπά-ει → ἀγαπᾷ (α + ει = ᾳ iota subscript).",
+      "explanation": "ἀγαπάω contract verb. 3rd sg.: ἀγαπά-ει → ἀγαπᾷ.",
       "part": "A"
     },
     {
-      "id": 14,
+      "id": 5,
+      "label": "Εʹ",
       "prompt": "ὁ Φίλιππος λέγει· διὰ τί οὕτω μεριμνᾷς, ὦ Ἰάκωβε; ὁ Ἰάκωβος λέγει· _______ (μεριμνάω) ὅτι οὐ δύναμαι καταλείπειν τὸν ἀγρόν.",
       "answer": "μεριμνῶ",
-      "explanation": "μεριμνάω contract verb. 1st sg.: μεριμνά-ω → μεριμνῶ. Jacob answers in first person.",
+      "explanation": "μεριμνάω contract verb. 1st sg.: μεριμνά-ω → μεριμνῶ.",
       "part": "A"
     },
     {
-      "id": 15,
+      "id": 6,
+      "label": "Ϛʹ",
       "prompt": "ὁ Ἰάκωβος κοπιᾷ ἐν τῷ ἀγρῷ ὅλην τὴν ἡμέραν. ἀμφότεροι _______ (κοπιάω) ἐν τοῖς ἀγροῖς.",
       "answer": "κοπιῶσιν",
-      "explanation": "κοπιάω contract verb. 3rd pl.: κοπιά-ουσιν → κοπιῶσιν. ἀμφότεροι (both) takes the 3rd person plural.",
+      "explanation": "κοπιάω contract verb. 3rd pl.: κοπιά-ουσιν → κοπιῶσιν. ἀμφότεροι takes 3rd person plural.",
       "part": "A"
     },
     {
-      "id": 16,
+      "id": 7,
+      "label": "Ζʹ",
       "prompt": "ὁ Φίλιππος ἀγαπᾷ τὸν Ἰάκωβον. κἀγώ, _______ (ἀγαπάω) τὸν Ἰάκωβον.",
       "answer": "ἀγαπῶ",
-      "explanation": "ἀγαπάω contract verb. 1st sg.: ἀγαπά-ω → ἀγαπῶ. κἀγώ = καὶ ἐγώ (and I also).",
+      "explanation": "ἀγαπάω contract verb. 1st sg.: ἀγαπά-ω → ἀγαπῶ. κἀγώ = καὶ ἐγώ.",
       "part": "A"
     },
     {
-      "id": 17,
+      "id": 8,
+      "label": "Ηʹ",
       "prompt": "ὁ Ἰάκωβος μεριμνᾷ σφόδρα. ὁ Φίλιππος λέγει· μὴ μερίμνα, ὦ φίλε. ὁ Ἰάκωβος λέγει· οὐκέτι _______ (μεριμνάω).",
       "answer": "μεριμνῶ",
-      "explanation": "μεριμνάω contract verb, 1st sg. → μεριμνῶ. οὐκέτι = no longer. Jacob reassures Philip he will worry no more.",
+      "explanation": "μεριμνάω contract verb. 1st sg. → μεριμνῶ. οὐκέτι = no longer.",
       "part": "A"
     },
     {
-      "id": 18,
+      "id": 9,
+      "label": "Θʹ",
       "prompt": "ὁ Ἰάκωβος ἀγαπᾷ τὸν φίλον αὐτοῦ. καὶ σύ, _______ (ἀγαπάω) τὸν φίλον σου;",
       "answer": "ἀγαπᾷς",
       "explanation": "ἀγαπάω contract verb. 2nd sg.: ἀγαπά-εις → ἀγαπᾷς.",
       "part": "A"
     },
     {
-      "id": 19,
+      "id": 10,
+      "label": "Ιʹ",
       "prompt": "ὁ ὄνος κοπιᾷ ἐν τῇ ὁδῷ. καὶ σύ, _______ (κοπιάω) ἐν τῇ ὁδῷ;",
       "answer": "κοπιᾷς",
       "explanation": "κοπιάω contract verb. 2nd sg.: κοπιά-εις → κοπιᾷς.",
       "part": "A"
-    },
+    }
+  ],
+  "caseFill": [
     {
-      "id": 20,
+      "id": 1,
       "prompt": "ὁ Φίλιππος πορεύεται διὰ _______ [ἡ κώμη] πρὸς τὸν οἶκον. (through)",
       "answer": "τῆς κώμης",
-      "explanation": "διά + genitive = through. ἡ κώμη → genitive: τῆς κώμης (1st decl. fem. gen. sg.).",
+      "explanation": "διά + genitive = through. ἡ κώμη → τῆς κώμης (1st decl. fem. gen. sg.).",
       "part": "A"
     },
     {
-      "id": 21,
+      "id": 2,
       "prompt": "ὁ ὄνος ἔρχεται διὰ _______ [ὁ ἀγρός, pl.] πρὸς τὸ ὕδωρ. (through)",
       "answer": "τῶν ἀγρῶν",
-      "explanation": "διά + genitive = through. ὁ ἀγρός, pl. → genitive: τῶν ἀγρῶν (2nd decl. masc. gen. pl.).",
+      "explanation": "διά + genitive = through. ὁ ἀγρός pl. → τῶν ἀγρῶν (2nd decl. masc. gen. pl.).",
       "part": "A"
     },
     {
-      "id": 22,
+      "id": 3,
       "prompt": "ὁ γεωργὸς οὐκ ἔχει φόβον διὰ _______ [ὁ θεός]. (because of)",
       "answer": "τὸν θεόν",
-      "explanation": "διά + accusative = because of. ὁ θεός → accusative: τὸν θεόν (2nd decl. masc. acc. sg.).",
+      "explanation": "διά + accusative = because of. ὁ θεός → τὸν θεόν (2nd decl. masc. acc. sg.).",
       "part": "A"
     },
     {
-      "id": 23,
+      "id": 4,
       "prompt": "ὁ Ἰάκωβος κοπιᾷ διὰ _______ [ὁ ἀγρός]. (because of)",
       "answer": "τὸν ἀγρόν",
-      "explanation": "διά + accusative = because of. ὁ ἀγρός → accusative: τὸν ἀγρόν.",
+      "explanation": "διά + accusative = because of. ὁ ἀγρός → τὸν ἀγρόν.",
       "part": "A"
     },
     {
-      "id": 24,
+      "id": 5,
       "prompt": "ὁ Ἰάκωβος ἀσπάζεται τὸν Φίλιππον μετὰ _______ [ἡ εἰρήνη]. (with)",
       "answer": "εἰρήνης",
-      "explanation": "μετά + genitive = with. ἡ εἰρήνη → genitive: εἰρήνης (1st decl. fem. gen. sg., no article needed after μετά in set phrases).",
+      "explanation": "μετά + genitive = with. ἡ εἰρήνη → εἰρήνης (1st decl. fem. gen. sg.).",
       "part": "A"
     },
     {
-      "id": 25,
+      "id": 6,
       "prompt": "ὁ γεωργὸς λαμβάνει τὸν ἄρτον μετὰ _______ [ὁ καρπός]. (with)",
       "answer": "τοῦ καρποῦ",
-      "explanation": "μετά + genitive = with. ὁ καρπός → genitive: τοῦ καρποῦ (2nd decl. masc. gen. sg.).",
+      "explanation": "μετά + genitive = with. ὁ καρπός → τοῦ καρποῦ (2nd decl. masc. gen. sg.).",
       "part": "A"
     },
     {
-      "id": 26,
+      "id": 7,
       "prompt": "μετὰ _______ [ἡ ἡμέρα] ἡ σελήνη λάμπει. (after)",
       "answer": "τὴν ἡμέραν",
-      "explanation": "μετά + accusative = after. ἡ ἡμέρα → accusative: τὴν ἡμέραν (1st decl. fem. acc. sg.).",
+      "explanation": "μετά + accusative = after. ἡ ἡμέρα → τὴν ἡμέραν (1st decl. fem. acc. sg.).",
       "part": "A"
     },
     {
-      "id": 27,
+      "id": 8,
       "prompt": "μετὰ _______ [ὁ καρπός] ὁ γεωργὸς πορεύεται πρὸς τὸν ἀγρόν. (after)",
       "answer": "τὸν καρπόν",
-      "explanation": "μετά + accusative = after. ὁ καρπός → accusative: τὸν καρπόν (2nd decl. masc. acc. sg.).",
+      "explanation": "μετά + accusative = after. ὁ καρπός → τὸν καρπόν (2nd decl. masc. acc. sg.).",
       "part": "A"
     },
     {
-      "id": 28,
+      "id": 9,
       "prompt": "ὁ Φίλιππος λέγει περὶ _______ [ὁ ἀγρός]. (about)",
       "answer": "τοῦ ἀγροῦ",
-      "explanation": "περί + genitive = about. ὁ ἀγρός → genitive: τοῦ ἀγροῦ (2nd decl. masc. gen. sg.).",
+      "explanation": "περί + genitive = about. ὁ ἀγρός → τοῦ ἀγροῦ (2nd decl. masc. gen. sg.).",
       "part": "A"
     },
     {
-      "id": 29,
+      "id": 10,
       "prompt": "ὁ Ἰάκωβος λέγει περὶ _______ [ἡ Μάρθα]. (about)",
       "answer": "τῆς Μάρθας",
-      "explanation": "περί + genitive = about. ἡ Μάρθα → genitive: τῆς Μάρθας (1st decl. fem. gen. sg.).",
+      "explanation": "περί + genitive = about. ἡ Μάρθα → τῆς Μάρθας (1st decl. fem. gen. sg.).",
       "part": "A"
     },
     {
-      "id": 30,
+      "id": 11,
       "prompt": "τὰ ζῷα μένει περὶ _______ [ὁ ποταμός]. (around)",
       "answer": "τὸν ποταμόν",
-      "explanation": "περί + accusative = around. ὁ ποταμός → accusative: τὸν ποταμόν (2nd decl. masc. acc. sg.).",
+      "explanation": "περί + accusative = around. ὁ ποταμός → τὸν ποταμόν (2nd decl. masc. acc. sg.).",
       "part": "A"
     },
     {
-      "id": 31,
+      "id": 12,
       "prompt": "ὁ Ἰάκωβος βλέπει τὰ ζῷα περὶ _______ [ἡ κώμη]. (around)",
       "answer": "τὴν κώμην",
-      "explanation": "περί + accusative = around. ἡ κώμη → accusative: τὴν κώμην (1st decl. fem. acc. sg.).",
+      "explanation": "περί + accusative = around. ἡ κώμη → τὴν κώμην (1st decl. fem. acc. sg.).",
       "part": "A"
     }
   ],
@@ -418,7 +468,7 @@
       "prompt": "ἀμφότεροι πορεύονται _______ τῆς ὁδοῦ πρὸς τὴν κώμην. (through)",
       "choices": ["διά", "μετά", "περί"],
       "answers": ["διά"],
-      "explanation": "διά + genitive (τῆς ὁδοῦ) = through. Both travel through the road/way toward the village.",
+      "explanation": "διά + genitive (τῆς ὁδοῦ) = through. Both travel through the road toward the village.",
       "part": "A"
     },
     {

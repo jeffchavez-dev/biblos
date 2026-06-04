@@ -19,6 +19,10 @@ const SECTION_META = [
   { id: 'thumbs', dataKey: 'thumbs',         labelEl: '👍 / 👎',           labelEn: 'Correct or Not'    },
   { id: 'fill',   dataKey: 'fillBlank',      labelEl: 'Γέμιζε!',          labelEn: 'Fill in the Blank' },
   { id: 'pc',     dataKey: 'personChange',   labelEl: 'Ἄλλαξον!',         labelEn: 'Change the Person' },
+  { id: 'inf',    dataKey: 'infinitives',    labelEl: 'ἁπαρέμφατος',      labelEn: 'Infinitives'       },
+  { id: 'imp',    dataKey: 'imperatives',    labelEl: 'Προστατική',        labelEn: 'Imperatives'       },
+  { id: 'cv',     dataKey: 'contractVerbs',  labelEl: 'Ῥήματα',           labelEn: 'Contract Verbs'    },
+  { id: 'cf',     dataKey: 'caseFill',       labelEl: 'Πτώσεις',          labelEn: 'Fill the Case'     },
   { id: 'prep',   dataKey: 'prepFill',       labelEl: 'ἐν / πρός / ἐκ',  labelEn: 'Prepositions'      },
 ]
 
@@ -40,6 +44,10 @@ export default function ExercisesTab({ exercises, activePart }) {
   const [pcAnswers,     setPcAnswers]     = useState({})
   const [pfAnswers,     setPfAnswers]     = useState({})
   const [pfActive,      setPfActive]      = useState({})
+  const [infAnswers,    setInfAnswers]    = useState({})
+  const [impAnswers,    setImpAnswers]    = useState({})
+  const [cvAnswers,     setCvAnswers]     = useState({})
+  const [cfAnswers,     setCfAnswers]     = useState({})
 
   // Per-section submitted + score
   const [submitted, setSubmitted] = useState({}) // { [id]: bool }
@@ -58,6 +66,10 @@ export default function ExercisesTab({ exercises, activePart }) {
     fillBlank:      filterByPart(exercises.fillBlank,      activePart),
     personChange:   filterByPart(exercises.personChange,   activePart),
     prepFill:       filterByPart(exercises.prepFill,       activePart),
+    infinitives:    filterByPart(exercises.infinitives,    activePart),
+    imperatives:    filterByPart(exercises.imperatives,    activePart),
+    contractVerbs:  filterByPart(exercises.contractVerbs,  activePart),
+    caseFill:       filterByPart(exercises.caseFill,       activePart),
   }
 
   const available = SECTION_META.filter(s => ex[s.dataKey]?.length > 0)
@@ -71,6 +83,10 @@ export default function ExercisesTab({ exercises, activePart }) {
   function handleYn(id, v)     { if (!isSubmitted) setYnAnswers(a => ({ ...a, [id]: v })) }
   function handleThumbs(id, v) { if (!isSubmitted) setThumbsAnswers(a => ({ ...a, [id]: v })) }
   function handleFill(id, v)   { if (!isSubmitted) setFillAnswers(a => ({ ...a, [id]: v })) }
+  function handleInf(id, v)   { if (!isSubmitted) setInfAnswers(a => ({ ...a, [id]: v })) }
+  function handleImp(id, v)   { if (!isSubmitted) setImpAnswers(a => ({ ...a, [id]: v })) }
+  function handleCv(id, v)    { if (!isSubmitted) setCvAnswers(a => ({ ...a, [id]: v })) }
+  function handleCf(id, v)    { if (!isSubmitted) setCfAnswers(a => ({ ...a, [id]: v })) }
   function handlePc(id, i, v) {
     if (isSubmitted) return
     setPcAnswers(a => { const arr = [...(a[id] || [])]; arr[i] = v; return { ...a, [id]: arr } })
@@ -98,6 +114,24 @@ export default function ExercisesTab({ exercises, activePart }) {
         return q.answers.every((_, i) => ans[i]?.trim())
       }).length
     }
+    if (sid === 'inf') {
+      const items = (ex.infinitives || []).filter(q => !q.isExample)
+      total = items.length
+      answered = items.filter(q => infAnswers[q.id]?.trim()).length
+    }
+    if (sid === 'imp') {
+      const items = (ex.imperatives || []).filter(q => !q.isExample)
+      total = items.length
+      answered = items.filter(q => impAnswers[q.id]?.trim()).length
+    }
+    if (sid === 'cv') {
+      total = ex.contractVerbs?.length || 0
+      answered = (ex.contractVerbs || []).filter(q => cvAnswers[q.id]?.trim()).length
+    }
+    if (sid === 'cf') {
+      total = ex.caseFill?.length || 0
+      answered = (ex.caseFill || []).filter(q => cfAnswers[q.id]?.trim()).length
+    }
     return { answered, total }
   }
 
@@ -118,6 +152,10 @@ export default function ExercisesTab({ exercises, activePart }) {
       const ans = pfAnswers[q.id] || []
       if (q.answers.every((a, i) => normalize(ans[i]) === normalize(a))) correct++
     })
+    if (sid === 'inf') ex.infinitives?.filter(q => !q.isExample).forEach(q => { total++; if (checkAnswer(infAnswers[q.id], q.answer)) correct++ })
+    if (sid === 'imp') ex.imperatives?.filter(q => !q.isExample).forEach(q => { total++; if (checkAnswer(impAnswers[q.id], q.answer)) correct++ })
+    if (sid === 'cv')  ex.contractVerbs?.forEach(q => { total++; if (checkAnswer(cvAnswers[q.id], q.answer)) correct++ })
+    if (sid === 'cf')  ex.caseFill?.forEach(q => { total++; if (checkAnswer(cfAnswers[q.id], q.answer)) correct++ })
     return { correct, total }
   }
 
@@ -135,6 +173,10 @@ export default function ExercisesTab({ exercises, activePart }) {
     if (activeId === 'fill')   setFillAnswers({})
     if (activeId === 'pc')     setPcAnswers({})
     if (activeId === 'prep')   { setPfAnswers({}); setPfActive({}) }
+    if (activeId === 'inf')  setInfAnswers({})
+    if (activeId === 'imp')  setImpAnswers({})
+    if (activeId === 'cv')   setCvAnswers({})
+    if (activeId === 'cf')   setCfAnswers({})
     setSubmitted(s => ({ ...s, [activeId]: false }))
     setScores(s => { const n = { ...s }; delete n[activeId]; return n })
   }
@@ -393,6 +435,150 @@ export default function ExercisesTab({ exercises, activePart }) {
                 {isSubmitted && (
                   <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
                     {isCorrect ? `✓ ${q.explanation}` : <span>✗ <strong className="greek">{q.answers.join(' … ')}</strong> — {q.explanation}</span>}
+                  </div>
+                )}
+              </div>
+            </div>
+          )
+        })}
+
+        {/* ── Infinitives ── */}
+        {activeId === 'inf' && ex.infinitives?.map(q => {
+          if (q.isExample) {
+            const displayed = q.prompt.replace('_______', q.answer)
+            return (
+              <div key={q.id} className="question-card question-card--example">
+                <div className="question-num greek">{q.label}</div>
+                <div className="question-body">
+                  <p className="question-text greek">{displayed}</p>
+                </div>
+              </div>
+            )
+          }
+          const userVal   = infAnswers[q.id] || ''
+          const isCorrect = isSubmitted && checkAnswer(userVal, q.answer)
+          const isWrong   = isSubmitted && !isCorrect && userVal.trim()
+          return (
+            <div key={q.id} className={cardClass(isCorrect, isWrong)}>
+              <div className="question-num greek">{q.label}</div>
+              <div className="question-body">
+                <p className="question-text greek">{q.prompt}</p>
+                <div className="fill-row">
+                  <input
+                    className={`fill-input greek${isCorrect ? ' fill-input--correct' : isWrong ? ' fill-input--wrong' : ''}`}
+                    value={userVal}
+                    onChange={e => handleInf(q.id, e.target.value)}
+                    disabled={isSubmitted}
+                    placeholder="___"
+                    autoComplete="off" autoCorrect="off" spellCheck="false"
+                  />
+                </div>
+                {isSubmitted && (
+                  <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
+                    {isCorrect ? `✓ ${q.explanation}` : <span>✗ <strong className="greek">{q.answer}</strong> — {q.explanation}</span>}
+                  </div>
+                )}
+              </div>
+            </div>
+          )
+        })}
+
+        {/* ── Imperatives ── */}
+        {activeId === 'imp' && ex.imperatives?.map(q => {
+          if (q.isExample) {
+            return (
+              <div key={q.id} className="question-card question-card--example">
+                <div className="question-num greek">{q.label}</div>
+                <div className="question-body">
+                  <p className="question-text greek">μαθητὴς 1· {q.student1}</p>
+                  <p className="question-text greek">μαθητὴς 2· {q.student2}</p>
+                </div>
+              </div>
+            )
+          }
+          const userVal   = impAnswers[q.id] || ''
+          const isCorrect = isSubmitted && checkAnswer(userVal, q.answer)
+          const isWrong   = isSubmitted && !isCorrect && userVal.trim()
+          return (
+            <div key={q.id} className={cardClass(isCorrect, isWrong)}>
+              <div className="question-num greek">{q.label}</div>
+              <div className="question-body">
+                <p className="question-text greek">μαθητὴς 1· {q.student1}</p>
+                <div className="fill-row" style={{ alignItems: 'center', gap: '8px' }}>
+                  <span className="greek" style={{ whiteSpace: 'nowrap', color: 'var(--ink)' }}>μαθητὴς 2·</span>
+                  <input
+                    className={`fill-input greek${isCorrect ? ' fill-input--correct' : isWrong ? ' fill-input--wrong' : ''}`}
+                    value={userVal}
+                    onChange={e => handleImp(q.id, e.target.value)}
+                    disabled={isSubmitted}
+                    placeholder="___"
+                    autoComplete="off" autoCorrect="off" spellCheck="false"
+                    style={{ flex: 1 }}
+                  />
+                </div>
+                {isSubmitted && (
+                  <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
+                    {isCorrect ? `✓ ${q.explanation}` : <span>✗ <strong className="greek">{q.answer}</strong> — {q.explanation}</span>}
+                  </div>
+                )}
+              </div>
+            </div>
+          )
+        })}
+
+        {/* ── Contract Verbs ── */}
+        {activeId === 'cv' && ex.contractVerbs?.map(q => {
+          const userVal   = cvAnswers[q.id] || ''
+          const isCorrect = isSubmitted && checkAnswer(userVal, q.answer)
+          const isWrong   = isSubmitted && !isCorrect && userVal.trim()
+          return (
+            <div key={q.id} className={cardClass(isCorrect, isWrong)}>
+              <div className="question-num greek">{q.label || `Q${q.id}`}</div>
+              <div className="question-body">
+                <p className="question-text greek">{q.prompt}</p>
+                <div className="fill-row">
+                  <input
+                    className={`fill-input greek${isCorrect ? ' fill-input--correct' : isWrong ? ' fill-input--wrong' : ''}`}
+                    value={userVal}
+                    onChange={e => handleCv(q.id, e.target.value)}
+                    disabled={isSubmitted}
+                    placeholder="___"
+                    autoComplete="off" autoCorrect="off" spellCheck="false"
+                  />
+                </div>
+                {isSubmitted && (
+                  <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
+                    {isCorrect ? `✓ ${q.explanation}` : <span>✗ <strong className="greek">{q.answer}</strong> — {q.explanation}</span>}
+                  </div>
+                )}
+              </div>
+            </div>
+          )
+        })}
+
+        {/* ── Fill the Case ── */}
+        {activeId === 'cf' && ex.caseFill?.map(q => {
+          const userVal   = cfAnswers[q.id] || ''
+          const isCorrect = isSubmitted && checkAnswer(userVal, q.answer)
+          const isWrong   = isSubmitted && !isCorrect && userVal.trim()
+          return (
+            <div key={q.id} className={cardClass(isCorrect, isWrong)}>
+              <div className="question-num">{q.id}</div>
+              <div className="question-body">
+                <p className="question-text greek">{q.prompt}</p>
+                <div className="fill-row">
+                  <input
+                    className={`fill-input greek${isCorrect ? ' fill-input--correct' : isWrong ? ' fill-input--wrong' : ''}`}
+                    value={userVal}
+                    onChange={e => handleCf(q.id, e.target.value)}
+                    disabled={isSubmitted}
+                    placeholder="___"
+                    autoComplete="off" autoCorrect="off" spellCheck="false"
+                  />
+                </div>
+                {isSubmitted && (
+                  <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
+                    {isCorrect ? `✓ ${q.explanation}` : <span>✗ <strong className="greek">{q.answer}</strong> — {q.explanation}</span>}
                   </div>
                 )}
               </div>
