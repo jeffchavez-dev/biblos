@@ -190,7 +190,7 @@
         "τὸν οὐρανὸν καὶ τὸν ἄρτον"
       ],
       "answer": 1,
-      "explanation": "βλέπει τὸν χόρτον καὶ τὸν ποταμόν — he sees the grass and the river. χόρτος = grass; ποταμός = river."
+      "explanation": "β is the closest option: ὅτε ἡσυχάζει, τὸν χόρτον βλέπει καὶ ἀκούει τὸν ποταμόν (P17). Note: he SEES (βλέπει) the grass, but HEARS (ἀκούει) the river — two different verbs. β covers both things he perceives while resting."
     },
     {
       "id": 17,
@@ -335,8 +335,8 @@
     {
       "id": 16,
       "statement": "ὁ γεωργὸς βλέπει τὸν χόρτον καὶ τὸν ποταμὸν ὅτε ἡσυχάζει.",
-      "answer": true,
-      "explanation": "ἀληθές! ὅτε ἡσυχάζει ἐν τῷ ἀγρῷ, βλέπει τὸν χόρτον καὶ τὸν ποταμόν — when he rests, he sees the grass and the river."
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ γεωργὸς βλέπει τὸν χόρτον ἀλλὰ ἀκούει τὸν ποταμόν (P17). He SEES (βλέπει) the grass but HEARS (ἀκούει) the river — two different verbs. The statement wrongly uses βλέπει for both."
     },
     {
       "id": 17,
