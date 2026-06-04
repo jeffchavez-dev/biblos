@@ -30,13 +30,7 @@
         {"greek": "τὸν", "definition": "the"},
         {"greek": "οἶκον", "definition": "house"},
         {"greek": "τοῦ", "definition": "of the"},
-        {"greek": "γεωργοῦ.", "definition": "farmer"}
-      ],
-      "translation": "Now it is early morning. The moon no longer shines; the sun rises in the sky. The light of the sun comes into the house of the farmer."
-    },
-    {
-      "id": 2,
-      "words": [
+        {"greek": "γεωργοῦ.", "definition": "farmer"},
         {"greek": "ὁ", "definition": "the"},
         {"greek": "δὲ", "definition": "and"},
         {"greek": "γεωργὸς", "definition": "farmer"},
@@ -59,13 +53,7 @@
         {"greek": "ἐν", "definition": "in"},
         {"greek": "τῇ", "definition": "the"},
         {"greek": "καρδίᾳ", "definition": "heart"},
-        {"greek": "αὐτοῦ.", "definition": "his"}
-      ],
-      "translation": "The farmer wakes up from sleep. He is no longer weary but is strong. He has no fear but has peace in his heart."
-    },
-    {
-      "id": 3,
-      "words": [
+        {"greek": "αὐτοῦ.", "definition": "his"},
         {"greek": "καὶ", "definition": "and"},
         {"greek": "ὁ", "definition": "the"},
         {"greek": "γεωργὸς", "definition": "farmer"},
@@ -112,10 +100,10 @@
         {"greek": "καὶ", "definition": "and"},
         {"greek": "ἐσθίει.", "definition": "eats"}
       ],
-      "translation": "The farmer wants to wash his body. He goes out of the house and travels toward the river. The water of the river is good. He washes his body and goes again toward the house. In the house he takes bread and fruit and eats."
+      "translation": "Now it is early morning. The moon no longer shines; the sun rises in the sky. The light of the sun comes into the house of the farmer. The farmer wakes up from sleep. He is no longer weary but is strong. He has no fear but has peace in his heart. The farmer wants to wash his body. He goes out of the house and travels toward the river. The water of the river is good. He washes his body and goes again toward the house. In the house he takes bread and fruit and eats."
     },
     {
-      "id": 4,
+      "id": 2,
       "words": [
         {"greek": "τὸ", "definition": "the"},
         {"greek": "ὄνομα", "definition": "name"},
@@ -144,13 +132,7 @@
         {"greek": "πορεύεται", "definition": "goes"},
         {"greek": "πρὸς", "definition": "toward"},
         {"greek": "τὴν", "definition": "the"},
-        {"greek": "κώμην.", "definition": "village"}
-      ],
-      "translation": "The name of the farmer is Jacob. Jacob is a Galilean and dwells in Galilee. And today he does not work in the field but goes toward the village."
-    },
-    {
-      "id": 5,
-      "words": [
+        {"greek": "κώμην.", "definition": "village"},
         {"greek": "ἐν", "definition": "in"},
         {"greek": "δὲ", "definition": "and"},
         {"greek": "τῇ", "definition": "the"},
@@ -174,13 +156,7 @@
         {"greek": "ἀγρὸν", "definition": "field"},
         {"greek": "καὶ", "definition": "and"},
         {"greek": "τὰ", "definition": "the"},
-        {"greek": "ζῷα;", "definition": "animals"}
-      ],
-      "translation": "His house is in the village, and Jacob wants to see his house. But who will guard the field and the animals?"
-    },
-    {
-      "id": 6,
-      "words": [
+        {"greek": "ζῷα;", "definition": "animals"},
         {"greek": "πορεύεται", "definition": "he goes"},
         {"greek": "οὖν", "definition": "therefore"},
         {"greek": "πρῶτον", "definition": "first"},
@@ -215,10 +191,10 @@
         {"greek": "εἰσιν", "definition": "are"},
         {"greek": "γεωργοί.", "definition": "farmers"}
       ],
-      "translation": "So he goes first to his friend. The name of the friend is Philip. Philip is near Jacob and has a large field and many animals in the field. They are both farmers."
+      "translation": "The name of the farmer is Jacob. Jacob is a Galilean and dwells in Galilee. And today he does not work in the field but goes toward the village. His house is in the village, and Jacob wants to see his house. But who will guard the field and the animals? So he goes first to his friend. The name of the friend is Philip. Philip is near Jacob and has a large field and many animals in the field. They are both farmers."
     },
     {
-      "id": 7,
+      "id": 3,
       "words": [
         {"greek": "ἔρχεται", "definition": "comes"},
         {"greek": "ὁ", "definition": "the"},
@@ -228,20 +204,18 @@
         {"greek": "Φίλιππον", "definition": "Philip"},
         {"greek": "καὶ", "definition": "and"},
         {"greek": "ἀσπάζεται", "definition": "greets"},
-        {"greek": "αὐτόν.", "definition": "him"},
+        {"greek": "αὐτόν.", "definition": "him"}
+      ],
+      "translation": "Jacob comes to Philip and greets him."
+    },
+    {
+      "id": 4,
+      "words": [
         {"greek": "καταφιλεῖ", "definition": "embraces, kisses"},
         {"greek": "τὸν", "definition": "the"},
         {"greek": "φίλον", "definition": "friend"},
         {"greek": "καὶ", "definition": "and"},
-        {"greek": "λέγει,", "definition": "says"}
-      ],
-      "translation": "Jacob comes to Philip and greets him. He embraces his friend and says,"
-    },
-    {
-      "id": 8,
-      "dialogue": true,
-      "speaker": "Ἰάκωβος",
-      "words": [
+        {"greek": "λέγει,", "definition": "says"},
         {"greek": "\"εἰρήνη", "definition": "peace"},
         {"greek": "σοι,", "definition": "to you"},
         {"greek": "ὦ", "definition": "O (vocative particle)"},
@@ -251,25 +225,17 @@
         {"greek": "ἔχεις", "definition": "are you (lit. do you have)"},
         {"greek": "σήμερον;\"", "definition": "today"}
       ],
-      "translation": "\"Peace to you, O friend Philip. How are you today?\""
+      "translation": "He embraces his friend and says, \"Peace to you, O friend Philip. How are you today?\""
     },
     {
-      "id": 9,
+      "id": 5,
       "words": [
         {"greek": "ὁ", "definition": "the"},
         {"greek": "δὲ", "definition": "and"},
         {"greek": "Φίλιππος", "definition": "Philip"},
         {"greek": "ἀποκρίνεται", "definition": "answers"},
         {"greek": "καὶ", "definition": "and"},
-        {"greek": "λέγει,", "definition": "says"}
-      ],
-      "translation": "Philip answers and says,"
-    },
-    {
-      "id": 10,
-      "dialogue": true,
-      "speaker": "Φίλιππος",
-      "words": [
+        {"greek": "λέγει,", "definition": "says"},
         {"greek": "\"χαῖρε,", "definition": "greetings, hello"},
         {"greek": "ὦ", "definition": "O"},
         {"greek": "φίλε", "definition": "friend (vocative)"},
@@ -279,24 +245,26 @@
         {"greek": "καὶ", "definition": "and"},
         {"greek": "σύ;\"", "definition": "you?"}
       ],
-      "translation": "\"Greetings, O friend Jacob, I am well. And you?\""
+      "translation": "Philip answers and says, \"Greetings, O friend Jacob, I am well. And you?\""
     },
     {
-      "id": 11,
-      "dialogue": true,
-      "speaker": "Ἰάκωβος",
+      "id": 6,
       "words": [
+        {"greek": "ὁ", "definition": "the"},
+        {"greek": "δὲ", "definition": "and, but"},
+        {"greek": "Ἰάκωβος,", "definition": "Jacob"},
         {"greek": "\"κἀγώ,", "definition": "and I also (καὶ + ἐγώ)"},
         {"greek": "καλῶς", "definition": "well"},
         {"greek": "ἔχω.\"", "definition": "I am"}
       ],
-      "translation": "\"And I too am well.\""
+      "translation": "Jacob, \"And I too am well.\""
     },
     {
-      "id": 12,
-      "dialogue": true,
-      "speaker": "Φίλιππος",
+      "id": 7,
       "words": [
+        {"greek": "ὁ", "definition": "the"},
+        {"greek": "δὲ", "definition": "and, but"},
+        {"greek": "Φίλιππος,", "definition": "Philip"},
         {"greek": "\"ἀλλὰ", "definition": "but"},
         {"greek": "πρωΐ", "definition": "early morning"},
         {"greek": "ἐστιν·", "definition": "it is"},
@@ -307,13 +275,14 @@
         {"greek": "ὦ", "definition": "O"},
         {"greek": "φίλε;\"", "definition": "friend (vocative)"}
       ],
-      "translation": "\"But it is early; why do you come here, O friend?\""
+      "translation": "Philip, \"But it is early; why do you come here, O friend?\""
     },
     {
-      "id": 13,
-      "dialogue": true,
-      "speaker": "Ἰάκωβος",
+      "id": 8,
       "words": [
+        {"greek": "ὁ", "definition": "the"},
+        {"greek": "δὲ", "definition": "and, but"},
+        {"greek": "Ἰάκωβος,", "definition": "Jacob"},
         {"greek": "\"ἀγαπῶ", "definition": "I love"},
         {"greek": "τὸν", "definition": "the"},
         {"greek": "οἶκόν", "definition": "house"},
@@ -324,13 +293,14 @@
         {"greek": "βλέπειν", "definition": "to see"},
         {"greek": "αὐτόν.\"", "definition": "it"}
       ],
-      "translation": "\"I love my house, and today I want to see it.\""
+      "translation": "Jacob, \"I love my house, and today I want to see it.\""
     },
     {
-      "id": 14,
-      "dialogue": true,
-      "speaker": "Φίλιππος",
+      "id": 9,
       "words": [
+        {"greek": "ὁ", "definition": "the"},
+        {"greek": "δὲ", "definition": "and, but"},
+        {"greek": "Φίλιππος,", "definition": "Philip"},
         {"greek": "\"ἆρα", "definition": "(question particle)"},
         {"greek": "ἡ", "definition": "the"},
         {"greek": "Μάρθα", "definition": "Martha"},
@@ -344,13 +314,14 @@
         {"greek": "τέκνα", "definition": "children"},
         {"greek": "σου;\"", "definition": "your"}
       ],
-      "translation": "\"Is your wife Martha well? And your children?\""
+      "translation": "Philip, \"Is your wife Martha well? And your children?\""
     },
     {
-      "id": 15,
-      "dialogue": true,
-      "speaker": "Ἰάκωβος",
+      "id": 10,
       "words": [
+        {"greek": "ὁ", "definition": "the"},
+        {"greek": "δὲ", "definition": "and, but"},
+        {"greek": "Ἰάκωβος,", "definition": "Jacob"},
         {"greek": "\"ναὶ,", "definition": "yes"},
         {"greek": "καλῶς", "definition": "well"},
         {"greek": "ἔχουσιν", "definition": "they are"},
@@ -414,13 +385,14 @@
         {"greek": "μέλλω", "definition": "I intend"},
         {"greek": "ποιεῖν.\"", "definition": "to do"}
       ],
-      "translation": "\"Yes, all are well. But I love my house, and today I want to see Martha and my children. I also want to know what is happening in the house and in the village. For already I have stayed in the field a long time. I want therefore to go to my house in the village. But I worry about the field and the animals; I do not know what I should do.\""
+      "translation": "Jacob, \"Yes, all are well. But I love my house, and today I want to see Martha and my children. I also want to know what is happening in the house and in the village. For already I have stayed in the field a long time. I want therefore to go to my house in the village. But I worry about the field and the animals; I do not know what I should do.\""
     },
     {
-      "id": 16,
-      "dialogue": true,
-      "speaker": "Φίλιππος",
+      "id": 11,
       "words": [
+        {"greek": "ὁ", "definition": "the"},
+        {"greek": "δὲ", "definition": "and, but"},
+        {"greek": "Φίλιππος,", "definition": "Philip"},
         {"greek": "\"ἀλλὰ", "definition": "but"},
         {"greek": "διὰ", "definition": "why"},
         {"greek": "τί", "definition": "for what reason"},
@@ -478,23 +450,15 @@
         {"greek": "τέκνα", "definition": "children"},
         {"greek": "σου.\"", "definition": "your"}
       ],
-      "translation": "\"But why do you worry so? I am here. For I am a friend to you and I love you. I will help you. I am able to help you and I want to guard your field and your animals. For I intend to stay in the field the whole day. And do not worry, but go to the village and see Martha and your children.\""
+      "translation": "Philip, \"But why do you worry so? I am here. For I am a friend to you and I love you. I will help you. I am able to help you and I want to guard your field and your animals. For I intend to stay in the field the whole day. And do not worry, but go to the village and see Martha and your children.\""
     },
     {
-      "id": 17,
+      "id": 12,
       "words": [
         {"greek": "καὶ", "definition": "and"},
         {"greek": "ἀποκρίνεται", "definition": "answers"},
         {"greek": "ὁ", "definition": "the"},
-        {"greek": "Ἰάκωβος,", "definition": "Jacob"}
-      ],
-      "translation": "And Jacob answers,"
-    },
-    {
-      "id": 18,
-      "dialogue": true,
-      "speaker": "Ἰάκωβος",
-      "words": [
+        {"greek": "Ἰάκωβος,", "definition": "Jacob"},
         {"greek": "\"ὦ", "definition": "O"},
         {"greek": "Φίλιππε,", "definition": "Philip (vocative)"},
         {"greek": "ἀληθῶς", "definition": "truly"},
@@ -541,13 +505,14 @@
         {"greek": "βλέπειν", "definition": "to see"},
         {"greek": "αὐτούς.\"", "definition": "them"}
       ],
-      "translation": "\"O Philip, truly you are a good and faithful friend, and I love you. I give thanks to you because you are able and willing to help me. I also give thanks to God; for God is good and faithful. And now I rejoice greatly because I am able to go to my house and see them.\""
+      "translation": "And Jacob answers, \"O Philip, truly you are a good and faithful friend, and I love you. I give thanks to you because you are able and willing to help me. I also give thanks to God; for God is good and faithful. And now I rejoice greatly because I am able to go to my house and see them.\""
     },
     {
-      "id": 19,
-      "dialogue": true,
-      "speaker": "Φίλιππος",
+      "id": 13,
       "words": [
+        {"greek": "ὁ", "definition": "the"},
+        {"greek": "δὲ", "definition": "and, but"},
+        {"greek": "Φίλιππος,", "definition": "Philip"},
         {"greek": "\"κἀγω", "definition": "and I also"},
         {"greek": "χαίρω", "definition": "rejoice"},
         {"greek": "ὅτι", "definition": "because"},
@@ -566,10 +531,10 @@
         {"greek": "καὶ", "definition": "and"},
         {"greek": "εἰρήνης.\"", "definition": "peace"}
       ],
-      "translation": "\"And I also rejoice because you are able to go to the village. Greet your household. Go with joy and peace.\""
+      "translation": "Philip, \"And I also rejoice because you are able to go to the village. Greet your household. Go with joy and peace.\""
     },
     {
-      "id": 20,
+      "id": 14,
       "words": [
         {"greek": "καὶ", "definition": "and"},
         {"greek": "ὁ", "definition": "the"},
@@ -577,24 +542,16 @@
         {"greek": "ἀσπάζεται", "definition": "greets"},
         {"greek": "πάλιν", "definition": "again"},
         {"greek": "τὸν", "definition": "the"},
-        {"greek": "Φίλιππον,", "definition": "Philip"}
-      ],
-      "translation": "And Jacob greets Philip again,"
-    },
-    {
-      "id": 21,
-      "dialogue": true,
-      "speaker": "Ἰάκωβος",
-      "words": [
+        {"greek": "Φίλιππον,", "definition": "Philip"},
         {"greek": "\"εἰρήνη", "definition": "peace"},
         {"greek": "σοι,", "definition": "to you"},
         {"greek": "ὦ", "definition": "O"},
         {"greek": "φίλε,\"", "definition": "friend (vocative)"}
       ],
-      "translation": "\"Peace to you, O friend,\""
+      "translation": "And Jacob greets Philip again, \"Peace to you, O friend,\""
     },
     {
-      "id": 22,
+      "id": 15,
       "words": [
         {"greek": "καὶ", "definition": "and"},
         {"greek": "ἀπέρχεται", "definition": "departs"},
@@ -640,7 +597,7 @@
       "translation": "And he departs from Philip to his field. In the field he calls the donkey with a loud voice, and the donkey follows him. Jacob departs therefore with joy and peace, and both travel on the road toward the village."
     },
     {
-      "id": 23,
+      "id": 16,
       "label": "Μέρος Βʹ — Οἱ Γεωργοί (Part B — The Farmers)",
       "words": [
         {"greek": "ἐν", "definition": "while"},
@@ -673,7 +630,7 @@
       "translation": "While they travel, Jacob walks with his staff and carries the bag; in the bag he has bread because he wants to eat on the road."
     },
     {
-      "id": 24,
+      "id": 17,
       "words": [
         {"greek": "ὁ", "definition": "the"},
         {"greek": "δὲ", "definition": "and"},
@@ -717,7 +674,7 @@
       "translation": "The donkey follows Jacob and walks after Jacob. It carries many fruits and many vegetables from the field. Jacob no longer worries about the field because Philip, the good and faithful friend, guards it."
     },
     {
-      "id": 25,
+      "id": 18,
       "words": [
         {"greek": "ἐν", "definition": "on"},
         {"greek": "δὲ", "definition": "and"},
@@ -764,7 +721,7 @@
       "translation": "On the road he sees many other farmers. Many farmers are on the road and in the fields. Some are coming from the village and going toward their fields; they greet Jacob on the road, and Jacob greets them."
     },
     {
-      "id": 26,
+      "id": 19,
       "words": [
         {"greek": "οἱ", "definition": "the"},
         {"greek": "δὲ", "definition": "others"},
@@ -808,7 +765,7 @@
       "translation": "Others are already working in the fields; for there are many tasks in the fields. Some dig the ground and carry the small and large stones from the fields. Others harvest the fruits from the trees."
     },
     {
-      "id": 27,
+      "id": 20,
       "words": [
         {"greek": "ἄλλοι", "definition": "others"},
         {"greek": "δὲ", "definition": "and"},
@@ -856,7 +813,7 @@
       "translation": "Others sit under the trees and talk about life and about their children; for the sun shines greatly upon the fields. They rest therefore under the trees in the shade; and after a little time they intend to work again the whole day."
     },
     {
-      "id": 28,
+      "id": 21,
       "words": [
         {"greek": "καθ᾽ἡμέραν", "definition": "daily, every day"},
         {"greek": "οὖν", "definition": "therefore"},
@@ -895,7 +852,7 @@
       "translation": "Every day therefore this is the life in the fields. Many farmers work in the fields every day. Some are rich and have large fields and many animals. For this reason they have many servants."
     },
     {
-      "id": 29,
+      "id": 22,
       "words": [
         {"greek": "καὶ", "definition": "and"},
         {"greek": "ἐργάζονται", "definition": "they work"},
@@ -932,7 +889,7 @@
       "translation": "And they work with the servants in their large fields and guard all their animals. Others are poor; they therefore work in their own fields because they have no servants."
     },
     {
-      "id": 30,
+      "id": 23,
       "words": [
         {"greek": "ἀλλὰ", "definition": "but"},
         {"greek": "ἀμφότεροι", "definition": "both"},
@@ -969,7 +926,7 @@
       "translation": "But both the rich and the poor work the whole day. For they love the land and the work of the fields. They are weary on account of the work; but they rejoice on account of the fruit of the work."
     },
     {
-      "id": 31,
+      "id": 24,
       "words": [
         {"greek": "χαλεπὰ", "definition": "difficult"},
         {"greek": "μὲν", "definition": "(on the one hand)"},
@@ -1010,7 +967,7 @@
       "translation": "The labors in the fields are difficult; but great joy is in the fruits of the labors. It is difficult to do the work; but it is good to receive the fruit. For the land provides to them the fruits of their labors."
     },
     {
-      "id": 32,
+      "id": 25,
       "words": [
         {"greek": "βλέπει", "definition": "sees"},
         {"greek": "ταῦτα", "definition": "these things"},
@@ -1050,7 +1007,7 @@
       "translation": "Jacob sees all these things in the fields as he travels through the fields. For the road goes through the fields, and the fields are around the road. And around the fields there are many trees."
     },
     {
-      "id": 33,
+      "id": 26,
       "words": [
         {"greek": "καὶ", "definition": "and"},
         {"greek": "μακρὰ", "definition": "long"},
@@ -1088,7 +1045,7 @@
       "translation": "The road is long, and the sun shines greatly in the middle of the sky and scorches the road and the fields. There is therefore great heat on the road and in the fields."
     },
     {
-      "id": 34,
+      "id": 27,
       "words": [
         {"greek": "διὰ", "definition": "because of"},
         {"greek": "τοῦτο", "definition": "this"},
@@ -1127,7 +1084,7 @@
       "translation": "Because of this, Jacob is weary in body and wants to rest. For he has already been walking in the heat for a long time. Now he is hungry and wants to eat. And because of the heat he is thirsty and wants to drink."
     },
     {
-      "id": 35,
+      "id": 28,
       "words": [
         {"greek": "ζητεῖ", "definition": "he seeks"},
         {"greek": "οὖν", "definition": "therefore"},
@@ -1164,7 +1121,7 @@
       "translation": "He therefore seeks a place where he can sit and rest. Immediately he finds the large tree near the road. And under the tree is the spring. In the spring there is good and pure water."
     },
     {
-      "id": 36,
+      "id": 29,
       "words": [
         {"greek": "τὸ", "definition": "the"},
         {"greek": "δὲ", "definition": "and"},
@@ -1200,7 +1157,7 @@
       "translation": "The tree provides shade where people rest when they travel through the road and drink the pure water from the spring when they are weary because of the heat of the sun."
     },
     {
-      "id": 37,
+      "id": 30,
       "words": [
         {"greek": "καθίζει", "definition": "he sits"},
         {"greek": "οὖν", "definition": "therefore"},
@@ -1224,7 +1181,7 @@
       "translation": "He sits therefore and rests under the large tree, then opens the bag and takes the bread and eats."
     },
     {
-      "id": 38,
+      "id": 31,
       "words": [
         {"greek": "μετὰ", "definition": "after"},
         {"greek": "δὲ", "definition": "and"},
