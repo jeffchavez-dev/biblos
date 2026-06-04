@@ -3,72 +3,242 @@
     {
       "id": 1,
       "question": "τίς ἐστιν ὁ ἄνθρωπος;",
-      "options": ["ἥλιος", "γεωργός", "λίθος", "ποταμός"],
+      "options": [
+        "ἥλιος",
+        "γεωργός",
+        "λίθος",
+        "ποταμός"
+      ],
       "answer": 1,
       "explanation": "ὁ ἄνθρωπος γεωργός ἐστιν. The man is a farmer — γεωργός is the first word introduced in the story."
     },
     {
       "id": 2,
       "question": "ποῖός ἐστιν ὁ οἶκος;",
-      "options": ["μέγας καὶ καλός", "μικρὸς καὶ καλός", "μέγας, οὐ καλός", "μικρός, οὐ καλός"],
+      "options": [
+        "μέγας καὶ καλός",
+        "μικρὸς καὶ καλός",
+        "μέγας, οὐ καλός",
+        "μικρός, οὐ καλός"
+      ],
       "answer": 1,
       "explanation": "ὁ οἶκός ἐστιν μικρὸς καὶ καλός. The house is small (μικρός) and good/beautiful (καλός)."
     },
     {
       "id": 3,
       "question": "τί ποιεῖ ὁ γεωργὸς τὸν ἄρτον;",
-      "options": ["φέρει τὸν ἄρτον", "βλέπει τὸν ἄρτον", "λαμβάνει καὶ ἐσθίει τὸν ἄρτον", "αἴρει τὸν ἄρτον"],
+      "options": [
+        "φέρει τὸν ἄρτον",
+        "βλέπει τὸν ἄρτον",
+        "λαμβάνει καὶ ἐσθίει τὸν ἄρτον",
+        "αἴρει τὸν ἄρτον"
+      ],
       "answer": 2,
       "explanation": "λαμβάνει τὸν ἄρτον καὶ ἐσθίει — he takes the bread and eats. λαμβάνω = I take; ἐσθίω = I eat."
     },
     {
       "id": 4,
       "question": "ποῖός ἐστιν ὁ ἀγρός;",
-      "options": ["μέγας καὶ καλός", "μικρὸς καὶ καλός", "μέγας, οὐ καλός", "μικρός, οὐ καλός"],
+      "options": [
+        "μέγας καὶ καλός",
+        "μικρὸς καὶ καλός",
+        "μέγας, οὐ καλός",
+        "μικρός, οὐ καλός"
+      ],
       "answer": 1,
       "explanation": "μικρός ἐστιν ὁ ἀγρός, ἀλλὰ καλός — the field is small but good. Both house and field share this description."
     },
     {
       "id": 5,
       "question": "τί ποιεῖ ὁ γεωργὸς τὸν μέγαν λίθον;",
-      "options": ["βλέπει τὸν λίθον", "ἐσθίει τὸν λίθον", "φιλεῖ τὸν λίθον", "αἴρει καὶ φέρει τὸν λίθον"],
+      "options": [
+        "βλέπει τὸν λίθον",
+        "ἐσθίει τὸν λίθον",
+        "φιλεῖ τὸν λίθον",
+        "αἴρει καὶ φέρει τὸν λίθον"
+      ],
       "answer": 3,
       "explanation": "αἴρει τὸν λίθον καὶ φέρει αὐτόν — he lifts the stone and carries it. αἴρω = I lift; φέρω = I carry."
     },
     {
       "id": 6,
       "question": "διὰ τί αἴρει ὁ γεωργὸς τὸν λίθον;",
-      "options": ["ὅτι καλός ἐστιν ὁ λίθος", "ὅτι μικρός ἐστιν ὁ λίθος", "ὅτι ἰσχυρός ἐστιν ὁ γεωργός", "ὅτι μέγας ἐστιν ὁ ἀγρός"],
+      "options": [
+        "ὅτι καλός ἐστιν ὁ λίθος",
+        "ὅτι μικρός ἐστιν ὁ λίθος",
+        "ὅτι ἰσχυρός ἐστιν ὁ γεωργός",
+        "ὅτι μέγας ἐστιν ὁ ἀγρός"
+      ],
       "answer": 2,
       "explanation": "ἰσχυρός ἐστιν ὁ γεωργός, διὰ τοῦτο αἴρει τὸν λίθον — the farmer is strong, therefore he lifts the stone. ἰσχυρός = strong."
     },
     {
       "id": 7,
       "question": "τί ποιεῖ ὁ ἥλιος;",
-      "options": ["ῥεῖ", "σκάπτει", "λάμπει", "φέρει"],
+      "options": [
+        "ῥεῖ",
+        "σκάπτει",
+        "λάμπει",
+        "φέρει"
+      ],
       "answer": 2,
       "explanation": "ὁ ἥλιος λάμπει ἐν τῷ οὐρανῷ — the sun shines in the sky. λάμπω = I shine. ῥεῖ (flows) is what the river does."
     },
     {
       "id": 8,
       "question": "τί ποιεῖ ὁ ποταμός;",
-      "options": ["λάμπει", "σκάπτει", "φέρει", "ῥεῖ"],
+      "options": [
+        "λάμπει",
+        "σκάπτει",
+        "φέρει",
+        "ῥεῖ"
+      ],
       "answer": 3,
       "explanation": "ὁ ποταμὸς ῥεῖ — the river flows. ῥέω = I flow. λάμπει (shines) is what the sun does."
     },
     {
       "id": 9,
       "question": "πῶς ἔχει ὁ γεωργὸς ὅτε ἐσθίει τὸν καρπόν;",
-      "options": ["σκάπτει", "φέρει", "χαίρει", "βλέπει"],
+      "options": [
+        "σκάπτει",
+        "φέρει",
+        "χαίρει",
+        "βλέπει"
+      ],
       "answer": 2,
       "explanation": "ὁ γεωργὸς ἐσθίει τὸν καρπὸν καὶ χαίρει — the farmer eats the fruit and rejoices. χαίρω = I rejoice, am glad."
     },
     {
       "id": 10,
       "question": "τί λέγει ὁ γεωργὸς περὶ τοῦ θεοῦ;",
-      "options": ["ὁ θεὸς μικρός ἐστιν", "ὁ θεὸς καλός ἐστιν", "ὁ θεὸς μέγας ἐστιν", "ὁ θεὸς ἀγαθὸς καὶ πιστός ἐστιν"],
+      "options": [
+        "ὁ θεὸς μικρός ἐστιν",
+        "ὁ θεὸς καλός ἐστιν",
+        "ὁ θεὸς μέγας ἐστιν",
+        "ὁ θεὸς ἀγαθὸς καὶ πιστός ἐστιν"
+      ],
       "answer": 3,
       "explanation": "ὁ θεὸς ἀγαθὸς καὶ πιστός ἐστιν — God is good and faithful. ἀγαθός = good; πιστός = faithful. This is the farmer's closing declaration."
+    },
+    {
+      "id": 11,
+      "question": "ποῦ καθίζει ὁ γεωργὸς;",
+      "options": [
+        "ἐν τῷ ἀγρῷ",
+        "ἐν τῷ οἴκῳ",
+        "ἐν τῷ οὐρανῷ",
+        "ἐν τῷ ποταμῷ"
+      ],
+      "answer": 1,
+      "explanation": "ὁ γεωργὸς καθίζει ἐν τῷ οἴκῳ — the farmer sits in the house. ἐν τῷ οἴκῳ = in the house (ἐν + dative)."
+    },
+    {
+      "id": 12,
+      "question": "τί λαμβάνει ὁ γεωργὸς ἐν τῷ οἴκῳ;",
+      "options": [
+        "τὸν λίθον",
+        "τὸν καρπόν",
+        "τὸν ἄρτον",
+        "τὸν χόρτον"
+      ],
+      "answer": 2,
+      "explanation": "λαμβάνει τὸν ἄρτον ἐν τῷ οἴκῳ — he takes bread in the house. ἄρτος = bread."
+    },
+    {
+      "id": 13,
+      "question": "ποῦ περιπατεῖ ὁ γεωργὸς ἐκ τοῦ οἴκου;",
+      "options": [
+        "πρὸς τὸν ποταμόν",
+        "πρὸς τὸν οὐρανόν",
+        "πρὸς τὸν ἀγρόν",
+        "πρὸς τὸν λίθον"
+      ],
+      "answer": 2,
+      "explanation": "ἐκβαίνει ἐκ τοῦ οἴκου καὶ περιπατεῖ πρὸς τὸν ἀγρόν — he goes out of the house and walks toward the field. ἐκ + gen. = out of; πρός + acc. = toward."
+    },
+    {
+      "id": 14,
+      "question": "τί ποιεῖ ὁ γεωργὸς ἐν τῷ ἀγρῷ;",
+      "options": [
+        "καθίζει καὶ ἡσυχάζει",
+        "σκάπτει τὸν ἀγρόν",
+        "ἐσθίει τὸν ἄρτον",
+        "βλέπει τὸν οὐρανόν"
+      ],
+      "answer": 1,
+      "explanation": "σκάπτει τὸν ἀγρόν — he digs the field. σκάπτω = I dig. This is his main work in Part B."
+    },
+    {
+      "id": 15,
+      "question": "ποῖός ἐστιν ὁ πόνος ἐν τῷ ἀγρῷ;",
+      "options": [
+        "ῥᾴδιος καὶ καλός",
+        "μικρὸς καὶ ῥᾴδιος",
+        "χαλεπός, οὐ ῥᾴδιος",
+        "καλὸς καὶ χαλεπός"
+      ],
+      "answer": 2,
+      "explanation": "ὁ πόνος χαλεπός ἐστιν, οὐ ῥᾴδιος — the toil is hard, not easy. χαλεπός = hard, difficult; ῥᾴδιος = easy."
+    },
+    {
+      "id": 16,
+      "question": "τί βλέπει ὁ γεωργὸς ὅτε ἡσυχάζει ἐν τῷ ἀγρῷ;",
+      "options": [
+        "τὸν ἄρτον καὶ τὸν λίθον",
+        "τὸν χόρτον καὶ τὸν ποταμόν",
+        "τὸν οἶκον καὶ τὸν λίθον",
+        "τὸν οὐρανὸν καὶ τὸν ἄρτον"
+      ],
+      "answer": 1,
+      "explanation": "βλέπει τὸν χόρτον καὶ τὸν ποταμόν — he sees the grass and the river. χόρτος = grass; ποταμός = river."
+    },
+    {
+      "id": 17,
+      "question": "τί ποιεῖ ὁ θεὸς κατὰ τὸν γεωργόν;",
+      "options": [
+        "σκάπτει τὸν ἀγρόν",
+        "φέρει τὸν λίθον",
+        "ποιεῖ τὸν χόρτον καὶ τὸν ποταμόν",
+        "λάμπει ἐν τῷ οὐρανῷ"
+      ],
+      "answer": 2,
+      "explanation": "ὁ θεὸς ποιεῖ τὸν χόρτον καὶ τὸν ποταμόν — God makes the grass and the river. ποιέω = I make, do."
+    },
+    {
+      "id": 18,
+      "question": "τί λέγει ὁ γεωργὸς περὶ τοῦ θεοῦ;",
+      "options": [
+        "ὁ θεὸς μέγας ἐστιν",
+        "ὁ θεὸς καλός ἐστιν",
+        "ὁ θεὸς ἀγαθὸς καὶ πιστός ἐστιν",
+        "ὁ θεὸς ἐν τῷ ἀγρῷ ἐστιν"
+      ],
+      "answer": 2,
+      "explanation": "ὁ θεὸς ἀγαθὸς καὶ πιστός ἐστιν — God is good and faithful. This is the farmer's core confession."
+    },
+    {
+      "id": 19,
+      "question": "ποῦ ἐκβαίνει ὁ γεωργὸς τέλος;",
+      "options": [
+        "ἐκ τοῦ οἴκου πρὸς τὸν ἀγρόν",
+        "ἐκ τοῦ ἀγροῦ πρὸς τὸν ποταμόν",
+        "ἐκ τοῦ ἀγροῦ πρὸς τὸν οἶκον",
+        "ἐκ τοῦ οἴκου πρὸς τὸν ποταμόν"
+      ],
+      "answer": 2,
+      "explanation": "τέλος ἐκβαίνει ἐκ τοῦ ἀγροῦ πρὸς τὸν οἶκον — finally he goes out of the field toward the house. τέλος = finally, at the end."
+    },
+    {
+      "id": 20,
+      "question": "πῶς ἔχει ὁ γεωργὸς ἐν τῷ οἴκῳ τέλος;",
+      "options": [
+        "σκάπτει καὶ πονεῖ",
+        "καθίζει καὶ χαίρει",
+        "βλέπει τὸν χόρτον",
+        "φέρει τοὺς λίθους"
+      ],
+      "answer": 1,
+      "explanation": "καθίζει καὶ χαίρει — he sits and rejoices. The hard day's work ends with rest and joy in the house."
     }
   ],
   "trueFalse": [
@@ -131,6 +301,66 @@
       "statement": "ὁ θεὸς κακὸς καὶ ἄπιστός ἐστιν.",
       "answer": false,
       "explanation": "ψεῦδος. ὁ θεὸς ἀγαθὸς καὶ πιστός ἐστιν — God is good and faithful. ἄπιστος = unfaithful (ἀ- = negative prefix); πιστός = faithful."
+    },
+    {
+      "id": 11,
+      "statement": "ὁ γεωργὸς λαμβάνει τὸν ἄρτον ἐν τῷ ἀγρῷ.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ γεωργὸς λαμβάνει τὸν ἄρτον ἐν τῷ οἴκῳ, οὐκ ἐν τῷ ἀγρῷ — he takes bread in the house, not in the field."
+    },
+    {
+      "id": 12,
+      "statement": "ὁ γεωργὸς ἐκβαίνει ἐκ τοῦ οἴκου καὶ περιπατεῖ πρὸς τὸν ἀγρόν.",
+      "answer": true,
+      "explanation": "ἀληθές! ἐκβαίνει ἐκ τοῦ οἴκου καὶ περιπατεῖ πρὸς τὸν ἀγρόν — he goes out of the house and walks toward the field."
+    },
+    {
+      "id": 13,
+      "statement": "ὁ ἥλιος λάμπει ἐν τῷ οὐρανῷ ὅτε ὁ γεωργὸς σκάπτει.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ ἥλιος λάμπει ἐν τῷ οὐρανῷ ὅτε ὁ γεωργὸς ἐργάζεται — the sun shines in the sky while the farmer works."
+    },
+    {
+      "id": 14,
+      "statement": "ὁ πόνος ῥᾴδιός ἐστιν ἐν τῷ ἀγρῷ.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ πόνος χαλεπός ἐστιν, οὐ ῥᾴδιος — the toil is difficult, not easy. χαλεπός ≠ ῥᾴδιος."
+    },
+    {
+      "id": 15,
+      "statement": "ὁ γεωργὸς φιλεῖ τὸν ἀγρόν.",
+      "answer": true,
+      "explanation": "ἀληθές! φιλεῖ ὁ γεωργὸς τὸν ἀγρόν — the farmer loves the field. He works it faithfully all day."
+    },
+    {
+      "id": 16,
+      "statement": "ὁ γεωργὸς βλέπει τὸν χόρτον καὶ τὸν ποταμὸν ὅτε ἡσυχάζει.",
+      "answer": true,
+      "explanation": "ἀληθές! ὅτε ἡσυχάζει ἐν τῷ ἀγρῷ, βλέπει τὸν χόρτον καὶ τὸν ποταμόν — when he rests, he sees the grass and the river."
+    },
+    {
+      "id": 17,
+      "statement": "ὁ γεωργὸς λέγει ὅτι ὁ βίος χαλεπός ἐστιν καὶ ὁ θεὸς κακός ἐστιν.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ γεωργὸς λέγει ὅτι ὁ βίος καλός ἐστιν ὅτι ὁ θεὸς ἀγαθός ἐστιν — life is good because God is good, not bad."
+    },
+    {
+      "id": 18,
+      "statement": "ὁ θεὸς ποιεῖ τὸν χόρτον καὶ τὸν ποταμόν.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ θεὸς ποιεῖ τὸν καλὸν χόρτον καὶ τὸν ποταμόν — God makes the good grass and the river. ποιέω = I make."
+    },
+    {
+      "id": 19,
+      "statement": "ὁ γεωργὸς ἐκβαίνει ἐκ τοῦ ἀγροῦ πρὸς τὸν οἶκον.",
+      "answer": true,
+      "explanation": "ἀληθές! τέλος ἐκβαίνει ἐκ τοῦ ἀγροῦ πρὸς τὸν οἶκον — finally he goes out of the field toward the house."
+    },
+    {
+      "id": 20,
+      "statement": "ὁ γεωργὸς σκάπτει τὸν ἀγρὸν ἐν τῷ οἴκῳ τέλος.",
+      "answer": false,
+      "explanation": "ψεῦδος. τέλος ὁ γεωργὸς καθίζει ἐν τῷ οἴκῳ καὶ χαίρει — at the end he sits in the house and rejoices; the digging was done in the field."
     }
   ],
   "yesNo": [
@@ -255,6 +485,66 @@
       "statement": "ὁ θεὸς ἀγαθὸς καὶ πιστός ἐστιν.",
       "answer": true,
       "explanation": "👍 ἀληθές! εὐχαριστεῖ ὁ γεωργὸς τῷ θεῷ ὅτι ἀγαθὸς καὶ πιστός ἐστιν — the farmer gives thanks to God because he is good and faithful."
+    },
+    {
+      "id": 11,
+      "statement": "ὁ γεωργὸς καθίζει ἐν τῷ οἴκῳ καὶ λαμβάνει τὸν ἄρτον.",
+      "answer": true,
+      "explanation": "👍 ἀληθές! καθίζει ἐν τῷ οἴκῳ καὶ λαμβάνει τὸν ἄρτον — he sits in the house and takes bread before going to the field."
+    },
+    {
+      "id": 12,
+      "statement": "ὁ γεωργὸς ἐκβαίνει ἐκ τοῦ οἴκου πρὸς τὸν ποταμόν.",
+      "answer": false,
+      "explanation": "👎 ψεῦδος. ἐκβαίνει ἐκ τοῦ οἴκου πρὸς τὸν ἀγρόν, οὐ πρὸς τὸν ποταμόν — he goes to the field, not the river."
+    },
+    {
+      "id": 13,
+      "statement": "ὁ ἥλιος λάμπει ἐν τῷ οὐρανῷ.",
+      "answer": true,
+      "explanation": "👍 ἀληθές! ὁ ἥλιος λάμπει ἐν τῷ οὐρανῷ — the sun shines in the sky while the farmer works."
+    },
+    {
+      "id": 14,
+      "statement": "ὁ πόνος χαλεπός ἐστιν, οὐ ῥᾴδιος.",
+      "answer": true,
+      "explanation": "👍 ἀληθές! ὁ πόνος χαλεπός ἐστιν, οὐ ῥᾴδιος — the toil is hard, not easy. Field work is demanding!"
+    },
+    {
+      "id": 15,
+      "statement": "ὁ γεωργὸς φέρει τὸν λίθον ἐκ τοῦ οἴκου.",
+      "answer": false,
+      "explanation": "👎 ψεῦδος. φέρει τὸν λίθον ἐκ τοῦ ἀγροῦ, οὐκ ἐκ τοῦ οἴκου — he carries the stone out of the field, not out of the house."
+    },
+    {
+      "id": 16,
+      "statement": "ὁ γεωργὸς καθίζει ἐν τῷ ἀγρῷ καὶ ἡσυχάζει.",
+      "answer": true,
+      "explanation": "👍 ἀληθές! καθίζει ἐν τῷ ἀγρῷ καὶ ἡσυχάζει — he sits in the field and rests. ἡσυχάζω = I rest, am quiet."
+    },
+    {
+      "id": 17,
+      "statement": "ὁ βίος χαλεπός ἐστιν ἀλλὰ ὁ θεὸς ἀγαθός ἐστιν.",
+      "answer": true,
+      "explanation": "👍 ἀληθές! ὁ βίος χαλεπός, ἀλλὰ ὁ θεὸς ἀγαθός — life is hard, but God is good. This is the farmer's key insight."
+    },
+    {
+      "id": 18,
+      "statement": "ὁ γεωργὸς οὐκ εὐχαριστεῖ τῷ θεῷ.",
+      "answer": false,
+      "explanation": "👎 ψεῦδος. εὐχαριστεῖ ὁ γεωργὸς τῷ θεῷ — the farmer does give thanks to God. εὐχαριστέω + dative = I give thanks to."
+    },
+    {
+      "id": 19,
+      "statement": "ὁ γεωργὸς ἐκβαίνει ἐκ τοῦ ἀγροῦ πρὸς τὸν οἶκον.",
+      "answer": true,
+      "explanation": "👍 ἀληθές! τέλος ἐκβαίνει ἐκ τοῦ ἀγροῦ πρὸς τὸν οἶκον — at the end he leaves the field and goes home."
+    },
+    {
+      "id": 20,
+      "statement": "ὁ γεωργὸς χαίρει ἐν τῷ οἴκῳ ὅτι ἡσυχάζει.",
+      "answer": true,
+      "explanation": "👍 ἀληθές! χαίρει ἐν τῷ οἴκῳ ὅτι ἡσυχάζει — he rejoices in the house because he rests. ὅτι = because."
     }
   ],
   "fillBlank": [
@@ -317,6 +607,66 @@
       "prompt": "ὁ θεός ἐστιν ἀγαθὸς καὶ _______.",
       "answer": "πιστός",
       "explanation": "πιστός = faithful. God is good (ἀγαθός) and faithful (πιστός) — the farmer's closing thanksgiving."
+    },
+    {
+      "id": 11,
+      "prompt": "ὁ γεωργὸς καθίζει ἐν τῷ _______.",
+      "answer": "οἴκῳ",
+      "explanation": "οἴκῳ is the dative singular of οἶκος (house). ἐν always takes the dative: ἐν τῷ οἴκῳ = in the house."
+    },
+    {
+      "id": 12,
+      "prompt": "ὁ γεωργὸς ἐκβαίνει ἐκ τοῦ οἴκου πρὸς τὸν _______.",
+      "answer": "ἀγρόν",
+      "explanation": "ἀγρόν is the accusative singular of ἀγρός (field). πρός + accusative = toward: πρὸς τὸν ἀγρόν = toward the field."
+    },
+    {
+      "id": 13,
+      "prompt": "ὁ ἥλιος λάμπει ἐν τῷ _______.",
+      "answer": "οὐρανῷ",
+      "explanation": "οὐρανῷ is the dative singular of οὐρανός (sky). ἐν τῷ οὐρανῷ = in the sky."
+    },
+    {
+      "id": 14,
+      "prompt": "ὁ πόνος χαλεπός ἐστιν, οὐ _______.",
+      "answer": "ῥᾴδιος",
+      "explanation": "ῥᾴδιος = easy. The contrast is χαλεπός (hard) vs. ῥᾴδιος (easy). οὐ negates the following adjective."
+    },
+    {
+      "id": 15,
+      "prompt": "ὁ γεωργὸς σκάπτει τὸν λίθον καὶ _______ καὶ φέρει.",
+      "answer": "αἴρει",
+      "explanation": "αἴρει = he lifts (3rd sg. of αἴρω). The sequence is: σκάπτει (digs) → αἴρει (lifts) → φέρει (carries)."
+    },
+    {
+      "id": 16,
+      "prompt": "ὁ γεωργὸς καθίζει ἐν τῷ ἀγρῷ καὶ _______.",
+      "answer": "ἡσυχάζει",
+      "explanation": "ἡσυχάζει = he rests/is quiet (3rd sg. of ἡσυχάζω). After working, the farmer sits and rests."
+    },
+    {
+      "id": 17,
+      "prompt": "ὁ βίος καλός ἐστιν ὅτι ὁ θεός ἐστιν ἀγαθὸς καὶ _______.",
+      "answer": "πιστός",
+      "explanation": "πιστός = faithful. ὅτι = because. Life is good because God is good (ἀγαθός) and faithful (πιστός)."
+    },
+    {
+      "id": 18,
+      "prompt": "ὁ θεὸς ποιεῖ τὸν καλὸν χόρτον καὶ τὸν _______.",
+      "answer": "ποταμόν",
+      "explanation": "ποταμόν = river (accusative of ποταμός). God makes (ποιεῖ) the good grass (χόρτον) and the river (ποταμόν)."
+    },
+    {
+      "id": 19,
+      "prompt": "ὁ γεωργὸς ἐκβαίνει ἐκ τοῦ _______ πρὸς τὸν οἶκον.",
+      "answer": "ἀγροῦ",
+      "explanation": "ἀγροῦ = of the field (genitive of ἀγρός). ἐκ + genitive = out of: ἐκ τοῦ ἀγροῦ = out of the field."
+    },
+    {
+      "id": 20,
+      "prompt": "ὁ γεωργὸς χαίρει ἐν τῷ οἴκῳ ὅτι _______.",
+      "answer": "ἡσυχάζει",
+      "explanation": "ἡσυχάζει = he rests. He rejoices (χαίρει) in the house because (ὅτι) he rests (ἡσυχάζει) after the hard day's work."
     }
   ],
   "personChange": [
@@ -324,85 +674,245 @@
       "id": 1,
       "original": "ὁ γεωργὸς ἔχει οἶκον.",
       "cue": "ἐγὼ _______ οἶκον.",
-      "answers": ["ἔχω"],
+      "answers": [
+        "ἔχω"
+      ],
       "explanation": "3rd sg. ἔχει → 1st sg. ἔχω. The -ει ending changes to -ω for the 1st person singular."
     },
     {
       "id": 2,
       "original": "ὁ γεωργὸς σκάπτει τὸν ἀγρόν.",
       "cue": "ἐγὼ _______ τὸν ἀγρόν.",
-      "answers": ["σκάπτω"],
+      "answers": [
+        "σκάπτω"
+      ],
       "explanation": "3rd sg. σκάπτει → 1st sg. σκάπτω. Regular pattern: -ει → -ω for 1st person."
     },
     {
       "id": 3,
       "original": "ὁ γεωργὸς φιλεῖ τὸν οἶκον.",
       "cue": "ἐγὼ _______ τὸν οἶκον.",
-      "answers": ["φιλῶ"],
+      "answers": [
+        "φιλῶ"
+      ],
       "explanation": "φιλεῖ is a contract verb (-έω). 1st sg. contract: φιλέω → φιλῶ (the ε contracts with ω to give ω with circumflex)."
     },
     {
       "id": 4,
       "original": "ὁ γεωργὸς βλέπει τὸν λίθον.",
       "cue": "σὺ _______ τὸν λίθον.",
-      "answers": ["βλέπεις"],
+      "answers": [
+        "βλέπεις"
+      ],
       "explanation": "3rd sg. βλέπει → 2nd sg. βλέπεις. The 2nd person singular adds -ς to the -ει stem."
     },
     {
       "id": 5,
       "original": "ὁ γεωργὸς ἔχει τὸν ἀγρόν.",
       "cue": "σὺ _______ τὸν ἀγρόν.",
-      "answers": ["ἔχεις"],
+      "answers": [
+        "ἔχεις"
+      ],
       "explanation": "3rd sg. ἔχει → 2nd sg. ἔχεις. Adding -ς for the 2nd person singular."
     },
     {
       "id": 6,
       "original": "ὁ γεωργὸς βλέπει τὸν ἥλιον.",
       "cue": "σὺ _______ τὸν ἥλιον.",
-      "answers": ["βλέπεις"],
+      "answers": [
+        "βλέπεις"
+      ],
       "explanation": "3rd sg. βλέπει → 2nd sg. βλέπεις. Same pattern: -ει + -ς = -εις."
     },
     {
       "id": 7,
       "original": "ὁ γεωργὸς αἴρει τὸν λίθον καὶ φέρει.",
       "cue": "ἐγὼ _______ τὸν λίθον καὶ _______.",
-      "answers": ["αἴρω", "φέρω"],
+      "answers": [
+        "αἴρω",
+        "φέρω"
+      ],
       "explanation": "Both verbs change to 1st sg.: αἴρει → αἴρω and φέρει → φέρω. The pattern -ει → -ω applies to both."
     },
     {
       "id": 8,
       "original": "ὁ γεωργὸς φιλεῖ τὸν οἶκον καὶ τὸν ἀγρόν.",
       "cue": "σὺ _______ τὸν οἶκον καὶ τὸν ἀγρόν.",
-      "answers": ["φιλεῖς"],
+      "answers": [
+        "φιλεῖς"
+      ],
       "explanation": "φιλεῖ (contract, -έω) → 2nd sg. φιλεῖς. Contract -έω verbs: 2nd sg. = φιλεῖς (the ε + εις contracts to εῖς)."
     },
     {
       "id": 9,
       "original": "ὁ γεωργὸς ἐσθίει καὶ χαίρει.",
       "cue": "ἐγὼ _______ καὶ _______.",
-      "answers": ["ἐσθίω", "χαίρω"],
+      "answers": [
+        "ἐσθίω",
+        "χαίρω"
+      ],
       "explanation": "ἐσθίει → ἐσθίω and χαίρει → χαίρω. Both follow the same 3rd → 1st person pattern: -ει → -ω."
     },
     {
       "id": 10,
       "original": "ὁ γεωργὸς σκάπτει τὸν ἀγρόν.",
       "cue": "σὺ _______ τὸν ἀγρόν.",
-      "answers": ["σκάπτεις"],
+      "answers": [
+        "σκάπτεις"
+      ],
       "explanation": "3rd sg. σκάπτει → 2nd sg. σκάπτεις. Adding -ς for 2nd person: -ει + ς = -εις."
     },
     {
       "id": 11,
       "original": "ὁ γεωργὸς αἴρει τὸν λίθον.",
       "cue": "ἐγὼ _______ τὸν λίθον.",
-      "answers": ["αἴρω"],
+      "answers": [
+        "αἴρω"
+      ],
       "explanation": "3rd sg. αἴρει → 1st sg. αἴρω. Regular pattern: -ει → -ω."
     },
     {
       "id": 12,
       "original": "ὁ γεωργὸς φέρει τὸν λίθον ἐκ τοῦ ἀγροῦ.",
       "cue": "σὺ _______ τὸν λίθον ἐκ τοῦ ἀγροῦ.",
-      "answers": ["φέρεις"],
+      "answers": [
+        "φέρεις"
+      ],
       "explanation": "3rd sg. φέρει → 2nd sg. φέρεις. Adding -ς to the 3rd person form: φέρει + ς = φέρεις."
+    }
+  ],
+  "prepFill": [
+    {
+      "id": 1,
+      "prompt": "ὁ γεωργὸς καθίζει _______ τῷ οἴκῳ.",
+      "choices": [
+        "ἐν",
+        "πρός",
+        "ἐκ"
+      ],
+      "answers": [
+        "ἐν"
+      ],
+      "explanation": "ἐν + dative: τῷ οἴκῳ is dative, so ἐν is correct. ἐν τῷ οἴκῳ = in the house."
+    },
+    {
+      "id": 2,
+      "prompt": "ὁ γεωργὸς ἐκβαίνει _______ τοῦ οἴκου.",
+      "choices": [
+        "ἐν",
+        "πρός",
+        "ἐκ"
+      ],
+      "answers": [
+        "ἐκ"
+      ],
+      "explanation": "ἐκ + genitive: τοῦ οἴκου is genitive, so ἐκ is correct. ἐκ τοῦ οἴκου = out of the house."
+    },
+    {
+      "id": 3,
+      "prompt": "ὁ γεωργὸς βαδίζει _______ τὸν ἀγρόν.",
+      "choices": [
+        "ἐν",
+        "πρός",
+        "ἐκ"
+      ],
+      "answers": [
+        "πρός"
+      ],
+      "explanation": "πρός + accusative: τὸν ἀγρόν is accusative, so πρός is correct. πρὸς τὸν ἀγρόν = toward the field."
+    },
+    {
+      "id": 4,
+      "prompt": "ὁ ἥλιος λάμπει _______ τῷ οὐρανῷ.",
+      "choices": [
+        "ἐν",
+        "πρός",
+        "ἐκ"
+      ],
+      "answers": [
+        "ἐν"
+      ],
+      "explanation": "ἐν + dative: τῷ οὐρανῷ is dative. ἐν τῷ οὐρανῷ = in the sky."
+    },
+    {
+      "id": 5,
+      "prompt": "ὁ γεωργὸς σκάπτει _______ τῷ ἀγρῷ.",
+      "choices": [
+        "ἐν",
+        "πρός",
+        "ἐκ"
+      ],
+      "answers": [
+        "ἐν"
+      ],
+      "explanation": "ἐν + dative: τῷ ἀγρῷ is dative. ἐν τῷ ἀγρῷ = in the field (location of action)."
+    },
+    {
+      "id": 6,
+      "prompt": "ὁ γεωργὸς φέρει τὸν λίθον _______ τοῦ ἀγροῦ.",
+      "choices": [
+        "ἐν",
+        "πρός",
+        "ἐκ"
+      ],
+      "answers": [
+        "ἐκ"
+      ],
+      "explanation": "ἐκ + genitive: τοῦ ἀγροῦ is genitive. ἐκ τοῦ ἀγροῦ = out of the field (motion away from)."
+    },
+    {
+      "id": 7,
+      "prompt": "ὁ γεωργὸς ἐκβαίνει _______ τοῦ ἀγροῦ _______ τὸν οἶκον.",
+      "choices": [
+        "ἐν",
+        "πρός",
+        "ἐκ"
+      ],
+      "answers": [
+        "ἐκ",
+        "πρός"
+      ],
+      "explanation": "Two prepositions: ἐκ + genitive (τοῦ ἀγροῦ = out of the field) and πρός + accusative (τὸν οἶκον = toward the house)."
+    },
+    {
+      "id": 8,
+      "prompt": "ὁ γεωργὸς καθίζει _______ τῷ ἀγρῷ καὶ ἡσυχάζει.",
+      "choices": [
+        "ἐν",
+        "πρός",
+        "ἐκ"
+      ],
+      "answers": [
+        "ἐν"
+      ],
+      "explanation": "ἐν + dative: τῷ ἀγρῷ is dative. ἐν τῷ ἀγρῷ = in the field (he rests there)."
+    },
+    {
+      "id": 9,
+      "prompt": "ὁ γεωργὸς βλέπει τὸν ποταμὸν _______ τῷ ἀγρῷ.",
+      "choices": [
+        "ἐν",
+        "πρός",
+        "ἐκ"
+      ],
+      "answers": [
+        "ἐν"
+      ],
+      "explanation": "ἐν + dative: he sees the river while in (ἐν) the field. ἐν τῷ ἀγρῷ = in the field."
+    },
+    {
+      "id": 10,
+      "prompt": "ὁ γεωργὸς ἐκβαίνει _______ τοῦ οἴκου _______ τὸν ἀγρόν.",
+      "choices": [
+        "ἐν",
+        "πρός",
+        "ἐκ"
+      ],
+      "answers": [
+        "ἐκ",
+        "πρός"
+      ],
+      "explanation": "ἐκ + genitive (τοῦ οἴκου = out of the house) + πρός + accusative (τὸν ἀγρόν = toward the field)."
     }
   ]
 }

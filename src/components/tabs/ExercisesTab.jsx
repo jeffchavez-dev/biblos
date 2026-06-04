@@ -15,12 +15,13 @@ function checkAnswer(userInput, correctAnswer) {
 }
 
 const SECTION_META = [
-  { id: 'mc',     labelEl: 'Τί ἐστιν ὀρθόν;', labelEn: 'Multiple Choice' },
-  { id: 'tf',     labelEl: 'Ἀληθές / Ψεῦδος', labelEn: 'True or False'   },
-  { id: 'yn',     labelEl: 'Ναί / Οὔ',         labelEn: 'Yes or No'       },
-  { id: 'thumbs', labelEl: '👍 / 👎',           labelEn: 'Correct or Not'  },
-  { id: 'fill',   labelEl: 'Γέμιζε!',          labelEn: 'Fill in the Blank'},
-  { id: 'pc',     labelEl: 'Ἄλλαξον!',         labelEn: 'Change the Person'},
+  { id: 'mc',   labelEl: 'Τί ἐστιν ὀρθόν;',  labelEn: 'Multiple Choice'  },
+  { id: 'tf',   labelEl: 'Ἀληθές / Ψεῦδος',  labelEn: 'True or False'    },
+  { id: 'yn',   labelEl: 'Ναί / Οὔ',          labelEn: 'Yes or No'        },
+  { id: 'thumbs',labelEl: '👍 / 👎',           labelEn: 'Correct or Not'   },
+  { id: 'fill', labelEl: 'Γέμιζε!',           labelEn: 'Fill in the Blank'},
+  { id: 'pc',   labelEl: 'Ἄλλαξον!',          labelEn: 'Change the Person'},
+  { id: 'prep', labelEl: 'ἐν / πρός / ἐκ',   labelEn: 'Prepositions'     },
 ]
 
 export default function ExercisesTab({ exercises }) {
@@ -31,6 +32,8 @@ export default function ExercisesTab({ exercises }) {
   const [mcAnswers,     setMcAnswers]     = useState({})
   const [fillAnswers,   setFillAnswers]   = useState({})
   const [pcAnswers,     setPcAnswers]     = useState({})
+  const [pfAnswers,     setPfAnswers]     = useState({}) // prepFill: { id: string[] }
+  const [pfActive,      setPfActive]      = useState({}) // prepFill: { id: blankIndex }
   const [submitted, setSubmitted] = useState(false)
   const [score,     setScore]     = useState(null)
 
@@ -40,7 +43,7 @@ export default function ExercisesTab({ exercises }) {
 
   // Which sections exist in the data?
   const available = SECTION_META.filter(s => {
-    const key = s.id === 'mc' ? 'multipleChoice' : s.id === 'tf' ? 'trueFalse' : s.id === 'yn' ? 'yesNo' : s.id === 'thumbs' ? 'thumbs' : s.id === 'fill' ? 'fillBlank' : 'personChange'
+    const key = s.id === 'mc' ? 'multipleChoice' : s.id === 'tf' ? 'trueFalse' : s.id === 'yn' ? 'yesNo' : s.id === 'thumbs' ? 'thumbs' : s.id === 'fill' ? 'fillBlank' : s.id === 'pc' ? 'personChange' : 'prepFill'
     return exercises[key]?.length > 0
   })
 
@@ -79,6 +82,11 @@ export default function ExercisesTab({ exercises }) {
       const ans = pcAnswers[q.id] || []
       if (q.answers.every((_, i) => ans[i]?.trim())) answered++
     })
+    exercises.prepFill?.forEach(q => {
+      total++
+      const ans = pfAnswers[q.id] || []
+      if (q.answers.every((_, i) => ans[i]?.trim())) answered++
+    })
     return { answered, total }
   }
 
@@ -94,6 +102,11 @@ export default function ExercisesTab({ exercises }) {
       const ans = pcAnswers[q.id] || []
       if (q.answers.every((a, i) => checkAnswer(ans[i], a))) correct++
     })
+    exercises.prepFill?.forEach(q => {
+      total++
+      const ans = pfAnswers[q.id] || []
+      if (q.answers.every((a, i) => normalize(ans[i]) === normalize(a))) correct++
+    })
     setScore({ correct, total })
     setSubmitted(true)
   }
@@ -101,6 +114,7 @@ export default function ExercisesTab({ exercises }) {
   function handleReset() {
     setTfAnswers({}); setYnAnswers({}); setThumbsAnswers({})
     setMcAnswers({}); setFillAnswers({}); setPcAnswers({})
+    setPfAnswers({}); setPfActive({})
     setSubmitted(false); setScore(null)
   }
 
@@ -311,6 +325,85 @@ export default function ExercisesTab({ exercises }) {
                     {isCorrect
                       ? `✓ ${q.explanation}`
                       : <span>✗ <strong className="greek">{q.answers.join(', ')}</strong> — {q.explanation}</span>
+                    }
+                  </div>
+                )}
+              </div>
+            </div>
+          )
+        })}
+
+        {/* ── Preposition Fill ── */}
+        {activeId === 'prep' && exercises.prepFill?.map(q => {
+          const ans = pfAnswers[q.id] || []
+          const activeBlank = pfActive[q.id] ?? 0
+          const parts = q.prompt.split('_______')
+          const isCorrect = submitted && q.answers.every((a, i) => normalize(ans[i]) === normalize(a))
+          const isWrong   = submitted && !isCorrect && ans.some(a => a?.trim())
+          return (
+            <div key={q.id} className={cardClass(isCorrect, isWrong)}>
+              <div className="question-num">Q{q.id}</div>
+              <div className="question-body">
+                {/* Sentence with clickable blank chips */}
+                <div className="prep-sentence greek">
+                  {parts.map((part, i) => (
+                    <span key={i}>
+                      {part}
+                      {i < q.answers.length && (
+                        <button
+                          className={`prep-blank
+                            ${!submitted && activeBlank === i ? ' prep-blank--active' : ''}
+                            ${ans[i] ? ' prep-blank--filled' : ''}
+                            ${submitted && normalize(ans[i]) === normalize(q.answers[i]) ? ' prep-blank--correct' : ''}
+                            ${submitted && ans[i] && normalize(ans[i]) !== normalize(q.answers[i]) ? ' prep-blank--wrong' : ''}
+                          `}
+                          onClick={() => { if (!submitted) setPfActive(a => ({ ...a, [q.id]: i })) }}
+                        >
+                          {ans[i] || '___'}
+                        </button>
+                      )}
+                    </span>
+                  ))}
+                </div>
+                {/* Word bank buttons */}
+                {!submitted && (
+                  <div className="prep-choices">
+                    {q.choices.map(choice => (
+                      <button
+                        key={choice}
+                        className="prep-choice greek"
+                        onClick={() => {
+                          const active = pfActive[q.id] ?? 0
+                          setPfAnswers(a => {
+                            const arr = [...(a[q.id] || [])]
+                            arr[active] = choice
+                            return { ...a, [q.id]: arr }
+                          })
+                          // Auto-advance to next blank
+                          if (active < q.answers.length - 1) {
+                            setPfActive(a => ({ ...a, [q.id]: active + 1 }))
+                          }
+                        }}
+                      >
+                        {choice}
+                      </button>
+                    ))}
+                    {/* Clear button */}
+                    {ans.some(a => a) && (
+                      <button
+                        className="prep-clear"
+                        onClick={() => { setPfAnswers(a => ({ ...a, [q.id]: [] })); setPfActive(a => ({ ...a, [q.id]: 0 })) }}
+                      >
+                        ✕
+                      </button>
+                    )}
+                  </div>
+                )}
+                {submitted && (
+                  <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
+                    {isCorrect
+                      ? `✓ ${q.explanation}`
+                      : <span>✗ <strong className="greek">{q.answers.join(' … ')}</strong> — {q.explanation}</span>
                     }
                   </div>
                 )}

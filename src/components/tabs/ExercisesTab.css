@@ -135,6 +135,50 @@
 .pc-arrow { color: var(--grey); font-size: 1rem; flex-shrink: 0; }
 .pc-cue   { line-height: 2; }
 
+/* ── Preposition Fill ── */
+.prep-sentence {
+  font-size: 1rem; line-height: 2.2;
+}
+.prep-blank {
+  display: inline-block;
+  min-width: 52px;
+  padding: 2px 10px;
+  margin: 0 3px;
+  border-radius: var(--radius-sm);
+  border: 1.5px dashed var(--border);
+  background: #fff;
+  color: var(--grey);
+  font-size: 0.9rem; font-weight: 600;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: all 0.15s;
+}
+.prep-blank--active   { border-color: var(--blue); border-style: solid; background: var(--blue-light); color: var(--blue); }
+.prep-blank--filled   { border-style: solid; border-color: var(--ink); color: var(--ink); }
+.prep-blank--correct  { border-color: var(--green) !important; background: var(--green-light) !important; color: var(--green) !important; }
+.prep-blank--wrong    { border-color: var(--red) !important; background: var(--red-light) !important; color: var(--red) !important; }
+
+.prep-choices {
+  display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+  padding-top: 4px;
+}
+.prep-choice {
+  padding: 7px 18px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--border);
+  background: #fff;
+  font-size: 1rem; font-weight: 600; color: var(--ink);
+  cursor: pointer; transition: all 0.15s;
+}
+.prep-choice:hover { border-color: var(--blue); background: var(--blue-light); color: var(--blue); }
+.prep-clear {
+  padding: 6px 10px; border-radius: var(--radius-sm);
+  border: 1.5px solid var(--border); background: #fff;
+  color: var(--grey); font-size: 0.8rem; cursor: pointer;
+  transition: all 0.15s;
+}
+.prep-clear:hover { border-color: var(--red); color: var(--red); }
+
 /* ── Explanation ── */
 .explanation {
   font-size: 0.84rem; line-height: 1.55;
