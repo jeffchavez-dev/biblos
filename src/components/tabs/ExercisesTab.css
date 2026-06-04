@@ -1,5 +1,6 @@
 .exercises-tab { display: flex; flex-direction: column; gap: 20px; }
 
+/* ── Header ── */
 .exercises-header {
   display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
 }
@@ -9,25 +10,32 @@
   padding: 4px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 600;
 }
 .score-badge--perfect { background: var(--green-light); color: var(--green); }
-.score-badge--good { background: var(--blue-light); color: var(--blue); }
-.score-badge--low { background: var(--red-light); color: var(--red); }
+.score-badge--good    { background: var(--blue-light);  color: var(--blue);  }
+.score-badge--low     { background: var(--red-light);   color: var(--red);   }
 
+/* ── Section tabs ── */
 .section-tabs {
   display: flex;
-  border: 1.5px solid var(--border);
-  border-radius: var(--radius-sm);
-  overflow: hidden;
-  background: #fff;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 .section-tab {
-  flex: 1; padding: 10px; background: none; color: var(--grey);
-  font-size: 0.88rem; font-weight: 500; transition: background 0.15s, color 0.15s;
-  border-right: 1.5px solid var(--border);
+  display: flex; align-items: center; gap: 5px;
+  padding: 7px 12px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--border);
+  background: #fff;
+  color: var(--grey);
+  font-size: 0.85rem; font-weight: 500;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  white-space: nowrap;
 }
-.section-tab:last-child { border-right: none; }
-.section-tab:hover { background: var(--grey-light); }
-.section-tab--active { background: var(--deep-blue); color: #fff; }
+.section-tab:hover { background: var(--grey-light); border-color: var(--blue); color: var(--blue); }
+.section-tab--active { background: var(--deep-blue); color: #fff; border-color: var(--deep-blue); }
+.section-tab-greek { font-size: 0.88rem; }
+.section-tab-count { font-size: 0.75rem; opacity: 0.7; }
 
+/* ── Question cards ── */
 .question-list { display: flex; flex-direction: column; gap: 14px; }
 
 .question-card {
@@ -40,70 +48,112 @@
   transition: border-color 0.2s;
 }
 .question-card--correct { border-color: var(--green); background: var(--green-light); }
-.question-card--wrong { border-color: var(--red); background: var(--red-light); }
+.question-card--wrong   { border-color: var(--red);   background: var(--red-light);   }
 
 .question-num {
-  font-size: 0.75rem; font-weight: 700; color: var(--grey);
-  text-transform: uppercase; padding-top: 2px; flex-shrink: 0;
+  font-size: 0.72rem; font-weight: 700; color: var(--grey);
+  text-transform: uppercase; padding-top: 2px; flex-shrink: 0; width: 22px;
 }
 .question-body { flex: 1; display: flex; flex-direction: column; gap: 12px; }
-.question-text { font-size: 0.95rem; line-height: 1.5; }
+.question-text { font-size: 1rem; line-height: 1.55; }
+.question-text--original {
+  font-size: 0.9rem; color: var(--grey);
+  padding-bottom: 4px; border-bottom: 1px dashed var(--border);
+}
 
-/* T/F */
+/* ── True/False / Yes/No / Thumbs ── */
 .tf-options { display: flex; gap: 8px; }
 .tf-btn {
-  flex: 1; padding: 8px; border-radius: var(--radius-sm);
-  border: 1.5px solid var(--border); background: #fff;
-  font-size: 0.9rem; font-weight: 500; color: var(--grey);
+  flex: 1; padding: 9px 14px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--border);
+  background: #fff;
+  font-size: 0.95rem; font-weight: 500; color: var(--grey);
   transition: all 0.15s; cursor: pointer;
 }
-.tf-btn:hover { border-color: var(--blue); color: var(--blue); }
-.tf-btn--selected { border-color: var(--blue); background: var(--blue-light); color: var(--blue); }
-.tf-btn--answer { border-color: var(--green) !important; background: var(--green-light) !important; color: var(--green) !important; }
+.tf-btn:hover         { border-color: var(--blue); color: var(--blue); }
+.tf-btn--selected     { border-color: var(--blue); background: var(--blue-light); color: var(--blue); }
+.tf-btn--answer       { border-color: var(--green) !important; background: var(--green-light) !important; color: var(--green) !important; }
+.tf-btn--emoji        { font-size: 1.4rem; padding: 6px 14px; }
 
-/* MC */
+/* ── Multiple Choice ── */
 .mc-options { display: flex; flex-direction: column; gap: 7px; }
 .mc-btn {
   display: flex; align-items: center; gap: 10px;
   padding: 9px 13px; border-radius: var(--radius-sm);
   border: 1.5px solid var(--border); background: #fff;
-  font-size: 0.9rem; color: var(--ink); text-align: left;
+  font-size: 0.95rem; color: var(--ink); text-align: left;
   transition: all 0.15s; cursor: pointer;
 }
-.mc-btn:hover { border-color: var(--blue); background: var(--blue-light); }
-.mc-btn--selected { border-color: var(--blue); background: var(--blue-light); color: var(--blue); }
-.mc-btn--answer { border-color: var(--green) !important; background: var(--green-light) !important; color: var(--green) !important; font-weight: 600; }
-.mc-btn--wrong { border-color: var(--red) !important; background: var(--red-light) !important; color: var(--red) !important; }
-.mc-letter {
-  width: 22px; height: 22px; border-radius: 50%;
-  background: currentColor; color: #fff; font-size: 0.72rem; font-weight: 700;
-  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
-  opacity: 0.7;
-}
-.mc-btn--answer .mc-letter, .mc-btn--selected .mc-letter { opacity: 1; }
+.mc-btn:hover       { border-color: var(--blue); background: var(--blue-light); }
+.mc-btn--selected   { border-color: var(--blue); background: var(--blue-light); color: var(--blue); }
+.mc-btn--answer     { border-color: var(--green) !important; background: var(--green-light) !important; color: var(--green) !important; font-weight: 600; }
+.mc-btn--wrong      { border-color: var(--red) !important; background: var(--red-light) !important; color: var(--red) !important; }
 
+.mc-letter {
+  min-width: 26px; height: 26px; border-radius: var(--radius-sm);
+  background: var(--grey-light); color: var(--grey);
+  font-size: 0.85rem; font-weight: 700;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.mc-btn--selected .mc-letter { background: var(--blue); color: #fff; }
+.mc-btn--answer   .mc-letter { background: var(--green); color: #fff; }
+.mc-btn--wrong    .mc-letter { background: var(--red); color: #fff; }
+
+/* ── Fill in the Blank ── */
+.fill-row { display: flex; align-items: center; gap: 8px; }
+
+.fill-input {
+  padding: 7px 10px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  color: var(--ink);
+  background: #fff;
+  min-width: 120px;
+  transition: border-color 0.15s;
+}
+.fill-input:focus          { outline: none; border-color: var(--blue); }
+.fill-input:disabled       { background: var(--grey-light); }
+.fill-input--correct       { border-color: var(--green) !important; background: var(--green-light) !important; color: var(--green) !important; }
+.fill-input--wrong         { border-color: var(--red) !important; background: var(--red-light) !important; color: var(--red) !important; }
+
+/* Inline input inside person-change sentence */
+.fill-input--inline {
+  display: inline-block;
+  min-width: 80px;
+  padding: 3px 7px;
+  font-size: 1rem;
+  vertical-align: baseline;
+  margin: 0 3px;
+}
+
+/* ── Person Change ── */
+.pc-row {
+  display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;
+}
+.pc-arrow { color: var(--grey); font-size: 1rem; flex-shrink: 0; }
+.pc-cue   { line-height: 2; }
+
+/* ── Explanation ── */
 .explanation {
-  font-size: 0.83rem; line-height: 1.5;
+  font-size: 0.84rem; line-height: 1.55;
   padding: 8px 12px; border-radius: var(--radius-sm);
 }
 .explanation--correct { background: rgba(45,106,79,0.1); color: var(--green); }
-.explanation--wrong { background: rgba(193,18,31,0.08); color: var(--red); }
+.explanation--wrong   { background: rgba(193,18,31,0.08); color: var(--red);  }
 
+/* ── Footer ── */
 .exercises-footer { display: flex; justify-content: center; padding-top: 4px; }
 .submit-btn, .reset-btn {
   padding: 11px 32px; border-radius: var(--radius);
   font-size: 0.95rem; font-weight: 600;
   transition: background 0.15s, opacity 0.15s;
 }
-.submit-btn {
-  background: var(--deep-blue); color: #fff;
-}
+.submit-btn { background: var(--deep-blue); color: #fff; }
 .submit-btn:hover:not(:disabled) { background: var(--blue); }
 .submit-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-.reset-btn {
-  background: #fff; color: var(--ink);
-  border: 1.5px solid var(--border);
-}
+.reset-btn  { background: #fff; color: var(--ink); border: 1.5px solid var(--border); }
 .reset-btn:hover { background: var(--grey-light); }
 
 .empty-tab {

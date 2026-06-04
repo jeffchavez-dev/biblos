@@ -1,71 +1,408 @@
 {
-  "trueFalse": [
-    {
-      "id": 1,
-      "statement": "The Greek word γεωργός means \"farmer.\"",
-      "answer": true,
-      "explanation": "Correct! γεωργός (geōrgos) means \"farmer\" — it is the root of the English word \"George\" (earth-worker)."
-    },
-    {
-      "id": 2,
-      "statement": "The farmer's field (ἀγρός) is described as large (μέγας).",
-      "answer": false,
-      "explanation": "In the story, the field is described as small (μικρός) but good (καλός): μικρός ἐστιν ὁ ἀγρός, ἀλλὰ καλός."
-    },
-    {
-      "id": 3,
-      "statement": "The preposition ἐν takes the dative case.",
-      "answer": true,
-      "explanation": "Correct! ἐν always governs the dative case: ἐν τῷ οἴκῳ means \"in the house.\""
-    },
-    {
-      "id": 4,
-      "statement": "In the farmer's speech, he says life is difficult because God is not good.",
-      "answer": false,
-      "explanation": "The opposite! The farmer says: ὁ βίος καλός ἐστιν ὅτι ὁ θεὸς ἐστιν ἀγαθὸς καὶ πιστός — \"life is good because God is good and faithful.\""
-    },
-    {
-      "id": 5,
-      "statement": "The word εὐχαριστῶ means \"I give thanks\" and takes the dative case.",
-      "answer": true,
-      "explanation": "Correct! εὐχαριστῶ τῷ θεῷ — \"I give thanks to God.\" The dative marks the recipient."
-    }
-  ],
   "multipleChoice": [
     {
       "id": 1,
-      "question": "What does ὁ γεωργὸς σκάπτει τὸν ἀγρόν mean?",
-      "options": ["The farmer sees the field", "The farmer digs the field", "The farmer loves the field", "The farmer carries the field"],
+      "question": "τίς ἐστιν ὁ ἄνθρωπος;",
+      "options": ["ἥλιος", "γεωργός", "λίθος", "ποταμός"],
       "answer": 1,
-      "explanation": "σκάπτει means \"he digs.\" The farmer digs his small but good field."
+      "explanation": "ὁ ἄνθρωπος γεωργός ἐστιν. The man is a farmer — γεωργός is the first word introduced in the story."
     },
     {
       "id": 2,
-      "question": "What case does πρός take to express motion toward?",
-      "options": ["Nominative", "Genitive", "Dative", "Accusative"],
-      "answer": 3,
-      "explanation": "πρός + accusative expresses motion toward: περιπατεῖ πρὸς τὸν ἀγρόν — \"he walks toward the field.\""
+      "question": "ποῖός ἐστιν ὁ οἶκος;",
+      "options": ["μέγας καὶ καλός", "μικρὸς καὶ καλός", "μέγας, οὐ καλός", "μικρός, οὐ καλός"],
+      "answer": 1,
+      "explanation": "ὁ οἶκός ἐστιν μικρὸς καὶ καλός. The house is small (μικρός) and good/beautiful (καλός)."
     },
     {
       "id": 3,
-      "question": "What is the correct genitive singular of οἶκος?",
-      "options": ["οἶκον", "τῷ οἴκῳ", "τοῦ οἴκου", "τὸν οἶκον"],
+      "question": "τί ποιεῖ ὁ γεωργὸς τὸν ἄρτον;",
+      "options": ["φέρει τὸν ἄρτον", "βλέπει τὸν ἄρτον", "λαμβάνει καὶ ἐσθίει τὸν ἄρτον", "αἴρει τὸν ἄρτον"],
       "answer": 2,
-      "explanation": "The genitive singular of masculine 2nd-declension nouns ends in -ου: τοῦ οἴκου means \"of the house\" or \"out of the house\" (with ἐκ)."
+      "explanation": "λαμβάνει τὸν ἄρτον καὶ ἐσθίει — he takes the bread and eats. λαμβάνω = I take; ἐσθίω = I eat."
     },
     {
       "id": 4,
-      "question": "Which particle always appears in 2nd position in its clause and means \"for/because\"?",
-      "options": ["καί", "οὖν", "γάρ", "μέν"],
-      "answer": 2,
-      "explanation": "γάρ is postpositive (always 2nd in its clause) and means \"for, because\": ἰσχυρὸς γάρ ἐστιν — \"for he is strong.\""
+      "question": "ποῖός ἐστιν ὁ ἀγρός;",
+      "options": ["μέγας καὶ καλός", "μικρὸς καὶ καλός", "μέγας, οὐ καλός", "μικρός, οὐ καλός"],
+      "answer": 1,
+      "explanation": "μικρός ἐστιν ὁ ἀγρός, ἀλλὰ καλός — the field is small but good. Both house and field share this description."
     },
     {
       "id": 5,
-      "question": "In the story, why does the farmer say life is good?",
-      "options": ["Because the field is large", "Because the toil is easy", "Because God is good and faithful", "Because the sun shines"],
+      "question": "τί ποιεῖ ὁ γεωργὸς τὸν μέγαν λίθον;",
+      "options": ["βλέπει τὸν λίθον", "ἐσθίει τὸν λίθον", "φιλεῖ τὸν λίθον", "αἴρει καὶ φέρει τὸν λίθον"],
+      "answer": 3,
+      "explanation": "αἴρει τὸν λίθον καὶ φέρει αὐτόν — he lifts the stone and carries it. αἴρω = I lift; φέρω = I carry."
+    },
+    {
+      "id": 6,
+      "question": "διὰ τί αἴρει ὁ γεωργὸς τὸν λίθον;",
+      "options": ["ὅτι καλός ἐστιν ὁ λίθος", "ὅτι μικρός ἐστιν ὁ λίθος", "ὅτι ἰσχυρός ἐστιν ὁ γεωργός", "ὅτι μέγας ἐστιν ὁ ἀγρός"],
       "answer": 2,
-      "explanation": "The farmer says: ὁ βίος καλός ἐστιν ὅτι ὁ θεός ἐστιν ἀγαθὸς καὶ πιστός — \"life is good because God is good and faithful.\""
+      "explanation": "ἰσχυρός ἐστιν ὁ γεωργός, διὰ τοῦτο αἴρει τὸν λίθον — the farmer is strong, therefore he lifts the stone. ἰσχυρός = strong."
+    },
+    {
+      "id": 7,
+      "question": "τί ποιεῖ ὁ ἥλιος;",
+      "options": ["ῥεῖ", "σκάπτει", "λάμπει", "φέρει"],
+      "answer": 2,
+      "explanation": "ὁ ἥλιος λάμπει ἐν τῷ οὐρανῷ — the sun shines in the sky. λάμπω = I shine. ῥεῖ (flows) is what the river does."
+    },
+    {
+      "id": 8,
+      "question": "τί ποιεῖ ὁ ποταμός;",
+      "options": ["λάμπει", "σκάπτει", "φέρει", "ῥεῖ"],
+      "answer": 3,
+      "explanation": "ὁ ποταμὸς ῥεῖ — the river flows. ῥέω = I flow. λάμπει (shines) is what the sun does."
+    },
+    {
+      "id": 9,
+      "question": "πῶς ἔχει ὁ γεωργὸς ὅτε ἐσθίει τὸν καρπόν;",
+      "options": ["σκάπτει", "φέρει", "χαίρει", "βλέπει"],
+      "answer": 2,
+      "explanation": "ὁ γεωργὸς ἐσθίει τὸν καρπὸν καὶ χαίρει — the farmer eats the fruit and rejoices. χαίρω = I rejoice, am glad."
+    },
+    {
+      "id": 10,
+      "question": "τί λέγει ὁ γεωργὸς περὶ τοῦ θεοῦ;",
+      "options": ["ὁ θεὸς μικρός ἐστιν", "ὁ θεὸς καλός ἐστιν", "ὁ θεὸς μέγας ἐστιν", "ὁ θεὸς ἀγαθὸς καὶ πιστός ἐστιν"],
+      "answer": 3,
+      "explanation": "ὁ θεὸς ἀγαθὸς καὶ πιστός ἐστιν — God is good and faithful. ἀγαθός = good; πιστός = faithful. This is the farmer's closing declaration."
+    }
+  ],
+  "trueFalse": [
+    {
+      "id": 1,
+      "statement": "ὁ ἄνθρωπός ἐστιν γεωργός.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ ἄνθρωπός ἐστιν γεωργός — the man is indeed a farmer. This is the opening fact of the story."
+    },
+    {
+      "id": 2,
+      "statement": "ὁ οἶκος μέγας ἐστιν.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ οἶκος μικρός ἐστιν, οὐ μέγας — the house is small, not large. Both the house and the field are μικρός."
+    },
+    {
+      "id": 3,
+      "statement": "ὁ ἀγρὸς μικρὸς ἀλλὰ καλός ἐστιν.",
+      "answer": true,
+      "explanation": "ἀληθές! μικρός ἐστιν ὁ ἀγρός, ἀλλὰ καλός — the field is small but good. The conjunction ἀλλά (but) creates the contrast."
+    },
+    {
+      "id": 4,
+      "statement": "ὁ γεωργός ἐστιν κακὸς καὶ ἀσθενής.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ γεωργός ἐστιν ἀγαθὸς καὶ ἰσχυρός — the farmer is good and strong. κακός = bad; ἀσθενής = weak: the opposite of what is said."
+    },
+    {
+      "id": 5,
+      "statement": "ὁ ἥλιος λάμπει ἐν τῷ οὐρανῷ.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ ἥλιος λάμπει ἐν τῷ οὐρανῷ — the sun shines in the sky. ἐν τῷ οὐρανῷ = in the sky/heaven (dative with ἐν)."
+    },
+    {
+      "id": 6,
+      "statement": "ὁ ποταμὸς λάμπει.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ ποταμὸς ῥεῖ, οὐ λάμπει — the river flows, it does not shine. λάμπω = shine (the sun); ῥέω = flow (the river)."
+    },
+    {
+      "id": 7,
+      "statement": "ὁ γεωργὸς φιλεῖ τὸν οἶκον καὶ τὸν ἀγρόν.",
+      "answer": true,
+      "explanation": "ἀληθές! φιλεῖ ὁ γεωργὸς τὸν οἶκον καὶ τὸν ἀγρόν — the farmer loves his house and his field. φιλέω = I love, am fond of."
+    },
+    {
+      "id": 8,
+      "statement": "ὁ γεωργὸς ἐσθίει τὸν λίθον.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ γεωργὸς ἐσθίει τὸν ἄρτον καὶ τὸν καρπόν, οὐ τὸν λίθον — the farmer eats bread and fruit, not stone!"
+    },
+    {
+      "id": 9,
+      "statement": "ὁ γεωργὸς αἴρει τὸν λίθον ὅτι ἰσχυρός ἐστιν.",
+      "answer": true,
+      "explanation": "ἀληθές! ἰσχυρός ἐστιν ὁ γεωργός, διὰ τοῦτο αἴρει τὸν λίθον — the farmer is strong, therefore he lifts the stone. ὅτι = because."
+    },
+    {
+      "id": 10,
+      "statement": "ὁ θεὸς κακὸς καὶ ἄπιστός ἐστιν.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ θεὸς ἀγαθὸς καὶ πιστός ἐστιν — God is good and faithful. ἄπιστος = unfaithful (ἀ- = negative prefix); πιστός = faithful."
+    }
+  ],
+  "yesNo": [
+    {
+      "id": 1,
+      "question": "ἆρα ὁ ἄνθρωπος γεωργός ἐστιν;",
+      "answer": true,
+      "explanation": "ναί! ὁ ἄνθρωπος γεωργός ἐστιν. The particle ἆρα introduces a yes/no question in Greek."
+    },
+    {
+      "id": 2,
+      "question": "ἆρα ὁ οἶκος μέγας ἐστιν;",
+      "answer": false,
+      "explanation": "οὔ. ὁ οἶκος μικρός ἐστιν, οὐ μέγας — the house is small, not large."
+    },
+    {
+      "id": 3,
+      "question": "ἆρα ὁ ἀγρὸς καλός ἐστιν;",
+      "answer": true,
+      "explanation": "ναί! ὁ ἀγρὸς καλός ἐστιν — the field is good/beautiful, even though it is small."
+    },
+    {
+      "id": 4,
+      "question": "ἆρα ὁ γεωργὸς πονεῖ ἐν τῷ οἴκῳ;",
+      "answer": false,
+      "explanation": "οὔ. ὁ γεωργὸς πονεῖ ἐν τῷ ἀγρῷ, οὐκ ἐν τῷ οἴκῳ — the farmer works in the field, not in the house."
+    },
+    {
+      "id": 5,
+      "question": "ἆρα ὁ ἥλιός ἐστιν ἐν τῷ οὐρανῷ;",
+      "answer": true,
+      "explanation": "ναί! ὁ ἥλιος λάμπει ἐν τῷ οὐρανῷ — the sun shines in the sky."
+    },
+    {
+      "id": 6,
+      "question": "ἆρα ὁ ἥλιος μικρός ἐστιν;",
+      "answer": false,
+      "explanation": "οὔ. ὁ ἥλιος μέγας ἐστιν καὶ λάμπει σφόδρα — the sun is great and shines brightly, not small."
+    },
+    {
+      "id": 7,
+      "question": "ἆρα ὁ ποταμὸς λάμπει;",
+      "answer": false,
+      "explanation": "οὔ. ὁ ποταμὸς ῥεῖ, οὐ λάμπει — the river flows; it is the sun that shines."
+    },
+    {
+      "id": 8,
+      "question": "ἆρα ὁ γεωργὸς ἐσθίει τὸν λίθον;",
+      "answer": false,
+      "explanation": "οὔ! ὁ γεωργὸς ἐσθίει τὸν ἄρτον καὶ τὸν καρπόν — the farmer eats bread and fruit, not stone."
+    },
+    {
+      "id": 9,
+      "question": "ἆρα ὁ γεωργὸς φέρει τὸν λίθον ἐκ τοῦ ἀγροῦ;",
+      "answer": true,
+      "explanation": "ναί! αἴρει καὶ φέρει τὸν λίθον ἐκ τοῦ ἀγροῦ — he lifts and carries the stone out of the field. ἐκ + genitive = out of."
+    },
+    {
+      "id": 10,
+      "question": "ἆρα ὁ θεὸς ἀγαθός ἐστιν;",
+      "answer": true,
+      "explanation": "ναί! ὁ θεὸς ἀγαθὸς καὶ πιστός ἐστιν — God is good and faithful. This is the farmer's own words at the end of the story."
+    }
+  ],
+  "thumbs": [
+    {
+      "id": 1,
+      "statement": "ὁ γεωργός ἐστιν ἀγαθὸς καὶ ἰσχυρὸς ἄνθρωπος.",
+      "answer": true,
+      "explanation": "👍 ἀληθές! ὁ γεωργός ἐστιν ἀγαθὸς καὶ ἰσχυρός — the farmer is good and strong. ἰσχυρός = strong; ἀγαθός = good."
+    },
+    {
+      "id": 2,
+      "statement": "ὁ οἶκος μέγας ἐστίν.",
+      "answer": false,
+      "explanation": "👎 ψεῦδος. ὁ οἶκος μικρός ἐστιν, οὐ μέγας — the house is small, not large."
+    },
+    {
+      "id": 3,
+      "statement": "ὁ ἀγρὸς καλός ἐστιν.",
+      "answer": true,
+      "explanation": "👍 ἀληθές! μικρός ἐστιν ὁ ἀγρός, ἀλλὰ καλός — small but good/beautiful."
+    },
+    {
+      "id": 4,
+      "statement": "ὁ ἥλιος ῥεῖ ἐν τῷ οὐρανῷ.",
+      "answer": false,
+      "explanation": "👎 ψεῦδος. ὁ ἥλιος λάμπει, οὐ ῥεῖ — the sun shines (λάμπει). It is the river that flows (ῥεῖ)."
+    },
+    {
+      "id": 5,
+      "statement": "ὁ γεωργὸς σκάπτει τὸν ἀγρόν.",
+      "answer": true,
+      "explanation": "👍 ἀληθές! σκάπτει ὁ γεωργὸς τὸν ἀγρόν — the farmer digs the field. σκάπτω = I dig."
+    },
+    {
+      "id": 6,
+      "statement": "ὁ γεωργὸς ἐσθίει τὸν λίθον καὶ χαίρει.",
+      "answer": false,
+      "explanation": "👎 ψεῦδος. ὁ γεωργὸς ἐσθίει τὸν ἄρτον καὶ τὸν καρπόν, οὐ τὸν λίθον — he eats bread and fruit, not stone!"
+    },
+    {
+      "id": 7,
+      "statement": "ὁ γεωργὸς βλέπει τὸν οἶκον καὶ φιλεῖ τὸν οἶκον.",
+      "answer": true,
+      "explanation": "👍 ἀληθές! βλέπει τὸν οἶκον καὶ φιλεῖ αὐτόν — he sees the house and loves it. φιλέω = I love."
+    },
+    {
+      "id": 8,
+      "statement": "ὁ ποταμὸς σκάπτει τὸν ἀγρόν.",
+      "answer": false,
+      "explanation": "👎 ψεῦδος. ὁ ποταμὸς ῥεῖ, οὐ σκάπτει — the river flows; it is the farmer who digs."
+    },
+    {
+      "id": 9,
+      "statement": "ὁ γεωργὸς ἐσθίει τὸν ἄρτον καὶ τὸν καρπόν.",
+      "answer": true,
+      "explanation": "👍 ἀληθές! λαμβάνει τὸν ἄρτον καὶ τὸν καρπὸν καὶ ἐσθίει — he takes the bread and fruit and eats."
+    },
+    {
+      "id": 10,
+      "statement": "ὁ θεὸς ἀγαθὸς καὶ πιστός ἐστιν.",
+      "answer": true,
+      "explanation": "👍 ἀληθές! εὐχαριστεῖ ὁ γεωργὸς τῷ θεῷ ὅτι ἀγαθὸς καὶ πιστός ἐστιν — the farmer gives thanks to God because he is good and faithful."
+    }
+  ],
+  "fillBlank": [
+    {
+      "id": 1,
+      "prompt": "ὁ ἄνθρωπός ἐστιν _______.",
+      "answer": "γεωργός",
+      "explanation": "The man is a farmer — γεωργός. This is the very first word of the story."
+    },
+    {
+      "id": 2,
+      "prompt": "ὁ γεωργός ἐστιν ἀγαθὸς καὶ _______ ἄνθρωπος.",
+      "answer": "ἰσχυρός",
+      "explanation": "ἰσχυρός = strong. The farmer is described as ἀγαθὸς καὶ ἰσχυρός — good and strong."
+    },
+    {
+      "id": 3,
+      "prompt": "ὁ οἶκός ἐστιν μικρός, οὐ _______.",
+      "answer": "μέγας",
+      "explanation": "μέγας = large/great. The house is small (μικρός), not large (μέγας). οὐ negates the following word."
+    },
+    {
+      "id": 4,
+      "prompt": "ὁ ἀγρός ἐστιν μικρὸς ἀλλὰ _______.",
+      "answer": "καλός",
+      "explanation": "καλός = good, beautiful. ἀλλά = but. The field is small but good — the contrast word ἀλλά signals the answer."
+    },
+    {
+      "id": 5,
+      "prompt": "ὁ ἥλιος _______ ἐν τῷ οὐρανῷ.",
+      "answer": "λάμπει",
+      "explanation": "λάμπει = he/it shines (3rd sg. of λάμπω). The sun shines in the sky."
+    },
+    {
+      "id": 6,
+      "prompt": "ὁ ποταμὸς _______.",
+      "answer": "ῥεῖ",
+      "explanation": "ῥεῖ = it flows (3rd sg. of ῥέω). The river flows — contrast with λάμπει (the sun shines)."
+    },
+    {
+      "id": 7,
+      "prompt": "ὁ γεωργὸς λαμβάνει τὸν ἄρτον καὶ _______.",
+      "answer": "ἐσθίει",
+      "explanation": "ἐσθίει = he eats (3rd sg. of ἐσθίω). He takes the bread and eats — λαμβάνω + ἐσθίω is the sequence."
+    },
+    {
+      "id": 8,
+      "prompt": "ὁ γεωργὸς αἴρει τὸν λίθον ὅτι _______ ἐστιν.",
+      "answer": "ἰσχυρός",
+      "explanation": "ἰσχυρός = strong. He lifts the stone because he is strong. ὅτι = because (introduces the reason)."
+    },
+    {
+      "id": 9,
+      "prompt": "ὁ γεωργὸς ἐσθίει τὸν καρπὸν καὶ _______.",
+      "answer": "χαίρει",
+      "explanation": "χαίρει = he rejoices (3rd sg. of χαίρω). He eats the fruit and rejoices — the reward after the work."
+    },
+    {
+      "id": 10,
+      "prompt": "ὁ θεός ἐστιν ἀγαθὸς καὶ _______.",
+      "answer": "πιστός",
+      "explanation": "πιστός = faithful. God is good (ἀγαθός) and faithful (πιστός) — the farmer's closing thanksgiving."
+    }
+  ],
+  "personChange": [
+    {
+      "id": 1,
+      "original": "ὁ γεωργὸς ἔχει οἶκον.",
+      "cue": "ἐγὼ _______ οἶκον.",
+      "answers": ["ἔχω"],
+      "explanation": "3rd sg. ἔχει → 1st sg. ἔχω. The -ει ending changes to -ω for the 1st person singular."
+    },
+    {
+      "id": 2,
+      "original": "ὁ γεωργὸς σκάπτει τὸν ἀγρόν.",
+      "cue": "ἐγὼ _______ τὸν ἀγρόν.",
+      "answers": ["σκάπτω"],
+      "explanation": "3rd sg. σκάπτει → 1st sg. σκάπτω. Regular pattern: -ει → -ω for 1st person."
+    },
+    {
+      "id": 3,
+      "original": "ὁ γεωργὸς φιλεῖ τὸν οἶκον.",
+      "cue": "ἐγὼ _______ τὸν οἶκον.",
+      "answers": ["φιλῶ"],
+      "explanation": "φιλεῖ is a contract verb (-έω). 1st sg. contract: φιλέω → φιλῶ (the ε contracts with ω to give ω with circumflex)."
+    },
+    {
+      "id": 4,
+      "original": "ὁ γεωργὸς βλέπει τὸν λίθον.",
+      "cue": "σὺ _______ τὸν λίθον.",
+      "answers": ["βλέπεις"],
+      "explanation": "3rd sg. βλέπει → 2nd sg. βλέπεις. The 2nd person singular adds -ς to the -ει stem."
+    },
+    {
+      "id": 5,
+      "original": "ὁ γεωργὸς ἔχει τὸν ἀγρόν.",
+      "cue": "σὺ _______ τὸν ἀγρόν.",
+      "answers": ["ἔχεις"],
+      "explanation": "3rd sg. ἔχει → 2nd sg. ἔχεις. Adding -ς for the 2nd person singular."
+    },
+    {
+      "id": 6,
+      "original": "ὁ γεωργὸς βλέπει τὸν ἥλιον.",
+      "cue": "σὺ _______ τὸν ἥλιον.",
+      "answers": ["βλέπεις"],
+      "explanation": "3rd sg. βλέπει → 2nd sg. βλέπεις. Same pattern: -ει + -ς = -εις."
+    },
+    {
+      "id": 7,
+      "original": "ὁ γεωργὸς αἴρει τὸν λίθον καὶ φέρει.",
+      "cue": "ἐγὼ _______ τὸν λίθον καὶ _______.",
+      "answers": ["αἴρω", "φέρω"],
+      "explanation": "Both verbs change to 1st sg.: αἴρει → αἴρω and φέρει → φέρω. The pattern -ει → -ω applies to both."
+    },
+    {
+      "id": 8,
+      "original": "ὁ γεωργὸς φιλεῖ τὸν οἶκον καὶ τὸν ἀγρόν.",
+      "cue": "σὺ _______ τὸν οἶκον καὶ τὸν ἀγρόν.",
+      "answers": ["φιλεῖς"],
+      "explanation": "φιλεῖ (contract, -έω) → 2nd sg. φιλεῖς. Contract -έω verbs: 2nd sg. = φιλεῖς (the ε + εις contracts to εῖς)."
+    },
+    {
+      "id": 9,
+      "original": "ὁ γεωργὸς ἐσθίει καὶ χαίρει.",
+      "cue": "ἐγὼ _______ καὶ _______.",
+      "answers": ["ἐσθίω", "χαίρω"],
+      "explanation": "ἐσθίει → ἐσθίω and χαίρει → χαίρω. Both follow the same 3rd → 1st person pattern: -ει → -ω."
+    },
+    {
+      "id": 10,
+      "original": "ὁ γεωργὸς σκάπτει τὸν ἀγρόν.",
+      "cue": "σὺ _______ τὸν ἀγρόν.",
+      "answers": ["σκάπτεις"],
+      "explanation": "3rd sg. σκάπτει → 2nd sg. σκάπτεις. Adding -ς for 2nd person: -ει + ς = -εις."
+    },
+    {
+      "id": 11,
+      "original": "ὁ γεωργὸς αἴρει τὸν λίθον.",
+      "cue": "ἐγὼ _______ τὸν λίθον.",
+      "answers": ["αἴρω"],
+      "explanation": "3rd sg. αἴρει → 1st sg. αἴρω. Regular pattern: -ει → -ω."
+    },
+    {
+      "id": 12,
+      "original": "ὁ γεωργὸς φέρει τὸν λίθον ἐκ τοῦ ἀγροῦ.",
+      "cue": "σὺ _______ τὸν λίθον ἐκ τοῦ ἀγροῦ.",
+      "answers": ["φέρεις"],
+      "explanation": "3rd sg. φέρει → 2nd sg. φέρεις. Adding -ς to the 3rd person form: φέρει + ς = φέρεις."
     }
   ]
 }
