@@ -59,22 +59,29 @@
 .story-paragraph-row {
   display: flex;
   align-items: flex-start;
-  gap: 12px;
 }
 
 .para-number {
   flex-shrink: 0;
-  width: 28px;
+  width: 32px;
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   padding-top: 22px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--muted, #aaa);
-  text-align: right;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #999;
+  background: #f3ede3;
+  border: 1.5px solid var(--border);
+  border-right: none;
+  border-radius: var(--radius, 8px) 0 0 var(--radius, 8px);
   user-select: none;
 }
 
 .story-paragraph-row .story-paragraph {
   flex: 1;
+  border-radius: 0 var(--radius, 8px) var(--radius, 8px) 0;
 }
 
 .story-paragraph {
