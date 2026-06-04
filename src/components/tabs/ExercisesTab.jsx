@@ -1,127 +1,130 @@
 import { useState } from 'react'
 import './ExercisesTab.css'
 
-// Normalize Greek for comparison: strip diacritics, lowercase, trim
 function normalize(str) {
   if (!str) return ''
-  return str.normalize('NFD').replace(/[̀-ͯ̓̔̈ͅ]/g, '').toLowerCase().trim()
+  return str.normalize('NFD').replace(/[̀-ͯ̓̔̈ͅ]/g, '').toLowerCase().trim()
 }
 
 function checkAnswer(userInput, correctAnswer) {
   if (!userInput?.trim()) return false
   const u = normalize(userInput)
-  // Support slash-separated alternates: "ἔχω/ἔχεις"
   return correctAnswer.split('/').some(a => normalize(a.trim()) === u)
 }
 
 const SECTION_META = [
-  { id: 'mc',   labelEl: 'Τί ἐστιν ὀρθόν;',  labelEn: 'Multiple Choice'  },
-  { id: 'tf',   labelEl: 'Ἀληθές / Ψεῦδος',  labelEn: 'True or False'    },
-  { id: 'yn',   labelEl: 'Ναί / Οὔ',          labelEn: 'Yes or No'        },
-  { id: 'thumbs',labelEl: '👍 / 👎',           labelEn: 'Correct or Not'   },
-  { id: 'fill', labelEl: 'Γέμιζε!',           labelEn: 'Fill in the Blank'},
-  { id: 'pc',   labelEl: 'Ἄλλαξον!',          labelEn: 'Change the Person'},
-  { id: 'prep', labelEl: 'ἐν / πρός / ἐκ',   labelEn: 'Prepositions'     },
+  { id: 'mc',     dataKey: 'multipleChoice', labelEl: 'Τί ἐστιν ὀρθόν;', labelEn: 'Multiple Choice'   },
+  { id: 'tf',     dataKey: 'trueFalse',      labelEl: 'Ἀληθές / Ψεῦδος', labelEn: 'True or False'     },
+  { id: 'yn',     dataKey: 'yesNo',          labelEl: 'Ναί / Οὔ',         labelEn: 'Yes or No'         },
+  { id: 'thumbs', dataKey: 'thumbs',         labelEl: '👍 / 👎',           labelEn: 'Correct or Not'    },
+  { id: 'fill',   dataKey: 'fillBlank',      labelEl: 'Γέμιζε!',          labelEn: 'Fill in the Blank' },
+  { id: 'pc',     dataKey: 'personChange',   labelEl: 'Ἄλλαξον!',         labelEn: 'Change the Person' },
+  { id: 'prep',   dataKey: 'prepFill',       labelEl: 'ἐν / πρός / ἐκ',  labelEn: 'Prepositions'      },
 ]
 
 export default function ExercisesTab({ exercises }) {
-  const [section, setSection] = useState(null)
+  const [section,       setSection]       = useState(null)
+  const [mcAnswers,     setMcAnswers]     = useState({})
   const [tfAnswers,     setTfAnswers]     = useState({})
   const [ynAnswers,     setYnAnswers]     = useState({})
   const [thumbsAnswers, setThumbsAnswers] = useState({})
-  const [mcAnswers,     setMcAnswers]     = useState({})
   const [fillAnswers,   setFillAnswers]   = useState({})
   const [pcAnswers,     setPcAnswers]     = useState({})
-  const [pfAnswers,     setPfAnswers]     = useState({}) // prepFill: { id: string[] }
-  const [pfActive,      setPfActive]      = useState({}) // prepFill: { id: blankIndex }
-  const [submitted, setSubmitted] = useState(false)
-  const [score,     setScore]     = useState(null)
+  const [pfAnswers,     setPfAnswers]     = useState({})
+  const [pfActive,      setPfActive]      = useState({})
+
+  // Per-section submitted + score
+  const [submitted, setSubmitted] = useState({}) // { [id]: bool }
+  const [scores,    setScores]    = useState({}) // { [id]: { correct, total } }
 
   if (!exercises) {
     return <div className="empty-tab">✏️ Exercises for this chapter have not been added yet.</div>
   }
 
-  // Which sections exist in the data?
-  const available = SECTION_META.filter(s => {
-    const key = s.id === 'mc' ? 'multipleChoice' : s.id === 'tf' ? 'trueFalse' : s.id === 'yn' ? 'yesNo' : s.id === 'thumbs' ? 'thumbs' : s.id === 'fill' ? 'fillBlank' : s.id === 'pc' ? 'personChange' : 'prepFill'
-    return exercises[key]?.length > 0
-  })
+  const available = SECTION_META.filter(s => exercises[s.dataKey]?.length > 0)
+  const activeId  = section || available[0]?.id || 'mc'
+  const isSubmitted = submitted[activeId] || false
+  const sectionScore = scores[activeId] || null
 
-  const activeId = section || available[0]?.id || 'mc'
-
-  // --- handlers ---
-  function handleTf(id, v)      { if (!submitted) setTfAnswers(a => ({ ...a, [id]: v })) }
-  function handleYn(id, v)      { if (!submitted) setYnAnswers(a => ({ ...a, [id]: v })) }
-  function handleThumbs(id, v)  { if (!submitted) setThumbsAnswers(a => ({ ...a, [id]: v })) }
-  function handleMc(id, idx)    { if (!submitted) setMcAnswers(a => ({ ...a, [id]: idx })) }
-  function handleFill(id, v)    { if (!submitted) setFillAnswers(a => ({ ...a, [id]: v })) }
+  // ── answer handlers (guard against submitted) ──
+  function handleMc(id, idx)   { if (!isSubmitted) setMcAnswers(a => ({ ...a, [id]: idx })) }
+  function handleTf(id, v)     { if (!isSubmitted) setTfAnswers(a => ({ ...a, [id]: v })) }
+  function handleYn(id, v)     { if (!isSubmitted) setYnAnswers(a => ({ ...a, [id]: v })) }
+  function handleThumbs(id, v) { if (!isSubmitted) setThumbsAnswers(a => ({ ...a, [id]: v })) }
+  function handleFill(id, v)   { if (!isSubmitted) setFillAnswers(a => ({ ...a, [id]: v })) }
   function handlePc(id, i, v) {
-    if (submitted) return
-    setPcAnswers(a => {
-      const arr = [...(a[id] || [])]
-      arr[i] = v
-      return { ...a, [id]: arr }
-    })
+    if (isSubmitted) return
+    setPcAnswers(a => { const arr = [...(a[id] || [])]; arr[i] = v; return { ...a, [id]: arr } })
   }
 
-  // --- scoring helpers ---
-  function countAnswered() {
+  // ── per-section count / score ──
+  function countForSection(sid) {
     let answered = 0, total = 0
-    exercises.multipleChoice?.forEach(() => { total++; })
-    answered += Object.keys(mcAnswers).length
-    exercises.trueFalse?.forEach(() => { total++; })
-    answered += Object.keys(tfAnswers).length
-    exercises.yesNo?.forEach(() => { total++; })
-    answered += Object.keys(ynAnswers).length
-    exercises.thumbs?.forEach(() => { total++; })
-    answered += Object.keys(thumbsAnswers).length
-    exercises.fillBlank?.forEach(() => { total++; })
-    answered += Object.values(fillAnswers).filter(v => v?.trim()).length
-    exercises.personChange?.forEach(q => {
-      total++
-      const ans = pcAnswers[q.id] || []
-      if (q.answers.every((_, i) => ans[i]?.trim())) answered++
-    })
-    exercises.prepFill?.forEach(q => {
-      total++
-      const ans = pfAnswers[q.id] || []
-      if (q.answers.every((_, i) => ans[i]?.trim())) answered++
-    })
+    const data = exercises
+    if (sid === 'mc')     { total = data.multipleChoice?.length || 0; answered = Object.keys(mcAnswers).length }
+    if (sid === 'tf')     { total = data.trueFalse?.length || 0;      answered = Object.keys(tfAnswers).length }
+    if (sid === 'yn')     { total = data.yesNo?.length || 0;          answered = Object.keys(ynAnswers).length }
+    if (sid === 'thumbs') { total = data.thumbs?.length || 0;         answered = Object.keys(thumbsAnswers).length }
+    if (sid === 'fill')   { total = data.fillBlank?.length || 0;      answered = Object.values(fillAnswers).filter(v => v?.trim()).length }
+    if (sid === 'pc') {
+      total = data.personChange?.length || 0
+      answered = (data.personChange || []).filter(q => {
+        const ans = pcAnswers[q.id] || []
+        return q.answers.every((_, i) => ans[i]?.trim())
+      }).length
+    }
+    if (sid === 'prep') {
+      total = data.prepFill?.length || 0
+      answered = (data.prepFill || []).filter(q => {
+        const ans = pfAnswers[q.id] || []
+        return q.answers.every((_, i) => ans[i]?.trim())
+      }).length
+    }
     return { answered, total }
   }
 
-  function handleSubmit() {
+  function scoreSection(sid) {
     let correct = 0, total = 0
-    exercises.multipleChoice?.forEach(q => { total++; if (mcAnswers[q.id] === q.answer) correct++ })
-    exercises.trueFalse?.forEach(q => { total++; if (tfAnswers[q.id] === q.answer) correct++ })
-    exercises.yesNo?.forEach(q => { total++; if (ynAnswers[q.id] === q.answer) correct++ })
-    exercises.thumbs?.forEach(q => { total++; if (thumbsAnswers[q.id] === q.answer) correct++ })
-    exercises.fillBlank?.forEach(q => { total++; if (checkAnswer(fillAnswers[q.id], q.answer)) correct++ })
-    exercises.personChange?.forEach(q => {
+    const data = exercises
+    if (sid === 'mc')     data.multipleChoice?.forEach(q => { total++; if (mcAnswers[q.id] === q.answer) correct++ })
+    if (sid === 'tf')     data.trueFalse?.forEach(q => { total++; if (tfAnswers[q.id] === q.answer) correct++ })
+    if (sid === 'yn')     data.yesNo?.forEach(q => { total++; if (ynAnswers[q.id] === q.answer) correct++ })
+    if (sid === 'thumbs') data.thumbs?.forEach(q => { total++; if (thumbsAnswers[q.id] === q.answer) correct++ })
+    if (sid === 'fill')   data.fillBlank?.forEach(q => { total++; if (checkAnswer(fillAnswers[q.id], q.answer)) correct++ })
+    if (sid === 'pc')     data.personChange?.forEach(q => {
       total++
       const ans = pcAnswers[q.id] || []
       if (q.answers.every((a, i) => checkAnswer(ans[i], a))) correct++
     })
-    exercises.prepFill?.forEach(q => {
+    if (sid === 'prep')   data.prepFill?.forEach(q => {
       total++
       const ans = pfAnswers[q.id] || []
       if (q.answers.every((a, i) => normalize(ans[i]) === normalize(a))) correct++
     })
-    setScore({ correct, total })
-    setSubmitted(true)
+    return { correct, total }
+  }
+
+  function handleSubmit() {
+    const sc = scoreSection(activeId)
+    setScores(s => ({ ...s, [activeId]: sc }))
+    setSubmitted(s => ({ ...s, [activeId]: true }))
   }
 
   function handleReset() {
-    setTfAnswers({}); setYnAnswers({}); setThumbsAnswers({})
-    setMcAnswers({}); setFillAnswers({}); setPcAnswers({})
-    setPfAnswers({}); setPfActive({})
-    setSubmitted(false); setScore(null)
+    if (activeId === 'mc')     setMcAnswers({})
+    if (activeId === 'tf')     setTfAnswers({})
+    if (activeId === 'yn')     setYnAnswers({})
+    if (activeId === 'thumbs') setThumbsAnswers({})
+    if (activeId === 'fill')   setFillAnswers({})
+    if (activeId === 'pc')     setPcAnswers({})
+    if (activeId === 'prep')   { setPfAnswers({}); setPfActive({}) }
+    setSubmitted(s => ({ ...s, [activeId]: false }))
+    setScores(s => { const n = { ...s }; delete n[activeId]; return n })
   }
 
-  const { answered, total } = countAnswered()
+  const { answered, total } = countForSection(activeId)
   const allAnswered = answered === total && total > 0
 
-  // helper to build question-card class
   function cardClass(correct, wrong) {
     return `question-card${correct ? ' question-card--correct' : wrong ? ' question-card--wrong' : ''}`
   }
@@ -132,9 +135,9 @@ export default function ExercisesTab({ exercises }) {
       {/* Header */}
       <div className="exercises-header">
         <h2 className="greek">Ἐρωτήσεις</h2>
-        {score && (
-          <div className={`score-badge ${score.correct === score.total ? 'score-badge--perfect' : score.correct >= score.total * 0.7 ? 'score-badge--good' : 'score-badge--low'}`}>
-            {score.correct} / {score.total}
+        {sectionScore && (
+          <div className={`score-badge ${sectionScore.correct === sectionScore.total ? 'score-badge--perfect' : sectionScore.correct >= sectionScore.total * 0.7 ? 'score-badge--good' : 'score-badge--low'}`}>
+            {sectionScore.correct} / {sectionScore.total}
           </div>
         )}
       </div>
@@ -142,16 +145,20 @@ export default function ExercisesTab({ exercises }) {
       {/* Section tabs */}
       <div className="section-tabs">
         {available.map(s => {
-          const dataKey = s.id === 'mc' ? 'multipleChoice' : s.id === 'tf' ? 'trueFalse' : s.id === 'yn' ? 'yesNo' : s.id === 'thumbs' ? 'thumbs' : s.id === 'fill' ? 'fillBlank' : 'personChange'
-          const count = exercises[dataKey]?.length || 0
+          const count = exercises[s.dataKey]?.length || 0
+          const done  = submitted[s.id]
+          const sc    = scores[s.id]
           return (
             <button
               key={s.id}
-              className={`section-tab${activeId === s.id ? ' section-tab--active' : ''}`}
+              className={`section-tab${activeId === s.id ? ' section-tab--active' : ''}${done ? ' section-tab--done' : ''}`}
               onClick={() => setSection(s.id)}
             >
               <span className="section-tab-greek greek">{s.labelEl}</span>
-              <span className="section-tab-count">({count})</span>
+              {done && sc
+                ? <span className="section-tab-score">{sc.correct}/{sc.total}</span>
+                : <span className="section-tab-count">({count})</span>
+              }
             </button>
           )
         })}
@@ -161,8 +168,8 @@ export default function ExercisesTab({ exercises }) {
 
         {/* ── Multiple Choice ── */}
         {activeId === 'mc' && exercises.multipleChoice?.map(q => {
-          const correct = submitted && mcAnswers[q.id] === q.answer
-          const wrong   = submitted && mcAnswers[q.id] !== undefined && mcAnswers[q.id] !== q.answer
+          const correct = isSubmitted && mcAnswers[q.id] === q.answer
+          const wrong   = isSubmitted && mcAnswers[q.id] !== undefined && mcAnswers[q.id] !== q.answer
           return (
             <div key={q.id} className={cardClass(correct, wrong)}>
               <div className="question-num">Q{q.id}</div>
@@ -172,7 +179,7 @@ export default function ExercisesTab({ exercises }) {
                   {q.options.map((opt, idx) => (
                     <button
                       key={idx}
-                      className={`mc-btn${mcAnswers[q.id] === idx ? ' mc-btn--selected' : ''}${submitted && idx === q.answer ? ' mc-btn--answer' : ''}${submitted && mcAnswers[q.id] === idx && idx !== q.answer ? ' mc-btn--wrong' : ''}`}
+                      className={`mc-btn${mcAnswers[q.id] === idx ? ' mc-btn--selected' : ''}${isSubmitted && idx === q.answer ? ' mc-btn--answer' : ''}${isSubmitted && mcAnswers[q.id] === idx && idx !== q.answer ? ' mc-btn--wrong' : ''}`}
                       onClick={() => handleMc(q.id, idx)}
                     >
                       <span className="mc-letter greek">{['α)', 'β)', 'γ)', 'δ)'][idx]}</span>
@@ -180,7 +187,7 @@ export default function ExercisesTab({ exercises }) {
                     </button>
                   ))}
                 </div>
-                {submitted && (
+                {isSubmitted && (
                   <div className={`explanation ${correct ? 'explanation--correct' : 'explanation--wrong'}`}>
                     {correct ? '✓ ' : '✗ '}{q.explanation}
                   </div>
@@ -192,19 +199,19 @@ export default function ExercisesTab({ exercises }) {
 
         {/* ── True / False ── */}
         {activeId === 'tf' && exercises.trueFalse?.map(q => {
-          const answered = tfAnswers[q.id] !== undefined
-          const correct  = submitted && tfAnswers[q.id] === q.answer
-          const wrong    = submitted && answered && tfAnswers[q.id] !== q.answer
+          const ans     = tfAnswers[q.id]
+          const correct = isSubmitted && ans === q.answer
+          const wrong   = isSubmitted && ans !== undefined && ans !== q.answer
           return (
             <div key={q.id} className={cardClass(correct, wrong)}>
               <div className="question-num">Q{q.id}</div>
               <div className="question-body">
                 <p className="question-text greek">{q.statement}</p>
                 <div className="tf-options">
-                  <button className={`tf-btn greek${tfAnswers[q.id] === true  ? ' tf-btn--selected' : ''}${submitted && q.answer === true  ? ' tf-btn--answer' : ''}`} onClick={() => handleTf(q.id, true)}>ἀληθές</button>
-                  <button className={`tf-btn greek${tfAnswers[q.id] === false ? ' tf-btn--selected' : ''}${submitted && q.answer === false ? ' tf-btn--answer' : ''}`} onClick={() => handleTf(q.id, false)}>ψεῦδος</button>
+                  <button className={`tf-btn greek${ans === true  ? ' tf-btn--selected' : ''}${isSubmitted && q.answer === true  ? ' tf-btn--answer' : ''}`} onClick={() => handleTf(q.id, true)}>ἀληθές</button>
+                  <button className={`tf-btn greek${ans === false ? ' tf-btn--selected' : ''}${isSubmitted && q.answer === false ? ' tf-btn--answer' : ''}`} onClick={() => handleTf(q.id, false)}>ψεῦδος</button>
                 </div>
-                {submitted && <div className={`explanation ${correct ? 'explanation--correct' : 'explanation--wrong'}`}>{correct ? '✓ ' : '✗ '}{q.explanation}</div>}
+                {isSubmitted && <div className={`explanation ${correct ? 'explanation--correct' : 'explanation--wrong'}`}>{correct ? '✓ ' : '✗ '}{q.explanation}</div>}
               </div>
             </div>
           )
@@ -212,19 +219,19 @@ export default function ExercisesTab({ exercises }) {
 
         {/* ── Yes / No ── */}
         {activeId === 'yn' && exercises.yesNo?.map(q => {
-          const answered = ynAnswers[q.id] !== undefined
-          const correct  = submitted && ynAnswers[q.id] === q.answer
-          const wrong    = submitted && answered && ynAnswers[q.id] !== q.answer
+          const ans     = ynAnswers[q.id]
+          const correct = isSubmitted && ans === q.answer
+          const wrong   = isSubmitted && ans !== undefined && ans !== q.answer
           return (
             <div key={q.id} className={cardClass(correct, wrong)}>
               <div className="question-num">Q{q.id}</div>
               <div className="question-body">
                 <p className="question-text greek">{q.question}</p>
                 <div className="tf-options">
-                  <button className={`tf-btn greek${ynAnswers[q.id] === true  ? ' tf-btn--selected' : ''}${submitted && q.answer === true  ? ' tf-btn--answer' : ''}`} onClick={() => handleYn(q.id, true)}>ναί</button>
-                  <button className={`tf-btn greek${ynAnswers[q.id] === false ? ' tf-btn--selected' : ''}${submitted && q.answer === false ? ' tf-btn--answer' : ''}`} onClick={() => handleYn(q.id, false)}>οὔ</button>
+                  <button className={`tf-btn greek${ans === true  ? ' tf-btn--selected' : ''}${isSubmitted && q.answer === true  ? ' tf-btn--answer' : ''}`} onClick={() => handleYn(q.id, true)}>ναί</button>
+                  <button className={`tf-btn greek${ans === false ? ' tf-btn--selected' : ''}${isSubmitted && q.answer === false ? ' tf-btn--answer' : ''}`} onClick={() => handleYn(q.id, false)}>οὔ</button>
                 </div>
-                {submitted && <div className={`explanation ${correct ? 'explanation--correct' : 'explanation--wrong'}`}>{correct ? '✓ ' : '✗ '}{q.explanation}</div>}
+                {isSubmitted && <div className={`explanation ${correct ? 'explanation--correct' : 'explanation--wrong'}`}>{correct ? '✓ ' : '✗ '}{q.explanation}</div>}
               </div>
             </div>
           )
@@ -232,19 +239,19 @@ export default function ExercisesTab({ exercises }) {
 
         {/* ── Thumbs ── */}
         {activeId === 'thumbs' && exercises.thumbs?.map(q => {
-          const answered = thumbsAnswers[q.id] !== undefined
-          const correct  = submitted && thumbsAnswers[q.id] === q.answer
-          const wrong    = submitted && answered && thumbsAnswers[q.id] !== q.answer
+          const ans     = thumbsAnswers[q.id]
+          const correct = isSubmitted && ans === q.answer
+          const wrong   = isSubmitted && ans !== undefined && ans !== q.answer
           return (
             <div key={q.id} className={cardClass(correct, wrong)}>
               <div className="question-num">Q{q.id}</div>
               <div className="question-body">
                 <p className="question-text greek">{q.statement}</p>
                 <div className="tf-options">
-                  <button className={`tf-btn tf-btn--emoji${thumbsAnswers[q.id] === true  ? ' tf-btn--selected' : ''}${submitted && q.answer === true  ? ' tf-btn--answer' : ''}`} onClick={() => handleThumbs(q.id, true)}>👍</button>
-                  <button className={`tf-btn tf-btn--emoji${thumbsAnswers[q.id] === false ? ' tf-btn--selected' : ''}${submitted && q.answer === false ? ' tf-btn--answer' : ''}`} onClick={() => handleThumbs(q.id, false)}>👎</button>
+                  <button className={`tf-btn tf-btn--emoji${ans === true  ? ' tf-btn--selected' : ''}${isSubmitted && q.answer === true  ? ' tf-btn--answer' : ''}`} onClick={() => handleThumbs(q.id, true)}>👍</button>
+                  <button className={`tf-btn tf-btn--emoji${ans === false ? ' tf-btn--selected' : ''}${isSubmitted && q.answer === false ? ' tf-btn--answer' : ''}`} onClick={() => handleThumbs(q.id, false)}>👎</button>
                 </div>
-                {submitted && <div className={`explanation ${correct ? 'explanation--correct' : 'explanation--wrong'}`}>{correct ? '✓ ' : '✗ '}{q.explanation}</div>}
+                {isSubmitted && <div className={`explanation ${correct ? 'explanation--correct' : 'explanation--wrong'}`}>{correct ? '✓ ' : '✗ '}{q.explanation}</div>}
               </div>
             </div>
           )
@@ -253,8 +260,8 @@ export default function ExercisesTab({ exercises }) {
         {/* ── Fill in the Blank ── */}
         {activeId === 'fill' && exercises.fillBlank?.map(q => {
           const userVal   = fillAnswers[q.id] || ''
-          const isCorrect = submitted && checkAnswer(userVal, q.answer)
-          const isWrong   = submitted && !isCorrect && userVal.trim()
+          const isCorrect = isSubmitted && checkAnswer(userVal, q.answer)
+          const isWrong   = isSubmitted && !isCorrect && userVal.trim()
           return (
             <div key={q.id} className={cardClass(isCorrect, isWrong)}>
               <div className="question-num">Q{q.id}</div>
@@ -265,19 +272,14 @@ export default function ExercisesTab({ exercises }) {
                     className={`fill-input greek${isCorrect ? ' fill-input--correct' : isWrong ? ' fill-input--wrong' : ''}`}
                     value={userVal}
                     onChange={e => handleFill(q.id, e.target.value)}
-                    disabled={submitted}
+                    disabled={isSubmitted}
                     placeholder="___"
-                    autoComplete="off"
-                    autoCorrect="off"
-                    spellCheck="false"
+                    autoComplete="off" autoCorrect="off" spellCheck="false"
                   />
                 </div>
-                {submitted && (
+                {isSubmitted && (
                   <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
-                    {isCorrect
-                      ? `✓ ${q.explanation}`
-                      : <span>✗ <strong className="greek">{q.answer}</strong> — {q.explanation}</span>
-                    }
+                    {isCorrect ? `✓ ${q.explanation}` : <span>✗ <strong className="greek">{q.answer}</strong> — {q.explanation}</span>}
                   </div>
                 )}
               </div>
@@ -288,10 +290,9 @@ export default function ExercisesTab({ exercises }) {
         {/* ── Person Change ── */}
         {activeId === 'pc' && exercises.personChange?.map(q => {
           const ans       = pcAnswers[q.id] || []
-          const isCorrect = submitted && q.answers.every((a, i) => checkAnswer(ans[i], a))
-          const isWrong   = submitted && !isCorrect && ans.some(a => a?.trim())
-          // Split cue on _______ to interleave inputs
-          const parts = q.cue.split('_______')
+          const isCorrect = isSubmitted && q.answers.every((a, i) => checkAnswer(ans[i], a))
+          const isWrong   = isSubmitted && !isCorrect && ans.some(a => a?.trim())
+          const parts     = q.cue.split('_______')
           return (
             <div key={q.id} className={cardClass(isCorrect, isWrong)}>
               <div className="question-num">Q{q.id}</div>
@@ -305,14 +306,12 @@ export default function ExercisesTab({ exercises }) {
                         {part}
                         {i < q.answers.length && (
                           <input
-                            className={`fill-input fill-input--inline greek${submitted && checkAnswer(ans[i], q.answers[i]) ? ' fill-input--correct' : submitted ? ' fill-input--wrong' : ''}`}
+                            className={`fill-input fill-input--inline greek${isSubmitted && checkAnswer(ans[i], q.answers[i]) ? ' fill-input--correct' : isSubmitted ? ' fill-input--wrong' : ''}`}
                             value={ans[i] || ''}
                             onChange={e => handlePc(q.id, i, e.target.value)}
-                            disabled={submitted}
+                            disabled={isSubmitted}
                             placeholder="___"
-                            autoComplete="off"
-                            autoCorrect="off"
-                            spellCheck="false"
+                            autoComplete="off" autoCorrect="off" spellCheck="false"
                             size={Math.max(6, (q.answers[i]?.length || 0) + 3)}
                           />
                         )}
@@ -320,12 +319,9 @@ export default function ExercisesTab({ exercises }) {
                     ))}
                   </span>
                 </div>
-                {submitted && (
+                {isSubmitted && (
                   <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
-                    {isCorrect
-                      ? `✓ ${q.explanation}`
-                      : <span>✗ <strong className="greek">{q.answers.join(', ')}</strong> — {q.explanation}</span>
-                    }
+                    {isCorrect ? `✓ ${q.explanation}` : <span>✗ <strong className="greek">{q.answers.join(', ')}</strong> — {q.explanation}</span>}
                   </div>
                 )}
               </div>
@@ -335,29 +331,23 @@ export default function ExercisesTab({ exercises }) {
 
         {/* ── Preposition Fill ── */}
         {activeId === 'prep' && exercises.prepFill?.map(q => {
-          const ans = pfAnswers[q.id] || []
+          const ans         = pfAnswers[q.id] || []
           const activeBlank = pfActive[q.id] ?? 0
-          const parts = q.prompt.split('_______')
-          const isCorrect = submitted && q.answers.every((a, i) => normalize(ans[i]) === normalize(a))
-          const isWrong   = submitted && !isCorrect && ans.some(a => a?.trim())
+          const parts       = q.prompt.split('_______')
+          const isCorrect   = isSubmitted && q.answers.every((a, i) => normalize(ans[i]) === normalize(a))
+          const isWrong     = isSubmitted && !isCorrect && ans.some(a => a?.trim())
           return (
             <div key={q.id} className={cardClass(isCorrect, isWrong)}>
               <div className="question-num">Q{q.id}</div>
               <div className="question-body">
-                {/* Sentence with clickable blank chips */}
                 <div className="prep-sentence greek">
                   {parts.map((part, i) => (
                     <span key={i}>
                       {part}
                       {i < q.answers.length && (
                         <button
-                          className={`prep-blank
-                            ${!submitted && activeBlank === i ? ' prep-blank--active' : ''}
-                            ${ans[i] ? ' prep-blank--filled' : ''}
-                            ${submitted && normalize(ans[i]) === normalize(q.answers[i]) ? ' prep-blank--correct' : ''}
-                            ${submitted && ans[i] && normalize(ans[i]) !== normalize(q.answers[i]) ? ' prep-blank--wrong' : ''}
-                          `}
-                          onClick={() => { if (!submitted) setPfActive(a => ({ ...a, [q.id]: i })) }}
+                          className={`prep-blank${!isSubmitted && activeBlank === i ? ' prep-blank--active' : ''}${ans[i] ? ' prep-blank--filled' : ''}${isSubmitted && normalize(ans[i]) === normalize(q.answers[i]) ? ' prep-blank--correct' : ''}${isSubmitted && ans[i] && normalize(ans[i]) !== normalize(q.answers[i]) ? ' prep-blank--wrong' : ''}`}
+                          onClick={() => { if (!isSubmitted) setPfActive(a => ({ ...a, [q.id]: i })) }}
                         >
                           {ans[i] || '___'}
                         </button>
@@ -365,46 +355,27 @@ export default function ExercisesTab({ exercises }) {
                     </span>
                   ))}
                 </div>
-                {/* Word bank buttons */}
-                {!submitted && (
+                {!isSubmitted && (
                   <div className="prep-choices">
                     {q.choices.map(choice => (
-                      <button
-                        key={choice}
-                        className="prep-choice greek"
+                      <button key={choice} className="prep-choice greek"
                         onClick={() => {
                           const active = pfActive[q.id] ?? 0
-                          setPfAnswers(a => {
-                            const arr = [...(a[q.id] || [])]
-                            arr[active] = choice
-                            return { ...a, [q.id]: arr }
-                          })
-                          // Auto-advance to next blank
-                          if (active < q.answers.length - 1) {
-                            setPfActive(a => ({ ...a, [q.id]: active + 1 }))
-                          }
+                          setPfAnswers(a => { const arr = [...(a[q.id] || [])]; arr[active] = choice; return { ...a, [q.id]: arr } })
+                          if (active < q.answers.length - 1) setPfActive(a => ({ ...a, [q.id]: active + 1 }))
                         }}
-                      >
-                        {choice}
-                      </button>
+                      >{choice}</button>
                     ))}
-                    {/* Clear button */}
                     {ans.some(a => a) && (
-                      <button
-                        className="prep-clear"
+                      <button className="prep-clear"
                         onClick={() => { setPfAnswers(a => ({ ...a, [q.id]: [] })); setPfActive(a => ({ ...a, [q.id]: 0 })) }}
-                      >
-                        ✕
-                      </button>
+                      >✕</button>
                     )}
                   </div>
                 )}
-                {submitted && (
+                {isSubmitted && (
                   <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
-                    {isCorrect
-                      ? `✓ ${q.explanation}`
-                      : <span>✗ <strong className="greek">{q.answers.join(' … ')}</strong> — {q.explanation}</span>
-                    }
+                    {isCorrect ? `✓ ${q.explanation}` : <span>✗ <strong className="greek">{q.answers.join(' … ')}</strong> — {q.explanation}</span>}
                   </div>
                 )}
               </div>
@@ -416,7 +387,7 @@ export default function ExercisesTab({ exercises }) {
 
       {/* Footer */}
       <div className="exercises-footer">
-        {!submitted ? (
+        {!isSubmitted ? (
           <button className="submit-btn" onClick={handleSubmit} disabled={!allAnswered}>
             {allAnswered
               ? <span><span className="greek">Ὑπόβαλλε</span> — Submit</span>
