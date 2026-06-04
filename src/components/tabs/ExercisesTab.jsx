@@ -22,7 +22,15 @@ const SECTION_META = [
   { id: 'prep',   dataKey: 'prepFill',       labelEl: 'ἐν / πρός / ἐκ',  labelEn: 'Prepositions'      },
 ]
 
-export default function ExercisesTab({ exercises }) {
+// Filter an array by activePart if items carry a `part` field; otherwise show all
+function filterByPart(arr, activePart) {
+  if (!arr?.length) return arr || []
+  const hasParts = arr.some(q => q.part)
+  if (!hasParts || !activePart) return arr
+  return arr.filter(q => !q.part || q.part === activePart)
+}
+
+export default function ExercisesTab({ exercises, activePart }) {
   const [section,       setSection]       = useState(null)
   const [mcAnswers,     setMcAnswers]     = useState({})
   const [tfAnswers,     setTfAnswers]     = useState({})
@@ -41,7 +49,18 @@ export default function ExercisesTab({ exercises }) {
     return <div className="empty-tab">✏️ Exercises for this chapter have not been added yet.</div>
   }
 
-  const available = SECTION_META.filter(s => exercises[s.dataKey]?.length > 0)
+  // Apply part filter — ex is what we actually render
+  const ex = {
+    multipleChoice: filterByPart(exercises.multipleChoice, activePart),
+    trueFalse:      filterByPart(exercises.trueFalse,      activePart),
+    yesNo:          filterByPart(exercises.yesNo,          activePart),
+    thumbs:         filterByPart(exercises.thumbs,         activePart),
+    fillBlank:      filterByPart(exercises.fillBlank,      activePart),
+    personChange:   filterByPart(exercises.personChange,   activePart),
+    prepFill:       filterByPart(exercises.prepFill,       activePart),
+  }
+
+  const available = SECTION_META.filter(s => ex[s.dataKey]?.length > 0)
   const activeId  = section || available[0]?.id || 'mc'
   const isSubmitted = submitted[activeId] || false
   const sectionScore = scores[activeId] || null
@@ -57,25 +76,24 @@ export default function ExercisesTab({ exercises }) {
     setPcAnswers(a => { const arr = [...(a[id] || [])]; arr[i] = v; return { ...a, [id]: arr } })
   }
 
-  // ── per-section count / score ──
+  // ── per-section count / score (uses filtered `ex`) ──
   function countForSection(sid) {
     let answered = 0, total = 0
-    const data = exercises
-    if (sid === 'mc')     { total = data.multipleChoice?.length || 0; answered = Object.keys(mcAnswers).length }
-    if (sid === 'tf')     { total = data.trueFalse?.length || 0;      answered = Object.keys(tfAnswers).length }
-    if (sid === 'yn')     { total = data.yesNo?.length || 0;          answered = Object.keys(ynAnswers).length }
-    if (sid === 'thumbs') { total = data.thumbs?.length || 0;         answered = Object.keys(thumbsAnswers).length }
-    if (sid === 'fill')   { total = data.fillBlank?.length || 0;      answered = Object.values(fillAnswers).filter(v => v?.trim()).length }
+    if (sid === 'mc')     { total = ex.multipleChoice?.length || 0; answered = ex.multipleChoice?.filter(q => mcAnswers[q.id] !== undefined).length || 0 }
+    if (sid === 'tf')     { total = ex.trueFalse?.length || 0;      answered = ex.trueFalse?.filter(q => tfAnswers[q.id] !== undefined).length || 0 }
+    if (sid === 'yn')     { total = ex.yesNo?.length || 0;          answered = ex.yesNo?.filter(q => ynAnswers[q.id] !== undefined).length || 0 }
+    if (sid === 'thumbs') { total = ex.thumbs?.length || 0;         answered = ex.thumbs?.filter(q => thumbsAnswers[q.id] !== undefined).length || 0 }
+    if (sid === 'fill')   { total = ex.fillBlank?.length || 0;      answered = ex.fillBlank?.filter(q => fillAnswers[q.id]?.trim()).length || 0 }
     if (sid === 'pc') {
-      total = data.personChange?.length || 0
-      answered = (data.personChange || []).filter(q => {
+      total = ex.personChange?.length || 0
+      answered = (ex.personChange || []).filter(q => {
         const ans = pcAnswers[q.id] || []
         return q.answers.every((_, i) => ans[i]?.trim())
       }).length
     }
     if (sid === 'prep') {
-      total = data.prepFill?.length || 0
-      answered = (data.prepFill || []).filter(q => {
+      total = ex.prepFill?.length || 0
+      answered = (ex.prepFill || []).filter(q => {
         const ans = pfAnswers[q.id] || []
         return q.answers.every((_, i) => ans[i]?.trim())
       }).length
@@ -85,18 +103,17 @@ export default function ExercisesTab({ exercises }) {
 
   function scoreSection(sid) {
     let correct = 0, total = 0
-    const data = exercises
-    if (sid === 'mc')     data.multipleChoice?.forEach(q => { total++; if (mcAnswers[q.id] === q.answer) correct++ })
-    if (sid === 'tf')     data.trueFalse?.forEach(q => { total++; if (tfAnswers[q.id] === q.answer) correct++ })
-    if (sid === 'yn')     data.yesNo?.forEach(q => { total++; if (ynAnswers[q.id] === q.answer) correct++ })
-    if (sid === 'thumbs') data.thumbs?.forEach(q => { total++; if (thumbsAnswers[q.id] === q.answer) correct++ })
-    if (sid === 'fill')   data.fillBlank?.forEach(q => { total++; if (checkAnswer(fillAnswers[q.id], q.answer)) correct++ })
-    if (sid === 'pc')     data.personChange?.forEach(q => {
+    if (sid === 'mc')     ex.multipleChoice?.forEach(q => { total++; if (mcAnswers[q.id] === q.answer) correct++ })
+    if (sid === 'tf')     ex.trueFalse?.forEach(q => { total++; if (tfAnswers[q.id] === q.answer) correct++ })
+    if (sid === 'yn')     ex.yesNo?.forEach(q => { total++; if (ynAnswers[q.id] === q.answer) correct++ })
+    if (sid === 'thumbs') ex.thumbs?.forEach(q => { total++; if (thumbsAnswers[q.id] === q.answer) correct++ })
+    if (sid === 'fill')   ex.fillBlank?.forEach(q => { total++; if (checkAnswer(fillAnswers[q.id], q.answer)) correct++ })
+    if (sid === 'pc')     ex.personChange?.forEach(q => {
       total++
       const ans = pcAnswers[q.id] || []
       if (q.answers.every((a, i) => checkAnswer(ans[i], a))) correct++
     })
-    if (sid === 'prep')   data.prepFill?.forEach(q => {
+    if (sid === 'prep')   ex.prepFill?.forEach(q => {
       total++
       const ans = pfAnswers[q.id] || []
       if (q.answers.every((a, i) => normalize(ans[i]) === normalize(a))) correct++
@@ -167,7 +184,7 @@ export default function ExercisesTab({ exercises }) {
       <div className="question-list">
 
         {/* ── Multiple Choice ── */}
-        {activeId === 'mc' && exercises.multipleChoice?.map(q => {
+        {activeId === 'mc' && ex.multipleChoice?.map(q => {
           const correct = isSubmitted && mcAnswers[q.id] === q.answer
           const wrong   = isSubmitted && mcAnswers[q.id] !== undefined && mcAnswers[q.id] !== q.answer
           return (
@@ -198,7 +215,7 @@ export default function ExercisesTab({ exercises }) {
         })}
 
         {/* ── True / False ── */}
-        {activeId === 'tf' && exercises.trueFalse?.map(q => {
+        {activeId === 'tf' && ex.trueFalse?.map(q => {
           const ans     = tfAnswers[q.id]
           const correct = isSubmitted && ans === q.answer
           const wrong   = isSubmitted && ans !== undefined && ans !== q.answer
@@ -218,7 +235,7 @@ export default function ExercisesTab({ exercises }) {
         })}
 
         {/* ── Yes / No ── */}
-        {activeId === 'yn' && exercises.yesNo?.map(q => {
+        {activeId === 'yn' && ex.yesNo?.map(q => {
           const ans     = ynAnswers[q.id]
           const correct = isSubmitted && ans === q.answer
           const wrong   = isSubmitted && ans !== undefined && ans !== q.answer
@@ -238,7 +255,7 @@ export default function ExercisesTab({ exercises }) {
         })}
 
         {/* ── Thumbs ── */}
-        {activeId === 'thumbs' && exercises.thumbs?.map(q => {
+        {activeId === 'thumbs' && ex.thumbs?.map(q => {
           const ans     = thumbsAnswers[q.id]
           const correct = isSubmitted && ans === q.answer
           const wrong   = isSubmitted && ans !== undefined && ans !== q.answer
@@ -258,7 +275,7 @@ export default function ExercisesTab({ exercises }) {
         })}
 
         {/* ── Fill in the Blank ── */}
-        {activeId === 'fill' && exercises.fillBlank?.map(q => {
+        {activeId === 'fill' && ex.fillBlank?.map(q => {
           const userVal   = fillAnswers[q.id] || ''
           const isCorrect = isSubmitted && checkAnswer(userVal, q.answer)
           const isWrong   = isSubmitted && !isCorrect && userVal.trim()
@@ -288,7 +305,7 @@ export default function ExercisesTab({ exercises }) {
         })}
 
         {/* ── Person Change ── */}
-        {activeId === 'pc' && exercises.personChange?.map(q => {
+        {activeId === 'pc' && ex.personChange?.map(q => {
           const ans       = pcAnswers[q.id] || []
           const isCorrect = isSubmitted && q.answers.every((a, i) => checkAnswer(ans[i], a))
           const isWrong   = isSubmitted && !isCorrect && ans.some(a => a?.trim())
@@ -330,7 +347,7 @@ export default function ExercisesTab({ exercises }) {
         })}
 
         {/* ── Preposition Fill ── */}
-        {activeId === 'prep' && exercises.prepFill?.map(q => {
+        {activeId === 'prep' && ex.prepFill?.map(q => {
           const ans         = pfAnswers[q.id] || []
           const activeBlank = pfActive[q.id] ?? 0
           const parts       = q.prompt.split('_______')
