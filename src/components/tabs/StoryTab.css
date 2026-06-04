@@ -56,6 +56,27 @@
   font-style: italic;
 }
 
+.story-paragraph-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.para-number {
+  flex-shrink: 0;
+  width: 28px;
+  padding-top: 22px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted, #aaa);
+  text-align: right;
+  user-select: none;
+}
+
+.story-paragraph-row .story-paragraph {
+  flex: 1;
+}
+
 .story-paragraph {
   background: #fff;
   border: 1.5px solid var(--border);

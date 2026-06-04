@@ -92,25 +92,28 @@ export default function StoryTab({ story, activePart }) {
 
       <div className="story-instruction">Tap any word to see its meaning.</div>
 
-      {paragraphs.map(para => (
+      {paragraphs.map((para, i) => (
         <div key={para.id}>
           {para.label && (
             <div className="part-divider">
               <span className="part-label greek">{para.label}</span>
             </div>
           )}
-          <div className="story-paragraph">
-            <p className="para-greek greek">
-              {para.words.map((word, wi) => (
-                <span
-                  key={wi}
-                  className={`story-word ${activeWord?.key === `${para.id}-${wi}` ? 'story-word--active' : ''}`}
-                  onClick={(e) => handleWordClick(e, word, para.id, wi)}
-                >
-                  {word.greek}{wi < para.words.length - 1 ? ' ' : ''}
-                </span>
-              ))}
-            </p>
+          <div className="story-paragraph-row">
+            <span className="para-number">{i + 1}</span>
+            <div className="story-paragraph">
+              <p className="para-greek greek">
+                {para.words.map((word, wi) => (
+                  <span
+                    key={wi}
+                    className={`story-word ${activeWord?.key === `${para.id}-${wi}` ? 'story-word--active' : ''}`}
+                    onClick={(e) => handleWordClick(e, word, para.id, wi)}
+                  >
+                    {word.greek}{wi < para.words.length - 1 ? ' ' : ''}
+                  </span>
+                ))}
+              </p>
+            </div>
           </div>
         </div>
       ))}
