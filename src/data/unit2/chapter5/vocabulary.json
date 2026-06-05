@@ -1,82 +1,1029 @@
 [
-  { "id": 1,  "part": "A", "greek": "στόμα, -ατος, τό",       "transliteration": "stoma",         "definition": "mouth",                        "partOfSpeech": "noun (neuter, 3rd decl. -μα)" },
-  { "id": 2,  "part": "A", "greek": "πνεῦμα, -ατος, τό",      "transliteration": "pneuma",        "definition": "spirit, breath, wind",         "partOfSpeech": "noun (neuter, 3rd decl. -μα)" },
-  { "id": 3,  "part": "A", "greek": "βρῶμα, -ατος, τό",       "transliteration": "brōma",         "definition": "food",                         "partOfSpeech": "noun (neuter, 3rd decl. -μα)" },
-  { "id": 4,  "part": "A", "greek": "πόμα, -ατος, τό",        "transliteration": "poma",          "definition": "drink, beverage",              "partOfSpeech": "noun (neuter, 3rd decl. -μα)" },
-  { "id": 5,  "part": "A", "greek": "ῥῆμα, -ατος, τό",        "transliteration": "rhēma",         "definition": "word, saying",                 "partOfSpeech": "noun (neuter, 3rd decl. -μα)" },
-  { "id": 6,  "part": "A", "greek": "θέλημα, -ατος, τό",      "transliteration": "thelēma",       "definition": "will, purpose",                "partOfSpeech": "noun (neuter, 3rd decl. -μα)" },
-  { "id": 7,  "part": "A", "greek": "κλῆμα, -ατος, τό",       "transliteration": "klēma",         "definition": "branch (of a vine)",           "partOfSpeech": "noun (neuter, 3rd decl. -μα)" },
-  { "id": 8,  "part": "A", "greek": "ἀλήθεια, -ας, ἡ",        "transliteration": "alētheia",      "definition": "truth",                        "partOfSpeech": "noun (feminine, 1st decl.)" },
-  { "id": 9,  "part": "A", "greek": "ζωή, -ῆς, ἡ",            "transliteration": "zōē",           "definition": "life",                         "partOfSpeech": "noun (feminine, 1st decl.)" },
-  { "id": 10, "part": "A", "greek": "ἀγάπη, -ης, ἡ",          "transliteration": "agapē",         "definition": "love",                         "partOfSpeech": "noun (feminine, 1st decl.)" },
-  { "id": 11, "part": "A", "greek": "ἐντολή, -ῆς, ἡ",         "transliteration": "entolē",        "definition": "commandment",                  "partOfSpeech": "noun (feminine, 1st decl.)" },
-  { "id": 12, "part": "A", "greek": "ἄμπελος, -ου, ἡ",        "transliteration": "ampelos",       "definition": "vine, grapevine",              "partOfSpeech": "noun (feminine, 2nd decl.)" },
-  { "id": 13, "part": "A", "greek": "θάνατος, -ου, ὁ",        "transliteration": "thanatos",      "definition": "death",                        "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 14, "part": "A", "greek": "υἱός, -οῦ, ὁ",           "transliteration": "huios",         "definition": "son",                          "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 15, "part": "A", "greek": "κύριος, -ου, ὁ",         "transliteration": "kyrios",        "definition": "lord, master",                 "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 16, "part": "A", "greek": "ἀδελφός, -οῦ, ὁ",       "transliteration": "adelphos",      "definition": "brother",                      "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 17, "part": "A", "greek": "ψεύστης, -ου, ὁ",        "transliteration": "pseustēs",      "definition": "liar",                         "partOfSpeech": "noun (masculine, 1st decl.)" },
-  { "id": 18, "part": "A", "greek": "ἀδελφή, -ῆς, ἡ",         "transliteration": "adelphē",       "definition": "sister",                       "partOfSpeech": "noun (feminine, 1st decl.)" },
-  { "id": 19, "part": "A", "greek": "πατήρ, πατρός, ὁ",       "transliteration": "patēr",         "definition": "father",                       "partOfSpeech": "noun (masculine, 3rd decl.)" },
-  { "id": 20, "part": "A", "greek": "ἀληθινός, -ή, -όν",      "transliteration": "alēthinos",     "definition": "true, genuine, real",          "partOfSpeech": "adjective" },
-  { "id": 21, "part": "A", "greek": "τέλειος, -α, -ον",       "transliteration": "teleios",       "definition": "perfect, complete",            "partOfSpeech": "adjective" },
-  { "id": 22, "part": "A", "greek": "οὐδείς, οὐδεμία, οὐδέν", "transliteration": "oudeis",        "definition": "no one, nothing",              "partOfSpeech": "pronoun/adjective (negative)" },
-  { "id": 23, "part": "A", "greek": "τις, τι",                 "transliteration": "tis, ti",       "definition": "someone, something; a certain","partOfSpeech": "pronoun/adjective (indefinite, enclitic)" },
-  { "id": 24, "part": "A", "greek": "ὅστις, ἥτις, ὅτι",       "transliteration": "hostis",        "definition": "whoever, whatever",            "partOfSpeech": "indefinite relative pronoun" },
-  { "id": 25, "part": "A", "greek": "ἀλλήλους, -ας, -α",      "transliteration": "allēlous",      "definition": "one another, each other",      "partOfSpeech": "reciprocal pronoun (no nominative)" },
-  { "id": 26, "part": "A", "greek": "προσκυνέω, -ῶ",           "transliteration": "proskyneō",     "definition": "I worship, bow before",        "partOfSpeech": "verb (contract, -έω; + dative)" },
-  { "id": 27, "part": "A", "greek": "πιστεύω",                 "transliteration": "pisteuō",       "definition": "I believe, trust",             "partOfSpeech": "verb (+ dative of person)" },
-  { "id": 28, "part": "A", "greek": "σιγάω, -ῶ",               "transliteration": "sigaō",         "definition": "I am silent, keep quiet",      "partOfSpeech": "verb (contract, -άω)" },
-  { "id": 29, "part": "A", "greek": "μισέω, -ῶ",               "transliteration": "miseō",         "definition": "I hate",                       "partOfSpeech": "verb (contract, -έω)" },
-  { "id": 30, "part": "A", "greek": "ὀφείλω",                  "transliteration": "opheilō",       "definition": "I ought, owe, am obligated",   "partOfSpeech": "verb (+ infinitive)" },
-  { "id": 31, "part": "A", "greek": "βάλλω",                   "transliteration": "ballō",         "definition": "I throw, cast, drive out",     "partOfSpeech": "verb" },
-  { "id": 32, "part": "A", "greek": "ἵνα",                     "transliteration": "hina",          "definition": "in order that, so that",       "partOfSpeech": "conjunction (+ subjunctive, purpose)" },
-  { "id": 33, "part": "A", "greek": "ἐάν",                     "transliteration": "ean",           "definition": "if (conditional)",             "partOfSpeech": "conjunction (+ subjunctive)" },
-  { "id": 34, "part": "A", "greek": "ὅταν",                    "transliteration": "hotan",         "definition": "whenever, when",               "partOfSpeech": "conjunction (+ subjunctive; ὅτε + ἄν)" },
-  { "id": 35, "part": "A", "greek": "ὥσπερ",                   "transliteration": "hōsper",        "definition": "just as, like",                "partOfSpeech": "comparative conjunction" },
-  { "id": 36, "part": "A", "greek": "χωρίς",                   "transliteration": "chōris",        "definition": "without, apart from",          "partOfSpeech": "preposition (+ genitive)" },
-  { "id": 37, "part": "A", "greek": "εἰ μή",                   "transliteration": "ei mē",         "definition": "except, unless",               "partOfSpeech": "expression (negative exception)" },
-  { "id": 38, "part": "A", "greek": "ἢ",                       "transliteration": "ē",             "definition": "or",                           "partOfSpeech": "disjunctive conjunction" },
-  { "id": 39, "part": "A", "greek": "οὐδέ",                    "transliteration": "oude",          "definition": "and not, nor, not even",       "partOfSpeech": "negative conjunction" },
-  { "id": 40, "part": "A", "greek": "ἔξω",                     "transliteration": "exō",           "definition": "outside, out",                 "partOfSpeech": "adverb/preposition" },
-  { "id": 41, "part": "A", "greek": "ἔπειτα",                  "transliteration": "epeita",        "definition": "then, next, afterwards",       "partOfSpeech": "adverb" },
-  { "id": 42, "part": "A", "greek": "πλέον",                   "transliteration": "pleon",         "definition": "more",                         "partOfSpeech": "adverb/comparative adjective (neuter of πλείων)" },
-
-  { "id": 43, "part": "B", "greek": "ψυχή, -ῆς, ἡ",            "transliteration": "psychē",        "definition": "soul, life",                   "partOfSpeech": "noun (feminine, 1st decl.)" },
-  { "id": 44, "part": "B", "greek": "ἁμαρτία, -ας, ἡ",         "transliteration": "hamartia",      "definition": "sin",                          "partOfSpeech": "noun (feminine, 1st decl.)" },
-  { "id": 45, "part": "B", "greek": "ἀδικία, -ας, ἡ",          "transliteration": "adikia",        "definition": "unrighteousness, injustice",    "partOfSpeech": "noun (feminine, 1st decl.)" },
-  { "id": 46, "part": "B", "greek": "κοινωνία, -ας, ἡ",        "transliteration": "koinōnia",      "definition": "fellowship, communion",         "partOfSpeech": "noun (feminine, 1st decl.)" },
-  { "id": 47, "part": "B", "greek": "ἀνάστασις, -εως, ἡ",      "transliteration": "anastasis",     "definition": "resurrection",                 "partOfSpeech": "noun (feminine, 3rd decl.)" },
-  { "id": 48, "part": "B", "greek": "αἰών, -ῶνος, ὁ",          "transliteration": "aiōn",          "definition": "age, eternity",                "partOfSpeech": "noun (masculine, 3rd decl.)" },
-  { "id": 49, "part": "B", "greek": "κόσμος, -ου, ὁ",          "transliteration": "kosmos",        "definition": "world",                        "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 50, "part": "B", "greek": "χόρτος, -ου, ὁ",          "transliteration": "chortos",       "definition": "grass, fodder",                "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 51, "part": "B", "greek": "μισθωτός, -οῦ, ὁ",        "transliteration": "misthotos",     "definition": "hired worker, hireling",        "partOfSpeech": "noun (masculine, 2nd decl.)" },
-  { "id": 52, "part": "B", "greek": "ποιμήν, -ένος, ὁ",        "transliteration": "poimēn",        "definition": "shepherd",                     "partOfSpeech": "noun (masculine, 3rd decl.)" },
-  { "id": 53, "part": "B", "greek": "αἷμα, -ατος, τό",         "transliteration": "haima",         "definition": "blood",                        "partOfSpeech": "noun (neuter, 3rd decl. -μα)" },
-  { "id": 54, "part": "B", "greek": "αἰώνιος, -α, -ον",        "transliteration": "aiōnios",       "definition": "eternal, everlasting",         "partOfSpeech": "adjective" },
-  { "id": 55, "part": "B", "greek": "δίκαιος, -α, -ον",        "transliteration": "dikaios",       "definition": "righteous, just",              "partOfSpeech": "adjective" },
-  { "id": 56, "part": "B", "greek": "νεκρός, -ά, -όν",         "transliteration": "nekros",        "definition": "dead",                         "partOfSpeech": "adjective (also used as noun: the dead)" },
-  { "id": 57, "part": "B", "greek": "ἑαυτούς, -άς, -ά",        "transliteration": "heautous",      "definition": "ourselves, themselves",         "partOfSpeech": "reflexive pronoun (3rd person, no nominative)" },
-  { "id": 58, "part": "B", "greek": "τίθημι",                   "transliteration": "tithēmi",       "definition": "I place, put; lay down (life)", "partOfSpeech": "verb (μι-verb)" },
-  { "id": 59, "part": "B", "greek": "δίδωμι",                   "transliteration": "didōmi",        "definition": "I give",                       "partOfSpeech": "verb (μι-verb)" },
-  { "id": 60, "part": "B", "greek": "ἀφίημι",                   "transliteration": "aphiēmi",       "definition": "I forgive, release, let go",    "partOfSpeech": "verb (μι-verb, compound of ἀπό + ἵημι)" },
-  { "id": 61, "part": "B", "greek": "δείκνυμι",                 "transliteration": "deiknymi",      "definition": "I show, point out",            "partOfSpeech": "verb (μι-verb)" },
-  { "id": 62, "part": "B", "greek": "σῴζω",                     "transliteration": "sōzō",          "definition": "I save, rescue",               "partOfSpeech": "verb" },
-  { "id": 63, "part": "B", "greek": "φεύγω",                    "transliteration": "pheugō",        "definition": "I flee, escape",               "partOfSpeech": "verb" },
-  { "id": 64, "part": "B", "greek": "ἁρπάζω",                   "transliteration": "harpazō",       "definition": "I seize, snatch",              "partOfSpeech": "verb" },
-  { "id": 65, "part": "B", "greek": "σκορπίζω",                 "transliteration": "skorpizō",      "definition": "I scatter",                    "partOfSpeech": "verb" },
-  { "id": 66, "part": "B", "greek": "εἰσέρχομαι",               "transliteration": "eiserchomai",   "definition": "I enter, go in",               "partOfSpeech": "verb (mid. deponent, compound of εἰς + ἔρχομαι)" },
-  { "id": 67, "part": "B", "greek": "ὁμολογέω, -ῶ",             "transliteration": "homologeō",     "definition": "I confess, acknowledge",        "partOfSpeech": "verb (contract, -έω)" },
-  { "id": 68, "part": "B", "greek": "καθαρίζω",                 "transliteration": "katharizō",     "definition": "I cleanse, purify",            "partOfSpeech": "verb" },
-  { "id": 69, "part": "B", "greek": "πλανάω, -ῶ",               "transliteration": "planaō",        "definition": "I deceive, lead astray",        "partOfSpeech": "verb (contract, -άω)" },
-  { "id": 70, "part": "B", "greek": "φαίνω",                    "transliteration": "phainō",        "definition": "I shine, appear",              "partOfSpeech": "verb" },
-  { "id": 71, "part": "B", "greek": "φωτίζω",                   "transliteration": "phōtizō",       "definition": "I enlighten, illuminate",       "partOfSpeech": "verb" },
-  { "id": 72, "part": "B", "greek": "ἀποθνῄσκω",                "transliteration": "apothnēskō",    "definition": "I die",                        "partOfSpeech": "verb (compound of ἀπό + θνῄσκω)" },
-  { "id": 73, "part": "B", "greek": "ζάω, -ῶ",                  "transliteration": "zaō",           "definition": "I live",                       "partOfSpeech": "verb (contract, -άω; irregular: ζῇ 3rd sg.)" },
-  { "id": 74, "part": "B", "greek": "ὑπέρ",                     "transliteration": "hyper",         "definition": "on behalf of, for",            "partOfSpeech": "preposition (+ genitive)" },
-  { "id": 75, "part": "B", "greek": "διότι",                    "transliteration": "dioti",         "definition": "because, for (this reason)",   "partOfSpeech": "conjunction (causal)" },
-  { "id": 76, "part": "B", "greek": "πάντοτε",                  "transliteration": "pantote",       "definition": "always, at all times",         "partOfSpeech": "adverb" },
-  { "id": 77, "part": "B", "greek": "εἰς τὸν αἰῶνα",           "transliteration": "eis ton aiōna", "definition": "forever, into the age",        "partOfSpeech": "adverbial phrase" },
-  { "id": 78, "part": "B", "greek": "παρά",                     "transliteration": "para",          "definition": "beside, alongside",            "partOfSpeech": "preposition (+ acc. = beside; + gen. = from; + dat. = with)" },
-  { "id": 79, "part": "B", "greek": "ὡς",                       "transliteration": "hōs",           "definition": "as, like (comparison)",        "partOfSpeech": "comparative conjunction/adverb" }
+  {
+    "id": 1,
+    "part": "A",
+    "greek": "στόμα, -ατος, τό",
+    "transliteration": "stoma",
+    "definition": "mouth",
+    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
+    "translations": {
+      "es": "boca",
+      "pl": "usta",
+      "fil": "bibig"
+    }
+  },
+  {
+    "id": 2,
+    "part": "A",
+    "greek": "πνεῦμα, -ατος, τό",
+    "transliteration": "pneuma",
+    "definition": "spirit, breath, wind",
+    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
+    "translations": {
+      "es": "espíritu, aliento, viento",
+      "pl": "duch, oddech, wiatr",
+      "fil": "espiritu, hininga, hangin"
+    }
+  },
+  {
+    "id": 3,
+    "part": "A",
+    "greek": "βρῶμα, -ατος, τό",
+    "transliteration": "brōma",
+    "definition": "food",
+    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
+    "translations": {
+      "es": "comida",
+      "pl": "pokarm, jedzenie",
+      "fil": "pagkain"
+    }
+  },
+  {
+    "id": 4,
+    "part": "A",
+    "greek": "πόμα, -ατος, τό",
+    "transliteration": "poma",
+    "definition": "drink, beverage",
+    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
+    "translations": {
+      "es": "bebida",
+      "pl": "napój",
+      "fil": "inumin"
+    }
+  },
+  {
+    "id": 5,
+    "part": "A",
+    "greek": "ῥῆμα, -ατος, τό",
+    "transliteration": "rhēma",
+    "definition": "word, saying",
+    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
+    "translations": {
+      "es": "palabra, dicho",
+      "pl": "słowo, powiedzenie",
+      "fil": "salita, kasabihan"
+    }
+  },
+  {
+    "id": 6,
+    "part": "A",
+    "greek": "θέλημα, -ατος, τό",
+    "transliteration": "thelēma",
+    "definition": "will, purpose",
+    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
+    "translations": {
+      "es": "voluntad, propósito",
+      "pl": "wola, cel",
+      "fil": "kalooban, layunin"
+    }
+  },
+  {
+    "id": 7,
+    "part": "A",
+    "greek": "κλῆμα, -ατος, τό",
+    "transliteration": "klēma",
+    "definition": "branch (of a vine)",
+    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
+    "translations": {
+      "es": "rama (de vid)",
+      "pl": "gałąź (winorośli)",
+      "fil": "sanga (ng ubas)"
+    }
+  },
+  {
+    "id": 8,
+    "part": "A",
+    "greek": "ἀλήθεια, -ας, ἡ",
+    "transliteration": "alētheia",
+    "definition": "truth",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "translations": {
+      "es": "verdad",
+      "pl": "prawda",
+      "fil": "katotohanan"
+    }
+  },
+  {
+    "id": 9,
+    "part": "A",
+    "greek": "ζωή, -ῆς, ἡ",
+    "transliteration": "zōē",
+    "definition": "life",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "translations": {
+      "es": "vida",
+      "pl": "życie",
+      "fil": "buhay"
+    }
+  },
+  {
+    "id": 10,
+    "part": "A",
+    "greek": "ἀγάπη, -ης, ἡ",
+    "transliteration": "agapē",
+    "definition": "love",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "translations": {
+      "es": "amor",
+      "pl": "miłość",
+      "fil": "pagmamahal, pag-ibig"
+    }
+  },
+  {
+    "id": 11,
+    "part": "A",
+    "greek": "ἐντολή, -ῆς, ἡ",
+    "transliteration": "entolē",
+    "definition": "commandment",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "translations": {
+      "es": "mandamiento",
+      "pl": "przykazanie",
+      "fil": "utos, kautusan"
+    }
+  },
+  {
+    "id": 12,
+    "part": "A",
+    "greek": "ἄμπελος, -ου, ἡ",
+    "transliteration": "ampelos",
+    "definition": "vine, grapevine",
+    "partOfSpeech": "noun (feminine, 2nd decl.)",
+    "translations": {
+      "es": "vid, parra",
+      "pl": "winorośl",
+      "fil": "ubas, puno ng ubas"
+    }
+  },
+  {
+    "id": 13,
+    "part": "A",
+    "greek": "θάνατος, -ου, ὁ",
+    "transliteration": "thanatos",
+    "definition": "death",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "translations": {
+      "es": "muerte",
+      "pl": "śmierć",
+      "fil": "kamatayan"
+    }
+  },
+  {
+    "id": 14,
+    "part": "A",
+    "greek": "υἱός, -οῦ, ὁ",
+    "transliteration": "huios",
+    "definition": "son",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "translations": {
+      "es": "hijo",
+      "pl": "syn",
+      "fil": "anak na lalaki"
+    }
+  },
+  {
+    "id": 15,
+    "part": "A",
+    "greek": "κύριος, -ου, ὁ",
+    "transliteration": "kyrios",
+    "definition": "lord, master",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "translations": {
+      "es": "señor, amo",
+      "pl": "pan, władca",
+      "fil": "panginoon, amo"
+    }
+  },
+  {
+    "id": 16,
+    "part": "A",
+    "greek": "ἀδελφός, -οῦ, ὁ",
+    "transliteration": "adelphos",
+    "definition": "brother",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "translations": {
+      "es": "hermano",
+      "pl": "brat",
+      "fil": "kapatid na lalaki"
+    }
+  },
+  {
+    "id": 17,
+    "part": "A",
+    "greek": "ψεύστης, -ου, ὁ",
+    "transliteration": "pseustēs",
+    "definition": "liar",
+    "partOfSpeech": "noun (masculine, 1st decl.)",
+    "translations": {
+      "es": "mentiroso",
+      "pl": "kłamca",
+      "fil": "sinungaling"
+    }
+  },
+  {
+    "id": 18,
+    "part": "A",
+    "greek": "ἀδελφή, -ῆς, ἡ",
+    "transliteration": "adelphē",
+    "definition": "sister",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "translations": {
+      "es": "hermana",
+      "pl": "siostra",
+      "fil": "kapatid na babae"
+    }
+  },
+  {
+    "id": 19,
+    "part": "A",
+    "greek": "πατήρ, πατρός, ὁ",
+    "transliteration": "patēr",
+    "definition": "father",
+    "partOfSpeech": "noun (masculine, 3rd decl.)",
+    "translations": {
+      "es": "padre",
+      "pl": "ojciec",
+      "fil": "ama"
+    }
+  },
+  {
+    "id": 20,
+    "part": "A",
+    "greek": "ἀληθινός, -ή, -όν",
+    "transliteration": "alēthinos",
+    "definition": "true, genuine, real",
+    "partOfSpeech": "adjective",
+    "translations": {
+      "es": "verdadero, genuino",
+      "pl": "prawdziwy",
+      "fil": "tunay, totoo"
+    }
+  },
+  {
+    "id": 21,
+    "part": "A",
+    "greek": "τέλειος, -α, -ον",
+    "transliteration": "teleios",
+    "definition": "perfect, complete",
+    "partOfSpeech": "adjective",
+    "translations": {
+      "es": "perfecto, completo",
+      "pl": "doskonały, pełny",
+      "fil": "perpekto, buo"
+    }
+  },
+  {
+    "id": 22,
+    "part": "A",
+    "greek": "οὐδείς, οὐδεμία, οὐδέν",
+    "transliteration": "oudeis",
+    "definition": "no one, nothing",
+    "partOfSpeech": "pronoun/adjective (negative)",
+    "translations": {
+      "es": "nadie, nada",
+      "pl": "nikt, nic",
+      "fil": "walang sinuman, wala"
+    }
+  },
+  {
+    "id": 23,
+    "part": "A",
+    "greek": "τις, τι",
+    "transliteration": "tis, ti",
+    "definition": "someone, something; a certain",
+    "partOfSpeech": "pronoun/adjective (indefinite, enclitic)",
+    "translations": {
+      "es": "alguien, algo",
+      "pl": "ktoś, coś",
+      "fil": "may isa, may isang bagay"
+    }
+  },
+  {
+    "id": 24,
+    "part": "A",
+    "greek": "ὅστις, ἥτις, ὅτι",
+    "transliteration": "hostis",
+    "definition": "whoever, whatever",
+    "partOfSpeech": "indefinite relative pronoun",
+    "translations": {
+      "es": "quienquiera, cualquier",
+      "pl": "ktokolwiek, cokolwiek",
+      "fil": "sinuman, anuman"
+    }
+  },
+  {
+    "id": 25,
+    "part": "A",
+    "greek": "ἀλλήλους, -ας, -α",
+    "transliteration": "allēlous",
+    "definition": "one another, each other",
+    "partOfSpeech": "reciprocal pronoun (no nominative)",
+    "translations": {
+      "es": "el uno al otro",
+      "pl": "jeden drugiego, wzajemnie",
+      "fil": "isa't isa, sa isa't isa"
+    }
+  },
+  {
+    "id": 26,
+    "part": "A",
+    "greek": "προσκυνέω, -ῶ",
+    "transliteration": "proskyneō",
+    "definition": "I worship, bow before",
+    "partOfSpeech": "verb (contract, -έω; + dative)",
+    "translations": {
+      "es": "yo adoro, me postro",
+      "pl": "kłaniam się, wielbię",
+      "fil": "sumasamba"
+    }
+  },
+  {
+    "id": 27,
+    "part": "A",
+    "greek": "πιστεύω",
+    "transliteration": "pisteuō",
+    "definition": "I believe, trust",
+    "partOfSpeech": "verb (+ dative of person)",
+    "translations": {
+      "es": "yo creo, confío",
+      "pl": "wierzę, ufam",
+      "fil": "naniniwala"
+    }
+  },
+  {
+    "id": 28,
+    "part": "A",
+    "greek": "σιγάω, -ῶ",
+    "transliteration": "sigaō",
+    "definition": "I am silent, keep quiet",
+    "partOfSpeech": "verb (contract, -άω)",
+    "translations": {
+      "es": "yo estoy callado",
+      "pl": "milczę",
+      "fil": "tumatahimik"
+    }
+  },
+  {
+    "id": 29,
+    "part": "A",
+    "greek": "μισέω, -ῶ",
+    "transliteration": "miseō",
+    "definition": "I hate",
+    "partOfSpeech": "verb (contract, -έω)",
+    "translations": {
+      "es": "yo odio",
+      "pl": "nienawidzę",
+      "fil": "nagagalit, namumuhi"
+    }
+  },
+  {
+    "id": 30,
+    "part": "A",
+    "greek": "ὀφείλω",
+    "transliteration": "opheilō",
+    "definition": "I ought, owe, am obligated",
+    "partOfSpeech": "verb (+ infinitive)",
+    "translations": {
+      "es": "yo debo, estoy obligado",
+      "pl": "powinienem, jestem zobowiązany",
+      "fil": "dapat, may utang"
+    }
+  },
+  {
+    "id": 31,
+    "part": "A",
+    "greek": "βάλλω",
+    "transliteration": "ballō",
+    "definition": "I throw, cast, drive out",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "yo lanzo, expulso",
+      "pl": "rzucam, wyrzucam",
+      "fil": "naghahagis, nagpapalayas"
+    }
+  },
+  {
+    "id": 32,
+    "part": "A",
+    "greek": "ἵνα",
+    "transliteration": "hina",
+    "definition": "in order that, so that",
+    "partOfSpeech": "conjunction (+ subjunctive, purpose)",
+    "translations": {
+      "es": "para que, a fin de que",
+      "pl": "żeby, aby",
+      "fil": "upang, para"
+    }
+  },
+  {
+    "id": 33,
+    "part": "A",
+    "greek": "ἐάν",
+    "transliteration": "ean",
+    "definition": "if (conditional)",
+    "partOfSpeech": "conjunction (+ subjunctive)",
+    "translations": {
+      "es": "si (condicional)",
+      "pl": "jeśli (warunkowe)",
+      "fil": "kung (kondisyonal)"
+    }
+  },
+  {
+    "id": 34,
+    "part": "A",
+    "greek": "ὅταν",
+    "transliteration": "hotan",
+    "definition": "whenever, when",
+    "partOfSpeech": "conjunction (+ subjunctive; ὅτε + ἄν)",
+    "translations": {
+      "es": "cuando sea, cuando",
+      "pl": "kiedykolwiek",
+      "fil": "anumang oras, kapag"
+    }
+  },
+  {
+    "id": 35,
+    "part": "A",
+    "greek": "ὥσπερ",
+    "transliteration": "hōsper",
+    "definition": "just as, like",
+    "partOfSpeech": "comparative conjunction",
+    "translations": {
+      "es": "así como, igual que",
+      "pl": "tak jak",
+      "fil": "tulad ng, katulad"
+    }
+  },
+  {
+    "id": 36,
+    "part": "A",
+    "greek": "χωρίς",
+    "transliteration": "chōris",
+    "definition": "without, apart from",
+    "partOfSpeech": "preposition (+ genitive)",
+    "translations": {
+      "es": "sin, aparte de",
+      "pl": "bez, poza",
+      "fil": "wala, maliban sa"
+    }
+  },
+  {
+    "id": 37,
+    "part": "A",
+    "greek": "εἰ μή",
+    "transliteration": "ei mē",
+    "definition": "except, unless",
+    "partOfSpeech": "expression (negative exception)",
+    "translations": {
+      "es": "excepto, a menos que",
+      "pl": "chyba że, o ile nie",
+      "fil": "maliban kung"
+    }
+  },
+  {
+    "id": 38,
+    "part": "A",
+    "greek": "ἢ",
+    "transliteration": "ē",
+    "definition": "or",
+    "partOfSpeech": "disjunctive conjunction",
+    "translations": {
+      "es": "o",
+      "pl": "lub, albo",
+      "fil": "o"
+    }
+  },
+  {
+    "id": 39,
+    "part": "A",
+    "greek": "οὐδέ",
+    "transliteration": "oude",
+    "definition": "and not, nor, not even",
+    "partOfSpeech": "negative conjunction",
+    "translations": {
+      "es": "y no, ni, ni siquiera",
+      "pl": "i nie, ani, nawet nie",
+      "fil": "at hindi, ni, maging"
+    }
+  },
+  {
+    "id": 40,
+    "part": "A",
+    "greek": "ἔξω",
+    "transliteration": "exō",
+    "definition": "outside, out",
+    "partOfSpeech": "adverb/preposition",
+    "translations": {
+      "es": "fuera, afuera",
+      "pl": "na zewnątrz",
+      "fil": "sa labas, palabas"
+    }
+  },
+  {
+    "id": 41,
+    "part": "A",
+    "greek": "ἔπειτα",
+    "transliteration": "epeita",
+    "definition": "then, next, afterwards",
+    "partOfSpeech": "adverb",
+    "translations": {
+      "es": "luego, después",
+      "pl": "potem, następnie",
+      "fil": "pagkatapos, kalaunan"
+    }
+  },
+  {
+    "id": 42,
+    "part": "A",
+    "greek": "πλέον",
+    "transliteration": "pleon",
+    "definition": "more",
+    "partOfSpeech": "adverb/comparative adjective (neuter of πλείων)",
+    "translations": {
+      "es": "más",
+      "pl": "więcej",
+      "fil": "higit pa"
+    }
+  },
+  {
+    "id": 43,
+    "part": "B",
+    "greek": "ψυχή, -ῆς, ἡ",
+    "transliteration": "psychē",
+    "definition": "soul, life",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "translations": {
+      "es": "alma, vida",
+      "pl": "dusza, życie",
+      "fil": "kaluluwa, buhay"
+    }
+  },
+  {
+    "id": 44,
+    "part": "B",
+    "greek": "ἁμαρτία, -ας, ἡ",
+    "transliteration": "hamartia",
+    "definition": "sin",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "translations": {
+      "es": "pecado",
+      "pl": "grzech",
+      "fil": "kasalanan"
+    }
+  },
+  {
+    "id": 45,
+    "part": "B",
+    "greek": "ἀδικία, -ας, ἡ",
+    "transliteration": "adikia",
+    "definition": "unrighteousness, injustice",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "translations": {
+      "es": "injusticia",
+      "pl": "niesprawiedliwość",
+      "fil": "kasamaan, hindi makatarungan"
+    }
+  },
+  {
+    "id": 46,
+    "part": "B",
+    "greek": "κοινωνία, -ας, ἡ",
+    "transliteration": "koinōnia",
+    "definition": "fellowship, communion",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "translations": {
+      "es": "comunión, compañerismo",
+      "pl": "wspólnota, komunia",
+      "fil": "pakikipag-ugnayan, komunyon"
+    }
+  },
+  {
+    "id": 47,
+    "part": "B",
+    "greek": "ἀνάστασις, -εως, ἡ",
+    "transliteration": "anastasis",
+    "definition": "resurrection",
+    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "translations": {
+      "es": "resurrección",
+      "pl": "zmartwychwstanie",
+      "fil": "muling pagkabuhay"
+    }
+  },
+  {
+    "id": 48,
+    "part": "B",
+    "greek": "αἰών, -ῶνος, ὁ",
+    "transliteration": "aiōn",
+    "definition": "age, eternity",
+    "partOfSpeech": "noun (masculine, 3rd decl.)",
+    "translations": {
+      "es": "era, eternidad",
+      "pl": "wiek, wieczność",
+      "fil": "panahon, kawalang-hanggan"
+    }
+  },
+  {
+    "id": 49,
+    "part": "B",
+    "greek": "κόσμος, -ου, ὁ",
+    "transliteration": "kosmos",
+    "definition": "world",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "translations": {
+      "es": "mundo",
+      "pl": "świat",
+      "fil": "mundo"
+    }
+  },
+  {
+    "id": 50,
+    "part": "B",
+    "greek": "χόρτος, -ου, ὁ",
+    "transliteration": "chortos",
+    "definition": "grass, fodder",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "translations": {
+      "es": "hierba, forraje",
+      "pl": "trawa, siano",
+      "fil": "damo, dayami"
+    }
+  },
+  {
+    "id": 51,
+    "part": "B",
+    "greek": "μισθωτός, -οῦ, ὁ",
+    "transliteration": "misthotos",
+    "definition": "hired worker, hireling",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "translations": {
+      "es": "jornalero, asalariado",
+      "pl": "robotnik najemny",
+      "fil": "manggagawa, bayad-araw"
+    }
+  },
+  {
+    "id": 52,
+    "part": "B",
+    "greek": "ποιμήν, -ένος, ὁ",
+    "transliteration": "poimēn",
+    "definition": "shepherd",
+    "partOfSpeech": "noun (masculine, 3rd decl.)",
+    "translations": {
+      "es": "pastor",
+      "pl": "pasterz",
+      "fil": "pastol"
+    }
+  },
+  {
+    "id": 53,
+    "part": "B",
+    "greek": "αἷμα, -ατος, τό",
+    "transliteration": "haima",
+    "definition": "blood",
+    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
+    "translations": {
+      "es": "sangre",
+      "pl": "krew",
+      "fil": "dugo"
+    }
+  },
+  {
+    "id": 54,
+    "part": "B",
+    "greek": "αἰώνιος, -α, -ον",
+    "transliteration": "aiōnios",
+    "definition": "eternal, everlasting",
+    "partOfSpeech": "adjective",
+    "translations": {
+      "es": "eterno, sempiterno",
+      "pl": "wieczny",
+      "fil": "walang hanggan"
+    }
+  },
+  {
+    "id": 55,
+    "part": "B",
+    "greek": "δίκαιος, -α, -ον",
+    "transliteration": "dikaios",
+    "definition": "righteous, just",
+    "partOfSpeech": "adjective",
+    "translations": {
+      "es": "justo, recto",
+      "pl": "sprawiedliwy",
+      "fil": "matuwid"
+    }
+  },
+  {
+    "id": 56,
+    "part": "B",
+    "greek": "νεκρός, -ά, -όν",
+    "transliteration": "nekros",
+    "definition": "dead",
+    "partOfSpeech": "adjective (also used as noun: the dead)",
+    "translations": {
+      "es": "muerto",
+      "pl": "martwy",
+      "fil": "patay"
+    }
+  },
+  {
+    "id": 57,
+    "part": "B",
+    "greek": "ἑαυτούς, -άς, -ά",
+    "transliteration": "heautous",
+    "definition": "ourselves, themselves",
+    "partOfSpeech": "reflexive pronoun (3rd person, no nominative)",
+    "translations": {
+      "es": "nosotros mismos, ellos mismos",
+      "pl": "my sami, oni sami",
+      "fil": "tayo mismo, sila mismo"
+    }
+  },
+  {
+    "id": 58,
+    "part": "B",
+    "greek": "τίθημι",
+    "transliteration": "tithēmi",
+    "definition": "I place, put; lay down (life)",
+    "partOfSpeech": "verb (μι-verb)",
+    "translations": {
+      "es": "yo pongo; doy la vida",
+      "pl": "kładę; oddaję życie",
+      "fil": "naglalagay; ibinibigay ang buhay"
+    }
+  },
+  {
+    "id": 59,
+    "part": "B",
+    "greek": "δίδωμι",
+    "transliteration": "didōmi",
+    "definition": "I give",
+    "partOfSpeech": "verb (μι-verb)",
+    "translations": {
+      "es": "yo doy",
+      "pl": "daję",
+      "fil": "nagbibigay"
+    }
+  },
+  {
+    "id": 60,
+    "part": "B",
+    "greek": "ἀφίημι",
+    "transliteration": "aphiēmi",
+    "definition": "I forgive, release, let go",
+    "partOfSpeech": "verb (μι-verb, compound of ἀπό + ἵημι)",
+    "translations": {
+      "es": "yo perdono, suelto",
+      "pl": "przebaczam, puszczam",
+      "fil": "nagpapatawad"
+    }
+  },
+  {
+    "id": 61,
+    "part": "B",
+    "greek": "δείκνυμι",
+    "transliteration": "deiknymi",
+    "definition": "I show, point out",
+    "partOfSpeech": "verb (μι-verb)",
+    "translations": {
+      "es": "yo muestro, señalo",
+      "pl": "pokazuję",
+      "fil": "nagpapakita"
+    }
+  },
+  {
+    "id": 62,
+    "part": "B",
+    "greek": "σῴζω",
+    "transliteration": "sōzō",
+    "definition": "I save, rescue",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "yo salvo, rescato",
+      "pl": "ratuję",
+      "fil": "nagliligtas"
+    }
+  },
+  {
+    "id": 63,
+    "part": "B",
+    "greek": "φεύγω",
+    "transliteration": "pheugō",
+    "definition": "I flee, escape",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "yo huyo, escapo",
+      "pl": "uciekam",
+      "fil": "tumakas, lumikas"
+    }
+  },
+  {
+    "id": 64,
+    "part": "B",
+    "greek": "ἁρπάζω",
+    "transliteration": "harpazō",
+    "definition": "I seize, snatch",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "yo agarro, arrebato",
+      "pl": "chwytam, porywam",
+      "fil": "sinasagit"
+    }
+  },
+  {
+    "id": 65,
+    "part": "B",
+    "greek": "σκορπίζω",
+    "transliteration": "skorpizō",
+    "definition": "I scatter",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "yo disperso",
+      "pl": "rozpraszam",
+      "fil": "nagkakalat"
+    }
+  },
+  {
+    "id": 66,
+    "part": "B",
+    "greek": "εἰσέρχομαι",
+    "transliteration": "eiserchomai",
+    "definition": "I enter, go in",
+    "partOfSpeech": "verb (mid. deponent, compound of εἰς + ἔρχομαι)",
+    "translations": {
+      "es": "yo entro",
+      "pl": "wchodzę",
+      "fil": "pumapasok"
+    }
+  },
+  {
+    "id": 67,
+    "part": "B",
+    "greek": "ὁμολογέω, -ῶ",
+    "transliteration": "homologeō",
+    "definition": "I confess, acknowledge",
+    "partOfSpeech": "verb (contract, -έω)",
+    "translations": {
+      "es": "yo confieso, reconozco",
+      "pl": "wyznaję, uznaję",
+      "fil": "nagtatapat, nagpapahayag"
+    }
+  },
+  {
+    "id": 68,
+    "part": "B",
+    "greek": "καθαρίζω",
+    "transliteration": "katharizō",
+    "definition": "I cleanse, purify",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "yo limpio, purifico",
+      "pl": "oczyszczam",
+      "fil": "naglilinis"
+    }
+  },
+  {
+    "id": 69,
+    "part": "B",
+    "greek": "πλανάω, -ῶ",
+    "transliteration": "planaō",
+    "definition": "I deceive, lead astray",
+    "partOfSpeech": "verb (contract, -άω)",
+    "translations": {
+      "es": "yo engaño",
+      "pl": "oszukuję, zwodzę",
+      "fil": "nandaraya"
+    }
+  },
+  {
+    "id": 70,
+    "part": "B",
+    "greek": "φαίνω",
+    "transliteration": "phainō",
+    "definition": "I shine, appear",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "yo brillo, aparezco",
+      "pl": "jaśnieję, ukazuję się",
+      "fil": "sumisinag, lumilitaw"
+    }
+  },
+  {
+    "id": 71,
+    "part": "B",
+    "greek": "φωτίζω",
+    "transliteration": "phōtizō",
+    "definition": "I enlighten, illuminate",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "yo ilumino",
+      "pl": "oświecam",
+      "fil": "nagliliwanag"
+    }
+  },
+  {
+    "id": 72,
+    "part": "B",
+    "greek": "ἀποθνῄσκω",
+    "transliteration": "apothnēskō",
+    "definition": "I die",
+    "partOfSpeech": "verb (compound of ἀπό + θνῄσκω)",
+    "translations": {
+      "es": "yo muero",
+      "pl": "umieram",
+      "fil": "namamatay"
+    }
+  },
+  {
+    "id": 73,
+    "part": "B",
+    "greek": "ζάω, -ῶ",
+    "transliteration": "zaō",
+    "definition": "I live",
+    "partOfSpeech": "verb (contract, -άω; irregular: ζῇ 3rd sg.)",
+    "translations": {
+      "es": "yo vivo",
+      "pl": "żyję",
+      "fil": "nabubuhay"
+    }
+  },
+  {
+    "id": 74,
+    "part": "B",
+    "greek": "ὑπέρ",
+    "transliteration": "hyper",
+    "definition": "on behalf of, for",
+    "partOfSpeech": "preposition (+ genitive)",
+    "translations": {
+      "es": "en favor de, por",
+      "pl": "za, dla",
+      "fil": "para sa"
+    }
+  },
+  {
+    "id": 75,
+    "part": "B",
+    "greek": "διότι",
+    "transliteration": "dioti",
+    "definition": "because, for (this reason)",
+    "partOfSpeech": "conjunction (causal)",
+    "translations": {
+      "es": "porque, por esta razón",
+      "pl": "ponieważ, bo",
+      "fil": "dahil, sapagkat"
+    }
+  },
+  {
+    "id": 76,
+    "part": "B",
+    "greek": "πάντοτε",
+    "transliteration": "pantote",
+    "definition": "always, at all times",
+    "partOfSpeech": "adverb",
+    "translations": {
+      "es": "siempre",
+      "pl": "zawsze",
+      "fil": "palagi, lagi"
+    }
+  },
+  {
+    "id": 77,
+    "part": "B",
+    "greek": "εἰς τὸν αἰῶνα",
+    "transliteration": "eis ton aiōna",
+    "definition": "forever, into the age",
+    "partOfSpeech": "adverbial phrase",
+    "translations": {
+      "es": "para siempre",
+      "pl": "na wieki",
+      "fil": "magpakailanman"
+    }
+  },
+  {
+    "id": 78,
+    "part": "B",
+    "greek": "παρά",
+    "transliteration": "para",
+    "definition": "beside, alongside",
+    "partOfSpeech": "preposition (+ acc. = beside; + gen. = from; + dat. = with)",
+    "translations": {
+      "es": "junto a, al lado de",
+      "pl": "obok, przy",
+      "fil": "sa tabi, katabi"
+    }
+  },
+  {
+    "id": 79,
+    "part": "B",
+    "greek": "ὡς",
+    "transliteration": "hōs",
+    "definition": "as, like (comparison)",
+    "partOfSpeech": "comparative conjunction/adverb",
+    "translations": {
+      "es": "como, igual que",
+      "pl": "jak, tak jak",
+      "fil": "tulad ng, gaya ng"
+    }
+  }
 ]

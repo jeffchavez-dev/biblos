@@ -8,7 +8,12 @@
       "scene": "Teaches: γυνή τις, ὑδρία, ἵνα ἀντλῇ — A certain woman arrives at the spring with a water jar to draw water.",
       "greekCaption": "γυνή τις ἔρχεται πρὸς τὴν πηγήν. ἔχει ὑδρίαν ἵνα ἀντλῇ τὸ ὕδωρ.",
       "englishCaption": "A certain woman comes to the spring. She has a water jar to draw water.",
-      "image": "story-images/ch5a/1.jpeg"
+      "image": "story-images/ch5a/1.jpeg",
+      "captionTranslations": {
+        "es": "Una mujer viene al manantial. Tiene un cántaro para sacar agua.",
+        "pl": "Pewna kobieta przychodzi do źródła. Ma dzban do czerpania wody.",
+        "fil": "May babaeng pumunta sa bukal. May tapayan siya para sa pagkuha ng tubig."
+      }
     },
     {
       "id": 2,
@@ -16,7 +21,12 @@
       "scene": "Teaches: ἄνερ (vocative), ἡμῖν, ὑμῖν — Jacob greets the woman and asks her to draw water for him and his donkey.",
       "greekCaption": "ὁ Ἰάκωβος λέγει, \"διψῶ σφόδρα. ἆρα δύνασαι ἀντλεῖν ὕδωρ ἡμῖν;\" ἡ δὲ γυνή, \"δύναμαι ἀντλεῖν ὕδωρ ὑμῖν.\"",
       "englishCaption": "Jacob says, \"I am very thirsty. Can you draw water for us?\" The woman says, \"I am able to draw water for you.\"",
-      "image": "story-images/ch5a/2.jpeg"
+      "image": "story-images/ch5a/2.jpeg",
+      "captionTranslations": {
+        "es": "Jacob dice: 'Tengo mucha sed. ¿Puedes sacar agua para nosotros?' La mujer dice: 'Puedo.'",
+        "pl": "Jakub mówi: «Jestem bardzo spragniony. Czy możesz czerpać dla nas wodę?» Kobieta mówi: «Mogę.»",
+        "fil": "Sinabi ni Jacob: 'Nauuhaw na ako nang husto. Makapagkukuha ka ba ng tubig para sa amin?' Sinabi ng babae: 'Kaya ko.'"
+      }
     },
     {
       "id": 3,
@@ -24,7 +34,12 @@
       "scene": "Teaches: ἀντλέω, ἵνα πίνῃ — The woman draws water and provides it so that Jacob and the donkey may drink.",
       "greekCaption": "ἡ γυνὴ ἀντλεῖ ὕδωρ καὶ παρέχει τῷ Ἰακώβῳ ἵνα πίνῃ. παρέχει καὶ τῷ ὄνῳ ἵνα καὶ αὐτὸς πίνῃ.",
       "englishCaption": "The woman draws water and provides it to Jacob so that he may drink. She gives to the donkey too so that he also may drink.",
-      "image": "story-images/ch5a/3.jpeg"
+      "image": "story-images/ch5a/3.jpeg",
+      "captionTranslations": {
+        "es": "La mujer saca agua y se la da a Jacob para que beba. Le da gracias.",
+        "pl": "Kobieta czerpie wodę i daje ją Jakubowi, aby pił. Dziękuje jej.",
+        "fil": "Kumukuha ang babae ng tubig at ibinibigay ito kay Jacob para uminom. Nagpapasalamat siya sa kanya."
+      }
     },
     {
       "id": 4,
@@ -32,7 +47,12 @@
       "scene": "Teaches: στόμα, ὄνομα exchange — Jacob and the woman exchange names. She is Salome.",
       "greekCaption": "ἡ γυνή, \"τί ὄνομά σοί ἐστιν;\" ὁ δέ, \"ὄνομά μοι Ἰάκωβος.\" ἡ δέ, \"τὸ ὄνομά μού ἐστιν Σαλώμη.\"",
       "englishCaption": "The woman: \"What is your name?\" He: \"My name is Jacob.\" She: \"My name is Salome.\"",
-      "image": "story-images/ch5a/4.jpeg"
+      "image": "story-images/ch5a/4.jpeg",
+      "captionTranslations": {
+        "es": "La mujer: '¿Cuál es tu nombre?' Él: 'Mi nombre es Jacob.' Ella: 'Mi nombre es Salomé.'",
+        "pl": "Kobieta: «Jak masz na imię?» On: «Moje imię to Jakub.» Ona: «Moje imię to Salome.»",
+        "fil": "Ang babae: 'Ano ang pangalan mo?' Siya: 'Jacob ang pangalan ko.' Siya: 'Salome ang pangalan ko.'"
+      }
     },
     {
       "id": 5,
@@ -40,7 +60,12 @@
       "scene": "Teaches: βρῶμα, πόμα, σῶμα, πνεῦμα — Jacob explains: bread and water feed the body, but there is also food and drink for the spirit.",
       "greekCaption": "ὁ ἄρτος ἐστὶν βρῶμα τοῦ σώματος. τὸ ὕδωρ ἐστὶν πόμα τοῦ σώματος. ἀλλὰ ἔστιν καὶ βρῶμα καὶ πόμα τοῦ πνεύματος.",
       "englishCaption": "Bread is food of the body. Water is drink of the body. But there is also food and drink of the spirit.",
-      "image": "story-images/ch5a/5.jpeg"
+      "image": "story-images/ch5a/5.jpeg",
+      "captionTranslations": {
+        "es": "El pan es alimento del cuerpo. El agua es bebida del cuerpo. Pero hay también alimento y bebida del espíritu.",
+        "pl": "Chleb jest pokarmem ciała. Woda jest napojem ciała. Ale jest też pokarm i napój ducha.",
+        "fil": "Ang tinapay ay pagkain ng katawan. Ang tubig ay inumin ng katawan. Ngunit may pagkain at inumin din para sa espiritu."
+      }
     },
     {
       "id": 6,
@@ -48,7 +73,12 @@
       "scene": "Teaches: προσκυνέω, ἀλήθεια, πνεῦμα — God is spirit, not like the sun or earth. We worship him in spirit and truth.",
       "greekCaption": "πνεῦμά ἐστιν ὁ θεός. ἡμεῖς προσκυνοῦμεν αὐτῷ ἐν τῷ πνεύματι καὶ τῇ ἀληθείᾳ.",
       "englishCaption": "God is spirit. We worship him in spirit and in truth.",
-      "image": "story-images/ch5a/6.jpeg"
+      "image": "story-images/ch5a/6.jpeg",
+      "captionTranslations": {
+        "es": "Dios es espíritu. Lo adoramos en espíritu y en verdad.",
+        "pl": "Bóg jest duchem. Wielbimy go w duchu i w prawdzie.",
+        "fil": "Ang Diyos ay espiritu. Sinasamba natin siya sa espiritu at katotohanan."
+      }
     },
     {
       "id": 7,
@@ -56,7 +86,12 @@
       "scene": "Teaches: πιστεύω, υἱός, χριστός, χριστιανός — Jacob confesses: Jesus is the Son of God, the Christ. He believes, loves, and follows Jesus.",
       "greekCaption": "ὁ Ἰάκωβος λέγει, \"ὁ Ἰησοῦς ἐστιν ὁ υἱὸς τοῦ θεοῦ καὶ ὁ χριστός. πιστεύω τῷ Ἰησοῦ καὶ ἀγαπῶ αὐτὸν καὶ ἀκολουθῶ αὐτῷ.\"",
       "englishCaption": "Jacob says, \"Jesus is the Son of God and the Christ. I believe in Jesus, love him, and follow him.\"",
-      "image": "story-images/ch5a/7.jpeg"
+      "image": "story-images/ch5a/7.jpeg",
+      "captionTranslations": {
+        "es": "Jacob dice: 'Jesús es el Hijo de Dios y el Cristo. Creo en Jesús, lo amo y lo sigo.'",
+        "pl": "Jakub mówi: «Jezus jest Synem Bożym i Chrystusem. Wierzę w Jezusa, kocham go i podążam za nim.»",
+        "fil": "Sinabi ni Jacob: 'Si Hesus ang Anak ng Diyos at ang Cristo. Naniniwala ako kay Hesus, minamahal ko siya at sumusunod ako sa kanya.'"
+      }
     },
     {
       "id": 8,
@@ -64,7 +99,12 @@
       "scene": "Teaches: ζωή, θάνατος, ὁδός — Jesus is the way, truth, and life. Two roads: one of life, one of death. Jesus is the way of life.",
       "greekCaption": "ὁ Ἰησοῦς ἐστιν ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ ζωή. ὁδοὶ δύο εἰσί, μία τῆς ζωῆς καὶ μία τοῦ θανάτου.",
       "englishCaption": "Jesus is the way and the truth and the life. There are two roads, one of life and one of death.",
-      "image": "story-images/ch5a/8.jpeg"
+      "image": "story-images/ch5a/8.jpeg",
+      "captionTranslations": {
+        "es": "Jesús es el camino, la verdad y la vida. Hay dos caminos, uno de vida y otro de muerte.",
+        "pl": "Jezus jest drogą, prawdą i życiem. Są dwie drogi, jedna życia i jedna śmierci.",
+        "fil": "Si Hesus ang daan, ang katotohanan, at ang buhay. May dalawang daan, isa ng buhay at isa ng kamatayan."
+      }
     },
     {
       "id": 9,
@@ -72,7 +112,12 @@
       "scene": "Teaches: ἄμπελος, κλῆμα, χωρίς — Jacob sees the vine near the spring. A branch in the vine bears fruit; apart from it, nothing.",
       "greekCaption": "βλέπει ἄμπελον ἐγγὺς τῆς πηγῆς. ἐὰν κλῆμα μένῃ ἐν τῇ ἀμπέλῳ, φέρει καρπόν. χωρὶς τῆς ἀμπέλου οὐδέν ἐστιν.",
       "englishCaption": "He sees a vine near the spring. If a branch remains in the vine it bears fruit. Without the vine it is nothing.",
-      "image": "story-images/ch5a/9.jpeg"
+      "image": "story-images/ch5a/9.jpeg",
+      "captionTranslations": {
+        "es": "Ve una vid cerca del manantial. Si una rama permanece en la vid da fruto.",
+        "pl": "Widzi winorośl blisko źródła. Jeśli gałąź pozostaje w winorośli, przynosi owoc.",
+        "fil": "Nakikita niya ang isang ubas malapit sa bukal. Kung ang sanga ay nananatili sa ubas nagbubunga ito."
+      }
     },
     {
       "id": 10,
@@ -80,7 +125,12 @@
       "scene": "Teaches: ἀληθινός, πατήρ, μένωμεν — Jesus is the true vine, the Father is the farmer, Christians are the branches. If we remain in him we bear fruit.",
       "greekCaption": "ὁ Ἰησοῦς ἐστιν ἡ ἄμπελος ἡ ἀληθινή. ὁ πατὴρ αὐτοῦ ἐστιν ὁ γεωργός. ἡμεῖς ἐσμὲν τὰ κλήματα.",
       "englishCaption": "Jesus is the true vine. His Father is the farmer. We are the branches.",
-      "image": "story-images/ch5a/10.jpeg"
+      "image": "story-images/ch5a/10.jpeg",
+      "captionTranslations": {
+        "es": "Jesús es la verdadera vid. Su Padre es el agricultor. Nosotros somos las ramas.",
+        "pl": "Jezus jest prawdziwą winoroślem. Jego Ojciec jest rolnikiem. My jesteśmy gałęziami.",
+        "fil": "Si Hesus ang tunay na ubas. Ang kanyang Ama ang magsasaka. Tayo ang mga sanga."
+      }
     },
     {
       "id": 11,
@@ -88,7 +138,12 @@
       "scene": "Teaches: ἀγάπη, ἀλλήλους, ὀφείλω — God is love. We ought to love one another. Perfect love casts out fear.",
       "greekCaption": "ὁ θεὸς ἀγάπη ἐστίν. ὀφείλομεν ἀγαπᾶν ἀλλήλους. ἡ τελεία ἀγάπη ἔξω βάλλει τὸν φόβον.",
       "englishCaption": "God is love. We ought to love one another. Perfect love casts out fear.",
-      "image": "story-images/ch5a/11.jpeg"
+      "image": "story-images/ch5a/11.jpeg",
+      "captionTranslations": {
+        "es": "Dios es amor. Debemos amarnos unos a otros. El amor perfecto expulsa el miedo.",
+        "pl": "Bóg jest miłością. Powinniśmy kochać jeden drugiego. Doskonała miłość wypędza strach.",
+        "fil": "Ang Diyos ay pag-ibig. Dapat tayong magmahal sa isa't isa. Tinatanggal ng perpektong pag-ibig ang takot."
+      }
     },
     {
       "id": 12,
@@ -96,7 +151,12 @@
       "scene": "Teaches: ἐντολή, θέλημα, φίλος vs. δοῦλος, κύριος — The commandment: love one another. Jesus calls us friends, not servants.",
       "greekCaption": "αὕτη ἐστὶν ἡ ἐντολή· ἵνα ἀγαπῶμεν ἀλλήλους. ὁ Ἰησοῦς καλεῖ ἡμᾶς φίλους, οὐ δούλους.",
       "englishCaption": "This is the commandment: that we love one another. Jesus calls us friends, not servants.",
-      "image": "story-images/ch5a/12.jpeg"
+      "image": "story-images/ch5a/12.jpeg",
+      "captionTranslations": {
+        "es": "Este es el mandamiento: que nos amemos unos a otros. Jesús nos llama amigos, no siervos.",
+        "pl": "To jest przykazanie: abyśmy miłowali jeden drugiego. Jezus nazywa nas przyjaciółmi, nie sługami.",
+        "fil": "Ito ang utos: na mahalin natin ang isa't isa. Tinatawag tayo ni Hesus na mga kaibigan, hindi mga lingkod."
+      }
     },
     {
       "id": 13,
@@ -104,7 +164,12 @@
       "scene": "Teaches: σιγάω, ῥήματα, πλέον — Salome is silent but her heart is stirred. She wants to know more.",
       "greekCaption": "ἡ Σαλώμη σιγᾷ τῷ στόματι· ἀλλὰ τὰ ῥήματα τοῦ Ἰακώβου ἐγείρει τὴν καρδίαν αὐτῆς. βούλεται γινώσκειν πλέον.",
       "englishCaption": "Salome is silent with her mouth; but Jacob's words stir her heart. She wants to know more.",
-      "image": "story-images/ch5a/13.jpeg"
+      "image": "story-images/ch5a/13.jpeg",
+      "captionTranslations": {
+        "es": "Salomé está callada de boca; pero las palabras de Jacob agitan su corazón. Quiere escuchar más.",
+        "pl": "Salome milczy ustami; ale słowa Jakuba poruszają jej serce. Chce słuchać więcej.",
+        "fil": "Tumatahimik ang bibig ni Salome; ngunit gumagalaw ang kanyang puso sa mga salita ni Jacob. Gusto niyang makinig pa."
+      }
     },
     {
       "id": 14,
@@ -112,7 +177,12 @@
       "scene": "Teaches: τίς ἐστιν οὗτος, πλέον — Salome finally speaks: who is this Jesus? She wants to know more.",
       "greekCaption": "ἡ Σαλώμη λέγει, \"τίς ἐστιν οὗτος ὁ Ἰησοῦς; βούλομαι γινώσκειν πλέον.\"",
       "englishCaption": "Salome says, \"Who is this Jesus? I want to know more.\"",
-      "image": "story-images/ch5b/1.jpeg"
+      "image": "story-images/ch5b/1.jpeg",
+      "captionTranslations": {
+        "es": "Salomé dice: '¿Quién es este Jesús? Quiero saber más.'",
+        "pl": "Salome mówi: «Kim jest ten Jezus? Chcę wiedzieć więcej.»",
+        "fil": "Sinabi ni Salome: 'Sino ang Hesus na ito? Gusto ko pang malaman.'"
+      }
     },
     {
       "id": 15,
@@ -120,7 +190,12 @@
       "scene": "Teaches: εἰς τὸν αἰῶνα, ποτε οὐ πεινᾷ οὐδὲ διψᾷ — Whoever believes in Jesus will no longer hunger or thirst forever.",
       "greekCaption": "ὅστις πιστεύει τῷ Ἰησοῦ οὐκέτι πεινᾷ οὐδὲ διψᾷ εἰς τὸν αἰῶνα.",
       "englishCaption": "Whoever believes in Jesus will no longer be hungry nor thirsty forever.",
-      "image": "story-images/ch5b/2.jpeg"
+      "image": "story-images/ch5b/2.jpeg",
+      "captionTranslations": {
+        "es": "Quien cree en Jesús ya no tendrá hambre ni sed para siempre.",
+        "pl": "Kto wierzy w Jezusa, nie będzie już głodny ani spragniony na wieki.",
+        "fil": "Ang naniniwala kay Hesus ay hindi na magugutom o mauuhaw magpakailanman."
+      }
     },
     {
       "id": 16,
@@ -128,7 +203,12 @@
       "scene": "Teaches: ποιμήν, χόρτος, ψυχή, ἀκολουθέω — Jacob sees the shepherd and sheep. The sheep eat grass and follow the shepherd.",
       "greekCaption": "ὁ ποιμὴν ἄγει τὰ πρόβατα. τὰ πρόβατα ἀκολουθεῖ αὐτῷ καὶ ἐσθίει τὸν χόρτον.",
       "englishCaption": "The shepherd leads the sheep. The sheep follow him and eat the grass.",
-      "image": "story-images/ch5b/3.jpeg"
+      "image": "story-images/ch5b/3.jpeg",
+      "captionTranslations": {
+        "es": "El pastor guía a las ovejas. Las ovejas lo siguen y comen la hierba.",
+        "pl": "Pasterz prowadzi owce. Owce podążają za nim i jedzą trawę.",
+        "fil": "Inaaakay ng pastol ang mga tupa. Sumusunod ang mga tupa sa kanya at kumakain ng damo."
+      }
     },
     {
       "id": 17,
@@ -136,7 +216,12 @@
       "scene": "Teaches: ὁ ποιμὴν ὁ καλός, τίθησιν ψυχήν, ὑπέρ, σῴζω — The good shepherd lays down his life for the sheep. He stays when the wolf comes and saves them.",
       "greekCaption": "ὁ καλὸς ποιμὴν τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν προβάτων. οὐ φεύγει ὅταν ὁ λύκος ἔρχηται· σῴζει αὐτά.",
       "englishCaption": "The good shepherd lays down his life for the sheep. He does not flee when the wolf comes; he saves them.",
-      "image": "story-images/ch5b/4.jpeg"
+      "image": "story-images/ch5b/4.jpeg",
+      "captionTranslations": {
+        "es": "El buen pastor da su vida por las ovejas. No huye cuando ve al lobo.",
+        "pl": "Dobry pasterz oddaje swoje życie za owce. Nie ucieka, gdy widzi wilka.",
+        "fil": "Ibinibigay ng mabuting pastol ang kanyang buhay para sa mga tupa. Hindi siya tumakas kapag nakita niya ang lobo."
+      }
     },
     {
       "id": 18,
@@ -144,7 +229,12 @@
       "scene": "Teaches: μισθωτός, φεύγω, ἁρπάζω, σκορπίζω — The hireling flees when the wolf comes. The wolf seizes and scatters the sheep.",
       "greekCaption": "ὁ μισθωτὸς βλέπει τὸν λύκον καὶ φεύγει. ὁ οὖν λύκος ἁρπάζει τὰ πρόβατα καὶ σκορπίζει.",
       "englishCaption": "The hireling sees the wolf and flees. The wolf seizes the sheep and scatters them.",
-      "image": "story-images/ch5b/5.jpeg"
+      "image": "story-images/ch5b/5.jpeg",
+      "captionTranslations": {
+        "es": "El jornalero ve al lobo y huye. El lobo agarra a las ovejas y las dispersa.",
+        "pl": "Najemnik widzi wilka i ucieka. Wilk chwyta owce i rozprasza je.",
+        "fil": "Nakikita ng manggagawa ang lobo at tumakas siya. Sinasagit ng lobo ang mga tupa at kinakalat ang mga ito."
+      }
     },
     {
       "id": 19,
@@ -152,7 +242,12 @@
       "scene": "Teaches: θύρα, εἰσέρχομαι, ζωὴ αἰώνιος, σῴζω — Jesus is also the door of the sheep. Whoever enters through him is saved and has eternal life.",
       "greekCaption": "ὁ Ἰησοῦς ἐστιν ἡ θύρα τῶν προβάτων. ὅστις εἰσέρχεται διὰ τοῦ Ἰησοῦ, ὁ Ἰησοῦς σῴζει. ἔχει ζωὴν αἰώνιον.",
       "englishCaption": "Jesus is the door of the sheep. Whoever enters through Jesus, Jesus saves. He has eternal life.",
-      "image": "story-images/ch5b/6.jpeg"
+      "image": "story-images/ch5b/6.jpeg",
+      "captionTranslations": {
+        "es": "Jesús es la puerta de las ovejas. Quien entra por Jesús, Jesús lo salva. Tiene vida.",
+        "pl": "Jezus jest drzwiami owiec. Kto wchodzi przez Jezusa, Jezus go zbawia. Ma życie.",
+        "fil": "Si Hesus ang pintuan ng mga tupa. Ang sinumang pumapasok sa pamamagitan ni Hesus ay nililigtas ni Hesus. Mayroon siyang buhay."
+      }
     },
     {
       "id": 20,
@@ -160,7 +255,12 @@
       "scene": "Teaches: ἁμαρτία, ὁμολογέω, ἀφίησιν, καθαρίζω, αἷμα — All people have sins. If we confess, God forgives and cleanses. The blood of Jesus cleanses from all sin.",
       "greekCaption": "ἐὰν ὁμολογῶμεν τὰς ἁμαρτίας ἡμῶν, ὁ θεὸς ἀφίησιν ἡμῖν. τὸ αἷμα Ἰησοῦ καθαρίζει ἡμᾶς ἀπὸ πάσης ἁμαρτίας.",
       "englishCaption": "If we confess our sins, God forgives us. The blood of Jesus cleanses us from all sin.",
-      "image": "story-images/ch5b/7.jpeg"
+      "image": "story-images/ch5b/7.jpeg",
+      "captionTranslations": {
+        "es": "Si confesamos nuestros pecados, Dios nos perdona. La sangre de Jesús nos limpia de todo pecado.",
+        "pl": "Jeśli wyznajemy nasze grzechy, Bóg nam przebacza. Krew Jezusa oczyszcza nas z wszelkiego grzechu.",
+        "fil": "Kung ipinagtapat natin ang ating mga kasalanan, pinapatawad tayo ng Diyos. Nililinis tayo ng dugo ni Hesus mula sa lahat ng kasalanan."
+      }
     },
     {
       "id": 21,
@@ -168,7 +268,12 @@
       "scene": "Teaches: κόσμος, σκοτία, φαίνω, φωτίζω, κοινωνία — Jesus is the light of the world. He shines in darkness and enlightens all. Walking in the light means fellowship with God and one another.",
       "greekCaption": "ὁ Ἰησοῦς ἐστιν τὸ φῶς τοῦ κόσμου. τὸ φῶς φαίνει ἐν τῇ σκοτίᾳ καὶ φωτίζει πάντα ἄνθρωπον. ἐν τῷ φωτὶ ἔχομεν κοινωνίαν.",
       "englishCaption": "Jesus is the light of the world. The light shines in the darkness and enlightens every person. In the light we have fellowship.",
-      "image": "story-images/ch5b/8.jpeg"
+      "image": "story-images/ch5b/8.jpeg",
+      "captionTranslations": {
+        "es": "Jesús es la luz del mundo. La luz brilla en la oscuridad e ilumina a todos.",
+        "pl": "Jezus jest światłością świata. Światło świeci w ciemności i oświeca wszystkich.",
+        "fil": "Si Hesus ang liwanag ng mundo. Sumisinag ang liwanag sa kadiliman at nagliliwanag sa lahat."
+      }
     },
     {
       "id": 22,
@@ -176,7 +281,12 @@
       "scene": "Teaches: ἀνάστασις, ζάω, δίδωμι, ἀποθνῄσκω — Jesus is the resurrection and the life. God gives his Son so that whoever believes may not die but have eternal life.",
       "greekCaption": "ὁ Ἰησοῦς ἐστιν ἡ ἀνάστασις καὶ ἡ ζωή. ὁ θεὸς δίδωσιν τὸν υἱὸν αὐτοῦ ἵνα ὅστις πιστεύῃ μὴ ἀποθνῄσκῃ ἀλλὰ ἔχῃ ζωὴν αἰώνιον.",
       "englishCaption": "Jesus is the resurrection and the life. God gives his Son so that whoever believes may not die but have eternal life.",
-      "image": "story-images/ch5b/9.jpeg"
+      "image": "story-images/ch5b/9.jpeg",
+      "captionTranslations": {
+        "es": "Jesús es la resurrección y la vida. Dios da a su Hijo para que quien crea en Él tenga vida eterna.",
+        "pl": "Jezus jest zmartwychwstaniem i życiem. Bóg daje swojego Syna, aby kto wierzy w Niego, miał życie wieczne.",
+        "fil": "Si Hesus ang muling pagkabuhay at ang buhay. Ibinibigay ng Diyos ang kanyang Anak upang ang naniniwala sa Kanya ay magkaroon ng buhay na walang hanggan."
+      }
     },
     {
       "id": 23,
@@ -184,7 +294,12 @@
       "scene": "Teaches: παρά, ὕδωρ τῆς ζωῆς — Evening comes. Salome's jar sits beside the spring full of water. But she thinks about the water of life, not the jar.",
       "greekCaption": "ἡ ὑδρία αὐτῆς ἔτι ἐστὶν παρὰ τὴν πηγήν. ἀλλὰ ἡ Σαλώμη μεριμνᾷ περὶ τοῦ ὕδατος τῆς ζωῆς.",
       "englishCaption": "Her jar is still beside the spring. But Salome thinks about the water of life.",
-      "image": "story-images/ch5b/10.jpeg"
+      "image": "story-images/ch5b/10.jpeg",
+      "captionTranslations": {
+        "es": "Su cántaro aún está junto al manantial. Pero Salomé piensa en el agua de vida.",
+        "pl": "Jej dzban wciąż jest przy źródle. Ale Salome myśli o wodzie życia.",
+        "fil": "Nandoon pa rin ang kanyang tapayan malapit sa bukal. Ngunit nag-iisip si Salome sa tubig ng buhay."
+      }
     }
   ]
 }

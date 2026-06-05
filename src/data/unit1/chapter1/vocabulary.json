@@ -5,7 +5,11 @@
     "greek": "ἄνθρωπος, -ου, ὁ",
     "transliteration": "anthrōpos",
     "definition": "human being, person",
-    "translations": { "es": "ser humano, persona", "pl": "człowiek, osoba" },
+    "translations": {
+      "es": "ser humano, persona",
+      "pl": "człowiek, osoba",
+      "fil": "tao, nilalang"
+    },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-anthropos.jpeg"
   },
@@ -15,7 +19,11 @@
     "greek": "γεωργός, -οῦ, ὁ",
     "transliteration": "geōrgos",
     "definition": "farmer",
-    "translations": { "es": "agricultor, campesino", "pl": "rolnik, farmer" },
+    "translations": {
+      "es": "agricultor, campesino",
+      "pl": "rolnik, farmer",
+      "fil": "magsasaka"
+    },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-georgos.jpeg"
   },
@@ -25,7 +33,11 @@
     "greek": "οἶκος, -ου, ὁ",
     "transliteration": "oikos",
     "definition": "house",
-    "translations": { "es": "casa", "pl": "dom" },
+    "translations": {
+      "es": "casa",
+      "pl": "dom",
+      "fil": "bahay"
+    },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-oikos.jpeg"
   },
@@ -35,7 +47,11 @@
     "greek": "ἀγρός, -οῦ, ὁ",
     "transliteration": "agros",
     "definition": "field",
-    "translations": { "es": "campo", "pl": "pole, rola" },
+    "translations": {
+      "es": "campo",
+      "pl": "pole, rola",
+      "fil": "bukid, taniman"
+    },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-agros.jpeg"
   },
@@ -45,7 +61,11 @@
     "greek": "οὐρανός, -οῦ, ὁ",
     "transliteration": "ouranos",
     "definition": "sky, heaven",
-    "translations": { "es": "cielo", "pl": "niebo" },
+    "translations": {
+      "es": "cielo",
+      "pl": "niebo",
+      "fil": "langit, kalangitan"
+    },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-ouranos.jpeg"
   },
@@ -55,7 +75,11 @@
     "greek": "ἥλιος, -ου, ὁ",
     "transliteration": "hēlios",
     "definition": "sun",
-    "translations": { "es": "sol", "pl": "słońce" },
+    "translations": {
+      "es": "sol",
+      "pl": "słońce",
+      "fil": "araw"
+    },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-helios.jpeg"
   },
@@ -65,7 +89,11 @@
     "greek": "ποταμός, -οῦ, ὁ",
     "transliteration": "potamos",
     "definition": "river",
-    "translations": { "es": "río", "pl": "rzeka" },
+    "translations": {
+      "es": "río",
+      "pl": "rzeka",
+      "fil": "ilog"
+    },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-potamos.jpeg"
   },
@@ -75,7 +103,11 @@
     "greek": "ἄρτος, -ου, ὁ",
     "transliteration": "artos",
     "definition": "bread",
-    "translations": { "es": "pan", "pl": "chleb" },
+    "translations": {
+      "es": "pan",
+      "pl": "chleb",
+      "fil": "tinapay"
+    },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-artos.jpeg"
   },
@@ -85,7 +117,11 @@
     "greek": "καρπός, -οῦ, ὁ",
     "transliteration": "karpos",
     "definition": "fruit, produce",
-    "translations": { "es": "fruto, producto", "pl": "owoc, plony" },
+    "translations": {
+      "es": "fruto, producto",
+      "pl": "owoc, plony",
+      "fil": "bunga, ani"
+    },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-karpos.jpeg"
   },
@@ -95,7 +131,11 @@
     "greek": "λίθος, -ου, ὁ",
     "transliteration": "lithos",
     "definition": "stone",
-    "translations": { "es": "piedra", "pl": "kamień" },
+    "translations": {
+      "es": "piedra",
+      "pl": "kamień",
+      "fil": "bato"
+    },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-lithos.jpeg"
   },
@@ -105,7 +145,11 @@
     "greek": "θεός, -οῦ, ὁ",
     "transliteration": "theos",
     "definition": "god, God",
-    "translations": { "es": "dios, Dios", "pl": "bóg, Bóg" },
+    "translations": {
+      "es": "dios, Dios",
+      "pl": "bóg, Bóg",
+      "fil": "diyos, Diyos"
+    },
     "partOfSpeech": "noun (masculine, 2nd decl.)"
   },
   {
@@ -114,7 +158,11 @@
     "greek": "ἀγαθός, -ή, -όν",
     "transliteration": "agathos",
     "definition": "good",
-    "translations": { "es": "bueno", "pl": "dobry" },
+    "translations": {
+      "es": "bueno",
+      "pl": "dobry",
+      "fil": "mabuti"
+    },
     "partOfSpeech": "adjective",
     "image": "c1-agathos.jpeg"
   },
@@ -124,7 +172,11 @@
     "greek": "ἰσχυρός, -ά, -όν",
     "transliteration": "ischyros",
     "definition": "strong",
-    "translations": { "es": "fuerte", "pl": "silny" },
+    "translations": {
+      "es": "fuerte",
+      "pl": "silny",
+      "fil": "malakas"
+    },
     "partOfSpeech": "adjective",
     "image": "c1-ischyros.jpeg"
   },
@@ -134,7 +186,11 @@
     "greek": "μικρός, -ά, -όν",
     "transliteration": "mikros",
     "definition": "small",
-    "translations": { "es": "pequeño", "pl": "mały" },
+    "translations": {
+      "es": "pequeño",
+      "pl": "mały",
+      "fil": "maliit"
+    },
     "partOfSpeech": "adjective",
     "image": "c1-mikros.jpeg"
   },
@@ -144,7 +200,11 @@
     "greek": "μέγας, μεγάλη, μέγα",
     "transliteration": "megas",
     "definition": "great, large",
-    "translations": { "es": "grande", "pl": "wielki, duży" },
+    "translations": {
+      "es": "grande",
+      "pl": "wielki, duży",
+      "fil": "dakila, malaki"
+    },
     "partOfSpeech": "adjective (irregular)",
     "image": "c1-megas.jpeg"
   },
@@ -154,7 +214,11 @@
     "greek": "καλός, -ή, -όν",
     "transliteration": "kalos",
     "definition": "beautiful, good",
-    "translations": { "es": "hermoso, bueno", "pl": "piękny, dobry" },
+    "translations": {
+      "es": "hermoso, bueno",
+      "pl": "piękny, dobry",
+      "fil": "maganda, mabuti"
+    },
     "partOfSpeech": "adjective",
     "image": "c1-kalos.jpeg"
   },
@@ -164,7 +228,11 @@
     "greek": "πιστός, -ή, -όν",
     "transliteration": "pistos",
     "definition": "faithful",
-    "translations": { "es": "fiel", "pl": "wierny" },
+    "translations": {
+      "es": "fiel",
+      "pl": "wierny",
+      "fil": "tapat, mapagkakatiwalaan"
+    },
     "partOfSpeech": "adjective"
   },
   {
@@ -173,7 +241,11 @@
     "greek": "εἰμί",
     "transliteration": "eimi",
     "definition": "I am",
-    "translations": { "es": "yo soy", "pl": "jestem" },
+    "translations": {
+      "es": "yo soy",
+      "pl": "jestem",
+      "fil": "ako ay"
+    },
     "partOfSpeech": "verb (irregular)"
   },
   {
@@ -182,7 +254,11 @@
     "greek": "λάμπω",
     "transliteration": "lampō",
     "definition": "I shine",
-    "translations": { "es": "yo brillo", "pl": "świecę, jaśnieję" },
+    "translations": {
+      "es": "yo brillo",
+      "pl": "świecę, jaśnieję",
+      "fil": "sumisinag ako"
+    },
     "partOfSpeech": "verb",
     "image": "c1-lampo.jpeg"
   },
@@ -192,7 +268,11 @@
     "greek": "ῥέω",
     "transliteration": "rheō",
     "definition": "I flow",
-    "translations": { "es": "yo fluyo", "pl": "płynę" },
+    "translations": {
+      "es": "yo fluyo",
+      "pl": "płynę",
+      "fil": "umaagos ako"
+    },
     "partOfSpeech": "verb",
     "image": "c1-rheo.jpeg"
   },
@@ -202,7 +282,11 @@
     "greek": "λαμβάνω",
     "transliteration": "lambanō",
     "definition": "I take, receive",
-    "translations": { "es": "yo tomo, recibo", "pl": "biorę, przyjmuję" },
+    "translations": {
+      "es": "yo tomo, recibo",
+      "pl": "biorę, przyjmuję",
+      "fil": "kumuha ako, tumatanggap ako"
+    },
     "partOfSpeech": "verb",
     "image": "c1-lambano.jpeg"
   },
@@ -212,7 +296,11 @@
     "greek": "ἐσθίω",
     "transliteration": "esthiō",
     "definition": "I eat",
-    "translations": { "es": "yo como", "pl": "jem" },
+    "translations": {
+      "es": "yo como",
+      "pl": "jem",
+      "fil": "kumakain ako"
+    },
     "partOfSpeech": "verb",
     "image": "c1-esthio.jpeg"
   },
@@ -222,7 +310,11 @@
     "greek": "χαίρω",
     "transliteration": "chairō",
     "definition": "I rejoice",
-    "translations": { "es": "yo me alegro", "pl": "raduję się, cieszę się" },
+    "translations": {
+      "es": "yo me alegro",
+      "pl": "raduję się, cieszę się",
+      "fil": "nagagalak ako"
+    },
     "partOfSpeech": "verb",
     "image": "c1-chairo.jpeg"
   },
@@ -232,7 +324,11 @@
     "greek": "ἔχω",
     "transliteration": "echō",
     "definition": "I have",
-    "translations": { "es": "yo tengo", "pl": "mam" },
+    "translations": {
+      "es": "yo tengo",
+      "pl": "mam",
+      "fil": "mayroon ako"
+    },
     "partOfSpeech": "verb",
     "image": "c1-echo.jpeg"
   },
@@ -242,7 +338,11 @@
     "greek": "βλέπω",
     "transliteration": "blepō",
     "definition": "I see, look at",
-    "translations": { "es": "yo veo, miro", "pl": "widzę, patrzę" },
+    "translations": {
+      "es": "yo veo, miro",
+      "pl": "widzę, patrzę",
+      "fil": "nakikita ko, tinitingnan ko"
+    },
     "partOfSpeech": "verb",
     "image": "c1-blepo.jpeg"
   },
@@ -252,7 +352,11 @@
     "greek": "φιλέω, φιλῶ",
     "transliteration": "phileō",
     "definition": "I love",
-    "translations": { "es": "yo amo", "pl": "kocham, miłuję" },
+    "translations": {
+      "es": "yo amo",
+      "pl": "kocham, miłuję",
+      "fil": "minamahal ko"
+    },
     "partOfSpeech": "verb (contract, -έω)",
     "image": "c1-phileo.jpeg"
   },
@@ -262,7 +366,11 @@
     "greek": "σκάπτω",
     "transliteration": "skaptō",
     "definition": "I dig",
-    "translations": { "es": "yo cavo", "pl": "kopię" },
+    "translations": {
+      "es": "yo cavo",
+      "pl": "kopię",
+      "fil": "humuhukay ako"
+    },
     "partOfSpeech": "verb",
     "image": "c1-skapto.jpeg"
   },
@@ -272,7 +380,11 @@
     "greek": "αἴρω",
     "transliteration": "airō",
     "definition": "I lift, take up",
-    "translations": { "es": "yo levanto", "pl": "podnoszę" },
+    "translations": {
+      "es": "yo levanto",
+      "pl": "podnoszę",
+      "fil": "itinaas ko, kinukuha ko"
+    },
     "partOfSpeech": "verb",
     "image": "c1-airo.jpeg"
   },
@@ -282,7 +394,11 @@
     "greek": "φέρω",
     "transliteration": "pherō",
     "definition": "I carry, bear",
-    "translations": { "es": "yo llevo, cargo", "pl": "niosę, noszę" },
+    "translations": {
+      "es": "yo llevo, cargo",
+      "pl": "niosę, noszę",
+      "fil": "dinadala ko"
+    },
     "partOfSpeech": "verb",
     "image": "c1-phero.jpeg"
   },
@@ -292,7 +408,11 @@
     "greek": "λέγω",
     "transliteration": "legō",
     "definition": "I say, speak",
-    "translations": { "es": "yo digo, hablo", "pl": "mówię, powiadam" },
+    "translations": {
+      "es": "yo digo, hablo",
+      "pl": "mówię, powiadam",
+      "fil": "sinasabi ko, nagsasalita ako"
+    },
     "partOfSpeech": "verb",
     "image": "c1-lego.jpeg"
   },
@@ -302,7 +422,11 @@
     "greek": "μέν … δέ",
     "transliteration": "men … de",
     "definition": "on the one hand … on the other",
-    "translations": { "es": "por un lado … por el otro", "pl": "z jednej strony … z drugiej" },
+    "translations": {
+      "es": "por un lado … por el otro",
+      "pl": "z jednej strony … z drugiej",
+      "fil": "sa isang banda … sa kabilang banda"
+    },
     "partOfSpeech": "particles (contrast pair)"
   },
   {
@@ -311,7 +435,11 @@
     "greek": "οὖν",
     "transliteration": "oun",
     "definition": "therefore, so",
-    "translations": { "es": "por lo tanto, así que", "pl": "zatem, więc" },
+    "translations": {
+      "es": "por lo tanto, así que",
+      "pl": "zatem, więc",
+      "fil": "kaya, samakatuwid"
+    },
     "partOfSpeech": "particle (postpositive)"
   },
   {
@@ -320,7 +448,11 @@
     "greek": "γάρ",
     "transliteration": "gar",
     "definition": "for, because",
-    "translations": { "es": "pues, porque", "pl": "bowiem, bo" },
+    "translations": {
+      "es": "pues, porque",
+      "pl": "bowiem, bo",
+      "fil": "sapagkat, dahil"
+    },
     "partOfSpeech": "particle (postpositive)"
   },
   {
@@ -329,7 +461,11 @@
     "greek": "καί",
     "transliteration": "kai",
     "definition": "and, also, even",
-    "translations": { "es": "y, también, incluso", "pl": "i, też, nawet" },
+    "translations": {
+      "es": "y, también, incluso",
+      "pl": "i, też, nawet",
+      "fil": "at, din, maging"
+    },
     "partOfSpeech": "conjunction"
   },
   {
@@ -338,7 +474,11 @@
     "greek": "ἀλλά",
     "transliteration": "alla",
     "definition": "but",
-    "translations": { "es": "pero, sino", "pl": "ale, lecz" },
+    "translations": {
+      "es": "pero, sino",
+      "pl": "ale, lecz",
+      "fil": "ngunit, kundi"
+    },
     "partOfSpeech": "conjunction"
   },
   {
@@ -347,7 +487,11 @@
     "greek": "οὐ / οὐκ",
     "transliteration": "ou / ouk",
     "definition": "not",
-    "translations": { "es": "no", "pl": "nie" },
+    "translations": {
+      "es": "no",
+      "pl": "nie",
+      "fil": "hindi"
+    },
     "partOfSpeech": "negative particle"
   },
   {
@@ -356,7 +500,11 @@
     "greek": "πόνος, -ου, ὁ",
     "transliteration": "ponos",
     "definition": "labor, toil, pain",
-    "translations": { "es": "trabajo, fatiga, dolor", "pl": "trud, praca, ból" },
+    "translations": {
+      "es": "trabajo, fatiga, dolor",
+      "pl": "trud, praca, ból",
+      "fil": "pagsisikap, pagod, sakit"
+    },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1b-ponos.jpeg"
   },
@@ -366,7 +514,11 @@
     "greek": "βίος, -ου, ὁ",
     "transliteration": "bios",
     "definition": "life, livelihood",
-    "translations": { "es": "vida, sustento", "pl": "życie, utrzymanie" },
+    "translations": {
+      "es": "vida, sustento",
+      "pl": "życie, utrzymanie",
+      "fil": "buhay, kabuhayan"
+    },
     "partOfSpeech": "noun (masculine, 2nd decl.)"
   },
   {
@@ -375,7 +527,11 @@
     "greek": "χόρτος, -ου, ὁ",
     "transliteration": "chortos",
     "definition": "grass, hay",
-    "translations": { "es": "hierba, heno", "pl": "trawa, siano" },
+    "translations": {
+      "es": "hierba, heno",
+      "pl": "trawa, siano",
+      "fil": "damo, dayami"
+    },
     "partOfSpeech": "noun (masculine, 2nd decl.)"
   },
   {
@@ -384,7 +540,11 @@
     "greek": "χαλεπός, -ή, -όν",
     "transliteration": "chalepos",
     "definition": "hard, difficult",
-    "translations": { "es": "difícil, duro", "pl": "trudny, ciężki" },
+    "translations": {
+      "es": "difícil, duro",
+      "pl": "trudny, ciężki",
+      "fil": "mahirap, mabigat"
+    },
     "partOfSpeech": "adjective",
     "image": "c1b-chalepos.jpeg"
   },
@@ -394,7 +554,11 @@
     "greek": "ῥᾴδιος, -α, -ον",
     "transliteration": "rhadios",
     "definition": "easy",
-    "translations": { "es": "fácil", "pl": "łatwy" },
+    "translations": {
+      "es": "fácil",
+      "pl": "łatwy",
+      "fil": "madali"
+    },
     "partOfSpeech": "adjective"
   },
   {
@@ -403,7 +567,11 @@
     "greek": "καθίζω",
     "transliteration": "kathizō",
     "definition": "I sit, sit down",
-    "translations": { "es": "yo me siento", "pl": "siadam" },
+    "translations": {
+      "es": "yo me siento",
+      "pl": "siadam",
+      "fil": "nakaupo ako"
+    },
     "partOfSpeech": "verb",
     "image": "c1b-kathizō.jpeg"
   },
@@ -413,7 +581,11 @@
     "greek": "μένω",
     "transliteration": "menō",
     "definition": "I remain, stay",
-    "translations": { "es": "yo permanezco, me quedo", "pl": "pozostaję, zostaję" },
+    "translations": {
+      "es": "yo permanezco, me quedo",
+      "pl": "pozostaję, zostaję",
+      "fil": "nananatili ako"
+    },
     "partOfSpeech": "verb",
     "image": "c1b-menō.jpeg"
   },
@@ -423,7 +595,11 @@
     "greek": "ἐκβαίνω",
     "transliteration": "ekbainō",
     "definition": "I go out",
-    "translations": { "es": "yo salgo", "pl": "wychodzę" },
+    "translations": {
+      "es": "yo salgo",
+      "pl": "wychodzę",
+      "fil": "lumalabas ako"
+    },
     "partOfSpeech": "verb",
     "image": "c1b-ekbainō.jpeg"
   },
@@ -433,7 +609,11 @@
     "greek": "περιπατέω, -ῶ",
     "transliteration": "peripateō",
     "definition": "I walk, walk around",
-    "translations": { "es": "yo camino, paseo", "pl": "chodzę, przechadzam się" },
+    "translations": {
+      "es": "yo camino, paseo",
+      "pl": "chodzę, przechadzam się",
+      "fil": "naglalakad ako"
+    },
     "partOfSpeech": "verb (contract, -έω)",
     "image": "c1b-peripateo.jpeg"
   },
@@ -443,7 +623,11 @@
     "greek": "εὑρίσκω",
     "transliteration": "heuriskō",
     "definition": "I find",
-    "translations": { "es": "yo encuentro", "pl": "znajduję" },
+    "translations": {
+      "es": "yo encuentro",
+      "pl": "znajduję",
+      "fil": "nakakakita ako"
+    },
     "partOfSpeech": "verb"
   },
   {
@@ -452,7 +636,11 @@
     "greek": "ἡσυχάζω",
     "transliteration": "hēsychazō",
     "definition": "I rest, am quiet",
-    "translations": { "es": "yo descanso, estoy tranquilo", "pl": "odpoczywam, jestem cicho" },
+    "translations": {
+      "es": "yo descanso, estoy tranquilo",
+      "pl": "odpoczywam, jestem cicho",
+      "fil": "nagpapahinga ako, nanahimik"
+    },
     "partOfSpeech": "verb",
     "image": "c1b-hēsychazō.jpeg"
   },
@@ -462,7 +650,11 @@
     "greek": "ἀκούω",
     "transliteration": "akouō",
     "definition": "I hear",
-    "translations": { "es": "yo escucho, oigo", "pl": "słyszę, słucham" },
+    "translations": {
+      "es": "yo escucho, oigo",
+      "pl": "słyszę, słucham",
+      "fil": "nakakarinig ako"
+    },
     "partOfSpeech": "verb (+ acc. or gen.)"
   },
   {
@@ -471,7 +663,11 @@
     "greek": "ποιέω, -ῶ",
     "transliteration": "poieō",
     "definition": "I make, do",
-    "translations": { "es": "yo hago", "pl": "robię, czynię" },
+    "translations": {
+      "es": "yo hago",
+      "pl": "robię, czynię",
+      "fil": "gumagawa ako"
+    },
     "partOfSpeech": "verb (contract, -έω)"
   },
   {
@@ -480,7 +676,11 @@
     "greek": "εὐχαριστέω, -ῶ",
     "transliteration": "eucharisteō",
     "definition": "I give thanks",
-    "translations": { "es": "yo doy gracias", "pl": "dziękuję" },
+    "translations": {
+      "es": "yo doy gracias",
+      "pl": "dziękuję",
+      "fil": "nagpapasalamat ako"
+    },
     "partOfSpeech": "verb (+ dative)",
     "image": "c1b-eucharisteō.jpeg"
   },
@@ -490,7 +690,11 @@
     "greek": "ἐν (+ dat.)",
     "transliteration": "en",
     "definition": "in, at",
-    "translations": { "es": "en", "pl": "w, przy" },
+    "translations": {
+      "es": "en",
+      "pl": "w, przy",
+      "fil": "sa, sa loob"
+    },
     "partOfSpeech": "preposition"
   },
   {
@@ -499,7 +703,11 @@
     "greek": "ἐκ / ἐξ (+ gen.)",
     "transliteration": "ek / ex",
     "definition": "out of, from",
-    "translations": { "es": "fuera de, de", "pl": "z, spośród" },
+    "translations": {
+      "es": "fuera de, de",
+      "pl": "z, spośród",
+      "fil": "mula sa, palabas"
+    },
     "partOfSpeech": "preposition"
   },
   {
@@ -508,7 +716,11 @@
     "greek": "πρός (+ acc.)",
     "transliteration": "pros",
     "definition": "toward, to",
-    "translations": { "es": "hacia, a", "pl": "ku, do" },
+    "translations": {
+      "es": "hacia, a",
+      "pl": "ku, do",
+      "fil": "patungo sa"
+    },
     "partOfSpeech": "preposition"
   },
   {
@@ -517,7 +729,11 @@
     "greek": "σήμερον",
     "transliteration": "sēmeron",
     "definition": "today",
-    "translations": { "es": "hoy", "pl": "dzisiaj, dziś" },
+    "translations": {
+      "es": "hoy",
+      "pl": "dzisiaj, dziś",
+      "fil": "ngayon, ngayong araw"
+    },
     "partOfSpeech": "adverb"
   },
   {
@@ -526,7 +742,11 @@
     "greek": "νῦν",
     "transliteration": "nyn",
     "definition": "now",
-    "translations": { "es": "ahora", "pl": "teraz" },
+    "translations": {
+      "es": "ahora",
+      "pl": "teraz",
+      "fil": "ngayon"
+    },
     "partOfSpeech": "adverb"
   },
   {
@@ -535,7 +755,11 @@
     "greek": "ἔπειτα",
     "transliteration": "epeita",
     "definition": "then, next",
-    "translations": { "es": "luego, después", "pl": "potem, następnie" },
+    "translations": {
+      "es": "luego, después",
+      "pl": "potem, następnie",
+      "fil": "pagkatapos, susunod"
+    },
     "partOfSpeech": "adverb"
   },
   {
@@ -544,7 +768,11 @@
     "greek": "ἀληθῶς",
     "transliteration": "alēthōs",
     "definition": "truly",
-    "translations": { "es": "verdaderamente", "pl": "prawdziwie, naprawdę" },
+    "translations": {
+      "es": "verdaderamente",
+      "pl": "prawdziwie, naprawdę",
+      "fil": "tunay, talagang"
+    },
     "partOfSpeech": "adverb"
   },
   {
@@ -553,7 +781,11 @@
     "greek": "ὅτε",
     "transliteration": "hote",
     "definition": "when (temporal)",
-    "translations": { "es": "cuando", "pl": "kiedy, gdy" },
+    "translations": {
+      "es": "cuando",
+      "pl": "kiedy, gdy",
+      "fil": "noong (pansamantalang)"
+    },
     "partOfSpeech": "conjunction"
   },
   {
@@ -562,7 +794,11 @@
     "greek": "ὅτι",
     "transliteration": "hoti",
     "definition": "because, that",
-    "translations": { "es": "porque, que", "pl": "bo, że" },
+    "translations": {
+      "es": "porque, que",
+      "pl": "bo, że",
+      "fil": "dahil, na"
+    },
     "partOfSpeech": "conjunction"
   },
   {
@@ -571,7 +807,11 @@
     "greek": "οὐδέ",
     "transliteration": "oude",
     "definition": "and not, nor, neither",
-    "translations": { "es": "ni, tampoco", "pl": "ani, też nie" },
+    "translations": {
+      "es": "ni, tampoco",
+      "pl": "ani, też nie",
+      "fil": "at hindi, ni, maging"
+    },
     "partOfSpeech": "conjunction"
   }
 ]

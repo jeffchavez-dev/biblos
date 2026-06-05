@@ -1,56 +1,753 @@
 [
-  { "id": 1,  "part": "A", "greek": "ὀψία, -ας, ἡ",         "transliteration": "opsia",       "definition": "evening",              "partOfSpeech": "noun (feminine, 1st decl.)", "image": "ch3-opsia.jpeg" },
-  { "id": 2,  "part": "A", "greek": "σελήνη, -ης, ἡ",       "transliteration": "selēnē",      "definition": "moon",                 "partOfSpeech": "noun (feminine, 1st decl.)", "image": "ch3-selene.jpeg" },
-  { "id": 3,  "part": "A", "greek": "θύρα, -ας, ἡ",         "transliteration": "thyra",       "definition": "door",                 "partOfSpeech": "noun (feminine, 1st decl.)", "image": "ch3-thyra.jpeg" },
-  { "id": 4,  "part": "A", "greek": "τράπεζα, -ης, ἡ",      "transliteration": "trapeza",     "definition": "table",                "partOfSpeech": "noun (feminine, 1st decl.)", "image": "ch3-trapeza.jpeg" },
-  { "id": 5,  "part": "A", "greek": "καθέδρα, -ας, ἡ",      "transliteration": "kathedra",    "definition": "chair, seat",          "partOfSpeech": "noun (feminine, 1st decl.)", "image": "ch3-kathedra.jpeg" },
-  { "id": 6,  "part": "A", "greek": "κλίνη, -ης, ἡ",        "transliteration": "klinē",       "definition": "bed, couch",           "partOfSpeech": "noun (feminine, 1st decl.)", "image": "ch3-kline.jpeg" },
-  { "id": 7,  "part": "A", "greek": "σκοτία, -ας, ἡ",       "transliteration": "skotia",      "definition": "darkness",             "partOfSpeech": "noun (feminine, 1st decl.)", "image": "ch3-skotia.jpeg" },
-  { "id": 8,  "part": "A", "greek": "ὁδός, -οῦ, ἡ",         "transliteration": "hodos",       "definition": "road, way",            "partOfSpeech": "noun (feminine, 2nd decl.)", "image": "ch3-hodos.jpeg" },
-  { "id": 9,  "part": "A", "greek": "λύχνος, -ου, ὁ",       "transliteration": "lychnos",     "definition": "lamp",                 "partOfSpeech": "noun (masculine, 2nd decl.)", "image": "ch3-lychnos.jpeg" },
-  { "id": 10, "part": "A", "greek": "ὦμος, -ου, ὁ",         "transliteration": "ōmos",        "definition": "shoulder",             "partOfSpeech": "noun (masculine, 2nd decl.)", "image": "ch3-omos.jpeg" },
-  { "id": 11, "part": "A", "greek": "χρόνος, -ου, ὁ",       "transliteration": "chronos",     "definition": "time",                 "partOfSpeech": "noun (masculine, 2nd decl.)", "image": "ch3-chronos.jpeg" },
-  { "id": 12, "part": "A", "greek": "φῶς, φωτός, τό",       "transliteration": "phōs",        "definition": "light",                "partOfSpeech": "noun (neuter, 3rd decl.)", "image": "ch3-phos.jpeg" },
-  { "id": 13, "part": "A", "greek": "νύξ, νυκτός, ἡ",       "transliteration": "nyx",         "definition": "night",                "partOfSpeech": "noun (feminine, 3rd decl.)", "image": "ch3-opsia.jpeg" },
-  { "id": 14, "part": "A", "greek": "μακρός, -ά, -όν",      "transliteration": "makros",      "definition": "long",                 "partOfSpeech": "adjective", "image": "ch3-opsia.jpeg" },
-  { "id": 15, "part": "A", "greek": "μόνος, -η, -ον",       "transliteration": "monos",       "definition": "alone, only",          "partOfSpeech": "adjective", "image": "ch3-monos.jpeg" },
-  { "id": 16, "part": "A", "greek": "ὅλος, -η, -ον",        "transliteration": "holos",       "definition": "whole, entire",        "partOfSpeech": "adjective", "image": "ch3-holos.jpeg" },
-  { "id": 17, "part": "A", "greek": "κοπιάω, -ῶ",           "transliteration": "kopiaō",      "definition": "I labor, am weary",    "partOfSpeech": "verb (contract, -άω)", "image": "ch3-kopiao.jpeg" },
-  { "id": 18, "part": "A", "greek": "καθεύδω",              "transliteration": "katheudō",    "definition": "I sleep",              "partOfSpeech": "verb", "image": "ch3-katheudo.jpeg" },
-  { "id": 19, "part": "A", "greek": "ἀνατέλλω",             "transliteration": "anatellō",    "definition": "I rise (of sun/moon)", "partOfSpeech": "verb", "image": "ch3-selene.jpeg" },
-  { "id": 20, "part": "A", "greek": "ἥκω",                  "transliteration": "hēkō",        "definition": "I have come, arrive",  "partOfSpeech": "verb", "image": "ch3-heko.jpeg" },
-  { "id": 21, "part": "A", "greek": "ἀνοίγω",               "transliteration": "anoigō",      "definition": "I open",               "partOfSpeech": "verb", "image": "ch3-thyra.jpeg" },
-  { "id": 22, "part": "A", "greek": "ζητέω, -ῶ",            "transliteration": "zēteō",       "definition": "I seek, look for",     "partOfSpeech": "verb (contract, -έω)", "image": "ch3-zeteo.jpeg" },
-  { "id": 23, "part": "A", "greek": "ἅπτω",                 "transliteration": "haptō",       "definition": "I kindle, light",      "partOfSpeech": "verb", "image": "ch3-hapto.jpeg" },
-  { "id": 24, "part": "A", "greek": "καλῶς",                "transliteration": "kalōs",       "definition": "well, beautifully",    "partOfSpeech": "adverb", "image": "ch3-kalos.jpeg" },
-  { "id": 25, "part": "A", "greek": "ἔτι",                  "transliteration": "eti",         "definition": "still, yet",           "partOfSpeech": "adverb", "image": "ch3-eti.jpeg" },
-  { "id": 26, "part": "A", "greek": "οὐκέτι",               "transliteration": "ouketi",      "definition": "no longer",            "partOfSpeech": "adverb", "image": "ch3-phos.jpeg" },
-  { "id": 27, "part": "A", "greek": "σφόδρα",               "transliteration": "sphodra",     "definition": "very, exceedingly",    "partOfSpeech": "adverb", "image": "ch3-kopiao.jpeg" },
-  { "id": 28, "part": "B", "greek": "ὕπνος, -ου, ὁ",        "transliteration": "hypnos",         "definition": "sleep",               "partOfSpeech": "noun (masculine, 2nd decl.)", "image": "ch3b-hypnos.jpeg" },
-  { "id": 29, "part": "B", "greek": "φόβος, -ου, ὁ",        "transliteration": "phobos",         "definition": "fear",                "partOfSpeech": "noun (masculine, 2nd decl.)", "image": "ch3b-phobos.jpeg" },
-  { "id": 30, "part": "B", "greek": "εἰρήνη, -ης, ἡ",       "transliteration": "eirēnē",         "definition": "peace",               "partOfSpeech": "noun (feminine, 1st decl.)", "image": "ch3b-hypnos.jpeg" },
-  { "id": 31, "part": "B", "greek": "καρδία, -ας, ἡ",       "transliteration": "kardia",         "definition": "heart",               "partOfSpeech": "noun (feminine, 1st decl.)" },
-  { "id": 32, "part": "B", "greek": "ὀφθαλμός, -οῦ, ὁ",    "transliteration": "ophthalmos",     "definition": "eye",                 "partOfSpeech": "noun (masculine, 2nd decl.)", "image": "ch3b-ophthalmos.jpeg" },
-  { "id": 33, "part": "B", "greek": "εἷς, μία, ἕν",         "transliteration": "heis, mia, hen", "definition": "one",                 "partOfSpeech": "numeral (all genders)", "image": "ch3b-heis.jpeg" },
-  { "id": 34, "part": "B", "greek": "πρῶτος, -η, -ον",      "transliteration": "prōtos",         "definition": "first",               "partOfSpeech": "adjective (ordinal)", "image": "ch3b-protos.jpeg" },
-  { "id": 35, "part": "B", "greek": "δεύτερος, -α, -ον",    "transliteration": "deuteros",       "definition": "second",              "partOfSpeech": "adjective (ordinal)", "image": "ch3b-deuteros.jpeg" },
-  { "id": 36, "part": "B", "greek": "τρίτος, -η, -ον",      "transliteration": "tritos",         "definition": "third",               "partOfSpeech": "adjective (ordinal)", "image": "ch3b-tritos.jpeg" },
-  { "id": 37, "part": "B", "greek": "πολύς, πολλή, πολύ",   "transliteration": "polys",          "definition": "much, many",          "partOfSpeech": "adjective (irregular)", "image": "ch3b-heis.jpeg" },
-  { "id": 38, "part": "B", "greek": "πᾶς, πᾶσα, πᾶν",      "transliteration": "pas",            "definition": "all, every",          "partOfSpeech": "adjective (irregular)", "image": "ch3b-dynatos.jpeg" },
-  { "id": 39, "part": "B", "greek": "δυνατός, -ή, -όν",     "transliteration": "dynatos",        "definition": "possible, able",      "partOfSpeech": "adjective", "image": "ch3b-dynatos.jpeg" },
-  { "id": 40, "part": "B", "greek": "ἐγώ, ἡμεῖς",          "transliteration": "egō, hēmeis",    "definition": "I, we",               "partOfSpeech": "pronoun (1st person)" },
-  { "id": 41, "part": "B", "greek": "σύ",                   "transliteration": "sy",             "definition": "you (singular)",      "partOfSpeech": "pronoun (2nd person)" },
-  { "id": 42, "part": "B", "greek": "τίς; τί;",             "transliteration": "tis? ti?",       "definition": "who? what?",          "partOfSpeech": "interrogative pronoun", "image": "ch3b-tis.jpeg" },
-  { "id": 43, "part": "B", "greek": "στενάζω",              "transliteration": "stenazō",        "definition": "I groan, sigh",       "partOfSpeech": "verb", "image": "ch3b-stenazo.jpeg" },
-  { "id": 44, "part": "B", "greek": "διαβαίνω",             "transliteration": "diabainō",       "definition": "I cross over",        "partOfSpeech": "verb", "image": "ch3b-diabaino.jpeg" },
-  { "id": 45, "part": "B", "greek": "μανθάνω",              "transliteration": "manthanō",       "definition": "I learn, understand", "partOfSpeech": "verb" },
-  { "id": 46, "part": "B", "greek": "θαυμάζω",              "transliteration": "thaumazō",       "definition": "I marvel, am amazed", "partOfSpeech": "verb", "image": "ch3b-thaumazo.jpeg" },
-  { "id": 47, "part": "B", "greek": "ἐγείρω",               "transliteration": "egeirō",         "definition": "I raise, wake up",    "partOfSpeech": "verb", "image": "ch3b-egeiro.jpeg" },
-  { "id": 48, "part": "B", "greek": "πίπτω",                "transliteration": "piptō",          "definition": "I fall",              "partOfSpeech": "verb", "image": "ch3b-pipto.jpeg" },
-  { "id": 49, "part": "B", "greek": "πανταχοῦ",             "transliteration": "pantachou",      "definition": "everywhere",          "partOfSpeech": "adverb", "image": "ch3b-pantachou.jpeg" },
-  { "id": 50, "part": "B", "greek": "ἔσω",                  "transliteration": "esō",            "definition": "inside, within",      "partOfSpeech": "adverb", "image": "ch3b-eso.jpeg" },
-  { "id": 51, "part": "B", "greek": "ἐξαίφνης",             "transliteration": "exaiphnēs",      "definition": "suddenly",            "partOfSpeech": "adverb", "image": "ch3b-exaiphnes.jpeg" },
-  { "id": 52, "part": "B", "greek": "ποῦ;",                 "transliteration": "pou?",           "definition": "where?",              "partOfSpeech": "interrogative adverb", "image": "ch3b-pou.jpeg" },
-  { "id": 53, "part": "B", "greek": "ὡς",                   "transliteration": "hōs",            "definition": "as, like",            "partOfSpeech": "conjunction/adverb", "image": "ch3b-hos.jpeg" },
-  { "id": 54, "part": "B", "greek": "οὐχί / οὐχ",           "transliteration": "ouchi / ouch",   "definition": "not (before vowels)", "partOfSpeech": "negative particle" }
+  {
+    "id": 1,
+    "part": "A",
+    "greek": "ὀψία, -ας, ἡ",
+    "transliteration": "opsia",
+    "definition": "evening",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": "ch3-opsia.jpeg",
+    "translations": {
+      "es": "tarde, noche",
+      "pl": "wieczór",
+      "fil": "gabi, hapon"
+    }
+  },
+  {
+    "id": 2,
+    "part": "A",
+    "greek": "σελήνη, -ης, ἡ",
+    "transliteration": "selēnē",
+    "definition": "moon",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": "ch3-selene.jpeg",
+    "translations": {
+      "es": "luna",
+      "pl": "księżyc",
+      "fil": "buwan"
+    }
+  },
+  {
+    "id": 3,
+    "part": "A",
+    "greek": "θύρα, -ας, ἡ",
+    "transliteration": "thyra",
+    "definition": "door",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": "ch3-thyra.jpeg",
+    "translations": {
+      "es": "puerta",
+      "pl": "drzwi",
+      "fil": "pinto"
+    }
+  },
+  {
+    "id": 4,
+    "part": "A",
+    "greek": "τράπεζα, -ης, ἡ",
+    "transliteration": "trapeza",
+    "definition": "table",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": "ch3-trapeza.jpeg",
+    "translations": {
+      "es": "mesa",
+      "pl": "stół",
+      "fil": "mesa"
+    }
+  },
+  {
+    "id": 5,
+    "part": "A",
+    "greek": "καθέδρα, -ας, ἡ",
+    "transliteration": "kathedra",
+    "definition": "chair, seat",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": "ch3-kathedra.jpeg",
+    "translations": {
+      "es": "silla, asiento",
+      "pl": "krzesło, siedzenie",
+      "fil": "silya, upuan"
+    }
+  },
+  {
+    "id": 6,
+    "part": "A",
+    "greek": "κλίνη, -ης, ἡ",
+    "transliteration": "klinē",
+    "definition": "bed, couch",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": "ch3-kline.jpeg",
+    "translations": {
+      "es": "cama, lecho",
+      "pl": "łóżko, łoże",
+      "fil": "higaan, kama"
+    }
+  },
+  {
+    "id": 7,
+    "part": "A",
+    "greek": "σκοτία, -ας, ἡ",
+    "transliteration": "skotia",
+    "definition": "darkness",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": "ch3-skotia.jpeg",
+    "translations": {
+      "es": "oscuridad",
+      "pl": "ciemność",
+      "fil": "kadiliman"
+    }
+  },
+  {
+    "id": 8,
+    "part": "A",
+    "greek": "ὁδός, -οῦ, ἡ",
+    "transliteration": "hodos",
+    "definition": "road, way",
+    "partOfSpeech": "noun (feminine, 2nd decl.)",
+    "image": "ch3-hodos.jpeg",
+    "translations": {
+      "es": "camino, vía",
+      "pl": "droga, ścieżka",
+      "fil": "daan, landas"
+    }
+  },
+  {
+    "id": 9,
+    "part": "A",
+    "greek": "λύχνος, -ου, ὁ",
+    "transliteration": "lychnos",
+    "definition": "lamp",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "ch3-lychnos.jpeg",
+    "translations": {
+      "es": "lámpara",
+      "pl": "lampa",
+      "fil": "ilawan, lampara"
+    }
+  },
+  {
+    "id": 10,
+    "part": "A",
+    "greek": "ὦμος, -ου, ὁ",
+    "transliteration": "ōmos",
+    "definition": "shoulder",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "ch3-omos.jpeg",
+    "translations": {
+      "es": "hombro",
+      "pl": "ramię, bark",
+      "fil": "balikat"
+    }
+  },
+  {
+    "id": 11,
+    "part": "A",
+    "greek": "χρόνος, -ου, ὁ",
+    "transliteration": "chronos",
+    "definition": "time",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "ch3-chronos.jpeg",
+    "translations": {
+      "es": "tiempo",
+      "pl": "czas",
+      "fil": "oras, panahon"
+    }
+  },
+  {
+    "id": 12,
+    "part": "A",
+    "greek": "φῶς, φωτός, τό",
+    "transliteration": "phōs",
+    "definition": "light",
+    "partOfSpeech": "noun (neuter, 3rd decl.)",
+    "image": "ch3-phos.jpeg",
+    "translations": {
+      "es": "luz",
+      "pl": "światło",
+      "fil": "liwanag, ilaw"
+    }
+  },
+  {
+    "id": 13,
+    "part": "A",
+    "greek": "νύξ, νυκτός, ἡ",
+    "transliteration": "nyx",
+    "definition": "night",
+    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "image": "ch3-opsia.jpeg",
+    "translations": {
+      "es": "noche",
+      "pl": "noc",
+      "fil": "gabi"
+    }
+  },
+  {
+    "id": 14,
+    "part": "A",
+    "greek": "μακρός, -ά, -όν",
+    "transliteration": "makros",
+    "definition": "long",
+    "partOfSpeech": "adjective",
+    "image": "ch3-opsia.jpeg",
+    "translations": {
+      "es": "largo",
+      "pl": "długi",
+      "fil": "mahaba"
+    }
+  },
+  {
+    "id": 15,
+    "part": "A",
+    "greek": "μόνος, -η, -ον",
+    "transliteration": "monos",
+    "definition": "alone, only",
+    "partOfSpeech": "adjective",
+    "image": "ch3-monos.jpeg",
+    "translations": {
+      "es": "solo, único",
+      "pl": "sam, jedyny",
+      "fil": "nag-iisa, tanging"
+    }
+  },
+  {
+    "id": 16,
+    "part": "A",
+    "greek": "ὅλος, -η, -ον",
+    "transliteration": "holos",
+    "definition": "whole, entire",
+    "partOfSpeech": "adjective",
+    "image": "ch3-holos.jpeg",
+    "translations": {
+      "es": "entero, todo",
+      "pl": "cały, wszystek",
+      "fil": "buong, lahat"
+    }
+  },
+  {
+    "id": 17,
+    "part": "A",
+    "greek": "κοπιάω, -ῶ",
+    "transliteration": "kopiaō",
+    "definition": "I labor, am weary",
+    "partOfSpeech": "verb (contract, -άω)",
+    "image": "ch3-kopiao.jpeg",
+    "translations": {
+      "es": "yo me canso, me fatigo",
+      "pl": "pracuję ciężko, jestem zmęczony",
+      "fil": "napapagod"
+    }
+  },
+  {
+    "id": 18,
+    "part": "A",
+    "greek": "καθεύδω",
+    "transliteration": "katheudō",
+    "definition": "I sleep",
+    "partOfSpeech": "verb",
+    "image": "ch3-katheudo.jpeg",
+    "translations": {
+      "es": "yo duermo",
+      "pl": "śpię",
+      "fil": "natutulog"
+    }
+  },
+  {
+    "id": 19,
+    "part": "A",
+    "greek": "ἀνατέλλω",
+    "transliteration": "anatellō",
+    "definition": "I rise (of sun/moon)",
+    "partOfSpeech": "verb",
+    "image": "ch3-selene.jpeg",
+    "translations": {
+      "es": "yo salgo (del sol/luna)",
+      "pl": "wschodzę (o słońcu/księżycu)",
+      "fil": "sumisinag, sumasalang"
+    }
+  },
+  {
+    "id": 20,
+    "part": "A",
+    "greek": "ἥκω",
+    "transliteration": "hēkō",
+    "definition": "I have come, arrive",
+    "partOfSpeech": "verb",
+    "image": "ch3-heko.jpeg",
+    "translations": {
+      "es": "he venido, llego",
+      "pl": "przybyłem, przychodzę",
+      "fil": "dumating"
+    }
+  },
+  {
+    "id": 21,
+    "part": "A",
+    "greek": "ἀνοίγω",
+    "transliteration": "anoigō",
+    "definition": "I open",
+    "partOfSpeech": "verb",
+    "image": "ch3-thyra.jpeg",
+    "translations": {
+      "es": "yo abro",
+      "pl": "otwieram",
+      "fil": "nagbubukas"
+    }
+  },
+  {
+    "id": 22,
+    "part": "A",
+    "greek": "ζητέω, -ῶ",
+    "transliteration": "zēteō",
+    "definition": "I seek, look for",
+    "partOfSpeech": "verb (contract, -έω)",
+    "image": "ch3-zeteo.jpeg",
+    "translations": {
+      "es": "yo busco",
+      "pl": "szukam",
+      "fil": "naghahanap"
+    }
+  },
+  {
+    "id": 23,
+    "part": "A",
+    "greek": "ἅπτω",
+    "transliteration": "haptō",
+    "definition": "I kindle, light",
+    "partOfSpeech": "verb",
+    "image": "ch3-hapto.jpeg",
+    "translations": {
+      "es": "yo enciendo",
+      "pl": "zapalm, rozświetlam",
+      "fil": "nagpapaningas, nagsusunog"
+    }
+  },
+  {
+    "id": 24,
+    "part": "A",
+    "greek": "καλῶς",
+    "transliteration": "kalōs",
+    "definition": "well, beautifully",
+    "partOfSpeech": "adverb",
+    "image": "ch3-kalos.jpeg",
+    "translations": {
+      "es": "bien, bellamente",
+      "pl": "dobrze, pięknie",
+      "fil": "maayos, maganda"
+    }
+  },
+  {
+    "id": 25,
+    "part": "A",
+    "greek": "ἔτι",
+    "transliteration": "eti",
+    "definition": "still, yet",
+    "partOfSpeech": "adverb",
+    "image": "ch3-eti.jpeg",
+    "translations": {
+      "es": "aún, todavía",
+      "pl": "jeszcze",
+      "fil": "pa rin, hanggang ngayon"
+    }
+  },
+  {
+    "id": 26,
+    "part": "A",
+    "greek": "οὐκέτι",
+    "transliteration": "ouketi",
+    "definition": "no longer",
+    "partOfSpeech": "adverb",
+    "image": "ch3-phos.jpeg",
+    "translations": {
+      "es": "ya no",
+      "pl": "już nie",
+      "fil": "hindi na"
+    }
+  },
+  {
+    "id": 27,
+    "part": "A",
+    "greek": "σφόδρα",
+    "transliteration": "sphodra",
+    "definition": "very, exceedingly",
+    "partOfSpeech": "adverb",
+    "image": "ch3-kopiao.jpeg",
+    "translations": {
+      "es": "muy, sumamente",
+      "pl": "bardzo, niezwykle",
+      "fil": "napakarami, labis"
+    }
+  },
+  {
+    "id": 28,
+    "part": "B",
+    "greek": "ὕπνος, -ου, ὁ",
+    "transliteration": "hypnos",
+    "definition": "sleep",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "ch3b-hypnos.jpeg",
+    "translations": {
+      "es": "sueño",
+      "pl": "sen",
+      "fil": "tulog, panaginip"
+    }
+  },
+  {
+    "id": 29,
+    "part": "B",
+    "greek": "φόβος, -ου, ὁ",
+    "transliteration": "phobos",
+    "definition": "fear",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "ch3b-phobos.jpeg",
+    "translations": {
+      "es": "miedo",
+      "pl": "strach",
+      "fil": "takot"
+    }
+  },
+  {
+    "id": 30,
+    "part": "B",
+    "greek": "εἰρήνη, -ης, ἡ",
+    "transliteration": "eirēnē",
+    "definition": "peace",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": "ch3b-hypnos.jpeg",
+    "translations": {
+      "es": "paz",
+      "pl": "pokój",
+      "fil": "kapayapaan"
+    }
+  },
+  {
+    "id": 31,
+    "part": "B",
+    "greek": "καρδία, -ας, ἡ",
+    "transliteration": "kardia",
+    "definition": "heart",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "translations": {
+      "es": "corazón",
+      "pl": "serce",
+      "fil": "puso"
+    }
+  },
+  {
+    "id": 32,
+    "part": "B",
+    "greek": "ὀφθαλμός, -οῦ, ὁ",
+    "transliteration": "ophthalmos",
+    "definition": "eye",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "ch3b-ophthalmos.jpeg",
+    "translations": {
+      "es": "ojo",
+      "pl": "oko",
+      "fil": "mata"
+    }
+  },
+  {
+    "id": 33,
+    "part": "B",
+    "greek": "εἷς, μία, ἕν",
+    "transliteration": "heis, mia, hen",
+    "definition": "one",
+    "partOfSpeech": "numeral (all genders)",
+    "image": "ch3b-heis.jpeg",
+    "translations": {
+      "es": "uno",
+      "pl": "jeden",
+      "fil": "isa"
+    }
+  },
+  {
+    "id": 34,
+    "part": "B",
+    "greek": "πρῶτος, -η, -ον",
+    "transliteration": "prōtos",
+    "definition": "first",
+    "partOfSpeech": "adjective (ordinal)",
+    "image": "ch3b-protos.jpeg",
+    "translations": {
+      "es": "primero",
+      "pl": "pierwszy",
+      "fil": "una, paunang"
+    }
+  },
+  {
+    "id": 35,
+    "part": "B",
+    "greek": "δεύτερος, -α, -ον",
+    "transliteration": "deuteros",
+    "definition": "second",
+    "partOfSpeech": "adjective (ordinal)",
+    "image": "ch3b-deuteros.jpeg",
+    "translations": {
+      "es": "segundo",
+      "pl": "drugi",
+      "fil": "ikalawa"
+    }
+  },
+  {
+    "id": 36,
+    "part": "B",
+    "greek": "τρίτος, -η, -ον",
+    "transliteration": "tritos",
+    "definition": "third",
+    "partOfSpeech": "adjective (ordinal)",
+    "image": "ch3b-tritos.jpeg",
+    "translations": {
+      "es": "tercero",
+      "pl": "trzeci",
+      "fil": "ikatlo"
+    }
+  },
+  {
+    "id": 37,
+    "part": "B",
+    "greek": "πολύς, πολλή, πολύ",
+    "transliteration": "polys",
+    "definition": "much, many",
+    "partOfSpeech": "adjective (irregular)",
+    "image": "ch3b-heis.jpeg",
+    "translations": {
+      "es": "mucho, muchos",
+      "pl": "dużo, wielu",
+      "fil": "marami"
+    }
+  },
+  {
+    "id": 38,
+    "part": "B",
+    "greek": "πᾶς, πᾶσα, πᾶν",
+    "transliteration": "pas",
+    "definition": "all, every",
+    "partOfSpeech": "adjective (irregular)",
+    "image": "ch3b-dynatos.jpeg",
+    "translations": {
+      "es": "todo, cada",
+      "pl": "wszystko, każdy",
+      "fil": "lahat, bawat"
+    }
+  },
+  {
+    "id": 39,
+    "part": "B",
+    "greek": "δυνατός, -ή, -όν",
+    "transliteration": "dynatos",
+    "definition": "possible, able",
+    "partOfSpeech": "adjective",
+    "image": "ch3b-dynatos.jpeg",
+    "translations": {
+      "es": "posible, capaz",
+      "pl": "możliwy, zdolny",
+      "fil": "kaya, posible"
+    }
+  },
+  {
+    "id": 40,
+    "part": "B",
+    "greek": "ἐγώ, ἡμεῖς",
+    "transliteration": "egō, hēmeis",
+    "definition": "I, we",
+    "partOfSpeech": "pronoun (1st person)",
+    "translations": {
+      "es": "yo, nosotros",
+      "pl": "ja, my",
+      "fil": "ako, kami"
+    }
+  },
+  {
+    "id": 41,
+    "part": "B",
+    "greek": "σύ",
+    "transliteration": "sy",
+    "definition": "you (singular)",
+    "partOfSpeech": "pronoun (2nd person)",
+    "translations": {
+      "es": "tú (singular)",
+      "pl": "ty",
+      "fil": "ikaw"
+    }
+  },
+  {
+    "id": 42,
+    "part": "B",
+    "greek": "τίς; τί;",
+    "transliteration": "tis? ti?",
+    "definition": "who? what?",
+    "partOfSpeech": "interrogative pronoun",
+    "image": "ch3b-tis.jpeg",
+    "translations": {
+      "es": "¿quién? ¿qué?",
+      "pl": "kto? co?",
+      "fil": "sino? ano?"
+    }
+  },
+  {
+    "id": 43,
+    "part": "B",
+    "greek": "στενάζω",
+    "transliteration": "stenazō",
+    "definition": "I groan, sigh",
+    "partOfSpeech": "verb",
+    "image": "ch3b-stenazo.jpeg",
+    "translations": {
+      "es": "yo gimo, suspiro",
+      "pl": "wzdycham, jeczę",
+      "fil": "humihinga nang malalim, nagbubuntong-hininga"
+    }
+  },
+  {
+    "id": 44,
+    "part": "B",
+    "greek": "διαβαίνω",
+    "transliteration": "diabainō",
+    "definition": "I cross over",
+    "partOfSpeech": "verb",
+    "image": "ch3b-diabaino.jpeg",
+    "translations": {
+      "es": "yo cruzo",
+      "pl": "przekraczam, przechodzę",
+      "fil": "tumatawid"
+    }
+  },
+  {
+    "id": 45,
+    "part": "B",
+    "greek": "μανθάνω",
+    "transliteration": "manthanō",
+    "definition": "I learn, understand",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "yo aprendo, entiendo",
+      "pl": "uczę się, rozumiem",
+      "fil": "natututo, nakakaunawa"
+    }
+  },
+  {
+    "id": 46,
+    "part": "B",
+    "greek": "θαυμάζω",
+    "transliteration": "thaumazō",
+    "definition": "I marvel, am amazed",
+    "partOfSpeech": "verb",
+    "image": "ch3b-thaumazo.jpeg",
+    "translations": {
+      "es": "yo me maravillo",
+      "pl": "dziwię się, jestem zdumiony",
+      "fil": "nagtataka, namumangha"
+    }
+  },
+  {
+    "id": 47,
+    "part": "B",
+    "greek": "ἐγείρω",
+    "transliteration": "egeirō",
+    "definition": "I raise, wake up",
+    "partOfSpeech": "verb",
+    "image": "ch3b-egeiro.jpeg",
+    "translations": {
+      "es": "yo levanto, despierto",
+      "pl": "podnoszę, budzę",
+      "fil": "nagpupunan, ginigising"
+    }
+  },
+  {
+    "id": 48,
+    "part": "B",
+    "greek": "πίπτω",
+    "transliteration": "piptō",
+    "definition": "I fall",
+    "partOfSpeech": "verb",
+    "image": "ch3b-pipto.jpeg",
+    "translations": {
+      "es": "yo caigo",
+      "pl": "padam, upadam",
+      "fil": "nahuhulog"
+    }
+  },
+  {
+    "id": 49,
+    "part": "B",
+    "greek": "πανταχοῦ",
+    "transliteration": "pantachou",
+    "definition": "everywhere",
+    "partOfSpeech": "adverb",
+    "image": "ch3b-pantachou.jpeg",
+    "translations": {
+      "es": "en todas partes",
+      "pl": "wszędzie",
+      "fil": "sa lahat ng dako"
+    }
+  },
+  {
+    "id": 50,
+    "part": "B",
+    "greek": "ἔσω",
+    "transliteration": "esō",
+    "definition": "inside, within",
+    "partOfSpeech": "adverb",
+    "image": "ch3b-eso.jpeg",
+    "translations": {
+      "es": "adentro, dentro",
+      "pl": "wewnątrz, w środku",
+      "fil": "sa loob"
+    }
+  },
+  {
+    "id": 51,
+    "part": "B",
+    "greek": "ἐξαίφνης",
+    "transliteration": "exaiphnēs",
+    "definition": "suddenly",
+    "partOfSpeech": "adverb",
+    "image": "ch3b-exaiphnes.jpeg",
+    "translations": {
+      "es": "de repente",
+      "pl": "nagle",
+      "fil": "biglaan, kaagad"
+    }
+  },
+  {
+    "id": 52,
+    "part": "B",
+    "greek": "ποῦ;",
+    "transliteration": "pou?",
+    "definition": "where?",
+    "partOfSpeech": "interrogative adverb",
+    "image": "ch3b-pou.jpeg",
+    "translations": {
+      "es": "¿dónde?",
+      "pl": "gdzie?",
+      "fil": "saan?"
+    }
+  },
+  {
+    "id": 53,
+    "part": "B",
+    "greek": "ὡς",
+    "transliteration": "hōs",
+    "definition": "as, like",
+    "partOfSpeech": "conjunction/adverb",
+    "image": "ch3b-hos.jpeg",
+    "translations": {
+      "es": "como, así como",
+      "pl": "jak, tak jak",
+      "fil": "tulad ng, gaya ng"
+    }
+  },
+  {
+    "id": 54,
+    "part": "B",
+    "greek": "οὐχί / οὐχ",
+    "transliteration": "ouchi / ouch",
+    "definition": "not (before vowels)",
+    "partOfSpeech": "negative particle",
+    "translations": {
+      "es": "no (antes de vocal)",
+      "pl": "nie (przed samogłoską)",
+      "fil": "hindi (bago ang patinig)"
+    }
+  }
 ]

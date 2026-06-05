@@ -8,61 +8,127 @@
       "words": [
         {
           "greek": "ἄνθρωπός",
-          "definition": "a person, human being"
+          "definition": "a person, human being",
+          "translations": {
+            "es": "una persona",
+            "pl": "człowiek",
+            "fil": "isang tao"
+          }
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is (3rd sg. of εἰμί)"
+          "definition": "is (3rd sg. of εἰμί)",
+          "translations": {
+            "es": "es (3a sg. de εἰμί)",
+            "pl": "jest (3os. l.poj. εἰμί)",
+            "fil": "ay (3a tao ng εἰμί)"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the (masc. nominative)"
+          "definition": "the (masc. nominative)",
+          "translations": {
+            "es": "el (nominativo masc.)",
+            "pl": "rodzajnik (mian. m.)",
+            "fil": "ang (pananda ng pangungusap)"
+          }
         },
         {
           "greek": "ἄνθρωπός",
-          "definition": "person"
+          "definition": "person",
+          "translations": {
+            "es": "persona",
+            "pl": "osoba",
+            "fil": "tao"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "γεωργός.",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργός",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ἀγαθὸς",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἰσχυρὸς",
-          "definition": "strong"
+          "definition": "strong",
+          "translations": {
+            "es": "fuerte",
+            "pl": "silny",
+            "fil": "malakas"
+          }
         },
         {
           "greek": "ἄνθρωπος.",
-          "definition": "person, man"
+          "definition": "person, man",
+          "translations": {
+            "es": "persona, hombre",
+            "pl": "człowiek, mężczyzna",
+            "fil": "tao, lalaki"
+          }
         }
       ],
       "translation": "There is a person. The person is a farmer. The farmer is a good and strong person.",
       "translations": {
         "es": "Hay una persona. La persona es un agricultor. El agricultor es un hombre bueno y fuerte.",
-        "pl": "Jest człowiek. Ten człowiek jest rolnikiem. Rolnik jest dobrym i silnym człowiekiem."
+        "pl": "Jest człowiek. Ten człowiek jest rolnikiem. Rolnik jest dobrym i silnym człowiekiem.",
+        "fil": "May tao. Ang taong ito ay isang magsasaka. Ang magsasaka ay isang mabuti at malakas na tao."
       }
     },
     {
@@ -70,41 +136,82 @@
       "words": [
         {
           "greek": "οἶκός",
-          "definition": "a house"
+          "definition": "a house",
+          "translations": {
+            "es": "una casa",
+            "pl": "dom",
+            "fil": "isang bahay"
+          }
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "μικρός",
-          "definition": "small"
+          "definition": "small",
+          "translations": {
+            "es": "pequeño",
+            "pl": "mały",
+            "fil": "maliit"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἶκος,",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "μέγας.",
-          "definition": "great, large"
+          "definition": "great, large",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki, duży",
+            "fil": "dakila, malaki"
+          }
         }
       ],
       "translation": "There is a house. The house is small, not large.",
       "translations": {
         "es": "Hay una casa. La casa es pequeña, no grande.",
-        "pl": "Jest dom. Dom jest mały, nie wielki."
+        "pl": "Jest dom. Dom jest mały, nie wielki.",
+        "fil": "May bahay. Ang bahay ay maliit, hindi malaki."
       }
     },
     {
@@ -112,41 +219,82 @@
       "words": [
         {
           "greek": "ἀγρός",
-          "definition": "a field"
+          "definition": "a field",
+          "translations": {
+            "es": "un campo",
+            "pl": "pole",
+            "fil": "isang bukid"
+          }
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "μικρός",
-          "definition": "small"
+          "definition": "small",
+          "translations": {
+            "es": "pequeño",
+            "pl": "mały",
+            "fil": "maliit"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρός,",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "ἀλλὰ",
-          "definition": "but"
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
         },
         {
           "greek": "καλός.",
-          "definition": "good, beautiful"
+          "definition": "good, beautiful",
+          "translations": {
+            "es": "bueno, hermoso",
+            "pl": "dobry, piękny",
+            "fil": "mabuti, maganda"
+          }
         }
       ],
       "translation": "There is a field. The field is small, but good.",
       "translations": {
         "es": "Hay un campo. El campo es pequeño, pero bueno.",
-        "pl": "Jest pole. Pole jest małe, ale dobre."
+        "pl": "Jest pole. Pole jest małe, ale dobre.",
+        "fil": "May bukid. Ang bukid ay maliit, ngunit mabuti."
       }
     },
     {
@@ -154,41 +302,82 @@
       "words": [
         {
           "greek": "οὐρανός",
-          "definition": "sky, heaven"
+          "definition": "sky, heaven",
+          "translations": {
+            "es": "cielo",
+            "pl": "niebo",
+            "fil": "langit"
+          }
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "μέγας",
-          "definition": "great, large"
+          "definition": "great, large",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki, duży",
+            "fil": "dakila, malaki"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οὐρανός,",
-          "definition": "sky"
+          "definition": "sky",
+          "translations": {
+            "es": "cielo",
+            "pl": "niebo",
+            "fil": "langit"
+          }
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "μικρός.",
-          "definition": "small"
+          "definition": "small",
+          "translations": {
+            "es": "pequeño",
+            "pl": "mały",
+            "fil": "maliit"
+          }
         }
       ],
       "translation": "There is a sky. The sky is great, not small.",
       "translations": {
         "es": "Hay un cielo. El cielo es grande, no pequeño.",
-        "pl": "Jest niebo. Niebo jest wielkie, nie małe."
+        "pl": "Jest niebo. Niebo jest wielkie, nie małe.",
+        "fil": "May langit. Ang langit ay malaki, hindi maliit."
       }
     },
     {
@@ -196,49 +385,100 @@
       "words": [
         {
           "greek": "ἥλιός",
-          "definition": "a sun"
+          "definition": "a sun",
+          "translations": {
+            "es": "un sol",
+            "pl": "słońce",
+            "fil": "isang araw"
+          }
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "μέγας",
-          "definition": "great, large"
+          "definition": "great, large",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki, duży",
+            "fil": "dakila, malaki"
+          }
         },
         {
           "greek": "ἐστὶν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἥλιος.",
-          "definition": "sun"
+          "definition": "sun",
+          "translations": {
+            "es": "sol",
+            "pl": "słońce",
+            "fil": "araw"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἥλιος",
-          "definition": "sun"
+          "definition": "sun",
+          "translations": {
+            "es": "sol",
+            "pl": "słońce",
+            "fil": "araw"
+          }
         },
         {
           "greek": "λάμπει.",
-          "definition": "shines"
+          "definition": "shines",
+          "translations": {
+            "es": "brilla",
+            "pl": "świeci",
+            "fil": "sumisinag"
+          }
         }
       ],
       "translation": "There is a sun. The sun is great. And the sun shines.",
       "translations": {
         "es": "Hay un sol. El sol es grande. Y el sol brilla.",
-        "pl": "Jest słońce. Słońce jest wielkie. I słońce świeci."
+        "pl": "Jest słońce. Słońce jest wielkie. I słońce świeci.",
+        "fil": "May araw. Ang araw ay malaki. At sumisinag ang araw."
       }
     },
     {
@@ -246,29 +486,55 @@
       "words": [
         {
           "greek": "ποταμός",
-          "definition": "a river"
+          "definition": "a river",
+          "translations": {
+            "es": "un río",
+            "pl": "rzeka",
+            "fil": "isang ilog"
+          }
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμὸς",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         },
         {
           "greek": "ῥεῖ.",
-          "definition": "flows"
+          "definition": "flows",
+          "translations": {
+            "es": "fluye",
+            "pl": "płynie",
+            "fil": "umaagos"
+          }
         }
       ],
       "translation": "There is a river. The river flows.",
       "translations": {
         "es": "Hay un río. El río fluye.",
-        "pl": "Jest rzeka. Rzeka płynie."
+        "pl": "Jest rzeka. Rzeka płynie.",
+        "fil": "May ilog. Umaagos ang ilog."
       }
     },
     {
@@ -276,69 +542,145 @@
       "words": [
         {
           "greek": "ἄρτος",
-          "definition": "bread, a loaf"
+          "definition": "bread, a loaf",
+          "translations": {
+            "es": "pan, un pan",
+            "pl": "chleb, bochenek",
+            "fil": "tinapay"
+          }
         },
         {
           "greek": "ἐστίν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "καλός",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἄρτος.",
-          "definition": "bread"
+          "definition": "bread",
+          "translations": {
+            "es": "pan",
+            "pl": "chleb",
+            "fil": "tinapay"
+          }
         },
         {
           "greek": "λαμβάνει",
-          "definition": "takes"
+          "definition": "takes",
+          "translations": {
+            "es": "toma",
+            "pl": "bierze",
+            "fil": "kumuha"
+          }
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the (acc.)"
+          "definition": "the (acc.)",
+          "translations": {
+            "es": "el (acus.)",
+            "pl": "rodzajnik (bier.)",
+            "fil": "ang (akusatibo)"
+          }
         },
         {
           "greek": "καλὸν",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "ἄρτον",
-          "definition": "bread"
+          "definition": "bread",
+          "translations": {
+            "es": "pan",
+            "pl": "chleb",
+            "fil": "tinapay"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἐσθίει.",
-          "definition": "eats"
+          "definition": "eats",
+          "translations": {
+            "es": "come",
+            "pl": "je",
+            "fil": "kumakain"
+          }
         }
       ],
       "translation": "There is bread. The bread is good. So the farmer takes the good bread and eats.",
       "translations": {
         "es": "Hay pan. El pan es bueno. Así que el agricultor toma el buen pan y come.",
-        "pl": "Jest chleb. Chleb jest dobry. Rolnik więc bierze dobry chleb i je."
+        "pl": "Jest chleb. Chleb jest dobry. Rolnik więc bierze dobry chleb i je.",
+        "fil": "May tinapay. Ang tinapay ay mabuti. Kaya kinuha ng magsasaka ang mabuting tinapay at kumain."
       }
     },
     {
@@ -346,45 +688,91 @@
       "words": [
         {
           "greek": "καρπός",
-          "definition": "fruit"
+          "definition": "fruit",
+          "translations": {
+            "es": "fruta",
+            "pl": "owoc",
+            "fil": "bunga"
+          }
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "ἐσθίει",
-          "definition": "eats"
+          "definition": "eats",
+          "translations": {
+            "es": "come",
+            "pl": "je",
+            "fil": "kumakain"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "καρπὸν",
-          "definition": "fruit"
+          "definition": "fruit",
+          "translations": {
+            "es": "fruta",
+            "pl": "owoc",
+            "fil": "bunga"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "χαίρει·",
-          "definition": "rejoices"
+          "definition": "rejoices",
+          "translations": {
+            "es": "se alegra",
+            "pl": "cieszy się",
+            "fil": "nagagalak"
+          }
         }
       ],
       "translation": "There is fruit. The farmer eats the fruit and rejoices.",
       "translations": {
         "es": "Hay fruta. El agricultor come la fruta y se alegra.",
-        "pl": "Jest owoc. Rolnik je owoc i raduje się."
+        "pl": "Jest owoc. Rolnik je owoc i raduje się.",
+        "fil": "May bunga. Kumakain ang magsasaka ng bunga at nagagalak."
       }
     },
     {
@@ -392,69 +780,145 @@
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "ἔχει",
-          "definition": "has"
+          "definition": "has",
+          "translations": {
+            "es": "tiene",
+            "pl": "ma",
+            "fil": "mayroon"
+          }
         },
         {
           "greek": "οἶκον.",
-          "definition": "house (acc.)"
+          "definition": "house (acc.)",
+          "translations": {
+            "es": "casa (acus.)",
+            "pl": "dom (bier.)",
+            "fil": "bahay (akusatibo)"
+          }
         },
         {
           "greek": "ἔχει",
-          "definition": "he has"
+          "definition": "he has",
+          "translations": {
+            "es": "él tiene",
+            "pl": "on ma",
+            "fil": "mayroon siya"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μικρὸν",
-          "definition": "small"
+          "definition": "small",
+          "translations": {
+            "es": "pequeño",
+            "pl": "mały",
+            "fil": "maliit"
+          }
         },
         {
           "greek": "οἶκον.",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         },
         {
           "greek": "βλέπει",
-          "definition": "he sees"
+          "definition": "he sees",
+          "translations": {
+            "es": "él ve",
+            "pl": "on widzi",
+            "fil": "nakikita niya"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἶκον",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "φιλεῖ",
-          "definition": "loves"
+          "definition": "loves",
+          "translations": {
+            "es": "ama",
+            "pl": "kocha",
+            "fil": "minamahal"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἶκον.",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         }
       ],
       "translation": "The farmer has a house. He has the small house. He sees the house and loves the house.",
       "translations": {
         "es": "El agricultor tiene una casa. Tiene la casa pequeña. Ve la casa y ama la casa.",
-        "pl": "Rolnik ma dom. Ma ten mały dom. Widzi dom i kocha dom."
+        "pl": "Rolnik ma dom. Ma ten mały dom. Widzi dom i kocha dom.",
+        "fil": "May bahay ang magsasaka. Mayroon siyang maliit na bahay. Nakikita niya ang bahay at minamahal ang bahay."
       }
     },
     {
@@ -462,67 +926,147 @@
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "ἔχει",
-          "definition": "has"
+          "definition": "has",
+          "translations": {
+            "es": "tiene",
+            "pl": "ma",
+            "fil": "mayroon"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "also"
+          "definition": "also",
+          "translations": {
+            "es": "también",
+            "pl": "też",
+            "fil": "din"
+          }
         },
         {
           "greek": "ἀγρόν.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "μικρός",
-          "definition": "small"
+          "definition": "small",
+          "translations": {
+            "es": "pequeño",
+            "pl": "mały",
+            "fil": "maliit"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ἀλλὰ",
-          "definition": "but"
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
         },
         {
           "greek": "καλός.",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "ἔχει",
-          "definition": "has"
+          "definition": "has",
+          "translations": {
+            "es": "tiene",
+            "pl": "ma",
+            "fil": "mayroon"
+          }
         },
         {
           "greek": "μικρὸν",
-          "definition": "small"
+          "definition": "small",
+          "translations": {
+            "es": "pequeño",
+            "pl": "mały",
+            "fil": "maliit"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "καλὸν",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "ἀγρόν.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "σκάπτει",
@@ -530,21 +1074,37 @@
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρόν.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         }
       ],
       "translation": "The farmer also has a field. It is small but good. The farmer has a small and good field. So he digs the field.",
       "translations": {
         "es": "El agricultor también tiene un campo. Es pequeño pero bueno. El agricultor tiene un campo pequeño y bueno. Entonces cava el campo.",
-        "pl": "Rolnik ma też pole. Jest małe, ale dobre. Rolnik ma małe i dobre pole. Kopie więc pole."
+        "pl": "Rolnik ma też pole. Jest małe, ale dobre. Rolnik ma małe i dobre pole. Kopie więc pole.",
+        "fil": "May bukid din ang magsasaka. Maliit ito ngunit mabuti. Ang magsasaka ay may maliit at mabuting bukid. Kaya humuhukay siya ng bukid."
       }
     },
     {
@@ -552,89 +1112,190 @@
       "words": [
         {
           "greek": "λίθος",
-          "definition": "a stone"
+          "definition": "a stone",
+          "translations": {
+            "es": "una piedra",
+            "pl": "kamień",
+            "fil": "isang bato"
+          }
         },
         {
           "greek": "ἐστίν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "μέγας",
-          "definition": "great, large"
+          "definition": "great, large",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki, duży",
+            "fil": "dakila, malaki"
+          }
         },
         {
           "greek": "λίθος.",
-          "definition": "stone"
+          "definition": "stone",
+          "translations": {
+            "es": "piedra",
+            "pl": "kamień",
+            "fil": "bato"
+          }
         },
         {
           "greek": "βλέπει",
-          "definition": "sees"
+          "definition": "sees",
+          "translations": {
+            "es": "ve",
+            "pl": "widzi",
+            "fil": "nakikita"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μέγαν",
-          "definition": "great, large (acc.)"
+          "definition": "great, large (acc.)",
+          "translations": {
+            "es": "grande (acus.)",
+            "pl": "wielki (bier.)",
+            "fil": "dakila, malaki (akusatibo)"
+          }
         },
         {
           "greek": "λίθον.",
-          "definition": "stone"
+          "definition": "stone",
+          "translations": {
+            "es": "piedra",
+            "pl": "kamień",
+            "fil": "bato"
+          }
         },
         {
           "greek": "αἴρει",
-          "definition": "lifts"
+          "definition": "lifts",
+          "translations": {
+            "es": "levanta",
+            "pl": "podnosi",
+            "fil": "itinaas"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μέγαν",
-          "definition": "great"
+          "definition": "great",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki",
+            "fil": "dakila"
+          }
         },
         {
           "greek": "λίθον",
-          "definition": "stone"
+          "definition": "stone",
+          "translations": {
+            "es": "piedra",
+            "pl": "kamień",
+            "fil": "bato"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "φέρει.",
-          "definition": "carries"
+          "definition": "carries",
+          "translations": {
+            "es": "lleva",
+            "pl": "niesie",
+            "fil": "dinala"
+          }
         },
         {
           "greek": "ἰσχυρὸς",
-          "definition": "strong"
+          "definition": "strong",
+          "translations": {
+            "es": "fuerte",
+            "pl": "silny",
+            "fil": "malakas"
+          }
         },
         {
           "greek": "γάρ",
-          "definition": "for, because"
+          "definition": "for, because",
+          "translations": {
+            "es": "pues, porque",
+            "pl": "bowiem",
+            "fil": "sapagkat"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ἄνθρωπος.",
-          "definition": "man"
+          "definition": "man",
+          "translations": {
+            "es": "hombre",
+            "pl": "człowiek",
+            "fil": "lalaki"
+          }
         }
       ],
       "translation": "There is a stone. A large stone. The farmer sees the large stone. He lifts the large stone and carries it. For he is a strong man.",
       "translations": {
         "es": "Hay una piedra. Una piedra grande. El agricultor ve la piedra grande. Levanta la piedra grande y la lleva. Pues es un hombre fuerte.",
-        "pl": "Jest kamień. Wielki kamień. Rolnik widzi wielki kamień. Podnosi wielki kamień i niesie go. Bo jest silnym człowiekiem."
+        "pl": "Jest kamień. Wielki kamień. Rolnik widzi wielki kamień. Podnosi wielki kamień i niesie go. Bo jest silnym człowiekiem.",
+        "fil": "May bato. Isang malaking bato. Nakikita ng magsasaka ang malaking bato. Itinaas niya ang malaking bato at dinala ito. Sapagkat siya ay isang malakas na tao."
       }
     },
     {
@@ -643,311 +1304,696 @@
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "λέγει·",
-          "definition": "says"
+          "definition": "says",
+          "translations": {
+            "es": "dice",
+            "pl": "mówi",
+            "fil": "sinasabi"
+          }
         },
         {
           "greek": "«γεωργὸς",
-          "definition": "a farmer"
+          "definition": "a farmer",
+          "translations": {
+            "es": "un agricultor",
+            "pl": "rolnik",
+            "fil": "isang magsasaka"
+          }
         },
         {
           "greek": "μὲν",
-          "definition": "on the one hand (μέν...δέ)"
+          "definition": "on the one hand (μέν...δέ)",
+          "translations": {
+            "es": "por un lado (μέν...δέ)",
+            "pl": "z jednej strony (μέν...δέ)",
+            "fil": "sa isang banda (μέν...δέ)"
+          }
         },
         {
           "greek": "εἰμι.",
-          "definition": "I am"
+          "definition": "I am",
+          "translations": {
+            "es": "yo soy",
+            "pl": "jestem",
+            "fil": "ako ay"
+          }
         },
         {
           "greek": "ἀγαθὸς",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἰσχυρὸς",
-          "definition": "strong"
+          "definition": "strong",
+          "translations": {
+            "es": "fuerte",
+            "pl": "silny",
+            "fil": "malakas"
+          }
         },
         {
           "greek": "ἄνθρωπός",
-          "definition": "person"
+          "definition": "person",
+          "translations": {
+            "es": "persona",
+            "pl": "osoba",
+            "fil": "tao"
+          }
         },
         {
           "greek": "εἰμι.",
-          "definition": "I am"
+          "definition": "I am",
+          "translations": {
+            "es": "yo soy",
+            "pl": "jestem",
+            "fil": "ako ay"
+          }
         },
         {
           "greek": "ἐγὼ",
-          "definition": "I (emphatic)"
+          "definition": "I (emphatic)",
+          "translations": {
+            "es": "yo (enfático)",
+            "pl": "ja (podkreślone)",
+            "fil": "ako (diin)"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and, but (δέ)"
+          "definition": "and, but (δέ)",
+          "translations": {
+            "es": "y, pero (δέ)",
+            "pl": "i, ale (δέ)",
+            "fil": "at, ngunit (δέ)"
+          }
         },
         {
           "greek": "ἔχω",
-          "definition": "I have"
+          "definition": "I have",
+          "translations": {
+            "es": "yo tengo",
+            "pl": "mam",
+            "fil": "mayroon ako"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἶκον.",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "μέγας",
-          "definition": "great"
+          "definition": "great",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki",
+            "fil": "dakila"
+          }
         },
         {
           "greek": "ἐστίν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἶκος,",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         },
         {
           "greek": "ἀλλὰ",
-          "definition": "but"
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
         },
         {
           "greek": "καλός.",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "ἔχω",
-          "definition": "I have"
+          "definition": "I have",
+          "translations": {
+            "es": "yo tengo",
+            "pl": "mam",
+            "fil": "mayroon ako"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "also"
+          "definition": "also",
+          "translations": {
+            "es": "también",
+            "pl": "też",
+            "fil": "din"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρόν·",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "μικρὸς",
-          "definition": "small"
+          "definition": "small",
+          "translations": {
+            "es": "pequeño",
+            "pl": "mały",
+            "fil": "maliit"
+          }
         },
         {
           "greek": "ἀλλὰ",
-          "definition": "but"
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
         },
         {
           "greek": "καλὸς",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρός.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "φιλῶ",
-          "definition": "I love"
+          "definition": "I love",
+          "translations": {
+            "es": "yo amo",
+            "pl": "kocham",
+            "fil": "minamahal ko"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἶκον",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρόν.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "σκάπτω",
-          "definition": "I dig"
+          "definition": "I dig",
+          "translations": {
+            "es": "yo cavo",
+            "pl": "kopię",
+            "fil": "humuhukay ako"
+          }
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρόν.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "βλέπω",
-          "definition": "I see"
+          "definition": "I see",
+          "translations": {
+            "es": "yo veo",
+            "pl": "widzę",
+            "fil": "nakikita ko"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μέγαν",
-          "definition": "great"
+          "definition": "great",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki",
+            "fil": "dakila"
+          }
         },
         {
           "greek": "λίθον.",
-          "definition": "stone"
+          "definition": "stone",
+          "translations": {
+            "es": "piedra",
+            "pl": "kamień",
+            "fil": "bato"
+          }
         },
         {
           "greek": "αἴρω",
-          "definition": "I lift"
+          "definition": "I lift",
+          "translations": {
+            "es": "yo levanto",
+            "pl": "podnoszę",
+            "fil": "itinaas ko"
+          }
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λίθον",
-          "definition": "stone"
+          "definition": "stone",
+          "translations": {
+            "es": "piedra",
+            "pl": "kamień",
+            "fil": "bato"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "φέρω.",
-          "definition": "I carry"
+          "definition": "I carry",
+          "translations": {
+            "es": "yo llevo",
+            "pl": "niosę",
+            "fil": "dinadala ko"
+          }
         },
         {
           "greek": "ἰσχυρὸς",
-          "definition": "strong"
+          "definition": "strong",
+          "translations": {
+            "es": "fuerte",
+            "pl": "silny",
+            "fil": "malakas"
+          }
         },
         {
           "greek": "γάρ",
-          "definition": "for"
+          "definition": "for",
+          "translations": {
+            "es": "pues",
+            "pl": "bowiem",
+            "fil": "sapagkat"
+          }
         },
         {
           "greek": "εἰμι.",
-          "definition": "I am"
+          "definition": "I am",
+          "translations": {
+            "es": "yo soy",
+            "pl": "jestem",
+            "fil": "ako ay"
+          }
         },
         {
           "greek": "βλέπω",
-          "definition": "I see"
+          "definition": "I see",
+          "translations": {
+            "es": "yo veo",
+            "pl": "widzę",
+            "fil": "nakikita ko"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οὐρανὸν",
-          "definition": "sky"
+          "definition": "sky",
+          "translations": {
+            "es": "cielo",
+            "pl": "niebo",
+            "fil": "langit"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μέγαν",
-          "definition": "great"
+          "definition": "great",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki",
+            "fil": "dakila"
+          }
         },
         {
           "greek": "ἥλιον.",
-          "definition": "sun"
+          "definition": "sun",
+          "translations": {
+            "es": "sol",
+            "pl": "słońce",
+            "fil": "araw"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἥλιος",
-          "definition": "sun"
+          "definition": "sun",
+          "translations": {
+            "es": "sol",
+            "pl": "słońce",
+            "fil": "araw"
+          }
         },
         {
           "greek": "λάμπει",
-          "definition": "shines"
+          "definition": "shines",
+          "translations": {
+            "es": "brilla",
+            "pl": "świeci",
+            "fil": "sumisinag"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "καλός",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἄρτον",
-          "definition": "bread"
+          "definition": "bread",
+          "translations": {
+            "es": "pan",
+            "pl": "chleb",
+            "fil": "tinapay"
+          }
         },
         {
           "greek": "ἔχω",
-          "definition": "I have"
+          "definition": "I have",
+          "translations": {
+            "es": "yo tengo",
+            "pl": "mam",
+            "fil": "mayroon ako"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "καρπόν.",
-          "definition": "fruit"
+          "definition": "fruit",
+          "translations": {
+            "es": "fruta",
+            "pl": "owoc",
+            "fil": "bunga"
+          }
         },
         {
           "greek": "ἐσθίω",
@@ -955,7 +2001,12 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "χαίρω.",
@@ -963,33 +2014,64 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "θεὸς",
-          "definition": "God"
+          "definition": "God",
+          "translations": {
+            "es": "Dios",
+            "pl": "Bóg",
+            "fil": "Diyos"
+          }
         },
         {
           "greek": "ἀγαθὸς",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "πιστός",
-          "definition": "faithful"
+          "definition": "faithful",
+          "translations": {
+            "es": "fiel",
+            "pl": "wierny",
+            "fil": "tapat"
+          }
         },
         {
           "greek": "ἐστιν.»",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         }
       ],
       "translation": "The farmer says: 'I am a farmer. I am a good and strong person. I have the house. The house is not large, but good. I also have the field — small but good. I love the house and the field. So I dig the field. I see the large stone. So I lift the stone and carry it. For I am strong. I see the sky and the great sun. The sun shines and is beautiful. I have bread and fruit. I eat and rejoice. God is good and faithful.'",
       "translations": {
         "es": "El agricultor dice: «Soy un agricultor. Soy una persona buena y fuerte. Tengo la casa. La casa no es grande, sino buena. También tengo el campo — pequeño pero bueno. Amo la casa y el campo. Así que cavo el campo. Veo la piedra grande. Así que levanto la piedra y la llevo. Pues soy fuerte. Veo el cielo y el gran sol. El sol brilla y es hermoso. Tengo pan y fruta. Como y me alegro. Dios es bueno y fiel.»",
-        "pl": "Rolnik mówi: «Jestem rolnikiem. Jestem dobrym i silnym człowiekiem. Mam ten dom. Dom nie jest wielki, ale dobry. Mam też pole — małe, ale dobre. Kocham dom i pole. Kopię więc pole. Widzę wielki kamień. Podnoszę więc kamień i niosę go. Bo jestem silny. Widzę niebo i wielkie słońce. Słońce świeci i jest piękne. Mam chleb i owoce. Jem i raduję się. Bóg jest dobry i wierny.»"
+        "pl": "Rolnik mówi: «Jestem rolnikiem. Jestem dobrym i silnym człowiekiem. Mam ten dom. Dom nie jest wielki, ale dobry. Mam też pole — małe, ale dobre. Kocham dom i pole. Kopię więc pole. Widzę wielki kamień. Podnoszę więc kamień i niosę go. Bo jestem silny. Widzę niebo i wielkie słońce. Słońce świeci i jest piękne. Mam chleb i owoce. Jem i raduję się. Bóg jest dobry i wierny.»",
+        "fil": "Sinabi ng magsasaka: 'Ako ay isang magsasaka. Ako ay isang mabuti at malakas na tao. Mayroon akong bahay. Ang bahay ay hindi malaki, ngunit mabuti. Mayroon din akong bukid — maliit ngunit mabuti. Mahal ko ang bahay at ang bukid. Kaya humuhukay ako ng bukid. Nakikita ko ang malaking bato. Kaya itinaas ko ang bato at dinala ito. Sapagkat ako ay malakas. Nakikita ko ang langit at ang malaking araw. Sumisinag ang araw at maganda ito. Mayroon akong tinapay at bunga. Kumakain ako at nagagalak ako. Ang Diyos ay mabuti at tapat.'"
       }
     },
     {
@@ -998,19 +2080,39 @@
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "καθίζει",
-          "definition": "sits"
+          "definition": "sits",
+          "translations": {
+            "es": "se sienta",
+            "pl": "siada",
+            "fil": "nakaupo"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "μένει",
@@ -1018,101 +2120,217 @@
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the (dat.)"
+          "definition": "the (dat.)",
+          "translations": {
+            "es": "el (dat.)",
+            "pl": "rodzajnik (cel.)",
+            "fil": "ang (dativo)"
+          }
         },
         {
           "greek": "οἴκῳ.",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "λαμβάνει",
-          "definition": "takes"
+          "definition": "takes",
+          "translations": {
+            "es": "toma",
+            "pl": "bierze",
+            "fil": "kumuha"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἄρτον",
-          "definition": "bread"
+          "definition": "bread",
+          "translations": {
+            "es": "pan",
+            "pl": "chleb",
+            "fil": "tinapay"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἴκῳ",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἐσθίει.",
-          "definition": "eats"
+          "definition": "eats",
+          "translations": {
+            "es": "come",
+            "pl": "je",
+            "fil": "kumakain"
+          }
         },
         {
           "greek": "ἔπειτα",
-          "definition": "then, next"
+          "definition": "then, next",
+          "translations": {
+            "es": "luego, después",
+            "pl": "potem",
+            "fil": "pagkatapos"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἐκβαίνει",
-          "definition": "goes out"
+          "definition": "goes out",
+          "translations": {
+            "es": "sale",
+            "pl": "wychodzi",
+            "fil": "lumalabas"
+          }
         },
         {
           "greek": "ἐκ",
-          "definition": "out of"
+          "definition": "out of",
+          "translations": {
+            "es": "fuera de",
+            "pl": "z",
+            "fil": "mula sa"
+          }
         },
         {
           "greek": "τοῦ",
-          "definition": "the (gen.)"
+          "definition": "the (gen.)",
+          "translations": {
+            "es": "el (gen.)",
+            "pl": "rodzajnik (dop.)",
+            "fil": "ang (genitivo)"
+          }
         },
         {
           "greek": "οἴκου",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "περιπατεῖ",
-          "definition": "walks"
+          "definition": "walks",
+          "translations": {
+            "es": "camina",
+            "pl": "chodzi",
+            "fil": "lumalakad"
+          }
         },
         {
           "greek": "πρὸς",
-          "definition": "toward"
+          "definition": "toward",
+          "translations": {
+            "es": "hacia",
+            "pl": "ku",
+            "fil": "patungo sa"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρόν.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         }
       ],
       "translation": "The farmer sits and stays in the house. He takes the bread in the house and eats. Then he goes out of the house and walks toward the field.",
       "translations": {
         "es": "El agricultor se sienta y permanece en la casa. Toma el pan en la casa y come. Luego sale de la casa y camina hacia el campo.",
-        "pl": "Rolnik siada i pozostaje w domu. Bierze chleb w domu i je. Następnie wychodzi z domu i idzie ku polu."
+        "pl": "Rolnik siada i pozostaje w domu. Bierze chleb w domu i je. Następnie wychodzi z domu i idzie ku polu.",
+        "fil": "Nakaupo ang magsasaka at nananatili sa bahay. Kinukuha niya ang tinapay sa bahay at kumakain. Pagkatapos lumalabas siya mula sa bahay at lumalakad patungo sa bukid."
       }
     },
     {
@@ -1120,19 +2338,39 @@
       "words": [
         {
           "greek": "σήμερον",
-          "definition": "today"
+          "definition": "today",
+          "translations": {
+            "es": "hoy",
+            "pl": "dziś",
+            "fil": "ngayon"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "σκάπτει",
@@ -1140,73 +2378,154 @@
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρόν.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἥλιος",
-          "definition": "sun"
+          "definition": "sun",
+          "translations": {
+            "es": "sol",
+            "pl": "słońce",
+            "fil": "araw"
+          }
         },
         {
           "greek": "λάμπει",
-          "definition": "shines"
+          "definition": "shines",
+          "translations": {
+            "es": "brilla",
+            "pl": "świeci",
+            "fil": "sumisinag"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οὐρανῷ",
-          "definition": "sky"
+          "definition": "sky",
+          "translations": {
+            "es": "cielo",
+            "pl": "niebo",
+            "fil": "langit"
+          }
         },
         {
           "greek": "ὅτε",
-          "definition": "when"
+          "definition": "when",
+          "translations": {
+            "es": "cuando",
+            "pl": "kiedy",
+            "fil": "kapag"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "σκάπτει",
-          "definition": "digs"
+          "definition": "digs",
+          "translations": {
+            "es": "cava",
+            "pl": "kopie",
+            "fil": "humuhukay"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         }
       ],
       "translation": "Today he digs the field in the field. The sun shines in the sky when the farmer digs in the field.",
       "translations": {
         "es": "Hoy cava el campo. El sol brilla en el cielo cuando el agricultor cava en el campo.",
-        "pl": "Dziś kopie pole. Słońce świeci na niebie, gdy rolnik kopie na polu."
+        "pl": "Dziś kopie pole. Słońce świeci na niebie, gdy rolnik kopie na polu.",
+        "fil": "Ngayon ay humuhukay siya ng bukid. Sumisinag ang araw sa langit habang humuhukay ang magsasaka sa bukid."
       }
     },
     {
@@ -1218,129 +2537,280 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μέγαν",
-          "definition": "great, large"
+          "definition": "great, large",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki, duży",
+            "fil": "dakila, malaki"
+          }
         },
         {
           "greek": "λίθον",
-          "definition": "stone"
+          "definition": "stone",
+          "translations": {
+            "es": "piedra",
+            "pl": "kamień",
+            "fil": "bato"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "περιπατεῖ",
-          "definition": "walks"
+          "definition": "walks",
+          "translations": {
+            "es": "camina",
+            "pl": "chodzi",
+            "fil": "lumalakad"
+          }
         },
         {
           "greek": "πρὸς",
-          "definition": "toward"
+          "definition": "toward",
+          "translations": {
+            "es": "hacia",
+            "pl": "ku",
+            "fil": "patungo sa"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λίθον",
-          "definition": "stone"
+          "definition": "stone",
+          "translations": {
+            "es": "piedra",
+            "pl": "kamień",
+            "fil": "bato"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "ἔπειτα",
-          "definition": "then"
+          "definition": "then",
+          "translations": {
+            "es": "luego",
+            "pl": "potem",
+            "fil": "pagkatapos"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "σκάπτει",
-          "definition": "digs"
+          "definition": "digs",
+          "translations": {
+            "es": "cava",
+            "pl": "kopie",
+            "fil": "humuhukay"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λίθον",
-          "definition": "stone"
+          "definition": "stone",
+          "translations": {
+            "es": "piedra",
+            "pl": "kamień",
+            "fil": "bato"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "αἴρει",
-          "definition": "lifts"
+          "definition": "lifts",
+          "translations": {
+            "es": "levanta",
+            "pl": "podnosi",
+            "fil": "itinaas"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "φέρει",
-          "definition": "carries"
+          "definition": "carries",
+          "translations": {
+            "es": "lleva",
+            "pl": "niesie",
+            "fil": "dinala"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λίθον",
-          "definition": "stone"
+          "definition": "stone",
+          "translations": {
+            "es": "piedra",
+            "pl": "kamień",
+            "fil": "bato"
+          }
         },
         {
           "greek": "ἐκ",
-          "definition": "out of"
+          "definition": "out of",
+          "translations": {
+            "es": "fuera de",
+            "pl": "z",
+            "fil": "mula sa"
+          }
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγροῦ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         }
       ],
       "translation": "The farmer finds the large stone in the field. He walks toward the stone in the field. Then he digs the stone and lifts and carries the stone out of the field.",
       "translations": {
         "es": "El agricultor encuentra la piedra grande en el campo. Camina hacia la piedra en el campo. Luego cava la piedra, la levanta y la lleva fuera del campo.",
-        "pl": "Rolnik znajduje wielki kamień na polu. Idzie ku kamieniowi na polu. Następnie odkopuje kamień, podnosi go i wynosi z pola."
+        "pl": "Rolnik znajduje wielki kamień na polu. Idzie ku kamieniowi na polu. Następnie odkopuje kamień, podnosi go i wynosi z pola.",
+        "fil": "Nahanap ng magsasaka ang malaking bato sa bukid. Lumalakad siya patungo sa bato sa bukid. Pagkatapos ay humukay siya ng bato at itinaas at dinala ang bato mula sa bukid."
       }
     },
     {
@@ -1348,27 +2818,57 @@
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "πόνος",
-          "definition": "toil, labor"
+          "definition": "toil, labor",
+          "translations": {
+            "es": "trabajo, fatiga",
+            "pl": "trud, praca",
+            "fil": "pagsisikap"
+          }
         },
         {
           "greek": "χαλεπός",
-          "definition": "difficult, hard"
+          "definition": "difficult, hard",
+          "translations": {
+            "es": "difícil, duro",
+            "pl": "trudny, ciężki",
+            "fil": "mahirap"
+          }
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "ῥᾴδιος.",
-          "definition": "easy"
+          "definition": "easy",
+          "translations": {
+            "es": "fácil",
+            "pl": "łatwy",
+            "fil": "madali"
+          }
         },
         {
           "greek": "φιλεῖ",
@@ -1376,23 +2876,48 @@
         },
         {
           "greek": "δὲ",
-          "definition": "but"
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρόν,",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "ἀλλὰ",
-          "definition": "but"
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "πόνος",
@@ -1404,31 +2929,66 @@
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "βίος",
-          "definition": "life"
+          "definition": "life",
+          "translations": {
+            "es": "vida",
+            "pl": "życie",
+            "fil": "buhay"
+          }
         },
         {
           "greek": "χαλεπός",
@@ -1436,21 +2996,37 @@
         },
         {
           "greek": "ἐστιν,",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "ῥᾴδιος.",
-          "definition": "easy"
+          "definition": "easy",
+          "translations": {
+            "es": "fácil",
+            "pl": "łatwy",
+            "fil": "madali"
+          }
         }
       ],
       "translation": "The toil is difficult. Not easy. He loves the field, but the toil is difficult in the field. Therefore life is difficult, not easy.",
       "translations": {
         "es": "El trabajo es difícil. No fácil. Él ama el campo, pero el trabajo es difícil en el campo. Por lo tanto la vida es difícil, no fácil.",
-        "pl": "Trud jest ciężki. Nie łatwy. Kocha pole, ale trud na polu jest ciężki. Dlatego życie jest ciężkie, nie łatwe."
+        "pl": "Trud jest ciężki. Nie łatwy. Kocha pole, ale trud na polu jest ciężki. Dlatego życie jest ciężkie, nie łatwe.",
+        "fil": "Mahirap ang pagsisikap. Hindi madali. Minamahal niya ang bukid, ngunit mahirap ang pagsisikap sa bukid. Kaya ang buhay ay mahirap, hindi madali."
       }
     },
     {
@@ -1458,7 +3034,12 @@
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μὲν",
@@ -1466,67 +3047,147 @@
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "καθίζει",
-          "definition": "sits"
+          "definition": "sits",
+          "translations": {
+            "es": "se sienta",
+            "pl": "siada",
+            "fil": "nakaupo"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἡσυχάζει.",
-          "definition": "rests, is quiet"
+          "definition": "rests, is quiet",
+          "translations": {
+            "es": "descansa, está tranquilo",
+            "pl": "odpoczywa",
+            "fil": "nagpapahinga"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "μέγας",
-          "definition": "great"
+          "definition": "great",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki",
+            "fil": "dakila"
+          }
         },
         {
           "greek": "ἥλιος",
-          "definition": "sun"
+          "definition": "sun",
+          "translations": {
+            "es": "sol",
+            "pl": "słońce",
+            "fil": "araw"
+          }
         },
         {
           "greek": "λάμπει",
-          "definition": "shines"
+          "definition": "shines",
+          "translations": {
+            "es": "brilla",
+            "pl": "świeci",
+            "fil": "sumisinag"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οὐρανῷ.",
-          "definition": "sky"
+          "definition": "sky",
+          "translations": {
+            "es": "cielo",
+            "pl": "niebo",
+            "fil": "langit"
+          }
         },
         {
           "greek": "ὅτε",
-          "definition": "when"
+          "definition": "when",
+          "translations": {
+            "es": "cuando",
+            "pl": "kiedy",
+            "fil": "kapag"
+          }
         },
         {
           "greek": "ἡσυχάζει,",
@@ -1534,49 +3195,100 @@
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "χόρτον",
-          "definition": "grass"
+          "definition": "grass",
+          "translations": {
+            "es": "hierba",
+            "pl": "trawa",
+            "fil": "damo"
+          }
         },
         {
           "greek": "βλέπει",
-          "definition": "he sees"
+          "definition": "he sees",
+          "translations": {
+            "es": "él ve",
+            "pl": "on widzi",
+            "fil": "nakikita niya"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἀκούει",
-          "definition": "hears"
+          "definition": "hears",
+          "translations": {
+            "es": "escucha",
+            "pl": "słyszy",
+            "fil": "naririnig"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμόν.",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         }
       ],
       "translation": "The farmer sits in the field and rests. The great sun shines in the sky. When he rests, he sees the grass in the field and hears the river.",
       "translations": {
         "es": "El agricultor se sienta en el campo y descansa. El gran sol brilla en el cielo. Cuando descansa, ve la hierba en el campo y oye el río.",
-        "pl": "Rolnik siada na polu i odpoczywa. Wielkie słońce świeci na niebie. Gdy odpoczywa, widzi trawę na polu i słyszy rzekę."
+        "pl": "Rolnik siada na polu i odpoczywa. Wielkie słońce świeci na niebie. Gdy odpoczywa, widzi trawę na polu i słyszy rzekę.",
+        "fil": "Nakaupo ang magsasaka sa bukid at nagpapahinga. Ang malaking araw ay sumisinag sa langit. Habang nagpapahinga siya, nakikita niya ang damo sa bukid at naririnig ang ilog."
       }
     },
     {
@@ -1585,23 +3297,48 @@
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "λέγει·",
-          "definition": "says"
+          "definition": "says",
+          "translations": {
+            "es": "dice",
+            "pl": "mówi",
+            "fil": "sinasabi"
+          }
         },
         {
           "greek": "«ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "πόνος",
@@ -1613,27 +3350,57 @@
         },
         {
           "greek": "ἐστιν,",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ἀλλὰ",
-          "definition": "but"
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "βίος",
-          "definition": "life"
+          "definition": "life",
+          "translations": {
+            "es": "vida",
+            "pl": "życie",
+            "fil": "buhay"
+          }
         },
         {
           "greek": "καλός",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὅτι",
@@ -1641,27 +3408,57 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "θεός",
-          "definition": "God"
+          "definition": "God",
+          "translations": {
+            "es": "Dios",
+            "pl": "Bóg",
+            "fil": "Diyos"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ἀγαθὸς",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "πιστός.",
-          "definition": "faithful"
+          "definition": "faithful",
+          "translations": {
+            "es": "fiel",
+            "pl": "wierny",
+            "fil": "tapat"
+          }
         },
         {
           "greek": "ἀληθῶς",
@@ -1669,109 +3466,235 @@
         },
         {
           "greek": "ἀγαθός",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "θεός.",
-          "definition": "God"
+          "definition": "God",
+          "translations": {
+            "es": "Dios",
+            "pl": "Bóg",
+            "fil": "Diyos"
+          }
         },
         {
           "greek": "βλέπω",
-          "definition": "I see"
+          "definition": "I see",
+          "translations": {
+            "es": "yo veo",
+            "pl": "widzę",
+            "fil": "nakikita ko"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "καλὸν",
-          "definition": "good, beautiful"
+          "definition": "good, beautiful",
+          "translations": {
+            "es": "bueno, hermoso",
+            "pl": "dobry, piękny",
+            "fil": "mabuti, maganda"
+          }
         },
         {
           "greek": "χόρτον",
-          "definition": "grass"
+          "definition": "grass",
+          "translations": {
+            "es": "hierba",
+            "pl": "trawa",
+            "fil": "damo"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἀκούω",
-          "definition": "I hear"
+          "definition": "I hear",
+          "translations": {
+            "es": "escucho",
+            "pl": "słyszę",
+            "fil": "naririnig ako"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμόν.",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "θεὸς",
-          "definition": "God"
+          "definition": "God",
+          "translations": {
+            "es": "Dios",
+            "pl": "Bóg",
+            "fil": "Diyos"
+          }
         },
         {
           "greek": "ποιεῖ",
-          "definition": "makes"
+          "definition": "makes",
+          "translations": {
+            "es": "hace",
+            "pl": "tworzy",
+            "fil": "ginagawa"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "καλὸν",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "χόρτον",
-          "definition": "grass"
+          "definition": "grass",
+          "translations": {
+            "es": "hierba",
+            "pl": "trawa",
+            "fil": "damo"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμόν.",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         },
         {
           "greek": "εὐχαριστῶ",
-          "definition": "I give thanks"
+          "definition": "I give thanks",
+          "translations": {
+            "es": "doy gracias",
+            "pl": "dziękuję",
+            "fil": "nagpapasalamat"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "to the"
+          "definition": "to the",
+          "translations": {
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
+          }
         },
         {
           "greek": "θεῷ.»",
-          "definition": "God (dat.)"
+          "definition": "God (dat.)",
+          "translations": {
+            "es": "a Dios (dat.)",
+            "pl": "Bogu (cel.)",
+            "fil": "sa Diyos (dativo)"
+          }
         }
       ],
       "translation": "So the farmer says: 'The toil is difficult, but life is good because God is good and faithful. Truly God is good. I see the beautiful grass and hear the river. God makes the beautiful grass and the river. I give thanks to God.'",
       "translations": {
         "es": "Entonces el agricultor dice: «El trabajo es difícil, pero la vida es buena porque Dios es bueno y fiel. Verdaderamente Dios es bueno. Veo la hermosa hierba y oigo el río. Dios hace la hermosa hierba y el río. Doy gracias a Dios.»",
-        "pl": "Rolnik mówi więc: «Trud jest ciężki, ale życie jest dobre, bo Bóg jest dobry i wierny. Zaprawdę dobry jest Bóg. Widzę piękną trawę i słyszę rzekę. Bóg tworzy piękną trawę i rzekę. Dziękuję Bogu.»"
+        "pl": "Rolnik mówi więc: «Trud jest ciężki, ale życie jest dobre, bo Bóg jest dobry i wierny. Zaprawdę dobry jest Bóg. Widzę piękną trawę i słyszę rzekę. Bóg tworzy piękną trawę i rzekę. Dziękuję Bogu.»",
+        "fil": "Sinabi ng magsasaka: 'Mahirap ang pagsisikap, ngunit ang buhay ay mabuti dahil ang Diyos ay mabuti at tapat. Tunay na mabuti ang Diyos. Nakikita ko ang magandang damo at naririnig ang ilog. Ginagawa ng Diyos ang magandang damo at ang ilog. Nagpapasalamat ako sa Diyos.'"
       }
     },
     {
@@ -1779,7 +3702,12 @@
       "words": [
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἐκβαίνει",
@@ -1787,43 +3715,93 @@
         },
         {
           "greek": "ἐκ",
-          "definition": "out of"
+          "definition": "out of",
+          "translations": {
+            "es": "fuera de",
+            "pl": "z",
+            "fil": "mula sa"
+          }
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγροῦ",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "περιπατεῖ",
-          "definition": "walks"
+          "definition": "walks",
+          "translations": {
+            "es": "camina",
+            "pl": "chodzi",
+            "fil": "lumalakad"
+          }
         },
         {
           "greek": "πρὸς",
-          "definition": "toward"
+          "definition": "toward",
+          "translations": {
+            "es": "hacia",
+            "pl": "ku",
+            "fil": "patungo sa"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἶκον.",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         },
         {
           "greek": "νῦν",
-          "definition": "now"
+          "definition": "now",
+          "translations": {
+            "es": "ahora",
+            "pl": "teraz",
+            "fil": "ngayon"
+          }
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "σκάπτει",
@@ -1831,11 +3809,21 @@
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρὸν",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "οὐδὲ",
@@ -1843,35 +3831,75 @@
         },
         {
           "greek": "φέρει",
-          "definition": "carries"
+          "definition": "carries",
+          "translations": {
+            "es": "lleva",
+            "pl": "niesie",
+            "fil": "dinala"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μέγαν",
-          "definition": "great"
+          "definition": "great",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki",
+            "fil": "dakila"
+          }
         },
         {
           "greek": "λίθον·",
-          "definition": "stone"
+          "definition": "stone",
+          "translations": {
+            "es": "piedra",
+            "pl": "kamień",
+            "fil": "bato"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "but"
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἴκῳ",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         },
         {
           "greek": "καθίζει",
@@ -1879,25 +3907,46 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἡσυχάζει",
-          "definition": "rests"
+          "definition": "rests",
+          "translations": {
+            "es": "descansa",
+            "pl": "odpoczywa",
+            "fil": "nagpapahinga"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "χαίρει.",
-          "definition": "rejoices"
+          "definition": "rejoices",
+          "translations": {
+            "es": "se alegra",
+            "pl": "cieszy się",
+            "fil": "nagagalak"
+          }
         }
       ],
       "translation": "And he goes out of the field and walks toward the house. Now he does not dig the field nor carry the great stone; but in the house he sits and rests and rejoices.",
       "translations": {
         "es": "Y sale del campo y camina hacia la casa. Ahora no cava el campo ni lleva la piedra grande; sino que en la casa se sienta, descansa y se alegra.",
-        "pl": "Wychodzi z pola i idzie ku domowi. Teraz nie kopie pola ani nie niesie wielkiego kamienia; lecz w domu siada, odpoczywa i raduje się."
+        "pl": "Wychodzi z pola i idzie ku domowi. Teraz nie kopie pola ani nie niesie wielkiego kamienia; lecz w domu siada, odpoczywa i raduje się.",
+        "fil": "At lumalabas siya mula sa bukid at lumalakad patungo sa bahay. Ngayon ay hindi na siya humuhukay ng bukid o nagdadala ng malaking bato; kundi sa bahay ay nakaupo, nagpapahinga at nagagalak siya."
       }
     }
   ],

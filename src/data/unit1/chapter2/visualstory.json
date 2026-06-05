@@ -8,7 +8,12 @@
       "scene": "Teaches: κῆπος, ἐγγύς — The garden is near the house.",
       "greekCaption": "ὁ κῆπος ἐγγύς ἐστιν τοῦ οἴκου.",
       "englishCaption": "The garden is near the house.",
-      "image": "story-images/ch2a/1.jpeg"
+      "image": "story-images/ch2a/1.jpeg",
+      "captionTranslations": {
+        "es": "El jardín está cerca de la casa.",
+        "pl": "Ogród jest blisko domu.",
+        "fil": "Ang hardin ay malapit sa bahay."
+      }
     },
     {
       "id": 2,
@@ -16,7 +21,12 @@
       "scene": "Teaches: λάχανον — A vegetable grows in the garden.",
       "greekCaption": "λάχανόν ἐστιν ἐν τῷ κήπῳ.",
       "englishCaption": "A vegetable is in the garden.",
-      "image": "story-images/ch2a/2.jpeg"
+      "image": "story-images/ch2a/2.jpeg",
+      "captionTranslations": {
+        "es": "Hay una verdura en el jardín.",
+        "pl": "W ogrodzie jest warzywo.",
+        "fil": "May gulay sa hardin."
+      }
     },
     {
       "id": 3,
@@ -24,7 +34,12 @@
       "scene": "Teaches: φυτεύω — The farmer plants the vegetable in the garden.",
       "greekCaption": "ὁ γεωργὸς φυτεύει τὸ λάχανον ἐν τῷ κήπῳ.",
       "englishCaption": "The farmer plants the vegetable in the garden.",
-      "image": "story-images/ch2a/3.jpeg"
+      "image": "story-images/ch2a/3.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor planta la verdura en el jardín.",
+        "pl": "Rolnik sadzi warzywo w ogrodzie.",
+        "fil": "Nagtatanim ang magsasaka ng gulay sa hardin."
+      }
     },
     {
       "id": 4,
@@ -32,7 +47,12 @@
       "scene": "Teaches: λαμβάνω, ἐσθίω, ἐν τῷ οἴκῳ — He takes the vegetable and eats inside the house.",
       "greekCaption": "λαμβάνει τὸ λάχανον καὶ ἐσθίει ἐν τῷ οἴκῳ.",
       "englishCaption": "He takes the vegetable and eats in the house.",
-      "image": "story-images/ch2a/4.jpeg"
+      "image": "story-images/ch2a/4.jpeg",
+      "captionTranslations": {
+        "es": "Toma la verdura y come en la casa.",
+        "pl": "Bierze warzywo i je w domu.",
+        "fil": "Kinuha niya ang gulay at kumain sa bahay."
+      }
     },
     {
       "id": 5,
@@ -40,7 +60,12 @@
       "scene": "Teaches: δένδρον, μέγα — A great tree stands in the field.",
       "greekCaption": "μέγα δένδρον ἐστὶν ἐν τῷ ἀγρῷ.",
       "englishCaption": "A great tree is in the field.",
-      "image": "story-images/ch2a/5.jpeg"
+      "image": "story-images/ch2a/5.jpeg",
+      "captionTranslations": {
+        "es": "Hay un gran árbol en el campo.",
+        "pl": "W polu jest wielkie drzewo.",
+        "fil": "May malaking puno sa bukid."
+      }
     },
     {
       "id": 6,
@@ -48,7 +73,12 @@
       "scene": "Teaches: καρπός (plural) — Fruits are on the tree.",
       "greekCaption": "καρποὶ ἐπὶ τοῦ δένδρου εἰσίν.",
       "englishCaption": "Fruits are on the tree.",
-      "image": "story-images/ch2a/6.jpeg"
+      "image": "story-images/ch2a/6.jpeg",
+      "captionTranslations": {
+        "es": "Hay frutas en el árbol.",
+        "pl": "Na drzewie są owoce.",
+        "fil": "May mga bunga sa puno."
+      }
     },
     {
       "id": 7,
@@ -56,7 +86,12 @@
       "scene": "Teaches: κλάδος, ἐπί — The branches of the tree are great. The fruit hangs from the branches.",
       "greekCaption": "οἱ κλάδοι τοῦ δένδρου μεγάλοι εἰσίν. ὁ καρπὸς ἐπὶ τοῖς κλάδοις ἐστίν.",
       "englishCaption": "The branches of the tree are great. The fruit is on the branches.",
-      "image": "story-images/ch2a/7.jpeg"
+      "image": "story-images/ch2a/7.jpeg",
+      "captionTranslations": {
+        "es": "Las ramas del árbol son grandes. El fruto está en las ramas.",
+        "pl": "Gałęzie drzewa są wielkie. Owoc jest na gałęziach.",
+        "fil": "Malalaki ang mga sanga ng puno. Nasa mga sanga ang bunga."
+      }
     },
     {
       "id": 8,
@@ -64,7 +99,12 @@
       "scene": "Teaches: δρέπανον — This is a sickle.",
       "greekCaption": "τοῦτό ἐστιν δρέπανον.",
       "englishCaption": "This is a sickle.",
-      "image": "story-images/ch2a/8.jpeg"
+      "image": "story-images/ch2a/8.jpeg",
+      "captionTranslations": {
+        "es": "Esta es una hoz.",
+        "pl": "To jest sierp.",
+        "fil": "Ito ay karit."
+      }
     },
     {
       "id": 9,
@@ -72,7 +112,12 @@
       "scene": "Teaches: θερίζω, ἐκ — The farmer harvests the fruits from the tree with the sickle.",
       "greekCaption": "ὁ γεωργὸς θερίζει τοὺς καρποὺς ἐκ τοῦ δένδρου.",
       "englishCaption": "The farmer harvests the fruits from the tree.",
-      "image": "story-images/ch2a/9.jpeg"
+      "image": "story-images/ch2a/9.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor cosecha los frutos del árbol.",
+        "pl": "Rolnik zbiera owoce z drzewa.",
+        "fil": "Nag-aani ang magsasaka ng mga bunga mula sa puno."
+      }
     },
     {
       "id": 10,
@@ -80,7 +125,12 @@
       "scene": "Teaches: ὄνος — The donkey is in the field.",
       "greekCaption": "ὁ ὄνος ἐστὶν ἐν τῷ ἀγρῷ.",
       "englishCaption": "The donkey is in the field.",
-      "image": "story-images/ch2a/10.jpeg"
+      "image": "story-images/ch2a/10.jpeg",
+      "captionTranslations": {
+        "es": "El asno está en el campo.",
+        "pl": "Osioł jest na polu.",
+        "fil": "Ang asno ay nasa bukid."
+      }
     },
     {
       "id": 11,
@@ -88,7 +138,12 @@
       "scene": "Teaches: φέρω, ἐκ τοῦ ἀγροῦ — The donkey carries the stones out of the field.",
       "greekCaption": "ὁ ὄνος φέρει τοὺς λίθους ἐκ τοῦ ἀγροῦ.",
       "englishCaption": "The donkey carries the stones out of the field.",
-      "image": "story-images/ch2a/11.jpeg"
+      "image": "story-images/ch2a/11.jpeg",
+      "captionTranslations": {
+        "es": "El asno saca las piedras del campo.",
+        "pl": "Osioł wynosi kamienie z pola.",
+        "fil": "Inililipat ng asno ang mga bato mula sa bukid."
+      }
     },
     {
       "id": 12,
@@ -96,7 +151,12 @@
       "scene": "Teaches: βοῦς, μέγας, ἰσχυρός — The ox is great and strong.",
       "greekCaption": "ὁ βοῦς μέγας καὶ ἰσχυρός ἐστιν.",
       "englishCaption": "The ox is great and strong.",
-      "image": "story-images/ch2a/12.jpeg"
+      "image": "story-images/ch2a/12.jpeg",
+      "captionTranslations": {
+        "es": "El buey es grande y fuerte.",
+        "pl": "Wół jest duży i silny.",
+        "fil": "Malaki at malakas ang baka."
+      }
     },
     {
       "id": 13,
@@ -104,7 +164,12 @@
       "scene": "Teaches: πρόβατον, ζῷον — The sheep is an animal.",
       "greekCaption": "τὸ πρόβατον ζῷόν ἐστιν.",
       "englishCaption": "The sheep is an animal.",
-      "image": "story-images/ch2a/13.jpeg"
+      "image": "story-images/ch2a/13.jpeg",
+      "captionTranslations": {
+        "es": "La oveja es un animal.",
+        "pl": "Owca jest zwierzęciem.",
+        "fil": "Ang tupa ay hayop."
+      }
     },
     {
       "id": 14,
@@ -112,7 +177,12 @@
       "scene": "Teaches: ζῷα (plural) — The animals are in the field together.",
       "greekCaption": "τὰ ζῷα ἐν τῷ ἀγρῷ εἰσίν.",
       "englishCaption": "The animals are in the field.",
-      "image": "story-images/ch2a/14.jpeg"
+      "image": "story-images/ch2a/14.jpeg",
+      "captionTranslations": {
+        "es": "Los animales están en el campo.",
+        "pl": "Zwierzęta są na polu.",
+        "fil": "Ang mga hayop ay nasa bukid."
+      }
     },
     {
       "id": 15,
@@ -120,7 +190,12 @@
       "scene": "Teaches: πίνω, ἐκ τοῦ ποταμοῦ — The sheep drinks from the river.",
       "greekCaption": "τὸ πρόβατον πίνει ἐκ τοῦ ποταμοῦ.",
       "englishCaption": "The sheep drinks from the river.",
-      "image": "story-images/ch2a/15.jpeg"
+      "image": "story-images/ch2a/15.jpeg",
+      "captionTranslations": {
+        "es": "La oveja bebe del río.",
+        "pl": "Owca pije z rzeki.",
+        "fil": "Umiinom ang tupa mula sa ilog."
+      }
     },
     {
       "id": 16,
@@ -128,7 +203,12 @@
       "scene": "Teaches: ἀρνίον, τέκνον, μικρόν — The lamb is the child of the sheep.",
       "greekCaption": "τὸ ἀρνίον τέκνον ἐστὶν τοῦ προβάτου. μικρόν ἐστιν.",
       "englishCaption": "The lamb is the child of the sheep. It is small.",
-      "image": "story-images/ch2a/16.jpeg"
+      "image": "story-images/ch2a/16.jpeg",
+      "captionTranslations": {
+        "es": "El cordero es hijo de la oveja. Es pequeño.",
+        "pl": "Jagnię jest dzieckiem owcy. Jest małe.",
+        "fil": "Ang kordero ay anak ng tupa. Maliit ito."
+      }
     },
     {
       "id": 17,
@@ -136,7 +216,12 @@
       "scene": "Teaches: τρέχω, ταχέως — The lamb runs quickly in the field.",
       "greekCaption": "τὸ ἀρνίον τρέχει ταχέως ἐν τῷ ἀγρῷ.",
       "englishCaption": "The lamb runs quickly in the field.",
-      "image": "story-images/ch2a/17.jpeg"
+      "image": "story-images/ch2a/17.jpeg",
+      "captionTranslations": {
+        "es": "El cordero corre rápidamente en el campo.",
+        "pl": "Jagnię szybko biega po polu.",
+        "fil": "Mabilis na tumatakbo ang kordero sa bukid."
+      }
     },
     {
       "id": 18,
@@ -144,7 +229,12 @@
       "scene": "Teaches: βλέπω, χαίρω — The farmer sees the sheep and the lamb and rejoices.",
       "greekCaption": "ὁ γεωργὸς βλέπει τὸ πρόβατον καὶ τὸ ἀρνίον καὶ χαίρει.",
       "englishCaption": "The farmer sees the sheep and the lamb and rejoices.",
-      "image": "story-images/ch2a/18.jpeg"
+      "image": "story-images/ch2a/18.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor ve a la oveja y al cordero y se alegra.",
+        "pl": "Rolnik widzi owcę i jagnię i cieszy się.",
+        "fil": "Nakikita ng magsasaka ang tupa at kordero at nagagalak siya."
+      }
     },
     {
       "id": 19,
@@ -152,7 +242,12 @@
       "scene": "Teaches: πέραν, θηρίον — A wild beast is lurking across the river.",
       "greekCaption": "θηρίον ἐστὶν πέραν τοῦ ποταμοῦ.",
       "englishCaption": "A wild beast is across the river.",
-      "image": "story-images/ch2a/19.jpeg"
+      "image": "story-images/ch2a/19.jpeg",
+      "captionTranslations": {
+        "es": "Hay una bestia salvaje al otro lado del río.",
+        "pl": "Po drugiej stronie rzeki jest dzikie zwierzę.",
+        "fil": "May mabangis na hayop sa kabilang dako ng ilog."
+      }
     },
     {
       "id": 20,
@@ -160,7 +255,12 @@
       "scene": "Teaches: λύκος — The wolf is across the river. His eyes are intent.",
       "greekCaption": "ὁ λύκος ἐστὶν πέραν τοῦ ποταμοῦ.",
       "englishCaption": "The wolf is across the river.",
-      "image": "story-images/ch2a/20.jpeg"
+      "image": "story-images/ch2a/20.jpeg",
+      "captionTranslations": {
+        "es": "El lobo está al otro lado del río.",
+        "pl": "Wilk jest po drugiej stronie rzeki.",
+        "fil": "Ang lobo ay nasa kabilang dako ng ilog."
+      }
     },
     {
       "id": 21,
@@ -168,7 +268,12 @@
       "scene": "Teaches: πονηρός — The wolf is evil. He sees the small lamb.",
       "greekCaption": "ὁ λύκος πονηρός ἐστιν. βλέπει τὸ μικρὸν ἀρνίον.",
       "englishCaption": "The wolf is evil. He sees the small lamb.",
-      "image": "story-images/ch2a/21.jpeg"
+      "image": "story-images/ch2a/21.jpeg",
+      "captionTranslations": {
+        "es": "El lobo es malvado. Ve al pequeño cordero.",
+        "pl": "Wilk jest zły. Widzi małe jagnię.",
+        "fil": "Masama ang lobo. Nakikita nito ang maliit na kordero."
+      }
     },
     {
       "id": 22,
@@ -176,7 +281,12 @@
       "scene": "Teaches: οὐ … βλέπει, contrast μέγας ↔ μικρόν — He does not see the great ox; he sees the small lamb.",
       "greekCaption": "οὐ βλέπει τὸν μέγαν βοῦν· βλέπει τὸ μικρὸν ἀρνίον.",
       "englishCaption": "He does not see the great ox; he sees the small lamb.",
-      "image": "story-images/ch2a/22.jpeg"
+      "image": "story-images/ch2a/22.jpeg",
+      "captionTranslations": {
+        "es": "No ve al gran buey; ve al pequeño cordero.",
+        "pl": "Nie widzi wielkiego wołu; widzi małe jagnię.",
+        "fil": "Hindi nito nakikita ang malaking baka; nakikita nito ang maliit na kordero."
+      }
     },
     {
       "id": 23,
@@ -184,7 +294,12 @@
       "scene": "Teaches: φυλάσσω — The farmer stands guard between the river and the lamb. God guards the lamb.",
       "greekCaption": "ὁ γεωργὸς φυλάσσει τὸ ἀρνίον. ὁ θεὸς φυλάσσει αὐτό.",
       "englishCaption": "The farmer guards the lamb. God guards it.",
-      "image": "story-images/ch2a/23.jpeg"
+      "image": "story-images/ch2a/23.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor guarda al cordero. Dios lo guarda.",
+        "pl": "Rolnik strzeże jagnięcia. Bóg je strzeże.",
+        "fil": "Binabantayan ng magsasaka ang kordero. Binabantayan ito ng Diyos."
+      }
     },
     {
       "id": 24,
@@ -192,7 +307,12 @@
       "scene": "Teaches: ἡμέρα, reinforces καλῶς — A beautiful day. The whole farm is peaceful.",
       "greekCaption": "ἡμέρα καλή ἐστιν. ὁ ἥλιος λάμπει ἐν τῷ οὐρανῷ.",
       "englishCaption": "It is a beautiful day. The sun shines in the sky.",
-      "image": "story-images/ch2b/1.jpeg"
+      "image": "story-images/ch2b/1.jpeg",
+      "captionTranslations": {
+        "es": "Es un día hermoso. El sol brilla en el cielo.",
+        "pl": "To jest piękny dzień. Słońce świeci na niebie.",
+        "fil": "Magandang araw. Sumisinag ang araw sa langit."
+      }
     },
     {
       "id": 25,
@@ -200,7 +320,12 @@
       "scene": "Teaches: ῥέω, καλῶς — The river flows well.",
       "greekCaption": "ὁ ποταμὸς ῥεῖ καλῶς.",
       "englishCaption": "The river flows well.",
-      "image": "story-images/ch2b/2.jpeg"
+      "image": "story-images/ch2b/2.jpeg",
+      "captionTranslations": {
+        "es": "El río fluye bellamente.",
+        "pl": "Rzeka pięknie płynie.",
+        "fil": "Maganda ang agos ng ilog."
+      }
     },
     {
       "id": 26,
@@ -208,7 +333,12 @@
       "scene": "Teaches: ἔξω, ἡσυχάζω — The farmer sits outside the house and rests.",
       "greekCaption": "ὁ γεωργὸς καθίζει ἔξω τοῦ οἴκου καὶ ἡσυχάζει.",
       "englishCaption": "The farmer sits outside the house and rests.",
-      "image": "story-images/ch2b/3.jpeg"
+      "image": "story-images/ch2b/3.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor se sienta afuera de la casa y descansa.",
+        "pl": "Rolnik siada przed domem i odpoczywa.",
+        "fil": "Nakaupo ang magsasaka sa labas ng bahay at nagpapahinga."
+      }
     },
     {
       "id": 27,
@@ -216,7 +346,12 @@
       "scene": "Reinforces: πέραν, βλέπει — The wolf stays across the river and watches.",
       "greekCaption": "ὁ λύκος μένει πέραν τοῦ ποταμοῦ καὶ βλέπει.",
       "englishCaption": "The wolf stays across the river and watches.",
-      "image": "story-images/ch2b/4.jpeg"
+      "image": "story-images/ch2b/4.jpeg",
+      "captionTranslations": {
+        "es": "El lobo permanece al otro lado del río y vigila.",
+        "pl": "Wilk pozostaje po drugiej stronie rzeki i obserwuje.",
+        "fil": "Nananatili ang lobo sa kabilang dako ng ilog at nagmamasid."
+      }
     },
     {
       "id": 28,
@@ -224,7 +359,12 @@
       "scene": "Teaches: θέλω, ἁρπάζω — The wolf wants to seize the lamb.",
       "greekCaption": "ὁ λύκος θέλει ἁρπάζειν τὸ ἀρνίον.",
       "englishCaption": "The wolf wants to seize the lamb.",
-      "image": "story-images/ch2b/5.jpeg"
+      "image": "story-images/ch2b/5.jpeg",
+      "captionTranslations": {
+        "es": "El lobo quiere agarrar al cordero.",
+        "pl": "Wilk chce chwycić jagnię.",
+        "fil": "Gusto ng lobo na dakpin ang kordero."
+      }
     },
     {
       "id": 29,
@@ -232,7 +372,12 @@
       "scene": "Reinforces: οὐ βλέπουσιν — The sheep and the lamb do not see the wolf.",
       "greekCaption": "τὸ πρόβατον καὶ τὸ ἀρνίον οὐ βλέπουσιν τὸν λύκον.",
       "englishCaption": "The sheep and the lamb do not see the wolf.",
-      "image": "story-images/ch2b/6.jpeg"
+      "image": "story-images/ch2b/6.jpeg",
+      "captionTranslations": {
+        "es": "La oveja y el cordero no ven al lobo.",
+        "pl": "Owca i jagnię nie widzą wilka.",
+        "fil": "Hindi nakikita ng tupa at kordero ang lobo."
+      }
     },
     {
       "id": 30,
@@ -240,7 +385,12 @@
       "scene": "Teaches: μέλλω, σῴζω — The farmer is about to save his animals.",
       "greekCaption": "ὁ γεωργὸς μέλλει σῴζειν τὰ ζῷα αὐτοῦ.",
       "englishCaption": "The farmer is about to save his animals.",
-      "image": "story-images/ch2b/7.jpeg"
+      "image": "story-images/ch2b/7.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor está a punto de salvar a sus animales.",
+        "pl": "Rolnik zaraz uratuje swoje zwierzęta.",
+        "fil": "Malapit na iligtas ng magsasaka ang kanyang mga hayop."
+      }
     },
     {
       "id": 31,
@@ -248,7 +398,12 @@
       "scene": "Teaches: καταλείπω, φεύγω — The good farmer does not abandon his animals and flee.",
       "greekCaption": "ὁ γεωργὸς ἀγαθός ἐστιν. οὐ καταλείπει τὰ ζῷα καὶ οὐ φεύγει.",
       "englishCaption": "The farmer is good. He does not abandon his animals and does not flee.",
-      "image": "story-images/ch2b/8.jpeg"
+      "image": "story-images/ch2b/8.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor es bueno. No abandona a sus animales y no huye.",
+        "pl": "Rolnik jest dobry. Nie porzuca swoich zwierząt i nie ucieka.",
+        "fil": "Mabuti ang magsasaka. Hindi niya iniiwanan ang kanyang mga hayop at hindi tumakas."
+      }
     },
     {
       "id": 32,
@@ -256,7 +411,12 @@
       "scene": "Teaches: ἰδού, εἰς — Behold! The wolf runs into the river.",
       "greekCaption": "ἰδού! ὁ λύκος τρέχει εἰς τὸν ποταμόν.",
       "englishCaption": "Behold! The wolf runs into the river.",
-      "image": "story-images/ch2b/9.jpeg"
+      "image": "story-images/ch2b/9.jpeg",
+      "captionTranslations": {
+        "es": "¡Mira! El lobo corre hacia el río.",
+        "pl": "Patrz! Wilk biegnie do rzeki.",
+        "fil": "Tingnan! Tumatakbo ang lobo patungo sa ilog."
+      }
     },
     {
       "id": 33,
@@ -264,7 +424,12 @@
       "scene": "Reinforces: ἐκ, εἰς — The wolf comes out of the river into the field.",
       "greekCaption": "ὁ λύκος ἐκβαίνει ἐκ τοῦ ποταμοῦ εἰς τὸν ἀγρόν.",
       "englishCaption": "The wolf comes out of the river into the field.",
-      "image": "story-images/ch2b/10.jpeg"
+      "image": "story-images/ch2b/10.jpeg",
+      "captionTranslations": {
+        "es": "El lobo sale del río hacia el campo.",
+        "pl": "Wilk wychodzi z rzeki na pole.",
+        "fil": "Lumalabas ang lobo mula sa ilog papunta sa bukid."
+      }
     },
     {
       "id": 34,
@@ -272,7 +437,12 @@
       "scene": "Reinforces: ἐγγύς — The wolf is now near the lamb.",
       "greekCaption": "ὁ λύκος ἐγγύς ἐστιν τοῦ ἀρνίου.",
       "englishCaption": "The wolf is near the lamb.",
-      "image": "story-images/ch2b/11.jpeg"
+      "image": "story-images/ch2b/11.jpeg",
+      "captionTranslations": {
+        "es": "El lobo está cerca del cordero.",
+        "pl": "Wilk jest blisko jagnięcia.",
+        "fil": "Malapit ang lobo sa kordero."
+      }
     },
     {
       "id": 35,
@@ -280,7 +450,12 @@
       "scene": "Teaches: κράζω — The donkey hears the wolf and cries out with a loud voice.",
       "greekCaption": "ὁ ὄνος ἀκούει τὸν λύκον καὶ κράζει μεγάλῃ φωνῇ.",
       "englishCaption": "The donkey hears the wolf and cries out with a loud voice.",
-      "image": "story-images/ch2b/12.jpeg"
+      "image": "story-images/ch2b/12.jpeg",
+      "captionTranslations": {
+        "es": "El asno oye al lobo y grita con gran voz.",
+        "pl": "Osioł słyszy wilka i krzyczy wielkim głosem.",
+        "fil": "Naririnig ng asno ang lobo at sumisigaw nang malakas."
+      }
     },
     {
       "id": 36,
@@ -288,7 +463,12 @@
       "scene": "Teaches: εὐθύς, ῥάβδος — Immediately the farmer takes his staff.",
       "greekCaption": "εὐθὺς ὁ γεωργὸς λαμβάνει τὴν ῥάβδον αὐτοῦ.",
       "englishCaption": "Immediately the farmer takes his staff.",
-      "image": "story-images/ch2b/13.jpeg"
+      "image": "story-images/ch2b/13.jpeg",
+      "captionTranslations": {
+        "es": "Inmediatamente el agricultor toma su vara.",
+        "pl": "Rolnik natychmiast bierze swój kij.",
+        "fil": "Agad na kinuha ng magsasaka ang kanyang tungkod."
+      }
     },
     {
       "id": 37,
@@ -296,7 +476,12 @@
       "scene": "Reinforces: λαμβάνω, λίθος — He also takes stones from the field.",
       "greekCaption": "λαμβάνει καὶ λίθους ἐκ τοῦ ἀγροῦ.",
       "englishCaption": "He also takes stones from the field.",
-      "image": "story-images/ch2b/14.jpeg"
+      "image": "story-images/ch2b/14.jpeg",
+      "captionTranslations": {
+        "es": "También toma piedras del campo.",
+        "pl": "Bierze też kamienie z pola.",
+        "fil": "Kumuha rin siya ng mga bato mula sa bukid."
+      }
     },
     {
       "id": 38,
@@ -304,7 +489,12 @@
       "scene": "Teaches: φωνή — The farmer runs into the field and cries with a great voice.",
       "greekCaption": "ὁ γεωργὸς τρέχει εἰς τὸν ἀγρὸν καὶ κράζει μεγάλῃ φωνῇ.",
       "englishCaption": "The farmer runs into the field and cries with a great voice.",
-      "image": "story-images/ch2b/15.jpeg"
+      "image": "story-images/ch2b/15.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor corre hacia el campo y grita con gran voz.",
+        "pl": "Rolnik biegnie na pole i krzyczy wielkim głosem.",
+        "fil": "Tumakbo ang magsasaka sa bukid at sumisigaw nang malakas."
+      }
     },
     {
       "id": 39,
@@ -312,7 +502,12 @@
       "scene": "Teaches: βάλλω — He throws stones at the wolf.",
       "greekCaption": "βάλλει λίθους εἰς τὸν λύκον.",
       "englishCaption": "He throws stones at the wolf.",
-      "image": "story-images/ch2b/16.jpeg"
+      "image": "story-images/ch2b/16.jpeg",
+      "captionTranslations": {
+        "es": "Lanza piedras al lobo.",
+        "pl": "Rzuca kamieniami na wilka.",
+        "fil": "Naghahagis siya ng mga bato sa lobo."
+      }
     },
     {
       "id": 40,
@@ -320,7 +515,12 @@
       "scene": "Teaches: ὑπάγω, ἀπό — 'Go away from the field!'",
       "greekCaption": "Ὕπαγε ἀπὸ τοῦ ἀγροῦ!",
       "englishCaption": "'Go away from the field!'",
-      "image": "story-images/ch2b/17.jpeg"
+      "image": "story-images/ch2b/17.jpeg",
+      "captionTranslations": {
+        "es": "'¡Vete del campo!'",
+        "pl": "«Odejdź z pola!»",
+        "fil": "'Umalis sa bukid!'"
+      }
     },
     {
       "id": 41,
@@ -328,7 +528,12 @@
       "scene": "Teaches: φεύγω — The wolf flees from the lamb.",
       "greekCaption": "ὁ λύκος φεύγει ἀπὸ τοῦ ἀρνίου.",
       "englishCaption": "The wolf flees from the lamb.",
-      "image": "story-images/ch2b/18.jpeg"
+      "image": "story-images/ch2b/18.jpeg",
+      "captionTranslations": {
+        "es": "El lobo huye del cordero.",
+        "pl": "Wilk ucieka od jagnięcia.",
+        "fil": "Tumakas ang lobo mula sa kordero."
+      }
     },
     {
       "id": 42,
@@ -336,7 +541,12 @@
       "scene": "Teaches: διώκω — The farmer pursues the wolf.",
       "greekCaption": "ὁ γεωργὸς διώκει τὸν λύκον.",
       "englishCaption": "The farmer pursues the wolf.",
-      "image": "story-images/ch2b/19.jpeg"
+      "image": "story-images/ch2b/19.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor persigue al lobo.",
+        "pl": "Rolnik ściga wilka.",
+        "fil": "Hinahabol ng magsasaka ang lobo."
+      }
     },
     {
       "id": 43,
@@ -344,7 +554,12 @@
       "scene": "Teaches: τέλος — Finally the wolf flees across the river.",
       "greekCaption": "τέλος ὁ λύκος φεύγει πέραν τοῦ ποταμοῦ.",
       "englishCaption": "Finally the wolf flees across the river.",
-      "image": "story-images/ch2b/20.jpeg"
+      "image": "story-images/ch2b/20.jpeg",
+      "captionTranslations": {
+        "es": "Finalmente el lobo huye al otro lado del río.",
+        "pl": "W końcu wilk ucieka po drugiej stronie rzeki.",
+        "fil": "Sa wakas tumakas ang lobo sa kabilang dako ng ilog."
+      }
     },
     {
       "id": 44,
@@ -352,7 +567,12 @@
       "scene": "Reinforces: βλέπω — The farmer looks at his animals. All are safe.",
       "greekCaption": "ὁ γεωργὸς βλέπει τὰ ζῷα αὐτοῦ. πάντα σῴζεται.",
       "englishCaption": "The farmer looks at his animals. All are safe.",
-      "image": "story-images/ch2b/21.jpeg"
+      "image": "story-images/ch2b/21.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor mira a sus animales. Todos están seguros.",
+        "pl": "Rolnik patrzy na swoje zwierzęta. Wszystkie są bezpieczne.",
+        "fil": "Tinitingnan ng magsasaka ang kanyang mga hayop. Ligtas silang lahat."
+      }
     },
     {
       "id": 45,
@@ -360,7 +580,12 @@
       "scene": "Teaches: ὑπό — The farmer sits under the tree.",
       "greekCaption": "ὁ γεωργὸς καθίζει ὑπὸ τὸ δένδρον.",
       "englishCaption": "The farmer sits under the tree.",
-      "image": "story-images/ch2b/22.jpeg"
+      "image": "story-images/ch2b/22.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor se sienta bajo el árbol.",
+        "pl": "Rolnik siada pod drzewem.",
+        "fil": "Nakaupo ang magsasaka sa ilalim ng puno."
+      }
     },
     {
       "id": 46,
@@ -368,7 +593,12 @@
       "scene": "Teaches: κύριος, δίκαιος — He gives thanks: 'O Lord, you are righteous and faithful.'",
       "greekCaption": "εὐχαριστεῖ τῷ θεῷ· Ὦ κύριε, σὺ δίκαιος καὶ πιστός εἶ.",
       "englishCaption": "He gives thanks: 'O Lord, you are righteous and faithful.'",
-      "image": "story-images/ch2b/23.jpeg"
+      "image": "story-images/ch2b/23.jpeg",
+      "captionTranslations": {
+        "es": "Da gracias: 'O Señor, eres justo y fiel.'",
+        "pl": "Dziękuje: «O Panie, jesteś sprawiedliwy i wierny.»",
+        "fil": "Nagpapasalamat siya: 'O Panginoon, ikaw ay matuwid at tapat.'"
+      }
     },
     {
       "id": 47,
@@ -376,7 +606,12 @@
       "scene": "Teaches: καλέω — The farmer calls the sheep and the lamb.",
       "greekCaption": "ὁ γεωργὸς καλεῖ τὰ πρόβατα καὶ τὸ ἀρνίον.",
       "englishCaption": "The farmer calls the sheep and the lamb.",
-      "image": "story-images/ch2b/24.jpeg"
+      "image": "story-images/ch2b/24.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor llama a la oveja y al cordero.",
+        "pl": "Rolnik woła owcę i jagnię.",
+        "fil": "Tinawag ng magsasaka ang tupa at kordero."
+      }
     },
     {
       "id": 48,
@@ -384,7 +619,12 @@
       "scene": "Teaches: γινώσκω — The sheep knows the voice of the farmer.",
       "greekCaption": "τὸ πρόβατον γινώσκει τὴν φωνὴν τοῦ γεωργοῦ.",
       "englishCaption": "The sheep knows the voice of the farmer.",
-      "image": "story-images/ch2b/25.jpeg"
+      "image": "story-images/ch2b/25.jpeg",
+      "captionTranslations": {
+        "es": "La oveja conoce la voz del agricultor.",
+        "pl": "Owca zna głos rolnika.",
+        "fil": "Kilala ng tupa ang boses ng magsasaka."
+      }
     },
     {
       "id": 49,
@@ -392,7 +632,12 @@
       "scene": "Reinforces: αἴρω, φέρω — The farmer lifts the lamb and carries it.",
       "greekCaption": "αἴρει τὸ ἀρνίον καὶ φέρει αὐτό.",
       "englishCaption": "He lifts the lamb and carries it.",
-      "image": "story-images/ch2b/26.jpeg"
+      "image": "story-images/ch2b/26.jpeg",
+      "captionTranslations": {
+        "es": "Él levanta al cordero y lo carga.",
+        "pl": "Podnosi jagnię i niesie je.",
+        "fil": "Itinaas niya ang kordero at dinala ito."
+      }
     },
     {
       "id": 50,
@@ -400,7 +645,12 @@
       "scene": "Teaches: ἀκολουθέω — The sheep follows the farmer.",
       "greekCaption": "τὸ πρόβατον ἀκολουθεῖ τῷ γεωργῷ.",
       "englishCaption": "The sheep follows the farmer.",
-      "image": "story-images/ch2b/27.jpeg"
+      "image": "story-images/ch2b/27.jpeg",
+      "captionTranslations": {
+        "es": "La oveja sigue al agricultor.",
+        "pl": "Owca podąża za rolnikiem.",
+        "fil": "Sumusunod ang tupa sa magsasaka."
+      }
     },
     {
       "id": 51,
@@ -408,7 +658,12 @@
       "scene": "Teaches: ἄγω — The farmer leads his animals toward the house.",
       "greekCaption": "ὁ γεωργὸς ἄγει τὰ ζῷα πρὸς τὸν οἶκον.",
       "englishCaption": "The farmer leads his animals toward the house.",
-      "image": "story-images/ch2b/28.jpeg"
+      "image": "story-images/ch2b/28.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor guía a sus animales hacia la casa.",
+        "pl": "Rolnik prowadzi swoje zwierzęta ku domowi.",
+        "fil": "Inaaakay ng magsasaka ang kanyang mga hayop patungo sa bahay."
+      }
     }
   ]
 }

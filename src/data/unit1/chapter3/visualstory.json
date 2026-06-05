@@ -8,7 +8,12 @@
       "scene": "Teaches: ὀψία, μακρός, νύξ — Evening. The day is long, and the night is near.",
       "greekCaption": "ὀψία ἐστίν. ἡ ἡμέρα μακρά ἐστιν. ἡ νὺξ ἐγγύς ἐστιν.",
       "englishCaption": "It is evening. The day is long. The night is near.",
-      "image": "story-images/ch3a/1.jpeg"
+      "image": "story-images/ch3a/1.jpeg",
+      "captionTranslations": {
+        "es": "Es tarde. El día es largo. La noche está cerca.",
+        "pl": "Jest wieczór. Dzień jest długi. Noc jest blisko.",
+        "fil": "Gabi na. Matagal ang araw. Malapit na ang gabi."
+      }
     },
     {
       "id": 2,
@@ -16,7 +21,12 @@
       "scene": "Teaches: ὤμος, ἐπί — The farmer carries the lamb on his shoulder.",
       "greekCaption": "ὁ γεωργὸς φέρει τὸ ἀρνίον ἐπὶ τῷ ὤμῳ αὐτοῦ.",
       "englishCaption": "The farmer carries the lamb on his shoulder.",
-      "image": "story-images/ch3a/2.jpeg"
+      "image": "story-images/ch3a/2.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor lleva al cordero en su hombro.",
+        "pl": "Rolnik niesie jagnię na ramieniu.",
+        "fil": "Dinadala ng magsasaka ang kordero sa kanyang balikat."
+      }
     },
     {
       "id": 3,
@@ -24,7 +34,12 @@
       "scene": "Teaches: κοπιάω, ὅλος — The lamb is weary. It ran the whole day. (εἷς → πολλοί: one lamb amid many labors)",
       "greekCaption": "τὸ ἀρνίον κοπιᾷ. ἔτρεχεν ὅλην τὴν ἡμέραν.",
       "englishCaption": "The lamb is weary. It ran the whole day.",
-      "image": "story-images/ch3a/3.jpeg"
+      "image": "story-images/ch3a/3.jpeg",
+      "captionTranslations": {
+        "es": "El cordero está cansado. Corrió todo el día.",
+        "pl": "Jagnię jest zmęczone. Biegło cały dzień.",
+        "fil": "Pagod ang kordero. Tumakbo ito buong araw."
+      }
     },
     {
       "id": 4,
@@ -32,7 +47,12 @@
       "scene": "Teaches: ὁδός — The road leads toward the house. The farmer walks on the road.",
       "greekCaption": "ὁ γεωργὸς βαδίζει ἐν τῇ ὁδῷ πρὸς τὸν οἶκον.",
       "englishCaption": "The farmer walks on the road toward the house.",
-      "image": "story-images/ch3a/4.jpeg"
+      "image": "story-images/ch3a/4.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor camina por el camino hacia la casa.",
+        "pl": "Rolnik idzie drogą ku domowi.",
+        "fil": "Lumalakad ang magsasaka sa daan patungo sa bahay."
+      }
     },
     {
       "id": 5,
@@ -40,7 +60,12 @@
       "scene": "Reinforces: ἀκολουθέω, ἐν τῇ ὁδῷ — The sheep follows the farmer on the road.",
       "greekCaption": "τὸ πρόβατον ἀκολουθεῖ τῷ γεωργῷ ἐν τῇ ὁδῷ.",
       "englishCaption": "The sheep follows the farmer on the road.",
-      "image": "story-images/ch3a/5.jpeg"
+      "image": "story-images/ch3a/5.jpeg",
+      "captionTranslations": {
+        "es": "La oveja sigue al agricultor en el camino.",
+        "pl": "Owca podąża za rolnikiem na drodze.",
+        "fil": "Sumusunod ang tupa sa magsasaka sa daan."
+      }
     },
     {
       "id": 6,
@@ -48,7 +73,12 @@
       "scene": "Teaches: σελήνη, ἀνατέλλω — The moon rises in the sky. Stars begin to appear.",
       "greekCaption": "ἡ σελήνη ἀνατέλλει ἐν τῷ οὐρανῷ.",
       "englishCaption": "The moon rises in the sky.",
-      "image": "story-images/ch3a/6.jpeg"
+      "image": "story-images/ch3a/6.jpeg",
+      "captionTranslations": {
+        "es": "La luna sale en el cielo.",
+        "pl": "Księżyc wschodzi na niebie.",
+        "fil": "Sumisinag ang buwan sa langit."
+      }
     },
     {
       "id": 7,
@@ -56,7 +86,12 @@
       "scene": "Reinforces: λάμπω, ἐπί — The moon shines on the field and on the river.",
       "greekCaption": "ἡ σελήνη λάμπει ἐπὶ τὸν ἀγρὸν καὶ ἐπὶ τὸν ποταμόν.",
       "englishCaption": "The moon shines on the field and on the river.",
-      "image": "story-images/ch3a/7.jpeg"
+      "image": "story-images/ch3a/7.jpeg",
+      "captionTranslations": {
+        "es": "La luna brilla sobre el campo y sobre el río.",
+        "pl": "Księżyc świeci nad polem i nad rzeką.",
+        "fil": "Sumisinag ang buwan sa bukid at sa ilog."
+      }
     },
     {
       "id": 8,
@@ -64,7 +99,12 @@
       "scene": "Reinforces: βλέπω, χαίρω — The farmer sees the moon and rejoices.",
       "greekCaption": "ὁ γεωργὸς βλέπει τὴν σελήνην καὶ χαίρει.",
       "englishCaption": "The farmer sees the moon and rejoices.",
-      "image": "story-images/ch3a/8.jpeg"
+      "image": "story-images/ch3a/8.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor ve la luna y se alegra.",
+        "pl": "Rolnik widzi księżyc i cieszy się.",
+        "fil": "Nakikita ng magsasaka ang buwan at nagagalak siya."
+      }
     },
     {
       "id": 9,
@@ -72,7 +112,12 @@
       "scene": "Teaches: ἥκω, ἔξω — The farmer arrives outside the house and sets the lamb down.",
       "greekCaption": "ὁ γεωργὸς ἥκει ἔξω τοῦ οἴκου. τίθησιν τὸ ἀρνίον.",
       "englishCaption": "The farmer arrives outside the house. He puts down the lamb.",
-      "image": "story-images/ch3a/9.jpeg"
+      "image": "story-images/ch3a/9.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor llega afuera de la casa. Pone al cordero.",
+        "pl": "Rolnik przybywa przed dom. Kładzie jagnię.",
+        "fil": "Dumating ang magsasaka sa labas ng bahay. Ibinaba niya ang kordero."
+      }
     },
     {
       "id": 10,
@@ -80,7 +125,12 @@
       "scene": "Reinforces: καταλείπω, ἔξω — He leaves his animals outside. They settle beside the house.",
       "greekCaption": "καταλείπει τὰ ζῷα ἔξω τοῦ οἴκου.",
       "englishCaption": "He leaves the animals outside the house.",
-      "image": "story-images/ch3a/10.jpeg"
+      "image": "story-images/ch3a/10.jpeg",
+      "captionTranslations": {
+        "es": "Deja a los animales afuera de la casa.",
+        "pl": "Zostawia zwierzęta przed domem.",
+        "fil": "Iniwan niya ang mga hayop sa labas ng bahay."
+      }
     },
     {
       "id": 11,
@@ -88,7 +138,12 @@
       "scene": "Teaches: ἀνοίγω, θύρα — He opens the door of the house.",
       "greekCaption": "ἀνοίγει τὴν θύραν τοῦ οἴκου.",
       "englishCaption": "He opens the door of the house.",
-      "image": "story-images/ch3a/11.jpeg"
+      "image": "story-images/ch3a/11.jpeg",
+      "captionTranslations": {
+        "es": "Abre la puerta de la casa.",
+        "pl": "Otwiera drzwi domu.",
+        "fil": "Binuksan niya ang pinto ng bahay."
+      }
     },
     {
       "id": 12,
@@ -96,7 +151,12 @@
       "scene": "Teaches: μόνος — The farmer is alone in the house.",
       "greekCaption": "ὁ γεωργὸς μόνος ἐστὶν ἐν τῷ οἴκῳ.",
       "englishCaption": "The farmer is alone in the house.",
-      "image": "story-images/ch3a/12.jpeg"
+      "image": "story-images/ch3a/12.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor está solo en la casa.",
+        "pl": "Rolnik jest sam w domu.",
+        "fil": "Nag-iisa ang magsasaka sa bahay."
+      }
     },
     {
       "id": 13,
@@ -104,7 +164,12 @@
       "scene": "Teaches: σκοτία — Darkness in the house. He cannot see. He stretches out his hand.",
       "greekCaption": "σκοτία ἐστὶν ἐν τῷ οἴκῳ. οὐ βλέπει.",
       "englishCaption": "There is darkness in the house. He cannot see.",
-      "image": "story-images/ch3a/13.jpeg"
+      "image": "story-images/ch3a/13.jpeg",
+      "captionTranslations": {
+        "es": "Hay oscuridad en la casa. No puede ver.",
+        "pl": "W domu jest ciemność. Nie może widzieć.",
+        "fil": "Madilim sa bahay. Hindi siya makakita."
+      }
     },
     {
       "id": 14,
@@ -112,7 +177,12 @@
       "scene": "Teaches: ζητέω — He seeks the lamp. He searches with his hands in the dark.",
       "greekCaption": "ζητεῖ τὸν λύχνον. ψηλαφᾷ ἐν τῇ σκοτίᾳ.",
       "englishCaption": "He seeks the lamp. He feels his way in the darkness.",
-      "image": "story-images/ch3a/14.jpeg"
+      "image": "story-images/ch3a/14.jpeg",
+      "captionTranslations": {
+        "es": "Busca la lámpara. Se mueve a tientas en la oscuridad.",
+        "pl": "Szuka lampy. Idzie po omacku w ciemności.",
+        "fil": "Hinahanap niya ang ilawan. Naghahanap siya sa kadiliman."
+      }
     },
     {
       "id": 15,
@@ -120,7 +190,12 @@
       "scene": "Teaches: λύχνος, τράπεζα — He finds the lamp on the table.",
       "greekCaption": "εὑρίσκει τὸν λύχνον ἐπὶ τῆς τραπέζης.",
       "englishCaption": "He finds the lamp on the table.",
-      "image": "story-images/ch3a/15.jpeg"
+      "image": "story-images/ch3a/15.jpeg",
+      "captionTranslations": {
+        "es": "Encuentra la lámpara sobre la mesa.",
+        "pl": "Znajduje lampę na stole.",
+        "fil": "Nahanap niya ang ilawan sa mesa."
+      }
     },
     {
       "id": 16,
@@ -128,7 +203,12 @@
       "scene": "Teaches: ἅπτω — He lights the lamp.",
       "greekCaption": "ἅπτει τὸν λύχνον.",
       "englishCaption": "He lights the lamp.",
-      "image": "story-images/ch3a/16.jpeg"
+      "image": "story-images/ch3a/16.jpeg",
+      "captionTranslations": {
+        "es": "Enciende la lámpara.",
+        "pl": "Zapala lampę.",
+        "fil": "Sinindihan niya ang ilawan."
+      }
     },
     {
       "id": 17,
@@ -136,7 +216,12 @@
       "scene": "Teaches: φῶς, οὐκέτι — Light! No longer darkness. The room glows warm.",
       "greekCaption": "φῶς ἐστιν νῦν. οὐκέτι σκοτία ἐστίν.",
       "englishCaption": "There is light now. There is no longer darkness.",
-      "image": "story-images/ch3a/17.jpeg"
+      "image": "story-images/ch3a/17.jpeg",
+      "captionTranslations": {
+        "es": "Hay luz ahora. Ya no hay oscuridad.",
+        "pl": "Teraz jest światło. Już nie ma ciemności.",
+        "fil": "May liwanag na ngayon. Wala nang kadiliman."
+      }
     },
     {
       "id": 18,
@@ -144,7 +229,12 @@
       "scene": "Reinforces: ἄρτος, καρπός, ἐπί — Bread and fruits are on the table. The lamp glows beside them.",
       "greekCaption": "ἄρτος καὶ καρπὸς ἐπὶ τῆς τραπέζης εἰσίν.",
       "englishCaption": "Bread and fruit are on the table.",
-      "image": "story-images/ch3a/18.jpeg"
+      "image": "story-images/ch3a/18.jpeg",
+      "captionTranslations": {
+        "es": "Hay pan y fruta sobre la mesa.",
+        "pl": "Na stole jest chleb i owoce.",
+        "fil": "May tinapay at bunga sa mesa."
+      }
     },
     {
       "id": 19,
@@ -152,7 +242,12 @@
       "scene": "Teaches: καθέδρα — The farmer sits down on the chair beside the table.",
       "greekCaption": "ὁ γεωργὸς καθίζει ἐπὶ τὴν καθέδραν.",
       "englishCaption": "The farmer sits down on the chair.",
-      "image": "story-images/ch3a/19.jpeg"
+      "image": "story-images/ch3a/19.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor se sienta en la silla.",
+        "pl": "Rolnik siada na krześle.",
+        "fil": "Nakaupo ang magsasaka sa silya."
+      }
     },
     {
       "id": 20,
@@ -160,7 +255,12 @@
       "scene": "Teaches: πολύς, χρόνος — Much time digging and carrying. He remembers the long day.",
       "greekCaption": "πολὺν χρόνον ἔσκαπτεν καὶ ἔφερεν.",
       "englishCaption": "He dug and carried for a long time.",
-      "image": "story-images/ch3a/20.jpeg"
+      "image": "story-images/ch3a/20.jpeg",
+      "captionTranslations": {
+        "es": "Cavó y cargó por mucho tiempo.",
+        "pl": "Kopał i nosił przez długi czas.",
+        "fil": "Humukay at nagdala siya nang matagal."
+      }
     },
     {
       "id": 21,
@@ -168,7 +268,12 @@
       "scene": "Reinforces: ἐσθίω — He eats the bread and the fruits by lamplight.",
       "greekCaption": "ἐσθίει τὸν ἄρτον καὶ τοὺς καρπούς.",
       "englishCaption": "He eats the bread and the fruits.",
-      "image": "story-images/ch3a/21.jpeg"
+      "image": "story-images/ch3a/21.jpeg",
+      "captionTranslations": {
+        "es": "Come el pan y las frutas.",
+        "pl": "Je chleb i owoce.",
+        "fil": "Kumain siya ng tinapay at mga bunga."
+      }
     },
     {
       "id": 22,
@@ -176,7 +281,12 @@
       "scene": "Reinforces: λάμπω, φῶς, σελήνη — The lamp shines inside; the moon shines outside.",
       "greekCaption": "ὁ λύχνος λάμπει ἐν τῷ οἴκῳ· ἡ σελήνη λάμπει ἔξω.",
       "englishCaption": "The lamp shines in the house; the moon shines outside.",
-      "image": "story-images/ch3a/22.jpeg"
+      "image": "story-images/ch3a/22.jpeg",
+      "captionTranslations": {
+        "es": "La lámpara brilla en la casa; la luna brilla afuera.",
+        "pl": "Lampa świeci w domu; księżyc świeci na zewnątrz.",
+        "fil": "Sumisinag ang ilawan sa bahay; sumisinag ang buwan sa labas."
+      }
     },
     {
       "id": 23,
@@ -184,7 +294,12 @@
       "scene": "Teaches: σφόδρα, κοπιάω — He is exceedingly weary. He can hardly keep his eyes open.",
       "greekCaption": "σφόδρα κοπιᾷ. οὐκέτι δύναται καθίζειν.",
       "englishCaption": "He is exceedingly weary. He can no longer sit.",
-      "image": "story-images/ch3a/23.jpeg"
+      "image": "story-images/ch3a/23.jpeg",
+      "captionTranslations": {
+        "es": "Está muy cansado. Ya no puede sentarse.",
+        "pl": "Jest bardzo zmęczony. Nie może już siedzieć.",
+        "fil": "Napakahirap niya. Hindi na siya makapagupó."
+      }
     },
     {
       "id": 24,
@@ -192,7 +307,12 @@
       "scene": "Teaches: ἔτι — He is still in the chair, but he rises to go to the bed.",
       "greekCaption": "ἔτι κάθηται, ἀλλ᾽ ἐγείρεται πρὸς τὴν κλίνην.",
       "englishCaption": "He is still sitting, but he rises toward the bed.",
-      "image": "story-images/ch3a/24.jpeg"
+      "image": "story-images/ch3a/24.jpeg",
+      "captionTranslations": {
+        "es": "Aún está sentado, pero se levanta hacia la cama.",
+        "pl": "Wciąż siedzi, ale wstaje ku łóżku.",
+        "fil": "Nakaupo pa rin siya, ngunit bumabangon patungo sa higaan."
+      }
     },
     {
       "id": 25,
@@ -200,7 +320,12 @@
       "scene": "Teaches: κλίνη — The bed in the house.",
       "greekCaption": "κλίνη ἐστὶν ἐν τῷ οἴκῳ.",
       "englishCaption": "There is a bed in the house.",
-      "image": "story-images/ch3a/25.jpeg"
+      "image": "story-images/ch3a/25.jpeg",
+      "captionTranslations": {
+        "es": "Hay una cama en la casa.",
+        "pl": "W domu jest łóżko.",
+        "fil": "May higaan sa bahay."
+      }
     },
     {
       "id": 26,
@@ -208,7 +333,12 @@
       "scene": "Teaches: καθεύδω — The farmer sleeps on the bed. The lamp glows softly.",
       "greekCaption": "ὁ γεωργὸς καθεύδει ἐπὶ τῆς κλίνης.",
       "englishCaption": "The farmer sleeps on the bed.",
-      "image": "story-images/ch3a/26.jpeg"
+      "image": "story-images/ch3a/26.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor duerme en la cama.",
+        "pl": "Rolnik śpi na łóżku.",
+        "fil": "Natutulog ang magsasaka sa higaan."
+      }
     },
     {
       "id": 27,
@@ -216,7 +346,12 @@
       "scene": "Teaches: ὕπνος — The farmer sleeps. The lamp still shines; the moon is outside.",
       "greekCaption": "ὁ γεωργὸς καθεύδει. ὁ ὕπνος αὐτοῦ εἰρηνικός ἐστιν.",
       "englishCaption": "The farmer sleeps. His sleep is peaceful.",
-      "image": "story-images/ch3b/1.jpeg"
+      "image": "story-images/ch3b/1.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor duerme. Su sueño es tranquilo.",
+        "pl": "Rolnik śpi. Jego sen jest spokojny.",
+        "fil": "Natutulog ang magsasaka. Mapayapa ang kanyang tulog."
+      }
     },
     {
       "id": 28,
@@ -224,7 +359,12 @@
       "scene": "Teaches: ὕπνος (dream) — Sleep. He enters a dream. The field is hazy and strange.",
       "greekCaption": "ἐν τῷ ὕπνῳ βλέπει τὸν ἀγρόν.",
       "englishCaption": "In his sleep he sees the field.",
-      "image": "story-images/ch3b/2.jpeg"
+      "image": "story-images/ch3b/2.jpeg",
+      "captionTranslations": {
+        "es": "En su sueño ve el campo.",
+        "pl": "W śnie widzi pole.",
+        "fil": "Sa kanyang panaginip nakikita niya ang bukid."
+      }
     },
     {
       "id": 29,
@@ -232,7 +372,12 @@
       "scene": "Teaches: εἷς, πολύς — One stone, then many stones. The field is full of great stones.",
       "greekCaption": "εἷς λίθος — πολλοὶ λίθοι. ὁ ἀγρὸς πλήρης λίθων ἐστίν.",
       "englishCaption": "One stone — many stones. The field is full of stones.",
-      "image": "story-images/ch3b/3.jpeg"
+      "image": "story-images/ch3b/3.jpeg",
+      "captionTranslations": {
+        "es": "Una piedra — muchas piedras. El campo está lleno de piedras.",
+        "pl": "Jeden kamień — wiele kamieni. Pole jest pełne kamieni.",
+        "fil": "Isang bato — maraming bato. Puno ng bato ang bukid."
+      }
     },
     {
       "id": 30,
@@ -240,7 +385,12 @@
       "scene": "Teaches: πρῶτος — The farmer lifts the first stone.",
       "greekCaption": "αἴρει τὸν πρῶτον λίθον.",
       "englishCaption": "He lifts the first stone.",
-      "image": "story-images/ch3b/4.jpeg"
+      "image": "story-images/ch3b/4.jpeg",
+      "captionTranslations": {
+        "es": "Levanta la primera piedra.",
+        "pl": "Podnosi pierwszy kamień.",
+        "fil": "Itinaas niya ang unang bato."
+      }
     },
     {
       "id": 31,
@@ -248,7 +398,12 @@
       "scene": "Teaches: δεύτερος — He lifts the second stone. Many more remain.",
       "greekCaption": "αἴρει τὸν δεύτερον λίθον. πολλοὶ δὲ ἔτι μένουσιν.",
       "englishCaption": "He lifts the second stone. But many still remain.",
-      "image": "story-images/ch3b/5.jpeg"
+      "image": "story-images/ch3b/5.jpeg",
+      "captionTranslations": {
+        "es": "Levanta la segunda piedra. Pero aún quedan muchas.",
+        "pl": "Podnosi drugi kamień. Ale wciąż wiele pozostaje.",
+        "fil": "Itinaas niya ang pangalawang bato. Ngunit marami pa ring natitira."
+      }
     },
     {
       "id": 32,
@@ -256,7 +411,12 @@
       "scene": "Reinforces: πολύς — Many stones still remain. He can barely make a dent.",
       "greekCaption": "πολλοὶ λίθοι ἔτι μένουσιν ἐν τῷ ἀγρῷ.",
       "englishCaption": "Many stones still remain in the field.",
-      "image": "story-images/ch3b/6.jpeg"
+      "image": "story-images/ch3b/6.jpeg",
+      "captionTranslations": {
+        "es": "Aún quedan muchas piedras en el campo.",
+        "pl": "W polu wciąż pozostaje wiele kamieni.",
+        "fil": "Marami pa ring bato sa bukid."
+      }
     },
     {
       "id": 33,
@@ -264,7 +424,12 @@
       "scene": "Teaches: δυνατός, πᾶς — It is not possible to lift all the stones.",
       "greekCaption": "οὐ δυνατόν ἐστιν αἴρειν πάντας τοὺς λίθους.",
       "englishCaption": "It is not possible to lift all the stones.",
-      "image": "story-images/ch3b/7.jpeg"
+      "image": "story-images/ch3b/7.jpeg",
+      "captionTranslations": {
+        "es": "No le es posible levantar todas las piedras.",
+        "pl": "Nie jest mu możliwe podniesienie wszystkich kamieni.",
+        "fil": "Hindi niya kayang iangat ang lahat ng bato."
+      }
     },
     {
       "id": 34,
@@ -272,7 +437,12 @@
       "scene": "Teaches: στενάζω — He grows weary and groans among the stones.",
       "greekCaption": "κοπιᾷ σφόδρα καὶ στενάζει.",
       "englishCaption": "He is exceedingly weary and groans.",
-      "image": "story-images/ch3b/8.jpeg"
+      "image": "story-images/ch3b/8.jpeg",
+      "captionTranslations": {
+        "es": "Está muy cansado y gime.",
+        "pl": "Jest bardzo zmęczony i jęknie.",
+        "fil": "Napakahirap niya at humihinga nang malalim."
+      }
     },
     {
       "id": 35,
@@ -280,7 +450,12 @@
       "scene": "Teaches: ποῦ — Where is the lamb? Where is the sheep? He looks around frantically.",
       "greekCaption": "ποῦ ἐστιν τὸ ἀρνίον; ποῦ ἐστιν τὸ πρόβατον;",
       "englishCaption": "Where is the lamb? Where is the sheep?",
-      "image": "story-images/ch3b/9.jpeg"
+      "image": "story-images/ch3b/9.jpeg",
+      "captionTranslations": {
+        "es": "¿Dónde está el cordero? ¿Dónde está la oveja?",
+        "pl": "Gdzie jest jagnię? Gdzie jest owca?",
+        "fil": "Nasaan ang kordero? Nasaan ang tupa?"
+      }
     },
     {
       "id": 36,
@@ -288,7 +463,12 @@
       "scene": "Reinforces: φεύγω, ἀπό — The sheep flee from the farmer into the distance.",
       "greekCaption": "τὰ πρόβατα φεύγουσιν ἀπὸ τοῦ γεωργοῦ.",
       "englishCaption": "The sheep flee from the farmer.",
-      "image": "story-images/ch3b/10.jpeg"
+      "image": "story-images/ch3b/10.jpeg",
+      "captionTranslations": {
+        "es": "Las ovejas huyen del agricultor.",
+        "pl": "Owce uciekają od rolnika.",
+        "fil": "Tumakas ang mga tupa mula sa magsasaka."
+      }
     },
     {
       "id": 37,
@@ -296,7 +476,12 @@
       "scene": "Reinforces: λύκος (plural), πέραν, ἰδού — Behold! Many wolves across the river.",
       "greekCaption": "ἰδού! πολλοὶ λύκοι εἰσὶν πέραν τοῦ ποταμοῦ.",
       "englishCaption": "Behold! Many wolves are across the river.",
-      "image": "story-images/ch3b/11.jpeg"
+      "image": "story-images/ch3b/11.jpeg",
+      "captionTranslations": {
+        "es": "¡Mira! Hay muchos lobos al otro lado del río.",
+        "pl": "Patrz! Wiele wilków jest po drugiej stronie rzeki.",
+        "fil": "Tingnan! Maraming lobo sa kabilang dako ng ilog."
+      }
     },
     {
       "id": 38,
@@ -304,7 +489,12 @@
       "scene": "Teaches: διαβαίνω — The wolves are about to cross over the river.",
       "greekCaption": "οἱ λύκοι μέλλουσιν διαβαίνειν τὸν ποταμόν.",
       "englishCaption": "The wolves are about to cross over the river.",
-      "image": "story-images/ch3b/12.jpeg"
+      "image": "story-images/ch3b/12.jpeg",
+      "captionTranslations": {
+        "es": "Los lobos están a punto de cruzar el río.",
+        "pl": "Wilki zaraz przeprawią się przez rzekę.",
+        "fil": "Malapit nang tumawid ang mga lobo ng ilog."
+      }
     },
     {
       "id": 39,
@@ -312,7 +502,12 @@
       "scene": "Reinforces: ταχέως, φωνή — He cannot run quickly; his voice is small. A nightmare.",
       "greekCaption": "οὐ δύναται τρέχειν ταχέως. ἡ φωνὴ αὐτοῦ μικρά ἐστιν.",
       "englishCaption": "He cannot run quickly. His voice is small.",
-      "image": "story-images/ch3b/13.jpeg"
+      "image": "story-images/ch3b/13.jpeg",
+      "captionTranslations": {
+        "es": "No puede correr rápidamente. Su voz es pequeña.",
+        "pl": "Nie może szybko biec. Jego głos jest mały.",
+        "fil": "Hindi siya makapagmadaling tumakbo. Maliit ang kanyang boses."
+      }
     },
     {
       "id": 40,
@@ -320,7 +515,12 @@
       "scene": "Teaches: φόβος — Great fear takes him. His eyes are wide, his face pale.",
       "greekCaption": "φόβος μέγας λαμβάνει αὐτόν.",
       "englishCaption": "Great fear takes him.",
-      "image": "story-images/ch3b/14.jpeg"
+      "image": "story-images/ch3b/14.jpeg",
+      "captionTranslations": {
+        "es": "Un gran miedo lo toma.",
+        "pl": "Ogarnia go wielki strach.",
+        "fil": "Puno siya ng malaking takot."
+      }
     },
     {
       "id": 41,
@@ -328,7 +528,12 @@
       "scene": "Teaches: ἐξαίφνης — Suddenly outside the house — many doors! A surreal dream shift.",
       "greekCaption": "ἐξαίφνης ἔξω τοῦ οἴκου ἐστίν. πολλαὶ θύραι εἰσίν.",
       "englishCaption": "Suddenly he is outside the house. There are many doors.",
-      "image": "story-images/ch3b/15.jpeg"
+      "image": "story-images/ch3b/15.jpeg",
+      "captionTranslations": {
+        "es": "De repente está afuera de la casa. Hay muchas puertas.",
+        "pl": "Nagle jest przed domem. Jest wiele drzwi.",
+        "fil": "Biglaan nasa labas na siya ng bahay. Maraming pinto."
+      }
     },
     {
       "id": 42,
@@ -336,7 +541,12 @@
       "scene": "Teaches: θαυμάζω — He wonders at the doors. Which one is his?",
       "greekCaption": "θαυμάζει τὰς θύρας. ποία ἐστὶν ἡ θύρα αὐτοῦ;",
       "englishCaption": "He wonders at the doors. Which is his door?",
-      "image": "story-images/ch3b/16.jpeg"
+      "image": "story-images/ch3b/16.jpeg",
+      "captionTranslations": {
+        "es": "Se maravilla ante las puertas. ¿Cuál es su puerta?",
+        "pl": "Dziwi się przy drzwiach. Które są jego drzwi?",
+        "fil": "Namumangha siya sa mga pinto. Alin ang kanyang pinto?"
+      }
     },
     {
       "id": 43,
@@ -344,7 +554,12 @@
       "scene": "Reinforces: πρῶτος, σκοτία, ἀνοίγω — He opens the first door — darkness.",
       "greekCaption": "ἀνοίγει τὴν πρώτην θύραν — σκοτία.",
       "englishCaption": "He opens the first door — darkness.",
-      "image": "story-images/ch3b/17.jpeg"
+      "image": "story-images/ch3b/17.jpeg",
+      "captionTranslations": {
+        "es": "Abre la primera puerta — oscuridad.",
+        "pl": "Otwiera pierwsze drzwi — ciemność.",
+        "fil": "Binuksan niya ang unang pinto — kadiliman."
+      }
     },
     {
       "id": 44,
@@ -352,7 +567,12 @@
       "scene": "Teaches: πανταχοῦ — He opens the second door — darkness everywhere.",
       "greekCaption": "ἀνοίγει τὴν δευτέραν θύραν — σκοτία πανταχοῦ.",
       "englishCaption": "He opens the second door — darkness everywhere.",
-      "image": "story-images/ch3b/18.jpeg"
+      "image": "story-images/ch3b/18.jpeg",
+      "captionTranslations": {
+        "es": "Abre la segunda puerta — oscuridad en todas partes.",
+        "pl": "Otwiera drugie drzwi — wszędzie ciemność.",
+        "fil": "Binuksan niya ang pangalawang pinto — kadiliman sa lahat ng dako."
+      }
     },
     {
       "id": 45,
@@ -360,7 +580,12 @@
       "scene": "Teaches: τρίτος — Finally he opens the third door and walks in.",
       "greekCaption": "τέλος ἀνοίγει τὴν τρίτην θύραν καὶ εἰσέρχεται.",
       "englishCaption": "Finally he opens the third door and enters.",
-      "image": "story-images/ch3b/19.jpeg"
+      "image": "story-images/ch3b/19.jpeg",
+      "captionTranslations": {
+        "es": "Finalmente abre la tercera puerta y entra.",
+        "pl": "W końcu otwiera trzecie drzwi i wchodzi.",
+        "fil": "Sa wakas binuksan niya ang ikatlong pinto at pumasok."
+      }
     },
     {
       "id": 46,
@@ -368,7 +593,12 @@
       "scene": "Teaches: ἔσω — Inside the house, he seeks the lamp. All is dark.",
       "greekCaption": "ἔσω τοῦ οἴκου ζητεῖ τὸν λύχνον. σκοτία ἐστίν.",
       "englishCaption": "Inside the house he seeks the lamp. It is dark.",
-      "image": "story-images/ch3b/20.jpeg"
+      "image": "story-images/ch3b/20.jpeg",
+      "captionTranslations": {
+        "es": "Dentro de la casa busca la lámpara. Está oscuro.",
+        "pl": "W domu szuka lampy. Jest ciemno.",
+        "fil": "Sa loob ng bahay hinahanap niya ang ilawan. Madilim."
+      }
     },
     {
       "id": 47,
@@ -376,7 +606,12 @@
       "scene": "Teaches: πίπτω — He falls because he cannot see the way.",
       "greekCaption": "πίπτει ὅτι οὐ βλέπει τὴν ὁδόν.",
       "englishCaption": "He falls because he cannot see the way.",
-      "image": "story-images/ch3b/21.jpeg"
+      "image": "story-images/ch3b/21.jpeg",
+      "captionTranslations": {
+        "es": "Se cae porque no puede ver el camino.",
+        "pl": "Upada, bo nie może widzieć drogi.",
+        "fil": "Nahulog siya dahil hindi niya makita ang daan."
+      }
     },
     {
       "id": 48,
@@ -384,7 +619,12 @@
       "scene": "Teaches: ὡς — The animals sit on the chairs like (ὡς) men. A surreal dream vision.",
       "greekCaption": "τὰ ζῷα κάθηνται ἐπὶ τῶν καθεδρῶν ὡς ἄνθρωποι.",
       "englishCaption": "The animals sit on the chairs like men.",
-      "image": "story-images/ch3b/22.jpeg"
+      "image": "story-images/ch3b/22.jpeg",
+      "captionTranslations": {
+        "es": "Los animales se sientan en las sillas como personas.",
+        "pl": "Zwierzęta siedzą na krzesłach jak ludzie.",
+        "fil": "Nakaupo ang mga hayop sa mga silya tulad ng mga tao."
+      }
     },
     {
       "id": 49,
@@ -392,7 +632,12 @@
       "scene": "Reinforces: θαυμάζω — The farmer wonders greatly and stares at the animals.",
       "greekCaption": "ὁ γεωργὸς θαυμάζει σφόδρα καὶ βλέπει τὰ ζῷα.",
       "englishCaption": "The farmer wonders greatly and looks at the animals.",
-      "image": "story-images/ch3b/23.jpeg"
+      "image": "story-images/ch3b/23.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor se maravilla mucho y mira a los animales.",
+        "pl": "Rolnik bardzo się dziwi i patrzy na zwierzęta.",
+        "fil": "Lubos na namumangha ang magsasaka at tinitingnan ang mga hayop."
+      }
     },
     {
       "id": 50,
@@ -400,7 +645,12 @@
       "scene": "Reinforces: λέγω, φωνή — The donkey speaks: 'We want to eat the fruits and the bread.'",
       "greekCaption": "ὁ ὄνος λέγει· θέλομεν ἐσθίειν τοὺς καρποὺς καὶ τοὺς ἄρτους.",
       "englishCaption": "The donkey says: 'We want to eat the fruits and the bread.'",
-      "image": "story-images/ch3b/24.jpeg"
+      "image": "story-images/ch3b/24.jpeg",
+      "captionTranslations": {
+        "es": "El asno dice: 'Queremos comer las frutas y el pan.'",
+        "pl": "Osioł mówi: «Chcemy jeść owoce i chleb.»",
+        "fil": "Sinabi ng asno: 'Gusto naming kumain ng mga bunga at tinapay.'"
+      }
     },
     {
       "id": 51,
@@ -408,7 +658,12 @@
       "scene": "Teaches: τίς — 'What are you saying? For you are an animal!'",
       "greekCaption": "τί λέγεις; ζῷον γὰρ εἶ!",
       "englishCaption": "'What are you saying? For you are an animal!'",
-      "image": "story-images/ch3b/25.jpeg"
+      "image": "story-images/ch3b/25.jpeg",
+      "captionTranslations": {
+        "es": "'¿Qué estás diciendo? ¡Pues eres un animal!'",
+        "pl": "«Co mówisz? Jesteś bowiem zwierzęciem!»",
+        "fil": "'Ano ang sinasabi mo? Hayop ka kasi!'"
+      }
     },
     {
       "id": 52,
@@ -416,7 +671,12 @@
       "scene": "Reinforces: ἀνοίγω, οὐ δυνατόν — He cannot open the door. He pushes but it will not move.",
       "greekCaption": "οὐ δύναται ἀνοίγειν τὴν θύραν.",
       "englishCaption": "He cannot open the door.",
-      "image": "story-images/ch3b/26.jpeg"
+      "image": "story-images/ch3b/26.jpeg",
+      "captionTranslations": {
+        "es": "No puede abrir la puerta.",
+        "pl": "Nie może otworzyć drzwi.",
+        "fil": "Hindi niya mabuksan ang pinto."
+      }
     },
     {
       "id": 53,
@@ -424,7 +684,12 @@
       "scene": "Reinforces: κράζω, φωνή μεγάλη — He cries out: 'I do not want this!'",
       "greekCaption": "κράζει μεγάλῃ φωνῇ· οὐ θέλω!",
       "englishCaption": "He cries out with a great voice: 'I do not want this!'",
-      "image": "story-images/ch3b/27.jpeg"
+      "image": "story-images/ch3b/27.jpeg",
+      "captionTranslations": {
+        "es": "Grita con gran voz: '¡No quiero esto!'",
+        "pl": "Krzyczy wielkim głosem: «Nie chcę tego!»",
+        "fil": "Sumigaw siya nang malakas: 'Ayaw ko nito!'"
+      }
     },
     {
       "id": 54,
@@ -432,7 +697,12 @@
       "scene": "Teaches: ἐγείρω — His own voice wakes him. He sits up suddenly in bed.",
       "greekCaption": "ἡ φωνὴ αὐτοῦ ἐγείρει αὐτόν. ἐξαίφνης ἀνίσταται.",
       "englishCaption": "His voice wakes him. He suddenly sits up.",
-      "image": "story-images/ch3b/28.jpeg"
+      "image": "story-images/ch3b/28.jpeg",
+      "captionTranslations": {
+        "es": "Su voz lo despierta. De repente se sienta.",
+        "pl": "Jego głos go budzi. Nagle siada.",
+        "fil": "Ginising siya ng kanyang boses. Biglaan nakaupo siya."
+      }
     },
     {
       "id": 55,
@@ -440,7 +710,12 @@
       "scene": "Teaches: ὀφθαλμός — He opens his eyes and looks around at his house.",
       "greekCaption": "ἀνοίγει τοὺς ὀφθαλμοὺς αὐτοῦ καὶ βλέπει τὸν οἶκον.",
       "englishCaption": "He opens his eyes and looks at his house.",
-      "image": "story-images/ch3b/29.jpeg"
+      "image": "story-images/ch3b/29.jpeg",
+      "captionTranslations": {
+        "es": "Abre sus ojos y mira su casa.",
+        "pl": "Otwiera oczy i patrzy na swój dom.",
+        "fil": "Binuksan niya ang kanyang mga mata at tinitingnan ang kanyang bahay."
+      }
     },
     {
       "id": 56,
@@ -448,7 +723,12 @@
       "scene": "Reinforces: ζητέω, ἔξω, ἰδού — He looks outside. Behold — his animals rest peacefully.",
       "greekCaption": "ζητεῖ τὰ ζῷα. ἰδού — ἔξω ἡσυχάζουσιν.",
       "englishCaption": "He seeks his animals. Behold — they rest peacefully outside.",
-      "image": "story-images/ch3b/30.jpeg"
+      "image": "story-images/ch3b/30.jpeg",
+      "captionTranslations": {
+        "es": "Busca a sus animales. ¡Mira — descansan tranquilamente afuera!",
+        "pl": "Szuka swoich zwierząt. Patrz — odpoczywają spokojnie na zewnątrz!",
+        "fil": "Hinahanap niya ang kanyang mga hayop. Tingnan — nagpapahinga silang mapayapa sa labas!"
+      }
     }
   ]
 }

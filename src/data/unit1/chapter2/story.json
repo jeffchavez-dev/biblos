@@ -12,11 +12,21 @@
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "κῆπος",
@@ -28,27 +38,57 @@
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ἔχει",
-          "definition": "has"
+          "definition": "has",
+          "translations": {
+            "es": "tiene",
+            "pl": "ma",
+            "fil": "mayroon"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "κῆπον.",
@@ -56,15 +96,30 @@
         },
         {
           "greek": "μικρός",
-          "definition": "small"
+          "definition": "small",
+          "translations": {
+            "es": "pequeño",
+            "pl": "mały",
+            "fil": "maliit"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "κῆπος,",
@@ -72,7 +127,12 @@
         },
         {
           "greek": "ἀλλὰ",
-          "definition": "but"
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
         },
         {
           "greek": "καλός.",
@@ -80,7 +140,12 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "κῆπός",
@@ -88,7 +153,12 @@
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ἐγγὺς",
@@ -96,14 +166,29 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the (gen.)"
+          "definition": "the (gen.)",
+          "translations": {
+            "es": "el (gen.)",
+            "pl": "rodzajnik (dop.)",
+            "fil": "ang (genitivo)"
+          }
         },
         {
           "greek": "οἴκου.",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         }
       ],
-      "translation": "There is a garden. The garden is beautiful. The farmer has the garden. The garden is small, but beautiful. The garden is near the house."
+      "translation": "There is a garden. The garden is beautiful. The farmer has the garden. The garden is small, but beautiful. The garden is near the house.",
+      "translations": {
+        "es": "Hay un jardín. El jardín es hermoso. El agricultor tiene el jardín. El jardín está cerca de la casa, no lejos.",
+        "pl": "Jest ogród. Ogród jest piękny. Rolnik ma ogród. Ogród jest blisko domu, nie daleko.",
+        "fil": "May hardin. Maganda ang hardin. May hardin ang magsasaka. Ang hardin ay malapit sa bahay, hindi malayo."
+      }
     },
     {
       "id": 2,
@@ -114,15 +199,30 @@
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "κήπῳ.",
@@ -130,15 +230,30 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "φυτεύει",
@@ -146,7 +261,12 @@
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λάχανον",
@@ -154,11 +274,21 @@
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "κήπῳ",
@@ -166,15 +296,30 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "λαμβάνει",
-          "definition": "takes"
+          "definition": "takes",
+          "translations": {
+            "es": "toma",
+            "pl": "bierze",
+            "fil": "kumuha"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λάχανον",
@@ -182,26 +327,56 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἐσθίει",
-          "definition": "eats"
+          "definition": "eats",
+          "translations": {
+            "es": "come",
+            "pl": "je",
+            "fil": "kumakain"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἴκῳ.",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         }
       ],
-      "translation": "There is a vegetable in the garden. The farmer plants the vegetable in the garden and takes the vegetable and eats in the house."
+      "translation": "There is a vegetable in the garden. The farmer plants the vegetable in the garden and takes the vegetable and eats in the house.",
+      "translations": {
+        "es": "Hay una verdura en el jardín. El agricultor planta la verdura en el jardín. La verdura es buena.",
+        "pl": "W ogrodzie jest warzywo. Rolnik sadzi warzywo w ogrodzie. Warzywo jest dobre.",
+        "fil": "May gulay sa hardin. Nagtatanim ang magsasaka ng gulay sa hardin. Mabuti ang gulay."
+      }
     },
     {
       "id": 3,
@@ -212,19 +387,39 @@
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "μέγα",
@@ -232,7 +427,12 @@
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "τὸ",
@@ -256,7 +456,12 @@
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δένδρῳ·",
@@ -288,7 +493,12 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "κλάδοι",
@@ -304,7 +514,12 @@
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δένδρῳ.",
@@ -312,7 +527,12 @@
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δένδρον",
@@ -320,7 +540,12 @@
         },
         {
           "greek": "ἔχει",
-          "definition": "has"
+          "definition": "has",
+          "translations": {
+            "es": "tiene",
+            "pl": "ma",
+            "fil": "mayroon"
+          }
         },
         {
           "greek": "τοὺς",
@@ -332,11 +557,21 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "οἱ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "κλάδοι",
@@ -348,14 +583,24 @@
         },
         {
           "greek": "τοὺς",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "καρπούς.",
           "definition": "fruits"
         }
       ],
-      "translation": "There is a tree in the field. The tree is large. Fruits are on the tree; the fruits of the tree are beautiful. And branches are on the tree. The tree has the branches and the branches bear the fruits."
+      "translation": "There is a tree in the field. The tree is large. Fruits are on the tree; the fruits of the tree are beautiful. And branches are on the tree. The tree has the branches and the branches bear the fruits.",
+      "translations": {
+        "es": "Hay un árbol en el campo. El árbol es grande. Hay frutos en el árbol; los frutos son buenos.",
+        "pl": "W polu jest drzewo. Drzewo jest duże. Na drzewie są owoce; owoce są dobre.",
+        "fil": "May puno sa bukid. Malaki ang puno. May mga bunga sa puno; mabuti ang mga bunga."
+      }
     },
     {
       "id": 4,
@@ -366,19 +611,39 @@
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ἔχει",
-          "definition": "has"
+          "definition": "has",
+          "translations": {
+            "es": "tiene",
+            "pl": "ma",
+            "fil": "mayroon"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "δρέπανον.",
@@ -386,15 +651,30 @@
         },
         {
           "greek": "λαμβάνει",
-          "definition": "takes"
+          "definition": "takes",
+          "translations": {
+            "es": "toma",
+            "pl": "bierze",
+            "fil": "kumuha"
+          }
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δρέπανον",
@@ -402,7 +682,12 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "θερίζει",
@@ -410,7 +695,12 @@
         },
         {
           "greek": "τοὺς",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "καρποὺς",
@@ -422,7 +712,12 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δένδρου",
@@ -430,26 +725,56 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "φέρει",
-          "definition": "carries"
+          "definition": "carries",
+          "translations": {
+            "es": "lleva",
+            "pl": "niesie",
+            "fil": "dinala"
+          }
         },
         {
           "greek": "πρὸς",
-          "definition": "toward"
+          "definition": "toward",
+          "translations": {
+            "es": "hacia",
+            "pl": "ku",
+            "fil": "patungo sa"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἶκον.",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         }
       ],
-      "translation": "There is a sickle. The farmer has a sickle. So he takes the sickle and harvests the fruits from the tree and carries them toward the house."
+      "translation": "There is a sickle. The farmer has a sickle. So he takes the sickle and harvests the fruits from the tree and carries them toward the house.",
+      "translations": {
+        "es": "Hay una hoz. El agricultor tiene una hoz. Así que toma la hoz y cosecha los frutos del árbol.",
+        "pl": "Jest sierp. Rolnik ma sierp. Bierze więc sierp i zbiera owoce z drzewa.",
+        "fil": "May karit. May karit ang magsasaka. Kaya kumuha siya ng karit at nag-ani ng mga bunga mula sa puno."
+      }
     },
     {
       "id": 5,
@@ -460,19 +785,39 @@
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "τοῦ",
@@ -484,7 +829,12 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ὄνος",
@@ -492,11 +842,21 @@
         },
         {
           "greek": "φέρει",
-          "definition": "carries"
+          "definition": "carries",
+          "translations": {
+            "es": "lleva",
+            "pl": "niesie",
+            "fil": "dinala"
+          }
         },
         {
           "greek": "τοὺς",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λίθους",
@@ -504,27 +864,57 @@
         },
         {
           "greek": "ἐκ",
-          "definition": "out of"
+          "definition": "out of",
+          "translations": {
+            "es": "fuera de",
+            "pl": "z",
+            "fil": "mula sa"
+          }
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγροῦ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "ἀγαθός",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ὄνος.",
@@ -536,35 +926,75 @@
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "also"
+          "definition": "also",
+          "translations": {
+            "es": "también",
+            "pl": "też",
+            "fil": "din"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "μέγας",
-          "definition": "great"
+          "definition": "great",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki",
+            "fil": "dakila"
+          }
         },
         {
           "greek": "ἐστὶν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "βοῦς",
@@ -572,14 +1002,29 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἰσχυρός.",
-          "definition": "strong"
+          "definition": "strong",
+          "translations": {
+            "es": "fuerte",
+            "pl": "silny",
+            "fil": "malakas"
+          }
         }
       ],
-      "translation": "There is a donkey in the farmer's field. The donkey carries the stones out of the field. The donkey is good. There is also an ox in the field. The ox is great and strong."
+      "translation": "There is a donkey in the farmer's field. The donkey carries the stones out of the field. The donkey is good. There is also an ox in the field. The ox is great and strong.",
+      "translations": {
+        "es": "Hay un asno en el campo del agricultor. El asno saca las piedras del campo. El agricultor ama al asno.",
+        "pl": "W polu rolnika jest osioł. Osioł wynosi kamienie z pola. Rolnik kocha osła.",
+        "fil": "May asno sa bukid ng magsasaka. Inililipat ng asno ang mga bato mula sa bukid. Minamahal ng magsasaka ang asno."
+      }
     },
     {
       "id": 6,
@@ -590,11 +1035,21 @@
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "πρόβατόν",
@@ -602,7 +1057,12 @@
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ζῷον.",
@@ -610,7 +1070,12 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὰ",
@@ -626,19 +1091,39 @@
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "πρόβατον",
@@ -650,31 +1135,66 @@
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἐσθίει",
-          "definition": "eats"
+          "definition": "eats",
+          "translations": {
+            "es": "come",
+            "pl": "je",
+            "fil": "kumakain"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "χόρτον",
-          "definition": "grass"
+          "definition": "grass",
+          "translations": {
+            "es": "hierba",
+            "pl": "trawa",
+            "fil": "damo"
+          }
         },
         {
           "greek": "τοῦ",
@@ -682,11 +1202,21 @@
         },
         {
           "greek": "ἀγροῦ",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "πίνει",
@@ -698,21 +1228,41 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμοῦ.",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         }
       ],
-      "translation": "There is a sheep. The sheep is an animal. And the animals are in the field. The sheep stays in the field and eats the grass of the field and drinks from the river."
+      "translation": "There is a sheep. The sheep is an animal. And the animals are in the field. The sheep stays in the field and eats the grass of the field and drinks from the river.",
+      "translations": {
+        "es": "Hay una oveja. La oveja es un animal. Y los animales están en el campo. El agricultor guarda a sus animales en el campo.",
+        "pl": "Jest owca. Owca jest zwierzęciem. Zwierzęta są na polu. Rolnik strzeże swoich zwierząt na polu.",
+        "fil": "May tupa. Ang tupa ay hayop. At ang mga hayop ay nasa bukid. Binabantayan ng magsasaka ang kanyang mga hayop sa bukid."
+      }
     },
     {
       "id": 7,
       "words": [
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "πρόβατον",
@@ -720,7 +1270,12 @@
         },
         {
           "greek": "ἔχει",
-          "definition": "has"
+          "definition": "has",
+          "translations": {
+            "es": "tiene",
+            "pl": "ma",
+            "fil": "mayroon"
+          }
         },
         {
           "greek": "ἀρνίον.",
@@ -728,7 +1283,12 @@
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -736,7 +1296,12 @@
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "τέκνον",
@@ -752,19 +1317,39 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "μικρόν",
-          "definition": "small"
+          "definition": "small",
+          "translations": {
+            "es": "pequeño",
+            "pl": "mały",
+            "fil": "maliit"
+          }
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ταχέως",
@@ -776,7 +1361,12 @@
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -784,35 +1374,75 @@
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "βλέπει",
-          "definition": "sees"
+          "definition": "sees",
+          "translations": {
+            "es": "ve",
+            "pl": "widzi",
+            "fil": "nakikita"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -820,11 +1450,21 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "πρόβατον",
@@ -832,41 +1472,86 @@
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "χαίρει.",
-          "definition": "rejoices"
+          "definition": "rejoices",
+          "translations": {
+            "es": "se alegra",
+            "pl": "cieszy się",
+            "fil": "nagagalak"
+          }
         }
       ],
-      "translation": "The sheep has a lamb. The lamb is the offspring of the sheep and is small. And the lamb runs quickly in the field. The farmer sees the lamb and the sheep in the field and rejoices."
+      "translation": "The sheep has a lamb. The lamb is the offspring of the sheep and is small. And the lamb runs quickly in the field. The farmer sees the lamb and the sheep in the field and rejoices.",
+      "translations": {
+        "es": "La oveja tiene un cordero. El cordero es cría de la oveja y es pequeño. Y el cordero sigue a la oveja.",
+        "pl": "Owca ma jagnię. Jagnię jest potomkiem owcy i jest małe. Jagnię podąża za owcą.",
+        "fil": "May kordero ang tupa. Ang kordero ay anak ng tupa at maliit. At sumusunod ang kordero sa tupa."
+      }
     },
     {
       "id": 8,
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμὸς",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         },
         {
           "greek": "ῥεῖ",
-          "definition": "flows"
+          "definition": "flows",
+          "translations": {
+            "es": "fluye",
+            "pl": "płynie",
+            "fil": "umaagos"
+          }
         },
         {
           "greek": "ἐγγὺς",
@@ -874,11 +1559,21 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγροῦ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "πέραν",
@@ -886,15 +1581,30 @@
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμοῦ",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         },
         {
           "greek": "θηρίον",
@@ -902,11 +1612,21 @@
         },
         {
           "greek": "ἐστίν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκος",
@@ -914,7 +1634,12 @@
         },
         {
           "greek": "ἐστὶν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "θηρίον.",
@@ -922,15 +1647,30 @@
         },
         {
           "greek": "μέγας",
-          "definition": "great, large"
+          "definition": "great, large",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki, duży",
+            "fil": "dakila, malaki"
+          }
         },
         {
           "greek": "ἐστὶν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκος.",
@@ -938,19 +1678,39 @@
         },
         {
           "greek": "βλέπει",
-          "definition": "sees"
+          "definition": "sees",
+          "translations": {
+            "es": "ve",
+            "pl": "widzi",
+            "fil": "nakikita"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκον",
@@ -962,33 +1722,63 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμοῦ.",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "χαίρει.",
           "definition": "he rejoices"
         }
       ],
-      "translation": "The river flows near the field. And across the river there is a wild beast. The wolf is a wild beast. The wolf is large. The farmer sees the wolf across the river. He does not rejoice."
+      "translation": "The river flows near the field. And across the river there is a wild beast. The wolf is a wild beast. The wolf is large. The farmer sees the wolf across the river. He does not rejoice.",
+      "translations": {
+        "es": "El río fluye cerca del campo. Y al otro lado del río hay una bestia salvaje. El animal salvaje es un lobo.",
+        "pl": "Rzeka płynie blisko pola. Po drugiej stronie rzeki jest dzikie zwierzę. Tym dzikim zwierzęciem jest wilk.",
+        "fil": "Umaagos ang ilog malapit sa bukid. At sa kabilang dako ng ilog ay may mabangis na hayop. Lobo ang mabangis na hayop."
+      }
     },
     {
       "id": 9,
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γὰρ",
-          "definition": "for, because"
+          "definition": "for, because",
+          "translations": {
+            "es": "pues, porque",
+            "pl": "bowiem",
+            "fil": "sapagkat"
+          }
         },
         {
           "greek": "λύκος",
@@ -996,11 +1786,21 @@
         },
         {
           "greek": "βλέπει",
-          "definition": "sees"
+          "definition": "sees",
+          "translations": {
+            "es": "ve",
+            "pl": "widzi",
+            "fil": "nakikita"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -1008,11 +1808,21 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "πρόβατον",
@@ -1020,19 +1830,39 @@
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μὲν",
@@ -1044,27 +1874,57 @@
         },
         {
           "greek": "μέγας",
-          "definition": "great"
+          "definition": "great",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki",
+            "fil": "dakila"
+          }
         },
         {
           "greek": "ἐστὶν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἰσχυρός·",
-          "definition": "strong"
+          "definition": "strong",
+          "translations": {
+            "es": "fuerte",
+            "pl": "silny",
+            "fil": "malakas"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "but"
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -1072,15 +1932,30 @@
         },
         {
           "greek": "μικρόν",
-          "definition": "small"
+          "definition": "small",
+          "translations": {
+            "es": "pequeño",
+            "pl": "mały",
+            "fil": "maliit"
+          }
         },
         {
           "greek": "ἐστιν.",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκος",
@@ -1088,15 +1963,30 @@
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "βλέπει",
-          "definition": "sees"
+          "definition": "sees",
+          "translations": {
+            "es": "ve",
+            "pl": "widzi",
+            "fil": "nakikita"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "βοῦν",
@@ -1104,18 +1994,33 @@
         },
         {
           "greek": "ἀλλὰ",
-          "definition": "but"
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον.",
           "definition": "lamb"
         }
       ],
-      "translation": "For the wolf sees the lamb and the sheep in the field. The ox is great and strong, but the lamb is small. The wolf does not look at the ox, but the lamb."
+      "translation": "For the wolf sees the lamb and the sheep in the field. The ox is great and strong, but the lamb is small. The wolf does not look at the ox, but the lamb.",
+      "translations": {
+        "es": "Pues el lobo ve al cordero y a la oveja en el campo. El buey es grande y fuerte, pero no puede ver al lobo.",
+        "pl": "Wilk widzi jagnię i owcę na polu. Wół jest duży i silny, ale nie może zobaczyć wilka.",
+        "fil": "Kita ng lobo ang kordero at tupa sa bukid. Malaki at malakas ang baka, ngunit hindi nito makita ang lobo."
+      }
     },
     {
       "id": 10,
@@ -1123,19 +2028,39 @@
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "λέγει·",
-          "definition": "says"
+          "definition": "says",
+          "translations": {
+            "es": "dice",
+            "pl": "mówi",
+            "fil": "sinasabi"
+          }
         },
         {
           "greek": "«ἔχω",
-          "definition": "I have"
+          "definition": "I have",
+          "translations": {
+            "es": "yo tengo",
+            "pl": "mam",
+            "fil": "mayroon ako"
+          }
         },
         {
           "greek": "κῆπον",
@@ -1151,11 +2076,21 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἴκου.",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         },
         {
           "greek": "λάχανόν",
@@ -1163,15 +2098,30 @@
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "κήπῳ.",
@@ -1179,19 +2129,39 @@
         },
         {
           "greek": "ἔχω",
-          "definition": "I have"
+          "definition": "I have",
+          "translations": {
+            "es": "yo tengo",
+            "pl": "mam",
+            "fil": "mayroon ako"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μέγα",
-          "definition": "great"
+          "definition": "great",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki",
+            "fil": "dakila"
+          }
         },
         {
           "greek": "δένδρον",
@@ -1199,15 +2169,30 @@
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "ἐπὶ",
@@ -1215,7 +2200,12 @@
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δένδρῳ",
@@ -1227,7 +2217,12 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "κλάδοι",
@@ -1243,7 +2238,12 @@
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δρέπανον",
@@ -1251,7 +2251,12 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "θερίζω",
@@ -1259,7 +2264,12 @@
         },
         {
           "greek": "τοὺς",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "καρποὺς",
@@ -1271,7 +2281,12 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δένδρου.",
@@ -1279,11 +2294,21 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ὄνος",
@@ -1291,11 +2316,21 @@
         },
         {
           "greek": "φέρει",
-          "definition": "carries"
+          "definition": "carries",
+          "translations": {
+            "es": "lleva",
+            "pl": "niesie",
+            "fil": "dinala"
+          }
         },
         {
           "greek": "τοὺς",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "καρποὺς",
@@ -1303,27 +2338,57 @@
         },
         {
           "greek": "πρὸς",
-          "definition": "toward"
+          "definition": "toward",
+          "translations": {
+            "es": "hacia",
+            "pl": "ku",
+            "fil": "patungo sa"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἶκον.",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         },
         {
           "greek": "ἀγαθός",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ὄνος.",
@@ -1331,15 +2396,30 @@
         },
         {
           "greek": "ἔχω",
-          "definition": "I have"
+          "definition": "I have",
+          "translations": {
+            "es": "yo tengo",
+            "pl": "mam",
+            "fil": "mayroon ako"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "also"
+          "definition": "also",
+          "translations": {
+            "es": "también",
+            "pl": "też",
+            "fil": "din"
+          }
         },
         {
           "greek": "βοῦν",
@@ -1347,27 +2427,57 @@
         },
         {
           "greek": "ἰσχυρὸν",
-          "definition": "strong"
+          "definition": "strong",
+          "translations": {
+            "es": "fuerte",
+            "pl": "silny",
+            "fil": "malakas"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "ἔχω",
-          "definition": "I have"
+          "definition": "I have",
+          "translations": {
+            "es": "yo tengo",
+            "pl": "mam",
+            "fil": "mayroon ako"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "πρόβατον",
@@ -1375,7 +2485,12 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἀρνίον.",
@@ -1383,19 +2498,39 @@
         },
         {
           "greek": "ἀλλὰ",
-          "definition": "but"
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
         },
         {
           "greek": "νῦν",
-          "definition": "now"
+          "definition": "now",
+          "translations": {
+            "es": "ahora",
+            "pl": "teraz",
+            "fil": "ngayon"
+          }
         },
         {
           "greek": "βλέπω",
-          "definition": "I see"
+          "definition": "I see",
+          "translations": {
+            "es": "yo veo",
+            "pl": "widzę",
+            "fil": "nakikita ko"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκον",
@@ -1407,15 +2542,30 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμοῦ.",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκος",
@@ -1423,19 +2573,39 @@
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "βλέπει",
-          "definition": "sees"
+          "definition": "sees",
+          "translations": {
+            "es": "ve",
+            "pl": "widzi",
+            "fil": "nakikita"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μέγαν",
-          "definition": "great"
+          "definition": "great",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki",
+            "fil": "dakila"
+          }
         },
         {
           "greek": "βοῦν·",
@@ -1443,15 +2613,30 @@
         },
         {
           "greek": "βλέπει",
-          "definition": "sees"
+          "definition": "sees",
+          "translations": {
+            "es": "ve",
+            "pl": "widzi",
+            "fil": "nakikita"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μικρὸν",
-          "definition": "small"
+          "definition": "small",
+          "translations": {
+            "es": "pequeño",
+            "pl": "mały",
+            "fil": "maliit"
+          }
         },
         {
           "greek": "ἀρνίον.",
@@ -1459,23 +2644,48 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "θεὸς",
-          "definition": "God"
+          "definition": "God",
+          "translations": {
+            "es": "Dios",
+            "pl": "Bóg",
+            "fil": "Diyos"
+          }
         },
         {
           "greek": "ἀγαθός",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "φυλάσσει",
@@ -1483,7 +2693,12 @@
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον.",
@@ -1491,18 +2706,38 @@
         },
         {
           "greek": "εὐχαριστῶ",
-          "definition": "I give thanks"
+          "definition": "I give thanks",
+          "translations": {
+            "es": "doy gracias",
+            "pl": "dziękuję",
+            "fil": "nagpapasalamat"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "to the"
+          "definition": "to the",
+          "translations": {
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
+          }
         },
         {
           "greek": "θεῷ.»",
-          "definition": "God (dat.)"
+          "definition": "God (dat.)",
+          "translations": {
+            "es": "a Dios (dat.)",
+            "pl": "Bogu (cel.)",
+            "fil": "sa Diyos (dativo)"
+          }
         }
       ],
-      "translation": "The farmer says: 'I have a beautiful garden near the house. There is a vegetable in the garden. I also have the great tree in the field. On the tree there are fruits and branches. I take the sickle and harvest the fruits from the tree. The donkey carries the fruits toward the house. The donkey is good. I also have a strong ox in the field. I have a sheep and a lamb. But now I see the wolf across the river. The wolf does not see the great ox; he sees the small lamb. God is good and guards the lamb. I give thanks to God.'"
+      "translation": "The farmer says: 'I have a beautiful garden near the house. There is a vegetable in the garden. I also have the great tree in the field. On the tree there are fruits and branches. I take the sickle and harvest the fruits from the tree. The donkey carries the fruits toward the house. The donkey is good. I also have a strong ox in the field. I have a sheep and a lamb. But now I see the wolf across the river. The wolf does not see the great ox; he sees the small lamb. God is good and guards the lamb. I give thanks to God.'",
+      "translations": {
+        "es": "El agricultor dice: 'Tengo un hermoso jardín cerca de la casa. Hay verduras y frutas en el jardín...'",
+        "pl": "Rolnik mówi: «Mam piękny ogród blisko domu. W ogrodzie są warzywa i owoce...»",
+        "fil": "Sinabi ng magsasaka: 'May magandang hardin ako malapit sa bahay. May mga gulay at bunga sa hardin...'"
+      }
     },
     {
       "id": 11,
@@ -1514,7 +2749,12 @@
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ἡ",
@@ -1526,7 +2766,12 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μὲν",
@@ -1534,53 +2779,108 @@
         },
         {
           "greek": "ἥλιος",
-          "definition": "sun"
+          "definition": "sun",
+          "translations": {
+            "es": "sol",
+            "pl": "słońce",
+            "fil": "araw"
+          }
         },
         {
           "greek": "λάμπει",
-          "definition": "shines"
+          "definition": "shines",
+          "translations": {
+            "es": "brilla",
+            "pl": "świeci",
+            "fil": "sumisinag"
+          }
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οὐρανῷ.",
-          "definition": "sky"
+          "definition": "sky",
+          "translations": {
+            "es": "cielo",
+            "pl": "niebo",
+            "fil": "langit"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ποταμὸς",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         },
         {
           "greek": "ῥεῖ",
-          "definition": "flows"
+          "definition": "flows",
+          "translations": {
+            "es": "fluye",
+            "pl": "płynie",
+            "fil": "umaagos"
+          }
         },
         {
           "greek": "καλῶς.",
           "definition": "well, beautifully"
         }
       ],
-      "translation": "The day is beautiful. The sun shines in the sky. The river flows beautifully."
+      "translation": "The day is beautiful. The sun shines in the sky. The river flows beautifully.",
+      "translations": {
+        "es": "El día es hermoso. El sol brilla en el cielo. El río fluye bellamente.",
+        "pl": "Dzień jest piękny. Słońce świeci na niebie. Rzeka pięknie płynie.",
+        "fil": "Maganda ang araw. Sumisinag ang araw sa langit. Maganda ang agos ng ilog."
+      }
     },
     {
       "id": 12,
       "words": [
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μὲν",
@@ -1592,15 +2892,30 @@
         },
         {
           "greek": "ἐσθίει",
-          "definition": "eats"
+          "definition": "eats",
+          "translations": {
+            "es": "come",
+            "pl": "je",
+            "fil": "kumakain"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "χόρτον",
-          "definition": "grass"
+          "definition": "grass",
+          "translations": {
+            "es": "hierba",
+            "pl": "trawa",
+            "fil": "damo"
+          }
         },
         {
           "greek": "τοῦ",
@@ -1608,15 +2923,30 @@
         },
         {
           "greek": "ἀγροῦ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -1632,27 +2962,57 @@
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "χόρτον",
-          "definition": "grass"
+          "definition": "grass",
+          "translations": {
+            "es": "hierba",
+            "pl": "trawa",
+            "fil": "damo"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "χαίρει.",
-          "definition": "rejoices"
+          "definition": "rejoices",
+          "translations": {
+            "es": "se alegra",
+            "pl": "cieszy się",
+            "fil": "nagagalak"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "βοῦς",
@@ -1664,31 +3024,66 @@
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "καθίζει",
-          "definition": "sits"
+          "definition": "sits",
+          "translations": {
+            "es": "se sienta",
+            "pl": "siada",
+            "fil": "nakaupo"
+          }
         },
         {
           "greek": "ἔξω",
@@ -1696,33 +3091,68 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἴκου",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἡσυχάζει.",
-          "definition": "rests"
+          "definition": "rests",
+          "translations": {
+            "es": "descansa",
+            "pl": "odpoczywa",
+            "fil": "nagpapahinga"
+          }
         }
       ],
-      "translation": "The sheep eats the grass of the field. The lamb runs on the grass and rejoices. The ox stays in the field. The farmer sits outside the house and rests."
+      "translation": "The sheep eats the grass of the field. The lamb runs on the grass and rejoices. The ox stays in the field. The farmer sits outside the house and rests.",
+      "translations": {
+        "es": "La oveja come la hierba del campo. El cordero corre sobre la hierba y se alegra. Y el asno come la hierba junto al árbol.",
+        "pl": "Owca je trawę z pola. Jagnię biega po trawie i cieszy się. Osioł je trawę przy drzewie.",
+        "fil": "Kumakain ang tupa ng damo sa bukid. Tumatakbo ang kordero sa damo at nagagalak. At kumakain ang asno ng damo sa tabi ng puno."
+      }
     },
     {
       "id": 13,
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "λύκος",
@@ -1734,11 +3164,21 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμοῦ",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         },
         {
           "greek": "μένει",
@@ -1746,15 +3186,30 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "βλέπει",
-          "definition": "sees"
+          "definition": "sees",
+          "translations": {
+            "es": "ve",
+            "pl": "widzi",
+            "fil": "nakikita"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "πρόβατον",
@@ -1762,11 +3217,21 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον.",
@@ -1778,11 +3243,21 @@
         },
         {
           "greek": "γὰρ",
-          "definition": "for"
+          "definition": "for",
+          "translations": {
+            "es": "pues",
+            "pl": "bowiem",
+            "fil": "sapagkat"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκος",
@@ -1794,7 +3269,12 @@
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -1802,7 +3282,12 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἐσθίειν.",
@@ -1814,29 +3299,54 @@
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκος.",
           "definition": "wolf"
         }
       ],
-      "translation": "The wolf stays across the river and sees the sheep and the lamb. For the wolf wants to seize the lamb and eat it. The wolf is evil."
+      "translation": "The wolf stays across the river and sees the sheep and the lamb. For the wolf wants to seize the lamb and eat it. The wolf is evil.",
+      "translations": {
+        "es": "El lobo permanece al otro lado del río y ve a la oveja y al cordero. Pues el lobo quiere comer el cordero.",
+        "pl": "Wilk pozostaje po drugiej stronie rzeki i widzi owcę i jagnię. Wilk chce bowiem zjeść jagnię.",
+        "fil": "Nananatili ang lobo sa kabilang dako ng ilog at tinitingnan ang tupa at kordero. Gusto kasi ng lobo na kainin ang kordero."
+      }
     },
     {
       "id": 14,
       "words": [
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "πρόβατον",
@@ -1844,11 +3354,21 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -1856,7 +3376,12 @@
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "βλέπουσιν",
@@ -1864,7 +3389,12 @@
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκον.",
@@ -1872,15 +3402,30 @@
         },
         {
           "greek": "ἐσθίει",
-          "definition": "eats"
+          "definition": "eats",
+          "translations": {
+            "es": "come",
+            "pl": "je",
+            "fil": "kumakain"
+          }
         },
         {
           "greek": "γὰρ",
-          "definition": "for"
+          "definition": "for",
+          "translations": {
+            "es": "pues",
+            "pl": "bowiem",
+            "fil": "sapagkat"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "πρόβατον",
@@ -1888,15 +3433,30 @@
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "χόρτον",
-          "definition": "grass"
+          "definition": "grass",
+          "translations": {
+            "es": "hierba",
+            "pl": "trawa",
+            "fil": "damo"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τρέχει",
@@ -1904,7 +3464,12 @@
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -1916,37 +3481,77 @@
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "χόρτον.",
-          "definition": "grass"
+          "definition": "grass",
+          "translations": {
+            "es": "hierba",
+            "pl": "trawa",
+            "fil": "damo"
+          }
         }
       ],
-      "translation": "The sheep and the lamb do not see the wolf. For the sheep eats the grass and the lamb runs on the grass."
+      "translation": "The sheep and the lamb do not see the wolf. For the sheep eats the grass and the lamb runs on the grass.",
+      "translations": {
+        "es": "La oveja y el cordero no ven al lobo. Pues la oveja come la hierba y el cordero corre sobre la hierba.",
+        "pl": "Owca i jagnię nie widzą wilka. Owca bowiem je trawę, a jagnię biega po trawie.",
+        "fil": "Hindi nakikita ng tupa at kordero ang lobo. Kumakain kasi ang tupa ng damo at tumatakbo ang kordero sa damo."
+      }
     },
     {
       "id": 15,
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "βλέπει",
-          "definition": "sees"
+          "definition": "sees",
+          "translations": {
+            "es": "ve",
+            "pl": "widzi",
+            "fil": "nakikita"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκον",
@@ -1958,43 +3563,93 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμοῦ",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "χαίρει.",
-          "definition": "rejoices"
+          "definition": "rejoices",
+          "translations": {
+            "es": "se alegra",
+            "pl": "cieszy się",
+            "fil": "nagagalak"
+          }
         },
         {
           "greek": "φιλεῖ",
-          "definition": "loves"
+          "definition": "loves",
+          "translations": {
+            "es": "ama",
+            "pl": "kocha",
+            "fil": "minamahal"
+          }
         },
         {
           "greek": "γὰρ",
-          "definition": "for"
+          "definition": "for",
+          "translations": {
+            "es": "pues",
+            "pl": "bowiem",
+            "fil": "sapagkat"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "πρόβατον",
@@ -2002,11 +3657,21 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον.",
@@ -2018,7 +3683,12 @@
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "σῴζειν",
@@ -2026,7 +3696,12 @@
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "πρόβατον",
@@ -2034,11 +3709,21 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -2050,37 +3735,72 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκου.",
           "definition": "wolf"
         }
       ],
-      "translation": "The farmer sees the wolf across the river and does not rejoice. For the farmer loves the sheep and the lamb. He is therefore about to save the sheep and the lamb from the wolf."
+      "translation": "The farmer sees the wolf across the river and does not rejoice. For the farmer loves the sheep and the lamb. He is therefore about to save the sheep and the lamb from the wolf.",
+      "translations": {
+        "es": "El agricultor ve al lobo al otro lado del río y no se alegra. Pues el agricultor ama a sus animales.",
+        "pl": "Rolnik widzi wilka po drugiej stronie rzeki i nie cieszy się. Rolnik bowiem kocha swoje zwierzęta.",
+        "fil": "Nakikita ng magsasaka ang lobo sa kabilang dako ng ilog at hindi siya nagagalak. Minamahal kasi ng magsasaka ang kanyang mga hayop."
+      }
     },
     {
       "id": 16,
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γὰρ",
-          "definition": "for"
+          "definition": "for",
+          "translations": {
+            "es": "pues",
+            "pl": "bowiem",
+            "fil": "sapagkat"
+          }
         },
         {
           "greek": "ἀγαθὸς",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "καταλείπει",
@@ -2088,7 +3808,12 @@
         },
         {
           "greek": "τὰ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ζῷα",
@@ -2100,7 +3825,12 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "φεύγει",
@@ -2112,7 +3842,12 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "θηρίου.",
@@ -2120,7 +3855,12 @@
         },
         {
           "greek": "ἀλλὰ",
-          "definition": "but"
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
         },
         {
           "greek": "μένει",
@@ -2128,7 +3868,12 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "φυλάσσει",
@@ -2136,7 +3881,12 @@
         },
         {
           "greek": "τὰ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ζῷα",
@@ -2147,14 +3897,24 @@
           "definition": "his"
         }
       ],
-      "translation": "For the good farmer does not abandon his animals and flee from the wild beast. But he stays and guards his animals."
+      "translation": "For the good farmer does not abandon his animals and flee from the wild beast. But he stays and guards his animals.",
+      "translations": {
+        "es": "Pues el buen agricultor no abandona a sus animales y no huye de la bestia salvaje. Así que agarra rápidamente su vara.",
+        "pl": "Dobry rolnik bowiem nie porzuca swoich zwierząt i nie ucieka przed dzikim zwierzęciem. Szybko więc chwyta swój kij.",
+        "fil": "Hindi kasi iniiwanan ng mabuting magsasaka ang kanyang mga hayop at hindi tumakatakbo mula sa mabangis na hayop. Kaya mabilis na sinagit niya ang kanyang tungkod."
+      }
     },
     {
       "id": 17,
       "words": [
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἰδοὺ",
@@ -2162,7 +3922,12 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκος",
@@ -2178,31 +3943,66 @@
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμὸν",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἐκβαίνει",
-          "definition": "goes out"
+          "definition": "goes out",
+          "translations": {
+            "es": "sale",
+            "pl": "wychodzi",
+            "fil": "lumalabas"
+          }
         },
         {
           "greek": "ἐκ",
-          "definition": "out of"
+          "definition": "out of",
+          "translations": {
+            "es": "fuera de",
+            "pl": "z",
+            "fil": "mula sa"
+          }
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμοῦ",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         },
         {
           "greek": "εἰς",
@@ -2210,19 +4010,39 @@
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρόν.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "νῦν",
-          "definition": "now"
+          "definition": "now",
+          "translations": {
+            "es": "ahora",
+            "pl": "teraz",
+            "fil": "ngayon"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἐγγύς",
@@ -2230,11 +4050,21 @@
         },
         {
           "greek": "ἐστιν",
-          "definition": "is"
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίου.",
@@ -2246,11 +4076,21 @@
         },
         {
           "greek": "γὰρ",
-          "definition": "for"
+          "definition": "for",
+          "translations": {
+            "es": "pues",
+            "pl": "bowiem",
+            "fil": "sapagkat"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "μέλλει",
@@ -2265,18 +4105,33 @@
           "definition": "it"
         }
       ],
-      "translation": "And look! The wolf runs into the river and comes out of the river into the field. Now he is near the lamb. For he wants and is about to seize it."
+      "translation": "And look! The wolf runs into the river and comes out of the river into the field. Now he is near the lamb. For he wants and is about to seize it.",
+      "translations": {
+        "es": "¡Y mira! El lobo corre hacia el río y sale del río hacia el campo. El agricultor lo ve y corre rápidamente hacia el lobo.",
+        "pl": "I patrz! Wilk biegnie do rzeki i wychodzi z rzeki na pole. Rolnik widzi go i szybko biegnie ku wilkowi.",
+        "fil": "At tingnan! Tumatakbo ang lobo patungo sa ilog at lumalabas mula sa ilog papunta sa bukid. Nakikita ito ng magsasaka at mabilis na tumatakbo patungo sa lobo."
+      }
     },
     {
       "id": 18,
       "words": [
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -2284,15 +4139,30 @@
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "βλέπει",
-          "definition": "sees"
+          "definition": "sees",
+          "translations": {
+            "es": "ve",
+            "pl": "widzi",
+            "fil": "nakikita"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκον.",
@@ -2300,11 +4170,21 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ὄνος",
@@ -2312,11 +4192,21 @@
         },
         {
           "greek": "ἀκούει",
-          "definition": "hears"
+          "definition": "hears",
+          "translations": {
+            "es": "escucha",
+            "pl": "słyszy",
+            "fil": "naririnig"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκον",
@@ -2324,7 +4214,12 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "κράζει.",
@@ -2336,19 +4231,39 @@
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "λαμβάνει",
-          "definition": "takes"
+          "definition": "takes",
+          "translations": {
+            "es": "toma",
+            "pl": "bierze",
+            "fil": "kumuha"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "τὴν",
@@ -2364,15 +4279,30 @@
         },
         {
           "greek": "λαμβάνει",
-          "definition": "takes"
+          "definition": "takes",
+          "translations": {
+            "es": "toma",
+            "pl": "bierze",
+            "fil": "kumuha"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "also"
+          "definition": "also",
+          "translations": {
+            "es": "también",
+            "pl": "też",
+            "fil": "din"
+          }
         },
         {
           "greek": "λίθους",
@@ -2384,11 +4314,21 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγροῦ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "τρέχει",
@@ -2396,7 +4336,12 @@
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "εἰς",
@@ -2404,15 +4349,30 @@
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρὸν",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "κράζει",
@@ -2432,11 +4392,21 @@
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τοὺς",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λίθους",
@@ -2448,14 +4418,24 @@
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκον.",
           "definition": "wolf"
         }
       ],
-      "translation": "The lamb does not see the wolf. But the donkey hears the wolf and cries out. Immediately the farmer takes his rod. He also takes stones from the field. He runs into the field and cries out with a great voice. He throws the stones at the wolf."
+      "translation": "The lamb does not see the wolf. But the donkey hears the wolf and cries out. Immediately the farmer takes his rod. He also takes stones from the field. He runs into the field and cries out with a great voice. He throws the stones at the wolf.",
+      "translations": {
+        "es": "El cordero no ve al lobo. Pero el asno oye al lobo y grita. Inmediatamente el agricultor oye la voz del asno.",
+        "pl": "Jagnię nie widzi wilka. Ale osioł słyszy wilka i krzyczy. Rolnik natychmiast słyszy głos osła.",
+        "fil": "Hindi nakikita ng kordero ang lobo. Ngunit naririnig ng asno ang lobo at sumisigaw. Agad na naririnig ng magsasaka ang boses ng asno."
+      }
     },
     {
       "id": 19,
@@ -2466,7 +4446,12 @@
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "κράζει",
@@ -2474,11 +4459,21 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "λέγει·",
-          "definition": "says"
+          "definition": "says",
+          "translations": {
+            "es": "dice",
+            "pl": "mówi",
+            "fil": "sinasabi"
+          }
         },
         {
           "greek": "«ὕπαγε",
@@ -2490,19 +4485,39 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγροῦ.»",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "λύκος",
@@ -2510,11 +4525,21 @@
         },
         {
           "greek": "ἀκούει",
-          "definition": "hears"
+          "definition": "hears",
+          "translations": {
+            "es": "escucha",
+            "pl": "słyszy",
+            "fil": "naririnig"
+          }
         },
         {
           "greek": "τῆς",
-          "definition": "the (gen.)"
+          "definition": "the (gen.)",
+          "translations": {
+            "es": "el (gen.)",
+            "pl": "rodzajnik (dop.)",
+            "fil": "ang (genitivo)"
+          }
         },
         {
           "greek": "φωνῆς",
@@ -2526,19 +4551,39 @@
         },
         {
           "greek": "γεωργοῦ",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "βλέπει",
-          "definition": "sees"
+          "definition": "sees",
+          "translations": {
+            "es": "ve",
+            "pl": "widzi",
+            "fil": "nakikita"
+          }
         },
         {
           "greek": "τοὺς",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λίθους",
@@ -2546,11 +4591,21 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὴν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ῥάβδον.",
@@ -2558,7 +4613,12 @@
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "μέλλει",
@@ -2566,7 +4626,12 @@
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "ἁρπάζειν",
@@ -2574,7 +4639,12 @@
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον.",
@@ -2582,7 +4652,12 @@
         },
         {
           "greek": "οὐ",
-          "definition": "not"
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
         },
         {
           "greek": "θέλει",
@@ -2590,7 +4665,12 @@
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "μένειν",
@@ -2598,15 +4678,30 @@
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "φεύγει",
@@ -2614,7 +4709,12 @@
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "ἀπὸ",
@@ -2622,7 +4722,12 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίου",
@@ -2630,33 +4735,68 @@
         },
         {
           "greek": "πρὸς",
-          "definition": "toward"
+          "definition": "toward",
+          "translations": {
+            "es": "hacia",
+            "pl": "ku",
+            "fil": "patungo sa"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμόν.",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         }
       ],
-      "translation": "He cries out again and says: 'Go away from the field!' The wolf hears the farmer's voice and sees the stones and the rod. He is no longer about to seize the lamb. He does not want to stay in the field. So he flees from the lamb toward the river."
+      "translation": "He cries out again and says: 'Go away from the field!' The wolf hears the farmer's voice and sees the stones and the rod. He is no longer about to seize the lamb. He does not want to stay in the field. So he flees from the lamb toward the river.",
+      "translations": {
+        "es": "Grita de nuevo y dice: '¡Vete del campo!' El lobo oye al agricultor y ve la vara. Pero no se va inmediatamente.",
+        "pl": "Krzyczy znowu i mówi: «Odejdź z pola!» Wilk słyszy rolnika i widzi kij. Ale nie odchodzi natychmiast.",
+        "fil": "Sumisigaw muli siya at sinasabi: 'Umalis sa bukid!' Naririnig ng lobo ang magsasaka at nakikita ang tungkod. Ngunit hindi agad umaalis."
+      }
     },
     {
       "id": 20,
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "διώκει",
@@ -2664,7 +4804,12 @@
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκον",
@@ -2672,7 +4817,12 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "πάλιν",
@@ -2684,7 +4834,12 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "πάλιν",
@@ -2704,11 +4859,21 @@
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκος",
@@ -2724,29 +4889,59 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ποταμοῦ.",
-          "definition": "river"
+          "definition": "river",
+          "translations": {
+            "es": "río",
+            "pl": "rzeka",
+            "fil": "ilog"
+          }
         }
       ],
-      "translation": "The farmer pursues the wolf and cries out again and throws stones again. Finally the wolf flees across the river."
+      "translation": "The farmer pursues the wolf and cries out again and throws stones again. Finally the wolf flees across the river.",
+      "translations": {
+        "es": "El agricultor persigue al lobo y grita de nuevo y lanza piedras de nuevo. Finalmente el lobo huye del campo.",
+        "pl": "Rolnik ściga wilka i znowu krzyczy i znowu rzuca kamieniami. W końcu wilk ucieka z pola.",
+        "fil": "Hinahabol ng magsasaka ang lobo at sumisigaw muli at naghahagis ng mga bato muli. Sa wakas tumakas ang lobo mula sa bukid."
+      }
     },
     {
       "id": 21,
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "μένει",
@@ -2754,27 +4949,57 @@
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "βλέπει",
-          "definition": "sees"
+          "definition": "sees",
+          "translations": {
+            "es": "ve",
+            "pl": "widzi",
+            "fil": "nakikita"
+          }
         },
         {
           "greek": "τὰ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ζῷα",
@@ -2786,7 +5011,12 @@
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "μὲν",
@@ -2798,23 +5028,48 @@
         },
         {
           "greek": "ἐσθίει",
-          "definition": "eats"
+          "definition": "eats",
+          "translations": {
+            "es": "come",
+            "pl": "je",
+            "fil": "kumakain"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "χόρτον.",
-          "definition": "grass"
+          "definition": "grass",
+          "translations": {
+            "es": "hierba",
+            "pl": "trawa",
+            "fil": "damo"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -2830,19 +5085,39 @@
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "χόρτον.",
-          "definition": "grass"
+          "definition": "grass",
+          "translations": {
+            "es": "hierba",
+            "pl": "trawa",
+            "fil": "damo"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "βοῦς",
@@ -2854,23 +5129,48 @@
         },
         {
           "greek": "ἐν",
-          "definition": "in"
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγρῷ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ὄνος",
@@ -2882,22 +5182,47 @@
         },
         {
           "greek": "χαίρει",
-          "definition": "rejoices"
+          "definition": "rejoices",
+          "translations": {
+            "es": "se alegra",
+            "pl": "cieszy się",
+            "fil": "nagagalak"
+          }
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργός.",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         }
       ],
-      "translation": "The farmer stays in the field and sees his animals. The sheep eats the grass. The lamb runs on the grass. The ox stays in the field. The donkey rests. Therefore the farmer rejoices."
+      "translation": "The farmer stays in the field and sees his animals. The sheep eats the grass. The lamb runs on the grass. The ox stays in the field. The donkey rests. Therefore the farmer rejoices.",
+      "translations": {
+        "es": "El agricultor permanece en el campo y ve a sus animales. La oveja come la hierba. El cordero está cerca de la oveja.",
+        "pl": "Rolnik pozostaje na polu i widzi swoje zwierzęta. Owca je trawę. Jagnię jest blisko owcy.",
+        "fil": "Nananatili ang magsasaka sa bukid at tinitingnan ang kanyang mga hayop. Kumakain ang tupa ng damo. Malapit ang kordero sa tupa."
+      }
     },
     {
       "id": 22,
@@ -2905,19 +5230,39 @@
       "words": [
         {
           "greek": "καθίζει",
-          "definition": "sits"
+          "definition": "sits",
+          "translations": {
+            "es": "se sienta",
+            "pl": "siada",
+            "fil": "nakaupo"
+          }
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "ἐπὶ",
@@ -2925,11 +5270,21 @@
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λίθον",
-          "definition": "stone"
+          "definition": "stone",
+          "translations": {
+            "es": "piedra",
+            "pl": "kamień",
+            "fil": "bato"
+          }
         },
         {
           "greek": "ὑπὸ",
@@ -2937,7 +5292,12 @@
         },
         {
           "greek": "τῷ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δένδρῳ",
@@ -2945,7 +5305,12 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "εὐχαριστεῖ",
@@ -2953,19 +5318,39 @@
         },
         {
           "greek": "τῷ",
-          "definition": "to the"
+          "definition": "to the",
+          "translations": {
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
+          }
         },
         {
           "greek": "θεῷ.",
-          "definition": "God"
+          "definition": "God",
+          "translations": {
+            "es": "Dios",
+            "pl": "Bóg",
+            "fil": "Diyos"
+          }
         },
         {
           "greek": "λέγει",
-          "definition": "says"
+          "definition": "says",
+          "translations": {
+            "es": "dice",
+            "pl": "mówi",
+            "fil": "sinasabi"
+          }
         },
         {
           "greek": "οὖν·",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "«ὦ",
@@ -2977,11 +5362,21 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "θεός",
-          "definition": "God"
+          "definition": "God",
+          "translations": {
+            "es": "Dios",
+            "pl": "Bóg",
+            "fil": "Diyos"
+          }
         },
         {
           "greek": "μου.",
@@ -2989,7 +5384,12 @@
         },
         {
           "greek": "εὐχαριστῶ",
-          "definition": "I give thanks"
+          "definition": "I give thanks",
+          "translations": {
+            "es": "doy gracias",
+            "pl": "dziękuję",
+            "fil": "nagpapasalamat"
+          }
         },
         {
           "greek": "σοι.",
@@ -3005,11 +5405,21 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "πιστός.",
-          "definition": "faithful"
+          "definition": "faithful",
+          "translations": {
+            "es": "fiel",
+            "pl": "wierny",
+            "fil": "tapat"
+          }
         },
         {
           "greek": "φιλεῖς",
@@ -3021,11 +5431,21 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὰ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ζῷά",
@@ -3037,7 +5457,12 @@
         },
         {
           "greek": "σήμερον",
-          "definition": "today"
+          "definition": "today",
+          "translations": {
+            "es": "hoy",
+            "pl": "dziś",
+            "fil": "ngayon"
+          }
         },
         {
           "greek": "φυλάσσεις",
@@ -3049,11 +5474,21 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὰ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ζῷά",
@@ -3065,7 +5500,12 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκος",
@@ -3081,7 +5521,12 @@
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -3089,7 +5534,12 @@
         },
         {
           "greek": "ἀλλὰ",
-          "definition": "but"
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
         },
         {
           "greek": "σὺ",
@@ -3109,7 +5559,12 @@
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "λύκου.",
@@ -3117,7 +5572,12 @@
         },
         {
           "greek": "μέγας",
-          "definition": "great"
+          "definition": "great",
+          "translations": {
+            "es": "grande",
+            "pl": "wielki",
+            "fil": "dakila"
+          }
         },
         {
           "greek": "εἶ",
@@ -3125,25 +5585,50 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἀγαθός.»",
-          "definition": "good"
+          "definition": "good",
+          "translations": {
+            "es": "bueno",
+            "pl": "dobry",
+            "fil": "mabuti"
+          }
         }
       ],
-      "translation": "So the farmer sits on the stone under the tree and gives thanks to God. He says: 'O Lord my God. I give thanks to you. You are righteous and faithful. You love me and my animals. Today you guard me and my animals. The wolf wants to seize the lamb, but you save it from the wolf. You are great and good.'"
+      "translation": "So the farmer sits on the stone under the tree and gives thanks to God. He says: 'O Lord my God. I give thanks to you. You are righteous and faithful. You love me and my animals. Today you guard me and my animals. The wolf wants to seize the lamb, but you save it from the wolf. You are great and good.'",
+      "translations": {
+        "es": "Así que el agricultor se sienta en la piedra bajo el árbol y da gracias a Dios. Dice: 'Dios es bueno y fiel...'",
+        "pl": "Rolnik siada więc na kamieniu pod drzewem i dziękuje Bogu. Mówi: «Bóg jest dobry i wierny...»",
+        "fil": "Kaya umupo ang magsasaka sa bato sa ilalim ng puno at nagpapasalamat sa Diyos. Sinabi niya: 'Ang Diyos ay mabuti at tapat...'"
+      }
     },
     {
       "id": 23,
       "words": [
         {
           "greek": "ἔπειτα",
-          "definition": "then"
+          "definition": "then",
+          "translations": {
+            "es": "luego",
+            "pl": "potem",
+            "fil": "pagkatapos"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "καλεῖ",
@@ -3151,15 +5636,30 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "πρόβατον",
@@ -3167,11 +5667,21 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον.",
@@ -3183,11 +5693,21 @@
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "πρόβατον",
@@ -3195,7 +5715,12 @@
         },
         {
           "greek": "τὴν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "φωνὴν",
@@ -3207,7 +5732,12 @@
         },
         {
           "greek": "γεωργοῦ.",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "γινώσκει",
@@ -3215,15 +5745,30 @@
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "καὶ",
-          "definition": "also"
+          "definition": "also",
+          "translations": {
+            "es": "también",
+            "pl": "też",
+            "fil": "din"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -3231,7 +5776,12 @@
         },
         {
           "greek": "τὴν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "φωνὴν",
@@ -3247,11 +5797,21 @@
         },
         {
           "greek": "γὰρ",
-          "definition": "for"
+          "definition": "for",
+          "translations": {
+            "es": "pues",
+            "pl": "bowiem",
+            "fil": "sapagkat"
+          }
         },
         {
           "greek": "τῆς",
-          "definition": "the (gen.)"
+          "definition": "the (gen.)",
+          "translations": {
+            "es": "el (gen.)",
+            "pl": "rodzajnik (dop.)",
+            "fil": "ang (genitivo)"
+          }
         },
         {
           "greek": "φωνῆς",
@@ -3270,30 +5830,60 @@
           "definition": "day"
         }
       ],
-      "translation": "Then the farmer calls the sheep and the lamb. The sheep knows the farmer's voice. The lamb also knows his voice. For they hear his voice every day."
+      "translation": "Then the farmer calls the sheep and the lamb. The sheep knows the farmer's voice. The lamb also knows his voice. For they hear his voice every day.",
+      "translations": {
+        "es": "Entonces el agricultor llama a la oveja y al cordero. La oveja conoce la voz del agricultor y sigue al agricultor.",
+        "pl": "Potem rolnik woła owcę i jagnię. Owca zna głos rolnika i podąża za rolnikiem.",
+        "fil": "Pagkatapos tinawag ng magsasaka ang tupa at kordero. Kilala ng tupa ang boses ng magsasaka at sumusunod sa magsasaka."
+      }
     },
     {
       "id": 24,
       "words": [
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "αἴρει",
-          "definition": "lifts"
+          "definition": "lifts",
+          "translations": {
+            "es": "levanta",
+            "pl": "podnosi",
+            "fil": "itinaas"
+          }
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀρνίον",
@@ -3301,11 +5891,21 @@
         },
         {
           "greek": "καὶ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "φέρει",
-          "definition": "carries"
+          "definition": "carries",
+          "translations": {
+            "es": "lleva",
+            "pl": "niesie",
+            "fil": "dinala"
+          }
         },
         {
           "greek": "αὐτό.",
@@ -3313,11 +5913,21 @@
         },
         {
           "greek": "τὸ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "πρόβατον",
@@ -3329,11 +5939,21 @@
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ὄνος",
@@ -3341,11 +5961,21 @@
         },
         {
           "greek": "φέρει",
-          "definition": "carries"
+          "definition": "carries",
+          "translations": {
+            "es": "lleva",
+            "pl": "niesie",
+            "fil": "dinala"
+          }
         },
         {
           "greek": "τοὺς",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "καρποὺς",
@@ -3365,19 +5995,39 @@
         },
         {
           "greek": "οὖν",
-          "definition": "therefore"
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
         },
         {
           "greek": "ἐκ",
-          "definition": "out of"
+          "definition": "out of",
+          "translations": {
+            "es": "fuera de",
+            "pl": "z",
+            "fil": "mula sa"
+          }
         },
         {
           "greek": "τοῦ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ἀγροῦ.",
-          "definition": "field"
+          "definition": "field",
+          "translations": {
+            "es": "campo",
+            "pl": "pole",
+            "fil": "bukid"
+          }
         },
         {
           "greek": "ἄγει",
@@ -3385,19 +6035,39 @@
         },
         {
           "greek": "δὲ",
-          "definition": "and"
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ὁ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "γεωργὸς",
-          "definition": "farmer"
+          "definition": "farmer",
+          "translations": {
+            "es": "agricultor",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
         },
         {
           "greek": "τὰ",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "ζῷα",
@@ -3409,18 +6079,38 @@
         },
         {
           "greek": "πρὸς",
-          "definition": "toward"
+          "definition": "toward",
+          "translations": {
+            "es": "hacia",
+            "pl": "ku",
+            "fil": "patungo sa"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the"
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
           "greek": "οἶκον.",
-          "definition": "house"
+          "definition": "house",
+          "translations": {
+            "es": "casa",
+            "pl": "dom",
+            "fil": "bahay"
+          }
         }
       ],
-      "translation": "So the farmer lifts the lamb and carries it. The sheep follows. The donkey carries the fruits of the tree. They go out of the field. The farmer leads his animals toward the house."
+      "translation": "So the farmer lifts the lamb and carries it. The sheep follows. The donkey carries the fruits of the tree. They go out of the field. The farmer leads his animals toward the house.",
+      "translations": {
+        "es": "Así que el agricultor levanta al cordero y lo carga. La oveja le sigue. El asno lleva las frutas.",
+        "pl": "Rolnik więc podnosi jagnię i niesie je. Owca podąża za nim. Osioł niesie owoce.",
+        "fil": "Kaya itinaas ng magsasaka ang kordero at dinala ito. Sumusunod ang tupa. Dinadala ng asno ang mga bunga."
+      }
     }
   ],
   "titleTranslations": {
