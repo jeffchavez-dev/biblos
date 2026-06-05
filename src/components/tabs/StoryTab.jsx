@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useMemo } from 'react'
 import './StoryTab.css'
 
 function getParagraphParts(paragraphs) {
@@ -10,26 +10,58 @@ function getParagraphParts(paragraphs) {
   })
 }
 
-export default function StoryTab({ story, activePart }) {
+function normalizeGreek(s) {
+  return s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[,.·;!?''ʼ\s]/g, '').toLowerCase()
+}
+
+export default function StoryTab({ story, vocabulary, activePart }) {
   const [showTranslation, setShowTranslation] = useState(false)
   const [activeWord, setActiveWord] = useState(null)
+  const [showImage, setShowImage] = useState(false)
   const [popoverPos, setPopoverPos] = useState({ top: 0, left: 0 })
   const popoverRef = useRef(null)
 
-  function handleWordClick(e, word, paragraphId, wordIdx) {
-    const key = `${paragraphId}-${wordIdx}`
-    if (activeWord?.key === key) {
-      setActiveWord(null)
-      return
+  // Build a lookup: normalized Greek base form → vocab entry (with image)
+  const vocabImageMap = useMemo(() => {
+    if (!vocabulary) return {}
+    const map = {}
+    for (const entry of vocabulary) {
+      if (!entry.image) continue
+      // vocab greek field: "ἄνθρωπος, -ου, ὁ" — take part before first comma/space
+      const base = entry.greek.split(/[,\s]/)[0]
+      map[normalizeGreek(base)] = entry
     }
+    return map
+  }, [vocabulary])
 
+  function findVocabEntry(greekWord) {
+    return vocabImageMap[normalizeGreek(greekWord)] || null
+  }
+
+  function openPopover(e, word, paragraphId, wordIdx, withImage) {
+    const key = `${paragraphId}-${wordIdx}`
     const rect = e.currentTarget.getBoundingClientRect()
     setPopoverPos({
       anchorTop: rect.bottom,
       anchorBottom: rect.top,
       anchorLeft: rect.left + rect.width / 2,
     })
-    setActiveWord({ ...word, key })
+    setActiveWord({ ...word, key, vocabEntry: findVocabEntry(word.greek) })
+    setShowImage(withImage)
+  }
+
+  function handleWordClick(e, word, paragraphId, wordIdx) {
+    const key = `${paragraphId}-${wordIdx}`
+    if (activeWord?.key === key && !showImage) {
+      setActiveWord(null)
+      return
+    }
+    openPopover(e, word, paragraphId, wordIdx, false)
+  }
+
+  function handleWordDoubleClick(e, word, paragraphId, wordIdx) {
+    e.preventDefault()
+    openPopover(e, word, paragraphId, wordIdx, true)
   }
 
   // Close on outside click
@@ -39,6 +71,7 @@ export default function StoryTab({ story, activePart }) {
       if (popoverRef.current && !popoverRef.current.contains(e.target) &&
           !e.target.classList.contains('story-word')) {
         setActiveWord(null)
+        setShowImage(false)
       }
     }
     document.addEventListener('mousedown', handleOutside)
@@ -90,7 +123,7 @@ export default function StoryTab({ story, activePart }) {
         <p className="story-title-en">{story.titleTranslation}</p>
       </div>
 
-      <div className="story-instruction">Tap any word to see its meaning.</div>
+      <div className="story-instruction">Click a word to see its meaning. Double-click to see its picture.</div>
 
       {paragraphs.map((para, i) => (
         <div key={para.id}>
@@ -106,8 +139,9 @@ export default function StoryTab({ story, activePart }) {
                 {para.words.map((word, wi) => (
                   <span
                     key={wi}
-                    className={`story-word ${activeWord?.key === `${para.id}-${wi}` ? 'story-word--active' : ''}`}
+                    className={`story-word ${activeWord?.key === `${para.id}-${wi}` ? 'story-word--active' : ''} ${findVocabEntry(word.greek) ? 'story-word--has-image' : ''}`}
                     onClick={(e) => handleWordClick(e, word, para.id, wi)}
+                    onDoubleClick={(e) => handleWordDoubleClick(e, word, para.id, wi)}
                   >
                     {word.greek}{wi < para.words.length - 1 ? ' ' : ''}
                   </span>
@@ -143,11 +177,28 @@ export default function StoryTab({ story, activePart }) {
       </div>
 
       {activeWord && (
-        <div className="word-popover" ref={popoverRef} style={{ opacity: 0 }}>
-          <span className="tooltip-greek greek">{activeWord.greek}</span>
-          <span className="tooltip-arrow">→</span>
-          <span className="tooltip-def">{activeWord.definition}</span>
-          <button className="tooltip-close" onClick={() => setActiveWord(null)}>✕</button>
+        <div className={`word-popover ${showImage && activeWord.vocabEntry?.image ? 'word-popover--with-image' : ''}`} ref={popoverRef} style={{ opacity: 0 }}>
+          {showImage && activeWord.vocabEntry?.image ? (
+            <div className="tooltip-image-layout">
+              <img
+                className="tooltip-vocab-image"
+                src={`/vocab-images/${activeWord.vocabEntry.image}`}
+                alt={activeWord.vocabEntry.definition}
+              />
+              <div className="tooltip-image-text">
+                <span className="tooltip-greek greek">{activeWord.greek}</span>
+                <span className="tooltip-def">{activeWord.definition}</span>
+              </div>
+              <button className="tooltip-close" onClick={() => { setActiveWord(null); setShowImage(false) }}>✕</button>
+            </div>
+          ) : (
+            <>
+              <span className="tooltip-greek greek">{activeWord.greek}</span>
+              <span className="tooltip-arrow">→</span>
+              <span className="tooltip-def">{activeWord.definition}</span>
+              <button className="tooltip-close" onClick={() => { setActiveWord(null); setShowImage(false) }}>✕</button>
+            </>
+          )}
         </div>
       )}
     </div>
