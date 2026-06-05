@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react'
+import { useLanguage, t } from '../../context/LanguageContext.jsx'
 import './VocabularyTab.css'
 
 export default function VocabularyTab({ words, unitId, chapterId, activePart }) {
+  const { lang } = useLanguage()
   const filtered = words ? words.filter(w => !w.part || w.part === activePart) : []
 
   const [index, setIndex] = useState(0)
@@ -77,7 +79,7 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
                 </div>
                 <img
                   src={`/vocab-images/${word.image}`}
-                  alt={word.definition}
+                  alt={t(word.definition, word.translations, lang)}
                   className="flashcard-image"
                 />
                 <div className="flashcard-strip flashcard-strip--bottom">
@@ -97,7 +99,7 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
           <div className="flashcard-back">
             <div className="flashcard-hint">Tap to flip back</div>
             <div className="flashcard-greek greek">{word.greek}</div>
-            <div className="flashcard-definition">{word.definition}</div>
+            <div className="flashcard-definition">{t(word.definition, word.translations, lang)}</div>
             <div className="flashcard-pos">{word.partOfSpeech}</div>
           </div>
         </div>
@@ -124,7 +126,7 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
             >
               <span className="word-row-num">{i + 1}</span>
               <span className="word-row-greek greek">{w.greek}</span>
-              <span className={`word-row-def ${i === index ? 'word-row-def--visible' : 'word-row-def--hidden'}`}>{w.definition}</span>
+              <span className={`word-row-def ${i === index ? 'word-row-def--visible' : 'word-row-def--hidden'}`}>{t(w.definition, w.translations, lang)}</span>
               {seen[w.id] > 0 && <span className="word-row-seen">{seen[w.id]}×</span>}
             </div>
           ))}

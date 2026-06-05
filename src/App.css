@@ -66,7 +66,38 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 50vw;
+  max-width: 40vw;
+}
+
+.lang-selector {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+.lang-btn {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.7);
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.lang-btn:hover {
+  background: rgba(255,255,255,0.22);
+  color: #fff;
+}
+
+.lang-btn--active {
+  background: rgba(255,255,255,0.9);
+  color: var(--deep-blue);
+  border-color: transparent;
 }
 
 /* Body */

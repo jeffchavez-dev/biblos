@@ -20,7 +20,11 @@
         {"greek": "ἰσχυρὸς", "definition": "strong"},
         {"greek": "ἄνθρωπος.", "definition": "person, man"}
       ],
-      "translation": "There is a person. The person is a farmer. The farmer is a good and strong person."
+      "translation": "There is a person. The person is a farmer. The farmer is a good and strong person.",
+      "translations": {
+        "es": "Hay una persona. La persona es un agricultor. El agricultor es un hombre bueno y fuerte.",
+        "pl": "Jest człowiek. Ten człowiek jest rolnikiem. Rolnik jest dobrym i silnym człowiekiem."
+      }
     },
     {
       "id": 2,
@@ -34,7 +38,8 @@
         {"greek": "οὐ", "definition": "not"},
         {"greek": "μέγας.", "definition": "great, large"}
       ],
-      "translation": "There is a house. The house is small, not large."
+      "translation": "There is a house. The house is small, not large.",
+      "translations": { "es": "Hay una casa. La casa es pequeña, no grande.", "pl": "Jest dom. Dom jest mały, nie wielki." }
     },
     {
       "id": 3,
@@ -48,7 +53,8 @@
         {"greek": "ἀλλὰ", "definition": "but"},
         {"greek": "καλός.", "definition": "good, beautiful"}
       ],
-      "translation": "There is a field. The field is small, but good."
+      "translation": "There is a field. The field is small, but good.",
+      "translations": { "es": "Hay un campo. El campo es pequeño, pero bueno.", "pl": "Jest pole. Pole jest małe, ale dobre." }
     },
     {
       "id": 4,
@@ -62,7 +68,8 @@
         {"greek": "οὐ", "definition": "not"},
         {"greek": "μικρός.", "definition": "small"}
       ],
-      "translation": "There is a sky. The sky is great, not small."
+      "translation": "There is a sky. The sky is great, not small.",
+      "translations": { "es": "Hay un cielo. El cielo es grande, no pequeño.", "pl": "Jest niebo. Niebo jest wielkie, nie małe." }
     },
     {
       "id": 5,
@@ -78,7 +85,8 @@
         {"greek": "ἥλιος", "definition": "sun"},
         {"greek": "λάμπει.", "definition": "shines"}
       ],
-      "translation": "There is a sun. The sun is great. And the sun shines."
+      "translation": "There is a sun. The sun is great. And the sun shines.",
+      "translations": { "es": "Hay un sol. El sol es grande. Y el sol brilla.", "pl": "Jest słońce. Słońce jest wielkie. I słońce świeci." }
     },
     {
       "id": 6,
@@ -89,7 +97,8 @@
         {"greek": "ποταμὸς", "definition": "river"},
         {"greek": "ῥεῖ.", "definition": "flows"}
       ],
-      "translation": "There is a river. The river flows."
+      "translation": "There is a river. The river flows.",
+      "translations": { "es": "Hay un río. El río fluye.", "pl": "Jest rzeka. Rzeka płynie." }
     },
     {
       "id": 7,
@@ -110,7 +119,8 @@
         {"greek": "καὶ", "definition": "and"},
         {"greek": "ἐσθίει.", "definition": "eats"}
       ],
-      "translation": "There is bread. The bread is good. So the farmer takes the good bread and eats."
+      "translation": "There is bread. The bread is good. So the farmer takes the good bread and eats.",
+      "translations": { "es": "Hay pan. El pan es bueno. Así que el agricultor toma el buen pan y come.", "pl": "Jest chleb. Chleb jest dobry. Rolnik więc bierze dobry chleb i je." }
     },
     {
       "id": 8,
@@ -125,7 +135,8 @@
         {"greek": "καὶ", "definition": "and"},
         {"greek": "χαίρει·", "definition": "rejoices"}
       ],
-      "translation": "There is fruit. The farmer eats the fruit and rejoices."
+      "translation": "There is fruit. The farmer eats the fruit and rejoices.",
+      "translations": { "es": "Hay fruta. El agricultor come la fruta y se alegra.", "pl": "Jest owoc. Rolnik je owoc i raduje się." }
     },
     {
       "id": 9,
@@ -146,7 +157,8 @@
         {"greek": "τὸν", "definition": "the"},
         {"greek": "οἶκον.", "definition": "house"}
       ],
-      "translation": "The farmer has a house. He has the small house. He sees the house and loves the house."
+      "translation": "The farmer has a house. He has the small house. He sees the house and loves the house.",
+      "translations": { "es": "El agricultor tiene una casa. Tiene la casa pequeña. Ve la casa y ama la casa.", "pl": "Rolnik ma dom. Ma ten mały dom. Widzi dom i kocha dom." }
     },
     {
       "id": 10,
@@ -172,7 +184,8 @@
         {"greek": "τὸν", "definition": "the"},
         {"greek": "ἀγρόν.", "definition": "field"}
       ],
-      "translation": "The farmer also has a field. It is small but good. The farmer has a small and good field. So he digs the field."
+      "translation": "The farmer also has a field. It is small but good. The farmer has a small and good field. So he digs the field.",
+      "translations": { "es": "El agricultor también tiene un campo. Es pequeño pero bueno. El agricultor tiene un campo pequeño y bueno. Entonces cava el campo.", "pl": "Rolnik ma też pole. Jest małe, ale dobre. Rolnik ma małe i dobre pole. Kopie więc pole." }
     },
     {
       "id": 11,
@@ -198,7 +211,8 @@
         {"greek": "ἐστιν", "definition": "is"},
         {"greek": "ἄνθρωπος.", "definition": "man"}
       ],
-      "translation": "There is a stone. A large stone. The farmer sees the large stone. He lifts the large stone and carries it. For he is a strong man."
+      "translation": "There is a stone. A large stone. The farmer sees the large stone. He lifts the large stone and carries it. For he is a strong man.",
+      "translations": { "es": "Hay una piedra. Una piedra grande. El agricultor ve la piedra grande. Levanta la piedra grande y la lleva. Pues es un hombre fuerte.", "pl": "Jest kamień. Wielki kamień. Rolnik widzi wielki kamień. Podnosi wielki kamień i niesie go. Bo jest silnym człowiekiem." }
     },
     {
       "id": 12,
@@ -291,7 +305,11 @@
         {"greek": "πιστός", "definition": "faithful"},
         {"greek": "ἐστιν.»", "definition": "is"}
       ],
-      "translation": "The farmer says: 'I am a farmer. I am a good and strong person. I have the house. The house is not large, but good. I also have the field — small but good. I love the house and the field. So I dig the field. I see the large stone. So I lift the stone and carry it. For I am strong. I see the sky and the great sun. The sun shines and is beautiful. I have bread and fruit. I eat and rejoice. God is good and faithful.'"
+      "translation": "The farmer says: 'I am a farmer. I am a good and strong person. I have the house. The house is not large, but good. I also have the field — small but good. I love the house and the field. So I dig the field. I see the large stone. So I lift the stone and carry it. For I am strong. I see the sky and the great sun. The sun shines and is beautiful. I have bread and fruit. I eat and rejoice. God is good and faithful.'",
+      "translations": {
+        "es": "El agricultor dice: «Soy un agricultor. Soy una persona buena y fuerte. Tengo la casa. La casa no es grande, sino buena. También tengo el campo — pequeño pero bueno. Amo la casa y el campo. Así que cavo el campo. Veo la piedra grande. Así que levanto la piedra y la llevo. Pues soy fuerte. Veo el cielo y el gran sol. El sol brilla y es hermoso. Tengo pan y fruta. Como y me alegro. Dios es bueno y fiel.»",
+        "pl": "Rolnik mówi: «Jestem rolnikiem. Jestem dobrym i silnym człowiekiem. Mam ten dom. Dom nie jest wielki, ale dobry. Mam też pole — małe, ale dobre. Kocham dom i pole. Kopię więc pole. Widzę wielki kamień. Podnoszę więc kamień i niosę go. Bo jestem silny. Widzę niebo i wielkie słońce. Słońce świeci i jest piękne. Mam chleb i owoce. Jem i raduję się. Bóg jest dobry i wierny.»"
+      }
     },
     {
       "id": 13,
@@ -326,7 +344,8 @@
         {"greek": "τὸν", "definition": "the"},
         {"greek": "ἀγρόν.", "definition": "field"}
       ],
-      "translation": "The farmer sits and stays in the house. He takes the bread in the house and eats. Then he goes out of the house and walks toward the field."
+      "translation": "The farmer sits and stays in the house. He takes the bread in the house and eats. Then he goes out of the house and walks toward the field.",
+      "translations": { "es": "El agricultor se sienta y permanece en la casa. Toma el pan en la casa y come. Luego sale de la casa y camina hacia el campo.", "pl": "Rolnik siada i pozostaje w domu. Bierze chleb w domu i je. Następnie wychodzi z domu i idzie ku polu." }
     },
     {
       "id": 14,
@@ -353,7 +372,8 @@
         {"greek": "τῷ", "definition": "the"},
         {"greek": "ἀγρῷ.", "definition": "field"}
       ],
-      "translation": "Today he digs the field in the field. The sun shines in the sky when the farmer digs in the field."
+      "translation": "Today he digs the field in the field. The sun shines in the sky when the farmer digs in the field.",
+      "translations": { "es": "Hoy cava el campo. El sol brilla en el cielo cuando el agricultor cava en el campo.", "pl": "Dziś kopie pole. Słońce świeci na niebie, gdy rolnik kopie na polu." }
     },
     {
       "id": 15,
@@ -390,7 +410,8 @@
         {"greek": "τοῦ", "definition": "the"},
         {"greek": "ἀγροῦ.", "definition": "field"}
       ],
-      "translation": "The farmer finds the large stone in the field. He walks toward the stone in the field. Then he digs the stone and lifts and carries the stone out of the field."
+      "translation": "The farmer finds the large stone in the field. He walks toward the stone in the field. Then he digs the stone and lifts and carries the stone out of the field.",
+      "translations": { "es": "El agricultor encuentra la piedra grande en el campo. Camina hacia la piedra en el campo. Luego cava la piedra, la levanta y la lleva fuera del campo.", "pl": "Rolnik znajduje wielki kamień na polu. Idzie ku kamieniowi na polu. Następnie odkopuje kamień, podnosi go i wynosi z pola." }
     },
     {
       "id": 16,
@@ -421,7 +442,8 @@
         {"greek": "οὐ", "definition": "not"},
         {"greek": "ῥᾴδιος.", "definition": "easy"}
       ],
-      "translation": "The toil is difficult. Not easy. He loves the field, but the toil is difficult in the field. Therefore life is difficult, not easy."
+      "translation": "The toil is difficult. Not easy. He loves the field, but the toil is difficult in the field. Therefore life is difficult, not easy.",
+      "translations": { "es": "El trabajo es difícil. No fácil. Él ama el campo, pero el trabajo es difícil en el campo. Por lo tanto la vida es difícil, no fácil.", "pl": "Trud jest ciężki. Nie łatwy. Kocha pole, ale trud na polu jest ciężki. Dlatego życie jest ciężkie, nie łatwe." }
     },
     {
       "id": 17,
@@ -456,7 +478,8 @@
         {"greek": "τὸν", "definition": "the"},
         {"greek": "ποταμόν.", "definition": "river"}
       ],
-      "translation": "The farmer sits in the field and rests. The great sun shines in the sky. When he rests, he sees the grass in the field and hears the river."
+      "translation": "The farmer sits in the field and rests. The great sun shines in the sky. When he rests, he sees the grass in the field and hears the river.",
+      "translations": { "es": "El agricultor se sienta en el campo y descansa. El gran sol brilla en el cielo. Cuando descansa, ve la hierba en el campo y oye el río.", "pl": "Rolnik siada na polu i odpoczywa. Wielkie słońce świeci na niebie. Gdy odpoczywa, widzi trawę na polu i słyszy rzekę." }
     },
     {
       "id": 18,
@@ -509,7 +532,11 @@
         {"greek": "τῷ", "definition": "to the"},
         {"greek": "θεῷ.»", "definition": "God (dat.)"}
       ],
-      "translation": "So the farmer says: 'The toil is difficult, but life is good because God is good and faithful. Truly God is good. I see the beautiful grass and hear the river. God makes the beautiful grass and the river. I give thanks to God.'"
+      "translation": "So the farmer says: 'The toil is difficult, but life is good because God is good and faithful. Truly God is good. I see the beautiful grass and hear the river. God makes the beautiful grass and the river. I give thanks to God.'",
+      "translations": {
+        "es": "Entonces el agricultor dice: «El trabajo es difícil, pero la vida es buena porque Dios es bueno y fiel. Verdaderamente Dios es bueno. Veo la hermosa hierba y oigo el río. Dios hace la hermosa hierba y el río. Doy gracias a Dios.»",
+        "pl": "Rolnik mówi więc: «Trud jest ciężki, ale życie jest dobre, bo Bóg jest dobry i wierny. Zaprawdę dobry jest Bóg. Widzę piękną trawę i słyszę rzekę. Bóg tworzy piękną trawę i rzekę. Dziękuję Bogu.»"
+      }
     },
     {
       "id": 19,
@@ -544,7 +571,8 @@
         {"greek": "καὶ", "definition": "and"},
         {"greek": "χαίρει.", "definition": "rejoices"}
       ],
-      "translation": "And he goes out of the field and walks toward the house. Now he does not dig the field nor carry the great stone; but in the house he sits and rests and rejoices."
+      "translation": "And he goes out of the field and walks toward the house. Now he does not dig the field nor carry the great stone; but in the house he sits and rests and rejoices.",
+      "translations": { "es": "Y sale del campo y camina hacia la casa. Ahora no cava el campo ni lleva la piedra grande; sino que en la casa se sienta, descansa y se alegra.", "pl": "Wychodzi z pola i idzie ku domowi. Teraz nie kopie pola ani nie niesie wielkiego kamienia; lecz w domu siada, odpoczywa i raduje się." }
     }
   ]
 }

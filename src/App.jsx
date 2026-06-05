@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Sidebar from './components/Sidebar.jsx'
 import ChapterView from './components/ChapterView.jsx'
 import VocabularyIndex from './components/VocabularyIndex.jsx'
+import { LanguageProvider, LANGUAGES, useLanguage } from './context/LanguageContext.jsx'
 import units from './data/units.json'
 import './App.css'
 
@@ -13,7 +14,7 @@ const VOCAB_SOURCES = [
   () => import('./data/unit2/chapter5/vocabulary.json'),
 ]
 
-export default function App() {
+function AppInner() {
   const [selectedUnit, setSelectedUnit] = useState(1)
   const [selectedChapter, setSelectedChapter] = useState(1)
   const [activePart, setActivePart] = useState('A')
@@ -54,6 +55,8 @@ export default function App() {
 
   const currentPart = currentChapter?.parts?.find(p => p.id === activePart)
 
+  const { lang, setLang } = useLanguage()
+
   return (
     <div className="app-shell">
       <header className="app-header">
@@ -67,6 +70,18 @@ export default function App() {
         <div className="app-breadcrumb greek">
           {currentChapter?.title}
           {currentPart && <> · {currentPart.label} — {currentPart.subtitle}</>}
+        </div>
+        <div className="lang-selector">
+          {LANGUAGES.map(l => (
+            <button
+              key={l.code}
+              className={`lang-btn ${lang === l.code ? 'lang-btn--active' : ''}`}
+              onClick={() => setLang(l.code)}
+              title={l.name}
+            >
+              {l.label}
+            </button>
+          ))}
         </div>
       </header>
 
@@ -104,6 +119,14 @@ export default function App() {
         </main>
       </div>
     </div>
+  )
+}
+
+export default function App() {
+  return (
+    <LanguageProvider>
+      <AppInner />
+    </LanguageProvider>
   )
 }
 

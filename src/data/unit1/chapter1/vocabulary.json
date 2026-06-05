@@ -5,6 +5,7 @@
     "greek": "ἄνθρωπος, -ου, ὁ",
     "transliteration": "anthrōpos",
     "definition": "human being, person",
+    "translations": { "es": "ser humano, persona", "pl": "człowiek, osoba" },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-anthropos.jpeg"
   },
@@ -14,6 +15,7 @@
     "greek": "γεωργός, -οῦ, ὁ",
     "transliteration": "geōrgos",
     "definition": "farmer",
+    "translations": { "es": "agricultor, campesino", "pl": "rolnik, farmer" },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-georgos.jpeg"
   },
@@ -23,6 +25,7 @@
     "greek": "οἶκος, -ου, ὁ",
     "transliteration": "oikos",
     "definition": "house",
+    "translations": { "es": "casa", "pl": "dom" },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-oikos.jpeg"
   },
@@ -32,6 +35,7 @@
     "greek": "ἀγρός, -οῦ, ὁ",
     "transliteration": "agros",
     "definition": "field",
+    "translations": { "es": "campo", "pl": "pole, rola" },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-agros.jpeg"
   },
@@ -41,6 +45,7 @@
     "greek": "οὐρανός, -οῦ, ὁ",
     "transliteration": "ouranos",
     "definition": "sky, heaven",
+    "translations": { "es": "cielo", "pl": "niebo" },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-ouranos.jpeg"
   },
@@ -50,6 +55,7 @@
     "greek": "ἥλιος, -ου, ὁ",
     "transliteration": "hēlios",
     "definition": "sun",
+    "translations": { "es": "sol", "pl": "słońce" },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-helios.jpeg"
   },
@@ -59,6 +65,7 @@
     "greek": "ποταμός, -οῦ, ὁ",
     "transliteration": "potamos",
     "definition": "river",
+    "translations": { "es": "río", "pl": "rzeka" },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-potamos.jpeg"
   },
@@ -68,6 +75,7 @@
     "greek": "ἄρτος, -ου, ὁ",
     "transliteration": "artos",
     "definition": "bread",
+    "translations": { "es": "pan", "pl": "chleb" },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-artos.jpeg"
   },
@@ -77,6 +85,7 @@
     "greek": "καρπός, -οῦ, ὁ",
     "transliteration": "karpos",
     "definition": "fruit, produce",
+    "translations": { "es": "fruto, producto", "pl": "owoc, plony" },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-karpos.jpeg"
   },
@@ -86,6 +95,7 @@
     "greek": "λίθος, -ου, ὁ",
     "transliteration": "lithos",
     "definition": "stone",
+    "translations": { "es": "piedra", "pl": "kamień" },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1-lithos.jpeg"
   },
@@ -95,6 +105,7 @@
     "greek": "θεός, -οῦ, ὁ",
     "transliteration": "theos",
     "definition": "god, God",
+    "translations": { "es": "dios, Dios", "pl": "bóg, Bóg" },
     "partOfSpeech": "noun (masculine, 2nd decl.)"
   },
   {
@@ -103,6 +114,7 @@
     "greek": "ἀγαθός, -ή, -όν",
     "transliteration": "agathos",
     "definition": "good",
+    "translations": { "es": "bueno", "pl": "dobry" },
     "partOfSpeech": "adjective",
     "image": "c1-agathos.jpeg"
   },
@@ -112,6 +124,7 @@
     "greek": "ἰσχυρός, -ά, -όν",
     "transliteration": "ischyros",
     "definition": "strong",
+    "translations": { "es": "fuerte", "pl": "silny" },
     "partOfSpeech": "adjective",
     "image": "c1-ischyros.jpeg"
   },
@@ -121,6 +134,7 @@
     "greek": "μικρός, -ά, -όν",
     "transliteration": "mikros",
     "definition": "small",
+    "translations": { "es": "pequeño", "pl": "mały" },
     "partOfSpeech": "adjective",
     "image": "c1-mikros.jpeg"
   },
@@ -130,6 +144,7 @@
     "greek": "μέγας, μεγάλη, μέγα",
     "transliteration": "megas",
     "definition": "great, large",
+    "translations": { "es": "grande", "pl": "wielki, duży" },
     "partOfSpeech": "adjective (irregular)",
     "image": "c1-megas.jpeg"
   },
@@ -139,6 +154,7 @@
     "greek": "καλός, -ή, -όν",
     "transliteration": "kalos",
     "definition": "beautiful, good",
+    "translations": { "es": "hermoso, bueno", "pl": "piękny, dobry" },
     "partOfSpeech": "adjective",
     "image": "c1-kalos.jpeg"
   },
@@ -148,6 +164,7 @@
     "greek": "πιστός, -ή, -όν",
     "transliteration": "pistos",
     "definition": "faithful",
+    "translations": { "es": "fiel", "pl": "wierny" },
     "partOfSpeech": "adjective"
   },
   {
@@ -156,6 +173,7 @@
     "greek": "εἰμί",
     "transliteration": "eimi",
     "definition": "I am",
+    "translations": { "es": "yo soy", "pl": "jestem" },
     "partOfSpeech": "verb (irregular)"
   },
   {
@@ -164,6 +182,7 @@
     "greek": "λάμπω",
     "transliteration": "lampō",
     "definition": "I shine",
+    "translations": { "es": "yo brillo", "pl": "świecę, jaśnieję" },
     "partOfSpeech": "verb",
     "image": "c1-lampo.jpeg"
   },
@@ -173,6 +192,7 @@
     "greek": "ῥέω",
     "transliteration": "rheō",
     "definition": "I flow",
+    "translations": { "es": "yo fluyo", "pl": "płynę" },
     "partOfSpeech": "verb",
     "image": "c1-rheo.jpeg"
   },
@@ -182,6 +202,7 @@
     "greek": "λαμβάνω",
     "transliteration": "lambanō",
     "definition": "I take, receive",
+    "translations": { "es": "yo tomo, recibo", "pl": "biorę, przyjmuję" },
     "partOfSpeech": "verb",
     "image": "c1-lambano.jpeg"
   },
@@ -191,6 +212,7 @@
     "greek": "ἐσθίω",
     "transliteration": "esthiō",
     "definition": "I eat",
+    "translations": { "es": "yo como", "pl": "jem" },
     "partOfSpeech": "verb",
     "image": "c1-esthio.jpeg"
   },
@@ -200,6 +222,7 @@
     "greek": "χαίρω",
     "transliteration": "chairō",
     "definition": "I rejoice",
+    "translations": { "es": "yo me alegro", "pl": "raduję się, cieszę się" },
     "partOfSpeech": "verb",
     "image": "c1-chairo.jpeg"
   },
@@ -209,6 +232,7 @@
     "greek": "ἔχω",
     "transliteration": "echō",
     "definition": "I have",
+    "translations": { "es": "yo tengo", "pl": "mam" },
     "partOfSpeech": "verb",
     "image": "c1-echo.jpeg"
   },
@@ -218,6 +242,7 @@
     "greek": "βλέπω",
     "transliteration": "blepō",
     "definition": "I see, look at",
+    "translations": { "es": "yo veo, miro", "pl": "widzę, patrzę" },
     "partOfSpeech": "verb",
     "image": "c1-blepo.jpeg"
   },
@@ -227,6 +252,7 @@
     "greek": "φιλέω, φιλῶ",
     "transliteration": "phileō",
     "definition": "I love",
+    "translations": { "es": "yo amo", "pl": "kocham, miłuję" },
     "partOfSpeech": "verb (contract, -έω)",
     "image": "c1-phileo.jpeg"
   },
@@ -236,6 +262,7 @@
     "greek": "σκάπτω",
     "transliteration": "skaptō",
     "definition": "I dig",
+    "translations": { "es": "yo cavo", "pl": "kopię" },
     "partOfSpeech": "verb",
     "image": "c1-skapto.jpeg"
   },
@@ -245,6 +272,7 @@
     "greek": "αἴρω",
     "transliteration": "airō",
     "definition": "I lift, take up",
+    "translations": { "es": "yo levanto", "pl": "podnoszę" },
     "partOfSpeech": "verb",
     "image": "c1-airo.jpeg"
   },
@@ -254,6 +282,7 @@
     "greek": "φέρω",
     "transliteration": "pherō",
     "definition": "I carry, bear",
+    "translations": { "es": "yo llevo, cargo", "pl": "niosę, noszę" },
     "partOfSpeech": "verb",
     "image": "c1-phero.jpeg"
   },
@@ -263,6 +292,7 @@
     "greek": "λέγω",
     "transliteration": "legō",
     "definition": "I say, speak",
+    "translations": { "es": "yo digo, hablo", "pl": "mówię, powiadam" },
     "partOfSpeech": "verb",
     "image": "c1-lego.jpeg"
   },
@@ -272,6 +302,7 @@
     "greek": "μέν … δέ",
     "transliteration": "men … de",
     "definition": "on the one hand … on the other",
+    "translations": { "es": "por un lado … por el otro", "pl": "z jednej strony … z drugiej" },
     "partOfSpeech": "particles (contrast pair)"
   },
   {
@@ -280,6 +311,7 @@
     "greek": "οὖν",
     "transliteration": "oun",
     "definition": "therefore, so",
+    "translations": { "es": "por lo tanto, así que", "pl": "zatem, więc" },
     "partOfSpeech": "particle (postpositive)"
   },
   {
@@ -288,6 +320,7 @@
     "greek": "γάρ",
     "transliteration": "gar",
     "definition": "for, because",
+    "translations": { "es": "pues, porque", "pl": "bowiem, bo" },
     "partOfSpeech": "particle (postpositive)"
   },
   {
@@ -296,6 +329,7 @@
     "greek": "καί",
     "transliteration": "kai",
     "definition": "and, also, even",
+    "translations": { "es": "y, también, incluso", "pl": "i, też, nawet" },
     "partOfSpeech": "conjunction"
   },
   {
@@ -304,6 +338,7 @@
     "greek": "ἀλλά",
     "transliteration": "alla",
     "definition": "but",
+    "translations": { "es": "pero, sino", "pl": "ale, lecz" },
     "partOfSpeech": "conjunction"
   },
   {
@@ -312,6 +347,7 @@
     "greek": "οὐ / οὐκ",
     "transliteration": "ou / ouk",
     "definition": "not",
+    "translations": { "es": "no", "pl": "nie" },
     "partOfSpeech": "negative particle"
   },
   {
@@ -320,6 +356,7 @@
     "greek": "πόνος, -ου, ὁ",
     "transliteration": "ponos",
     "definition": "labor, toil, pain",
+    "translations": { "es": "trabajo, fatiga, dolor", "pl": "trud, praca, ból" },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
     "image": "c1b-ponos.jpeg"
   },
@@ -329,6 +366,7 @@
     "greek": "βίος, -ου, ὁ",
     "transliteration": "bios",
     "definition": "life, livelihood",
+    "translations": { "es": "vida, sustento", "pl": "życie, utrzymanie" },
     "partOfSpeech": "noun (masculine, 2nd decl.)"
   },
   {
@@ -337,6 +375,7 @@
     "greek": "χόρτος, -ου, ὁ",
     "transliteration": "chortos",
     "definition": "grass, hay",
+    "translations": { "es": "hierba, heno", "pl": "trawa, siano" },
     "partOfSpeech": "noun (masculine, 2nd decl.)"
   },
   {
@@ -345,6 +384,7 @@
     "greek": "χαλεπός, -ή, -όν",
     "transliteration": "chalepos",
     "definition": "hard, difficult",
+    "translations": { "es": "difícil, duro", "pl": "trudny, ciężki" },
     "partOfSpeech": "adjective",
     "image": "c1b-chalepos.jpeg"
   },
@@ -354,6 +394,7 @@
     "greek": "ῥᾴδιος, -α, -ον",
     "transliteration": "rhadios",
     "definition": "easy",
+    "translations": { "es": "fácil", "pl": "łatwy" },
     "partOfSpeech": "adjective"
   },
   {
@@ -362,6 +403,7 @@
     "greek": "καθίζω",
     "transliteration": "kathizō",
     "definition": "I sit, sit down",
+    "translations": { "es": "yo me siento", "pl": "siadam" },
     "partOfSpeech": "verb",
     "image": "c1b-kathizō.jpeg"
   },
@@ -371,6 +413,7 @@
     "greek": "μένω",
     "transliteration": "menō",
     "definition": "I remain, stay",
+    "translations": { "es": "yo permanezco, me quedo", "pl": "pozostaję, zostaję" },
     "partOfSpeech": "verb",
     "image": "c1b-menō.jpeg"
   },
@@ -380,6 +423,7 @@
     "greek": "ἐκβαίνω",
     "transliteration": "ekbainō",
     "definition": "I go out",
+    "translations": { "es": "yo salgo", "pl": "wychodzę" },
     "partOfSpeech": "verb",
     "image": "c1b-ekbainō.jpeg"
   },
@@ -389,6 +433,7 @@
     "greek": "περιπατέω, -ῶ",
     "transliteration": "peripateō",
     "definition": "I walk, walk around",
+    "translations": { "es": "yo camino, paseo", "pl": "chodzę, przechadzam się" },
     "partOfSpeech": "verb (contract, -έω)",
     "image": "c1b-peripateo.jpeg"
   },
@@ -398,6 +443,7 @@
     "greek": "εὑρίσκω",
     "transliteration": "heuriskō",
     "definition": "I find",
+    "translations": { "es": "yo encuentro", "pl": "znajduję" },
     "partOfSpeech": "verb"
   },
   {
@@ -406,6 +452,7 @@
     "greek": "ἡσυχάζω",
     "transliteration": "hēsychazō",
     "definition": "I rest, am quiet",
+    "translations": { "es": "yo descanso, estoy tranquilo", "pl": "odpoczywam, jestem cicho" },
     "partOfSpeech": "verb",
     "image": "c1b-hēsychazō.jpeg"
   },
@@ -415,6 +462,7 @@
     "greek": "ἀκούω",
     "transliteration": "akouō",
     "definition": "I hear",
+    "translations": { "es": "yo escucho, oigo", "pl": "słyszę, słucham" },
     "partOfSpeech": "verb (+ acc. or gen.)"
   },
   {
@@ -423,6 +471,7 @@
     "greek": "ποιέω, -ῶ",
     "transliteration": "poieō",
     "definition": "I make, do",
+    "translations": { "es": "yo hago", "pl": "robię, czynię" },
     "partOfSpeech": "verb (contract, -έω)"
   },
   {
@@ -431,6 +480,7 @@
     "greek": "εὐχαριστέω, -ῶ",
     "transliteration": "eucharisteō",
     "definition": "I give thanks",
+    "translations": { "es": "yo doy gracias", "pl": "dziękuję" },
     "partOfSpeech": "verb (+ dative)",
     "image": "c1b-eucharisteō.jpeg"
   },
@@ -440,6 +490,7 @@
     "greek": "ἐν (+ dat.)",
     "transliteration": "en",
     "definition": "in, at",
+    "translations": { "es": "en", "pl": "w, przy" },
     "partOfSpeech": "preposition"
   },
   {
@@ -448,6 +499,7 @@
     "greek": "ἐκ / ἐξ (+ gen.)",
     "transliteration": "ek / ex",
     "definition": "out of, from",
+    "translations": { "es": "fuera de, de", "pl": "z, spośród" },
     "partOfSpeech": "preposition"
   },
   {
@@ -456,6 +508,7 @@
     "greek": "πρός (+ acc.)",
     "transliteration": "pros",
     "definition": "toward, to",
+    "translations": { "es": "hacia, a", "pl": "ku, do" },
     "partOfSpeech": "preposition"
   },
   {
@@ -464,6 +517,7 @@
     "greek": "σήμερον",
     "transliteration": "sēmeron",
     "definition": "today",
+    "translations": { "es": "hoy", "pl": "dzisiaj, dziś" },
     "partOfSpeech": "adverb"
   },
   {
@@ -472,6 +526,7 @@
     "greek": "νῦν",
     "transliteration": "nyn",
     "definition": "now",
+    "translations": { "es": "ahora", "pl": "teraz" },
     "partOfSpeech": "adverb"
   },
   {
@@ -480,6 +535,7 @@
     "greek": "ἔπειτα",
     "transliteration": "epeita",
     "definition": "then, next",
+    "translations": { "es": "luego, después", "pl": "potem, następnie" },
     "partOfSpeech": "adverb"
   },
   {
@@ -488,6 +544,7 @@
     "greek": "ἀληθῶς",
     "transliteration": "alēthōs",
     "definition": "truly",
+    "translations": { "es": "verdaderamente", "pl": "prawdziwie, naprawdę" },
     "partOfSpeech": "adverb"
   },
   {
@@ -496,6 +553,7 @@
     "greek": "ὅτε",
     "transliteration": "hote",
     "definition": "when (temporal)",
+    "translations": { "es": "cuando", "pl": "kiedy, gdy" },
     "partOfSpeech": "conjunction"
   },
   {
@@ -504,6 +562,7 @@
     "greek": "ὅτι",
     "transliteration": "hoti",
     "definition": "because, that",
+    "translations": { "es": "porque, que", "pl": "bo, że" },
     "partOfSpeech": "conjunction"
   },
   {
@@ -512,6 +571,7 @@
     "greek": "οὐδέ",
     "transliteration": "oude",
     "definition": "and not, nor, neither",
+    "translations": { "es": "ni, tampoco", "pl": "ani, też nie" },
     "partOfSpeech": "conjunction"
   }
 ]

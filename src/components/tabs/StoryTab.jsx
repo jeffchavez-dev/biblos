@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
+import { useLanguage, t } from '../../context/LanguageContext.jsx'
 import './StoryTab.css'
 
 function getParagraphParts(paragraphs) {
@@ -20,6 +21,7 @@ function normalizeGreek(s) {
 }
 
 export default function StoryTab({ story, vocabulary, activePart }) {
+  const { lang } = useLanguage()
   const [showTranslation, setShowTranslation] = useState(false)
   const [activeWord, setActiveWord] = useState(null)
   const [showImage, setShowImage] = useState(false)
@@ -169,7 +171,7 @@ export default function StoryTab({ story, vocabulary, activePart }) {
                   <p className="translation-part-label">{para.label}</p>
                 )}
                 {para.translation && (
-                  <p className="translation-para">{para.translation}</p>
+                  <p className="translation-para">{t(para.translation, para.translations, lang)}</p>
                 )}
               </div>
             ))}
@@ -196,7 +198,7 @@ export default function StoryTab({ story, vocabulary, activePart }) {
             <>
               <span className="tooltip-greek greek">{activeWord.greek}</span>
               <span className="tooltip-arrow">→</span>
-              <span className="tooltip-def">{activeWord.definition}</span>
+              <span className="tooltip-def">{t(activeWord.definition, activeWord.translations, lang)}</span>
               <button className="tooltip-close" onClick={() => { setActiveWord(null); setShowImage(false) }}>✕</button>
             </>
           )}
