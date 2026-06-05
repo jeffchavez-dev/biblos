@@ -6,394 +6,1378 @@
       "id": 1,
       "label": "Μέρος Αʹ — Ἡ Ὀψία (Part A — The Evening)",
       "words": [
-        {"greek": "ὀψία", "definition": "evening"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "μακρὰ", "definition": "long (fem.)"},
-        {"greek": "ἡ", "definition": "the"},
-        {"greek": "ἡμέρα·", "definition": "day"},
-        {"greek": "ἡ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "νὺξ", "definition": "night"},
-        {"greek": "ἐγγύς.", "definition": "near"}
+        {
+          "greek": "ὀψία",
+          "definition": "evening"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "μακρὰ",
+          "definition": "long (fem.)"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἡμέρα·",
+          "definition": "day"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "νὺξ",
+          "definition": "night"
+        },
+        {
+          "greek": "ἐγγύς.",
+          "definition": "near"
+        }
       ],
       "translation": "It is evening and the day has been long; night is near."
     },
     {
       "id": 2,
       "words": [
-        {"greek": "ἄγει", "definition": "leads"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "ἀπὸ", "definition": "from"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ἀγροῦ", "definition": "field"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "φέρει", "definition": "carries"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "ἐπὶ", "definition": "upon"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ὤμῳ", "definition": "shoulder"},
-        {"greek": "αὐτοῦ.", "definition": "his"},
-        {"greek": "κοπιᾷ", "definition": "is weary, toils"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "μικρὸν", "definition": "small"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "ὅτι", "definition": "because"},
-        {"greek": "τρέχει", "definition": "it runs"},
-        {"greek": "ὅλην", "definition": "whole, all"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "ἡμέραν.", "definition": "day"},
-        {"greek": "νῦν", "definition": "now"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "θέλει", "definition": "wants"},
-        {"greek": "τρέχειν.", "definition": "to run"}
+        {
+          "greek": "ἄγει",
+          "definition": "leads"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "ἀπὸ",
+          "definition": "from"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγροῦ",
+          "definition": "field"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "upon"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὤμῳ",
+          "definition": "shoulder"
+        },
+        {
+          "greek": "αὐτοῦ.",
+          "definition": "his"
+        },
+        {
+          "greek": "κοπιᾷ",
+          "definition": "is weary, toils"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "μικρὸν",
+          "definition": "small"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because"
+        },
+        {
+          "greek": "τρέχει",
+          "definition": "it runs"
+        },
+        {
+          "greek": "ὅλην",
+          "definition": "whole, all"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "ἡμέραν.",
+          "definition": "day"
+        },
+        {
+          "greek": "νῦν",
+          "definition": "now"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "θέλει",
+          "definition": "wants"
+        },
+        {
+          "greek": "τρέχειν.",
+          "definition": "to run"
+        }
       ],
       "translation": "So the farmer leads the sheep from the field and carries the lamb on his shoulder. For the small lamb is weary because it has been running all day. Now it does not want to run."
     },
     {
       "id": 3,
       "words": [
-        {"greek": "φέρει", "definition": "carries"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "ἀγαθὸς", "definition": "good"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἰσχυρὸς", "definition": "strong"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "ἐπὶ", "definition": "upon"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ὤμῳ", "definition": "shoulder"},
-        {"greek": "αὐτοῦ", "definition": "his"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἐν", "definition": "on"},
-        {"greek": "τῇ", "definition": "the"},
-        {"greek": "ὁδῷ", "definition": "road, way"},
-        {"greek": "περιπατεῖ", "definition": "walks"},
-        {"greek": "πρὸς", "definition": "toward"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "οἶκον.", "definition": "house"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "ἀκολουθεῖ.", "definition": "follows"}
+        {
+          "greek": "φέρει",
+          "definition": "carries"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγαθὸς",
+          "definition": "good"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἰσχυρὸς",
+          "definition": "strong"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "upon"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὤμῳ",
+          "definition": "shoulder"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "on"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὁδῷ",
+          "definition": "road, way"
+        },
+        {
+          "greek": "περιπατεῖ",
+          "definition": "walks"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "οἶκον.",
+          "definition": "house"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "ἀκολουθεῖ.",
+          "definition": "follows"
+        }
       ],
       "translation": "So the good and strong farmer carries the lamb on his shoulder and walks along the road toward the house. The sheep follows."
     },
     {
       "id": 4,
       "words": [
-        {"greek": "ἡ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "σελήνη", "definition": "moon"},
-        {"greek": "ἀνατέλλει", "definition": "rises"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οὐρανῷ", "definition": "sky"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "λάμπει", "definition": "shines"},
-        {"greek": "καλῶς", "definition": "beautifully"},
-        {"greek": "ἐπὶ", "definition": "upon"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "ἀγρὸν", "definition": "field"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἐπὶ", "definition": "upon"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "ποταμόν.", "definition": "river"},
-        {"greek": "ἐν", "definition": "on"},
-        {"greek": "τῇ", "definition": "the"},
-        {"greek": "ὁδῷ", "definition": "road"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "σελήνην", "definition": "moon"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "χαίρει·", "definition": "rejoices"},
-        {"greek": "καλὴ", "definition": "beautiful"},
-        {"greek": "γάρ", "definition": "for"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ἡ", "definition": "the"},
-        {"greek": "ὀψία.", "definition": "evening"}
+        {
+          "greek": "ἡ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "σελήνη",
+          "definition": "moon"
+        },
+        {
+          "greek": "ἀνατέλλει",
+          "definition": "rises"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οὐρανῷ",
+          "definition": "sky"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "λάμπει",
+          "definition": "shines"
+        },
+        {
+          "greek": "καλῶς",
+          "definition": "beautifully"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "upon"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρὸν",
+          "definition": "field"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "upon"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμόν.",
+          "definition": "river"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "on"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὁδῷ",
+          "definition": "road"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "σελήνην",
+          "definition": "moon"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "χαίρει·",
+          "definition": "rejoices"
+        },
+        {
+          "greek": "καλὴ",
+          "definition": "beautiful"
+        },
+        {
+          "greek": "γάρ",
+          "definition": "for"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὀψία.",
+          "definition": "evening"
+        }
       ],
       "translation": "The moon rises in the sky and shines beautifully upon the field and upon the river. On the road the farmer sees the moon and rejoices; for the evening is beautiful."
     },
     {
       "id": 5,
       "words": [
-        {"greek": "κοπιᾷ", "definition": "is weary"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "μέλλει", "definition": "is about to"},
-        {"greek": "ἡσυχάζειν", "definition": "to rest"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οἴκῳ.", "definition": "house"},
-        {"greek": "μακρὰ", "definition": "long"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "ἡ", "definition": "the"},
-        {"greek": "ἡμέρα", "definition": "day"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "θέλει", "definition": "wants"},
-        {"greek": "καθεύδειν·", "definition": "to sleep"},
-        {"greek": "περιπατεῖ", "definition": "he walks"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "πρὸς", "definition": "toward"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "οἶκον", "definition": "house"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἥκει", "definition": "arrives"},
-        {"greek": "ἔξω", "definition": "outside"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "οἴκου.", "definition": "house"}
+        {
+          "greek": "κοπιᾷ",
+          "definition": "is weary"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "μέλλει",
+          "definition": "is about to"
+        },
+        {
+          "greek": "ἡσυχάζειν",
+          "definition": "to rest"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκῳ.",
+          "definition": "house"
+        },
+        {
+          "greek": "μακρὰ",
+          "definition": "long"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἡμέρα",
+          "definition": "day"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "θέλει",
+          "definition": "wants"
+        },
+        {
+          "greek": "καθεύδειν·",
+          "definition": "to sleep"
+        },
+        {
+          "greek": "περιπατεῖ",
+          "definition": "he walks"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "οἶκον",
+          "definition": "house"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἥκει",
+          "definition": "arrives"
+        },
+        {
+          "greek": "ἔξω",
+          "definition": "outside"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκου.",
+          "definition": "house"
+        }
       ],
       "translation": "The farmer is weary and is about to rest in the house. For the day has been long and he wants to sleep; so he walks toward the house and arrives outside the house."
     },
     {
       "id": 6,
       "words": [
-        {"greek": "καταλείπει", "definition": "leaves"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "ζῷα", "definition": "animals"},
-        {"greek": "αὐτοῦ", "definition": "his"},
-        {"greek": "ἔξω·", "definition": "outside"},
-        {"greek": "ἀνοίγει", "definition": "opens"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "θύραν", "definition": "door"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "περιπατεῖ", "definition": "walks"},
-        {"greek": "εἰς", "definition": "into"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "οἶκον.", "definition": "house"},
-        {"greek": "μόνος", "definition": "alone"},
-        {"greek": "δέ", "definition": "and"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οἴκῳ.", "definition": "house"}
+        {
+          "greek": "καταλείπει",
+          "definition": "leaves"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "ζῷα",
+          "definition": "animals"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "ἔξω·",
+          "definition": "outside"
+        },
+        {
+          "greek": "ἀνοίγει",
+          "definition": "opens"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "θύραν",
+          "definition": "door"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "περιπατεῖ",
+          "definition": "walks"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "οἶκον.",
+          "definition": "house"
+        },
+        {
+          "greek": "μόνος",
+          "definition": "alone"
+        },
+        {
+          "greek": "δέ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκῳ.",
+          "definition": "house"
+        }
       ],
       "translation": "He leaves his animals outside; so he opens the door and walks into the house. The farmer is alone in the house."
     },
     {
       "id": 7,
       "words": [
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "σκοτία", "definition": "darkness"},
-        {"greek": "ἐστὶν", "definition": "is"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οἴκῳ·", "definition": "house"},
-        {"greek": "νὺξ", "definition": "night"},
-        {"greek": "γάρ", "definition": "for"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῇ", "definition": "the"},
-        {"greek": "σκοτίᾳ.", "definition": "darkness"},
-        {"greek": "ζητεῖ", "definition": "searches"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "λύχνον", "definition": "lamp"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "εὑρίσκει", "definition": "finds"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "λύχνον", "definition": "lamp"},
-        {"greek": "ἐπὶ", "definition": "on"},
-        {"greek": "τῆς", "definition": "the (gen.)"},
-        {"greek": "τραπέζης.", "definition": "table"}
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "σκοτία",
+          "definition": "darkness"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "is"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκῳ·",
+          "definition": "house"
+        },
+        {
+          "greek": "νὺξ",
+          "definition": "night"
+        },
+        {
+          "greek": "γάρ",
+          "definition": "for"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "the"
+        },
+        {
+          "greek": "σκοτίᾳ.",
+          "definition": "darkness"
+        },
+        {
+          "greek": "ζητεῖ",
+          "definition": "searches"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "λύχνον",
+          "definition": "lamp"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "εὑρίσκει",
+          "definition": "finds"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "λύχνον",
+          "definition": "lamp"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "τραπέζης.",
+          "definition": "table"
+        }
       ],
       "translation": "But there is darkness in the house; for it is night and the farmer cannot see in the darkness. So he searches for the lamp and finds the lamp on the table."
     },
     {
       "id": 8,
       "words": [
-        {"greek": "ἅπτει", "definition": "lights, kindles"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "λύχνον·", "definition": "lamp"},
-        {"greek": "λάμπει", "definition": "shines"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "λύχνος", "definition": "lamp"},
-        {"greek": "ἐπὶ", "definition": "on"},
-        {"greek": "τῆς", "definition": "the"},
-        {"greek": "τραπέζης", "definition": "table"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "φῶς", "definition": "light"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οἴκῳ·", "definition": "house"},
-        {"greek": "οὐκέτι", "definition": "no longer"},
-        {"greek": "σκοτία", "definition": "darkness"},
-        {"greek": "ἐστίν.", "definition": "is"}
+        {
+          "greek": "ἅπτει",
+          "definition": "lights, kindles"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "λύχνον·",
+          "definition": "lamp"
+        },
+        {
+          "greek": "λάμπει",
+          "definition": "shines"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύχνος",
+          "definition": "lamp"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the"
+        },
+        {
+          "greek": "τραπέζης",
+          "definition": "table"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φῶς",
+          "definition": "light"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκῳ·",
+          "definition": "house"
+        },
+        {
+          "greek": "οὐκέτι",
+          "definition": "no longer"
+        },
+        {
+          "greek": "σκοτία",
+          "definition": "darkness"
+        },
+        {
+          "greek": "ἐστίν.",
+          "definition": "is"
+        }
       ],
       "translation": "So he lights the lamp; the lamp shines on the table and there is light in the house; there is no longer darkness."
     },
     {
       "id": 9,
       "words": [
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "ἐπὶ", "definition": "on"},
-        {"greek": "τῆς", "definition": "the"},
-        {"greek": "τραπέζης", "definition": "table"},
-        {"greek": "ἄρτον", "definition": "bread"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "καρπούς·", "definition": "fruits"},
-        {"greek": "χαίρει", "definition": "rejoices"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "καθίζει", "definition": "sits"},
-        {"greek": "ἐπὶ", "definition": "on"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "καθέδραν.", "definition": "chair, seat"},
-        {"greek": "μακρὰ", "definition": "long"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "ἡ", "definition": "the"},
-        {"greek": "ἡμέρα", "definition": "day"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "πολὺν", "definition": "much, many"},
-        {"greek": "χρόνον", "definition": "time"},
-        {"greek": "σκάπτει", "definition": "he digs"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "ἀγρὸν", "definition": "field"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "φέρει", "definition": "carries"},
-        {"greek": "λίθους.", "definition": "stones"},
-        {"greek": "θέλει", "definition": "wants"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "ἐσθίειν", "definition": "to eat"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "πίνειν", "definition": "to drink"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἡσυχάζειν.", "definition": "to rest"}
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the"
+        },
+        {
+          "greek": "τραπέζης",
+          "definition": "table"
+        },
+        {
+          "greek": "ἄρτον",
+          "definition": "bread"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "καρπούς·",
+          "definition": "fruits"
+        },
+        {
+          "greek": "χαίρει",
+          "definition": "rejoices"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "καθίζει",
+          "definition": "sits"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "καθέδραν.",
+          "definition": "chair, seat"
+        },
+        {
+          "greek": "μακρὰ",
+          "definition": "long"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἡμέρα",
+          "definition": "day"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "πολὺν",
+          "definition": "much, many"
+        },
+        {
+          "greek": "χρόνον",
+          "definition": "time"
+        },
+        {
+          "greek": "σκάπτει",
+          "definition": "he digs"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρὸν",
+          "definition": "field"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries"
+        },
+        {
+          "greek": "λίθους.",
+          "definition": "stones"
+        },
+        {
+          "greek": "θέλει",
+          "definition": "wants"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ἐσθίειν",
+          "definition": "to eat"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "πίνειν",
+          "definition": "to drink"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἡσυχάζειν.",
+          "definition": "to rest"
+        }
       ],
       "translation": "The farmer sees bread and fruits on the table; so he rejoices and sits on the chair. For the day has been long and for a long time he has been digging the field and carrying stones. So he wants to eat and drink and rest."
     },
     {
       "id": 10,
       "words": [
-        {"greek": "λαμβάνει", "definition": "takes"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "ἄρτον", "definition": "bread"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἐσθίει", "definition": "eats"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "καρπούς.", "definition": "fruits"},
-        {"greek": "ἡσυχάζει", "definition": "rests"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οἴκῳ·", "definition": "house"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "σκάπτει", "definition": "he digs"},
-        {"greek": "οὐδὲ", "definition": "nor"},
-        {"greek": "φέρει", "definition": "carries"},
-        {"greek": "λίθους", "definition": "stones"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "ἐσθίει", "definition": "eats"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἡσυχάζει.", "definition": "rests"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "λύχνος", "definition": "lamp"},
-        {"greek": "λάμπει", "definition": "shines"},
-        {"greek": "ἐπὶ", "definition": "on"},
-        {"greek": "τῆς", "definition": "the"},
-        {"greek": "τραπέζης", "definition": "table"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "φῶς", "definition": "light"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οἴκῳ.", "definition": "house"},
-        {"greek": "ἡ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "σελήνη", "definition": "moon"},
-        {"greek": "λάμπει", "definition": "shines"},
-        {"greek": "ἔξω", "definition": "outside"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οὐρανῷ.", "definition": "sky"}
+        {
+          "greek": "λαμβάνει",
+          "definition": "takes"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "ἄρτον",
+          "definition": "bread"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐσθίει",
+          "definition": "eats"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "καρπούς.",
+          "definition": "fruits"
+        },
+        {
+          "greek": "ἡσυχάζει",
+          "definition": "rests"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκῳ·",
+          "definition": "house"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "σκάπτει",
+          "definition": "he digs"
+        },
+        {
+          "greek": "οὐδὲ",
+          "definition": "nor"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries"
+        },
+        {
+          "greek": "λίθους",
+          "definition": "stones"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "ἐσθίει",
+          "definition": "eats"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἡσυχάζει.",
+          "definition": "rests"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "λύχνος",
+          "definition": "lamp"
+        },
+        {
+          "greek": "λάμπει",
+          "definition": "shines"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the"
+        },
+        {
+          "greek": "τραπέζης",
+          "definition": "table"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φῶς",
+          "definition": "light"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκῳ.",
+          "definition": "house"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "σελήνη",
+          "definition": "moon"
+        },
+        {
+          "greek": "λάμπει",
+          "definition": "shines"
+        },
+        {
+          "greek": "ἔξω",
+          "definition": "outside"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οὐρανῷ.",
+          "definition": "sky"
+        }
       ],
       "translation": "So he takes the bread and eats, and the fruits. The farmer rests in the house; for he does not dig nor carry stones but eats and rests. The lamp shines on the table and there is light in the house. The moon shines outside in the sky."
     },
     {
       "id": 11,
       "words": [
-        {"greek": "τέλος", "definition": "finally"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "θέλει", "definition": "wants"},
-        {"greek": "καθεύδειν", "definition": "to sleep"},
-        {"greek": "ὅτι", "definition": "because"},
-        {"greek": "σφόδρα", "definition": "very much"},
-        {"greek": "κοπιᾷ.", "definition": "he is weary"},
-        {"greek": "μακρὰ", "definition": "long"},
-        {"greek": "γάρ", "definition": "for"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ἡ", "definition": "the"},
-        {"greek": "ἡμέρα", "definition": "day"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "μακρός", "definition": "long"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "πόνος.", "definition": "toil"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "θέλει", "definition": "wants"},
-        {"greek": "ἔτι", "definition": "still, yet"},
-        {"greek": "καθίζειν", "definition": "to sit"},
-        {"greek": "ἐπὶ", "definition": "on"},
-        {"greek": "τῆς", "definition": "the"},
-        {"greek": "καθέδρας", "definition": "chair"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "μένειν.", "definition": "to remain"},
-        {"greek": "ἔχει", "definition": "has"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "καλὴν", "definition": "good, beautiful"},
-        {"greek": "κλίνην", "definition": "bed"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οἴκῳ.", "definition": "house"},
-        {"greek": "περιπατεῖ", "definition": "walks"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "πρὸς", "definition": "toward"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "κλίνην", "definition": "bed"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "καθεύδει", "definition": "sleeps"},
-        {"greek": "ἐπὶ", "definition": "on"},
-        {"greek": "τῆς", "definition": "the"},
-        {"greek": "κλίνης.", "definition": "bed"}
+        {
+          "greek": "τέλος",
+          "definition": "finally"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "θέλει",
+          "definition": "wants"
+        },
+        {
+          "greek": "καθεύδειν",
+          "definition": "to sleep"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because"
+        },
+        {
+          "greek": "σφόδρα",
+          "definition": "very much"
+        },
+        {
+          "greek": "κοπιᾷ.",
+          "definition": "he is weary"
+        },
+        {
+          "greek": "μακρὰ",
+          "definition": "long"
+        },
+        {
+          "greek": "γάρ",
+          "definition": "for"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἡμέρα",
+          "definition": "day"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "μακρός",
+          "definition": "long"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "πόνος.",
+          "definition": "toil"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "θέλει",
+          "definition": "wants"
+        },
+        {
+          "greek": "ἔτι",
+          "definition": "still, yet"
+        },
+        {
+          "greek": "καθίζειν",
+          "definition": "to sit"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the"
+        },
+        {
+          "greek": "καθέδρας",
+          "definition": "chair"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "μένειν.",
+          "definition": "to remain"
+        },
+        {
+          "greek": "ἔχει",
+          "definition": "has"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "καλὴν",
+          "definition": "good, beautiful"
+        },
+        {
+          "greek": "κλίνην",
+          "definition": "bed"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκῳ.",
+          "definition": "house"
+        },
+        {
+          "greek": "περιπατεῖ",
+          "definition": "walks"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "κλίνην",
+          "definition": "bed"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "καθεύδει",
+          "definition": "sleeps"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the"
+        },
+        {
+          "greek": "κλίνης.",
+          "definition": "bed"
+        }
       ],
       "translation": "Finally the farmer wants to sleep because he is very weary. For the day has been long and the toil has been long. He no longer wants to sit on the chair and remain. He has a good bed in the house. So he walks toward the bed and sleeps on the bed."
     },
@@ -401,687 +1385,2404 @@
       "id": 12,
       "label": "Μέρος Βʹ — Ὁ Ὕπνος (Part B — The Dream)",
       "words": [
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "λύχνος", "definition": "lamp"},
-        {"greek": "ἔτι", "definition": "still"},
-        {"greek": "λάμπει", "definition": "shines"},
-        {"greek": "ἐπὶ", "definition": "on"},
-        {"greek": "τῆς", "definition": "the"},
-        {"greek": "τραπέζης", "definition": "table"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἡ", "definition": "the"},
-        {"greek": "σελήνη", "definition": "moon"},
-        {"greek": "λάμπει", "definition": "shines"},
-        {"greek": "ἔξω", "definition": "outside"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οὐρανῷ.", "definition": "sky"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "καθεύδει", "definition": "sleeps"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "ἐπὶ", "definition": "on"},
-        {"greek": "τῆς", "definition": "the"},
-        {"greek": "κλίνης", "definition": "bed"},
-        {"greek": "αὐτοῦ.", "definition": "his"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ὕπνῳ", "definition": "sleep, dream"},
-        {"greek": "αὐτοῦ", "definition": "his"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "ἀγρόν.", "definition": "field"}
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύχνος",
+          "definition": "lamp"
+        },
+        {
+          "greek": "ἔτι",
+          "definition": "still"
+        },
+        {
+          "greek": "λάμπει",
+          "definition": "shines"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the"
+        },
+        {
+          "greek": "τραπέζης",
+          "definition": "table"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the"
+        },
+        {
+          "greek": "σελήνη",
+          "definition": "moon"
+        },
+        {
+          "greek": "λάμπει",
+          "definition": "shines"
+        },
+        {
+          "greek": "ἔξω",
+          "definition": "outside"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οὐρανῷ.",
+          "definition": "sky"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "καθεύδει",
+          "definition": "sleeps"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the"
+        },
+        {
+          "greek": "κλίνης",
+          "definition": "bed"
+        },
+        {
+          "greek": "αὐτοῦ.",
+          "definition": "his"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὕπνῳ",
+          "definition": "sleep, dream"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρόν.",
+          "definition": "field"
+        }
       ],
       "translation": "The lamp still shines on the table and the moon shines outside in the sky. The farmer sleeps on his bed. And in his sleep he sees the field."
     },
     {
       "id": 13,
       "words": [
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "ἀγρὸς", "definition": "field"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "καλός", "definition": "good"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ὕπνῳ.", "definition": "dream"},
-        {"greek": "λίθοι", "definition": "stones"},
-        {"greek": "γάρ", "definition": "for"},
-        {"greek": "εἰσιν", "definition": "are"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ,", "definition": "field"},
-        {"greek": "οὐχ", "definition": "not"},
-        {"greek": "εἷς", "definition": "one"},
-        {"greek": "λίθος", "definition": "stone"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "λίθοι", "definition": "stones"},
-        {"greek": "πολλοί.", "definition": "many"},
-        {"greek": "μεγάλοι", "definition": "great (pl.)"},
-        {"greek": "εἰσὶν", "definition": "are"},
-        {"greek": "οἱ", "definition": "the"},
-        {"greek": "λίθοι", "definition": "stones"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "χαλεποί.", "definition": "difficult, hard"}
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρὸς",
+          "definition": "field"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "καλός",
+          "definition": "good"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὕπνῳ.",
+          "definition": "dream"
+        },
+        {
+          "greek": "λίθοι",
+          "definition": "stones"
+        },
+        {
+          "greek": "γάρ",
+          "definition": "for"
+        },
+        {
+          "greek": "εἰσιν",
+          "definition": "are"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ,",
+          "definition": "field"
+        },
+        {
+          "greek": "οὐχ",
+          "definition": "not"
+        },
+        {
+          "greek": "εἷς",
+          "definition": "one"
+        },
+        {
+          "greek": "λίθος",
+          "definition": "stone"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "λίθοι",
+          "definition": "stones"
+        },
+        {
+          "greek": "πολλοί.",
+          "definition": "many"
+        },
+        {
+          "greek": "μεγάλοι",
+          "definition": "great (pl.)"
+        },
+        {
+          "greek": "εἰσὶν",
+          "definition": "are"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the"
+        },
+        {
+          "greek": "λίθοι",
+          "definition": "stones"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "χαλεποί.",
+          "definition": "difficult, hard"
+        }
       ],
       "translation": "But the field is not good in the dream. For there are stones in the field — not one stone but many stones. The stones are great and hard."
     },
     {
       "id": 14,
       "words": [
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "λίθους", "definition": "stones"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "χαίρει.", "definition": "rejoices"},
-        {"greek": "θέλει", "definition": "wants"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "αἴρειν", "definition": "to lift"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "φέρειν", "definition": "to carry"},
-        {"greek": "αὐτοὺς", "definition": "them"},
-        {"greek": "ἐκ", "definition": "out of"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ἀγροῦ.", "definition": "field"},
-        {"greek": "αἴρει", "definition": "he lifts"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "πρῶτον", "definition": "first"},
-        {"greek": "λίθον", "definition": "stone"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "φέρει", "definition": "carries"},
-        {"greek": "αὐτόν.", "definition": "it"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "ἔτι", "definition": "still"},
-        {"greek": "λίθοι", "definition": "stones"},
-        {"greek": "πολλοί", "definition": "many"},
-        {"greek": "εἰσιν", "definition": "are"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ.", "definition": "field"},
-        {"greek": "αἴρει", "definition": "lifts"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "δεύτερον", "definition": "second"},
-        {"greek": "λίθον", "definition": "stone"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "φέρει", "definition": "carries"},
-        {"greek": "αὐτόν.", "definition": "it"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "ἔτι", "definition": "still"},
-        {"greek": "λίθοι", "definition": "stones"},
-        {"greek": "εἰσίν.", "definition": "are"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "πάλιν", "definition": "again"},
-        {"greek": "αἴρει", "definition": "lifts"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "πάλιν", "definition": "again"},
-        {"greek": "φέρει.", "definition": "carries"}
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "λίθους",
+          "definition": "stones"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "χαίρει.",
+          "definition": "rejoices"
+        },
+        {
+          "greek": "θέλει",
+          "definition": "wants"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "αἴρειν",
+          "definition": "to lift"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φέρειν",
+          "definition": "to carry"
+        },
+        {
+          "greek": "αὐτοὺς",
+          "definition": "them"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "out of"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγροῦ.",
+          "definition": "field"
+        },
+        {
+          "greek": "αἴρει",
+          "definition": "he lifts"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "πρῶτον",
+          "definition": "first"
+        },
+        {
+          "greek": "λίθον",
+          "definition": "stone"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries"
+        },
+        {
+          "greek": "αὐτόν.",
+          "definition": "it"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "ἔτι",
+          "definition": "still"
+        },
+        {
+          "greek": "λίθοι",
+          "definition": "stones"
+        },
+        {
+          "greek": "πολλοί",
+          "definition": "many"
+        },
+        {
+          "greek": "εἰσιν",
+          "definition": "are"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ.",
+          "definition": "field"
+        },
+        {
+          "greek": "αἴρει",
+          "definition": "lifts"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "δεύτερον",
+          "definition": "second"
+        },
+        {
+          "greek": "λίθον",
+          "definition": "stone"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries"
+        },
+        {
+          "greek": "αὐτόν.",
+          "definition": "it"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "ἔτι",
+          "definition": "still"
+        },
+        {
+          "greek": "λίθοι",
+          "definition": "stones"
+        },
+        {
+          "greek": "εἰσίν.",
+          "definition": "are"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "πάλιν",
+          "definition": "again"
+        },
+        {
+          "greek": "αἴρει",
+          "definition": "lifts"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "πάλιν",
+          "definition": "again"
+        },
+        {
+          "greek": "φέρει.",
+          "definition": "carries"
+        }
       ],
       "translation": "The farmer sees the stones and does not rejoice. For he wants to lift and carry them out of the field. So he lifts the first stone and carries it. But there are still many stones in the field. He lifts the second stone and carries it. But there are still stones. And again he lifts and again carries."
     },
     {
       "id": 15,
       "words": [
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "ἔτι", "definition": "still"},
-        {"greek": "πολλοὶ", "definition": "many"},
-        {"greek": "λίθοι", "definition": "stones"},
-        {"greek": "μένουσιν", "definition": "remain"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ·", "definition": "field"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "δυνατόν", "definition": "possible, able"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "αὐτῷ", "definition": "for him"},
-        {"greek": "αἴρειν", "definition": "to lift"},
-        {"greek": "πάντας", "definition": "all"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "λίθους", "definition": "stones"},
-        {"greek": "ἐκ", "definition": "out of"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ἀγροῦ.", "definition": "field"},
-        {"greek": "κοπιᾷ", "definition": "is weary"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "σφόδρα", "definition": "very much"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "στενάζει·", "definition": "groans"}
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "ἔτι",
+          "definition": "still"
+        },
+        {
+          "greek": "πολλοὶ",
+          "definition": "many"
+        },
+        {
+          "greek": "λίθοι",
+          "definition": "stones"
+        },
+        {
+          "greek": "μένουσιν",
+          "definition": "remain"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ·",
+          "definition": "field"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "δυνατόν",
+          "definition": "possible, able"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "αὐτῷ",
+          "definition": "for him"
+        },
+        {
+          "greek": "αἴρειν",
+          "definition": "to lift"
+        },
+        {
+          "greek": "πάντας",
+          "definition": "all"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "λίθους",
+          "definition": "stones"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "out of"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγροῦ.",
+          "definition": "field"
+        },
+        {
+          "greek": "κοπιᾷ",
+          "definition": "is weary"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "σφόδρα",
+          "definition": "very much"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "στενάζει·",
+          "definition": "groans"
+        }
       ],
       "translation": "But still many stones remain in the field; it is not possible for him to lift all the stones out of the field. The farmer is very weary and groans."
     },
     {
       "id": 16,
       "words": [
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "εὐθὺς", "definition": "immediately"},
-        {"greek": "ζητεῖ", "definition": "searches"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "ζῷα", "definition": "animals"},
-        {"greek": "αὐτοῦ", "definition": "his"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ.", "definition": "field"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "ποῦ", "definition": "where?"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον;", "definition": "lamb?"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "βλέπει", "definition": "he sees"},
-        {"greek": "αὐτό.", "definition": "it"},
-        {"greek": "ποῦ", "definition": "where?"},
-        {"greek": "δέ", "definition": "and"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "πρόβατον;", "definition": "sheep?"},
-        {"greek": "τρέχει", "definition": "runs"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "πρὸς", "definition": "toward"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "πρόβατα·", "definition": "sheep"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "πρόβατα", "definition": "sheep"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "μένει.", "definition": "stay"},
-        {"greek": "φεύγει", "definition": "flee"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "πρόβατα", "definition": "sheep"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τρέχει", "definition": "run"},
-        {"greek": "ἀπὸ", "definition": "from"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "γεωργοῦ.", "definition": "farmer"}
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "εὐθὺς",
+          "definition": "immediately"
+        },
+        {
+          "greek": "ζητεῖ",
+          "definition": "searches"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "ζῷα",
+          "definition": "animals"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ.",
+          "definition": "field"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "ποῦ",
+          "definition": "where?"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον;",
+          "definition": "lamb?"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "he sees"
+        },
+        {
+          "greek": "αὐτό.",
+          "definition": "it"
+        },
+        {
+          "greek": "ποῦ",
+          "definition": "where?"
+        },
+        {
+          "greek": "δέ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατον;",
+          "definition": "sheep?"
+        },
+        {
+          "greek": "τρέχει",
+          "definition": "runs"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατα·",
+          "definition": "sheep"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατα",
+          "definition": "sheep"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "μένει.",
+          "definition": "stay"
+        },
+        {
+          "greek": "φεύγει",
+          "definition": "flee"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατα",
+          "definition": "sheep"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τρέχει",
+          "definition": "run"
+        },
+        {
+          "greek": "ἀπὸ",
+          "definition": "from"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργοῦ.",
+          "definition": "farmer"
+        }
       ],
       "translation": "And immediately he searches for his animals in the field. But where is the lamb? He does not see it. And where is the sheep? He runs toward the sheep; but the sheep do not stay. For the sheep flee and run from the farmer."
     },
     {
       "id": 17,
       "words": [
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἰδού,", "definition": "behold, look!"},
-        {"greek": "λύκοι", "definition": "wolves"},
-        {"greek": "εἰσὶν", "definition": "are"},
-        {"greek": "πέραν", "definition": "across"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ποταμοῦ.", "definition": "river"},
-        {"greek": "οὐχ", "definition": "not"},
-        {"greek": "εἷς", "definition": "one"},
-        {"greek": "λύκος", "definition": "wolf"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "λύκοι", "definition": "wolves"},
-        {"greek": "πολλοί.", "definition": "many"},
-        {"greek": "μεγάλοι", "definition": "great (pl.)"},
-        {"greek": "εἰσὶν", "definition": "are"},
-        {"greek": "οἱ", "definition": "the"},
-        {"greek": "λύκοι", "definition": "wolves"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "πονηροί.", "definition": "evil"},
-        {"greek": "βλέπουσιν", "definition": "they see"},
-        {"greek": "οἱ", "definition": "the"},
-        {"greek": "λύκοι", "definition": "wolves"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "θέλουσιν", "definition": "they want"},
-        {"greek": "ἁρπάζειν", "definition": "to seize"},
-        {"greek": "αὐτά.", "definition": "them"}
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἰδού,",
+          "definition": "behold, look!"
+        },
+        {
+          "greek": "λύκοι",
+          "definition": "wolves"
+        },
+        {
+          "greek": "εἰσὶν",
+          "definition": "are"
+        },
+        {
+          "greek": "πέραν",
+          "definition": "across"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμοῦ.",
+          "definition": "river"
+        },
+        {
+          "greek": "οὐχ",
+          "definition": "not"
+        },
+        {
+          "greek": "εἷς",
+          "definition": "one"
+        },
+        {
+          "greek": "λύκος",
+          "definition": "wolf"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "λύκοι",
+          "definition": "wolves"
+        },
+        {
+          "greek": "πολλοί.",
+          "definition": "many"
+        },
+        {
+          "greek": "μεγάλοι",
+          "definition": "great (pl.)"
+        },
+        {
+          "greek": "εἰσὶν",
+          "definition": "are"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκοι",
+          "definition": "wolves"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "πονηροί.",
+          "definition": "evil"
+        },
+        {
+          "greek": "βλέπουσιν",
+          "definition": "they see"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκοι",
+          "definition": "wolves"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "θέλουσιν",
+          "definition": "they want"
+        },
+        {
+          "greek": "ἁρπάζειν",
+          "definition": "to seize"
+        },
+        {
+          "greek": "αὐτά.",
+          "definition": "them"
+        }
       ],
       "translation": "And look! There are wolves across the river. Not one wolf but many wolves. The wolves are great and evil. The wolves see the sheep and the lamb and want to seize them."
     },
     {
       "id": 18,
       "words": [
-        {"greek": "μέλλουσιν", "definition": "are about to"},
-        {"greek": "οἱ", "definition": "the"},
-        {"greek": "λύκοι", "definition": "wolves"},
-        {"greek": "διαβαίνειν", "definition": "to cross over"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "ποταμὸν", "definition": "river"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τρέχειν", "definition": "to run"},
-        {"greek": "εἰς", "definition": "into"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "ἀγρόν.", "definition": "field"},
-        {"greek": "τρέχει", "definition": "runs"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "καὶ", "definition": "also"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "πρὸς", "definition": "toward"},
-        {"greek": "αὐτούς·", "definition": "them"},
-        {"greek": "θέλει", "definition": "wants"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "σῴζειν", "definition": "to save"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "ζῷα", "definition": "animals"},
-        {"greek": "αὐτοῦ", "definition": "his"},
-        {"greek": "ἀπὸ", "definition": "from"},
-        {"greek": "τῶν", "definition": "the (gen. pl.)"},
-        {"greek": "λύκων.", "definition": "wolves"}
+        {
+          "greek": "μέλλουσιν",
+          "definition": "are about to"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκοι",
+          "definition": "wolves"
+        },
+        {
+          "greek": "διαβαίνειν",
+          "definition": "to cross over"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμὸν",
+          "definition": "river"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τρέχειν",
+          "definition": "to run"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρόν.",
+          "definition": "field"
+        },
+        {
+          "greek": "τρέχει",
+          "definition": "runs"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "also"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "αὐτούς·",
+          "definition": "them"
+        },
+        {
+          "greek": "θέλει",
+          "definition": "wants"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "σῴζειν",
+          "definition": "to save"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "ζῷα",
+          "definition": "animals"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "ἀπὸ",
+          "definition": "from"
+        },
+        {
+          "greek": "τῶν",
+          "definition": "the (gen. pl.)"
+        },
+        {
+          "greek": "λύκων.",
+          "definition": "wolves"
+        }
       ],
       "translation": "The wolves are about to cross over the river and run into the field. The farmer also runs toward them; for he wants to save his animals from the wolves."
     },
     {
       "id": 19,
       "words": [
-        {"greek": "ἀλλ᾽", "definition": "but"},
-        {"greek": "ἰδού,", "definition": "behold!"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "δυνατόν", "definition": "possible"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "αὐτῷ", "definition": "for him"},
-        {"greek": "ταχέως", "definition": "quickly"},
-        {"greek": "τρέχειν.", "definition": "to run"},
-        {"greek": "θέλει", "definition": "wants"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "κράζειν", "definition": "to cry out"},
-        {"greek": "μεγάλῃ", "definition": "great, loud"},
-        {"greek": "φωνῇ", "definition": "with a voice"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "ἡ", "definition": "the"},
-        {"greek": "φωνὴ", "definition": "voice"},
-        {"greek": "αὐτοῦ", "definition": "his"},
-        {"greek": "μικρά", "definition": "small, weak"},
-        {"greek": "ἐστιν.", "definition": "is"},
-        {"greek": "φόβος", "definition": "fear"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "μέγας", "definition": "great"},
-        {"greek": "λαμβάνει", "definition": "takes hold of"},
-        {"greek": "αὐτόν.", "definition": "him"}
+        {
+          "greek": "ἀλλ᾽",
+          "definition": "but"
+        },
+        {
+          "greek": "ἰδού,",
+          "definition": "behold!"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "δυνατόν",
+          "definition": "possible"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "αὐτῷ",
+          "definition": "for him"
+        },
+        {
+          "greek": "ταχέως",
+          "definition": "quickly"
+        },
+        {
+          "greek": "τρέχειν.",
+          "definition": "to run"
+        },
+        {
+          "greek": "θέλει",
+          "definition": "wants"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "κράζειν",
+          "definition": "to cry out"
+        },
+        {
+          "greek": "μεγάλῃ",
+          "definition": "great, loud"
+        },
+        {
+          "greek": "φωνῇ",
+          "definition": "with a voice"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the"
+        },
+        {
+          "greek": "φωνὴ",
+          "definition": "voice"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "μικρά",
+          "definition": "small, weak"
+        },
+        {
+          "greek": "ἐστιν.",
+          "definition": "is"
+        },
+        {
+          "greek": "φόβος",
+          "definition": "fear"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "μέγας",
+          "definition": "great"
+        },
+        {
+          "greek": "λαμβάνει",
+          "definition": "takes hold of"
+        },
+        {
+          "greek": "αὐτόν.",
+          "definition": "him"
+        }
       ],
       "translation": "But look! It is not possible for him to run quickly. He wants to cry out with a great voice, but his voice is weak. And great fear takes hold of him."
     },
     {
       "id": 20,
       "words": [
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "εὐθὺς", "definition": "immediately"},
-        {"greek": "οὐκέτι", "definition": "no longer"},
-        {"greek": "ἐστὶν", "definition": "he is"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ", "definition": "field"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "ἔξω", "definition": "outside"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "οἴκου", "definition": "house"},
-        {"greek": "αὐτοῦ.", "definition": "his"},
-        {"greek": "μέλλει", "definition": "is about to"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "εὑρίσκειν", "definition": "to find"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "θύραν", "definition": "door"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "περιπατεῖν", "definition": "to walk"},
-        {"greek": "εἰς", "definition": "into"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "οἶκον.", "definition": "house"},
-        {"greek": "ἀλλ᾽", "definition": "but"},
-        {"greek": "ἰδού,", "definition": "look!"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "μία", "definition": "one (fem.)"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "πολλαὶ", "definition": "many (fem.)"},
-        {"greek": "θύραι", "definition": "doors"},
-        {"greek": "εἰσίν.", "definition": "there are"},
-        {"greek": "θαυμάζει", "definition": "he marvels"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "βλέπει", "definition": "looks"},
-        {"greek": "πρὸς", "definition": "toward"},
-        {"greek": "τὰς", "definition": "the (fem. pl.)"},
-        {"greek": "πολλὰς", "definition": "many"},
-        {"greek": "θύρας.", "definition": "doors"}
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "εὐθὺς",
+          "definition": "immediately"
+        },
+        {
+          "greek": "οὐκέτι",
+          "definition": "no longer"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "he is"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ",
+          "definition": "field"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "ἔξω",
+          "definition": "outside"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκου",
+          "definition": "house"
+        },
+        {
+          "greek": "αὐτοῦ.",
+          "definition": "his"
+        },
+        {
+          "greek": "μέλλει",
+          "definition": "is about to"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "εὑρίσκειν",
+          "definition": "to find"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "θύραν",
+          "definition": "door"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "περιπατεῖν",
+          "definition": "to walk"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "οἶκον.",
+          "definition": "house"
+        },
+        {
+          "greek": "ἀλλ᾽",
+          "definition": "but"
+        },
+        {
+          "greek": "ἰδού,",
+          "definition": "look!"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "μία",
+          "definition": "one (fem.)"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "πολλαὶ",
+          "definition": "many (fem.)"
+        },
+        {
+          "greek": "θύραι",
+          "definition": "doors"
+        },
+        {
+          "greek": "εἰσίν.",
+          "definition": "there are"
+        },
+        {
+          "greek": "θαυμάζει",
+          "definition": "he marvels"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "looks"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὰς",
+          "definition": "the (fem. pl.)"
+        },
+        {
+          "greek": "πολλὰς",
+          "definition": "many"
+        },
+        {
+          "greek": "θύρας.",
+          "definition": "doors"
+        }
       ],
       "translation": "And immediately he is no longer in the field but outside his house. He is about to find the door and walk into the house. But look — there is not one door but many doors! He marvels and looks toward the many doors."
     },
     {
       "id": 21,
       "words": [
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἀνοίγει", "definition": "opens"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "πρώτην", "definition": "first (fem.)"},
-        {"greek": "θύραν", "definition": "door"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "σκοτία", "definition": "darkness"},
-        {"greek": "ἐστίν.", "definition": "is"},
-        {"greek": "ἀνοίγει", "definition": "opens"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "δευτέραν", "definition": "second (fem.)"},
-        {"greek": "θύραν", "definition": "door"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "πανταχοῦ", "definition": "everywhere"},
-        {"greek": "σκοτία", "definition": "darkness"},
-        {"greek": "ἐστίν.", "definition": "is"},
-        {"greek": "τέλος", "definition": "finally"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ἀνοίγει", "definition": "opens"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "τρίτην", "definition": "third (fem.)"},
-        {"greek": "θύραν", "definition": "door"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "περιπατεῖ", "definition": "walks"},
-        {"greek": "εἰς", "definition": "into"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "οἶκον.", "definition": "house"}
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἀνοίγει",
+          "definition": "opens"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "πρώτην",
+          "definition": "first (fem.)"
+        },
+        {
+          "greek": "θύραν",
+          "definition": "door"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "σκοτία",
+          "definition": "darkness"
+        },
+        {
+          "greek": "ἐστίν.",
+          "definition": "is"
+        },
+        {
+          "greek": "ἀνοίγει",
+          "definition": "opens"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "δευτέραν",
+          "definition": "second (fem.)"
+        },
+        {
+          "greek": "θύραν",
+          "definition": "door"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "πανταχοῦ",
+          "definition": "everywhere"
+        },
+        {
+          "greek": "σκοτία",
+          "definition": "darkness"
+        },
+        {
+          "greek": "ἐστίν.",
+          "definition": "is"
+        },
+        {
+          "greek": "τέλος",
+          "definition": "finally"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἀνοίγει",
+          "definition": "opens"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "τρίτην",
+          "definition": "third (fem.)"
+        },
+        {
+          "greek": "θύραν",
+          "definition": "door"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "περιπατεῖ",
+          "definition": "walks"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "οἶκον.",
+          "definition": "house"
+        }
       ],
       "translation": "He opens the first door — but there is darkness. He opens the second door — but everywhere there is darkness. Finally he opens the third door and walks into the house."
     },
     {
       "id": 22,
       "words": [
-        {"greek": "ἔσω", "definition": "inside"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "οἴκου", "definition": "house"},
-        {"greek": "ζητεῖ", "definition": "searches"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "λύχνον", "definition": "lamp"},
-        {"greek": "ὅτι", "definition": "because"},
-        {"greek": "πανταχοῦ", "definition": "everywhere"},
-        {"greek": "σκοτία", "definition": "darkness"},
-        {"greek": "ἐστίν.", "definition": "is"},
-        {"greek": "φῶς", "definition": "light"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "οὐκ", "definition": "not"},
-        {"greek": "ἔστιν.", "definition": "is"},
-        {"greek": "ἀλλ᾽", "definition": "but"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "δυνατόν", "definition": "possible"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "εὑρίσκειν", "definition": "to find"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "λύχνον.", "definition": "lamp"},
-        {"greek": "περιπατεῖ", "definition": "walks"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῇ", "definition": "the"},
-        {"greek": "σκοτίᾳ", "definition": "darkness"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "πίπτει", "definition": "falls"},
-        {"greek": "ὅτι", "definition": "because"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "ὁδόν.", "definition": "way, road"},
-        {"greek": "φόβος", "definition": "fear"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "μέγας", "definition": "great"},
-        {"greek": "πάλιν", "definition": "again"},
-        {"greek": "λαμβάνει", "definition": "takes hold of"},
-        {"greek": "αὐτόν.", "definition": "him"}
+        {
+          "greek": "ἔσω",
+          "definition": "inside"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκου",
+          "definition": "house"
+        },
+        {
+          "greek": "ζητεῖ",
+          "definition": "searches"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "λύχνον",
+          "definition": "lamp"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because"
+        },
+        {
+          "greek": "πανταχοῦ",
+          "definition": "everywhere"
+        },
+        {
+          "greek": "σκοτία",
+          "definition": "darkness"
+        },
+        {
+          "greek": "ἐστίν.",
+          "definition": "is"
+        },
+        {
+          "greek": "φῶς",
+          "definition": "light"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "οὐκ",
+          "definition": "not"
+        },
+        {
+          "greek": "ἔστιν.",
+          "definition": "is"
+        },
+        {
+          "greek": "ἀλλ᾽",
+          "definition": "but"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "δυνατόν",
+          "definition": "possible"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "εὑρίσκειν",
+          "definition": "to find"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "λύχνον.",
+          "definition": "lamp"
+        },
+        {
+          "greek": "περιπατεῖ",
+          "definition": "walks"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "the"
+        },
+        {
+          "greek": "σκοτίᾳ",
+          "definition": "darkness"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "πίπτει",
+          "definition": "falls"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "ὁδόν.",
+          "definition": "way, road"
+        },
+        {
+          "greek": "φόβος",
+          "definition": "fear"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "μέγας",
+          "definition": "great"
+        },
+        {
+          "greek": "πάλιν",
+          "definition": "again"
+        },
+        {
+          "greek": "λαμβάνει",
+          "definition": "takes hold of"
+        },
+        {
+          "greek": "αὐτόν.",
+          "definition": "him"
+        }
       ],
       "translation": "Inside the house he searches for the lamp because darkness is everywhere. For there is no light. But it is not possible to find the lamp. So he walks in the darkness and falls because he cannot see the way. And great fear takes hold of him again."
     },
     {
       "id": 23,
       "words": [
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "εὐθὺς", "definition": "immediately"},
-        {"greek": "οὐκέτι", "definition": "no longer"},
-        {"greek": "σκοτία", "definition": "darkness"},
-        {"greek": "ἐστὶν", "definition": "is"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οἴκῳ.", "definition": "house"},
-        {"greek": "ἀλλ᾽", "definition": "but"},
-        {"greek": "ἰδού,", "definition": "look!"},
-        {"greek": "οὐκ", "definition": "not"},
-        {"greek": "ἕν", "definition": "one (neuter)"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "ζῷα", "definition": "animals"},
-        {"greek": "ἐστιν", "definition": "are"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οἴκῳ·", "definition": "house"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "ὄνος", "definition": "donkey"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "βοῦς", "definition": "ox"},
-        {"greek": "εἰσιν", "definition": "are"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οἴκῳ", "definition": "house"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "καθίζουσιν", "definition": "sit"},
-        {"greek": "ἐπὶ", "definition": "on"},
-        {"greek": "τῶν", "definition": "the"},
-        {"greek": "καθεδρῶν", "definition": "chairs"},
-        {"greek": "ὡς", "definition": "as, like"},
-        {"greek": "οἱ", "definition": "the"},
-        {"greek": "ἄνθρωποι.", "definition": "people"}
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "εὐθὺς",
+          "definition": "immediately"
+        },
+        {
+          "greek": "οὐκέτι",
+          "definition": "no longer"
+        },
+        {
+          "greek": "σκοτία",
+          "definition": "darkness"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "is"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκῳ.",
+          "definition": "house"
+        },
+        {
+          "greek": "ἀλλ᾽",
+          "definition": "but"
+        },
+        {
+          "greek": "ἰδού,",
+          "definition": "look!"
+        },
+        {
+          "greek": "οὐκ",
+          "definition": "not"
+        },
+        {
+          "greek": "ἕν",
+          "definition": "one (neuter)"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "ζῷα",
+          "definition": "animals"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "are"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκῳ·",
+          "definition": "house"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὄνος",
+          "definition": "donkey"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "βοῦς",
+          "definition": "ox"
+        },
+        {
+          "greek": "εἰσιν",
+          "definition": "are"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκῳ",
+          "definition": "house"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "καθίζουσιν",
+          "definition": "sit"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τῶν",
+          "definition": "the"
+        },
+        {
+          "greek": "καθεδρῶν",
+          "definition": "chairs"
+        },
+        {
+          "greek": "ὡς",
+          "definition": "as, like"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἄνθρωποι.",
+          "definition": "people"
+        }
       ],
       "translation": "And immediately there is no longer darkness in the house. But look! Not one — but the animals are in the house: the donkey and the ox are in the house and sit on the chairs like people!"
     },
     {
       "id": 24,
       "words": [
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "σφόδρα", "definition": "very much"},
-        {"greek": "θαυμάζει", "definition": "marvels"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "βλέπει", "definition": "looks"},
-        {"greek": "πρὸς", "definition": "toward"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "ζῷα.", "definition": "animals"},
-        {"greek": "ἐξαίφνης", "definition": "suddenly"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "ὄνος", "definition": "donkey"},
-        {"greek": "λέγει", "definition": "says"},
-        {"greek": "τῷ", "definition": "to the"},
-        {"greek": "γεωργῷ·", "definition": "farmer"},
-        {"greek": "«ἡμεῖς", "definition": "we"},
-        {"greek": "θέλομεν", "definition": "want"},
-        {"greek": "ἐσθίειν", "definition": "to eat"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "καρποὺς", "definition": "fruits"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "ἄρτους.»", "definition": "loaves of bread"}
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "σφόδρα",
+          "definition": "very much"
+        },
+        {
+          "greek": "θαυμάζει",
+          "definition": "marvels"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "looks"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "ζῷα.",
+          "definition": "animals"
+        },
+        {
+          "greek": "ἐξαίφνης",
+          "definition": "suddenly"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὄνος",
+          "definition": "donkey"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to the"
+        },
+        {
+          "greek": "γεωργῷ·",
+          "definition": "farmer"
+        },
+        {
+          "greek": "«ἡμεῖς",
+          "definition": "we"
+        },
+        {
+          "greek": "θέλομεν",
+          "definition": "want"
+        },
+        {
+          "greek": "ἐσθίειν",
+          "definition": "to eat"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "καρποὺς",
+          "definition": "fruits"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "ἄρτους.»",
+          "definition": "loaves of bread"
+        }
       ],
       "translation": "The farmer marvels greatly and looks at the animals. Suddenly the donkey says to the farmer: 'We want to eat the fruits and the bread!'"
     },
     {
       "id": 25,
       "words": [
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "ἀκούει", "definition": "hears"},
-        {"greek": "τῆς", "definition": "the (gen.)"},
-        {"greek": "φωνῆς", "definition": "voice"},
-        {"greek": "τοῦ", "definition": "of the"},
-        {"greek": "ὄνου", "definition": "donkey"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "σφόδρα", "definition": "very much"},
-        {"greek": "θαυμάζει·", "definition": "marvels"},
-        {"greek": "φόβος", "definition": "fear"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "μέγας", "definition": "great"},
-        {"greek": "πάλιν", "definition": "again"},
-        {"greek": "λαμβάνει", "definition": "takes hold of"},
-        {"greek": "αὐτόν.", "definition": "him"},
-        {"greek": "βλέπει", "definition": "looks"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "πρὸς", "definition": "toward"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "ὄνον", "definition": "donkey"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "βοῦν", "definition": "ox"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "γινώσκει", "definition": "knows"},
-        {"greek": "τί", "definition": "what"},
-        {"greek": "ποιεῖ.", "definition": "he should do"}
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "ἀκούει",
+          "definition": "hears"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "φωνῆς",
+          "definition": "voice"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "ὄνου",
+          "definition": "donkey"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "σφόδρα",
+          "definition": "very much"
+        },
+        {
+          "greek": "θαυμάζει·",
+          "definition": "marvels"
+        },
+        {
+          "greek": "φόβος",
+          "definition": "fear"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "μέγας",
+          "definition": "great"
+        },
+        {
+          "greek": "πάλιν",
+          "definition": "again"
+        },
+        {
+          "greek": "λαμβάνει",
+          "definition": "takes hold of"
+        },
+        {
+          "greek": "αὐτόν.",
+          "definition": "him"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "looks"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "ὄνον",
+          "definition": "donkey"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "βοῦν",
+          "definition": "ox"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "γινώσκει",
+          "definition": "knows"
+        },
+        {
+          "greek": "τί",
+          "definition": "what"
+        },
+        {
+          "greek": "ποιεῖ.",
+          "definition": "he should do"
+        }
       ],
       "translation": "The farmer hears the voice of the donkey and marvels greatly; great fear takes hold of him again. He looks at the donkey and the ox and does not know what to do."
     },
     {
       "id": 26,
       "words": [
-        {"greek": "λέγει", "definition": "says"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "τῷ", "definition": "to the"},
-        {"greek": "ὄνῳ·", "definition": "donkey"},
-        {"greek": "«τί", "definition": "what"},
-        {"greek": "λέγεις;", "definition": "do you say?"},
-        {"greek": "ζῷον", "definition": "animal"},
-        {"greek": "γάρ", "definition": "for"},
-        {"greek": "εἶ.»", "definition": "you are"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ὄνος", "definition": "donkey"},
-        {"greek": "πάλιν", "definition": "again"},
-        {"greek": "λέγει·", "definition": "says"},
-        {"greek": "«οὐκ", "definition": "not"},
-        {"greek": "ἔχομεν", "definition": "we have"},
-        {"greek": "καρποὺς", "definition": "fruits"},
-        {"greek": "οὐδὲ", "definition": "nor"},
-        {"greek": "ἄρτους·", "definition": "bread"},
-        {"greek": "θέλομεν", "definition": "we want"},
-        {"greek": "ἐσθίειν.»", "definition": "to eat"}
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to the"
+        },
+        {
+          "greek": "ὄνῳ·",
+          "definition": "donkey"
+        },
+        {
+          "greek": "«τί",
+          "definition": "what"
+        },
+        {
+          "greek": "λέγεις;",
+          "definition": "do you say?"
+        },
+        {
+          "greek": "ζῷον",
+          "definition": "animal"
+        },
+        {
+          "greek": "γάρ",
+          "definition": "for"
+        },
+        {
+          "greek": "εἶ.»",
+          "definition": "you are"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὄνος",
+          "definition": "donkey"
+        },
+        {
+          "greek": "πάλιν",
+          "definition": "again"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says"
+        },
+        {
+          "greek": "«οὐκ",
+          "definition": "not"
+        },
+        {
+          "greek": "ἔχομεν",
+          "definition": "we have"
+        },
+        {
+          "greek": "καρποὺς",
+          "definition": "fruits"
+        },
+        {
+          "greek": "οὐδὲ",
+          "definition": "nor"
+        },
+        {
+          "greek": "ἄρτους·",
+          "definition": "bread"
+        },
+        {
+          "greek": "θέλομεν",
+          "definition": "we want"
+        },
+        {
+          "greek": "ἐσθίειν.»",
+          "definition": "to eat"
+        }
       ],
       "translation": "So he says to the donkey: 'What are you saying? For you are an animal!' The donkey again says: 'We do not have fruits nor bread; we want to eat!'"
     },
     {
       "id": 27,
       "words": [
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "φόβον", "definition": "fear"},
-        {"greek": "μέγαν", "definition": "great"},
-        {"greek": "ἔχει", "definition": "has"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "θέλει", "definition": "wants"},
-        {"greek": "φεύγειν", "definition": "to flee"},
-        {"greek": "ἐκ", "definition": "out of"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "οἴκου.", "definition": "house"},
-        {"greek": "περιπατεῖ", "definition": "walks"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "πρὸς", "definition": "toward"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "θύραν,", "definition": "door"},
-        {"greek": "ἀλλ᾽", "definition": "but"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "δυνατὸν", "definition": "possible"},
-        {"greek": "ἀνοίγειν.", "definition": "to open"},
-        {"greek": "πάλιν", "definition": "again"},
-        {"greek": "λέγει", "definition": "says"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "ὄνος·", "definition": "donkey"},
-        {"greek": "«φέρε", "definition": "bring! carry!"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "καρπούς.»", "definition": "fruits"}
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "φόβον",
+          "definition": "fear"
+        },
+        {
+          "greek": "μέγαν",
+          "definition": "great"
+        },
+        {
+          "greek": "ἔχει",
+          "definition": "has"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "θέλει",
+          "definition": "wants"
+        },
+        {
+          "greek": "φεύγειν",
+          "definition": "to flee"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "out of"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκου.",
+          "definition": "house"
+        },
+        {
+          "greek": "περιπατεῖ",
+          "definition": "walks"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "θύραν,",
+          "definition": "door"
+        },
+        {
+          "greek": "ἀλλ᾽",
+          "definition": "but"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "δυνατὸν",
+          "definition": "possible"
+        },
+        {
+          "greek": "ἀνοίγειν.",
+          "definition": "to open"
+        },
+        {
+          "greek": "πάλιν",
+          "definition": "again"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὄνος·",
+          "definition": "donkey"
+        },
+        {
+          "greek": "«φέρε",
+          "definition": "bring! carry!"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "καρπούς.»",
+          "definition": "fruits"
+        }
       ],
       "translation": "The farmer has great fear and wants to flee out of the house. He walks toward the door, but it is not possible to open it. The donkey says again: 'Bring the fruits!'"
     },
     {
       "id": 28,
       "words": [
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "κράζει", "definition": "cries out"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "φωνῇ", "definition": "with a voice"},
-        {"greek": "μεγάλῃ·", "definition": "great, loud"},
-        {"greek": "«οὐ", "definition": "not"},
-        {"greek": "θέλω!»", "definition": "I want!"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἡ", "definition": "the"},
-        {"greek": "φωνὴ", "definition": "voice"},
-        {"greek": "αὐτοῦ", "definition": "his"},
-        {"greek": "ἐγείρει", "definition": "wakes, raises"},
-        {"greek": "αὐτὸν", "definition": "him"},
-        {"greek": "ἐκ", "definition": "from"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ὕπνου.", "definition": "sleep"}
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "κράζει",
+          "definition": "cries out"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "φωνῇ",
+          "definition": "with a voice"
+        },
+        {
+          "greek": "μεγάλῃ·",
+          "definition": "great, loud"
+        },
+        {
+          "greek": "«οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "θέλω!»",
+          "definition": "I want!"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the"
+        },
+        {
+          "greek": "φωνὴ",
+          "definition": "voice"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "ἐγείρει",
+          "definition": "wakes, raises"
+        },
+        {
+          "greek": "αὐτὸν",
+          "definition": "him"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "from"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὕπνου.",
+          "definition": "sleep"
+        }
       ],
       "translation": "And the farmer cries out with a great voice: 'I don't want to!' And his own voice wakes him from sleep."
     },
     {
       "id": 29,
       "words": [
-        {"greek": "ἀνοίγει", "definition": "opens"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "ὀφθαλμοὺς", "definition": "eyes"},
-        {"greek": "αὐτοῦ", "definition": "his"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "οἶκον·", "definition": "house"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "λύχνος", "definition": "lamp"},
-        {"greek": "ἔτι", "definition": "still"},
-        {"greek": "λάμπει", "definition": "shines"},
-        {"greek": "ἐπὶ", "definition": "on"},
-        {"greek": "τῆς", "definition": "the"},
-        {"greek": "τραπέζης", "definition": "table"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "φῶς", "definition": "light"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οἴκῳ·", "definition": "house"},
-        {"greek": "σκοτία", "definition": "darkness"},
-        {"greek": "οὐκ", "definition": "not"},
-        {"greek": "ἐστίν.", "definition": "is"}
+        {
+          "greek": "ἀνοίγει",
+          "definition": "opens"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "ὀφθαλμοὺς",
+          "definition": "eyes"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "οἶκον·",
+          "definition": "house"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "λύχνος",
+          "definition": "lamp"
+        },
+        {
+          "greek": "ἔτι",
+          "definition": "still"
+        },
+        {
+          "greek": "λάμπει",
+          "definition": "shines"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the"
+        },
+        {
+          "greek": "τραπέζης",
+          "definition": "table"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φῶς",
+          "definition": "light"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκῳ·",
+          "definition": "house"
+        },
+        {
+          "greek": "σκοτία",
+          "definition": "darkness"
+        },
+        {
+          "greek": "οὐκ",
+          "definition": "not"
+        },
+        {
+          "greek": "ἐστίν.",
+          "definition": "is"
+        }
       ],
       "translation": "So he opens his eyes and sees the house; for the lamp still shines on the table and there is light in the house; there is no darkness."
     },
     {
       "id": 30,
       "words": [
-        {"greek": "ζητεῖ", "definition": "searches for"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "ζῷα,", "definition": "animals"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἰδού,", "definition": "look!"},
-        {"greek": "ἔξω", "definition": "outside"},
-        {"greek": "ἐστίν.", "definition": "they are"},
-        {"greek": "μανθάνει", "definition": "learns, understands"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "ὅτι", "definition": "that"},
-        {"greek": "ὕπνος", "definition": "a dream"},
-        {"greek": "ἐστὶν", "definition": "it is"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "οὐκ", "definition": "not"},
-        {"greek": "ἀληθές·", "definition": "true"},
-        {"greek": "ἔχει", "definition": "has"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "εἰρήνην", "definition": "peace"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῇ", "definition": "the"},
-        {"greek": "καρδίᾳ", "definition": "heart"},
-        {"greek": "αὐτοῦ", "definition": "his"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "πάλιν", "definition": "again"},
-        {"greek": "καθεύδει.", "definition": "sleeps"}
+        {
+          "greek": "ζητεῖ",
+          "definition": "searches for"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "ζῷα,",
+          "definition": "animals"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἰδού,",
+          "definition": "look!"
+        },
+        {
+          "greek": "ἔξω",
+          "definition": "outside"
+        },
+        {
+          "greek": "ἐστίν.",
+          "definition": "they are"
+        },
+        {
+          "greek": "μανθάνει",
+          "definition": "learns, understands"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "that"
+        },
+        {
+          "greek": "ὕπνος",
+          "definition": "a dream"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "it is"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "οὐκ",
+          "definition": "not"
+        },
+        {
+          "greek": "ἀληθές·",
+          "definition": "true"
+        },
+        {
+          "greek": "ἔχει",
+          "definition": "has"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "εἰρήνην",
+          "definition": "peace"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "the"
+        },
+        {
+          "greek": "καρδίᾳ",
+          "definition": "heart"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "πάλιν",
+          "definition": "again"
+        },
+        {
+          "greek": "καθεύδει.",
+          "definition": "sleeps"
+        }
       ],
       "translation": "He searches for the animals — and look, they are outside! He understands therefore that it was a dream and not true; so he has peace in his heart and sleeps again."
     }
-  ]
+  ],
+  "titleTranslations": {
+    "es": "Capítulo 3 — La Tarde",
+    "pl": "Rozdział 3 — Wieczór"
+  }
 }

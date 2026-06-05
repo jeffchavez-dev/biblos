@@ -3,12 +3,14 @@
     "id": 1,
     "title": "Unit 1",
     "subtitle": "Ὁ Γεωργός — The Farmer",
+    "translations": { "es": "Ὁ Γεωργός — El Agricultor", "pl": "Ὁ Γεωργός — Rolnik" },
     "locked": false,
     "chapters": [
       {
         "id": 1,
         "title": "Κεφάλαιον Αʹ",
         "subtitle": "Ὁ Γεωργός — The Farmer",
+        "translations": { "es": "Ὁ Γεωργός — El Agricultor", "pl": "Ὁ Γεωργός — Rolnik" },
         "locked": false,
         "parts": [
           {"id": "A", "label": "Μέρος Αʹ", "subtitle": "Τί ἐστιν;"},
@@ -19,6 +21,7 @@
         "id": 2,
         "title": "Κεφάλαιον Βʹ",
         "subtitle": "Ὁ Κῆπος καὶ Τὰ Ζῷα — The Garden and the Animals",
+        "translations": { "es": "Ὁ Κῆπος καὶ Τὰ Ζῷα — El Jardín y los Animales", "pl": "Ὁ Κῆπος καὶ Τὰ Ζῷα — Ogród i Zwierzęta" },
         "locked": false,
         "parts": [
           {"id": "A", "label": "Μέρος Αʹ", "subtitle": "Ὁ Κῆπος"},
@@ -29,6 +32,7 @@
         "id": 3,
         "title": "Κεφάλαιον Γʹ",
         "subtitle": "Ἡ Ὀψία — The Evening",
+        "translations": { "es": "Ἡ Ὀψία — La Tarde", "pl": "Ἡ Ὀψία — Wieczór" },
         "locked": false,
         "parts": [
           {"id": "A", "label": "Μέρος Αʹ", "subtitle": "Ἡ Ὀψία"},
@@ -41,12 +45,14 @@
     "id": 2,
     "title": "Unit 2",
     "subtitle": "Ὁ Φίλος — The Friend",
+    "translations": { "es": "Ὁ Φίλος — El Amigo", "pl": "Ὁ Φίλος — Przyjaciel" },
     "locked": false,
     "chapters": [
       {
         "id": 4,
         "title": "Κεφάλαιον Δʹ",
         "subtitle": "Ὁ Φίλος καὶ Οἱ Γεωργοί — The Friend and the Farmers",
+        "translations": { "es": "Ὁ Φίλος καὶ Οἱ Γεωργοί — El Amigo y los Agricultores", "pl": "Ὁ Φίλος καὶ Οἱ Γεωργοί — Przyjaciel i Rolnicy" },
         "locked": false,
         "parts": [
           {"id": "A", "label": "Μέρος Αʹ", "subtitle": "Ὁ Φίλος"},
@@ -57,6 +63,7 @@
         "id": 5,
         "title": "Κεφάλαιον Εʹ",
         "subtitle": "Ὁ Ἰησοῦς — Jesus",
+        "translations": { "es": "Ὁ Ἰησοῦς — Jesús", "pl": "Ὁ Ἰησοῦς — Jezus" },
         "locked": false,
         "parts": [
           {"id": "A", "label": "Μέρος Αʹ", "subtitle": "Ὁ Ἰησοῦς"},

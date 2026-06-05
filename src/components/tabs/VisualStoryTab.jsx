@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react'
-import { useUI } from '../../context/LanguageContext.jsx'
+import { useUI, useLanguage, t } from '../../context/LanguageContext.jsx'
 import './VisualStoryTab.css'
 
 export default function VisualStoryTab({ story, activePart }) {
   const ui = useUI()
+  const { lang } = useLanguage()
   const [panel, setPanel] = useState(0)
 
   useEffect(() => { setPanel(0) }, [activePart])
@@ -26,7 +27,7 @@ export default function VisualStoryTab({ story, activePart }) {
     <div className="visual-tab">
       <div className="visual-header">
         <h2 className="greek">{story.title}</h2>
-        <p className="visual-subtitle">{story.subtitle}</p>
+        <p className="visual-subtitle">{t(story.subtitle, story.subtitleTranslations, lang)}</p>
       </div>
 
       {/* Main panel */}
@@ -89,7 +90,7 @@ export default function VisualStoryTab({ story, activePart }) {
             >
               <div className="overview-num">{i + 1}</div>
               <div className="overview-greek greek">{p.greekCaption}</div>
-              <div className="overview-en">{p.englishCaption}</div>
+              <div className="overview-en">{t(p.englishCaption, p.captionTranslations, lang)}</div>
             </button>
           ))}
         </div>

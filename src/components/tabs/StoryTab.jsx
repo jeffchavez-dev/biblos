@@ -124,7 +124,7 @@ export default function StoryTab({ story, vocabulary, activePart }) {
     <div className="story-tab">
       <div className="story-header">
         <h2 className="greek story-title">{story.title}</h2>
-        <p className="story-title-en">{story.titleTranslation}</p>
+        <p className="story-title-en">{t(story.titleTranslation, story.titleTranslations, lang)}</p>
       </div>
 
       <div className="story-instruction">{ui('clickInstruction')}</div>

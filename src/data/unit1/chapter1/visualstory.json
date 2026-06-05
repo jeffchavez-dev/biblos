@@ -8,7 +8,11 @@
       "scene": "A farmer stands in his small but beautiful field. The sun shines brightly in the sky above.",
       "greekCaption": "ὁ γεωργός ἐστιν ἀγαθὸς καὶ ἰσχυρὸς ἄνθρωπος.",
       "englishCaption": "The farmer is a good and strong person.",
-      "image": "story-images/ch1/B1.3.jpeg"
+      "image": "story-images/ch1/B1.3.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor es una persona buena y fuerte.",
+        "pl": "Rolnik jest dobrym i silnym człowiekiem."
+      }
     },
     {
       "id": 2,
@@ -16,7 +20,11 @@
       "scene": "The farmer digs his field. He spots a large stone embedded in the ground.",
       "greekCaption": "σκάπτει τὸν ἀγρόν. βλέπει τὸν μέγαν λίθον.",
       "englishCaption": "He digs the field. He sees the large stone.",
-      "image": "story-images/ch1/B1.7.jpeg"
+      "image": "story-images/ch1/B1.7.jpeg",
+      "captionTranslations": {
+        "es": "Cava el campo. Ve la piedra grande.",
+        "pl": "Kopie pole. Widzi wielki kamień."
+      }
     },
     {
       "id": 3,
@@ -24,7 +32,11 @@
       "scene": "He lifts the great stone and carries it out of the field. His strength is on full display.",
       "greekCaption": "αἴρει τὸν μέγαν λίθον καὶ φέρει. ἰσχυρὸς γάρ ἐστιν.",
       "englishCaption": "He lifts the large stone and carries it. For he is strong.",
-      "image": "story-images/ch1/1.1-17.jpeg"
+      "image": "story-images/ch1/1.1-17.jpeg",
+      "captionTranslations": {
+        "es": "Levanta la piedra grande y la lleva. Pues es fuerte.",
+        "pl": "Podnosi wielki kamień i niesie go. Bo jest silny."
+      }
     },
     {
       "id": 4,
@@ -32,7 +44,11 @@
       "scene": "The farmer rests under an olive tree by the river. He looks up and gives thanks to God.",
       "greekCaption": "ὁ βίος καλός ἐστιν ὅτι ὁ θεός ἐστιν ἀγαθὸς καὶ πιστός.",
       "englishCaption": "Life is good because God is good and faithful.",
-      "image": "story-images/ch1/B1.11.jpeg"
+      "image": "story-images/ch1/B1.11.jpeg",
+      "captionTranslations": {
+        "es": "La vida es buena porque Dios es bueno y fiel.",
+        "pl": "Życie jest dobre, bo Bóg jest dobry i wierny."
+      }
     },
     {
       "id": 5,
@@ -40,7 +56,11 @@
       "scene": "The day's work is done. The farmer walks out of his house early in the morning to begin his labor.",
       "greekCaption": "ὁ γεωργὸς ἐκβαίνει ἐκ τοῦ οἴκου. ὁ πόνος χαλεπός ἐστιν.",
       "englishCaption": "The farmer goes out of the house. The labor is hard.",
-      "image": "story-images/ch1/B1.3.jpeg"
+      "image": "story-images/ch1/B1.3.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor sale de la casa. El trabajo es duro.",
+        "pl": "Rolnik wychodzi z domu. Trud jest ciężki."
+      }
     },
     {
       "id": 6,
@@ -48,7 +68,11 @@
       "scene": "He walks around the field, checking the crops. He rests briefly by the river.",
       "greekCaption": "περιπατεῖ ἐν τῷ ἀγρῷ καὶ ἡσυχάζει ἐγγὺς τοῦ ποταμοῦ.",
       "englishCaption": "He walks around the field and rests near the river.",
-      "image": "story-images/ch1/B1.11.jpeg"
+      "image": "story-images/ch1/B1.11.jpeg",
+      "captionTranslations": {
+        "es": "Camina por el campo y descansa cerca del río.",
+        "pl": "Chodzi po polu i odpoczywa nad rzeką."
+      }
     },
     {
       "id": 7,
@@ -56,7 +80,15 @@
       "scene": "At the end of a long day of labor, the farmer sits inside his house, content and thankful.",
       "greekCaption": "ὁ γεωργὸς καθίζει ἐν τῷ οἴκῳ καὶ εὐχαριστεῖ τῷ θεῷ.",
       "englishCaption": "The farmer sits in the house and gives thanks to God.",
-      "image": "story-images/ch1/B1.15.jpeg"
+      "image": "story-images/ch1/B1.15.jpeg",
+      "captionTranslations": {
+        "es": "El agricultor se sienta en la casa y da gracias a Dios.",
+        "pl": "Rolnik siada w domu i dziękuje Bogu."
+      }
     }
-  ]
+  ],
+  "subtitleTranslations": {
+    "es": "Unidad 1, Capítulo 1 — El Agricultor",
+    "pl": "Jednostka 1, Rozdział 1 — Rolnik"
+  }
 }

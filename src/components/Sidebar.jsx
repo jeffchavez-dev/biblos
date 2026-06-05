@@ -1,9 +1,10 @@
 import { useState } from 'react'
-import { useUI } from '../context/LanguageContext.jsx'
+import { useUI, useLanguage, t } from '../context/LanguageContext.jsx'
 import './Sidebar.css'
 
 export default function Sidebar({ units, selectedUnit, selectedChapter, activePart, onSelect, onPartSelect, open, onClose, totalWords, onVocabIndex, showingVocabIndex }) {
   const ui = useUI()
+  const { lang } = useLanguage()
   const [collapsed, setCollapsed] = useState({})
 
   function toggleUnit(unitId) {
@@ -29,7 +30,7 @@ export default function Sidebar({ units, selectedUnit, selectedChapter, activePa
                 <span className="unit-label-main">
                   {unit.locked ? '🔒 ' : ''}{unit.title}
                 </span>
-                <span className="unit-subtitle">{unit.subtitle}</span>
+                <span className="unit-subtitle">{t(unit.subtitle, unit.translations, lang)}</span>
                 <span className={`unit-chevron ${isCollapsed ? 'unit-chevron--collapsed' : ''}`}>
                   ‹
                 </span>
@@ -48,7 +49,7 @@ export default function Sidebar({ units, selectedUnit, selectedChapter, activePa
                       <span className="chapter-dot" />
                       <span>
                         <span className="chapter-title greek">{chapter.title}</span>
-                        <span className="chapter-subtitle">{chapter.subtitle}</span>
+                        <span className="chapter-subtitle">{t(chapter.subtitle, chapter.translations, lang)}</span>
                       </span>
                       {locked && <span className="chapter-lock">🔒</span>}
                     </button>

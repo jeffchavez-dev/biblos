@@ -6,319 +6,1114 @@
       "id": 1,
       "label": "Μέρος Αʹ — Ὁ Κῆπος (Part A — The Garden)",
       "words": [
-        {"greek": "κῆπός", "definition": "a garden"},
-        {"greek": "ἐστιν.", "definition": "is"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "κῆπος", "definition": "garden"},
-        {"greek": "καλός", "definition": "beautiful"},
-        {"greek": "ἐστιν.", "definition": "is"},
-        {"greek": "ἔχει", "definition": "has"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "κῆπον.", "definition": "garden"},
-        {"greek": "μικρός", "definition": "small"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "κῆπος,", "definition": "garden"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "καλός.", "definition": "beautiful"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "κῆπός", "definition": "garden"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ἐγγὺς", "definition": "near"},
-        {"greek": "τοῦ", "definition": "the (gen.)"},
-        {"greek": "οἴκου.", "definition": "house"}
+        {
+          "greek": "κῆπός",
+          "definition": "a garden"
+        },
+        {
+          "greek": "ἐστιν.",
+          "definition": "is"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "κῆπος",
+          "definition": "garden"
+        },
+        {
+          "greek": "καλός",
+          "definition": "beautiful"
+        },
+        {
+          "greek": "ἐστιν.",
+          "definition": "is"
+        },
+        {
+          "greek": "ἔχει",
+          "definition": "has"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "κῆπον.",
+          "definition": "garden"
+        },
+        {
+          "greek": "μικρός",
+          "definition": "small"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "κῆπος,",
+          "definition": "garden"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "καλός.",
+          "definition": "beautiful"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "κῆπός",
+          "definition": "garden"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ἐγγὺς",
+          "definition": "near"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "οἴκου.",
+          "definition": "house"
+        }
       ],
       "translation": "There is a garden. The garden is beautiful. The farmer has the garden. The garden is small, but beautiful. The garden is near the house."
     },
     {
       "id": 2,
       "words": [
-        {"greek": "λάχανόν", "definition": "a vegetable, herb"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "κήπῳ.", "definition": "garden"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "φυτεύει", "definition": "plants"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "λάχανον", "definition": "vegetable"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "κήπῳ", "definition": "garden"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "λαμβάνει", "definition": "takes"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "λάχανον", "definition": "vegetable"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἐσθίει", "definition": "eats"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οἴκῳ.", "definition": "house"}
+        {
+          "greek": "λάχανόν",
+          "definition": "a vegetable, herb"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "κήπῳ.",
+          "definition": "garden"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "φυτεύει",
+          "definition": "plants"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "λάχανον",
+          "definition": "vegetable"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "κήπῳ",
+          "definition": "garden"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "λαμβάνει",
+          "definition": "takes"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "λάχανον",
+          "definition": "vegetable"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐσθίει",
+          "definition": "eats"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκῳ.",
+          "definition": "house"
+        }
       ],
       "translation": "There is a vegetable in the garden. The farmer plants the vegetable in the garden and takes the vegetable and eats in the house."
     },
     {
       "id": 3,
       "words": [
-        {"greek": "δένδρον", "definition": "a tree"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ.", "definition": "field"},
-        {"greek": "μέγα", "definition": "great, large (neuter)"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "τὸ", "definition": "the (neuter)"},
-        {"greek": "δένδρον.", "definition": "tree"},
-        {"greek": "καρποί", "definition": "fruits"},
-        {"greek": "εἰσιν", "definition": "are"},
-        {"greek": "ἐπὶ", "definition": "on"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "δένδρῳ·", "definition": "tree"},
-        {"greek": "καλοί", "definition": "good, beautiful (pl.)"},
-        {"greek": "εἰσιν", "definition": "are"},
-        {"greek": "οἱ", "definition": "the (masc. pl.)"},
-        {"greek": "καρποὶ", "definition": "fruits"},
-        {"greek": "τοῦ", "definition": "of the"},
-        {"greek": "δένδρου.", "definition": "tree (gen.)"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "κλάδοι", "definition": "branches"},
-        {"greek": "εἰσὶν", "definition": "are"},
-        {"greek": "ἐπὶ", "definition": "on"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "δένδρῳ.", "definition": "tree"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "δένδρον", "definition": "tree"},
-        {"greek": "ἔχει", "definition": "has"},
-        {"greek": "τοὺς", "definition": "the (acc. pl.)"},
-        {"greek": "κλάδους", "definition": "branches"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "οἱ", "definition": "the"},
-        {"greek": "κλάδοι", "definition": "branches"},
-        {"greek": "φέρουσιν", "definition": "bear, carry"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "καρπούς.", "definition": "fruits"}
+        {
+          "greek": "δένδρον",
+          "definition": "a tree"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ.",
+          "definition": "field"
+        },
+        {
+          "greek": "μέγα",
+          "definition": "great, large (neuter)"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (neuter)"
+        },
+        {
+          "greek": "δένδρον.",
+          "definition": "tree"
+        },
+        {
+          "greek": "καρποί",
+          "definition": "fruits"
+        },
+        {
+          "greek": "εἰσιν",
+          "definition": "are"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "δένδρῳ·",
+          "definition": "tree"
+        },
+        {
+          "greek": "καλοί",
+          "definition": "good, beautiful (pl.)"
+        },
+        {
+          "greek": "εἰσιν",
+          "definition": "are"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (masc. pl.)"
+        },
+        {
+          "greek": "καρποὶ",
+          "definition": "fruits"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "δένδρου.",
+          "definition": "tree (gen.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "κλάδοι",
+          "definition": "branches"
+        },
+        {
+          "greek": "εἰσὶν",
+          "definition": "are"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "δένδρῳ.",
+          "definition": "tree"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "δένδρον",
+          "definition": "tree"
+        },
+        {
+          "greek": "ἔχει",
+          "definition": "has"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc. pl.)"
+        },
+        {
+          "greek": "κλάδους",
+          "definition": "branches"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the"
+        },
+        {
+          "greek": "κλάδοι",
+          "definition": "branches"
+        },
+        {
+          "greek": "φέρουσιν",
+          "definition": "bear, carry"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "καρπούς.",
+          "definition": "fruits"
+        }
       ],
       "translation": "There is a tree in the field. The tree is large. Fruits are on the tree; the fruits of the tree are beautiful. And branches are on the tree. The tree has the branches and the branches bear the fruits."
     },
     {
       "id": 4,
       "words": [
-        {"greek": "δρέπανόν", "definition": "a sickle"},
-        {"greek": "ἐστιν.", "definition": "is"},
-        {"greek": "ἔχει", "definition": "has"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "δρέπανον.", "definition": "sickle"},
-        {"greek": "λαμβάνει", "definition": "takes"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "δρέπανον", "definition": "sickle"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "θερίζει", "definition": "harvests"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "καρποὺς", "definition": "fruits"},
-        {"greek": "ἐκ", "definition": "from"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "δένδρου", "definition": "tree"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "φέρει", "definition": "carries"},
-        {"greek": "πρὸς", "definition": "toward"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "οἶκον.", "definition": "house"}
+        {
+          "greek": "δρέπανόν",
+          "definition": "a sickle"
+        },
+        {
+          "greek": "ἐστιν.",
+          "definition": "is"
+        },
+        {
+          "greek": "ἔχει",
+          "definition": "has"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "δρέπανον.",
+          "definition": "sickle"
+        },
+        {
+          "greek": "λαμβάνει",
+          "definition": "takes"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "δρέπανον",
+          "definition": "sickle"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "θερίζει",
+          "definition": "harvests"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "καρποὺς",
+          "definition": "fruits"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "from"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "δένδρου",
+          "definition": "tree"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "οἶκον.",
+          "definition": "house"
+        }
       ],
       "translation": "There is a sickle. The farmer has a sickle. So he takes the sickle and harvests the fruits from the tree and carries them toward the house."
     },
     {
       "id": 5,
       "words": [
-        {"greek": "ὄνος", "definition": "a donkey"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ", "definition": "field"},
-        {"greek": "τοῦ", "definition": "of the"},
-        {"greek": "γεωργοῦ.", "definition": "farmer (gen.)"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "ὄνος", "definition": "donkey"},
-        {"greek": "φέρει", "definition": "carries"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "λίθους", "definition": "stones"},
-        {"greek": "ἐκ", "definition": "out of"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ἀγροῦ.", "definition": "field"},
-        {"greek": "ἀγαθός", "definition": "good"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "ὄνος.", "definition": "donkey"},
-        {"greek": "βοῦς", "definition": "an ox"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "καὶ", "definition": "also"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ.", "definition": "field"},
-        {"greek": "μέγας", "definition": "great"},
-        {"greek": "ἐστὶν", "definition": "is"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "βοῦς", "definition": "ox"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἰσχυρός.", "definition": "strong"}
+        {
+          "greek": "ὄνος",
+          "definition": "a donkey"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ",
+          "definition": "field"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "γεωργοῦ.",
+          "definition": "farmer (gen.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὄνος",
+          "definition": "donkey"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "λίθους",
+          "definition": "stones"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "out of"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγροῦ.",
+          "definition": "field"
+        },
+        {
+          "greek": "ἀγαθός",
+          "definition": "good"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὄνος.",
+          "definition": "donkey"
+        },
+        {
+          "greek": "βοῦς",
+          "definition": "an ox"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "also"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ.",
+          "definition": "field"
+        },
+        {
+          "greek": "μέγας",
+          "definition": "great"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "is"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "βοῦς",
+          "definition": "ox"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἰσχυρός.",
+          "definition": "strong"
+        }
       ],
       "translation": "There is a donkey in the farmer's field. The donkey carries the stones out of the field. The donkey is good. There is also an ox in the field. The ox is great and strong."
     },
     {
       "id": 6,
       "words": [
-        {"greek": "πρόβατόν", "definition": "a sheep"},
-        {"greek": "ἐστιν.", "definition": "is"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "πρόβατόν", "definition": "sheep"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ζῷον.", "definition": "living creature, animal"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τὰ", "definition": "the (neuter pl.)"},
-        {"greek": "ζῷά", "definition": "animals"},
-        {"greek": "ἐστιν", "definition": "are"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ.", "definition": "field"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "μένει", "definition": "stays"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ", "definition": "field"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἐσθίει", "definition": "eats"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "χόρτον", "definition": "grass"},
-        {"greek": "τοῦ", "definition": "of the"},
-        {"greek": "ἀγροῦ", "definition": "field"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "πίνει", "definition": "drinks"},
-        {"greek": "ἐκ", "definition": "from"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ποταμοῦ.", "definition": "river"}
+        {
+          "greek": "πρόβατόν",
+          "definition": "a sheep"
+        },
+        {
+          "greek": "ἐστιν.",
+          "definition": "is"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατόν",
+          "definition": "sheep"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ζῷον.",
+          "definition": "living creature, animal"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the (neuter pl.)"
+        },
+        {
+          "greek": "ζῷά",
+          "definition": "animals"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "are"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ.",
+          "definition": "field"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "μένει",
+          "definition": "stays"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ",
+          "definition": "field"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐσθίει",
+          "definition": "eats"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "χόρτον",
+          "definition": "grass"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "ἀγροῦ",
+          "definition": "field"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "πίνει",
+          "definition": "drinks"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "from"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμοῦ.",
+          "definition": "river"
+        }
       ],
       "translation": "There is a sheep. The sheep is an animal. And the animals are in the field. The sheep stays in the field and eats the grass of the field and drinks from the river."
     },
     {
       "id": 7,
       "words": [
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "ἔχει", "definition": "has"},
-        {"greek": "ἀρνίον.", "definition": "a lamb"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "τέκνον", "definition": "child, offspring"},
-        {"greek": "τοῦ", "definition": "of the"},
-        {"greek": "προβάτου", "definition": "sheep (gen.)"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "μικρόν", "definition": "small"},
-        {"greek": "ἐστιν.", "definition": "is"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ταχέως", "definition": "quickly"},
-        {"greek": "τρέχει", "definition": "runs"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ.", "definition": "field"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ", "definition": "field"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "χαίρει.", "definition": "rejoices"}
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "ἔχει",
+          "definition": "has"
+        },
+        {
+          "greek": "ἀρνίον.",
+          "definition": "a lamb"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "τέκνον",
+          "definition": "child, offspring"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "προβάτου",
+          "definition": "sheep (gen.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "μικρόν",
+          "definition": "small"
+        },
+        {
+          "greek": "ἐστιν.",
+          "definition": "is"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ταχέως",
+          "definition": "quickly"
+        },
+        {
+          "greek": "τρέχει",
+          "definition": "runs"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ.",
+          "definition": "field"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ",
+          "definition": "field"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "χαίρει.",
+          "definition": "rejoices"
+        }
       ],
       "translation": "The sheep has a lamb. The lamb is the offspring of the sheep and is small. And the lamb runs quickly in the field. The farmer sees the lamb and the sheep in the field and rejoices."
     },
     {
       "id": 8,
       "words": [
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "ποταμὸς", "definition": "river"},
-        {"greek": "ῥεῖ", "definition": "flows"},
-        {"greek": "ἐγγὺς", "definition": "near"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ἀγροῦ.", "definition": "field"},
-        {"greek": "πέραν", "definition": "across, beyond"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ποταμοῦ", "definition": "river"},
-        {"greek": "θηρίον", "definition": "a wild beast"},
-        {"greek": "ἐστίν.", "definition": "is"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "λύκος", "definition": "wolf"},
-        {"greek": "ἐστὶν", "definition": "is"},
-        {"greek": "θηρίον.", "definition": "wild beast"},
-        {"greek": "μέγας", "definition": "great, large"},
-        {"greek": "ἐστὶν", "definition": "is"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "λύκος.", "definition": "wolf"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "λύκον", "definition": "wolf"},
-        {"greek": "πέραν", "definition": "across"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ποταμοῦ.", "definition": "river"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "χαίρει.", "definition": "he rejoices"}
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμὸς",
+          "definition": "river"
+        },
+        {
+          "greek": "ῥεῖ",
+          "definition": "flows"
+        },
+        {
+          "greek": "ἐγγὺς",
+          "definition": "near"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγροῦ.",
+          "definition": "field"
+        },
+        {
+          "greek": "πέραν",
+          "definition": "across, beyond"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμοῦ",
+          "definition": "river"
+        },
+        {
+          "greek": "θηρίον",
+          "definition": "a wild beast"
+        },
+        {
+          "greek": "ἐστίν.",
+          "definition": "is"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκος",
+          "definition": "wolf"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "is"
+        },
+        {
+          "greek": "θηρίον.",
+          "definition": "wild beast"
+        },
+        {
+          "greek": "μέγας",
+          "definition": "great, large"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "is"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκος.",
+          "definition": "wolf"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκον",
+          "definition": "wolf"
+        },
+        {
+          "greek": "πέραν",
+          "definition": "across"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμοῦ.",
+          "definition": "river"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "χαίρει.",
+          "definition": "he rejoices"
+        }
       ],
       "translation": "The river flows near the field. And across the river there is a wild beast. The wolf is a wild beast. The wolf is large. The farmer sees the wolf across the river. He does not rejoice."
     },
     {
       "id": 9,
       "words": [
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γὰρ", "definition": "for, because"},
-        {"greek": "λύκος", "definition": "wolf"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ.", "definition": "field"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "μὲν", "definition": "on the one hand"},
-        {"greek": "βοῦς", "definition": "ox"},
-        {"greek": "μέγας", "definition": "great"},
-        {"greek": "ἐστὶν", "definition": "is"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἰσχυρός·", "definition": "strong"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "δὲ", "definition": "but"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "μικρόν", "definition": "small"},
-        {"greek": "ἐστιν.", "definition": "is"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "λύκος", "definition": "wolf"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "βοῦν", "definition": "ox"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον.", "definition": "lamb"}
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "λύκος",
+          "definition": "wolf"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ.",
+          "definition": "field"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "μὲν",
+          "definition": "on the one hand"
+        },
+        {
+          "greek": "βοῦς",
+          "definition": "ox"
+        },
+        {
+          "greek": "μέγας",
+          "definition": "great"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "is"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἰσχυρός·",
+          "definition": "strong"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "μικρόν",
+          "definition": "small"
+        },
+        {
+          "greek": "ἐστιν.",
+          "definition": "is"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκος",
+          "definition": "wolf"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "βοῦν",
+          "definition": "ox"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον.",
+          "definition": "lamb"
+        }
       ],
       "translation": "For the wolf sees the lamb and the sheep in the field. The ox is great and strong, but the lamb is small. The wolf does not look at the ox, but the lamb."
     },
@@ -326,101 +1121,386 @@
       "id": 10,
       "label": "Ὁ Γεωργὸς Λέγει — The Farmer Speaks",
       "words": [
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "λέγει·", "definition": "says"},
-        {"greek": "«ἔχω", "definition": "I have"},
-        {"greek": "κῆπον", "definition": "garden"},
-        {"greek": "καλὸν", "definition": "beautiful"},
-        {"greek": "ἐγγὺς", "definition": "near"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "οἴκου.", "definition": "house"},
-        {"greek": "λάχανόν", "definition": "vegetable"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "κήπῳ.", "definition": "garden"},
-        {"greek": "ἔχω", "definition": "I have"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "μέγα", "definition": "great"},
-        {"greek": "δένδρον", "definition": "tree"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ.", "definition": "field"},
-        {"greek": "ἐπὶ", "definition": "on"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "δένδρῳ", "definition": "tree"},
-        {"greek": "καρποὶ", "definition": "fruits"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "κλάδοι", "definition": "branches"},
-        {"greek": "εἰσιν.", "definition": "are"},
-        {"greek": "λαμβάνω", "definition": "I take"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "δρέπανον", "definition": "sickle"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "θερίζω", "definition": "I harvest"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "καρποὺς", "definition": "fruits"},
-        {"greek": "ἐκ", "definition": "from"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "δένδρου.", "definition": "tree"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ὄνος", "definition": "donkey"},
-        {"greek": "φέρει", "definition": "carries"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "καρποὺς", "definition": "fruits"},
-        {"greek": "πρὸς", "definition": "toward"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "οἶκον.", "definition": "house"},
-        {"greek": "ἀγαθός", "definition": "good"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "ὄνος.", "definition": "donkey"},
-        {"greek": "ἔχω", "definition": "I have"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "καὶ", "definition": "also"},
-        {"greek": "βοῦν", "definition": "ox"},
-        {"greek": "ἰσχυρὸν", "definition": "strong"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ.", "definition": "field"},
-        {"greek": "ἔχω", "definition": "I have"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἀρνίον.", "definition": "lamb"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "νῦν", "definition": "now"},
-        {"greek": "βλέπω", "definition": "I see"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "λύκον", "definition": "wolf"},
-        {"greek": "πέραν", "definition": "across"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ποταμοῦ.", "definition": "river"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "λύκος", "definition": "wolf"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "μέγαν", "definition": "great"},
-        {"greek": "βοῦν·", "definition": "ox"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "μικρὸν", "definition": "small"},
-        {"greek": "ἀρνίον.", "definition": "lamb"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "θεὸς", "definition": "God"},
-        {"greek": "ἀγαθός", "definition": "good"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "φυλάσσει", "definition": "guards"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον.", "definition": "lamb"},
-        {"greek": "εὐχαριστῶ", "definition": "I give thanks"},
-        {"greek": "τῷ", "definition": "to the"},
-        {"greek": "θεῷ.»", "definition": "God (dat.)"}
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says"
+        },
+        {
+          "greek": "«ἔχω",
+          "definition": "I have"
+        },
+        {
+          "greek": "κῆπον",
+          "definition": "garden"
+        },
+        {
+          "greek": "καλὸν",
+          "definition": "beautiful"
+        },
+        {
+          "greek": "ἐγγὺς",
+          "definition": "near"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκου.",
+          "definition": "house"
+        },
+        {
+          "greek": "λάχανόν",
+          "definition": "vegetable"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "κήπῳ.",
+          "definition": "garden"
+        },
+        {
+          "greek": "ἔχω",
+          "definition": "I have"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "μέγα",
+          "definition": "great"
+        },
+        {
+          "greek": "δένδρον",
+          "definition": "tree"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ.",
+          "definition": "field"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "δένδρῳ",
+          "definition": "tree"
+        },
+        {
+          "greek": "καρποὶ",
+          "definition": "fruits"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "κλάδοι",
+          "definition": "branches"
+        },
+        {
+          "greek": "εἰσιν.",
+          "definition": "are"
+        },
+        {
+          "greek": "λαμβάνω",
+          "definition": "I take"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "δρέπανον",
+          "definition": "sickle"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "θερίζω",
+          "definition": "I harvest"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "καρποὺς",
+          "definition": "fruits"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "from"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "δένδρου.",
+          "definition": "tree"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὄνος",
+          "definition": "donkey"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "καρποὺς",
+          "definition": "fruits"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "οἶκον.",
+          "definition": "house"
+        },
+        {
+          "greek": "ἀγαθός",
+          "definition": "good"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὄνος.",
+          "definition": "donkey"
+        },
+        {
+          "greek": "ἔχω",
+          "definition": "I have"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "also"
+        },
+        {
+          "greek": "βοῦν",
+          "definition": "ox"
+        },
+        {
+          "greek": "ἰσχυρὸν",
+          "definition": "strong"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ.",
+          "definition": "field"
+        },
+        {
+          "greek": "ἔχω",
+          "definition": "I have"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἀρνίον.",
+          "definition": "lamb"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "νῦν",
+          "definition": "now"
+        },
+        {
+          "greek": "βλέπω",
+          "definition": "I see"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκον",
+          "definition": "wolf"
+        },
+        {
+          "greek": "πέραν",
+          "definition": "across"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμοῦ.",
+          "definition": "river"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκος",
+          "definition": "wolf"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "μέγαν",
+          "definition": "great"
+        },
+        {
+          "greek": "βοῦν·",
+          "definition": "ox"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "μικρὸν",
+          "definition": "small"
+        },
+        {
+          "greek": "ἀρνίον.",
+          "definition": "lamb"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "θεὸς",
+          "definition": "God"
+        },
+        {
+          "greek": "ἀγαθός",
+          "definition": "good"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φυλάσσει",
+          "definition": "guards"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον.",
+          "definition": "lamb"
+        },
+        {
+          "greek": "εὐχαριστῶ",
+          "definition": "I give thanks"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to the"
+        },
+        {
+          "greek": "θεῷ.»",
+          "definition": "God (dat.)"
+        }
       ],
       "translation": "The farmer says: 'I have a beautiful garden near the house. There is a vegetable in the garden. I also have the great tree in the field. On the tree there are fruits and branches. I take the sickle and harvest the fruits from the tree. The donkey carries the fruits toward the house. The donkey is good. I also have a strong ox in the field. I have a sheep and a lamb. But now I see the wolf across the river. The wolf does not see the great ox; he sees the small lamb. God is good and guards the lamb. I give thanks to God.'"
     },
@@ -428,398 +1508,1394 @@
       "id": 11,
       "label": "Μέρος Βʹ — Ὁ Λύκος (Part B — The Wolf)",
       "words": [
-        {"greek": "καλή", "definition": "beautiful, good (fem.)"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ἡ", "definition": "the (fem.)"},
-        {"greek": "ἡμέρα.", "definition": "day"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "μὲν", "definition": "on the one hand"},
-        {"greek": "ἥλιος", "definition": "sun"},
-        {"greek": "λάμπει", "definition": "shines"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "οὐρανῷ.", "definition": "sky"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ποταμὸς", "definition": "river"},
-        {"greek": "ῥεῖ", "definition": "flows"},
-        {"greek": "καλῶς.", "definition": "well, beautifully"}
+        {
+          "greek": "καλή",
+          "definition": "beautiful, good (fem.)"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the (fem.)"
+        },
+        {
+          "greek": "ἡμέρα.",
+          "definition": "day"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "μὲν",
+          "definition": "on the one hand"
+        },
+        {
+          "greek": "ἥλιος",
+          "definition": "sun"
+        },
+        {
+          "greek": "λάμπει",
+          "definition": "shines"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "οὐρανῷ.",
+          "definition": "sky"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ποταμὸς",
+          "definition": "river"
+        },
+        {
+          "greek": "ῥεῖ",
+          "definition": "flows"
+        },
+        {
+          "greek": "καλῶς.",
+          "definition": "well, beautifully"
+        }
       ],
       "translation": "The day is beautiful. The sun shines in the sky. The river flows beautifully."
     },
     {
       "id": 12,
       "words": [
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "μὲν", "definition": "on the one hand"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "ἐσθίει", "definition": "eats"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "χόρτον", "definition": "grass"},
-        {"greek": "τοῦ", "definition": "of the"},
-        {"greek": "ἀγροῦ.", "definition": "field"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "τρέχει", "definition": "runs"},
-        {"greek": "ἐπὶ", "definition": "upon"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "χόρτον", "definition": "grass"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "χαίρει.", "definition": "rejoices"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "βοῦς", "definition": "ox"},
-        {"greek": "μένει", "definition": "stays"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ.", "definition": "field"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "καθίζει", "definition": "sits"},
-        {"greek": "ἔξω", "definition": "outside"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "οἴκου", "definition": "house"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἡσυχάζει.", "definition": "rests"}
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "μὲν",
+          "definition": "on the one hand"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "ἐσθίει",
+          "definition": "eats"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "χόρτον",
+          "definition": "grass"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "ἀγροῦ.",
+          "definition": "field"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "τρέχει",
+          "definition": "runs"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "upon"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "χόρτον",
+          "definition": "grass"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "χαίρει.",
+          "definition": "rejoices"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "βοῦς",
+          "definition": "ox"
+        },
+        {
+          "greek": "μένει",
+          "definition": "stays"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ.",
+          "definition": "field"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "καθίζει",
+          "definition": "sits"
+        },
+        {
+          "greek": "ἔξω",
+          "definition": "outside"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "οἴκου",
+          "definition": "house"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἡσυχάζει.",
+          "definition": "rests"
+        }
       ],
       "translation": "The sheep eats the grass of the field. The lamb runs on the grass and rejoices. The ox stays in the field. The farmer sits outside the house and rests."
     },
     {
       "id": 13,
       "words": [
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "λύκος", "definition": "wolf"},
-        {"greek": "πέραν", "definition": "across"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ποταμοῦ", "definition": "river"},
-        {"greek": "μένει", "definition": "stays"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον.", "definition": "lamb"},
-        {"greek": "θέλει", "definition": "wants"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "λύκος", "definition": "wolf"},
-        {"greek": "ἁρπάζειν", "definition": "to seize"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἐσθίειν.", "definition": "to eat"},
-        {"greek": "πονηρός", "definition": "evil, wicked"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "λύκος.", "definition": "wolf"}
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "λύκος",
+          "definition": "wolf"
+        },
+        {
+          "greek": "πέραν",
+          "definition": "across"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμοῦ",
+          "definition": "river"
+        },
+        {
+          "greek": "μένει",
+          "definition": "stays"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον.",
+          "definition": "lamb"
+        },
+        {
+          "greek": "θέλει",
+          "definition": "wants"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκος",
+          "definition": "wolf"
+        },
+        {
+          "greek": "ἁρπάζειν",
+          "definition": "to seize"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐσθίειν.",
+          "definition": "to eat"
+        },
+        {
+          "greek": "πονηρός",
+          "definition": "evil, wicked"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκος.",
+          "definition": "wolf"
+        }
       ],
       "translation": "The wolf stays across the river and sees the sheep and the lamb. For the wolf wants to seize the lamb and eat it. The wolf is evil."
     },
     {
       "id": 14,
       "words": [
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "βλέπουσιν", "definition": "they see"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "λύκον.", "definition": "wolf"},
-        {"greek": "ἐσθίει", "definition": "eats"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "χόρτον", "definition": "grass"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τρέχει", "definition": "runs"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "ἐπὶ", "definition": "upon"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "χόρτον.", "definition": "grass"}
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "βλέπουσιν",
+          "definition": "they see"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκον.",
+          "definition": "wolf"
+        },
+        {
+          "greek": "ἐσθίει",
+          "definition": "eats"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "χόρτον",
+          "definition": "grass"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τρέχει",
+          "definition": "runs"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "upon"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "χόρτον.",
+          "definition": "grass"
+        }
       ],
       "translation": "The sheep and the lamb do not see the wolf. For the sheep eats the grass and the lamb runs on the grass."
     },
     {
       "id": 15,
       "words": [
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "λύκον", "definition": "wolf"},
-        {"greek": "πέραν", "definition": "across"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ποταμοῦ", "definition": "river"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "χαίρει.", "definition": "rejoices"},
-        {"greek": "φιλεῖ", "definition": "loves"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον.", "definition": "lamb"},
-        {"greek": "μέλλει", "definition": "is about to"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "σῴζειν", "definition": "to save"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "ἀπὸ", "definition": "from"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "λύκου.", "definition": "wolf"}
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκον",
+          "definition": "wolf"
+        },
+        {
+          "greek": "πέραν",
+          "definition": "across"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμοῦ",
+          "definition": "river"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "χαίρει.",
+          "definition": "rejoices"
+        },
+        {
+          "greek": "φιλεῖ",
+          "definition": "loves"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον.",
+          "definition": "lamb"
+        },
+        {
+          "greek": "μέλλει",
+          "definition": "is about to"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "σῴζειν",
+          "definition": "to save"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "ἀπὸ",
+          "definition": "from"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκου.",
+          "definition": "wolf"
+        }
       ],
       "translation": "The farmer sees the wolf across the river and does not rejoice. For the farmer loves the sheep and the lamb. He is therefore about to save the sheep and the lamb from the wolf."
     },
     {
       "id": 16,
       "words": [
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "ἀγαθὸς", "definition": "good"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "καταλείπει", "definition": "abandons"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "ζῷα", "definition": "animals"},
-        {"greek": "αὐτοῦ", "definition": "his"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "φεύγει", "definition": "flees"},
-        {"greek": "ἀπὸ", "definition": "from"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "θηρίου.", "definition": "wild beast"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "μένει", "definition": "he stays"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "φυλάσσει", "definition": "guards"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "ζῷα", "definition": "animals"},
-        {"greek": "αὐτοῦ.", "definition": "his"}
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "ἀγαθὸς",
+          "definition": "good"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "καταλείπει",
+          "definition": "abandons"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "ζῷα",
+          "definition": "animals"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φεύγει",
+          "definition": "flees"
+        },
+        {
+          "greek": "ἀπὸ",
+          "definition": "from"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "θηρίου.",
+          "definition": "wild beast"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "μένει",
+          "definition": "he stays"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φυλάσσει",
+          "definition": "guards"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "ζῷα",
+          "definition": "animals"
+        },
+        {
+          "greek": "αὐτοῦ.",
+          "definition": "his"
+        }
       ],
       "translation": "For the good farmer does not abandon his animals and flee from the wild beast. But he stays and guards his animals."
     },
     {
       "id": 17,
       "words": [
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἰδοὺ", "definition": "behold, look!"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "λύκος", "definition": "wolf"},
-        {"greek": "τρέχει", "definition": "runs"},
-        {"greek": "εἰς", "definition": "into"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "ποταμὸν", "definition": "river"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἐκβαίνει", "definition": "goes out"},
-        {"greek": "ἐκ", "definition": "out of"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ποταμοῦ", "definition": "river"},
-        {"greek": "εἰς", "definition": "into"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "ἀγρόν.", "definition": "field"},
-        {"greek": "νῦν", "definition": "now"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ἐγγύς", "definition": "near"},
-        {"greek": "ἐστιν", "definition": "is"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ἀρνίου.", "definition": "lamb"},
-        {"greek": "θέλει", "definition": "wants"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "μέλλει", "definition": "is about to"},
-        {"greek": "ἁρπάζειν", "definition": "to seize"},
-        {"greek": "αὐτό.", "definition": "it"}
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἰδοὺ",
+          "definition": "behold, look!"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκος",
+          "definition": "wolf"
+        },
+        {
+          "greek": "τρέχει",
+          "definition": "runs"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμὸν",
+          "definition": "river"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐκβαίνει",
+          "definition": "goes out"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "out of"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμοῦ",
+          "definition": "river"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρόν.",
+          "definition": "field"
+        },
+        {
+          "greek": "νῦν",
+          "definition": "now"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐγγύς",
+          "definition": "near"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίου.",
+          "definition": "lamb"
+        },
+        {
+          "greek": "θέλει",
+          "definition": "wants"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "μέλλει",
+          "definition": "is about to"
+        },
+        {
+          "greek": "ἁρπάζειν",
+          "definition": "to seize"
+        },
+        {
+          "greek": "αὐτό.",
+          "definition": "it"
+        }
       ],
       "translation": "And look! The wolf runs into the river and comes out of the river into the field. Now he is near the lamb. For he wants and is about to seize it."
     },
     {
       "id": 18,
       "words": [
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "λύκον.", "definition": "wolf"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ὄνος", "definition": "donkey"},
-        {"greek": "ἀκούει", "definition": "hears"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "λύκον", "definition": "wolf"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "κράζει.", "definition": "cries out"},
-        {"greek": "εὐθὺς", "definition": "immediately"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "λαμβάνει", "definition": "takes"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "τὴν", "definition": "the (fem. acc.)"},
-        {"greek": "ῥάβδον", "definition": "rod, staff"},
-        {"greek": "αὐτοῦ.", "definition": "his"},
-        {"greek": "λαμβάνει", "definition": "takes"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "καὶ", "definition": "also"},
-        {"greek": "λίθους", "definition": "stones"},
-        {"greek": "ἐκ", "definition": "from"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ἀγροῦ.", "definition": "field"},
-        {"greek": "τρέχει", "definition": "runs"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "εἰς", "definition": "into"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "ἀγρὸν", "definition": "field"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "κράζει", "definition": "cries out"},
-        {"greek": "φωνῇ", "definition": "with a voice"},
-        {"greek": "μεγάλῃ.", "definition": "great, loud (dat.)"},
-        {"greek": "βάλλει", "definition": "throws"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "λίθους", "definition": "stones"},
-        {"greek": "ἐπὶ", "definition": "at"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "λύκον.", "definition": "wolf"}
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκον.",
+          "definition": "wolf"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὄνος",
+          "definition": "donkey"
+        },
+        {
+          "greek": "ἀκούει",
+          "definition": "hears"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκον",
+          "definition": "wolf"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "κράζει.",
+          "definition": "cries out"
+        },
+        {
+          "greek": "εὐθὺς",
+          "definition": "immediately"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "λαμβάνει",
+          "definition": "takes"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (fem. acc.)"
+        },
+        {
+          "greek": "ῥάβδον",
+          "definition": "rod, staff"
+        },
+        {
+          "greek": "αὐτοῦ.",
+          "definition": "his"
+        },
+        {
+          "greek": "λαμβάνει",
+          "definition": "takes"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "also"
+        },
+        {
+          "greek": "λίθους",
+          "definition": "stones"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "from"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγροῦ.",
+          "definition": "field"
+        },
+        {
+          "greek": "τρέχει",
+          "definition": "runs"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρὸν",
+          "definition": "field"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "κράζει",
+          "definition": "cries out"
+        },
+        {
+          "greek": "φωνῇ",
+          "definition": "with a voice"
+        },
+        {
+          "greek": "μεγάλῃ.",
+          "definition": "great, loud (dat.)"
+        },
+        {
+          "greek": "βάλλει",
+          "definition": "throws"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "λίθους",
+          "definition": "stones"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "at"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκον.",
+          "definition": "wolf"
+        }
       ],
       "translation": "The lamb does not see the wolf. But the donkey hears the wolf and cries out. Immediately the farmer takes his rod. He also takes stones from the field. He runs into the field and cries out with a great voice. He throws the stones at the wolf."
     },
     {
       "id": 19,
       "words": [
-        {"greek": "πάλιν", "definition": "again"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "κράζει", "definition": "cries out"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "λέγει·", "definition": "says"},
-        {"greek": "«ὕπαγε", "definition": "go away!"},
-        {"greek": "ἀπὸ", "definition": "from"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ἀγροῦ.»", "definition": "field"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "λύκος", "definition": "wolf"},
-        {"greek": "ἀκούει", "definition": "hears"},
-        {"greek": "τῆς", "definition": "the (gen.)"},
-        {"greek": "φωνῆς", "definition": "voice"},
-        {"greek": "τοῦ", "definition": "of the"},
-        {"greek": "γεωργοῦ", "definition": "farmer"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "λίθους", "definition": "stones"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "ῥάβδον.", "definition": "rod, staff"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "μέλλει", "definition": "is about to"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "ἁρπάζειν", "definition": "to seize"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον.", "definition": "lamb"},
-        {"greek": "οὐ", "definition": "not"},
-        {"greek": "θέλει", "definition": "wants"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "μένειν", "definition": "to stay"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ.", "definition": "field"},
-        {"greek": "φεύγει", "definition": "flees"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "ἀπὸ", "definition": "from"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ἀρνίου", "definition": "lamb"},
-        {"greek": "πρὸς", "definition": "toward"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "ποταμόν.", "definition": "river"}
+        {
+          "greek": "πάλιν",
+          "definition": "again"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "κράζει",
+          "definition": "cries out"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says"
+        },
+        {
+          "greek": "«ὕπαγε",
+          "definition": "go away!"
+        },
+        {
+          "greek": "ἀπὸ",
+          "definition": "from"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγροῦ.»",
+          "definition": "field"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "λύκος",
+          "definition": "wolf"
+        },
+        {
+          "greek": "ἀκούει",
+          "definition": "hears"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "φωνῆς",
+          "definition": "voice"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "γεωργοῦ",
+          "definition": "farmer"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "λίθους",
+          "definition": "stones"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "ῥάβδον.",
+          "definition": "rod, staff"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "μέλλει",
+          "definition": "is about to"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ἁρπάζειν",
+          "definition": "to seize"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον.",
+          "definition": "lamb"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "θέλει",
+          "definition": "wants"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "μένειν",
+          "definition": "to stay"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ.",
+          "definition": "field"
+        },
+        {
+          "greek": "φεύγει",
+          "definition": "flees"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ἀπὸ",
+          "definition": "from"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίου",
+          "definition": "lamb"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμόν.",
+          "definition": "river"
+        }
       ],
       "translation": "He cries out again and says: 'Go away from the field!' The wolf hears the farmer's voice and sees the stones and the rod. He is no longer about to seize the lamb. He does not want to stay in the field. So he flees from the lamb toward the river."
     },
     {
       "id": 20,
       "words": [
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "διώκει", "definition": "pursues"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "λύκον", "definition": "wolf"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "πάλιν", "definition": "again"},
-        {"greek": "κράζει", "definition": "cries out"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "πάλιν", "definition": "again"},
-        {"greek": "βάλλει", "definition": "throws"},
-        {"greek": "λίθους.", "definition": "stones"},
-        {"greek": "τέλος", "definition": "finally"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "λύκος", "definition": "wolf"},
-        {"greek": "φεύγει", "definition": "flees"},
-        {"greek": "πέραν", "definition": "across"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ποταμοῦ.", "definition": "river"}
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "διώκει",
+          "definition": "pursues"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκον",
+          "definition": "wolf"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "πάλιν",
+          "definition": "again"
+        },
+        {
+          "greek": "κράζει",
+          "definition": "cries out"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "πάλιν",
+          "definition": "again"
+        },
+        {
+          "greek": "βάλλει",
+          "definition": "throws"
+        },
+        {
+          "greek": "λίθους.",
+          "definition": "stones"
+        },
+        {
+          "greek": "τέλος",
+          "definition": "finally"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκος",
+          "definition": "wolf"
+        },
+        {
+          "greek": "φεύγει",
+          "definition": "flees"
+        },
+        {
+          "greek": "πέραν",
+          "definition": "across"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμοῦ.",
+          "definition": "river"
+        }
       ],
       "translation": "The farmer pursues the wolf and cries out again and throws stones again. Finally the wolf flees across the river."
     },
     {
       "id": 21,
       "words": [
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "μένει", "definition": "stays"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ", "definition": "field"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "βλέπει", "definition": "sees"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "ζῷα", "definition": "animals"},
-        {"greek": "αὐτοῦ.", "definition": "his"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "μὲν", "definition": "on the one hand"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "ἐσθίει", "definition": "eats"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "χόρτον.", "definition": "grass"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "τρέχει", "definition": "runs"},
-        {"greek": "ἐπὶ", "definition": "upon"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "χόρτον.", "definition": "grass"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "βοῦς", "definition": "ox"},
-        {"greek": "μένει", "definition": "stays"},
-        {"greek": "ἐν", "definition": "in"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "ἀγρῷ.", "definition": "field"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ὄνος", "definition": "donkey"},
-        {"greek": "ἡσυχάζει.", "definition": "is quiet, rests"},
-        {"greek": "χαίρει", "definition": "rejoices"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργός.", "definition": "farmer"}
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "μένει",
+          "definition": "stays"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ",
+          "definition": "field"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "ζῷα",
+          "definition": "animals"
+        },
+        {
+          "greek": "αὐτοῦ.",
+          "definition": "his"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "μὲν",
+          "definition": "on the one hand"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "ἐσθίει",
+          "definition": "eats"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "χόρτον.",
+          "definition": "grass"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "τρέχει",
+          "definition": "runs"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "upon"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "χόρτον.",
+          "definition": "grass"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "βοῦς",
+          "definition": "ox"
+        },
+        {
+          "greek": "μένει",
+          "definition": "stays"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγρῷ.",
+          "definition": "field"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὄνος",
+          "definition": "donkey"
+        },
+        {
+          "greek": "ἡσυχάζει.",
+          "definition": "is quiet, rests"
+        },
+        {
+          "greek": "χαίρει",
+          "definition": "rejoices"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργός.",
+          "definition": "farmer"
+        }
       ],
       "translation": "The farmer stays in the field and sees his animals. The sheep eats the grass. The lamb runs on the grass. The ox stays in the field. The donkey rests. Therefore the farmer rejoices."
     },
@@ -827,146 +2903,528 @@
       "id": 22,
       "label": "Ὁ Γεωργὸς Εὐχαριστεῖ — The Farmer Gives Thanks",
       "words": [
-        {"greek": "καθίζει", "definition": "sits"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "ἐπὶ", "definition": "upon"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "λίθον", "definition": "stone"},
-        {"greek": "ὑπὸ", "definition": "under"},
-        {"greek": "τῷ", "definition": "the"},
-        {"greek": "δένδρῳ", "definition": "tree"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "εὐχαριστεῖ", "definition": "gives thanks"},
-        {"greek": "τῷ", "definition": "to the"},
-        {"greek": "θεῷ.", "definition": "God"},
-        {"greek": "λέγει", "definition": "says"},
-        {"greek": "οὖν·", "definition": "therefore"},
-        {"greek": "«ὦ", "definition": "O! (vocative)"},
-        {"greek": "κύριε", "definition": "Lord (voc.)"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "θεός", "definition": "God"},
-        {"greek": "μου.", "definition": "my"},
-        {"greek": "εὐχαριστῶ", "definition": "I give thanks"},
-        {"greek": "σοι.", "definition": "to you"},
-        {"greek": "δίκαιος", "definition": "righteous"},
-        {"greek": "εἶ", "definition": "you are"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "πιστός.", "definition": "faithful"},
-        {"greek": "φιλεῖς", "definition": "you love"},
-        {"greek": "με", "definition": "me"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "ζῷά", "definition": "animals"},
-        {"greek": "μου.", "definition": "my"},
-        {"greek": "σήμερον", "definition": "today"},
-        {"greek": "φυλάσσεις", "definition": "you guard"},
-        {"greek": "με", "definition": "me"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "ζῷά", "definition": "animals"},
-        {"greek": "μου.", "definition": "my"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "λύκος", "definition": "wolf"},
-        {"greek": "θέλει", "definition": "wants"},
-        {"greek": "ἁρπάζειν", "definition": "to seize"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "ἀλλὰ", "definition": "but"},
-        {"greek": "σὺ", "definition": "you"},
-        {"greek": "σῴζεις", "definition": "you save"},
-        {"greek": "αὐτὸ", "definition": "it"},
-        {"greek": "ἀπὸ", "definition": "from"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "λύκου.", "definition": "wolf"},
-        {"greek": "μέγας", "definition": "great"},
-        {"greek": "εἶ", "definition": "you are"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "ἀγαθός.»", "definition": "good"}
+        {
+          "greek": "καθίζει",
+          "definition": "sits"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "upon"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "λίθον",
+          "definition": "stone"
+        },
+        {
+          "greek": "ὑπὸ",
+          "definition": "under"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the"
+        },
+        {
+          "greek": "δένδρῳ",
+          "definition": "tree"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "εὐχαριστεῖ",
+          "definition": "gives thanks"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to the"
+        },
+        {
+          "greek": "θεῷ.",
+          "definition": "God"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "οὖν·",
+          "definition": "therefore"
+        },
+        {
+          "greek": "«ὦ",
+          "definition": "O! (vocative)"
+        },
+        {
+          "greek": "κύριε",
+          "definition": "Lord (voc.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "θεός",
+          "definition": "God"
+        },
+        {
+          "greek": "μου.",
+          "definition": "my"
+        },
+        {
+          "greek": "εὐχαριστῶ",
+          "definition": "I give thanks"
+        },
+        {
+          "greek": "σοι.",
+          "definition": "to you"
+        },
+        {
+          "greek": "δίκαιος",
+          "definition": "righteous"
+        },
+        {
+          "greek": "εἶ",
+          "definition": "you are"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "πιστός.",
+          "definition": "faithful"
+        },
+        {
+          "greek": "φιλεῖς",
+          "definition": "you love"
+        },
+        {
+          "greek": "με",
+          "definition": "me"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "ζῷά",
+          "definition": "animals"
+        },
+        {
+          "greek": "μου.",
+          "definition": "my"
+        },
+        {
+          "greek": "σήμερον",
+          "definition": "today"
+        },
+        {
+          "greek": "φυλάσσεις",
+          "definition": "you guard"
+        },
+        {
+          "greek": "με",
+          "definition": "me"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "ζῷά",
+          "definition": "animals"
+        },
+        {
+          "greek": "μου.",
+          "definition": "my"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκος",
+          "definition": "wolf"
+        },
+        {
+          "greek": "θέλει",
+          "definition": "wants"
+        },
+        {
+          "greek": "ἁρπάζειν",
+          "definition": "to seize"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "σὺ",
+          "definition": "you"
+        },
+        {
+          "greek": "σῴζεις",
+          "definition": "you save"
+        },
+        {
+          "greek": "αὐτὸ",
+          "definition": "it"
+        },
+        {
+          "greek": "ἀπὸ",
+          "definition": "from"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "λύκου.",
+          "definition": "wolf"
+        },
+        {
+          "greek": "μέγας",
+          "definition": "great"
+        },
+        {
+          "greek": "εἶ",
+          "definition": "you are"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἀγαθός.»",
+          "definition": "good"
+        }
       ],
       "translation": "So the farmer sits on the stone under the tree and gives thanks to God. He says: 'O Lord my God. I give thanks to you. You are righteous and faithful. You love me and my animals. Today you guard me and my animals. The wolf wants to seize the lamb, but you save it from the wolf. You are great and good.'"
     },
     {
       "id": 23,
       "words": [
-        {"greek": "ἔπειτα", "definition": "then"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "καλεῖ", "definition": "calls"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον.", "definition": "lamb"},
-        {"greek": "γινώσκει", "definition": "knows, recognizes"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "φωνὴν", "definition": "voice"},
-        {"greek": "τοῦ", "definition": "of the"},
-        {"greek": "γεωργοῦ.", "definition": "farmer"},
-        {"greek": "γινώσκει", "definition": "knows"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "καὶ", "definition": "also"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "τὴν", "definition": "the"},
-        {"greek": "φωνὴν", "definition": "voice"},
-        {"greek": "αὐτοῦ.", "definition": "his"},
-        {"greek": "ἀκούουσιν", "definition": "they hear"},
-        {"greek": "γὰρ", "definition": "for"},
-        {"greek": "τῆς", "definition": "the (gen.)"},
-        {"greek": "φωνῆς", "definition": "voice"},
-        {"greek": "αὐτοῦ", "definition": "his"},
-        {"greek": "καθ᾽", "definition": "according to, every"},
-        {"greek": "ἡμέραν.", "definition": "day"}
+        {
+          "greek": "ἔπειτα",
+          "definition": "then"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "καλεῖ",
+          "definition": "calls"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον.",
+          "definition": "lamb"
+        },
+        {
+          "greek": "γινώσκει",
+          "definition": "knows, recognizes"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "φωνὴν",
+          "definition": "voice"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "γεωργοῦ.",
+          "definition": "farmer"
+        },
+        {
+          "greek": "γινώσκει",
+          "definition": "knows"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "also"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the"
+        },
+        {
+          "greek": "φωνὴν",
+          "definition": "voice"
+        },
+        {
+          "greek": "αὐτοῦ.",
+          "definition": "his"
+        },
+        {
+          "greek": "ἀκούουσιν",
+          "definition": "they hear"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "φωνῆς",
+          "definition": "voice"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "καθ᾽",
+          "definition": "according to, every"
+        },
+        {
+          "greek": "ἡμέραν.",
+          "definition": "day"
+        }
       ],
       "translation": "Then the farmer calls the sheep and the lamb. The sheep knows the farmer's voice. The lamb also knows his voice. For they hear his voice every day."
     },
     {
       "id": 24,
       "words": [
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "αἴρει", "definition": "lifts"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "ἀρνίον", "definition": "lamb"},
-        {"greek": "καὶ", "definition": "and"},
-        {"greek": "φέρει", "definition": "carries"},
-        {"greek": "αὐτό.", "definition": "it"},
-        {"greek": "τὸ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "πρόβατον", "definition": "sheep"},
-        {"greek": "ἀκολουθεῖ.", "definition": "follows"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ὄνος", "definition": "donkey"},
-        {"greek": "φέρει", "definition": "carries"},
-        {"greek": "τοὺς", "definition": "the"},
-        {"greek": "καρποὺς", "definition": "fruits"},
-        {"greek": "τοῦ", "definition": "of the"},
-        {"greek": "δένδρου.", "definition": "tree"},
-        {"greek": "ἐκβαίνουσιν", "definition": "they go out"},
-        {"greek": "οὖν", "definition": "therefore"},
-        {"greek": "ἐκ", "definition": "out of"},
-        {"greek": "τοῦ", "definition": "the"},
-        {"greek": "ἀγροῦ.", "definition": "field"},
-        {"greek": "ἄγει", "definition": "leads"},
-        {"greek": "δὲ", "definition": "and"},
-        {"greek": "ὁ", "definition": "the"},
-        {"greek": "γεωργὸς", "definition": "farmer"},
-        {"greek": "τὰ", "definition": "the"},
-        {"greek": "ζῷα", "definition": "animals"},
-        {"greek": "αὐτοῦ", "definition": "his"},
-        {"greek": "πρὸς", "definition": "toward"},
-        {"greek": "τὸν", "definition": "the"},
-        {"greek": "οἶκον.", "definition": "house"}
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "αἴρει",
+          "definition": "lifts"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀρνίον",
+          "definition": "lamb"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries"
+        },
+        {
+          "greek": "αὐτό.",
+          "definition": "it"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "πρόβατον",
+          "definition": "sheep"
+        },
+        {
+          "greek": "ἀκολουθεῖ.",
+          "definition": "follows"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὄνος",
+          "definition": "donkey"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the"
+        },
+        {
+          "greek": "καρποὺς",
+          "definition": "fruits"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "δένδρου.",
+          "definition": "tree"
+        },
+        {
+          "greek": "ἐκβαίνουσιν",
+          "definition": "they go out"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "out of"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἀγροῦ.",
+          "definition": "field"
+        },
+        {
+          "greek": "ἄγει",
+          "definition": "leads"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the"
+        },
+        {
+          "greek": "ζῷα",
+          "definition": "animals"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the"
+        },
+        {
+          "greek": "οἶκον.",
+          "definition": "house"
+        }
       ],
       "translation": "So the farmer lifts the lamb and carries it. The sheep follows. The donkey carries the fruits of the tree. They go out of the field. The farmer leads his animals toward the house."
     }
-  ]
+  ],
+  "titleTranslations": {
+    "es": "Capítulo 2 — El Jardín y los Animales",
+    "pl": "Rozdział 2 — Ogród i Zwierzęta"
+  }
 }
