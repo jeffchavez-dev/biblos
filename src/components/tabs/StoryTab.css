@@ -103,21 +103,20 @@
 
 .story-word {
   cursor: pointer;
-  border-bottom: 1.5px dotted var(--gold);
-  transition: color 0.15s, background 0.15s;
+  border-bottom: 1.5px solid transparent;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
   border-radius: 2px;
   padding: 0 1px;
 }
-.story-word:hover { color: var(--deep-blue); background: var(--gold-light); border-bottom-style: solid; }
+.story-word:hover { color: var(--deep-blue); background: var(--gold-light); border-bottom-color: var(--gold); }
 .story-word--active {
   color: #fff;
   background: var(--deep-blue);
   border-bottom-color: transparent;
   border-radius: 3px;
 }
-.story-word--has-image {
+.story-word--has-image:hover {
   border-bottom-color: var(--deep-blue);
-  border-bottom-style: solid;
 }
 
 .word-popover--with-image {
