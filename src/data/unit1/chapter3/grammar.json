@@ -9,9 +9,20 @@
           "heading": "1. New feminine nouns (1st & 2nd declension)",
           "content": "Several feminine nouns appear here. ἡ σελήνη, ἡ θύρα, ἡ τράπεζα, ἡ καθέδρα, ἡ κλίνη, ἡ σκοτία follow the 1st declension. ἡ ὁδός is feminine but follows the 2nd-declension pattern (like ῥάβδος).",
           "examples": [
-            {"greek": "ἡ σελήνη ἀνατέλλει ἐν τῷ οὐρανῷ", "note": "1st-decl. nominative"},
-            {"greek": "ἀνοίγει τὴν θύραν", "note": "1st-decl. accusative"}
-          ]
+            {
+              "greek": "ἡ σελήνη ἀνατέλλει ἐν τῷ οὐρανῷ",
+              "note": "1st-decl. nominative"
+            },
+            {
+              "greek": "ἀνοίγει τὴν θύραν",
+              "note": "1st-decl. accusative"
+            }
+          ],
+          "headingTranslations": {
+            "es": "1. Nuevos sustantivos femeninos (1ª y 2ª declinación)",
+            "pl": "1. Nowe rzeczowniki żeńskie (1. i 2. deklinacja)",
+            "fil": "1. Mga bagong pambabae na pangngalan (1st at 2nd declension)"
+          }
         },
         {
           "id": 2,
@@ -19,53 +30,144 @@
           "content": "ἐπί is one preposition with three meanings depending on case. With the genitive it means location on a surface; with the dative it means resting upon (already seen); with the accusative it means motion onto.",
           "table": {
             "caption": "ἐπί with three cases",
-            "headers": ["Case", "Example", "Meaning"],
+            "headers": [
+              "Case",
+              "Example",
+              "Meaning"
+            ],
             "rows": [
-              ["+ Gen.", "ἐπὶ τῆς τραπέζης", "on (a surface)"],
-              ["+ Dat.", "ἐπὶ τῷ δένδρῳ", "upon, on (resting)"],
-              ["+ Acc.", "ἐπὶ τὴν καθέδραν", "onto (motion)"]
+              [
+                "+ Gen.",
+                "ἐπὶ τῆς τραπέζης",
+                "on (a surface)"
+              ],
+              [
+                "+ Dat.",
+                "ἐπὶ τῷ δένδρῳ",
+                "upon, on (resting)"
+              ],
+              [
+                "+ Acc.",
+                "ἐπὶ τὴν καθέδραν",
+                "onto (motion)"
+              ]
             ]
           },
           "examples": [
-            {"greek": "εὑρίσκει τὸν λύχνον ἐπὶ τῆς τραπέζης", "note": "gen.: he finds the lamp on the table"},
-            {"greek": "καθίζει ἐπὶ τὴν καθέδραν", "note": "acc.: he sits down onto the chair"}
-          ]
+            {
+              "greek": "εὑρίσκει τὸν λύχνον ἐπὶ τῆς τραπέζης",
+              "note": "gen.: he finds the lamp on the table"
+            },
+            {
+              "greek": "καθίζει ἐπὶ τὴν καθέδραν",
+              "note": "acc.: he sits down onto the chair"
+            }
+          ],
+          "headingTranslations": {
+            "es": "2. La preposición ἐπί + genitivo — «sobre (una superficie)»",
+            "pl": "2. Przyimek ἐπί + dopełniacz — «na (powierzchni)»",
+            "fil": "2. Ang preposisyon ἐπί + genitive — «sa (ibabaw ng)»"
+          }
         },
         {
           "id": 3,
           "heading": "3. Adjective agreement with feminine nouns",
           "content": "When the noun is feminine, the adjective takes its feminine ending: -η / -α (nom.), -ην / -αν (acc.).",
           "examples": [
-            {"greek": "καλὴ ἡ ὀψία", "note": "the evening is beautiful"},
-            {"greek": "ἔχει τὴν καλὴν κλίνην", "note": "he has the beautiful bed"}
-          ]
+            {
+              "greek": "καλὴ ἡ ὀψία",
+              "note": "the evening is beautiful"
+            },
+            {
+              "greek": "ἔχει τὴν καλὴν κλίνην",
+              "note": "he has the beautiful bed"
+            }
+          ],
+          "headingTranslations": {
+            "es": "3. Concordancia del adjetivo con sustantivos femeninos",
+            "pl": "3. Zgodność przymiotnika z rzeczownikami żeńskimi",
+            "fil": "3. Pagkakaayon ng pang-uri sa mga pambabae na pangngalan"
+          },
+          "contentTranslations": {
+            "es": "Cuando el sustantivo es femenino, el adjetivo toma su forma femenina: -η o -α (nominativo), -ην o -αν (acusativo), etc.",
+            "pl": "Gdy rzeczownik jest żeński, przymiotnik przyjmuje żeńską formę: -η lub -α (mianownik), -ην lub -αν (biernik) itp.",
+            "fil": "Kapag ang pangngalan ay pambabae, ang pang-uri ay kumukuha ng pambabae na anyo: -η o -α (nominative), -ην o -αν (accusative), atbp."
+          }
         },
         {
           "id": 4,
           "heading": "4. The accusative of duration of time",
           "content": "An accusative without a preposition can express how long an action lasts.",
           "examples": [
-            {"greek": "πολὺν χρόνον σκάπτει τὸν ἀγρόν", "note": "he digs the field for a long time"},
-            {"greek": "τρέχει ὅλην τὴν ἡμέραν", "note": "it runs the whole day"}
-          ]
+            {
+              "greek": "πολὺν χρόνον σκάπτει τὸν ἀγρόν",
+              "note": "he digs the field for a long time",
+              "noteTranslations": {
+                "es": "«corrió todo el día» — ὅλην τὴν ἡμέραν = duración",
+                "pl": "«biegło cały dzień» — ὅλην τὴν ἡμέραν = czas trwania",
+                "fil": "«tumakbo buong araw» — ὅλην τὴν ἡμέραν = tagal"
+              }
+            },
+            {
+              "greek": "τρέχει ὅλην τὴν ἡμέραν",
+              "note": "it runs the whole day"
+            }
+          ],
+          "headingTranslations": {
+            "es": "4. El acusativo de duración de tiempo",
+            "pl": "4. Biernik czasu trwania",
+            "fil": "4. Ang accusative ng tagal ng oras"
+          },
+          "contentTranslations": {
+            "es": "Un acusativo sin preposición puede expresar cuánto tiempo dura una acción.",
+            "pl": "Biernik bez przyimka może wyrażać, jak długo trwa czynność.",
+            "fil": "Ang accusative nang walang preposisyon ay maaaring magpahayag ng gaano katagal ang isang kilos."
+          }
         },
         {
           "id": 5,
           "heading": "5. More adverbs",
           "content": "Adjectives often form adverbs by replacing -ος with -ως (e.g. καλός > καλῶς). Other useful adverbs: ἔτι, οὐκέτι, σφόδρα.",
           "examples": [
-            {"greek": "ὁ ποταμὸς ῥεῖ καλῶς", "note": "the river flows well"},
-            {"greek": "ὁ λύχνος ἔτι λάμπει· οὐκέτι σκοτία ἐστίν", "note": "the lamp still shines; it is no longer dark"}
-          ]
+            {
+              "greek": "ὁ ποταμὸς ῥεῖ καλῶς",
+              "note": "the river flows well"
+            },
+            {
+              "greek": "ὁ λύχνος ἔτι λάμπει· οὐκέτι σκοτία ἐστίν",
+              "note": "the lamp still shines; it is no longer dark"
+            }
+          ],
+          "headingTranslations": {
+            "es": "5. Más adverbios",
+            "pl": "5. Więcej przysłówków",
+            "fil": "5. Mga karagdagang pang-abay"
+          },
+          "contentTranslations": {
+            "es": "Los adjetivos a menudo forman adverbios reemplazando -ος con -ως (por ejemplo, καλός → καλῶς). Otros adverbios son independientes: ἔτι (aún), οὐκέτι (ya no), σφόδρα (muy).",
+            "pl": "Przymiotniki często tworzą przysłówki przez zastąpienie -ος przez -ως (np. καλός → καλῶς). Inne przysłówki są niezależne: ἔτι (jeszcze), οὐκέτι (już nie), σφόδρα (bardzo).",
+            "fil": "Ang mga pang-uri ay madalas na bumubuo ng mga pang-abay sa pamamagitan ng pagpapalit ng -ος ng -ως (hal. καλός → καλῶς). Ang iba pang pang-abay ay independyente: ἔτι (pa rin), οὐκέτι (hindi na), σφόδρα (napaka)."
+          }
         },
         {
           "id": 6,
           "heading": "6. Infinitive review — chains of infinitives",
           "content": "A single verb of wanting can govern several infinitives joined by καί.",
           "examples": [
-            {"greek": "θέλει ἐσθίειν καὶ πίνειν καὶ ἡσυχάζειν", "note": "he wants to eat and drink and rest"},
-            {"greek": "οὐ θέλει ἔτι καθίζειν καὶ μένειν", "note": "he no longer wants to sit and stay"}
-          ]
+            {
+              "greek": "θέλει ἐσθίειν καὶ πίνειν καὶ ἡσυχάζειν",
+              "note": "he wants to eat and drink and rest"
+            },
+            {
+              "greek": "οὐ θέλει ἔτι καθίζειν καὶ μένειν",
+              "note": "he no longer wants to sit and stay"
+            }
+          ],
+          "headingTranslations": {
+            "es": "6. Revisión del infinitivo — cadenas de infinitivos",
+            "pl": "6. Powtórzenie bezokolicznika — łańcuchy bezokoliczników",
+            "fil": "6. Pagbabalik-aral ng infinitive — mga hanay ng infinitive"
+          }
         }
       ]
     },
@@ -79,37 +181,138 @@
           "tables": [
             {
               "caption": "The article — full chart, all numbers and genders",
-              "headers": ["Case", "Masculine", "Feminine", "Neuter"],
+              "headers": [
+                "Case",
+                "Masculine",
+                "Feminine",
+                "Neuter"
+              ],
               "rows": [
-                ["Nom. sg.", "ὁ", "ἡ", "τό"],
-                ["Acc. sg.", "τόν", "τήν", "τό"],
-                ["Gen. sg.", "τοῦ", "τῆς", "τοῦ"],
-                ["Dat. sg.", "τῷ", "τῇ", "τῷ"],
-                ["Nom. pl.", "οἱ", "αἱ", "τά"],
-                ["Acc. pl.", "τούς", "τάς", "τά"],
-                ["Gen. pl.", "τῶν", "τῶν", "τῶν"],
-                ["Dat. pl.", "τοῖς", "ταῖς", "τοῖς"]
+                [
+                  "Nom. sg.",
+                  "ὁ",
+                  "ἡ",
+                  "τό"
+                ],
+                [
+                  "Acc. sg.",
+                  "τόν",
+                  "τήν",
+                  "τό"
+                ],
+                [
+                  "Gen. sg.",
+                  "τοῦ",
+                  "τῆς",
+                  "τοῦ"
+                ],
+                [
+                  "Dat. sg.",
+                  "τῷ",
+                  "τῇ",
+                  "τῷ"
+                ],
+                [
+                  "Nom. pl.",
+                  "οἱ",
+                  "αἱ",
+                  "τά"
+                ],
+                [
+                  "Acc. pl.",
+                  "τούς",
+                  "τάς",
+                  "τά"
+                ],
+                [
+                  "Gen. pl.",
+                  "τῶν",
+                  "τῶν",
+                  "τῶν"
+                ],
+                [
+                  "Dat. pl.",
+                  "τοῖς",
+                  "ταῖς",
+                  "τοῖς"
+                ]
               ]
             },
             {
               "caption": "Full noun endings — a complete inductive picture",
-              "headers": ["Case", "Masc. (-ος)", "Neut. (-ον)", "Fem. (-η/-α)"],
+              "headers": [
+                "Case",
+                "Masc. (-ος)",
+                "Neut. (-ον)",
+                "Fem. (-η/-α)"
+              ],
               "rows": [
-                ["Nom. sg.", "λύκ-ος", "ζῷ-ον", "ἡμέρ-α / φων-ή"],
-                ["Acc. sg.", "λύκ-ον", "ζῷ-ον", "ἡμέρ-αν / φων-ήν"],
-                ["Gen. sg.", "λύκ-ου", "ζῷ-ου", "ἡμέρ-ας / φων-ῆς"],
-                ["Dat. sg.", "λύκ-ῳ", "ζῷ-ῳ", "ἡμέρ-ᾳ / φων-ῇ"],
-                ["Nom. pl.", "λύκ-οι", "ζῷ-α", "ἡμέρ-αι"],
-                ["Acc. pl.", "λύκ-ους", "ζῷ-α", "ἡμέρ-ας"],
-                ["Gen. pl.", "λύκ-ων", "ζῷ-ων", "ἡμερ-ῶν"],
-                ["Dat. pl.", "λύκ-οις", "ζῷ-οις", "ἡμέρ-αις"]
+                [
+                  "Nom. sg.",
+                  "λύκ-ος",
+                  "ζῷ-ον",
+                  "ἡμέρ-α / φων-ή"
+                ],
+                [
+                  "Acc. sg.",
+                  "λύκ-ον",
+                  "ζῷ-ον",
+                  "ἡμέρ-αν / φων-ήν"
+                ],
+                [
+                  "Gen. sg.",
+                  "λύκ-ου",
+                  "ζῷ-ου",
+                  "ἡμέρ-ας / φων-ῆς"
+                ],
+                [
+                  "Dat. sg.",
+                  "λύκ-ῳ",
+                  "ζῷ-ῳ",
+                  "ἡμέρ-ᾳ / φων-ῇ"
+                ],
+                [
+                  "Nom. pl.",
+                  "λύκ-οι",
+                  "ζῷ-α",
+                  "ἡμέρ-αι"
+                ],
+                [
+                  "Acc. pl.",
+                  "λύκ-ους",
+                  "ζῷ-α",
+                  "ἡμέρ-ας"
+                ],
+                [
+                  "Gen. pl.",
+                  "λύκ-ων",
+                  "ζῷ-ων",
+                  "ἡμερ-ῶν"
+                ],
+                [
+                  "Dat. pl.",
+                  "λύκ-οις",
+                  "ζῷ-οις",
+                  "ἡμέρ-αις"
+                ]
               ]
             }
           ],
           "examples": [
-            {"greek": "οὐ μία ἀλλὰ πολλαὶ θύραι εἰσιν", "note": "fem. nom. pl.: there are not one but many doors"},
-            {"greek": "θέλει σῴζειν τὰ ζῷα ἀπὸ τῶν λύκων", "note": "masc. gen. pl.: he wants to save the animals from the wolves"}
-          ]
+            {
+              "greek": "οὐ μία ἀλλὰ πολλαὶ θύραι εἰσιν",
+              "note": "fem. nom. pl.: there are not one but many doors"
+            },
+            {
+              "greek": "θέλει σῴζειν τὰ ζῷα ἀπὸ τῶν λύκων",
+              "note": "masc. gen. pl.: he wants to save the animals from the wolves"
+            }
+          ],
+          "headingTranslations": {
+            "es": "1. El plural de todos los géneros — panorama completo",
+            "pl": "1. Liczba mnoga we wszystkich rodzajach — pełny obraz",
+            "fil": "1. Ang plural sa lahat ng uri — kumpletong larawan"
+          }
         },
         {
           "id": 8,
@@ -117,36 +320,94 @@
           "content": "\"One\" has three genders. Ordinals (πρῶτος, δεύτερος, τρίτος) are regular -ος, -η, -ον adjectives.",
           "table": {
             "caption": "εἷς, μία, ἕν",
-            "headers": ["Case", "Masc.", "Fem.", "Neut."],
+            "headers": [
+              "Case",
+              "Masc.",
+              "Fem.",
+              "Neut."
+            ],
             "rows": [
-              ["Nom.", "εἷς", "μία", "ἕν"],
-              ["Acc.", "ἕνα", "μίαν", "ἕν"],
-              ["Gen.", "ἑνός", "μιᾶς", "ἑνός"],
-              ["Dat.", "ἑνί", "μιᾷ", "ἑνί"]
+              [
+                "Nom.",
+                "εἷς",
+                "μία",
+                "ἕν"
+              ],
+              [
+                "Acc.",
+                "ἕνα",
+                "μίαν",
+                "ἕν"
+              ],
+              [
+                "Gen.",
+                "ἑνός",
+                "μιᾶς",
+                "ἑνός"
+              ],
+              [
+                "Dat.",
+                "ἑνί",
+                "μιᾷ",
+                "ἑνί"
+              ]
             ]
           },
           "examples": [
-            {"greek": "οὐχ εἷς λίθος ἀλλὰ λίθοι πολλοί", "note": "not one stone but many stones"},
-            {"greek": "ἀνοίγει τὴν πρώτην θύραν … τὴν δευτέραν … τὴν τρίτην", "note": "he opens the first door … the second … the third"}
-          ]
+            {
+              "greek": "οὐχ εἷς λίθος ἀλλὰ λίθοι πολλοί",
+              "note": "not one stone but many stones"
+            },
+            {
+              "greek": "ἀνοίγει τὴν πρώτην θύραν … τὴν δευτέραν … τὴν τρίτην",
+              "note": "he opens the first door … the second … the third"
+            }
+          ],
+          "headingTranslations": {
+            "es": "2. Numerales: εἷς, μία, ἕν («uno») y ordinales",
+            "pl": "2. Liczebniki: εἷς, μία, ἕν («jeden») i porządkowe",
+            "fil": "2. Mga bilang: εἷς, μία, ἕν («isa») at mga ordinal"
+          }
         },
         {
           "id": 9,
           "heading": "3. The irregular adjective πολύς (\"much, many\")",
           "content": "Like μέγας, πολύς uses two stems: πολυ- in the masc./neut. nom. sg., and πολλ- elsewhere.",
           "examples": [
-            {"greek": "λίθοι πολλοί εἰσιν ἐν τῷ ἀγρῷ", "note": "masc. nom. pl.: there are many stones in the field"},
-            {"greek": "πολλαὶ θύραι εἰσιν", "note": "fem. nom. pl.: there are many doors"}
-          ]
+            {
+              "greek": "λίθοι πολλοί εἰσιν ἐν τῷ ἀγρῷ",
+              "note": "masc. nom. pl.: there are many stones in the field"
+            },
+            {
+              "greek": "πολλαὶ θύραι εἰσιν",
+              "note": "fem. nom. pl.: there are many doors"
+            }
+          ],
+          "headingTranslations": {
+            "es": "3. El adjetivo irregular πολύς («mucho, muchos»)",
+            "pl": "3. Nieregularny przymiotnik πολύς («dużo, wielu»)",
+            "fil": "3. Ang irregular na pang-uri πολύς («marami»)"
+          }
         },
         {
           "id": 10,
           "heading": "4. Present active indicative — 1st plural",
           "content": "The 1st-plural ending is -ομεν. The pronoun ἡμεῖς (\"we\") is used for emphasis.",
           "examples": [
-            {"greek": "ἡμεῖς θέλομεν ἐσθίειν", "note": "we want to eat"},
-            {"greek": "οὐκ ἔχομεν καρποὺς οὐδὲ ἄρτους", "note": "we have neither fruits nor bread"}
-          ]
+            {
+              "greek": "ἡμεῖς θέλομεν ἐσθίειν",
+              "note": "we want to eat"
+            },
+            {
+              "greek": "οὐκ ἔχομεν καρποὺς οὐδὲ ἄρτους",
+              "note": "we have neither fruits nor bread"
+            }
+          ],
+          "headingTranslations": {
+            "es": "4. Indicativo activo presente — 1ª persona del plural",
+            "pl": "4. Czas teraźniejszy czynny — 1. os. l.mn.",
+            "fil": "4. Present active indicative — 1st plural"
+          }
         },
         {
           "id": 11,
@@ -154,20 +415,59 @@
           "content": "The 2nd-singular ending is -εις. For \"to be,\" the form is εἶ. The pronoun σύ (\"you\") is emphatic.",
           "table": {
             "caption": "Present active indicative — full paradigm",
-            "headers": ["Person", "Regular (-ω)", "Contract (-έω)"],
+            "headers": [
+              "Person",
+              "Regular (-ω)",
+              "Contract (-έω)"
+            ],
             "rows": [
-              ["1 sg.", "λύ-ω", "φιλ-ῶ"],
-              ["2 sg.", "λύ-εις", "φιλ-εῖς"],
-              ["3 sg.", "λύ-ει", "φιλ-εῖ"],
-              ["1 pl.", "λύ-ομεν", "φιλ-οῦμεν"],
-              ["2 pl.", "λύ-ετε", "φιλ-εῖτε"],
-              ["3 pl.", "λύ-ουσι(ν)", "φιλ-οῦσι(ν)"]
+              [
+                "1 sg.",
+                "λύ-ω",
+                "φιλ-ῶ"
+              ],
+              [
+                "2 sg.",
+                "λύ-εις",
+                "φιλ-εῖς"
+              ],
+              [
+                "3 sg.",
+                "λύ-ει",
+                "φιλ-εῖ"
+              ],
+              [
+                "1 pl.",
+                "λύ-ομεν",
+                "φιλ-οῦμεν"
+              ],
+              [
+                "2 pl.",
+                "λύ-ετε",
+                "φιλ-εῖτε"
+              ],
+              [
+                "3 pl.",
+                "λύ-ουσι(ν)",
+                "φιλ-οῦσι(ν)"
+              ]
             ]
           },
           "examples": [
-            {"greek": "δίκαιος εἶ καὶ πιστός", "note": "you are righteous and faithful"},
-            {"greek": "σὺ σῴζεις αὐτὸ ἀπὸ τοῦ λύκου", "note": "you save it from the wolf"}
-          ]
+            {
+              "greek": "δίκαιος εἶ καὶ πιστός",
+              "note": "you are righteous and faithful"
+            },
+            {
+              "greek": "σὺ σῴζεις αὐτὸ ἀπὸ τοῦ λύκου",
+              "note": "you save it from the wolf"
+            }
+          ],
+          "headingTranslations": {
+            "es": "5. Indicativo activo presente — 2ª persona del singular",
+            "pl": "5. Czas teraźniejszy czynny — 2. os. l.poj.",
+            "fil": "5. Present active indicative — 2nd singular"
+          }
         },
         {
           "id": 12,
@@ -175,45 +475,114 @@
           "content": "The 1st- and 2nd-person pronouns have full case forms. They are usually omitted (the verb already shows the person), and when used they are emphatic.",
           "table": {
             "caption": "ἐγώ / ἡμεῖς, σύ",
-            "headers": ["Case", "1 sg.", "1 pl.", "2 sg."],
+            "headers": [
+              "Case",
+              "1 sg.",
+              "1 pl.",
+              "2 sg."
+            ],
             "rows": [
-              ["Nom.", "ἐγώ", "ἡμεῖς", "σύ"],
-              ["Acc.", "ἐμέ / με", "ἡμᾶς", "σέ / σε"],
-              ["Gen.", "ἐμοῦ / μου", "ἡμῶν", "σοῦ / σου"],
-              ["Dat.", "ἐμοί / μοι", "ἡμῖν", "σοί / σοι"]
+              [
+                "Nom.",
+                "ἐγώ",
+                "ἡμεῖς",
+                "σύ"
+              ],
+              [
+                "Acc.",
+                "ἐμέ / με",
+                "ἡμᾶς",
+                "σέ / σε"
+              ],
+              [
+                "Gen.",
+                "ἐμοῦ / μου",
+                "ἡμῶν",
+                "σοῦ / σου"
+              ],
+              [
+                "Dat.",
+                "ἐμοί / μοι",
+                "ἡμῖν",
+                "σοί / σοι"
+              ]
             ]
           },
           "examples": [
-            {"greek": "φιλεῖς με", "note": "you love me"},
-            {"greek": "εὐχαριστῶ σοι", "note": "I give thanks to you"}
-          ]
+            {
+              "greek": "φιλεῖς με",
+              "note": "you love me"
+            },
+            {
+              "greek": "εὐχαριστῶ σοι",
+              "note": "I give thanks to you"
+            }
+          ],
+          "headingTranslations": {
+            "es": "6. Los pronombres personales ἐγώ y σύ",
+            "pl": "6. Zaimki osobowe ἐγώ i σύ",
+            "fil": "6. Mga personal pronoun ἐγώ at σύ"
+          }
         },
         {
           "id": 13,
           "heading": "7. The impersonal οὐ δυνατόν ἐστιν + dat. + inf.",
           "content": "An impersonal expression: \"it is (not) possible (for X) to do (Y).\" The dative names the person; the infinitive names the action.",
           "examples": [
-            {"greek": "οὐ δυνατόν ἐστιν αὐτῷ αἴρειν πάντας τοὺς λίθους", "note": "it is not possible for him to lift all the stones"},
-            {"greek": "οὐ δυνατόν ἐστιν εὑρίσκειν τὸν λύχνον", "note": "it is not possible to find the lamp"}
-          ]
+            {
+              "greek": "οὐ δυνατόν ἐστιν αὐτῷ αἴρειν πάντας τοὺς λίθους",
+              "note": "it is not possible for him to lift all the stones"
+            },
+            {
+              "greek": "οὐ δυνατόν ἐστιν εὑρίσκειν τὸν λύχνον",
+              "note": "it is not possible to find the lamp"
+            }
+          ],
+          "headingTranslations": {
+            "es": "7. La expresión impersonal οὐ δυνατόν ἐστιν + dat. + inf.",
+            "pl": "7. Wyrażenie bezosobowe οὐ δυνατόν ἐστιν + cel. + bezokolicznik",
+            "fil": "7. Ang impersonal na οὐ δυνατόν ἐστιν + dat. + inf."
+          }
         },
         {
           "id": 14,
           "heading": "8. Interrogatives: τί (\"what?\") and ποῦ (\"where?\")",
           "content": "τί is the interrogative pronoun \"what?\"; ποῦ is the interrogative adverb \"where?\" Both can also introduce indirect questions.",
           "examples": [
-            {"greek": "τί λέγεις;", "note": "direct: what are you saying?"},
-            {"greek": "οὐ γινώσκει τί ποιεῖ· ποῦ ἐστιν τὸ ἀρνίον;", "note": "he doesn't know what he is doing; where is the lamb?"}
-          ]
+            {
+              "greek": "τί λέγεις;",
+              "note": "direct: what are you saying?"
+            },
+            {
+              "greek": "οὐ γινώσκει τί ποιεῖ· ποῦ ἐστιν τὸ ἀρνίον;",
+              "note": "he doesn't know what he is doing; where is the lamb?"
+            }
+          ],
+          "headingTranslations": {
+            "es": "8. Interrogativos: τί («¿qué?») y ποῦ («¿dónde?»)",
+            "pl": "8. Zaimki pytajne: τί («co?») i ποῦ («gdzie?»)",
+            "fil": "8. Mga interrogative: τί («ano?») at ποῦ («saan?»)"
+          }
         },
         {
           "id": 15,
           "heading": "9. The adjective πᾶς, πᾶσα, πᾶν (\"all, every\")",
           "content": "πᾶς in the singular often means \"every\" (each one); in the plural, \"all.\" Like μέγας, it has irregular forms.",
           "examples": [
-            {"greek": "πάντας τοὺς λίθους", "note": "masc. acc. pl.: all the stones"},
-            {"greek": "πᾶς ἄνθρωπος", "note": "masc. nom. sg.: every person"}
-          ]
+            {
+              "greek": "πάντας τοὺς λίθους",
+              "note": "masc. acc. pl.: all the stones"
+            },
+            {
+              "greek": "πᾶς ἄνθρωπος",
+              "note": "masc. nom. sg.: every person"
+            }
+          ],
+          "headingTranslations": {
+            "es": "9. El adjetivo πᾶς, πᾶσα, πᾶν («todo, cada»)",
+            "pl": "9. Przymiotnik πᾶς, πᾶσα, πᾶν («wszystek, każdy»)",
+            "fil": "9. Ang pang-uri πᾶς, πᾶσα, πᾶν («lahat, bawat»)"
+          }
         }
       ]
     }

@@ -9,9 +9,35 @@
           "heading": "1. The verb ἐστιν (\"is\") and predicate nominative",
           "content": "The most common pattern in this part is X ἐστιν Y — \"X is Y.\" The verb ἐστιν (3rd singular present of εἰμί) links the subject to a noun or adjective in the same case (the nominative).",
           "examples": [
-            {"greek": "ὁ ἄνθρωπός ἐστιν γεωργός", "note": "the man is a farmer"},
-            {"greek": "μέγας ἐστὶν ὁ οὐρανός", "note": "the sky is great"}
-          ]
+            {
+              "greek": "ὁ ἄνθρωπός ἐστιν γεωργός",
+              "note": "the man is a farmer",
+              "noteTranslations": {
+                "es": "el hombre es un agricultor",
+                "pl": "człowiek jest rolnikiem",
+                "fil": "ang lalaki ay isang magsasaka"
+              }
+            },
+            {
+              "greek": "μέγας ἐστὶν ὁ οὐρανός",
+              "note": "the sky is great",
+              "noteTranslations": {
+                "es": "el cielo es grande",
+                "pl": "niebo jest wielkie",
+                "fil": "ang langit ay dakila"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "1. El verbo ἐστιν («es») y el predicado nominativo",
+            "pl": "1. Czasownik ἐστιν («jest») i orzecznik w mianowniku",
+            "fil": "1. Ang pandiwa ἐστιν («ay») at ang pangalan ng panaguri"
+          },
+          "contentTranslations": {
+            "es": "El patrón más común en esta parte es X ἐστιν Y — «X es Y.» El verbo ἐστιν (3ª persona del singular presente de εἰμί) une el sujeto a un sustantivo o adjetivo en el mismo caso (el nominativo).",
+            "pl": "Najczęstszy wzorzec w tej części to X ἐστιν Y — «X jest Y.» Czasownik ἐστιν (3. os. l.poj. czasu teraźniejszego od εἰμί) łączy podmiot z rzeczownikiem lub przymiotnikiem w tym samym przypadku (mianowniku).",
+            "fil": "Ang pinaka-karaniwang pattern sa bahaging ito ay X ἐστιν Y — «Si/Ang X ay Y.» Ang pandiwa ἐστιν (3rd person singular na kasalukuyan ng εἰμί) ay nag-uugnay ng paksa sa pangngalan o pang-uri sa parehong kaso (nominative)."
+          }
         },
         {
           "id": 2,
@@ -19,34 +45,141 @@
           "content": "Every noun in this part is masculine, taking ὁ in the nominative singular and τόν in the accusative singular. The noun itself ends in -ος (nominative) and -ον (accusative).",
           "table": {
             "caption": "Masculine 2nd declension — introduced so far",
-            "headers": ["Case", "Form", "Function"],
+            "headers": [
+              "Case",
+              "Form",
+              "Function"
+            ],
             "rows": [
-              ["Nominative", "ὁ γεωργ-ός", "subject — \"the farmer\""],
-              ["Accusative", "τὸν γεωργ-όν", "direct object — \"the farmer\""]
-            ]
+              [
+                "Nominative",
+                "ὁ γεωργ-ός",
+                "subject — \"the farmer\""
+              ],
+              [
+                "Accusative",
+                "τὸν γεωργ-όν",
+                "direct object — \"the farmer\""
+              ]
+            ],
+            "captionTranslations": {
+              "es": "Declinación masculina 2ª — introducida hasta ahora",
+              "pl": "Deklinacja męska 2. — wprowadzona dotychczas",
+              "fil": "Panlalaking 2nd declension — ipinakilala na"
+            },
+            "rowTranslations": {
+              "0": {
+                "es": "sujeto — «el agricultor»",
+                "pl": "podmiot — «rolnik»",
+                "fil": "paksa — «ang magsasaka»"
+              },
+              "1": {
+                "es": "complemento directo — «al agricultor»",
+                "pl": "dopełnienie bliższe — «rolnika»",
+                "fil": "direktang object — «ang magsasaka»"
+              }
+            }
           },
           "examples": [
-            {"greek": "ὁ γεωργός, ὁ οἶκος, ὁ ἀγρός", "note": "nominative subjects"},
-            {"greek": "βλέπει τὸν οἶκον· λαμβάνει τὸν ἄρτον", "note": "accusative direct objects"}
-          ]
+            {
+              "greek": "ὁ γεωργός, ὁ οἶκος, ὁ ἀγρός",
+              "note": "nominative subjects",
+              "noteTranslations": {
+                "es": "sujetos en nominativo",
+                "pl": "podmioty w mianowniku",
+                "fil": "mga paksa sa nominative"
+              }
+            },
+            {
+              "greek": "βλέπει τὸν οἶκον· λαμβάνει τὸν ἄρτον",
+              "note": "accusative direct objects",
+              "noteTranslations": {
+                "es": "complementos directos en acusativo",
+                "pl": "dopełnienia bliższe w bierniku",
+                "fil": "mga direktang object sa accusative"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "2. El artículo ὁ («el») — masculino",
+            "pl": "2. Rodzajnik ὁ («ten/the») — rodzaj męski",
+            "fil": "2. Ang pantukoy ὁ («ang») — panlalaki"
+          },
+          "contentTranslations": {
+            "es": "Todos los sustantivos en esta parte son masculinos y llevan ὁ en el nominativo singular y τόν en el acusativo singular. El sustantivo mismo termina en -ος (nominativo) y -ον (acusativo).",
+            "pl": "Wszystkie rzeczowniki w tej części są rodzaju męskiego, przyjmując ὁ w mianowniku l.poj. i τόν w bierniku l.poj. Sam rzeczownik kończy się na -ος (mianownik) i -ον (biernik).",
+            "fil": "Lahat ng pangngalan sa bahaging ito ay panlalaki, gumagamit ng ὁ sa nominative singular at τόν sa accusative singular. Ang pangngalan mismo ay nagtatapos sa -ος (nominative) at -ον (accusative)."
+          }
         },
         {
           "id": 3,
           "heading": "3. Adjective agreement",
           "content": "Adjectives match their noun in gender, number, and case. As predicates (linked by \"is\") they have no article; as attributives (modifying directly) they sit inside the article-noun frame.",
           "examples": [
-            {"greek": "μικρός ἐστιν ὁ οἶκος", "note": "predicate: the house is small"},
-            {"greek": "λαμβάνει τὸν καλὸν ἄρτον", "note": "attributive: he takes the good bread"}
-          ]
+            {
+              "greek": "μικρός ἐστιν ὁ οἶκος",
+              "note": "predicate: the house is small",
+              "noteTranslations": {
+                "es": "predicado: «el hombre es bueno»",
+                "pl": "orzecznik: «człowiek jest dobry»",
+                "fil": "panaguri: «ang tao ay mabuti»"
+              }
+            },
+            {
+              "greek": "λαμβάνει τὸν καλὸν ἄρτον",
+              "note": "attributive: he takes the good bread",
+              "noteTranslations": {
+                "es": "atributivo: «el buen agricultor»",
+                "pl": "określenie: «dobry rolnik»",
+                "fil": "katangian: «ang mabuting magsasaka»"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "3. Adjetivos — concordancia",
+            "pl": "3. Przymiotniki — zgodność",
+            "fil": "3. Mga pang-uri — pagkakaayon"
+          },
+          "contentTranslations": {
+            "es": "Los adjetivos concuerdan con el sustantivo que modifican en género, número y caso. En esta parte, todos los sustantivos son masculinos y singulares, por lo que los adjetivos también son masculinos singulares: -ος (nominativo) y -ον (acusativo).",
+            "pl": "Przymiotniki zgadzają się z rzeczownikiem, który modyfikują, w rodzaju, liczbie i przypadku. W tej części wszystkie rzeczowniki są rodzaju męskiego l.poj., więc przymiotniki też są rodzaju męskiego l.poj.: -ος (mianownik) i -ον (biernik).",
+            "fil": "Ang mga pang-uri ay sumasang-ayon sa pangngalan na binibigyang-katangian sa uri, bilang, at kaso. Sa bahaging ito, lahat ng pangngalan ay panlalaki at isahan, kaya ang mga pang-uri ay panlalaki rin na isahan: -ος (nominative) at -ον (accusative)."
+          }
         },
         {
           "id": 4,
           "heading": "4. Present active indicative — 3rd singular",
           "content": "Most verbs end in -ει for \"he/she/it [does it].\" Contracted verbs in -έω contract ε + ει > ει (e.g. φιλέ-ει > φιλεῖ).",
           "examples": [
-            {"greek": "ὁ ἥλιος λάμπει", "note": "the sun shines"},
-            {"greek": "ὁ γεωργὸς φιλεῖ τὸν οἶκον", "note": "the farmer loves the house"}
-          ]
+            {
+              "greek": "ὁ ἥλιος λάμπει",
+              "note": "the sun shines",
+              "noteTranslations": {
+                "es": "«ve la casa» — la casa es el complemento directo",
+                "pl": "«widzi dom» — dom jest dopełnieniem bliższym",
+                "fil": "«nakikita ang bahay» — ang bahay ang direktang object"
+              }
+            },
+            {
+              "greek": "ὁ γεωργὸς φιλεῖ τὸν οἶκον",
+              "note": "the farmer loves the house",
+              "noteTranslations": {
+                "es": "«toma el pan» — el pan es el complemento directo",
+                "pl": "«bierze chleb» — chleb jest dopełnieniem bliższym",
+                "fil": "«kumukuha ng tinapay» — ang tinapay ang direktang object"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "4. El acusativo — complemento directo",
+            "pl": "4. Biernik — dopełnienie bliższe",
+            "fil": "4. Ang accusative — direktang object"
+          },
+          "contentTranslations": {
+            "es": "Cuando un verbo tiene un complemento directo (la persona o cosa que recibe la acción), ese sustantivo va en acusativo: -ον con el artículo τόν.",
+            "pl": "Gdy czasownik ma dopełnienie bliższe (osobę lub rzecz, która odbiera czynność), ten rzeczownik jest w bierniku: -ον z rodzajnikiem τόν.",
+            "fil": "Kapag ang isang pandiwa ay may direktang object (ang tao o bagay na tumatanggap ng kilos), ang pangngalan na iyon ay nasa accusative: -ον kasama ang pantukoy na τόν."
+          }
         },
         {
           "id": 5,
@@ -55,43 +188,140 @@
           "tables": [
             {
               "caption": "Present active — introduced so far",
-              "headers": ["Person", "Regular (-ω)", "Contract (-έω)"],
+              "headers": [
+                "Person",
+                "Regular (-ω)",
+                "Contract (-έω)"
+              ],
               "rows": [
-                ["1 sg.", "βλέπ-ω (\"I see\")", "φιλέ-ω > φιλ-ῶ (\"I love\")"],
-                ["3 sg.", "βλέπ-ει (\"he sees\")", "φιλέ-ει > φιλ-εῖ (\"he loves\")"]
+                [
+                  "1 sg.",
+                  "βλέπ-ω (\"I see\")",
+                  "φιλέ-ω > φιλ-ῶ (\"I love\")"
+                ],
+                [
+                  "3 sg.",
+                  "βλέπ-ει (\"he sees\")",
+                  "φιλέ-ει > φιλ-εῖ (\"he loves\")"
+                ]
               ]
             },
             {
               "caption": "εἰμί — introduced so far",
-              "headers": ["Person", "Form", "Meaning"],
+              "headers": [
+                "Person",
+                "Form",
+                "Meaning"
+              ],
               "rows": [
-                ["1 sg.", "εἰμί", "I am"],
-                ["3 sg.", "ἐστί(ν)", "he/she/it is"]
+                [
+                  "1 sg.",
+                  "εἰμί",
+                  "I am"
+                ],
+                [
+                  "3 sg.",
+                  "ἐστί(ν)",
+                  "he/she/it is"
+                ]
               ]
             }
           ],
           "examples": [
-            {"greek": "ἔχω τὸν οἶκον", "note": "I have the house"},
-            {"greek": "ἐγὼ δὲ ἔχω τὸν ἀγρόν", "note": "but I have the field (emphatic)"}
-          ]
+            {
+              "greek": "ἔχω τὸν οἶκον",
+              "note": "I have the house",
+              "noteTranslations": {
+                "es": "«soy agricultor... tengo la casa»",
+                "pl": "«jestem rolnikiem... mam dom»",
+                "fil": "«ako ay magsasaka... mayroon akong bahay»"
+              }
+            },
+            {
+              "greek": "ἐγὼ δὲ ἔχω τὸν ἀγρόν",
+              "note": "but I have the field (emphatic)"
+            }
+          ],
+          "headingTranslations": {
+            "es": "5. Las partículas μέν y δέ — contraste",
+            "pl": "5. Partykuły μέν i δέ — kontrast",
+            "fil": "5. Ang mga partikula μέν at δέ — kontraste"
+          },
+          "contentTranslations": {
+            "es": "μέν y δέ trabajan como par: «por un lado… por el otro». Nunca son la primera palabra de su cláusula — siempre van en segunda posición. A menudo se dejan sin traducir o se rinden como «mientras que» o «pero».",
+            "pl": "μέν i δέ działają jako para: «z jednej strony... z drugiej». Nigdy nie są pierwszym słowem swojej klauzuli — zawsze stoją na drugiej pozycji. Często pozostawia się je bez tłumaczenia lub tłumaczy jako «podczas gdy» lub «ale».",
+            "fil": "Nagtatrabaho ang μέν at δέ bilang pares: «sa isang banda... sa kabilang banda». Hindi sila kailanman ang unang salita ng kanilang sugnay — palagi silang nasa ikalawang posisyon. Madalas itong iniiwan nang hindi isinalin o isinasalin bilang «samantalang» o «ngunit»."
+          }
         },
         {
           "id": 6,
           "heading": "6. Particles & connectives: μέν … δέ, οὖν, γάρ, καί",
           "content": "These shape the rhythm of Greek prose: μέν … δέ sets up contrast (\"on the one hand … on the other\"), οὖν = \"therefore,\" γάρ = \"for, because\" (always 2nd in its clause), καί = \"and / also.\"",
           "examples": [
-            {"greek": "γεωργὸς μὲν εἰμι. … ἐγὼ δὲ ἔχω τὸν οἶκον", "note": "μέν … δέ contrast"},
-            {"greek": "ἰσχυρὸς γάρ ἐστιν ἄνθρωπος", "note": "for he is a strong man"}
-          ]
+            {
+              "greek": "γεωργὸς μὲν εἰμι. … ἐγὼ δὲ ἔχω τὸν οἶκον",
+              "note": "μέν … δέ contrast",
+              "noteTranslations": {
+                "es": "«así que toma el pan»",
+                "pl": "«bierze więc chleb»",
+                "fil": "«kaya kumuha siya ng tinapay»"
+              }
+            },
+            {
+              "greek": "ἰσχυρὸς γάρ ἐστιν ἄνθρωπος",
+              "note": "for he is a strong man",
+              "noteTranslations": {
+                "es": "«pues es fuerte»",
+                "pl": "«jest bowiem silny»",
+                "fil": "«sapagkat siya ay malakas»"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "6. Las partículas οὖν y γάρ — razonamiento",
+            "pl": "6. Partykuły οὖν i γάρ — wnioskowanie",
+            "fil": "6. Ang mga partikula οὖν at γάρ — pangangatwiran"
+          },
+          "contentTranslations": {
+            "es": "Ambas son postpositivas — nunca son la primera palabra de su cláusula. οὖν = «por lo tanto, así que» (conclusión). γάρ = «pues, porque» (explicación).",
+            "pl": "Obie są postpozytywne — nigdy nie są pierwszym słowem swojej klauzuli. οὖν = «zatem, więc» (wniosek). γάρ = «bowiem, ponieważ» (wyjaśnienie).",
+            "fil": "Parehong postpositive — hindi sila kailanman ang unang salita ng kanilang sugnay. οὖν = «kaya, samakatuwid» (konklusyon). γάρ = «sapagkat, dahil» (paliwanag)."
+          }
         },
         {
           "id": 7,
           "heading": "7. The irregular adjective μέγας (\"great\")",
           "content": "μέγας uses two stems: μεγα- in the masculine nominative singular, and μεγαλ- elsewhere (with -ν added for the accusative).",
           "examples": [
-            {"greek": "μέγας ἐστὶν ὁ οὐρανός", "note": "nominative"},
-            {"greek": "αἴρει τὸν μέγαν λίθον", "note": "accusative"}
-          ]
+            {
+              "greek": "μέγας ἐστὶν ὁ οὐρανός",
+              "note": "nominative",
+              "noteTranslations": {
+                "es": "yo llevo → él lleva",
+                "pl": "niosę → niesie",
+                "fil": "dinadala ko → dinadala niya"
+              }
+            },
+            {
+              "greek": "αἴρει τὸν μέγαν λίθον",
+              "note": "accusative",
+              "noteTranslations": {
+                "es": "yo veo → él ve",
+                "pl": "widzę → widzi",
+                "fil": "nakikita ko → nakikita niya"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "7. Verbos de la primera conjugación — presente activo",
+            "pl": "7. Czasowniki 1. koniugacji — czas teraźniejszy czynny",
+            "fil": "7. Mga pandiwang 1st conjugation — present active"
+          },
+          "contentTranslations": {
+            "es": "Todos los verbos de esta parte terminan en -ω en 1ª persona del singular. En 3ª persona del singular, la terminación es -ει. Este es el tiempo presente activo, que expresa una acción habitual o en curso.",
+            "pl": "Wszystkie czasowniki w tej części kończą się na -ω w 1. os. l.poj. W 3. os. l.poj. końcówka to -ει. To jest czas teraźniejszy czynny, wyrażający czynność zwykłą lub trwającą.",
+            "fil": "Lahat ng pandiwang sa bahaging ito ay nagtatapos sa -ω sa unang taong isahan. Sa ikatlong taong isahan, ang ending ay -ει. Ito ang present active tense, na nagpapahayag ng karaniwang o patuloy na kilos."
+          }
         }
       ]
     },
@@ -104,72 +334,286 @@
           "content": "New here is the dative singular of masculine 2nd-declension nouns: ending -ῳ with article τῷ. With the preposition ἐν (\"in\") it expresses location. Without a preposition the dative also marks the indirect object (\"to / for\").",
           "table": {
             "caption": "Masculine 2nd declension, singular — now complete",
-            "headers": ["Case", "Form", "Function"],
+            "headers": [
+              "Case",
+              "Form",
+              "Function"
+            ],
             "rows": [
-              ["Nominative", "ὁ γεωργ-ός", "subject"],
-              ["Accusative", "τὸν γεωργ-όν", "direct object; with πρός = motion toward"],
-              ["Genitive", "τοῦ γεωργ-οῦ", "of …; with ἐκ = motion out of"],
-              ["Dative", "τῷ γεωργ-ῷ", "to/for …; with ἐν = location in"]
-            ]
+              [
+                "Nominative",
+                "ὁ γεωργ-ός",
+                "subject"
+              ],
+              [
+                "Accusative",
+                "τὸν γεωργ-όν",
+                "direct object; with πρός = motion toward"
+              ],
+              [
+                "Genitive",
+                "τοῦ γεωργ-οῦ",
+                "of …; with ἐκ = motion out of"
+              ],
+              [
+                "Dative",
+                "τῷ γεωργ-ῷ",
+                "to/for …; with ἐν = location in"
+              ]
+            ],
+            "captionTranslations": {
+              "es": "Declinación masculina 2ª — los tres casos",
+              "pl": "Deklinacja męska 2. — trzy przypadki",
+              "fil": "Panlalaking 2nd declension — tatlong kaso"
+            },
+            "rowTranslations": {
+              "0": {
+                "es": "sujeto",
+                "pl": "podmiot",
+                "fil": "paksa"
+              },
+              "1": {
+                "es": "complemento directo",
+                "pl": "dopełnienie bliższe",
+                "fil": "direktang object"
+              },
+              "2": {
+                "es": "lugar / complemento indirecto",
+                "pl": "miejsce / dopełnienie dalsze",
+                "fil": "lugar / indirect object"
+              }
+            }
           },
           "examples": [
-            {"greek": "καθίζει ἐν τῷ οἴκῳ", "note": "location: he sits in the house"},
-            {"greek": "εὐχαριστῶ τῷ θεῷ", "note": "indirect object: I give thanks to God"}
-          ]
+            {
+              "greek": "καθίζει ἐν τῷ οἴκῳ",
+              "note": "location: he sits in the house",
+              "noteTranslations": {
+                "es": "lugar: «se sienta en la casa»",
+                "pl": "miejsce: «siedzi w domu»",
+                "fil": "lugar: «nakaupo sa bahay»"
+              }
+            },
+            {
+              "greek": "εὐχαριστῶ τῷ θεῷ",
+              "note": "indirect object: I give thanks to God",
+              "noteTranslations": {
+                "es": "complemento indirecto: «doy gracias a Dios»",
+                "pl": "dopełnienie dalsze: «dziękuję Bogu»",
+                "fil": "indirect object: «nagpapasalamat sa Diyos»"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "1. El dativo — «en / en» (lugar)",
+            "pl": "1. Celownik — «w / przy» (miejsce)",
+            "fil": "1. Ang dative — «sa» (lugar)"
+          },
+          "contentTranslations": {
+            "es": "Nuevo aquí es el dativo singular de los sustantivos masculinos de la 2ª declinación: terminación -ῳ con artículo τῷ. Con la preposición ἐν, indica lugar: «en la casa».",
+            "pl": "Nowy tutaj jest celownik l.poj. rzeczowników męskich 2. deklinacji: końcówka -ῳ z rodzajnikiem τῷ. Z przyimkiem ἐν oznacza miejsce: «w domu».",
+            "fil": "Bago dito ang dative singular ng mga panlalaking 2nd declension na pangngalan: ending -ῳ kasama ang pantukoy na τῷ. Kasama ang preposisyon ἐν, nagpapahiwatig ng lugar: «sa bahay»."
+          }
         },
         {
           "id": 9,
           "heading": "2. The genitive case — \"out of / from\" (source)",
           "content": "The genitive singular ends in -ου with article τοῦ. With ἐκ (\"out of\") it expresses motion away from a source.",
           "examples": [
-            {"greek": "ἐκβαίνει ἐκ τοῦ οἴκου", "note": "he goes out of the house"},
-            {"greek": "φέρει τὸν λίθον ἐκ τοῦ ἀγροῦ", "note": "he carries the stone out of the field"}
-          ]
+            {
+              "greek": "ἐκβαίνει ἐκ τοῦ οἴκου",
+              "note": "he goes out of the house",
+              "noteTranslations": {
+                "es": "«en la casa» (lugar)",
+                "pl": "«w domu» (miejsce)",
+                "fil": "«sa bahay» (lugar)"
+              }
+            },
+            {
+              "greek": "φέρει τὸν λίθον ἐκ τοῦ ἀγροῦ",
+              "note": "he carries the stone out of the field",
+              "noteTranslations": {
+                "es": "«sale de la casa»",
+                "pl": "«wychodzi z domu»",
+                "fil": "«lumalabas mula sa bahay»"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "2. Las preposiciones ἐν, ἐκ y πρός",
+            "pl": "2. Przyimki ἐν, ἐκ i πρός",
+            "fil": "2. Ang mga preposisyon ἐν, ἐκ, at πρός"
+          },
+          "contentTranslations": {
+            "es": "Tres preposiciones nuevas introducidas en la Parte B: ἐν (+ dativo) = «en»; ἐκ/ἐξ (+ genitivo) = «fuera de, desde»; πρός (+ acusativo) = «hacia, a».",
+            "pl": "Trzy nowe przyimki wprowadzone w Części B: ἐν (+ celownik) = «w»; ἐκ/ἐξ (+ dopełniacz) = «z, z zewnątrz»; πρός (+ biernik) = «ku, do».",
+            "fil": "Tatlong bagong preposisyon na ipinakilala sa Bahagi B: ἐν (+ dative) = «sa»; ἐκ/ἐξ (+ genitive) = «mula sa»; πρός (+ accusative) = «patungo sa»."
+          }
         },
         {
           "id": 10,
           "heading": "3. The preposition πρός + accusative — motion toward",
           "content": "πρός with the accusative expresses motion toward a place or person.",
           "examples": [
-            {"greek": "περιπατεῖ πρὸς τὸν ἀγρόν", "note": "he walks toward the field"},
-            {"greek": "περιπατεῖ πρὸς τὸν οἶκον", "note": "he walks toward the house"}
-          ]
+            {
+              "greek": "περιπατεῖ πρὸς τὸν ἀγρόν",
+              "note": "he walks toward the field",
+              "noteTranslations": {
+                "es": "yo amo → él ama",
+                "pl": "kocham → kocha",
+                "fil": "mahal ko → minamahal niya"
+              }
+            },
+            {
+              "greek": "περιπατεῖ πρὸς τὸν οἶκον",
+              "note": "he walks toward the house",
+              "noteTranslations": {
+                "es": "yo camino → él camina",
+                "pl": "chodzę → chodzi",
+                "fil": "lumalakad ako → lumalakad siya"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "3. Verbos contractos en -έω",
+            "pl": "3. Czasowniki ściągane na -έω",
+            "fil": "3. Mga contract verb na -έω"
+          },
+          "contentTranslations": {
+            "es": "Dos verbos de esta parte tienen el tema en -έω: φιλέω (amo) y περιπατέω (camino alrededor). En la 1ª persona del singular, -έω se contrae en -ῶ. En la 3ª persona del singular, -έει se contrae en -εῖ.",
+            "pl": "Dwa czasowniki w tej części mają temat na -έω: φιλέω (kocham) i περιπατέω (chodzę). W 1. os. l.poj. -έω ściąga się do -ῶ. W 3. os. l.poj. -έει ściąga się do -εῖ.",
+            "fil": "Dalawang pandiwa sa bahaging ito ay may -έω na tema: φιλέω (mahal ko) at περιπατέω (lumalakad ako). Sa 1st person singular, -έω ay nag-co-contract sa -ῶ. Sa 3rd person singular, -έει ay nag-co-contract sa -εῖ."
+          }
         },
         {
           "id": 11,
           "heading": "4. Subordinate clauses: ὅτε (\"when\") and ὅτι (\"because, that\")",
           "content": "ὅτε introduces a temporal clause; ὅτι introduces a causal or content clause.",
           "examples": [
-            {"greek": "ὅτε ὁ γεωργὸς σκάπτει ἐν τῷ ἀγρῷ", "note": "temporal: when the farmer is digging in the field"},
-            {"greek": "ὁ βίος καλός ἐστιν ὅτι ὁ θεὸς ἀγαθός", "note": "causal: life is good because God is good"}
-          ]
+            {
+              "greek": "ὅτε ὁ γεωργὸς σκάπτει ἐν τῷ ἀγρῷ",
+              "note": "temporal: when the farmer is digging in the field",
+              "noteTranslations": {
+                "es": "«sale de la casa» — genitivo con ἐκ",
+                "pl": "«wychodzi z domu» — dopełniacz z ἐκ",
+                "fil": "«lumalabas mula sa bahay» — genitive kasama ang ἐκ"
+              }
+            },
+            {
+              "greek": "ὁ βίος καλός ἐστιν ὅτι ὁ θεὸς ἀγαθός",
+              "note": "causal: life is good because God is good",
+              "noteTranslations": {
+                "es": "«la voz del agricultor» — genitivo de posesión",
+                "pl": "«głos rolnika» — dopełniacz posesywny",
+                "fil": "«ang boses ng magsasaka» — genitive ng pagmamay-ari"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "4. El genitivo — posesión y «fuera de»",
+            "pl": "4. Dopełniacz — posesja i «z»",
+            "fil": "4. Ang genitive — pagmamay-ari at «mula sa»"
+          },
+          "contentTranslations": {
+            "es": "El genitivo singular de los sustantivos masculinos de la 2ª declinación termina en -ου con artículo τοῦ. Se usa principalmente con ἐκ/ἐξ («fuera de») y para expresar posesión.",
+            "pl": "Dopełniacz l.poj. rzeczowników męskich 2. deklinacji kończy się na -ου z rodzajnikiem τοῦ. Używany głównie z ἐκ/ἐξ («z») i do wyrażania posesji.",
+            "fil": "Ang genitive singular ng mga panlalaking 2nd declension na pangngalan ay nagtatapos sa -ου kasama ang pantukoy na τοῦ. Pangunahing ginagamit kasama ang ἐκ/ἐξ («mula sa») at para sa pagpapahayag ng pagmamay-ari."
+          }
         },
         {
           "id": 12,
           "heading": "5. New verbs of motion and rest",
           "content": "All follow the regular -ει (3 sg.) ending. περιπατέω, ποιέω, εὐχαριστέω are -έω contracts.",
           "examples": [
-            {"greek": "καθίζει καὶ μένει ἐν τῷ οἴκῳ", "note": "he sits and stays in the house"},
-            {"greek": "ὁ θεὸς ποιεῖ τὸν χόρτον", "note": "God makes the grass"}
-          ]
+            {
+              "greek": "καθίζει καὶ μένει ἐν τῷ οἴκῳ",
+              "note": "he sits and stays in the house",
+              "noteTranslations": {
+                "es": "«hoy cava el campo»",
+                "pl": "«dziś kopie pole»",
+                "fil": "«ngayon humuhukay ng bukid»"
+              }
+            },
+            {
+              "greek": "ὁ θεὸς ποιεῖ τὸν χόρτον",
+              "note": "God makes the grass",
+              "noteTranslations": {
+                "es": "«luego sale»",
+                "pl": "«potem wychodzi»",
+                "fil": "«pagkatapos ay lumabas»"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "5. Adverbios de tiempo",
+            "pl": "5. Przysłówki czasu",
+            "fil": "5. Mga pang-abay ng oras"
+          },
+          "contentTranslations": {
+            "es": "Varios adverbios de tiempo nuevos aparecen en la Parte B: σήμερον (hoy), νῦν (ahora), ἔπειτα (luego), ἀληθῶς (verdaderamente). Modifican al verbo y no cambian de forma.",
+            "pl": "W Części B pojawia się kilka nowych przysłówków czasu: σήμερον (dziś), νῦν (teraz), ἔπειτα (potem), ἀληθῶς (prawdziwie). Modyfikują czasownik i nie zmieniają formy.",
+            "fil": "Ilang bagong pang-abay ng oras ang lumabas sa Bahagi B: σήμερον (ngayon), νῦν (ngayon na), ἔπειτα (pagkatapos), ἀληθῶς (tunay). Binibigyang-katangian nila ang pandiwa at hindi nagbabago ang anyo."
+          }
         },
         {
           "id": 13,
           "heading": "6. Adverbs",
           "content": "Adverbs typically end in -ως when formed from adjectives. Time adverbs and connectors stand alone.",
           "examples": [
-            {"greek": "ἀληθῶς ἀγαθός ἐστιν ὁ θεός", "note": "truly God is good"},
-            {"greek": "σήμερον ἐν τῷ ἀγρῷ σκάπτει", "note": "today he digs in the field"}
-          ]
+            {
+              "greek": "ἀληθῶς ἀγαθός ἐστιν ὁ θεός",
+              "note": "truly God is good",
+              "noteTranslations": {
+                "es": "«cuando cava en el campo»",
+                "pl": "«kiedy kopie na polu»",
+                "fil": "«kapag humuhukay sa bukid»"
+              }
+            },
+            {
+              "greek": "σήμερον ἐν τῷ ἀγρῷ σκάπτει",
+              "note": "today he digs in the field",
+              "noteTranslations": {
+                "es": "«porque la vida es difícil»",
+                "pl": "«ponieważ życie jest trudne»",
+                "fil": "«dahil mahirap ang buhay»"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "6. Las conjunciones ὅτε y ὅτι",
+            "pl": "6. Spójniki ὅτε i ὅτι",
+            "fil": "6. Ang mga pangatnig ὅτε at ὅτι"
+          },
+          "contentTranslations": {
+            "es": "ὅτε introduce una cláusula temporal: «cuando». ὅτι introduce una cláusula de contenido («que») o una cláusula causal («porque»). Ambas van seguidas de un verbo.",
+            "pl": "ὅτε wprowadza zdanie czasowe: «kiedy». ὅτι wprowadza zdanie treści («że») lub zdanie przyczynowe («ponieważ»). Po obu następuje czasownik.",
+            "fil": "Ang ὅτε ay nagpapakilala ng temporal clause: «kapag». Ang ὅτι ay nagpapakilala ng content clause («na») o causal clause («dahil»). Parehong sinusundan ng pandiwa."
+          }
         },
         {
           "id": 14,
           "heading": "7. The negative conjunction οὐδέ (\"nor, and not\")",
           "content": "οὐδέ continues a negative clause: \"neither / nor / and not.\" It joins another negated element to a previous one.",
           "examples": [
-            {"greek": "οὐ σκάπτει τὸν ἀγρόν, οὐδὲ φέρει τὸν λίθον", "note": "he is not digging the field, nor carrying the stone"},
-            {"greek": "οὐ γὰρ σκάπτει οὐδὲ φέρει λίθους", "note": "for he is neither digging nor carrying stones"}
-          ]
+            {
+              "greek": "οὐ σκάπτει τὸν ἀγρόν, οὐδὲ φέρει τὸν λίθον",
+              "note": "he is not digging the field, nor carrying the stone"
+            },
+            {
+              "greek": "οὐ γὰρ σκάπτει οὐδὲ φέρει λίθους",
+              "note": "for he is neither digging nor carrying stones"
+            }
+          ],
+          "headingTranslations": {
+            "es": "7. Los cuatro casos — resumen",
+            "pl": "7. Cztery przypadki — podsumowanie",
+            "fil": "7. Ang apat na kaso — buod"
+          },
+          "contentTranslations": {
+            "es": "Al final del Capítulo 1 hemos visto los cuatro casos del singular para los sustantivos masculinos de la 2ª declinación.",
+            "pl": "Pod koniec Rozdziału 1 widzieliśmy wszystkie cztery przypadki l.poj. dla rzeczowników męskich 2. deklinacji.",
+            "fil": "Sa pagtatapos ng Kabanata 1 ay nakita na natin ang apat na kaso ng singular para sa mga panlalaking 2nd declension na pangngalan."
+          }
         }
       ]
     }

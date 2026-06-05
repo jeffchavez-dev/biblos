@@ -211,6 +211,95 @@ def process_visualstory(client, path: Path, langs: list[str], dry_run: bool):
         print(f"  ✓ Saved {path.relative_to(DATA_DIR)}")
 
 
+def process_grammar(client, path: Path, langs: list[str], dry_run: bool):
+    data = json.load(open(path))
+    changed = False
+
+    for lang in langs:
+        # Collect all translatable text fields with a stable key path
+        items = []  # {"id": "<key>", "text": "<english>"}
+        for pi, part in enumerate(data.get("parts", [])):
+            for si, sec in enumerate(part.get("sections", [])):
+                prefix = f"{pi}.{si}"
+                if sec.get("heading") and lang not in (sec.get("headingTranslations") or {}):
+                    items.append({"id": f"{prefix}.heading", "text": sec["heading"]})
+                if sec.get("content") and lang not in (sec.get("contentTranslations") or {}):
+                    items.append({"id": f"{prefix}.content", "text": sec["content"]})
+                for ei, ex in enumerate(sec.get("examples", [])):
+                    if ex.get("note") and lang not in (ex.get("noteTranslations") or {}):
+                        items.append({"id": f"{prefix}.ex{ei}.note", "text": ex["note"]})
+                if sec.get("table"):
+                    tbl = sec["table"]
+                    if tbl.get("caption") and lang not in (tbl.get("captionTranslations") or {}):
+                        items.append({"id": f"{prefix}.tbl.caption", "text": tbl["caption"]})
+                    for ri, row in enumerate(tbl.get("rows", [])):
+                        # Only translate the Function column (index 2), not Case/Form
+                        if len(row) > 2 and lang not in ((tbl.get("rowTranslations") or {}).get(str(ri)) or {}):
+                            items.append({"id": f"{prefix}.tbl.r{ri}", "text": row[2]})
+                for ti, tbl in enumerate(sec.get("tables", [])):
+                    if tbl.get("caption") and lang not in (tbl.get("captionTranslations") or {}):
+                        items.append({"id": f"{prefix}.t{ti}.caption", "text": tbl["caption"]})
+                    for ri, row in enumerate(tbl.get("rows", [])):
+                        if len(row) > 2 and lang not in ((tbl.get("rowTranslations") or {}).get(str(ri)) or {}):
+                            items.append({"id": f"{prefix}.t{ti}.r{ri}", "text": row[2]})
+                if sec.get("list"):
+                    for li, item in enumerate(sec["list"]):
+                        if item.get("definition") and lang not in (item.get("definitionTranslations") or {}):
+                            items.append({"id": f"{prefix}.list{li}.def", "text": item["definition"]})
+
+        if not items:
+            continue
+
+        print(f"  {path.relative_to(DATA_DIR)}: {len(items)} grammar fields → {lang.upper()}")
+        if dry_run:
+            continue
+
+        results = translate_items(client, items, lang,
+            "Greek grammar explanations and notes for a language-learning app (keep technical Greek terms, case names, and Greek words untranslated)")
+
+        # Write results back by key path
+        for pi, part in enumerate(data.get("parts", [])):
+            for si, sec in enumerate(part.get("sections", [])):
+                prefix = f"{pi}.{si}"
+                key = f"{prefix}.heading"
+                if key in results:
+                    sec.setdefault("headingTranslations", {})[lang] = results[key]; changed = True
+                key = f"{prefix}.content"
+                if key in results:
+                    sec.setdefault("contentTranslations", {})[lang] = results[key]; changed = True
+                for ei, ex in enumerate(sec.get("examples", [])):
+                    key = f"{prefix}.ex{ei}.note"
+                    if key in results:
+                        ex.setdefault("noteTranslations", {})[lang] = results[key]; changed = True
+                if sec.get("table"):
+                    tbl = sec["table"]
+                    key = f"{prefix}.tbl.caption"
+                    if key in results:
+                        tbl.setdefault("captionTranslations", {})[lang] = results[key]; changed = True
+                    for ri in range(len(tbl.get("rows", []))):
+                        key = f"{prefix}.tbl.r{ri}"
+                        if key in results:
+                            tbl.setdefault("rowTranslations", {}).setdefault(str(ri), {})[lang] = results[key]; changed = True
+                for ti, tbl in enumerate(sec.get("tables", [])):
+                    key = f"{prefix}.t{ti}.caption"
+                    if key in results:
+                        tbl.setdefault("captionTranslations", {})[lang] = results[key]; changed = True
+                    for ri in range(len(tbl.get("rows", []))):
+                        key = f"{prefix}.t{ti}.r{ri}"
+                        if key in results:
+                            tbl.setdefault("rowTranslations", {}).setdefault(str(ri), {})[lang] = results[key]; changed = True
+                if sec.get("list"):
+                    for li, item in enumerate(sec["list"]):
+                        key = f"{prefix}.list{li}.def"
+                        if key in results:
+                            item.setdefault("definitionTranslations", {})[lang] = results[key]; changed = True
+
+    if changed and not dry_run:
+        with open(path, "w") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"  ✓ Saved {path.relative_to(DATA_DIR)}")
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -241,6 +330,10 @@ def main():
     # Visual stories
     for path in sorted(DATA_DIR.glob("**/visualstory.json")):
         process_visualstory(client, path, langs, args.dry_run)
+
+    # Grammar
+    for path in sorted(DATA_DIR.glob("**/grammar.json")):
+        process_grammar(client, path, langs, args.dry_run)
 
     print("\nDone.")
     if args.dry_run:

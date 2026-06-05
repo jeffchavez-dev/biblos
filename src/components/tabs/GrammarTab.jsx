@@ -1,6 +1,9 @@
+import { useLanguage, t } from '../../context/LanguageContext.jsx'
 import './GrammarTab.css'
 
 export default function GrammarTab({ grammar, activePart }) {
+  const { lang } = useLanguage()
+
   if (!grammar) {
     return <div className="empty-tab">📐 Grammar for this chapter has not been added yet.</div>
   }
@@ -8,6 +11,11 @@ export default function GrammarTab({ grammar, activePart }) {
   const allParts = grammar.parts ?? [{ label: null, sections: grammar.sections ?? [] }]
   const partIndex = activePart === 'B' ? 1 : 0
   const parts = [allParts[partIndex]].filter(Boolean)
+
+  function tRow(tbl, ri, cell) {
+    const rowTrans = tbl.rowTranslations?.[String(ri)]
+    return t(cell, rowTrans, lang)
+  }
 
   return (
     <div className="grammar-tab">
@@ -23,13 +31,21 @@ export default function GrammarTab({ grammar, activePart }) {
 
           {part.sections.map(section => (
             <div key={section.id} className="grammar-section">
-              <h3 className="grammar-heading">{section.heading}</h3>
-              {section.content && <p className="grammar-content">{section.content}</p>}
+              <h3 className="grammar-heading">
+                {t(section.heading, section.headingTranslations, lang)}
+              </h3>
+              {section.content && (
+                <p className="grammar-content">
+                  {t(section.content, section.contentTranslations, lang)}
+                </p>
+              )}
 
               {section.table && (
                 <div className="grammar-table-wrap">
                   {section.table.caption && (
-                    <div className="table-caption">{section.table.caption}</div>
+                    <div className="table-caption">
+                      {t(section.table.caption, section.table.captionTranslations, lang)}
+                    </div>
                   )}
                   <table className="grammar-table">
                     <thead>
@@ -45,7 +61,9 @@ export default function GrammarTab({ grammar, activePart }) {
                           {row.map((cell, ci) => (
                             ci === 0
                               ? <th key={ci} className="row-header">{cell}</th>
-                              : <td key={ci} className="greek">{cell}</td>
+                              : ci === 1
+                                ? <td key={ci} className="greek">{cell}</td>
+                                : <td key={ci}>{tRow(section.table, ri, cell)}</td>
                           ))}
                         </tr>
                       ))}
@@ -56,7 +74,11 @@ export default function GrammarTab({ grammar, activePart }) {
 
               {section.tables && section.tables.map((tbl, ti) => (
                 <div key={ti} className="grammar-table-wrap">
-                  {tbl.caption && <div className="table-caption">{tbl.caption}</div>}
+                  {tbl.caption && (
+                    <div className="table-caption">
+                      {t(tbl.caption, tbl.captionTranslations, lang)}
+                    </div>
+                  )}
                   <table className="grammar-table">
                     <thead>
                       <tr>{tbl.headers.map((h, i) => <th key={i}>{h}</th>)}</tr>
@@ -67,7 +89,9 @@ export default function GrammarTab({ grammar, activePart }) {
                           {row.map((cell, ci) => (
                             ci === 0
                               ? <th key={ci} className="row-header">{cell}</th>
-                              : <td key={ci} className="greek">{cell}</td>
+                              : ci === 1
+                                ? <td key={ci} className="greek">{cell}</td>
+                                : <td key={ci}>{tRow(tbl, ri, cell)}</td>
                           ))}
                         </tr>
                       ))}
@@ -81,7 +105,9 @@ export default function GrammarTab({ grammar, activePart }) {
                   {section.examples.map((ex, i) => (
                     <div key={i} className="grammar-example">
                       <span className="greek example-greek">{ex.greek}</span>
-                      <span className="example-note">{ex.note}</span>
+                      <span className="example-note">
+                        {t(ex.note, ex.noteTranslations, lang)}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -92,7 +118,9 @@ export default function GrammarTab({ grammar, activePart }) {
                   {section.list.map((item, i) => (
                     <div key={i} className="grammar-list-item">
                       <span className="list-term">{item.term}</span>
-                      <span className="list-def">{item.definition}</span>
+                      <span className="list-def">
+                        {t(item.definition, item.definitionTranslations, lang)}
+                      </span>
                     </div>
                   ))}
                 </div>

@@ -10,27 +10,79 @@
           "content": "Neuter nouns of the 2nd declension are easy: nominative and accusative are identical (both end in -ον with article τό). Genitive and dative use the same endings as the masculine (-ου / -ῳ).",
           "table": {
             "caption": "Neuter 2nd declension, singular — δένδρον (\"tree\")",
-            "headers": ["Case", "Form", "Function"],
+            "headers": [
+              "Case",
+              "Form",
+              "Function"
+            ],
             "rows": [
-              ["Nominative", "τὸ δένδρ-ον", "subject"],
-              ["Accusative", "τὸ δένδρ-ον", "direct object (same as nom.!)"],
-              ["Genitive", "τοῦ δένδρ-ου", "of the tree"],
-              ["Dative", "τῷ δένδρ-ῳ", "in/on the tree"]
+              [
+                "Nominative",
+                "τὸ δένδρ-ον",
+                "subject"
+              ],
+              [
+                "Accusative",
+                "τὸ δένδρ-ον",
+                "direct object (same as nom.!)"
+              ],
+              [
+                "Genitive",
+                "τοῦ δένδρ-ου",
+                "of the tree"
+              ],
+              [
+                "Dative",
+                "τῷ δένδρ-ῳ",
+                "in/on the tree"
+              ]
             ]
           },
           "examples": [
-            {"greek": "τὸ δένδρον ἔχει τοὺς κλάδους", "note": "nominative: the tree has the branches"},
-            {"greek": "λαμβάνει τὸ δρέπανον", "note": "accusative: he takes the sickle"}
-          ]
+            {
+              "greek": "τὸ δένδρον ἔχει τοὺς κλάδους",
+              "note": "nominative: the tree has the branches"
+            },
+            {
+              "greek": "λαμβάνει τὸ δρέπανον",
+              "note": "accusative: he takes the sickle"
+            }
+          ],
+          "headingTranslations": {
+            "es": "1. La declinación neutra de la 2ª",
+            "pl": "1. Deklinacja nijaka 2.",
+            "fil": "1. Ang neuter 2nd declension"
+          },
+          "contentTranslations": {
+            "es": "Los sustantivos neutros de la 2ª declinación son fáciles: el nominativo y el acusativo tienen la misma forma terminada en -ον (artículo τό). El genitivo y el dativo son iguales que el masculino.",
+            "pl": "Rzeczowniki nijakie 2. deklinacji są łatwe: mianownik i biernik mają tę samą formę kończącą się na -ον (rodzajnik τό). Dopełniacz i celownik są takie same jak w rodzaju męskim.",
+            "fil": "Madali ang mga neuter na pangngalan ng 2nd declension: ang nominative at accusative ay may parehong anyo na nagtatapos sa -ον (pantukoy τό). Ang genitive at dative ay katulad ng panlalaki."
+          }
         },
         {
           "id": 2,
           "heading": "2. Neuter plural subject + singular verb",
           "content": "A characteristic Greek rule: a neuter plural subject often takes a singular verb. The text shows this alongside the regular plural agreement of masculine subjects.",
           "examples": [
-            {"greek": "τὰ ζῷά ἐστιν ἐν τῷ ἀγρῷ", "note": "neuter pl. + sg. verb: the animals are in the field"},
-            {"greek": "οἱ κλάδοι φέρουσιν τοὺς καρπούς", "note": "masc. pl. + pl. verb: the branches bear the fruits"}
-          ]
+            {
+              "greek": "τὰ ζῷά ἐστιν ἐν τῷ ἀγρῷ",
+              "note": "neuter pl. + sg. verb: the animals are in the field"
+            },
+            {
+              "greek": "οἱ κλάδοι φέρουσιν τοὺς καρπούς",
+              "note": "masc. pl. + pl. verb: the branches bear the fruits"
+            }
+          ],
+          "headingTranslations": {
+            "es": "2. Sujeto plural neutro + verbo singular",
+            "pl": "2. Podmiot nijaki w l.mn. + czasownik w l.poj.",
+            "fil": "2. Neuter plural subject + singular verb"
+          },
+          "contentTranslations": {
+            "es": "Una regla característica del griego: un sujeto plural neutro a menudo lleva el verbo en singular. Esta regla aparece con animales y cosas (por ejemplo, «los animales están»).",
+            "pl": "Charakterystyczna reguła greki: nijaki podmiot w liczbie mnogiej często łączy się z czasownikiem w liczbie pojedynczej. Reguła ta pojawia się przy zwierzętach i rzeczach.",
+            "fil": "Isang katangiang panuntunang Griyego: ang neuter plural subject ay madalas na kumukuha ng singular verb. Ang panuntunan na ito ay lumabas sa mga hayop at bagay."
+          }
         },
         {
           "id": 3,
@@ -38,16 +90,47 @@
           "content": "Nominative plural ends in -οι (article οἱ); accusative plural ends in -ους (article τούς).",
           "table": {
             "caption": "Masculine 2nd declension — nom. & acc., now with plural",
-            "headers": ["Case", "Singular", "Plural", "Function"],
+            "headers": [
+              "Case",
+              "Singular",
+              "Plural",
+              "Function"
+            ],
             "rows": [
-              ["Nom.", "ὁ καρπ-ός", "οἱ καρπ-οί", "subject"],
-              ["Acc.", "τὸν καρπ-όν", "τοὺς καρπ-ούς", "direct object"]
+              [
+                "Nom.",
+                "ὁ καρπ-ός",
+                "οἱ καρπ-οί",
+                "subject"
+              ],
+              [
+                "Acc.",
+                "τὸν καρπ-όν",
+                "τοὺς καρπ-ούς",
+                "direct object"
+              ]
             ]
           },
           "examples": [
-            {"greek": "καλοί εἰσιν οἱ καρποί", "note": "the fruits are good"},
-            {"greek": "θερίζει τοὺς καρπούς", "note": "he harvests the fruits"}
-          ]
+            {
+              "greek": "καλοί εἰσιν οἱ καρποί",
+              "note": "the fruits are good"
+            },
+            {
+              "greek": "θερίζει τοὺς καρπούς",
+              "note": "he harvests the fruits"
+            }
+          ],
+          "headingTranslations": {
+            "es": "3. El plural masculino de la 2ª declinación",
+            "pl": "3. Liczba mnoga rodzaju męskiego 2. deklinacji",
+            "fil": "3. Ang plural ng panlalaking 2nd declension"
+          },
+          "contentTranslations": {
+            "es": "El nominativo plural termina en -οι (artículo οἱ); el acusativo plural termina en -ους (artículo τούς). El genitivo plural termina en -ων (artículo τῶν). El dativo plural termina en -οις (artículo τοῖς).",
+            "pl": "Mianownik l.mn. kończy się na -οι (rodzajnik οἱ); biernik l.mn. na -ους (rodzajnik τούς). Dopełniacz l.mn. kończy się na -ων (rodzajnik τῶν). Celownik l.mn. na -οις (rodzajnik τοῖς).",
+            "fil": "Ang nominative plural ay nagtatapos sa -οι (pantukoy οἱ); ang accusative plural sa -ους (pantukoy τούς). Ang genitive plural ay nagtatapos sa -ων (pantukoy τῶν). Ang dative plural sa -οις (pantukoy τοῖς)."
+          }
         },
         {
           "id": 4,
@@ -56,63 +139,190 @@
           "tables": [
             {
               "caption": "Present active — with plural added",
-              "headers": ["Person", "Regular (-ω)", "Contract (-έω)"],
+              "headers": [
+                "Person",
+                "Regular (-ω)",
+                "Contract (-έω)"
+              ],
               "rows": [
-                ["1 sg.", "βλέπ-ω", "φιλ-ῶ"],
-                ["3 sg.", "βλέπ-ει", "φιλ-εῖ"],
-                ["3 pl.", "βλέπ-ουσι(ν)", "φιλ-οῦσι(ν)"]
+                [
+                  "1 sg.",
+                  "βλέπ-ω",
+                  "φιλ-ῶ"
+                ],
+                [
+                  "3 sg.",
+                  "βλέπ-ει",
+                  "φιλ-εῖ"
+                ],
+                [
+                  "3 pl.",
+                  "βλέπ-ουσι(ν)",
+                  "φιλ-οῦσι(ν)"
+                ]
               ]
             },
             {
               "caption": "εἰμί — with plural added",
-              "headers": ["Person", "Form", "Meaning"],
+              "headers": [
+                "Person",
+                "Form",
+                "Meaning"
+              ],
               "rows": [
-                ["1 sg.", "εἰμί", "I am"],
-                ["3 sg.", "ἐστί(ν)", "he/she/it is"],
-                ["3 pl.", "εἰσί(ν)", "they are"]
+                [
+                  "1 sg.",
+                  "εἰμί",
+                  "I am"
+                ],
+                [
+                  "3 sg.",
+                  "ἐστί(ν)",
+                  "he/she/it is"
+                ],
+                [
+                  "3 pl.",
+                  "εἰσί(ν)",
+                  "they are"
+                ]
               ]
             }
           ],
           "examples": [
-            {"greek": "οἱ κλάδοι φέρουσιν τοὺς καρπούς", "note": "the branches bear the fruits"},
-            {"greek": "καρποὶ καὶ κλάδοι εἰσιν ἐπὶ τῷ δένδρῳ", "note": "fruits and branches are on the tree"}
-          ]
+            {
+              "greek": "οἱ κλάδοι φέρουσιν τοὺς καρπούς",
+              "note": "the branches bear the fruits"
+            },
+            {
+              "greek": "καρποὶ καὶ κλάδοι εἰσιν ἐπὶ τῷ δένδρῳ",
+              "note": "fruits and branches are on the tree"
+            }
+          ],
+          "headingTranslations": {
+            "es": "4. Indicativo activo presente — 3ª persona del plural",
+            "pl": "4. Czas teraźniejszy czynny — 3. os. l.mn.",
+            "fil": "4. Present active indicative — 3rd plural"
+          },
+          "contentTranslations": {
+            "es": "La terminación de 3ª persona del plural es -ουσι(ν). El verbo «ser» tiene εἰσί(ν) en plural. Los verbos contractos en -έω forman -οῦσι.",
+            "pl": "Końcówka 3. os. l.mn. to -ουσι(ν). Czasownik «być» ma εἰσί(ν) w l.mn. Czasowniki ściągane na -έω tworzą -οῦσι.",
+            "fil": "Ang 3rd plural ending ay -ουσι(ν). Ang pandiwang «maging» ay may εἰσί(ν) sa plural. Ang mga -έω contract verb ay bumubuo ng -οῦσι."
+          }
         },
         {
           "id": 5,
           "heading": "5. The preposition ἐπί + dative — \"on, upon\"",
           "content": "ἐπί + dative expresses resting upon something.",
           "examples": [
-            {"greek": "καρποί εἰσιν ἐπὶ τῷ δένδρῳ", "note": "fruits are on the tree"},
-            {"greek": "ἐπὶ τῷ δένδρῳ καρποὶ καὶ κλάδοι εἰσιν", "note": "on the tree are fruits and branches"}
-          ]
+            {
+              "greek": "καρποί εἰσιν ἐπὶ τῷ δένδρῳ",
+              "note": "fruits are on the tree",
+              "noteTranslations": {
+                "es": "«los frutos están sobre el árbol»",
+                "pl": "«owoce są na drzewie»",
+                "fil": "«ang mga bunga ay nasa ibabaw ng puno»"
+              }
+            },
+            {
+              "greek": "ἐπὶ τῷ δένδρῳ καρποὶ καὶ κλάδοι εἰσιν",
+              "note": "on the tree are fruits and branches"
+            }
+          ],
+          "headingTranslations": {
+            "es": "5. La preposición ἐπί + dativo — «sobre»",
+            "pl": "5. Przyimek ἐπί + celownik — «na»",
+            "fil": "5. Ang preposisyon ἐπί + dative — «sa ibabaw ng»"
+          },
+          "contentTranslations": {
+            "es": "ἐπί + dativo expresa descanso sobre algo.",
+            "pl": "ἐπί + celownik wyraża spoczywanie na czymś.",
+            "fil": "Ang ἐπί + dative ay nagpapahayag ng pahinga sa ibabaw ng isang bagay."
+          }
         },
         {
           "id": 6,
           "heading": "6. The genitive of possession",
           "content": "Without a preposition, the genitive expresses possession or close belonging — \"of the X.\"",
           "examples": [
-            {"greek": "οἱ καρποὶ τοῦ δένδρου", "note": "the fruits of the tree"},
-            {"greek": "ὁ ὄνος ἐστιν ἐν τῷ ἀγρῷ τοῦ γεωργοῦ", "note": "the donkey is in the farmer's field"}
-          ]
+            {
+              "greek": "οἱ καρποὶ τοῦ δένδρου",
+              "note": "the fruits of the tree",
+              "noteTranslations": {
+                "es": "«la voz del agricultor» — el agricultor posee la voz",
+                "pl": "«głos rolnika» — rolnik posiada głos",
+                "fil": "«ang boses ng magsasaka» — ang magsasaka ang may-ari ng boses"
+              }
+            },
+            {
+              "greek": "ὁ ὄνος ἐστιν ἐν τῷ ἀγρῷ τοῦ γεωργοῦ",
+              "note": "the donkey is in the farmer's field"
+            }
+          ],
+          "headingTranslations": {
+            "es": "6. El genitivo de posesión",
+            "pl": "6. Dopełniacz posesywny",
+            "fil": "6. Ang genitive ng pagmamay-ari"
+          },
+          "contentTranslations": {
+            "es": "Sin preposición, el genitivo expresa posesión o parentesco. El poseedor está en genitivo; la cosa poseída puede ir en cualquier caso.",
+            "pl": "Bez przyimka dopełniacz wyraża posesję lub przynależność. Posiadacz jest w dopełniaczu; posiadana rzecz może być w dowolnym przypadku.",
+            "fil": "Nang walang preposisyon, ang genitive ay nagpapahayag ng pagmamay-ari o relasyon. Ang may-ari ay nasa genitive; ang bagay na pagmamay-ari ay maaaring nasa anumang kaso."
+          }
         },
         {
           "id": 7,
           "heading": "7. The preposition πέραν + genitive — \"across, beyond\"",
           "content": "πέραν takes the genitive and means \"across / on the other side of.\"",
           "examples": [
-            {"greek": "πέραν τοῦ ποταμοῦ θηρίον ἐστίν", "note": "across the river there is a beast"},
-            {"greek": "βλέπει τὸν λύκον πέραν τοῦ ποταμοῦ", "note": "he sees the wolf across the river"}
-          ]
+            {
+              "greek": "πέραν τοῦ ποταμοῦ θηρίον ἐστίν",
+              "note": "across the river there is a beast",
+              "noteTranslations": {
+                "es": "«al otro lado del río» — el lobo está al otro lado",
+                "pl": "«po drugiej stronie rzeki» — wilk jest po drugiej stronie",
+                "fil": "«sa kabilang dako ng ilog» — ang lobo ay nasa kabilang dako"
+              }
+            },
+            {
+              "greek": "βλέπει τὸν λύκον πέραν τοῦ ποταμοῦ",
+              "note": "he sees the wolf across the river"
+            }
+          ],
+          "headingTranslations": {
+            "es": "7. La preposición πέραν + genitivo — «al otro lado»",
+            "pl": "7. Przyimek πέραν + dopełniacz — «po drugiej stronie»",
+            "fil": "7. Ang preposisyon πέραν + genitive — «sa kabilang dako»"
+          },
+          "contentTranslations": {
+            "es": "πέραν lleva el genitivo y significa «al otro lado / más allá».",
+            "pl": "πέραν rządzi dopełniaczem i znaczy «po drugiej stronie / za».",
+            "fil": "Ang πέραν ay kumukuha ng genitive at nangangahulugang «sa kabilang dako / lampas»."
+          }
         },
         {
           "id": 8,
           "heading": "8. The 3rd-declension noun βοῦς",
           "content": "βοῦς (\"ox\") is a 3rd-declension noun (a new pattern, treated fully later). For now: nom. ὁ βοῦς, acc. τὸν βοῦν.",
           "examples": [
-            {"greek": "μέγας ἐστὶν ὁ βοῦς", "note": "nominative"},
-            {"greek": "ὁ λύκος οὐ βλέπει τὸν βοῦν", "note": "accusative"}
-          ]
+            {
+              "greek": "μέγας ἐστὶν ὁ βοῦς",
+              "note": "nominative"
+            },
+            {
+              "greek": "ὁ λύκος οὐ βλέπει τὸν βοῦν",
+              "note": "accusative"
+            }
+          ],
+          "headingTranslations": {
+            "es": "8. El sustantivo βοῦς de la 3ª declinación",
+            "pl": "8. Rzeczownik βοῦς 3. deklinacji",
+            "fil": "8. Ang 3rd-declension na pangngalan βοῦς"
+          },
+          "contentTranslations": {
+            "es": "βοῦς («buey») es un sustantivo de la 3ª declinación (un nuevo patrón, tratado aquí brevemente). El nominativo singular es βοῦς; el acusativo singular es βοῦν.",
+            "pl": "βοῦς («wół») jest rzeczownikiem 3. deklinacji (nowy wzorzec, tutaj krótko omówiony). Mianownik l.poj. to βοῦς; biernik l.poj. to βοῦν.",
+            "fil": "Ang βοῦς («baka») ay isang 3rd-declension na pangngalan (bagong pattern, maikli lang itinalakay dito). Ang nominative singular ay βοῦς; ang accusative singular ay βοῦν."
+          }
         }
       ]
     },
@@ -125,27 +335,79 @@
           "content": "Feminine 1st-declension nouns end in -α or -η in the nominative. Article ἡ (nom.), τήν (acc.), τῆς (gen.), τῇ (dat.). Note: ῥάβδος is feminine but follows the 2nd-declension pattern (a feminine 2nd decl. noun).",
           "table": {
             "caption": "Feminine 1st declension, singular",
-            "headers": ["Case", "in -η (φωνή)", "in -α (ἡμέρα)"],
+            "headers": [
+              "Case",
+              "in -η (φωνή)",
+              "in -α (ἡμέρα)"
+            ],
             "rows": [
-              ["Nom.", "ἡ φων-ή", "ἡ ἡμέρ-α"],
-              ["Acc.", "τὴν φων-ήν", "τὴν ἡμέρ-αν"],
-              ["Gen.", "τῆς φων-ῆς", "τῆς ἡμέρ-ας"],
-              ["Dat.", "τῇ φων-ῇ", "τῇ ἡμέρ-ᾳ"]
+              [
+                "Nom.",
+                "ἡ φων-ή",
+                "ἡ ἡμέρ-α"
+              ],
+              [
+                "Acc.",
+                "τὴν φων-ήν",
+                "τὴν ἡμέρ-αν"
+              ],
+              [
+                "Gen.",
+                "τῆς φων-ῆς",
+                "τῆς ἡμέρ-ας"
+              ],
+              [
+                "Dat.",
+                "τῇ φων-ῇ",
+                "τῇ ἡμέρ-ᾳ"
+              ]
             ]
           },
           "examples": [
-            {"greek": "καλή ἐστιν ἡ ἡμέρα", "note": "nominative: the day is beautiful"},
-            {"greek": "λαμβάνει τὴν ῥάβδον αὐτοῦ", "note": "accusative: he takes his rod"}
-          ]
+            {
+              "greek": "καλή ἐστιν ἡ ἡμέρα",
+              "note": "nominative: the day is beautiful"
+            },
+            {
+              "greek": "λαμβάνει τὴν ῥάβδον αὐτοῦ",
+              "note": "accusative: he takes his rod"
+            }
+          ],
+          "headingTranslations": {
+            "es": "1. La declinación femenina de la 1ª",
+            "pl": "1. Deklinacja żeńska 1.",
+            "fil": "1. Ang pambabae 1st declension"
+          },
+          "contentTranslations": {
+            "es": "Los sustantivos femeninos de la 1ª declinación terminan en -α o -η en nominativo singular (artículo ἡ). El acusativo singular termina en -αν o -ην (artículo τήν). El genitivo singular termina en -ας o -ης (artículo τῆς). El dativo singular termina en -ᾳ o -ῃ (artículo τῇ).",
+            "pl": "Rzeczowniki żeńskie 1. deklinacji kończą się na -α lub -η w mianowniku l.poj. (rodzajnik ἡ). Biernik l.poj. kończy się na -αν lub -ην (rodzajnik τήν). Dopełniacz l.poj. na -ας lub -ης (rodzajnik τῆς). Celownik l.poj. na -ᾳ lub -ῃ (rodzajnik τῇ).",
+            "fil": "Ang mga pambabae 1st declension na pangngalan ay nagtatapos sa -α o -η sa nominative singular (pantukoy ἡ). Ang accusative singular ay nagtatapos sa -αν o -ην (pantukoy τήν). Ang genitive singular sa -ας o -ης (pantukoy τῆς). Ang dative singular sa -ᾳ o -ῃ (pantukoy τῇ)."
+          }
         },
         {
           "id": 10,
           "heading": "2. The dative of means / instrument",
           "content": "Without a preposition, the dative can express the means by which something is done.",
           "examples": [
-            {"greek": "κράζει φωνῇ μεγάλῃ", "note": "he cries with a great voice"},
-            {"greek": "βάλλει τοῖς λίθοις ἐπὶ τὸν λύκον", "note": "the stones are the means: he pelts the wolf with the stones"}
-          ]
+            {
+              "greek": "κράζει φωνῇ μεγάλῃ",
+              "note": "he cries with a great voice"
+            },
+            {
+              "greek": "βάλλει τοῖς λίθοις ἐπὶ τὸν λύκον",
+              "note": "the stones are the means: he pelts the wolf with the stones"
+            }
+          ],
+          "headingTranslations": {
+            "es": "2. El dativo de instrumento / medio",
+            "pl": "2. Celownik narzędzia / środka",
+            "fil": "2. Ang dative ng paraan / instrumento"
+          },
+          "contentTranslations": {
+            "es": "Sin preposición, el dativo puede expresar el medio o instrumento por el que se realiza una acción.",
+            "pl": "Bez przyimka celownik może wyrażać środek lub narzędzie, za pomocą którego wykonywana jest czynność.",
+            "fil": "Nang walang preposisyon, ang dative ay maaaring magpahayag ng paraan o instrumento kung paano ginagawa ang isang kilos."
+          }
         },
         {
           "id": 11,
@@ -153,63 +415,177 @@
           "content": "Forms of αὐτός function as 3rd-person pronouns. The genitive (αὐτοῦ, αὐτῆς) expresses possession (\"his, her\"). The accusative (αὐτόν, αὐτήν, αὐτό) is the direct object.",
           "table": {
             "caption": "αὐτός, -ή, -ό — introduced so far",
-            "headers": ["Case", "Masc.", "Fem.", "Neut."],
+            "headers": [
+              "Case",
+              "Masc.",
+              "Fem.",
+              "Neut."
+            ],
             "rows": [
-              ["Nom.", "αὐτ-ός", "αὐτ-ή", "αὐτ-ό"],
-              ["Acc.", "αὐτ-όν", "αὐτ-ήν", "αὐτ-ό"],
-              ["Gen.", "αὐτ-οῦ", "αὐτ-ῆς", "αὐτ-οῦ"]
+              [
+                "Nom.",
+                "αὐτ-ός",
+                "αὐτ-ή",
+                "αὐτ-ό"
+              ],
+              [
+                "Acc.",
+                "αὐτ-όν",
+                "αὐτ-ήν",
+                "αὐτ-ό"
+              ],
+              [
+                "Gen.",
+                "αὐτ-οῦ",
+                "αὐτ-ῆς",
+                "αὐτ-οῦ"
+              ]
             ]
           },
           "examples": [
-            {"greek": "οὐ καταλείπει τὰ ζῷα αὐτοῦ", "note": "he does not abandon his animals"},
-            {"greek": "θέλει ἁρπάζειν αὐτό", "note": "he wants to seize it"}
-          ]
+            {
+              "greek": "οὐ καταλείπει τὰ ζῷα αὐτοῦ",
+              "note": "he does not abandon his animals"
+            },
+            {
+              "greek": "θέλει ἁρπάζειν αὐτό",
+              "note": "he wants to seize it"
+            }
+          ],
+          "headingTranslations": {
+            "es": "3. El pronombre αὐτός, αὐτή, αὐτό («él, ella, ello»)",
+            "pl": "3. Zaimek αὐτός, αὐτή, αὐτό («on, ona, ono»)",
+            "fil": "3. Ang panghalip αὐτός, αὐτή, αὐτό («siya»)"
+          },
+          "contentTranslations": {
+            "es": "Las formas de αὐτός funcionan como pronombres de 3ª persona. El genitivo (αὐτοῦ, αὐτῆς, αὐτῶν) expresa posesión.",
+            "pl": "Formy αὐτός funkcjonują jako zaimki 3. osoby. Dopełniacz (αὐτοῦ, αὐτῆς, αὐτῶν) wyraża posesję.",
+            "fil": "Ang mga anyo ng αὐτός ay gumagana bilang mga panghalip sa 3rd person. Ang genitive (αὐτοῦ, αὐτῆς, αὐτῶν) ay nagpapahayag ng pagmamay-ari."
+          }
         },
         {
           "id": 12,
           "heading": "4. The complementary infinitive",
           "content": "Verbs of wanting (θέλω), being about to (μέλλω), and similar verbs take an infinitive complement. The present active infinitive ends in -ειν.",
           "examples": [
-            {"greek": "θέλει ἁρπάζειν τὸ ἀρνίον", "note": "he wants to seize the lamb"},
-            {"greek": "μέλλει σῴζειν τὸ πρόβατον", "note": "he is about to save the sheep"}
-          ]
+            {
+              "greek": "θέλει ἁρπάζειν τὸ ἀρνίον",
+              "note": "he wants to seize the lamb"
+            },
+            {
+              "greek": "μέλλει σῴζειν τὸ πρόβατον",
+              "note": "he is about to save the sheep"
+            }
+          ],
+          "headingTranslations": {
+            "es": "4. El infinitivo complementario",
+            "pl": "4. Bezokolicznik uzupełniający",
+            "fil": "4. Ang complementary infinitive"
+          },
+          "contentTranslations": {
+            "es": "Los verbos de querer (θέλω), estar a punto de (μέλλω) y similares toman un infinitivo como complemento. El infinitivo termina en -ειν para los verbos regulares.",
+            "pl": "Czasowniki chcenia (θέλω), zamierzania (μέλλω) i podobne przyjmują bezokolicznik jako uzupełnienie. Bezokolicznik regularnych czasowników kończy się na -ειν.",
+            "fil": "Ang mga pandiwang nagpapahayag ng pagnanais (θέλω), pagiging malapit (μέλλω), at katulad nito ay kumukuha ng infinitive bilang komplement. Ang infinitive ng mga regular na pandiwa ay nagtatapos sa -ειν."
+          }
         },
         {
           "id": 13,
           "heading": "5. New prepositions: εἰς, ἀπό, ὑπό",
           "content": "εἰς + accusative = \"into.\" ἀπό + genitive = \"away from.\" ὑπό + dative = \"under.\"",
           "examples": [
-            {"greek": "τρέχει εἰς τὸν ποταμόν", "note": "he runs into the river"},
-            {"greek": "σῴζει αὐτὸ ἀπὸ τοῦ λύκου", "note": "he saves it from the wolf"},
-            {"greek": "καθίζει ὑπὸ τῷ δένδρῳ", "note": "he sits under the tree"}
-          ]
+            {
+              "greek": "τρέχει εἰς τὸν ποταμόν",
+              "note": "he runs into the river"
+            },
+            {
+              "greek": "σῴζει αὐτὸ ἀπὸ τοῦ λύκου",
+              "note": "he saves it from the wolf"
+            },
+            {
+              "greek": "καθίζει ὑπὸ τῷ δένδρῳ",
+              "note": "he sits under the tree"
+            }
+          ],
+          "headingTranslations": {
+            "es": "5. Nuevas preposiciones: εἰς, ἀπό, ὑπό",
+            "pl": "5. Nowe przyimki: εἰς, ἀπό, ὑπό",
+            "fil": "5. Mga bagong preposisyon: εἰς, ἀπό, ὑπό"
+          },
+          "contentTranslations": {
+            "es": "εἰς + acusativo = «hacia, dentro de». ἀπό + genitivo = «lejos de». ὑπό + dativo = «debajo de».",
+            "pl": "εἰς + biernik = «do, w». ἀπό + dopełniacz = «od, z dala od». ὑπό + celownik = «pod».",
+            "fil": "εἰς + accusative = «patungo sa, papasok sa». ἀπό + genitive = «mula sa, palayo sa». ὑπό + dative = «sa ilalim ng»."
+          }
         },
         {
           "id": 14,
           "heading": "6. The imperative — 2nd singular",
           "content": "The 2nd-singular present active imperative ends in -ε for regular verbs. It gives a direct command.",
           "examples": [
-            {"greek": "ὕπαγε ἀπὸ τοῦ ἀγροῦ", "note": "go away from the field!"},
-            {"greek": "φέρε τοὺς καρπούς", "note": "bring the fruits!"}
-          ]
+            {
+              "greek": "ὕπαγε ἀπὸ τοῦ ἀγροῦ",
+              "note": "go away from the field!"
+            },
+            {
+              "greek": "φέρε τοὺς καρπούς",
+              "note": "bring the fruits!"
+            }
+          ],
+          "headingTranslations": {
+            "es": "6. El imperativo — 2ª persona del singular",
+            "pl": "6. Tryb rozkazujący — 2. os. l.poj.",
+            "fil": "6. Ang imperative — 2nd singular"
+          },
+          "contentTranslations": {
+            "es": "El imperativo presente activo de 2ª persona del singular termina en -ε para los verbos regulares.",
+            "pl": "Tryb rozkazujący czasu teraźniejszego czynny 2. os. l.poj. kończy się na -ε dla regularnych czasowników.",
+            "fil": "Ang 2nd singular present active imperative ay nagtatapos sa -ε para sa mga regular na pandiwa."
+          }
         },
         {
           "id": 15,
           "heading": "7. The interjection ἰδού (\"behold!\")",
           "content": "ἰδού is a frozen imperative used as an exclamation. It draws attention to a sudden or surprising event.",
           "examples": [
-            {"greek": "καὶ ἰδοὺ ὁ λύκος τρέχει εἰς τὸν ποταμόν", "note": "and behold, the wolf runs into the river!"},
-            {"greek": "ἀλλ' ἰδού, λύκοι εἰσιν πέραν τοῦ ποταμοῦ", "note": "but behold, there are wolves across the river!"}
-          ]
+            {
+              "greek": "καὶ ἰδοὺ ὁ λύκος τρέχει εἰς τὸν ποταμόν",
+              "note": "and behold, the wolf runs into the river!"
+            },
+            {
+              "greek": "ἀλλ' ἰδού, λύκοι εἰσιν πέραν τοῦ ποταμοῦ",
+              "note": "but behold, there are wolves across the river!"
+            }
+          ],
+          "headingTranslations": {
+            "es": "7. La interjección ἰδού («¡mira!»)",
+            "pl": "7. Wykrzyknik ἰδού («patrz!»)",
+            "fil": "7. Ang interjeksyon ἰδού («tingnan!»)"
+          }
         },
         {
           "id": 16,
           "heading": "8. The vocative case (direct address)",
           "content": "Used to address someone directly. Often introduced by the particle ὦ. Masculine 2nd-declension vocative singular ends in -ε.",
           "examples": [
-            {"greek": "ὦ κύριε ὁ θεός μου", "note": "O Lord my God!"},
-            {"greek": "ὦ γεωργέ", "note": "O farmer! (the regular vocative pattern)"}
-          ]
+            {
+              "greek": "ὦ κύριε ὁ θεός μου",
+              "note": "O Lord my God!"
+            },
+            {
+              "greek": "ὦ γεωργέ",
+              "note": "O farmer! (the regular vocative pattern)"
+            }
+          ],
+          "headingTranslations": {
+            "es": "8. El vocativo (el caso del llamado directo)",
+            "pl": "8. Wołacz (przypadek bezpośredniego zwrotu)",
+            "fil": "8. Ang vocative case (direktang pagtawag)"
+          },
+          "contentTranslations": {
+            "es": "Se usa para dirigirse directamente a alguien. A menudo introducido por la partícula ὦ («¡oh!»).",
+            "pl": "Używany do bezpośredniego zwracania się do kogoś. Często wprowadzany przez partykułę ὦ («o!»).",
+            "fil": "Ginagamit para direktang tumuon sa isang tao. Madalas na ipinakilala ng partikula ὦ («O!»)."
+          }
         }
       ]
     }
