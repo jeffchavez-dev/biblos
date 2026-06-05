@@ -32,6 +32,7 @@ DATA_DIR = Path(__file__).parent.parent / "src" / "data"
 LANGUAGE_NAMES = {
     "es": "Spanish",
     "pl": "Polish",
+    "fil": "Filipino (Tagalog)",
     "de": "German",
     "fr": "French",
     "pt": "Portuguese",
@@ -218,7 +219,7 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Show what would be translated without calling the API")
     args = parser.parse_args()
 
-    langs = args.lang.split(",") if args.lang else list(LANGUAGE_NAMES.keys())[:2]  # default: es, pl
+    langs = args.lang.split(",") if args.lang else ["es", "pl", "fil"]  # default languages
 
     if not args.dry_run and not os.environ.get("ANTHROPIC_API_KEY"):
         print("Error: ANTHROPIC_API_KEY environment variable not set.")
