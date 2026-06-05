@@ -11,7 +11,12 @@ function getParagraphParts(paragraphs) {
 }
 
 function normalizeGreek(s) {
-  return s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[,.·;!?''ʼ\s]/g, '').toLowerCase()
+  return s.normalize('NFD')
+    .split('')
+    .filter(c => { const code = c.charCodeAt(0); return code < 0x0300 || code > 0x036f })
+    .join('')
+    .replace(/[,.'·;!?\s]/g, '')
+    .toLowerCase()
 }
 
 export default function StoryTab({ story, vocabulary, activePart }) {
@@ -38,30 +43,26 @@ export default function StoryTab({ story, vocabulary, activePart }) {
     return vocabImageMap[normalizeGreek(greekWord)] || null
   }
 
-  function openPopover(e, word, paragraphId, wordIdx, withImage) {
-    const key = `${paragraphId}-${wordIdx}`
-    const rect = e.currentTarget.getBoundingClientRect()
-    setPopoverPos({
-      anchorTop: rect.bottom,
-      anchorBottom: rect.top,
-      anchorLeft: rect.left + rect.width / 2,
-    })
-    setActiveWord({ ...word, key, vocabEntry: findVocabEntry(word.greek) })
-    setShowImage(withImage)
-  }
-
   function handleWordClick(e, word, paragraphId, wordIdx) {
     const key = `${paragraphId}-${wordIdx}`
-    if (activeWord?.key === key && !showImage) {
+    if (activeWord?.key === key) {
       setActiveWord(null)
+      setShowImage(false)
       return
     }
-    openPopover(e, word, paragraphId, wordIdx, false)
+    const rect = e.currentTarget.getBoundingClientRect()
+    setPopoverPos({ anchorTop: rect.bottom, anchorBottom: rect.top, anchorLeft: rect.left + rect.width / 2 })
+    setActiveWord({ ...word, key, vocabEntry: findVocabEntry(word.greek) })
+    setShowImage(false)
   }
 
   function handleWordDoubleClick(e, word, paragraphId, wordIdx) {
     e.preventDefault()
-    openPopover(e, word, paragraphId, wordIdx, true)
+    const key = `${paragraphId}-${wordIdx}`
+    const rect = e.currentTarget.getBoundingClientRect()
+    setPopoverPos({ anchorTop: rect.bottom, anchorBottom: rect.top, anchorLeft: rect.left + rect.width / 2 })
+    setActiveWord({ ...word, key, vocabEntry: findVocabEntry(word.greek) })
+    setShowImage(true)
   }
 
   // Close on outside click
