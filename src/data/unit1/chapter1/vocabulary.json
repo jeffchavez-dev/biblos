@@ -6,7 +6,7 @@
     "transliteration": "anthrōpos",
     "definition": "human being, person",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-01.jpeg"
+    "image": "c1-anthropos.jpeg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "transliteration": "geōrgos",
     "definition": "farmer",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-01.jpeg"
+    "image": "c1-georgos.jpeg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "transliteration": "oikos",
     "definition": "house",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-02.jpeg"
+    "image": "c1-oikos.jpeg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "transliteration": "agros",
     "definition": "field",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-03.jpeg"
+    "image": "c1-agros.jpeg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "transliteration": "ouranos",
     "definition": "sky, heaven",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-04.jpeg"
+    "image": "c1-ouranos.jpeg"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "transliteration": "hēlios",
     "definition": "sun",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-05.jpeg"
+    "image": "c1-helios.jpeg"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "transliteration": "potamos",
     "definition": "river",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-06.jpeg"
+    "image": "c1-potamos.jpeg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "transliteration": "artos",
     "definition": "bread",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-07.jpeg"
+    "image": "c1-artos.jpeg"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "transliteration": "karpos",
     "definition": "fruit, produce",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-08.jpeg"
+    "image": "c1-karpos.jpeg"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "transliteration": "lithos",
     "definition": "stone",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-09.jpeg"
+    "image": "c1-lithos.jpeg"
   },
   {
     "id": 11,
@@ -95,8 +95,7 @@
     "greek": "θεός, -οῦ, ὁ",
     "transliteration": "theos",
     "definition": "god, God",
-    "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-10.jpeg"
+    "partOfSpeech": "noun (masculine, 2nd decl.)"
   },
   {
     "id": 12,
@@ -104,8 +103,7 @@
     "greek": "ἀγαθός, -ή, -όν",
     "transliteration": "agathos",
     "definition": "good",
-    "partOfSpeech": "adjective",
-    "image": "c1-11.jpeg"
+    "partOfSpeech": "adjective"
   },
   {
     "id": 13,
@@ -113,8 +111,7 @@
     "greek": "ἰσχυρός, -ά, -όν",
     "transliteration": "ischyros",
     "definition": "strong",
-    "partOfSpeech": "adjective",
-    "image": "c1-12.jpeg"
+    "partOfSpeech": "adjective"
   },
   {
     "id": 14,
@@ -123,7 +120,7 @@
     "transliteration": "mikros",
     "definition": "small",
     "partOfSpeech": "adjective",
-    "image": "c1-13.jpeg"
+    "image": "c1-mikros.jpeg"
   },
   {
     "id": 15,
@@ -132,7 +129,7 @@
     "transliteration": "megas",
     "definition": "great, large",
     "partOfSpeech": "adjective (irregular)",
-    "image": "c1-14.jpeg"
+    "image": "c1-megas.jpeg"
   },
   {
     "id": 16,
@@ -140,8 +137,7 @@
     "greek": "καλός, -ή, -όν",
     "transliteration": "kalos",
     "definition": "beautiful, good",
-    "partOfSpeech": "adjective",
-    "image": "c1-15.jpeg"
+    "partOfSpeech": "adjective"
   },
   {
     "id": 17,
@@ -149,8 +145,7 @@
     "greek": "πιστός, -ή, -όν",
     "transliteration": "pistos",
     "definition": "faithful",
-    "partOfSpeech": "adjective",
-    "image": "c1-16.jpeg"
+    "partOfSpeech": "adjective"
   },
   {
     "id": 18,
@@ -158,8 +153,7 @@
     "greek": "εἰμί",
     "transliteration": "eimi",
     "definition": "I am",
-    "partOfSpeech": "verb (irregular)",
-    "image": "c1-17.jpeg"
+    "partOfSpeech": "verb (irregular)"
   },
   {
     "id": 19,
@@ -167,8 +161,7 @@
     "greek": "λάμπω",
     "transliteration": "lampō",
     "definition": "I shine",
-    "partOfSpeech": "verb",
-    "image": "c1-18.jpeg"
+    "partOfSpeech": "verb"
   },
   {
     "id": 20,
@@ -176,8 +169,7 @@
     "greek": "ῥέω",
     "transliteration": "rheō",
     "definition": "I flow",
-    "partOfSpeech": "verb",
-    "image": "c1-19.jpeg"
+    "partOfSpeech": "verb"
   },
   {
     "id": 21,
@@ -186,7 +178,7 @@
     "transliteration": "lambanō",
     "definition": "I take, receive",
     "partOfSpeech": "verb",
-    "image": "c1-20.jpeg"
+    "image": "c1-lambano.jpeg"
   },
   {
     "id": 22,
@@ -195,7 +187,7 @@
     "transliteration": "esthiō",
     "definition": "I eat",
     "partOfSpeech": "verb",
-    "image": "c1-21.jpeg"
+    "image": "c1-esthio.jpeg"
   },
   {
     "id": 23,
@@ -204,7 +196,7 @@
     "transliteration": "chairō",
     "definition": "I rejoice",
     "partOfSpeech": "verb",
-    "image": "c1-22.jpeg"
+    "image": "c1-chairo.jpeg"
   },
   {
     "id": 24,
@@ -212,8 +204,7 @@
     "greek": "ἔχω",
     "transliteration": "echō",
     "definition": "I have",
-    "partOfSpeech": "verb",
-    "image": "c1-23.jpeg"
+    "partOfSpeech": "verb"
   },
   {
     "id": 25,
@@ -222,7 +213,7 @@
     "transliteration": "blepō",
     "definition": "I see, look at",
     "partOfSpeech": "verb",
-    "image": "c1-24.jpeg"
+    "image": "c1-blepo.jpeg"
   },
   {
     "id": 26,
@@ -230,7 +221,8 @@
     "greek": "φιλέω, φιλῶ",
     "transliteration": "phileō",
     "definition": "I love",
-    "partOfSpeech": "verb (contract, -έω)"
+    "partOfSpeech": "verb (contract, -έω)",
+    "image": "c1-phileo.jpeg"
   },
   {
     "id": 27,
@@ -239,7 +231,7 @@
     "transliteration": "skaptō",
     "definition": "I dig",
     "partOfSpeech": "verb",
-    "image": "c1-skaptō.jpeg"
+    "image": "c1-skapto.jpeg"
   },
   {
     "id": 28,
@@ -248,7 +240,7 @@
     "transliteration": "airō",
     "definition": "I lift, take up",
     "partOfSpeech": "verb",
-    "image": "c1-airō.jpeg"
+    "image": "c1-airo.jpeg"
   },
   {
     "id": 29,
@@ -257,7 +249,7 @@
     "transliteration": "pherō",
     "definition": "I carry, bear",
     "partOfSpeech": "verb",
-    "image": "c1-pherō.jpeg"
+    "image": "c1-phero.jpeg"
   },
   {
     "id": 30,
@@ -265,7 +257,8 @@
     "greek": "λέγω",
     "transliteration": "legō",
     "definition": "I say, speak",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "image": "c1-lego.jpeg"
   },
   {
     "id": 31,
