@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react'
+import { useUI } from '../../context/LanguageContext.jsx'
 import './VisualStoryTab.css'
 
 export default function VisualStoryTab({ story, activePart }) {
+  const ui = useUI()
   const [panel, setPanel] = useState(0)
 
   useEffect(() => { setPanel(0) }, [activePart])
@@ -39,7 +41,7 @@ export default function VisualStoryTab({ story, activePart }) {
           ) : (
             <div className="panel-image-placeholder">
               <div className="panel-scene-desc">{current.scene}</div>
-              <div className="panel-img-hint">Illustration coming soon</div>
+              <div className="panel-img-hint">{ui('illustrationSoon')}</div>
             </div>
           )}
         </div>
@@ -55,7 +57,7 @@ export default function VisualStoryTab({ story, activePart }) {
           className="panel-nav-btn"
           onClick={() => setPanel(p => p - 1)}
           disabled={panel === 0}
-        >← Previous</button>
+        >{ui('prev')}</button>
 
         <div className="panel-dots">
           {panels.map((_, i) => (
@@ -72,12 +74,12 @@ export default function VisualStoryTab({ story, activePart }) {
           className="panel-nav-btn"
           onClick={() => setPanel(p => p + 1)}
           disabled={panel === panels.length - 1}
-        >Next →</button>
+        >{ui('next')}</button>
       </div>
 
       {/* All panels overview */}
       <div className="panels-overview">
-        <h3>Story Overview</h3>
+        <h3>{ui('storyOverview')}</h3>
         <div className="panels-grid">
           {panels.map((p, i) => (
             <button

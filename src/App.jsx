@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import Sidebar from './components/Sidebar.jsx'
 import ChapterView from './components/ChapterView.jsx'
 import VocabularyIndex from './components/VocabularyIndex.jsx'
-import { LanguageProvider, LANGUAGES, useLanguage } from './context/LanguageContext.jsx'
+import { LanguageProvider, LANGUAGES, useLanguage, useUI } from './context/LanguageContext.jsx'
 import units from './data/units.json'
 import './App.css'
 
@@ -56,6 +56,7 @@ function AppInner() {
   const currentPart = currentChapter?.parts?.find(p => p.id === activePart)
 
   const { lang, setLang } = useLanguage()
+  const ui = useUI()
 
   return (
     <div className="app-shell">
@@ -65,7 +66,7 @@ function AppInner() {
         </button>
         <div className="app-title">
           <span className="app-title-greek greek">Βίβλος</span>
-          <span className="app-title-sub">Koine Greek Reader</span>
+          <span className="app-title-sub">{ui('appSubtitle')}</span>
         </div>
         <div className="app-breadcrumb greek">
           {currentChapter?.title}
@@ -131,11 +132,12 @@ export default function App() {
 }
 
 function LockedView() {
+  const ui = useUI()
   return (
     <div className="locked-view">
       <div className="lock-icon">🔒</div>
-      <h2>Chapter Locked</h2>
-      <p>This chapter is not yet available. Complete Unit 1 to unlock future units.</p>
+      <h2>{ui('chapterLocked')}</h2>
+      <p>{ui('chapterLockedMsg')}</p>
     </div>
   )
 }

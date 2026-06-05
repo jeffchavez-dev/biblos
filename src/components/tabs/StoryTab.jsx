@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
-import { useLanguage, t } from '../../context/LanguageContext.jsx'
+import { useLanguage, useUI, t } from '../../context/LanguageContext.jsx'
 import './StoryTab.css'
 
 function getParagraphParts(paragraphs) {
@@ -22,6 +22,7 @@ function normalizeGreek(s) {
 
 export default function StoryTab({ story, vocabulary, activePart }) {
   const { lang } = useLanguage()
+  const ui = useUI()
   const [showTranslation, setShowTranslation] = useState(false)
   const [activeWord, setActiveWord] = useState(null)
   const [showImage, setShowImage] = useState(false)
@@ -126,7 +127,7 @@ export default function StoryTab({ story, vocabulary, activePart }) {
         <p className="story-title-en">{story.titleTranslation}</p>
       </div>
 
-      <div className="story-instruction">Click a word to see its meaning. Double-click to see its picture.</div>
+      <div className="story-instruction">{ui('clickInstruction')}</div>
 
       {paragraphs.map((para, i) => (
         <div key={para.id}>
@@ -160,7 +161,7 @@ export default function StoryTab({ story, vocabulary, activePart }) {
           className="translation-toggle-full"
           onClick={() => setShowTranslation(v => !v)}
         >
-          {showTranslation ? 'Hide Translation' : 'Show Translation'}
+          {showTranslation ? ui('hideTranslation') : ui('showTranslation')}
         </button>
 
         {showTranslation && (

@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react'
-import { useLanguage, t } from '../../context/LanguageContext.jsx'
+import { useLanguage, useUI, t } from '../../context/LanguageContext.jsx'
 import './VocabularyTab.css'
 
 export default function VocabularyTab({ words, unitId, chapterId, activePart }) {
   const { lang } = useLanguage()
+  const ui = useUI()
   const filtered = words ? words.filter(w => !w.part || w.part === activePart) : []
 
   const [index, setIndex] = useState(0)
@@ -49,10 +50,10 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
   return (
     <div className="vocab-tab">
       <div className="vocab-header">
-        <h2>Vocabulary Flashcards</h2>
+        <h2>{ui('vocabFlashcards')}</h2>
         <div className="vocab-stats">
           <span>{index + 1} / {filtered.length}</span>
-          <span className="seen-badge">{seenCount} reviews</span>
+          <span className="seen-badge">{seenCount} {ui('reviews')}</span>
         </div>
       </div>
 
@@ -75,7 +76,7 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
             {word.image ? (
               <>
                 <div className="flashcard-strip flashcard-strip--top">
-                  <div className="flashcard-hint">Tap to reveal</div>
+                  <div className="flashcard-hint">{ui('tapToReveal')}</div>
                 </div>
                 <img
                   src={`/vocab-images/${word.image}`}
@@ -84,20 +85,20 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
                 />
                 <div className="flashcard-strip flashcard-strip--bottom">
                   <div className="flashcard-greek greek">{word.greek}</div>
-                  {seen[word.id] > 0 && <div className="flashcard-seen-count-inline">Seen {seen[word.id]}×</div>}
+                  {seen[word.id] > 0 && <div className="flashcard-seen-count-inline">{ui('seen')} {seen[word.id]}×</div>}
                 </div>
               </>
             ) : (
               <>
-                <div className="flashcard-hint">Tap to reveal</div>
+                <div className="flashcard-hint">{ui('tapToReveal')}</div>
                 <div className="flashcard-greek greek">{word.greek}</div>
                 <div className="flashcard-transliteration">{word.transliteration}</div>
-                {seen[word.id] > 0 && <div className="flashcard-seen-count">Seen {seen[word.id]}×</div>}
+                {seen[word.id] > 0 && <div className="flashcard-seen-count">{ui('seen')} {seen[word.id]}×</div>}
               </>
             )}
           </div>
           <div className="flashcard-back">
-            <div className="flashcard-hint">Tap to flip back</div>
+            <div className="flashcard-hint">{ui('tapToFlipBack')}</div>
             <div className="flashcard-greek greek">{word.greek}</div>
             <div className="flashcard-definition">{t(word.definition, word.translations, lang)}</div>
             <div className="flashcard-pos">{word.partOfSpeech}</div>
@@ -107,16 +108,16 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
 
       {/* Navigation */}
       <div className="vocab-nav">
-        <button className="nav-btn" onClick={handlePrev}>← Previous</button>
+        <button className="nav-btn" onClick={handlePrev}>{ui('prev')}</button>
         <button className="nav-btn nav-btn--primary" onClick={handleFlip}>
-          {flipped ? 'Hide' : 'Reveal'}
+          {flipped ? ui('hide') : ui('reveal')}
         </button>
-        <button className="nav-btn" onClick={handleNext}>Next →</button>
+        <button className="nav-btn" onClick={handleNext}>{ui('next')}</button>
       </div>
 
       {/* Word list */}
       <div className="word-list-section">
-        <h3>All Words — {filtered.length} words</h3>
+        <h3>{ui('allWords')} — {filtered.length} {ui('words')}</h3>
         <div className="word-list">
           {filtered.map((w, i) => (
             <div
@@ -127,7 +128,7 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
               <span className="word-row-num">{i + 1}</span>
               <span className="word-row-greek greek">{w.greek}</span>
               <span className={`word-row-def ${i === index ? 'word-row-def--visible' : 'word-row-def--hidden'}`}>{t(w.definition, w.translations, lang)}</span>
-              {seen[w.id] > 0 && <span className="word-row-seen">{seen[w.id]}×</span>}
+              {seen[w.id] > 0 && <span className="word-row-seen">{ui('seen')} {seen[w.id]}×</span>}
             </div>
           ))}
         </div>

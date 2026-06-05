@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import { useUI, useLanguage, t } from '../context/LanguageContext.jsx'
 import './VocabularyIndex.css'
 
 // All vocab sources in lesson order
@@ -12,15 +13,15 @@ const SOURCES = [
 
 // Part-of-speech categories (priority order — first match wins)
 const CATEGORIES = [
-  { id: 'noun',        label: 'Noun',        test: p => /^noun/.test(p) },
-  { id: 'verb',        label: 'Verb',        test: p => /^verb/.test(p) },
-  { id: 'adjective',   label: 'Adjective',   test: p => /^adjective/.test(p) },
-  { id: 'adverb',      label: 'Adverb',      test: p => /^adverb/.test(p) },
-  { id: 'preposition', label: 'Preposition', test: p => /^preposition/.test(p) },
-  { id: 'conjunction', label: 'Conjunction', test: p => /conjunction/.test(p) },
-  { id: 'pronoun',     label: 'Pronoun',     test: p => /^pronoun/.test(p) },
-  { id: 'particle',    label: 'Particle',    test: p => /^particle/.test(p) },
-  { id: 'other',       label: 'Other',       test: () => true },
+  { id: 'noun',        labelKey: 'catNoun',        test: p => /^noun/.test(p) },
+  { id: 'verb',        labelKey: 'catVerb',        test: p => /^verb/.test(p) },
+  { id: 'adjective',   labelKey: 'catAdjective',   test: p => /^adjective/.test(p) },
+  { id: 'adverb',      labelKey: 'catAdverb',      test: p => /^adverb/.test(p) },
+  { id: 'preposition', labelKey: 'catPreposition', test: p => /^preposition/.test(p) },
+  { id: 'conjunction', labelKey: 'catConjunction', test: p => /conjunction/.test(p) },
+  { id: 'pronoun',     labelKey: 'catPronoun',     test: p => /^pronoun/.test(p) },
+  { id: 'particle',    labelKey: 'catParticle',    test: p => /^particle/.test(p) },
+  { id: 'other',       labelKey: 'catOther',       test: () => true },
 ]
 
 function getCategory(partOfSpeech = '') {
@@ -51,6 +52,8 @@ function matches(word, query) {
 }
 
 export default function VocabularyIndex({ onNavigate }) {
+  const ui = useUI()
+  const { lang } = useLanguage()
   const [words, setWords] = useState([])
   const [sort, setSort] = useState('lesson')
   const [query, setQuery] = useState('')
@@ -113,9 +116,9 @@ export default function VocabularyIndex({ onNavigate }) {
       <div className="vocab-index-header">
         <div className="vocab-index-title-row">
           <h2 className="greek">Λεξικόν</h2>
-          <span className="vocab-index-count">{total} words</span>
+          <span className="vocab-index-count">{total} {ui('words')}</span>
         </div>
-        <p className="vocab-index-subtitle">All vocabulary · Units 1 & 2</p>
+        <p className="vocab-index-subtitle">{ui('vocabSubtitle')}</p>
 
         {/* Search */}
         <div className="vocab-search-row">
@@ -125,7 +128,7 @@ export default function VocabularyIndex({ onNavigate }) {
               ref={searchRef}
               className="vocab-search-input"
               type="text"
-              placeholder="Search Greek or English…"
+              placeholder={ui('searchPlaceholder')}
               value={query}
               onChange={e => setQuery(e.target.value)}
               spellCheck={false}
@@ -149,13 +152,13 @@ export default function VocabularyIndex({ onNavigate }) {
               className={`pos-chip pos-chip--${cat.id} ${activeCats.has(cat.id) ? 'pos-chip--active' : ''}`}
               onClick={() => toggleCat(cat.id)}
             >
-              {cat.label}
+              {ui(cat.labelKey)}
               <span className="pos-chip-count">{catCounts[cat.id]}</span>
             </button>
           ))}
           {activeCats.size > 0 && (
             <button className="pos-chip-clear" onClick={() => setActiveCats(new Set())}>
-              Clear filters
+              {ui('clearFilters')}
             </button>
           )}
         </div>
@@ -165,32 +168,32 @@ export default function VocabularyIndex({ onNavigate }) {
           <button
             className={`sort-btn ${sort === 'lesson' ? 'sort-btn--active' : ''}`}
             onClick={() => setSort('lesson')}
-          >By Lesson</button>
+          >{ui('byLesson')}</button>
           <button
             className={`sort-btn ${sort === 'alpha' ? 'sort-btn--active' : ''}`}
             onClick={() => setSort('alpha')}
-          >Α–Ω Alphabetical</button>
+          >{ui('alphabetical')}</button>
         </div>
       </div>
 
       {loading ? (
-        <div className="vocab-index-loading">Loading…</div>
+        <div className="vocab-index-loading">{ui('loading')}</div>
       ) : filtered.length === 0 ? (
         <div className="vocab-index-empty">
-          No words match your filters.
+          {ui('noWordsMatch')}
         </div>
       ) : (
         <>
           {isFiltered && (
-            <p className="vocab-index-result-count">{filtered.length} of {total} words</p>
+            <p className="vocab-index-result-count">{filtered.length} of {total} {ui('words')}</p>
           )}
           <table className="vocab-table">
             <thead>
               <tr>
-                <th className="vt-greek">Greek</th>
-                <th className="vt-english">English</th>
-                <th className="vt-pos">Type</th>
-                <th className="vt-source">Lesson</th>
+                <th className="vt-greek">{ui('colGreek')}</th>
+                <th className="vt-english">{ui('colEnglish')}</th>
+                <th className="vt-pos">{ui('colType')}</th>
+                <th className="vt-source">{ui('colLesson')}</th>
               </tr>
             </thead>
             <tbody>
@@ -200,11 +203,11 @@ export default function VocabularyIndex({ onNavigate }) {
                     <Highlight text={w.greek} query={query} isGreek />
                   </td>
                   <td className="vt-english">
-                    <Highlight text={w.definition} query={query} />
+                    <Highlight text={t(w.definition, w.translations, lang)} query={query} />
                   </td>
                   <td className="vt-pos">
                     <span className={`pos-tag pos-tag--${w.category}`}>
-                      {CATEGORIES.find(c => c.id === w.category)?.label}
+                      {ui(CATEGORIES.find(c => c.id === w.category)?.labelKey)}
                     </span>
                   </td>
                   <td className="vt-source">

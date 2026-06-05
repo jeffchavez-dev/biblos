@@ -1,8 +1,9 @@
 import { useState } from 'react'
+import { useUI } from '../context/LanguageContext.jsx'
 import './Sidebar.css'
 
 export default function Sidebar({ units, selectedUnit, selectedChapter, activePart, onSelect, onPartSelect, open, onClose, totalWords, onVocabIndex, showingVocabIndex }) {
-  // All units expanded by default
+  const ui = useUI()
   const [collapsed, setCollapsed] = useState({})
 
   function toggleUnit(unitId) {
@@ -13,7 +14,7 @@ export default function Sidebar({ units, selectedUnit, selectedChapter, activePa
     <aside className={`sidebar ${open ? 'sidebar--open' : ''}`}>
       <div className="sidebar-header">
         <span className="greek">Βίβλος</span>
-        <span>Table of Contents</span>
+        <span>{ui('tableOfContents')}</span>
       </div>
       <nav className="sidebar-nav">
         {units.map(unit => {
@@ -82,7 +83,7 @@ export default function Sidebar({ units, selectedUnit, selectedChapter, activePa
           <span className="vocab-index-link-icon">📖</span>
           <span className="vocab-index-link-text">
             <span className="greek">Λεξικόν</span>
-            <span className="vocab-index-link-sub">All Vocabulary</span>
+            <span className="vocab-index-link-sub">{ui('allVocabulary')}</span>
           </span>
           {totalWords > 0 && (
             <span className="vocab-index-link-count">{totalWords}</span>

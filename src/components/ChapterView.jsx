@@ -5,13 +5,14 @@ import StoryTab from './tabs/StoryTab.jsx'
 import ExercisesTab from './tabs/ExercisesTab.jsx'
 import GrammarTab from './tabs/GrammarTab.jsx'
 import VisualStoryTab from './tabs/VisualStoryTab.jsx'
+import { useUI } from '../context/LanguageContext.jsx'
 
 const TAB_CONFIG = [
-  { id: 'story',      label: 'Story',        emoji: '📖' },
-  { id: 'vocabulary', label: 'Vocabulary',   emoji: '📚' },
-  { id: 'grammar',    label: 'Grammar',      emoji: '📐' },
-  { id: 'exercises',  label: 'Exercises',    emoji: '✏️' },
-  { id: 'visual',     label: 'Visual Story', emoji: '🎨' },
+  { id: 'story',      labelKey: 'tabStory',      emoji: '📖' },
+  { id: 'vocabulary', labelKey: 'tabVocabulary',  emoji: '📚' },
+  { id: 'grammar',    labelKey: 'tabGrammar',     emoji: '📐' },
+  { id: 'exercises',  labelKey: 'tabExercises',   emoji: '✏️' },
+  { id: 'visual',     labelKey: 'tabVisual',      emoji: '🎨' },
 ]
 
 async function loadData(unitId, chapterId, type) {
@@ -24,6 +25,7 @@ async function loadData(unitId, chapterId, type) {
 }
 
 export default function ChapterView({ unitId, chapterId, activePart }) {
+  const ui = useUI()
   const [activeTab, setActiveTab] = useState('story')
   const [data, setData] = useState({})
   const [loading, setLoading] = useState(true)
@@ -64,14 +66,14 @@ export default function ChapterView({ unitId, chapterId, activePart }) {
             onClick={() => setActiveTab(tab.id)}
           >
             <span className="tab-emoji">{tab.emoji}</span>
-            <span className="tab-label">{tab.label}</span>
+            <span className="tab-label">{ui(tab.labelKey)}</span>
           </button>
         ))}
       </nav>
 
       <div className="tab-content">
         {loading ? (
-          <div className="loading">Loading chapter…</div>
+          <div className="loading">{ui('loading')}</div>
         ) : (
           <>
             {activeTab === 'story'      && <StoryTab story={data.story} vocabulary={data.vocabulary} activePart={activePart} />}

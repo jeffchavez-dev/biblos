@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useUI } from '../../context/LanguageContext.jsx'
 import './ExercisesTab.css'
 
 function normalize(str) {
@@ -13,17 +14,17 @@ function checkAnswer(userInput, correctAnswer) {
 }
 
 const SECTION_META = [
-  { id: 'mc',     dataKey: 'multipleChoice', labelEl: 'Τί ἐστιν ὀρθόν;', labelEn: 'Multiple Choice'   },
-  { id: 'tf',     dataKey: 'trueFalse',      labelEl: 'Ἀληθές / Ψεῦδος', labelEn: 'True or False'     },
-  { id: 'yn',     dataKey: 'yesNo',          labelEl: 'Ναί / Οὔ',         labelEn: 'Yes or No'         },
-  { id: 'thumbs', dataKey: 'thumbs',         labelEl: '👍 / 👎',           labelEn: 'Correct or Not'    },
-  { id: 'fill',   dataKey: 'fillBlank',      labelEl: 'Γέμιζε!',          labelEn: 'Fill in the Blank' },
-  { id: 'pc',     dataKey: 'personChange',   labelEl: 'Ἄλλαξον!',         labelEn: 'Change the Person' },
-  { id: 'inf',    dataKey: 'infinitives',    labelEl: 'ἁπαρέμφατος',      labelEn: 'Infinitives'       },
-  { id: 'imp',    dataKey: 'imperatives',    labelEl: 'Προστατική',        labelEn: 'Imperatives'       },
-  { id: 'cv',     dataKey: 'contractVerbs',  labelEl: 'Ῥήματα',           labelEn: 'Contract Verbs'    },
-  { id: 'cf',     dataKey: 'caseFill',       labelEl: 'Πτώσεις',          labelEn: 'Fill the Case'     },
-  { id: 'prep',   dataKey: 'prepFill',       labelEl: 'ἐν / πρός / ἐκ',  labelEn: 'Prepositions'      },
+  { id: 'mc',     dataKey: 'multipleChoice', labelEl: 'Τί ἐστιν ὀρθόν;', labelKey: 'secMultipleChoice' },
+  { id: 'tf',     dataKey: 'trueFalse',      labelEl: 'Ἀληθές / Ψεῦδος', labelKey: 'secTrueOrFalse'   },
+  { id: 'yn',     dataKey: 'yesNo',          labelEl: 'Ναί / Οὔ',         labelKey: 'secYesOrNo'       },
+  { id: 'thumbs', dataKey: 'thumbs',         labelEl: '👍 / 👎',           labelKey: 'secCorrectOrNot'  },
+  { id: 'fill',   dataKey: 'fillBlank',      labelEl: 'Γέμιζε!',          labelKey: 'secFillBlank'     },
+  { id: 'pc',     dataKey: 'personChange',   labelEl: 'Ἄλλαξον!',         labelKey: 'secChangePerson'  },
+  { id: 'inf',    dataKey: 'infinitives',    labelEl: 'ἁπαρέμφατος',      labelKey: 'secInfinitives'   },
+  { id: 'imp',    dataKey: 'imperatives',    labelEl: 'Προστατική',        labelKey: 'secImperatives'   },
+  { id: 'cv',     dataKey: 'contractVerbs',  labelEl: 'Ῥήματα',           labelKey: 'secContractVerbs' },
+  { id: 'cf',     dataKey: 'caseFill',       labelEl: 'Πτώσεις',          labelKey: 'secFillCase'      },
+  { id: 'prep',   dataKey: 'prepFill',       labelEl: 'ἐν / πρός / ἐκ',  labelKey: 'secPrepositions'  },
 ]
 
 // Filter an array by activePart if items carry a `part` field; otherwise show all
@@ -35,6 +36,7 @@ function filterByPart(arr, activePart) {
 }
 
 export default function ExercisesTab({ exercises, activePart }) {
+  const ui = useUI()
   const [section,       setSection]       = useState(null)
   const [mcAnswers,     setMcAnswers]     = useState({})
   const [tfAnswers,     setTfAnswers]     = useState({})
@@ -214,6 +216,7 @@ export default function ExercisesTab({ exercises, activePart }) {
               onClick={() => setSection(s.id)}
             >
               <span className="section-tab-greek greek">{s.labelEl}</span>
+              <span className="section-tab-en">{ui(s.labelKey)}</span>
               {done && sc
                 ? <span className="section-tab-score">{sc.correct}/{sc.total}</span>
                 : <span className="section-tab-count">({count})</span>
@@ -593,13 +596,13 @@ export default function ExercisesTab({ exercises, activePart }) {
         {!isSubmitted ? (
           <button className="submit-btn" onClick={handleSubmit} disabled={!allAnswered}>
             {allAnswered
-              ? <span><span className="greek">Ὑπόβαλλε</span> — Submit</span>
-              : `${answered} / ${total} answered`
+              ? <span><span className="greek">Ὑπόβαλλε</span> — {ui('submit')}</span>
+              : `${answered} / ${total} ${ui('answered')}`
             }
           </button>
         ) : (
           <button className="reset-btn" onClick={handleReset}>
-            <span className="greek">Πάλιν</span> — Try Again
+            <span className="greek">Πάλιν</span> — {ui('tryAgain')}
           </button>
         )}
       </div>
