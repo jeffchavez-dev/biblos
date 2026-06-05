@@ -69,35 +69,23 @@
   max-width: 40vw;
 }
 
-.lang-selector {
-  display: flex;
-  gap: 4px;
+.lang-select {
   flex-shrink: 0;
   margin-left: 10px;
-}
-
-.lang-btn {
   background: rgba(255,255,255,0.12);
-  border: 1px solid rgba(255,255,255,0.2);
-  color: rgba(255,255,255,0.7);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #fff;
   border-radius: 4px;
-  padding: 3px 8px;
+  padding: 4px 6px;
   font-size: 0.72rem;
   font-weight: 600;
-  letter-spacing: 0.03em;
   cursor: pointer;
-  transition: background 0.15s, color 0.15s;
+  appearance: auto;
 }
 
-.lang-btn:hover {
-  background: rgba(255,255,255,0.22);
+.lang-select option {
+  background: var(--deep-blue);
   color: #fff;
-}
-
-.lang-btn--active {
-  background: rgba(255,255,255,0.9);
-  color: var(--deep-blue);
-  border-color: transparent;
 }
 
 /* Body */

@@ -72,18 +72,16 @@ function AppInner() {
           {currentChapter?.title}
           {currentPart && <> · {currentPart.label} — {currentPart.subtitle}</>}
         </div>
-        <div className="lang-selector">
+        <select
+          className="lang-select"
+          value={lang}
+          onChange={e => setLang(e.target.value)}
+          aria-label="Language"
+        >
           {LANGUAGES.map(l => (
-            <button
-              key={l.code}
-              className={`lang-btn ${lang === l.code ? 'lang-btn--active' : ''}`}
-              onClick={() => setLang(l.code)}
-              title={l.name}
-            >
-              {l.label}
-            </button>
+            <option key={l.code} value={l.code}>{l.label} — {l.name}</option>
           ))}
-        </div>
+        </select>
       </header>
 
       <div className="app-body">
