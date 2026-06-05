@@ -103,7 +103,8 @@
     "greek": "ἀγαθός, -ή, -όν",
     "transliteration": "agathos",
     "definition": "good",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "image": "c1-agathos.jpeg"
   },
   {
     "id": 13,
@@ -111,7 +112,8 @@
     "greek": "ἰσχυρός, -ά, -όν",
     "transliteration": "ischyros",
     "definition": "strong",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "image": "c1-ischyros.jpeg"
   },
   {
     "id": 14,
@@ -137,7 +139,8 @@
     "greek": "καλός, -ή, -όν",
     "transliteration": "kalos",
     "definition": "beautiful, good",
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "image": "c1-kalos.jpeg"
   },
   {
     "id": 17,
@@ -161,7 +164,8 @@
     "greek": "λάμπω",
     "transliteration": "lampō",
     "definition": "I shine",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "image": "c1-lampo.jpeg"
   },
   {
     "id": 20,
@@ -169,7 +173,8 @@
     "greek": "ῥέω",
     "transliteration": "rheō",
     "definition": "I flow",
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "image": "c1-rheo.jpeg"
   },
   {
     "id": 21,
