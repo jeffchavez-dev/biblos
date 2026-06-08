@@ -1,71 +1,996 @@
 {
-  "trueFalse": [
-    {
-      "id": 1,
-      "statement": "The Greek word κῆπος means \"garden.\"",
-      "answer": true,
-      "explanation": "Correct! κῆπος (kēpos) means \"garden\" — it is a masculine 2nd-declension noun."
-    },
-    {
-      "id": 2,
-      "statement": "Neuter nouns in Greek always take a plural verb form.",
-      "answer": false,
-      "explanation": "Neuter plural subjects typically take a singular verb: τὰ ζῷα τρέχει — \"the animals run\" (literally, \"the animals runs\"). This is a distinctive rule of Greek grammar."
-    },
-    {
-      "id": 3,
-      "statement": "The preposition πέραν takes the genitive case.",
-      "answer": true,
-      "explanation": "Correct! πέραν + genitive means \"across, beyond\": πέραν τοῦ ποταμοῦ — \"across the river.\""
-    },
-    {
-      "id": 4,
-      "statement": "In the story, the wolf runs away when the farmer appears.",
-      "answer": false,
-      "explanation": "It is the wolf who approaches seeking to seize a lamb. The farmer drives the wolf away — the wolf flees (φεύγει) when confronted."
-    },
-    {
-      "id": 5,
-      "statement": "The pronoun αὐτός can mean \"he,\" \"she,\" or \"it\" depending on context.",
-      "answer": true,
-      "explanation": "Correct! αὐτός is the 3rd-person personal pronoun and agrees in gender and number with its antecedent: αὐτός (he), αὐτή (she), αὐτό (it)."
-    }
-  ],
   "multipleChoice": [
     {
       "id": 1,
-      "question": "What does τὰ ζῷα ἐστιν ἐν τῷ κήπῳ mean?",
-      "options": ["The animal is in the garden", "The animals are in the garden", "The garden has animals", "The animals run in the garden"],
+      "question": "ποῦ ἐστιν ὁ κῆπος;",
+      "options": ["ἐν τῷ ἀγρῷ", "ἐγγὺς τοῦ οἴκου", "πέραν τοῦ ποταμοῦ", "ἐν τῷ οὐρανῷ"],
       "answer": 1,
-      "explanation": "τὰ ζῷα is the neuter plural of ζῷον (\"living creature\"). ἐν τῷ κήπῳ = \"in the garden\" (dative with ἐν)."
+      "explanation": "ὁ κῆπος ἐστιν ἐγγὺς τοῦ οἴκου — the garden is near the house. ἐγγύς + genitive = near.",
+      "part": "A"
     },
     {
       "id": 2,
-      "question": "Which case does the verb θέλω require for its complement?",
-      "options": ["Accusative noun", "Dative noun", "Infinitive verb", "Genitive noun"],
-      "answer": 2,
-      "explanation": "θέλω (\"I wish, want\") and μέλλω (\"I am about to\") take a complementary infinitive: θέλει ἁρπάζειν τὸ ἀρνίον — \"he wants to seize the lamb.\""
+      "question": "τί ἐστιν ἐν τῷ κήπῳ;",
+      "options": ["τὸ ἀρνίον", "ὁ λύκος", "τὸ λάχανον", "τὸ δένδρον"],
+      "answer": 3,
+      "explanation": "τὸ δένδρον ἐστιν ἐν τῷ κήπῳ — the tree is in the garden, along with its fruit and branches. The lamb and wolf are elsewhere.",
+      "part": "A"
     },
     {
       "id": 3,
-      "question": "What is the nominative plural ending for masculine 2nd-declension nouns?",
-      "options": ["-ον", "-ους", "-οι", "-ων"],
-      "answer": 2,
-      "explanation": "Masculine 2nd-declension nouns have -οι in the nominative plural: οἱ γεωργοί (\"the farmers\"), οἱ λύκοι (\"the wolves\")."
+      "question": "ποῦ ἐστιν τὸ δένδρον;",
+      "options": ["ἐν τῷ κήπῳ", "ἐν τῷ οἴκῳ", "ἐν τῷ ἀγρῷ", "πέραν τοῦ ποταμοῦ"],
+      "answer": 0,
+      "explanation": "τὸ δένδρον ἐστιν ἐν τῷ κήπῳ — the tree is in the garden. ἐν + dative expresses location.",
+      "part": "A"
     },
     {
       "id": 4,
-      "question": "In the story, what does the farmer use to drive away the wolf?",
-      "options": ["His voice", "A sword", "His rod/staff (ῥάβδος)", "The ox"],
-      "answer": 2,
-      "explanation": "The farmer drives the wolf away with his rod or staff (ῥάβδος). The farmer cries out and runs to protect his flock."
+      "question": "τί ἐστιν ἐπὶ τῷ δένδρῳ;",
+      "options": ["τὸ λάχανον", "οἱ καρποὶ καὶ οἱ κλάδοι", "τὸ ἀρνίον", "ὁ λύκος"],
+      "answer": 1,
+      "explanation": "ἐπὶ τῷ δένδρῳ εἰσὶν οἱ καρποὶ καὶ οἱ κλάδοι — the fruit and branches are on the tree. ἐπί + dative = on top of.",
+      "part": "A"
     },
     {
       "id": 5,
-      "question": "What does the genitive case express in the phrase ὁ κύριος τοῦ κήπου?",
-      "options": ["Location in the garden", "Motion toward the garden", "Possession — the master of the garden", "The garden as direct object"],
+      "question": "τί ποιεῖ ὁ ὄνος;",
+      "options": ["ἐσθίει τὸν χόρτον", "πίνει ἐν τῷ ποταμῷ", "φέρει τοὺς καρπούς πρὸς τὸν οἶκον", "κόπτει τὸ λάχανον"],
+      "answer": 0,
+      "explanation": "ὁ ὄνος ἐσθίει τὸν χόρτον — the donkey eats the grass. It is the ox (βοῦς) that carries fruit to the house.",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "question": "ποῦ ἐστιν ὁ λύκος;",
+      "options": ["ἐν τῷ κήπῳ", "ἐν τῷ ἀγρῷ", "ἐπὶ τῷ δένδρῳ", "πέραν τοῦ ποταμοῦ"],
+      "answer": 3,
+      "explanation": "ὁ λύκος ἐστιν πέραν τοῦ ποταμοῦ — the wolf is across the river. πέραν + genitive = across, beyond.",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "question": "τί ποιεῖ τὸ πρόβατον ἐν τῷ ποταμῷ;",
+      "options": ["τρέχει", "πίνει", "κόπτει", "φεύγει"],
+      "answer": 1,
+      "explanation": "τὸ πρόβατον πίνει ἐν τῷ ποταμῷ — the sheep drinks in the river.",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "question": "τί ἐστιν τὸ ἀρνίον;",
+      "options": ["ζῷον μέγα", "τέκνον τοῦ προβάτου", "θηρίον χαλεπόν", "ζῷον ἰσχυρόν"],
+      "answer": 1,
+      "explanation": "τὸ ἀρνίον ἐστιν τέκνον τοῦ προβάτου — the lamb is the offspring of the sheep. τέκνον = child/offspring.",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "question": "τί ἔχει ὁ γεωργὸς καὶ λαμβάνει τὸν καρπόν;",
+      "options": ["τὸν λίθον", "τὸν κλάδον", "τὸ δρέπανον", "τὸν καρπόν"],
       "answer": 2,
-      "explanation": "The genitive expresses possession: τοῦ κήπου = \"of the garden.\" So ὁ κύριος τοῦ κήπου means \"the master of the garden.\""
+      "explanation": "ὁ γεωργὸς ἔχει τὸ δρέπανον καὶ θερίζει τοὺς καρπούς — the farmer has a sickle and harvests the fruit. δρέπανον = sickle.",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "question": "τί λέγει ὁ γεωργὸς περὶ τοῦ θεοῦ;",
+      "options": ["ὁ θεὸς μέγας ἐστιν", "ὁ θεὸς φυλάσσει τὸ ζῷον", "ὁ θεὸς φέρει τοὺς καρπούς", "ὁ θεὸς κόπτει τοὺς κλάδους"],
+      "answer": 1,
+      "explanation": "ὁ γεωργὸς λέγει ὅτι ὁ θεὸς φυλάσσει τὸ ζῷον — the farmer says God guards/protects the animal. φυλάσσω = I guard, watch over.",
+      "part": "A"
+    },
+    {
+      "id": 11,
+      "question": "ποῦ καθίζει ὁ γεωργὸς ἐν ἀρχῇ;",
+      "options": ["ἐν τῷ ἀγρῷ", "ἔξω τοῦ οἴκου", "πέραν τοῦ ποταμοῦ", "ἐπὶ τῷ δένδρῳ"],
+      "answer": 1,
+      "explanation": "ὁ γεωργὸς καθίζει ἔξω τοῦ οἴκου ἐν ἀρχῇ — the farmer sits outside the house at the beginning. ἔξω + genitive = outside of.",
+      "part": "B"
+    },
+    {
+      "id": 12,
+      "question": "ποῦ μένει ὁ λύκος ἐν ἀρχῇ;",
+      "options": ["ἐν τῷ ἀγρῷ", "ἐγγὺς τοῦ ἀρνίου", "πέραν τοῦ ποταμοῦ", "ἔξω τοῦ οἴκου"],
+      "answer": 2,
+      "explanation": "ὁ λύκος μένει πέραν τοῦ ποταμοῦ ἐν ἀρχῇ — the wolf stays across the river at the beginning, watching the flock.",
+      "part": "B"
+    },
+    {
+      "id": 13,
+      "question": "τί θέλει ὁ λύκος;",
+      "options": ["ἐσθίειν τὸν χόρτον", "ἁρπάζειν τὸ ἀρνίον", "διαβαίνειν πρὸς τὸν οἶκον", "πίνειν ἐν τῷ ποταμῷ"],
+      "answer": 1,
+      "explanation": "ὁ λύκος θέλει ἁρπάζειν τὸ ἀρνίον — the wolf wants to snatch the lamb. ἁρπάζω = I seize, snatch.",
+      "part": "B"
+    },
+    {
+      "id": 14,
+      "question": "διὰ τί οὐ χαίρει ὁ γεωργὸς ὅτε βλέπει τὸν λύκον;",
+      "options": ["ὅτι ὁ λύκος μέγας ἐστιν", "ὅτι φιλεῖ τὸ πρόβατον καὶ τὸ ἀρνίον", "ὅτι ὁ ποταμὸς μέγας ἐστιν", "ὅτι ὁ ἀγρὸς μικρός ἐστιν"],
+      "answer": 1,
+      "explanation": "ὁ γεωργὸς οὐ χαίρει ὅτι φιλεῖ τὸ πρόβατον καὶ τὸ ἀρνίον — he doesn't rejoice because he loves his sheep and lamb and fears for them.",
+      "part": "B"
+    },
+    {
+      "id": 15,
+      "question": "τί λαμβάνει ὁ γεωργὸς ὅτε τρέχει εἰς τὸν ἀγρόν;",
+      "options": ["τὸ δρέπανον καὶ τὸν καρπόν", "τὴν ῥάβδον καὶ λίθους", "τὸ ἀρνίον καὶ τὸ πρόβατον", "τὸν ἄρτον καὶ τὸ λάχανον"],
+      "answer": 1,
+      "explanation": "ὁ γεωργὸς λαμβάνει τὴν ῥάβδον καὶ λίθους — the farmer takes his staff and stones to drive the wolf away. ῥάβδος = staff/rod.",
+      "part": "B"
+    },
+    {
+      "id": 16,
+      "question": "τί ποιεῖ ὁ γεωργὸς εἰς τὸν λύκον;",
+      "options": ["φέρει τὸ ἀρνίον", "βάλλει λίθους", "διώκει εἰς τὸν ποταμόν", "κράζει καὶ φεύγει"],
+      "answer": 1,
+      "explanation": "ὁ γεωργὸς βάλλει λίθους εἰς τὸν λύκον — the farmer throws stones at the wolf. βάλλω = I throw.",
+      "part": "B"
+    },
+    {
+      "id": 17,
+      "question": "διὰ τί φεύγει ὁ λύκος;",
+      "options": ["ὅτι οὐ θέλει ἐσθίειν τὸ ἀρνίον", "ὅτι ὁ ποταμὸς μέγας ἐστιν", "ὅτι ἀκούει τὴν φωνὴν καὶ βλέπει τοὺς λίθους", "ὅτι τὸ ἀρνίον τρέχει"],
+      "answer": 2,
+      "explanation": "ὁ λύκος φεύγει ὅτι ἀκούει τὴν φωνὴν τοῦ γεωργοῦ καὶ βλέπει τοὺς λίθους — the wolf flees because it hears the farmer's cry and sees the stones.",
+      "part": "B"
+    },
+    {
+      "id": 18,
+      "question": "ποῦ καθίζει ὁ γεωργὸς καὶ εὐχαριστεῖ τῷ θεῷ;",
+      "options": ["ἔξω τοῦ οἴκου", "ἐπὶ τῷ λίθῳ ὑπὸ τῷ δένδρῳ", "ἐν τῷ οἴκῳ", "πέραν τοῦ ποταμοῦ"],
+      "answer": 1,
+      "explanation": "ὁ γεωργὸς καθίζει ἐπὶ τῷ λίθῳ ὑπὸ τῷ δένδρῳ καὶ εὐχαριστεῖ τῷ θεῷ — he sits on the stone under the tree and gives thanks to God.",
+      "part": "B"
+    },
+    {
+      "id": 19,
+      "question": "τί γινώσκει τὸ πρόβατον καὶ τὸ ἀρνίον;",
+      "options": ["τὴν ὁδὸν πρὸς τὸν ποταμόν", "τὴν φωνὴν τοῦ γεωργοῦ", "τὸν λύκον", "τὸν χόρτον τοῦ ἀγροῦ"],
+      "answer": 1,
+      "explanation": "τὸ πρόβατον καὶ τὸ ἀρνίον γινώσκουσιν τὴν φωνὴν τοῦ γεωργοῦ — the sheep and the lamb know the farmer's voice. γινώσκω = I know.",
+      "part": "B"
+    },
+    {
+      "id": 20,
+      "question": "πῶς ἐκβαίνουσιν ἐκ τοῦ ἀγροῦ;",
+      "options": ["τὸ πρόβατον τρέχει καὶ τὸ ἀρνίον φεύγει", "ὁ γεωργὸς αἴρει τὸ ἀρνίον καὶ τὸ πρόβατον ἀκολουθεῖ", "ὁ γεωργὸς φέρει τὸ πρόβατον καὶ τὸ ἀρνίον τρέχει", "ὁ λύκος διώκει τὰ ζῷα"],
+      "answer": 1,
+      "explanation": "ὁ γεωργὸς αἴρει τὸ ἀρνίον καὶ τὸ πρόβατον ἀκολουθεῖ — the farmer lifts the lamb and the sheep follows. αἴρω = I lift; ἀκολουθέω = I follow.",
+      "part": "B"
+    }
+  ],
+  "trueFalse": [
+    {
+      "id": 1,
+      "statement": "ὁ κῆπος ἐστιν ἐγγὺς τοῦ οἴκου.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ κῆπος ἐστιν ἐγγὺς τοῦ οἴκου — the garden is near the house. ἐγγύς + genitive = near.",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "statement": "τὸ δένδρον ἐστιν ἐν τῷ κήπῳ.",
+      "answer": true,
+      "explanation": "ἀληθές! τὸ δένδρον ἐστιν ἐν τῷ κήπῳ — the tree is in the garden, with fruit and branches on it.",
+      "part": "A"
+    },
+    {
+      "id": 3,
+      "statement": "οἱ καρποί εἰσιν ἐπὶ τῷ δένδρῳ.",
+      "answer": true,
+      "explanation": "ἀληθές! οἱ καρποί εἰσιν ἐπὶ τῷ δένδρῳ — the fruits are on the tree. ἐπί + dative = on.",
+      "part": "A"
+    },
+    {
+      "id": 4,
+      "statement": "ὁ ὄνος φέρει τοὺς καρπούς πρὸς τὸν ποταμόν.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ βοῦς φέρει τοὺς καρπούς πρὸς τὸν οἶκον, οὐ πρὸς τὸν ποταμόν — the ox carries fruit to the house, not the river. The donkey eats grass.",
+      "part": "A"
+    },
+    {
+      "id": 5,
+      "statement": "τὸ ἀρνίον ἐστιν τέκνον τοῦ προβάτου.",
+      "answer": true,
+      "explanation": "ἀληθές! τὸ ἀρνίον ἐστιν τέκνον τοῦ προβάτου — the lamb is the offspring of the sheep. τέκνον = child, offspring.",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "statement": "ὁ λύκος ἐστίν ἐν τῷ ἀγρῷ.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ λύκος ἐστίν πέραν τοῦ ποταμοῦ, οὐκ ἐν τῷ ἀγρῷ — the wolf is across the river, not in the field.",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "statement": "τὸ πρόβατον πίνει ἐν τῷ ποταμῷ.",
+      "answer": true,
+      "explanation": "ἀληθές! τὸ πρόβατον πίνει ἐν τῷ ποταμῷ — the sheep drinks in the river.",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "statement": "ὁ βοῦς φέρει τοὺς καρπούς πρὸς τὸν οἶκον.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ βοῦς φέρει τοὺς καρπούς πρὸς τὸν οἶκον — the ox carries the fruits toward the house. βοῦς = ox.",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "statement": "ὁ γεωργὸς βλέπει τὸν λύκον καὶ χαίρει.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ γεωργὸς βλέπει τὸν λύκον καὶ οὐ χαίρει — the farmer sees the wolf and does not rejoice; he fears for his animals.",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "statement": "ὁ θεὸς φυλάσσει τὸ ζῷον.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ γεωργὸς λέγει ὅτι ὁ θεὸς φυλάσσει τὸ ζῷον — the farmer says God watches over and protects the animal.",
+      "part": "A"
+    },
+    {
+      "id": 11,
+      "statement": "ὁ γεωργὸς καθίζει ἔξω τοῦ οἴκου ἐν ἀρχῇ.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ γεωργὸς καθίζει ἔξω τοῦ οἴκου ἐν ἀρχῇ τοῦ Μέρους Β — the farmer sits outside the house at the beginning of Part B.",
+      "part": "B"
+    },
+    {
+      "id": 12,
+      "statement": "ὁ λύκος θέλει ἁρπάζειν τὸ πρόβατον.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ λύκος θέλει ἁρπάζειν τὸ ἀρνίον καὶ τὸ πρόβατον — the wolf wants to seize the lamb and sheep.",
+      "part": "B"
+    },
+    {
+      "id": 13,
+      "statement": "τὸ πρόβατον καὶ τὸ ἀρνίον βλέπουσιν τὸν λύκον.",
+      "answer": true,
+      "explanation": "ἀληθές! τὸ πρόβατον καὶ τὸ ἀρνίον βλέπουσιν τὸν λύκον καὶ φοβοῦνται — the sheep and lamb see the wolf and are afraid.",
+      "part": "B"
+    },
+    {
+      "id": 14,
+      "statement": "ὁ ἀγαθὸς γεωργὸς φεύγει ἀπὸ τοῦ θηρίου.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ ἀγαθὸς γεωργὸς οὐ φεύγει — the good farmer does not flee. He runs toward the wolf to protect his animals.",
+      "part": "B"
+    },
+    {
+      "id": 15,
+      "statement": "ὁ γεωργὸς λαμβάνει τὴν ῥάβδον καὶ λίθους.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ γεωργὸς λαμβάνει τὴν ῥάβδον καὶ λίθους — the farmer takes his staff and stones to drive away the wolf.",
+      "part": "B"
+    },
+    {
+      "id": 16,
+      "statement": "ὁ λύκος ἀκούει τὴν φωνὴν τοῦ γεωργοῦ καὶ μένει ἐν τῷ ἀγρῷ.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ λύκος ἀκούει τὴν φωνὴν καὶ φεύγει — the wolf hears the farmer's voice and flees, it does not remain.",
+      "part": "B"
+    },
+    {
+      "id": 17,
+      "statement": "ὁ γεωργὸς καθίζει ἐπὶ τῷ λίθῳ ὑπὸ τῷ δένδρῳ καὶ εὐχαριστεῖ τῷ θεῷ.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ γεωργὸς καθίζει ἐπὶ τῷ λίθῳ ὑπὸ τῷ δένδρῳ καὶ εὐχαριστεῖ τῷ θεῷ — he sits on the stone under the tree and gives thanks.",
+      "part": "B"
+    },
+    {
+      "id": 18,
+      "statement": "τὸ πρόβατον καὶ τὸ ἀρνίον οὐ γινώσκουσιν τὴν φωνὴν τοῦ γεωργοῦ.",
+      "answer": false,
+      "explanation": "ψεῦδος. τὸ πρόβατον καὶ τὸ ἀρνίον γινώσκουσιν τὴν φωνὴν τοῦ γεωργοῦ — they DO know his voice and follow when he calls.",
+      "part": "B"
+    },
+    {
+      "id": 19,
+      "statement": "ὁ γεωργὸς αἴρει τὸ ἀρνίον καὶ τὸ πρόβατον ἀκολουθεῖ.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ γεωργὸς αἴρει τὸ ἀρνίον καὶ τὸ πρόβατον ἀκολουθεῖ αὐτῷ — the farmer lifts the lamb and the sheep follows him.",
+      "part": "B"
+    },
+    {
+      "id": 20,
+      "statement": "ὁ θεὸς φυλάσσει τὰ ζῷα καὶ τὸν γεωργόν.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ γεωργὸς εὐχαριστεῖ τῷ θεῷ ὅτι ὁ θεὸς φυλάσσει τὰ ζῷα καὶ αὐτόν — God guards both the animals and the farmer.",
+      "part": "B"
+    }
+  ],
+  "yesNo": [
+    {
+      "id": 1,
+      "question": "ἆρα ὁ κῆπος ἐστιν ἐγγὺς τοῦ οἴκου;",
+      "answer": true,
+      "explanation": "ναί! ὁ κῆπος ἐστιν ἐγγὺς τοῦ οἴκου — the garden is near the house.",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "question": "ἆρα τὸ λάχανον ἐστιν ἐν τῷ ἀγρῷ;",
+      "answer": false,
+      "explanation": "οὔ. τὸ λάχανον ἐστιν ἐν τῷ κήπῳ, οὐκ ἐν τῷ ἀγρῷ — the vegetable is in the garden, not in the field.",
+      "part": "A"
+    },
+    {
+      "id": 3,
+      "question": "ἆρα ὁ γεωργὸς φυτεύει τὸ λάχανον ἐν τῷ κήπῳ;",
+      "answer": true,
+      "explanation": "ναί! ὁ γεωργὸς φυτεύει τὸ λάχανον ἐν τῷ κήπῳ — the farmer plants vegetables in the garden. φυτεύω = I plant.",
+      "part": "A"
+    },
+    {
+      "id": 4,
+      "question": "ἆρα τὸ δένδρον ἐστιν μικρόν;",
+      "answer": false,
+      "explanation": "οὔ. τὸ δένδρον ἔχει καρπούς καὶ κλάδους — the tree has fruit and branches, it is a full tree, not described as small.",
+      "part": "A"
+    },
+    {
+      "id": 5,
+      "question": "ἆρα ὁ ὄνος ἐστιν ἀγαθός;",
+      "answer": true,
+      "explanation": "ναί! ὁ ὄνος ἐστιν ἀγαθός — the donkey is good and helpful, eating grass and serving the farmer.",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "question": "ἆρα ὁ λύκος ἐστιν ἐγγὺς τοῦ οἴκου;",
+      "answer": false,
+      "explanation": "οὔ. ὁ λύκος ἐστιν πέραν τοῦ ποταμοῦ, οὐκ ἐγγὺς τοῦ οἴκου — the wolf is across the river, not near the house.",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "question": "ἆρα τὸ ἀρνίον τρέχει ἐν τῷ ἀγρῷ;",
+      "answer": false,
+      "explanation": "οὔ. τὸ ἀρνίον οὐ τρέχει ἐν τῷ ἀγρῷ — the lamb is near the sheep by the river, not running in the field.",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "question": "ἆρα ὁ βοῦς ἐστιν ἰσχυρός;",
+      "answer": true,
+      "explanation": "ναί! ὁ βοῦς ἐστιν ἰσχυρός — the ox is strong; it carries the fruit to the house.",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "question": "ἆρα ὁ γεωργὸς θέλει φυλάσσειν τὸ ἀρνίον;",
+      "answer": true,
+      "explanation": "ναί! ὁ γεωργὸς θέλει φυλάσσειν τὸ ἀρνίον — the farmer wants to protect the lamb; that is why he runs to drive away the wolf.",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "question": "ἆρα ὁ γεωργὸς εὐχαριστεῖ τῷ θεῷ;",
+      "answer": true,
+      "explanation": "ναί! ὁ γεωργὸς εὐχαριστεῖ τῷ θεῷ — the farmer gives thanks to God for protecting his animals.",
+      "part": "A"
+    },
+    {
+      "id": 11,
+      "question": "ἆρα ὁ ποταμὸς ῥεῖ καλῶς ἐν ἀρχῇ;",
+      "answer": true,
+      "explanation": "ναί! ὁ ποταμὸς ῥεῖ καλῶς — the river flows well; the sheep drink from it.",
+      "part": "B"
+    },
+    {
+      "id": 12,
+      "question": "ἆρα ὁ λύκος ἐστιν ἀγαθός;",
+      "answer": false,
+      "explanation": "οὔ. ὁ λύκος ἐστιν πονηρός, οὐκ ἀγαθός — the wolf is evil, not good. It wants to seize the lamb.",
+      "part": "B"
+    },
+    {
+      "id": 13,
+      "question": "ἆρα τὸ ἀρνίον βλέπει τὸν λύκον ὅτε ὁ λύκος ἐγγύς ἐστιν;",
+      "answer": true,
+      "explanation": "ναί! τὸ ἀρνίον βλέπει τὸν λύκον ὅτε ὁ λύκος ἐγγύς ἐστιν — the lamb sees the wolf when it approaches.",
+      "part": "B"
+    },
+    {
+      "id": 14,
+      "question": "ἆρα ὁ γεωργὸς φιλεῖ τὸ πρόβατον καὶ τὸ ἀρνίον;",
+      "answer": true,
+      "explanation": "ναί! ὁ γεωργὸς φιλεῖ τὸ πρόβατον καὶ τὸ ἀρνίον — the farmer loves his sheep and lamb, which is why he protects them.",
+      "part": "B"
+    },
+    {
+      "id": 15,
+      "question": "ἆρα ὁ γεωργὸς κράζει φωνῇ μεγάλῃ;",
+      "answer": true,
+      "explanation": "ναί! ὁ γεωργὸς κράζει φωνῇ μεγάλῃ — the farmer cries out with a loud voice to frighten the wolf away.",
+      "part": "B"
+    },
+    {
+      "id": 16,
+      "question": "ἆρα ὁ λύκος μέλλει ἁρπάζειν τὸ ἀρνίον τέλος;",
+      "answer": false,
+      "explanation": "οὔ. ὁ λύκος οὐ μέλλει ἁρπάζειν τὸ ἀρνίον — the wolf does not succeed; the farmer drives it away.",
+      "part": "B"
+    },
+    {
+      "id": 17,
+      "question": "ἆρα ὁ γεωργὸς εὐχαριστεῖ τῷ θεῷ;",
+      "answer": true,
+      "explanation": "ναί! ὁ γεωργὸς εὐχαριστεῖ τῷ θεῷ — the farmer gives thanks to God after saving his animals.",
+      "part": "B"
+    },
+    {
+      "id": 18,
+      "question": "ἆρα τὸ πρόβατον ἀκούει τὴν φωνὴν τοῦ γεωργοῦ καθ' ἡμέραν;",
+      "answer": true,
+      "explanation": "ναί! τὸ πρόβατον ἀκούει τὴν φωνὴν τοῦ γεωργοῦ — the sheep hears the farmer's voice every day and knows it.",
+      "part": "B"
+    },
+    {
+      "id": 19,
+      "question": "ἆρα ὁ γεωργὸς ἄγει τὰ ζῷα πρὸς τὸν ποταμόν;",
+      "answer": false,
+      "explanation": "οὔ. ὁ γεωργὸς ἄγει τὰ ζῷα πρὸς τὸν οἶκον, οὐ πρὸς τὸν ποταμόν — the farmer leads the animals toward the house, not the river.",
+      "part": "B"
+    },
+    {
+      "id": 20,
+      "question": "ἆρα ὁ θεὸς ἐστιν δίκαιος καὶ πιστός;",
+      "answer": true,
+      "explanation": "ναί! ὁ θεὸς ἐστιν δίκαιος καὶ πιστός — God is just and faithful; the farmer gives thanks to him.",
+      "part": "B"
+    }
+  ],
+  "prepFill": [
+    {
+      "id": 1,
+      "prompt": "ὁ κῆπος ἐστιν _______ τοῦ οἴκου.",
+      "choices": ["ἐν", "ἐγγύς", "πέραν", "ἐκ", "ἐπί", "πρός"],
+      "answers": ["ἐγγύς"],
+      "explanation": "ἐγγύς + genitive = near: ὁ κῆπος ἐστιν ἐγγὺς τοῦ οἴκου — the garden is near the house.",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "prompt": "τὸ λάχανον ἐστιν _______ τῷ κήπῳ.",
+      "choices": ["ἐν", "ἐγγύς", "πέραν", "ἐκ", "ἐπί", "πρός"],
+      "answers": ["ἐν"],
+      "explanation": "ἐν + dative = in: τὸ λάχανον ἐστιν ἐν τῷ κήπῳ — the vegetable is in the garden.",
+      "part": "A"
+    },
+    {
+      "id": 3,
+      "prompt": "οἱ καρποί εἰσιν _______ τῷ δένδρῳ.",
+      "choices": ["ἐν", "ἐγγύς", "πέραν", "ἐκ", "ἐπί", "πρός"],
+      "answers": ["ἐπί"],
+      "explanation": "ἐπί + dative = on: οἱ καρποί εἰσιν ἐπὶ τῷ δένδρῳ — the fruits are on the tree.",
+      "part": "A"
+    },
+    {
+      "id": 4,
+      "prompt": "ὁ γεωργὸς περιπατεῖ _______ τὸν κῆπον.",
+      "choices": ["ἐν", "ἐγγύς", "πέραν", "ἐκ", "ἐπί", "πρός"],
+      "answers": ["πρός"],
+      "explanation": "πρός + accusative = toward: ὁ γεωργὸς περιπατεῖ πρὸς τὸν κῆπον — the farmer walks toward the garden.",
+      "part": "A"
+    },
+    {
+      "id": 5,
+      "prompt": "ὁ ὄνος φέρει τοὺς καρπούς _______ τοῦ ἀγροῦ _______ τὸν οἶκον.",
+      "choices": ["ἐν", "ἐγγύς", "πέραν", "ἐκ", "ἐπί", "πρός"],
+      "answers": ["ἐκ", "πρός"],
+      "explanation": "ἐκ + genitive = out of; πρός + accusative = toward: ἐκ τοῦ ἀγροῦ πρὸς τὸν οἶκον — out of the field toward the house.",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "prompt": "ὁ λύκος ἐστίν _______ τοῦ ποταμοῦ.",
+      "choices": ["ἐν", "ἐγγύς", "πέραν", "ἐκ", "ἐπί", "πρός"],
+      "answers": ["πέραν"],
+      "explanation": "πέραν + genitive = across: ὁ λύκος ἐστίν πέραν τοῦ ποταμοῦ — the wolf is across the river.",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "prompt": "τὸ πρόβατον πίνει _______ τῷ ποταμῷ.",
+      "choices": ["ἐν", "ἐγγύς", "πέραν", "ἐκ", "ἐπί", "πρός"],
+      "answers": ["ἐν"],
+      "explanation": "ἐν + dative = in: τὸ πρόβατον πίνει ἐν τῷ ποταμῷ — the sheep drinks in the river.",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "prompt": "ὁ ποταμὸς ῥεῖ _______ τοῦ οἴκου.",
+      "choices": ["ἐν", "ἐγγύς", "πέραν", "ἐκ", "ἐπί", "πρός"],
+      "answers": ["ἐγγύς"],
+      "explanation": "ἐγγύς + genitive = near: ὁ ποταμὸς ῥεῖ ἐγγὺς τοῦ οἴκου — the river flows near the house.",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "prompt": "ὁ γεωργὸς λαμβάνει τοὺς καρπούς _______ τοῦ δένδρου.",
+      "choices": ["ἐν", "ἐγγύς", "πέραν", "ἐκ", "ἐπί", "πρός"],
+      "answers": ["ἐκ"],
+      "explanation": "ἐκ + genitive = out of, from: ὁ γεωργὸς λαμβάνει τοὺς καρπούς ἐκ τοῦ δένδρου — the farmer takes the fruit from the tree.",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "prompt": "τὸ ἀρνίον τρέχει _______ τῷ ἀγρῷ.",
+      "choices": ["ἐν", "ἐγγύς", "πέραν", "ἐκ", "ἐπί", "πρός"],
+      "answers": ["ἐν"],
+      "explanation": "ἐν + dative = in: τὸ ἀρνίον τρέχει ἐν τῷ ἀγρῷ — the lamb runs in the field.",
+      "part": "A"
+    },
+    {
+      "id": 11,
+      "prompt": "ὁ γεωργὸς καθίζει _______ τοῦ οἴκου.",
+      "choices": ["ἔξω", "πέραν", "πρός", "ἐγγύς", "ἐκ", "ἐπί", "ὑπό"],
+      "answers": ["ἔξω"],
+      "explanation": "ἔξω + genitive = outside of: ὁ γεωργὸς καθίζει ἔξω τοῦ οἴκου — the farmer sits outside the house.",
+      "part": "B"
+    },
+    {
+      "id": 12,
+      "prompt": "ὁ λύκος μένει _______ τοῦ ποταμοῦ.",
+      "choices": ["ἔξω", "πέραν", "πρός", "ἐγγύς", "ἐκ", "ἐπί", "ὑπό"],
+      "answers": ["πέραν"],
+      "explanation": "πέραν + genitive = across: ὁ λύκος μένει πέραν τοῦ ποταμοῦ — the wolf stays across the river.",
+      "part": "B"
+    },
+    {
+      "id": 13,
+      "prompt": "ὁ λύκος διαβαίνει τὸν ποταμὸν _______ τὸν ἀγρόν.",
+      "choices": ["ἔξω", "πέραν", "πρός", "ἐγγύς", "ἐκ", "ἐπί", "ὑπό"],
+      "answers": ["πρός"],
+      "explanation": "πρός + accusative = toward: ὁ λύκος διαβαίνει τὸν ποταμὸν πρὸς τὸν ἀγρόν — the wolf crosses the river toward the field.",
+      "part": "B"
+    },
+    {
+      "id": 14,
+      "prompt": "νῦν ὁ λύκος ἐστίν _______ τοῦ ἀρνίου.",
+      "choices": ["ἔξω", "πέραν", "πρός", "ἐγγύς", "ἐκ", "ἐπί", "ὑπό"],
+      "answers": ["ἐγγύς"],
+      "explanation": "ἐγγύς + genitive = near: νῦν ὁ λύκος ἐστίν ἐγγὺς τοῦ ἀρνίου — now the wolf is near the lamb.",
+      "part": "B"
+    },
+    {
+      "id": 15,
+      "prompt": "ὁ γεωργὸς τρέχει _______ τὸν ἀγρὸν καὶ κράζει.",
+      "choices": ["ἔξω", "πέραν", "πρός", "ἐγγύς", "ἐκ", "ἐπί", "ὑπό"],
+      "answers": ["πρός"],
+      "explanation": "πρός + accusative = toward: ὁ γεωργὸς τρέχει πρὸς τὸν ἀγρόν — the farmer runs toward the field.",
+      "part": "B"
+    },
+    {
+      "id": 16,
+      "prompt": "ὁ γεωργὸς αἴρει λίθους _______ τοῦ ἀγροῦ.",
+      "choices": ["ἔξω", "πέραν", "πρός", "ἐγγύς", "ἐκ", "ἐπί", "ὑπό"],
+      "answers": ["ἐκ"],
+      "explanation": "ἐκ + genitive = out of/from: ὁ γεωργὸς αἴρει λίθους ἐκ τοῦ ἀγροῦ — the farmer picks up stones from the field.",
+      "part": "B"
+    },
+    {
+      "id": 17,
+      "prompt": "ὁ λύκος φεύγει _______ τοῦ ἀγροῦ _______ τὸν ποταμόν.",
+      "choices": ["ἔξω", "πέραν", "πρός", "ἐγγύς", "ἐκ", "ἐπί", "ὑπό"],
+      "answers": ["ἐκ", "πρός"],
+      "explanation": "ἐκ + genitive = out of; πρός + accusative = toward: ὁ λύκος φεύγει ἐκ τοῦ ἀγροῦ πρὸς τὸν ποταμόν — the wolf flees out of the field toward the river.",
+      "part": "B"
+    },
+    {
+      "id": 18,
+      "prompt": "ὁ γεωργὸς καθίζει _______ τῷ λίθῳ _______ τῷ δένδρῳ.",
+      "choices": ["ἔξω", "πέραν", "πρός", "ἐγγύς", "ἐκ", "ἐπί", "ὑπό"],
+      "answers": ["ἐπί", "ὑπό"],
+      "explanation": "ἐπί + dative = on; ὑπό + dative = under: ἐπὶ τῷ λίθῳ ὑπὸ τῷ δένδρῳ — on the stone under the tree.",
+      "part": "B"
+    },
+    {
+      "id": 19,
+      "prompt": "ἄγει ὁ γεωργὸς τὰ ζῷα _______ τὸν οἶκον.",
+      "choices": ["ἔξω", "πέραν", "πρός", "ἐγγύς", "ἐκ", "ἐπί", "ὑπό"],
+      "answers": ["πρός"],
+      "explanation": "πρός + accusative = toward: ἄγει τὰ ζῷα πρὸς τὸν οἶκον — he leads the animals toward the house.",
+      "part": "B"
+    },
+    {
+      "id": 20,
+      "prompt": "ἐκβαίνουσιν _______ τοῦ ἀγροῦ.",
+      "choices": ["ἔξω", "πέραν", "πρός", "ἐγγύς", "ἐκ", "ἐπί", "ὑπό"],
+      "answers": ["ἐκ"],
+      "explanation": "ἐκ + genitive = out of: ἐκβαίνουσιν ἐκ τοῦ ἀγροῦ — they go out of the field. ἐκβαίνω = I go out.",
+      "part": "B"
+    }
+  ],
+  "personChange": [
+    {
+      "id": 1,
+      "original": "ὁ γεωργὸς φυτεύει τὸ λάχανον ἐν τῷ κήπῳ.",
+      "cue": "ἐγὼ _______ τὸ λάχανον ἐν τῷ κήπῳ.",
+      "answers": ["φυτεύω"],
+      "explanation": "3rd sg. φυτεύει → 1st sg. φυτεύω. Regular pattern: -ει → -ω for 1st person singular.",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "original": "ὁ γεωργὸς θερίζει τοὺς καρπούς ἐκ τοῦ δένδρου.",
+      "cue": "ἡμεῖς _______ τοὺς καρπούς ἐκ τοῦ δένδρου.",
+      "answers": ["θερίζομεν"],
+      "explanation": "3rd sg. θερίζει → 1st pl. θερίζομεν. The -ει ending becomes -ομεν for 1st person plural.",
+      "part": "A"
+    },
+    {
+      "id": 3,
+      "original": "ὁ γεωργὸς λαμβάνει τὸ δρέπανον.",
+      "cue": "σὺ _______ τὸ δρέπανον.",
+      "answers": ["λαμβάνεις"],
+      "explanation": "3rd sg. λαμβάνει → 2nd sg. λαμβάνεις. Adding -ς to the 3rd person form.",
+      "part": "A"
+    },
+    {
+      "id": 4,
+      "original": "ὁ γεωργὸς κόπτει τὸ λάχανον ἐν τῷ κήπῳ.",
+      "cue": "ὑμεῖς _______ τὸ λάχανον ἐν τῷ κήπῳ.",
+      "answers": ["κόπτετε"],
+      "explanation": "3rd sg. κόπτει → 2nd pl. κόπτετε. The 2nd person plural ending is -ετε.",
+      "part": "A"
+    },
+    {
+      "id": 5,
+      "original": "ὁ γεωργὸς βλέπει τὸν λύκον πέραν τοῦ ποταμοῦ.",
+      "cue": "ἐγὼ _______ τὸν λύκον πέραν τοῦ ποταμοῦ.",
+      "answers": ["βλέπω"],
+      "explanation": "3rd sg. βλέπει → 1st sg. βλέπω. Regular pattern: -ει → -ω.",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "original": "ὁ γεωργὸς φέρει τοὺς καρπούς πρὸς τὸν οἶκον.",
+      "cue": "αὐτοὶ _______ τοὺς καρπούς πρὸς τὸν οἶκον.",
+      "answers": ["φέρουσιν"],
+      "explanation": "3rd sg. φέρει → 3rd pl. φέρουσιν. The 3rd person plural ends in -ουσιν.",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "original": "ὁ γεωργὸς περιπατεῖ πρὸς τὸν κῆπον.",
+      "cue": "σὺ _______ πρὸς τὸν κῆπον.",
+      "answers": ["περιπατεῖς"],
+      "explanation": "3rd sg. περιπατεῖ → 2nd sg. περιπατεῖς. Contract verb (-έω): 2nd sg. = περιπατεῖς.",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "original": "ὁ γεωργὸς εὐχαριστεῖ τῷ θεῷ.",
+      "cue": "ἡμεῖς _______ τῷ θεῷ.",
+      "answers": ["εὐχαριστοῦμεν"],
+      "explanation": "3rd sg. εὐχαριστεῖ → 1st pl. εὐχαριστοῦμεν. Contract verb (-έω): 1st pl. contracts to -οῦμεν.",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "original": "ὁ γεωργὸς φυλάσσει τὸ ἀρνίον.",
+      "cue": "ὑμεῖς _______ τὸ ἀρνίον.",
+      "answers": ["φυλάσσετε"],
+      "explanation": "3rd sg. φυλάσσει → 2nd pl. φυλάσσετε. The 2nd person plural ending is -ετε.",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "original": "ὁ γεωργὸς θέλει φυλάσσειν τὸ ἀρνίον.",
+      "cue": "ἐγὼ _______ φυλάσσειν τὸ ἀρνίον.",
+      "answers": ["θέλω"],
+      "explanation": "3rd sg. θέλει → 1st sg. θέλω. Regular pattern: -ει → -ω. The infinitive φυλάσσειν stays the same.",
+      "part": "A"
+    },
+    {
+      "id": 11,
+      "original": "ὁ γεωργὸς φιλεῖ τὸ πρόβατον καὶ τὸ ἀρνίον.",
+      "cue": "ἐγὼ _______ τὸ πρόβατον καὶ τὸ ἀρνίον.",
+      "answers": ["φιλῶ"],
+      "explanation": "φιλεῖ (contract -έω) → 1st sg. φιλῶ. The ε contracts with ω: φιλέω → φιλῶ.",
+      "part": "B"
+    },
+    {
+      "id": 12,
+      "original": "ὁ γεωργὸς μέλλει σῴζειν τὰ ζῷα.",
+      "cue": "ἡμεῖς _______ σῴζειν τὰ ζῷα.",
+      "answers": ["μέλλομεν"],
+      "explanation": "3rd sg. μέλλει → 1st pl. μέλλομεν. The -ει changes to -ομεν for 1st plural.",
+      "part": "B"
+    },
+    {
+      "id": 13,
+      "original": "ὁ γεωργὸς τρέχει εἰς τὸν ἀγρόν.",
+      "cue": "σὺ _______ εἰς τὸν ἀγρόν.",
+      "answers": ["τρέχεις"],
+      "explanation": "3rd sg. τρέχει → 2nd sg. τρέχεις. Adding -ς for 2nd person singular.",
+      "part": "B"
+    },
+    {
+      "id": 14,
+      "original": "ὁ γεωργὸς κράζει φωνῇ μεγάλῃ.",
+      "cue": "ὑμεῖς _______ φωνῇ μεγάλῃ.",
+      "answers": ["κράζετε"],
+      "explanation": "3rd sg. κράζει → 2nd pl. κράζετε. The 2nd person plural ending is -ετε.",
+      "part": "B"
+    },
+    {
+      "id": 15,
+      "original": "ὁ γεωργὸς βάλλει λίθους εἰς τὸν λύκον.",
+      "cue": "ἐγὼ _______ λίθους εἰς τὸν λύκον.",
+      "answers": ["βάλλω"],
+      "explanation": "3rd sg. βάλλει → 1st sg. βάλλω. Regular pattern: -ει → -ω.",
+      "part": "B"
+    },
+    {
+      "id": 16,
+      "original": "ὁ γεωργὸς διώκει τὸν λύκον.",
+      "cue": "αὐτοὶ _______ τὸν λύκον.",
+      "answers": ["διώκουσιν"],
+      "explanation": "3rd sg. διώκει → 3rd pl. διώκουσιν. The 3rd plural ends in -ουσιν.",
+      "part": "B"
+    },
+    {
+      "id": 17,
+      "original": "ὁ γεωργὸς εὐχαριστεῖ τῷ θεῷ.",
+      "cue": "ἡμεῖς _______ τῷ θεῷ.",
+      "answers": ["εὐχαριστοῦμεν"],
+      "explanation": "εὐχαριστεῖ (contract -έω) → 1st pl. εὐχαριστοῦμεν. Contract 1st plural: -έ + -ομεν = -οῦμεν.",
+      "part": "B"
+    },
+    {
+      "id": 18,
+      "original": "ὁ γεωργὸς καλεῖ τὸ πρόβατον καὶ τὸ ἀρνίον.",
+      "cue": "σὺ _______ τὸ πρόβατον καὶ τὸ ἀρνίον.",
+      "answers": ["καλεῖς"],
+      "explanation": "καλεῖ (contract -έω) → 2nd sg. καλεῖς. Contract 2nd singular: -έ + -εις = -εῖς.",
+      "part": "B"
+    },
+    {
+      "id": 19,
+      "original": "ὁ γεωργὸς ἄγει τὰ ζῷα πρὸς τὸν οἶκον.",
+      "cue": "ὑμεῖς _______ τὰ ζῷα πρὸς τὸν οἶκον.",
+      "answers": ["ἄγετε"],
+      "explanation": "3rd sg. ἄγει → 2nd pl. ἄγετε. The 2nd plural ending is -ετε.",
+      "part": "B"
+    },
+    {
+      "id": 20,
+      "original": "ὁ γεωργὸς φυλάσσει τὰ ζῷα αὐτοῦ.",
+      "cue": "ἐγὼ _______ τὰ ζῷα μου.",
+      "answers": ["φυλάσσω"],
+      "explanation": "3rd sg. φυλάσσει → 1st sg. φυλάσσω. Note also: αὐτοῦ (his) → μου (my) with the person change.",
+      "part": "B"
+    }
+  ],
+  "infinitives": [
+    {
+      "id": 1,
+      "prompt": "ὁ λύκος μέλλει _______ τὸ ἀρνίον. (ἁρπάζω)",
+      "answer": "ἁρπάζειν",
+      "explanation": "μέλλω + infinitive: ἁρπάζω → ἁρπάζειν. The infinitive of -ω verbs ends in -ειν.",
+      "part": "B"
+    },
+    {
+      "id": 2,
+      "prompt": "ὁ γεωργὸς θέλει _______ τὸ πρόβατον καὶ τὸ ἀρνίον. (σῴζω)",
+      "answer": "σῴζειν",
+      "explanation": "θέλω + infinitive: σῴζω → σῴζειν. The farmer wants to save his animals.",
+      "part": "B"
+    },
+    {
+      "id": 3,
+      "prompt": "ὁ λύκος θέλει _______ τὸν ποταμόν. (διαβαίνω)",
+      "answer": "διαβαίνειν",
+      "explanation": "θέλω + infinitive: διαβαίνω → διαβαίνειν. The wolf wants to cross the river.",
+      "part": "B"
+    },
+    {
+      "id": 4,
+      "prompt": "ὁ γεωργὸς μέλλει _______ εἰς τὸν ἀγρόν. (τρέχω)",
+      "answer": "τρέχειν",
+      "explanation": "μέλλω + infinitive: τρέχω → τρέχειν. The farmer is about to run to the field.",
+      "part": "B"
+    },
+    {
+      "id": 5,
+      "prompt": "οὐ θέλει ὁ λύκος _______ ἐν τῷ ἀγρῷ. (μένω)",
+      "answer": "μένειν",
+      "explanation": "οὐ θέλει + infinitive: μένω → μένειν. The wolf does not want to stay in the field after the farmer arrives.",
+      "part": "B"
+    },
+    {
+      "id": 6,
+      "prompt": "ὁ γεωργὸς μέλλει _______ λίθους εἰς τὸν λύκον. (βάλλω)",
+      "answer": "βάλλειν",
+      "explanation": "μέλλω + infinitive: βάλλω → βάλλειν. The farmer is about to throw stones at the wolf.",
+      "part": "B"
+    },
+    {
+      "id": 7,
+      "prompt": "θέλω _______ τὴν φωνὴν τοῦ γεωργοῦ. (ἀκούω)",
+      "answer": "ἀκούειν",
+      "explanation": "θέλω + infinitive: ἀκούω → ἀκούειν. I want to hear the farmer's voice.",
+      "part": "B"
+    },
+    {
+      "id": 8,
+      "prompt": "οὐ μέλλει ὁ ἀγαθὸς γεωργὸς _______ ἀπὸ τοῦ θηρίου. (φεύγω)",
+      "answer": "φεύγειν",
+      "explanation": "μέλλει + infinitive: φεύγω → φεύγειν. The good farmer does not intend to flee from the wild animal.",
+      "part": "B"
+    },
+    {
+      "id": 9,
+      "prompt": "ὁ γεωργὸς θέλει _______ τὰ ζῷα αὐτοῦ. (φυλάσσω)",
+      "answer": "φυλάσσειν",
+      "explanation": "θέλω + infinitive: φυλάσσω → φυλάσσειν. The farmer wants to guard his animals.",
+      "part": "B"
+    },
+    {
+      "id": 10,
+      "prompt": "μέλλομεν _______ τῷ θεῷ. (εὐχαριστέω)",
+      "answer": "εὐχαριστεῖν",
+      "explanation": "μέλλω + infinitive: εὐχαριστέω → εὐχαριστεῖν. Contract -έω verb: infinitive contracts to -εῖν.",
+      "part": "B"
+    }
+  ],
+  "conversationQuestions": [
+    {
+      "id": 1,
+      "question": "ἆρα σὺ ἔχεις κῆπον;",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "question": "ἆρα σὺ φυτεύεις λάχανον ἐν τῷ κήπῳ σου;",
+      "part": "A"
+    },
+    {
+      "id": 3,
+      "question": "ἆρα ἔχεις δένδρον ἐγγὺς τοῦ οἴκου σου;",
+      "part": "A"
+    },
+    {
+      "id": 4,
+      "question": "ἆρα ἐσθίεις καρπούς; ποίους καρπούς;",
+      "part": "A"
+    },
+    {
+      "id": 5,
+      "question": "ἆρα ἔχεις ζῷον ἐν τῷ οἴκῳ σου;",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "question": "ἆρα θέλεις ἔχειν πρόβατον ἢ ὄνον;",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "question": "ἆρα βλέπεις τὸν ποταμὸν ἐγγὺς τοῦ οἴκου σου;",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "question": "ἆρα ὁ οἶκός σου μέγας ἐστὶν ἢ μικρός;",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "question": "ἆρα σὺ θερίζεις καρπούς ἐκ τοῦ δένδρου;",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "question": "ἆρα σὺ ἔχεις ἀγρόν;",
+      "part": "A"
+    },
+    {
+      "id": 11,
+      "question": "ἆρα σὺ φιλεῖς τὸν οἶκόν σου;",
+      "part": "A"
+    },
+    {
+      "id": 12,
+      "question": "ἆρα ὁ κῆπός σου καλός ἐστιν ἢ μικρός;",
+      "part": "A"
+    },
+    {
+      "id": 13,
+      "question": "ἆρα εὐχαριστεῖς τῷ θεῷ καθ' ἡμέραν;",
+      "part": "A"
+    },
+    {
+      "id": 14,
+      "question": "ἆρα βλέπεις ζῷα ἐγγὺς τοῦ οἴκου σου;",
+      "part": "A"
+    },
+    {
+      "id": 15,
+      "question": "ἆρα σὺ φέρεις καρπούς πρὸς τὸν οἶκον;",
+      "part": "A"
+    },
+    {
+      "id": 16,
+      "question": "ἆρα σὺ φυλάσσεις ζῷον;",
+      "part": "B"
+    },
+    {
+      "id": 17,
+      "question": "ἆρα σὺ φιλεῖς τὰ ζῷα;",
+      "part": "B"
+    },
+    {
+      "id": 18,
+      "question": "ἆρα σὺ θέλεις σῴζειν ζῷον ἀπὸ θηρίου;",
+      "part": "B"
+    },
+    {
+      "id": 19,
+      "question": "ἆρα σὺ τρέχεις ταχέως ἢ περιπατεῖς;",
+      "part": "B"
+    },
+    {
+      "id": 20,
+      "question": "ἆρα σὺ κράζεις φωνῇ μεγάλῃ ἢ λέγεις φωνῇ μικρᾷ;",
+      "part": "B"
+    },
+    {
+      "id": 21,
+      "question": "ἆρα σὺ φεύγεις ὅτε βλέπεις θηρίον;",
+      "part": "B"
+    },
+    {
+      "id": 22,
+      "question": "ἆρα σὺ εὐχαριστεῖς τῷ θεῷ σήμερον;",
+      "part": "B"
+    },
+    {
+      "id": 23,
+      "question": "ἆρα σὺ γινώσκεις τὴν φωνὴν τοῦ πατρός σου;",
+      "part": "B"
+    },
+    {
+      "id": 24,
+      "question": "ἆρα σὺ ἀκολουθεῖς τὸν διδάσκαλον;",
+      "part": "B"
+    },
+    {
+      "id": 25,
+      "question": "ἆρα σὺ βάλλεις λίθους εἰς τὸν ποταμόν;",
+      "part": "B"
+    },
+    {
+      "id": 26,
+      "question": "ἆρα σὺ διώκεις ζῷα ἐν τῷ ἀγρῷ;",
+      "part": "B"
+    },
+    {
+      "id": 27,
+      "question": "ἆρα σὺ ἀκούεις τὴν φωνὴν τοῦ θεοῦ καθ' ἡμέραν;",
+      "part": "B"
+    },
+    {
+      "id": 28,
+      "question": "ἆρα σὺ θέλεις μένειν ἐν τῷ ἀγρῷ ἢ ἐν τῷ οἴκῳ;",
+      "part": "B"
+    },
+    {
+      "id": 29,
+      "question": "ἆρα σὺ καθίζεις ὑπὸ τῷ δένδρῳ;",
+      "part": "B"
+    },
+    {
+      "id": 30,
+      "question": "ἆρα σὺ καλεῖς τὸν φίλον σου σήμερον;",
+      "part": "B"
     }
   ]
 }

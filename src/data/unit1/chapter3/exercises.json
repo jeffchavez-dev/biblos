@@ -1,71 +1,1345 @@
 {
-  "trueFalse": [
-    {
-      "id": 1,
-      "statement": "The Greek word ὀψία means \"morning.\"",
-      "answer": false,
-      "explanation": "ὀψία means \"evening\" — it is a feminine 1st-declension noun that gives the chapter its title: Ἡ Ὀψία."
-    },
-    {
-      "id": 2,
-      "statement": "The farmer gives thanks before he eats the bread.",
-      "answer": true,
-      "explanation": "Correct! The farmer takes the bread (λαμβάνει τὸν ἄρτον) and gives thanks to God (εὐχαριστεῖ τῷ θεῷ) before eating."
-    },
-    {
-      "id": 3,
-      "statement": "3rd-declension nouns like πῦρ (fire) and ὕδωρ (water) follow the same endings as 2nd-declension nouns.",
-      "answer": false,
-      "explanation": "3rd-declension nouns have their own set of endings and often have a different stem in oblique cases: ὕδωρ (nominative) → ὕδατος (genitive), πῦρ → πυρός."
-    },
-    {
-      "id": 4,
-      "statement": "The preposition μετά with the genitive means \"with.\"",
-      "answer": true,
-      "explanation": "Correct! μετά + genitive = \"with\": μένει μετὰ τῶν τέκνων — \"he remains with the children.\""
-    },
-    {
-      "id": 5,
-      "statement": "The farmer's heart is described as full of sorrow at the end of the story.",
-      "answer": false,
-      "explanation": "The opposite! ἡ καρδία τοῦ γεωργοῦ χαρᾷ πλήρης ἐστίν — \"the heart of the farmer is full of joy.\""
-    }
-  ],
   "multipleChoice": [
     {
       "id": 1,
-      "question": "What does εἰσέρχεται εἰς τὴν οἰκίαν mean?",
-      "options": ["He leaves the house", "He enters into the house", "He remains in the house", "He builds the house"],
+      "question": "τί ἐστιν ἡ ὥρα ἐν ἀρχῇ;",
+      "options": ["πρωΐ ἐστιν", "ὀψία ἐστιν", "νὺξ ἐστιν", "ἡμέρα ἐστιν"],
       "answer": 1,
-      "explanation": "εἰσέρχεται means \"he enters\" (a compound of εἰς + ἔρχομαι). εἰς τὴν οἰκίαν = \"into the house\" (εἰς + accusative)."
+      "explanation": "ὀψία ἐστιν — it is evening. The chapter opens as the farmer returns home at dusk.",
+      "part": "A"
     },
     {
       "id": 2,
-      "question": "Which preposition does εὐχαριστέω take for the person thanked?",
-      "options": ["Accusative", "Dative", "Genitive", "No case — just add the name"],
-      "answer": 1,
-      "explanation": "εὐχαριστέω takes the dative for the recipient: εὐχαριστεῖ τῷ θεῷ — \"he gives thanks to God.\" This mirrors the dative for indirect objects generally."
+      "question": "τί φέρει ὁ γεωργὸς ἐπὶ τῷ ὤμῳ αὐτοῦ;",
+      "options": ["τὸν ἄρτον", "τὸ πρόβατον", "τὸ ἀρνίον", "τὸν λίθον"],
+      "answer": 2,
+      "explanation": "ὁ γεωργὸς φέρει τὸ ἀρνίον ἐπὶ τῷ ὤμῳ αὐτοῦ — the farmer carries the lamb on his shoulder. ὦμος = shoulder.",
+      "part": "A"
     },
     {
       "id": 3,
-      "question": "What is the genitive singular of νύξ (night)?",
-      "options": ["νύξος", "νυκτός", "νύκτου", "νυκτῆς"],
+      "question": "διὰ τί φέρει ὁ γεωργὸς τὸ ἀρνίον;",
+      "options": ["ὅτι θέλει ἐσθίειν αὐτό", "ὅτι κοπιᾷ τὸ ἀρνίον καὶ οὐ θέλει τρέχειν", "ὅτι ὁ λύκος διώκει αὐτό", "ὅτι μικρόν ἐστιν τὸ ἀρνίον"],
       "answer": 1,
-      "explanation": "νύξ is a 3rd-declension noun with stem νυκτ-: genitive singular is νυκτός. So \"in the night\" = ἐν τῇ νυκτί (dative)."
+      "explanation": "ὅτι κοπιᾷ τὸ ἀρνίον καὶ οὐ θέλει τρέχειν — because the lamb is tired and does not want to run. κοπιάω = I grow weary.",
+      "part": "A"
     },
     {
       "id": 4,
-      "question": "What does the farmer light after finishing his meal?",
-      "options": ["A fire (πῦρ)", "A lamp (λύχνος)", "A candle", "The hearth"],
+      "question": "τί ἀνατέλλει ἐν τῷ οὐρανῷ;",
+      "options": ["ὁ ἥλιος", "ἡ σελήνη", "τὸ φῶς", "ὁ ἀστήρ"],
       "answer": 1,
-      "explanation": "ἅπτει τὸν λύχνον — \"he lights the lamp.\" The lamp (λύχνος) then gives light to the whole house."
+      "explanation": "ἡ σελήνη ἀνατέλλει ἐν τῷ οὐρανῷ — the moon rises in the sky. ἀνατέλλω = I rise; σελήνη = moon.",
+      "part": "A"
     },
     {
       "id": 5,
-      "question": "In the phrase ἡ εἰρήνη τοῦ θεοῦ, what case is τοῦ θεοῦ and what does it express?",
-      "options": ["Dative — location", "Accusative — direct object", "Genitive — possession/source", "Nominative — subject"],
+      "question": "τί ποιεῖ ὁ γεωργὸς ὅτε ἥκει ἔξω τοῦ οἴκου;",
+      "options": ["ἡσυχάζει ἐν τῷ ἀγρῷ", "καταλείπει τὰ ζῷα ἔξω καὶ ἀνοίγει τὴν θύραν", "φέρει τὰ ζῷα εἰς τὸν οἶκον", "καθίζει ἐπὶ τὸν λίθον"],
+      "answer": 1,
+      "explanation": "ὁ γεωργὸς καταλείπει τὰ ζῷα ἔξω καὶ ἀνοίγει τὴν θύραν — he leaves the animals outside and opens the door. καταλείπω = I leave behind.",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "question": "διὰ τί σκοτία ἐστὶν ἐν τῷ οἴκῳ;",
+      "options": ["ὅτι οὐκ ἔχει λύχνον", "ὅτι νὺξ ἐστιν", "ὅτι ἡ θύρα οὐκ ἀνοίγει", "ὅτι ὁ οἶκος μικρός ἐστιν"],
+      "answer": 1,
+      "explanation": "σκοτία ἐστιν ἐν τῷ οἴκῳ ὅτι νὺξ ἐστιν — it is dark in the house because it is night. σκοτία = darkness; νύξ = night.",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "question": "ποῦ εὑρίσκει ὁ γεωργὸς τὸν λύχνον;",
+      "options": ["ἐπὶ τῆς κλίνης", "ἔξω τοῦ οἴκου", "ἐπὶ τῆς τραπέζης", "ἐπὶ τῆς καθέδρας"],
       "answer": 2,
-      "explanation": "τοῦ θεοῦ is genitive singular, expressing possession or source: \"the peace of God\" or \"God's peace.\" The genitive here shows whose peace it is."
+      "explanation": "ὁ γεωργὸς εὑρίσκει τὸν λύχνον ἐπὶ τῆς τραπέζης — the farmer finds the lamp on the table. λύχνος = lamp; τράπεζα = table.",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "question": "τί βλέπει ὁ γεωργὸς ἐπὶ τῆς τραπέζης;",
+      "options": ["τὸν λύχνον μόνον", "ἄρτον καὶ καρπούς", "τὸ δρέπανον", "λίθους"],
+      "answer": 1,
+      "explanation": "ὁ γεωργὸς βλέπει ἄρτον καὶ καρπούς ἐπὶ τῆς τραπέζης — he sees bread and fruits on the table. ἄρτος = bread.",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "question": "διὰ τί θέλει ὁ γεωργὸς καθεύδειν;",
+      "options": ["ὅτι νὺξ ἐστιν μόνον", "ὅτι σφόδρα κοπιᾷ", "ὅτι σκοτία ἐστιν", "ὅτι οὐκ ἔχει ἄρτον"],
+      "answer": 1,
+      "explanation": "ὁ γεωργὸς θέλει καθεύδειν ὅτι σφόδρα κοπιᾷ — the farmer wants to sleep because he is very weary. σφόδρα = very much.",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "question": "ποῦ καθεύδει ὁ γεωργός;",
+      "options": ["ἐπὶ τῆς τραπέζης", "ἐπὶ τῆς καθέδρας", "ἐπὶ τῆς κλίνης", "ἔξω τοῦ οἴκου"],
+      "answer": 2,
+      "explanation": "ὁ γεωργὸς καθεύδει ἐπὶ τῆς κλίνης — the farmer sleeps on the bed. κλίνη = bed.",
+      "part": "A"
+    },
+    {
+      "id": 11,
+      "question": "ὁ γεωργὸς βλέπει τὴν _______ ἐν τῷ οὐρανῷ.",
+      "options": ["σελήνης", "σελήνη", "σελήνην", "σελήνῃ"],
+      "answer": 2,
+      "explanation": "Accusative: βλέπει + direct object → σελήνην. ἡ σελήνη (nom.) → τὴν σελήνην (acc.).",
+      "part": "A"
+    },
+    {
+      "id": 12,
+      "question": "σκοτία ἐστὶν ἐν τῷ οἴκῳ· ζητεῖ οὖν _______.",
+      "options": ["τὸν λύχνον", "τοῦ λύχνου", "τῷ λύχνῳ", "ὁ λύχνος"],
+      "answer": 0,
+      "explanation": "Accusative: ζητεῖ (he seeks) + direct object → τὸν λύχνον. ὁ λύχνος (nom.) → τὸν λύχνον (acc.).",
+      "part": "A"
+    },
+    {
+      "id": 13,
+      "question": "ἡ _______ ἀνατέλλει ἐν τῷ οὐρανῷ.",
+      "options": ["σελήνης", "σελήνην", "σελήνη", "σελήνῃ"],
+      "answer": 2,
+      "explanation": "Nominative: ἡ σελήνη is the subject of ἀνατέλλει. 1st decl. fem. nominative = -η.",
+      "part": "A"
+    },
+    {
+      "id": 14,
+      "question": "ὁ γεωργὸς ἀνοίγει τὴν _______ καὶ περιπατεῖ εἰς τὸν οἶκον.",
+      "options": ["θύρᾳ", "θύρας", "θύραν", "θύρα"],
+      "answer": 2,
+      "explanation": "Accusative: ἀνοίγει τὴν _______ → θύραν. ἡ θύρα (nom.) → τὴν θύραν (acc.). 1st decl. acc. sg. = -αν.",
+      "part": "A"
+    },
+    {
+      "id": 15,
+      "question": "ὁ λύχνος λάμπει ἐπὶ τῆς _______.",
+      "options": ["τράπεζαν", "τραπέζης", "τράπεζα", "τραπέζῃ"],
+      "answer": 1,
+      "explanation": "Genitive: ἐπί + genitive = upon. ἡ τράπεζα → τῆς τραπέζης. 1st decl. gen. sg. = -ης.",
+      "part": "A"
+    },
+    {
+      "id": 16,
+      "question": "ὁ γεωργὸς περιπατεῖ ἐν τῇ _______ πρὸς τὸν οἶκον.",
+      "options": ["ὁδόν", "ὁδός", "ὁδῷ", "ὁδοῦ"],
+      "answer": 2,
+      "explanation": "Dative: ἐν + dative = in/on. ἡ ὁδός → τῇ ὁδῷ. 2nd decl. fem. dat. sg. = -ῷ.",
+      "part": "A"
+    },
+    {
+      "id": 17,
+      "question": "ὁ γεωργὸς οὐ θέλει μένειν ἐπὶ τῆς _______.",
+      "options": ["καθέδρα", "καθέδραν", "καθέδρας", "καθέδρᾳ"],
+      "answer": 2,
+      "explanation": "Genitive: ἐπί + genitive = upon. ἡ καθέδρα → τῆς καθέδρας. 1st decl. gen. sg. = -ας.",
+      "part": "A"
+    },
+    {
+      "id": 18,
+      "question": "ὁ γεωργὸς καθεύδει ἐπὶ τῆς _______.",
+      "options": ["κλίνη", "κλίνῃ", "κλίνης", "κλίνην"],
+      "answer": 2,
+      "explanation": "Genitive: ἐπί + genitive = upon. ἡ κλίνη → τῆς κλίνης. 1st decl. gen. sg. = -ης.",
+      "part": "A"
+    },
+    {
+      "id": 19,
+      "question": "μακρά ἐστιν ἡ _______.",
+      "options": ["ἡμέραν", "ἡμέρα", "ἡμέρας", "ἡμέρᾳ"],
+      "answer": 1,
+      "explanation": "Nominative: ἡ _______ is the subject. ἡμέρα = day. 1st decl. nom. sg. = -α.",
+      "part": "A"
+    },
+    {
+      "id": 20,
+      "question": "καλή ἐστιν ἡ _______ καὶ ἡ σελήνη λάμπει.",
+      "options": ["ὀψίαν", "ὀψίας", "ὀψία", "ὀψίᾳ"],
+      "answer": 2,
+      "explanation": "Nominative: ἡ _______ is the subject. ὀψία = evening. 1st decl. nom. sg. = -α.",
+      "part": "A"
+    },
+    {
+      "id": 21,
+      "question": "τί βλέπει ὁ γεωργὸς ἐν τῷ ὕπνῳ αὐτοῦ;",
+      "options": ["τὸν οἶκον αὐτοῦ", "τὸν ἀγρὸν αὐτοῦ", "τὴν κώμην", "τὸν ποταμόν"],
+      "answer": 1,
+      "explanation": "ὁ γεωργὸς βλέπει τὸν ἀγρὸν αὐτοῦ ἐν τῷ ὕπνῳ — in his dream, he sees his field.",
+      "part": "B"
+    },
+    {
+      "id": 22,
+      "question": "τί ἐστιν ἐν τῷ ἀγρῷ ἐν τῷ ὕπνῳ;",
+      "options": ["εἷς λίθος", "λίθοι πολλοί", "δένδρα πολλά", "ζῷα πολλά"],
+      "answer": 1,
+      "explanation": "λίθοι πολλοί εἰσιν ἐν τῷ ἀγρῷ ἐν τῷ ὕπνῳ — many stones are in the field in the dream.",
+      "part": "B"
+    },
+    {
+      "id": 23,
+      "question": "διὰ τί στενάζει ὁ γεωργός;",
+      "options": ["ὅτι οὐ δυνατόν ἐστιν αὐτῷ αἴρειν πάντας τοὺς λίθους", "ὅτι ὁ λύκος ἔρχεται", "ὅτι οὐ βλέπει τὸν οἶκον", "ὅτι ἡ ἡμέρα μακρά ἐστιν"],
+      "answer": 0,
+      "explanation": "ὁ γεωργὸς στενάζει ὅτι οὐ δυνατόν ἐστιν αὐτῷ αἴρειν πάντας τοὺς λίθους — he groans because it is impossible for him to lift all the stones. στενάζω = I groan.",
+      "part": "B"
+    },
+    {
+      "id": 24,
+      "question": "πόσοι λύκοι εἰσὶν πέραν τοῦ ποταμοῦ;",
+      "options": ["εἷς λύκος", "δύο λύκοι", "λύκοι πολλοί", "οὐδεὶς λύκος"],
+      "answer": 2,
+      "explanation": "λύκοι πολλοί εἰσιν πέραν τοῦ ποταμοῦ — many wolves are across the river in the dream.",
+      "part": "B"
+    },
+    {
+      "id": 25,
+      "question": "διὰ τί οὐ δυνατόν ἐστιν αὐτῷ σῴζειν τὰ ζῷα;",
+      "options": ["ὅτι οὐ βλέπει αὐτά", "ὅτι οὐ δυνατόν ἐστιν ταχέως τρέχειν καὶ ἡ φωνὴ αὐτοῦ μικρά ἐστιν", "ὅτι οἱ λύκοι μεγάλοι εἰσιν", "ὅτι τὰ ζῷα φεύγουσιν"],
+      "answer": 1,
+      "explanation": "οὐ δυνατόν ἐστιν αὐτῷ ταχέως τρέχειν καὶ ἡ φωνὴ αὐτοῦ μικρά ἐστιν — he cannot run fast and his voice is small. This is the paralysis of nightmare.",
+      "part": "B"
+    },
+    {
+      "id": 26,
+      "question": "πόσαι θύραι εἰσίν ἔξω τοῦ οἴκου;",
+      "options": ["μία θύρα", "δύο θύραι", "τρεῖς θύραι", "πολλαὶ θύραι"],
+      "answer": 3,
+      "explanation": "πολλαὶ θύραι εἰσίν ἔξω τοῦ οἴκου — there are many doors outside the house in the dream. A strange vision of multiplied doors.",
+      "part": "B"
+    },
+    {
+      "id": 27,
+      "question": "τί ἐστιν ἐπὶ τῶν καθεδρῶν ἐν τῷ οἴκῳ;",
+      "options": ["οἱ ἄνθρωποι", "ὁ ὄνος καὶ ὁ βοῦς", "τὸ πρόβατον καὶ τὸ ἀρνίον", "ὁ γεωργὸς μόνος"],
+      "answer": 1,
+      "explanation": "ὁ ὄνος καὶ ὁ βοῦς εἰσιν ἐπὶ τῶν καθεδρῶν — the donkey and the ox are sitting on the chairs in the dream.",
+      "part": "B"
+    },
+    {
+      "id": 28,
+      "question": "τί λέγει ὁ ὄνος τῷ γεωργῷ;",
+      "options": ["«θέλω φεύγειν ἐκ τοῦ οἴκου»", "«ἡμεῖς θέλομεν ἐσθίειν τοὺς καρπούς καὶ τοὺς ἄρτους»", "«θέλω καθεύδειν»", "«ὁ λύκος ἔρχεται»"],
+      "answer": 1,
+      "explanation": "ὁ ὄνος λέγει· «ἡμεῖς θέλομεν ἐσθίειν τοὺς καρπούς καὶ τοὺς ἄρτους» — the donkey speaks for the animals, demanding food.",
+      "part": "B"
+    },
+    {
+      "id": 29,
+      "question": "τί ἐγείρει τὸν γεωργὸν ἐκ τοῦ ὕπνου;",
+      "options": ["ὁ λύκος", "ὁ ὄνος", "ἡ φωνὴ αὐτοῦ", "τὸ φῶς"],
+      "answer": 2,
+      "explanation": "ἡ φωνὴ αὐτοῦ ἐγείρει αὐτὸν ἐκ τοῦ ὕπνου — his own voice wakes him from sleep. ἐγείρω = I wake up, raise.",
+      "part": "B"
+    },
+    {
+      "id": 30,
+      "question": "τί μανθάνει ὁ γεωργὸς τέλος;",
+      "options": ["ὅτι ὁ λύκος ἐστιν ἐν τῷ ἀγρῷ", "ὅτι ὕπνος ἐστιν καὶ οὐκ ἀληθές", "ὅτι τὰ ζῷα εἰσιν ἐν τῷ οἴκῳ", "ὅτι ἡ θύρα οὐκ ἀνοίγει"],
+      "answer": 1,
+      "explanation": "ὁ γεωργὸς μανθάνει ὅτι ὕπνος ἐστιν καὶ οὐκ ἀληθές — he learns it was only a dream, not reality. μανθάνω = I learn.",
+      "part": "B"
+    },
+    {
+      "id": 31,
+      "question": "_______ εἰσιν ἐν τῷ ἀγρῷ ἐν τῷ ὕπνῳ.",
+      "options": ["λίθος πολλός", "λίθοι πολλοί", "λίθους πολλούς", "λίθοις πολλοῖς"],
+      "answer": 1,
+      "explanation": "Nominative plural subject: λίθοι πολλοί εἰσιν. ὁ λίθος (sg. nom.) → οἱ λίθοι (pl. nom.). The adjective πολλός agrees in gender, number, case.",
+      "part": "B"
+    },
+    {
+      "id": 32,
+      "question": "ὁ γεωργὸς βλέπει _______ ἐν τῷ ἀγρῷ.",
+      "options": ["τοὺς λίθους", "οἱ λίθοι", "τῶν λίθων", "τοῖς λίθοις"],
+      "answer": 0,
+      "explanation": "Accusative plural object: βλέπει + direct object → τοὺς λίθους. ὁ λίθος (sg. nom.) → τοὺς λίθους (pl. acc.).",
+      "part": "B"
+    },
+    {
+      "id": 33,
+      "question": "_______ εἰσιν πέραν τοῦ ποταμοῦ.",
+      "options": ["ὁ λύκος", "λύκους", "λύκοι πολλοί", "τοὺς λύκους"],
+      "answer": 2,
+      "explanation": "Nominative plural subject: λύκοι πολλοί εἰσιν. ὁ λύκος (sg. nom.) → λύκοι (pl. nom.).",
+      "part": "B"
+    },
+    {
+      "id": 34,
+      "question": "οἱ λύκοι θέλουσιν ἁρπάζειν _______.",
+      "options": ["τὸ ἀρνίον", "τοῦ ἀρνίου", "τῷ ἀρνίῳ", "ὁ ἀρνίον"],
+      "answer": 0,
+      "explanation": "Accusative object: ἁρπάζειν + direct object → τὸ ἀρνίον. τὸ ἀρνίον is neuter and stays the same in nom./acc.",
+      "part": "B"
+    },
+    {
+      "id": 35,
+      "question": "ὁ γεωργὸς θέλει σῴζειν τὰ ζῷα αὐτοῦ ἀπὸ _______.",
+      "options": ["οἱ λύκοι", "τοὺς λύκους", "τῶν λύκων", "τοῖς λύκοις"],
+      "answer": 2,
+      "explanation": "Genitive: ἀπό + genitive = from. ὁ λύκος (sg. nom.) → τῶν λύκων (pl. gen.). 2nd decl. gen. pl. = -ων.",
+      "part": "B"
+    },
+    {
+      "id": 36,
+      "question": "πολλαί εἰσιν _______.",
+      "options": ["αἱ θύραι", "τὰς θύρας", "τῶν θυρῶν", "ἡ θύρα"],
+      "answer": 0,
+      "explanation": "Nominative plural predicate: πολλαί εἰσιν αἱ θύραι. ἡ θύρα (sg. nom.) → αἱ θύραι (pl. nom.).",
+      "part": "B"
+    },
+    {
+      "id": 37,
+      "question": "ὁ γεωργὸς βλέπει πρὸς _______.",
+      "options": ["τὰς πολλὰς θύρας", "αἱ πολλαὶ θύραι", "τῶν πολλῶν θυρῶν", "ταῖς πολλαῖς θύραις"],
+      "answer": 0,
+      "explanation": "Accusative: πρός + accusative = toward. ἡ θύρα (sg. nom.) → τὰς θύρας (pl. acc.). 1st decl. acc. pl. = -ας.",
+      "part": "B"
+    },
+    {
+      "id": 38,
+      "question": "ὁ ὄνος καὶ ὁ βοῦς καθίζουσιν ἐπὶ _______ ὡς οἱ ἄνθρωποι.",
+      "options": ["τὰς καθέδρας", "τῶν καθεδρῶν", "αἱ καθέδραι", "ταῖς καθέδραις"],
+      "answer": 0,
+      "explanation": "Accusative: ἐπί + accusative = onto (motion). ἡ καθέδρα (sg. nom.) → τὰς καθέδρας (pl. acc.).",
+      "part": "B"
+    },
+    {
+      "id": 39,
+      "question": "ὁ ὄνος λέγει· «ἡμεῖς θέλομεν ἐσθίειν _______ καὶ _______».",
+      "options": ["τοὺς καρπούς ... τοὺς ἄρτους", "οἱ καρποί ... οἱ ἄρτοι", "τῶν καρπῶν ... τῶν ἄρτων", "τοῖς καρποῖς ... τοῖς ἄρτοις"],
+      "answer": 0,
+      "explanation": "Accusative objects: ἐσθίειν + direct objects → τοὺς καρπούς καὶ τοὺς ἄρτους. Both are 2nd decl. masc. acc. pl. = -ους.",
+      "part": "B"
+    },
+    {
+      "id": 40,
+      "question": "ὁ γεωργὸς ἀνοίγει _______ αὐτοῦ.",
+      "options": ["τοὺς ὀφθαλμούς", "οἱ ὀφθαλμοί", "τῶν ὀφθαλμῶν", "τοῖς ὀφθαλμοῖς"],
+      "answer": 0,
+      "explanation": "Accusative object: ἀνοίγει + direct object → τοὺς ὀφθαλμούς. ὁ ὀφθαλμός (sg. nom.) → τοὺς ὀφθαλμούς (pl. acc.).",
+      "part": "B"
+    }
+  ],
+  "trueFalse": [
+    {
+      "id": 1,
+      "statement": "ὀψία ἐστιν καὶ ἡ νὺξ ἐγγύς.",
+      "answer": true,
+      "explanation": "ἀληθές! ὀψία ἐστιν — it is evening, and night is near. The story opens at dusk.",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "statement": "ὁ γεωργὸς φέρει τὸ πρόβατον ἐπὶ τῷ ὤμῳ αὐτοῦ.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ γεωργὸς φέρει τὸ ἀρνίον, οὐ τὸ πρόβατον — the farmer carries the lamb, not the sheep, on his shoulder.",
+      "part": "A"
+    },
+    {
+      "id": 3,
+      "statement": "τὸ ἀρνίον κοπιᾷ ὅτι τρέχει ὅλην τὴν ἡμέραν.",
+      "answer": true,
+      "explanation": "ἀληθές! τὸ ἀρνίον κοπιᾷ ὅτι τρέχει ὅλην τὴν ἡμέραν — the lamb is tired because it has been running all day.",
+      "part": "A"
+    },
+    {
+      "id": 4,
+      "statement": "ὁ ἥλιος ἀνατέλλει ἐν τῷ οὐρανῷ.",
+      "answer": false,
+      "explanation": "ψεῦδος. ἡ σελήνη ἀνατέλλει ἐν τῷ οὐρανῷ — the moon rises in the sky, not the sun. It is evening.",
+      "part": "A"
+    },
+    {
+      "id": 5,
+      "statement": "ὁ γεωργὸς φέρει τὰ ζῷα εἰς τὸν οἶκον.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ γεωργὸς καταλείπει τὰ ζῷα ἔξω — the farmer leaves the animals outside the house.",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "statement": "ὁ γεωργός ἐστιν μόνος ἐν τῷ οἴκῳ.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ γεωργός ἐστιν μόνος ἐν τῷ οἴκῳ — the farmer is alone in the house.",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "statement": "ὁ γεωργὸς εὑρίσκει τὸν λύχνον ἐπὶ τῆς κλίνης.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ γεωργὸς εὑρίσκει τὸν λύχνον ἐπὶ τῆς τραπέζης — he finds the lamp on the table, not the bed.",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "statement": "ὁ λύχνος λάμπει καὶ φῶς ἐστιν ἐν τῷ οἴκῳ.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ γεωργὸς ἅπτει τὸν λύχνον καὶ ὁ λύχνος λάμπει — the farmer lights the lamp and the lamp shines.",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "statement": "ὁ γεωργὸς ἐσθίει ἄρτον καὶ λίθους.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ γεωργὸς ἐσθίει ἄρτον καὶ καρπούς — the farmer eats bread and fruit, not stones.",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "statement": "ὁ γεωργὸς θέλει καθεύδειν ὅτι σφόδρα κοπιᾷ.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ γεωργὸς σφόδρα κοπιᾷ καὶ θέλει καθεύδειν — the farmer is very weary and wants to sleep.",
+      "part": "A"
+    },
+    {
+      "id": 11,
+      "statement": "ὁ γεωργὸς καθεύδει ἐπὶ τῆς τραπέζης.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ γεωργὸς καθεύδει ἐπὶ τῆς κλίνης — the farmer sleeps on the bed, not on the table.",
+      "part": "B"
+    },
+    {
+      "id": 12,
+      "statement": "ἐν τῷ ὕπνῳ, ὁ ἀγρὸς καλός ἐστιν.",
+      "answer": false,
+      "explanation": "ψεῦδος. ἐν τῷ ὕπνῳ, ὁ ἀγρὸς πλήρης λίθων ἐστιν — in the dream, the field is full of stones, not beautiful.",
+      "part": "B"
+    },
+    {
+      "id": 13,
+      "statement": "εἷς λίθος ἐστιν ἐν τῷ ἀγρῷ ἐν τῷ ὕπνῳ.",
+      "answer": false,
+      "explanation": "ψεῦδος. λίθοι πολλοί εἰσιν ἐν τῷ ἀγρῷ ἐν τῷ ὕπνῳ — many stones are in the field in the dream, not just one.",
+      "part": "B"
+    },
+    {
+      "id": 14,
+      "statement": "δυνατόν ἐστιν αὐτῷ αἴρειν πάντας τοὺς λίθους.",
+      "answer": false,
+      "explanation": "ψεῦδος. οὐ δυνατόν ἐστιν αὐτῷ αἴρειν πάντας τοὺς λίθους — it is impossible for him to lift all the stones.",
+      "part": "B"
+    },
+    {
+      "id": 15,
+      "statement": "τὰ πρόβατα φεύγουσιν ἀπὸ τοῦ γεωργοῦ ἐν τῷ ὕπνῳ.",
+      "answer": true,
+      "explanation": "ἀληθές! ἐν τῷ ὕπνῳ, τὰ πρόβατα φεύγουσιν — in the dream, the sheep flee from the farmer.",
+      "part": "B"
+    },
+    {
+      "id": 16,
+      "statement": "οἱ λύκοι εἰσιν μεγάλοι καὶ πονηροί.",
+      "answer": true,
+      "explanation": "ἀληθές! ἐν τῷ ὕπνῳ, λύκοι πολλοί εἰσιν πέραν τοῦ ποταμοῦ, μεγάλοι καὶ πονηροί — in the dream, the wolves are many, great, and evil.",
+      "part": "B"
+    },
+    {
+      "id": 17,
+      "statement": "δυνατόν ἐστιν αὐτῷ ταχέως τρέχειν ἐν τῷ ὕπνῳ.",
+      "answer": false,
+      "explanation": "ψεῦδος. οὐ δυνατόν ἐστιν αὐτῷ ταχέως τρέχειν ἐν τῷ ὕπνῳ — he cannot run fast in the dream. The classic nightmare paralysis.",
+      "part": "B"
+    },
+    {
+      "id": 18,
+      "statement": "πολλαὶ θύραι εἰσιν ἔξω τοῦ οἴκου ἐν τῷ ὕπνῳ.",
+      "answer": true,
+      "explanation": "ἀληθές! πολλαὶ θύραι εἰσιν ἔξω τοῦ οἴκου ἐν τῷ ὕπνῳ — in the dream, there are many doors outside the house.",
+      "part": "B"
+    },
+    {
+      "id": 19,
+      "statement": "ὁ ὄνος καὶ ὁ βοῦς λέγουσιν τῷ γεωργῷ.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ ὄνος λέγει τῷ γεωργῷ ἐν τῷ ὕπνῳ — in the dream, the donkey speaks to the farmer.",
+      "part": "B"
+    },
+    {
+      "id": 20,
+      "statement": "ὁ γεωργὸς ἔχει εἰρήνην ἐν τῇ καρδίᾳ αὐτοῦ τέλος.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ γεωργὸς ἔχει εἰρήνην ἐν τῇ καρδίᾳ αὐτοῦ τέλος — the farmer has peace in his heart at last.",
+      "part": "B"
+    }
+  ],
+  "yesNo": [
+    {
+      "id": 1,
+      "question": "ἆρα ὀψία ἐστιν ἐν ἀρχῇ;",
+      "answer": true,
+      "explanation": "ναί! ὀψία ἐστιν ἐν ἀρχῇ — it is evening at the beginning of the story.",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "question": "ἆρα τὸ πρόβατον ἀκολουθεῖ τῷ γεωργῷ;",
+      "answer": true,
+      "explanation": "ναί! τὸ πρόβατον ἀκολουθεῖ τῷ γεωργῷ — the sheep follows the farmer home.",
+      "part": "A"
+    },
+    {
+      "id": 3,
+      "question": "ἆρα ἡ σελήνη λάμπει ἐν τῷ οὐρανῷ;",
+      "answer": true,
+      "explanation": "ναί! ἡ σελήνη λάμπει ἐν τῷ οὐρανῷ — the moon shines in the sky.",
+      "part": "A"
+    },
+    {
+      "id": 4,
+      "question": "ἆρα ὁ γεωργὸς φέρει τὰ ζῷα εἰς τὸν οἶκον;",
+      "answer": false,
+      "explanation": "οὔ. ὁ γεωργὸς καταλείπει τὰ ζῷα ἔξω τοῦ οἴκου — the farmer leaves the animals outside the house.",
+      "part": "A"
+    },
+    {
+      "id": 5,
+      "question": "ἆρα σκοτία ἐστιν ἐν τῷ οἴκῳ ὅτε περιπατεῖ εἰς τὸν οἶκον;",
+      "answer": true,
+      "explanation": "ναί! σκοτία ἐστιν ἐν τῷ οἴκῳ — it is dark in the house when he enters.",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "question": "ἆρα ὁ γεωργὸς ἅπτει τὸν λύχνον;",
+      "answer": true,
+      "explanation": "ναί! ὁ γεωργὸς εὑρίσκει τὸν λύχνον καὶ ἅπτει αὐτόν — he finds the lamp and lights it. ἅπτω = I light.",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "question": "ἆρα ὁ γεωργὸς ἐσθίει τὸ λάχανον ἐπὶ τῆς τραπέζης;",
+      "answer": false,
+      "explanation": "οὔ. ὁ γεωργὸς ἐσθίει ἄρτον καὶ καρπούς — he eats bread and fruits, not vegetables.",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "question": "ἆρα μακρά ἐστιν ἡ ἡμέρα;",
+      "answer": true,
+      "explanation": "ναί! μακρὰ ἡ ἡμέρα καὶ μακρὸς ὁ πόνος — the day is long and the toil is long.",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "question": "ἆρα ὁ γεωργὸς ἔχει κλίνην ἐν τῷ οἴκῳ;",
+      "answer": true,
+      "explanation": "ναί! ὁ γεωργὸς ἔχει κλίνην ἐν τῷ οἴκῳ — the farmer has a bed in his house.",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "question": "ἆρα ἡ σελήνη λάμπει ἔξω ἐν τῷ οὐρανῷ;",
+      "answer": true,
+      "explanation": "ναί! ἡ σελήνη λάμπει ἔξω ἐν τῷ οὐρανῷ — the moon shines outside in the sky.",
+      "part": "A"
+    },
+    {
+      "id": 11,
+      "question": "ἆρα ὁ λύχνος ἔτι λάμπει ὅτε ὁ γεωργὸς καθεύδει;",
+      "answer": false,
+      "explanation": "οὔ. ὁ λύχνος οὐκ ἔτι λάμπει — the lamp no longer shines when the farmer sleeps.",
+      "part": "B"
+    },
+    {
+      "id": 12,
+      "question": "ἆρα ὁ ἀγρὸς καλός ἐστιν ἐν τῷ ὕπνῳ;",
+      "answer": false,
+      "explanation": "οὔ. ὁ ἀγρὸς πλήρης λίθων ἐστιν ἐν τῷ ὕπνῳ — in the dream the field is full of stones, not beautiful.",
+      "part": "B"
+    },
+    {
+      "id": 13,
+      "question": "ἆρα οἱ λίθοι μικροί εἰσιν ἐν τῷ ὕπνῳ;",
+      "answer": false,
+      "explanation": "οὔ. οἱ λίθοι μεγάλοι εἰσιν ἐν τῷ ὕπνῳ — the stones are large in the dream.",
+      "part": "B"
+    },
+    {
+      "id": 14,
+      "question": "ἆρα τὰ πρόβατα μένουσιν ἐν τῷ ἀγρῷ ἐν τῷ ὕπνῳ;",
+      "answer": false,
+      "explanation": "οὔ. τὰ πρόβατα φεύγουσιν ἀπὸ τοῦ γεωργοῦ ἐν τῷ ὕπνῳ — the sheep flee from the farmer in the dream.",
+      "part": "B"
+    },
+    {
+      "id": 15,
+      "question": "ἆρα εἷς λύκος ἐστιν πέραν τοῦ ποταμοῦ ἐν τῷ ὕπνῳ;",
+      "answer": false,
+      "explanation": "οὔ. λύκοι πολλοί εἰσιν πέραν τοῦ ποταμοῦ ἐν τῷ ὕπνῳ — many wolves, not just one, are across the river.",
+      "part": "B"
+    },
+    {
+      "id": 16,
+      "question": "ἆρα ἡ φωνὴ τοῦ γεωργοῦ μεγάλη ἐστιν ἐν τῷ ὕπνῳ;",
+      "answer": false,
+      "explanation": "οὔ. ἡ φωνὴ αὐτοῦ μικρά ἐστιν ἐν τῷ ὕπνῳ — his voice is small in the dream.",
+      "part": "B"
+    },
+    {
+      "id": 17,
+      "question": "ἆρα ὁ ὄνος λέγει τῷ γεωργῷ ἐν τῷ ὕπνῳ;",
+      "answer": true,
+      "explanation": "ναί! ὁ ὄνος λέγει τῷ γεωργῷ ἐν τῷ ὕπνῳ — in the dream, the donkey speaks to the farmer.",
+      "part": "B"
+    },
+    {
+      "id": 18,
+      "question": "ἆρα ὁ γεωργὸς θέλει φεύγειν ἐκ τοῦ οἴκου ἐν τῷ ὕπνῳ;",
+      "answer": false,
+      "explanation": "οὔ. ὁ γεωργὸς θέλει σῴζειν τὰ ζῷα, οὐ φεύγειν ἐκ τοῦ οἴκου — he wants to save the animals, not flee.",
+      "part": "B"
+    },
+    {
+      "id": 19,
+      "question": "ἆρα ἡ φωνὴ αὐτοῦ ἐγείρει αὐτὸν ἐκ τοῦ ὕπνου;",
+      "answer": true,
+      "explanation": "ναί! ἡ φωνὴ αὐτοῦ ἐγείρει αὐτὸν ἐκ τοῦ ὕπνου — his own voice wakes him from sleep.",
+      "part": "B"
+    },
+    {
+      "id": 20,
+      "question": "ἆρα τὰ ζῷα εἰσιν ἐν τῷ οἴκῳ ὅτε ὁ γεωργὸς ἀνοίγει τοὺς ὀφθαλμούς;",
+      "answer": false,
+      "explanation": "οὔ. τὰ ζῷα ἐστιν ἔξω τοῦ οἴκου — the animals are outside the house, safe.",
+      "part": "B"
+    }
+  ],
+  "caseFill": [
+    {
+      "id": 1,
+      "prompt": "ὁ γεωργὸς περιπατεῖ ἐν τῇ _______. (ὁδός — the road)",
+      "answer": "ὁδῷ",
+      "explanation": "ἐν + dative: ἡ ὁδός → τῇ ὁδῷ. 2nd decl. fem. dat. sg. = -ῷ.",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "prompt": "ἡ _______ ἀνατέλλει ἐν τῷ οὐρανῷ. (σελήνη — the moon)",
+      "answer": "σελήνη",
+      "explanation": "Nominative subject: ἡ σελήνη. 1st decl. fem. nom. sg. = -η.",
+      "part": "A"
+    },
+    {
+      "id": 3,
+      "prompt": "ὁ γεωργὸς ἀνοίγει τὴν _______. (θύρα — the door)",
+      "answer": "θύραν",
+      "explanation": "Accusative direct object: τὴν θύραν. 1st decl. acc. sg. = -αν.",
+      "part": "A"
+    },
+    {
+      "id": 4,
+      "prompt": "ὁ λύχνος λάμπει ἐπὶ τῆς _______. (τράπεζα — the table)",
+      "answer": "τραπέζης",
+      "explanation": "ἐπί + genitive = upon. ἡ τράπεζα → τῆς τραπέζης. 1st decl. gen. sg. = -ης.",
+      "part": "A"
+    },
+    {
+      "id": 5,
+      "prompt": "ὁ γεωργὸς καθίζει ἐπὶ τὴν _______. (καθέδρα — the chair)",
+      "answer": "καθέδραν",
+      "explanation": "ἐπί + accusative = onto (motion). ἡ καθέδρα → τὴν καθέδραν. 1st decl. acc. sg. = -αν.",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "prompt": "σκοτία ἐστιν καὶ _______ ἐγγύς. (νύξ — night)",
+      "answer": "νύξ",
+      "explanation": "Nominative subject: νύξ. 3rd declension noun, nominative = νύξ.",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "prompt": "καλή ἐστιν ἡ _______. (ὀψία — the evening)",
+      "answer": "ὀψία",
+      "explanation": "Nominative predicate: ἡ ὀψία. 1st decl. fem. nom. sg. = -α.",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "prompt": "ὁ γεωργὸς καθεύδει ἐπὶ τῆς _______. (κλίνη — the bed)",
+      "answer": "κλίνης",
+      "explanation": "ἐπί + genitive = upon (rest). ἡ κλίνη → τῆς κλίνης. 1st decl. gen. sg. = -ης.",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "prompt": "μακρὰ ἡ _______ καὶ μακρὸς ὁ πόνος. (ἡμέρα — the day)",
+      "answer": "ἡμέρα",
+      "explanation": "Nominative subject: ἡ ἡμέρα. 1st decl. fem. nom. sg. = -α.",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "prompt": "ὁ γεωργὸς βλέπει τὴν _______ ἐν τῷ οὐρανῷ. (σελήνη — the moon)",
+      "answer": "σελήνην",
+      "explanation": "Accusative direct object: τὴν σελήνην. 1st decl. acc. sg. = -ην.",
+      "part": "A"
+    }
+  ],
+  "prepFill": [
+    {
+      "id": 1,
+      "prompt": "ὁ γεωργὸς περιπατεῖ _______ τῇ ὁδῷ.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "εἰς", "πρός", "ἔξω"],
+      "answers": ["ἐν"],
+      "explanation": "ἐν + dative = in/on: ὁ γεωργὸς περιπατεῖ ἐν τῇ ὁδῷ — the farmer walks on the road.",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "prompt": "ἡ σελήνη λάμπει _______ τὸν ἀγρόν.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "εἰς", "πρός", "ἔξω"],
+      "answers": ["ἐπί"],
+      "explanation": "ἐπί + accusative = over/upon: ἡ σελήνη λάμπει ἐπὶ τὸν ἀγρόν — the moon shines over the field.",
+      "part": "A"
+    },
+    {
+      "id": 3,
+      "prompt": "ὁ γεωργὸς ἄγει τὸ πρόβατον _______ τοῦ ἀγροῦ.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "εἰς", "πρός", "ἔξω"],
+      "answers": ["ἀπό"],
+      "explanation": "ἀπό + genitive = from/away from: ὁ γεωργὸς ἄγει τὸ πρόβατον ἀπὸ τοῦ ἀγροῦ — from the field.",
+      "part": "A"
+    },
+    {
+      "id": 4,
+      "prompt": "ὁ γεωργὸς περιπατεῖ _______ τὸν οἶκον.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "εἰς", "πρός", "ἔξω"],
+      "answers": ["εἰς"],
+      "explanation": "εἰς + accusative = into: ὁ γεωργὸς περιπατεῖ εἰς τὸν οἶκον — the farmer walks into the house.",
+      "part": "A"
+    },
+    {
+      "id": 5,
+      "prompt": "ὁ λύχνος λάμπει _______ τῆς τραπέζης.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "εἰς", "πρός", "ἔξω"],
+      "answers": ["ἐπί"],
+      "explanation": "ἐπί + genitive = upon (position): ὁ λύχνος λάμπει ἐπὶ τῆς τραπέζης — the lamp shines upon the table.",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "prompt": "ὁ γεωργὸς καθίζει _______ τὴν καθέδραν.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "εἰς", "πρός", "ἔξω"],
+      "answers": ["ἐπί"],
+      "explanation": "ἐπί + accusative = onto: ὁ γεωργὸς καθίζει ἐπὶ τὴν καθέδραν — the farmer sits onto the chair.",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "prompt": "ὁ γεωργὸς περιπατεῖ _______ τὸν οἶκον.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "εἰς", "πρός", "ἔξω"],
+      "answers": ["πρός"],
+      "explanation": "πρός + accusative = toward: ὁ γεωργὸς περιπατεῖ πρὸς τὸν οἶκον — the farmer walks toward the house.",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "prompt": "ἡ σελήνη λάμπει _______ _______ τῷ οὐρανῷ.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "εἰς", "πρός", "ἔξω"],
+      "answers": ["ἔξω", "ἐν"],
+      "explanation": "ἔξω ἐν τῷ οὐρανῷ — outside in the sky. ἔξω = outside; ἐν + dative = in.",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "prompt": "ὁ γεωργὸς καθεύδει _______ τῆς κλίνης.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "εἰς", "πρός", "ἔξω"],
+      "answers": ["ἐπί"],
+      "explanation": "ἐπί + genitive = upon (at rest): ὁ γεωργὸς καθεύδει ἐπὶ τῆς κλίνης — the farmer sleeps upon the bed.",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "prompt": "ὁ γεωργὸς καταλείπει τὰ ζῷα _______ τοῦ οἴκου.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "εἰς", "πρός", "ἔξω"],
+      "answers": ["ἔξω"],
+      "explanation": "ἔξω + genitive = outside of: ὁ γεωργὸς καταλείπει τὰ ζῷα ἔξω τοῦ οἴκου — he leaves the animals outside the house.",
+      "part": "A"
+    },
+    {
+      "id": 11,
+      "prompt": "ὁ γεωργὸς καθεύδει _______ τῆς κλίνης αὐτοῦ.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "ἐκ", "πέραν", "ἔσω", "ἔξω"],
+      "answers": ["ἐπί"],
+      "explanation": "ἐπί + genitive = upon: ὁ γεωργὸς καθεύδει ἐπὶ τῆς κλίνης αὐτοῦ — the farmer sleeps upon his bed.",
+      "part": "B"
+    },
+    {
+      "id": 12,
+      "prompt": "πολλοὶ λίθοι εἰσιν _______ τῷ ἀγρῷ.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "ἐκ", "πέραν", "ἔσω", "ἔξω"],
+      "answers": ["ἐν"],
+      "explanation": "ἐν + dative = in: πολλοὶ λίθοι εἰσιν ἐν τῷ ἀγρῷ — many stones are in the field.",
+      "part": "B"
+    },
+    {
+      "id": 13,
+      "prompt": "λύκοι εἰσιν _______ τοῦ ποταμοῦ.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "ἐκ", "πέραν", "ἔσω", "ἔξω"],
+      "answers": ["πέραν"],
+      "explanation": "πέραν + genitive = across: λύκοι εἰσιν πέραν τοῦ ποταμοῦ — wolves are across the river.",
+      "part": "B"
+    },
+    {
+      "id": 14,
+      "prompt": "ὁ γεωργὸς θέλει αἴρειν τοὺς λίθους _______ τοῦ ἀγροῦ.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "ἐκ", "πέραν", "ἔσω", "ἔξω"],
+      "answers": ["ἐκ"],
+      "explanation": "ἐκ + genitive = out of: ὁ γεωργὸς θέλει αἴρειν τοὺς λίθους ἐκ τοῦ ἀγροῦ — he wants to remove the stones out of the field.",
+      "part": "B"
+    },
+    {
+      "id": 15,
+      "prompt": "_______ τοῦ οἴκου ζητεῖ τὸν λύχνον.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "ἐκ", "πέραν", "ἔσω", "ἔξω"],
+      "answers": ["ἔσω"],
+      "explanation": "ἔσω + genitive = inside of: ἔσω τοῦ οἴκου ζητεῖ τὸν λύχνον — inside the house he searches for the lamp.",
+      "part": "B"
+    },
+    {
+      "id": 16,
+      "prompt": "πολλαὶ θύραι εἰσιν _______ τοῦ οἴκου.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "ἐκ", "πέραν", "ἔσω", "ἔξω"],
+      "answers": ["ἔξω"],
+      "explanation": "ἔξω + genitive = outside of: πολλαὶ θύραι εἰσιν ἔξω τοῦ οἴκου — many doors are outside the house.",
+      "part": "B"
+    },
+    {
+      "id": 17,
+      "prompt": "ὁ ὄνος καὶ ὁ βοῦς καθίζουσιν _______ τῶν καθεδρῶν.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "ἐκ", "πέραν", "ἔσω", "ἔξω"],
+      "answers": ["ἐπί"],
+      "explanation": "ἐπί + genitive = upon: ὁ ὄνος καὶ ὁ βοῦς καθίζουσιν ἐπὶ τῶν καθεδρῶν — sitting upon the chairs.",
+      "part": "B"
+    },
+    {
+      "id": 18,
+      "prompt": "ὁ γεωργὸς θέλει φεύγειν _______ τοῦ οἴκου.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "ἐκ", "πέραν", "ἔσω", "ἔξω"],
+      "answers": ["ἐκ"],
+      "explanation": "ἐκ + genitive = out of: ὁ γεωργὸς θέλει φεύγειν ἐκ τοῦ οἴκου — he wants to flee out of the house.",
+      "part": "B"
+    },
+    {
+      "id": 19,
+      "prompt": "ὁ λύχνος λάμπει _______ τῆς τραπέζης.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "ἐκ", "πέραν", "ἔσω", "ἔξω"],
+      "answers": ["ἐπί"],
+      "explanation": "ἐπί + genitive = upon: ὁ λύχνος λάμπει ἐπὶ τῆς τραπέζης — the lamp shines upon the table.",
+      "part": "B"
+    },
+    {
+      "id": 20,
+      "prompt": "τὰ ζῷα εἰσιν _______ τοῦ οἴκου.",
+      "choices": ["ἐν", "ἐπί", "ἀπό", "ἐκ", "πέραν", "ἔσω", "ἔξω"],
+      "answers": ["ἔξω"],
+      "explanation": "ἔξω + genitive = outside of: τὰ ζῷα εἰσιν ἔξω τοῦ οἴκου — the animals are outside the house.",
+      "part": "B"
+    }
+  ],
+  "personChange": [
+    {
+      "id": 1,
+      "original": "ὁ γεωργὸς φέρει τὸ ἀρνίον ἐπὶ τῷ ὤμῳ αὐτοῦ.",
+      "cue": "ἐγὼ _______ τὸ ἀρνίον ἐπὶ τῷ ὤμῳ μου.",
+      "answers": ["φέρω"],
+      "explanation": "3rd sg. φέρει → 1st sg. φέρω. -ει → -ω. Note also: αὐτοῦ → μου (his → my).",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "original": "ὁ γεωργὸς κοπιᾷ σφόδρα.",
+      "cue": "ἡμεῖς _______ σφόδρα.",
+      "answers": ["κοπιῶμεν"],
+      "explanation": "κοπιᾷ (contract -άω, 3rd sg.) → 1st pl. κοπιῶμεν. Contract -άω: 1st pl. = -ῶμεν.",
+      "part": "A"
+    },
+    {
+      "id": 3,
+      "original": "ὁ γεωργὸς ἀνοίγει τὴν θύραν.",
+      "cue": "σὺ _______ τὴν θύραν.",
+      "answers": ["ἀνοίγεις"],
+      "explanation": "3rd sg. ἀνοίγει → 2nd sg. ἀνοίγεις. Adding -ς for 2nd person singular.",
+      "part": "A"
+    },
+    {
+      "id": 4,
+      "original": "ὁ γεωργὸς ζητεῖ τὸν λύχνον.",
+      "cue": "ὑμεῖς _______ τὸν λύχνον.",
+      "answers": ["ζητεῖτε"],
+      "explanation": "ζητεῖ (contract -έω, 3rd sg.) → 2nd pl. ζητεῖτε. Contract -έω: 2nd pl. = -εῖτε.",
+      "part": "A"
+    },
+    {
+      "id": 5,
+      "original": "ὁ γεωργὸς ἅπτει τὸν λύχνον.",
+      "cue": "ἐγὼ _______ τὸν λύχνον.",
+      "answers": ["ἅπτω"],
+      "explanation": "3rd sg. ἅπτει → 1st sg. ἅπτω. -ει → -ω.",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "original": "ὁ γεωργὸς ἐσθίει τὸν ἄρτον καὶ τοὺς καρπούς.",
+      "cue": "αὐτοὶ _______ τὸν ἄρτον καὶ τοὺς καρπούς.",
+      "answers": ["ἐσθίουσιν"],
+      "explanation": "3rd sg. ἐσθίει → 3rd pl. ἐσθίουσιν. -ει → -ουσιν for 3rd person plural.",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "original": "ὁ γεωργὸς θέλει καθεύδειν.",
+      "cue": "σὺ _______ καθεύδειν.",
+      "answers": ["θέλεις"],
+      "explanation": "3rd sg. θέλει → 2nd sg. θέλεις. Adding -ς for 2nd person singular.",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "original": "ὁ γεωργὸς περιπατεῖ πρὸς τὴν κλίνην.",
+      "cue": "ἡμεῖς _______ πρὸς τὴν κλίνην.",
+      "answers": ["περιπατοῦμεν"],
+      "explanation": "περιπατεῖ (contract -έω, 3rd sg.) → 1st pl. περιπατοῦμεν. Contract -έω: 1st pl. = -οῦμεν.",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "original": "ὁ γεωργὸς καθεύδει ἐπὶ τῆς κλίνης.",
+      "cue": "ὑμεῖς _______ ἐπὶ τῆς κλίνης.",
+      "answers": ["καθεύδετε"],
+      "explanation": "3rd sg. καθεύδει → 2nd pl. καθεύδετε. 2nd person plural ending = -ετε.",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "original": "ὁ γεωργὸς μέλλει ἡσυχάζειν ἐν τῷ οἴκῳ.",
+      "cue": "ἐγὼ _______ ἡσυχάζειν ἐν τῷ οἴκῳ.",
+      "answers": ["μέλλω"],
+      "explanation": "3rd sg. μέλλει → 1st sg. μέλλω. -ει → -ω. The infinitive ἡσυχάζειν stays unchanged.",
+      "part": "A"
+    },
+    {
+      "id": 11,
+      "original": "ὁ γεωργὸς στενάζει σφόδρα.",
+      "cue": "ἐγὼ _______ σφόδρα.",
+      "answers": ["στενάζω"],
+      "explanation": "3rd sg. στενάζει → 1st sg. στενάζω. -ει → -ω.",
+      "part": "B"
+    },
+    {
+      "id": 12,
+      "original": "ὁ γεωργὸς ζητεῖ τὰ ζῷα αὐτοῦ.",
+      "cue": "ἡμεῖς _______ τὰ ζῷα ἡμῶν.",
+      "answers": ["ζητοῦμεν"],
+      "explanation": "ζητεῖ (contract -έω, 3rd sg.) → 1st pl. ζητοῦμεν. Contract: ε + ομεν = οῦμεν.",
+      "part": "B"
+    },
+    {
+      "id": 13,
+      "original": "ὁ γεωργὸς τρέχει πρὸς τοὺς λύκους.",
+      "cue": "σὺ _______ πρὸς τοὺς λύκους.",
+      "answers": ["τρέχεις"],
+      "explanation": "3rd sg. τρέχει → 2nd sg. τρέχεις. Adding -ς.",
+      "part": "B"
+    },
+    {
+      "id": 14,
+      "original": "ὁ γεωργὸς θαυμάζει σφόδρα.",
+      "cue": "ὑμεῖς _______ σφόδρα.",
+      "answers": ["θαυμάζετε"],
+      "explanation": "3rd sg. θαυμάζει → 2nd pl. θαυμάζετε. 2nd pl. = -ετε.",
+      "part": "B"
+    },
+    {
+      "id": 15,
+      "original": "ὁ γεωργὸς μανθάνει ὅτι ὕπνος ἐστιν.",
+      "cue": "ἐγὼ _______ ὅτι ὕπνος ἐστιν.",
+      "answers": ["μανθάνω"],
+      "explanation": "3rd sg. μανθάνει → 1st sg. μανθάνω. -ει → -ω.",
+      "part": "B"
+    },
+    {
+      "id": 16,
+      "original": "ὁ γεωργὸς πίπτει ἐν τῇ σκοτίᾳ.",
+      "cue": "αὐτοὶ _______ ἐν τῇ σκοτίᾳ.",
+      "answers": ["πίπτουσιν"],
+      "explanation": "3rd sg. πίπτει → 3rd pl. πίπτουσιν. -ει → -ουσιν.",
+      "part": "B"
+    },
+    {
+      "id": 17,
+      "original": "ὁ γεωργὸς ἀνοίγει τοὺς ὀφθαλμοὺς αὐτοῦ.",
+      "cue": "ἡμεῖς _______ τοὺς ὀφθαλμοὺς ἡμῶν.",
+      "answers": ["ἀνοίγομεν"],
+      "explanation": "3rd sg. ἀνοίγει → 1st pl. ἀνοίγομεν. -ει → -ομεν.",
+      "part": "B"
+    },
+    {
+      "id": 18,
+      "original": "ὁ γεωργὸς ἔχει εἰρήνην ἐν τῇ καρδίᾳ αὐτοῦ.",
+      "cue": "σὺ _______ εἰρήνην ἐν τῇ καρδίᾳ σου.",
+      "answers": ["ἔχεις"],
+      "explanation": "3rd sg. ἔχει → 2nd sg. ἔχεις. Adding -ς.",
+      "part": "B"
+    },
+    {
+      "id": 19,
+      "original": "ὁ γεωργὸς θέλει φεύγειν ἐκ τοῦ οἴκου.",
+      "cue": "ὑμεῖς _______ φεύγειν ἐκ τοῦ οἴκου.",
+      "answers": ["θέλετε"],
+      "explanation": "3rd sg. θέλει → 2nd pl. θέλετε. 2nd pl. = -ετε.",
+      "part": "B"
+    },
+    {
+      "id": 20,
+      "original": "ὁ γεωργὸς καθεύδει πάλιν.",
+      "cue": "ἐγὼ _______ πάλιν.",
+      "answers": ["καθεύδω"],
+      "explanation": "3rd sg. καθεύδει → 1st sg. καθεύδω. -ει → -ω.",
+      "part": "B"
+    }
+  ],
+  "infinitives": [
+    {
+      "id": 1,
+      "prompt": "ὁ γεωργὸς θέλει _______ ἐν τῷ οἴκῳ. (ἡσυχάζω)",
+      "answer": "ἡσυχάζειν",
+      "explanation": "θέλω + infinitive: ἡσυχάζω → ἡσυχάζειν. The -ω verb infinitive ends in -ειν.",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "prompt": "ὁ γεωργὸς μέλλει _______ ἐπὶ τῆς κλίνης. (καθεύδω)",
+      "answer": "καθεύδειν",
+      "explanation": "μέλλω + infinitive: καθεύδω → καθεύδειν.",
+      "part": "A"
+    },
+    {
+      "id": 3,
+      "prompt": "θέλω _______ τὸν λύχνον ἐν τῇ σκοτίᾳ. (ζητέω)",
+      "answer": "ζητεῖν",
+      "explanation": "θέλω + infinitive: ζητέω → ζητεῖν. Contract -έω verb: infinitive = -εῖν.",
+      "part": "A"
+    },
+    {
+      "id": 4,
+      "prompt": "ὁ γεωργὸς θέλει _______ καὶ _______ καὶ _______. (ἐσθίω, πίνω, ἡσυχάζω)",
+      "answer": "ἐσθίειν καὶ πίνειν καὶ ἡσυχάζειν",
+      "explanation": "θέλω + infinitive: ἐσθίω → ἐσθίειν, πίνω → πίνειν, ἡσυχάζω → ἡσυχάζειν.",
+      "part": "A"
+    },
+    {
+      "id": 5,
+      "prompt": "μέλλει ὁ γεωργὸς _______ τὴν θύραν. (ἀνοίγω)",
+      "answer": "ἀνοίγειν",
+      "explanation": "μέλλει + infinitive: ἀνοίγω → ἀνοίγειν.",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "prompt": "οὐ θέλει _______ ἐπὶ τῆς καθέδρας. (καθίζω)",
+      "answer": "καθίζειν",
+      "explanation": "οὐ θέλει + infinitive: καθίζω → καθίζειν. He does not want to sit on the chair.",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "prompt": "μέλλομεν _______ ἐν τῷ οἴκῳ. (μένω)",
+      "answer": "μένειν",
+      "explanation": "μέλλω + infinitive: μένω → μένειν. We are about to remain in the house.",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "prompt": "ὁ γεωργὸς θέλει _______ πρὸς τὴν κλίνην. (περιπατέω)",
+      "answer": "περιπατεῖν",
+      "explanation": "θέλω + infinitive: περιπατέω → περιπατεῖν. Contract -έω infinitive = -εῖν.",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "prompt": "οὐ θέλω _______ ἔτι. (σκάπτω)",
+      "answer": "σκάπτειν",
+      "explanation": "οὐ θέλω + infinitive: σκάπτω → σκάπτειν. I do not want to dig any longer.",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "prompt": "ὁ γεωργὸς μέλλει _______ τὰ ζῷα ἔξω. (καταλείπω)",
+      "answer": "καταλείπειν",
+      "explanation": "μέλλω + infinitive: καταλείπω → καταλείπειν. The farmer is about to leave the animals outside.",
+      "part": "A"
+    },
+    {
+      "id": 11,
+      "prompt": "οὐ δυνατόν ἐστιν αὐτῷ _______ πάντας τοὺς λίθους ἐκ τοῦ ἀγροῦ. (αἴρω)",
+      "answer": "αἴρειν",
+      "explanation": "δυνατόν + infinitive: αἴρω → αἴρειν. It is not possible for him to lift all the stones.",
+      "part": "B"
+    },
+    {
+      "id": 12,
+      "prompt": "οὐ δυνατόν ἐστιν αὐτῷ ταχέως _______ ἐν τῷ ὕπνῳ. (τρέχω)",
+      "answer": "τρέχειν",
+      "explanation": "δυνατόν + infinitive: τρέχω → τρέχειν. He cannot run fast in the dream.",
+      "part": "B"
+    },
+    {
+      "id": 13,
+      "prompt": "δυνατόν ἐστιν αὐτῷ _______ μεγάλῃ φωνῇ ἐν τῷ ὕπνῳ. (κράζω)",
+      "answer": "κράζειν",
+      "explanation": "δυνατόν + infinitive: κράζω → κράζειν. He can cry out with a loud voice.",
+      "part": "B"
+    },
+    {
+      "id": 14,
+      "prompt": "δυνατόν ἐστιν αὐτῷ _______ τὸν λύχνον ἐν τῇ σκοτίᾳ. (εὑρίσκω)",
+      "answer": "εὑρίσκειν",
+      "explanation": "δυνατόν + infinitive: εὑρίσκω → εὑρίσκειν. It is possible for him to find the lamp.",
+      "part": "B"
+    },
+    {
+      "id": 15,
+      "prompt": "οὐ δυνατόν ἐστιν αὐτῷ _______ τὴν θύραν ἐν τῷ ὕπνῳ. (ἀνοίγω)",
+      "answer": "ἀνοίγειν",
+      "explanation": "οὐ δυνατόν + infinitive: ἀνοίγω → ἀνοίγειν. He cannot open the door in the dream.",
+      "part": "B"
+    },
+    {
+      "id": 16,
+      "prompt": "οὐ δυνατόν ἐστιν αὐτῷ _______ τὴν ὁδὸν ἐν τῇ σκοτίᾳ. (βλέπω)",
+      "answer": "βλέπειν",
+      "explanation": "οὐ δυνατόν + infinitive: βλέπω → βλέπειν. He cannot see the road in the darkness.",
+      "part": "B"
+    },
+    {
+      "id": 17,
+      "prompt": "οὐ δυνατόν ἐστιν αὐτῷ _______ τὰ ζῷα ἀπὸ τῶν λύκων ἐν τῷ ὕπνῳ. (σῴζω)",
+      "answer": "σῴζειν",
+      "explanation": "οὐ δυνατόν + infinitive: σῴζω → σῴζειν. He cannot save the animals in the dream.",
+      "part": "B"
+    },
+    {
+      "id": 18,
+      "prompt": "δυνατόν ἐστιν αὐτῷ _______ ἐκ τοῦ οἴκου ἐν τῷ ὕπνῳ. (φεύγω)",
+      "answer": "φεύγειν",
+      "explanation": "δυνατόν + infinitive: φεύγω → φεύγειν.",
+      "part": "B"
+    },
+    {
+      "id": 19,
+      "prompt": "δυνατόν ἐστιν αὐτῷ _______ τοὺς ὀφθαλμοὺς ὅτε ἡ φωνὴ αὐτοῦ ἐγείρει αὐτόν. (ἀνοίγω)",
+      "answer": "ἀνοίγειν",
+      "explanation": "δυνατόν + infinitive: ἀνοίγω → ἀνοίγειν. He can open his eyes when his own voice wakes him.",
+      "part": "B"
+    },
+    {
+      "id": 20,
+      "prompt": "δυνατόν ἐστιν αὐτῷ _______ πάλιν ὅτι ἔχει εἰρήνην ἐν τῇ καρδίᾳ αὐτοῦ. (καθεύδω)",
+      "answer": "καθεύδειν",
+      "explanation": "δυνατόν + infinitive: καθεύδω → καθεύδειν. He can sleep again because he has peace in his heart.",
+      "part": "B"
+    }
+  ],
+  "fillBlank": [
+    {
+      "id": 1,
+      "prompt": "εἷς λίθος ἐστιν ἐν τῷ ἀγρῷ. → _______ _______ εἰσιν ἐν τῷ ἀγρῷ.",
+      "answer": "πολλοὶ λίθοι",
+      "explanation": "Nom. pl. masc.: ὁ λίθος (sg. nom.) → λίθοι (pl. nom.). πολύς (sg. nom. masc.) → πολλοί (pl. nom. masc.).",
+      "part": "B"
+    },
+    {
+      "id": 2,
+      "prompt": "ὁ λίθος μέγας ἐστιν. → οἱ _______ _______ εἰσιν.",
+      "answer": "λίθοι μεγάλοι",
+      "explanation": "Nom. pl. masc.: λίθος → λίθοι; μέγας (sg. nom. masc.) → μεγάλοι (pl. nom. masc.).",
+      "part": "B"
+    },
+    {
+      "id": 3,
+      "prompt": "ὁ γεωργὸς αἴρει τὸν λίθον. → ὁ γεωργὸς αἴρει τοὺς _______.",
+      "answer": "λίθους",
+      "explanation": "Acc. pl. masc.: τὸν λίθον (sg. acc.) → τοὺς λίθους (pl. acc.). 2nd decl. acc. pl. = -ους.",
+      "part": "B"
+    },
+    {
+      "id": 4,
+      "prompt": "εἷς λύκος ἐστιν πέραν τοῦ ποταμοῦ. → _______ _______ εἰσιν πέραν τοῦ ποταμοῦ.",
+      "answer": "λύκοι πολλοί",
+      "explanation": "Nom. pl. masc.: ὁ λύκος (sg. nom.) → λύκοι (pl. nom.). πολλοί agrees in gender and number.",
+      "part": "B"
+    },
+    {
+      "id": 5,
+      "prompt": "ὁ λύκος μέγας ἐστιν καὶ πονηρός. → οἱ _______ _______ εἰσιν καὶ _______.",
+      "answer": "λύκοι μεγάλοι πονηροί",
+      "explanation": "Nom. pl. masc.: λύκοι μεγάλοι πονηροί. All adjectives take pl. masc. nom. forms.",
+      "part": "B"
+    },
+    {
+      "id": 6,
+      "prompt": "ὁ λύκος θέλει ἁρπάζειν τὸ ἀρνίον. → οἱ λύκοι _______ ἁρπάζειν τὸ ἀρνίον.",
+      "answer": "θέλουσιν",
+      "explanation": "3rd sg. θέλει → 3rd pl. θέλουσιν. -ει → -ουσιν for 3rd person plural.",
+      "part": "B"
+    },
+    {
+      "id": 7,
+      "prompt": "ἡ θύρα ἐστιν ἔξω τοῦ οἴκου. → αἱ _______ εἰσιν ἔξω τοῦ οἴκου.",
+      "answer": "θύραι",
+      "explanation": "Nom. pl. fem.: ἡ θύρα (sg. nom.) → αἱ θύραι (pl. nom.). 1st decl. fem. pl. nom. = -αι.",
+      "part": "B"
+    },
+    {
+      "id": 8,
+      "prompt": "ὁ γεωργὸς ἀνοίγει τὴν θύραν. → ὁ γεωργὸς ἀνοίγει τὰς _______.",
+      "answer": "θύρας",
+      "explanation": "Acc. pl. fem.: τὴν θύραν (sg. acc.) → τὰς θύρας (pl. acc.). 1st decl. fem. acc. pl. = -ας.",
+      "part": "B"
+    },
+    {
+      "id": 9,
+      "prompt": "τὸ ζῷόν ἐστιν ἐν τῷ ἀγρῷ. → τὰ _______ εἰσιν ἐν τῷ ἀγρῷ.",
+      "answer": "ζῷα",
+      "explanation": "Nom. pl. neut.: τὸ ζῷον (sg. nom.) → τὰ ζῷα (pl. nom.). 2nd decl. neut. pl. nom. = -α.",
+      "part": "B"
+    },
+    {
+      "id": 10,
+      "prompt": "τὸ πρόβατον φεύγει ἀπὸ τοῦ γεωργοῦ. → τὰ _______ φεύγουσιν ἀπὸ τοῦ γεωργοῦ.",
+      "answer": "πρόβατα",
+      "explanation": "Nom. pl. neut.: τὸ πρόβατον (sg. nom.) → τὰ πρόβατα (pl. nom.). Also note the verb changes: φεύγει (sg.) → φεύγουσιν (pl.).",
+      "part": "B"
+    }
+  ],
+  "conversationQuestions": [
+    {
+      "id": 1,
+      "question": "ἆρα σὺ θέλεις ἀνατέλλειν ἐν τῷ οὐρανῷ ὡς ἡ σελήνη;",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "question": "ἆρα σὺ μέλλεις ἐσθίειν τὸ δένδρον σήμερον;",
+      "part": "A"
+    },
+    {
+      "id": 3,
+      "question": "ἆρα σὺ θέλεις καθεύδειν ἐπὶ τῆς τραπέζης;",
+      "part": "A"
+    },
+    {
+      "id": 4,
+      "question": "ἆρα σὺ μέλλεις λάμπειν ἐν τῷ οὐρανῷ ὡς ὁ ἥλιος;",
+      "part": "A"
+    },
+    {
+      "id": 5,
+      "question": "ἆρα σὺ θέλεις ἐσθίειν τὸν λύχνον;",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "question": "ἆρα σὺ θέλεις καθεύδειν ὅλην τὴν ἡμέραν;",
+      "part": "A"
+    },
+    {
+      "id": 7,
+      "question": "ἆρα σὺ μέλλεις ἅπτειν τὸν λύχνον σήμερον ἐν τῷ οἴκῳ σου;",
+      "part": "A"
+    },
+    {
+      "id": 8,
+      "question": "ἆρα σὺ θέλεις περιπατεῖν ἐν τῇ σκοτίᾳ;",
+      "part": "A"
+    },
+    {
+      "id": 9,
+      "question": "ἆρα σὺ μέλλεις καθίζειν ἐπὶ τὸν λίθον ὡς ὁ γεωργός;",
+      "part": "A"
+    },
+    {
+      "id": 10,
+      "question": "ἆρα σὺ θέλεις φέρειν τὸν βοῦν ἐπὶ τῷ ὤμῳ σου;",
+      "part": "A"
+    },
+    {
+      "id": 11,
+      "question": "ἆρα σὺ θέλεις πίνειν ἐκ τοῦ ποταμοῦ ὡς τὸ πρόβατον;",
+      "part": "A"
+    },
+    {
+      "id": 12,
+      "question": "ἆρα σὺ μέλλεις ἡσυχάζειν σήμερον ἢ σκάπτειν τὸν ἀγρόν;",
+      "part": "A"
+    },
+    {
+      "id": 13,
+      "question": "ἆρα σὺ θέλεις ἐσθίειν ἄρτον καὶ καρπούς σήμερον;",
+      "part": "A"
+    },
+    {
+      "id": 14,
+      "question": "ἆρα σὺ μέλλεις ἀκούειν τῆς φωνῆς τοῦ ὄνου ἐν τῷ ὕπνῳ σου;",
+      "part": "A"
+    },
+    {
+      "id": 15,
+      "question": "ἆρα σὺ θέλεις καθεύδειν ἐπὶ τῆς κλίνης ἢ ἐπὶ τῆς καθέδρας;",
+      "part": "A"
+    },
+    {
+      "id": 16,
+      "question": "ἆρα δυνατόν ἐστίν σοι αἴρειν τὸν οἶκον;",
+      "part": "B"
+    },
+    {
+      "id": 17,
+      "question": "ἆρα δυνατόν ἐστίν σοι ἐσθίειν τὸν ἄρτον;",
+      "part": "B"
+    },
+    {
+      "id": 18,
+      "question": "ἆρα δυνατόν ἐστίν σοι φέρειν τὸν ἥλιον ἐπὶ τῷ ὤμῳ σου;",
+      "part": "B"
+    },
+    {
+      "id": 19,
+      "question": "ἆρα δυνατόν ἐστίν σοι πίνειν ὅλον τὸν ποταμόν;",
+      "part": "B"
+    },
+    {
+      "id": 20,
+      "question": "ἆρα δυνατόν ἐστίν σοι βλέπειν ἐν τῇ σκοτίᾳ;",
+      "part": "B"
+    },
+    {
+      "id": 21,
+      "question": "ἆρα δυνατόν ἐστίν σοι σκάπτειν τὸν ἀγρόν;",
+      "part": "B"
+    },
+    {
+      "id": 22,
+      "question": "ἆρα δυνατόν ἐστίν σοι φέρειν τὸν βοῦν καὶ τὸν ὄνον;",
+      "part": "B"
+    },
+    {
+      "id": 23,
+      "question": "ἆρα δυνατόν ἐστίν σοι τρέχειν ταχέως ὡς τὸ ἀρνίον;",
+      "part": "B"
+    },
+    {
+      "id": 24,
+      "question": "ἆρα δυνατόν ἐστίν σοι καθεύδειν ἐπὶ τοῦ λίθου τοῦ μεγάλου;",
+      "part": "B"
+    },
+    {
+      "id": 25,
+      "question": "ἆρα δυνατόν ἐστίν σοι ἐσθίειν πάντας τοὺς ἄρτους καὶ πάντας τοὺς καρπούς;",
+      "part": "B"
     }
   ]
 }
