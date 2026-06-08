@@ -1,14 +1,16 @@
-import { useEffect, useCallback } from 'react'
+import { useEffect, useCallback, useState } from 'react'
 import './FullscreenViewer.css'
 
-export default function FullscreenViewer({ images, index, onClose, onPrev, onNext }) {
+export default function FullscreenViewer({ images, captions, index, onClose, onPrev, onNext }) {
   const hasPrev = index > 0
   const hasNext = index < images.length - 1
+  const [showDesc, setShowDesc] = useState(false)
 
   const handleKey = useCallback((e) => {
     if (e.key === 'Escape') onClose()
     if (e.key === 'ArrowRight' && hasNext) onNext()
     if (e.key === 'ArrowLeft' && hasPrev) onPrev()
+    if (e.key === 'd' || e.key === 'D') setShowDesc(v => !v)
   }, [onClose, onNext, onPrev, hasPrev, hasNext])
 
   useEffect(() => {
@@ -17,10 +19,18 @@ export default function FullscreenViewer({ images, index, onClose, onPrev, onNex
   }, [handleKey])
 
   const src = images[index]
+  const caption = captions?.[index]
 
   return (
     <div className="fs-overlay" onClick={onClose}>
       <button className="fs-close" onClick={onClose} aria-label="Close">✕</button>
+
+      <button
+        className={`fs-desc-toggle ${showDesc ? 'fs-desc-toggle--active' : ''}`}
+        onClick={e => { e.stopPropagation(); setShowDesc(v => !v) }}
+        aria-label="Toggle description"
+        title="Toggle description (D)"
+      >T</button>
 
       <button
         className="fs-arrow fs-arrow--left"
@@ -43,6 +53,12 @@ export default function FullscreenViewer({ images, index, onClose, onPrev, onNex
         aria-label="Next"
       >›</button>
 
+      {showDesc && caption && (
+        <div className="fs-caption" onClick={e => e.stopPropagation()}>
+          {caption.greek && <div className="fs-caption-greek greek">{caption.greek}</div>}
+          {caption.english && <div className="fs-caption-english">{caption.english}</div>}
+        </div>
+      )}
     </div>
   )
 }

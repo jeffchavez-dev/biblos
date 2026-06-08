@@ -68,3 +68,45 @@
   font-size: 0.85rem;
   letter-spacing: 0.08em;
 }
+
+.fs-desc-toggle {
+  position: absolute;
+  top: 18px;
+  right: 74px;
+  background: rgba(255,255,255,0.12);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+  z-index: 1;
+}
+.fs-desc-toggle:hover { background: rgba(255,255,255,0.25); }
+.fs-desc-toggle--active { background: rgba(255,255,255,0.35); }
+
+.fs-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.82));
+  padding: 40px 32px 24px;
+  text-align: center;
+  pointer-events: none;
+}
+.fs-caption-greek {
+  color: #fff;
+  font-size: 1.25rem;
+  margin-bottom: 6px;
+}
+.fs-caption-english {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.95rem;
+}

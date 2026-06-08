@@ -26,6 +26,10 @@ export default function VisualStoryTab({ story, activePart }) {
   const current = panels[Math.min(panel, panels.length - 1)]
   const imagePanels = panels.filter(p => p.image)
   const imageSrcs = imagePanels.map(p => `/${p.image}`)
+  const imageCaptions = imagePanels.map(p => ({
+    greek: p.greekCaption,
+    english: t(p.englishCaption, p.captionTranslations, lang),
+  }))
   const fsIndex = imagePanels.findIndex((_, i) => imagePanels[i] === imagePanels.find(p => p === current))
 
   function openFullscreen() {
@@ -48,6 +52,7 @@ export default function VisualStoryTab({ story, activePart }) {
       {fullscreen && current.image && (
         <FullscreenViewer
           images={imageSrcs}
+          captions={imageCaptions}
           index={Math.max(0, fsCurIndex)}
           onClose={() => setFullscreen(false)}
           onPrev={fsPrev}
