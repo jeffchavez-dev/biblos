@@ -9,7 +9,7 @@ export const LANGUAGES = [
 
 const UI = {
   en: {
-    appSubtitle:           'Koine Greek Reader',
+    appSubtitle:           'Koine for Everyone',
     chapterLocked:         'Chapter Locked',
     chapterLockedMsg:      'This chapter is not yet available. Complete Unit 1 to unlock future units.',
     loading:               'Loading chapter…',

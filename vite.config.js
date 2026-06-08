@@ -10,9 +10,9 @@ export default defineConfig({
       injectRegister: 'auto',
       includeAssets: ['icon-192.png', 'icon-512.png'],
       manifest: {
-        name: 'Βίβλος — Koine Greek Reader',
+        name: 'Βίβλος — Koine for Everyone',
         short_name: 'Βίβλος',
-        description: 'A Koine Greek reader for learning New Testament Greek',
+        description: 'Koine for Everyone — learn New Testament Greek',
         theme_color: '#1a3a5c',
         background_color: '#1a3a5c',
         display: 'standalone',
