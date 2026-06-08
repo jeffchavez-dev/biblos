@@ -43,7 +43,6 @@ export default function FullscreenViewer({ images, index, onClose, onPrev, onNex
         aria-label="Next"
       >›</button>
 
-      <div className="fs-counter">{index + 1} / {images.length}</div>
     </div>
   )
 }
