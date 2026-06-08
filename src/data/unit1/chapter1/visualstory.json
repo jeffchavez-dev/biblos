@@ -117,23 +117,114 @@
     {
       "id": 17,
       "part": "B",
-      "greekCaption": "ὁ γεωργὸς ἐκβαίνει ἐκ τοῦ οἴκου. ὁ πόνος χαλεπός ἐστιν.",
-      "englishCaption": "The farmer goes out of the house. The labor is hard.",
-      "image": "story-images/ch1/B1.3.jpeg"
+      "greekCaption": "ὁ γεωργὸς καθίζει καὶ μένει ἐν τῷ οἴκῳ.",
+      "englishCaption": "The farmer sits and remains in the house.",
+      "image": "story-images/ch1/1.2/01.jpeg"
     },
     {
       "id": 18,
       "part": "B",
-      "greekCaption": "περιπατεῖ ἐν τῷ ἀγρῷ καὶ ἡσυχάζει ἐγγὺς τοῦ ποταμοῦ.",
-      "englishCaption": "He walks around the field and rests near the river.",
-      "image": "story-images/ch1/B1.11.jpeg"
+      "greekCaption": "λαμβάνει τὸν ἄρτον ἐν τῷ οἴκῳ καὶ ἐσθίει.",
+      "englishCaption": "He takes the bread in the house and eats.",
+      "image": "story-images/ch1/1.2/02.jpeg"
     },
     {
       "id": 19,
       "part": "B",
-      "greekCaption": "ὁ γεωργὸς καθίζει ἐν τῷ οἴκῳ καὶ εὐχαριστεῖ τῷ θεῷ.",
-      "englishCaption": "The farmer sits in the house and gives thanks to God.",
-      "image": "story-images/ch1/B1.15.jpeg"
+      "greekCaption": "ἔπειτα δὲ ἐκβαίνει ἐκ τοῦ οἴκου.",
+      "englishCaption": "Then he goes out of the house.",
+      "image": "story-images/ch1/1.2/03.jpeg"
+    },
+    {
+      "id": 20,
+      "part": "B",
+      "greekCaption": "καὶ περιπατεῖ πρὸς τὸν ἀγρόν.",
+      "englishCaption": "And he walks toward the field.",
+      "image": "story-images/ch1/1.2/04.jpeg"
+    },
+    {
+      "id": 21,
+      "part": "B",
+      "greekCaption": "σήμερον ἐν τῷ ἀγρῷ σκάπτει τὸν ἀγρόν.",
+      "englishCaption": "Today in the field he digs the field.",
+      "image": "story-images/ch1/1.2/05.jpeg"
+    },
+    {
+      "id": 22,
+      "part": "B",
+      "greekCaption": "ὅτε ὁ γεωργὸς σκάπτει ἐν τῷ ἀγρῷ.",
+      "englishCaption": "When the farmer digs in the field.",
+      "image": "story-images/ch1/1.2/06.jpeg"
+    },
+    {
+      "id": 23,
+      "part": "B",
+      "greekCaption": "ὁ δὲ ἥλιος λάμπει ἐν τῷ οὐρανῷ.",
+      "englishCaption": "And the sun shines in the sky.",
+      "image": "story-images/ch1/1.2/07.jpeg"
+    },
+    {
+      "id": 24,
+      "part": "B",
+      "greekCaption": "εὑρίσκει ὁ γεωργὸς τὸν μέγαν λίθον ἐν τῷ ἀγρῷ.",
+      "englishCaption": "The farmer finds the great stone in the field.",
+      "image": "story-images/ch1/1.2/08.jpeg"
+    },
+    {
+      "id": 25,
+      "part": "B",
+      "greekCaption": "καὶ περιπατεῖ πρὸς τὸν λίθον ἐν τῷ ἀγρῷ.",
+      "englishCaption": "And he walks toward the stone in the field.",
+      "image": "story-images/ch1/1.2/09.jpeg"
+    },
+    {
+      "id": 26,
+      "part": "B",
+      "greekCaption": "ἔπειτα δὲ σκάπτει τὸν λίθον καὶ αἴρει καὶ φέρει τὸν λίθον ἐκ τοῦ ἀγροῦ.",
+      "englishCaption": "Then he digs around the stone and lifts and carries the stone out of the field.",
+      "image": "story-images/ch1/1.2/10.jpeg"
+    },
+    {
+      "id": 27,
+      "part": "B",
+      "greekCaption": "ὁ πόνος χαλεπός ἐστιν. οὐ ῥᾴδιος.",
+      "englishCaption": "The toil is hard. Not easy.",
+      "image": "story-images/ch1/1.2/11.jpeg"
+    },
+    {
+      "id": 28,
+      "part": "B",
+      "greekCaption": "φιλεῖ δὲ τὸν ἀγρόν, ἀλλὰ ὁ πόνος χαλεπός ἐστιν ἐν τῷ ἀγρῷ. ὁ οὖν βίος χαλεπός ἐστιν, οὐ ῥᾴδιος.",
+      "englishCaption": "He loves the field, but the toil is hard in the field. So life is hard, not easy.",
+      "image": "story-images/ch1/1.2/12.jpeg"
+    },
+    {
+      "id": 29,
+      "part": "B",
+      "greekCaption": "ὁ μὲν γεωργὸς καθίζει ἐν τῷ ἀγρῷ καὶ ἡσυχάζει. ὁ δὲ μέγας ἥλιος λάμπει ἐν τῷ οὐρανῷ. ὅτε ἡσυχάζει, ἀκούει τὸν ποταμόν.",
+      "englishCaption": "The farmer sits in the field and rests. The great sun shines in the sky. When he rests, he hears the river.",
+      "image": "story-images/ch1/1.2/13.jpeg"
+    },
+    {
+      "id": 30,
+      "part": "B",
+      "greekCaption": "τὸν χόρτον βλέπει ἐν τῷ ἀγρῷ.",
+      "englishCaption": "He sees the grass in the field.",
+      "image": "story-images/ch1/1.2/14.jpeg"
+    },
+    {
+      "id": 31,
+      "part": "B",
+      "greekCaption": "καὶ ἐκβαίνει ἐκ τοῦ ἀγροῦ καὶ περιπατεῖ πρὸς τὸν οἶκον.",
+      "englishCaption": "And he goes out of the field and walks toward the house.",
+      "image": "story-images/ch1/1.2/15.jpeg"
+    },
+    {
+      "id": 32,
+      "part": "B",
+      "greekCaption": "νῦν οὐ σκάπτει τὸν ἀγρὸν οὐδὲ φέρει τὸν μέγαν λίθον· ἐν δὲ τῷ οἴκῳ καθίζει καὶ ἡσυχάζει καὶ χαίρει.",
+      "englishCaption": "Now he does not dig the field nor carry the great stone; but in the house he sits and rests and rejoices.",
+      "image": "story-images/ch1/1.2/16.jpeg"
     }
   ],
   "subtitleTranslations": {
