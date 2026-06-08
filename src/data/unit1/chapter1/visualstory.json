@@ -5,93 +5,135 @@
     {
       "id": 1,
       "part": "A",
-      "scene": "A farmer stands in his small but beautiful field. The sun shines brightly in the sky above.",
       "greekCaption": "ὁ γεωργός ἐστιν ἀγαθὸς καὶ ἰσχυρὸς ἄνθρωπος.",
       "englishCaption": "The farmer is a good and strong person.",
-      "image": "story-images/ch1/B1.3.jpeg",
-      "captionTranslations": {
-        "es": "El agricultor es una persona buena y fuerte.",
-        "pl": "Rolnik jest dobrym i silnym człowiekiem.",
-        "fil": "Ang magsasaka ay isang mabuti at malakas na tao."
-      }
+      "image": "story-images/ch1/1.1/01.jpeg"
     },
     {
       "id": 2,
       "part": "A",
-      "scene": "The farmer digs his field. He spots a large stone embedded in the ground.",
-      "greekCaption": "σκάπτει τὸν ἀγρόν. βλέπει τὸν μέγαν λίθον.",
-      "englishCaption": "He digs the field. He sees the large stone.",
-      "image": "story-images/ch1/B1.7.jpeg",
-      "captionTranslations": {
-        "es": "Cava el campo. Ve la piedra grande.",
-        "pl": "Kopie pole. Widzi wielki kamień.",
-        "fil": "Humuhukay siya ng bukid. Nakikita niya ang malaking bato."
-      }
+      "greekCaption": "μικρός ἐστιν ὁ οἶκος, οὐ μέγας.",
+      "englishCaption": "The house is small, not large.",
+      "image": "story-images/ch1/1.1/02.jpeg"
     },
     {
       "id": 3,
       "part": "A",
-      "scene": "He lifts the great stone and carries it out of the field. His strength is on full display.",
-      "greekCaption": "αἴρει τὸν μέγαν λίθον καὶ φέρει. ἰσχυρὸς γάρ ἐστιν.",
-      "englishCaption": "He lifts the large stone and carries it. For he is strong.",
-      "image": "story-images/ch1/1.1-17.jpeg",
-      "captionTranslations": {
-        "es": "Levanta la piedra grande y la lleva. Pues es fuerte.",
-        "pl": "Podnosi wielki kamień i niesie go. Bo jest silny.",
-        "fil": "Itinaas niya ang malaking bato at dinala ito. Sapagkat siya ay malakas."
-      }
+      "greekCaption": "ἀγρός ἐστιν. μικρός ἐστιν ὁ ἀγρός, ἀλλὰ καλός.",
+      "englishCaption": "It is a field. The field is small, but beautiful.",
+      "image": "story-images/ch1/1.1/03.jpeg"
     },
     {
       "id": 4,
       "part": "A",
-      "scene": "The farmer rests under an olive tree by the river. He looks up and gives thanks to God.",
-      "greekCaption": "ὁ βίος καλός ἐστιν ὅτι ὁ θεός ἐστιν ἀγαθὸς καὶ πιστός.",
-      "englishCaption": "Life is good because God is good and faithful.",
-      "image": "story-images/ch1/B1.11.jpeg",
-      "captionTranslations": {
-        "es": "La vida es buena porque Dios es bueno y fiel.",
-        "pl": "Życie jest dobre, bo Bóg jest dobry i wierny.",
-        "fil": "Ang buhay ay mabuti dahil ang Diyos ay mabuti at tapat."
-      }
+      "greekCaption": "ἥλιός ἐστιν. μέγας ἐστὶν ὁ ἥλιος. καὶ ὁ ἥλιος λάμπει.",
+      "englishCaption": "It is the sun. The sun is great. And the sun shines.",
+      "image": "story-images/ch1/1.1/04.jpeg"
     },
     {
       "id": 5,
-      "part": "B",
-      "scene": "The day's work is done. The farmer walks out of his house early in the morning to begin his labor.",
-      "greekCaption": "ὁ γεωργὸς ἐκβαίνει ἐκ τοῦ οἴκου. ὁ πόνος χαλεπός ἐστιν.",
-      "englishCaption": "The farmer goes out of the house. The labor is hard.",
-      "image": "story-images/ch1/B1.3.jpeg",
-      "captionTranslations": {
-        "es": "El agricultor sale de la casa. El trabajo es duro.",
-        "pl": "Rolnik wychodzi z domu. Trud jest ciężki.",
-        "fil": "Lumalabas ang magsasaka mula sa bahay. Mahirap ang pagsisikap."
-      }
+      "part": "A",
+      "greekCaption": "οὐρανός ἐστιν. μέγας ἐστιν ὁ οὐρανός, οὐ μικρός.",
+      "englishCaption": "It is the sky. The sky is great, not small.",
+      "image": "story-images/ch1/1.1/05.jpeg"
     },
     {
       "id": 6,
-      "part": "B",
-      "scene": "He walks around the field, checking the crops. He rests briefly by the river.",
-      "greekCaption": "περιπατεῖ ἐν τῷ ἀγρῷ καὶ ἡσυχάζει ἐγγὺς τοῦ ποταμοῦ.",
-      "englishCaption": "He walks around the field and rests near the river.",
-      "image": "story-images/ch1/B1.11.jpeg",
-      "captionTranslations": {
-        "es": "Camina por el campo y descansa cerca del río.",
-        "pl": "Chodzi po polu i odpoczywa nad rzeką.",
-        "fil": "Lumalakad siya sa bukid at nagpapahinga malapit sa ilog."
-      }
+      "part": "A",
+      "greekCaption": "ποταμός ἐστιν. ὁ ποταμὸς ῥεῖ.",
+      "englishCaption": "It is a river. The river flows.",
+      "image": "story-images/ch1/1.1/06.jpeg"
     },
     {
       "id": 7,
+      "part": "A",
+      "greekCaption": "ἄρτος ἐστίν. καλός ἐστιν ὁ ἄρτος.",
+      "englishCaption": "It is bread. The bread is good.",
+      "image": "story-images/ch1/1.1/07.jpeg"
+    },
+    {
+      "id": 8,
+      "part": "A",
+      "greekCaption": "λαμβάνει οὖν ὁ γεωργὸς τὸν καλὸν ἄρτον καὶ ἐσθίει.",
+      "englishCaption": "So the farmer takes the good bread and eats.",
+      "image": "story-images/ch1/1.1/08.jpeg"
+    },
+    {
+      "id": 9,
+      "part": "A",
+      "greekCaption": "καρπός ἐστιν.",
+      "englishCaption": "It is fruit.",
+      "image": "story-images/ch1/1.1/09.jpeg"
+    },
+    {
+      "id": 10,
+      "part": "A",
+      "greekCaption": "ὁ γεωργὸς ἐσθίει τὸν καρπὸν καὶ χαίρει.",
+      "englishCaption": "The farmer eats the fruit and rejoices.",
+      "image": "story-images/ch1/1.1/10.jpeg"
+    },
+    {
+      "id": 11,
+      "part": "A",
+      "greekCaption": "ὁ γεωργὸς ἔχει οἶκον. ἔχει τὸν μικρὸν οἶκον. βλέπει τὸν οἶκον καὶ φιλεῖ τὸν οἶκον. ὁ γεωργὸς ἔχει καὶ ἀγρόν. μικρός ἐστιν ἀλλὰ καλός.",
+      "englishCaption": "The farmer has a house. He has the small house. He sees the house and loves the house. The farmer also has a field. It is small but beautiful.",
+      "image": "story-images/ch1/1.1/11.jpeg"
+    },
+    {
+      "id": 12,
+      "part": "A",
+      "greekCaption": "ὁ γεωργὸς ἔχει μικρὸν καὶ καλὸν ἀγρόν. σκάπτει οὖν τὸν ἀγρόν.",
+      "englishCaption": "The farmer has a small and beautiful field. So he digs the field.",
+      "image": "story-images/ch1/1.1/12.jpeg"
+    },
+    {
+      "id": 13,
+      "part": "A",
+      "greekCaption": "λίθος ἐστίν. μέγας λίθος.",
+      "englishCaption": "It is a stone. A great stone.",
+      "image": "story-images/ch1/1.1/13.jpeg"
+    },
+    {
+      "id": 14,
+      "part": "A",
+      "greekCaption": "βλέπει ὁ γεωργὸς τὸν μέγαν λίθον.",
+      "englishCaption": "The farmer sees the great stone.",
+      "image": "story-images/ch1/1.1/14.jpeg"
+    },
+    {
+      "id": 15,
+      "part": "A",
+      "greekCaption": "αἴρει τὸν μέγαν λίθον. ἰσχυρὸς γάρ ἐστιν ἄνθρωπος.",
+      "englishCaption": "He lifts the great stone. For he is a strong man.",
+      "image": "story-images/ch1/1.1/15.jpeg"
+    },
+    {
+      "id": 16,
+      "part": "A",
+      "greekCaption": "φέρει τὸν μέγαν λίθον. ἰσχυρὸς γάρ ἐστιν ἄνθρωπος.",
+      "englishCaption": "He carries the great stone. For he is a strong man.",
+      "image": "story-images/ch1/1.1/16.jpeg"
+    },
+    {
+      "id": 17,
       "part": "B",
-      "scene": "At the end of a long day of labor, the farmer sits inside his house, content and thankful.",
+      "greekCaption": "ὁ γεωργὸς ἐκβαίνει ἐκ τοῦ οἴκου. ὁ πόνος χαλεπός ἐστιν.",
+      "englishCaption": "The farmer goes out of the house. The labor is hard.",
+      "image": "story-images/ch1/B1.3.jpeg"
+    },
+    {
+      "id": 18,
+      "part": "B",
+      "greekCaption": "περιπατεῖ ἐν τῷ ἀγρῷ καὶ ἡσυχάζει ἐγγὺς τοῦ ποταμοῦ.",
+      "englishCaption": "He walks around the field and rests near the river.",
+      "image": "story-images/ch1/B1.11.jpeg"
+    },
+    {
+      "id": 19,
+      "part": "B",
       "greekCaption": "ὁ γεωργὸς καθίζει ἐν τῷ οἴκῳ καὶ εὐχαριστεῖ τῷ θεῷ.",
       "englishCaption": "The farmer sits in the house and gives thanks to God.",
-      "image": "story-images/ch1/B1.15.jpeg",
-      "captionTranslations": {
-        "es": "El agricultor se sienta en la casa y da gracias a Dios.",
-        "pl": "Rolnik siada w domu i dziękuje Bogu.",
-        "fil": "Nakaupo ang magsasaka sa bahay at nagpapasalamat sa Diyos."
-      }
+      "image": "story-images/ch1/B1.15.jpeg"
     }
   ],
   "subtitleTranslations": {
