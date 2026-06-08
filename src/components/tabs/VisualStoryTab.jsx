@@ -1,11 +1,13 @@
 import { useState, useEffect } from 'react'
 import { useUI, useLanguage, t } from '../../context/LanguageContext.jsx'
+import FullscreenViewer from '../FullscreenViewer.jsx'
 import './VisualStoryTab.css'
 
 export default function VisualStoryTab({ story, activePart }) {
   const ui = useUI()
   const { lang } = useLanguage()
   const [panel, setPanel] = useState(0)
+  const [fullscreen, setFullscreen] = useState(false)
 
   useEffect(() => { setPanel(0) }, [activePart])
 
@@ -22,9 +24,37 @@ export default function VisualStoryTab({ story, activePart }) {
   }
 
   const current = panels[Math.min(panel, panels.length - 1)]
+  const imagePanels = panels.filter(p => p.image)
+  const imageSrcs = imagePanels.map(p => `/${p.image}`)
+  const fsIndex = imagePanels.findIndex((_, i) => imagePanels[i] === imagePanels.find(p => p === current))
+
+  function openFullscreen() {
+    if (current.image) setFullscreen(true)
+  }
+
+  function fsPrev() {
+    const cur = imagePanels.indexOf(current)
+    if (cur > 0) setPanel(panels.indexOf(imagePanels[cur - 1]))
+  }
+  function fsNext() {
+    const cur = imagePanels.indexOf(current)
+    if (cur < imagePanels.length - 1) setPanel(panels.indexOf(imagePanels[cur + 1]))
+  }
+
+  const fsCurIndex = imagePanels.indexOf(current)
 
   return (
     <div className="visual-tab">
+      {fullscreen && current.image && (
+        <FullscreenViewer
+          images={imageSrcs}
+          index={Math.max(0, fsCurIndex)}
+          onClose={() => setFullscreen(false)}
+          onPrev={fsPrev}
+          onNext={fsNext}
+        />
+      )}
+
       <div className="visual-header">
         <h2 className="greek">{story.title}</h2>
         <p className="visual-subtitle">{t(story.subtitle, story.subtitleTranslations, lang)}</p>
@@ -34,11 +64,16 @@ export default function VisualStoryTab({ story, activePart }) {
       <div className="panel-card">
         <div className="panel-image">
           {current.image ? (
-            <img
-              src={`/${current.image}`}
-              alt={current.scene}
-              className="panel-image-actual"
-            />
+            <div className="panel-image-wrap">
+              <img
+                src={`/${current.image}`}
+                alt={current.scene}
+                className="panel-image-actual"
+              />
+              <button className="panel-fullscreen-btn" onClick={openFullscreen} aria-label="Fullscreen">
+                ⛶
+              </button>
+            </div>
           ) : (
             <div className="panel-image-placeholder">
               <div className="panel-scene-desc">{current.scene}</div>

@@ -20,13 +20,37 @@
   justify-content: center;
   overflow: hidden;
 }
+.panel-image-wrap {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
 .panel-image-actual {
   width: 100%;
   height: 100%;
   max-height: 420px;
   object-fit: cover;
   display: block;
+  cursor: pointer;
 }
+.panel-fullscreen-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.45);
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+.panel-fullscreen-btn:hover { background: rgba(0,0,0,0.7); }
 .panel-image-placeholder {
   display: flex;
   flex-direction: column;

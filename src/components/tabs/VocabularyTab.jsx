@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useLanguage, useUI, t } from '../../context/LanguageContext.jsx'
+import FullscreenViewer from '../FullscreenViewer.jsx'
 import './VocabularyTab.css'
 
 export default function VocabularyTab({ words, unitId, chapterId, activePart }) {
@@ -10,6 +11,7 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
   const [seen, setSeen] = useState({})
+  const [fullscreen, setFullscreen] = useState(false)
 
   // Reset card position when part or chapter changes
   useEffect(() => {
@@ -47,8 +49,34 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
     setTimeout(() => setIndex(i => (i - 1 + filtered.length) % filtered.length), 150)
   }
 
+  const imageWords = filtered.filter(w => w.image)
+  const imageSrcs = imageWords.map(w => `/vocab-images/${w.image}`)
+  const fsIndex = imageWords.findIndex(w => w.id === word.id)
+
+  function openFullscreen(e) {
+    e.stopPropagation()
+    if (word.image) setFullscreen(true)
+  }
+  function fsPrev() {
+    const cur = imageWords.findIndex(w => w.id === word.id)
+    if (cur > 0) { setFlipped(false); setIndex(filtered.indexOf(imageWords[cur - 1])) }
+  }
+  function fsNext() {
+    const cur = imageWords.findIndex(w => w.id === word.id)
+    if (cur < imageWords.length - 1) { setFlipped(false); setIndex(filtered.indexOf(imageWords[cur + 1])) }
+  }
+
   return (
     <div className="vocab-tab">
+      {fullscreen && word.image && (
+        <FullscreenViewer
+          images={imageSrcs}
+          index={Math.max(0, fsIndex)}
+          onClose={() => setFullscreen(false)}
+          onPrev={fsPrev}
+          onNext={fsNext}
+        />
+      )}
       <div className="vocab-header">
         <h2>{ui('vocabFlashcards')}</h2>
         <div className="vocab-stats">
@@ -77,6 +105,7 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
               <>
                 <div className="flashcard-strip flashcard-strip--top">
                   <div className="flashcard-hint">{ui('tapToReveal')}</div>
+                  <button className="flashcard-fs-btn" onClick={openFullscreen} aria-label="Fullscreen">⛶</button>
                 </div>
                 <img
                   src={`/vocab-images/${word.image}`}
