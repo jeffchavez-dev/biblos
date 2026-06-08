@@ -76,11 +76,22 @@ export default function ChapterView({ unitId, chapterId, activePart }) {
           <div className="loading">{ui('loading')}</div>
         ) : (
           <>
-            {activeTab === 'story'      && <StoryTab story={data.story} vocabulary={data.vocabulary} activePart={activePart} />}
-            {activeTab === 'vocabulary' && <VocabularyTab words={data.vocabulary} activePart={activePart} />}
-            {activeTab === 'grammar'    && <GrammarTab grammar={data.grammar} activePart={activePart} />}
-            {activeTab === 'exercises'  && <ExercisesTab exercises={data.exercises} activePart={activePart} />}
-            {activeTab === 'visual'     && <VisualStoryTab story={data.visualstory} activePart={activePart} />}
+            {/* All tabs stay mounted — hidden with CSS so position is remembered when switching */}
+            <div hidden={activeTab !== 'story'}>
+              <StoryTab key={key} story={data.story} vocabulary={data.vocabulary} activePart={activePart} />
+            </div>
+            <div hidden={activeTab !== 'vocabulary'}>
+              <VocabularyTab key={key} words={data.vocabulary} activePart={activePart} />
+            </div>
+            <div hidden={activeTab !== 'grammar'}>
+              <GrammarTab key={key} grammar={data.grammar} activePart={activePart} />
+            </div>
+            <div hidden={activeTab !== 'exercises'}>
+              <ExercisesTab key={key} exercises={data.exercises} activePart={activePart} />
+            </div>
+            <div hidden={activeTab !== 'visual'}>
+              <VisualStoryTab key={key} story={data.visualstory} activePart={activePart} />
+            </div>
           </>
         )}
       </div>
