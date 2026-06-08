@@ -2,911 +2,640 @@
   {
     "id": 1,
     "part": "A",
-    "greek": "ἔρχομαι",
-    "transliteration": "erchomai",
-    "definition": "I come, go",
-    "partOfSpeech": "verb (mid. deponent)",
-    "translations": {
-      "es": "yo vengo, voy",
-      "pl": "przychodzę, idę",
-      "fil": "pumupunta, nagpupunta"
-    }
-  },
-  {
-    "id": 2,
-    "part": "A",
-    "greek": "λούω",
-    "transliteration": "louō",
-    "definition": "I wash, bathe",
-    "partOfSpeech": "verb",
-    "translations": {
-      "es": "yo me lavo",
-      "pl": "myję (się)",
-      "fil": "naliligo, naglilinis"
-    }
-  },
-  {
-    "id": 3,
-    "part": "A",
-    "greek": "πορεύομαι",
-    "transliteration": "poreuomai",
-    "definition": "I go, travel",
-    "partOfSpeech": "verb (mid. deponent)",
-    "translations": {
-      "es": "yo voy, viajo",
-      "pl": "podróżuję, idę",
-      "fil": "pumupunta, nagbibiyahe"
-    }
-  },
-  {
-    "id": 4,
-    "part": "A",
-    "greek": "κατοικέω, -ῶ",
-    "transliteration": "katoikeō",
-    "definition": "I dwell, inhabit",
-    "partOfSpeech": "verb (contract, -έω)",
-    "translations": {
-      "es": "yo habito, moro",
-      "pl": "mieszkam, zamieszkuję",
-      "fil": "naninirahan, nakatira"
-    }
-  },
-  {
-    "id": 5,
-    "part": "A",
-    "greek": "ἀσπάζομαι",
-    "transliteration": "aspazomai",
-    "definition": "I greet",
-    "partOfSpeech": "verb (mid. deponent)",
-    "translations": {
-      "es": "yo saludo",
-      "pl": "pozdrawiam",
-      "fil": "bumabati"
-    }
-  },
-  {
-    "id": 6,
-    "part": "A",
-    "greek": "καταφιλέω, -ῶ",
-    "transliteration": "kataphileō",
-    "definition": "I embrace, kiss",
-    "partOfSpeech": "verb (contract, compound of φιλέω)",
-    "translations": {
-      "es": "yo abrazo, beso",
-      "pl": "obejmuję, całuję",
-      "fil": "yumayakap, humahalík"
-    }
-  },
-  {
-    "id": 7,
-    "part": "A",
-    "greek": "ἀποκρίνομαι",
-    "transliteration": "apokrinomai",
-    "definition": "I answer, reply",
-    "partOfSpeech": "verb (mid. deponent)",
-    "translations": {
-      "es": "yo respondo",
-      "pl": "odpowiadam",
-      "fil": "sumasagot"
-    }
-  },
-  {
-    "id": 8,
-    "part": "A",
-    "greek": "ἀγαπάω, -ῶ",
-    "transliteration": "agapaō",
-    "definition": "I love",
-    "partOfSpeech": "verb (contract, -άω)",
-    "translations": {
-      "es": "yo amo",
-      "pl": "miłuję, kocham",
-      "fil": "nagmamahal"
-    }
-  },
-  {
-    "id": 9,
-    "part": "A",
-    "greek": "βούλομαι",
-    "transliteration": "boulomai",
-    "definition": "I want, wish",
-    "partOfSpeech": "verb (mid. deponent)",
-    "translations": {
-      "es": "yo quiero, deseo",
-      "pl": "chcę, pragnę",
-      "fil": "nais ko, gusto ko"
-    }
-  },
-  {
-    "id": 10,
-    "part": "A",
-    "greek": "γίνομαι",
-    "transliteration": "ginomai",
-    "definition": "I become, happen",
-    "partOfSpeech": "verb (mid. deponent)",
-    "translations": {
-      "es": "yo me convierto, sucede",
-      "pl": "staję się, zdarza się",
-      "fil": "nagiging, nangyayari"
-    }
-  },
-  {
-    "id": 11,
-    "part": "A",
-    "greek": "μεριμνάω, -ῶ",
-    "transliteration": "merimnaō",
-    "definition": "I worry, am anxious",
-    "partOfSpeech": "verb (contract, -άω)",
-    "translations": {
-      "es": "yo me preocupo",
-      "pl": "martwię się",
-      "fil": "nag-aalala"
-    }
-  },
-  {
-    "id": 12,
-    "part": "A",
-    "greek": "βοηθέω, -ῶ",
-    "transliteration": "boētheō",
-    "definition": "I help",
-    "partOfSpeech": "verb (contract, -έω)",
-    "translations": {
-      "es": "yo ayudo",
-      "pl": "pomagam",
-      "fil": "tumutulong"
-    }
-  },
-  {
-    "id": 13,
-    "part": "A",
-    "greek": "δύναμαι",
-    "transliteration": "dynamai",
-    "definition": "I am able, can",
-    "partOfSpeech": "verb (mid. deponent)",
-    "translations": {
-      "es": "yo puedo, soy capaz",
-      "pl": "mogę, jestem w stanie",
-      "fil": "kaya ko, makapag-"
-    }
-  },
-  {
-    "id": 14,
-    "part": "A",
-    "greek": "ἀπέρχομαι",
-    "transliteration": "aperchomai",
-    "definition": "I go away, depart",
-    "partOfSpeech": "verb (mid. deponent, compound of ἔρχομαι)",
-    "translations": {
-      "es": "yo me voy, parto",
-      "pl": "odchodzę, wyjeżdżam",
-      "fil": "umaalis, nagdepartura"
-    }
-  },
-  {
-    "id": 15,
-    "part": "A",
-    "greek": "πάρειμι",
-    "transliteration": "pareimi",
-    "definition": "I am present",
-    "partOfSpeech": "verb (compound of εἰμί + παρά)",
-    "translations": {
-      "es": "estoy presente",
-      "pl": "jestem obecny",
-      "fil": "narito, naririto"
-    }
-  },
-  {
-    "id": 16,
-    "part": "A",
     "greek": "σῶμα, -ατος, τό",
     "transliteration": "sōma",
     "definition": "body",
-    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
-    "translations": {
-      "es": "cuerpo",
-      "pl": "ciało",
-      "fil": "katawan"
-    }
+    "partOfSpeech": "noun (neuter, 3rd decl.)",
+    "translations": { "es": "cuerpo", "pl": "ciało", "fil": "katawan" }
   },
   {
-    "id": 17,
-    "part": "A",
-    "greek": "ὄνομα, -ατος, τό",
-    "transliteration": "onoma",
-    "definition": "name",
-    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
-    "translations": {
-      "es": "nombre",
-      "pl": "imię",
-      "fil": "pangalan"
-    }
-  },
-  {
-    "id": 18,
+    "id": 2,
     "part": "A",
     "greek": "ὕδωρ, ὕδατος, τό",
     "transliteration": "hydōr",
     "definition": "water",
     "partOfSpeech": "noun (neuter, 3rd decl.)",
-    "translations": {
-      "es": "agua",
-      "pl": "woda",
-      "fil": "tubig"
-    }
+    "translations": { "es": "agua", "pl": "woda", "fil": "tubig" }
   },
   {
-    "id": 19,
+    "id": 3,
+    "part": "A",
+    "greek": "ὄνομα, -ατος, τό",
+    "transliteration": "onoma",
+    "definition": "name",
+    "partOfSpeech": "noun (neuter, 3rd decl.)",
+    "translations": { "es": "nombre", "pl": "imię", "fil": "pangalan" }
+  },
+  {
+    "id": 4,
     "part": "A",
     "greek": "κώμη, -ης, ἡ",
     "transliteration": "kōmē",
     "definition": "village",
     "partOfSpeech": "noun (feminine, 1st decl.)",
-    "translations": {
-      "es": "aldea, pueblo",
-      "pl": "wioska",
-      "fil": "nayon, baryo"
-    }
+    "translations": { "es": "aldea, pueblo", "pl": "wioska", "fil": "nayon, baryo" }
   },
   {
-    "id": 20,
-    "part": "A",
-    "greek": "φίλος, -ου, ὁ",
-    "transliteration": "philos",
-    "definition": "friend",
-    "partOfSpeech": "noun/adjective (masculine, 2nd decl.)",
-    "translations": {
-      "es": "amigo",
-      "pl": "przyjaciel",
-      "fil": "kaibigan"
-    }
-  },
-  {
-    "id": 21,
-    "part": "A",
-    "greek": "γυνή, γυναικός, ἡ",
-    "transliteration": "gynē",
-    "definition": "woman, wife",
-    "partOfSpeech": "noun (feminine, 3rd decl.)",
-    "translations": {
-      "es": "mujer, esposa",
-      "pl": "kobieta, żona",
-      "fil": "babae, asawa"
-    }
-  },
-  {
-    "id": 22,
+    "id": 5,
     "part": "A",
     "greek": "οἰκία, -ας, ἡ",
     "transliteration": "oikia",
     "definition": "house, household",
     "partOfSpeech": "noun (feminine, 1st decl.)",
-    "translations": {
-      "es": "casa, familia",
-      "pl": "dom, rodzina",
-      "fil": "tahanan, pamilya"
-    }
+    "translations": { "es": "casa, hogar", "pl": "dom, rodzina", "fil": "tahanan, sambahayan" }
+  },
+  {
+    "id": 6,
+    "part": "A",
+    "greek": "φίλος, -ου, ὁ",
+    "transliteration": "philos",
+    "definition": "friend",
+    "partOfSpeech": "noun/adjective (masculine, 2nd decl.)",
+    "translations": { "es": "amigo", "pl": "przyjaciel", "fil": "kaibigan" }
+  },
+  {
+    "id": 7,
+    "part": "A",
+    "greek": "Ἰάκωβος, -ου, ὁ",
+    "transliteration": "Iakōbos",
+    "definition": "Jacob",
+    "partOfSpeech": "proper noun (masculine, 2nd decl.)",
+    "translations": { "es": "Jacob", "pl": "Jakub", "fil": "Jacob" }
+  },
+  {
+    "id": 8,
+    "part": "A",
+    "greek": "Γαλιλαία, -ας, ἡ",
+    "transliteration": "Galilaia",
+    "definition": "Galilee",
+    "partOfSpeech": "proper noun (feminine, 1st decl.)",
+    "translations": { "es": "Galilea", "pl": "Galilea", "fil": "Galilea" }
+  },
+  {
+    "id": 9,
+    "part": "A",
+    "greek": "Φίλιππος, -ου, ὁ",
+    "transliteration": "Philippos",
+    "definition": "Philip",
+    "partOfSpeech": "proper noun (masculine, 2nd decl.)",
+    "translations": { "es": "Felipe", "pl": "Filip", "fil": "Felipe" }
+  },
+  {
+    "id": 10,
+    "part": "A",
+    "greek": "Μάρθα, -ας, ἡ",
+    "transliteration": "Martha",
+    "definition": "Martha",
+    "partOfSpeech": "proper noun (feminine, 1st decl.)",
+    "translations": { "es": "Marta", "pl": "Marta", "fil": "Marta" }
+  },
+  {
+    "id": 11,
+    "part": "A",
+    "greek": "ἔρχομαι",
+    "transliteration": "erchomai",
+    "definition": "I come, go",
+    "partOfSpeech": "verb (deponent)",
+    "translations": { "es": "yo vengo, voy", "pl": "przychodzę, idę", "fil": "pumupunta" }
+  },
+  {
+    "id": 12,
+    "part": "A",
+    "greek": "λούω",
+    "transliteration": "louō",
+    "definition": "I wash, bathe",
+    "partOfSpeech": "verb",
+    "translations": { "es": "yo lavo, me baño", "pl": "myję, kąpię się", "fil": "naliligo, naglilinis" }
+  },
+  {
+    "id": 13,
+    "part": "A",
+    "greek": "πορεύομαι",
+    "transliteration": "poreuomai",
+    "definition": "I go, travel",
+    "partOfSpeech": "verb (deponent)",
+    "translations": { "es": "yo voy, viajo", "pl": "idę, podróżuję", "fil": "pumupunta, nagbibiyahe" }
+  },
+  {
+    "id": 14,
+    "part": "A",
+    "greek": "κατοικέω, -ῶ",
+    "transliteration": "katoikeō",
+    "definition": "I dwell, inhabit",
+    "partOfSpeech": "verb (contract, -έω)",
+    "translations": { "es": "yo habito, moro", "pl": "mieszkam, zamieszkuję", "fil": "naninirahan, nakatira" }
+  },
+  {
+    "id": 15,
+    "part": "A",
+    "greek": "ἐργάζομαι",
+    "transliteration": "ergazomai",
+    "definition": "I work",
+    "partOfSpeech": "verb (deponent)",
+    "translations": { "es": "yo trabajo", "pl": "pracuję", "fil": "nagtatrabaho" }
+  },
+  {
+    "id": 16,
+    "part": "A",
+    "greek": "ἀσπάζομαι",
+    "transliteration": "aspazomai",
+    "definition": "I greet",
+    "partOfSpeech": "verb (deponent)",
+    "translations": { "es": "yo saludo", "pl": "pozdrawiam", "fil": "bumabati" }
+  },
+  {
+    "id": 17,
+    "part": "A",
+    "greek": "καταφιλέω, -ῶ",
+    "transliteration": "kataphileō",
+    "definition": "I kiss",
+    "partOfSpeech": "verb (contract, compound of φιλέω)",
+    "translations": { "es": "yo beso", "pl": "całuję", "fil": "humahalík" }
+  },
+  {
+    "id": 18,
+    "part": "A",
+    "greek": "ἀποκρίνομαι",
+    "transliteration": "apokrinomai",
+    "definition": "I answer, reply",
+    "partOfSpeech": "verb (deponent)",
+    "translations": { "es": "yo respondo", "pl": "odpowiadam", "fil": "sumasagot" }
+  },
+  {
+    "id": 19,
+    "part": "A",
+    "greek": "ἀγαπάω, -ῶ",
+    "transliteration": "agapaō",
+    "definition": "I love",
+    "partOfSpeech": "verb (contract, -άω)",
+    "translations": { "es": "yo amo", "pl": "kocham, miłuję", "fil": "nagmamahal" }
+  },
+  {
+    "id": 20,
+    "part": "A",
+    "greek": "βούλομαι",
+    "transliteration": "boulomai",
+    "definition": "I want, wish",
+    "partOfSpeech": "verb (deponent)",
+    "translations": { "es": "yo quiero, deseo", "pl": "chcę, pragnę", "fil": "nais ko, gusto ko" }
+  },
+  {
+    "id": 21,
+    "part": "A",
+    "greek": "μεριμνάω, -ῶ",
+    "transliteration": "merimnaō",
+    "definition": "I worry, am anxious",
+    "partOfSpeech": "verb (contract, -άω)",
+    "translations": { "es": "yo me preocupo", "pl": "martwię się", "fil": "nag-aalala" }
+  },
+  {
+    "id": 22,
+    "part": "A",
+    "greek": "πάρειμι",
+    "transliteration": "pareimi",
+    "definition": "I am present, am here",
+    "partOfSpeech": "verb (compound of παρά + εἰμί)",
+    "translations": { "es": "estoy presente, aquí estoy", "pl": "jestem obecny, jestem tutaj", "fil": "narito, naririto" }
   },
   {
     "id": 23,
     "part": "A",
-    "greek": "χαρά, -ᾶς, ἡ",
-    "transliteration": "chara",
-    "definition": "joy",
-    "partOfSpeech": "noun (feminine, 1st decl.)",
-    "translations": {
-      "es": "alegría",
-      "pl": "radość",
-      "fil": "kagalakan"
-    }
+    "greek": "βοηθέω, -ῶ",
+    "transliteration": "boētheō",
+    "definition": "I help",
+    "partOfSpeech": "verb (contract, -έω)",
+    "translations": { "es": "yo ayudo", "pl": "pomagam", "fil": "tumutulong" }
   },
   {
     "id": 24,
+    "part": "A",
+    "greek": "δύναμαι",
+    "transliteration": "dynamai",
+    "definition": "I am able, can",
+    "partOfSpeech": "verb (deponent)",
+    "translations": { "es": "yo puedo, soy capaz", "pl": "mogę, jestem w stanie", "fil": "kaya ko" }
+  },
+  {
+    "id": 25,
+    "part": "A",
+    "greek": "ἀπέρχομαι",
+    "transliteration": "aperchomai",
+    "definition": "I depart, go away",
+    "partOfSpeech": "verb (deponent, compound of ἀπό + ἔρχομαι)",
+    "translations": { "es": "yo me voy, parto", "pl": "odchodzę", "fil": "umaalis, nagdepartura" }
+  },
+  {
+    "id": 26,
+    "part": "A",
+    "greek": "γίνομαι",
+    "transliteration": "ginomai",
+    "definition": "I become, happen",
+    "partOfSpeech": "verb (deponent)",
+    "translations": { "es": "yo me convierto, sucede", "pl": "staję się, zdarza się", "fil": "nagiging, nangyayari" }
+  },
+  {
+    "id": 27,
+    "part": "A",
+    "greek": "Γαλιλαῖος, -α, -ον",
+    "transliteration": "Galilaios",
+    "definition": "Galilean",
+    "partOfSpeech": "adjective / proper adjective",
+    "translations": { "es": "galileo", "pl": "Galilejczyk", "fil": "Galileo" }
+  },
+  {
+    "id": 28,
     "part": "A",
     "greek": "ἀμφότεροι, -αι, -α",
     "transliteration": "amphoteroi",
     "definition": "both",
     "partOfSpeech": "adjective/pronoun (plural)",
-    "translations": {
-      "es": "ambos",
-      "pl": "obaj, oboje",
-      "fil": "kapwa, pareho"
-    }
+    "translations": { "es": "ambos, los dos", "pl": "obaj, oboje", "fil": "kapwa, pareho" }
   },
   {
-    "id": 25,
+    "id": 29,
     "part": "A",
     "greek": "πρωΐ",
     "transliteration": "prōi",
     "definition": "early, in the morning",
     "partOfSpeech": "adverb",
-    "translations": {
-      "es": "temprano, por la mañana",
-      "pl": "wcześnie, rano",
-      "fil": "maaga, sa umaga"
-    }
+    "translations": { "es": "temprano, por la mañana", "pl": "wcześnie, rano", "fil": "maaga, sa umaga" }
   },
   {
-    "id": 26,
+    "id": 30,
     "part": "A",
     "greek": "πῶς",
     "transliteration": "pōs",
-    "definition": "how",
+    "definition": "how?",
     "partOfSpeech": "interrogative adverb",
-    "translations": {
-      "es": "cómo",
-      "pl": "jak",
-      "fil": "paano"
-    }
+    "translations": { "es": "¿cómo?", "pl": "jak?", "fil": "paano?" }
   },
   {
-    "id": 27,
-    "part": "A",
-    "greek": "ναί",
-    "transliteration": "nai",
-    "definition": "yes",
-    "partOfSpeech": "particle",
-    "translations": {
-      "es": "sí",
-      "pl": "tak",
-      "fil": "oo"
-    }
-  },
-  {
-    "id": 28,
-    "part": "A",
-    "greek": "ἤδη",
-    "transliteration": "ēdē",
-    "definition": "already, now",
-    "partOfSpeech": "adverb",
-    "translations": {
-      "es": "ya, ahora",
-      "pl": "już, teraz",
-      "fil": "na, ngayon na"
-    }
-  },
-  {
-    "id": 29,
+    "id": 31,
     "part": "A",
     "greek": "ὧδε",
     "transliteration": "hōde",
     "definition": "here",
     "partOfSpeech": "adverb",
-    "translations": {
-      "es": "aquí",
-      "pl": "tutaj",
-      "fil": "dito, rito"
-    }
-  },
-  {
-    "id": 30,
-    "part": "A",
-    "greek": "ἆρα",
-    "transliteration": "ara",
-    "definition": "(question particle)",
-    "partOfSpeech": "particle (introduces yes/no questions)",
-    "translations": {
-      "es": "(partícula de pregunta)",
-      "pl": "(partykuła pytajna)",
-      "fil": "(pananda ng tanong)"
-    }
-  },
-  {
-    "id": 31,
-    "part": "A",
-    "greek": "οὕτω(ς)",
-    "transliteration": "houtō(s)",
-    "definition": "thus, so, in this way",
-    "partOfSpeech": "adverb",
-    "translations": {
-      "es": "así, de esta manera",
-      "pl": "tak, w ten sposób",
-      "fil": "ganito, ganyan"
-    }
+    "translations": { "es": "aquí", "pl": "tutaj", "fil": "dito, rito" }
   },
   {
     "id": 32,
     "part": "A",
-    "greek": "πλησίον",
-    "transliteration": "plēsion",
-    "definition": "near",
-    "partOfSpeech": "preposition (+ genitive)",
-    "translations": {
-      "es": "cerca",
-      "pl": "blisko",
-      "fil": "malapit"
-    }
+    "greek": "ἤδη",
+    "transliteration": "ēdē",
+    "definition": "already, now",
+    "partOfSpeech": "adverb",
+    "translations": { "es": "ya, ahora", "pl": "już, teraz", "fil": "na, ngayon na" }
   },
   {
     "id": 33,
     "part": "A",
-    "greek": "διά",
-    "transliteration": "dia",
-    "definition": "through; on account of",
-    "partOfSpeech": "preposition (+ gen. = through; + acc. = because of)",
-    "translations": {
-      "es": "a través; a causa de",
-      "pl": "przez; z powodu",
-      "fil": "sa pamamagitan ng; dahil sa"
-    }
+    "greek": "κἀγώ",
+    "transliteration": "kagō",
+    "definition": "and I (= καὶ ἐγώ)",
+    "partOfSpeech": "pronoun (crasis)",
+    "translations": { "es": "y yo", "pl": "i ja", "fil": "at ako" }
   },
   {
     "id": 34,
+    "part": "A",
+    "greek": "διά",
+    "transliteration": "dia",
+    "definition": "through; because of",
+    "partOfSpeech": "preposition (+ gen. = through; + acc. = because of)",
+    "translations": { "es": "a través de; a causa de", "pl": "przez; z powodu", "fil": "sa pamamagitan ng; dahil sa" }
+  },
+  {
+    "id": 35,
     "part": "A",
     "greek": "μετά",
     "transliteration": "meta",
     "definition": "with; after",
     "partOfSpeech": "preposition (+ gen. = with; + acc. = after)",
-    "translations": {
-      "es": "con; después",
-      "pl": "z; po",
-      "fil": "kasama; pagkatapos"
-    }
-  },
-  {
-    "id": 35,
-    "part": "A",
-    "greek": "περί",
-    "transliteration": "peri",
-    "definition": "concerning, about; around",
-    "partOfSpeech": "preposition (+ gen. = about; + acc. = around)",
-    "translations": {
-      "es": "acerca de; alrededor",
-      "pl": "o; wokół",
-      "fil": "tungkol sa; paligid"
-    }
+    "translations": { "es": "con; después de", "pl": "z; po", "fil": "kasama; pagkatapos ng" }
   },
   {
     "id": 36,
     "part": "A",
-    "greek": "μή",
-    "transliteration": "mē",
-    "definition": "not",
-    "partOfSpeech": "negative particle (with non-indicative moods)",
-    "translations": {
-      "es": "no",
-      "pl": "nie",
-      "fil": "hindi"
-    }
+    "greek": "περί",
+    "transliteration": "peri",
+    "definition": "about, concerning; around",
+    "partOfSpeech": "preposition (+ gen. = about; + acc. = around)",
+    "translations": { "es": "acerca de; alrededor de", "pl": "o; wokół", "fil": "tungkol sa; sa paligid ng" }
   },
   {
     "id": 37,
-    "part": "B",
-    "greek": "βίος, -ου, ὁ",
-    "transliteration": "bios",
-    "definition": "life",
-    "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "translations": {
-      "es": "vida",
-      "pl": "życie",
-      "fil": "buhay"
-    }
+    "part": "A",
+    "greek": "ναί",
+    "transliteration": "nai",
+    "definition": "yes",
+    "partOfSpeech": "particle",
+    "translations": { "es": "sí", "pl": "tak", "fil": "oo" }
   },
   {
     "id": 38,
+    "part": "A",
+    "greek": "ἆρα",
+    "transliteration": "ara",
+    "definition": "(introduces yes/no question)",
+    "partOfSpeech": "interrogative particle",
+    "translations": { "es": "(partícula de pregunta)", "pl": "(partykuła pytajna)", "fil": "(pananda ng tanong)" }
+  },
+  {
+    "id": 39,
+    "part": "A",
+    "greek": "οὕτω(ς)",
+    "transliteration": "houtō(s)",
+    "definition": "thus, so, in this way",
+    "partOfSpeech": "adverb",
+    "translations": { "es": "así, de esta manera", "pl": "tak, w ten sposób", "fil": "ganito, ganyan" }
+  },
+  {
+    "id": 40,
+    "part": "A",
+    "greek": "μή",
+    "transliteration": "mē",
+    "definition": "not (with imperatives & subjunctive)",
+    "partOfSpeech": "negative particle",
+    "translations": { "es": "no (con imperativo)", "pl": "nie (z trybem rozkazującym)", "fil": "huwag, hindi" }
+  },
+  {
+    "id": 41,
+    "part": "A",
+    "greek": "χαρά, -ᾶς, ἡ",
+    "transliteration": "chara",
+    "definition": "joy",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "translations": { "es": "alegría, gozo", "pl": "radość", "fil": "kagalakan" }
+  },
+  {
+    "id": 42,
+    "part": "A",
+    "greek": "γυνή, γυναικός, ἡ",
+    "transliteration": "gynē",
+    "definition": "woman, wife",
+    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "translations": { "es": "mujer, esposa", "pl": "kobieta, żona", "fil": "babae, asawa" }
+  },
+  {
+    "id": 43,
+    "part": "B",
+    "greek": "πήρα, -ας, ἡ",
+    "transliteration": "pēra",
+    "definition": "bag, knapsack",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "translations": { "es": "bolsa, mochila", "pl": "torba, sakwa", "fil": "supot, bag" }
+  },
+  {
+    "id": 44,
+    "part": "B",
+    "greek": "ἔργον, -ου, τό",
+    "transliteration": "ergon",
+    "definition": "work, task, deed",
+    "partOfSpeech": "noun (neuter, 2nd decl.)",
+    "translations": { "es": "obra, tarea, acción", "pl": "praca, dzieło, czyn", "fil": "gawa, trabaho, kilos" }
+  },
+  {
+    "id": 45,
+    "part": "B",
+    "greek": "γῆ, γῆς, ἡ",
+    "transliteration": "gē",
+    "definition": "earth, land, soil",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "translations": { "es": "tierra, suelo", "pl": "ziemia, gleba", "fil": "lupa, lupain" }
+  },
+  {
+    "id": 46,
+    "part": "B",
+    "greek": "σκιά, -ᾶς, ἡ",
+    "transliteration": "skia",
+    "definition": "shade, shadow",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "translations": { "es": "sombra", "pl": "cień", "fil": "lilim, anino" }
+  },
+  {
+    "id": 47,
     "part": "B",
     "greek": "δοῦλος, -ου, ὁ",
     "transliteration": "doulos",
     "definition": "slave, servant",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "translations": {
-      "es": "esclavo, siervo",
-      "pl": "niewolnik, sługa",
-      "fil": "alipin, lingkod"
-    }
+    "translations": { "es": "esclavo, siervo", "pl": "niewolnik, sługa", "fil": "alipin, lingkod" }
   },
   {
-    "id": 39,
-    "part": "B",
-    "greek": "λίθος, -ου, ὁ",
-    "transliteration": "lithos",
-    "definition": "stone",
-    "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "translations": {
-      "es": "piedra",
-      "pl": "kamień",
-      "fil": "bato"
-    }
-  },
-  {
-    "id": 40,
+    "id": 48,
     "part": "B",
     "greek": "καῦμα, -ατος, τό",
     "transliteration": "kauma",
-    "definition": "heat, burning heat",
-    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
-    "translations": {
-      "es": "calor, ardor",
-      "pl": "upał, żar",
-      "fil": "init, naglalagablab"
-    }
+    "definition": "heat, scorching heat",
+    "partOfSpeech": "noun (neuter, 3rd decl.)",
+    "translations": { "es": "calor, ardor", "pl": "upał, żar", "fil": "init, matinding init" }
   },
   {
-    "id": 41,
+    "id": 49,
     "part": "B",
-    "greek": "ῥάβδος, -ου, ἡ",
-    "transliteration": "rhabdos",
-    "definition": "staff, rod",
-    "partOfSpeech": "noun (feminine, 2nd decl.)",
-    "translations": {
-      "es": "vara, bastón",
-      "pl": "laska, kij",
-      "fil": "tungkod"
-    }
+    "greek": "τόπος, -ου, ὁ",
+    "transliteration": "topos",
+    "definition": "place",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "translations": { "es": "lugar", "pl": "miejsce", "fil": "lugar, pook" }
   },
   {
-    "id": 42,
-    "part": "B",
-    "greek": "πήρα, -ας, ἡ",
-    "transliteration": "pēra",
-    "definition": "bag, satchel",
-    "partOfSpeech": "noun (feminine, 1st decl.)",
-    "translations": {
-      "es": "bolsa, mochila",
-      "pl": "torba, sakwa",
-      "fil": "supot, bag"
-    }
-  },
-  {
-    "id": 43,
-    "part": "B",
-    "greek": "σκία, -ας, ἡ",
-    "transliteration": "skia",
-    "definition": "shade, shadow",
-    "partOfSpeech": "noun (feminine, 1st decl.)",
-    "translations": {
-      "es": "sombra",
-      "pl": "cień",
-      "fil": "lilim"
-    }
-  },
-  {
-    "id": 44,
+    "id": 50,
     "part": "B",
     "greek": "πηγή, -ῆς, ἡ",
     "transliteration": "pēgē",
-    "definition": "spring, well",
+    "definition": "spring, well, fountain",
     "partOfSpeech": "noun (feminine, 1st decl.)",
-    "translations": {
-      "es": "manantial, pozo",
-      "pl": "źródło, studnia",
-      "fil": "bukal, balon"
-    }
+    "translations": { "es": "manantial, pozo, fuente", "pl": "źródło, studnia", "fil": "bukal, balon" }
   },
   {
-    "id": 45,
+    "id": 51,
     "part": "B",
     "greek": "ὑδρία, -ας, ἡ",
     "transliteration": "hydria",
     "definition": "water jar",
     "partOfSpeech": "noun (feminine, 1st decl.)",
-    "translations": {
-      "es": "cántaro, jarra",
-      "pl": "dzban, garnek",
-      "fil": "tapayan, garapon"
-    }
-  },
-  {
-    "id": 46,
-    "part": "B",
-    "greek": "λάχανον, -ου, τό",
-    "transliteration": "lachanon",
-    "definition": "vegetable, garden herb",
-    "partOfSpeech": "noun (neuter, 2nd decl.)",
-    "translations": {
-      "es": "verdura, hierba",
-      "pl": "warzywo, zioło",
-      "fil": "gulay, halaman"
-    }
-  },
-  {
-    "id": 47,
-    "part": "B",
-    "greek": "πλούσιος, -α, -ον",
-    "transliteration": "plousios",
-    "definition": "rich, wealthy",
-    "partOfSpeech": "adjective",
-    "translations": {
-      "es": "rico, adinerado",
-      "pl": "bogaty",
-      "fil": "mayaman"
-    }
-  },
-  {
-    "id": 48,
-    "part": "B",
-    "greek": "πτωχός, -ή, -όν",
-    "transliteration": "ptōchos",
-    "definition": "poor",
-    "partOfSpeech": "adjective",
-    "translations": {
-      "es": "pobre",
-      "pl": "biedny",
-      "fil": "mahirap"
-    }
-  },
-  {
-    "id": 49,
-    "part": "B",
-    "greek": "ἴδιος, -α, -ον",
-    "transliteration": "idios",
-    "definition": "one's own",
-    "partOfSpeech": "adjective",
-    "translations": {
-      "es": "propio, particular",
-      "pl": "własny",
-      "fil": "sarili"
-    }
-  },
-  {
-    "id": 50,
-    "part": "B",
-    "greek": "ἕτερος, -α, -ον",
-    "transliteration": "heteros",
-    "definition": "other, another",
-    "partOfSpeech": "adjective",
-    "translations": {
-      "es": "otro",
-      "pl": "inny",
-      "fil": "iba"
-    }
-  },
-  {
-    "id": 51,
-    "part": "B",
-    "greek": "καθαρός, -ά, -όν",
-    "transliteration": "katharos",
-    "definition": "clean, pure",
-    "partOfSpeech": "adjective",
-    "translations": {
-      "es": "limpio, puro",
-      "pl": "czysty",
-      "fil": "malinis, dalisay"
-    }
+    "translations": { "es": "cántaro, tinaja", "pl": "dzban, garnek na wodę", "fil": "tapayan, garapon" }
   },
   {
     "id": 52,
     "part": "B",
-    "greek": "χαλεπός, -ή, -όν",
-    "transliteration": "chalepos",
-    "definition": "difficult, hard",
-    "partOfSpeech": "adjective",
-    "translations": {
-      "es": "difícil, duro",
-      "pl": "trudny, ciężki",
-      "fil": "mahirap, mabigat"
-    }
+    "greek": "λαλέω, -ῶ",
+    "transliteration": "laleō",
+    "definition": "I speak, talk",
+    "partOfSpeech": "verb (contract, -έω)",
+    "translations": { "es": "yo hablo, converso", "pl": "mówię, rozmawiam", "fil": "nagsasalita, nakikipag-usap" }
   },
   {
     "id": 53,
     "part": "B",
-    "greek": "περιπατέω, -ῶ",
-    "transliteration": "peripateō",
-    "definition": "I walk, walk about",
-    "partOfSpeech": "verb (contract, -έω)",
-    "translations": {
-      "es": "yo camino, paseo",
-      "pl": "chodzę, przechadzam się",
-      "fil": "naglalakad"
-    }
+    "greek": "ἀναπαύομαι",
+    "transliteration": "anapauomai",
+    "definition": "I rest, take rest",
+    "partOfSpeech": "verb (middle)",
+    "translations": { "es": "yo descanso", "pl": "odpoczywam", "fil": "nagpapahinga" }
   },
   {
     "id": 54,
     "part": "B",
-    "greek": "σκάπτω",
-    "transliteration": "skaptō",
-    "definition": "I dig",
-    "partOfSpeech": "verb",
-    "translations": {
-      "es": "yo cavo",
-      "pl": "kopię",
-      "fil": "humuhukay"
-    }
+    "greek": "δέχομαι",
+    "transliteration": "dechomai",
+    "definition": "I receive, welcome",
+    "partOfSpeech": "verb (deponent)",
+    "translations": { "es": "yo recibo, acojo", "pl": "przyjmuję, witam", "fil": "tumatanggap, tinatanggap" }
   },
   {
     "id": 55,
     "part": "B",
-    "greek": "θερίζω",
-    "transliteration": "therizō",
-    "definition": "I reap, harvest",
-    "partOfSpeech": "verb",
-    "translations": {
-      "es": "yo siegue, coseche",
-      "pl": "żnę, zbieram",
-      "fil": "nag-aani"
-    }
+    "greek": "παρέχω",
+    "transliteration": "parechō",
+    "definition": "I provide, supply",
+    "partOfSpeech": "verb (compound of παρά + ἔχω)",
+    "translations": { "es": "yo proveo, ofrezco", "pl": "daję, dostarczam", "fil": "nagbibigay, nagsusuplay" }
   },
   {
     "id": 56,
-    "part": "B",
-    "greek": "καθίζω",
-    "transliteration": "kathizō",
-    "definition": "I sit down, seat",
-    "partOfSpeech": "verb",
-    "translations": {
-      "es": "yo me siento",
-      "pl": "siadam",
-      "fil": "nakaupo"
-    }
-  },
-  {
-    "id": 57,
-    "part": "B",
-    "greek": "ἀναπαύομαι",
-    "transliteration": "anapauomai",
-    "definition": "I rest",
-    "partOfSpeech": "verb (middle)",
-    "translations": {
-      "es": "yo descanso",
-      "pl": "odpoczywam",
-      "fil": "nagpapahinga"
-    }
-  },
-  {
-    "id": 58,
     "part": "B",
     "greek": "καυματίζω",
     "transliteration": "kaumatizō",
     "definition": "I scorch, burn with heat",
     "partOfSpeech": "verb",
-    "translations": {
-      "es": "yo quemo, abraso",
-      "pl": "parzę, opalam",
-      "fil": "nasusunog, nalilipatan"
-    }
+    "translations": { "es": "yo quemo, abraso", "pl": "palę, oparzam", "fil": "nagsusunog, nagpapainit" }
   },
   {
-    "id": 59,
+    "id": 57,
     "part": "B",
     "greek": "πεινάω, -ῶ",
     "transliteration": "peinaō",
     "definition": "I am hungry",
     "partOfSpeech": "verb (contract, -άω)",
-    "translations": {
-      "es": "yo tengo hambre",
-      "pl": "jestem głodny",
-      "fil": "nagugutom"
-    }
+    "translations": { "es": "tengo hambre", "pl": "jestem głodny", "fil": "nagugutom" }
   },
   {
-    "id": 60,
+    "id": 58,
     "part": "B",
     "greek": "διψάω, -ῶ",
     "transliteration": "dipsaō",
     "definition": "I am thirsty",
     "partOfSpeech": "verb (contract, -άω)",
-    "translations": {
-      "es": "yo tengo sed",
-      "pl": "jestem spragniony",
-      "fil": "nauuhaw"
-    }
+    "translations": { "es": "tengo sed", "pl": "jestem spragniony", "fil": "nauuhaw" }
   },
   {
-    "id": 61,
-    "part": "B",
-    "greek": "πίνω",
-    "transliteration": "pinō",
-    "definition": "I drink",
-    "partOfSpeech": "verb",
-    "translations": {
-      "es": "yo bebo",
-      "pl": "piję",
-      "fil": "umiinom"
-    }
-  },
-  {
-    "id": 62,
-    "part": "B",
-    "greek": "εὑρίσκω",
-    "transliteration": "heuriskō",
-    "definition": "I find",
-    "partOfSpeech": "verb",
-    "translations": {
-      "es": "yo encuentro",
-      "pl": "znajduję",
-      "fil": "nakakakita, nakakasumpong"
-    }
-  },
-  {
-    "id": 63,
+    "id": 59,
     "part": "B",
     "greek": "ἀντλέω, -ῶ",
     "transliteration": "antleō",
     "definition": "I draw (water)",
     "partOfSpeech": "verb (contract, -έω)",
-    "translations": {
-      "es": "yo saco agua",
-      "pl": "czerpię wodę",
-      "fil": "kumukuha ng tubig"
-    }
+    "translations": { "es": "yo saco agua", "pl": "czerpię wodę", "fil": "kumukuha ng tubig" }
+  },
+  {
+    "id": 60,
+    "part": "B",
+    "greek": "ἄλλος, -η, -ο",
+    "transliteration": "allos",
+    "definition": "other, another",
+    "partOfSpeech": "adjective/pronoun",
+    "translations": { "es": "otro, otra", "pl": "inny, inna", "fil": "iba, isa pa" }
+  },
+  {
+    "id": 61,
+    "part": "B",
+    "greek": "πλούσιος, -α, -ον",
+    "transliteration": "plousios",
+    "definition": "rich, wealthy",
+    "partOfSpeech": "adjective",
+    "translations": { "es": "rico, adinerado", "pl": "bogaty", "fil": "mayaman" }
+  },
+  {
+    "id": 62,
+    "part": "B",
+    "greek": "πτωχός, -ή, -όν",
+    "transliteration": "ptōchos",
+    "definition": "poor",
+    "partOfSpeech": "adjective",
+    "translations": { "es": "pobre", "pl": "biedny, ubogi", "fil": "mahirap, dukha" }
+  },
+  {
+    "id": 63,
+    "part": "B",
+    "greek": "ἕτερος, -α, -ον",
+    "transliteration": "heteros",
+    "definition": "other, different",
+    "partOfSpeech": "adjective/pronoun",
+    "translations": { "es": "otro (distinto)", "pl": "inny (odmienny)", "fil": "iba, kaibahan" }
   },
   {
     "id": 64,
     "part": "B",
-    "greek": "δέχομαι",
-    "transliteration": "dechomai",
-    "definition": "I receive, accept",
-    "partOfSpeech": "verb (middle)",
-    "translations": {
-      "es": "yo recibo, acepto",
-      "pl": "przyjmuję, akceptuję",
-      "fil": "tumatanggap"
-    }
+    "greek": "ἴδιος, -α, -ον",
+    "transliteration": "idios",
+    "definition": "one's own",
+    "partOfSpeech": "adjective",
+    "translations": { "es": "propio, particular", "pl": "własny", "fil": "sarili, pag-aari" }
   },
   {
     "id": 65,
     "part": "B",
-    "greek": "παρέχω",
-    "transliteration": "parechō",
-    "definition": "I provide, offer",
-    "partOfSpeech": "verb (compound of παρά + ἔχω)",
-    "translations": {
-      "es": "yo ofrezco, doy",
-      "pl": "daję, ofiarowuję",
-      "fil": "nagbibigay, nag-aalok"
-    }
+    "greek": "μέσος, -η, -ον",
+    "transliteration": "mesos",
+    "definition": "middle, in the middle of",
+    "partOfSpeech": "adjective",
+    "translations": { "es": "medio, en el centro", "pl": "środkowy, w środku", "fil": "gitna, nasa gitna" }
   },
   {
     "id": 66,
     "part": "B",
-    "greek": "ὅπου",
-    "transliteration": "hopou",
-    "definition": "where (relative)",
-    "partOfSpeech": "relative adverb",
-    "translations": {
-      "es": "donde (relativo)",
-      "pl": "gdzie (względne)",
-      "fil": "kung saan"
-    }
+    "greek": "καθαρός, -ά, -όν",
+    "transliteration": "katharos",
+    "definition": "clean, pure",
+    "partOfSpeech": "adjective",
+    "translations": { "es": "limpio, puro", "pl": "czysty", "fil": "malinis, dalisay" }
   },
   {
     "id": 67,
-    "part": "B",
-    "greek": "ὅτε",
-    "transliteration": "hote",
-    "definition": "when",
-    "partOfSpeech": "temporal conjunction",
-    "translations": {
-      "es": "cuando",
-      "pl": "kiedy",
-      "fil": "noong, kapag"
-    }
-  },
-  {
-    "id": 68,
     "part": "B",
     "greek": "εἶτα",
     "transliteration": "eita",
     "definition": "then, next",
     "partOfSpeech": "adverb",
-    "translations": {
-      "es": "luego, después",
-      "pl": "potem, następnie",
-      "fil": "pagkatapos, saka"
-    }
+    "translations": { "es": "luego, después", "pl": "potem, następnie", "fil": "pagkatapos, saka" }
+  },
+  {
+    "id": 68,
+    "part": "B",
+    "greek": "ὅπου",
+    "transliteration": "hopou",
+    "definition": "where (relative)",
+    "partOfSpeech": "relative adverb",
+    "translations": { "es": "donde (relativo)", "pl": "gdzie (względne)", "fil": "kung saan" }
   },
   {
     "id": 69,
     "part": "B",
-    "greek": "εὐθύς",
-    "transliteration": "euthys",
-    "definition": "immediately, at once",
-    "partOfSpeech": "adverb",
-    "translations": {
-      "es": "inmediatamente",
-      "pl": "natychmiast",
-      "fil": "agad"
-    }
+    "greek": "οὗτος, αὕτη, τοῦτο",
+    "transliteration": "houtos",
+    "definition": "this",
+    "partOfSpeech": "demonstrative pronoun/adjective",
+    "translations": { "es": "este, esta, esto", "pl": "ten, ta, to", "fil": "ito, itong" }
   },
   {
     "id": 70,
     "part": "B",
+    "greek": "διὰ τοῦτο",
+    "transliteration": "dia touto",
+    "definition": "because of this, therefore",
+    "partOfSpeech": "phrase (preposition + demonstrative)",
+    "translations": { "es": "por eso, por esto", "pl": "dlatego, z tego powodu", "fil": "dahil dito, kaya nga" }
+  },
+  {
+    "id": 71,
+    "part": "B",
     "greek": "καθ᾽ ἡμέραν",
     "transliteration": "kath' hēmeran",
-    "definition": "daily, every day",
+    "definition": "every day, daily",
     "partOfSpeech": "adverbial phrase (κατά + accusative)",
-    "translations": {
-      "es": "cada día",
-      "pl": "codziennie",
-      "fil": "araw-araw"
-    }
+    "translations": { "es": "cada día, diariamente", "pl": "codziennie, każdego dnia", "fil": "araw-araw, daan-araw" }
   }
 ]
