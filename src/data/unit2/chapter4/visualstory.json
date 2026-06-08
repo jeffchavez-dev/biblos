@@ -5,111 +5,358 @@
     {
       "id": 1,
       "part": "A",
-      "scene": "Teaches: πρωΐ, ἀνατέλλω, φῶς — Morning. The moon is gone; the sun rises. Sunlight enters the farmer's house.",
-      "greekCaption": "πρωΐ ἐστιν. ἡ σελήνη οὐκέτι λάμπει. ὁ ἥλιος ἀνατέλλει. τὸ φῶς τοῦ ἡλίου ἔρχεται εἰς τὸν οἶκον.",
-      "englishCaption": "It is morning. The moon no longer shines. The sun rises. The light of the sun comes into the house.",
+      "scene": "Wide landscape at dawn. The eastern horizon glows with the first golden light of sunrise. The last trace of the moon is pale and fading in the brightening sky. The field and house are visible below.",
+      "greekCaption": "πρωΐ ἐστιν. ἡ σελήνη οὐκέτι λάμπει. ὁ ἥλιος ἀνατέλλει.",
+      "englishCaption": "It is morning. The moon no longer shines. The sun rises.",
       "image": "story-images/ch4a/1.jpeg",
       "captionTranslations": {
-        "es": "Es de mañana. La luna ya no brilla. El sol sale. La luz del sol llena el cielo.",
-        "pl": "Jest ranek. Księżyc już nie świeci. Słońce wschodzi. Światło słońca wypełnia niebo.",
-        "fil": "Umaga na. Hindi na sumisinag ang buwan. Sumisinag ang araw. Puno ng liwanag ng araw ang langit."
+        "es": "Es de mañana. La luna ya no brilla. El sol sale.",
+        "pl": "Jest ranek. Księżyc już nie świeci. Słońce wschodzi.",
+        "fil": "Umaga na. Hindi na sumisinag ang buwan. Sumisinag ang araw."
       }
     },
     {
       "id": 2,
       "part": "A",
-      "scene": "Teaches: λούω, σῶμα, ὕδωρ — Jacob goes to the river and washes his body in the clean water.",
-      "greekCaption": "ὁ Ἰάκωβος πορεύεται πρὸς τὸν ποταμὸν καὶ λούει τὸ σῶμα αὐτοῦ.",
-      "englishCaption": "Jacob goes to the river and washes his body.",
+      "scene": "Interior of the house. A beam of morning light enters through the open door, falling across the room and onto the bed where the farmer lies.",
+      "greekCaption": "τὸ φῶς τοῦ ἡλίου ἔρχεται εἰς τὸν οἶκον.",
+      "englishCaption": "The light of the sun comes into the house.",
       "image": "story-images/ch4a/2.jpeg",
       "captionTranslations": {
-        "es": "Jacob va al río y lava su cuerpo.",
-        "pl": "Jakub idzie do rzeki i myje swoje ciało.",
-        "fil": "Pumunta si Jacob sa ilog at niligo ang kanyang katawan."
+        "es": "La luz del sol viene a la casa.",
+        "pl": "Światło słońca wchodzi do domu.",
+        "fil": "Ang liwanag ng araw ay pumapasok sa bahay."
       }
     },
     {
       "id": 3,
       "part": "A",
-      "scene": "Teaches: ὄνομα, κώμη, κατοικέω — Jacob is a Galilean. His name is Jacob. He dwells in Galilee and his house is in the village.",
-      "greekCaption": "τὸ ὄνομα τοῦ γεωργοῦ ἐστιν Ἰάκωβος. κατοικεῖ ἐν τῇ Γαλιλαίᾳ. ὁ οἶκος αὐτοῦ ἐστιν ἐν τῇ κώμῃ.",
-      "englishCaption": "The name of the farmer is Jacob. He dwells in Galilee. His house is in the village.",
+      "scene": "The farmer sits up in bed, calm and rested, a hand on his chest. Morning light on his face. No fear — only peace.",
+      "greekCaption": "ὁ γεωργὸς ἐγείρεται. οὐκ ἔχει φόβον. εἰρήνη ἐστὶν ἐν τῇ καρδίᾳ αὐτοῦ.",
+      "englishCaption": "The farmer wakes. He has no fear. There is peace in his heart.",
       "image": "story-images/ch4a/3.jpeg",
       "captionTranslations": {
-        "es": "El nombre del agricultor es Jacob. Vive en Galilea. Su casa está en el pueblo.",
-        "pl": "Imię rolnika to Jakub. Mieszka w Galilei. Jego dom jest w wiosce.",
-        "fil": "Ang pangalan ng magsasaka ay Jacob. Naninirahan siya sa Galilea. Ang kanyang bahay ay nasa nayon."
+        "es": "El agricultor se despierta. No tiene miedo. Hay paz en su corazón.",
+        "pl": "Rolnik budzi się. Nie ma strachu. W jego sercu jest pokój.",
+        "fil": "Gumising ang magsasaka. Wala siyang takot. May kapayapaan sa kanyang puso."
       }
     },
     {
       "id": 4,
       "part": "A",
-      "scene": "Teaches: φίλος, πλησίον, ἀμφότεροι — Jacob visits Philip, his neighbor and friend. Both are farmers.",
-      "greekCaption": "ὁ Ἰάκωβος πορεύεται πρὸς τὸν φίλον αὐτοῦ, τὸν Φίλιππον. ὁ Φίλιππος πλησίον ἐστίν. ἀμφότεροι εἰσιν γεωργοί.",
-      "englishCaption": "Jacob goes to his friend Philip. Philip is nearby. Both are farmers.",
+      "scene": "The farmer walks toward the river in the early light, carrying a cloth, moving purposefully toward the water.",
+      "greekCaption": "θέλει λούειν τὸ σῶμα αὐτοῦ. πορεύεται πρὸς τὸν ποταμόν.",
+      "englishCaption": "He wants to wash his body. He goes toward the river.",
       "image": "story-images/ch4a/4.jpeg",
       "captionTranslations": {
-        "es": "Jacob va a su amigo Felipe. Felipe está cerca. Ambos son agricultores.",
-        "pl": "Jakub idzie do swojego przyjaciela Filipa. Filip jest blisko. Obaj są rolnikami.",
-        "fil": "Pumunta si Jacob sa kanyang kaibigan na si Felipe. Malapit si Felipe. Kapwa silang magsasaka."
+        "es": "Quiere lavar su cuerpo. Va hacia el río.",
+        "pl": "Chce umyć swoje ciało. Idzie do rzeki.",
+        "fil": "Gusto niyang hugasan ang kanyang katawan. Pumunta siya sa ilog."
       }
     },
     {
       "id": 5,
       "part": "A",
-      "scene": "Teaches: ἀσπάζομαι, καταφιλέω, εἰρήνη σοι — Jacob greets and embraces Philip. They exchange greetings.",
-      "greekCaption": "ὁ Ἰάκωβος ἀσπάζεται τὸν Φίλιππον καὶ καταφιλεῖ αὐτόν. λέγει, \"εἰρήνη σοι, ὦ φίλε.\"",
-      "englishCaption": "Jacob greets Philip and embraces him. He says, \"Peace to you, O friend.\"",
+      "scene": "Close-up: the farmer crouched at the river's edge, cupping clear water in his hands. The water looks clean and inviting.",
+      "greekCaption": "τὸ ὕδωρ τοῦ ποταμοῦ καλόν ἐστιν.",
+      "englishCaption": "The water of the river is good.",
       "image": "story-images/ch4a/5.jpeg",
       "captionTranslations": {
-        "es": "Jacob saluda a Felipe y lo abraza. Dice: 'Paz a ti, O amigo.'",
-        "pl": "Jakub pozdrawia Filipa i obejmuje go. Mówi: «Pokój tobie, O przyjacielu.»",
-        "fil": "Binati ni Jacob si Felipe at yumakap sa kanya. Sinabi niya: 'Kapayapaan sa iyo, O kaibigan.'"
+        "es": "El agua del río es buena.",
+        "pl": "Woda rzeki jest dobra.",
+        "fil": "Ang tubig ng ilog ay mabuti."
       }
     },
     {
       "id": 6,
       "part": "A",
-      "scene": "Teaches: μεριμνάω, περί, βούλομαι — Jacob explains his worry: he wants to visit his wife and children but does not know who will guard the field.",
-      "greekCaption": "ὁ Ἰάκωβος λέγει ὅτι μεριμνᾷ περὶ τοῦ ἀγροῦ. βούλεται βλέπειν τὴν Μάρθαν καὶ τὰ τέκνα αὐτοῦ.",
-      "englishCaption": "Jacob says that he worries about the field. He wants to see Martha and his children.",
+      "scene": "The farmer, refreshed, walks back along the path from the river toward the house. Wet hair, clean face, light step.",
+      "greekCaption": "λούει τὸ σῶμα αὐτοῦ. πορεύεται πάλιν πρὸς τὸν οἶκον.",
+      "englishCaption": "He washes his body. He goes back toward the house.",
       "image": "story-images/ch4a/6.jpeg",
       "captionTranslations": {
-        "es": "Jacob dice que se preocupa por el campo. Quiere ver a Marta y a sus hijos.",
-        "pl": "Jakub mówi, że martwi się o pole. Chce zobaczyć Martę i swoje dzieci.",
-        "fil": "Sinabi ni Jacob na nag-aalala siya sa bukid. Gusto niyang makita si Marta at ang kanyang mga anak."
+        "es": "Lava su cuerpo. Regresa hacia la casa.",
+        "pl": "Myje swoje ciało. Wraca do domu.",
+        "fil": "Niligo niya ang kanyang katawan. Bumalik siya sa bahay."
       }
     },
     {
       "id": 7,
       "part": "A",
-      "scene": "Teaches: δύναμαι, βοηθέω, πάρειμι — Philip offers to help. \"I am here. I am able and willing to guard your field.\"",
-      "greekCaption": "ὁ Φίλιππος λέγει, \"ἐγὼ πάρειμι ὧδε. δύναμαι βοηθεῖν σοι καὶ φυλάσσειν τὸν ἀγρόν σου.\"",
-      "englishCaption": "Philip says, \"I am here. I am able to help you and guard your field.\"",
+      "scene": "The farmer stands facing the viewer, full figure, with the name Ἰάκωβος displayed beside him — the reveal of his name. Clear, warm, dignified.",
+      "greekCaption": "τὸ ὄνομα τοῦ γεωργοῦ ἐστιν Ἰάκωβος.",
+      "englishCaption": "The name of the farmer is Jacob.",
       "image": "story-images/ch4a/7.jpeg",
       "captionTranslations": {
-        "es": "Felipe dice: 'Estoy aquí. Puedo ayudarte y guardar tu campo.'",
-        "pl": "Filip mówi: «Jestem tutaj. Mogę ci pomóc i strzec twojego pola.»",
-        "fil": "Sinabi ni Felipe: 'Nandito ako. Kaya kong tulungan ka at bantayan ang iyong bukid.'"
+        "es": "El nombre del agricultor es Jacob.",
+        "pl": "Imię rolnika to Jakub.",
+        "fil": "Ang pangalan ng magsasaka ay Jacob."
       }
     },
     {
       "id": 8,
       "part": "A",
-      "scene": "Teaches: χαρά, εὐχαριστέω, ἀπέρχομαι — Jacob gives thanks to Philip and to God, then departs with joy and peace. The donkey follows.",
-      "greekCaption": "ὁ Ἰάκωβος εὐχαριστεῖ τῷ Φιλίππῳ καὶ τῷ θεῷ. ἀπέρχεται μετὰ χαρᾶς. ὁ ὄνος ἀκολουθεῖ αὐτῷ.",
-      "englishCaption": "Jacob gives thanks to Philip and to God. He departs with joy. The donkey follows him.",
+      "scene": "A wider landscape of Galilean countryside: rolling green hills, small farms, the Sea of Galilee visible in the distance. Jacob small in the foreground, surveying his land.",
+      "greekCaption": "ὁ Ἰάκωβος Γαλιλαῖός ἐστιν. κατοικεῖ ἐν τῇ Γαλιλαίᾳ.",
+      "englishCaption": "Jacob is a Galilean. He dwells in Galilee.",
       "image": "story-images/ch4a/8.jpeg",
       "captionTranslations": {
-        "es": "Jacob da gracias a Felipe y a Dios. Parte con alegría. El asno lo sigue.",
-        "pl": "Jakub dziękuje Filipowi i Bogu. Odchodzi z radością. Osioł podąża za nim.",
-        "fil": "Nagpasalamat si Jacob kay Felipe at sa Diyos. Umalis siya nang may kagalakan. Sumusunod ang asno."
+        "es": "Jacob es galileo. Vive en Galilea.",
+        "pl": "Jakub jest Galilejczykiem. Mieszka w Galilei.",
+        "fil": "Si Jacob ay isang Galileo. Naninirahan siya sa Galilea."
       }
     },
     {
       "id": 9,
+      "part": "A",
+      "scene": "Jacob standing at the edge of the field but turned away from it, looking toward the path. His tools are set down. He has decided not to work today.",
+      "greekCaption": "σήμερον οὐκ ἐργάζεται ἐν τῷ ἀγρῷ.",
+      "englishCaption": "Today he does not work in the field.",
+      "image": "story-images/ch4a/9.jpeg",
+      "captionTranslations": {
+        "es": "Hoy no trabaja en el campo.",
+        "pl": "Dziś nie pracuje w polu.",
+        "fil": "Ngayon hindi siya nagtatrabaho sa bukid."
+      }
+    },
+    {
+      "id": 10,
+      "part": "A",
+      "scene": "A small Galilean village in the distance — clustered stone houses, a few trees, a dusty path leading to it. Jacob on the path, walking toward it.",
+      "greekCaption": "πορεύεται πρὸς τὴν κώμην.",
+      "englishCaption": "He goes toward the village.",
+      "image": "story-images/ch4a/10.jpeg",
+      "captionTranslations": {
+        "es": "Va hacia el pueblo.",
+        "pl": "Idzie do wioski.",
+        "fil": "Pumunta siya sa nayon."
+      }
+    },
+    {
+      "id": 11,
+      "part": "A",
+      "scene": "Jacob paused on the path, looking back at the field with concern. Then turning forward toward another farm nearby. Who will guard the field?",
+      "greekCaption": "τίς φυλάσσει τὸν ἀγρόν; πορεύεται πρὸς τὸν φίλον αὐτοῦ.",
+      "englishCaption": "Who guards the field? He goes to his friend.",
+      "image": "story-images/ch4a/11.jpeg",
+      "captionTranslations": {
+        "es": "¿Quién cuida el campo? Va a su amigo.",
+        "pl": "Kto strzeże pola? Idzie do swojego przyjaciela.",
+        "fil": "Sino ang nagbabantay ng bukid? Pumunta siya sa kanyang kaibigan."
+      }
+    },
+    {
+      "id": 12,
+      "part": "A",
+      "scene": "Philip standing outside his own house, holding a farming tool, welcoming expression. His name Φίλιππος displayed beside him. His farm is near Jacob's.",
+      "greekCaption": "τὸ ὄνομα τοῦ φίλου ἐστὶν Φίλιππος. πλησίον ἐστίν.",
+      "englishCaption": "The name of the friend is Philip. He is a neighbor.",
+      "image": "story-images/ch4a/12.jpeg",
+      "captionTranslations": {
+        "es": "El nombre del amigo es Felipe. Es vecino.",
+        "pl": "Imię przyjaciela to Filip. Jest sąsiadem.",
+        "fil": "Ang pangalan ng kaibigan ay Felipe. Siya ay kapitbahay."
+      }
+    },
+    {
+      "id": 13,
+      "part": "A",
+      "scene": "Jacob and Philip standing side by side, both in farmer's tunics, both holding tools. Equal in dignity.",
+      "greekCaption": "ἀμφότεροι εἰσιν γεωργοί.",
+      "englishCaption": "Both are farmers.",
+      "image": "story-images/ch4a/13.jpeg",
+      "captionTranslations": {
+        "es": "Ambos son agricultores.",
+        "pl": "Obaj są rolnikami.",
+        "fil": "Kapwa silang magsasaka."
+      }
+    },
+    {
+      "id": 14,
+      "part": "A",
+      "scene": "The two men in the ancient Middle-Eastern greeting: clasping hands and kissing on the cheek. Warm, genuine friendship.",
+      "greekCaption": "ὁ Ἰάκωβος ἀσπάζεται τὸν Φίλιππον καὶ καταφιλεῖ αὐτόν.",
+      "englishCaption": "Jacob greets Philip and kisses him.",
+      "image": "story-images/ch4a/14.jpeg",
+      "captionTranslations": {
+        "es": "Jacob saluda a Felipe y lo besa.",
+        "pl": "Jakub pozdrawia Filipa i całuje go.",
+        "fil": "Binati ni Jacob si Felipe at hinalikan siya."
+      }
+    },
+    {
+      "id": 15,
+      "part": "A",
+      "scene": "Jacob speaking to Philip, hand raised in greeting, mouth open mid-sentence. Philip listening and smiling.",
+      "greekCaption": "λέγει, \"εἰρήνη σοι. πῶς ἔχεις σήμερον;\"",
+      "englishCaption": "He says, \"Peace to you. How are you today?\"",
+      "image": "story-images/ch4a/15.jpeg",
+      "captionTranslations": {
+        "es": "Dice: 'Paz a ti. ¿Cómo estás hoy?'",
+        "pl": "Mówi: «Pokój tobie. Jak się dziś masz?»",
+        "fil": "Sinabi niya: 'Kapayapaan sa iyo. Kumusta ka ngayon?'"
+      }
+    },
+    {
+      "id": 16,
+      "part": "A",
+      "scene": "Philip responding, one hand on his chest, smiling warmly.",
+      "greekCaption": "ὁ Φίλιππος ἀποκρίνεται, \"χαῖρε. καλῶς ἔχω.\"",
+      "englishCaption": "Philip answers, \"Greetings. I am well.\"",
+      "image": "story-images/ch4a/16.jpeg",
+      "captionTranslations": {
+        "es": "Felipe responde: 'Saludos. Estoy bien.'",
+        "pl": "Filip odpowiada: «Pozdrowienia. Mam się dobrze.»",
+        "fil": "Sumagot si Felipe: 'Kumusta. Mabuti naman ako.'"
+      }
+    },
+    {
+      "id": 17,
+      "part": "A",
+      "scene": "Philip's face showing friendly curiosity — eyebrow raised, head tilted.",
+      "greekCaption": "\"διὰ τί ἔρχῃ ὧδε;\"",
+      "englishCaption": "\"Why do you come here?\"",
+      "image": "story-images/ch4a/17.jpeg",
+      "captionTranslations": {
+        "es": "'¿Por qué vienes aquí?'",
+        "pl": "«Dlaczego tu przychodzisz?»",
+        "fil": "'Bakit ka pumunta dito?'"
+      }
+    },
+    {
+      "id": 18,
+      "part": "A",
+      "scene": "Jacob's face showing longing — looking into the distance toward the village, hand over his heart.",
+      "greekCaption": "\"ἀγαπῶ τὸν οἶκόν μου. βούλομαι βλέπειν αὐτόν.\"",
+      "englishCaption": "\"I love my house. I want to see it.\"",
+      "image": "story-images/ch4a/18.jpeg",
+      "captionTranslations": {
+        "es": "'Amo mi casa. Quiero verla.'",
+        "pl": "«Kocham mój dom. Chcę go zobaczyć.»",
+        "fil": "'Mahal ko ang aking bahay. Gusto kong makita ito.'"
+      }
+    },
+    {
+      "id": 19,
+      "part": "A",
+      "scene": "Philip asking about Jacob's family. A soft inset shows a woman and children — the family Jacob misses.",
+      "greekCaption": "\"ἆρα ἡ Μάρθα ἡ γυνή σου καλῶς ἔχει; καὶ τὰ τέκνα;\"",
+      "englishCaption": "\"Does Martha your wife fare well? And the children?\"",
+      "image": "story-images/ch4a/19.jpeg",
+      "captionTranslations": {
+        "es": "'¿Está bien Marta tu esposa? ¿Y los hijos?'",
+        "pl": "«Czy Marta, twoja żona, ma się dobrze? I dzieci?»",
+        "fil": "'Mabuti ba si Marta na iyong asawa? At ang mga anak?'"
+      }
+    },
+    {
+      "id": 20,
+      "part": "A",
+      "scene": "Jacob's face showing worry — furrowed brow, looking back over his shoulder toward the field.",
+      "greekCaption": "\"ναί, πάντες καλῶς ἔχουσιν. ἀλλὰ μεριμνῶ περὶ τοῦ ἀγροῦ.\"",
+      "englishCaption": "\"Yes, they are all well — but I worry about the field.\"",
+      "image": "story-images/ch4a/20.jpeg",
+      "captionTranslations": {
+        "es": "'Sí, todos están bien, pero me preocupo por el campo.'",
+        "pl": "«Tak, wszyscy mają się dobrze, ale martwię się o pole.»",
+        "fil": "'Oo, lahat ay mabuti — ngunit nag-aalala ako sa bukid.'"
+      }
+    },
+    {
+      "id": 21,
+      "part": "A",
+      "scene": "Philip stepping forward confidently, hand on Jacob's shoulder, reassuring expression. A stance of capability and willingness.",
+      "greekCaption": "\"ἐγὼ πάρειμι. δύναμαι βοηθεῖν σοι.\"",
+      "englishCaption": "\"I am here. I am able to help you.\"",
+      "image": "story-images/ch4a/21.jpeg",
+      "captionTranslations": {
+        "es": "'Estoy aquí. Puedo ayudarte.'",
+        "pl": "«Jestem tutaj. Mogę ci pomóc.»",
+        "fil": "'Nandito ako. Kaya kong tulungan ka.'"
+      }
+    },
+    {
+      "id": 22,
+      "part": "A",
+      "scene": "Philip pointing firmly toward the village road, other hand raised in a reassuring gesture. Commanding but kind.",
+      "greekCaption": "\"μὴ μεριμνᾷ. πορεύου πρὸς τὴν κώμην.\"",
+      "englishCaption": "\"Do not worry. Go to the village.\"",
+      "image": "story-images/ch4a/22.jpeg",
+      "captionTranslations": {
+        "es": "'No te preocupes. Ve al pueblo.'",
+        "pl": "«Nie martw się. Idź do wioski.»",
+        "fil": "'Huwag mag-alala. Pumunta sa nayon.'"
+      }
+    },
+    {
+      "id": 23,
+      "part": "A",
+      "scene": "Jacob clasping Philip's hand in both of his, looking him in the eyes. Deep gratitude.",
+      "greekCaption": "\"ἀληθῶς φίλος ἀγαθὸς καὶ πιστὸς εἶ. ἀγαπῶ σε.\"",
+      "englishCaption": "\"Truly you are a good and faithful friend. I love you.\"",
+      "image": "story-images/ch4a/23.jpeg",
+      "captionTranslations": {
+        "es": "'En verdad eres un amigo bueno y fiel. Te amo.'",
+        "pl": "«Prawdziwie jesteś dobrym i wiernym przyjacielem. Kocham cię.»",
+        "fil": "'Tunay na ikaw ay isang mabuti at tapat na kaibigan. Mahal kita.'"
+      }
+    },
+    {
+      "id": 24,
+      "part": "A",
+      "scene": "Jacob turning away from Philip, hand raised in farewell, beginning to walk. Philip watching him go.",
+      "greekCaption": "ὁ Ἰάκωβος ἀπέρχεται ἀπὸ τοῦ Φιλίππου.",
+      "englishCaption": "Jacob departs from Philip.",
+      "image": "story-images/ch4a/24.jpeg",
+      "captionTranslations": {
+        "es": "Jacob parte de Felipe.",
+        "pl": "Jakub odchodzi od Filipa.",
+        "fil": "Umalis si Jacob mula kay Felipe."
+      }
+    },
+    {
+      "id": 25,
+      "part": "A",
+      "scene": "Jacob standing at the edge of his field, cupping his hand near his mouth, calling. The donkey visible in the field, head raised, ears perked.",
+      "greekCaption": "ἐν τῷ ἀγρῷ καλεῖ τὸν ὄνον.",
+      "englishCaption": "In the field he calls the donkey.",
+      "image": "story-images/ch4a/25.jpeg",
+      "captionTranslations": {
+        "es": "En el campo llama al asno.",
+        "pl": "W polu woła osła.",
+        "fil": "Sa bukid tinatawag niya ang asno."
+      }
+    },
+    {
+      "id": 26,
+      "part": "A",
+      "scene": "Jacob and the donkey walking side by side on the road toward the village. Jacob's face relaxed, almost smiling. Morning light — a mood of lightness and anticipation.",
+      "greekCaption": "ὁ Ἰάκωβος ἀπέρχεται μετὰ χαρᾶς καὶ εἰρήνης.",
+      "englishCaption": "Jacob departs with joy and peace.",
+      "image": "story-images/ch4a/26.jpeg",
+      "captionTranslations": {
+        "es": "Jacob parte con alegría y paz.",
+        "pl": "Jakub odchodzi z radością i pokojem.",
+        "fil": "Umalis si Jacob nang may kagalakan at kapayapaan."
+      }
+    },
+    {
+      "id": 27,
+      "part": "A",
+      "scene": "A wider view from behind: Jacob and the donkey together on the dirt road, the village visible in the distance ahead, fields on either side.",
+      "greekCaption": "ἀμφότεροι πορεύονται ἐν τῇ ὁδῷ πρὸς τὴν κώμην.",
+      "englishCaption": "Both go on the road toward the village.",
+      "image": "story-images/ch4a/27.jpeg",
+      "captionTranslations": {
+        "es": "Ambos van por el camino hacia el pueblo.",
+        "pl": "Obaj idą drogą ku wiosce.",
+        "fil": "Kapwa silang lumalakad sa daan patungo sa nayon."
+      }
+    },
+    {
+      "id": 28,
       "part": "B",
-      "scene": "Teaches: ῥάβδος, πήρα, λάχανα — Jacob walks with his staff carrying a bag of bread. The donkey carries fruit and vegetables from the field.",
+      "scene": "Jacob walks with his staff carrying a bag of bread. The donkey carries fruit and vegetables from the field.",
       "greekCaption": "ὁ Ἰάκωβος περιπατεῖ μετὰ τῆς ῥάβδου καὶ φέρει τὴν πήραν. ὁ ὄνος φέρει καρποὺς καὶ λάχανα.",
       "englishCaption": "Jacob walks with his staff and carries the bag. The donkey carries fruits and vegetables.",
       "image": "story-images/ch4b/1.jpeg",
@@ -120,9 +367,9 @@
       }
     },
     {
-      "id": 10,
+      "id": 29,
       "part": "B",
-      "scene": "Teaches: σκάπτω, λίθος, θερίζω — Farmers at work: some dig the ground and remove stones; others harvest fruit from the trees.",
+      "scene": "Farmers at work: some dig the ground and remove stones; others harvest fruit from the trees.",
       "greekCaption": "οἱ μὲν σκάπτουσιν τὴν γῆν καὶ φέρουσιν τοὺς λίθους. ἄλλοι δὲ θερίζουσιν τοὺς καρπούς.",
       "englishCaption": "Some dig the ground and carry the stones. Others harvest the fruits.",
       "image": "story-images/ch4b/2.jpeg",
@@ -133,9 +380,9 @@
       }
     },
     {
-      "id": 11,
+      "id": 30,
       "part": "B",
-      "scene": "Teaches: καθίζω, σκία, ἀναπαύομαι — Others sit under the trees in the shade to rest from the heat and talk about life.",
+      "scene": "Others sit under the trees in the shade to rest from the heat and talk about life.",
       "greekCaption": "ἄλλοι καθίζουσιν ὑπὸ τοῖς δένδροις ἐν ταῖς σκίαις καὶ ἀναπαύονται.",
       "englishCaption": "Others sit under the trees in the shade and rest.",
       "image": "story-images/ch4b/3.jpeg",
@@ -146,9 +393,9 @@
       }
     },
     {
-      "id": 12,
+      "id": 31,
       "part": "B",
-      "scene": "Teaches: πλούσιος, πτωχός, δοῦλος, ἴδιος — Some farmers are rich with many servants; others are poor and work their own fields alone.",
+      "scene": "Some farmers are rich with many servants; others are poor and work their own fields alone.",
       "greekCaption": "οἱ μὲν πλούσιοί εἰσιν καὶ ἔχουσιν δούλους. οἱ δὲ πτωχοὶ ἐργάζονται ἐν τοῖς ἰδίοις ἀγροῖς.",
       "englishCaption": "Some are rich and have servants. The poor work in their own fields.",
       "image": "story-images/ch4b/4.jpeg",
@@ -159,9 +406,9 @@
       }
     },
     {
-      "id": 13,
+      "id": 32,
       "part": "B",
-      "scene": "Teaches: καῦμα, καυματίζω, πεινάω, διψάω — The sun beats down. Jacob is weary, hungry, and thirsty from the heat of the journey.",
+      "scene": "The sun beats down. Jacob is weary, hungry, and thirsty from the heat of the journey.",
       "greekCaption": "ὁ ἥλιος καυματίζει τὴν ὁδόν. κοπιᾷ ὁ Ἰάκωβος ἐν τῷ σώματι. πεινᾷ καὶ διψᾷ.",
       "englishCaption": "The sun scorches the road. Jacob is weary in body. He is hungry and thirsty.",
       "image": "story-images/ch4b/5.jpeg",
@@ -172,9 +419,9 @@
       }
     },
     {
-      "id": 14,
+      "id": 33,
       "part": "B",
-      "scene": "Teaches: πηγή, σκία, καθαρός — Jacob finds a large tree near the road. Under it is a spring with clean water. The tree provides shade.",
+      "scene": "Jacob finds a large tree near the road. Under it is a spring with clean water. The tree provides shade.",
       "greekCaption": "εὑρίσκει δένδρον μέγα ἐγγὺς τῆς ὁδοῦ. ὑπὸ τῷ δένδρῳ ἐστὶν ἡ πηγή. καθαρὸν ὕδωρ ἐστὶν ἐν τῇ πηγῇ.",
       "englishCaption": "He finds a large tree near the road. Under the tree is the spring. There is clean water in the spring.",
       "image": "story-images/ch4b/6.jpeg",
@@ -185,9 +432,9 @@
       }
     },
     {
-      "id": 15,
+      "id": 34,
       "part": "B",
-      "scene": "Teaches: ὑδρία, ἀντλέω, πίνω — Jacob eats his bread but cannot drink: there is water in the spring, but he has no water jar to draw with.",
+      "scene": "Jacob is thirsty but has no water jar to draw from the spring.",
       "greekCaption": "ὁ Ἰάκωβος διψᾷ ἀλλὰ οὐ δύναται ἀντλεῖν τὸ ὕδωρ ὅτι οὐκ ἔχει ὑδρίαν.",
       "englishCaption": "Jacob is thirsty but cannot draw the water because he has no water jar.",
       "image": "story-images/ch4b/7.jpeg",
@@ -197,5 +444,9 @@
         "fil": "Nauuhaw si Jacob ngunit hindi niya makuha ang tubig dahil wala siyang tapayan."
       }
     }
-  ]
+  ],
+  "subtitleTranslations": {
+    "es": "Unidad 2, Capítulo 4 — El Amigo y los Agricultores",
+    "pl": "Jednostka 2, Rozdział 4 — Przyjaciel i Rolnicy"
+  }
 }
