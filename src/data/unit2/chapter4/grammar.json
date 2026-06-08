@@ -36,15 +36,30 @@
           "examples": [
             {
               "greek": "πορεύεται πρὸς τὴν κώμην",
-              "note": "he goes toward the village"
+              "note": "he goes toward the village",
+              "noteTranslations": {
+                "es": "va hacia el pueblo",
+                "pl": "idzie ku wiosce",
+                "fil": "pumupunta siya patungo sa nayon"
+              }
             },
             {
               "greek": "ἀσπάζεται αὐτόν",
-              "note": "he greets him"
+              "note": "he greets him",
+              "noteTranslations": {
+                "es": "lo saluda",
+                "pl": "wita go",
+                "fil": "binabati niya siya"
+              }
             },
             {
               "greek": "ἀποκρίνεται καὶ λέγει",
-              "note": "he answers and says"
+              "note": "he answers and says",
+              "noteTranslations": {
+                "es": "responde y dice",
+                "pl": "odpowiada i mówi",
+                "fil": "sumasagot siya at nagsasabi"
+              }
             }
           ],
           "headingTranslations": {
@@ -90,21 +105,41 @@
           "examples": [
             {
               "greek": "δύναμαι βοηθεῖν σοι",
-              "note": "I am able to help you"
+              "note": "I am able to help you",
+              "noteTranslations": {
+                "es": "soy capaz de ayudarte",
+                "pl": "mogę ci pomóc",
+                "fil": "kaya kong tulungan ka"
+              }
             },
             {
               "greek": "σὺ δύνασαι πορεύεσθαι",
-              "note": "you are able to go"
+              "note": "you are able to go",
+              "noteTranslations": {
+                "es": "tú puedes ir",
+                "pl": "ty możesz iść",
+                "fil": "kaya mong pumunta"
+              }
             },
             {
               "greek": "οὐ δύναται ἀντλεῖν τὸ ὕδωρ",
-              "note": "he is not able to draw the water"
+              "note": "he is not able to draw the water",
+              "noteTranslations": {
+                "es": "no puede sacar el agua",
+                "pl": "nie może czerpać wody",
+                "fil": "hindi niya kaya ang umigib ng tubig"
+              }
             }
           ],
           "headingTranslations": {
             "es": "2. δύναμαι — un deponente especial",
             "pl": "2. δύναμαι — szczególny deponent",
             "fil": "2. δύναμαι — isang espesyal na deponent"
+          },
+          "contentTranslations": {
+            "es": "δύναμαι (puedo, soy capaz) es un deponente medio con formas de presente irregulares. La vocal del tema alterna: δύνα- en algunas formas. Requiere un infinitivo para completar su significado.",
+            "pl": "δύναμαι (mogę, jestem w stanie) jest deponentem strony biernej o nieregularnych formach czasu teraźniejszego. Samogłoska tematu jest wymienna: δύνα- w niektórych formach. Wymaga bezokolicznika, aby dopełnić znaczenie.",
+            "fil": "Ang δύναμαι (kaya ko, nakakayang) ay isang middle deponent na may di-regular na present forms. Pansinin na nagpapalit ang patinig ng tema: δύνα- sa ilang anyo. Nangangailangan ito ng infinitive upang kumpletuhin ang kahulugan."
           }
         },
         {
@@ -139,21 +174,41 @@
           "examples": [
             {
               "greek": "ἀγαπῶ τὸν οἶκόν μου",
-              "note": "I love my house"
+              "note": "I love my house",
+              "noteTranslations": {
+                "es": "amo mi casa",
+                "pl": "kocham mój dom",
+                "fil": "minamahal ko ang aking bahay"
+              }
             },
             {
               "greek": "μεριμνᾷς περὶ τοῦ ἀγροῦ",
-              "note": "you worry about the field"
+              "note": "you worry about the field",
+              "noteTranslations": {
+                "es": "te preocupas por el campo",
+                "pl": "martwisz się o pole",
+                "fil": "nag-aalala ka tungkol sa bukid"
+              }
             },
             {
               "greek": "βοηθεῖ τῷ φίλῳ",
-              "note": "he helps the friend"
+              "note": "he helps the friend",
+              "noteTranslations": {
+                "es": "ayuda al amigo",
+                "pl": "pomaga przyjacielowi",
+                "fil": "tinutulungan niya ang kaibigan"
+              }
             }
           ],
           "headingTranslations": {
             "es": "3. Verbos contractos en -άω y -έω (revisión y ampliación)",
             "pl": "3. Czasowniki ściągane na -άω i -έω (powtórzenie i rozszerzenie)",
             "fil": "3. Mga contract verb na -άω at -έω (pagbabalik-aral at pagpapalawak)"
+          },
+          "contentTranslations": {
+            "es": "Varios verbos nuevos pertenecen a las clases contractas: ἀγαπάω y μεριμνάω (ambos contractos en -άω); κατοικέω, βοηθέω y καταφιλέω (todos contractos en -έω). En el indicativo presente, la vocal del tema se contrae con la desinencia, produciendo una vocal larga o diptongo con acento circunflejo.",
+            "pl": "Kilka nowych czasowników należy do klas ściąganych: ἀγαπάω i μεριμνάω (oba na -άω); κατοικέω, βοηθέω i καταφιλέω (wszystkie na -έω). W trybie oznajmującym czasu teraźniejszego samogłoska tematu ściąga się z końcówką, tworząc długą samogłoskę lub dyftong z akcentem okrężnym.",
+            "fil": "Maraming bagong pandiwa ang kabilang sa mga contract class: ἀγαπάω at μεριμνάω (parehong -άω contract); κατοικέω, βοηθέω, at καταφιλέω (lahat ay -έω contract). Sa present indicative, ang patinig ng tema ay nagkokontrata sa ending, na nagbubunga ng mahabang patinig o diptonggo na may circumflex accent."
           }
         },
         {
@@ -193,15 +248,30 @@
           "examples": [
             {
               "greek": "τὸ ὄνομα τοῦ φίλου ἐστὶν Φίλιππος",
-              "note": "the name of the friend is Philip"
+              "note": "the name of the friend is Philip",
+              "noteTranslations": {
+                "es": "el nombre del amigo es Felipe",
+                "pl": "imię przyjaciela jest Filip",
+                "fil": "ang pangalan ng kaibigan ay Felipe"
+              }
             },
             {
               "greek": "λούει τὸ σῶμα αὐτοῦ",
-              "note": "he washes his body"
+              "note": "he washes his body",
+              "noteTranslations": {
+                "es": "lava su cuerpo",
+                "pl": "myje swoje ciało",
+                "fil": "hinuhugasan niya ang kanyang katawan"
+              }
             },
             {
               "greek": "ἐν τῷ σώματι κοπιᾷ",
-              "note": "he is weary in body"
+              "note": "he is weary in body",
+              "noteTranslations": {
+                "es": "está fatigado en el cuerpo",
+                "pl": "jest zmęczony na ciele",
+                "fil": "pagod siya sa katawan"
+              }
             }
           ],
           "headingTranslations": {
@@ -243,21 +313,41 @@
           "examples": [
             {
               "greek": "καλόν ἐστι τὸ ὕδωρ τοῦ ποταμοῦ",
-              "note": "the water of the river is good"
+              "note": "the water of the river is good",
+              "noteTranslations": {
+                "es": "el agua del río es buena",
+                "pl": "woda rzeki jest dobra",
+                "fil": "ang tubig ng ilog ay mabuti"
+              }
             },
             {
               "greek": "οὐκ ἔχει ὕδωρ",
-              "note": "he has no water (acc.)"
+              "note": "he has no water (acc.)",
+              "noteTranslations": {
+                "es": "no tiene agua (ac.)",
+                "pl": "nie ma wody (biernik)",
+                "fil": "wala siyang tubig (acc.)"
+              }
             },
             {
               "greek": "ἐν τῇ πηγῇ καθαρὸν ὕδωρ ἐστίν",
-              "note": "in the spring there is pure water"
+              "note": "in the spring there is pure water",
+              "noteTranslations": {
+                "es": "en la fuente hay agua pura",
+                "pl": "w źródle jest czysta woda",
+                "fil": "sa bukal may malinis na tubig"
+              }
             }
           ],
           "headingTranslations": {
             "es": "5. ὕδωρ — un neutro de la 3ª declinación con cambio de tema",
             "pl": "5. ὕδωρ — nijaki 3. deklinacji ze zmianą tematu",
             "fil": "5. ὕδωρ — isang 3rd-declension neuter na may pagbabago ng tema"
+          },
+          "contentTranslations": {
+            "es": "ὕδωρ (agua) es un neutro de la 3ª declinación con tema irregular. El nominativo/acusativo es ὕδωρ, pero el genitivo revela el tema verdadero: ὕδατ-. Este patrón con -τ- es paralelo al de los sustantivos en -μα.",
+            "pl": "ὕδωρ (woda) to nijaki rzeczownik 3. deklinacji o nieregularnym temacie. Mianownik/biernik to ὕδωρ, lecz dopełniacz ujawnia prawdziwy temat: ὕδατ-. Ten wzorzec z -τ- jest analogiczny do rzeczowników na -μα.",
+            "fil": "Ang ὕδωρ (tubig) ay isang 3rd-declension neuter na may di-regular na tema. Ang nominative/accusative ay ὕδωρ, ngunit ang genitive ay nagpapakita ng tunay na tema: ὕδατ-. Ang pattern na ito na may -τ- ay kahalintulad ng mga -μα na pangngalan."
           }
         },
         {
@@ -314,11 +404,21 @@
           "examples": [
             {
               "greek": "ἀπέρχεται μετὰ χαρᾶς καὶ εἰρήνης",
-              "note": "he departs with joy and peace (μετά + gen.)"
+              "note": "he departs with joy and peace (μετά + gen.)",
+              "noteTranslations": {
+                "es": "parte con alegría y paz (μετά + gen.)",
+                "pl": "odchodzi z radością i pokojem (μετά + dop.)",
+                "fil": "umaalis siya nang may kagalakan at kapayapaan (μετά + gen.)"
+              }
             },
             {
               "greek": "μετὰ δὲ τοῦτο διψᾷ",
-              "note": "after this he is thirsty (μετά + acc.)"
+              "note": "after this he is thirsty (μετά + acc.)",
+              "noteTranslations": {
+                "es": "después de esto tiene sed (μετά + ac.)",
+                "pl": "po tym jest spragniony (μετά + biernik)",
+                "fil": "pagkatapos nito ay nauuhaw siya (μετά + acc.)"
+              }
             }
           ],
           "headingTranslations": {
@@ -339,21 +439,41 @@
           "examples": [
             {
               "greek": "οὐ γινώσκω τί μέλλω ποιεῖν",
-              "note": "I do not know what I should do (indicative: οὐ)"
+              "note": "I do not know what I should do (indicative: οὐ)",
+              "noteTranslations": {
+                "es": "no sé qué debo hacer (indicativo: οὐ)",
+                "pl": "nie wiem, co powinienem zrobić (tryb oznajmujący: οὐ)",
+                "fil": "hindi ko alam kung ano ang dapat kong gawin (indicative: οὐ)"
+              }
             },
             {
               "greek": "μὴ μερίμνα",
-              "note": "do not worry (imperative: μή)"
+              "note": "do not worry (imperative: μή)",
+              "noteTranslations": {
+                "es": "no te preocupes (imperativo: μή)",
+                "pl": "nie martw się (tryb rozkazujący: μή)",
+                "fil": "huwag mag-alala (imperative: μή)"
+              }
             },
             {
               "greek": "βούλομαι μὴ μεριμνᾶν",
-              "note": "I want not to worry (infinitive: μή)"
+              "note": "I want not to worry (infinitive: μή)",
+              "noteTranslations": {
+                "es": "quiero no preocuparme (infinitivo: μή)",
+                "pl": "chcę się nie martwić (bezokolicznik: μή)",
+                "fil": "gusto kong huwag mag-alala (infinitive: μή)"
+              }
             }
           ],
           "headingTranslations": {
             "es": "7. La partícula negativa μή con imperativos e infinitivos",
             "pl": "7. Partykuła przecząca μή z trybem rozkazującym i bezokolicznikami",
             "fil": "7. Ang negatibong partikula μή kasama ang mga imperative at infinitive"
+          },
+          "contentTranslations": {
+            "es": "El griego usa dos palabras distintas para «no»: οὐ / οὐκ / οὐχ niega verbos en indicativo (afirmaciones de hecho). μή niega formas no indicativas: imperativos, infinitivos y, más adelante, participios y subjuntivos.",
+            "pl": "Greka używa dwóch różnych słów dla «nie»: οὐ / οὐκ / οὐχ przeczy czasownikom w trybie oznajmującym (stwierdzenia faktów). μή przeczy formom nie-oznajmującym: trybowi rozkazującemu, bezokolicznikom, a później imiesłowom i trybowi łączącemu.",
+            "fil": "Gumagamit ang Griyego ng dalawang magkaibang salita para sa «hindi»: οὐ / οὐκ / οὐχ ay nagtatanggal sa mga indicative verb (mga pahayag ng katotohanan). Ang μή ay nagtatanggal sa mga hindi-indicative na anyo: mga imperative, infinitive, at kalaunan ay mga participle at subjunctive."
           }
         },
         {
@@ -363,17 +483,32 @@
           "examples": [
             {
               "greek": "ἆρα ἡ Μάρθα ἡ γυνή σου καλῶς ἔχει;",
-              "note": "Is your wife Martha well?"
+              "note": "Is your wife Martha well?",
+              "noteTranslations": {
+                "es": "¿Está bien tu esposa Marta?",
+                "pl": "Czy twoja żona Marta ma się dobrze?",
+                "fil": "Mabuti ba ang iyong asawang si Marta?"
+              }
             },
             {
               "greek": "πῶς ἔχεις σήμερον;",
-              "note": "How are you today?"
+              "note": "How are you today?",
+              "noteTranslations": {
+                "es": "¿Cómo estás hoy?",
+                "pl": "Jak się dziś masz?",
+                "fil": "Kumusta ka ngayon?"
+              }
             }
           ],
           "headingTranslations": {
             "es": "8. ἆρα y πῶς — palabras interrogativas",
             "pl": "8. ἆρα i πῶς — wyrazy pytajne",
             "fil": "8. ἆρα at πῶς — mga salitang interrogative"
+          },
+          "contentTranslations": {
+            "es": "ἆρα es una partícula interrogativa que se coloca al inicio de una pregunta de sí/no. No se traduce directamente; simplemente señala que sigue una pregunta. πῶς es un adverbio interrogativo que significa «cómo» e introduce preguntas sobre el modo.",
+            "pl": "ἆρα to partykuła pytajna umieszczana na początku pytania wymagającego odpowiedzi tak/nie. Nie jest tłumaczona bezpośrednio — sygnalizuje jedynie, że następuje pytanie. πῶς to przysłówek pytajny oznaczający «jak» i wprowadzający pytania dotyczące sposobu.",
+            "fil": "Ang ἆρα ay isang interrogative particle na inilalagay sa simula ng isang oo/hindi na tanong. Hindi ito direktang isinasalin — nagpapahiwatig lamang ito na sumusunod ang isang tanong. Ang πῶς ay isang interrogative adverb na nangangahulugang «paano» at nagpapakilala ng mga tanong tungkol sa paraan."
           }
         }
       ]
@@ -388,21 +523,41 @@
           "examples": [
             {
               "greek": "ἡ μὲν σελήνη οὐκέτι λάμπει· ὁ δὲ ἥλιος ἀνατέλλει",
-              "note": "the moon no longer shines; but the sun rises"
+              "note": "the moon no longer shines; but the sun rises",
+              "noteTranslations": {
+                "es": "la luna ya no brilla; pero el sol sale",
+                "pl": "księżyc już nie świeci; lecz słońce wschodzi",
+                "fil": "ang buwan ay hindi na kumikislap; ngunit ang araw ay sumisinag"
+              }
             },
             {
               "greek": "χαλεπὰ μὲν τὰ ἔργα· πολλὴ δὲ χαρά",
-              "note": "the labors are difficult; but there is great joy"
+              "note": "the labors are difficult; but there is great joy",
+              "noteTranslations": {
+                "es": "los trabajos son difíciles; pero hay gran alegría",
+                "pl": "prace są trudne; lecz jest wielka radość",
+                "fil": "mahirap ang mga gawain; ngunit may malaking kagalakan"
+              }
             },
             {
               "greek": "οἱ μὲν πλούσιοί εἰσιν… ἕτεροι δὲ πτωχοί εἰσιν",
-              "note": "some are rich… others are poor"
+              "note": "some are rich… others are poor",
+              "noteTranslations": {
+                "es": "unos son ricos… otros son pobres",
+                "pl": "jedni są bogaci… inni są biedni",
+                "fil": "ang ilan ay mayaman… ang iba ay mahirap"
+              }
             }
           ],
           "headingTranslations": {
             "es": "9. La construcción μέν … δέ",
             "pl": "9. Konstrukcja μέν … δέ",
             "fil": "9. Ang μέν … δέ na konstruksyon"
+          },
+          "contentTranslations": {
+            "es": "El par μέν … δέ se usa para contrastar dos elementos o cláusulas. μέν señala «por un lado» y δέ señala «por otro lado». Ninguna de las dos palabras se traduce con fuerza al inglés; juntas crean un contraste equilibrado. Siempre van en segunda posición en su cláusula (postpositivas).",
+            "pl": "Para μέν … δέ służy do zestawiania dwóch elementów lub zdań. μέν sygnalizuje «z jednej strony», a δέ «z drugiej strony». Żadne z tych słów nie jest silnie tłumaczone; razem tworzą zrównoważony kontrast. Zawsze zajmują drugie miejsce w swojej klauzuli (postpozycyjne).",
+            "fil": "Ang pares na μέν … δέ ay ginagamit upang ikumpara ang dalawang bagay o sugnay. Ang μέν ay nagpapahiwatig ng «sa isang banda» at ang δέ ay nagpapahiwatig ng «sa kabilang banda». Ang alinman sa mga salitang ito ay hindi malakas na isinasalin sa Filipino; magkasama ay lumilikha sila ng balanseng kontraste. Palagi silang pumupunta sa pangalawang posisyon sa kanilang sugnay (postpositive)."
           }
         },
         {
@@ -412,21 +567,41 @@
           "examples": [
             {
               "greek": "ζητεῖ τόπον ὅπου δύναται καθίζειν",
-              "note": "he seeks a place where he is able to sit"
+              "note": "he seeks a place where he is able to sit",
+              "noteTranslations": {
+                "es": "busca un lugar donde pueda sentarse",
+                "pl": "szuka miejsca, gdzie może siedzieć",
+                "fil": "naghahanap siya ng lugar kung saan siya makakaupо"
+              }
             },
             {
               "greek": "τὸ δένδρον παρέχει σκίαν ὅπου οἱ ἄνθρωποι ἀναπαύονται",
-              "note": "the tree provides shade where people rest"
+              "note": "the tree provides shade where people rest",
+              "noteTranslations": {
+                "es": "el árbol da sombra donde la gente descansa",
+                "pl": "drzewo daje cień, gdzie ludzie odpoczywają",
+                "fil": "ang puno ay nagbibigay ng lilim kung saan nagpapahinga ang mga tao"
+              }
             },
             {
               "greek": "πίνουσιν ὕδωρ ὅτε κοπιῶσιν",
-              "note": "they drink water when they are weary"
+              "note": "they drink water when they are weary",
+              "noteTranslations": {
+                "es": "beben agua cuando están cansados",
+                "pl": "piją wodę, gdy są zmęczeni",
+                "fil": "umiinom sila ng tubig kapag pagod sila"
+              }
             }
           ],
           "headingTranslations": {
             "es": "10. Los adverbios relativos ὅπου y ὅτε",
             "pl": "10. Względne przysłówki ὅπου i ὅτε",
             "fil": "10. Ang mga relative adverb ὅπου at ὅτε"
+          },
+          "contentTranslations": {
+            "es": "ὅπου significa «donde» (relativo, no interrogativo — ese es ποῦ;). ὅτε significa «cuando» (conjunción relativa). Ambos introducen cláusulas subordinadas que describen lugar o tiempo.",
+            "pl": "ὅπου oznacza «gdzie» (względne, nie pytajne — to jest ποῦ;). ὅτε oznacza «gdy» (spójnik względny). Oba wprowadzają zdania podrzędne opisujące miejsce lub czas.",
+            "fil": "Ang ὅπου ay nangangahulugang «kung saan» (relative, hindi interrogative — iyon ay ποῦ;). Ang ὅτε ay nangangahulugang «noong / kapag» (relative conjunction). Parehong nagpapakilala ng mga subordinate clause na naglalarawan ng lugar o oras."
           }
         },
         {
@@ -436,17 +611,32 @@
           "examples": [
             {
               "greek": "καθ᾽ ἡμέραν ἐργάζονται",
-              "note": "they work every day (κατά + ἡμέραν)"
+              "note": "they work every day (κατά + ἡμέραν)",
+              "noteTranslations": {
+                "es": "trabajan cada día (κατά + ἡμέραν)",
+                "pl": "pracują każdego dnia (κατά + ἡμέραν)",
+                "fil": "nagtatrabaho sila araw-araw (κατά + ἡμέραν)"
+              }
             },
             {
               "greek": "κἀγώ, καλῶς ἔχω",
-              "note": "and I too am well (καὶ + ἐγώ contracted)"
+              "note": "and I too am well (καὶ + ἐγώ contracted)",
+              "noteTranslations": {
+                "es": "y yo también estoy bien (καὶ + ἐγώ contraído)",
+                "pl": "i ja też mam się dobrze (καὶ + ἐγώ ściągnięte)",
+                "fil": "at ako rin ay mabuti (καὶ + ἐγώ na pinagsamasama)"
+              }
             }
           ],
           "headingTranslations": {
             "es": "11. καθ᾽ ἡμέραν — elisión y crasis",
             "pl": "11. καθ᾽ ἡμέραν — elizja i kraza",
             "fil": "11. καθ᾽ ἡμέραν — elision at crasis"
+          },
+          "contentTranslations": {
+            "es": "καθ᾽ ἡμέραν es una frase contraída de κατά + ἡμέραν. Cuando κατά precede a una palabra que empieza por vocal, la -α final cae (elisión) y deja un apóstrofo. κατά + ἡμέραν (acusativo) = «según cada día» = «diariamente, cada día». El mismo patrón de crasis aparece con κἀγώ (καὶ + ἐγώ) en el diálogo.",
+            "pl": "καθ᾽ ἡμέραν to wyrażenie skrócone z κατά + ἡμέραν. Gdy κατά poprzedza słowo zaczynające się od samogłoski, końcowe -α odpada (elizja) i pozostaje apostrof. κατά + ἡμέραν (biernik) = «według każdego dnia» = «codziennie». Ten sam wzorzec krazyma widać w κἀγώ (καὶ + ἐγώ) w dialogu.",
+            "fil": "Ang καθ᾽ ἡμέραν ay isang pinaikling parirala mula sa κατά + ἡμέραν. Kapag ang κατά ay nauuna sa salitang nagsisimula sa patinig, ang panghuling -α ay nawawala (elision) at nag-iiwan ng apostrophe. Ang κατά + ἡμέραν (accusative) = «ayon sa bawat araw» = «araw-araw.» Ang parehong crasis pattern ay makikita sa κἀγώ (καὶ + ἐγώ) sa diyalogo."
           }
         },
         {
@@ -456,21 +646,41 @@
           "examples": [
             {
               "greek": "οἱ πλούσιοι",
-              "note": "the rich (men) — masculine plural"
+              "note": "the rich (men) — masculine plural",
+              "noteTranslations": {
+                "es": "los ricos — masculino plural",
+                "pl": "bogaci (mężczyźni) — liczba mnoga rodzaju męskiego",
+                "fil": "ang mayayaman — masculine plural"
+              }
             },
             {
               "greek": "οἱ πτωχοί",
-              "note": "the poor (men) — masculine plural"
+              "note": "the poor (men) — masculine plural",
+              "noteTranslations": {
+                "es": "los pobres — masculino plural",
+                "pl": "biedni (mężczyźni) — liczba mnoga rodzaju męskiego",
+                "fil": "ang mga mahirap — masculine plural"
+              }
             },
             {
               "greek": "τὰ χαλεπά",
-              "note": "the difficult things — neuter plural"
+              "note": "the difficult things — neuter plural",
+              "noteTranslations": {
+                "es": "las cosas difíciles — neutro plural",
+                "pl": "rzeczy trudne — liczba mnoga rodzaju nijakiego",
+                "fil": "ang mga mahirap na bagay — neuter plural"
+              }
             }
           ],
           "headingTranslations": {
             "es": "12. Adjetivos usados como sustantivos (adjetivos sustantivados)",
             "pl": "12. Przymiotniki używane jako rzeczowniki (przymiotniki substantywowane)",
             "fil": "12. Mga pang-uri na ginagamit bilang pangngalan (substantive adjective)"
+          },
+          "contentTranslations": {
+            "es": "Los adjetivos griegos pueden aparecer solos sin un sustantivo cuando hay artículo. El artículo señala que el adjetivo se está usando como sustantivo. El género del artículo indica a quién se refiere: masculino = hombres/personas, femenino = mujeres, neutro = cosas.",
+            "pl": "Greckie przymiotniki mogą stać samodzielnie bez rzeczownika, gdy jest obecny rodzajnik. Rodzajnik sygnalizuje, że przymiotnik jest używany jako rzeczownik. Rodzaj rodzajnika wskazuje, o kim mowa: rodzaj męski = mężczyźni/ludzie, żeński = kobiety, nijaki = rzeczy.",
+            "fil": "Ang mga Griyegong pang-uri ay maaaring tumayo nang mag-isa nang walang pangngalan kapag naroroon ang article. Ang article ay nagpapahiwatig na ang pang-uri ay ginagamit bilang pangngalan. Ang kasarian ng article ay nagsasabi kung sino ang tinutukoy: masculine = mga lalaki/tao, feminine = mga babae, neuter = mga bagay."
           }
         },
         {
@@ -480,17 +690,32 @@
           "examples": [
             {
               "greek": "ἐγὼ πάρειμι ὧδε",
-              "note": "I am here (present)"
+              "note": "I am here (present)",
+              "noteTranslations": {
+                "es": "yo estoy aquí (presente)",
+                "pl": "jestem tutaj (obecny)",
+                "fil": "nandito ako (naroroon)"
+              }
             },
             {
               "greek": "φίλος γάρ σοί εἰμι",
-              "note": "for I am a friend to you (simple εἰμί)"
+              "note": "for I am a friend to you (simple εἰμί)",
+              "noteTranslations": {
+                "es": "pues soy tu amigo (εἰμί simple)",
+                "pl": "gdyż jestem twoim przyjacielem (zwykłe εἰμί)",
+                "fil": "sapagkat kaibigan mo ako (simpleng εἰμί)"
+              }
             }
           ],
           "headingTranslations": {
             "es": "13. El verbo πάρειμι — compuesto de εἰμί",
             "pl": "13. Czasownik πάρειμι — złożenie εἰμί",
             "fil": "13. Ang pandiwang πάρειμι — compound ng εἰμί"
+          },
+          "contentTranslations": {
+            "es": "πάρειμι se forma del prefijo παρά- (junto a, cerca de) + εἰμί. Significa «estoy presente» o «estoy aquí». Se conjuga como εἰμί: πάρειμι, πάρει, πάρεστιν, πάρεσμεν, πάρεστε, πάρεισιν. Compuestos similares: ἄπειμι (estar ausente), σύνειμι (estar con).",
+            "pl": "πάρειμι tworzy się z przedrostka παρά- (obok, blisko) + εἰμί. Oznacza «jestem obecny» lub «jestem tutaj». Odmienia się jak εἰμί: πάρειμι, πάρει, πάρεστιν, πάρεσμεν, πάρεστε, πάρεισιν. Podobne złożenia: ἄπειμι (być nieobecnym), σύνειμι (być z kimś).",
+            "fil": "Ang πάρειμι ay binubuo mula sa prefix na παρά- (sa tabi, malapit) + εἰμί. Nangangahulugan itong «naroroon ako» o «nandito ako.» Nagko-conjugate ito tulad ng εἰμί: πάρειμι, πάρει, πάρεστιν, πάρεσμεν, πάρεστε, πάρεισιν. Mga katulad na compound: ἄπειμι (maging wala), σύνειμι (maging kasama)."
           }
         },
         {
@@ -500,17 +725,32 @@
           "examples": [
             {
               "greek": "ἐργάζονται ἐν τοῖς ἰδίοις ἀγροῖς",
-              "note": "they work in their own fields"
+              "note": "they work in their own fields",
+              "noteTranslations": {
+                "es": "trabajan en sus propios campos",
+                "pl": "pracują na własnych polach",
+                "fil": "nagtatrabaho sila sa kanilang sariling mga bukid"
+              }
             },
             {
               "greek": "ὁ ἴδιος οἶκος",
-              "note": "one's own house"
+              "note": "one's own house",
+              "noteTranslations": {
+                "es": "la propia casa",
+                "pl": "własny dom",
+                "fil": "ang sariling bahay"
+              }
             }
           ],
           "headingTranslations": {
             "es": "14. ἴδιος — «el propio»",
             "pl": "14. ἴδιος — «własny»",
             "fil": "14. ἴδιος — «sarili»"
+          },
+          "contentTranslations": {
+            "es": "ἴδιος, -α, -ον es un adjetivo que significa «propio» o «privado». Enfatiza que algo pertenece personalmente al sujeto. A menudo se usa sin pronombre posesivo porque ya implica posesión.",
+            "pl": "ἴδιος, -α, -ον to przymiotnik znaczący «własny» lub «prywatny». Podkreśla, że coś należy osobiście do podmiotu. Często używany bez zaimka dzierżawczego, gdyż sam implikuje posiadanie.",
+            "fil": "Ang ἴδιος, -α, -ον ay isang pang-uri na nangangahulugang «sarili» o «pribado.» Binibigyang-diin nito na ang isang bagay ay personal na pag-aari ng paksa. Madalas itong gamitin nang walang possessive pronoun dahil nagpapahiwatig na ito ng pagmamay-ari."
           }
         },
         {
@@ -520,25 +760,50 @@
           "examples": [
             {
               "greek": "χαλεπὸν ἐργάζεσθαι τὸ ἔργον",
-              "note": "to do the work is difficult (infinitive as subject)"
+              "note": "to do the work is difficult (infinitive as subject)",
+              "noteTranslations": {
+                "es": "hacer el trabajo es difícil (infinitivo como sujeto)",
+                "pl": "wykonywanie pracy jest trudne (bezokolicznik jako podmiot)",
+                "fil": "mahirap gawin ang gawain (infinitive bilang paksa)"
+              }
             },
             {
               "greek": "ἀγαθὸν δέχεσθαι τὸν καρπόν",
-              "note": "it is good to receive the fruit"
+              "note": "it is good to receive the fruit",
+              "noteTranslations": {
+                "es": "es bueno recibir el fruto",
+                "pl": "dobrze jest przyjmować owoc",
+                "fil": "mabuti ang tumanggap ng bunga"
+              }
             },
             {
               "greek": "βούλομαι πορεύεσθαι πρὸς τὴν κώμην",
-              "note": "I want to go to the village (infinitive as object)"
+              "note": "I want to go to the village (infinitive as object)",
+              "noteTranslations": {
+                "es": "quiero ir al pueblo (infinitivo como objeto)",
+                "pl": "chcę iść do wioski (bezokolicznik jako dopełnienie)",
+                "fil": "gusto kong pumunta sa nayon (infinitive bilang object)"
+              }
             },
             {
               "greek": "δύναμαι ἀντλεῖν τὸ ὕδωρ",
-              "note": "I am able to draw the water"
+              "note": "I am able to draw the water",
+              "noteTranslations": {
+                "es": "puedo sacar el agua",
+                "pl": "mogę czerpać wodę",
+                "fil": "kaya kong umigib ng tubig"
+              }
             }
           ],
           "headingTranslations": {
             "es": "15. El infinitivo como sujeto u objeto",
             "pl": "15. Bezokolicznik jako podmiot lub dopełnienie",
             "fil": "15. Ang infinitive bilang paksa o object"
+          },
+          "contentTranslations": {
+            "es": "Los infinitivos griegos funcionan como sustantivos verbales. Pueden ser el sujeto de una oración (a menudo con un artículo neutro o solos) o el objeto de verbos de querer, poder, tener intención (θέλω, βούλομαι, δύναμαι, μέλλω).",
+            "pl": "Greckie bezokoliczniki pełnią funkcję rzeczowników werbalnych. Mogą być podmiotem zdania (często z rodzajnikiem nijakim lub samodzielnie) lub dopełnieniem czasowników wyrażających chęć, zdolność, zamiar (θέλω, βούλομαι, δύναμαι, μέλλω).",
+            "fil": "Ang mga Griyegong infinitive ay gumagana bilang mga berbal na pangngalan. Maaari silang maging paksa ng isang pangungusap (madalay kasama ang neuter article o nag-iisa) o object ng mga pandiwang nagpapahayag ng pagnanais, kakayahan, o intensyon (θέλω, βούλομαι, δύναμαι, μέλλω)."
           }
         }
       ]

@@ -36,15 +36,30 @@
           "examples": [
             {
               "greek": "ἵνα ἀντλῇ τὸ ὕδωρ",
-              "note": "so that she may draw the water (3rd sg. subj.)"
+              "note": "so that she may draw the water (3rd sg. subj.)",
+              "noteTranslations": {
+                "es": "para que saque el agua (3ª sg. subj.)",
+                "pl": "żeby czerpała wodę (3. os. l.poj. trybu łączącego)",
+                "fil": "upang umigib siya ng tubig (3rd sg. subj.)"
+              }
             },
             {
               "greek": "ἵνα πίνῃ",
-              "note": "so that he may drink (3rd sg. subj.)"
+              "note": "so that he may drink (3rd sg. subj.)",
+              "noteTranslations": {
+                "es": "para que beba (3ª sg. subj.)",
+                "pl": "żeby pił (3. os. l.poj. trybu łączącego)",
+                "fil": "upang uminom siya (3rd sg. subj.)"
+              }
             },
             {
               "greek": "ἵνα γινώσκωμεν αὐτόν",
-              "note": "so that we may know him (1st pl. subj.)"
+              "note": "so that we may know him (1st pl. subj.)",
+              "noteTranslations": {
+                "es": "para que lo conozcamos (1ª pl. subj.)",
+                "pl": "żebyśmy go poznali (1. os. l.mn. trybu łączącego)",
+                "fil": "upang makilala natin siya (1st pl. subj.)"
+              }
             }
           ],
           "headingTranslations": {
@@ -65,15 +80,30 @@
           "examples": [
             {
               "greek": "ἔρχεται ἵνα ἀντλῇ τὸ ὕδωρ",
-              "note": "she comes in order to draw the water"
+              "note": "she comes in order to draw the water",
+              "noteTranslations": {
+                "es": "viene para sacar el agua",
+                "pl": "przychodzi, żeby czerpać wodę",
+                "fil": "pumunta siya upang umigib ng tubig"
+              }
             },
             {
               "greek": "παρέχει ὕδωρ τῷ Ἰακώβῳ ἵνα πίνῃ",
-              "note": "she provides water to Jacob so that he may drink"
+              "note": "she provides water to Jacob so that he may drink",
+              "noteTranslations": {
+                "es": "le da agua a Jacob para que beba",
+                "pl": "daje wodę Jakubowi, żeby pił",
+                "fil": "nagbibigay siya ng tubig kay Jacob upang uminom siya"
+              }
             },
             {
               "greek": "ὁ Ἰησοῦς βούλεται ἵνα ἡμεῖς γινώσκωμεν αὐτόν",
-              "note": "Jesus wants us to know him"
+              "note": "Jesus wants us to know him",
+              "noteTranslations": {
+                "es": "Jesús quiere que lo conozcamos",
+                "pl": "Jezus chce, żebyśmy Go poznali",
+                "fil": "nais ni Jesus na makilala natin siya"
+              }
             }
           ],
           "headingTranslations": {
@@ -114,15 +144,30 @@
           "examples": [
             {
               "greek": "ἐὰν κλῆμα μένῃ ἐν τῇ ἀμπέλῳ, φέρει καρπόν",
-              "note": "if a branch remains in the vine, it bears fruit"
+              "note": "if a branch remains in the vine, it bears fruit",
+              "noteTranslations": {
+                "es": "si un sarmiento permanece en la vid, da fruto",
+                "pl": "jeśli latorośl trwa w winorośli, przynosi owoc",
+                "fil": "kung ang sanga ay nananatili sa puno ng ubas, nagbubunga ito"
+              }
             },
             {
               "greek": "ἐὰν ἀγαπῶμεν ἀλλήλους, ὁ θεὸς ἐν ἡμῖν μένει",
-              "note": "if we love one another, God remains in us"
+              "note": "if we love one another, God remains in us",
+              "noteTranslations": {
+                "es": "si nos amamos unos a otros, Dios permanece en nosotros",
+                "pl": "jeśli miłujemy się wzajemnie, Bóg trwa w nas",
+                "fil": "kung iniibigin natin ang isa't isa, nananatili ang Diyos sa atin"
+              }
             },
             {
               "greek": "ἐὰν ἄνθρωπος προσκυνῇ τῷ θεῷ ἐν πνεύματι, ὁ θεὸς ἀκούει αὐτοῦ",
-              "note": "if a person worships God in spirit, God hears him"
+              "note": "if a person worships God in spirit, God hears him",
+              "noteTranslations": {
+                "es": "si alguien adora a Dios en espíritu, Dios lo escucha",
+                "pl": "jeśli człowiek czci Boga w duchu, Bóg go słyszy",
+                "fil": "kung isang tao ay sumasamba sa Diyos sa espiritu, dinidinig siya ng Diyos"
+              }
             }
           ],
           "headingTranslations": {
@@ -143,21 +188,41 @@
           "examples": [
             {
               "greek": "ὅταν ἄνθρωπος πεινᾷ, ἐσθίει ἄρτον",
-              "note": "whenever a person is hungry, he eats bread"
+              "note": "whenever a person is hungry, he eats bread",
+              "noteTranslations": {
+                "es": "siempre que alguien tiene hambre, come pan",
+                "pl": "ilekroć człowiek jest głodny, je chleb",
+                "fil": "tuwing nagugutom ang isang tao, kumakain siya ng tinapay"
+              }
             },
             {
               "greek": "ὅταν διψᾷ, πίνει ὕδωρ",
-              "note": "whenever he is thirsty, he drinks water"
+              "note": "whenever he is thirsty, he drinks water",
+              "noteTranslations": {
+                "es": "siempre que tiene sed, bebe agua",
+                "pl": "ilekroć jest spragniony, pije wodę",
+                "fil": "tuwing nauuhaw siya, umiinom siya ng tubig"
+              }
             },
             {
               "greek": "ὅταν ἀγαπῶμεν ἀλλήλους, μένομεν ἐν τῇ ἀγάπῃ",
-              "note": "whenever we love one another, we remain in love"
+              "note": "whenever we love one another, we remain in love",
+              "noteTranslations": {
+                "es": "siempre que nos amamos unos a otros, permanecemos en el amor",
+                "pl": "ilekroć miłujemy się wzajemnie, trwamy w miłości",
+                "fil": "tuwing iniibigin natin ang isa't isa, nananatili tayo sa pag-ibig"
+              }
             }
           ],
           "headingTranslations": {
             "es": "4. ὅταν + subjuntivo — cláusulas temporales indefinidas",
             "pl": "4. ὅταν + tryb łączący — nieokreślone zdania czasowe",
             "fil": "4. ὅταν + subjunctive — indefinite temporal clause"
+          },
+          "contentTranslations": {
+            "es": "ὅταν (= ὅτε + ἄν) significa «siempre que» e introduce una cláusula temporal que expresa tiempo indefinido, repetido o futuro. Como ἐάν, siempre va con subjuntivo. Compara ὅτε («cuando», evento pasado definido) + indicativo vs. ὅταν («siempre que», general) + subjuntivo.",
+            "pl": "ὅταν (= ὅτε + ἄν) oznacza «ilekroć» i wprowadza zdanie czasowe wyrażające czas nieokreślony, powtarzający się lub przyszły. Podobnie jak ἐάν, zawsze wymaga trybu łączącego. Porównaj ὅτε («gdy», określone wydarzenie przeszłe) + tryb oznajmujący z ὅταν («ilekroć», ogólnie) + tryb łączący.",
+            "fil": "Ang ὅταν (= ὅτε + ἄν) ay nangangahulugang «tuwing» — nagpapakilala ito ng temporal clause na nagpapahayag ng di-tiyak, paulit-ulit, o hinaharap na panahon. Tulad ng ἐάν, palagi itong kumukuha ng subjunctive. Ihambing ang ὅτε («noong», tiyak na nakaraang pangyayari) + indicative kumpara sa ὅταν («tuwing», pangkalahatan) + subjunctive."
           }
         },
         {
@@ -202,15 +267,30 @@
           "examples": [
             {
               "greek": "ὁ θεός, ὅς ἐστιν ὁ πατήρ",
-              "note": "God, who is the Father (masc. nom.)"
+              "note": "God, who is the Father (masc. nom.)",
+              "noteTranslations": {
+                "es": "Dios, que es el Padre (masc. nom.)",
+                "pl": "Bóg, który jest Ojcem (rodz. męski, mianownik)",
+                "fil": "ang Diyos, na siyang Ama (masc. nom.)"
+              }
             },
             {
               "greek": "ἡ ἄμπελος, ἥ ἐστιν ἐγγὺς τῆς πηγῆς",
-              "note": "the vine, which is near the spring (fem. nom.)"
+              "note": "the vine, which is near the spring (fem. nom.)",
+              "noteTranslations": {
+                "es": "la vid, que está cerca de la fuente (fem. nom.)",
+                "pl": "winorośl, która jest blisko źródła (rodz. żeński, mianownik)",
+                "fil": "ang puno ng ubas, na malapit sa bukal (fem. nom.)"
+              }
             },
             {
               "greek": "ἡ ἀγάπη αὐτοῦ, ἥ ἐστιν μεγάλη",
-              "note": "his love, which is great"
+              "note": "his love, which is great",
+              "noteTranslations": {
+                "es": "su amor, que es grande",
+                "pl": "jego miłość, która jest wielka",
+                "fil": "ang kanyang pag-ibig, na dakila"
+              }
             }
           ],
           "headingTranslations": {
@@ -231,21 +311,41 @@
           "examples": [
             {
               "greek": "ὅστις πίνει τοῦτο τὸ ὕδωρ οὐκέτι διψᾷ",
-              "note": "whoever drinks this water will no longer be thirsty"
+              "note": "whoever drinks this water will no longer be thirsty",
+              "noteTranslations": {
+                "es": "quien beba esta agua ya no tendrá sed",
+                "pl": "ktokolwiek pije tę wodę, nie będzie już pragnął",
+                "fil": "sinumang uminom ng tubig na ito ay hindi na mauuhaw"
+              }
             },
             {
               "greek": "ὅστις πιστεύει τῷ Ἰησοῦ καὶ πιστεύει τῷ θεῷ",
-              "note": "whoever believes in Jesus also believes in God"
+              "note": "whoever believes in Jesus also believes in God",
+              "noteTranslations": {
+                "es": "quien cree en Jesús también cree en Dios",
+                "pl": "ktokolwiek wierzy Jezusowi, wierzy też Bogu",
+                "fil": "sinumang naniniwala kay Jesus ay naniniwala rin sa Diyos"
+              }
             },
             {
               "greek": "ὅστις ἔρχεται πρὸς αὐτὸν οὐκέτι πεινᾷ",
-              "note": "whoever comes to him will no longer be hungry"
+              "note": "whoever comes to him will no longer be hungry",
+              "noteTranslations": {
+                "es": "quien venga a él ya no tendrá hambre",
+                "pl": "ktokolwiek przychodzi do niego, nie będzie już głodny",
+                "fil": "sinumang lumalapit sa kanya ay hindi na magugutom"
+              }
             }
           ],
           "headingTranslations": {
             "es": "6. ὅστις — el pronombre relativo indefinido",
             "pl": "6. ὅστις — nieokreślony zaimek względny",
             "fil": "6. ὅστις — ang indefinite relative pronoun"
+          },
+          "contentTranslations": {
+            "es": "ὅστις («quien quiera que, cualquiera que») es un compuesto de ὅς + τις. Es más general o indefinido que ὅς: mientras que ὅς se refiere a un antecedente específico, ὅστις se refiere a cualquier miembro de una clase. En el Nuevo Testamento a menudo funciona como ὅς.",
+            "pl": "ὅστις («ktokolwiek, każdy kto») to złożenie ὅς + τις. Jest bardziej ogólny lub nieokreślony niż ὅς: tam gdzie ὅς odnosi się do konkretnego poprzednika, ὅστις odnosi się do dowolnego członka klasy. W Nowym Testamencie często funkcjonuje jak ὅς.",
+            "fil": "Ang ὅστις («sinuman, kahit sino») ay isang compound ng ὅς + τις. Ito ay mas pangkalahatan o di-tiyak kaysa sa ὅς: kung saan ang ὅς ay tumutukoy sa isang tiyak na antecedent, ang ὅστις ay tumutukoy sa kahit sinong miyembro ng isang klase. Sa Bagong Tipan, madalas itong gumagana tulad ng ὅς."
           }
         },
         {
@@ -255,21 +355,41 @@
           "examples": [
             {
               "greek": "πιστεύω τῷ θεῷ",
-              "note": "I believe in God (dat.)"
+              "note": "I believe in God (dat.)",
+              "noteTranslations": {
+                "es": "creo en Dios (dat.)",
+                "pl": "wierzę Bogu (celownik)",
+                "fil": "naniniwala ako sa Diyos (dat.)"
+              }
             },
             {
               "greek": "πιστεύω τῷ Ἰησοῦ",
-              "note": "I believe in Jesus (dat.)"
+              "note": "I believe in Jesus (dat.)",
+              "noteTranslations": {
+                "es": "creo en Jesús (dat.)",
+                "pl": "wierzę Jezusowi (celownik)",
+                "fil": "naniniwala ako kay Jesus (dat.)"
+              }
             },
             {
               "greek": "προσκυνοῦμεν αὐτῷ ἐν πνεύματι",
-              "note": "we worship him in spirit (dat.)"
+              "note": "we worship him in spirit (dat.)",
+              "noteTranslations": {
+                "es": "lo adoramos en espíritu (dat.)",
+                "pl": "czcimy Go w duchu (celownik)",
+                "fil": "sinasamba natin siya sa espiritu (dat.)"
+              }
             }
           ],
           "headingTranslations": {
             "es": "7. πιστεύω y προσκυνέω + dativo",
             "pl": "7. πιστεύω i προσκυνέω + celownik",
             "fil": "7. πιστεύω at προσκυνέω + dative"
+          },
+          "contentTranslations": {
+            "es": "Tanto πιστεύω (creer) como προσκυνέω (adorar) toman el dativo para el objeto de su acción, no el acusativo. Este es el dativo de relación personal. Compara: ἀγαπῶ τὸν θεόν (acusativo) vs. πιστεύω τῷ θεῷ (dativo).",
+            "pl": "Zarówno πιστεύω (wierzyć) jak i προσκυνέω (czcić) przyjmują celownik dla dopełnienia swojego działania, nie biernik. Jest to celownik relacji osobowej. Porównaj: ἀγαπῶ τὸν θεόν (biernik) vs. πιστεύω τῷ θεῷ (celownik).",
+            "fil": "Ang parehong πιστεύω (maniniwala) at προσκυνέω (sumamba) ay kumukuha ng dative para sa object ng kanilang kilos, hindi accusative. Ito ang dative ng personal na relasyon. Ihambing: ἀγαπῶ τὸν θεόν (accusative) kumpara sa πιστεύω τῷ θεῷ (dative)."
           }
         },
         {
@@ -279,21 +399,41 @@
           "examples": [
             {
               "greek": "τῷ σώματι ἡμεῖς ἐσθίομεν καὶ πίνομεν",
-              "note": "with the body we eat and drink"
+              "note": "with the body we eat and drink",
+              "noteTranslations": {
+                "es": "con el cuerpo comemos y bebemos",
+                "pl": "ciałem jemy i pijemy",
+                "fil": "sa pamamagitan ng katawan ay kumakain at umiinom tayo"
+              }
             },
             {
               "greek": "τῷ πνεύματι ἡμεῖς γινώσκομεν τὸν θεόν",
-              "note": "with/by the spirit we know God"
+              "note": "with/by the spirit we know God",
+              "noteTranslations": {
+                "es": "por el espíritu conocemos a Dios",
+                "pl": "duchem poznajemy Boga",
+                "fil": "sa pamamagitan ng espiritu ay nakikilala natin ang Diyos"
+              }
             },
             {
               "greek": "σιγᾷ τῷ στόματι",
-              "note": "she is silent with her mouth"
+              "note": "she is silent with her mouth",
+              "noteTranslations": {
+                "es": "calla con su boca",
+                "pl": "milczy ustami",
+                "fil": "tahimik siya sa kanyang bibig"
+              }
             }
           ],
           "headingTranslations": {
             "es": "8. El dativo de instrumento/medio",
             "pl": "8. Celownik narzędzia/środka",
             "fil": "8. Ang dative ng instrumento/paraan"
+          },
+          "contentTranslations": {
+            "es": "El dativo sin preposición puede expresar el medio o instrumento con el que se hace algo. Este uso ya es familiar del dativo de modo; aquí se emplea con cuerpo/espíritu: τῷ σώματι («con el cuerpo») y τῷ πνεύματι («con el espíritu»).",
+            "pl": "Celownik bez przyimka może wyrażać środek lub narzędzie, za pomocą którego coś się dzieje. Ten użytek jest już znany z celownika sposobu; tutaj jest stosowany z ciałem/duchem: τῷ σώματι («ciałem») i τῷ πνεύματι («duchem»).",
+            "fil": "Ang dative nang walang preposisyon ay maaaring magpahayag ng paraan o instrumento kung saan ginagawa ang isang bagay. Ang gamit na ito ay pamilyar na mula sa dative of manner; dito ay ginagamit kasama ang katawan/espiritu: τῷ σώματι («sa/ng katawan») at τῷ πνεύματι («sa/ng espiritu»)."
           }
         },
         {
@@ -303,17 +443,32 @@
           "examples": [
             {
               "greek": "γυνή τις ἀπὸ τῆς κώμης",
-              "note": "a certain woman from the village"
+              "note": "a certain woman from the village",
+              "noteTranslations": {
+                "es": "una cierta mujer del pueblo",
+                "pl": "pewna kobieta z wioski",
+                "fil": "isang babae mula sa nayon"
+              }
             },
             {
               "greek": "ἐάν τις λέγῃ ὅτι ἀγαπῶ τὸν θεόν",
-              "note": "if anyone says that he loves God"
+              "note": "if anyone says that he loves God",
+              "noteTranslations": {
+                "es": "si alguien dice que ama a Dios",
+                "pl": "jeśli ktoś mówi, że miłuje Boga",
+                "fil": "kung may magsabi na minamahal niya ang Diyos"
+              }
             }
           ],
           "headingTranslations": {
             "es": "9. τις, τι — el pronombre/adjetivo indefinido",
             "pl": "9. τις, τι — nieokreślony zaimek/przymiotnik",
             "fil": "9. τις, τι — ang indefinite pronoun/adjective"
+          },
+          "contentTranslations": {
+            "es": "τις (masculino/femenino) y τι (neutro) significan «alguien, algo, cierto». Como adjetivo sigue al sustantivo: γυνή τις = «una cierta mujer». Como pronombre va solo: ἐάν τις λέγῃ = «si alguien dice». Siempre es enclítico (se apoya en la palabra anterior para el acento) y no lleva espíritu áspero.",
+            "pl": "τις (rodzaj męski/żeński) i τι (nijaki) oznaczają «ktoś, coś, pewien». Jako przymiotnik następuje po rzeczowniku: γυνή τις = «pewna kobieta». Jako zaimek stoi samodzielnie: ἐάν τις λέγῃ = «jeśli ktoś powie». Zawsze jest enklityką (opiera się na poprzednim słowie w zakresie akcentu) i nie ma przydechу szorstkiego.",
+            "fil": "Ang τις (masculine/feminine) at τι (neuter) ay nangangahulugang «isang tao, isang bagay, isang tiyak na.» Bilang pang-uri, sumusunod ito sa pangngalan: γυνή τις = «isang tiyak na babae.» Bilang panghalip, nakatayo ito nang mag-isa: ἐάν τις λέγῃ = «kung may magsabi.» Palagi itong enclitic (nakasalalay sa nakaraang salita para sa accent) at walang rough breathing."
           }
         },
         {
@@ -348,17 +503,32 @@
           "examples": [
             {
               "greek": "ὀφείλομεν ἀγαπᾶν ἀλλήλους",
-              "note": "we ought to love one another"
+              "note": "we ought to love one another",
+              "noteTranslations": {
+                "es": "debemos amarnos unos a otros",
+                "pl": "powinniśmy miłować się wzajemnie",
+                "fil": "dapat nating mahalin ang isa't isa"
+              }
             },
             {
               "greek": "ἐὰν ἀγαπῶμεν ἀλλήλους",
-              "note": "if we love one another"
+              "note": "if we love one another",
+              "noteTranslations": {
+                "es": "si nos amamos unos a otros",
+                "pl": "jeśli miłujemy się wzajemnie",
+                "fil": "kung iniibigin natin ang isa't isa"
+              }
             }
           ],
           "headingTranslations": {
             "es": "10. ἀλλήλους — el pronombre recíproco",
             "pl": "10. ἀλλήλους — zaimek wzajemny",
             "fil": "10. ἀλλήλους — ang reciprocal pronoun"
+          },
+          "contentTranslations": {
+            "es": "ἀλλήλους significa «el uno al otro, mutuamente». No tiene nominativo (no se puede ser sujeto y objeto de una acción recíproca al mismo tiempo). Solo se declina en plural y se usa frecuentemente con verbos de amor, saludo y acción mutua.",
+            "pl": "ἀλλήλους oznacza «jeden drugiego, wzajemnie». Nie ma mianownika (nie można być jednocześnie podmiotem i dopełnieniem wzajemnego działania). Odmienia się tylko w liczbie mnogiej i jest często używany z czasownikami miłości, pozdrowień i wzajemnych działań.",
+            "fil": "Ang ἀλλήλους ay nangangahulugang «isa't isa, magkabago.» Wala itong nominative (hindi ka maaaring maging paksa at object ng isang reciprocal na kilos nang sabay-sabay). Nagde-decline lamang sa plural at madalas na ginagamit kasama ang mga pandiwang nagpapahayag ng pagmamahal, pagbati, at mutual na kilos."
           }
         },
         {
@@ -368,17 +538,32 @@
           "examples": [
             {
               "greek": "χωρὶς τῆς ἀμπέλου τὸ κλῆμα οὐδέν ἐστιν",
-              "note": "without the vine the branch is nothing"
+              "note": "without the vine the branch is nothing",
+              "noteTranslations": {
+                "es": "sin la vid, el sarmiento no es nada",
+                "pl": "bez winorośli latorośl jest niczym",
+                "fil": "kung wala ang puno ng ubas, ang sanga ay walang saysay"
+              }
             },
             {
               "greek": "χωρὶς αὐτοῦ οὐ δυνάμεθα φέρειν καρπόν",
-              "note": "without him we are not able to bear fruit"
+              "note": "without him we are not able to bear fruit",
+              "noteTranslations": {
+                "es": "sin él no podemos dar fruto",
+                "pl": "bez Niego nie możemy przynosić owocu",
+                "fil": "kung wala siya hindi tayo makakabunga"
+              }
             }
           ],
           "headingTranslations": {
             "es": "11. χωρίς + genitivo — «sin»",
             "pl": "11. χωρίς + dopełniacz — «bez»",
             "fil": "11. χωρίς + genitive — «wala»"
+          },
+          "contentTranslations": {
+            "es": "χωρίς toma el genitivo y significa «sin, aparte de, separado de». Se usa aquí en la ilustración de la vid y el sarmiento para mostrar que una rama separada de la vid es impotente.",
+            "pl": "χωρίς przyjmuje dopełniacz i oznacza «bez, poza, oddzielony od». Tutaj jest używany w obrazie winorośli i latorośli, aby pokazać, że gałąź oddzielona od winorośli jest bezsilna.",
+            "fil": "Ang χωρίς ay kumukuha ng genitive at nangangahulugang «wala, malayo sa, hiwalay sa.» Ginagamit ito dito sa ilustrasyon ng ubas at sanga upang ipakita na ang sanga na hiwalay sa puno ng ubas ay walang kapangyarihan."
           }
         },
         {
@@ -388,17 +573,32 @@
           "examples": [
             {
               "greek": "οὐδεὶς ἔρχεται πρὸς τὸν θεὸν εἰ μὴ δι᾽ αὐτοῦ",
-              "note": "no one comes to God except through him"
+              "note": "no one comes to God except through him",
+              "noteTranslations": {
+                "es": "nadie va al Padre sino por él",
+                "pl": "nikt nie przychodzi do Boga jak tylko przez Niego",
+                "fil": "walang pumupunta sa Diyos maliban sa pamamagitan niya"
+              }
             },
             {
               "greek": "οὐ μόνον… ἀλλά",
-              "note": "not only… but also (related contrast pattern)"
+              "note": "not only… but also (related contrast pattern)",
+              "noteTranslations": {
+                "es": "no solo… sino también (patrón de contraste relacionado)",
+                "pl": "nie tylko… lecz także (pokrewny wzorzec kontrastu)",
+                "fil": "hindi lamang… kundi pati na rin (kaugnay na pattern ng kontraste)"
+              }
             }
           ],
           "headingTranslations": {
             "es": "12. εἰ μή — «excepto, a menos que»",
             "pl": "12. εἰ μή — «chyba że, o ile nie»",
             "fil": "12. εἰ μή — «maliban sa, maliban kung»"
+          },
+          "contentTranslations": {
+            "es": "εἰ μή significa literalmente «si no», pero funciona como expresión de excepción: «excepto, a menos que, sino solo». Es muy común en el Nuevo Testamento.",
+            "pl": "εἰ μή dosłownie znaczy «jeśli nie», ale funkcjonuje jako wyrażenie wyjątku: «z wyjątkiem, chyba że, lecz tylko». Jest bardzo powszechne w Nowym Testamencie.",
+            "fil": "Ang εἰ μή ay literal na «kung hindi» ngunit gumagana bilang isang expression ng pagbubukod: «maliban sa, maliban kung, kundi lamang.» Napaka-karaniwang ito sa Bagong Tipan."
           }
         },
         {
@@ -408,21 +608,41 @@
           "examples": [
             {
               "greek": "οὐδεὶς ἔρχεται πρὸς τὸν θεόν",
-              "note": "no one comes to God"
+              "note": "no one comes to God",
+              "noteTranslations": {
+                "es": "nadie va a Dios",
+                "pl": "nikt nie przychodzi do Boga",
+                "fil": "walang pumupunta sa Diyos"
+              }
             },
             {
               "greek": "τὸ κλῆμα οὐδέν ἐστιν",
-              "note": "the branch is nothing"
+              "note": "the branch is nothing",
+              "noteTranslations": {
+                "es": "el sarmiento no es nada",
+                "pl": "latorośl jest niczym",
+                "fil": "ang sanga ay walang saysay"
+              }
             },
             {
               "greek": "οὐκ ἔχω ὑδρίαν οὐδὲ πιστεύω",
-              "note": "I do not have a jar, nor do I believe"
+              "note": "I do not have a jar, nor do I believe",
+              "noteTranslations": {
+                "es": "no tengo un cántaro, ni creo",
+                "pl": "nie mam dzbana ani nie wierzę",
+                "fil": "wala akong banga, at hindi rin ako naniniwala"
+              }
             }
           ],
           "headingTranslations": {
             "es": "13. οὐδείς / οὐδέν y los negativos compuestos",
             "pl": "13. οὐδείς / οὐδέν i złożone negacje",
             "fil": "13. οὐδείς / οὐδέν at mga compound negative"
+          },
+          "contentTranslations": {
+            "es": "οὐδείς (nadie) y οὐδέν (nada) son negativos compuestos formados de οὐδέ + εἷς/ἕν. Cuando una oración ya tiene οὐ/μή, añadir οὐδέ u οὐδείς refuerza la negación en lugar de cancelarla (a diferencia de las dobles negaciones en español). El griego acumula negaciones para dar énfasis.",
+            "pl": "οὐδείς (nikt) i οὐδέν (nic) to złożone negacje tworzone z οὐδέ + εἷς/ἕν. Gdy zdanie ma już οὐ/μή, dodanie οὐδέ lub οὐδείς wzmacnia negację zamiast ją znosić (w odróżnieniu od angielskich podwójnych przeczeń). Greka nagromadza przeczenia dla podkreślenia.",
+            "fil": "Ang οὐδείς (walang isa) at οὐδέν (wala) ay mga compound negative na binuo mula sa οὐδέ + εἷς/ἕν. Kapag ang pangungusap ay mayroon nang οὐ/μή, ang pagdaragdag ng οὐδέ o οὐδείς ay nagpapalakas ng pagtanggi sa halip na pagkansela nito (hindi tulad ng double negative sa Ingles). Nagtitipon ng mga pagtanggi ang Griyego para sa diin."
           }
         },
         {
@@ -477,17 +697,32 @@
           "examples": [
             {
               "greek": "ἐν τῷ πνεύματι καὶ τῇ ἀληθείᾳ",
-              "note": "in spirit and truth (dat. sg.)"
+              "note": "in spirit and truth (dat. sg.)",
+              "noteTranslations": {
+                "es": "en espíritu y en verdad (dat. sg.)",
+                "pl": "w duchu i prawdzie (celownik l.poj.)",
+                "fil": "sa espiritu at katotohanan (dat. sg.)"
+              }
             },
             {
               "greek": "τὰ ῥήματα ταῦτα",
-              "note": "these words (nom. pl.)"
+              "note": "these words (nom. pl.)",
+              "noteTranslations": {
+                "es": "estas palabras (nom. pl.)",
+                "pl": "te słowa (mianownik l.mn.)",
+                "fil": "ang mga salitang ito (nom. pl.)"
+              }
             }
           ],
           "headingTranslations": {
             "es": "14. El grupo de sustantivos -μα en este capítulo",
             "pl": "14. Grono rzeczowników -μα w tym rozdziale",
             "fil": "14. Ang grupo ng -μα na pangngalan sa kabanatang ito"
+          },
+          "contentTranslations": {
+            "es": "El capítulo 5 introduce un notable grupo de sustantivos en -μα, todos neutros de la 3ª declinación con el tema -ματ- en los casos oblicuos. Reconocer este patrón permite declinar cualquier nueva palabra en -μα automáticamente.",
+            "pl": "Rozdział 5 wprowadza niezwykłą grupę rzeczowników na -μα — wszystkie to nijakie 3. deklinacji z tematem -ματ- w przypadkach zależnych. Rozpoznanie tego wzorca pozwala automatycznie odmieniać każde nowe słowo na -μα.",
+            "fil": "Ang Kabanata 5 ay nagpapakilala ng kapansin-pansing grupo ng mga -μα na pangngalan, lahat ay 3rd declension neuter na may -ματ- stem sa mga oblique case. Ang pagkilala sa pattern na ito ay nagbibigay-daan sa iyo na mag-decline ng kahit anong bagong -μα na salita nang awtomatiko."
           }
         }
       ]
@@ -537,19 +772,39 @@
           "examples": [
             {
               "greek": "ὁ ποιμὴν τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν προβάτων",
-              "note": "the shepherd lays down his life for the sheep"
+              "note": "the shepherd lays down his life for the sheep",
+              "noteTranslations": {
+                "es": "el pastor da su vida por las ovejas",
+                "pl": "pasterz kładzie swoje życie za owce",
+                "fil": "inilalagay ng pastol ang kanyang buhay para sa mga tupa"
+              }
             },
             {
               "greek": "ὁ θεὸς δίδωσιν τὸν υἱὸν αὐτοῦ ἡμῖν",
-              "note": "God gives his Son to us"
+              "note": "God gives his Son to us",
+              "noteTranslations": {
+                "es": "Dios nos da a su Hijo",
+                "pl": "Bóg daje nam swojego Syna",
+                "fil": "ibinibigay ng Diyos ang kanyang Anak sa atin"
+              }
             },
             {
               "greek": "ὁ θεὸς ἀφίησιν ἡμῖν τὰς ἁμαρτίας",
-              "note": "God forgives us our sins"
+              "note": "God forgives us our sins",
+              "noteTranslations": {
+                "es": "Dios nos perdona los pecados",
+                "pl": "Bóg odpuszcza nam grzechy",
+                "fil": "pinapatawad ng Diyos ang ating mga kasalanan"
+              }
             },
             {
               "greek": "ὁ Ἰησοῦς δείκνυσιν ἡμῖν τὸ φῶς",
-              "note": "Jesus shows us the light"
+              "note": "Jesus shows us the light",
+              "noteTranslations": {
+                "es": "Jesús nos muestra la luz",
+                "pl": "Jezus pokazuje nam światło",
+                "fil": "ipinapakita ni Jesus sa atin ang liwanag"
+              }
             }
           ],
           "headingTranslations": {
@@ -595,17 +850,32 @@
           "examples": [
             {
               "greek": "ὅστις πιστεύει αὐτῷ ζῇ",
-              "note": "whoever believes in him lives"
+              "note": "whoever believes in him lives",
+              "noteTranslations": {
+                "es": "quien cree en él vive",
+                "pl": "ktokolwiek wierzy w Niego, żyje",
+                "fil": "sinumang naniniwala sa kanya ay nabubuhay"
+              }
             },
             {
               "greek": "ζῇ εἰς τὸν αἰῶνα",
-              "note": "he lives forever"
+              "note": "he lives forever",
+              "noteTranslations": {
+                "es": "vive para siempre",
+                "pl": "żyje na wieki",
+                "fil": "nabubuhay siya magpakailanman"
+              }
             }
           ],
           "headingTranslations": {
             "es": "16. ζάω — un verbo contracto con formas especiales",
             "pl": "16. ζάω — czasownik ściągany o szczególnych formach",
             "fil": "16. ζάω — isang contract verb na may espesyal na anyo"
+          },
+          "contentTranslations": {
+            "es": "ζάω (vivo) es un verbo contracto en -άω, pero se contrae de manera inusual. La 3ª persona del singular es ζῇ (no ζᾷ como darían los verbos regulares en -άω). Esta forma irregular es muy común en contextos teológicos.",
+            "pl": "ζάω (żyję) to czasownik ściągany na -άω, ale ściąga się w niecodzienny sposób. 3. osoba l.poj. to ζῇ (a nie ζᾷ, jak dałyby regularne czasowniki na -άω). Ta nieregularna forma jest niezwykle powszechna w kontekstach teologicznych.",
+            "fil": "Ang ζάω (nabubuhay ako) ay isang -άω contract verb, ngunit nagkokontrata ito sa di-karaniwang paraan. Ang 3rd person singular ay ζῇ (hindi ζᾷ tulad ng ibibibigay ng regular na -άω verb). Ang di-regular na anyong ito ay napaka-karaniwang sa mga teolohikal na konteksto."
           }
         },
         {
@@ -615,17 +885,32 @@
           "examples": [
             {
               "greek": "ὁ ποιμὴν τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν προβάτων",
-              "note": "the shepherd lays down his life on behalf of the sheep"
+              "note": "the shepherd lays down his life on behalf of the sheep",
+              "noteTranslations": {
+                "es": "el pastor da su vida en favor de las ovejas",
+                "pl": "pasterz oddaje życie za owce",
+                "fil": "inilalagay ng pastol ang kanyang buhay alang-alang sa mga tupa"
+              }
             },
             {
               "greek": "ὁ Ἰησοῦς τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ ἡμῶν",
-              "note": "Jesus lays down his life on behalf of us"
+              "note": "Jesus lays down his life on behalf of us",
+              "noteTranslations": {
+                "es": "Jesús da su vida en favor de nosotros",
+                "pl": "Jezus oddaje życie za nas",
+                "fil": "inilalagay ni Jesus ang kanyang buhay alang-alang sa atin"
+              }
             }
           ],
           "headingTranslations": {
             "es": "17. ὑπέρ + genitivo — «en favor de»",
             "pl": "17. ὑπέρ + dopełniacz — «za, w obronie»",
             "fil": "17. ὑπέρ + genitive — «para sa, alang-alang sa»"
+          },
+          "contentTranslations": {
+            "es": "ὑπέρ con el genitivo significa «en favor de, por el bien de». Expresa sustitución o representación. Esta es una preposición teológica clave en el Nuevo Testamento, usada para describir la muerte de Cristo en favor de otros.",
+            "pl": "ὑπέρ z dopełniaczem oznacza «za, w obronie, dla dobra». Wyraża zastępstwo lub reprezentację. To kluczowy przyimek teologiczny w Nowym Testamencie, używany do opisania śmierci Chrystusa za innych.",
+            "fil": "Ang ὑπέρ kasama ang genitive ay nangangahulugang «alang-alang sa, para sa kapakanan ng.» Nagpapahayag ito ng pagpapalit o representasyon. Ito ay isang mahalagang teolohikal na preposisyon sa Bagong Tipan, ginagamit upang ilarawan ang kamatayan ni Kristo alang-alang sa iba."
           }
         },
         {
@@ -635,21 +920,41 @@
           "examples": [
             {
               "greek": "ὅστις πιστεύει αὐτῷ οὐκέτι διψᾷ εἰς τὸν αἰῶνα",
-              "note": "whoever believes in him will never thirst forever"
+              "note": "whoever believes in him will never thirst forever",
+              "noteTranslations": {
+                "es": "quien cree en él no tendrá sed jamás",
+                "pl": "ktokolwiek wierzy w Niego, nie będzie już nigdy pragnął",
+                "fil": "sinumang naniniwala sa kanya ay hindi na mauuhaw magpakailanman"
+              }
             },
             {
               "greek": "ζῇ εἰς τὸν αἰῶνα",
-              "note": "he lives into the age / forever"
+              "note": "he lives into the age / forever",
+              "noteTranslations": {
+                "es": "vive para siempre",
+                "pl": "żyje na wieki",
+                "fil": "nabubuhay siya magpakailanman"
+              }
             },
             {
               "greek": "ζωὴν αἰώνιον",
-              "note": "eternal life (adjective αἰώνιος from αἰών)"
+              "note": "eternal life (adjective αἰώνιος from αἰών)",
+              "noteTranslations": {
+                "es": "vida eterna (adjetivo αἰώνιος de αἰών)",
+                "pl": "życie wieczne (przymiotnik αἰώνιος od αἰών)",
+                "fil": "buhay na walang hanggan (pang-uring αἰώνιος mula sa αἰών)"
+              }
             }
           ],
           "headingTranslations": {
             "es": "18. εἰς τὸν αἰῶνα — «para siempre»",
             "pl": "18. εἰς τὸν αἰῶνα — «na wieki»",
             "fil": "18. εἰς τὸν αἰῶνα — «magpakailanman»"
+          },
+          "contentTranslations": {
+            "es": "εἰς τὸν αἰῶνα significa literalmente «hacia la era» pero funciona como una expresión idiomática que significa «para siempre, eternamente». El sustantivo αἰών (era, eternidad) nos da el adjetivo αἰώνιος (eterno). Ambos aparecen en este capítulo.",
+            "pl": "εἰς τὸν αἰῶνα dosłownie znaczy «w wiek» lecz funkcjonuje jako idiom oznaczający «na wieki, wiecznie». Rzeczownik αἰών (wiek, wieczność) daje nam przymiotnik αἰώνιος (wieczny). Oba pojawiają się w tym rozdziale.",
+            "fil": "Ang εἰς τὸν αἰῶνα ay literal na «sa panahon/edad» ngunit gumagana bilang isang idyoma na nangangahulugang «magpakailanman, walang katapusan.» Ang pangngalang αἰών (panahon, kawalang-hanggan) ay nagbibigay sa atin ng pang-uring αἰώνιος (walang hanggan). Parehong lumabas sa kabanatang ito."
           }
         },
         {
@@ -659,17 +964,32 @@
           "examples": [
             {
               "greek": "πλανῶμεν ἑαυτούς",
-              "note": "we deceive ourselves (1st pl. reflexive)"
+              "note": "we deceive ourselves (1st pl. reflexive)",
+              "noteTranslations": {
+                "es": "nos engañamos a nosotros mismos (1ª pl. reflexivo)",
+                "pl": "oszukujemy samych siebie (1. os. l.mn. zwrotne)",
+                "fil": "dinadaya natin ang ating sarili (1st pl. reflexive)"
+              }
             },
             {
               "greek": "ὁ ἄνθρωπος σῴζει ἑαυτόν",
-              "note": "the person saves himself"
+              "note": "the person saves himself",
+              "noteTranslations": {
+                "es": "la persona se salva a sí misma",
+                "pl": "człowiek ratuje samego siebie",
+                "fil": "iniligtas ng tao ang kanyang sarili"
+              }
             }
           ],
           "headingTranslations": {
             "es": "19. ἑαυτούς — el pronombre reflexivo",
             "pl": "19. ἑαυτούς — zaimek zwrotny",
             "fil": "19. ἑαυτούς — ang reflexive pronoun"
+          },
+          "contentTranslations": {
+            "es": "ἑαυτόν / ἑαυτήν / ἑαυτό es el pronombre reflexivo de 3ª persona que significa «él mismo, ella misma, sí mismo, nosotros mismos». No tiene nominativo (no se puede ser sujeto y objeto de una acción reflexiva al mismo tiempo). En 1ª y 2ª persona, el griego usa a menudo ἑαυτ- para todas las personas en el habla coloquial.",
+            "pl": "ἑαυτόν / ἑαυτήν / ἑαυτό to zaimek zwrotny 3. osoby znaczący «siebie, się, sobie». Nie ma mianownika (nie można być jednocześnie podmiotem i dopełnieniem zwrotnego działania). W 1. i 2. osobie greka często używa ἑαυτ- dla wszystkich osób w potocznym użyciu.",
+            "fil": "Ang ἑαυτόν / ἑαυτήν / ἑαυτό ay ang 3rd person reflexive pronoun na nangangahulugang «ang kanyang sarili, ang kanilang sarili, ang ating sarili.» Wala itong nominative (hindi ka maaaring maging paksa at object ng reflexive na kilos nang sabay-sabay). Sa 1st at 2nd person, madalas na gumagamit ang Griyego ng ἑαυτ- para sa lahat ng persona sa pang-araw-araw na paggamit."
           }
         },
         {
@@ -709,21 +1029,41 @@
           "examples": [
             {
               "greek": "ὁ ποιμὴν ὁ καλός",
-              "note": "the good shepherd (nom.)"
+              "note": "the good shepherd (nom.)",
+              "noteTranslations": {
+                "es": "el buen pastor (nom.)",
+                "pl": "dobry pasterz (mianownik)",
+                "fil": "ang mabuting pastol (nom.)"
+              }
             },
             {
               "greek": "τὴν φωνὴν τοῦ ποιμένος",
-              "note": "the voice of the shepherd (gen.)"
+              "note": "the voice of the shepherd (gen.)",
+              "noteTranslations": {
+                "es": "la voz del pastor (gen.)",
+                "pl": "głos pasterza (dopełniacz)",
+                "fil": "ang boses ng pastol (gen.)"
+              }
             },
             {
               "greek": "βλέπει τὸν ποιμένα",
-              "note": "he sees the shepherd (acc.)"
+              "note": "he sees the shepherd (acc.)",
+              "noteTranslations": {
+                "es": "ve al pastor (ac.)",
+                "pl": "widzi pasterza (biernik)",
+                "fil": "nakikita niya ang pastol (acc.)"
+              }
             }
           ],
           "headingTranslations": {
             "es": "20. ποιμήν — un sustantivo de la 3ª declinación con cambio de tema",
             "pl": "20. ποιμήν — rzeczownik 3. deklinacji ze zmianą tematu",
             "fil": "20. ποιμήν — isang 3rd-declension na pangngalan na may pagbabago ng tema"
+          },
+          "contentTranslations": {
+            "es": "ποιμήν (pastor) es un sustantivo masculino de la 3ª declinación. El nominativo singular termina en -ήν, pero el tema es ποιμέν- en los casos oblicuos. Este cambio de acento y alternancia del tema es típico de este tipo de sustantivo.",
+            "pl": "ποιμήν (pasterz) to rzeczownik 3. deklinacji rodzaju męskiego. Mianownik l.poj. kończy się na -ήν, lecz temat w przypadkach zależnych to ποιμέν-. Ta zmiana akcentu i alternacja tematu jest typowa dla tego typu rzeczownika.",
+            "fil": "Ang ποιμήν (pastol) ay isang 3rd-declension masculine noun. Ang nominative singular ay nagtatapos sa -ήν ngunit ang tema ay ποιμέν- sa mga oblique case. Ang pagbabago ng accent at pagpapalit ng tema ay tipikal ng ganitong uri ng pangngalan."
           }
         },
         {
@@ -733,21 +1073,41 @@
           "examples": [
             {
               "greek": "ὁ καλὸς ποιμὴν τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν προβάτων",
-              "note": "positive: the good shepherd gives his life"
+              "note": "positive: the good shepherd gives his life",
+              "noteTranslations": {
+                "es": "positivo: el buen pastor da su vida",
+                "pl": "pozytywne: dobry pasterz oddaje życie",
+                "fil": "positibo: ibinibigay ng mabuting pastol ang kanyang buhay"
+              }
             },
             {
               "greek": "ὁ μισθωτὸς… βλέπει τὸν λύκον καὶ φεύγει",
-              "note": "negative: the hireling sees the wolf and flees"
+              "note": "negative: the hireling sees the wolf and flees",
+              "noteTranslations": {
+                "es": "negativo: el asalariado ve al lobo y huye",
+                "pl": "negatywne: najemnik widzi wilka i ucieka",
+                "fil": "negatibo: nakikita ng manggagawa ang lobo at tumakas"
+              }
             },
             {
               "greek": "τοῦτο γίνεται ὅτι μισθωτός ἐστιν καὶ οὐ ἀγαπᾷ τὰ πρόβατα",
-              "note": "reason given: he is hired and does not love the sheep"
+              "note": "reason given: he is hired and does not love the sheep",
+              "noteTranslations": {
+                "es": "razón dada: es asalariado y no ama las ovejas",
+                "pl": "podany powód: jest najemnikiem i nie miłuje owiec",
+                "fil": "dahilan: siya ay upahan at hindi niya minamahal ang mga tupa"
+              }
             }
           ],
           "headingTranslations": {
             "es": "21. El buen pastor frente al jornalero — contraste estructural",
             "pl": "21. Dobry pasterz kontra najemnik — kontrast strukturalny",
             "fil": "21. Ang mabuting pastol kumpara sa manggagawa — istrukturang kontraste"
+          },
+          "contentTranslations": {
+            "es": "El discurso de Jacob usa el contraste μέν…δέ a nivel narrativo para comparar dos tipos: el buen pastor (ὁ ποιμὴν ὁ καλός) y el jornalero (ὁ μισθωτός). Este es un modelo de paralelismo antitético griego — dos personas descritas en términos contrastantes.",
+            "pl": "Mowa Jakuba używa kontrastu μέν…δέ na poziomie narracyjnym, aby porównać dwa typy: dobrego pasterza (ὁ ποιμὴν ὁ καλός) i najemnika (ὁ μισθωτός). Jest to model greckiego paralelizmu antytetycznego — dwie osoby opisane w kontrastujących terminach.",
+            "fil": "Ang talumpati ni Jacob ay gumagamit ng μέν…δέ na kontraste sa antas ng salaysay upang ikumpara ang dalawang uri: ang mabuting pastol (ὁ ποιμὴν ὁ καλός) at ang manggagawa (ὁ μισθωτός). Ito ay isang modelo ng Griyegong antithetical parallelism — dalawang tao na inilarawan sa magkaibang termino."
           }
         },
         {
@@ -782,13 +1142,23 @@
           "examples": [
             {
               "greek": "ὁ Ἰησοῦς ἐστιν ἡ ἀνάστασις καὶ ἡ ζωή",
-              "note": "Jesus is the resurrection and the life"
+              "note": "Jesus is the resurrection and the life",
+              "noteTranslations": {
+                "es": "Jesús es la resurrección y la vida",
+                "pl": "Jezus jest zmartwychwstaniem i życiem",
+                "fil": "Si Jesus ang muling pagkabuhay at ang buhay"
+              }
             }
           ],
           "headingTranslations": {
             "es": "22. ἀνάστασις — un sustantivo -σις de la 3ª declinación",
             "pl": "22. ἀνάστασις — rzeczownik -σις 3. deklinacji",
             "fil": "22. ἀνάστασις — isang 3rd-declension na -σις na pangngalan"
+          },
+          "contentTranslations": {
+            "es": "ἀνάστασις (resurrección) pertenece al tipo -σις de sustantivos femeninos de la 3ª declinación. El genitivo es -εως (no -ος). Este genitivo en -εως es característico de esta clase amplia e importante.",
+            "pl": "ἀνάστασις (zmartwychwstanie) należy do typu -σις rzeczowników żeńskich 3. deklinacji. Dopełniacz to -εως (nie -ος). Ten dopełniacz na -εως jest charakterystyczny dla tej dużej i ważnej klasy.",
+            "fil": "Ang ἀνάστασις (muling pagkabuhay) ay kabilang sa -σις na uri ng 3rd-declension feminine noun. Ang genitive ay -εως (hindi -ος). Ang genitive na ito sa -εως ay katangian ng malaki at mahalagang klase na ito."
           }
         }
       ]
