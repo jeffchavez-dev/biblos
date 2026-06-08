@@ -23,8 +23,9 @@ const SECTION_META = [
   { id: 'inf',    dataKey: 'infinitives',    labelEl: 'ἁπαρέμφατος',      labelKey: 'secInfinitives'   },
   { id: 'imp',    dataKey: 'imperatives',    labelEl: 'Προστατική',        labelKey: 'secImperatives'   },
   { id: 'cv',     dataKey: 'contractVerbs',  labelEl: 'Ῥήματα',           labelKey: 'secContractVerbs' },
-  { id: 'cf',     dataKey: 'caseFill',       labelEl: 'Πτώσεις',          labelKey: 'secFillCase'      },
-  { id: 'prep',   dataKey: 'prepFill',       labelEl: 'ἐν / πρός / ἐκ',  labelKey: 'secPrepositions'  },
+  { id: 'cf',     dataKey: 'caseFill',           labelEl: 'Πτώσεις',          labelKey: 'secFillCase'      },
+  { id: 'prep',   dataKey: 'prepFill',           labelEl: 'ἐν / πρός / ἐκ',  labelKey: 'secPrepositions'  },
+  { id: 'convo',  dataKey: 'conversationQuestions', labelEl: 'Ἐρωτήσεις',    labelKey: 'secConversations' },
 ]
 
 // Filter an array by activePart if items carry a `part` field; otherwise show all
@@ -71,7 +72,8 @@ export default function ExercisesTab({ exercises, activePart }) {
     infinitives:    filterByPart(exercises.infinitives,    activePart),
     imperatives:    filterByPart(exercises.imperatives,    activePart),
     contractVerbs:  filterByPart(exercises.contractVerbs,  activePart),
-    caseFill:       filterByPart(exercises.caseFill,       activePart),
+    caseFill:            filterByPart(exercises.caseFill,                activePart),
+    conversationQuestions: filterByPart(exercises.conversationQuestions, activePart),
   }
 
   const available = SECTION_META.filter(s => ex[s.dataKey]?.length > 0)
@@ -134,6 +136,7 @@ export default function ExercisesTab({ exercises, activePart }) {
       total = ex.caseFill?.length || 0
       answered = (ex.caseFill || []).filter(q => cfAnswers[q.id]?.trim()).length
     }
+    if (sid === 'convo') { total = 0; answered = 0 } // display-only, no grading
     return { answered, total }
   }
 
@@ -589,23 +592,35 @@ export default function ExercisesTab({ exercises, activePart }) {
           )
         })}
 
+        {/* ── Conversation Questions ── */}
+        {activeId === 'convo' && ex.conversationQuestions?.map((q, i) => (
+          <div key={q.id} className="question-card">
+            <div className="question-num">{i + 1}</div>
+            <div className="question-body">
+              <p className="question-text greek">{q.question}</p>
+            </div>
+          </div>
+        ))}
+
       </div>
 
-      {/* Footer */}
-      <div className="exercises-footer">
-        {!isSubmitted ? (
-          <button className="submit-btn" onClick={handleSubmit} disabled={!allAnswered}>
-            {allAnswered
-              ? <span><span className="greek">Ὑπόβαλλε</span> — {ui('submit')}</span>
-              : `${answered} / ${total} ${ui('answered')}`
-            }
-          </button>
-        ) : (
-          <button className="reset-btn" onClick={handleReset}>
-            <span className="greek">Πάλιν</span> — {ui('tryAgain')}
-          </button>
-        )}
-      </div>
+      {/* Footer — hidden for display-only sections */}
+      {activeId !== 'convo' && (
+        <div className="exercises-footer">
+          {!isSubmitted ? (
+            <button className="submit-btn" onClick={handleSubmit} disabled={!allAnswered}>
+              {allAnswered
+                ? <span><span className="greek">Ὑπόβαλλε</span> — {ui('submit')}</span>
+                : `${answered} / ${total} ${ui('answered')}`
+              }
+            </button>
+          ) : (
+            <button className="reset-btn" onClick={handleReset}>
+              <span className="greek">Πάλιν</span> — {ui('tryAgain')}
+            </button>
+          )}
+        </div>
+      )}
 
     </div>
   )

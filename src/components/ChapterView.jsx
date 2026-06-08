@@ -5,7 +5,6 @@ import StoryTab from './tabs/StoryTab.jsx'
 import ExercisesTab from './tabs/ExercisesTab.jsx'
 import GrammarTab from './tabs/GrammarTab.jsx'
 import VisualStoryTab from './tabs/VisualStoryTab.jsx'
-import ConversationsTab from './tabs/ConversationsTab.jsx'
 import { useUI } from '../context/LanguageContext.jsx'
 
 const TAB_CONFIG = [
@@ -13,8 +12,7 @@ const TAB_CONFIG = [
   { id: 'vocabulary', labelKey: 'tabVocabulary',  emoji: '📚' },
   { id: 'grammar',    labelKey: 'tabGrammar',     emoji: '📐' },
   { id: 'exercises',  labelKey: 'tabExercises',   emoji: '✏️' },
-  { id: 'visual',     labelKey: 'tabVisual',        emoji: '🎨' },
-  { id: 'convo',      labelKey: 'tabConversations', emoji: '💬' },
+  { id: 'visual',     labelKey: 'tabVisual',      emoji: '🎨' },
 ]
 
 async function loadData(unitId, chapterId, type) {
@@ -45,15 +43,14 @@ export default function ChapterView({ unitId, chapterId, activePart }) {
       loadData(unitId, chapterId, 'exercises'),
       loadData(unitId, chapterId, 'grammar'),
       loadData(unitId, chapterId, 'visualstory'),
-      loadData(unitId, chapterId, 'conversations'),
-    ]).then(([vocabulary, story, exercises, grammar, visualstory, conversations]) => {
-      setData({ vocabulary, story, exercises, grammar, visualstory, conversations })
+    ]).then(([vocabulary, story, exercises, grammar, visualstory]) => {
+      setData({ vocabulary, story, exercises, grammar, visualstory })
       setLoading(false)
     })
   }, [unitId, chapterId, key])
 
   const hasData = (tabId) => {
-    const map = { vocabulary: 'vocabulary', story: 'story', exercises: 'exercises', grammar: 'grammar', visual: 'visualstory', convo: 'conversations' }
+    const map = { vocabulary: 'vocabulary', story: 'story', exercises: 'exercises', grammar: 'grammar', visual: 'visualstory' }
     return !!data[map[tabId]]
   }
 
@@ -84,7 +81,6 @@ export default function ChapterView({ unitId, chapterId, activePart }) {
             {activeTab === 'grammar'    && <GrammarTab grammar={data.grammar} activePart={activePart} />}
             {activeTab === 'exercises'  && <ExercisesTab exercises={data.exercises} activePart={activePart} />}
             {activeTab === 'visual'     && <VisualStoryTab story={data.visualstory} activePart={activePart} />}
-            {activeTab === 'convo'      && <ConversationsTab conversations={data.conversations} activePart={activePart} />}
           </>
         )}
       </div>
