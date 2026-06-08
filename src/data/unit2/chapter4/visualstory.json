@@ -356,92 +356,326 @@
     {
       "id": 28,
       "part": "B",
-      "scene": "Jacob walks with his staff carrying a bag of bread. The donkey carries fruit and vegetables from the field.",
-      "greekCaption": "ὁ Ἰάκωβος περιπατεῖ μετὰ τῆς ῥάβδου καὶ φέρει τὴν πήραν. ὁ ὄνος φέρει καρποὺς καὶ λάχανα.",
-      "englishCaption": "Jacob walks with his staff and carries the bag. The donkey carries fruits and vegetables.",
+      "scene": "Jacob on the road, staff in one hand, a leather satchel slung over his shoulder. The donkey follows behind, loaded with produce.",
+      "greekCaption": "ὁ Ἰάκωβος περιπατεῖ μετὰ τῆς ῥάβδου καὶ φέρει τὴν πήραν.",
+      "englishCaption": "Jacob walks with his staff and carries his bag.",
       "image": "story-images/ch4b/1.jpeg",
       "captionTranslations": {
-        "es": "Jacob camina con su vara y lleva la bolsa. El asno lleva frutas y verduras.",
-        "pl": "Jakub idzie z laską i niesie torbę. Osioł niesie owoce i warzywa.",
-        "fil": "Lumalakad si Jacob kasama ang kanyang tungkod at dinadala ang bag. Dinadala ng asno ang mga bunga at gulay."
+        "es": "Jacob camina con su vara y lleva su bolsa.",
+        "pl": "Jakub idzie z laską i niesie torbę.",
+        "fil": "Lumalakad si Jacob kasama ang kanyang tungkod at dinadala ang kanyang bag."
       }
     },
     {
       "id": 29,
       "part": "B",
-      "scene": "Farmers at work: some dig the ground and remove stones; others harvest fruit from the trees.",
-      "greekCaption": "οἱ μὲν σκάπτουσιν τὴν γῆν καὶ φέρουσιν τοὺς λίθους. ἄλλοι δὲ θερίζουσιν τοὺς καρπούς.",
-      "englishCaption": "Some dig the ground and carry the stones. Others harvest the fruits.",
+      "scene": "Close-up of the open bag showing a loaf of bread inside.",
+      "greekCaption": "ἐν τῇ πήρᾳ ἔχει ἄρτον.",
+      "englishCaption": "In the bag he has bread.",
       "image": "story-images/ch4b/2.jpeg",
       "captionTranslations": {
-        "es": "Algunos cavan la tierra y cargan las piedras. Otros cosechan las frutas.",
-        "pl": "Jedni kopią ziemię i noszą kamienie. Inni zbierają owoce.",
-        "fil": "Ang iba ay humuhukay ng lupa at nagdadala ng mga bato. Ang iba naman ay nag-aani ng mga bunga."
+        "es": "En la bolsa tiene pan.",
+        "pl": "W torbie ma chleb.",
+        "fil": "Sa bag niya ay mayroon siyang tinapay."
       }
     },
     {
       "id": 30,
       "part": "B",
-      "scene": "Others sit under the trees in the shade to rest from the heat and talk about life.",
-      "greekCaption": "ἄλλοι καθίζουσιν ὑπὸ τοῖς δένδροις ἐν ταῖς σκίαις καὶ ἀναπαύονται.",
-      "englishCaption": "Others sit under the trees in the shade and rest.",
+      "scene": "The donkey loaded with baskets — fruit visible on one side, vegetables on the other.",
+      "greekCaption": "ὁ ὄνος φέρει πολλοὺς καρποὺς καὶ πολλὰ λάχανα ἐκ τοῦ ἀγροῦ.",
+      "englishCaption": "The donkey carries many fruits and many vegetables from the field.",
       "image": "story-images/ch4b/3.jpeg",
       "captionTranslations": {
-        "es": "Otros se sientan bajo los árboles en la sombra y descansan.",
-        "pl": "Inni siedzą pod drzewami w cieniu i odpoczywają.",
-        "fil": "Ang iba naman ay nakaupo sa ilalim ng mga puno sa lilim at nagpapahinga."
+        "es": "El asno lleva muchas frutas y muchas verduras del campo.",
+        "pl": "Osioł niesie wiele owoców i wiele warzyw z pola.",
+        "fil": "Dinadala ng asno ang maraming prutas at maraming gulay mula sa bukid."
       }
     },
     {
       "id": 31,
       "part": "B",
-      "scene": "Some farmers are rich with many servants; others are poor and work their own fields alone.",
-      "greekCaption": "οἱ μὲν πλούσιοί εἰσιν καὶ ἔχουσιν δούλους. οἱ δὲ πτωχοὶ ἐργάζονται ἐν τοῖς ἰδίοις ἀγροῖς.",
-      "englishCaption": "Some are rich and have servants. The poor work in their own fields.",
+      "scene": "The road becoming busier: several farmers visible walking in different directions. Other farms alongside the road.",
+      "greekCaption": "ἐν τῇ ὁδῷ βλέπει πολλοὺς ἄλλους γεωργούς.",
+      "englishCaption": "On the road he sees many other farmers.",
       "image": "story-images/ch4b/4.jpeg",
       "captionTranslations": {
-        "es": "Algunos son ricos y tienen siervos. Los pobres trabajan en sus propios campos.",
-        "pl": "Niektórzy są bogaci i mają sługi. Biedni pracują na własnych polach.",
-        "fil": "Ang iba ay mayaman at may mga lingkod. Ang mga mahirap ay nagtatrabaho sa kanilang sariling mga bukid."
+        "es": "En el camino ve a muchos otros agricultores.",
+        "pl": "Na drodze widzi wielu innych rolników.",
+        "fil": "Sa daan nakakita siya ng maraming ibang magsasaka."
       }
     },
     {
       "id": 32,
       "part": "B",
-      "scene": "The sun beats down. Jacob is weary, hungry, and thirsty from the heat of the journey.",
-      "greekCaption": "ὁ ἥλιος καυματίζει τὴν ὁδόν. κοπιᾷ ὁ Ἰάκωβος ἐν τῷ σώματι. πεινᾷ καὶ διψᾷ.",
-      "englishCaption": "The sun scorches the road. Jacob is weary in body. He is hungry and thirsty.",
+      "scene": "A crossroads: farmers moving in both directions — some heading away from the village with tools, some heading toward it with produce.",
+      "greekCaption": "οἱ μὲν ἔρχονται ἐκ τῆς κώμης, οἱ δὲ πορεύονται πρὸς τοὺς ἀγρούς.",
+      "englishCaption": "Some come from the village, some go toward their fields.",
       "image": "story-images/ch4b/5.jpeg",
       "captionTranslations": {
-        "es": "El sol quema el camino. Jacob está cansado en su cuerpo. Tiene hambre y sed.",
-        "pl": "Słońce pali drogę. Jakub jest zmęczony w ciele. Jest głodny i spragniony.",
-        "fil": "Nagsusunog ang araw sa daan. Pagod si Jacob sa katawan. Nagugutom at nauuhaw siya."
+        "es": "Algunos vienen del pueblo, otros van hacia sus campos.",
+        "pl": "Jedni przychodzą z wioski, inni idą na pola.",
+        "fil": "Ang iba ay nagmumula sa nayon, ang iba ay pumupunta sa kanilang mga bukid."
       }
     },
     {
       "id": 33,
       "part": "B",
-      "scene": "Jacob finds a large tree near the road. Under it is a spring with clean water. The tree provides shade.",
-      "greekCaption": "εὑρίσκει δένδρον μέγα ἐγγὺς τῆς ὁδοῦ. ὑπὸ τῷ δένδρῳ ἐστὶν ἡ πηγή. καθαρὸν ὕδωρ ἐστὶν ἐν τῇ πηγῇ.",
-      "englishCaption": "He finds a large tree near the road. Under the tree is the spring. There is clean water in the spring.",
+      "scene": "A farmer on the road raises his hand in greeting as Jacob passes. Jacob greeting back. Brief and friendly.",
+      "greekCaption": "ἀσπάζονται τὸν Ἰάκωβον ἐν τῇ ὁδῷ.",
+      "englishCaption": "They greet Jacob on the road.",
       "image": "story-images/ch4b/6.jpeg",
       "captionTranslations": {
-        "es": "Encuentra un gran árbol cerca del camino. Bajo el árbol está el manantial. Hay agua limpia.",
-        "pl": "Znajduje wielkie drzewo blisko drogi. Pod drzewem jest źródło. Jest czysta woda.",
-        "fil": "Nahanap niya ang isang malaking puno malapit sa daan. Sa ilalim ng puno ay ang bukal. May malinis na tubig."
+        "es": "Saludan a Jacob en el camino.",
+        "pl": "Pozdrawiają Jakuba na drodze.",
+        "fil": "Binabati nila si Jacob sa daan."
       }
     },
     {
       "id": 34,
       "part": "B",
-      "scene": "Jacob is thirsty but has no water jar to draw from the spring.",
-      "greekCaption": "ὁ Ἰάκωβος διψᾷ ἀλλὰ οὐ δύναται ἀντλεῖν τὸ ὕδωρ ὅτι οὐκ ἔχει ὑδρίαν.",
-      "englishCaption": "Jacob is thirsty but cannot draw the water because he has no water jar.",
+      "scene": "Farmers working hard in a large field: two digging with mattocks, one carrying a stone.",
+      "greekCaption": "οἱ μὲν σκάπτουσιν τὴν γῆν καὶ φέρουσιν τοὺς λίθους ἐκ τῶν ἀγρῶν.",
+      "englishCaption": "Some dig the earth and carry stones out of the fields.",
       "image": "story-images/ch4b/7.jpeg",
       "captionTranslations": {
-        "es": "Jacob tiene sed pero no puede sacar el agua porque no tiene cántaro.",
-        "pl": "Jakub jest spragniony, ale nie może czerpać wody, bo nie ma dzbana.",
-        "fil": "Nauuhaw si Jacob ngunit hindi niya makuha ang tubig dahil wala siyang tapayan."
+        "es": "Algunos cavan la tierra y sacan las piedras de los campos.",
+        "pl": "Jedni kopią ziemię i wynoszą kamienie z pól.",
+        "fil": "Ang iba ay humuhukay ng lupa at nagdadala ng mga bato mula sa mga bukid."
+      }
+    },
+    {
+      "id": 35,
+      "part": "B",
+      "scene": "Different farmers in an orchard, reaching up with sickles or pulling fruit from branches into baskets.",
+      "greekCaption": "ἄλλοι δὲ θερίζουσιν τοὺς καρποὺς ἐκ τῶν δένδρων.",
+      "englishCaption": "Others harvest fruits from the trees.",
+      "image": "story-images/ch4b/8.jpeg",
+      "captionTranslations": {
+        "es": "Otros cosechan frutas de los árboles.",
+        "pl": "Inni zbierają owoce z drzew.",
+        "fil": "Ang iba naman ay nag-aani ng mga bunga mula sa mga puno."
+      }
+    },
+    {
+      "id": 36,
+      "part": "B",
+      "scene": "Three farmers sitting in the shade of a large tree, talking with animated gestures. A thought-bubble shows children playing.",
+      "greekCaption": "ἄλλοι καθίζουσιν ὑπὸ τοῖς δένδροις καὶ λαλοῦσιν περὶ τοῦ βίου καὶ περὶ τῶν τέκνων.",
+      "englishCaption": "Others sit under the trees and talk about life and about their children.",
+      "image": "story-images/ch4b/9.jpeg",
+      "captionTranslations": {
+        "es": "Otros se sientan bajo los árboles y hablan de la vida y de sus hijos.",
+        "pl": "Inni siedzą pod drzewami i rozmawiają o życiu i o dzieciach.",
+        "fil": "Ang iba naman ay nakaupo sa ilalim ng mga puno at nag-uusap tungkol sa buhay at sa kanilang mga anak."
+      }
+    },
+    {
+      "id": 37,
+      "part": "B",
+      "scene": "The dark, cool area under a broad tree canopy, dappled light. Farmers resting against the trunk. Blazing sun visible just beyond the shade.",
+      "greekCaption": "ἀναπαύονται ὑπὸ τοῖς δένδροις ἐν ταῖς σκιαῖς.",
+      "englishCaption": "They rest under the trees in the shade.",
+      "image": "story-images/ch4b/10.jpeg",
+      "captionTranslations": {
+        "es": "Descansan bajo los árboles en la sombra.",
+        "pl": "Odpoczywają pod drzewami w cieniu.",
+        "fil": "Nagpapahinga sila sa ilalim ng mga puno sa lilim."
+      }
+    },
+    {
+      "id": 38,
+      "part": "B",
+      "scene": "A panoramic view of the farming landscape: many fields visible, farmers working in each. The sun suggesting the daily cycle.",
+      "greekCaption": "οὗτός ἐστιν ὁ βίος ἐν τοῖς ἀγροῖς — καθ᾽ ἡμέραν.",
+      "englishCaption": "This is life in the fields — every day.",
+      "image": "story-images/ch4b/11.jpeg",
+      "captionTranslations": {
+        "es": "Esta es la vida en los campos — cada día.",
+        "pl": "To jest życie na polach — każdego dnia.",
+        "fil": "Ito ang buhay sa mga bukid — araw-araw."
+      }
+    },
+    {
+      "id": 39,
+      "part": "B",
+      "scene": "A wealthy farmer surveying a large, prosperous field with many animals, while several workers labor behind him. Better-dressed than most.",
+      "greekCaption": "οἱ μέν εἰσιν πλούσιοι — ἔχουσιν ἀγροὺς μεγάλους καὶ πολλὰ ζῷα καὶ πολλοὺς δούλους.",
+      "englishCaption": "Some are rich — they have great fields, many animals, and many slaves.",
+      "image": "story-images/ch4b/12.jpeg",
+      "captionTranslations": {
+        "es": "Algunos son ricos: tienen grandes campos, muchos animales y muchos esclavos.",
+        "pl": "Niektórzy są bogaci — mają wielkie pola, wiele zwierząt i wielu niewolników.",
+        "fil": "Ang iba ay mayaman — mayroon silang malalaking bukid, maraming hayop, at maraming alipin."
+      }
+    },
+    {
+      "id": 40,
+      "part": "B",
+      "scene": "A poorer farmer working alone in a smaller field, simpler clothing, no help. Working with dignity.",
+      "greekCaption": "ἕτεροι δέ εἰσιν πτωχοί — ἐργάζονται ἐν τοῖς ἰδίοις ἀγροῖς μόνοι.",
+      "englishCaption": "Others are poor — they work in their own fields alone.",
+      "image": "story-images/ch4b/13.jpeg",
+      "captionTranslations": {
+        "es": "Otros son pobres: trabajan en sus propios campos solos.",
+        "pl": "Inni są biedni — pracują na własnych polach sami.",
+        "fil": "Ang iba naman ay mahirap — nagtatrabaho sa kanilang sariling mga bukid nang mag-isa."
+      }
+    },
+    {
+      "id": 41,
+      "part": "B",
+      "scene": "Side by side: the wealthy farmer with workers on one side, the poor farmer alone on the other — both sweating, both laboring under the same sun.",
+      "greekCaption": "ἀμφότεροι ἐργάζονται ὅλην τὴν ἡμέραν.",
+      "englishCaption": "Both rich and poor work all day.",
+      "image": "story-images/ch4b/14.jpeg",
+      "captionTranslations": {
+        "es": "Tanto ricos como pobres trabajan todo el día.",
+        "pl": "Zarówno bogaci, jak i biedni pracują przez cały dzień.",
+        "fil": "Kapwa ang mayaman at mahirap ay nagtatrabaho buong araw."
+      }
+    },
+    {
+      "id": 42,
+      "part": "B",
+      "scene": "Paired emotion: tired farmers leaning on tools (weariness) beside the same farmers holding baskets of ripe fruit and smiling (joy).",
+      "greekCaption": "κοπιῶσιν διὰ τὸ ἔργον — ἀλλὰ χαίρουσιν διὰ τὸν καρπὸν τοῦ ἔργου.",
+      "englishCaption": "They grow weary because of the work — but rejoice because of the fruit of the work.",
+      "image": "story-images/ch4b/15.jpeg",
+      "captionTranslations": {
+        "es": "Se cansan a causa del trabajo, pero se alegran a causa del fruto del trabajo.",
+        "pl": "Trudzą się z powodu pracy, ale radują się z powodu owocu pracy.",
+        "fil": "Napapagod sila dahil sa trabaho — ngunit nagagalak dahil sa bunga ng trabaho."
+      }
+    },
+    {
+      "id": 43,
+      "part": "B",
+      "scene": "Rich brown soil with green shoots emerging, ripe fruit growing from plants. An image of agricultural abundance coming from the earth itself.",
+      "greekCaption": "ἡ γῆ παρέχει τοὺς καρποὺς τῶν ἔργων αὐτῶν.",
+      "englishCaption": "The earth provides the fruits of their works.",
+      "image": "story-images/ch4b/16.jpeg",
+      "captionTranslations": {
+        "es": "La tierra provee los frutos de sus trabajos.",
+        "pl": "Ziemia dostarcza owoców ich prac.",
+        "fil": "Ang lupa ay nagbibigay ng mga bunga ng kanilang mga gawa."
+      }
+    },
+    {
+      "id": 44,
+      "part": "B",
+      "scene": "An elevated view: the road cutting through farmland on both sides, trees lining the edges.",
+      "greekCaption": "ἡ ὁδὸς πορεύεται διὰ τῶν ἀγρῶν — ἀγροὶ περὶ τὴν ὁδόν.",
+      "englishCaption": "The road goes through the fields — fields around the road.",
+      "image": "story-images/ch4b/17.jpeg",
+      "captionTranslations": {
+        "es": "El camino pasa por los campos — campos alrededor del camino.",
+        "pl": "Droga przechodzi przez pola — pola wokół drogi.",
+        "fil": "Ang daan ay dumadaan sa mga bukid — mga bukid sa paligid ng daan."
+      }
+    },
+    {
+      "id": 45,
+      "part": "B",
+      "scene": "The sun directly overhead at midday, blazing white-hot. Heat shimmer visible on the road below. Everything parched and bright.",
+      "greekCaption": "ὁ ἥλιος ἐν τῷ μέσῳ τοῦ οὐρανοῦ καυματίζει. μέγα καῦμά ἐστιν.",
+      "englishCaption": "The sun in the middle of the sky scorches — great heat.",
+      "image": "story-images/ch4b/18.jpeg",
+      "captionTranslations": {
+        "es": "El sol en medio del cielo abrasa — gran calor.",
+        "pl": "Słońce w środku nieba pali — wielki skwar.",
+        "fil": "Ang araw sa gitna ng langit ay nagsusunog — matinding init."
+      }
+    },
+    {
+      "id": 46,
+      "part": "B",
+      "scene": "Jacob wiping sweat from his brow, one hand on his stomach (hunger), dry lips (thirst). The donkey also looking fatigued.",
+      "greekCaption": "κοπιᾷ ὁ Ἰάκωβος ἐν τῷ σώματι. πεινᾷ καὶ διψᾷ.",
+      "englishCaption": "Jacob grows weary in his body — hungry and thirsty.",
+      "image": "story-images/ch4b/19.jpeg",
+      "captionTranslations": {
+        "es": "Jacob se cansa en su cuerpo. Tiene hambre y sed.",
+        "pl": "Jakub jest zmęczony w ciele. Jest głodny i spragniony.",
+        "fil": "Napapagod si Jacob sa kanyang katawan. Nagugutom at nauuhaw siya."
+      }
+    },
+    {
+      "id": 47,
+      "part": "B",
+      "scene": "Jacob shading his eyes with his hand, scanning the landscape, searching for a place to rest.",
+      "greekCaption": "ζητεῖ τόπον ὅπου δύναται καθίζειν καὶ ἀναπαύεσθαι.",
+      "englishCaption": "He seeks a place where he can sit and rest.",
+      "image": "story-images/ch4b/20.jpeg",
+      "captionTranslations": {
+        "es": "Busca un lugar donde pueda sentarse y descansar.",
+        "pl": "Szuka miejsca, gdzie może usiąść i odpocząć.",
+        "fil": "Naghahanap siya ng lugar kung saan maaari siyang umupo at magpahinga."
+      }
+    },
+    {
+      "id": 48,
+      "part": "B",
+      "scene": "The large tree appears ahead beside the road, its broad canopy casting cool shade. Beneath it, a stone-rimmed spring is visible — a welcoming sight.",
+      "greekCaption": "εὑρίσκει δένδρον μέγα ἐγγὺς τῆς ὁδοῦ — καὶ πηγὴν ὑπὸ τῷ δένδρῳ.",
+      "englishCaption": "He finds the great tree near the road — and a spring under it.",
+      "image": "story-images/ch4b/21.jpeg",
+      "captionTranslations": {
+        "es": "Encuentra el gran árbol cerca del camino — y un manantial bajo él.",
+        "pl": "Znajduje wielkie drzewo blisko drogi — i źródło pod nim.",
+        "fil": "Nahanap niya ang malaking puno malapit sa daan — at isang bukal sa ilalim nito."
+      }
+    },
+    {
+      "id": 49,
+      "part": "B",
+      "scene": "Close-up of the spring: clear, sparkling water in a natural stone basin. Pebbles visible at the bottom. Light reflecting on the surface.",
+      "greekCaption": "ἐν τῇ πηγῇ ἐστιν ὕδωρ ἀγαθὸν καὶ καθαρόν.",
+      "englishCaption": "In the spring there is good and clean water.",
+      "image": "story-images/ch4b/22.jpeg",
+      "captionTranslations": {
+        "es": "En el manantial hay agua buena y limpia.",
+        "pl": "W źródle jest dobra i czysta woda.",
+        "fil": "Sa bukal ay may mabuti at malinis na tubig."
+      }
+    },
+    {
+      "id": 50,
+      "part": "B",
+      "scene": "Under the tree: the shade dappled across the ground, the spring beside it. A traveler resting there — relief and refreshment.",
+      "greekCaption": "τὸ δένδρον παρέχει σκιάν. οἱ κοπιῶντες ἀναπαύονται καὶ πίνουσιν ἐκεῖ.",
+      "englishCaption": "The tree provides shade. The weary rest and drink there.",
+      "image": "story-images/ch4b/23.jpeg",
+      "captionTranslations": {
+        "es": "El árbol da sombra. Los cansados descansan y beben allí.",
+        "pl": "Drzewo daje cień. Zmęczeni odpoczywają i piją tam.",
+        "fil": "Ang puno ay nagbibigay ng lilim. Ang mga pagod ay nagpapahinga at umiinom doon."
+      }
+    },
+    {
+      "id": 51,
+      "part": "B",
+      "scene": "Jacob seated under the tree, bag open beside him, breaking bread. The donkey resting nearby. Relief on his face.",
+      "greekCaption": "καθίζει καὶ ἀναπαύεται ὑπὸ τῷ δένδρῳ. εἶτα ἀνοίγει τὴν πήραν καὶ ἐσθίει.",
+      "englishCaption": "He sits and rests under the tree. Then he opens his bag and eats.",
+      "image": "story-images/ch4b/24.jpeg",
+      "captionTranslations": {
+        "es": "Se sienta y descansa bajo el árbol. Luego abre su bolsa y come.",
+        "pl": "Siada i odpoczywa pod drzewem. Potem otwiera torbę i je.",
+        "fil": "Umupo siya at nagpahinga sa ilalim ng puno. Pagkatapos binuksan niya ang bag at kumain."
+      }
+    },
+    {
+      "id": 52,
+      "part": "B",
+      "scene": "Jacob looking at the spring, hands empty, no container. The water is right there but he cannot draw it out.",
+      "greekCaption": "διψᾷ ἀλλὰ οὐκ ἔχει ὑδρίαν. οὐ δύναται ἀντλεῖν τὸ ὕδωρ.",
+      "englishCaption": "He is thirsty but has no water jar. He cannot draw the water.",
+      "image": "story-images/ch4b/25.jpeg",
+      "captionTranslations": {
+        "es": "Tiene sed pero no tiene cántaro. No puede sacar el agua.",
+        "pl": "Jest spragniony, ale nie ma dzbana. Nie może czerpać wody.",
+        "fil": "Nauuhaw siya ngunit wala siyang tapayan. Hindi niya makuha ang tubig."
       }
     }
   ],
