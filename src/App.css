@@ -69,6 +69,36 @@
   max-width: 40vw;
 }
 
+.font-size-ctrl {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.font-size-btn {
+  background: rgba(255,255,255,0.10);
+  border: 1px solid transparent;
+  color: rgba(255,255,255,0.75);
+  font-weight: 700;
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  line-height: 1;
+  padding: 0;
+}
+.font-size-btn:hover { background: rgba(255,255,255,0.2); color: #fff; }
+.font-size-btn--active {
+  background: rgba(201,168,76,0.35);
+  border-color: var(--gold-light);
+  color: var(--gold-light);
+}
+
 .lang-select {
   flex-shrink: 0;
   margin-left: 10px;

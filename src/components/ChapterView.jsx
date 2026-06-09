@@ -5,14 +5,20 @@ import StoryTab from './tabs/StoryTab.jsx'
 import ExercisesTab from './tabs/ExercisesTab.jsx'
 import GrammarTab from './tabs/GrammarTab.jsx'
 import VisualStoryTab from './tabs/VisualStoryTab.jsx'
+import BibleTranslationTab from './tabs/BibleTranslationTab.jsx'
+import LinguisticsTab from './tabs/LinguisticsTab.jsx'
+import ExegesisTab from './tabs/ExegesisTab.jsx'
 import { useUI } from '../context/LanguageContext.jsx'
 
 const TAB_CONFIG = [
-  { id: 'story',      labelKey: 'tabStory',      emoji: '📖' },
-  { id: 'vocabulary', labelKey: 'tabVocabulary',  emoji: '📚' },
-  { id: 'grammar',    labelKey: 'tabGrammar',     emoji: '📐' },
-  { id: 'exercises',  labelKey: 'tabExercises',   emoji: '✏️' },
-  { id: 'visual',     labelKey: 'tabVisual',      emoji: '🎨' },
+  { id: 'story',            labelKey: 'tabStory',            emoji: '📖' },
+  { id: 'vocabulary',       labelKey: 'tabVocabulary',       emoji: '📚' },
+  { id: 'visual',           labelKey: 'tabVisual',           emoji: '🎨' },
+  { id: 'exercises',        labelKey: 'tabExercises',        emoji: '✏️' },
+  { id: 'grammar',          labelKey: 'tabGrammar',          emoji: '📐' },
+  { id: 'bibletranslation', labelKey: 'tabBibleTranslation', emoji: '📜' },
+  { id: 'linguistics',      labelKey: 'tabLinguistics',      emoji: '🔤' },
+  { id: 'exegesis',         labelKey: 'tabExegesis',         emoji: '🔍' },
 ]
 
 async function loadData(unitId, chapterId, type) {
@@ -51,6 +57,8 @@ export default function ChapterView({ unitId, chapterId, activePart }) {
 
   const hasData = (tabId) => {
     const map = { vocabulary: 'vocabulary', story: 'story', exercises: 'exercises', grammar: 'grammar', visual: 'visualstory' }
+    // New tabs are always "present" (they show their own empty state)
+    if (!map[tabId]) return true
     return !!data[map[tabId]]
   }
 
@@ -91,6 +99,15 @@ export default function ChapterView({ unitId, chapterId, activePart }) {
             </div>
             <div hidden={activeTab !== 'visual'}>
               <VisualStoryTab key={key} story={data.visualstory} activePart={activePart} />
+            </div>
+            <div hidden={activeTab !== 'bibletranslation'}>
+              <BibleTranslationTab />
+            </div>
+            <div hidden={activeTab !== 'linguistics'}>
+              <LinguisticsTab />
+            </div>
+            <div hidden={activeTab !== 'exegesis'}>
+              <ExegesisTab />
             </div>
           </>
         )}

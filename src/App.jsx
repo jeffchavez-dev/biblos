@@ -20,6 +20,21 @@ function AppInner() {
   const [activePart, setActivePart] = useState('A')
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [desktopSidebarHidden, setDesktopSidebarHidden] = useState(false)
+  const [fontSize, setFontSize] = useState('md')
+
+  const FONT_SIZES = [
+    { key: 'sm',  label: 'A',   px: 14 },
+    { key: 'md',  label: 'A',   px: 16 },
+    { key: 'lg',  label: 'A',   px: 19 },
+    { key: 'xl',  label: 'A',   px: 22 },
+    { key: 'xxl', label: 'A',   px: 26 },
+  ]
+
+  function changeFontSize(key) {
+    setFontSize(key)
+    const size = FONT_SIZES.find(f => f.key === key)
+    document.documentElement.style.fontSize = size.px + 'px'
+  }
   const [showVocabIndex, setShowVocabIndex] = useState(false)
   const [totalWords, setTotalWords] = useState(0)
 
@@ -76,6 +91,18 @@ function AppInner() {
           {currentChapter?.title}
           {currentPart && <> · {currentPart.label} — {currentPart.subtitle}</>}
         </div>
+        <div className="font-size-ctrl" aria-label="Font size">
+          {FONT_SIZES.map(f => (
+            <button
+              key={f.key}
+              className={`font-size-btn ${fontSize === f.key ? 'font-size-btn--active' : ''}`}
+              style={{ fontSize: f.px * 0.6 + 'px' }}
+              onClick={() => changeFontSize(f.key)}
+              aria-label={`Font size ${f.key}`}
+            >A</button>
+          ))}
+        </div>
+
         <select
           className="lang-select"
           value={lang}
