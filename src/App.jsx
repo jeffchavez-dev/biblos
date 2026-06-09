@@ -20,20 +20,17 @@ function AppInner() {
   const [activePart, setActivePart] = useState('A')
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [desktopSidebarHidden, setDesktopSidebarHidden] = useState(false)
-  const [fontSize, setFontSize] = useState('md')
+  const [fontSize, setFontSize] = useState(16)
 
-  const FONT_SIZES = [
-    { key: 'sm',  label: 'A',   px: 14 },
-    { key: 'md',  label: 'A',   px: 16 },
-    { key: 'lg',  label: 'A',   px: 19 },
-    { key: 'xl',  label: 'A',   px: 22 },
-    { key: 'xxl', label: 'A',   px: 26 },
-  ]
+  const FONT_SIZES = [14, 16, 19, 22, 26, 30]
 
-  function changeFontSize(key) {
-    setFontSize(key)
-    const size = FONT_SIZES.find(f => f.key === key)
-    document.documentElement.style.fontSize = size.px + 'px'
+  function changeFontSize(delta) {
+    setFontSize(prev => {
+      const idx = FONT_SIZES.indexOf(prev)
+      const next = FONT_SIZES[Math.max(0, Math.min(FONT_SIZES.length - 1, idx + delta))]
+      document.documentElement.style.fontSize = next + 'px'
+      return next
+    })
   }
   const [showVocabIndex, setShowVocabIndex] = useState(false)
   const [totalWords, setTotalWords] = useState(0)
@@ -92,15 +89,18 @@ function AppInner() {
           {currentPart && <> · {currentPart.label} — {currentPart.subtitle}</>}
         </div>
         <div className="font-size-ctrl" aria-label="Font size">
-          {FONT_SIZES.map(f => (
-            <button
-              key={f.key}
-              className={`font-size-btn ${fontSize === f.key ? 'font-size-btn--active' : ''}`}
-              style={{ fontSize: f.px * 0.6 + 'px' }}
-              onClick={() => changeFontSize(f.key)}
-              aria-label={`Font size ${f.key}`}
-            >A</button>
-          ))}
+          <button
+            className="font-size-btn"
+            onClick={() => changeFontSize(-1)}
+            disabled={fontSize === FONT_SIZES[0]}
+            aria-label="Decrease font size"
+          >A−</button>
+          <button
+            className="font-size-btn"
+            onClick={() => changeFontSize(1)}
+            disabled={fontSize === FONT_SIZES[FONT_SIZES.length - 1]}
+            aria-label="Increase font size"
+          >A+</button>
         </div>
 
         <select

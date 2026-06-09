@@ -78,11 +78,12 @@
 
 .font-size-btn {
   background: rgba(255,255,255,0.10);
-  border: 1px solid transparent;
-  color: rgba(255,255,255,0.75);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.85);
   font-weight: 700;
-  width: 28px;
+  font-size: 0.72rem;
   height: 28px;
+  padding: 0 8px;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -90,14 +91,10 @@
   cursor: pointer;
   transition: background 0.15s, color 0.15s;
   line-height: 1;
-  padding: 0;
+  white-space: nowrap;
 }
-.font-size-btn:hover { background: rgba(255,255,255,0.2); color: #fff; }
-.font-size-btn--active {
-  background: rgba(201,168,76,0.35);
-  border-color: var(--gold-light);
-  color: var(--gold-light);
-}
+.font-size-btn:hover:not(:disabled) { background: rgba(255,255,255,0.2); color: #fff; }
+.font-size-btn:disabled { opacity: 0.3; cursor: not-allowed; }
 
 .lang-select {
   flex-shrink: 0;
