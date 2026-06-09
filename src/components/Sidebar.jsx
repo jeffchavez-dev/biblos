@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useUI, useLanguage, t } from '../context/LanguageContext.jsx'
 import './Sidebar.css'
 
-export default function Sidebar({ units, selectedUnit, selectedChapter, activePart, onSelect, onPartSelect, open, onClose, totalWords, onVocabIndex, showingVocabIndex }) {
+export default function Sidebar({ units, selectedUnit, selectedChapter, activePart, onSelect, onPartSelect, open, desktopHidden, onClose, totalWords, onVocabIndex, showingVocabIndex }) {
   const ui = useUI()
   const { lang } = useLanguage()
   const [collapsed, setCollapsed] = useState({})
@@ -12,7 +12,7 @@ export default function Sidebar({ units, selectedUnit, selectedChapter, activePa
   }
 
   return (
-    <aside className={`sidebar ${open ? 'sidebar--open' : ''}`}>
+    <aside className={`sidebar ${open ? 'sidebar--open' : ''} ${desktopHidden ? 'sidebar--desktop-hidden' : ''}`}>
       <div className="sidebar-header">
         <span className="greek">Βίβλος</span>
         <span>{ui('tableOfContents')}</span>

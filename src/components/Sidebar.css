@@ -7,7 +7,14 @@
   position: sticky;
   top: 58px;
   height: calc(100vh - 58px);
-  transition: transform 0.25s ease;
+  transition: transform 0.25s ease, width 0.25s ease;
+}
+
+@media (min-width: 769px) {
+  .sidebar--desktop-hidden {
+    width: 0;
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 768px) {

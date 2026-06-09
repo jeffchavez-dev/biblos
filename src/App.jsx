@@ -19,6 +19,7 @@ function AppInner() {
   const [selectedChapter, setSelectedChapter] = useState(1)
   const [activePart, setActivePart] = useState('A')
   const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [desktopSidebarHidden, setDesktopSidebarHidden] = useState(false)
   const [showVocabIndex, setShowVocabIndex] = useState(false)
   const [totalWords, setTotalWords] = useState(0)
 
@@ -61,7 +62,10 @@ function AppInner() {
   return (
     <div className="app-shell">
       <header className="app-header">
-        <button className="menu-btn" onClick={() => setSidebarOpen(v => !v)} aria-label="Menu">
+        <button className="menu-btn" onClick={() => {
+          if (window.innerWidth <= 768) setSidebarOpen(v => !v)
+          else setDesktopSidebarHidden(v => !v)
+        }} aria-label="Menu">
           <span /><span /><span />
         </button>
         <div className="app-title">
@@ -93,6 +97,7 @@ function AppInner() {
           onSelect={handleSelect}
           onPartSelect={handlePartSelect}
           open={sidebarOpen}
+          desktopHidden={desktopSidebarHidden}
           onClose={() => setSidebarOpen(false)}
           totalWords={totalWords}
           onVocabIndex={() => { setShowVocabIndex(true); setSidebarOpen(false) }}
