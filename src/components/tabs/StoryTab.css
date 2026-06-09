@@ -118,6 +118,9 @@
 .story-word--has-image:hover {
   border-bottom-color: var(--deep-blue);
 }
+.story-word--has-vocab:hover {
+  border-bottom-color: var(--green);
+}
 
 .word-popover--with-image {
   max-width: min(380px, 92vw);
@@ -146,6 +149,44 @@
 }
 .tooltip-image-text .tooltip-greek { display: block; }
 .tooltip-image-text .tooltip-def { display: block; font-size: 0.85rem; line-height: 1.4; }
+
+.tooltip-transliteration {
+  display: block;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.55);
+  font-style: italic;
+  margin-top: 1px;
+}
+
+/* Vocab card popup (no image — verbs etc.) */
+.word-popover--vocab {
+  max-width: min(300px, 90vw);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 12px 14px;
+}
+.tooltip-vocab-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+.tooltip-vocab-header {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.tooltip-vocab-header .tooltip-greek { font-size: 1.1rem; }
+.tooltip-pos {
+  font-size: 0.72rem;
+  color: var(--gold-light);
+  opacity: 0.8;
+  font-style: italic;
+}
+.word-popover--vocab .tooltip-def { font-size: 0.88rem; line-height: 1.4; }
+.word-popover--vocab .tooltip-close { align-self: flex-end; margin-top: -2px; }
 
 .part-divider {
   display: flex;

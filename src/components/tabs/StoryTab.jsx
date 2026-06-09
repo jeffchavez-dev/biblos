@@ -29,21 +29,52 @@ export default function StoryTab({ story, vocabulary, activePart }) {
   const [popoverPos, setPopoverPos] = useState({ top: 0, left: 0 })
   const popoverRef = useRef(null)
 
-  // Build a lookup: normalized Greek base form → vocab entry (with image)
-  const vocabImageMap = useMemo(() => {
+  // Build a lookup: normalized Greek base form → vocab entry (all entries)
+  const vocabMap = useMemo(() => {
     if (!vocabulary) return {}
     const map = {}
     for (const entry of vocabulary) {
-      if (!entry.image) continue
-      // vocab greek field: "ἄνθρωπος, -ου, ὁ" — take part before first comma/space
       const base = entry.greek.split(/[,\s]/)[0]
       map[normalizeGreek(base)] = entry
     }
     return map
   }, [vocabulary])
 
+  // Verb endings (longest first to avoid partial matches)
+  const VERB_SUFFIXES = ['ουσιν', 'ουσι', 'ομεν', 'ετε', 'εις', 'ει', 'ω']
+  // Noun/adjective case endings (longest first)
+  const NOUN_SUFFIXES = ['ους', 'οις', 'αις', 'ων', 'ου', 'ης', 'ος', 'ον', 'αν', 'ην', 'ας', 'ω', 'α', 'η', 'ε']
+
   function findVocabEntry(greekWord) {
-    return vocabImageMap[normalizeGreek(greekWord)] || null
+    const normalized = normalizeGreek(greekWord)
+    // 1. Direct match
+    if (vocabMap[normalized]) return vocabMap[normalized]
+    // 2. Verb stem: strip ending, match lemma ending in -ω or -μι
+    for (const suffix of VERB_SUFFIXES) {
+      if (normalized.endsWith(suffix)) {
+        const stem = normalized.slice(0, -suffix.length)
+        if (stem.length < 2) continue
+        for (const [key, entry] of Object.entries(vocabMap)) {
+          if (key.startsWith(stem) && (key.endsWith('ω') || key.endsWith('μι'))) {
+            return entry
+          }
+        }
+      }
+    }
+    // 3. Noun/adjective stem: strip case ending, match lemma with similar stem length
+    for (const suffix of NOUN_SUFFIXES) {
+      if (normalized.endsWith(suffix)) {
+        const stem = normalized.slice(0, -suffix.length)
+        if (stem.length < 2) continue
+        for (const [key, entry] of Object.entries(vocabMap)) {
+          // key must start with stem and not be much longer (avoids false broad matches)
+          if (key.startsWith(stem) && key.length <= stem.length + 4) {
+            return entry
+          }
+        }
+      }
+    }
+    return null
   }
 
   function handleWordClick(e, word, paragraphId, wordIdx) {
@@ -143,7 +174,7 @@ export default function StoryTab({ story, vocabulary, activePart }) {
                 {para.words.map((word, wi) => (
                   <span
                     key={wi}
-                    className={`story-word ${activeWord?.key === `${para.id}-${wi}` ? 'story-word--active' : ''} ${findVocabEntry(word.greek) ? 'story-word--has-image' : ''}`}
+                    className={(() => { const ve = findVocabEntry(word.greek); return `story-word ${activeWord?.key === `${para.id}-${wi}` ? 'story-word--active' : ''} ${ve?.image ? 'story-word--has-image' : ve ? 'story-word--has-vocab' : ''}` })()}
                     onClick={(e) => handleWordClick(e, word, para.id, wi)}
                     onDoubleClick={(e) => handleWordDoubleClick(e, word, para.id, wi)}
                   >
@@ -181,7 +212,7 @@ export default function StoryTab({ story, vocabulary, activePart }) {
       </div>
 
       {activeWord && (
-        <div className={`word-popover ${showImage && activeWord.vocabEntry?.image ? 'word-popover--with-image' : ''}`} ref={popoverRef} style={{ opacity: 0 }}>
+        <div className={`word-popover ${showImage && activeWord.vocabEntry?.image ? 'word-popover--with-image' : ''} ${showImage && activeWord.vocabEntry && !activeWord.vocabEntry.image ? 'word-popover--vocab' : ''}`} ref={popoverRef} style={{ opacity: 0 }}>
           {showImage && activeWord.vocabEntry?.image ? (
             <div className="tooltip-image-layout">
               <img
@@ -190,9 +221,26 @@ export default function StoryTab({ story, vocabulary, activePart }) {
                 alt={activeWord.vocabEntry.definition}
               />
               <div className="tooltip-image-text">
-                <span className="tooltip-greek greek">{activeWord.greek}</span>
-                <span className="tooltip-def">{activeWord.definition}</span>
+                <span className="tooltip-greek greek">{activeWord.vocabEntry.greek}</span>
+                {activeWord.vocabEntry.transliteration && (
+                  <span className="tooltip-transliteration">{activeWord.vocabEntry.transliteration}</span>
+                )}
+                <span className="tooltip-def">{t(activeWord.vocabEntry.definition, activeWord.vocabEntry.translations, lang)}</span>
               </div>
+              <button className="tooltip-close" onClick={() => { setActiveWord(null); setShowImage(false) }}>✕</button>
+            </div>
+          ) : showImage && activeWord.vocabEntry ? (
+            <div className="tooltip-vocab-layout">
+              <div className="tooltip-vocab-header">
+                <span className="tooltip-greek greek">{activeWord.vocabEntry.greek}</span>
+                {activeWord.vocabEntry.transliteration && (
+                  <span className="tooltip-transliteration">{activeWord.vocabEntry.transliteration}</span>
+                )}
+              </div>
+              {activeWord.vocabEntry.partOfSpeech && (
+                <span className="tooltip-pos">{activeWord.vocabEntry.partOfSpeech}</span>
+              )}
+              <span className="tooltip-def">{t(activeWord.vocabEntry.definition, activeWord.vocabEntry.translations, lang)}</span>
               <button className="tooltip-close" onClick={() => { setActiveWord(null); setShowImage(false) }}>✕</button>
             </div>
           ) : (

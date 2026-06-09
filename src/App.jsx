@@ -28,7 +28,7 @@ function AppInner() {
     setFontSize(prev => {
       const idx = FONT_SIZES.indexOf(prev)
       const next = FONT_SIZES[Math.max(0, Math.min(FONT_SIZES.length - 1, idx + delta))]
-      document.documentElement.style.fontSize = next + 'px'
+      document.documentElement.setAttribute('data-font-size', String(next))
       return next
     })
   }
