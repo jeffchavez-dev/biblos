@@ -118,6 +118,7 @@ function PracticeMode({ filtered, lang, ui }) {
   const [options, setOptions] = useState([])
   const [selected, setSelected] = useState(null)
   const [score, setScore] = useState({ correct: 0, total: 0 })
+  const [fullscreen, setFullscreen] = useState(false)
 
   const word = words[index]
 
@@ -143,13 +144,61 @@ function PracticeMode({ filtered, lang, ui }) {
       setIndex(0)
       setScore({ correct: 0, total: 0 })
     }
+    setFullscreen(false)
   }
 
   const isLast = index === words.length - 1
   const def = t(word.definition, word.translations, lang)
 
+  function renderOptions(inFullscreen = false) {
+    return (
+      <div className={`practice-options${inFullscreen ? ' practice-options--fs' : ''}`}>
+        {options.map(opt => {
+          let cls = 'practice-option'
+          if (selected !== null) {
+            if (opt.id === word.id) cls += ' practice-option--correct'
+            else if (opt.id === selected) cls += ' practice-option--wrong'
+          }
+          return (
+            <button key={opt.id} className={cls} onClick={() => handleSelect(opt)}>
+              <span className="greek">{lemma(opt.greek)}</span>
+            </button>
+          )
+        })}
+      </div>
+    )
+  }
+
   return (
     <>
+      {fullscreen && word.image && (
+        <div className="practice-fs-overlay" onClick={() => setFullscreen(false)}>
+          <button className="fs-close" onClick={() => setFullscreen(false)} aria-label="Close">✕</button>
+          <img
+            className="fs-image"
+            src={`/vocab-images/${word.image}`}
+            alt="vocabulary"
+            onClick={e => e.stopPropagation()}
+          />
+          <div className="practice-fs-controls" onClick={e => e.stopPropagation()}>
+            <p className="practice-question practice-question--fs">Which Greek word matches?</p>
+            {renderOptions(true)}
+            {selected !== null && (
+              <>
+                <div className={`practice-feedback ${selected === word.id ? 'practice-feedback--correct' : 'practice-feedback--wrong'}`}>
+                  {selected === word.id ? '✓ Correct!' : `✗ The answer is: ${lemma(word.greek)}`}
+                </div>
+                <div className="vocab-nav">
+                  <button className="nav-btn nav-btn--primary" onClick={handleNext}>
+                    {isLast ? 'Start Over' : 'Next →'}
+                  </button>
+                </div>
+              </>
+            )}
+          </div>
+        </div>
+      )}
+
       <div className="vocab-header">
         <h2>Practice</h2>
         <div className="vocab-stats">
@@ -159,25 +208,15 @@ function PracticeMode({ filtered, lang, ui }) {
       </div>
       <div className="practice-card">
         {word.image ? (
-          <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
+          <div className="practice-image-wrap">
+            <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
+            <button className="flashcard-fs-btn practice-fs-btn" onClick={() => setFullscreen(true)} aria-label="Fullscreen">⛶</button>
+          </div>
         ) : (
           <div className="practice-prompt">{def}</div>
         )}
         <p className="practice-question">Which Greek word matches?</p>
-        <div className="practice-options">
-          {options.map(opt => {
-            let cls = 'practice-option'
-            if (selected !== null) {
-              if (opt.id === word.id) cls += ' practice-option--correct'
-              else if (opt.id === selected) cls += ' practice-option--wrong'
-            }
-            return (
-              <button key={opt.id} className={cls} onClick={() => handleSelect(opt)}>
-                <span className="greek">{lemma(opt.greek)}</span>
-              </button>
-            )
-          })}
-        </div>
+        {renderOptions()}
         {selected !== null && (
           <div className={`practice-feedback ${selected === word.id ? 'practice-feedback--correct' : 'practice-feedback--wrong'}`}>
             {selected === word.id ? '✓ Correct!' : `✗ The answer is: ${lemma(word.greek)}`}

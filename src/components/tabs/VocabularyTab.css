@@ -305,11 +305,68 @@
   margin: 0;
 }
 
+.practice-image-wrap {
+  position: relative;
+  width: 100%;
+}
+.practice-fs-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
 .practice-options {
   display: flex;
   flex-direction: row;
   gap: 10px;
   width: 100%;
+}
+.practice-options--fs {
+  gap: 12px;
+}
+
+/* Practice fullscreen overlay */
+.practice-fs-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0,0,0,0.95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.practice-fs-controls {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 20px 24px;
+  background: rgba(0,0,0,0.6);
+}
+.practice-question--fs {
+  color: rgba(255,255,255,0.7);
+  margin: 0;
+}
+.practice-options--fs .practice-option {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.2);
+  color: #fff;
+}
+.practice-options--fs .practice-option:hover:not(:disabled) {
+  background: rgba(255,255,255,0.2);
+  border-color: rgba(255,255,255,0.4);
+}
+.practice-options--fs .practice-option--correct {
+  border-color: var(--green) !important;
+  background: rgba(0,180,0,0.25) !important;
+}
+.practice-options--fs .practice-option--wrong {
+  border-color: #e05252 !important;
+  background: rgba(220,0,0,0.25) !important;
 }
 
 .practice-option {
