@@ -106,19 +106,6 @@ function IntroMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
         <button className="nav-btn nav-btn--primary" onClick={handleFlip}>{flipped ? ui('hide') : ui('reveal')}</button>
         <button className="nav-btn" onClick={handleNext}>{ui('next')}</button>
       </div>
-      <div className="word-list-section">
-        <h3>{ui('allWords')} — {filtered.length} {ui('words')}</h3>
-        <div className="word-list">
-          {filtered.map((w, i) => (
-            <div key={w.id} className={`word-row ${i === index ? 'word-row--active' : ''}`} onClick={() => { setFlipped(false); setIndex(i) }}>
-              <span className="word-row-num">{i + 1}</span>
-              <span className="word-row-greek greek">{w.greek}</span>
-              <span className={`word-row-def ${i === index ? 'word-row-def--visible' : 'word-row-def--hidden'}`}>{t(w.definition, w.translations, lang)}</span>
-              {seen[w.id] > 0 && <span className="word-row-seen">{ui('seen')} {seen[w.id]}×</span>}
-            </div>
-          ))}
-        </div>
-      </div>
     </>
   )
 }
