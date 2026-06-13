@@ -415,11 +415,12 @@
   min-height: 0;
 }
 
-/* Result icon — absolute top-left of image wrap */
+/* Result icon — absolute center of image wrap */
 .practice-result-icon {
   position: absolute;
-  top: 12px;
-  left: 12px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 10;
   font-size: 2rem;
   font-weight: 900;
