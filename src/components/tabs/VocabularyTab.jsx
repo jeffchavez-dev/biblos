@@ -223,7 +223,6 @@ function PracticeMode({ filtered, lang, ui }) {
         ) : (
           <div className="practice-prompt">{def}</div>
         )}
-        <p className="practice-question">Which Greek word matches?</p>
         {renderOptions()}
       </div>
     </>
