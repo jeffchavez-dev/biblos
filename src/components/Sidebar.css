@@ -7,7 +7,11 @@
   position: sticky;
   top: 58px;
   height: calc(100vh - 58px);
-  transition: transform 0.25s ease, width 0.25s ease;
+  transition: transform 0.25s ease, width 0.25s ease, top 0.3s ease, height 0.3s ease;
+}
+.app-shell--nav-hidden .sidebar {
+  top: 0;
+  height: 100vh;
 }
 
 @media (min-width: 769px) {
@@ -26,6 +30,10 @@
     z-index: 50;
     transform: translateX(-100%);
     width: 280px;
+    transition: transform 0.25s ease, top 0.3s ease;
+  }
+  .app-shell--nav-hidden .sidebar {
+    top: 0;
   }
   .sidebar--open {
     transform: translateX(0);

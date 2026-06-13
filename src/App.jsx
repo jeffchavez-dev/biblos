@@ -73,7 +73,7 @@ function AppInner() {
   const ui = useUI()
 
   return (
-    <div className="app-shell">
+    <div className={`app-shell ${navHidden ? 'app-shell--nav-hidden' : ''}`}>
       <header className={`app-header ${navHidden ? 'app-header--hidden' : ''}`}>
         <button className="menu-btn" onClick={() => {
           if (window.innerWidth <= 768) setSidebarOpen(v => !v)
