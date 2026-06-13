@@ -25,7 +25,16 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,ico,svg,woff,woff2}', 'vocab-images/*.jpeg'],
         globIgnores: ['vocab-images/*.png'],
+        navigateFallback: null,
         runtimeCaching: [
+          {
+            urlPattern: /\.(js|css)$/i,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'app-code-cache',
+              networkTimeoutSeconds: 5,
+            },
+          },
           {
             urlPattern: /\/vocab-images\/.*\.png$/i,
             handler: 'CacheFirst',
