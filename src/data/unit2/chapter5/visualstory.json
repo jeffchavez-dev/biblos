@@ -491,131 +491,390 @@
     {
       "id": 38,
       "part": "B",
-      "scene": "Teaches: τίς ἐστιν οὗτος, πλέον — Salome finally speaks: who is this Jesus? She wants to know more.",
+      "scene": "Salome leaning forward, eyes wide with genuine curiosity, mouth open mid-question.",
       "greekCaption": "ἡ Σαλώμη λέγει, \"τίς ἐστιν οὗτος ὁ Ἰησοῦς; βούλομαι γινώσκειν πλέον.\"",
       "englishCaption": "Salome says, \"Who is this Jesus? I want to know more.\"",
       "image": "story-images/ch5b/1.jpeg",
       "captionTranslations": {
-        "es": "Salomé dice: '¿Quién es este Jesús? Quiero saber más.'",
+        "es": "Salomé dice: «¿Quién es este Jesús? Quiero saber más.»",
         "pl": "Salome mówi: «Kim jest ten Jezus? Chcę wiedzieć więcej.»",
-        "fil": "Sinabi ni Salome: 'Sino ang Hesus na ito? Gusto ko pang malaman.'"
+        "fil": "Sinabi ni Salome: \"Sino ang Hesus na ito? Gusto ko pang malaman.\""
       }
     },
     {
       "id": 39,
       "part": "B",
-      "scene": "Teaches: εἰς τὸν αἰῶνα, ποτε οὐ πεινᾷ οὐδὲ διψᾷ — Whoever believes in Jesus will no longer hunger or thirst forever.",
-      "greekCaption": "ὅστις πιστεύει τῷ Ἰησοῦ οὐκέτι πεινᾷ οὐδὲ διψᾷ εἰς τὸν αἰῶνα.",
-      "englishCaption": "Whoever believes in Jesus will no longer be hungry nor thirsty forever.",
+      "scene": "A shepherd appears on the road leading a flock of sheep past the spring.",
+      "greekCaption": "ποιμήν τις ἔρχεται κατὰ τὴν ὁδὸν μετὰ τῶν προβάτων αὐτοῦ.",
+      "englishCaption": "A certain shepherd comes along the road with his sheep.",
       "image": "story-images/ch5b/2.jpeg",
       "captionTranslations": {
-        "es": "Quien cree en Jesús ya no tendrá hambre ni sed para siempre.",
-        "pl": "Kto wierzy w Jezusa, nie będzie już głodny ani spragniony na wieki.",
-        "fil": "Ang naniniwala kay Hesus ay hindi na magugutom o mauuhaw magpakailanman."
+        "es": "Un pastor viene por el camino con sus ovejas.",
+        "pl": "Pewien pasterz idzie drogą ze swoimi owcami.",
+        "fil": "May pastol na dumating sa daan kasama ang kanyang mga tupa."
       }
     },
     {
       "id": 40,
       "part": "B",
-      "scene": "Teaches: ποιμήν, χόρτος, ψυχή, ἀκολουθέω — The shepherd leads the sheep. The sheep eat grass and follow.",
-      "greekCaption": "ὁ ποιμὴν ἄγει τὰ πρόβατα. τὰ πρόβατα ἀκολουθεῖ αὐτῷ καὶ ἐσθίει τὸν χόρτον.",
-      "englishCaption": "The shepherd leads the sheep. The sheep follow him and eat the grass.",
+      "scene": "Close on the procession: shepherd in front with staff, sheep walking close behind.",
+      "greekCaption": "ὁ ποιμὴν ἄγει τὰ πρόβατα· τὰ δὲ πρόβατα ἀκολουθεῖ αὐτῷ.",
+      "englishCaption": "The shepherd leads the sheep and the sheep follow him.",
       "image": "story-images/ch5b/3.jpeg",
       "captionTranslations": {
-        "es": "El pastor guía a las ovejas. Las ovejas lo siguen y comen la hierba.",
-        "pl": "Pasterz prowadzi owce. Owce podążają za nim i jedzą trawę.",
-        "fil": "Inaaakay ng pastol ang mga tupa. Sumusunod ang mga tupa sa kanya at kumakain ng damo."
+        "es": "El pastor guía a las ovejas y las ovejas lo siguen.",
+        "pl": "Pasterz prowadzi owce, a owce idą za nim.",
+        "fil": "Inaaakay ng pastol ang mga tupa at sumusunod ang mga tupa sa kanya."
       }
     },
     {
       "id": 41,
       "part": "B",
-      "scene": "Teaches: ὁ ποιμὴν ὁ καλός, τίθησιν ψυχήν, ὑπέρ, σῴζω — The good shepherd lays down his life for the sheep.",
-      "greekCaption": "ὁ καλὸς ποιμὴν τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν προβάτων. οὐ φεύγει ὅταν ὁ λύκος ἔρχηται· σῴζει αὐτά.",
-      "englishCaption": "The good shepherd lays down his life for the sheep. He does not flee when the wolf comes; he saves them.",
+      "scene": "The shepherd crouching, one hand on a sheep's head, making eye contact.",
+      "greekCaption": "\"ὁ Ἰησοῦς ἐστιν ὁ ποιμὴν ὁ καλός· ὁ καλὸς ποιμὴν γινώσκει τὰ πρόβατα αὐτοῦ.\"",
+      "englishCaption": "\"Jesus is the good shepherd — the good shepherd knows his sheep.\"",
       "image": "story-images/ch5b/4.jpeg",
       "captionTranslations": {
-        "es": "El buen pastor da su vida por las ovejas. No huye cuando el lobo viene; los salva.",
-        "pl": "Dobry pasterz oddaje swoje życie za owce. Nie ucieka, gdy wilk przychodzi; ocala je.",
-        "fil": "Ibinibigay ng mabuting pastol ang kanyang buhay para sa mga tupa. Hindi siya tumakas kapag dumating ang lobo; iniligtas niya sila."
+        "es": "\"Jesús es el buen pastor — el buen pastor conoce a sus ovejas.\"",
+        "pl": "\"Jezus jest dobrym pasterzem — dobry pasterz zna swoje owce.\"",
+        "fil": "\"Si Hesus ang mabuting pastol — kilala ng mabuting pastol ang kanyang mga tupa.\""
       }
     },
     {
       "id": 42,
       "part": "B",
-      "scene": "Teaches: μισθωτός, φεύγω, ἁρπάζω, σκορπίζω — The hireling flees; the wolf seizes and scatters the sheep.",
-      "greekCaption": "ὁ μισθωτὸς βλέπει τὸν λύκον καὶ φεύγει. ὁ οὖν λύκος ἁρπάζει τὰ πρόβατα καὶ σκορπίζει.",
-      "englishCaption": "The hireling sees the wolf and flees. The wolf seizes the sheep and scatters them.",
+      "scene": "The shepherd standing protectively between his flock and a wolf in the distance, staff raised.",
+      "greekCaption": "\"ὁ καλὸς ποιμὴν τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν προβάτων.\"",
+      "englishCaption": "\"The good shepherd lays down his life for the sheep.\"",
       "image": "story-images/ch5b/5.jpeg",
       "captionTranslations": {
-        "es": "El jornalero ve al lobo y huye. El lobo agarra a las ovejas y las dispersa.",
-        "pl": "Najemnik widzi wilka i ucieka. Wilk chwyta owce i rozprasza je.",
-        "fil": "Nakikita ng manggagawa ang lobo at tumakas. Sinasagit ng lobo ang mga tupa at kinakalat ang mga ito."
+        "es": "\"El buen pastor da su vida por las ovejas.\"",
+        "pl": "\"Dobry pasterz oddaje swoje życie za owce.\"",
+        "fil": "\"Ibinibigay ng mabuting pastol ang kanyang buhay para sa mga tupa.\""
       }
     },
     {
       "id": 43,
       "part": "B",
-      "scene": "Teaches: θύρα, εἰσέρχομαι, ζωὴ αἰώνιος, σῴζω — Jesus is the door of the sheep.",
-      "greekCaption": "ὁ Ἰησοῦς ἐστιν ἡ θύρα τῶν προβάτων. ὅστις εἰσέρχεται διὰ τοῦ Ἰησοῦ, ὁ Ἰησοῦς σῴζει. ἔχει ζωὴν αἰώνιον.",
-      "englishCaption": "Jesus is the door of the sheep. Whoever enters through Jesus, Jesus saves. He has eternal life.",
+      "scene": "The shepherd planted firmly facing the wolf, sheep safe behind.",
+      "greekCaption": "οὐ φεύγει ὅταν ὁ λύκος ἔρχηται· μένει καὶ φυλάσσει καὶ σῴζει τὰ πρόβατα.",
+      "englishCaption": "He does not flee when the wolf comes — he stays and guards and saves the sheep.",
       "image": "story-images/ch5b/6.jpeg",
       "captionTranslations": {
-        "es": "Jesús es la puerta de las ovejas. Quien entra por Jesús, Jesús lo salva. Tiene vida eterna.",
-        "pl": "Jezus jest drzwiami owiec. Kto wchodzi przez Jezusa, Jezus go zbawia. Ma życie wieczne.",
-        "fil": "Si Hesus ang pintuan ng mga tupa. Ang sinumang pumapasok sa pamamagitan ni Hesus ay nililigtas ni Hesus. Mayroon siyang buhay na walang hanggan."
+        "es": "No huye cuando viene el lobo — se queda y guarda y salva a las ovejas.",
+        "pl": "Nie ucieka gdy wilk przychodzi — pozostaje i strzeże i ocala owce.",
+        "fil": "Hindi siya tumakas kapag dumating ang lobo — nananatili siya at binabantayan at nililigtas ang mga tupa."
       }
     },
     {
       "id": 44,
       "part": "B",
-      "scene": "Teaches: ἁμαρτία, ὁμολογέω, ἀφίησιν, καθαρίζω, αἷμα — If we confess, God forgives. The blood of Jesus cleanses.",
-      "greekCaption": "ἐὰν ὁμολογῶμεν τὰς ἁμαρτίας ἡμῶν, ὁ θεὸς ἀφίησιν ἡμῖν. τὸ αἷμα Ἰησοῦ καθαρίζει ἡμᾶς ἀπὸ πάσης ἁμαρτίας.",
-      "englishCaption": "If we confess our sins, God forgives us. The blood of Jesus cleanses us from all sin.",
+      "scene": "A hired man running away from the flock as a wolf approaches, sheep scattering.",
+      "greekCaption": "ὁ μισθωτὸς βλέπει τὸν λύκον καὶ φεύγει· οὐ μέλει αὐτῷ περὶ τῶν προβάτων.",
+      "englishCaption": "The hired worker sees the wolf and flees — the sheep do not matter to him.",
       "image": "story-images/ch5b/7.jpeg",
       "captionTranslations": {
-        "es": "Si confesamos nuestros pecados Dios nos perdona. La sangre de Jesús nos limpia de todo pecado.",
-        "pl": "Jeśli wyznajemy nasze grzechy, Bóg nam przebacza. Krew Jezusa oczyszcza nas z wszelkiego grzechu.",
-        "fil": "Kung ipinagtapat natin ang ating mga kasalanan, pinapatawad tayo ng Diyos. Nililinis tayo ng dugo ni Hesus mula sa lahat ng kasalanan."
+        "es": "El jornalero ve al lobo y huye — las ovejas no le importan.",
+        "pl": "Najemnik widzi wilka i ucieka — nie obchodzą go owce.",
+        "fil": "Nakikita ng manggagawa ang lobo at tumakas — walang pakialam siya sa mga tupa."
       }
     },
     {
       "id": 45,
       "part": "B",
-      "scene": "Teaches: κόσμος, σκοτία, φαίνω, φωτίζω, κοινωνία — Jesus is the light of the world.",
-      "greekCaption": "ὁ Ἰησοῦς ἐστιν τὸ φῶς τοῦ κόσμου. τὸ φῶς φαίνει ἐν τῇ σκοτίᾳ καὶ φωτίζει πάντα ἄνθρωπον. ἐν τῷ φωτὶ ἔχομεν κοινωνίαν.",
-      "englishCaption": "Jesus is the light of the world. The light shines in the darkness and enlightens every person. In the light we have fellowship.",
+      "scene": "The wolf among the flock, one sheep in its jaws, others running in all directions.",
+      "greekCaption": "ὁ λύκος ἁρπάζει τὰ πρόβατα καὶ σκορπίζει αὐτά.",
+      "englishCaption": "The wolf seizes the sheep and scatters them.",
       "image": "story-images/ch5b/8.jpeg",
       "captionTranslations": {
-        "es": "Jesús es la luz del mundo. La luz brilla en la oscuridad e ilumina a toda persona. En la luz tenemos comunión.",
-        "pl": "Jezus jest światłością świata. Światło świeci w ciemności i oświeca każdego człowieka. W światłości mamy wspólnotę.",
-        "fil": "Si Hesus ang liwanag ng mundo. Sumisinag ang liwanag sa kadiliman at nagliliwanag sa bawat tao. Sa liwanag mayroon tayong pakikiisa."
+        "es": "El lobo agarra a las ovejas y las dispersa.",
+        "pl": "Wilk chwyta owce i rozprasza je.",
+        "fil": "Sinasagit ng lobo ang mga tupa at kinakalat ang mga ito."
       }
     },
     {
       "id": 46,
       "part": "B",
-      "scene": "Teaches: ἀνάστασις, ζάω, δίδωμι, ἀποθνῄσκω — Jesus is the resurrection and the life.",
-      "greekCaption": "ὁ Ἰησοῦς ἐστιν ἡ ἀνάστασις καὶ ἡ ζωή. ὁ θεὸς δίδωσιν τὸν υἱὸν αὐτοῦ ἵνα ὅστις πιστεύῃ μὴ ἀποθνῄσκῃ ἀλλὰ ἔχῃ ζωὴν αἰώνιον.",
-      "englishCaption": "Jesus is the resurrection and the life. God gives his Son so that whoever believes may not die but have eternal life.",
+      "scene": "Side-by-side contrast: shepherd standing firm with sheep safe; hired worker fleeing with sheep scattered.",
+      "greekCaption": "ὁ ποιμὴν μένει· ὁ δὲ μισθωτὸς φεύγει. τοῦτό ἐστιν ἡ διαφορά.",
+      "englishCaption": "The shepherd stays — but the hired worker flees. This is the difference.",
       "image": "story-images/ch5b/9.jpeg",
       "captionTranslations": {
-        "es": "Jesús es la resurrección y la vida. Dios da a su Hijo para que quien crea no muera sino tenga vida eterna.",
-        "pl": "Jezus jest zmartwychwstaniem i życiem. Bóg daje swojego Syna, aby kto wierzy, nie umarł, ale miał życie wieczne.",
-        "fil": "Si Hesus ang muling pagkabuhay at ang buhay. Ibinibigay ng Diyos ang kanyang Anak upang ang naniniwala ay huwag mamatay kundi magkaroon ng buhay na walang hanggan."
+        "es": "El pastor permanece — pero el jornalero huye. Esta es la diferencia.",
+        "pl": "Pasterz pozostaje — ale najemnik ucieka. To jest różnica.",
+        "fil": "Nananatili ang pastol — ngunit tumakas ang manggagawa. Ito ang pagkakaiba."
       }
     },
     {
       "id": 47,
       "part": "B",
-      "scene": "Teaches: παρά, ὕδωρ τῆς ζωῆς — Salome's jar sits beside the spring. But she thinks about the water of life.",
-      "greekCaption": "ἡ ὑδρία αὐτῆς ἔτι ἐστὶν παρὰ τὴν πηγήν. ἀλλὰ ἡ Σαλώμη μεριμνᾷ περὶ τοῦ ὕδατος τῆς ζωῆς.",
-      "englishCaption": "Her jar is still beside the spring. But Salome thinks about the water of life.",
+      "scene": "An open doorway in a stone sheep-pen, light streaming through, sheep entering.",
+      "greekCaption": "\"ὁ Ἰησοῦς ἐστιν ἡ θύρα τῶν προβάτων.\"",
+      "englishCaption": "\"Jesus is the door of the sheep.\"",
       "image": "story-images/ch5b/10.jpeg",
       "captionTranslations": {
-        "es": "Su cántaro sigue junto al manantial. Pero Salomé piensa en el agua de vida.",
-        "pl": "Jej dzban wciąż jest przy źródle. Ale Salome myśli o wodzie życia.",
-        "fil": "Nandoon pa rin ang kanyang tapayan malapit sa bukal. Ngunit nag-iisip si Salome sa tubig ng buhay."
+        "es": "\"Jesús es la puerta de las ovejas.\"",
+        "pl": "\"Jezus jest drzwiami owiec.\"",
+        "fil": "\"Si Hesus ang pintuan ng mga tupa.\""
+      }
+    },
+    {
+      "id": 48,
+      "part": "B",
+      "scene": "A figure walking through the lit doorway into safety and light.",
+      "greekCaption": "\"ὅστις εἰσέρχεται διὰ τῆς θύρας, σῴζεται καὶ ἔχει ζωὴν αἰώνιον.\"",
+      "englishCaption": "\"Whoever enters through the door is saved and has eternal life.\"",
+      "image": "story-images/ch5b/11.jpeg",
+      "captionTranslations": {
+        "es": "\"Quien entra por la puerta es salvo y tiene vida eterna.\"",
+        "pl": "\"Kto wchodzi przez drzwi, jest zbawiony i ma życie wieczne.\"",
+        "fil": "\"Ang sinumang pumapasok sa pintuan ay naliligtas at may buhay na walang hanggan.\""
+      }
+    },
+    {
+      "id": 49,
+      "part": "B",
+      "scene": "A figure with bowed head and heavy shoulders — the weight of sin shown through burden and posture.",
+      "greekCaption": "πάντες ἄνθρωποι ἔχουσιν ἁμαρτίας.",
+      "englishCaption": "All people have sins.",
+      "image": "story-images/ch5b/12.jpeg",
+      "captionTranslations": {
+        "es": "Todas las personas tienen pecados.",
+        "pl": "Wszyscy ludzie mają grzechy.",
+        "fil": "Lahat ng tao ay may mga kasalanan."
+      }
+    },
+    {
+      "id": 50,
+      "part": "B",
+      "scene": "A figure kneeling, mouth open, hands raised, speaking upward toward light.",
+      "greekCaption": "\"ἐὰν ὁμολογῶμεν τὰς ἁμαρτίας ἡμῶν...\"",
+      "englishCaption": "\"If we confess our sins...\"",
+      "image": "story-images/ch5b/13.jpeg",
+      "captionTranslations": {
+        "es": "\"Si confesamos nuestros pecados...\"",
+        "pl": "\"Jeśli wyznajemy nasze grzechy...\"",
+        "fil": "\"Kung ipinagtapat natin ang ating mga kasalanan...\""
+      }
+    },
+    {
+      "id": 51,
+      "part": "B",
+      "scene": "Warm light falling on the kneeling figure, the dark burden dissolving away.",
+      "greekCaption": "\"...ὁ θεὸς ἀφίησιν ἡμῖν καὶ καθαρίζει ἡμᾶς.\"",
+      "englishCaption": "\"...God forgives us and cleanses us.\"",
+      "image": "story-images/ch5b/14.jpeg",
+      "captionTranslations": {
+        "es": "\"...Dios nos perdona y nos limpia.\"",
+        "pl": "\"...Bóg nam przebacza i oczyszcza nas.\"",
+        "fil": "\"...pinapatawad tayo ng Diyos at nilinis tayo niya.\""
+      }
+    },
+    {
+      "id": 52,
+      "part": "B",
+      "scene": "The darkness fully gone, the figure standing clean and upright in the light.",
+      "greekCaption": "\"...ἀπὸ πάσης ἀδικίας.\"",
+      "englishCaption": "\"...from all unrighteousness.\"",
+      "image": "story-images/ch5b/15.jpeg",
+      "captionTranslations": {
+        "es": "\"...de toda maldad.\"",
+        "pl": "\"...od wszelkiej nieprawości.\"",
+        "fil": "\"...mula sa lahat ng kasamaan.\""
+      }
+    },
+    {
+      "id": 53,
+      "part": "B",
+      "scene": "A red-tinted stream washing across a dark surface leaving it clean. Symbolic.",
+      "greekCaption": "\"τὸ αἷμα Ἰησοῦ καθαρίζει ἡμᾶς ἀπὸ πάσης ἁμαρτίας.\"",
+      "englishCaption": "\"The blood of Jesus cleanses us from all sin.\"",
+      "image": "story-images/ch5b/16.jpeg",
+      "captionTranslations": {
+        "es": "\"La sangre de Jesús nos limpia de todo pecado.\"",
+        "pl": "\"Krew Jezusa oczyszcza nas z wszelkiego grzechu.\"",
+        "fil": "\"Nililinis tayo ng dugo ni Hesus mula sa lahat ng kasalanan.\""
+      }
+    },
+    {
+      "id": 54,
+      "part": "B",
+      "scene": "Figures lying still in shadow and darkness — lifeless, unmoving.",
+      "greekCaption": "χωρὶς τοῦ Ἰησοῦ ἐσμὲν νεκροὶ ἐν ταῖς ἁμαρτίαις ἡμῶν.",
+      "englishCaption": "Without Jesus we are dead in our sins.",
+      "image": "story-images/ch5b/17.jpeg",
+      "captionTranslations": {
+        "es": "Sin Jesús estamos muertos en nuestros pecados.",
+        "pl": "Bez Jezusa jesteśmy umarli w naszych grzechach.",
+        "fil": "Kung wala si Hesus tayo ay patay sa ating mga kasalanan."
+      }
+    },
+    {
+      "id": 55,
+      "part": "B",
+      "scene": "A hand reaching down from light into darkness toward the still figures.",
+      "greekCaption": "μόνος ὁ Ἰησοῦς δύναται σῴζειν ἡμᾶς ἐκ τῶν ἁμαρτιῶν ἡμῶν.",
+      "englishCaption": "Only Jesus is able to save us from our sins.",
+      "image": "story-images/ch5b/18.jpeg",
+      "captionTranslations": {
+        "es": "Solo Jesús puede salvarnos de nuestros pecados.",
+        "pl": "Tylko Jezus może nas zbawić od naszych grzechów.",
+        "fil": "Si Hesus lamang ang makakaligtas sa atin mula sa ating mga kasalanan."
+      }
+    },
+    {
+      "id": 56,
+      "part": "B",
+      "scene": "Salome looking up at sunlight filtering through tree leaves, dappled light on her face.",
+      "greekCaption": "ἡ Σαλώμη βλέπει τὸ φῶς τοῦ ἡλίου διὰ τῶν φύλλων τοῦ δένδρου.",
+      "englishCaption": "Salome sees the light of the sun through the leaves of the tree.",
+      "image": "story-images/ch5b/19.jpeg",
+      "captionTranslations": {
+        "es": "Salomé ve la luz del sol a través de las hojas del árbol.",
+        "pl": "Salome widzi światło słońca przez liście drzewa.",
+        "fil": "Nakikita ni Salome ang liwanag ng araw sa pamamagitan ng mga dahon ng puno."
+      }
+    },
+    {
+      "id": 57,
+      "part": "B",
+      "scene": "A wide landscape — fields, road, village, sky — flooded with warm light.",
+      "greekCaption": "\"ὁ Ἰησοῦς ἐστιν τὸ φῶς τοῦ κόσμου.\"",
+      "englishCaption": "\"Jesus is the light of the world.\"",
+      "image": "story-images/ch5b/20.jpeg",
+      "captionTranslations": {
+        "es": "\"Jesús es la luz del mundo.\"",
+        "pl": "\"Jezus jest światłością świata.\"",
+        "fil": "\"Si Hesus ang liwanag ng mundo.\""
+      }
+    },
+    {
+      "id": 58,
+      "part": "B",
+      "scene": "Figures walking in dim shadow, unable to see their way.",
+      "greekCaption": "χωρὶς τοῦ Ἰησοῦ οἱ ἄνθρωποι περιπατοῦσιν ἐν τῇ σκοτίᾳ.",
+      "englishCaption": "Apart from Jesus people walk in the darkness.",
+      "image": "story-images/ch5b/21.jpeg",
+      "captionTranslations": {
+        "es": "Sin Jesús las personas caminan en tinieblas.",
+        "pl": "Bez Jezusa ludzie chodzą w ciemności.",
+        "fil": "Malayo kay Hesus ang mga tao ay lumalakad sa kadiliman."
+      }
+    },
+    {
+      "id": 59,
+      "part": "B",
+      "scene": "Light breaking into the darkness — a path of light appearing where there was none.",
+      "greekCaption": "ὁ Ἰησοῦς δείκνυσιν ἡμῖν τὸ φῶς.",
+      "englishCaption": "Jesus shows us the light.",
+      "image": "story-images/ch5b/22.jpeg",
+      "captionTranslations": {
+        "es": "Jesús nos muestra la luz.",
+        "pl": "Jezus pokazuje nam światło.",
+        "fil": "Ipinapakita sa atin ni Hesus ang liwanag."
+      }
+    },
+    {
+      "id": 60,
+      "part": "B",
+      "scene": "Light filling the whole frame, figures walking clearly in it.",
+      "greekCaption": "\"τὸ φῶς φαίνει ἐν τῇ σκοτίᾳ καὶ φωτίζει πάντα ἄνθρωπον.\"",
+      "englishCaption": "\"The light shines in the darkness and illuminates every person.\"",
+      "image": "story-images/ch5b/23.jpeg",
+      "captionTranslations": {
+        "es": "\"La luz brilla en las tinieblas e ilumina a toda persona.\"",
+        "pl": "\"Światło świeci w ciemności i oświeca każdego człowieka.\"",
+        "fil": "\"Sumisinag ang liwanag sa kadiliman at nagliliwanag sa bawat tao.\""
+      }
+    },
+    {
+      "id": 61,
+      "part": "B",
+      "scene": "A group of people walking together in the light, side by side, connected.",
+      "greekCaption": "ἐν τῷ φωτὶ ἔχομεν κοινωνίαν μετ᾽ αὐτοῦ καὶ μετ᾽ ἀλλήλων.",
+      "englishCaption": "In the light we have fellowship with him and with one another.",
+      "image": "story-images/ch5b/24.jpeg",
+      "captionTranslations": {
+        "es": "En la luz tenemos comunión con él y entre nosotros.",
+        "pl": "W światłości mamy wspólnotę z nim i z sobą nawzajem.",
+        "fil": "Sa liwanag mayroon tayong pakikiisa sa kanya at sa isa't isa."
+      }
+    },
+    {
+      "id": 62,
+      "part": "B",
+      "scene": "A figure being lifted from the ground into standing, into light, into life.",
+      "greekCaption": "\"ὁ Ἰησοῦς ἐστιν ἡ ἀνάστασις καὶ ἡ ζωή.\"",
+      "englishCaption": "\"Jesus is the resurrection and the life.\"",
+      "image": "story-images/ch5b/25.jpeg",
+      "captionTranslations": {
+        "es": "\"Jesús es la resurrección y la vida.\"",
+        "pl": "\"Jezus jest zmartwychwstaniem i życiem.\"",
+        "fil": "\"Si Hesus ang muling pagkabuhay at ang buhay.\""
+      }
+    },
+    {
+      "id": 63,
+      "part": "B",
+      "scene": "The risen figure standing fully upright in bright endless light — no horizon, no boundary.",
+      "greekCaption": "\"ὅστις πιστεύει εἰς αὐτὸν ζῇ καὶ ζήσει εἰς τὸν αἰῶνα.\"",
+      "englishCaption": "\"Whoever believes in him lives and lives for ever.\"",
+      "captionTranslations": {
+        "es": "\"Quien cree en él vive y vivirá para siempre.\"",
+        "pl": "\"Kto wierzy w niego, żyje i będzie żył na wieki.\"",
+        "fil": "\"Ang naniniwala sa kanya ay nabubuhay at mabubuhay magpakailanman.\""
+      }
+    },
+    {
+      "id": 64,
+      "part": "B",
+      "scene": "A hand reaching down from light offering a gift.",
+      "greekCaption": "\"ὁ θεὸς δίδωσιν τὸν υἱὸν αὐτοῦ ἵνα ὅστις πιστεύῃ μὴ ἀποθνῄσκῃ.\"",
+      "englishCaption": "\"God gives his Son so that whoever believes may not die.\"",
+      "image": "story-images/ch5b/27.jpeg",
+      "captionTranslations": {
+        "es": "\"Dios da a su Hijo para que quien crea no muera.\"",
+        "pl": "\"Bóg daje swojego Syna, aby kto wierzy, nie umarł.\"",
+        "fil": "\"Ibinibigay ng Diyos ang kanyang Anak upang ang naniniwala ay huwag mamatay.\""
+      }
+    },
+    {
+      "id": 65,
+      "part": "B",
+      "scene": "Salome looking at Jacob, face full of wonder and internal conflict.",
+      "greekCaption": "ἡ Σαλώμη λέγει, \"τὰ ῥήματά σου πολλά ἐστιν καὶ μεγάλα — θαυμάζω σφόδρα.\"",
+      "englishCaption": "Salome says, \"Your words are many and great — but I wonder greatly.\"",
+      "image": "story-images/ch5b/28.jpeg",
+      "captionTranslations": {
+        "es": "Salomé dice: \"Tus palabras son muchas y grandes — pero me asombro mucho.\"",
+        "pl": "Salome mówi: \"Twoje słowa są liczne i wielkie — ale bardzo się dziwię.\"",
+        "fil": "Sinabi ni Salome: \"Marami at dakila ang iyong mga salita — ngunit lubos akong nagtataka.\""
+      }
+    },
+    {
+      "id": 66,
+      "part": "B",
+      "scene": "Wide, quiet scene: sun low in the sky, everything golden-orange. The water jar sits forgotten beside the spring.",
+      "greekCaption": "ἡ ἑσπέρα ἔρχεται. ἡ ὑδρία ἔτι ἐστὶν παρὰ τὴν πηγήν.",
+      "englishCaption": "Evening comes. The water jar is still beside the spring.",
+      "image": "story-images/ch5b/29.jpeg",
+      "captionTranslations": {
+        "es": "Llega la tarde. El cántaro todavía está junto al manantial.",
+        "pl": "Nadchodzi wieczór. Dzban wciąż jest przy źródle.",
+        "fil": "Dumarating ang gabi. Nandoon pa rin ang tapayan malapit sa bukal."
+      }
+    },
+    {
+      "id": 67,
+      "part": "B",
+      "scene": "Salome sitting still, water jar untouched beside her, eyes looking at something unseen.",
+      "greekCaption": "ἡ Σαλώμη οὐ μεριμνᾷ περὶ τοῦ ὕδατος τῆς ὑδρίας· μεριμνᾷ δὲ περὶ τοῦ ὕδατος τῆς ζωῆς.",
+      "englishCaption": "Salome does not worry about the water of the jar — she thinks about the water of life.",
+      "image": "story-images/ch5b/30.jpeg",
+      "captionTranslations": {
+        "es": "Salomé no se preocupa por el agua del cántaro — piensa en el agua de la vida.",
+        "pl": "Salome nie troszczy się o wodę w dzbanie — myśli o wodzie życia.",
+        "fil": "Hindi nag-aalala si Salome sa tubig ng tapayan — nag-iisip siya sa tubig ng buhay."
       }
     }
   ]
