@@ -35,6 +35,7 @@ export default function ChapterView({ unitId, chapterId, activePart }) {
   const [activeTab, setActiveTab] = useState('story')
   const [data, setData] = useState({})
   const [loading, setLoading] = useState(true)
+  const [tabBarHidden, setTabBarHidden] = useState(false)
   const prevKey = useRef(null)
   const key = `${unitId}-${chapterId}`
 
@@ -64,20 +65,30 @@ export default function ChapterView({ unitId, chapterId, activePart }) {
 
   return (
     <div className="chapter-view">
-      <nav className="tab-bar" role="tablist">
-        {TAB_CONFIG.map(tab => (
-          <button
-            key={tab.id}
-            role="tab"
-            aria-selected={activeTab === tab.id}
-            className={`tab-btn ${activeTab === tab.id ? 'tab-btn--active' : ''} ${!hasData(tab.id) && !loading ? 'tab-btn--empty' : ''}`}
-            onClick={() => setActiveTab(tab.id)}
-          >
-            <span className="tab-emoji">{tab.emoji}</span>
-            <span className="tab-label">{ui(tab.labelKey)}</span>
-          </button>
-        ))}
-      </nav>
+      <div className={`tab-bar-wrapper ${tabBarHidden ? 'tab-bar-wrapper--hidden' : ''}`}>
+        <nav className="tab-bar" role="tablist">
+          {TAB_CONFIG.map(tab => (
+            <button
+              key={tab.id}
+              role="tab"
+              aria-selected={activeTab === tab.id}
+              className={`tab-btn ${activeTab === tab.id ? 'tab-btn--active' : ''} ${!hasData(tab.id) && !loading ? 'tab-btn--empty' : ''}`}
+              onClick={() => setActiveTab(tab.id)}
+            >
+              <span className="tab-emoji">{tab.emoji}</span>
+              <span className="tab-label">{ui(tab.labelKey)}</span>
+            </button>
+          ))}
+        </nav>
+        <button
+          className="tab-bar-toggle"
+          onClick={() => setTabBarHidden(v => !v)}
+          aria-label={tabBarHidden ? 'Show navigation' : 'Hide navigation'}
+          title={tabBarHidden ? 'Show navigation' : 'Hide navigation'}
+        >
+          <span className={`tab-bar-toggle-icon ${tabBarHidden ? 'tab-bar-toggle-icon--up' : ''}`}>‹</span>
+        </button>
+      </div>
 
       <div className="tab-content">
         {loading ? (

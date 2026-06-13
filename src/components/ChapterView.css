@@ -4,18 +4,64 @@
   min-height: calc(100vh - 58px);
 }
 
-/* Tab bar */
-.tab-bar {
-  display: flex;
-  background: #fff;
-  border-bottom: 2px solid var(--border);
-  overflow-x: auto;
-  scrollbar-width: none;
+/* Tab bar wrapper */
+.tab-bar-wrapper {
   position: sticky;
   top: 58px;
   z-index: 10;
+  background: #fff;
+  border-bottom: 2px solid var(--border);
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+  max-height: 80px;
+  transition: max-height 0.3s ease, border-color 0.3s ease;
+}
+.tab-bar-wrapper--hidden {
+  max-height: 28px;
+  border-bottom-color: var(--border);
+}
+
+/* Tab bar */
+.tab-bar {
+  display: flex;
+  flex: 1;
+  overflow-x: auto;
+  scrollbar-width: none;
+  transition: opacity 0.2s ease;
+}
+.tab-bar-wrapper--hidden .tab-bar {
+  opacity: 0;
+  pointer-events: none;
 }
 .tab-bar::-webkit-scrollbar { display: none; }
+
+/* Collapse toggle button */
+.tab-bar-toggle {
+  flex-shrink: 0;
+  width: 28px;
+  background: none;
+  border: none;
+  border-left: 1px solid var(--border);
+  color: var(--grey);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s;
+}
+.tab-bar-toggle:hover { background: var(--blue-light); color: var(--deep-blue); }
+
+.tab-bar-toggle-icon {
+  display: block;
+  font-size: 1.2rem;
+  line-height: 1;
+  transform: rotate(-90deg);
+  transition: transform 0.3s ease;
+}
+.tab-bar-toggle-icon--up {
+  transform: rotate(90deg);
+}
 
 .tab-btn {
   display: flex;
