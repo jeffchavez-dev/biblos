@@ -40,6 +40,7 @@ function IntroMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
 
   const imageWords = filtered.filter(w => w.image)
   const imageSrcs = imageWords.map(w => `/vocab-images/${w.image}`)
+  const imageCaptions = imageWords.map(w => ({ greek: w.greek }))
   const fsIndex = imageWords.findIndex(w => w.id === word.id)
 
   function openFullscreen(e) { e.stopPropagation(); if (word.image) setFullscreen(true) }
@@ -55,7 +56,7 @@ function IntroMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
   return (
     <>
       {fullscreen && word.image && (
-        <FullscreenViewer images={imageSrcs} index={Math.max(0, fsIndex)} onClose={() => setFullscreen(false)} onPrev={fsPrev} onNext={fsNext} />
+        <FullscreenViewer images={imageSrcs} captions={imageCaptions} index={Math.max(0, fsIndex)} onClose={() => setFullscreen(false)} onPrev={fsPrev} onNext={fsNext} />
       )}
       <div className="vocab-header">
         <h2>{ui('vocabFlashcards')}</h2>
