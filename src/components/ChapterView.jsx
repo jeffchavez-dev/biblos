@@ -30,12 +30,11 @@ async function loadData(unitId, chapterId, type) {
   }
 }
 
-export default function ChapterView({ unitId, chapterId, activePart }) {
+export default function ChapterView({ unitId, chapterId, activePart, navHidden, onToggleNav }) {
   const ui = useUI()
   const [activeTab, setActiveTab] = useState('story')
   const [data, setData] = useState({})
   const [loading, setLoading] = useState(true)
-  const [tabBarHidden, setTabBarHidden] = useState(false)
   const prevKey = useRef(null)
   const key = `${unitId}-${chapterId}`
 
@@ -65,7 +64,7 @@ export default function ChapterView({ unitId, chapterId, activePart }) {
 
   return (
     <div className="chapter-view">
-      <div className={`tab-bar-wrapper ${tabBarHidden ? 'tab-bar-wrapper--hidden' : ''}`}>
+      <div className={`tab-bar-wrapper ${navHidden ? 'tab-bar-wrapper--hidden' : ''}`}>
         <nav className="tab-bar" role="tablist">
           {TAB_CONFIG.map(tab => (
             <button
@@ -82,11 +81,11 @@ export default function ChapterView({ unitId, chapterId, activePart }) {
         </nav>
         <button
           className="tab-bar-toggle"
-          onClick={() => setTabBarHidden(v => !v)}
-          aria-label={tabBarHidden ? 'Show navigation' : 'Hide navigation'}
-          title={tabBarHidden ? 'Show navigation' : 'Hide navigation'}
+          onClick={onToggleNav}
+          aria-label={navHidden ? 'Show navigation' : 'Hide navigation'}
+          title={navHidden ? 'Show navigation' : 'Hide navigation'}
         >
-          <span className={`tab-bar-toggle-icon ${tabBarHidden ? 'tab-bar-toggle-icon--up' : ''}`}>‹</span>
+          <span className={`tab-bar-toggle-icon ${navHidden ? 'tab-bar-toggle-icon--up' : ''}`}>‹</span>
         </button>
       </div>
 

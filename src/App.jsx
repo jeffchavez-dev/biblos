@@ -20,6 +20,7 @@ function AppInner() {
   const [activePart, setActivePart] = useState('A')
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [desktopSidebarHidden, setDesktopSidebarHidden] = useState(false)
+  const [navHidden, setNavHidden] = useState(false)
   const [fontSize, setFontSize] = useState(16)
 
   const FONT_SIZES = [14, 16, 19, 22, 26, 30]
@@ -73,7 +74,7 @@ function AppInner() {
 
   return (
     <div className="app-shell">
-      <header className="app-header">
+      <header className={`app-header ${navHidden ? 'app-header--hidden' : ''}`}>
         <button className="menu-btn" onClick={() => {
           if (window.innerWidth <= 768) setSidebarOpen(v => !v)
           else setDesktopSidebarHidden(v => !v)
@@ -145,6 +146,8 @@ function AppInner() {
               unitId={selectedUnit}
               chapterId={selectedChapter}
               activePart={activePart}
+              navHidden={navHidden}
+              onToggleNav={() => setNavHidden(v => !v)}
             />
           )}
         </main>
