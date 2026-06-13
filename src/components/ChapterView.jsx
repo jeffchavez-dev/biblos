@@ -8,6 +8,7 @@ import VisualStoryTab from './tabs/VisualStoryTab.jsx'
 import BibleTranslationTab from './tabs/BibleTranslationTab.jsx'
 import LinguisticsTab from './tabs/LinguisticsTab.jsx'
 import ExegesisTab from './tabs/ExegesisTab.jsx'
+import VideoTab from './tabs/VideoTab.jsx'
 import { useUI } from '../context/LanguageContext.jsx'
 
 const TAB_CONFIG = [
@@ -19,6 +20,7 @@ const TAB_CONFIG = [
   { id: 'bibletranslation', labelKey: 'tabBibleTranslation', emoji: '📜' },
   { id: 'linguistics',      labelKey: 'tabLinguistics',      emoji: '🔤' },
   { id: 'exegesis',         labelKey: 'tabExegesis',         emoji: '🔍' },
+  { id: 'video',            labelKey: 'tabVideo',            emoji: '🎬' },
 ]
 
 async function loadData(unitId, chapterId, type) {
@@ -118,6 +120,9 @@ export default function ChapterView({ unitId, chapterId, activePart, navHidden, 
             </div>
             <div hidden={activeTab !== 'exegesis'}>
               <ExegesisTab />
+            </div>
+            <div hidden={activeTab !== 'video'}>
+              <VideoTab />
             </div>
           </>
         )}
