@@ -123,15 +123,15 @@ function PracticeMode({ filtered, lang, ui }) {
 
   const word = words[index]
 
-  if (imageFiltered.length === 0) {
-    return <div className="empty-tab">🖼️ No images available for practice yet.</div>
-  }
-
   useEffect(() => {
     if (!word) return
     setOptions(buildOptions(imageFiltered, word))
     setSelected(null)
   }, [index, word])
+
+  if (imageFiltered.length === 0) {
+    return <div className="empty-tab">🖼️ No images available for practice yet.</div>
+  }
 
   if (!word) return null
 
