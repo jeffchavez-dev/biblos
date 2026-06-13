@@ -144,7 +144,6 @@ function PracticeMode({ filtered, lang, ui }) {
       setIndex(0)
       setScore({ correct: 0, total: 0 })
     }
-    setFullscreen(false)
   }
 
   const isLast = index === words.length - 1
@@ -190,7 +189,6 @@ function PracticeMode({ filtered, lang, ui }) {
             )}
           </div>
           <div className="practice-fs-controls" onClick={e => e.stopPropagation()}>
-            <p className="practice-question practice-question--fs">Which Greek word matches?</p>
             {renderOptions(true)}
           </div>
         </div>
