@@ -183,19 +183,15 @@ function PracticeMode({ filtered, lang, ui }) {
           <div className="practice-fs-controls" onClick={e => e.stopPropagation()}>
             <p className="practice-question practice-question--fs">Which Greek word matches?</p>
             {renderOptions(true)}
-            {selected !== null && (
-              <>
-                <div className={`practice-feedback ${selected === word.id ? 'practice-feedback--correct' : 'practice-feedback--wrong'}`}>
-                  {selected === word.id ? '✓ Correct!' : `✗ The answer is: ${lemma(word.greek)}`}
-                </div>
-                <div className="vocab-nav">
-                  <button className="nav-btn nav-btn--primary" onClick={handleNext}>
-                    {isLast ? 'Start Over' : 'Next →'}
-                  </button>
-                </div>
-              </>
-            )}
           </div>
+          {selected !== null && (
+            <>
+              <div className={`practice-result-icon ${selected === word.id ? 'practice-result-icon--correct' : 'practice-result-icon--wrong'}`}>
+                {selected === word.id ? '✓' : '✗'}
+              </div>
+              <button className="practice-next-arrow" onClick={handleNext} aria-label="Next">›</button>
+            </>
+          )}
         </div>
       )}
 
@@ -217,18 +213,14 @@ function PracticeMode({ filtered, lang, ui }) {
         )}
         <p className="practice-question">Which Greek word matches?</p>
         {renderOptions()}
-        {selected !== null && (
-          <div className={`practice-feedback ${selected === word.id ? 'practice-feedback--correct' : 'practice-feedback--wrong'}`}>
-            {selected === word.id ? '✓ Correct!' : `✗ The answer is: ${lemma(word.greek)}`}
-          </div>
-        )}
       </div>
       {selected !== null && (
-        <div className="vocab-nav">
-          <button className="nav-btn nav-btn--primary" onClick={handleNext}>
-            {isLast ? 'Start Over' : 'Next →'}
-          </button>
-        </div>
+        <>
+          <div className={`practice-result-icon ${selected === word.id ? 'practice-result-icon--correct' : 'practice-result-icon--wrong'}`}>
+            {selected === word.id ? '✓' : '✗'}
+          </div>
+          <button className="practice-next-arrow" onClick={handleNext} aria-label="Next">›</button>
+        </>
       )}
     </>
   )
@@ -301,18 +293,14 @@ function MasterMode({ filtered, lang, ui }) {
             <button type="submit" className="nav-btn nav-btn--primary" disabled={!input.trim()}>Check</button>
           )}
         </form>
-        {result !== null && (
-          <div className={`practice-feedback ${result === 'correct' ? 'practice-feedback--correct' : 'practice-feedback--wrong'}`}>
-            {result === 'correct' ? '✓ Correct!' : `✗ Answer: ${answer}`}
-          </div>
-        )}
       </div>
       {result !== null && (
-        <div className="vocab-nav">
-          <button className="nav-btn nav-btn--primary" onClick={handleNext}>
-            {isLast ? 'Start Over' : 'Next →'}
-          </button>
-        </div>
+        <>
+          <div className={`practice-result-icon ${result === 'correct' ? 'practice-result-icon--correct' : 'practice-result-icon--wrong'}`}>
+            {result === 'correct' ? '✓' : '✗'}
+          </div>
+          <button className="practice-next-arrow" onClick={handleNext} aria-label="Next">›</button>
+        </>
       )}
     </>
   )
