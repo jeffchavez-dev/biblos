@@ -1,11 +1,30 @@
 import { useLanguage, t } from '../../context/LanguageContext.jsx'
 import './GrammarTab.css'
 
-export default function GrammarTab({ grammar, activePart }) {
+export default function GrammarTab({ grammar, words, activePart }) {
   const { lang } = useLanguage()
+  const vocabList = words ? words.filter(w => !w.part || w.part === activePart) : []
 
   if (!grammar) {
     return <div className="empty-tab">📐 Grammar for this chapter has not been added yet.</div>
+  }
+
+  function renderVocabList() {
+    if (vocabList.length === 0) return null
+    return (
+      <div className="grammar-vocab-section">
+        <h3 className="grammar-vocab-heading">Vocabulary</h3>
+        <div className="grammar-vocab-list">
+          {vocabList.map((w, i) => (
+            <div key={w.id} className="grammar-vocab-row">
+              <span className="grammar-vocab-num">{i + 1}</span>
+              <span className="grammar-vocab-greek greek">{w.greek}</span>
+              <span className="grammar-vocab-def">{t(w.definition, w.translations, lang)}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    )
   }
 
   const allParts = grammar.parts ?? [{ label: null, sections: grammar.sections ?? [] }]
@@ -129,6 +148,8 @@ export default function GrammarTab({ grammar, activePart }) {
           ))}
         </div>
       ))}
+
+      {renderVocabList()}
     </div>
   )
 }

@@ -118,6 +118,34 @@
 }
 .list-def { font-size: 0.88rem; color: var(--ink); line-height: 1.5; }
 
+/* Vocabulary reference list */
+.grammar-vocab-section { display: flex; flex-direction: column; gap: 10px; }
+.grammar-vocab-heading {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--grey);
+}
+.grammar-vocab-list {
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #fff;
+}
+.grammar-vocab-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.9rem;
+}
+.grammar-vocab-row:last-child { border-bottom: none; }
+.grammar-vocab-row:nth-child(even) { background: #fafafa; }
+.grammar-vocab-num { color: var(--grey); width: 20px; flex-shrink: 0; font-size: 0.8rem; }
+.grammar-vocab-greek { font-size: 1.05rem; color: var(--deep-blue); font-weight: 500; min-width: 160px; flex-shrink: 0; }
+.grammar-vocab-def { flex: 1; color: var(--ink); }
+
 .empty-tab {
   display: flex; align-items: center; justify-content: center;
   min-height: 300px; color: var(--grey); font-size: 0.95rem;

@@ -102,7 +102,7 @@ export default function ChapterView({ unitId, chapterId, activePart, navHidden, 
               <VocabularyTab key={key} words={data.vocabulary} activePart={activePart} />
             </div>
             <div hidden={activeTab !== 'grammar'}>
-              <GrammarTab key={key} grammar={data.grammar} activePart={activePart} />
+              <GrammarTab key={key} grammar={data.grammar} words={data.vocabulary} activePart={activePart} />
             </div>
             <div hidden={activeTab !== 'exercises'}>
               <ExercisesTab key={key} exercises={data.exercises} activePart={activePart} />
