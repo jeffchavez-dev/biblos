@@ -174,24 +174,25 @@ function PracticeMode({ filtered, lang, ui }) {
       {fullscreen && word.image && (
         <div className="practice-fs-overlay" onClick={() => setFullscreen(false)}>
           <button className="fs-close" onClick={() => setFullscreen(false)} aria-label="Close">✕</button>
-          <img
-            className="fs-image"
-            src={`/vocab-images/${word.image}`}
-            alt="vocabulary"
-            onClick={e => e.stopPropagation()}
-          />
+          <div className="practice-fs-image-wrap" onClick={e => e.stopPropagation()}>
+            <img
+              className="fs-image"
+              src={`/vocab-images/${word.image}`}
+              alt="vocabulary"
+            />
+            {selected !== null && (
+              <>
+                <div className={`practice-result-icon ${selected === word.id ? 'practice-result-icon--correct' : 'practice-result-icon--wrong'}`}>
+                  {selected === word.id ? '✓' : '✗'}
+                </div>
+                <button className="practice-next-arrow" onClick={handleNext} aria-label="Next">›</button>
+              </>
+            )}
+          </div>
           <div className="practice-fs-controls" onClick={e => e.stopPropagation()}>
             <p className="practice-question practice-question--fs">Which Greek word matches?</p>
             {renderOptions(true)}
           </div>
-          {selected !== null && (
-            <>
-              <div className={`practice-result-icon ${selected === word.id ? 'practice-result-icon--correct' : 'practice-result-icon--wrong'}`}>
-                {selected === word.id ? '✓' : '✗'}
-              </div>
-              <button className="practice-next-arrow" onClick={handleNext} aria-label="Next">›</button>
-            </>
-          )}
         </div>
       )}
 
@@ -207,6 +208,14 @@ function PracticeMode({ filtered, lang, ui }) {
           <div className="practice-image-wrap">
             <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
             <button className="flashcard-fs-btn practice-fs-btn" onClick={() => setFullscreen(true)} aria-label="Fullscreen">⛶</button>
+            {selected !== null && (
+              <>
+                <div className={`practice-result-icon ${selected === word.id ? 'practice-result-icon--correct' : 'practice-result-icon--wrong'}`}>
+                  {selected === word.id ? '✓' : '✗'}
+                </div>
+                <button className="practice-next-arrow" onClick={handleNext} aria-label="Next">›</button>
+              </>
+            )}
           </div>
         ) : (
           <div className="practice-prompt">{def}</div>
@@ -214,14 +223,6 @@ function PracticeMode({ filtered, lang, ui }) {
         <p className="practice-question">Which Greek word matches?</p>
         {renderOptions()}
       </div>
-      {selected !== null && (
-        <>
-          <div className={`practice-result-icon ${selected === word.id ? 'practice-result-icon--correct' : 'practice-result-icon--wrong'}`}>
-            {selected === word.id ? '✓' : '✗'}
-          </div>
-          <button className="practice-next-arrow" onClick={handleNext} aria-label="Next">›</button>
-        </>
-      )}
     </>
   )
 }
