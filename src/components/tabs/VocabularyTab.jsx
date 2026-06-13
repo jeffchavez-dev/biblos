@@ -113,7 +113,8 @@ function IntroMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
 
 // ── Practice ─────────────────────────────────────────────────────────────────
 function PracticeMode({ filtered, lang, ui }) {
-  const [words, setWords] = useState(() => shuffle(filtered))
+  const imageFiltered = filtered.filter(w => w.image)
+  const [words, setWords] = useState(() => shuffle(imageFiltered))
   const [index, setIndex] = useState(0)
   const [options, setOptions] = useState([])
   const [selected, setSelected] = useState(null)
@@ -122,9 +123,13 @@ function PracticeMode({ filtered, lang, ui }) {
 
   const word = words[index]
 
+  if (imageFiltered.length === 0) {
+    return <div className="empty-tab">🖼️ No images available for practice yet.</div>
+  }
+
   useEffect(() => {
     if (!word) return
-    setOptions(buildOptions(filtered, word))
+    setOptions(buildOptions(imageFiltered, word))
     setSelected(null)
   }, [index, word])
 
@@ -140,7 +145,7 @@ function PracticeMode({ filtered, lang, ui }) {
     if (index < words.length - 1) {
       setIndex(i => i + 1)
     } else {
-      setWords(shuffle(filtered))
+      setWords(shuffle(imageFiltered))
       setIndex(0)
       setScore({ correct: 0, total: 0 })
     }
