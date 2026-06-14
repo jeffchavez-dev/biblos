@@ -258,7 +258,7 @@ function RecognizePickWord({ filtered, lang, ui }) {
           }
           return (
             <button key={opt.id} className={cls} onClick={() => handleSelect(opt)} disabled={selected !== null}>
-              <span className="greek">{lemma(opt.greek)}</span>
+              <span className="greek">{opt.thirdSingular ?? lemma(opt.greek)}</span>
             </button>
           )
         })}
@@ -597,7 +597,7 @@ function ChallengePickImage({ filtered, lang, ui }) {
       </div>
       <div className="challenge-card">
         <div className="pick-image-prompt">
-          <span className="greek pick-image-word">{lemma(word.greek)}</span>
+          <span className="greek pick-image-word">{word.thirdSingular ?? lemma(word.greek)}</span>
           {word.partOfSpeech && <span className="pick-image-pos">{word.partOfSpeech}</span>}
         </div>
         <p className="practice-question">Which image matches this word?</p>
@@ -624,7 +624,7 @@ function ChallengePickImage({ filtered, lang, ui }) {
         {selected !== null && (
           <div className={`challenge-result ${selected === word.id ? 'challenge-result--correct' : 'challenge-result--wrong'}`}>
             {selected === word.id ? '✓ Correct!' : (
-              <>✗ It was <span className="greek challenge-answer">{lemma(word.greek)}</span> — <span>{t(word.definition, word.translations, lang)}</span></>
+              <>✗ It was <span className="greek challenge-answer">{word.thirdSingular ?? lemma(word.greek)}</span> — <span>{t(word.definition, word.translations, lang)}</span></>
             )}
           </div>
         )}
