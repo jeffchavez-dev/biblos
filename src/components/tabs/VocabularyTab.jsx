@@ -160,12 +160,19 @@ function TestMode({ filtered, lang, ui }) {
 
   useEffect(() => {
     if (!word) return
-    setOptions(buildOptions(imageFiltered, word, 4))
+    setOptions(buildOptions(imageFiltered, word, 3))
     setSelected(null)
   }, [index, word])
 
-  if (imageFiltered.length < 4) {
-    return <div className="empty-tab">🖼️ Need at least 4 vocabulary images for Test mode.</div>
+  // Auto-advance 1.5s after correct answer
+  useEffect(() => {
+    if (selected === null || selected !== word?.id) return
+    const timer = setTimeout(() => handleNext(), 1500)
+    return () => clearTimeout(timer)
+  }, [selected])
+
+  if (imageFiltered.length < 3) {
+    return <div className="empty-tab">🖼️ Need at least 3 vocabulary images for Recognize mode.</div>
   }
   if (!word) return null
 
@@ -187,7 +194,7 @@ function TestMode({ filtered, lang, ui }) {
 
   function renderOptions(inFullscreen = false) {
     return (
-      <div className={`practice-options practice-options--col${inFullscreen ? ' practice-options--fs' : ''}`}>
+      <div className={`practice-options${inFullscreen ? ' practice-options--fs' : ''}`}>
         {options.map(opt => {
           let cls = 'practice-option'
           if (selected !== null) {
@@ -195,7 +202,7 @@ function TestMode({ filtered, lang, ui }) {
             else if (opt.id === selected) cls += ' practice-option--wrong'
           }
           return (
-            <button key={opt.id} className={cls} onClick={() => handleSelect(opt)} disabled={selected !== null && opt.id !== word.id && opt.id !== selected}>
+            <button key={opt.id} className={cls} onClick={() => handleSelect(opt)} disabled={selected !== null}>
               <span className="greek">{lemma(opt.greek)}</span>
               {opt.partOfSpeech && <span className="option-pos">{opt.partOfSpeech}</span>}
             </button>
