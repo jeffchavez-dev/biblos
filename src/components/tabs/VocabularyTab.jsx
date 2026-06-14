@@ -227,7 +227,7 @@ function TestMode({ filtered, lang, ui }) {
         </div>
       )}
       <div className="vocab-header">
-        <h2>Test</h2>
+        <h2>Recognize</h2>
         <div className="vocab-stats">
           <span>{index + 1} / {words.length}</span>
           {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
@@ -294,7 +294,7 @@ function ChallengeType({ filtered, lang, ui }) {
   return (
     <>
       <div className="vocab-header">
-        <h2>Challenge — Type it</h2>
+        <h2>Produce — Type it</h2>
         <div className="vocab-stats">
           <span>{index + 1} / {words.length}</span>
           {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
@@ -377,7 +377,7 @@ function ChallengePickWord({ filtered, lang, ui }) {
   return (
     <>
       <div className="vocab-header">
-        <h2>Challenge — Pick Word</h2>
+        <h2>Produce — Pick Word</h2>
         <div className="vocab-stats">
           <span>{index + 1} / {words.length}</span>
           {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
@@ -447,7 +447,7 @@ function ChallengePickImage({ filtered, lang, ui }) {
   return (
     <>
       <div className="vocab-header">
-        <h2>Challenge — Pick Image</h2>
+        <h2>Produce — Pick Image</h2>
         <div className="vocab-stats">
           <span>{index + 1} / {words.length}</span>
           {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
@@ -540,9 +540,9 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
     <div className="vocab-tab">
       <div className="vocab-mode-tabs">
         {[
-          { id: 'learn',     label: '📖 Learn' },
-          { id: 'test',      label: '🧪 Test' },
-          { id: 'challenge', label: '🏆 Challenge' },
+          { id: 'learn',     label: '📖 Encounter' },
+          { id: 'test',      label: '👁️ Recognize' },
+          { id: 'challenge', label: '✍️ Produce' },
         ].map(m => (
           <button key={m.id} className={`vocab-mode-btn ${mode === m.id ? 'vocab-mode-btn--active' : ''}`} onClick={() => setMode(m.id)}>
             {m.label}
