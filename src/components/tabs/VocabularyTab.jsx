@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useLanguage, useUI, t } from '../../context/LanguageContext.jsx'
 import FullscreenViewer from '../FullscreenViewer.jsx'
 import './VocabularyTab.css'
@@ -12,17 +12,52 @@ function shuffle(arr) {
   return a
 }
 
-function lemma(greek) {
-  return greek.split(',')[0].trim()
-}
+function lemma(greek) { return greek.split(',')[0].trim() }
 
-function buildOptions(allWords, correct) {
-  const wrongs = shuffle(allWords.filter(w => w.id !== correct.id)).slice(0, 2)
+// Prefer same part-of-speech distractors, fall back to any
+function buildOptions(pool, correct, count = 3) {
+  const pos = correct.partOfSpeech
+  const samePOS = shuffle(pool.filter(w => w.id !== correct.id && w.partOfSpeech === pos))
+  const other   = shuffle(pool.filter(w => w.id !== correct.id && w.partOfSpeech !== pos))
+  const wrongs  = [...samePOS, ...other].slice(0, count - 1)
   return shuffle([correct, ...wrongs])
 }
 
-// ── Introduction ─────────────────────────────────────────────────────────────
-function IntroMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
+// Strip diacritics for forgiving Greek typing comparison
+function normalizeInput(s) {
+  return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim()
+}
+
+// ── Greek keyboard ────────────────────────────────────────────────────────────
+const GREEK_ROWS = [
+  ['α','β','γ','δ','ε','ζ','η','θ','ι','κ','λ'],
+  ['μ','ν','ξ','ο','π','ρ','σ','ς','τ','υ','φ'],
+  ['χ','ψ','ω','⌫','·'],
+]
+
+function GreekKeyboard({ onKey }) {
+  return (
+    <div className="greek-kb">
+      {GREEK_ROWS.map((row, ri) => (
+        <div key={ri} className="greek-kb-row">
+          {row.map(k => (
+            <button
+              key={k}
+              type="button"
+              className={`greek-kb-key${k === '⌫' ? ' greek-kb-key--wide' : ''}`}
+              onMouseDown={e => { e.preventDefault(); onKey(k) }}
+            >
+              {k}
+            </button>
+          ))}
+        </div>
+      ))}
+    </div>
+  )
+}
+
+// ── Learn (flashcards) ────────────────────────────────────────────────────────
+function LearnMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
   const [seen, setSeen] = useState({})
@@ -111,8 +146,8 @@ function IntroMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
   )
 }
 
-// ── Practice ─────────────────────────────────────────────────────────────────
-function PracticeMode({ filtered, lang, ui }) {
+// ── Test (image → pick Greek word, same POS distractors) ─────────────────────
+function TestMode({ filtered, lang, ui }) {
   const imageFiltered = filtered.filter(w => w.image)
   const [words, setWords] = useState(() => shuffle(imageFiltered))
   const [index, setIndex] = useState(0)
@@ -125,14 +160,13 @@ function PracticeMode({ filtered, lang, ui }) {
 
   useEffect(() => {
     if (!word) return
-    setOptions(buildOptions(imageFiltered, word))
+    setOptions(buildOptions(imageFiltered, word, 4))
     setSelected(null)
   }, [index, word])
 
-  if (imageFiltered.length === 0) {
-    return <div className="empty-tab">🖼️ No images available for practice yet.</div>
+  if (imageFiltered.length < 4) {
+    return <div className="empty-tab">🖼️ Need at least 4 vocabulary images for Test mode.</div>
   }
-
   if (!word) return null
 
   function handleSelect(opt) {
@@ -151,12 +185,9 @@ function PracticeMode({ filtered, lang, ui }) {
     }
   }
 
-  const isLast = index === words.length - 1
-  const def = t(word.definition, word.translations, lang)
-
   function renderOptions(inFullscreen = false) {
     return (
-      <div className={`practice-options${inFullscreen ? ' practice-options--fs' : ''}`}>
+      <div className={`practice-options practice-options--col${inFullscreen ? ' practice-options--fs' : ''}`}>
         {options.map(opt => {
           let cls = 'practice-option'
           if (selected !== null) {
@@ -164,8 +195,9 @@ function PracticeMode({ filtered, lang, ui }) {
             else if (opt.id === selected) cls += ' practice-option--wrong'
           }
           return (
-            <button key={opt.id} className={cls} onClick={() => handleSelect(opt)}>
+            <button key={opt.id} className={cls} onClick={() => handleSelect(opt)} disabled={selected !== null && opt.id !== word.id && opt.id !== selected}>
               <span className="greek">{lemma(opt.greek)}</span>
+              {opt.partOfSpeech && <span className="option-pos">{opt.partOfSpeech}</span>}
             </button>
           )
         })}
@@ -179,11 +211,7 @@ function PracticeMode({ filtered, lang, ui }) {
         <div className="practice-fs-overlay" onClick={() => setFullscreen(false)}>
           <button className="fs-close" onClick={() => setFullscreen(false)} aria-label="Close">✕</button>
           <div className="practice-fs-image-wrap" onClick={e => e.stopPropagation()}>
-            <img
-              className="fs-image"
-              src={`/vocab-images/${word.image}`}
-              alt="vocabulary"
-            />
+            <img className="fs-image" src={`/vocab-images/${word.image}`} alt="vocabulary" />
             {selected !== null && (
               <>
                 <div className={`practice-result-icon ${selected === word.id ? 'practice-result-icon--correct' : 'practice-result-icon--wrong'}`}>
@@ -198,44 +226,41 @@ function PracticeMode({ filtered, lang, ui }) {
           </div>
         </div>
       )}
-
       <div className="vocab-header">
-        <h2>Practice</h2>
+        <h2>Test</h2>
         <div className="vocab-stats">
           <span>{index + 1} / {words.length}</span>
           {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
         </div>
       </div>
       <div className="practice-card">
-        {word.image ? (
-          <div className="practice-image-wrap">
-            <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
-            <button className="flashcard-fs-btn practice-fs-btn" onClick={() => setFullscreen(true)} aria-label="Fullscreen">⛶</button>
-            {selected !== null && (
-              <>
-                <div className={`practice-result-icon ${selected === word.id ? 'practice-result-icon--correct' : 'practice-result-icon--wrong'}`}>
-                  {selected === word.id ? '✓' : '✗'}
-                </div>
-                <button className="practice-next-arrow" onClick={handleNext} aria-label="Next">›</button>
-              </>
-            )}
-          </div>
-        ) : (
-          <div className="practice-prompt">{def}</div>
-        )}
+        <div className="practice-image-wrap">
+          <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
+          <button className="flashcard-fs-btn practice-fs-btn" onClick={() => setFullscreen(true)} aria-label="Fullscreen">⛶</button>
+          {selected !== null && (
+            <>
+              <div className={`practice-result-icon ${selected === word.id ? 'practice-result-icon--correct' : 'practice-result-icon--wrong'}`}>
+                {selected === word.id ? '✓' : '✗'}
+              </div>
+              <button className="practice-next-arrow" onClick={handleNext} aria-label="Next">›</button>
+            </>
+          )}
+        </div>
         {renderOptions()}
       </div>
     </>
   )
 }
 
-// ── Master ────────────────────────────────────────────────────────────────────
-function MasterMode({ filtered, lang, ui }) {
+// ── Challenge — Type it ───────────────────────────────────────────────────────
+function ChallengeType({ filtered, lang, ui }) {
   const [words, setWords] = useState(() => shuffle(filtered))
   const [index, setIndex] = useState(0)
   const [input, setInput] = useState('')
   const [result, setResult] = useState(null)
   const [score, setScore] = useState({ correct: 0, total: 0 })
+  const [showKb, setShowKb] = useState(true)
+  const inputRef = useRef(null)
 
   const word = words[index]
   if (!word) return null
@@ -245,66 +270,255 @@ function MasterMode({ filtered, lang, ui }) {
 
   function handleSubmit(e) {
     e.preventDefault()
-    if (result !== null) return
-    const isCorrect = input.trim() === answer
+    if (result !== null || !input.trim()) return
+    const isCorrect = normalizeInput(input) === normalizeInput(answer)
     setResult(isCorrect ? 'correct' : 'wrong')
     setScore(s => ({ correct: s.correct + (isCorrect ? 1 : 0), total: s.total + 1 }))
   }
 
   function handleNext() {
-    if (index < words.length - 1) {
-      setIndex(i => i + 1)
-    } else {
-      setWords(shuffle(filtered))
-      setIndex(0)
-      setScore({ correct: 0, total: 0 })
-    }
+    if (index < words.length - 1) setIndex(i => i + 1)
+    else { setWords(shuffle(filtered)); setIndex(0); setScore({ correct: 0, total: 0 }) }
     setInput('')
     setResult(null)
+    setTimeout(() => inputRef.current?.focus(), 50)
   }
 
-  const isLast = index === words.length - 1
+  function handleKey(k) {
+    if (result !== null) return
+    if (k === '⌫') { setInput(v => v.slice(0, -1)); return }
+    setInput(v => v + k)
+    inputRef.current?.focus()
+  }
 
   return (
     <>
       <div className="vocab-header">
-        <h2>Master</h2>
+        <h2>Challenge — Type it</h2>
         <div className="vocab-stats">
           <span>{index + 1} / {words.length}</span>
           {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
         </div>
       </div>
-      <div className="master-card">
-        {word.image ? (
-          <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
-        ) : (
-          <div className="practice-prompt">{def}</div>
-        )}
+      <div className="challenge-card">
+        {word.image
+          ? <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
+          : <div className="practice-prompt">{def}</div>
+        }
         <p className="practice-question">Type the Greek word:</p>
         <form onSubmit={handleSubmit} className="master-form">
           <input
-            className={`master-input${result === 'correct' ? ' master-input--correct' : result === 'wrong' ? ' master-input--wrong' : ''}`}
+            ref={inputRef}
+            className={`master-input greek${result === 'correct' ? ' master-input--correct' : result === 'wrong' ? ' master-input--wrong' : ''}`}
             value={input}
             onChange={e => setInput(e.target.value)}
-            placeholder="Type in Greek…"
+            placeholder="αβγ…"
             disabled={result !== null}
             autoComplete="off"
             autoCorrect="off"
             spellCheck={false}
           />
-          {result === null && (
-            <button type="submit" className="nav-btn nav-btn--primary" disabled={!input.trim()}>Check</button>
-          )}
+          {result === null
+            ? <button type="submit" className="nav-btn nav-btn--primary" disabled={!input.trim()}>Check</button>
+            : <button type="button" className="nav-btn nav-btn--primary" onClick={handleNext}>Next →</button>
+          }
         </form>
-      </div>
-      {result !== null && (
-        <>
-          <div className={`practice-result-icon ${result === 'correct' ? 'practice-result-icon--correct' : 'practice-result-icon--wrong'}`}>
-            {result === 'correct' ? '✓' : '✗'}
+
+        {result !== null && (
+          <div className={`challenge-result ${result === 'correct' ? 'challenge-result--correct' : 'challenge-result--wrong'}`}>
+            {result === 'correct' ? '✓ Correct!' : `✗ Answer: `}
+            {result === 'wrong' && <span className="greek challenge-answer">{answer}</span>}
           </div>
-          <button className="practice-next-arrow" onClick={handleNext} aria-label="Next">›</button>
-        </>
-      )}
+        )}
+
+        <div className="challenge-kb-toggle">
+          <button type="button" className="nav-btn" onClick={() => setShowKb(v => !v)}>
+            {showKb ? 'Hide keyboard' : 'Show Greek keyboard'}
+          </button>
+        </div>
+        {showKb && <GreekKeyboard onKey={handleKey} />}
+        <p className="challenge-hint">Diacritics optional — base letters accepted</p>
+      </div>
+    </>
+  )
+}
+
+// ── Challenge — Pick Word ─────────────────────────────────────────────────────
+function ChallengePickWord({ filtered, lang, ui }) {
+  const [words, setWords] = useState(() => shuffle(filtered))
+  const [index, setIndex] = useState(0)
+  const [options, setOptions] = useState([])
+  const [selected, setSelected] = useState(null)
+  const [score, setScore] = useState({ correct: 0, total: 0 })
+
+  const word = words[index]
+
+  useEffect(() => {
+    if (!word) return
+    setOptions(buildOptions(filtered, word, 4))
+    setSelected(null)
+  }, [index, word])
+
+  if (!word) return null
+
+  const def = t(word.definition, word.translations, lang)
+
+  function handleSelect(opt) {
+    if (selected !== null) return
+    setSelected(opt.id)
+    setScore(s => ({ correct: s.correct + (opt.id === word.id ? 1 : 0), total: s.total + 1 }))
+  }
+
+  function handleNext() {
+    if (index < words.length - 1) setIndex(i => i + 1)
+    else { setWords(shuffle(filtered)); setIndex(0); setScore({ correct: 0, total: 0 }) }
+  }
+
+  return (
+    <>
+      <div className="vocab-header">
+        <h2>Challenge — Pick Word</h2>
+        <div className="vocab-stats">
+          <span>{index + 1} / {words.length}</span>
+          {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
+        </div>
+      </div>
+      <div className="challenge-card">
+        {word.image
+          ? <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
+          : <div className="practice-prompt">{def}</div>
+        }
+        <div className="practice-options practice-options--col">
+          {options.map(opt => {
+            let cls = 'practice-option'
+            if (selected !== null) {
+              if (opt.id === word.id) cls += ' practice-option--correct'
+              else if (opt.id === selected) cls += ' practice-option--wrong'
+            }
+            return (
+              <button key={opt.id} className={cls} onClick={() => handleSelect(opt)} disabled={selected !== null && opt.id !== word.id && opt.id !== selected}>
+                <span className="greek">{lemma(opt.greek)}</span>
+                {opt.partOfSpeech && <span className="option-pos">{opt.partOfSpeech}</span>}
+              </button>
+            )
+          })}
+        </div>
+        {selected !== null && (
+          <button className="nav-btn nav-btn--primary" onClick={handleNext}>Next →</button>
+        )}
+      </div>
+    </>
+  )
+}
+
+// ── Challenge — Pick Image (reverse: word → image) ────────────────────────────
+function ChallengePickImage({ filtered, lang, ui }) {
+  const imageFiltered = filtered.filter(w => w.image)
+  const [words, setWords] = useState(() => shuffle(imageFiltered))
+  const [index, setIndex] = useState(0)
+  const [options, setOptions] = useState([])
+  const [selected, setSelected] = useState(null)
+  const [score, setScore] = useState({ correct: 0, total: 0 })
+
+  const word = words[index]
+
+  useEffect(() => {
+    if (!word) return
+    setOptions(buildOptions(imageFiltered, word, 4))
+    setSelected(null)
+  }, [index, word])
+
+  if (imageFiltered.length < 4) {
+    return <div className="empty-tab">🖼️ Need at least 4 vocabulary images for Pick Image mode.</div>
+  }
+  if (!word) return null
+
+  function handleSelect(opt) {
+    if (selected !== null) return
+    setSelected(opt.id)
+    setScore(s => ({ correct: s.correct + (opt.id === word.id ? 1 : 0), total: s.total + 1 }))
+  }
+
+  function handleNext() {
+    if (index < words.length - 1) setIndex(i => i + 1)
+    else { setWords(shuffle(imageFiltered)); setIndex(0); setScore({ correct: 0, total: 0 }) }
+  }
+
+  return (
+    <>
+      <div className="vocab-header">
+        <h2>Challenge — Pick Image</h2>
+        <div className="vocab-stats">
+          <span>{index + 1} / {words.length}</span>
+          {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
+        </div>
+      </div>
+      <div className="challenge-card">
+        <div className="pick-image-prompt">
+          <span className="greek pick-image-word">{lemma(word.greek)}</span>
+          {word.partOfSpeech && <span className="pick-image-pos">{word.partOfSpeech}</span>}
+        </div>
+        <p className="practice-question">Which image matches this word?</p>
+        <div className="pick-image-grid">
+          {options.map(opt => {
+            let cls = 'pick-image-tile'
+            if (selected !== null) {
+              if (opt.id === word.id) cls += ' pick-image-tile--correct'
+              else if (opt.id === selected) cls += ' pick-image-tile--wrong'
+            }
+            return (
+              <button key={opt.id} className={cls} onClick={() => handleSelect(opt)} disabled={selected !== null}>
+                <img src={`/vocab-images/${opt.image}`} alt="" className="pick-image-thumb" />
+                {selected !== null && opt.id === word.id && (
+                  <div className="pick-image-badge pick-image-badge--correct">✓</div>
+                )}
+                {selected !== null && opt.id === selected && opt.id !== word.id && (
+                  <div className="pick-image-badge pick-image-badge--wrong">✗</div>
+                )}
+              </button>
+            )
+          })}
+        </div>
+        {selected !== null && (
+          <div className={`challenge-result ${selected === word.id ? 'challenge-result--correct' : 'challenge-result--wrong'}`}>
+            {selected === word.id ? '✓ Correct!' : (
+              <>✗ It was <span className="greek challenge-answer">{lemma(word.greek)}</span> — <span>{t(word.definition, word.translations, lang)}</span></>
+            )}
+          </div>
+        )}
+        {selected !== null && (
+          <button className="nav-btn nav-btn--primary" onClick={handleNext}>Next →</button>
+        )}
+      </div>
+    </>
+  )
+}
+
+// ── Challenge wrapper ─────────────────────────────────────────────────────────
+function ChallengeMode({ filtered, lang, ui }) {
+  const [sub, setSub] = useState('type')
+  const key = `${filtered.length}-${sub}`
+
+  return (
+    <>
+      <div className="challenge-sub-tabs">
+        {[
+          { id: 'type',       label: '✍️ Type it' },
+          { id: 'pick-word',  label: '🔤 Pick Word' },
+          { id: 'pick-image', label: '🖼️ Pick Image' },
+        ].map(s => (
+          <button
+            key={s.id}
+            className={`challenge-sub-btn ${sub === s.id ? 'challenge-sub-btn--active' : ''}`}
+            onClick={() => setSub(s.id)}
+          >
+            {s.label}
+          </button>
+        ))}
+      </div>
+      {sub === 'type'       && <ChallengeType      key={key} filtered={filtered} lang={lang} ui={ui} />}
+      {sub === 'pick-word'  && <ChallengePickWord  key={key} filtered={filtered} lang={lang} ui={ui} />}
+      {sub === 'pick-image' && <ChallengePickImage key={key} filtered={filtered} lang={lang} ui={ui} />}
     </>
   )
 }
@@ -313,10 +527,10 @@ function MasterMode({ filtered, lang, ui }) {
 export default function VocabularyTab({ words, unitId, chapterId, activePart }) {
   const { lang } = useLanguage()
   const ui = useUI()
-  const [mode, setMode] = useState('intro')
+  const [mode, setMode] = useState('learn')
   const filtered = words ? words.filter(w => !w.part || w.part === activePart) : []
 
-  useEffect(() => { setMode('intro') }, [unitId, chapterId, activePart])
+  useEffect(() => { setMode('learn') }, [unitId, chapterId, activePart])
 
   if (!words || filtered.length === 0) {
     return <div className="empty-tab"><p>📋 Vocabulary for this part has not been added yet.</p></div>
@@ -326,9 +540,9 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
     <div className="vocab-tab">
       <div className="vocab-mode-tabs">
         {[
-          { id: 'intro',    label: 'Introduction' },
-          { id: 'practice', label: 'Practice' },
-          { id: 'master',   label: 'Master' },
+          { id: 'learn',     label: '📖 Learn' },
+          { id: 'test',      label: '🧪 Test' },
+          { id: 'challenge', label: '🏆 Challenge' },
         ].map(m => (
           <button key={m.id} className={`vocab-mode-btn ${mode === m.id ? 'vocab-mode-btn--active' : ''}`} onClick={() => setMode(m.id)}>
             {m.label}
@@ -336,14 +550,14 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
         ))}
       </div>
 
-      {mode === 'intro' && (
-        <IntroMode filtered={filtered} unitId={unitId} chapterId={chapterId} activePart={activePart} lang={lang} ui={ui} />
+      {mode === 'learn' && (
+        <LearnMode filtered={filtered} unitId={unitId} chapterId={chapterId} activePart={activePart} lang={lang} ui={ui} />
       )}
-      {mode === 'practice' && (
-        <PracticeMode key={`practice-${unitId}-${chapterId}-${activePart}`} filtered={filtered} lang={lang} ui={ui} />
+      {mode === 'test' && (
+        <TestMode key={`test-${unitId}-${chapterId}-${activePart}`} filtered={filtered} lang={lang} ui={ui} />
       )}
-      {mode === 'master' && (
-        <MasterMode key={`master-${unitId}-${chapterId}-${activePart}`} filtered={filtered} lang={lang} ui={ui} />
+      {mode === 'challenge' && (
+        <ChallengeMode key={`challenge-${unitId}-${chapterId}-${activePart}`} filtered={filtered} lang={lang} ui={ui} />
       )}
     </div>
   )
