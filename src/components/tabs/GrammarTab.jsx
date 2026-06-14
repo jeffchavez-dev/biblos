@@ -11,18 +11,39 @@ export default function GrammarTab({ grammar, words, activePart }) {
 
   function renderVocabList() {
     if (vocabList.length === 0) return null
+
+    const POS_GROUPS = [
+      { label: 'Nouns',       test: p => p.startsWith('noun') },
+      { label: 'Verbs',       test: p => p.startsWith('verb') },
+      { label: 'Adjectives',  test: p => p.startsWith('adjective') },
+      { label: 'Particles & Conjunctions', test: () => true },
+    ]
+
+    // Assign each word to its first matching group
+    const groups = POS_GROUPS.map(g => ({ ...g, words: [] }))
+    vocabList.forEach(w => {
+      const pos = (w.partOfSpeech ?? '').toLowerCase()
+      const g = groups.find(g => g.test(pos))
+      if (g) g.words.push(w)
+    })
+
     return (
       <div className="grammar-vocab-section">
         <h3 className="grammar-vocab-heading">Vocabulary</h3>
-        <div className="grammar-vocab-list">
-          {vocabList.map((w, i) => (
-            <div key={w.id} className="grammar-vocab-row">
-              <span className="grammar-vocab-num">{i + 1}</span>
-              <span className="grammar-vocab-greek greek">{w.greek}</span>
-              <span className="grammar-vocab-def">{t(w.definition, w.translations, lang)}</span>
+        {groups.filter(g => g.words.length > 0).map(g => (
+          <div key={g.label} className="grammar-vocab-group">
+            <h4 className="grammar-vocab-group-heading">{g.label}</h4>
+            <div className="grammar-vocab-list">
+              {g.words.map((w, i) => (
+                <div key={w.id} className="grammar-vocab-row">
+                  <span className="grammar-vocab-num">{i + 1}</span>
+                  <span className="grammar-vocab-greek greek">{w.greek}</span>
+                  <span className="grammar-vocab-def">{t(w.definition, w.translations, lang)}</span>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     )
   }

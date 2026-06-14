@@ -119,7 +119,16 @@
 .list-def { font-size: 0.88rem; color: var(--ink); line-height: 1.5; }
 
 /* Vocabulary reference list */
-.grammar-vocab-section { display: flex; flex-direction: column; gap: 10px; }
+.grammar-vocab-section { display: flex; flex-direction: column; gap: 16px; }
+.grammar-vocab-group  { display: flex; flex-direction: column; gap: 6px; }
+.grammar-vocab-group-heading {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--grey);
+  font-weight: 600;
+  padding-left: 2px;
+}
 .grammar-vocab-heading {
   font-size: 0.9rem;
   text-transform: uppercase;
