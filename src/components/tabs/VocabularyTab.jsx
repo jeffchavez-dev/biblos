@@ -204,7 +204,6 @@ function TestMode({ filtered, lang, ui }) {
           return (
             <button key={opt.id} className={cls} onClick={() => handleSelect(opt)} disabled={selected !== null}>
               <span className="greek">{lemma(opt.greek)}</span>
-              {opt.partOfSpeech && <span className="option-pos">{opt.partOfSpeech}</span>}
             </button>
           )
         })}
@@ -366,6 +365,13 @@ function ChallengePickWord({ filtered, lang, ui }) {
     setSelected(null)
   }, [index, word])
 
+  // Auto-advance 1.5s after correct answer
+  useEffect(() => {
+    if (selected === null || selected !== word?.id) return
+    const timer = setTimeout(() => handleNext(), 1500)
+    return () => clearTimeout(timer)
+  }, [selected])
+
   if (!word) return null
 
   const def = t(word.definition, word.translations, lang)
@@ -395,7 +401,7 @@ function ChallengePickWord({ filtered, lang, ui }) {
           ? <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
           : <div className="practice-prompt">{def}</div>
         }
-        <div className="practice-options practice-options--col">
+        <div className="practice-options practice-options--2col">
           {options.map(opt => {
             let cls = 'practice-option'
             if (selected !== null) {
@@ -403,14 +409,13 @@ function ChallengePickWord({ filtered, lang, ui }) {
               else if (opt.id === selected) cls += ' practice-option--wrong'
             }
             return (
-              <button key={opt.id} className={cls} onClick={() => handleSelect(opt)} disabled={selected !== null && opt.id !== word.id && opt.id !== selected}>
+              <button key={opt.id} className={cls} onClick={() => handleSelect(opt)} disabled={selected !== null}>
                 <span className="greek">{lemma(opt.greek)}</span>
-                {opt.partOfSpeech && <span className="option-pos">{opt.partOfSpeech}</span>}
               </button>
             )
           })}
         </div>
-        {selected !== null && (
+        {selected !== null && selected !== word.id && (
           <button className="nav-btn nav-btn--primary" onClick={handleNext}>Next →</button>
         )}
       </div>

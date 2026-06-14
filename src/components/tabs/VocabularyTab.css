@@ -499,6 +499,13 @@
   flex-direction: column;
   gap: 8px;
 }
+/* 2×2 grid for 4-option Pick Word */
+.practice-options--2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+}
 .option-pos {
   display: block;
   font-size: 0.7rem;
@@ -648,8 +655,9 @@
 .pick-image-thumb {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
+  background: var(--parchment);
 }
 .pick-image-badge {
   position: absolute;
