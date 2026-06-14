@@ -585,8 +585,149 @@ function RecognizeMode({ filtered, lang, ui }) {
   )
 }
 
+// ── Challenge — Record it ─────────────────────────────────────────────────────
+function ChallengeRecord({ filtered, lang, ui }) {
+  const [words, setWords]       = useState(() => shuffle(filtered))
+  const [index, setIndex]       = useState(0)
+  const [recording, setRecording] = useState(false)
+  const [audioUrl, setAudioUrl] = useState(null)
+  const [result, setResult]     = useState(null)   // null | 'correct' | 'wrong'
+  const [revealed, setRevealed] = useState(false)
+  const [score, setScore]       = useState({ correct: 0, total: 0 })
+  const mediaRef  = useRef(null)
+  const chunksRef = useRef([])
+
+  const word = words[index]
+  if (!word) return null
+  const def    = t(word.definition, word.translations, lang)
+  const answer = lemma(word.greek)
+
+  function handleNext() {
+    if (audioUrl) URL.revokeObjectURL(audioUrl)
+    if (index < words.length - 1) setIndex(i => i + 1)
+    else { setWords(shuffle(filtered)); setIndex(0); setScore({ correct: 0, total: 0 }) }
+    setAudioUrl(null)
+    setResult(null)
+    setRevealed(false)
+    chunksRef.current = []
+  }
+
+  useEffect(() => {
+    if (result === 'correct') {
+      const t = setTimeout(handleNext, 1500)
+      return () => clearTimeout(t)
+    }
+  }, [result])
+
+  async function startRecording() {
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
+      chunksRef.current = []
+      const mr = new MediaRecorder(stream)
+      mediaRef.current = mr
+      mr.ondataavailable = e => chunksRef.current.push(e.data)
+      mr.onstop = () => {
+        const blob = new Blob(chunksRef.current, { type: 'audio/webm' })
+        setAudioUrl(URL.createObjectURL(blob))
+        stream.getTracks().forEach(t => t.stop())
+      }
+      mr.start()
+      setRecording(true)
+    } catch {
+      alert('Microphone access denied. Please allow microphone access and try again.')
+    }
+  }
+
+  function stopRecording() {
+    mediaRef.current?.stop()
+    setRecording(false)
+  }
+
+  function mark(correct) {
+    setResult(correct ? 'correct' : 'wrong')
+    setScore(s => ({ correct: s.correct + (correct ? 1 : 0), total: s.total + 1 }))
+  }
+
+  return (
+    <>
+      <div className="vocab-header">
+        <h2>Produce — Record it</h2>
+        <div className="vocab-stats">
+          <span>{index + 1} / {words.length}</span>
+          {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
+        </div>
+      </div>
+      <div className="challenge-card">
+        {word.image
+          ? <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
+          : <div className="practice-prompt">{def}</div>
+        }
+
+        {!revealed
+          ? <button className="nav-btn nav-btn--primary record-reveal-btn" onClick={() => setRevealed(true)}>
+              Reveal word
+            </button>
+          : <p className="record-answer greek">{answer}</p>
+        }
+
+        <div className="record-controls">
+          {!recording
+            ? <button className="nav-btn record-btn" onClick={startRecording} disabled={result !== null}>
+                🎙 {audioUrl ? 'Re-record' : 'Record'}
+              </button>
+            : <button className="nav-btn record-btn record-btn--stop" onClick={stopRecording}>
+                ⏹ Stop
+              </button>
+          }
+          {audioUrl && (
+            <audio className="record-playback" controls src={audioUrl} />
+          )}
+        </div>
+
+        {audioUrl && result === null && (
+          <div className="record-self-mark">
+            <p>How did you do?</p>
+            <button className="nav-btn record-mark-btn record-mark-btn--correct" onClick={() => mark(true)}>✓ Got it</button>
+            <button className="nav-btn record-mark-btn record-mark-btn--wrong"   onClick={() => mark(false)}>✗ Not yet</button>
+          </div>
+        )}
+
+        {result !== null && (
+          <div className={`challenge-result ${result === 'correct' ? 'challenge-result--correct' : 'challenge-result--wrong'}`}>
+            {result === 'correct' ? '✓ Well done!' : '✗ Keep practicing'}
+            {result === 'wrong' && (
+              <button className="nav-btn nav-btn--primary record-next-btn" onClick={handleNext}>Next →</button>
+            )}
+          </div>
+        )}
+      </div>
+    </>
+  )
+}
+
 function ChallengeMode({ filtered, lang, ui }) {
-  return <ChallengeType filtered={filtered} lang={lang} ui={ui} />
+  const [sub, setSub] = useState('type')
+  const key = `${filtered.length}-${sub}`
+  return (
+    <>
+      <div className="challenge-sub-tabs">
+        {[
+          { id: 'type',   label: '✍️ Type it'   },
+          { id: 'record', label: '🎙️ Record it' },
+        ].map(s => (
+          <button
+            key={s.id}
+            className={`challenge-sub-btn ${sub === s.id ? 'challenge-sub-btn--active' : ''}`}
+            onClick={() => setSub(s.id)}
+          >
+            {s.label}
+          </button>
+        ))}
+      </div>
+      {sub === 'type'   && <ChallengeType   key={key} filtered={filtered} lang={lang} ui={ui} />}
+      {sub === 'record' && <ChallengeRecord key={key} filtered={filtered} lang={lang} ui={ui} />}
+    </>
+  )
 }
 
 // ── Main export ───────────────────────────────────────────────────────────────
