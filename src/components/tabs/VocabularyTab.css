@@ -563,6 +563,29 @@
 .challenge-result--wrong   { background: #fff0f0; color: #c0392b; }
 .challenge-answer { font-size: 1.15rem; margin-left: 4px; }
 
+/* Word Bank mode */
+.word-bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 12px 0 4px;
+}
+.word-bank-chip {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: 2px solid var(--blue);
+  background: var(--parchment);
+  color: var(--ink);
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, transform 0.1s;
+}
+.word-bank-chip:hover:not(:disabled) { background: var(--blue-light); transform: scale(1.04); }
+.word-bank-chip:disabled { cursor: default; opacity: 0.7; }
+.word-bank-chip--correct { background: var(--green-light) !important; border-color: var(--green) !important; color: var(--green) !important; opacity: 1 !important; }
+.word-bank-chip--wrong   { background: #fff0f0 !important; border-color: #e74c3c !important; color: #c0392b !important; opacity: 1 !important; }
+
 /* Record mode */
 .record-reveal-btn  { margin: 12px auto; display: block; }
 .record-answer      { font-size: 1.6rem; text-align: center; margin: 8px 0 16px; letter-spacing: 0.02em; }

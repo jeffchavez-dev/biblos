@@ -310,6 +310,81 @@ function RecognizePickWord({ filtered, lang, ui }) {
   )
 }
 
+// ── Challenge — Word Bank (image → click word from large pool) ────────────────
+function ChallengeWordBank({ filtered, lang, ui }) {
+  const imageFiltered = filtered.filter(w => w.image)
+  const [words, setWords]   = useState(() => shuffle(imageFiltered))
+  const [index, setIndex]   = useState(0)
+  const [bank, setBank]     = useState([])
+  const [selected, setSelected] = useState(null)
+  const [score, setScore]   = useState({ correct: 0, total: 0 })
+
+  const word = words[index]
+
+  useEffect(() => {
+    if (!word) return
+    // 6 distractors → 7 total, prefer same POS
+    setBank(buildOptions(filtered, word, 7))
+    setSelected(null)
+  }, [index, word])
+
+  useEffect(() => {
+    if (selected === null || selected !== word?.id) return
+    const timer = setTimeout(handleNext, 1500)
+    return () => clearTimeout(timer)
+  }, [selected])
+
+  if (!word) return null
+  const def = t(word.definition, word.translations, lang)
+
+  function handleSelect(opt) {
+    if (selected !== null) return
+    setSelected(opt.id)
+    setScore(s => ({ correct: s.correct + (opt.id === word.id ? 1 : 0), total: s.total + 1 }))
+  }
+
+  function handleNext() {
+    if (index < words.length - 1) setIndex(i => i + 1)
+    else { setWords(shuffle(imageFiltered)); setIndex(0); setScore({ correct: 0, total: 0 }) }
+  }
+
+  return (
+    <>
+      <div className="vocab-header">
+        <h2>Produce — Word Bank</h2>
+        <div className="vocab-stats">
+          <span>{index + 1} / {words.length}</span>
+          {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
+        </div>
+      </div>
+      <div className="challenge-card">
+        {word.image
+          ? <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
+          : <div className="practice-prompt">{def}</div>
+        }
+        <p className="practice-question">Pick the word from the bank:</p>
+        <div className="word-bank">
+          {bank.map(opt => {
+            let cls = 'word-bank-chip'
+            if (selected !== null) {
+              if (opt.id === word.id)      cls += ' word-bank-chip--correct'
+              else if (opt.id === selected) cls += ' word-bank-chip--wrong'
+            }
+            return (
+              <button key={opt.id} className={cls} onClick={() => handleSelect(opt)} disabled={selected !== null}>
+                <span className="greek">{lemma(opt.greek)}</span>
+              </button>
+            )
+          })}
+        </div>
+        {selected !== null && selected !== word.id && (
+          <button className="nav-btn nav-btn--primary" style={{marginTop:'12px'}} onClick={handleNext}>Next →</button>
+        )}
+      </div>
+    </>
+  )
+}
+
 // ── Challenge — Type it ───────────────────────────────────────────────────────
 function ChallengeType({ filtered, lang, ui }) {
   const [words, setWords] = useState(() => shuffle(filtered))
@@ -706,12 +781,13 @@ function ChallengeRecord({ filtered, lang, ui }) {
 }
 
 function ChallengeMode({ filtered, lang, ui }) {
-  const [sub, setSub] = useState('type')
+  const [sub, setSub] = useState('bank')
   const key = `${filtered.length}-${sub}`
   return (
     <>
       <div className="challenge-sub-tabs">
         {[
+          { id: 'bank',   label: '🗂️ Word Bank' },
           { id: 'type',   label: '✍️ Type it'   },
           { id: 'record', label: '🎙️ Record it' },
         ].map(s => (
@@ -724,8 +800,9 @@ function ChallengeMode({ filtered, lang, ui }) {
           </button>
         ))}
       </div>
-      {sub === 'type'   && <ChallengeType   key={key} filtered={filtered} lang={lang} ui={ui} />}
-      {sub === 'record' && <ChallengeRecord key={key} filtered={filtered} lang={lang} ui={ui} />}
+      {sub === 'bank'   && <ChallengeWordBank key={key} filtered={filtered} lang={lang} ui={ui} />}
+      {sub === 'type'   && <ChallengeType    key={key} filtered={filtered} lang={lang} ui={ui} />}
+      {sub === 'record' && <ChallengeRecord  key={key} filtered={filtered} lang={lang} ui={ui} />}
     </>
   )
 }
