@@ -126,7 +126,7 @@ function LearnMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
 
   const imageWords = filtered.filter(w => w.image)
   const imageSrcs = imageWords.map(w => `/vocab-images/${w.image}`)
-  const imageCaptions = imageWords.map(w => ({ greek: w.greek }))
+  const imageCaptions = imageWords.map(w => ({ greek: w.thirdSingular ?? w.greek, lexical: w.thirdSingular ? w.greek : null }))
   const fsIndex = imageWords.findIndex(w => w.id === word.id)
 
   function openFullscreen(e) { e.stopPropagation(); if (word.image) setFullscreen(true) }

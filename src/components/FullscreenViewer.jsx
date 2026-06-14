@@ -56,6 +56,9 @@ export default function FullscreenViewer({ images, captions, index, onClose, onP
       {showDesc && caption?.greek && (
         <div className="fs-caption" onClick={e => e.stopPropagation()}>
           <div className="fs-caption-greek greek">{caption.greek}</div>
+          {caption.lexical && (
+            <div className="fs-caption-lexical greek">{caption.lexical}</div>
+          )}
         </div>
       )}
     </div>
