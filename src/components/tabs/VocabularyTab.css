@@ -609,7 +609,9 @@
 }
 .greek-kb-key:hover  { background: var(--blue-light); border-color: var(--blue); }
 .greek-kb-key:active { transform: scale(0.92); background: var(--deep-blue); color: #fff; }
-.greek-kb-key--wide  { min-width: 60px; font-family: inherit; font-size: 0.9rem; color: var(--grey); }
+.greek-kb-key--wide      { min-width: 60px; font-family: inherit; font-size: 0.9rem; color: var(--grey); }
+.greek-kb-key--diacritic { min-width: 34px; font-size: 1rem; color: var(--grey); }
+.greek-kb-key--active    { background: var(--deep-blue) !important; color: #fff !important; border-color: var(--deep-blue) !important; }
 
 /* Pick Image mode */
 .pick-image-prompt {
