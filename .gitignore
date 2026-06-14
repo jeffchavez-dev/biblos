@@ -3,3 +3,8 @@ dist
 .env
 .env.local
 .DS_Store
+
+# Source content folders — not part of the app build
+Biblos*/
+*.doc
+1.2. Biblos Unit 1 Grammar and Vocabulary PDF.pdf
