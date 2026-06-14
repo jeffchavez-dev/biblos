@@ -198,7 +198,7 @@ function LearnMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
 }
 
 // ── Test (image → pick Greek word, same POS distractors) ─────────────────────
-function TestMode({ filtered, lang, ui }) {
+function RecognizePickWord({ filtered, lang, ui }) {
   const imageFiltered = filtered.filter(w => w.image)
   const [words, setWords] = useState(() => shuffle(imageFiltered))
   const [index, setIndex] = useState(0)
@@ -559,15 +559,14 @@ function ChallengePickImage({ filtered, lang, ui }) {
 }
 
 // ── Challenge wrapper ─────────────────────────────────────────────────────────
-function ChallengeMode({ filtered, lang, ui }) {
-  const [sub, setSub] = useState('type')
+function RecognizeMode({ filtered, lang, ui }) {
+  const [sub, setSub] = useState('pick-word')
   const key = `${filtered.length}-${sub}`
 
   return (
     <>
       <div className="challenge-sub-tabs">
         {[
-          { id: 'type',       label: '✍️ Type it' },
           { id: 'pick-word',  label: '🔤 Pick Word' },
           { id: 'pick-image', label: '🖼️ Pick Image' },
         ].map(s => (
@@ -580,11 +579,14 @@ function ChallengeMode({ filtered, lang, ui }) {
           </button>
         ))}
       </div>
-      {sub === 'type'       && <ChallengeType      key={key} filtered={filtered} lang={lang} ui={ui} />}
-      {sub === 'pick-word'  && <ChallengePickWord  key={key} filtered={filtered} lang={lang} ui={ui} />}
+      {sub === 'pick-word'  && <RecognizePickWord  key={key} filtered={filtered} lang={lang} ui={ui} />}
       {sub === 'pick-image' && <ChallengePickImage key={key} filtered={filtered} lang={lang} ui={ui} />}
     </>
   )
+}
+
+function ChallengeMode({ filtered, lang, ui }) {
+  return <ChallengeType filtered={filtered} lang={lang} ui={ui} />
 }
 
 // ── Main export ───────────────────────────────────────────────────────────────
@@ -618,7 +620,7 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
         <LearnMode filtered={filtered} unitId={unitId} chapterId={chapterId} activePart={activePart} lang={lang} ui={ui} />
       )}
       {mode === 'test' && (
-        <TestMode key={`test-${unitId}-${chapterId}-${activePart}`} filtered={filtered} lang={lang} ui={ui} />
+        <RecognizeMode key={`test-${unitId}-${chapterId}-${activePart}`} filtered={filtered} lang={lang} ui={ui} />
       )}
       {mode === 'challenge' && (
         <ChallengeMode key={`challenge-${unitId}-${chapterId}-${activePart}`} filtered={filtered} lang={lang} ui={ui} />
