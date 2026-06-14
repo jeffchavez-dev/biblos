@@ -160,7 +160,8 @@ function TestMode({ filtered, lang, ui }) {
 
   useEffect(() => {
     if (!word) return
-    setOptions(buildOptions(imageFiltered, word, 3))
+    // Use full filtered pool for distractors so same-POS matching has maximum choices
+    setOptions(buildOptions(filtered, word, 3))
     setSelected(null)
   }, [index, word])
 
