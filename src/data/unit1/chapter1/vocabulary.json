@@ -11,7 +11,7 @@
       "fil": "tao, nilalang"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-anthropos.jpeg"
+    "image": "ch1a-noun-1.jpeg"
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
       "fil": "magsasaka"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-georgos.jpeg"
+    "image": "ch1a-noun-2.jpeg"
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
       "fil": "bahay"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-oikos.jpeg"
+    "image": "ch1a-noun-3.jpeg"
   },
   {
     "id": 4,
@@ -53,7 +53,7 @@
       "fil": "bukid, taniman"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-agros.jpeg"
+    "image": "ch1a-noun-4.jpeg"
   },
   {
     "id": 5,
@@ -67,7 +67,7 @@
       "fil": "langit, kalangitan"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-ouranos.jpeg"
+    "image": "ch1a-noun-5.jpeg"
   },
   {
     "id": 6,
@@ -81,7 +81,7 @@
       "fil": "araw"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-helios.jpeg"
+    "image": "ch1a-noun-6.jpeg"
   },
   {
     "id": 7,
@@ -95,7 +95,7 @@
       "fil": "ilog"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-potamos.jpeg"
+    "image": "ch1a-noun-7.jpeg"
   },
   {
     "id": 8,
@@ -109,7 +109,7 @@
       "fil": "tinapay"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-artos.jpeg"
+    "image": "ch1a-noun-8.jpeg"
   },
   {
     "id": 9,
@@ -123,7 +123,7 @@
       "fil": "bunga, ani"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-karpos.jpeg"
+    "image": "ch1a-noun-9.jpeg"
   },
   {
     "id": 10,
@@ -137,7 +137,7 @@
       "fil": "bato"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1-lithos.jpeg"
+    "image": "ch1a-noun-10.jpeg"
   },
   {
     "id": 11,
@@ -155,89 +155,6 @@
   {
     "id": 12,
     "part": "A",
-    "greek": "ἀγαθός, -ή, -όν",
-    "transliteration": "agathos",
-    "definition": "good",
-    "translations": {
-      "es": "bueno",
-      "pl": "dobry",
-      "fil": "mabuti"
-    },
-    "partOfSpeech": "adjective",
-    "image": "c1-agathos.jpeg"
-  },
-  {
-    "id": 13,
-    "part": "A",
-    "greek": "ἰσχυρός, -ά, -όν",
-    "transliteration": "ischyros",
-    "definition": "strong",
-    "translations": {
-      "es": "fuerte",
-      "pl": "silny",
-      "fil": "malakas"
-    },
-    "partOfSpeech": "adjective",
-    "image": "c1-ischyros.jpeg"
-  },
-  {
-    "id": 14,
-    "part": "A",
-    "greek": "μικρός, -ά, -όν",
-    "transliteration": "mikros",
-    "definition": "small",
-    "translations": {
-      "es": "pequeño",
-      "pl": "mały",
-      "fil": "maliit"
-    },
-    "partOfSpeech": "adjective",
-    "image": "c1-mikros.jpeg"
-  },
-  {
-    "id": 15,
-    "part": "A",
-    "greek": "μέγας, μεγάλη, μέγα",
-    "transliteration": "megas",
-    "definition": "great, large",
-    "translations": {
-      "es": "grande",
-      "pl": "wielki, duży",
-      "fil": "dakila, malaki"
-    },
-    "partOfSpeech": "adjective (irregular)",
-    "image": "c1-megas.jpeg"
-  },
-  {
-    "id": 16,
-    "part": "A",
-    "greek": "καλός, -ή, -όν",
-    "transliteration": "kalos",
-    "definition": "beautiful, good",
-    "translations": {
-      "es": "hermoso, bueno",
-      "pl": "piękny, dobry",
-      "fil": "maganda, mabuti"
-    },
-    "partOfSpeech": "adjective",
-    "image": "c1-kalos.jpeg"
-  },
-  {
-    "id": 17,
-    "part": "A",
-    "greek": "πιστός, -ή, -όν",
-    "transliteration": "pistos",
-    "definition": "faithful",
-    "translations": {
-      "es": "fiel",
-      "pl": "wierny",
-      "fil": "tapat, mapagkakatiwalaan"
-    },
-    "partOfSpeech": "adjective"
-  },
-  {
-    "id": 18,
-    "part": "A",
     "greek": "εἰμί",
     "transliteration": "eimi",
     "definition": "I am",
@@ -246,10 +163,11 @@
       "pl": "jestem",
       "fil": "ako ay"
     },
-    "partOfSpeech": "verb (irregular)"
+    "partOfSpeech": "verb (irregular)",
+    "image": "ch1a-verb-1.jpeg"
   },
   {
-    "id": 19,
+    "id": 13,
     "part": "A",
     "greek": "λάμπω",
     "transliteration": "lampō",
@@ -260,10 +178,10 @@
       "fil": "sumisinag ako"
     },
     "partOfSpeech": "verb",
-    "image": "c1-lampo.jpeg"
+    "image": "ch1a-verb-2.jpeg"
   },
   {
-    "id": 20,
+    "id": 14,
     "part": "A",
     "greek": "ῥέω",
     "transliteration": "rheō",
@@ -274,10 +192,10 @@
       "fil": "umaagos ako"
     },
     "partOfSpeech": "verb",
-    "image": "c1-rheo.jpeg"
+    "image": "ch1a-verb-3.jpeg"
   },
   {
-    "id": 21,
+    "id": 15,
     "part": "A",
     "greek": "λαμβάνω",
     "transliteration": "lambanō",
@@ -288,10 +206,10 @@
       "fil": "kumuha ako, tumatanggap ako"
     },
     "partOfSpeech": "verb",
-    "image": "c1-lambano.jpeg"
+    "image": "ch1a-verb-4.jpeg"
   },
   {
-    "id": 22,
+    "id": 16,
     "part": "A",
     "greek": "ἐσθίω",
     "transliteration": "esthiō",
@@ -302,10 +220,10 @@
       "fil": "kumakain ako"
     },
     "partOfSpeech": "verb",
-    "image": "c1-esthio.jpeg"
+    "image": "ch1a-verb-5.jpeg"
   },
   {
-    "id": 23,
+    "id": 17,
     "part": "A",
     "greek": "χαίρω",
     "transliteration": "chairō",
@@ -316,10 +234,10 @@
       "fil": "nagagalak ako"
     },
     "partOfSpeech": "verb",
-    "image": "c1-chairo.jpeg"
+    "image": "ch1a-verb-6.jpeg"
   },
   {
-    "id": 24,
+    "id": 18,
     "part": "A",
     "greek": "ἔχω",
     "transliteration": "echō",
@@ -330,10 +248,10 @@
       "fil": "mayroon ako"
     },
     "partOfSpeech": "verb",
-    "image": "c1-echo.jpeg"
+    "image": "ch1a-verb-7.jpeg"
   },
   {
-    "id": 25,
+    "id": 19,
     "part": "A",
     "greek": "βλέπω",
     "transliteration": "blepō",
@@ -344,10 +262,10 @@
       "fil": "nakikita ko, tinitingnan ko"
     },
     "partOfSpeech": "verb",
-    "image": "c1-blepo.jpeg"
+    "image": "ch1a-verb-8.jpeg"
   },
   {
-    "id": 26,
+    "id": 20,
     "part": "A",
     "greek": "φιλέω, φιλῶ",
     "transliteration": "phileō",
@@ -358,10 +276,10 @@
       "fil": "minamahal ko"
     },
     "partOfSpeech": "verb (contract, -έω)",
-    "image": "c1-phileo.jpeg"
+    "image": "ch1a-verb-9.jpeg"
   },
   {
-    "id": 27,
+    "id": 21,
     "part": "A",
     "greek": "σκάπτω",
     "transliteration": "skaptō",
@@ -372,10 +290,10 @@
       "fil": "humuhukay ako"
     },
     "partOfSpeech": "verb",
-    "image": "c1-skapto.jpeg"
+    "image": "ch1a-verb-10.jpeg"
   },
   {
-    "id": 28,
+    "id": 22,
     "part": "A",
     "greek": "αἴρω",
     "transliteration": "airō",
@@ -386,10 +304,10 @@
       "fil": "itinaas ko, kinukuha ko"
     },
     "partOfSpeech": "verb",
-    "image": "c1-airo.jpeg"
+    "image": "ch1a-verb-11.jpeg"
   },
   {
-    "id": 29,
+    "id": 23,
     "part": "A",
     "greek": "φέρω",
     "transliteration": "pherō",
@@ -400,10 +318,10 @@
       "fil": "dinadala ko"
     },
     "partOfSpeech": "verb",
-    "image": "c1-phero.jpeg"
+    "image": "ch1a-verb-12.jpeg"
   },
   {
-    "id": 30,
+    "id": 24,
     "part": "A",
     "greek": "λέγω",
     "transliteration": "legō",
@@ -414,7 +332,91 @@
       "fil": "sinasabi ko, nagsasalita ako"
     },
     "partOfSpeech": "verb",
-    "image": "c1-lego.jpeg"
+    "image": "ch1a-verb-13.jpeg"
+  },
+  {
+    "id": 25,
+    "part": "A",
+    "greek": "ἀγαθός, -ή, -όν",
+    "transliteration": "agathos",
+    "definition": "good",
+    "translations": {
+      "es": "bueno",
+      "pl": "dobry",
+      "fil": "mabuti"
+    },
+    "partOfSpeech": "adjective",
+    "image": "ch1a-adj-1.jpeg"
+  },
+  {
+    "id": 26,
+    "part": "A",
+    "greek": "ἰσχυρός, -ά, -όν",
+    "transliteration": "ischyros",
+    "definition": "strong",
+    "translations": {
+      "es": "fuerte",
+      "pl": "silny",
+      "fil": "malakas"
+    },
+    "partOfSpeech": "adjective",
+    "image": "ch1a-adj-2.jpeg"
+  },
+  {
+    "id": 27,
+    "part": "A",
+    "greek": "μικρός, -ά, -όν",
+    "transliteration": "mikros",
+    "definition": "small",
+    "translations": {
+      "es": "pequeño",
+      "pl": "mały",
+      "fil": "maliit"
+    },
+    "partOfSpeech": "adjective",
+    "image": "ch1a-adj-3.jpeg"
+  },
+  {
+    "id": 28,
+    "part": "A",
+    "greek": "μέγας, μεγάλη, μέγα",
+    "transliteration": "megas",
+    "definition": "great, large",
+    "translations": {
+      "es": "grande",
+      "pl": "wielki, duży",
+      "fil": "dakila, malaki"
+    },
+    "partOfSpeech": "adjective (irregular)",
+    "image": "ch1a-adj-4.jpeg"
+  },
+  {
+    "id": 29,
+    "part": "A",
+    "greek": "καλός, -ή, -όν",
+    "transliteration": "kalos",
+    "definition": "beautiful, good",
+    "translations": {
+      "es": "hermoso, bueno",
+      "pl": "piękny, dobry",
+      "fil": "maganda, mabuti"
+    },
+    "partOfSpeech": "adjective",
+    "image": "ch1a-adj-7.jpeg"
+  },
+  {
+    "id": 30,
+    "part": "A",
+    "greek": "πιστός, -ή, -όν",
+    "transliteration": "pistos",
+    "definition": "faithful",
+    "translations": {
+      "es": "fiel",
+      "pl": "wierny",
+      "fil": "tapat, mapagkakatiwalaan"
+    },
+    "partOfSpeech": "adjective",
+    "image": "ch1a-adj-8.jpeg"
   },
   {
     "id": 31,
