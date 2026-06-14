@@ -167,7 +167,10 @@ function LearnMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
                 </div>
                 <img src={`/vocab-images/${word.image}`} alt={t(word.definition, word.translations, lang)} className="flashcard-image" />
                 <div className="flashcard-strip flashcard-strip--bottom">
-                  <div className="flashcard-greek greek">{word.greek}</div>
+                  <div className="flashcard-greek greek">
+                    {word.thirdSingular ?? word.greek}
+                    {word.thirdSingular && <span className="flashcard-person-label">3rd sg.</span>}
+                  </div>
                   {seen[word.id] > 0 && <div className="flashcard-seen-count-inline">{ui('seen')} {seen[word.id]}×</div>}
                 </div>
               </>

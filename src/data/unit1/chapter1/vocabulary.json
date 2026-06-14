@@ -164,7 +164,8 @@
       "fil": "ako ay"
     },
     "partOfSpeech": "verb (irregular)",
-    "image": "ch1a-verb-1.jpeg"
+    "image": "ch1a-verb-1.jpeg",
+    "thirdSingular": "ἐστίν"
   },
   {
     "id": 13,
@@ -178,7 +179,8 @@
       "fil": "sumisinag ako"
     },
     "partOfSpeech": "verb",
-    "image": "ch1a-verb-2.jpeg"
+    "image": "ch1a-verb-2.jpeg",
+    "thirdSingular": "λάμπει"
   },
   {
     "id": 14,
@@ -192,7 +194,8 @@
       "fil": "umaagos ako"
     },
     "partOfSpeech": "verb",
-    "image": "ch1a-verb-3.jpeg"
+    "image": "ch1a-verb-3.jpeg",
+    "thirdSingular": "ῥεῖ"
   },
   {
     "id": 15,
@@ -206,7 +209,8 @@
       "fil": "kumuha ako, tumatanggap ako"
     },
     "partOfSpeech": "verb",
-    "image": "ch1a-verb-4.jpeg"
+    "image": "ch1a-verb-4.jpeg",
+    "thirdSingular": "λαμβάνει"
   },
   {
     "id": 16,
@@ -220,7 +224,8 @@
       "fil": "kumakain ako"
     },
     "partOfSpeech": "verb",
-    "image": "ch1a-verb-5.jpeg"
+    "image": "ch1a-verb-5.jpeg",
+    "thirdSingular": "ἐσθίει"
   },
   {
     "id": 17,
@@ -234,7 +239,8 @@
       "fil": "nagagalak ako"
     },
     "partOfSpeech": "verb",
-    "image": "ch1a-verb-6.jpeg"
+    "image": "ch1a-verb-6.jpeg",
+    "thirdSingular": "χαίρει"
   },
   {
     "id": 18,
@@ -248,7 +254,8 @@
       "fil": "mayroon ako"
     },
     "partOfSpeech": "verb",
-    "image": "ch1a-verb-7.jpeg"
+    "image": "ch1a-verb-7.jpeg",
+    "thirdSingular": "ἔχει"
   },
   {
     "id": 19,
@@ -262,7 +269,8 @@
       "fil": "nakikita ko, tinitingnan ko"
     },
     "partOfSpeech": "verb",
-    "image": "ch1a-verb-8.jpeg"
+    "image": "ch1a-verb-8.jpeg",
+    "thirdSingular": "βλέπει"
   },
   {
     "id": 20,
@@ -276,7 +284,8 @@
       "fil": "minamahal ko"
     },
     "partOfSpeech": "verb (contract, -έω)",
-    "image": "ch1a-verb-9.jpeg"
+    "image": "ch1a-verb-9.jpeg",
+    "thirdSingular": "φιλεῖ"
   },
   {
     "id": 21,
@@ -290,7 +299,8 @@
       "fil": "humuhukay ako"
     },
     "partOfSpeech": "verb",
-    "image": "ch1a-verb-10.jpeg"
+    "image": "ch1a-verb-10.jpeg",
+    "thirdSingular": "σκάπτει"
   },
   {
     "id": 22,
@@ -304,7 +314,8 @@
       "fil": "itinaas ko, kinukuha ko"
     },
     "partOfSpeech": "verb",
-    "image": "ch1a-verb-11.jpeg"
+    "image": "ch1a-verb-11.jpeg",
+    "thirdSingular": "αἴρει"
   },
   {
     "id": 23,
@@ -318,7 +329,8 @@
       "fil": "dinadala ko"
     },
     "partOfSpeech": "verb",
-    "image": "ch1a-verb-12.jpeg"
+    "image": "ch1a-verb-12.jpeg",
+    "thirdSingular": "φέρει"
   },
   {
     "id": 24,
@@ -332,7 +344,8 @@
       "fil": "sinasabi ko, nagsasalita ako"
     },
     "partOfSpeech": "verb",
-    "image": "ch1a-verb-13.jpeg"
+    "image": "ch1a-verb-13.jpeg",
+    "thirdSingular": "λέγει"
   },
   {
     "id": 25,
@@ -575,7 +588,8 @@
       "fil": "nakaupo ako"
     },
     "partOfSpeech": "verb",
-    "image": "c1b-kathizō.jpeg"
+    "image": "c1b-kathizō.jpeg",
+    "thirdSingular": "καθίζει"
   },
   {
     "id": 43,
@@ -589,7 +603,8 @@
       "fil": "nananatili ako"
     },
     "partOfSpeech": "verb",
-    "image": "c1b-menō.jpeg"
+    "image": "c1b-menō.jpeg",
+    "thirdSingular": "μένει"
   },
   {
     "id": 44,
@@ -603,7 +618,8 @@
       "fil": "lumalabas ako"
     },
     "partOfSpeech": "verb",
-    "image": "c1b-ekbainō.jpeg"
+    "image": "c1b-ekbainō.jpeg",
+    "thirdSingular": "ἐκβαίνει"
   },
   {
     "id": 45,
@@ -617,7 +633,8 @@
       "fil": "naglalakad ako"
     },
     "partOfSpeech": "verb (contract, -έω)",
-    "image": "c1b-peripateo.jpeg"
+    "image": "c1b-peripateo.jpeg",
+    "thirdSingular": "περιπατεῖ"
   },
   {
     "id": 46,
@@ -630,7 +647,8 @@
       "pl": "znajduję",
       "fil": "nakakakita ako"
     },
-    "partOfSpeech": "verb"
+    "partOfSpeech": "verb",
+    "thirdSingular": "εὑρίσκει"
   },
   {
     "id": 47,
@@ -644,7 +662,8 @@
       "fil": "nagpapahinga ako, nanahimik"
     },
     "partOfSpeech": "verb",
-    "image": "c1b-hēsychazō.jpeg"
+    "image": "c1b-hēsychazō.jpeg",
+    "thirdSingular": "ἡσυχάζει"
   },
   {
     "id": 48,
@@ -657,7 +676,8 @@
       "pl": "słyszę, słucham",
       "fil": "nakakarinig ako"
     },
-    "partOfSpeech": "verb (+ acc. or gen.)"
+    "partOfSpeech": "verb (+ acc. or gen.)",
+    "thirdSingular": "ἀκούει"
   },
   {
     "id": 49,
@@ -670,7 +690,8 @@
       "pl": "robię, czynię",
       "fil": "gumagawa ako"
     },
-    "partOfSpeech": "verb (contract, -έω)"
+    "partOfSpeech": "verb (contract, -έω)",
+    "thirdSingular": "ποιεῖ"
   },
   {
     "id": 50,
@@ -684,7 +705,8 @@
       "fil": "nagpapasalamat ako"
     },
     "partOfSpeech": "verb (+ dative)",
-    "image": "c1b-eucharisteō.jpeg"
+    "image": "c1b-eucharisteō.jpeg",
+    "thirdSingular": "εὐχαριστεῖ"
   },
   {
     "id": 51,

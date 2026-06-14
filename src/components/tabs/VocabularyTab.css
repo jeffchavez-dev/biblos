@@ -135,6 +135,7 @@
 .flashcard-strip .flashcard-hint  { opacity: 0.85; color: #fff; }
 .flashcard-strip .flashcard-greek { font-size: 1.8rem; color: #fff; text-shadow: 0 1px 4px rgba(0,0,0,0.7); }
 .flashcard-seen-count-inline { font-size: 0.72rem; color: var(--gold-light); opacity: 0.85; margin-left: 8px; }
+.flashcard-person-label { font-size: 0.65rem; color: rgba(255,255,255,0.7); font-family: inherit; font-style: italic; margin-left: 6px; vertical-align: middle; }
 
 .flashcard-hint {
   font-size: 0.72rem;
