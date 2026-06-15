@@ -600,8 +600,34 @@
 }
 .word-bank-chip:hover:not(:disabled) { background: var(--blue-light); transform: scale(1.04); }
 .word-bank-chip:disabled { cursor: default; opacity: 0.7; }
-.word-bank-chip--correct { background: var(--green-light) !important; border-color: var(--green) !important; color: var(--green) !important; opacity: 1 !important; }
-.word-bank-chip--wrong   { background: #fff0f0 !important; border-color: #e74c3c !important; color: #c0392b !important; opacity: 1 !important; }
+.word-bank-chip--correct  { background: var(--green-light) !important; border-color: var(--green) !important; color: var(--green) !important; opacity: 1 !important; }
+.word-bank-chip--wrong    { background: #fff0f0 !important; border-color: #e74c3c !important; color: #c0392b !important; opacity: 1 !important; }
+.word-bank-chip--selected { background: var(--blue-light) !important; border-color: var(--blue) !important; opacity: 1 !important; }
+.word-bank--articles { padding-bottom: 0; }
+.word-bank-chip--article { padding: 8px 22px; font-size: 1.1rem; }
+
+/* Noun two-slot answer area */
+.wb-noun-answer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px 0 4px;
+}
+.wb-noun-slot {
+  min-width: 80px;
+  padding: 8px 18px;
+  border-radius: 12px;
+  border: 2px dashed #bbb;
+  font-size: 1.1rem;
+  text-align: center;
+  transition: background 0.15s, border-color 0.15s;
+  color: #888;
+}
+.wb-slot--empty   { border-color: #ccc; background: #fafafa; }
+.wb-slot--filled  { border-color: var(--blue); background: var(--blue-light); color: var(--ink); border-style: solid; }
+.wb-slot--correct { border-color: var(--green) !important; background: var(--green-light) !important; color: var(--green) !important; border-style: solid !important; }
+.wb-slot--wrong   { border-color: #e74c3c !important; background: #fff0f0 !important; color: #c0392b !important; border-style: solid !important; }
+.wb-slot-placeholder { font-size: 0.78rem; color: #aaa; font-style: italic; }
 
 /* Record mode */
 .record-reveal-btn  { margin: 12px auto; display: block; }

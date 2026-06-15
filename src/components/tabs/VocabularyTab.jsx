@@ -344,28 +344,55 @@ function RecognizePickWord({ filtered, lang, ui }) {
 }
 
 // ── Challenge — Word Bank (image → click word from large pool) ────────────────
+const ARTICLES = ['ὁ', 'ἡ', 'τό']
+
 function ChallengeWordBank({ filtered, lang, ui }) {
   const imageFiltered = filtered.filter(hasImage)
   const [words, setWords]   = useState(() => shuffle(imageFiltered))
   const [index, setIndex]   = useState(0)
-  const [bank, setBank]     = useState([])
+  const [nounBank, setNounBank] = useState([])
+  const [wordBank, setWordBank] = useState([])
+  // Non-noun mode
   const [selected, setSelected] = useState(null)
+  // Noun mode: two-part pick
+  const [artPick, setArtPick]   = useState(null)  // 'ὁ'|'ἡ'|'τό' or null
+  const [nounPick, setNounPick] = useState(null)  // word id or null
   const [score, setScore]   = useState({ correct: 0, total: 0 })
 
   const word = words[index]
+  const isNoun = word?.partOfSpeech?.toLowerCase().startsWith('noun')
+  const correctArticle = isNoun ? extractArticle(word) : null
 
   useEffect(() => {
     if (!word) return
-    // 6 distractors → 7 total, prefer same POS
-    setBank(buildOptions(filtered, word, 7))
+    setNounBank(buildOptions(filtered.filter(w => w.partOfSpeech?.toLowerCase().startsWith('noun')), word, 6))
+    setWordBank(buildOptions(filtered, word, 7))
     setSelected(null)
+    setArtPick(null)
+    setNounPick(null)
   }, [index, word])
 
+  // Auto-advance: non-noun correct, or noun both picked
+  const nounDone    = isNoun && artPick !== null && nounPick !== null
+  const nonNounDone = !isNoun && selected === word?.id
   useEffect(() => {
-    if (selected === null || selected !== word?.id) return
-    const timer = setTimeout(handleNext, 1500)
+    if (!nounDone && !nonNounDone) return
+    const timer = setTimeout(handleNext, 1600)
     return () => clearTimeout(timer)
+  }, [nounDone, nonNounDone])
+
+  // Score: non-noun
+  useEffect(() => {
+    if (isNoun || selected === null) return
+    setScore(s => ({ correct: s.correct + (selected === word?.id ? 1 : 0), total: s.total + 1 }))
   }, [selected])
+
+  // Score: noun — when both parts chosen
+  useEffect(() => {
+    if (!nounDone) return
+    const ok = artPick === correctArticle && nounPick === word?.id
+    setScore(s => ({ correct: s.correct + (ok ? 1 : 0), total: s.total + 1 }))
+  }, [nounDone])
 
   if (!word) return null
   const def = t(word.definition, word.translations, lang)
@@ -373,13 +400,14 @@ function ChallengeWordBank({ filtered, lang, ui }) {
   function handleSelect(opt) {
     if (selected !== null) return
     setSelected(opt.id)
-    setScore(s => ({ correct: s.correct + (opt.id === word.id ? 1 : 0), total: s.total + 1 }))
   }
 
   function handleNext() {
     if (index < words.length - 1) setIndex(i => i + 1)
     else { setWords(shuffle(imageFiltered)); setIndex(0); setScore({ correct: 0, total: 0 }) }
   }
+
+  const nounCorrect = nounDone && artPick === correctArticle && nounPick === word.id
 
   return (
     <>
@@ -395,23 +423,75 @@ function ChallengeWordBank({ filtered, lang, ui }) {
           ? <img src={`/vocab-images/${wordImages(word)[0]}`} alt="vocabulary" className="practice-image" />
           : <div className="practice-prompt">{def}</div>
         }
-        <p className="practice-question">Pick the word from the bank:</p>
-        <div className="word-bank">
-          {bank.map(opt => {
-            let cls = 'word-bank-chip'
-            if (selected !== null) {
-              if (opt.id === word.id)      cls += ' word-bank-chip--correct'
-              else if (opt.id === selected) cls += ' word-bank-chip--wrong'
-            }
-            return (
-              <button key={opt.id} className={cls} onClick={() => handleSelect(opt)} disabled={selected !== null}>
-                <span className="greek">{chipLabel(opt)}</span>
-              </button>
-            )
-          })}
-        </div>
-        {selected !== null && selected !== word.id && (
-          <button className="nav-btn nav-btn--primary" style={{marginTop:'12px'}} onClick={handleNext}>Next →</button>
+
+        {isNoun ? (
+          <>
+            <p className="practice-question">Pick the article and noun:</p>
+            {/* Answer slots */}
+            <div className="wb-noun-answer">
+              <span className={`wb-noun-slot ${artPick ? (nounDone ? (artPick === correctArticle ? 'wb-slot--correct' : 'wb-slot--wrong') : 'wb-slot--filled') : 'wb-slot--empty'}`}>
+                {artPick ?? <span className="wb-slot-placeholder">article</span>}
+              </span>
+              <span className={`wb-noun-slot ${nounPick ? (nounDone ? (nounPick === word.id ? 'wb-slot--correct' : 'wb-slot--wrong') : 'wb-slot--filled') : 'wb-slot--empty'}`}>
+                {nounPick ? <span className="greek">{lemma(words.find(w => w.id === nounPick)?.greek ?? '')}</span> : <span className="wb-slot-placeholder">noun</span>}
+              </span>
+            </div>
+            {/* Article chips */}
+            <div className="word-bank word-bank--articles">
+              {ARTICLES.map(art => {
+                let cls = 'word-bank-chip word-bank-chip--article'
+                if (artPick === art) cls += nounDone ? (art === correctArticle ? ' word-bank-chip--correct' : ' word-bank-chip--wrong') : ' word-bank-chip--selected'
+                return (
+                  <button key={art} className={cls}
+                    onClick={() => !nounDone && setArtPick(art)}
+                    disabled={nounDone}
+                  >
+                    <span className="greek">{art}</span>
+                  </button>
+                )
+              })}
+            </div>
+            {/* Noun chips */}
+            <div className="word-bank">
+              {nounBank.map(opt => {
+                let cls = 'word-bank-chip'
+                if (nounPick === opt.id) cls += nounDone ? (opt.id === word.id ? ' word-bank-chip--correct' : ' word-bank-chip--wrong') : ' word-bank-chip--selected'
+                else if (nounDone && opt.id === word.id) cls += ' word-bank-chip--correct'
+                return (
+                  <button key={opt.id} className={cls}
+                    onClick={() => !nounDone && setNounPick(opt.id)}
+                    disabled={nounDone}
+                  >
+                    <span className="greek">{lemma(opt.greek)}</span>
+                  </button>
+                )
+              })}
+            </div>
+            {nounDone && !nounCorrect && (
+              <button className="nav-btn nav-btn--primary" style={{marginTop:'12px'}} onClick={handleNext}>Next →</button>
+            )}
+          </>
+        ) : (
+          <>
+            <p className="practice-question">Pick the word from the bank:</p>
+            <div className="word-bank">
+              {wordBank.map(opt => {
+                let cls = 'word-bank-chip'
+                if (selected !== null) {
+                  if (opt.id === word.id)       cls += ' word-bank-chip--correct'
+                  else if (opt.id === selected)  cls += ' word-bank-chip--wrong'
+                }
+                return (
+                  <button key={opt.id} className={cls} onClick={() => handleSelect(opt)} disabled={selected !== null}>
+                    <span className="greek">{chipLabel(opt)}</span>
+                  </button>
+                )
+              })}
+            </div>
+            {selected !== null && selected !== word.id && (
+              <button className="nav-btn nav-btn--primary" style={{marginTop:'12px'}} onClick={handleNext}>Next →</button>
+            )}
+          </>
         )}
       </div>
     </>
