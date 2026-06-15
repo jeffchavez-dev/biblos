@@ -465,7 +465,7 @@
     "part": "A",
     "greek": "χωρίς",
     "transliteration": "chōris",
-    "definition": "without, apart from",
+    "definition": "without, apart from — χωρὶς αὐτοῦ",
     "partOfSpeech": "preposition (+ genitive)",
     "translations": {
       "es": "sin, aparte de",
@@ -975,7 +975,7 @@
     "part": "B",
     "greek": "ὑπέρ",
     "transliteration": "hyper",
-    "definition": "on behalf of, for",
+    "definition": "on behalf of, for — ὑπὲρ αὐτοῦ",
     "partOfSpeech": "preposition (+ genitive)",
     "translations": {
       "es": "en favor de, por",
@@ -1027,7 +1027,7 @@
     "part": "B",
     "greek": "παρά",
     "transliteration": "para",
-    "definition": "beside, alongside",
+    "definition": "beside; from; with — παρ' αὐτόν (acc.) · παρ' αὐτοῦ (gen.) · παρ' αὐτῷ (dat.)",
     "partOfSpeech": "preposition (+ acc. = beside; + gen. = from; + dat. = with)",
     "translations": {
       "es": "junto a, al lado de",

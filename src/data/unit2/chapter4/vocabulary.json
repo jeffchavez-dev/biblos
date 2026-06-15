@@ -449,7 +449,7 @@
     "part": "A",
     "greek": "διά",
     "transliteration": "dia",
-    "definition": "through; because of",
+    "definition": "through; because of — διὰ τοῦ ἀγροῦ (gen.) · διὰ τοῦτο (acc.)",
     "partOfSpeech": "preposition (+ gen. = through; + acc. = because of)",
     "translations": {
       "es": "a través de; a causa de",
@@ -462,7 +462,7 @@
     "part": "A",
     "greek": "μετά",
     "transliteration": "meta",
-    "definition": "with; after",
+    "definition": "with; after — μετὰ αὐτοῦ (gen.) · μετὰ ταῦτα (acc.)",
     "partOfSpeech": "preposition (+ gen. = with; + acc. = after)",
     "translations": {
       "es": "con; después de",
@@ -475,7 +475,7 @@
     "part": "A",
     "greek": "περί",
     "transliteration": "peri",
-    "definition": "about, concerning; around",
+    "definition": "about, concerning; around — περὶ αὐτοῦ (gen.) · περὶ τὸν οἶκον (acc.)",
     "partOfSpeech": "preposition (+ gen. = about; + acc. = around)",
     "translations": {
       "es": "acerca de; alrededor de",

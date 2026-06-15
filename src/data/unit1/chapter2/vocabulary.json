@@ -261,7 +261,7 @@
     "part": "A",
     "greek": "ἐπί (+ dat.)",
     "transliteration": "epi",
-    "definition": "on, upon",
+    "definition": "on, upon — ἐπὶ τῷ λίθῳ",
     "partOfSpeech": "preposition",
     "translations": {
       "es": "sobre, encima",
@@ -275,7 +275,7 @@
     "part": "A",
     "greek": "ἐγγύς (+ gen.)",
     "transliteration": "engys",
-    "definition": "near",
+    "definition": "near — ἐγγὺς τοῦ οἴκου",
     "partOfSpeech": "preposition/adverb",
     "translations": {
       "es": "cerca",
@@ -289,7 +289,7 @@
     "part": "A",
     "greek": "πέραν (+ gen.)",
     "transliteration": "peran",
-    "definition": "across, beyond",
+    "definition": "across, beyond — πέραν τοῦ ἀγροῦ",
     "partOfSpeech": "preposition",
     "translations": {
       "es": "al otro lado, más allá",
@@ -625,7 +625,7 @@
     "part": "B",
     "greek": "εἰς (+ acc.)",
     "transliteration": "eis",
-    "definition": "into, to",
+    "definition": "into, to — εἰς τὸν οἶκον",
     "partOfSpeech": "preposition",
     "translations": {
       "es": "hacia, a",
@@ -642,7 +642,7 @@
     "part": "B",
     "greek": "ἀπό (+ gen.)",
     "transliteration": "apo",
-    "definition": "from, away from",
+    "definition": "from, away from — ἀπὸ τοῦ ἀγροῦ",
     "partOfSpeech": "preposition",
     "translations": {
       "es": "desde, lejos de",
@@ -660,7 +660,7 @@
     "part": "B",
     "greek": "ὑπό (+ dat.)",
     "transliteration": "hypo",
-    "definition": "under",
+    "definition": "under — ὑπὸ τῷ δένδρῳ",
     "partOfSpeech": "preposition",
     "translations": {
       "es": "debajo",
@@ -674,7 +674,7 @@
     "part": "B",
     "greek": "ἔξω (+ gen.)",
     "transliteration": "exō",
-    "definition": "outside",
+    "definition": "outside — ἔξω τοῦ οἴκου",
     "partOfSpeech": "preposition/adverb",
     "translations": {
       "es": "afuera",

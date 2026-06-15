@@ -728,7 +728,7 @@
     "part": "B",
     "greek": "ἐν (+ dat.)",
     "transliteration": "en",
-    "definition": "in, at",
+    "definition": "in, at — ἐν τῷ οἴκῳ",
     "translations": {
       "es": "en",
       "pl": "w, przy",
@@ -742,7 +742,7 @@
     "part": "B",
     "greek": "ἐκ / ἐξ (+ gen.)",
     "transliteration": "ek / ex",
-    "definition": "out of, from",
+    "definition": "out of, from — ἐκ τοῦ ἀγροῦ",
     "translations": {
       "es": "fuera de, de",
       "pl": "z, spośród",
@@ -756,7 +756,7 @@
     "part": "B",
     "greek": "πρός (+ acc.)",
     "transliteration": "pros",
-    "definition": "toward, to",
+    "definition": "toward, to — πρὸς τὸν οἶκον",
     "translations": {
       "es": "hacia, a",
       "pl": "ku, do",
