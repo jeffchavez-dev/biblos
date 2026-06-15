@@ -17,6 +17,20 @@ function lemma(greek) { return greek.split(',')[0].trim() }
 function wordImages(w) { return w.images || (w.image ? [w.image] : []) }
 function hasImage(w) { return wordImages(w).length > 0 }
 
+// Extract article (ὁ/ἡ/τό) from noun Greek field, e.g. "ἄνθρωπος, -ου, ὁ"
+function extractArticle(w) {
+  if (!w.partOfSpeech?.toLowerCase().startsWith('noun')) return null
+  const last = w.greek.split(',').pop().trim()
+  if (last === 'ὁ' || last === 'ἡ' || last === 'τό') return last
+  return null
+}
+
+// Label shown on word-bank chips: nouns get "ὁ λόγος", verbs get lemma
+function chipLabel(w) {
+  const art = extractArticle(w)
+  return art ? `${art} ${lemma(w.greek)}` : lemma(w.greek)
+}
+
 // Prefer same part-of-speech distractors, fall back to any
 function buildOptions(pool, correct, count = 3) {
   const pos = correct.partOfSpeech
@@ -391,7 +405,7 @@ function ChallengeWordBank({ filtered, lang, ui }) {
             }
             return (
               <button key={opt.id} className={cls} onClick={() => handleSelect(opt)} disabled={selected !== null}>
-                <span className="greek">{lemma(opt.greek)}</span>
+                <span className="greek">{chipLabel(opt)}</span>
               </button>
             )
           })}

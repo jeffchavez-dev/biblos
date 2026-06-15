@@ -6,7 +6,7 @@
     "transliteration": "kēpos",
     "definition": "garden",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch2-01-kepos.png",
+    "image": "ch2a-noun-01.jpeg",
     "translations": {
       "es": "jardín",
       "pl": "ogród",
@@ -24,7 +24,8 @@
       "es": "rama",
       "pl": "gałąź",
       "fil": "sanga"
-    }
+    },
+    "image": "ch2a-noun-04.jpeg"
   },
   {
     "id": 3,
@@ -33,7 +34,7 @@
     "transliteration": "onos",
     "definition": "donkey",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch2-onos.jpeg",
+    "image": "ch2a-noun-06.jpeg",
     "translations": {
       "es": "asno, burro",
       "pl": "osioł",
@@ -47,7 +48,7 @@
     "transliteration": "lykos",
     "definition": "wolf",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch2-lykos-close.jpeg",
+    "image": "ch2a-noun-13.jpeg",
     "translations": {
       "es": "lobo",
       "pl": "wilk",
@@ -61,7 +62,7 @@
     "transliteration": "lachanon",
     "definition": "vegetable, herb",
     "partOfSpeech": "noun (neuter, 2nd decl.)",
-    "image": "ch2-02-lachanon.png",
+    "image": "ch2a-noun-02.jpeg",
     "translations": {
       "es": "verdura, hierba",
       "pl": "warzywo, zioło",
@@ -75,7 +76,7 @@
     "transliteration": "dendron",
     "definition": "tree",
     "partOfSpeech": "noun (neuter, 2nd decl.)",
-    "image": "ch2-dendron.jpeg",
+    "image": "ch2a-noun-03.jpeg",
     "translations": {
       "es": "árbol",
       "pl": "drzewo",
@@ -89,7 +90,7 @@
     "transliteration": "drepanon",
     "definition": "sickle",
     "partOfSpeech": "noun (neuter, 2nd decl.)",
-    "image": "ch2-drepanon.jpeg",
+    "image": "ch2a-noun-05.jpeg",
     "translations": {
       "es": "hoz",
       "pl": "sierp",
@@ -103,7 +104,7 @@
     "transliteration": "probaton",
     "definition": "sheep",
     "partOfSpeech": "noun (neuter, 2nd decl.)",
-    "image": "ch2-zōon.jpeg",
+    "image": "ch2a-noun-08.jpeg",
     "translations": {
       "es": "oveja",
       "pl": "owca",
@@ -117,7 +118,7 @@
     "transliteration": "arnion",
     "definition": "lamb",
     "partOfSpeech": "noun (neuter, 2nd decl.)",
-    "image": "ch2-arnion-teknon.jpeg",
+    "image": "ch2a-noun-10.jpeg",
     "translations": {
       "es": "cordero",
       "pl": "jagnię, baranek",
@@ -131,7 +132,7 @@
     "transliteration": "thērion",
     "definition": "wild beast",
     "partOfSpeech": "noun (neuter, 2nd decl.)",
-    "image": "ch2-therion.jpeg",
+    "image": "ch2a-noun-12.jpeg",
     "translations": {
       "es": "bestia salvaje",
       "pl": "dzikie zwierzę",
@@ -145,7 +146,7 @@
     "transliteration": "zōon",
     "definition": "living creature, animal",
     "partOfSpeech": "noun (neuter, 2nd decl.)",
-    "image": "ch2-zōa.jpeg",
+    "image": "ch2a-noun-09.jpeg",
     "translations": {
       "es": "criatura viviente, animal",
       "pl": "żywa istota, zwierzę",
@@ -159,7 +160,7 @@
     "transliteration": "teknon",
     "definition": "child, offspring",
     "partOfSpeech": "noun (neuter, 2nd decl.)",
-    "image": "ch2-arnion-teknon.jpeg",
+    "image": "ch2a-noun-11.jpeg",
     "translations": {
       "es": "niño, hijo",
       "pl": "dziecko, potomek",
@@ -173,7 +174,7 @@
     "transliteration": "bous",
     "definition": "ox",
     "partOfSpeech": "noun (3rd decl.)",
-    "image": "ch2-bous.jpeg",
+    "image": "ch2a-noun-07.jpeg",
     "translations": {
       "es": "buey",
       "pl": "wół",
@@ -187,12 +188,13 @@
     "transliteration": "phyteuō",
     "definition": "I plant",
     "partOfSpeech": "verb",
-    "image": "ch2-03-phyteuo.png",
+    "image": "ch2a-verb-01.jpeg",
     "translations": {
       "es": "yo planto",
       "pl": "sadzę",
       "fil": "nagtatanim"
-    }
+    },
+    "thirdSingular": "φυτεύει"
   },
   {
     "id": 15,
@@ -201,12 +203,13 @@
     "transliteration": "therizō",
     "definition": "I harvest, reap",
     "partOfSpeech": "verb",
-    "image": "ch2-therizo.jpeg",
+    "image": "ch2a-verb-02.jpeg",
     "translations": {
       "es": "yo cosecho, siegue",
       "pl": "żnę, zbieram plony",
       "fil": "nag-aani"
-    }
+    },
+    "thirdSingular": "θερίζει"
   },
   {
     "id": 16,
@@ -215,12 +218,13 @@
     "transliteration": "pinō",
     "definition": "I drink",
     "partOfSpeech": "verb",
-    "image": "ch2-pino.jpeg",
+    "image": "ch2a-verb-03.jpeg",
     "translations": {
       "es": "yo bebo",
       "pl": "piję",
       "fil": "umiinom"
-    }
+    },
+    "thirdSingular": "πίνει"
   },
   {
     "id": 17,
@@ -229,12 +233,13 @@
     "transliteration": "trechō",
     "definition": "I run",
     "partOfSpeech": "verb",
-    "image": "ch2-trecho.jpeg",
+    "image": "ch2a-verb-04.jpeg",
     "translations": {
       "es": "yo corro",
       "pl": "biegnę",
       "fil": "tumatakbo"
-    }
+    },
+    "thirdSingular": "τρέχει"
   },
   {
     "id": 18,
@@ -243,12 +248,13 @@
     "transliteration": "phylassō",
     "definition": "I guard, watch over",
     "partOfSpeech": "verb",
-    "image": "ch2-phylasso2.jpeg",
+    "image": "ch2a-verb-05.jpeg",
     "translations": {
       "es": "yo guardo, vigilo",
       "pl": "strzegę, pilnuję",
       "fil": "nagbabantay"
-    }
+    },
+    "thirdSingular": "φυλάσσει"
   },
   {
     "id": 19,
@@ -261,7 +267,8 @@
       "es": "sobre, encima",
       "pl": "na, nad",
       "fil": "sa, sa ibabaw"
-    }
+    },
+    "image": "ch2a-prep-epi.jpeg"
   },
   {
     "id": 20,
@@ -274,7 +281,8 @@
       "es": "cerca",
       "pl": "blisko",
       "fil": "malapit"
-    }
+    },
+    "image": "ch2a-adv-01.jpeg"
   },
   {
     "id": 21,
@@ -287,7 +295,8 @@
       "es": "al otro lado, más allá",
       "pl": "po drugiej stronie, za",
       "fil": "sa kabilang dako, lampas"
-    }
+    },
+    "image": "ch2a-adv-03.jpeg"
   },
   {
     "id": 22,
@@ -300,7 +309,8 @@
       "es": "rápidamente",
       "pl": "szybko",
       "fil": "mabilis"
-    }
+    },
+    "image": "ch2a-adv-02.jpeg"
   },
   {
     "id": 23,
@@ -313,7 +323,8 @@
       "es": "día",
       "pl": "dzień",
       "fil": "araw"
-    }
+    },
+    "image": "ch2b-noun-01.jpeg"
   },
   {
     "id": 24,
@@ -322,7 +333,7 @@
     "transliteration": "phōnē",
     "definition": "voice, sound",
     "partOfSpeech": "noun (feminine, 1st decl.)",
-    "image": "ch2b-krazō.jpeg",
+    "image": "ch2b-noun-03.jpeg",
     "translations": {
       "es": "voz, sonido",
       "pl": "głos, dźwięk",
@@ -336,7 +347,7 @@
     "transliteration": "rhabdos",
     "definition": "rod, staff",
     "partOfSpeech": "noun (feminine, 2nd decl.)",
-    "image": "ch2b-rhabdos.jpeg",
+    "image": "ch2b-noun-02.jpeg",
     "translations": {
       "es": "vara, bastón",
       "pl": "laska, kij",
@@ -350,7 +361,7 @@
     "transliteration": "kyrios",
     "definition": "lord, master",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch2b-kyrios.jpeg",
+    "image": "ch2b-noun-04.jpeg",
     "translations": {
       "es": "señor, amo",
       "pl": "pan, władca",
@@ -364,7 +375,7 @@
     "transliteration": "ponēros",
     "definition": "evil, wicked",
     "partOfSpeech": "adjective",
-    "image": "ch2-poneros.jpeg",
+    "image": "ch2b-adj-02.jpeg",
     "translations": {
       "es": "malo, malvado",
       "pl": "zły, niegodziwy",
@@ -382,7 +393,8 @@
       "es": "justo, recto",
       "pl": "sprawiedliwy",
       "fil": "matuwid, makatarungan"
-    }
+    },
+    "image": "ch2b-adj-01.jpeg"
   },
   {
     "id": 29,
@@ -395,7 +407,8 @@
       "es": "él, ella, ello; lo/la",
       "pl": "on, ona, ono",
       "fil": "siya"
-    }
+    },
+    "image": "ch2b-pron-autos.jpeg"
   },
   {
     "id": 30,
@@ -404,12 +417,13 @@
     "transliteration": "thelō",
     "definition": "I wish, want",
     "partOfSpeech": "verb (+ infinitive)",
-    "image": "ch2b-thelo.jpeg",
+    "image": "ch2b-verb-01.jpeg",
     "translations": {
       "es": "yo deseo, quiero",
       "pl": "chcę, pragnę",
       "fil": "nais ko, gusto ko"
-    }
+    },
+    "thirdSingular": "θέλει"
   },
   {
     "id": 31,
@@ -422,7 +436,9 @@
       "es": "estoy a punto de",
       "pl": "mam zamiar, zaraz",
       "fil": "malapit nang"
-    }
+    },
+    "image": "ch2b-verb-03.jpeg",
+    "thirdSingular": "μέλλει"
   },
   {
     "id": 32,
@@ -431,12 +447,13 @@
     "transliteration": "harpazō",
     "definition": "I seize, snatch",
     "partOfSpeech": "verb",
-    "image": "ch2b-harpazō.jpeg",
+    "image": "ch2b-verb-02.jpeg",
     "translations": {
       "es": "yo agarro, arrebato",
       "pl": "chwytam, porywam",
       "fil": "sinasagit, inaabot"
-    }
+    },
+    "thirdSingular": "ἁρπάζει"
   },
   {
     "id": 33,
@@ -445,12 +462,13 @@
     "transliteration": "sōzō",
     "definition": "I save, rescue",
     "partOfSpeech": "verb",
-    "image": "ch2b-sozo.jpeg",
+    "image": "ch2b-verb-04.jpeg",
     "translations": {
       "es": "yo salvo, rescato",
       "pl": "ratuję",
       "fil": "nagliligtas"
-    }
+    },
+    "thirdSingular": "σῴζει"
   },
   {
     "id": 34,
@@ -463,7 +481,9 @@
       "es": "yo dejo atrás, abandono",
       "pl": "zostawiam, porzucam",
       "fil": "iniiwan, pinababayaan"
-    }
+    },
+    "image": "ch2b-verb-05.jpeg",
+    "thirdSingular": "καταλείπει"
   },
   {
     "id": 35,
@@ -472,12 +492,13 @@
     "transliteration": "pheugō",
     "definition": "I flee",
     "partOfSpeech": "verb",
-    "image": "ch2b-pheugo.jpeg",
+    "image": "ch2b-verb-06.jpeg",
     "translations": {
       "es": "yo huyo",
       "pl": "uciekam",
       "fil": "tumatakbo palayo, tumakas"
-    }
+    },
+    "thirdSingular": "φεύγει"
   },
   {
     "id": 36,
@@ -486,12 +507,13 @@
     "transliteration": "krazō",
     "definition": "I cry out, shout",
     "partOfSpeech": "verb",
-    "image": "ch2b-krazō.jpeg",
+    "image": "ch2b-verb-07.jpeg",
     "translations": {
       "es": "yo grito",
       "pl": "krzyczę, wołam",
       "fil": "sumisigaw"
-    }
+    },
+    "thirdSingular": "κράζει"
   },
   {
     "id": 37,
@@ -500,12 +522,13 @@
     "transliteration": "ballō",
     "definition": "I throw",
     "partOfSpeech": "verb",
-    "image": "ch2b-ballo.jpeg",
+    "image": "ch2b-verb-08.jpeg",
     "translations": {
       "es": "yo lanzo, arrojo",
       "pl": "rzucam",
       "fil": "naghahagis"
-    }
+    },
+    "thirdSingular": "βάλλει"
   },
   {
     "id": 38,
@@ -514,12 +537,13 @@
     "transliteration": "diōkō",
     "definition": "I pursue, chase",
     "partOfSpeech": "verb",
-    "image": "ch2b-dioko.jpeg",
+    "image": "ch2b-verb-10.jpeg",
     "translations": {
       "es": "yo persigo",
       "pl": "gonię, ścigam",
       "fil": "hinahabol"
-    }
+    },
+    "thirdSingular": "διώκει"
   },
   {
     "id": 39,
@@ -532,7 +556,9 @@
       "es": "yo llamo",
       "pl": "wołam, nazywam",
       "fil": "tumatawag"
-    }
+    },
+    "image": "ch2b-verb-11.jpeg",
+    "thirdSingular": "καλεῖ"
   },
   {
     "id": 40,
@@ -545,7 +571,9 @@
       "es": "yo conozco, reconozco",
       "pl": "znam, rozpoznaję",
       "fil": "nakakakilala"
-    }
+    },
+    "image": "ch2b-verb-12.jpeg",
+    "thirdSingular": "γινώσκει"
   },
   {
     "id": 41,
@@ -558,7 +586,9 @@
       "es": "yo sigo",
       "pl": "podążam, śledzę",
       "fil": "sumusunod"
-    }
+    },
+    "image": "ch2b-verb-13.jpeg",
+    "thirdSingular": "ἀκολουθεῖ"
   },
   {
     "id": 42,
@@ -571,7 +601,9 @@
       "es": "yo guío, llevo",
       "pl": "prowadzę, przyprowadam",
       "fil": "nangunguna, nag-aakay"
-    }
+    },
+    "image": "ch2b-verb-13.jpeg",
+    "thirdSingular": "ἄγει"
   },
   {
     "id": 43,
@@ -580,12 +612,13 @@
     "transliteration": "hypagō",
     "definition": "I go away, depart",
     "partOfSpeech": "verb",
-    "image": "ch2b-hypago.jpeg",
+    "image": "ch2b-verb-09.jpeg",
     "translations": {
       "es": "yo me voy, parto",
       "pl": "odchodzę",
       "fil": "umaalis"
-    }
+    },
+    "thirdSingular": "ὑπάγει"
   },
   {
     "id": 44,
@@ -598,7 +631,11 @@
       "es": "hacia, a",
       "pl": "do, ku",
       "fil": "patungo sa, sa loob"
-    }
+    },
+    "images": [
+      "ch2b-prep-eis-1.jpeg",
+      "ch2b-prep-eis-2.jpeg"
+    ]
   },
   {
     "id": 45,
@@ -611,7 +648,12 @@
       "es": "desde, lejos de",
       "pl": "od, z dala od",
       "fil": "mula sa, malayo sa"
-    }
+    },
+    "images": [
+      "ch2b-prep-apo-1.jpeg",
+      "ch2b-prep-apo-2.jpeg",
+      "ch2b-prep-apo-3.jpeg"
+    ]
   },
   {
     "id": 46,
@@ -624,7 +666,8 @@
       "es": "debajo",
       "pl": "pod",
       "fil": "sa ilalim"
-    }
+    },
+    "image": "ch2b-prep-hypo.jpeg"
   },
   {
     "id": 47,
@@ -663,7 +706,8 @@
       "es": "inmediatamente",
       "pl": "natychmiast",
       "fil": "agad, kaagad"
-    }
+    },
+    "image": "ch2b-adv-03.jpeg"
   },
   {
     "id": 50,
@@ -676,7 +720,8 @@
       "es": "de nuevo, otra vez",
       "pl": "znowu, ponownie",
       "fil": "muli, uli"
-    }
+    },
+    "image": "ch2b-adv-04.jpeg"
   },
   {
     "id": 51,
