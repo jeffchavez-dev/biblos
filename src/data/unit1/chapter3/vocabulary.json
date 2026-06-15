@@ -235,7 +235,8 @@
       "es": "yo me canso, me fatigo",
       "pl": "pracuję ciężko, jestem zmęczony",
       "fil": "napapagod"
-    }
+    },
+    "thirdSingular": "κοπιᾷ"
   },
   {
     "id": 18,
@@ -249,7 +250,8 @@
       "es": "yo duermo",
       "pl": "śpię",
       "fil": "natutulog"
-    }
+    },
+    "thirdSingular": "καθεύδει"
   },
   {
     "id": 19,
@@ -263,7 +265,8 @@
       "es": "yo salgo (del sol/luna)",
       "pl": "wschodzę (o słońcu/księżycu)",
       "fil": "sumisinag, sumasalang"
-    }
+    },
+    "thirdSingular": "ἀνατέλλει"
   },
   {
     "id": 20,
@@ -277,7 +280,8 @@
       "es": "he venido, llego",
       "pl": "przybyłem, przychodzę",
       "fil": "dumating"
-    }
+    },
+    "thirdSingular": "ἥκει"
   },
   {
     "id": 21,
@@ -291,7 +295,8 @@
       "es": "yo abro",
       "pl": "otwieram",
       "fil": "nagbubukas"
-    }
+    },
+    "thirdSingular": "ἀνοίγει"
   },
   {
     "id": 22,
@@ -305,7 +310,8 @@
       "es": "yo busco",
       "pl": "szukam",
       "fil": "naghahanap"
-    }
+    },
+    "thirdSingular": "ζητεῖ"
   },
   {
     "id": 23,
@@ -319,7 +325,8 @@
       "es": "yo enciendo",
       "pl": "zapalm, rozświetlam",
       "fil": "nagpapaningas, nagsusunog"
-    }
+    },
+    "thirdSingular": "ἅπτει"
   },
   {
     "id": 24,
@@ -596,7 +603,8 @@
       "es": "yo gimo, suspiro",
       "pl": "wzdycham, jeczę",
       "fil": "humihinga nang malalim, nagbubuntong-hininga"
-    }
+    },
+    "thirdSingular": "στενάζει"
   },
   {
     "id": 44,
@@ -610,7 +618,8 @@
       "es": "yo cruzo",
       "pl": "przekraczam, przechodzę",
       "fil": "tumatawid"
-    }
+    },
+    "thirdSingular": "διαβαίνει"
   },
   {
     "id": 45,
@@ -623,7 +632,8 @@
       "es": "yo aprendo, entiendo",
       "pl": "uczę się, rozumiem",
       "fil": "natututo, nakakaunawa"
-    }
+    },
+    "thirdSingular": "μανθάνει"
   },
   {
     "id": 46,
@@ -637,7 +647,8 @@
       "es": "yo me maravillo",
       "pl": "dziwię się, jestem zdumiony",
       "fil": "nagtataka, namumangha"
-    }
+    },
+    "thirdSingular": "θαυμάζει"
   },
   {
     "id": 47,
@@ -651,7 +662,8 @@
       "es": "yo levanto, despierto",
       "pl": "podnoszę, budzę",
       "fil": "nagpupunan, ginigising"
-    }
+    },
+    "thirdSingular": "ἐγείρει"
   },
   {
     "id": 48,
@@ -665,7 +677,8 @@
       "es": "yo caigo",
       "pl": "padam, upadam",
       "fil": "nahuhulog"
-    }
+    },
+    "thirdSingular": "πίπτει"
   },
   {
     "id": 49,

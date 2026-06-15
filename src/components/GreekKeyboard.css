@@ -1,0 +1,42 @@
+.greek-kb {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--grey-light);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px;
+}
+.greek-kb-row {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.greek-kb-key {
+  min-width: 38px;
+  height: 42px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: #fff;
+  font-family: 'Gentium Plus', Georgia, serif;
+  font-size: 1.1rem;
+  color: var(--deep-blue);
+  cursor: pointer;
+  transition: background 0.1s, transform 0.08s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  padding: 0 6px;
+}
+.greek-kb-key:hover  { background: var(--blue-light); border-color: var(--blue); }
+.greek-kb-key:active { transform: scale(0.92); background: var(--deep-blue); color: #fff; }
+.greek-kb-key--wide      { min-width: 60px; font-family: inherit; font-size: 0.9rem; color: var(--grey); }
+.greek-kb-key--diacritic { min-width: 34px; font-size: 1rem; color: var(--grey); }
+.greek-kb-key--active    { background: var(--deep-blue) !important; color: #fff !important; border-color: var(--deep-blue) !important; }
+
+@media (max-width: 480px) {
+  .greek-kb-key { min-width: 30px; height: 38px; font-size: 1rem; }
+}

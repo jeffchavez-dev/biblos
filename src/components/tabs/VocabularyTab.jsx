@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { useLanguage, useUI, t } from '../../context/LanguageContext.jsx'
 import FullscreenViewer from '../FullscreenViewer.jsx'
+import GreekKeyboard from '../GreekKeyboard.jsx'
 import './VocabularyTab.css'
 
 function shuffle(arr) {
@@ -46,84 +47,6 @@ function normalizeInput(s) {
   return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim()
 }
 
-// ── Greek keyboard ────────────────────────────────────────────────────────────
-// Layout mirrors the standard Greek QWERTY keyboard (W=ς E=ε R=ρ … Z=ζ X=χ C=ψ V=ω …)
-const GREEK_ROWS = [
-  ['ς','ε','ρ','τ','υ','θ','ι','ο','π'],
-  ['α','σ','δ','φ','γ','η','ξ','κ','λ'],
-  ['ζ','χ','ψ','ω','β','ν','μ','⌫','·'],
-]
-
-const DIACRITIC_KEYS = [
-  { label: '᾿', id: 'smooth',    mark: '̓' },
-  { label: '῾', id: 'rough',     mark: '̔' },
-  { label: '΄', id: 'acute',     mark: '́' },
-  { label: '`', id: 'grave',     mark: '̀' },
-  { label: '῀', id: 'circum',    mark: '͂' },
-  { label: '¨', id: 'diaer',     mark: '̈' },
-  { label: 'ͅ', id: 'subscript', mark: 'ͅ' },
-]
-
-const VOWELS = new Set('αεηιουωΑΕΗΙΟΥΩ')
-
-function GreekKeyboard({ onKey }) {
-  const [pending, setPending] = useState(new Set())
-
-  function toggleDiacritic(id) {
-    setPending(prev => {
-      const next = new Set(prev)
-      next.has(id) ? next.delete(id) : next.add(id)
-      return next
-    })
-  }
-
-  function handleKey(k) {
-    if (k === '⌫') {
-      if (pending.size > 0) { setPending(new Set()); return }
-      onKey('⌫')
-      return
-    }
-    if (pending.size > 0 && VOWELS.has(k)) {
-      const marks = DIACRITIC_KEYS.filter(d => pending.has(d.id)).map(d => d.mark).join('')
-      onKey((k + marks).normalize('NFC'))
-      setPending(new Set())
-    } else {
-      if (pending.size > 0) setPending(new Set())
-      onKey(k)
-    }
-  }
-
-  return (
-    <div className="greek-kb">
-      <div className="greek-kb-row greek-kb-diacritics">
-        {DIACRITIC_KEYS.map(d => (
-          <button
-            key={d.id}
-            type="button"
-            className={`greek-kb-key greek-kb-key--diacritic${pending.has(d.id) ? ' greek-kb-key--active' : ''}`}
-            onMouseDown={e => { e.preventDefault(); toggleDiacritic(d.id) }}
-          >
-            {d.label}
-          </button>
-        ))}
-      </div>
-      {GREEK_ROWS.map((row, ri) => (
-        <div key={ri} className="greek-kb-row">
-          {row.map(k => (
-            <button
-              key={k}
-              type="button"
-              className={`greek-kb-key${k === '⌫' ? ' greek-kb-key--wide' : ''}`}
-              onMouseDown={e => { e.preventDefault(); handleKey(k) }}
-            >
-              {k}
-            </button>
-          ))}
-        </div>
-      ))}
-    </div>
-  )
-}
 
 // ── Shared completion banner ──────────────────────────────────────────────────
 function CompletionCard({ score, nextLabel, onNext, onRestart }) {
@@ -809,9 +732,17 @@ function ChallengePickImage({ filtered, lang, ui, onComplete }) {
 }
 
 // ── Challenge wrapper ─────────────────────────────────────────────────────────
+const RECOGNIZE_SUBS = ['pick-word', 'pick-image']
+
 function RecognizeMode({ filtered, lang, ui, onComplete }) {
   const [sub, setSub] = useState('pick-word')
   const key = `${filtered.length}-${sub}`
+
+  function advanceSub() {
+    const idx = RECOGNIZE_SUBS.indexOf(sub)
+    if (idx < RECOGNIZE_SUBS.length - 1) setSub(RECOGNIZE_SUBS[idx + 1])
+    else onComplete()
+  }
 
   return (
     <>
@@ -829,8 +760,8 @@ function RecognizeMode({ filtered, lang, ui, onComplete }) {
           </button>
         ))}
       </div>
-      {sub === 'pick-word'  && <RecognizePickWord  key={key} filtered={filtered} lang={lang} ui={ui} onComplete={onComplete} />}
-      {sub === 'pick-image' && <ChallengePickImage key={key} filtered={filtered} lang={lang} ui={ui} onComplete={onComplete} />}
+      {sub === 'pick-word'  && <RecognizePickWord  key={key} filtered={filtered} lang={lang} ui={ui} onComplete={advanceSub} />}
+      {sub === 'pick-image' && <ChallengePickImage key={key} filtered={filtered} lang={lang} ui={ui} onComplete={advanceSub} />}
     </>
   )
 }
@@ -958,9 +889,18 @@ function ChallengeRecord({ filtered, lang, ui, onComplete }) {
   )
 }
 
+const CHALLENGE_SUBS = ['bank', 'type', 'record']
+
 function ChallengeMode({ filtered, lang, ui, onComplete }) {
   const [sub, setSub] = useState('bank')
   const key = `${filtered.length}-${sub}`
+
+  function advanceSub() {
+    const idx = CHALLENGE_SUBS.indexOf(sub)
+    if (idx < CHALLENGE_SUBS.length - 1) setSub(CHALLENGE_SUBS[idx + 1])
+    else onComplete()
+  }
+
   return (
     <>
       <div className="challenge-sub-tabs">
@@ -978,9 +918,9 @@ function ChallengeMode({ filtered, lang, ui, onComplete }) {
           </button>
         ))}
       </div>
-      {sub === 'bank'   && <ChallengeWordBank key={key} filtered={filtered} lang={lang} ui={ui} onComplete={onComplete} />}
-      {sub === 'type'   && <ChallengeType    key={key} filtered={filtered} lang={lang} ui={ui} onComplete={onComplete} />}
-      {sub === 'record' && <ChallengeRecord  key={key} filtered={filtered} lang={lang} ui={ui} onComplete={onComplete} />}
+      {sub === 'bank'   && <ChallengeWordBank key={key} filtered={filtered} lang={lang} ui={ui} onComplete={advanceSub} />}
+      {sub === 'type'   && <ChallengeType    key={key} filtered={filtered} lang={lang} ui={ui} onComplete={advanceSub} />}
+      {sub === 'record' && <ChallengeRecord  key={key} filtered={filtered} lang={lang} ui={ui} onComplete={advanceSub} />}
     </>
   )
 }

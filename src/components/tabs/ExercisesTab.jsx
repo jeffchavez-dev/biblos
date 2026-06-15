@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { useUI } from '../../context/LanguageContext.jsx'
+import GreekKeyboard from '../GreekKeyboard.jsx'
 import './ExercisesTab.css'
 
 function normalize(str) {
@@ -56,6 +57,10 @@ export default function ExercisesTab({ exercises, activePart }) {
   const [submitted, setSubmitted] = useState({}) // { [id]: bool }
   const [scores,    setScores]    = useState({}) // { [id]: { correct, total } }
 
+  // Greek keyboard: tracks which input is focused { qid, idx? }
+  const [kbTarget, setKbTarget] = useState(null)
+  const inputRefs = useRef({})
+
   if (!exercises) {
     return <div className="empty-tab">✏️ Exercises for this chapter have not been added yet.</div>
   }
@@ -94,6 +99,25 @@ export default function ExercisesTab({ exercises, activePart }) {
   function handlePc(id, i, v) {
     if (isSubmitted) return
     setPcAnswers(a => { const arr = [...(a[id] || [])]; arr[i] = v; return { ...a, [id]: arr } })
+  }
+
+  function handleKbKey(k) {
+    if (!kbTarget) return
+    const { section, qid, idx } = kbTarget
+    const setter = { fill: handleFill, inf: handleInf, imp: handleImp, cv: handleCv, cf: handleCf }[section]
+    const getVal = () => {
+      if (section === 'fill')  return fillAnswers[qid]  || ''
+      if (section === 'inf')   return infAnswers[qid]   || ''
+      if (section === 'imp')   return impAnswers[qid]   || ''
+      if (section === 'cv')    return cvAnswers[qid]    || ''
+      if (section === 'cf')    return cfAnswers[qid]    || ''
+      if (section === 'pc')    return (pcAnswers[qid] || [])[idx] || ''
+      return ''
+    }
+    const cur = getVal()
+    const next = k === '⌫' ? cur.slice(0, -1) : cur + k
+    if (section === 'pc') handlePc(qid, idx, next)
+    else setter(qid, next)
   }
 
   // ── per-section count / score (uses filtered `ex`) ──
@@ -327,6 +351,7 @@ export default function ExercisesTab({ exercises, activePart }) {
           const userVal   = fillAnswers[q.id] || ''
           const isCorrect = isSubmitted && checkAnswer(userVal, q.answer)
           const isWrong   = isSubmitted && !isCorrect && userVal.trim()
+          const kbActive  = kbTarget?.qid === q.id
           return (
             <div key={q.id} className={cardClass(isCorrect, isWrong)}>
               <div className="question-num">Q{q.id}</div>
@@ -337,11 +362,14 @@ export default function ExercisesTab({ exercises, activePart }) {
                     className={`fill-input greek${isCorrect ? ' fill-input--correct' : isWrong ? ' fill-input--wrong' : ''}`}
                     value={userVal}
                     onChange={e => handleFill(q.id, e.target.value)}
+                    onFocus={() => !isSubmitted && setKbTarget({ section: 'fill', qid: q.id })}
                     disabled={isSubmitted}
                     placeholder="___"
                     autoComplete="off" autoCorrect="off" spellCheck="false"
+                    readOnly
                   />
                 </div>
+                {kbActive && !isSubmitted && <GreekKeyboard onKey={handleKbKey} />}
                 {isSubmitted && (
                   <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
                     {isCorrect ? `✓ ${q.explanation}` : <span>✗ <strong className="greek">{q.answer}</strong> — {q.explanation}</span>}
@@ -358,6 +386,7 @@ export default function ExercisesTab({ exercises, activePart }) {
           const isCorrect = isSubmitted && q.answers.every((a, i) => checkAnswer(ans[i], a))
           const isWrong   = isSubmitted && !isCorrect && ans.some(a => a?.trim())
           const parts     = q.cue.split('_______')
+          const kbActive  = kbTarget?.qid === q.id
           return (
             <div key={q.id} className={cardClass(isCorrect, isWrong)}>
               <div className="question-num">Q{q.id}</div>
@@ -374,16 +403,19 @@ export default function ExercisesTab({ exercises, activePart }) {
                             className={`fill-input fill-input--inline greek${isSubmitted && checkAnswer(ans[i], q.answers[i]) ? ' fill-input--correct' : isSubmitted ? ' fill-input--wrong' : ''}`}
                             value={ans[i] || ''}
                             onChange={e => handlePc(q.id, i, e.target.value)}
+                            onFocus={() => !isSubmitted && setKbTarget({ section: 'pc', qid: q.id, idx: i })}
                             disabled={isSubmitted}
                             placeholder="___"
                             autoComplete="off" autoCorrect="off" spellCheck="false"
                             size={Math.max(6, (q.answers[i]?.length || 0) + 3)}
+                            readOnly
                           />
                         )}
                       </span>
                     ))}
                   </span>
                 </div>
+                {kbActive && !isSubmitted && <GreekKeyboard onKey={handleKbKey} />}
                 {isSubmitted && (
                   <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
                     {isCorrect ? `✓ ${q.explanation}` : <span>✗ <strong className="greek">{q.answers.join(', ')}</strong> — {q.explanation}</span>}
@@ -464,6 +496,7 @@ export default function ExercisesTab({ exercises, activePart }) {
           const userVal   = infAnswers[q.id] || ''
           const isCorrect = isSubmitted && checkAnswer(userVal, q.answer)
           const isWrong   = isSubmitted && !isCorrect && userVal.trim()
+          const kbActive  = kbTarget?.qid === q.id
           return (
             <div key={q.id} className={cardClass(isCorrect, isWrong)}>
               <div className="question-num greek">{q.label}</div>
@@ -474,11 +507,14 @@ export default function ExercisesTab({ exercises, activePart }) {
                     className={`fill-input greek${isCorrect ? ' fill-input--correct' : isWrong ? ' fill-input--wrong' : ''}`}
                     value={userVal}
                     onChange={e => handleInf(q.id, e.target.value)}
+                    onFocus={() => !isSubmitted && setKbTarget({ section: 'inf', qid: q.id })}
                     disabled={isSubmitted}
                     placeholder="___"
                     autoComplete="off" autoCorrect="off" spellCheck="false"
+                    readOnly
                   />
                 </div>
+                {kbActive && !isSubmitted && <GreekKeyboard onKey={handleKbKey} />}
                 {isSubmitted && (
                   <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
                     {isCorrect ? `✓ ${q.explanation}` : <span>✗ <strong className="greek">{q.answer}</strong> — {q.explanation}</span>}
@@ -505,6 +541,7 @@ export default function ExercisesTab({ exercises, activePart }) {
           const userVal   = impAnswers[q.id] || ''
           const isCorrect = isSubmitted && checkAnswer(userVal, q.answer)
           const isWrong   = isSubmitted && !isCorrect && userVal.trim()
+          const kbActive  = kbTarget?.qid === q.id
           return (
             <div key={q.id} className={cardClass(isCorrect, isWrong)}>
               <div className="question-num greek">{q.label}</div>
@@ -516,12 +553,15 @@ export default function ExercisesTab({ exercises, activePart }) {
                     className={`fill-input greek${isCorrect ? ' fill-input--correct' : isWrong ? ' fill-input--wrong' : ''}`}
                     value={userVal}
                     onChange={e => handleImp(q.id, e.target.value)}
+                    onFocus={() => !isSubmitted && setKbTarget({ section: 'imp', qid: q.id })}
                     disabled={isSubmitted}
                     placeholder="___"
                     autoComplete="off" autoCorrect="off" spellCheck="false"
                     style={{ flex: 1 }}
+                    readOnly
                   />
                 </div>
+                {kbActive && !isSubmitted && <GreekKeyboard onKey={handleKbKey} />}
                 {isSubmitted && (
                   <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
                     {isCorrect ? `✓ ${q.explanation}` : <span>✗ <strong className="greek">{q.answer}</strong> — {q.explanation}</span>}
@@ -537,6 +577,7 @@ export default function ExercisesTab({ exercises, activePart }) {
           const userVal   = cvAnswers[q.id] || ''
           const isCorrect = isSubmitted && checkAnswer(userVal, q.answer)
           const isWrong   = isSubmitted && !isCorrect && userVal.trim()
+          const kbActive  = kbTarget?.qid === q.id
           return (
             <div key={q.id} className={cardClass(isCorrect, isWrong)}>
               <div className="question-num greek">{q.label || `Q${q.id}`}</div>
@@ -547,11 +588,14 @@ export default function ExercisesTab({ exercises, activePart }) {
                     className={`fill-input greek${isCorrect ? ' fill-input--correct' : isWrong ? ' fill-input--wrong' : ''}`}
                     value={userVal}
                     onChange={e => handleCv(q.id, e.target.value)}
+                    onFocus={() => !isSubmitted && setKbTarget({ section: 'cv', qid: q.id })}
                     disabled={isSubmitted}
                     placeholder="___"
                     autoComplete="off" autoCorrect="off" spellCheck="false"
+                    readOnly
                   />
                 </div>
+                {kbActive && !isSubmitted && <GreekKeyboard onKey={handleKbKey} />}
                 {isSubmitted && (
                   <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
                     {isCorrect ? `✓ ${q.explanation}` : <span>✗ <strong className="greek">{q.answer}</strong> — {q.explanation}</span>}
@@ -567,6 +611,7 @@ export default function ExercisesTab({ exercises, activePart }) {
           const userVal   = cfAnswers[q.id] || ''
           const isCorrect = isSubmitted && checkAnswer(userVal, q.answer)
           const isWrong   = isSubmitted && !isCorrect && userVal.trim()
+          const kbActive  = kbTarget?.qid === q.id
           return (
             <div key={q.id} className={cardClass(isCorrect, isWrong)}>
               <div className="question-num">{q.id}</div>
@@ -577,11 +622,14 @@ export default function ExercisesTab({ exercises, activePart }) {
                     className={`fill-input greek${isCorrect ? ' fill-input--correct' : isWrong ? ' fill-input--wrong' : ''}`}
                     value={userVal}
                     onChange={e => handleCf(q.id, e.target.value)}
+                    onFocus={() => !isSubmitted && setKbTarget({ section: 'cf', qid: q.id })}
                     disabled={isSubmitted}
                     placeholder="___"
                     autoComplete="off" autoCorrect="off" spellCheck="false"
+                    readOnly
                   />
                 </div>
+                {kbActive && !isSubmitted && <GreekKeyboard onKey={handleKbKey} />}
                 {isSubmitted && (
                   <div className={`explanation ${isCorrect ? 'explanation--correct' : 'explanation--wrong'}`}>
                     {isCorrect ? `✓ ${q.explanation}` : <span>✗ <strong className="greek">{q.answer}</strong> — {q.explanation}</span>}
