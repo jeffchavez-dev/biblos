@@ -25,10 +25,11 @@ function extractArticle(w) {
   return null
 }
 
-// Label shown on word-bank chips: nouns get "ὁ λόγος", verbs get lemma
+// Label shown on word-bank chips: nouns get "ὁ λόγος", verbs get 3rd singular
 function chipLabel(w) {
   const art = extractArticle(w)
-  return art ? `${art} ${lemma(w.greek)}` : lemma(w.greek)
+  if (art) return `${art} ${lemma(w.greek)}`
+  return w.thirdSingular ?? lemma(w.greek)
 }
 
 // Prefer same part-of-speech distractors, fall back to any
