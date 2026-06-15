@@ -469,14 +469,17 @@ function ChallengeWordBank({ filtered, lang, ui, onComplete }) {
             {/* Article chips */}
             <div className="word-bank word-bank--articles">
               {ARTICLES.map(art => {
+                const isCorrectArt = art === correctArticle
+                const isPickedArt  = artPick === art
                 let cls = 'word-bank-chip word-bank-chip--article'
-                if (artPick === art) cls += nounDone ? (art === correctArticle ? ' word-bank-chip--correct' : ' word-bank-chip--wrong') : ' word-bank-chip--selected'
+                if (isPickedArt) cls += nounDone ? (isCorrectArt ? ' word-bank-chip--correct' : ' word-bank-chip--wrong') : ' word-bank-chip--selected'
                 return (
                   <button key={art} className={cls}
                     onClick={() => !nounDone && setArtPick(art)}
                     disabled={nounDone}
                   >
                     <span className="greek">{art}</span>
+                    {nounDone && isPickedArt && <span className="wb-chip-icon">{isCorrectArt ? '✓' : '✗'}</span>}
                   </button>
                 )
               })}
@@ -484,15 +487,20 @@ function ChallengeWordBank({ filtered, lang, ui, onComplete }) {
             {/* Noun chips */}
             <div className="word-bank">
               {nounBank.map(opt => {
+                const isCorrectNoun = opt.id === word.id
+                const isPickedNoun  = nounPick === opt.id
                 let cls = 'word-bank-chip'
-                if (nounPick === opt.id) cls += nounDone ? (opt.id === word.id ? ' word-bank-chip--correct' : ' word-bank-chip--wrong') : ' word-bank-chip--selected'
-                else if (nounDone && opt.id === word.id) cls += ' word-bank-chip--correct'
+                if (isPickedNoun) cls += nounDone ? (isCorrectNoun ? ' word-bank-chip--correct' : ' word-bank-chip--wrong') : ' word-bank-chip--selected'
+                else if (nounDone && isCorrectNoun) cls += ' word-bank-chip--correct'
                 return (
                   <button key={opt.id} className={cls}
                     onClick={() => !nounDone && setNounPick(opt.id)}
                     disabled={nounDone}
                   >
                     <span className="greek">{lemma(opt.greek)}</span>
+                    {nounDone && (isPickedNoun || isCorrectNoun) && (
+                      <span className="wb-chip-icon">{isCorrectNoun ? '✓' : '✗'}</span>
+                    )}
                   </button>
                 )
               })}
@@ -506,14 +514,19 @@ function ChallengeWordBank({ filtered, lang, ui, onComplete }) {
             <p className="practice-question">Pick the word from the bank:</p>
             <div className="word-bank">
               {wordBank.map(opt => {
+                const isCorrect = opt.id === word.id
+                const isPicked  = opt.id === selected
                 let cls = 'word-bank-chip'
                 if (selected !== null) {
-                  if (opt.id === word.id)       cls += ' word-bank-chip--correct'
-                  else if (opt.id === selected)  cls += ' word-bank-chip--wrong'
+                  if (isCorrect) cls += ' word-bank-chip--correct'
+                  else if (isPicked) cls += ' word-bank-chip--wrong'
                 }
                 return (
                   <button key={opt.id} className={cls} onClick={() => handleSelect(opt)} disabled={selected !== null}>
                     <span className="greek">{chipLabel(opt)}</span>
+                    {selected !== null && (isCorrect || isPicked) && (
+                      <span className="wb-chip-icon">{isCorrect ? '✓' : '✗'}</span>
+                    )}
                   </button>
                 )
               })}
