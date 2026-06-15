@@ -366,7 +366,6 @@ export default function ExercisesTab({ exercises, activePart }) {
                     disabled={isSubmitted}
                     placeholder="___"
                     autoComplete="off" autoCorrect="off" spellCheck="false"
-                    readOnly
                   />
                 </div>
                 {kbActive && !isSubmitted && <GreekKeyboard onKey={handleKbKey} />}
@@ -408,7 +407,6 @@ export default function ExercisesTab({ exercises, activePart }) {
                             placeholder="___"
                             autoComplete="off" autoCorrect="off" spellCheck="false"
                             size={Math.max(6, (q.answers[i]?.length || 0) + 3)}
-                            readOnly
                           />
                         )}
                       </span>
@@ -511,7 +509,6 @@ export default function ExercisesTab({ exercises, activePart }) {
                     disabled={isSubmitted}
                     placeholder="___"
                     autoComplete="off" autoCorrect="off" spellCheck="false"
-                    readOnly
                   />
                 </div>
                 {kbActive && !isSubmitted && <GreekKeyboard onKey={handleKbKey} />}
@@ -558,7 +555,6 @@ export default function ExercisesTab({ exercises, activePart }) {
                     placeholder="___"
                     autoComplete="off" autoCorrect="off" spellCheck="false"
                     style={{ flex: 1 }}
-                    readOnly
                   />
                 </div>
                 {kbActive && !isSubmitted && <GreekKeyboard onKey={handleKbKey} />}
@@ -592,7 +588,6 @@ export default function ExercisesTab({ exercises, activePart }) {
                     disabled={isSubmitted}
                     placeholder="___"
                     autoComplete="off" autoCorrect="off" spellCheck="false"
-                    readOnly
                   />
                 </div>
                 {kbActive && !isSubmitted && <GreekKeyboard onKey={handleKbKey} />}
@@ -626,7 +621,6 @@ export default function ExercisesTab({ exercises, activePart }) {
                     disabled={isSubmitted}
                     placeholder="___"
                     autoComplete="off" autoCorrect="off" spellCheck="false"
-                    readOnly
                   />
                 </div>
                 {kbActive && !isSubmitted && <GreekKeyboard onKey={handleKbKey} />}
