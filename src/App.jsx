@@ -72,8 +72,19 @@ function AppInner() {
   const { lang, setLang } = useLanguage()
   const ui = useUI()
 
+  const desktopFullyHidden = navHidden && desktopSidebarHidden
+
   return (
     <div className={`app-shell ${navHidden ? 'app-shell--nav-hidden' : ''}`}>
+      {desktopFullyHidden && (
+        <button
+          className="nav-restore-btn"
+          onClick={() => { setDesktopSidebarHidden(false); setNavHidden(false) }}
+          aria-label="Show navigation"
+        >
+          <span /><span /><span />
+        </button>
+      )}
       <header className={`app-header ${navHidden ? 'app-header--hidden' : ''}`}>
         <button className="menu-btn" onClick={() => {
           if (window.innerWidth <= 768) setSidebarOpen(v => !v)
