@@ -34,6 +34,7 @@ function AppInner() {
     })
   }
   const [showVocabIndex, setShowVocabIndex] = useState(false)
+  const [lexiconTarget, setLexiconTarget] = useState(null)
   const [totalWords, setTotalWords] = useState(0)
 
   useEffect(() => {
@@ -45,11 +46,18 @@ function AppInner() {
   const currentChapter = currentUnit?.chapters.find(c => c.id === selectedChapter)
   const isLocked = currentUnit?.locked || currentChapter?.locked
 
+  function handleOpenLexicon(unitId, chapterId, part) {
+    setLexiconTarget({ unitId, chapterId, part })
+    setShowVocabIndex(true)
+    setSidebarOpen(false)
+  }
+
   function handleSelect(unitId, chapterId) {
     setSelectedUnit(unitId)
     setSelectedChapter(chapterId)
     setActivePart('A')
     setShowVocabIndex(false)
+    setLexiconTarget(null)
     setSidebarOpen(false)
   }
 
@@ -64,6 +72,7 @@ function AppInner() {
     setSelectedChapter(chapterId)
     setActivePart(part)
     setShowVocabIndex(false)
+    setLexiconTarget(null)
     setSidebarOpen(false)
   }
 
@@ -139,7 +148,7 @@ function AppInner() {
           desktopHidden={desktopSidebarHidden}
           onClose={() => setSidebarOpen(false)}
           totalWords={totalWords}
-          onVocabIndex={() => { setShowVocabIndex(true); setSidebarOpen(false) }}
+          onVocabIndex={() => { setShowVocabIndex(true); setLexiconTarget(null); setSidebarOpen(false) }}
           showingVocabIndex={showVocabIndex}
         />
 
@@ -149,7 +158,7 @@ function AppInner() {
 
         <main className="main-content">
           {showVocabIndex ? (
-            <VocabularyIndex onNavigate={handleVocabIndexNavigate} />
+            <VocabularyIndex onNavigate={handleVocabIndexNavigate} target={lexiconTarget} />
           ) : isLocked ? (
             <LockedView />
           ) : (
@@ -159,6 +168,7 @@ function AppInner() {
               activePart={activePart}
               navHidden={navHidden}
               onToggleNav={() => setNavHidden(v => !v)}
+              onOpenLexicon={handleOpenLexicon}
             />
           )}
         </main>

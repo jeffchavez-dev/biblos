@@ -926,7 +926,7 @@ function ChallengeMode({ filtered, lang, ui, onComplete }) {
 }
 
 // ── Main export ───────────────────────────────────────────────────────────────
-export default function VocabularyTab({ words, unitId, chapterId, activePart }) {
+export default function VocabularyTab({ words, unitId, chapterId, activePart, onOpenLexicon }) {
   const { lang } = useLanguage()
   const ui = useUI()
   const [mode, setMode] = useState('learn')
@@ -973,7 +973,17 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
       ) : (
         <>
           {mode === 'learn' && (
-            <LearnMode filtered={filtered} unitId={unitId} chapterId={chapterId} activePart={activePart} lang={lang} ui={ui} onComplete={advanceMode} />
+            <>
+              <LearnMode filtered={filtered} unitId={unitId} chapterId={chapterId} activePart={activePart} lang={lang} ui={ui} onComplete={advanceMode} />
+              {onOpenLexicon && (
+                <button
+                  className="lexicon-link-btn"
+                  onClick={() => onOpenLexicon(unitId, chapterId, activePart)}
+                >
+                  📖 View word list for this lesson
+                </button>
+              )}
+            </>
           )}
           {mode === 'test' && (
             <RecognizeMode key={`test-${unitId}-${chapterId}-${activePart}`} filtered={filtered} lang={lang} ui={ui} onComplete={advanceMode} />

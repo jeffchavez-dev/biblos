@@ -92,7 +92,7 @@ function matches(word, query) {
   return false
 }
 
-export default function VocabularyIndex({ onNavigate }) {
+export default function VocabularyIndex({ onNavigate, target }) {
   const ui = useUI()
   const { lang } = useLanguage()
   const [words, setWords] = useState([])
@@ -100,9 +100,11 @@ export default function VocabularyIndex({ onNavigate }) {
   const [query, setQuery] = useState('')
   const [activeCats, setActiveCats] = useState(new Set()) // empty = all
   const [activeVerbGroup, setActiveVerbGroup] = useState(null)
+  const [targetFilter, setTargetFilter] = useState(target || null)
   const [loading, setLoading] = useState(true)
   const [fsWord, setFsWord] = useState(null)
   const searchRef = useRef(null)
+  const tableRef = useRef(null)
 
   useEffect(() => {
     Promise.all(SOURCES.map(s => s.file().then(m => ({ data: m.default, unit: s.unit, chapter: s.chapter }))))
@@ -158,12 +160,13 @@ export default function VocabularyIndex({ onNavigate }) {
   )
 
   const filtered = sorted.filter(w => {
+    if (targetFilter) return w.chapter === targetFilter.chapterId && w.part === targetFilter.part && matches(w, query)
     if (activeVerbGroup) return w.verbGroup === activeVerbGroup && matches(w, query)
     return (activeCats.size === 0 || activeCats.has(w.category)) && matches(w, query)
   })
 
   const total = words.length
-  const isFiltered = query.trim().length > 0 || activeCats.size > 0 || !!activeVerbGroup
+  const isFiltered = query.trim().length > 0 || activeCats.size > 0 || !!activeVerbGroup || !!targetFilter
   const activeGroup = VERB_GROUPS.find(g => g.id === activeVerbGroup)
 
   return (
@@ -268,7 +271,20 @@ export default function VocabularyIndex({ onNavigate }) {
         </div>
       ) : (
         <>
-          {isFiltered && (
+          {/* Lesson target banner */}
+          {targetFilter && (
+            <div className="lexicon-target-banner">
+              <span>
+                Showing vocabulary for lesson <strong>{targetFilter.chapterId}.{targetFilter.part === 'A' ? '1' : '2'}</strong>
+                {' '}· {filtered.length} {filtered.length === 1 ? 'word' : 'words'}
+              </span>
+              <button className="lexicon-target-clear" onClick={() => setTargetFilter(null)}>
+                View all →
+              </button>
+            </div>
+          )}
+
+          {isFiltered && !targetFilter && (
             <p className="vocab-index-result-count">{filtered.length} of {total} {ui('words')}</p>
           )}
 

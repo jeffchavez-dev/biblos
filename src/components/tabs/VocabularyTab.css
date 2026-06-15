@@ -744,3 +744,23 @@
 @media (max-width: 480px) {
   .pick-image-grid { gap: 7px; }
 }
+
+/* Lexicon link in Encounter mode */
+.lexicon-link-btn {
+  display: block;
+  width: fit-content;
+  margin: 4px auto 0;
+  background: none;
+  border: none;
+  color: var(--deep-blue);
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0.6;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: opacity 0.15s, background 0.15s;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.lexicon-link-btn:hover { opacity: 1; background: rgba(26,54,93,0.06); }

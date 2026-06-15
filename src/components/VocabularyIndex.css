@@ -285,6 +285,34 @@
   text-align: center;
 }
 
+/* Lesson target banner */
+.lexicon-target-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: var(--deep-blue);
+  color: #fff;
+  border-radius: var(--radius, 8px);
+  padding: 10px 16px;
+  margin-bottom: 16px;
+  font-size: 0.85rem;
+}
+.lexicon-target-banner strong { color: var(--gold-light, #f0c060); }
+.lexicon-target-clear {
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.3);
+  color: #fff;
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.lexicon-target-clear:hover { background: rgba(255,255,255,0.25); }
+
 /* ── Contract verb sub-group section ── */
 .verb-group-section {
   display: flex;

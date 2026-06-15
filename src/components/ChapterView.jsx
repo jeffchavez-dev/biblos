@@ -32,7 +32,7 @@ async function loadData(unitId, chapterId, type) {
   }
 }
 
-export default function ChapterView({ unitId, chapterId, activePart, navHidden, onToggleNav }) {
+export default function ChapterView({ unitId, chapterId, activePart, navHidden, onToggleNav, onOpenLexicon }) {
   const ui = useUI()
   const [activeTab, setActiveTab] = useState('story')
   const [data, setData] = useState({})
@@ -93,7 +93,7 @@ export default function ChapterView({ unitId, chapterId, activePart, navHidden, 
               <StoryTab key={key} story={data.story} vocabulary={data.vocabulary} activePart={activePart} />
             </div>
             <div hidden={activeTab !== 'vocabulary'}>
-              <VocabularyTab key={key} words={data.vocabulary} activePart={activePart} />
+              <VocabularyTab key={key} words={data.vocabulary} activePart={activePart} unitId={unitId} chapterId={chapterId} onOpenLexicon={onOpenLexicon} />
             </div>
             <div hidden={activeTab !== 'grammar'}>
               <GrammarTab key={key} grammar={data.grammar} words={data.vocabulary} activePart={activePart} />
