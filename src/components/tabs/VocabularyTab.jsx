@@ -186,8 +186,7 @@ function LearnMode({ filtered, unitId, chapterId, activePart, lang, ui, onComple
         <FullscreenViewer images={imageSrcs} captions={imageCaptions} index={Math.max(0, fsIndex)} onClose={() => setFullscreen(false)} onPrev={fsPrev} onNext={fsNext} />
       )}
       <div className="vocab-header">
-        <h2>{ui('vocabFlashcards')}</h2>
-        <div className="vocab-stats">
+                <div className="vocab-stats">
           <span>{index + 1} / {filtered.length}</span>
           <span className="seen-badge">{seenCount} {ui('reviews')}</span>
         </div>
@@ -342,8 +341,7 @@ function RecognizePickWord({ filtered, lang, ui, onComplete }) {
         </div>
       )}
       <div className="vocab-header">
-        <h2>Recognize</h2>
-        <div className="vocab-stats">
+                <div className="vocab-stats">
           <span>{index + 1} / {words.length}</span>
           {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
         </div>
@@ -442,8 +440,7 @@ function ChallengeWordBank({ filtered, lang, ui, onComplete }) {
   return (
     <>
       <div className="vocab-header">
-        <h2>Produce — Word Bank</h2>
-        <div className="vocab-stats">
+                <div className="vocab-stats">
           <span>{index + 1} / {words.length}</span>
           {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
         </div>
@@ -590,8 +587,7 @@ function ChallengeType({ filtered, lang, ui, onComplete }) {
   return (
     <>
       <div className="vocab-header">
-        <h2>Produce — Type it</h2>
-        <div className="vocab-stats">
+                <div className="vocab-stats">
           <span>{index + 1} / {words.length}</span>
           {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
         </div>
@@ -686,8 +682,7 @@ function ChallengePickWord({ filtered, lang, ui, onComplete }) {
   return (
     <>
       <div className="vocab-header">
-        <h2>Produce — Pick Word</h2>
-        <div className="vocab-stats">
+                <div className="vocab-stats">
           <span>{index + 1} / {words.length}</span>
           {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
         </div>
@@ -767,8 +762,7 @@ function ChallengePickImage({ filtered, lang, ui, onComplete }) {
   return (
     <>
       <div className="vocab-header">
-        <h2>Produce — Pick Image</h2>
-        <div className="vocab-stats">
+                <div className="vocab-stats">
           <span>{index + 1} / {words.length}</span>
           {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
         </div>
@@ -911,8 +905,7 @@ function ChallengeRecord({ filtered, lang, ui, onComplete }) {
   return (
     <>
       <div className="vocab-header">
-        <h2>Produce — Record it</h2>
-        <div className="vocab-stats">
+                <div className="vocab-stats">
           <span>{index + 1} / {words.length}</span>
           {score.total > 0 && <span className="seen-badge">{score.correct}/{score.total}</span>}
         </div>
