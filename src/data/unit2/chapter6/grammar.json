@@ -1,0 +1,221 @@
+{
+  "title": "Grammar — Κεφάλαιον Ϛʹ (The Holy Spirit)",
+  "parts": [
+    {
+      "label": "Μέρος Αʹ — Ὁ Παράκλητος",
+      "sections": [
+        {
+          "id": 1,
+          "heading": "1. Present Passive Voice — form",
+          "content": "Greek verbs have a passive voice in the present tense formed by replacing the active endings with passive endings. The key marker is the mediopassive ending: -ομαι / -εται / -ονται (instead of -ω / -ει / -ουσι). The passive expresses that the subject receives the action rather than performs it.",
+          "table": {
+            "caption": "Present passive — λύω (to loose → to be loosed)",
+            "headers": [
+              "Person",
+              "Passive Singular",
+              "Passive Plural"
+            ],
+            "rows": [
+              [
+                "1st",
+                "λύ-ομαι  (I am loosed)",
+                "λύ-ομεθα  (we are loosed)"
+              ],
+              [
+                "2nd",
+                "λύ-ῃ  (you are loosed)",
+                "λύ-εσθε  (you pl. are loosed)"
+              ],
+              [
+                "3rd",
+                "λύ-εται  (he/she is loosed)",
+                "λύ-ονται  (they are loosed)"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "τὸ πνεῦμα δίδοται ὑπὸ τοῦ θεοῦ",
+              "note": "the Spirit is given by God (3rd sg. passive; ὑπό + gen. = agent)",
+              "noteTranslations": {
+                "es": "el Espíritu es dado por Dios",
+                "pl": "Duch jest dawany przez Boga",
+                "fil": "ang Espiritu ay ibinibigay ng Diyos"
+              }
+            },
+            {
+              "greek": "πέμπεται ὑπὸ τοῦ πατρός",
+              "note": "it is sent by the Father (3rd sg. passive)",
+              "noteTranslations": {
+                "es": "es enviado por el Padre",
+                "pl": "jest posyłany przez Ojca",
+                "fil": "isinusugo ng Ama"
+              }
+            },
+            {
+              "greek": "σῴζεται ὑπὸ τοῦ θεοῦ",
+              "note": "he is saved by God",
+              "noteTranslations": {
+                "es": "es salvado por Dios",
+                "pl": "jest zbawiony przez Boga",
+                "fil": "nailigtas ng Diyos"
+              }
+            },
+            {
+              "greek": "καυματίζεται ὑπὸ τοῦ ἡλίου",
+              "note": "he is scorched by the sun",
+              "noteTranslations": {
+                "es": "es abrasado por el sol",
+                "pl": "jest palony przez słońce",
+                "fil": "naiinitan ng araw"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "heading": "2. Agent with Passive — ὑπό + genitive",
+          "content": "When a passive verb names the agent (the one performing the action), Greek uses ὑπό + genitive. This is the standard way to express 'by someone' with a passive verb. Compare: ἐν + dative expresses location, not agency.",
+          "examples": [
+            {
+              "greek": "ἀφίενται ὑπὸ τοῦ θεοῦ",
+              "note": "they are forgiven by God",
+              "noteTranslations": {
+                "es": "son perdonados por Dios",
+                "pl": "są przebaczane przez Boga",
+                "fil": "pinapatawad ng Diyos"
+              }
+            },
+            {
+              "greek": "διδάσκεται ὑπὸ τοῦ πνεύματος",
+              "note": "he is taught by the Spirit",
+              "noteTranslations": {
+                "es": "es enseñado por el Espíritu",
+                "pl": "jest nauczany przez Ducha",
+                "fil": "itinuturo ng Espiritu"
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "heading": "3. δεῖ + Infinitive — 'it is necessary'",
+          "content": "δεῖ (impersonal verb, 'it is necessary') is always followed by the accusative + infinitive: the person required to act is in the accusative, and the action is the infinitive. δεῖ itself never changes form.",
+          "examples": [
+            {
+              "greek": "δεῖ τὸν ἄνθρωπον μετανοεῖν",
+              "note": "it is necessary for the person to repent (acc. + inf.)",
+              "noteTranslations": {
+                "es": "es necesario que la persona se arrepienta",
+                "pl": "człowiek musi się nawrócić",
+                "fil": "kailangang magsisi ang tao"
+              }
+            },
+            {
+              "greek": "δεῖ αὐτὸν πιστεύειν",
+              "note": "it is necessary for him to believe",
+              "noteTranslations": {
+                "es": "es necesario que él crea",
+                "pl": "on musi wierzyć",
+                "fil": "kailangang maniwala siya"
+              }
+            },
+            {
+              "greek": "δεῖ αὐτὸν βαπτίζεσθαι",
+              "note": "it is necessary for him to be baptized (passive infinitive)",
+              "noteTranslations": {
+                "es": "es necesario que él sea bautizado",
+                "pl": "on musi zostać ochrzczony",
+                "fil": "kailangang mabautismuhan siya"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "heading": "4. ὅστις — 'whoever'",
+          "content": "ὅστις (masc. sg.) / ἥτις (fem. sg.) / ὅ τι (neut. sg.) means 'whoever, anyone who.' It combines the relative pronoun with τις (someone). It refers to a class of people, not a specific individual, and takes an indicative verb when the statement is a general truth.",
+          "examples": [
+            {
+              "greek": "ὅστις μετανοεῖ καὶ πιστεύει, οὗτος λαμβάνει τὸ πνεῦμα",
+              "note": "whoever repents and believes, this one receives the Spirit",
+              "noteTranslations": {
+                "es": "quien se arrepienta y crea, éste recibe el Espíritu",
+                "pl": "ktokolwiek pokutuje i wierzy, ten otrzymuje Ducha",
+                "fil": "sinumang nagsisisi at naniniwala, siya ay tumatanggap ng Espiritu"
+              }
+            },
+            {
+              "greek": "ὅστις βαπτίζεται, λαμβάνει τὴν δωρεάν",
+              "note": "whoever is baptized, receives the gift",
+              "noteTranslations": {
+                "es": "quien es bautizado, recibe el don",
+                "pl": "ktokolwiek jest ochrzczony, otrzymuje dar",
+                "fil": "sinumang nabautismuhan ay tumatanggap ng kaloob"
+              }
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "heading": "5. δίδωμι — present active forms",
+          "content": "δίδωμι ('I give') is a -μι verb — it follows a different conjugation pattern from regular -ω verbs. The stem is δο-/δι- and the endings are athematic (no thematic vowel before the ending). These forms appear frequently in this chapter.",
+          "table": {
+            "caption": "δίδωμι — present active indicative",
+            "headers": [
+              "Person",
+              "Singular",
+              "Plural"
+            ],
+            "rows": [
+              [
+                "1st",
+                "δίδωμι  (I give)",
+                "δίδομεν  (we give)"
+              ],
+              [
+                "2nd",
+                "δίδως  (you give)",
+                "δίδοτε  (you pl. give)"
+              ],
+              [
+                "3rd",
+                "δίδωσι(ν)  (he/she gives)",
+                "διδόασι(ν)  (they give)"
+              ]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ὁ πατὴρ δίδωσιν ἡμῖν τὸ πνεῦμα",
+              "note": "the Father gives us the Spirit (3rd sg.)",
+              "noteTranslations": {
+                "es": "el Padre nos da el Espíritu",
+                "pl": "Ojciec daje nam Ducha",
+                "fil": "ibinibigay ng Ama sa atin ang Espiritu"
+              }
+            },
+            {
+              "greek": "ἡμεῖς δίδομεν σοι ὕδωρ",
+              "note": "we give you water (1st pl.)",
+              "noteTranslations": {
+                "es": "nosotros te damos agua",
+                "pl": "dajemy ci wodę",
+                "fil": "binibigyan ka namin ng tubig"
+              }
+            },
+            {
+              "greek": "δίδοται ὑπὸ τοῦ θεοῦ",
+              "note": "it is given by God (3rd sg. passive — note the passive form)",
+              "noteTranslations": {
+                "es": "es dado por Dios",
+                "pl": "jest dawane przez Boga",
+                "fil": "ibinibigay ng Diyos"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

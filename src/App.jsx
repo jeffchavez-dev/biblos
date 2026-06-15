@@ -12,6 +12,7 @@ const VOCAB_SOURCES = [
   () => import('./data/unit1/chapter3/vocabulary.json'),
   () => import('./data/unit2/chapter4/vocabulary.json'),
   () => import('./data/unit2/chapter5/vocabulary.json'),
+  () => import('./data/unit2/chapter6/vocabulary.json'),
 ]
 
 function AppInner() {

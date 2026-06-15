@@ -1,0 +1,115 @@
+{
+  "title": "Τὸ Πνεῦμα τὸ Ἅγιον",
+  "subtitle": "Unit 2, Chapter 6 — The Holy Spirit",
+  "subtitleTranslations": {
+    "es": "Unidad 2, Capítulo 6 — El Espíritu Santo",
+    "pl": "Jednostka 2, Rozdział 6 — Duch Święty",
+    "fil": "Yunit 2, Kabanata 6 — Ang Banal na Espiritu"
+  },
+  "panels": [
+    {
+      "id": 1,
+      "part": "A",
+      "scene": "Jacob and Salome sitting beside the spring under the sun, still deep in conversation. The sun blazes overhead. Teaches: καῦμα (heat), ἥλιος (sun), πηγή (spring), λαλέω (to speak).",
+      "greekCaption": "ἔτι λαλεῖ ὁ Ἰάκωβος τῇ Σαλώμῃ. ὁ ἥλιος λάμπει σφόδρα καὶ καῦμα μέγα ἐστίν.",
+      "englishCaption": "Jacob is still speaking to Salome. The sun shines greatly and there is great heat.",
+      "image": "story-images/ch6a/1.jpeg",
+      "captionTranslations": {
+        "es": "Jacobo sigue hablando con Salomé. El sol brilla con fuerza y hay un gran calor.",
+        "pl": "Jakub wciąż rozmawia z Salome. Słońce mocno świeci i panuje wielki upał.",
+        "fil": "Nagsasalita pa si Jacob kay Salome. Maliwanag ang araw at matinding init."
+      }
+    },
+    {
+      "id": 2,
+      "part": "A",
+      "scene": "A traveller and his donkey walking along a dusty road in the heat, both appearing weary and thirsty. Teaches: ξένος (stranger), ὄνος (donkey), διψάω (to thirst), ἀκολουθέω (to follow).",
+      "greekCaption": "ξένος τις ἔρχεται πρὸς τὴν πηγήν. ὁ ὄνος αὐτοῦ ἀκολουθεῖ αὐτῷ. ἀμφότεροι διψῶσιν.",
+      "englishCaption": "A certain stranger comes toward the spring. His donkey follows him. Both thirst.",
+      "image": "story-images/ch6a/2.jpeg",
+      "captionTranslations": {
+        "es": "Cierto forastero se acerca al manantial. Su asno lo sigue. Ambos tienen sed.",
+        "pl": "Pewien nieznajomy idzie ku źródłu. Jego osioł go podąża. Obaj pragną.",
+        "fil": "May estranherong lumapit sa bukal. Sumusunod sa kanya ang kanyang asno. Pareho silang nauuhaw."
+      }
+    },
+    {
+      "id": 3,
+      "part": "A",
+      "scene": "The stranger greeting Jacob and Salome warmly by the spring, hands extended. Teaches: ἀσπάζομαι (to greet), ξένος (stranger/guest).",
+      "greekCaption": "ἀσπάζεται ὁ ξένος τὸν Ἰάκωβον καὶ τὴν Σαλώμην, καὶ αὐτοὶ ἀσπάζονται αὐτόν.",
+      "englishCaption": "The stranger greets Jacob and Salome, and they greet him.",
+      "image": "story-images/ch6a/3.jpeg",
+      "captionTranslations": {
+        "es": "El forastero saluda a Jacobo y a Salomé, y ellos lo saludan.",
+        "pl": "Nieznajomy wita Jakuba i Salome, a oni go witają.",
+        "fil": "Binabati ng estranghero si Jacob at si Salome, at sila ay bumabati sa kanya."
+      }
+    },
+    {
+      "id": 4,
+      "part": "A",
+      "scene": "Salome rising and drawing water from the spring, giving it to the stranger and his donkey. Teaches: ἀνίσταμαι (to rise), ἀντλέω (to draw water), δίδωμι (to give).",
+      "greekCaption": "ἡ Σαλώμη ἀνίσταται καὶ ἀντλεῖ ὕδωρ. δίδωσιν τῷ ξένῳ καὶ τῷ ὄνῳ αὐτοῦ.",
+      "englishCaption": "Salome rises and draws water. She gives it to the stranger and his donkey.",
+      "image": "story-images/ch6a/4.jpeg",
+      "captionTranslations": {
+        "es": "Salomé se levanta y saca agua. La da al forastero y a su asno.",
+        "pl": "Salome wstaje i czerpie wodę. Daje ją nieznajomemu i jego osłowi.",
+        "fil": "Tumindig si Salome at umigib ng tubig. Ibinibigay niya ito sa estranghero at sa kanyang asno."
+      }
+    },
+    {
+      "id": 5,
+      "part": "A",
+      "scene": "The three resting together under a large tree; the stranger asks what they were discussing. Teaches: ἀναπαύομαι (to rest), ἐρωτάω (to ask), συνίημι (to understand).",
+      "greekCaption": "εἶτα καθίζουσιν ὑπὸ τῷ δένδρῳ. ὁ ξένος ἐρωτᾷ· τί λαλεῖτε, ὦ φίλοι;",
+      "englishCaption": "Then they sit under the tree. The stranger asks: What are you speaking about, O friends?",
+      "image": "story-images/ch6a/5.jpeg",
+      "captionTranslations": {
+        "es": "Luego se sientan bajo el árbol. El forastero pregunta: ¿De qué habláis, amigos?",
+        "pl": "Potem siedzą pod drzewem. Nieznajomy pyta: O czym mówicie, przyjaciele?",
+        "fil": "Pagkatapos ay umupo sila sa ilalim ng puno. Tinanong ng estranghero: Ano ang inyong pinag-uusapan, mga kaibigan?"
+      }
+    },
+    {
+      "id": 6,
+      "part": "A",
+      "scene": "Jacob speaking with hands raised, explaining about the Holy Spirit being given by God. Teaches: πνεῦμα (spirit), πέμπω (to send), δίδοται (is given — passive), μαρτυρέω (to bear witness).",
+      "greekCaption": "ὁ Ἰάκωβος λέγει· τὸ πνεῦμα τὸ ἅγιον δίδοται καὶ πέμπεται ὑπὸ τοῦ θεοῦ.",
+      "englishCaption": "Jacob says: The Holy Spirit is given and sent by God.",
+      "image": "story-images/ch6a/6.jpeg",
+      "captionTranslations": {
+        "es": "Jacobo dice: El Espíritu Santo es dado y enviado por Dios.",
+        "pl": "Jakub mówi: Duch Święty jest dawany i posyłany przez Boga.",
+        "fil": "Sinabi ni Jacob: Ang Banal na Espiritu ay ibinibigay at ipinapadala ng Diyos."
+      }
+    },
+    {
+      "id": 7,
+      "part": "A",
+      "scene": "Jacob explaining the role of the Paraclete — a light or dove imagery with figures listening intently. Teaches: παράκλητος (Advocate/Helper), ὁδηγέω (to guide), διδάσκω (to teach), εἰρήνη (peace).",
+      "greekCaption": "τὸ πνεῦμα τὸ ἅγιόν ἐστιν ὁ παράκλητος. διδάσκει ἡμᾶς καὶ ὁδηγεῖ ἐν τῇ ἀληθείᾳ.",
+      "englishCaption": "The Holy Spirit is the Paraclete. He teaches us and guides us in the truth.",
+      "image": "story-images/ch6a/7.jpeg",
+      "captionTranslations": {
+        "es": "El Espíritu Santo es el Paráclito. Nos enseña y nos guía en la verdad.",
+        "pl": "Duch Święty jest Pocieszycielem. Uczy nas i prowadzi w prawdzie.",
+        "fil": "Ang Banal na Espiritu ay ang Parakleto. Itinuturo niya sa atin at ginagabayan tayo sa katotohanan."
+      }
+    },
+    {
+      "id": 8,
+      "part": "A",
+      "scene": "The stranger and Salome sitting in peaceful silence, words settling into their hearts. Teaches: εἰρήνη (peace), κοινωνία (fellowship), μένω (to remain), καρδία (heart).",
+      "greekCaption": "ὁ ξένος καὶ ἡ Σαλώμη σιγῶσιν. τὰ ῥήματα τοῦ Ἰακώβου μένει ἐν ταῖς καρδίαις αὐτῶν.",
+      "englishCaption": "The stranger and Salome are silent. The words of Jacob remain in their hearts.",
+      "image": "story-images/ch6a/8.jpeg",
+      "captionTranslations": {
+        "es": "El forastero y Salomé guardan silencio. Las palabras de Jacobo permanecen en sus corazones.",
+        "pl": "Nieznajomy i Salome milczą. Słowa Jakuba pozostają w ich sercach.",
+        "fil": "Tahimik ang estranghero at si Salome. Ang mga salita ni Jacob ay nananatili sa kanilang mga puso."
+      }
+    }
+  ]
+}

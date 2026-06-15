@@ -1,0 +1,153 @@
+{
+  "trueFalse": [
+    {
+      "id": 1,
+      "statement": "James and Salome are at a spring when the stranger arrives.",
+      "answer": true,
+      "explanation": "Correct! The text says: πολὺν γὰρ χρόνον ἤδη λαλοῦσιν παρὰ τὴν πηγήν — they have already been talking for a long time beside the spring."
+    },
+    {
+      "id": 2,
+      "statement": "The stranger's donkey is not thirsty, only the stranger is.",
+      "answer": false,
+      "explanation": "Both are thirsty and scorched: ἀμφότεροι οὖν καυματίζονται ὑπὸ τοῦ ἡλίου — both of them are burned by the sun. The donkey also needs water."
+    },
+    {
+      "id": 3,
+      "statement": "According to James, the Holy Spirit is given and sent by God.",
+      "answer": true,
+      "explanation": "Correct! James says: τὸ πνεῦμα τὸ ἅγιον δίδοται καὶ πέμπεται ὑπὸ τοῦ θεοῦ — the Holy Spirit is given and sent by God."
+    },
+    {
+      "id": 4,
+      "statement": "The world can receive the Spirit of truth because it knows God.",
+      "answer": false,
+      "explanation": "The opposite: ὁ κόσμος οὐ δύναται λαμβάνειν αὐτό, ὅτι οὐ βλέπει αὐτὸ οὐδὲ γινώσκει αὐτό — the world cannot receive it, because it neither sees it nor knows it."
+    },
+    {
+      "id": 5,
+      "statement": "δεῖ + infinitive means 'it is necessary.'",
+      "answer": true,
+      "explanation": "Correct! δεῖ is an impersonal verb meaning 'it is necessary.' It always takes an accusative + infinitive construction: δεῖ τὸν ἄνθρωπον μετανοεῖν — it is necessary for the person to repent."
+    },
+    {
+      "id": 6,
+      "statement": "According to James, the Paraclete speaks on his own authority.",
+      "answer": false,
+      "explanation": "James says the opposite: οὐ λαλεῖ ἀφ᾽ ἑαυτοῦ, ἀλλὰ ἃ ἀκούει παρὰ τοῦ Ἰησοῦ, ταῦτα λαλεῖ — he does not speak from himself, but what he hears from Jesus, these things he speaks."
+    },
+    {
+      "id": 7,
+      "statement": "The peace the Spirit gives is the same kind of peace the world has.",
+      "answer": false,
+      "explanation": "James explicitly contrasts them: εἰρήνην ἥν ὁ κόσμος οὐκ ἔχει — peace which the world does not have. The peace of Jesus is a gift the world cannot offer."
+    },
+    {
+      "id": 8,
+      "statement": "ὅστις refers to a specific known individual.",
+      "answer": false,
+      "explanation": "ὅστις means 'whoever, anyone who' — it refers to a class of people, not one specific person. Compare ὅς (who = specific relative), vs ὅστις (whoever = any person of this type)."
+    }
+  ],
+  "multipleChoice": [
+    {
+      "id": 1,
+      "question": "What does δίδοται mean in: τὸ πνεῦμα δίδοται ὑπὸ τοῦ θεοῦ?",
+      "options": [
+        "it gives",
+        "is given",
+        "will be given",
+        "we give"
+      ],
+      "answer": 1,
+      "explanation": "δίδοται is the 3rd singular present passive of δίδωμι: 'it is given.' The passive ending -εται replaces the active -ει. The agent (by God) is expressed with ὑπό + genitive."
+    },
+    {
+      "id": 2,
+      "question": "Which construction correctly follows δεῖ?",
+      "options": [
+        "δεῖ ὅτι ὁ ἄνθρωπος μετανοεῖ",
+        "δεῖ τὸν ἄνθρωπον μετανοεῖν",
+        "δεῖ τῷ ἀνθρώπῳ μετανοεῖν",
+        "δεῖ ἵνα ὁ ἄνθρωπος μετανοῇ"
+      ],
+      "answer": 1,
+      "explanation": "δεῖ takes accusative + infinitive: the person required to act is in the accusative (τὸν ἄνθρωπον), and the action is the infinitive (μετανοεῖν). The ὅτι and ἵνα options would require a different verb."
+    },
+    {
+      "id": 3,
+      "question": "What does ὅστις μετανοεῖ... οὗτος λαμβάνει mean?",
+      "options": [
+        "This person repented and received",
+        "Whoever repents, this one receives",
+        "The one who must repent receives",
+        "When someone repents, he receives more"
+      ],
+      "answer": 1,
+      "explanation": "ὅστις ('whoever') sets up a general condition about any person who belongs to that category. οὗτος ('this one') then picks up that class. Together: 'whoever repents, this one receives.' It is a timeless, general truth."
+    },
+    {
+      "id": 4,
+      "question": "In ἀγαπᾶται γὰρ ὑπὸ τοῦ θεοῦ, what is the function of ὑπό + genitive?",
+      "options": [
+        "Location — under God",
+        "Agent — by God",
+        "Time — after God",
+        "Means — through God"
+      ],
+      "answer": 1,
+      "explanation": "With passive verbs, ὑπό + genitive expresses the agent — the one performing the action. ἀγαπᾶται (is loved) + ὑπὸ τοῦ θεοῦ (by God). Compare: ὑπὸ τῷ δένδρῳ (under the tree) uses dative for location."
+    },
+    {
+      "id": 5,
+      "question": "Which is the correct 3rd plural present active of δίδωμι?",
+      "options": [
+        "δίδουσιν",
+        "δίδωσιν",
+        "διδόασιν",
+        "δίδοντες"
+      ],
+      "answer": 2,
+      "explanation": "The 3rd plural present active of δίδωμι is διδόασι(ν). Like other -μι verbs, it uses athematic endings: -ασι(ν) for 3rd plural active. Compare δίδωσι(ν) = 3rd singular active."
+    },
+    {
+      "id": 6,
+      "question": "What does the Paraclete (ὁ παράκλητος) do according to James?",
+      "options": [
+        "Judges the world and condemns sinners",
+        "Teaches, testifies, guides into truth, convicts the world",
+        "Speaks only to the apostles in Jerusalem",
+        "Replaces Jesus after the resurrection"
+      ],
+      "answer": 1,
+      "explanation": "James describes multiple roles: διδάσκει (teaches), μαρτυρεῖ (bears witness), βοηθεῖ συνιέναι (helps understand), ὁδηγεῖ ἐν τῇ ἀληθείᾳ (guides into truth), and ἐλέγχει τὸν κόσμον (convicts the world)."
+    }
+  ],
+  "fillInTheBlank": [
+    {
+      "id": 1,
+      "prompt": "τὸ πνεῦμα τὸ ἅγιον _______ καὶ _______ ὑπὸ τοῦ θεοῦ.",
+      "answers": [
+        "δίδοται",
+        "πέμπεται"
+      ],
+      "explanation": "δίδοται (is given) and πέμπεται (is sent) — both 3rd singular present passives. James says the Spirit is given and sent by God."
+    },
+    {
+      "id": 2,
+      "prompt": "δεῖ τὸν ἄνθρωπον _______ περὶ τῶν ἁμαρτιῶν αὐτοῦ.",
+      "answers": [
+        "μετανοεῖν"
+      ],
+      "explanation": "μετανοεῖν — the present infinitive of μετανοέω (to repent). δεῖ requires the infinitive."
+    },
+    {
+      "id": 3,
+      "prompt": "_______ μετανοεῖ καὶ πιστεύει, οὗτος λαμβάνει τὴν δωρεάν.",
+      "answers": [
+        "ὅστις"
+      ],
+      "explanation": "ὅστις — 'whoever.' It introduces the indefinite relative clause about any person who repents and believes."
+    }
+  ]
+}

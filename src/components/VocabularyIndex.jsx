@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { useUI, useLanguage, t } from '../context/LanguageContext.jsx'
 import FullscreenViewer from './FullscreenViewer.jsx'
 import './VocabularyIndex.css'
@@ -12,6 +12,17 @@ const SOURCES = [
   { file: () => import('../data/unit1/chapter3/vocabulary.json'), unit: 1, chapter: 3 },
   { file: () => import('../data/unit2/chapter4/vocabulary.json'), unit: 2, chapter: 4 },
   { file: () => import('../data/unit2/chapter5/vocabulary.json'), unit: 2, chapter: 5 },
+  { file: () => import('../data/unit2/chapter6/vocabulary.json'), unit: 2, chapter: 6 },
+]
+
+// Story sources — loaded lazily for context feature
+const STORY_SOURCES = [
+  { file: () => import('../data/unit1/chapter1/story.json'), unit: 1, chapter: 1 },
+  { file: () => import('../data/unit1/chapter2/story.json'), unit: 1, chapter: 2 },
+  { file: () => import('../data/unit1/chapter3/story.json'), unit: 1, chapter: 3 },
+  { file: () => import('../data/unit2/chapter4/story.json'), unit: 2, chapter: 4 },
+  { file: () => import('../data/unit2/chapter5/story.json'), unit: 2, chapter: 5 },
+  { file: () => import('../data/unit2/chapter6/story.json'), unit: 2, chapter: 6 },
 ]
 
 // Part-of-speech categories (priority order — first match wins)
@@ -92,19 +103,141 @@ function matches(word, query) {
   return false
 }
 
+// ── Context helpers ────────────────────────────────────────────────────────────
+
+function getStem(greekField) {
+  // Take first token before any comma/space/dash, strip accents, first 4 chars
+  const lemma = greekField.split(/[,\s\-–—]/)[0].trim()
+  return stripAccents(lemma).slice(0, 4)
+}
+
+function extractSentences(words) {
+  // Split paragraph words into sentences at . · ; boundaries
+  const sentences = []
+  let buf = []
+  for (const w of words) {
+    buf.push(w)
+    if (/[.·;]$/.test(w.greek.replace(/["'"»]/g, ''))) {
+      sentences.push(buf)
+      buf = []
+    }
+  }
+  if (buf.length > 0) sentences.push(buf)
+  return sentences
+}
+
+function findContexts(vocabWord, storyData) {
+  if (!storyData) return []
+  const stem = getStem(vocabWord.greek)
+  if (stem.length < 3) return []
+
+  const results = []
+
+  for (const { data, unit, chapter } of storyData) {
+    const paragraphs = data.paragraphs || []
+    for (const para of paragraphs) {
+      const words = para.words || []
+      const part = para.label?.includes('Βʹ') ? 'B' : 'A'
+      const sentences = extractSentences(words)
+      for (const sent of sentences) {
+        const hit = sent.find(w => stripAccents(w.greek).startsWith(stem))
+        if (hit) {
+          const greek = sent.map(w => w.greek).join(' ')
+          // avoid duplicate sentences
+          if (!results.find(r => r.greek === greek)) {
+            results.push({
+              greek,
+              matchStem: stem,
+              unit,
+              chapter,
+              part,
+              source: sourceLabel(chapter, part),
+            })
+          }
+          if (results.length >= 3) break
+        }
+      }
+      if (results.length >= 3) break
+    }
+    if (results.length >= 3) break
+  }
+  return results
+}
+
+// ── ContextPanel component ─────────────────────────────────────────────────────
+
+function ContextPanel({ word, stories, storiesLoading, onNavigate }) {
+  const matches = stories ? findContexts(word, stories) : []
+  const stem = getStem(word.greek)
+
+  if (storiesLoading) {
+    return <div className="ctx-panel ctx-loading">Loading story examples…</div>
+  }
+  if (!stories) return null
+  if (matches.length === 0) {
+    return <div className="ctx-panel ctx-empty">No story examples found yet for this word.</div>
+  }
+
+  return (
+    <div className="ctx-panel">
+      {matches.map((m, i) => (
+        <div key={i} className="ctx-item">
+          <div className="ctx-greek greek">
+            <CtxHighlight text={m.greek} stem={stem} />
+          </div>
+          <button
+            className="ctx-source-btn"
+            onClick={() => onNavigate(m.unit, m.chapter, m.part)}
+            title={`Go to Chapter ${m.chapter}, Part ${m.part}`}
+          >
+            → {m.source}
+          </button>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+function CtxHighlight({ text, stem }) {
+  // Highlight all words in the sentence whose stem matches
+  const tokens = text.split(/(\s+)/)
+  return (
+    <>
+      {tokens.map((tok, i) => {
+        if (/^\s+$/.test(tok)) return tok
+        const isMatch = stripAccents(tok).startsWith(stem)
+        return isMatch
+          ? <mark key={i} className="ctx-word-highlight">{tok}</mark>
+          : <span key={i}>{tok}</span>
+      })}
+    </>
+  )
+}
+
+// ── Main component ─────────────────────────────────────────────────────────────
+
 export default function VocabularyIndex({ onNavigate, target }) {
   const ui = useUI()
   const { lang } = useLanguage()
   const [words, setWords] = useState([])
   const [sort, setSort] = useState('lesson')
   const [query, setQuery] = useState('')
-  const [activeCats, setActiveCats] = useState(new Set()) // empty = all
+  const [activeCats, setActiveCats] = useState(new Set())
   const [activeVerbGroup, setActiveVerbGroup] = useState(null)
   const [targetFilter, setTargetFilter] = useState(target || null)
   const [loading, setLoading] = useState(true)
   const [fsWord, setFsWord] = useState(null)
+
+  // Context feature state
+  const [openCtx, setOpenCtx] = useState(null)
+  const [stories, setStories] = useState(null)
+  const [storiesLoading, setStoriesLoading] = useState(false)
+  const storiesRef = useRef(null)
+
+  // Display toggle state
+  const [hideGloss, setHideGloss] = useState(false)
+
   const searchRef = useRef(null)
-  const tableRef = useRef(null)
 
   useEffect(() => {
     Promise.all(SOURCES.map(s => s.file().then(m => ({ data: m.default, unit: s.unit, chapter: s.chapter }))))
@@ -129,6 +262,29 @@ export default function VocabularyIndex({ onNavigate, target }) {
     if (!loading) searchRef.current?.focus()
   }, [loading])
 
+  const loadStories = useCallback(async () => {
+    if (storiesRef.current || storiesLoading) return
+    setStoriesLoading(true)
+    try {
+      const results = await Promise.all(
+        STORY_SOURCES.map(s => s.file().then(m => ({ data: m.default, unit: s.unit, chapter: s.chapter })))
+      )
+      storiesRef.current = results
+      setStories(results)
+    } finally {
+      setStoriesLoading(false)
+    }
+  }, [storiesLoading])
+
+  function handleCtxClick(w) {
+    if (openCtx === w._key) {
+      setOpenCtx(null)
+      return
+    }
+    setOpenCtx(w._key)
+    if (!storiesRef.current && !storiesLoading) loadStories()
+  }
+
   function toggleCat(id) {
     setActiveCats(prev => {
       const next = new Set(prev)
@@ -143,7 +299,6 @@ export default function VocabularyIndex({ onNavigate, target }) {
     setActiveCats(new Set())
   }
 
-  // Count per category (from full unfiltered set)
   const catCounts = {}
   for (const cat of CATEGORIES) {
     catCounts[cat.id] = words.filter(w => w.category === cat.id).length
@@ -159,15 +314,19 @@ export default function VocabularyIndex({ onNavigate, target }) {
       : a.lessonOrder - b.lessonOrder || a.id - b.id
   )
 
-  const filtered = sorted.filter(w => {
-    if (targetFilter) return w.chapter === targetFilter.chapterId && w.part === targetFilter.part && matches(w, query)
-    if (activeVerbGroup) return w.verbGroup === activeVerbGroup && matches(w, query)
-    return (activeCats.size === 0 || activeCats.has(w.category)) && matches(w, query)
-  })
+  const filtered = sorted
+    .filter(w => {
+      if (targetFilter) return w.chapter === targetFilter.chapterId && w.part === targetFilter.part && matches(w, query)
+      if (activeVerbGroup) return w.verbGroup === activeVerbGroup && matches(w, query)
+      return (activeCats.size === 0 || activeCats.has(w.category)) && matches(w, query)
+    })
+    .map(w => ({ ...w, _key: `${w.chapter}-${w.id}` }))
 
   const total = words.length
   const isFiltered = query.trim().length > 0 || activeCats.size > 0 || !!activeVerbGroup || !!targetFilter
   const activeGroup = VERB_GROUPS.find(g => g.id === activeVerbGroup)
+  // Column count for colSpan on ctx rows
+  const colCount = 5 + (activeGroup ? 1 : 0) + 1 // base + 3sg + ctx
 
   return (
     <div className="vocab-index">
@@ -250,16 +409,25 @@ export default function VocabularyIndex({ onNavigate, target }) {
           </div>
         )}
 
-        {/* Sort */}
-        <div className="vocab-index-sort">
+        {/* Sort + display toggles row */}
+        <div className="vocab-index-toolbar">
+          <div className="vocab-index-sort">
+            <button
+              className={`sort-btn ${sort === 'lesson' ? 'sort-btn--active' : ''}`}
+              onClick={() => setSort('lesson')}
+            >{ui('byLesson')}</button>
+            <button
+              className={`sort-btn ${sort === 'alpha' ? 'sort-btn--active' : ''}`}
+              onClick={() => setSort('alpha')}
+            >{ui('alphabetical')}</button>
+          </div>
           <button
-            className={`sort-btn ${sort === 'lesson' ? 'sort-btn--active' : ''}`}
-            onClick={() => setSort('lesson')}
-          >{ui('byLesson')}</button>
-          <button
-            className={`sort-btn ${sort === 'alpha' ? 'sort-btn--active' : ''}`}
-            onClick={() => setSort('alpha')}
-          >{ui('alphabetical')}</button>
+            className={`display-toggle-btn ${hideGloss ? 'display-toggle-btn--active' : ''}`}
+            onClick={() => setHideGloss(v => !v)}
+            title={hideGloss ? 'Show translation' : 'Hide translation'}
+          >
+            {hideGloss ? '👁 Show gloss' : '🙈 Hide gloss'}
+          </button>
         </div>
       </div>
 
@@ -308,56 +476,92 @@ export default function VocabularyIndex({ onNavigate, target }) {
             </div>
           )}
 
+          {/* Hide-gloss notice */}
+          {hideGloss && (
+            <div className="gloss-hidden-notice">
+              Translation hidden — try to recall each meaning from the image or Greek form.
+              <button className="gloss-show-btn" onClick={() => setHideGloss(false)}>Show</button>
+            </div>
+          )}
+
           <table className="vocab-table">
             <thead>
               <tr>
+                <th className="vt-ctx"></th>
                 <th className="vt-img-col"></th>
                 <th className="vt-greek">{ui('colGreek')}</th>
                 {activeGroup && <th className="vt-3sg">3sg</th>}
-                <th className="vt-english">{ui('colEnglish')}</th>
+                <th className="vt-english">{hideGloss ? '' : ui('colEnglish')}</th>
                 <th className="vt-pos">{ui('colType')}</th>
                 <th className="vt-source">{ui('colLesson')}</th>
               </tr>
             </thead>
             <tbody>
-              {filtered.map((w, i) => (
-                <tr key={`${w.chapter}-${w.id}`} className={i % 2 === 0 ? 'vt-row-even' : ''}>
-                  <td className="vt-img-col">
-                    {wordImages(w).length > 0 && (
-                      <button className="vt-thumb-btn" onClick={() => setFsWord(w)} aria-label="View image">
-                        <img className="vt-thumb" src={`/vocab-images/${wordImages(w)[0]}`} alt="" />
-                      </button>
+              {filtered.map((w, i) => {
+                const ctxOpen = openCtx === w._key
+                return (
+                  <>
+                    <tr key={w._key} className={i % 2 === 0 ? 'vt-row-even' : ''}>
+                      <td className="vt-ctx">
+                        <button
+                          className={`ctx-btn${ctxOpen ? ' ctx-btn--active' : ''}`}
+                          onClick={() => handleCtxClick(w)}
+                          title="Show in story context"
+                        >❝</button>
+                      </td>
+                      <td className="vt-img-col">
+                        {wordImages(w).length > 0 && (
+                          <button className="vt-thumb-btn" onClick={() => setFsWord(w)} aria-label="View image">
+                            <img className="vt-thumb" src={`/vocab-images/${wordImages(w)[0]}`} alt="" />
+                          </button>
+                        )}
+                      </td>
+                      <td className="vt-greek greek">
+                        <Highlight text={w.greek} query={query} isGreek />
+                      </td>
+                      {activeGroup && (
+                        <td className="vt-3sg greek">
+                          {w.thirdSingular
+                            ? <span className="vt-3sg-form">{w.thirdSingular}</span>
+                            : <span className="vt-3sg-missing">—</span>}
+                        </td>
+                      )}
+                      <td className="vt-english">
+                        {hideGloss
+                          ? <span className="gloss-hidden-cell" onClick={() => setHideGloss(false)} title="Click to reveal">•••</span>
+                          : <Highlight text={t(w.definition, w.translations, lang)} query={query} />
+                        }
+                      </td>
+                      <td className="vt-pos">
+                        <span className={`pos-tag pos-tag--${w.category}`}>
+                          {ui(CATEGORIES.find(c => c.id === w.category)?.labelKey)}
+                        </span>
+                      </td>
+                      <td className="vt-source">
+                        <button
+                          className="vt-source-btn"
+                          onClick={() => onNavigate(w.unit, w.chapter, w.part)}
+                          title={`Go to Chapter ${w.chapter}, Part ${w.part}`}
+                        >
+                          {w.source}
+                        </button>
+                      </td>
+                    </tr>
+                    {ctxOpen && (
+                      <tr key={`${w._key}-ctx`} className="ctx-row">
+                        <td colSpan={colCount}>
+                          <ContextPanel
+                            word={w}
+                            stories={stories}
+                            storiesLoading={storiesLoading}
+                            onNavigate={onNavigate}
+                          />
+                        </td>
+                      </tr>
                     )}
-                  </td>
-                  <td className="vt-greek greek">
-                    <Highlight text={w.greek} query={query} isGreek />
-                  </td>
-                  {activeGroup && (
-                    <td className="vt-3sg greek">
-                      {w.thirdSingular
-                        ? <span className="vt-3sg-form">{w.thirdSingular}</span>
-                        : <span className="vt-3sg-missing">—</span>}
-                    </td>
-                  )}
-                  <td className="vt-english">
-                    <Highlight text={t(w.definition, w.translations, lang)} query={query} />
-                  </td>
-                  <td className="vt-pos">
-                    <span className={`pos-tag pos-tag--${w.category}`}>
-                      {ui(CATEGORIES.find(c => c.id === w.category)?.labelKey)}
-                    </span>
-                  </td>
-                  <td className="vt-source">
-                    <button
-                      className="vt-source-btn"
-                      onClick={() => onNavigate(w.unit, w.chapter, w.part)}
-                      title={`Go to Chapter ${w.chapter}, Part ${w.part}`}
-                    >
-                      {w.source}
-                    </button>
-                  </td>
-                </tr>
-              ))}
+                  </>
+                )
+              })}
             </tbody>
           </table>
         </>

@@ -137,6 +137,24 @@
             "subtitle": "Ὁ Ἰησοῦς;"
           }
         ]
+      },
+      {
+        "id": 6,
+        "title": "Κεφάλαιον Ϛʹ",
+        "subtitle": "Τὸ Πνεῦμα τὸ Ἅγιον — The Holy Spirit",
+        "translations": {
+          "es": "Τὸ Πνεῦμα τὸ Ἅγιον — El Espíritu Santo",
+          "pl": "Τὸ Πνεῦμα τὸ Ἅγιον — Duch Święty",
+          "fil": "Τὸ Πνεῦμα τὸ Ἅγιον — Ang Banal na Espiritu"
+        },
+        "locked": false,
+        "parts": [
+          {
+            "id": "A",
+            "label": "Μέρος Αʹ",
+            "subtitle": "Ὁ Παράκλητος"
+          }
+        ]
       }
     ]
   }

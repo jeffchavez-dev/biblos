@@ -1,0 +1,301 @@
+[
+  {
+    "id": 1,
+    "part": "A",
+    "greek": "πηγή, -ῆς, ἡ",
+    "transliteration": "pēgē",
+    "definition": "spring, well, fountain",
+    "partOfSpeech": "noun (fem., 1st decl.)",
+    "translations": {
+      "es": "fuente, manantial",
+      "pl": "źródło, studnia",
+      "fil": "bukal, balon"
+    }
+  },
+  {
+    "id": 2,
+    "part": "A",
+    "greek": "καῦμα, -ατος, τό",
+    "transliteration": "kauma",
+    "definition": "burning heat, scorching",
+    "partOfSpeech": "noun (neut., 3rd decl. -μα)",
+    "translations": {
+      "es": "calor abrasador",
+      "pl": "żar, upał",
+      "fil": "matinding init"
+    }
+  },
+  {
+    "id": 3,
+    "part": "A",
+    "greek": "ὄνος, -ου, ὁ",
+    "transliteration": "onos",
+    "definition": "donkey, ass",
+    "partOfSpeech": "noun (masc., 2nd decl.)",
+    "translations": {
+      "es": "asno, burro",
+      "pl": "osioł",
+      "fil": "asno, buriko"
+    }
+  },
+  {
+    "id": 4,
+    "part": "A",
+    "greek": "ξένος, -ου, ὁ",
+    "transliteration": "xenos",
+    "definition": "stranger, foreigner, guest",
+    "partOfSpeech": "noun (masc., 2nd decl.)",
+    "translations": {
+      "es": "extranjero, huésped",
+      "pl": "cudzoziemiec, gość",
+      "fil": "dayuhan, panauhin"
+    }
+  },
+  {
+    "id": 5,
+    "part": "A",
+    "greek": "ὑδρία, -ας, ἡ",
+    "transliteration": "hudria",
+    "definition": "water jar, water pot",
+    "partOfSpeech": "noun (fem., 1st decl.)",
+    "translations": {
+      "es": "cántaro de agua",
+      "pl": "dzban na wodę",
+      "fil": "banga ng tubig"
+    }
+  },
+  {
+    "id": 6,
+    "part": "A",
+    "greek": "πνεῦμα, -ατος, τό",
+    "transliteration": "pneuma",
+    "definition": "spirit, breath, wind",
+    "partOfSpeech": "noun (neut., 3rd decl. -μα)",
+    "translations": {
+      "es": "espíritu, aliento",
+      "pl": "duch, oddech",
+      "fil": "espiritu, hininga"
+    }
+  },
+  {
+    "id": 7,
+    "part": "A",
+    "greek": "καρδία, -ας, ἡ",
+    "transliteration": "kardia",
+    "definition": "heart",
+    "partOfSpeech": "noun (fem., 1st decl.)",
+    "translations": {
+      "es": "corazón",
+      "pl": "serce",
+      "fil": "puso"
+    }
+  },
+  {
+    "id": 8,
+    "part": "A",
+    "greek": "ἀλήθεια, -ας, ἡ",
+    "transliteration": "alētheia",
+    "definition": "truth",
+    "partOfSpeech": "noun (fem., 1st decl.)",
+    "translations": {
+      "es": "verdad",
+      "pl": "prawda",
+      "fil": "katotohanan"
+    }
+  },
+  {
+    "id": 9,
+    "part": "A",
+    "greek": "κόσμος, -ου, ὁ",
+    "transliteration": "kosmos",
+    "definition": "world, cosmos",
+    "partOfSpeech": "noun (masc., 2nd decl.)",
+    "translations": {
+      "es": "mundo",
+      "pl": "świat",
+      "fil": "mundo, sanlibutan"
+    }
+  },
+  {
+    "id": 10,
+    "part": "A",
+    "greek": "παράκλητος, -ου, ὁ",
+    "transliteration": "paraklētos",
+    "definition": "Paraclete, Helper, Advocate, Comforter",
+    "partOfSpeech": "noun (masc., 2nd decl.)",
+    "translations": {
+      "es": "Paráclito, Consolador",
+      "pl": "Paraklet, Pomocnik",
+      "fil": "Parakleto, Mang-aaliw"
+    }
+  },
+  {
+    "id": 11,
+    "part": "A",
+    "greek": "εἰρήνη, -ης, ἡ",
+    "transliteration": "eirēnē",
+    "definition": "peace",
+    "partOfSpeech": "noun (fem., 1st decl.)",
+    "translations": {
+      "es": "paz",
+      "pl": "pokój",
+      "fil": "kapayapaan"
+    }
+  },
+  {
+    "id": 12,
+    "part": "A",
+    "greek": "κοινωνία, -ας, ἡ",
+    "transliteration": "koinōnia",
+    "definition": "fellowship, communion, sharing",
+    "partOfSpeech": "noun (fem., 1st decl.)",
+    "translations": {
+      "es": "comunión, comunidad",
+      "pl": "wspólnota, komunia",
+      "fil": "komunyon, pakikisama"
+    }
+  },
+  {
+    "id": 13,
+    "part": "A",
+    "greek": "ἁμαρτία, -ας, ἡ",
+    "transliteration": "hamartia",
+    "definition": "sin, failure, error",
+    "partOfSpeech": "noun (fem., 1st decl.)",
+    "translations": {
+      "es": "pecado",
+      "pl": "grzech",
+      "fil": "kasalanan"
+    }
+  },
+  {
+    "id": 14,
+    "part": "A",
+    "greek": "δωρεά, -ᾶς, ἡ",
+    "transliteration": "dōrea",
+    "definition": "gift, free gift",
+    "partOfSpeech": "noun (fem., 1st decl.)",
+    "translations": {
+      "es": "don, regalo",
+      "pl": "dar, darmo",
+      "fil": "regalo, kaloob"
+    }
+  },
+  {
+    "id": 15,
+    "part": "A",
+    "greek": "αἷμα, -ατος, τό",
+    "transliteration": "haima",
+    "definition": "blood",
+    "partOfSpeech": "noun (neut., 3rd decl. -μα)",
+    "translations": {
+      "es": "sangre",
+      "pl": "krew",
+      "fil": "dugo"
+    }
+  },
+  {
+    "id": 16,
+    "part": "A",
+    "greek": "εὐαγγέλιον, -ου, τό",
+    "transliteration": "euangelion",
+    "definition": "gospel, good news",
+    "partOfSpeech": "noun (neut., 2nd decl.)",
+    "translations": {
+      "es": "evangelio, buenas noticias",
+      "pl": "ewangelia, dobra nowina",
+      "fil": "ebanghelyo, mabuting balita"
+    }
+  },
+  {
+    "id": 17,
+    "part": "A",
+    "greek": "ψυχή, -ῆς, ἡ",
+    "transliteration": "psuchē",
+    "definition": "soul, life, self",
+    "partOfSpeech": "noun (fem., 1st decl.)",
+    "translations": {
+      "es": "alma, vida",
+      "pl": "dusza, życie",
+      "fil": "kaluluwa, buhay"
+    }
+  },
+  {
+    "id": 18,
+    "part": "A",
+    "greek": "θέλημα, -ατος, τό",
+    "transliteration": "thelēma",
+    "definition": "will, desire, purpose",
+    "partOfSpeech": "noun (neut., 3rd decl. -μα)",
+    "translations": {
+      "es": "voluntad",
+      "pl": "wola",
+      "fil": "kalooban"
+    }
+  },
+  {
+    "id": 19,
+    "part": "A",
+    "greek": "διψάω",
+    "transliteration": "dipsaō",
+    "definition": "to thirst, be thirsty",
+    "partOfSpeech": "verb (contract, -αω)",
+    "translations": {
+      "es": "tener sed",
+      "pl": "pragnąć, być spragnionym",
+      "fil": "mauhaw"
+    }
+  },
+  {
+    "id": 20,
+    "part": "A",
+    "greek": "μαρτυρέω",
+    "transliteration": "martureō",
+    "definition": "to bear witness, testify",
+    "partOfSpeech": "verb (contract, -εω)",
+    "translations": {
+      "es": "dar testimonio",
+      "pl": "świadczyć, zaświadczać",
+      "fil": "magpatotoo, sumaksi"
+    }
+  },
+  {
+    "id": 21,
+    "part": "A",
+    "greek": "σῴζω",
+    "transliteration": "sōzō",
+    "definition": "to save, rescue, preserve",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "salvar, rescatar",
+      "pl": "zbawić, ocalić",
+      "fil": "iligtas, ipagtanggol"
+    }
+  },
+  {
+    "id": 22,
+    "part": "A",
+    "greek": "μετανοέω",
+    "transliteration": "metanoeō",
+    "definition": "to repent, change one's mind",
+    "partOfSpeech": "verb (contract, -εω)",
+    "translations": {
+      "es": "arrepentirse",
+      "pl": "nawracać się, żałować",
+      "fil": "magsisi, magsimba"
+    }
+  },
+  {
+    "id": 23,
+    "part": "A",
+    "greek": "αἰών, -ῶνος, ὁ",
+    "transliteration": "aiōn",
+    "definition": "age, eternity; εἰς τὸν αἰῶνα — forever",
+    "partOfSpeech": "noun (masc., 3rd decl.)",
+    "translations": {
+      "es": "siglo, eternidad",
+      "pl": "wiek, wieczność",
+      "fil": "panahon, kawalang-hanggan"
+    }
+  }
+]

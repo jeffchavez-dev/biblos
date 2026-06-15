@@ -448,3 +448,138 @@
 .vt-3sg-missing {
   color: #ccc;
 }
+
+/* Context-in-story column */
+.vt-ctx {
+  width: 28px;
+  padding: 2px 0 2px 4px;
+}
+.ctx-btn {
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #aaa;
+  padding: 2px 4px;
+  line-height: 1;
+  transition: color 0.15s, border-color 0.15s;
+}
+.ctx-btn:hover {
+  color: var(--deep-blue);
+  border-color: var(--deep-blue);
+}
+.ctx-btn--active {
+  color: var(--deep-blue);
+  background: #e8f0ff;
+  border-color: var(--deep-blue);
+}
+.ctx-row td {
+  padding: 0;
+  background: #f4f7ff;
+  border-bottom: 1px solid #d0daff;
+}
+.ctx-panel {
+  padding: 10px 16px 12px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.ctx-loading,
+.ctx-empty {
+  color: #888;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+.ctx-item {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.ctx-greek {
+  font-size: 1rem;
+  color: #222;
+  flex: 1;
+}
+.ctx-word-highlight {
+  background: #ffe066;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+.ctx-source-btn {
+  background: none;
+  border: 1px solid var(--deep-blue);
+  border-radius: 4px;
+  color: var(--deep-blue);
+  font-size: 0.78rem;
+  padding: 2px 7px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.ctx-source-btn:hover {
+  background: var(--deep-blue);
+  color: #fff;
+}
+
+/* Hide-gloss feature */
+.display-toggle-btn {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  color: #666;
+  padding: 4px 10px;
+  transition: all 0.15s;
+}
+.display-toggle-btn:hover {
+  border-color: var(--deep-blue);
+  color: var(--deep-blue);
+}
+.display-toggle-btn--active {
+  background: #f0e8ff;
+  border-color: #7c4dff;
+  color: #7c4dff;
+}
+.gloss-hidden-notice {
+  background: #f5f0ff;
+  border: 1px solid #c9b8ff;
+  border-radius: 6px;
+  padding: 7px 14px;
+  margin-bottom: 8px;
+  font-size: 0.84rem;
+  color: #5a3e99;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.gloss-show-btn {
+  background: none;
+  border: 1px solid #5a3e99;
+  border-radius: 4px;
+  color: #5a3e99;
+  font-size: 0.78rem;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+.gloss-show-btn:hover {
+  background: #5a3e99;
+  color: #fff;
+}
+.gloss-hidden-cell {
+  color: #bbb;
+  letter-spacing: 3px;
+  cursor: pointer;
+  user-select: none;
+}
+.gloss-hidden-cell:hover {
+  color: #888;
+}
+.vocab-index-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 8px;
+}

@@ -10559,6 +10559,15 @@
           }
         },
         {
+          "greek": "δὲ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
           "greek": "ἥλιος",
           "definition": "sun",
           "translations": {
@@ -10568,8 +10577,8 @@
           }
         },
         {
-          "greek": "οὐκέτι",
-          "definition": "no longer"
+          "greek": "ἔτι",
+          "definition": "still"
         },
         {
           "greek": "λάμπει",
@@ -10585,19 +10594,6 @@
           "definition": "greatly"
         },
         {
-          "greek": "ἔρχεται",
-          "definition": "comes"
-        },
-        {
-          "greek": "γὰρ",
-          "definition": "for",
-          "translations": {
-            "es": "pues",
-            "pl": "bowiem",
-            "fil": "sapagkat"
-          }
-        },
-        {
           "greek": "ἡ",
           "definition": "the",
           "translations": {
@@ -10607,16 +10603,12 @@
           }
         },
         {
-          "greek": "ὀψία.",
-          "definition": "evening"
-        },
-        {
-          "greek": "ἡ",
-          "definition": "the",
+          "greek": "δὲ",
+          "definition": "and",
           "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
           }
         },
         {
@@ -10800,7 +10792,7 @@
           }
         }
       ],
-      "translation": "Salome is silent again. The sun no longer shines brightly; for evening is coming. Her water jar is still beside the spring, and the water is still in it. But Salome does not worry about the water of the jar; she thinks about the water of life.",
+      "translation": "Salome is silent again. But the sun still shines greatly; her water jar is still beside the spring, and the water is still in it. But Salome does not worry about the water of the jar; she thinks about the water of life.",
       "translations": {
         "es": "Salomé está callada de nuevo. El sol ya no brilla con fuerza; pues se acerca la tarde.",
         "pl": "Salome milczy znowu. Słońce już nie świeci mocno; zbliża się bowiem wieczór.",

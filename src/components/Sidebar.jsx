@@ -46,7 +46,7 @@ export default function Sidebar({ units, selectedUnit, selectedChapter, activePa
                       onClick={() => !locked && onSelect(unit.id, chapter.id)}
                       disabled={locked}
                     >
-                      <span className="chapter-dot" />
+                      <span className="chapter-num">{chapter.id}.</span>
                       <span>
                         <span className="chapter-title greek">{chapter.title}</span>
                         <span className="chapter-subtitle">{t(chapter.subtitle, chapter.translations, lang)}</span>

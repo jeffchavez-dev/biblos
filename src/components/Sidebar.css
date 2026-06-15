@@ -149,17 +149,19 @@
   cursor: not-allowed;
 }
 
-.chapter-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: currentColor;
+.chapter-num {
+  font-size: 0.7rem;
+  font-weight: 700;
+  opacity: 0.55;
   flex-shrink: 0;
-  opacity: 0.5;
+  min-width: 18px;
+  text-align: right;
+  line-height: 1;
+  font-family: sans-serif;
 }
-.chapter-btn--active .chapter-dot {
+.chapter-btn--active .chapter-num {
   opacity: 1;
-  background: var(--gold-light);
+  color: var(--gold-light);
 }
 
 .chapter-btn > span:nth-child(2) {
