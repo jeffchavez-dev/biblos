@@ -81,14 +81,6 @@ export default function ChapterView({ unitId, chapterId, activePart, navHidden, 
             </button>
           ))}
         </nav>
-        <button
-          className="tab-bar-toggle"
-          onClick={onToggleNav}
-          aria-label={navHidden ? 'Show navigation' : 'Hide navigation'}
-          title={navHidden ? 'Show navigation' : 'Hide navigation'}
-        >
-          <span className={`tab-bar-toggle-icon ${navHidden ? 'tab-bar-toggle-icon--up' : ''}`}>‹</span>
-        </button>
       </div>
 
       <div className="tab-content">
