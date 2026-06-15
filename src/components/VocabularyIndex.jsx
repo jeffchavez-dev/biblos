@@ -1,6 +1,9 @@
 import { useState, useEffect, useRef } from 'react'
 import { useUI, useLanguage, t } from '../context/LanguageContext.jsx'
+import FullscreenViewer from './FullscreenViewer.jsx'
 import './VocabularyIndex.css'
+
+function wordImages(w) { return w.images || (w.image ? [w.image] : []) }
 
 // All vocab sources in lesson order
 const SOURCES = [
@@ -59,6 +62,7 @@ export default function VocabularyIndex({ onNavigate }) {
   const [query, setQuery] = useState('')
   const [activeCats, setActiveCats] = useState(new Set()) // empty = all
   const [loading, setLoading] = useState(true)
+  const [fsWord, setFsWord] = useState(null)
   const searchRef = useRef(null)
 
   useEffect(() => {
@@ -113,6 +117,16 @@ export default function VocabularyIndex({ onNavigate }) {
 
   return (
     <div className="vocab-index">
+      {fsWord && (
+        <FullscreenViewer
+          images={wordImages(fsWord).map(img => `/vocab-images/${img}`)}
+          captions={[{ greek: fsWord.thirdSingular ?? fsWord.greek, lexical: fsWord.thirdSingular ? fsWord.greek : null }]}
+          index={0}
+          onClose={() => setFsWord(null)}
+          onPrev={() => {}}
+          onNext={() => {}}
+        />
+      )}
       <div className="vocab-index-header">
         <div className="vocab-index-title-row">
           <h2 className="greek">Λεξικόν</h2>
@@ -190,6 +204,7 @@ export default function VocabularyIndex({ onNavigate }) {
           <table className="vocab-table">
             <thead>
               <tr>
+                <th className="vt-img-col"></th>
                 <th className="vt-greek">{ui('colGreek')}</th>
                 <th className="vt-english">{ui('colEnglish')}</th>
                 <th className="vt-pos">{ui('colType')}</th>
@@ -199,6 +214,13 @@ export default function VocabularyIndex({ onNavigate }) {
             <tbody>
               {filtered.map((w, i) => (
                 <tr key={`${w.chapter}-${w.id}`} className={i % 2 === 0 ? 'vt-row-even' : ''}>
+                  <td className="vt-img-col">
+                    {wordImages(w).length > 0 && (
+                      <button className="vt-thumb-btn" onClick={() => setFsWord(w)} aria-label="View image">
+                        <img className="vt-thumb" src={`/vocab-images/${wordImages(w)[0]}`} alt="" />
+                      </button>
+                    )}
+                  </td>
                   <td className="vt-greek greek">
                     <Highlight text={w.greek} query={query} isGreek />
                   </td>

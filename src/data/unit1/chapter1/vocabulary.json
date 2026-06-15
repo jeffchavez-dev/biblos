@@ -530,7 +530,7 @@
       "fil": "pagsisikap, pagod, sakit"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "c1b-ponos.jpeg"
+    "image": "ch1b-noun-1.jpeg"
   },
   {
     "id": 38,
@@ -543,7 +543,8 @@
       "pl": "życie, utrzymanie",
       "fil": "buhay, kabuhayan"
     },
-    "partOfSpeech": "noun (masculine, 2nd decl.)"
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "ch1b-noun-2.jpeg"
   },
   {
     "id": 39,
@@ -556,7 +557,8 @@
       "pl": "trawa, siano",
       "fil": "damo, dayami"
     },
-    "partOfSpeech": "noun (masculine, 2nd decl.)"
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": "ch1b-noun-3.jpeg"
   },
   {
     "id": 40,
@@ -570,7 +572,7 @@
       "fil": "mahirap, mabigat"
     },
     "partOfSpeech": "adjective",
-    "image": "c1b-chalepos.jpeg"
+    "image": "ch1b-adj-1.jpeg"
   },
   {
     "id": 41,
@@ -583,7 +585,8 @@
       "pl": "łatwy",
       "fil": "madali"
     },
-    "partOfSpeech": "adjective"
+    "partOfSpeech": "adjective",
+    "image": "ch1b-adj-2.jpeg"
   },
   {
     "id": 42,
@@ -597,7 +600,7 @@
       "fil": "nakaupo ako"
     },
     "partOfSpeech": "verb",
-    "image": "c1b-kathizō.jpeg",
+    "image": "ch1b-verb-1.jpeg",
     "thirdSingular": "καθίζει"
   },
   {
@@ -612,7 +615,7 @@
       "fil": "nananatili ako"
     },
     "partOfSpeech": "verb",
-    "image": "c1b-menō.jpeg",
+    "image": "ch1b-verb-2.jpeg",
     "thirdSingular": "μένει"
   },
   {
@@ -627,7 +630,7 @@
       "fil": "lumalabas ako"
     },
     "partOfSpeech": "verb",
-    "image": "c1b-ekbainō.jpeg",
+    "image": "ch1b-verb-3.jpeg",
     "thirdSingular": "ἐκβαίνει"
   },
   {
@@ -642,7 +645,7 @@
       "fil": "naglalakad ako"
     },
     "partOfSpeech": "verb (contract, -έω)",
-    "image": "c1b-peripateo.jpeg",
+    "image": "ch1b-verb-4.jpeg",
     "thirdSingular": "περιπατεῖ"
   },
   {
@@ -657,7 +660,8 @@
       "fil": "nakakakita ako"
     },
     "partOfSpeech": "verb",
-    "thirdSingular": "εὑρίσκει"
+    "thirdSingular": "εὑρίσκει",
+    "image": "ch1b-verb-5.jpeg"
   },
   {
     "id": 47,
@@ -671,7 +675,7 @@
       "fil": "nagpapahinga ako, nanahimik"
     },
     "partOfSpeech": "verb",
-    "image": "c1b-hēsychazō.jpeg",
+    "image": "ch1b-verb-6.jpeg",
     "thirdSingular": "ἡσυχάζει"
   },
   {
@@ -686,7 +690,8 @@
       "fil": "nakakarinig ako"
     },
     "partOfSpeech": "verb (+ acc. or gen.)",
-    "thirdSingular": "ἀκούει"
+    "thirdSingular": "ἀκούει",
+    "image": "ch1b-verb-7.jpeg"
   },
   {
     "id": 49,
@@ -700,7 +705,8 @@
       "fil": "gumagawa ako"
     },
     "partOfSpeech": "verb (contract, -έω)",
-    "thirdSingular": "ποιεῖ"
+    "thirdSingular": "ποιεῖ",
+    "image": "ch1b-verb-8.jpeg"
   },
   {
     "id": 50,
@@ -714,7 +720,7 @@
       "fil": "nagpapasalamat ako"
     },
     "partOfSpeech": "verb (+ dative)",
-    "image": "c1b-eucharisteō.jpeg",
+    "image": "ch1b-verb-9.jpeg",
     "thirdSingular": "εὐχαριστεῖ"
   },
   {
@@ -728,7 +734,8 @@
       "pl": "w, przy",
       "fil": "sa, sa loob"
     },
-    "partOfSpeech": "preposition"
+    "partOfSpeech": "preposition",
+    "image": "ch1b-prep-en.jpeg"
   },
   {
     "id": 52,
@@ -741,7 +748,8 @@
       "pl": "z, spośród",
       "fil": "mula sa, palabas"
     },
-    "partOfSpeech": "preposition"
+    "partOfSpeech": "preposition",
+    "image": "ch1b-prep-ek.jpeg"
   },
   {
     "id": 53,
@@ -754,7 +762,8 @@
       "pl": "ku, do",
       "fil": "patungo sa"
     },
-    "partOfSpeech": "preposition"
+    "partOfSpeech": "preposition",
+    "image": "ch1b-prep-pros.jpeg"
   },
   {
     "id": 54,
@@ -767,7 +776,8 @@
       "pl": "dzisiaj, dziś",
       "fil": "ngayon, ngayong araw"
     },
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "image": "ch1b-adv-1.jpeg"
   },
   {
     "id": 55,
@@ -780,7 +790,8 @@
       "pl": "teraz",
       "fil": "ngayon"
     },
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "image": "ch1b-adv-4.jpeg"
   },
   {
     "id": 56,
@@ -793,7 +804,8 @@
       "pl": "potem, następnie",
       "fil": "pagkatapos, susunod"
     },
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "image": "ch1b-adv-2.jpeg"
   },
   {
     "id": 57,
@@ -806,7 +818,8 @@
       "pl": "prawdziwie, naprawdę",
       "fil": "tunay, talagang"
     },
-    "partOfSpeech": "adverb"
+    "partOfSpeech": "adverb",
+    "image": "ch1b-adv-3.jpeg"
   },
   {
     "id": 58,

@@ -228,6 +228,28 @@
   vertical-align: middle;
   border-bottom: 1px solid #eee;
 }
+.vt-img-col {
+  width: 52px;
+  padding: 4px 8px 4px 4px !important;
+}
+.vt-thumb-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: block;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: opacity 0.15s;
+}
+.vt-thumb-btn:hover { opacity: 0.8; }
+.vt-thumb {
+  width: 44px;
+  height: 44px;
+  object-fit: cover;
+  display: block;
+  border-radius: 4px;
+}
 .vt-greek {
   font-size: 1.05rem;
   color: var(--deep-blue);
