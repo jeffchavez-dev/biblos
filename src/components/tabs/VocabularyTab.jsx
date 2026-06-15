@@ -124,8 +124,23 @@ function GreekKeyboard({ onKey }) {
   )
 }
 
+// ── Shared completion banner ──────────────────────────────────────────────────
+function CompletionCard({ score, nextLabel, onNext, onRestart }) {
+  return (
+    <div className="stage-complete">
+      <div className="stage-complete-icon">✓</div>
+      <h3 className="stage-complete-title">Round complete!</h3>
+      {score && <p className="stage-complete-score">{score.correct} / {score.total} correct</p>}
+      <div className="stage-complete-btns">
+        <button className="nav-btn" onClick={onRestart}>↺ Try again</button>
+        {onNext && <button className="nav-btn nav-btn--primary" onClick={onNext}>{nextLabel} →</button>}
+      </div>
+    </div>
+  )
+}
+
 // ── Learn (flashcards) ────────────────────────────────────────────────────────
-function LearnMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
+function LearnMode({ filtered, unitId, chapterId, activePart, lang, ui, onComplete }) {
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
   const [seen, setSeen] = useState({})
@@ -138,7 +153,10 @@ function LearnMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
 
   function markSeen(id) { setSeen(prev => ({ ...prev, [id]: (prev[id] || 0) + 1 })) }
   function handleFlip() { if (!flipped) markSeen(word.id); setFlipped(v => !v) }
-  function handleNext() { setFlipped(false); setTimeout(() => setIndex(i => (i + 1) % filtered.length), 150) }
+  function handleNext() {
+    if (index === filtered.length - 1 && onComplete) { onComplete(); return }
+    setFlipped(false); setTimeout(() => setIndex(i => (i + 1) % filtered.length), 150)
+  }
   function handlePrev() { setFlipped(false); setTimeout(() => setIndex(i => (i - 1 + filtered.length) % filtered.length), 150) }
 
   const imageWords = filtered.filter(hasImage)
@@ -224,21 +242,24 @@ function LearnMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
       <div className="vocab-nav">
         <button className="nav-btn" onClick={handlePrev}>{ui('prev')}</button>
         <button className="nav-btn nav-btn--primary" onClick={handleFlip}>{flipped ? ui('hide') : ui('reveal')}</button>
-        <button className="nav-btn" onClick={handleNext}>{ui('next')}</button>
+        <button className="nav-btn" onClick={handleNext}>
+          {index === filtered.length - 1 && onComplete ? 'Recognize →' : ui('next')}
+        </button>
       </div>
     </>
   )
 }
 
 // ── Test (image → pick Greek word, same POS distractors) ─────────────────────
-function RecognizePickWord({ filtered, lang, ui }) {
+function RecognizePickWord({ filtered, lang, ui, onComplete }) {
   const imageFiltered = filtered.filter(hasImage)
-  const [words, setWords] = useState(() => shuffle(imageFiltered))
+  const [words] = useState(() => shuffle(imageFiltered))
   const [index, setIndex] = useState(0)
   const [options, setOptions] = useState([])
   const [selected, setSelected] = useState(null)
   const [score, setScore] = useState({ correct: 0, total: 0 })
   const [fullscreen, setFullscreen] = useState(false)
+  const [done, setDone] = useState(false)
 
   const word = words[index]
 
@@ -268,14 +289,11 @@ function RecognizePickWord({ filtered, lang, ui }) {
   }
 
   function handleNext() {
-    if (index < words.length - 1) {
-      setIndex(i => i + 1)
-    } else {
-      setWords(shuffle(imageFiltered))
-      setIndex(0)
-      setScore({ correct: 0, total: 0 })
-    }
+    if (index < words.length - 1) setIndex(i => i + 1)
+    else setDone(true)
   }
+
+  function handleRestart() { setIndex(0); setSelected(null); setScore({ correct: 0, total: 0 }); setDone(false) }
 
   function renderOptions(inFullscreen = false) {
     return (
@@ -295,6 +313,11 @@ function RecognizePickWord({ filtered, lang, ui }) {
       </div>
     )
   }
+
+  if (done) return (
+    <CompletionCard score={score} nextLabel="Produce" onNext={onComplete}
+      onRestart={handleRestart} />
+  )
 
   return (
     <>
@@ -346,10 +369,11 @@ function RecognizePickWord({ filtered, lang, ui }) {
 // ── Challenge — Word Bank (image → click word from large pool) ────────────────
 const ARTICLES = ['ὁ', 'ἡ', 'τό']
 
-function ChallengeWordBank({ filtered, lang, ui }) {
+function ChallengeWordBank({ filtered, lang, ui, onComplete }) {
   const imageFiltered = filtered.filter(hasImage)
-  const [words, setWords]   = useState(() => shuffle(imageFiltered))
+  const [words]         = useState(() => shuffle(imageFiltered))
   const [index, setIndex]   = useState(0)
+  const [done, setDone] = useState(false)
   const [nounBank, setNounBank] = useState([])
   const [wordBank, setWordBank] = useState([])
   // Non-noun mode
@@ -404,8 +428,13 @@ function ChallengeWordBank({ filtered, lang, ui }) {
 
   function handleNext() {
     if (index < words.length - 1) setIndex(i => i + 1)
-    else { setWords(shuffle(imageFiltered)); setIndex(0); setScore({ correct: 0, total: 0 }) }
+    else setDone(true)
   }
+
+  if (done) return (
+    <CompletionCard score={score} nextLabel="Next stage" onNext={onComplete}
+      onRestart={() => { setIndex(0); setScore({ correct: 0, total: 0 }); setArtPick(null); setNounPick(null); setSelected(null); setDone(false) }} />
+  )
 
   const nounCorrect = nounDone && artPick === correctArticle && nounPick === word.id
 
@@ -499,16 +528,23 @@ function ChallengeWordBank({ filtered, lang, ui }) {
 }
 
 // ── Challenge — Type it ───────────────────────────────────────────────────────
-function ChallengeType({ filtered, lang, ui }) {
-  const [words, setWords] = useState(() => shuffle(filtered))
+function ChallengeType({ filtered, lang, ui, onComplete }) {
+  const [words] = useState(() => shuffle(filtered))
   const [index, setIndex] = useState(0)
   const [input, setInput] = useState('')
   const [result, setResult] = useState(null)
   const [score, setScore] = useState({ correct: 0, total: 0 })
   const [showKb, setShowKb] = useState(true)
+  const [done, setDone] = useState(false)
   const inputRef = useRef(null)
 
   const word = words[index]
+
+  if (done) return (
+    <CompletionCard score={score} nextLabel="Next stage" onNext={onComplete}
+      onRestart={() => { setIndex(0); setInput(''); setResult(null); setScore({ correct: 0, total: 0 }); setDone(false) }} />
+  )
+
   if (!word) return null
 
   const def = t(word.definition, word.translations, lang)
@@ -524,7 +560,7 @@ function ChallengeType({ filtered, lang, ui }) {
 
   function handleNext() {
     if (index < words.length - 1) setIndex(i => i + 1)
-    else { setWords(shuffle(filtered)); setIndex(0); setScore({ correct: 0, total: 0 }) }
+    else setDone(true)
     setInput('')
     setResult(null)
     setTimeout(() => inputRef.current?.focus(), 50)
@@ -590,12 +626,13 @@ function ChallengeType({ filtered, lang, ui }) {
 }
 
 // ── Challenge — Pick Word ─────────────────────────────────────────────────────
-function ChallengePickWord({ filtered, lang, ui }) {
-  const [words, setWords] = useState(() => shuffle(filtered))
+function ChallengePickWord({ filtered, lang, ui, onComplete }) {
+  const [words] = useState(() => shuffle(filtered))
   const [index, setIndex] = useState(0)
   const [options, setOptions] = useState([])
   const [selected, setSelected] = useState(null)
   const [score, setScore] = useState({ correct: 0, total: 0 })
+  const [done, setDone] = useState(false)
 
   const word = words[index]
 
@@ -612,6 +649,11 @@ function ChallengePickWord({ filtered, lang, ui }) {
     return () => clearTimeout(timer)
   }, [selected])
 
+  if (done) return (
+    <CompletionCard score={score} nextLabel="Next stage" onNext={onComplete}
+      onRestart={() => { setIndex(0); setSelected(null); setScore({ correct: 0, total: 0 }); setDone(false) }} />
+  )
+
   if (!word) return null
 
   const def = t(word.definition, word.translations, lang)
@@ -624,7 +666,7 @@ function ChallengePickWord({ filtered, lang, ui }) {
 
   function handleNext() {
     if (index < words.length - 1) setIndex(i => i + 1)
-    else { setWords(shuffle(filtered)); setIndex(0); setScore({ correct: 0, total: 0 }) }
+    else setDone(true)
   }
 
   return (
@@ -664,13 +706,14 @@ function ChallengePickWord({ filtered, lang, ui }) {
 }
 
 // ── Challenge — Pick Image (reverse: word → image) ────────────────────────────
-function ChallengePickImage({ filtered, lang, ui }) {
+function ChallengePickImage({ filtered, lang, ui, onComplete }) {
   const imageFiltered = filtered.filter(hasImage)
-  const [words, setWords] = useState(() => shuffle(imageFiltered))
+  const [words] = useState(() => shuffle(imageFiltered))
   const [index, setIndex] = useState(0)
   const [options, setOptions] = useState([])
   const [selected, setSelected] = useState(null)
   const [score, setScore] = useState({ correct: 0, total: 0 })
+  const [done, setDone] = useState(false)
 
   const word = words[index]
 
@@ -680,9 +723,20 @@ function ChallengePickImage({ filtered, lang, ui }) {
     setSelected(null)
   }, [index, word])
 
+  // Auto-advance 1.5s after correct pick
+  useEffect(() => {
+    if (selected === null || selected !== word?.id) return
+    const timer = setTimeout(() => handleNext(), 1500)
+    return () => clearTimeout(timer)
+  }, [selected])
+
   if (imageFiltered.length < 4) {
     return <div className="empty-tab">🖼️ Need at least 4 vocabulary images for Pick Image mode.</div>
   }
+  if (done) return (
+    <CompletionCard score={score} nextLabel="Next stage" onNext={onComplete}
+      onRestart={() => { setIndex(0); setSelected(null); setScore({ correct: 0, total: 0 }); setDone(false) }} />
+  )
   if (!word) return null
 
   function handleSelect(opt) {
@@ -693,7 +747,7 @@ function ChallengePickImage({ filtered, lang, ui }) {
 
   function handleNext() {
     if (index < words.length - 1) setIndex(i => i + 1)
-    else { setWords(shuffle(imageFiltered)); setIndex(0); setScore({ correct: 0, total: 0 }) }
+    else setDone(true)
   }
 
   return (
@@ -738,7 +792,7 @@ function ChallengePickImage({ filtered, lang, ui }) {
             )}
           </div>
         )}
-        {selected !== null && (
+        {selected !== null && selected !== word.id && (
           <button className="nav-btn nav-btn--primary" onClick={handleNext}>Next →</button>
         )}
       </div>
@@ -747,7 +801,7 @@ function ChallengePickImage({ filtered, lang, ui }) {
 }
 
 // ── Challenge wrapper ─────────────────────────────────────────────────────────
-function RecognizeMode({ filtered, lang, ui }) {
+function RecognizeMode({ filtered, lang, ui, onComplete }) {
   const [sub, setSub] = useState('pick-word')
   const key = `${filtered.length}-${sub}`
 
@@ -767,33 +821,32 @@ function RecognizeMode({ filtered, lang, ui }) {
           </button>
         ))}
       </div>
-      {sub === 'pick-word'  && <RecognizePickWord  key={key} filtered={filtered} lang={lang} ui={ui} />}
-      {sub === 'pick-image' && <ChallengePickImage key={key} filtered={filtered} lang={lang} ui={ui} />}
+      {sub === 'pick-word'  && <RecognizePickWord  key={key} filtered={filtered} lang={lang} ui={ui} onComplete={onComplete} />}
+      {sub === 'pick-image' && <ChallengePickImage key={key} filtered={filtered} lang={lang} ui={ui} onComplete={onComplete} />}
     </>
   )
 }
 
 // ── Challenge — Record it ─────────────────────────────────────────────────────
-function ChallengeRecord({ filtered, lang, ui }) {
-  const [words, setWords]       = useState(() => shuffle(filtered))
-  const [index, setIndex]       = useState(0)
+function ChallengeRecord({ filtered, lang, ui, onComplete }) {
+  const [words]             = useState(() => shuffle(filtered))
+  const [index, setIndex]   = useState(0)
   const [recording, setRecording] = useState(false)
   const [audioUrl, setAudioUrl] = useState(null)
-  const [result, setResult]     = useState(null)   // null | 'correct' | 'wrong'
+  const [result, setResult] = useState(null)
   const [revealed, setRevealed] = useState(false)
-  const [score, setScore]       = useState({ correct: 0, total: 0 })
+  const [score, setScore]   = useState({ correct: 0, total: 0 })
+  const [done, setDone]     = useState(false)
   const mediaRef  = useRef(null)
   const chunksRef = useRef([])
 
   const word = words[index]
-  if (!word) return null
-  const def    = t(word.definition, word.translations, lang)
-  const answer = lemma(word.greek)
 
   function handleNext() {
     if (audioUrl) URL.revokeObjectURL(audioUrl)
-    if (index < words.length - 1) setIndex(i => i + 1)
-    else { setWords(shuffle(filtered)); setIndex(0); setScore({ correct: 0, total: 0 }) }
+    const atEnd = index >= words.length - 1
+    if (!atEnd) setIndex(i => i + 1)
+    else setDone(true)
     setAudioUrl(null)
     setResult(null)
     setRevealed(false)
@@ -835,6 +888,11 @@ function ChallengeRecord({ filtered, lang, ui }) {
     setResult(correct ? 'correct' : 'wrong')
     setScore(s => ({ correct: s.correct + (correct ? 1 : 0), total: s.total + 1 }))
   }
+
+  if (!word || done) return (
+    <CompletionCard score={score} nextLabel="Next stage" onNext={onComplete}
+      onRestart={() => { setIndex(0); setAudioUrl(null); setResult(null); setRevealed(false); setScore({ correct: 0, total: 0 }); setDone(false) }} />
+  )
 
   return (
     <>
@@ -893,7 +951,7 @@ function ChallengeRecord({ filtered, lang, ui }) {
   )
 }
 
-function ChallengeMode({ filtered, lang, ui }) {
+function ChallengeMode({ filtered, lang, ui, onComplete }) {
   const [sub, setSub] = useState('bank')
   const key = `${filtered.length}-${sub}`
   return (
@@ -913,9 +971,9 @@ function ChallengeMode({ filtered, lang, ui }) {
           </button>
         ))}
       </div>
-      {sub === 'bank'   && <ChallengeWordBank key={key} filtered={filtered} lang={lang} ui={ui} />}
-      {sub === 'type'   && <ChallengeType    key={key} filtered={filtered} lang={lang} ui={ui} />}
-      {sub === 'record' && <ChallengeRecord  key={key} filtered={filtered} lang={lang} ui={ui} />}
+      {sub === 'bank'   && <ChallengeWordBank key={key} filtered={filtered} lang={lang} ui={ui} onComplete={onComplete} />}
+      {sub === 'type'   && <ChallengeType    key={key} filtered={filtered} lang={lang} ui={ui} onComplete={onComplete} />}
+      {sub === 'record' && <ChallengeRecord  key={key} filtered={filtered} lang={lang} ui={ui} onComplete={onComplete} />}
     </>
   )
 }
@@ -925,36 +983,58 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart }) 
   const { lang } = useLanguage()
   const ui = useUI()
   const [mode, setMode] = useState('learn')
+  const [allDone, setAllDone] = useState(false)
   const filtered = words ? words.filter(w => !w.part || w.part === activePart) : []
 
-  useEffect(() => { setMode('learn') }, [unitId, chapterId, activePart])
+  useEffect(() => { setMode('learn'); setAllDone(false) }, [unitId, chapterId, activePart])
 
   if (!words || filtered.length === 0) {
     return <div className="empty-tab"><p>📋 Vocabulary for this part has not been added yet.</p></div>
   }
 
+  const MODES = [
+    { id: 'learn',     label: '📖 Encounter' },
+    { id: 'test',      label: '👁️ Recognize' },
+    { id: 'challenge', label: '✍️ Produce'   },
+  ]
+
+  function advanceMode() {
+    const idx = MODES.findIndex(m => m.id === mode)
+    if (idx < MODES.length - 1) setMode(MODES[idx + 1].id)
+    else setAllDone(true)
+  }
+
   return (
     <div className="vocab-tab">
       <div className="vocab-mode-tabs">
-        {[
-          { id: 'learn',     label: '📖 Encounter' },
-          { id: 'test',      label: '👁️ Recognize' },
-          { id: 'challenge', label: '✍️ Produce' },
-        ].map(m => (
-          <button key={m.id} className={`vocab-mode-btn ${mode === m.id ? 'vocab-mode-btn--active' : ''}`} onClick={() => setMode(m.id)}>
+        {MODES.map(m => (
+          <button key={m.id} className={`vocab-mode-btn ${mode === m.id ? 'vocab-mode-btn--active' : ''}`} onClick={() => { setMode(m.id); setAllDone(false) }}>
             {m.label}
           </button>
         ))}
       </div>
 
-      {mode === 'learn' && (
-        <LearnMode filtered={filtered} unitId={unitId} chapterId={chapterId} activePart={activePart} lang={lang} ui={ui} />
-      )}
-      {mode === 'test' && (
-        <RecognizeMode key={`test-${unitId}-${chapterId}-${activePart}`} filtered={filtered} lang={lang} ui={ui} />
-      )}
-      {mode === 'challenge' && (
-        <ChallengeMode key={`challenge-${unitId}-${chapterId}-${activePart}`} filtered={filtered} lang={lang} ui={ui} />
+      {allDone ? (
+        <div className="stage-complete stage-complete--final">
+          <div className="stage-complete-icon">🎉</div>
+          <h3 className="stage-complete-title">Well done!</h3>
+          <p className="stage-complete-score">You've completed all three stages for this vocabulary set.</p>
+          <button className="nav-btn nav-btn--primary" onClick={() => { setMode('learn'); setAllDone(false) }}>
+            Start over
+          </button>
+        </div>
+      ) : (
+        <>
+          {mode === 'learn' && (
+            <LearnMode filtered={filtered} unitId={unitId} chapterId={chapterId} activePart={activePart} lang={lang} ui={ui} onComplete={advanceMode} />
+          )}
+          {mode === 'test' && (
+            <RecognizeMode key={`test-${unitId}-${chapterId}-${activePart}`} filtered={filtered} lang={lang} ui={ui} onComplete={advanceMode} />
+          )}
+          {mode === 'challenge' && (
+            <ChallengeMode key={`challenge-${unitId}-${chapterId}-${activePart}`} filtered={filtered} lang={lang} ui={ui} onComplete={advanceMode} />
+          )}
+        </>
       )}
     </div>
   )
