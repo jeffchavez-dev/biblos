@@ -284,3 +284,139 @@
   padding: 40px 0;
   text-align: center;
 }
+
+/* ── Contract verb sub-group section ── */
+.verb-group-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+.verb-group-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--grey);
+  white-space: nowrap;
+}
+.verb-group-chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.verb-group-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1.5px solid transparent;
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'Gentium Plus', Georgia, serif;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.verb-group-chip--epsilon {
+  background: #ede9fe;
+  color: #5b21b6;
+  border-color: #c4b5fd;
+}
+.verb-group-chip--epsilon:hover,
+.verb-group-chip--epsilon.verb-group-chip--active {
+  background: #7c3aed;
+  color: #fff;
+  border-color: #7c3aed;
+}
+.verb-group-chip--alpha {
+  background: #fef3c7;
+  color: #92400e;
+  border-color: #fcd34d;
+}
+.verb-group-chip--alpha:hover,
+.verb-group-chip--alpha.verb-group-chip--active {
+  background: #d97706;
+  color: #fff;
+  border-color: #d97706;
+}
+
+/* ── Contract verb banner ── */
+.contract-banner {
+  border-radius: var(--radius, 8px);
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  border-left: 4px solid;
+}
+.contract-banner--epsilon {
+  background: #f5f3ff;
+  border-color: #7c3aed;
+}
+.contract-banner--alpha {
+  background: #fffbeb;
+  border-color: #d97706;
+}
+.contract-banner-head {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+.contract-banner-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--deep-blue);
+}
+.contract-banner-tip {
+  font-size: 0.8rem;
+  color: #555;
+  line-height: 1.5;
+}
+.contract-pattern-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.contract-pattern-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  background: rgba(255,255,255,0.75);
+  border-radius: 8px;
+  padding: 8px 12px;
+  min-width: 110px;
+  text-align: center;
+}
+.cp-from {
+  font-size: 0.9rem;
+  color: #888;
+}
+.cp-arrow {
+  font-size: 0.75rem;
+  color: #aaa;
+}
+.cp-to {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--deep-blue);
+}
+.cp-example {
+  font-size: 0.7rem;
+  color: #777;
+  margin-top: 2px;
+}
+
+/* 3sg column */
+.vt-3sg {
+  min-width: 90px;
+}
+.vt-3sg-form {
+  font-size: 1rem;
+  color: var(--deep-blue);
+  font-weight: 600;
+}
+.vt-3sg-missing {
+  color: #ccc;
+}

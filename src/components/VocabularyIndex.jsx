@@ -27,12 +27,50 @@ const CATEGORIES = [
   { id: 'other',       labelKey: 'catOther',       test: () => true },
 ]
 
+// Verb sub-groups shown as a separate filter section
+const VERB_GROUPS = [
+  {
+    id: 'verb-epsilon',
+    label: 'ε-contract (-έω)',
+    labelShort: '-έω verbs',
+    test: p => /verb.*-έω/.test(p),
+    pattern: [
+      { from: 'ε + ει',  to: 'εῖ',  example: 'θεωρέω → θεωρεῖ' },
+      { from: 'ε + ο',   to: 'ου',  example: 'θεωρέω → θεωροῦμεν' },
+      { from: 'ε + ου',  to: 'οῦ',  example: 'θεωρέω → θεωροῦ' },
+      { from: 'ε + ε',   to: 'εῖ',  example: 'ζητέω → ζητεῖ' },
+    ],
+    tip: 'When the stem ends in ε and the ending begins with ε or ο, they merge into a long vowel or diphthong.',
+  },
+  {
+    id: 'verb-alpha',
+    label: 'α-contract (-άω)',
+    labelShort: '-άω verbs',
+    test: p => /verb.*-άω/.test(p),
+    pattern: [
+      { from: 'α + ει',  to: 'ᾷ',   example: 'ἀγαπάω → ἀγαπᾷ' },
+      { from: 'α + ε',   to: 'ᾷ',   example: 'ἀγαπάω → ἀγαπᾷ' },
+      { from: 'α + ο',   to: 'ῶ',   example: 'ἀγαπάω → ἀγαπῶ' },
+      { from: 'α + ου',  to: 'ῶ',   example: 'ἀγαπάω → ἀγαπῶ' },
+    ],
+    tip: 'An α stem before any ο/ω sound gives ω; before ε/ει/η gives ᾳ (with iota subscript). The α always dominates!',
+  },
+]
+
 function getCategory(partOfSpeech = '') {
   const pos = partOfSpeech.toLowerCase()
   for (const cat of CATEGORIES) {
     if (cat.test(pos)) return cat.id
   }
   return 'other'
+}
+
+function getVerbGroup(partOfSpeech = '') {
+  const pos = partOfSpeech
+  for (const g of VERB_GROUPS) {
+    if (g.test(pos)) return g.id
+  }
+  return null
 }
 
 function sourceLabel(chapter, part) {
@@ -61,6 +99,7 @@ export default function VocabularyIndex({ onNavigate }) {
   const [sort, setSort] = useState('lesson')
   const [query, setQuery] = useState('')
   const [activeCats, setActiveCats] = useState(new Set()) // empty = all
+  const [activeVerbGroup, setActiveVerbGroup] = useState(null)
   const [loading, setLoading] = useState(true)
   const [fsWord, setFsWord] = useState(null)
   const searchRef = useRef(null)
@@ -76,6 +115,7 @@ export default function VocabularyIndex({ onNavigate }) {
             source: sourceLabel(chapter, w.part),
             lessonOrder: chapter * 10 + (w.part === 'A' ? 1 : 2),
             category: getCategory(w.partOfSpeech),
+            verbGroup: getVerbGroup(w.partOfSpeech || ''),
           }))
         )
         setWords(all)
@@ -93,12 +133,22 @@ export default function VocabularyIndex({ onNavigate }) {
       next.has(id) ? next.delete(id) : next.add(id)
       return next
     })
+    setActiveVerbGroup(null)
+  }
+
+  function selectVerbGroup(id) {
+    setActiveVerbGroup(prev => prev === id ? null : id)
+    setActiveCats(new Set())
   }
 
   // Count per category (from full unfiltered set)
   const catCounts = {}
   for (const cat of CATEGORIES) {
     catCounts[cat.id] = words.filter(w => w.category === cat.id).length
+  }
+  const verbGroupCounts = {}
+  for (const g of VERB_GROUPS) {
+    verbGroupCounts[g.id] = words.filter(w => w.verbGroup === g.id).length
   }
 
   const sorted = [...words].sort((a, b) =>
@@ -107,13 +157,14 @@ export default function VocabularyIndex({ onNavigate }) {
       : a.lessonOrder - b.lessonOrder || a.id - b.id
   )
 
-  const filtered = sorted.filter(w =>
-    (activeCats.size === 0 || activeCats.has(w.category)) &&
-    matches(w, query)
-  )
+  const filtered = sorted.filter(w => {
+    if (activeVerbGroup) return w.verbGroup === activeVerbGroup && matches(w, query)
+    return (activeCats.size === 0 || activeCats.has(w.category)) && matches(w, query)
+  })
 
   const total = words.length
-  const isFiltered = query.trim().length > 0 || activeCats.size > 0
+  const isFiltered = query.trim().length > 0 || activeCats.size > 0 || !!activeVerbGroup
+  const activeGroup = VERB_GROUPS.find(g => g.id === activeVerbGroup)
 
   return (
     <div className="vocab-index">
@@ -170,12 +221,31 @@ export default function VocabularyIndex({ onNavigate }) {
               <span className="pos-chip-count">{catCounts[cat.id]}</span>
             </button>
           ))}
-          {activeCats.size > 0 && (
-            <button className="pos-chip-clear" onClick={() => setActiveCats(new Set())}>
+          {(activeCats.size > 0 || activeVerbGroup) && (
+            <button className="pos-chip-clear" onClick={() => { setActiveCats(new Set()); setActiveVerbGroup(null) }}>
               {ui('clearFilters')}
             </button>
           )}
         </div>
+
+        {/* Verb sub-groups */}
+        {VERB_GROUPS.some(g => verbGroupCounts[g.id] > 0) && (
+          <div className="verb-group-section">
+            <span className="verb-group-label">Contract Verbs</span>
+            <div className="verb-group-chips">
+              {VERB_GROUPS.filter(g => verbGroupCounts[g.id] > 0).map(g => (
+                <button
+                  key={g.id}
+                  className={`verb-group-chip verb-group-chip--${g.id.replace('verb-','')} ${activeVerbGroup === g.id ? 'verb-group-chip--active' : ''}`}
+                  onClick={() => selectVerbGroup(g.id)}
+                >
+                  {g.label}
+                  <span className="pos-chip-count">{verbGroupCounts[g.id]}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Sort */}
         <div className="vocab-index-sort">
@@ -201,11 +271,33 @@ export default function VocabularyIndex({ onNavigate }) {
           {isFiltered && (
             <p className="vocab-index-result-count">{filtered.length} of {total} {ui('words')}</p>
           )}
+
+          {/* Contract verb pattern banner */}
+          {activeGroup && (
+            <div className={`contract-banner contract-banner--${activeGroup.id.replace('verb-','')}`}>
+              <div className="contract-banner-head">
+                <span className="contract-banner-title greek">{activeGroup.label}</span>
+                <span className="contract-banner-tip">{activeGroup.tip}</span>
+              </div>
+              <div className="contract-pattern-row">
+                {activeGroup.pattern.map((p, i) => (
+                  <div key={i} className="contract-pattern-cell">
+                    <span className="cp-from greek">{p.from}</span>
+                    <span className="cp-arrow">→</span>
+                    <span className="cp-to greek">{p.to}</span>
+                    <span className="cp-example greek">{p.example}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           <table className="vocab-table">
             <thead>
               <tr>
                 <th className="vt-img-col"></th>
                 <th className="vt-greek">{ui('colGreek')}</th>
+                {activeGroup && <th className="vt-3sg">3sg</th>}
                 <th className="vt-english">{ui('colEnglish')}</th>
                 <th className="vt-pos">{ui('colType')}</th>
                 <th className="vt-source">{ui('colLesson')}</th>
@@ -224,6 +316,13 @@ export default function VocabularyIndex({ onNavigate }) {
                   <td className="vt-greek greek">
                     <Highlight text={w.greek} query={query} isGreek />
                   </td>
+                  {activeGroup && (
+                    <td className="vt-3sg greek">
+                      {w.thirdSingular
+                        ? <span className="vt-3sg-form">{w.thirdSingular}</span>
+                        : <span className="vt-3sg-missing">—</span>}
+                    </td>
+                  )}
                   <td className="vt-english">
                     <Highlight text={t(w.definition, w.translations, lang)} query={query} />
                   </td>
