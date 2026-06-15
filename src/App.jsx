@@ -77,7 +77,7 @@ function AppInner() {
       <header className={`app-header ${navHidden ? 'app-header--hidden' : ''}`}>
         <button className="menu-btn" onClick={() => {
           if (window.innerWidth <= 768) setSidebarOpen(v => !v)
-          else setDesktopSidebarHidden(v => !v)
+          else { setDesktopSidebarHidden(v => !v); setNavHidden(v => !v) }
         }} aria-label="Menu">
           <span /><span /><span />
         </button>
