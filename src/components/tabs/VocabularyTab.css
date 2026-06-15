@@ -79,7 +79,8 @@
 }
 
 /* Image card layout: image fills entire card, strips float over it */
-.flashcard-front:has(.flashcard-image) {
+.flashcard-front:has(.flashcard-image),
+.flashcard-front:has(.flashcard-images-row) {
   padding: 0;
   gap: 0;
   overflow: hidden;
@@ -93,6 +94,21 @@
   object-fit: contain;
   object-position: center;
   border-radius: var(--radius);
+}
+.flashcard-images-row {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  gap: 2px;
+}
+.flashcard-image--multi {
+  position: static;
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 0;
 }
 .flashcard-strip {
   position: absolute;

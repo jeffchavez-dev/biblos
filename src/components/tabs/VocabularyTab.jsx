@@ -14,6 +14,9 @@ function shuffle(arr) {
 
 function lemma(greek) { return greek.split(',')[0].trim() }
 
+function wordImages(w) { return w.images || (w.image ? [w.image] : []) }
+function hasImage(w) { return wordImages(w).length > 0 }
+
 // Prefer same part-of-speech distractors, fall back to any
 function buildOptions(pool, correct, count = 3) {
   const pos = correct.partOfSpeech
@@ -124,12 +127,17 @@ function LearnMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
   function handleNext() { setFlipped(false); setTimeout(() => setIndex(i => (i + 1) % filtered.length), 150) }
   function handlePrev() { setFlipped(false); setTimeout(() => setIndex(i => (i - 1 + filtered.length) % filtered.length), 150) }
 
-  const imageWords = filtered.filter(w => w.image)
-  const imageSrcs = imageWords.map(w => `/vocab-images/${w.image}`)
-  const imageCaptions = imageWords.map(w => ({ greek: w.thirdSingular ?? w.greek, lexical: w.thirdSingular ? w.greek : null }))
-  const fsIndex = imageWords.findIndex(w => w.id === word.id)
+  const imageWords = filtered.filter(hasImage)
+  // Expand multi-image words so fullscreen gallery shows each image separately
+  const fsEntries = imageWords.flatMap(w =>
+    wordImages(w).map(img => ({ src: `/vocab-images/${img}`, caption: { greek: w.thirdSingular ?? w.greek, lexical: w.thirdSingular ? w.greek : null } }))
+  )
+  const imageSrcs = fsEntries.map(e => e.src)
+  const imageCaptions = fsEntries.map(e => e.caption)
+  const fsIndex = imageWords.slice(0, imageWords.findIndex(w => w.id === word.id))
+    .reduce((acc, w) => acc + wordImages(w).length, 0)
 
-  function openFullscreen(e) { e.stopPropagation(); if (word.image) setFullscreen(true) }
+  function openFullscreen(e) { e.stopPropagation(); if (hasImage(word)) setFullscreen(true) }
   function fsPrev() {
     const cur = imageWords.findIndex(w => w.id === word.id)
     if (cur > 0) { setFlipped(false); setIndex(filtered.indexOf(imageWords[cur - 1])) }
@@ -141,7 +149,7 @@ function LearnMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
 
   return (
     <>
-      {fullscreen && word.image && (
+      {fullscreen && hasImage(word) && (
         <FullscreenViewer images={imageSrcs} captions={imageCaptions} index={Math.max(0, fsIndex)} onClose={() => setFullscreen(false)} onPrev={fsPrev} onNext={fsNext} />
       )}
       <div className="vocab-header">
@@ -159,13 +167,21 @@ function LearnMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
       <div className={`flashcard ${flipped ? 'flashcard--flipped' : ''}`} onClick={handleFlip}>
         <div className="flashcard-inner">
           <div className="flashcard-front">
-            {word.image ? (
+            {hasImage(word) ? (
               <>
                 <div className="flashcard-strip flashcard-strip--top">
                   <div className="flashcard-hint">{ui('tapToReveal')}</div>
                   <button className="flashcard-fs-btn" onClick={openFullscreen} aria-label="Fullscreen">⛶</button>
                 </div>
-                <img src={`/vocab-images/${word.image}`} alt={t(word.definition, word.translations, lang)} className="flashcard-image" />
+                {wordImages(word).length > 1 ? (
+                  <div className="flashcard-images-row">
+                    {wordImages(word).map((img, i) => (
+                      <img key={i} src={`/vocab-images/${img}`} alt="" className="flashcard-image--multi" />
+                    ))}
+                  </div>
+                ) : (
+                  <img src={`/vocab-images/${wordImages(word)[0]}`} alt={t(word.definition, word.translations, lang)} className="flashcard-image" />
+                )}
                 <div className="flashcard-strip flashcard-strip--bottom">
                   <div className="flashcard-greek greek">
                     {word.thirdSingular ?? word.greek}
@@ -202,7 +218,7 @@ function LearnMode({ filtered, unitId, chapterId, activePart, lang, ui }) {
 
 // ── Test (image → pick Greek word, same POS distractors) ─────────────────────
 function RecognizePickWord({ filtered, lang, ui }) {
-  const imageFiltered = filtered.filter(w => w.image)
+  const imageFiltered = filtered.filter(hasImage)
   const [words, setWords] = useState(() => shuffle(imageFiltered))
   const [index, setIndex] = useState(0)
   const [options, setOptions] = useState([])
@@ -268,11 +284,11 @@ function RecognizePickWord({ filtered, lang, ui }) {
 
   return (
     <>
-      {fullscreen && word.image && (
+      {fullscreen && hasImage(word) && (
         <div className="practice-fs-overlay" onClick={() => setFullscreen(false)}>
           <button className="fs-close" onClick={() => setFullscreen(false)} aria-label="Close">✕</button>
           <div className="practice-fs-image-wrap" onClick={e => e.stopPropagation()}>
-            <img className="fs-image" src={`/vocab-images/${word.image}`} alt="vocabulary" />
+            <img className="fs-image" src={`/vocab-images/${wordImages(word)[0]}`} alt="vocabulary" />
             {selected !== null && (
               <>
                 <div className={`practice-result-icon ${selected === word.id ? 'practice-result-icon--correct' : 'practice-result-icon--wrong'}`}>
@@ -296,7 +312,7 @@ function RecognizePickWord({ filtered, lang, ui }) {
       </div>
       <div className="practice-card">
         <div className="practice-image-wrap">
-          <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
+          <img src={`/vocab-images/${wordImages(word)[0]}`} alt="vocabulary" className="practice-image" />
           <button className="flashcard-fs-btn practice-fs-btn" onClick={() => setFullscreen(true)} aria-label="Fullscreen">⛶</button>
           {selected !== null && (
             <>
@@ -315,7 +331,7 @@ function RecognizePickWord({ filtered, lang, ui }) {
 
 // ── Challenge — Word Bank (image → click word from large pool) ────────────────
 function ChallengeWordBank({ filtered, lang, ui }) {
-  const imageFiltered = filtered.filter(w => w.image)
+  const imageFiltered = filtered.filter(hasImage)
   const [words, setWords]   = useState(() => shuffle(imageFiltered))
   const [index, setIndex]   = useState(0)
   const [bank, setBank]     = useState([])
@@ -361,8 +377,8 @@ function ChallengeWordBank({ filtered, lang, ui }) {
         </div>
       </div>
       <div className="challenge-card">
-        {word.image
-          ? <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
+        {hasImage(word)
+          ? <img src={`/vocab-images/${wordImages(word)[0]}`} alt="vocabulary" className="practice-image" />
           : <div className="practice-prompt">{def}</div>
         }
         <p className="practice-question">Pick the word from the bank:</p>
@@ -437,8 +453,8 @@ function ChallengeType({ filtered, lang, ui }) {
         </div>
       </div>
       <div className="challenge-card">
-        {word.image
-          ? <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
+        {hasImage(word)
+          ? <img src={`/vocab-images/${wordImages(word)[0]}`} alt="vocabulary" className="practice-image" />
           : <div className="practice-prompt">{def}</div>
         }
         <p className="practice-question">Type the Greek word:</p>
@@ -527,8 +543,8 @@ function ChallengePickWord({ filtered, lang, ui }) {
         </div>
       </div>
       <div className="challenge-card">
-        {word.image
-          ? <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
+        {hasImage(word)
+          ? <img src={`/vocab-images/${wordImages(word)[0]}`} alt="vocabulary" className="practice-image" />
           : <div className="practice-prompt">{def}</div>
         }
         <div className="practice-options practice-options--2col">
@@ -555,7 +571,7 @@ function ChallengePickWord({ filtered, lang, ui }) {
 
 // ── Challenge — Pick Image (reverse: word → image) ────────────────────────────
 function ChallengePickImage({ filtered, lang, ui }) {
-  const imageFiltered = filtered.filter(w => w.image)
+  const imageFiltered = filtered.filter(hasImage)
   const [words, setWords] = useState(() => shuffle(imageFiltered))
   const [index, setIndex] = useState(0)
   const [options, setOptions] = useState([])
@@ -736,8 +752,8 @@ function ChallengeRecord({ filtered, lang, ui }) {
         </div>
       </div>
       <div className="challenge-card">
-        {word.image
-          ? <img src={`/vocab-images/${word.image}`} alt="vocabulary" className="practice-image" />
+        {hasImage(word)
+          ? <img src={`/vocab-images/${wordImages(word)[0]}`} alt="vocabulary" className="practice-image" />
           : <div className="practice-prompt">{def}</div>
         }
 

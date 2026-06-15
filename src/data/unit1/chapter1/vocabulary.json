@@ -387,7 +387,11 @@
       "fil": "maliit"
     },
     "partOfSpeech": "adjective",
-    "image": "ch1a-adj-3.jpeg"
+    "image": "ch1a-adj-3.jpeg",
+    "images": [
+      "ch1a-adj-3.jpeg",
+      "ch1a-adj-5.jpeg"
+    ]
   },
   {
     "id": 28,
@@ -401,7 +405,11 @@
       "fil": "dakila, malaki"
     },
     "partOfSpeech": "adjective (irregular)",
-    "image": "ch1a-adj-4.jpeg"
+    "image": "ch1a-adj-4.jpeg",
+    "images": [
+      "ch1a-adj-4.jpeg",
+      "ch1a-adj-6.jpeg"
+    ]
   },
   {
     "id": 29,
