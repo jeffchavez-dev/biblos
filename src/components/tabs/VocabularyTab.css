@@ -1,11 +1,12 @@
-.vocab-tab { display: flex; flex-direction: column; gap: 24px; }
+.vocab-tab { display: flex; flex-direction: column; gap: 10px; }
 
 .vocab-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
+  min-height: 0;
 }
 .vocab-header h2 { font-size: 1.3rem; color: var(--deep-blue); }
 .vocab-stats { display: flex; gap: 12px; align-items: center; font-size: 0.85rem; color: var(--grey); }
@@ -259,17 +260,17 @@
   display: flex;
   background: var(--grey-light, #f0f0f0);
   border-radius: var(--radius);
-  padding: 4px;
+  padding: 3px;
   gap: 2px;
 }
 .vocab-mode-btn {
   flex: 1;
-  padding: 8px 12px;
+  padding: 5px 10px;
   border: none;
   border-radius: calc(var(--radius) - 2px);
   background: transparent;
   color: var(--grey);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 500;
   cursor: pointer;
   transition: background 0.15s, color 0.15s;
@@ -535,17 +536,17 @@
 /* Challenge sub-tabs */
 .challenge-sub-tabs {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   flex-wrap: wrap;
 }
 .challenge-sub-btn {
   flex: 1;
-  padding: 8px 12px;
+  padding: 5px 10px;
   border: 1.5px solid var(--border);
   border-radius: var(--radius-sm);
   background: #fff;
   color: var(--grey);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 500;
   cursor: pointer;
   transition: background 0.15s, color 0.15s, border-color 0.15s;
