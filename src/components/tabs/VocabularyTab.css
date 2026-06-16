@@ -767,10 +767,46 @@
 
 /* ── Mobile responsive ──────────────────────────────────────────────────── */
 @media (max-width: 600px) {
-  .flashcard { height: auto; min-height: 220px; }
+  /* Flashcard: keep absolute positioning but use a sensible fixed height */
+  .flashcard { height: 300px; }
   .flashcard-front, .flashcard-back { padding: 18px; }
-  .practice-image { max-height: 220px; }
-  .practice-prompt { padding: 16px; min-height: 80px; }
+  .flashcard-strip .flashcard-greek { font-size: 1.4rem; }
+
+  /* Recognize/Produce image */
+  .practice-image { max-height: 200px; }
+  .practice-prompt { padding: 16px; min-height: 70px; font-size: 1.15rem; }
+  .practice-options { flex-direction: column; }
   .practice-options--2col { grid-template-columns: 1fr; }
+
+  /* Pick image grid */
   .pick-image-grid { height: auto; grid-template-columns: 1fr 1fr; grid-template-rows: auto; gap: 6px; }
+
+  /* Mode tabs */
+  .vocab-mode-btn { font-size: 0.78rem; padding: 6px 10px; }
+}
+
+/* ── Landscape mobile (rotated phone) ──────────────────────────────────── */
+@media (max-height: 500px) and (orientation: landscape) {
+  /* Side-by-side layout: image left, controls right */
+  .practice-card {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .practice-image-wrap { flex: 1; min-width: 0; }
+  .practice-image { max-height: 180px; }
+  .practice-options-wrap, .practice-options { flex: 1; min-width: 0; }
+  .practice-options { flex-direction: column; }
+
+  /* Flashcard landscape — shorter */
+  .flashcard { height: 220px; }
+  .flashcard-strip .flashcard-greek { font-size: 1.3rem; }
+
+  /* Vocab tab layout — use full width */
+  .vocab-tab { padding: 0; }
+  .vocab-mode-tabs { gap: 4px; }
+  .vocab-mode-btn { padding: 5px 10px; font-size: 0.75rem; }
+
+  /* Pick image: 4 in a row in landscape */
+  .pick-image-grid { grid-template-columns: repeat(4, 1fr); height: 160px; }
 }

@@ -886,13 +886,15 @@
   .display-toggle-btn { font-size: 0.75rem; padding: 5px 9px; }
   .toolbar-divider { display: none; }
 
-  /* Table columns — hide less-critical columns, prevent overflow */
+  /* Table columns — simplify for mobile */
   .vt-pos { display: none; }
-  .vt-source { display: none; }
   .vt-3sg { display: none; }
   .vt-3sg-form { display: none; }
   .vt-3sg-missing { display: none; }
   .vt-greek { min-width: 0; }
+  /* Keep Lesson col but shrink it */
+  .vt-source { width: 40px; font-size: 0.72rem; }
+  .vt-source .source-btn { font-size: 0.7rem; padding: 2px 6px; min-width: 0; }
 
   /* Paradigm */
   .para-panel { padding: 10px 10px 14px; }
