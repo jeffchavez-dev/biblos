@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react'
 import { useUI, useLanguage, t } from '../context/LanguageContext.jsx'
 import FullscreenViewer from './FullscreenViewer.jsx'
+import GreekKeyboard from './GreekKeyboard.jsx'
 import './VocabularyIndex.css'
 
 function wordImages(w) { return w.images || (w.image ? [w.image] : []) }
@@ -483,11 +484,11 @@ export default function VocabularyIndex({ onNavigate, target }) {
         {showKeyboard && (
           <GreekKeyboard
             onKey={ch => {
-              setQuery(q => q + ch)
-              searchRef.current?.focus()
-            }}
-            onBackspace={() => {
-              setQuery(q => [...q].slice(0, -1).join(''))
+              if (ch === '⌫') {
+                setQuery(q => [...q].slice(0, -1).join(''))
+              } else {
+                setQuery(q => q + ch)
+              }
               searchRef.current?.focus()
             }}
           />
@@ -946,33 +947,6 @@ function ParadigmPanel({ paradigm }) {
 }
 
 
-// ── Greek virtual keyboard ────────────────────────────────────────────────────
-
-const GK_ROWS = [
-  ['α','β','γ','δ','ε','ζ','η','θ','ι','κ','λ','μ'],
-  ['ν','ξ','ο','π','ρ','σ','τ','υ','φ','χ','ψ','ω'],
-]
-
-function GreekKeyboard({ onKey, onBackspace }) {
-  return (
-    <div className="gk-panel">
-      {GK_ROWS.map((row, ri) => (
-        <div key={ri} className="gk-row">
-          {row.map(ch => (
-            <button key={ch} className="gk-key greek" onMouseDown={e => { e.preventDefault(); onKey(ch) }}>
-              {ch}
-            </button>
-          ))}
-          {ri === GK_ROWS.length - 1 && (
-            <button className="gk-key gk-key--back" onMouseDown={e => { e.preventDefault(); onBackspace() }} aria-label="Backspace">
-              ⌫
-            </button>
-          )}
-        </div>
-      ))}
-    </div>
-  )
-}
 
 function Highlight({ text, query, isGreek }) {
   if (!query.trim()) return text
