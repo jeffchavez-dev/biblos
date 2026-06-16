@@ -233,7 +233,7 @@ function parseTAGNT(filePaths, targetStrongs) {
 
       // Col 0: "Mat.1.1#01=NKO" — extract reference
       const refCol = cols[0].trim()
-      const refMatch = refCol.match(/^([A-Z][a-z]+\.\d+\.\d+)/)
+      const refMatch = refCol.match(/^(\d?[A-Z][a-z]+\.\d+\.\d+)/)
       if (!refMatch) continue
       const ref = refMatch[1]
 
