@@ -44,7 +44,7 @@ const VERB_GROUPS = [
     id: 'verb-epsilon',
     label: 'ε-contract (-έω)',
     labelShort: '-έω verbs',
-    test: p => /verb.*-έω/.test(p),
+    test: p => /verb.*-έω/.test(p) || /verb.*contract.*-εω/.test(p.toLowerCase()),
     pattern: [
       { from: 'ε + ει',  to: 'εῖ',  example: 'θεωρέω → θεωρεῖ' },
       { from: 'ε + ο',   to: 'ου',  example: 'θεωρέω → θεωροῦμεν' },
@@ -57,7 +57,7 @@ const VERB_GROUPS = [
     id: 'verb-alpha',
     label: 'α-contract (-άω)',
     labelShort: '-άω verbs',
-    test: p => /verb.*-άω/.test(p),
+    test: p => /verb.*-άω/.test(p) || /verb.*contract.*-αω/.test(p.toLowerCase()),
     pattern: [
       { from: 'α + ει',  to: 'ᾷ',   example: 'ἀγαπάω → ἀγαπᾷ' },
       { from: 'α + ε',   to: 'ᾷ',   example: 'ἀγαπάω → ἀγαπᾷ' },
@@ -65,6 +65,22 @@ const VERB_GROUPS = [
       { from: 'α + ου',  to: 'ῶ',   example: 'ἀγαπάω → ἀγαπῶ' },
     ],
     tip: 'An α stem before any ο/ω sound gives ω; before ε/ει/η gives ᾳ (with iota subscript). The α always dominates!',
+  },
+  {
+    id: 'verb-deponent',
+    label: 'Deponent verbs',
+    labelShort: 'Deponent',
+    test: p => /deponent/i.test(p),
+    pattern: null,
+    tip: 'Deponent verbs appear only in middle/passive forms but carry active meaning. Present endings: -ομαι, -ῃ/-ει, -εται / -όμεθα, -εσθε, -ονται.',
+  },
+  {
+    id: 'verb-mi',
+    label: 'μι-verbs',
+    labelShort: 'μι-verbs',
+    test: p => /μι/.test(p),
+    pattern: null,
+    tip: 'μι-verbs use -μι (not -ω) for the 1st person singular and show vowel gradation in the stem: e.g. δίδω-μι / δίδο-μεν. Includes δίδωμι, τίθημι, ἵστημι.',
   },
 ]
 
@@ -511,16 +527,18 @@ export default function VocabularyIndex({ onNavigate, target }) {
                 <span className="contract-banner-title greek">{activeGroup.label}</span>
                 <span className="contract-banner-tip">{activeGroup.tip}</span>
               </div>
-              <div className="contract-pattern-row">
-                {activeGroup.pattern.map((p, i) => (
-                  <div key={i} className="contract-pattern-cell">
-                    <span className="cp-from greek">{p.from}</span>
-                    <span className="cp-arrow">→</span>
-                    <span className="cp-to greek">{p.to}</span>
-                    <span className="cp-example greek">{p.example}</span>
-                  </div>
-                ))}
-              </div>
+              {activeGroup.pattern && (
+                <div className="contract-pattern-row">
+                  {activeGroup.pattern.map((p, i) => (
+                    <div key={i} className="contract-pattern-cell">
+                      <span className="cp-from greek">{p.from}</span>
+                      <span className="cp-arrow">→</span>
+                      <span className="cp-to greek">{p.to}</span>
+                      <span className="cp-example greek">{p.example}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           )}
 
@@ -687,23 +705,34 @@ function buildParadigm(word) {
   if (/^verb/.test(pos)) {
     if (pos.includes('-έω') || s.endsWith('εω')) {
       const stem = lemma.slice(0, -2)
-      return { title: 'Present Active — ε-contract (-έω)', type: 'verb',
-        headers: ['PERSON', 'SINGULAR', 'PLURAL'],
-        rows: [['1ST', stem + 'ῶ', stem + 'οῦμεν'], ['2ND', stem + 'εῖς', stem + 'εῖτε'], ['3RD', stem + 'εῖ', stem + 'οῦσι(ν)']],
+      return { type: 'verb-full', title: 'Present Active — ε-contract (-έω)', stem: stem + '-',
+        indicative:  [['1ST', stem+'ῶ',  stem+'οῦμεν'], ['2ND', stem+'εῖς', stem+'εῖτε'], ['3RD', stem+'εῖ',  stem+'οῦσι(ν)']],
+        subjunctive: [['1ST', stem+'ῶ',  stem+'ῶμεν'],  ['2ND', stem+'ῇς',  stem+'ῆτε'],  ['3RD', stem+'ῇ',   stem+'ῶσι(ν)']],
+        imperative:  [['2ND', stem+'εῖ', stem+'εῖτε'],  ['3RD', stem+'είτω',stem+'είτωσαν']],
+        infinitive: stem + 'εῖν',
+        participle: { masc: stem+'ῶν', fem: stem+'οῦσα', neut: stem+'οῦν' },
       }
     }
     if (pos.includes('-άω') || s.endsWith('αω')) {
       const stem = lemma.slice(0, -2)
-      return { title: 'Present Active — α-contract (-άω)', type: 'verb',
-        headers: ['PERSON', 'SINGULAR', 'PLURAL'],
-        rows: [['1ST', stem + 'ῶ', stem + 'ῶμεν'], ['2ND', stem + 'ᾷς', stem + 'ᾶτε'], ['3RD', stem + 'ᾷ', stem + 'ῶσι(ν)']],
+      return { type: 'verb-full', title: 'Present Active — α-contract (-άω)', stem: stem + '-',
+        indicative:  [['1ST', stem+'ῶ',  stem+'ῶμεν'], ['2ND', stem+'ᾷς', stem+'ᾶτε'], ['3RD', stem+'ᾷ',  stem+'ῶσι(ν)']],
+        subjunctive: [['1ST', stem+'ῶ',  stem+'ῶμεν'], ['2ND', stem+'ᾷς', stem+'ᾶτε'], ['3RD', stem+'ᾷ',  stem+'ῶσι(ν)']],
+        imperative:  [['2ND', stem+'α',  stem+'ᾶτε'],  ['3RD', stem+'άτω',stem+'άτωσαν']],
+        infinitive: stem + 'ᾶν',
+        participle: { masc: stem+'ῶν', fem: stem+'ῶσα', neut: stem+'ῶν' },
+        note: 'Present subjunctive forms are identical to indicative in α-contract verbs.',
       }
     }
     if (s.endsWith('ω')) {
       const stem = lemma.slice(0, -1)
-      return { title: 'Present Active Indicative', type: 'verb',
-        headers: ['PERSON', 'SINGULAR', 'PLURAL'],
-        rows: [['1ST', stem + 'ω', stem + 'ομεν'], ['2ND', stem + 'εις', stem + 'ετε'], ['3RD', stem + 'ει', stem + 'ουσι(ν)']],
+      return { type: 'verb-full', title: 'Present Active — regular -ω', stem: stem + '-',
+        indicative:  [['1ST', stem+'ω',  stem+'ομεν'],     ['2ND', stem+'εις', stem+'ετε'],     ['3RD', stem+'ει',  stem+'ουσι(ν)']],
+        subjunctive: [['1ST', stem+'ω',  stem+'ωμεν'],     ['2ND', stem+'ῃς',  stem+'ητε'],     ['3RD', stem+'ῃ',   stem+'ωσι(ν)']],
+        imperative:  [['2ND', stem+'ε',  stem+'ετε'],      ['3RD', stem+'έτω', stem+'έτωσαν']],
+        infinitive: stem + 'ειν',
+        participle: { masc: stem+'ων', fem: stem+'ουσα', neut: stem+'ον' },
+        note: '1st SG indicative and subjunctive are identical in form (both ' + stem + 'ω).',
       }
     }
   }
@@ -728,6 +757,25 @@ function buildParadigm(word) {
   return null
 }
 
+function VerbMiniTable({ rows }) {
+  return (
+    <table className="para-table para-verb-mini">
+      <thead>
+        <tr><th></th><th>SG</th><th>PL</th></tr>
+      </thead>
+      <tbody>
+        {rows.map((row, ri) => (
+          <tr key={ri} className={ri % 2 === 0 ? 'para-row-even' : ''}>
+            <td className="para-case-td">{row[0]}</td>
+            <td className="para-form-td greek">{row[1]}</td>
+            <td className="para-form-td greek">{row[2]}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  )
+}
+
 function ParadigmPanel({ paradigm }) {
   if (!paradigm) return null
 
@@ -746,7 +794,46 @@ function ParadigmPanel({ paradigm }) {
     )
   }
 
-  const isVerb = paradigm.type === 'verb'
+  if (paradigm.type === 'verb-full') {
+    return (
+      <div className="para-panel para-panel--verb">
+        <div className="para-header-row">
+          <span className="para-title">{paradigm.title}</span>
+          {paradigm.stem && <span className="para-stem-label greek">stem: <strong>{paradigm.stem}</strong></span>}
+        </div>
+        <div className="para-verb-grid">
+          <div className="para-verb-col">
+            <div className="para-section-label">INDICATIVE</div>
+            <VerbMiniTable rows={paradigm.indicative} />
+          </div>
+          <div className="para-verb-col">
+            <div className="para-section-label">SUBJUNCTIVE</div>
+            <VerbMiniTable rows={paradigm.subjunctive} />
+          </div>
+          <div className="para-verb-col">
+            <div className="para-section-label">IMPERATIVE</div>
+            <VerbMiniTable rows={paradigm.imperative} />
+          </div>
+        </div>
+        <div className="para-verb-bottom">
+          <div className="para-verb-inf-part">
+            <span className="para-section-label">INFINITIVE</span>
+            <span className="greek para-inf-form">{paradigm.infinitive}</span>
+          </div>
+          <div className="para-verb-inf-part">
+            <span className="para-section-label">PARTICIPLE (NOM. SG.)</span>
+            <span className="greek para-part-forms">
+              <span><span className="para-part-label">M.</span>{paradigm.participle.masc}</span>
+              <span><span className="para-part-label">F.</span>{paradigm.participle.fem}</span>
+              <span><span className="para-part-label">N.</span>{paradigm.participle.neut}</span>
+            </span>
+          </div>
+        </div>
+        {paradigm.note && <div className="para-note">{paradigm.note}</div>}
+      </div>
+    )
+  }
+
   const is3col = paradigm.type === '3col'
 
   return (
@@ -769,12 +856,10 @@ function ParadigmPanel({ paradigm }) {
                 <td className="para-case-td">{row[0]}</td>
                 {row.slice(1).map((cell, ci) => (
                   <td key={ci} className="para-form-td greek">
-                    {isVerb ? cell : (
-                      <>
-                        <span className="para-stem-part">{paradigm.stem?.slice(0, -1)}</span>
-                        <span className="para-end-part">{cell.replace(/^-/, '')}</span>
-                      </>
-                    )}
+                    <>
+                      <span className="para-stem-part">{paradigm.stem?.slice(0, -1)}</span>
+                      <span className="para-end-part">{cell.replace(/^-/, '')}</span>
+                    </>
                   </td>
                 ))}
                 {paradigm.articles && (
