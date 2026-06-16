@@ -8,7 +8,8 @@
 .gnt-reader-header {
   display: flex;
   align-items: center;
-  gap: 12px;
+  flex-wrap: wrap;
+  gap: 8px 12px;
   padding: 14px 20px 12px;
   border-bottom: 1px solid #e0e4f0;
   background: #fff;
@@ -133,19 +134,14 @@
   white-space: nowrap;
 }
 
-/* Biblos vocabulary indicator */
+/* Biblos vocabulary indicator (when toggle is active) */
+.gnt-word--biblos {
+  background: rgba(201,168,76,0.15);
+  border-radius: 5px;
+}
 .gnt-word--biblos .gnt-word-greek {
   color: var(--deep-blue);
   font-weight: 600;
-}
-.gnt-biblos-dot {
-  display: block;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: var(--gold, #c9a84c);
-  margin: 1px auto 0;
-  flex-shrink: 0;
 }
 
 .gnt-word-gloss {

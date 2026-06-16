@@ -65,7 +65,8 @@ export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [popup, setPopup] = useState(null) // { word, anchorRect }
-  const [showGloss, setShowGloss] = useState(false) // default hidden
+  const [showGloss, setShowGloss] = useState(false)
+  const [showBiblos, setShowBiblos] = useState(false)
   const [biblosStrongs, setBiblosStrongs] = useState(biblosStrongsCache)
   const popupRef = useRef(null)
   const highlightRef = useRef(null)
@@ -137,6 +138,13 @@ export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon
           {BOOK_NAMES[book] || book} {chapter}
         </span>
         <button
+          className={`gnt-gloss-toggle ${showBiblos ? 'gnt-gloss-toggle--on' : ''}`}
+          onClick={() => setShowBiblos(v => !v)}
+          title="Highlight words in Biblos vocabulary"
+        >
+          Biblos words
+        </button>
+        <button
           className={`gnt-gloss-toggle ${showGloss ? 'gnt-gloss-toggle--on' : ''}`}
           onClick={() => setShowGloss(v => !v)}
           title={showGloss ? 'Hide glosses' : 'Show glosses'}
@@ -163,12 +171,11 @@ export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon
                   return (
                     <button
                       key={wi}
-                      className={`gnt-word${isBiblos ? ' gnt-word--biblos' : ''}`}
+                      className={`gnt-word${showBiblos && isBiblos ? ' gnt-word--biblos' : ''}`}
                       onClick={e => handleWordClick({ ...w, verse: vObj.verse }, e)}
                       title={isBiblos ? 'In Biblos vocabulary' : undefined}
                     >
                       <span className="gnt-word-greek greek">{w.w}</span>
-                      {isBiblos && <span className="gnt-biblos-dot" aria-hidden="true" />}
                       {showGloss && w.g && (
                         <span className="gnt-word-gloss">{w.g.replace(/[<>\[\]]/g, '').replace(/[.,;]+$/, '')}</span>
                       )}
@@ -203,10 +210,14 @@ const WordPopup = forwardRef(function WordPopup({ word, anchor, book, chapter, o
   // Position popup below the word tile, clamped to viewport
   const style = {}
   if (anchor) {
-    const top = anchor.bottom + window.scrollY + 6
-    let left = anchor.left + window.scrollX
-    // Clamp right edge
     const popupW = 260
+    const popupH = 200 // approx height for clamping
+    let top = anchor.bottom + 6
+    let left = anchor.left
+    // Flip above word if too close to bottom
+    if (top + popupH > window.innerHeight - 8) top = anchor.top - popupH - 6
+    if (top < 8) top = 8
+    // Clamp horizontal
     if (left + popupW > window.innerWidth - 12) left = window.innerWidth - popupW - 12
     if (left < 8) left = 8
     style.top = top
