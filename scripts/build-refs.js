@@ -247,9 +247,17 @@ function parseTAGNT(filePaths, targetStrongs) {
       const dStrong = strongsCol.split('=')[0]
       const base = baseStrongs(dStrong)
 
+      // Col 4: "βίβλος=book" — dict form (lemma) = gloss
+      const dictCol = (cols[4] || '').trim()
+      const lemmaRaw = dictCol.split('=')[0].trim()
+      const lemma = lemmaRaw || null
+
+      // Col 3 morph: "G0976=N-NSF" → morph = "N-NSF"
+      const morph = strongsCol.includes('=') ? strongsCol.split('=')[1].trim() : null
+
       // Accumulate verse words (all words, not just target)
       if (!verseWords.has(ref)) verseWords.set(ref, [])
-      verseWords.get(ref).push({ word: wordRaw, base })
+      verseWords.get(ref).push({ word: wordRaw, base, gloss: cols[2]?.trim() || null, lemma, morph })
 
       // Col 2: English gloss
       const gloss = (cols[2] || '').replace(/[<>\[\]]/g, '').trim()
@@ -277,7 +285,25 @@ function parseTAGNT(filePaths, targetStrongs) {
     verses.set(ref, words.map(w => w.word).join(' '))
   }
 
-  return { index, verses }
+  // Build chapter data: Map<"Book.ch", [{verse, words:[{w,g,s,l,m}]}]>
+  // w=surface word, g=gloss, s=base strongs, l=lemma, m=morph
+  const chapters = new Map()
+  for (const [ref, words] of verseWords) {
+    const [book, ch, vStr] = ref.split('.')
+    const chKey = `${book}.${ch}`
+    if (!chapters.has(chKey)) chapters.set(chKey, [])
+    const verse = parseInt(vStr, 10)
+    chapters.get(chKey).push({ verse, words: words.map(w => {
+      const o = { w: w.word.replace(/[.,;·!?¶'"»«]+$/, '').trim() }
+      if (w.gloss) o.g = w.gloss.replace(/[<>\[\]]/g, '').trim()
+      if (w.base) o.s = w.base
+      if (w.lemma) o.l = w.lemma
+      if (w.morph) o.m = w.morph
+      return o
+    }) })
+  }
+
+  return { index, verses, chapters }
 }
 
 // ── Step 5: annotate vocabulary JSONs with strongsNum ─────────────────────
@@ -362,8 +388,8 @@ async function main() {
   const annotated = annotateVocabularyFiles(tbesgMap)
   console.log(`   annotated ${annotated} words`)
 
-  console.log('\n6. Building scripture reference index + verse text from TAGNT …')
-  const { index: refIndex, verses } = parseTAGNT(tagntFiles, new Set(mapped.keys()))
+  console.log('\n6. Building scripture reference index + verse text + chapter files from TAGNT …')
+  const { index: refIndex, verses, chapters } = parseTAGNT(tagntFiles, new Set(mapped.keys()))
 
   // Build refs.json: { G0444: { lemma, definition, refs: [{ref,word,gloss}] } }
   const output = {}
@@ -390,6 +416,25 @@ async function main() {
   const versesKB = (fs.statSync(versesFile).size / 1024).toFixed(1)
   console.log(`✓ Written: public/nt-verses.json (${versesKB} KB)`)
   console.log(`  ${Object.keys(versesOut).length} unique verses`)
+
+  // Build per-chapter files: public/nt/Mat.1.json … (all 260 NT chapters)
+  const ntDir = path.join(ROOT, 'public', 'nt')
+  fs.mkdirSync(ntDir, { recursive: true })
+  let chapCount = 0, totalBytes = 0
+  for (const [chKey, verseArr] of chapters) {
+    // Sort verses in order, deduplicate (same verse can appear from multiple editions)
+    const seen = new Set()
+    const sorted = verseArr
+      .filter(v => { if (seen.has(v.verse)) return false; seen.add(v.verse); return true })
+      .sort((a, b) => a.verse - b.verse)
+    const [book, ch] = chKey.split('.')
+    const payload = JSON.stringify({ b: book, c: parseInt(ch, 10), verses: sorted })
+    const outPath = path.join(ntDir, `${chKey}.json`)
+    fs.writeFileSync(outPath, payload, 'utf8')
+    totalBytes += payload.length
+    chapCount++
+  }
+  console.log(`✓ Written: public/nt/ (${chapCount} chapter files, ${(totalBytes / 1024).toFixed(0)} KB total)`)
 }
 
 main().catch(e => { console.error(e); process.exit(1) })

@@ -2,10 +2,42 @@ import { useState } from 'react'
 import { useUI, useLanguage, t } from '../context/LanguageContext.jsx'
 import './Sidebar.css'
 
-export default function Sidebar({ units, selectedUnit, selectedChapter, activePart, onSelect, onPartSelect, open, desktopHidden, onClose, totalWords, onVocabIndex, showingVocabIndex }) {
+const NT_BOOKS = [
+  { abbr: 'Mat', name: 'Matthew',         ch: 28, group: 'Gospels' },
+  { abbr: 'Mrk', name: 'Mark',            ch: 16, group: 'Gospels' },
+  { abbr: 'Luk', name: 'Luke',            ch: 24, group: 'Gospels' },
+  { abbr: 'Jhn', name: 'John',            ch: 21, group: 'Gospels' },
+  { abbr: 'Act', name: 'Acts',            ch: 28, group: 'Acts' },
+  { abbr: 'Rom', name: 'Romans',          ch: 16, group: 'Letters' },
+  { abbr: '1Co', name: '1 Corinthians',   ch: 16, group: 'Letters' },
+  { abbr: '2Co', name: '2 Corinthians',   ch: 13, group: 'Letters' },
+  { abbr: 'Gal', name: 'Galatians',       ch:  6, group: 'Letters' },
+  { abbr: 'Eph', name: 'Ephesians',       ch:  6, group: 'Letters' },
+  { abbr: 'Php', name: 'Philippians',     ch:  4, group: 'Letters' },
+  { abbr: 'Col', name: 'Colossians',      ch:  4, group: 'Letters' },
+  { abbr: '1Th', name: '1 Thessalonians', ch:  5, group: 'Letters' },
+  { abbr: '2Th', name: '2 Thessalonians', ch:  3, group: 'Letters' },
+  { abbr: '1Ti', name: '1 Timothy',       ch:  6, group: 'Letters' },
+  { abbr: '2Ti', name: '2 Timothy',       ch:  4, group: 'Letters' },
+  { abbr: 'Tit', name: 'Titus',           ch:  3, group: 'Letters' },
+  { abbr: 'Phm', name: 'Philemon',        ch:  1, group: 'Letters' },
+  { abbr: 'Heb', name: 'Hebrews',         ch: 13, group: 'Letters' },
+  { abbr: 'Jas', name: 'James',           ch:  5, group: 'General' },
+  { abbr: '1Pe', name: '1 Peter',         ch:  5, group: 'General' },
+  { abbr: '2Pe', name: '2 Peter',         ch:  3, group: 'General' },
+  { abbr: '1Jn', name: '1 John',          ch:  5, group: 'General' },
+  { abbr: '2Jn', name: '2 John',          ch:  1, group: 'General' },
+  { abbr: '3Jn', name: '3 John',          ch:  1, group: 'General' },
+  { abbr: 'Jud', name: 'Jude',            ch:  1, group: 'General' },
+  { abbr: 'Rev', name: 'Revelation',      ch: 22, group: 'General' },
+]
+
+export default function Sidebar({ units, selectedUnit, selectedChapter, activePart, onSelect, onPartSelect, open, desktopHidden, onClose, totalWords, onVocabIndex, showingVocabIndex, onOpenGnt, activeGnt }) {
   const ui = useUI()
   const { lang } = useLanguage()
   const [collapsed, setCollapsed] = useState({})
+  const [gntOpen, setGntOpen] = useState(false)
+  const [activeBook, setActiveBook] = useState(null) // abbr of expanded book
 
   function toggleUnit(unitId) {
     setCollapsed(prev => ({ ...prev, [unitId]: !prev[unitId] }))
@@ -75,6 +107,52 @@ export default function Sidebar({ units, selectedUnit, selectedChapter, activePa
           )
         })}
       </nav>
+
+      {/* ── Greek NT section ── */}
+      <div className="gnt-section">
+        <button
+          className="gnt-section-header"
+          onClick={() => setGntOpen(v => !v)}
+          aria-expanded={gntOpen}
+        >
+          <span className="gnt-section-icon">📜</span>
+          <span className="gnt-section-label">Greek NT</span>
+          <span className={`unit-chevron ${gntOpen ? '' : 'unit-chevron--collapsed'}`}>‹</span>
+        </button>
+
+        {gntOpen && (
+          <div className="gnt-book-list">
+            {NT_BOOKS.map(book => {
+              const isActive = activeBook === book.abbr
+              const isGntActive = activeGnt?.book === book.abbr
+              return (
+                <div key={book.abbr}>
+                  <button
+                    className={`gnt-book-btn ${isGntActive ? 'gnt-book-btn--active' : ''}`}
+                    onClick={() => setActiveBook(isActive ? null : book.abbr)}
+                  >
+                    <span className="gnt-book-name">{book.name}</span>
+                    <span className={`unit-chevron ${isActive ? '' : 'unit-chevron--collapsed'}`} style={{fontSize:'0.85rem', opacity: 0.5}}>‹</span>
+                  </button>
+                  {isActive && (
+                    <div className="gnt-chapter-grid">
+                      {Array.from({ length: book.ch }, (_, i) => i + 1).map(ch => (
+                        <button
+                          key={ch}
+                          className={`gnt-ch-btn ${activeGnt?.book === book.abbr && activeGnt?.chapter === ch ? 'gnt-ch-btn--active' : ''}`}
+                          onClick={() => onOpenGnt(book.abbr, ch)}
+                        >
+                          {ch}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )
+            })}
+          </div>
+        )}
+      </div>
 
       <div className="sidebar-footer">
         <button

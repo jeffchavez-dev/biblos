@@ -282,3 +282,91 @@
   padding: 2px 8px;
   flex-shrink: 0;
 }
+
+/* ── Greek NT section ────────────────────────────────────────────────────── */
+.gnt-section {
+  border-top: 1px solid rgba(255,255,255,0.08);
+  flex-shrink: 0;
+}
+
+.gnt-section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px 18px;
+  background: none;
+  border: none;
+  color: var(--gold-light, #f0d98a);
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.gnt-section-header:hover {
+  background: rgba(255,255,255,0.06);
+}
+
+.gnt-section-icon { font-size: 1rem; }
+.gnt-section-label { flex: 1; }
+
+.gnt-book-list {
+  max-height: 280px;
+  overflow-y: auto;
+  padding: 2px 0 8px;
+}
+
+.gnt-book-btn {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 7px 18px 7px 28px;
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.65);
+  cursor: pointer;
+  text-align: left;
+  font-size: 0.83rem;
+  transition: background 0.12s, color 0.12s;
+  gap: 6px;
+}
+.gnt-book-btn:hover {
+  background: rgba(255,255,255,0.07);
+  color: #fff;
+}
+.gnt-book-btn--active {
+  color: var(--gold-light, #f0d98a) !important;
+}
+.gnt-book-name { flex: 1; }
+
+.gnt-chapter-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 4px 18px 8px 32px;
+}
+
+.gnt-ch-btn {
+  width: 28px;
+  height: 24px;
+  background: rgba(255,255,255,0.08);
+  border: none;
+  border-radius: 4px;
+  color: rgba(255,255,255,0.6);
+  font-size: 0.72rem;
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s;
+  font-family: sans-serif;
+}
+.gnt-ch-btn:hover {
+  background: rgba(201,168,76,0.25);
+  color: #fff;
+}
+.gnt-ch-btn--active {
+  background: var(--gold, #c9a84c) !important;
+  color: var(--deep-blue) !important;
+  font-weight: 700;
+}

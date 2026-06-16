@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Sidebar from './components/Sidebar.jsx'
 import ChapterView from './components/ChapterView.jsx'
 import VocabularyIndex from './components/VocabularyIndex.jsx'
+import GntReader from './components/GntReader.jsx'
 import { LanguageProvider, LANGUAGES, useLanguage, useUI } from './context/LanguageContext.jsx'
 import units from './data/units.json'
 import './App.css'
@@ -37,6 +38,7 @@ function AppInner() {
   const [showVocabIndex, setShowVocabIndex] = useState(false)
   const [lexiconTarget, setLexiconTarget] = useState(null)
   const [totalWords, setTotalWords] = useState(0)
+  const [gntView, setGntView] = useState(null) // { book, chapter } or null
 
   useEffect(() => {
     Promise.all(VOCAB_SOURCES.map(fn => fn().then(m => m.default)))
@@ -50,6 +52,20 @@ function AppInner() {
   function handleOpenLexicon(unitId, chapterId, part) {
     setLexiconTarget({ unitId, chapterId, part })
     setShowVocabIndex(true)
+    setGntView(null)
+    setSidebarOpen(false)
+  }
+
+  function handleOpenGnt(book, chapter) {
+    setGntView({ book, chapter })
+    setShowVocabIndex(false)
+    setSidebarOpen(false)
+  }
+
+  function handleOpenLexiconByStrongs(strongsNum) {
+    setLexiconTarget({ strongsNum })
+    setShowVocabIndex(true)
+    setGntView(null)
     setSidebarOpen(false)
   }
 
@@ -58,6 +74,7 @@ function AppInner() {
     setSelectedChapter(chapterId)
     setActivePart('A')
     setShowVocabIndex(false)
+    setGntView(null)
     setLexiconTarget(null)
     setSidebarOpen(false)
   }
@@ -65,6 +82,7 @@ function AppInner() {
   function handlePartSelect(partId) {
     setActivePart(partId)
     setShowVocabIndex(false)
+    setGntView(null)
     setSidebarOpen(false)
   }
 
@@ -73,6 +91,7 @@ function AppInner() {
     setSelectedChapter(chapterId)
     setActivePart(part)
     setShowVocabIndex(false)
+    setGntView(null)
     setLexiconTarget(null)
     setSidebarOpen(false)
   }
@@ -149,8 +168,10 @@ function AppInner() {
           desktopHidden={desktopSidebarHidden}
           onClose={() => setSidebarOpen(false)}
           totalWords={totalWords}
-          onVocabIndex={() => { setShowVocabIndex(true); setLexiconTarget(null); setSidebarOpen(false) }}
+          onVocabIndex={() => { setShowVocabIndex(true); setGntView(null); setLexiconTarget(null); setSidebarOpen(false) }}
           showingVocabIndex={showVocabIndex}
+          onOpenGnt={handleOpenGnt}
+          activeGnt={gntView}
         />
 
         {sidebarOpen && (
@@ -158,8 +179,19 @@ function AppInner() {
         )}
 
         <main className="main-content">
-          {showVocabIndex ? (
-            <VocabularyIndex onNavigate={handleVocabIndexNavigate} target={lexiconTarget} />
+          {gntView ? (
+            <GntReader
+              book={gntView.book}
+              chapter={gntView.chapter}
+              onOpenLexicon={handleOpenLexiconByStrongs}
+              onClose={() => setGntView(null)}
+            />
+          ) : showVocabIndex ? (
+            <VocabularyIndex
+              onNavigate={handleVocabIndexNavigate}
+              target={lexiconTarget}
+              onOpenGnt={handleOpenGnt}
+            />
           ) : isLocked ? (
             <LockedView />
           ) : (

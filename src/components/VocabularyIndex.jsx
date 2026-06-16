@@ -282,7 +282,7 @@ function CtxHighlight({ text, lemmaStripped, keyword }) {
 
 // ── Main component ─────────────────────────────────────────────────────────────
 
-export default function VocabularyIndex({ onNavigate, target }) {
+export default function VocabularyIndex({ onNavigate, target, onOpenGnt }) {
   const ui = useUI()
   const { lang } = useLanguage()
   const [words, setWords] = useState([])
@@ -496,6 +496,7 @@ export default function VocabularyIndex({ onNavigate, target }) {
         <VersePopup
           popup={versePopup}
           onClose={() => setVersePopup(null)}
+          onOpenGnt={onOpenGnt}
         />
       )}
       <div className="vocab-index-header">
@@ -1090,8 +1091,9 @@ function RefsPanel({ word, refsData, loading, onRefClick }) {
 
 // ── Verse popup ───────────────────────────────────────────────────────────────
 
-function VersePopup({ popup, onClose }) {
+function VersePopup({ popup, onClose, onOpenGnt }) {
   const { ref, targetWord, verseText } = popup
+  const [book, chapter] = ref.split('.')
 
   // Highlight the target word inside the verse text
   function renderVerse(text, target) {
@@ -1142,7 +1144,12 @@ function VersePopup({ popup, onClose }) {
         </div>
         <div className="verse-popup-footer">
           <span className="verse-popup-source">Greek NT (STEPBible TAGNT · CC BY)</span>
-          <button className="verse-popup-gnt-btn" disabled title="Greek NT Reader — coming in Phase 2">
+          <button
+            className="verse-popup-gnt-btn"
+            disabled={!onOpenGnt}
+            onClick={() => { onOpenGnt?.(book, parseInt(chapter, 10)); onClose() }}
+            title={onOpenGnt ? `Open ${book} ${chapter} in the GNT Reader` : 'Greek NT Reader — coming soon'}
+          >
             Open in GNT Reader
           </button>
         </div>
