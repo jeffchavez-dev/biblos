@@ -767,5 +767,36 @@
       "pl": "nie (przed samogłoską)",
       "fil": "hindi (bago ang patinig)"
     }
+  },
+  {
+    "id": 55,
+    "part": "B",
+    "greek": "δύο",
+    "transliteration": "duo",
+    "definition": "two",
+    "partOfSpeech": "numeral",
+    "images": [
+      "ch3b-duo-1.jpeg",
+      "ch3b-duo-2.jpeg"
+    ],
+    "translations": {
+      "es": "dos",
+      "pl": "dwa",
+      "fil": "dalawa"
+    }
+  },
+  {
+    "id": 56,
+    "part": "B",
+    "greek": "ἀληθής, -ές",
+    "transliteration": "alēthēs",
+    "definition": "true",
+    "partOfSpeech": "adjective (3rd decl)",
+    "image": "ch3b-adj-6.jpeg",
+    "translations": {
+      "es": "verdadero",
+      "pl": "prawdziwy",
+      "fil": "totoo"
+    }
   }
 ]
