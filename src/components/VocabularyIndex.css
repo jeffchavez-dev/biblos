@@ -832,6 +832,141 @@
   font-size: 0.8rem;
   font-style: italic;
 }
+.refs-hint {
+  font-size: 0.7rem;
+  color: var(--grey);
+  margin-left: auto;
+  font-style: italic;
+  opacity: 0.7;
+}
+.refs-item--btn {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+  padding: 6px 8px;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.12s;
+  font-size: 0.85rem;
+}
+.refs-item--btn:hover {
+  background: rgba(201,168,76,0.12);
+}
+
+/* ── Verse popup ─────────────────────────────────────────────────────────── */
+.verse-popup-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.verse-popup {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+  max-width: 560px;
+  width: 100%;
+  overflow: hidden;
+  animation: verse-popup-in 0.18s ease;
+}
+@keyframes verse-popup-in {
+  from { opacity: 0; transform: scale(0.95) translateY(8px); }
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+.verse-popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px 12px;
+  background: var(--deep-blue);
+  color: #fff;
+}
+.verse-popup-ref {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--gold-light, #f0d98a);
+  letter-spacing: 0.01em;
+}
+.verse-popup-close {
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.6);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: color 0.15s, background 0.15s;
+}
+.verse-popup-close:hover {
+  color: #fff;
+  background: rgba(255,255,255,0.12);
+}
+.verse-popup-body {
+  padding: 24px 22px;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: #1a1a2e;
+  min-height: 80px;
+}
+.verse-popup-text {
+  font-size: 1.2rem;
+}
+.verse-popup-loading,
+.verse-popup-missing {
+  font-size: 0.9rem;
+  color: var(--grey);
+  font-style: italic;
+}
+.verse-word-highlight {
+  background: rgba(201,168,76,0.35);
+  border-radius: 3px;
+  padding: 0 2px;
+  color: #7a5200;
+  font-weight: 600;
+  mark& { text-decoration: none; }
+}
+.verse-popup-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 18px;
+  background: #f8f8fc;
+  border-top: 1px solid #e8e8f0;
+}
+.verse-popup-source {
+  font-size: 0.72rem;
+  color: var(--grey);
+  font-style: italic;
+}
+.verse-popup-gnt-btn {
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 7px 16px;
+  border-radius: 8px;
+  border: 1.5px solid var(--deep-blue);
+  background: var(--deep-blue);
+  color: #fff;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.verse-popup-gnt-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .verse-popup-body { font-size: 1.05rem; padding: 18px 16px; }
+  .refs-hint { display: none; }
+}
 
 /* ── Paradigm expansion row ──────────────────────────────────────────────── */
 .para-row td { padding: 0; background: #f0f4ff; border-top: 1px solid #c8d4f0; }

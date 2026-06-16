@@ -205,12 +205,20 @@ function mapLemmasToStrongs(vocabLemmas, tbesgMap) {
   return { mapped, unmapped }
 }
 
-// ── Step 4: parse TAGNT → build refs index ────────────────────────────────
+// ── Step 4: parse TAGNT → build refs index + verse text ──────────────────
 
 function parseTAGNT(filePaths, targetStrongs) {
-  // Returns Map<baseStrongsNum, [{ref, word, gloss}]>
+  // Pass 1: collect every word in the NT grouped by verse ref
+  // Pass 2 (same loop): build refs index for target Strong's numbers
+  //
+  // Returns { index: Map<strongs, [{ref,word,gloss}]>, verses: Map<ref, string> }
+
   const index = new Map()
   for (const s of targetStrongs) index.set(s, [])
+
+  // verseWords: ref → [{word, strongs}] — used to build verse text and find
+  // which refs we actually need
+  const verseWords = new Map()
 
   for (const filePath of filePaths) {
     console.log(`  parsing ${path.basename(filePath)} …`)
@@ -229,26 +237,47 @@ function parseTAGNT(filePaths, targetStrongs) {
       if (!refMatch) continue
       const ref = refMatch[1]
 
-      // Col 3: "G0976=N-NSF" — extract dStrong
+      // Col 1: Greek surface form (keep punctuation for verse text)
+      const greekCol = cols[1].trim()
+      const wordRaw = greekCol.replace(/\s*\(.*\)/, '').trim()
+      const wordClean = wordRaw.replace(/[.,;·!?¶'"»«]+$/, '').trim()
+
+      // Col 3: dStrong
       const strongsCol = cols[3].trim()
       const dStrong = strongsCol.split('=')[0]
       const base = baseStrongs(dStrong)
-      if (!base || !index.has(base)) continue
 
-      // Col 1: "Βίβλος (Biblos)" — extract Greek surface form, strip punctuation
-      const greekCol = cols[1].trim()
-      const word = greekCol.replace(/\s*\(.*\)/, '').replace(/[.,;·!?¶'"»«]+$/, '').trim()
+      // Accumulate verse words (all words, not just target)
+      if (!verseWords.has(ref)) verseWords.set(ref, [])
+      verseWords.get(ref).push({ word: wordRaw, base })
 
       // Col 2: English gloss
       const gloss = (cols[2] || '').replace(/[<>\[\]]/g, '').trim()
 
-      const arr = index.get(base)
-      if (arr.length < MAX_REFS_PER_WORD) {
-        arr.push({ ref, word, gloss })
+      if (base && index.has(base)) {
+        const arr = index.get(base)
+        if (arr.length < MAX_REFS_PER_WORD) {
+          arr.push({ ref, word: wordClean, gloss })
+        }
       }
     }
   }
-  return index
+
+  // Collect only the refs we actually indexed (to keep verses.json small)
+  const neededRefs = new Set()
+  for (const arr of index.values()) {
+    for (const r of arr) neededRefs.add(r.ref)
+  }
+
+  // Build verse text strings for needed refs only
+  const verses = new Map()
+  for (const ref of neededRefs) {
+    const words = verseWords.get(ref)
+    if (!words) continue
+    verses.set(ref, words.map(w => w.word).join(' '))
+  }
+
+  return { index, verses }
 }
 
 // ── Step 5: annotate vocabulary JSONs with strongsNum ─────────────────────
@@ -333,10 +362,10 @@ async function main() {
   const annotated = annotateVocabularyFiles(tbesgMap)
   console.log(`   annotated ${annotated} words`)
 
-  console.log('\n6. Building scripture reference index from TAGNT …')
-  const refIndex = parseTAGNT(tagntFiles, new Set(mapped.keys()))
+  console.log('\n6. Building scripture reference index + verse text from TAGNT …')
+  const { index: refIndex, verses } = parseTAGNT(tagntFiles, new Set(mapped.keys()))
 
-  // Build output: { G0444: { lemma, definition, refs: [{ref,word,gloss}] } }
+  // Build refs.json: { G0444: { lemma, definition, refs: [{ref,word,gloss}] } }
   const output = {}
   for (const [strongs, info] of mapped) {
     const refs = refIndex.get(strongs) || []
@@ -348,11 +377,19 @@ async function main() {
   }
 
   fs.writeFileSync(OUT_FILE, JSON.stringify(output), 'utf8')
-  const sizeKB = (fs.statSync(OUT_FILE).size / 1024).toFixed(1)
-
-  console.log(`\n✓ Written: public/refs.json (${sizeKB} KB)`)
+  const refsKB = (fs.statSync(OUT_FILE).size / 1024).toFixed(1)
+  console.log(`\n✓ Written: public/refs.json (${refsKB} KB)`)
   console.log(`  ${Object.keys(output).length} words indexed`)
   console.log(`  ${Object.values(output).reduce((n, v) => n + v.refs.length, 0)} total references`)
+
+  // Build nt-verses.json: { "Mat.4.4": "Ὁ δὲ ἀποκριθεὶς εἶπεν…" }
+  const versesOut = {}
+  for (const [ref, text] of verses) versesOut[ref] = text
+  const versesFile = path.join(ROOT, 'public', 'nt-verses.json')
+  fs.writeFileSync(versesFile, JSON.stringify(versesOut), 'utf8')
+  const versesKB = (fs.statSync(versesFile).size / 1024).toFixed(1)
+  console.log(`✓ Written: public/nt-verses.json (${versesKB} KB)`)
+  console.log(`  ${Object.keys(versesOut).length} unique verses`)
 }
 
 main().catch(e => { console.error(e); process.exit(1) })

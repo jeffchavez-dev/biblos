@@ -312,6 +312,12 @@ export default function VocabularyIndex({ onNavigate, target }) {
   const [refsLoading, setRefsLoading] = useState(false)
   const refsDataRef = useRef(null)
 
+  // Verse popup state
+  const [versePopup, setVersePopup] = useState(null) // { ref, word, verseText }
+  const [versesData, setVersesData] = useState(null)
+  const [versesLoading, setVersesLoading] = useState(false)
+  const versesDataRef = useRef(null)
+
   function toggleRefs(key) {
     setOpenRefs(prev => prev === key ? null : key)
     if (!refsDataRef.current && !refsLoading) {
@@ -320,6 +326,24 @@ export default function VocabularyIndex({ onNavigate, target }) {
         .then(r => r.json())
         .then(data => { refsDataRef.current = data; setRefsData(data) })
         .finally(() => setRefsLoading(false))
+    }
+  }
+
+  function openVersePopup(ref, targetWord) {
+    // If verses already loaded use them immediately, otherwise fetch first
+    if (versesDataRef.current) {
+      setVersePopup({ ref, targetWord, verseText: versesDataRef.current[ref] || null })
+    } else {
+      setVersesLoading(true)
+      setVersePopup({ ref, targetWord, verseText: null, loading: true })
+      fetch('/nt-verses.json')
+        .then(r => r.json())
+        .then(data => {
+          versesDataRef.current = data
+          setVersesData(data)
+          setVersePopup({ ref, targetWord, verseText: data[ref] || null })
+        })
+        .finally(() => setVersesLoading(false))
     }
   }
 
@@ -466,6 +490,12 @@ export default function VocabularyIndex({ onNavigate, target }) {
           onClose={() => setFsWord(null)}
           onPrev={() => {}}
           onNext={() => {}}
+        />
+      )}
+      {versePopup && (
+        <VersePopup
+          popup={versePopup}
+          onClose={() => setVersePopup(null)}
         />
       )}
       <div className="vocab-index-header">
@@ -745,7 +775,7 @@ export default function VocabularyIndex({ onNavigate, target }) {
                     {openRefs === w._key && (
                       <tr className="refs-row">
                         <td colSpan={colCount}>
-                          <RefsPanel word={w} refsData={refsData} loading={refsLoading} />
+                          <RefsPanel word={w} refsData={refsData} loading={refsLoading} onRefClick={openVersePopup} />
                         </td>
                       </tr>
                     )}
@@ -1016,7 +1046,7 @@ function formatRef(ref) {
   return `${BOOK_ABBR[book] || book} ${ch}:${v}`
 }
 
-function RefsPanel({ word, refsData, loading }) {
+function RefsPanel({ word, refsData, loading, onRefClick }) {
   if (loading) return <div className="refs-panel refs-panel--loading">Loading scripture references…</div>
   if (!refsData) return null
 
@@ -1039,15 +1069,83 @@ function RefsPanel({ word, refsData, loading }) {
         <span className="refs-title">NT References — <span className="greek">{word.greek.split(',')[0]}</span></span>
         <span className="refs-strongs">{word.strongsNum}</span>
         <span className="refs-count">{entry.refs.length} occurrence{entry.refs.length !== 1 ? 's' : ''}</span>
+        <span className="refs-hint">Click a row to view verse</span>
       </div>
       <div className="refs-list">
         {entry.refs.map((r, i) => (
-          <div key={i} className="refs-item">
+          <button
+            key={i}
+            className="refs-item refs-item--btn"
+            onClick={() => onRefClick(r.ref, r.word)}
+          >
             <span className="refs-ref">{formatRef(r.ref)}</span>
             <span className="refs-word greek">{r.word}</span>
             <span className="refs-gloss">{r.gloss.replace(/[.,;]+$/, '')}</span>
-          </div>
+          </button>
         ))}
+      </div>
+    </div>
+  )
+}
+
+// ── Verse popup ───────────────────────────────────────────────────────────────
+
+function VersePopup({ popup, onClose }) {
+  const { ref, targetWord, verseText } = popup
+
+  // Highlight the target word inside the verse text
+  function renderVerse(text, target) {
+    if (!text || !target) return <span className="greek">{text || '…'}</span>
+    // Strip diacritics for matching so inflected forms still match
+    const stripD = s => s.normalize('NFD').replace(/[̀-ͯͅ]/g, '')
+    const targetStripped = stripD(target)
+    const words = text.split(/(\s+)/)
+    return (
+      <span className="greek verse-popup-text">
+        {words.map((w, i) => {
+          const clean = w.replace(/[.,;·!?¶'"»«\s]+/g, '')
+          if (clean && stripD(clean) === targetStripped) {
+            return <mark key={i} className="verse-word-highlight">{w}</mark>
+          }
+          return <span key={i}>{w}</span>
+        })}
+      </span>
+    )
+  }
+
+  // Close on backdrop click
+  function handleBackdrop(e) {
+    if (e.target === e.currentTarget) onClose()
+  }
+
+  // Close on Escape
+  useEffect(() => {
+    function onKey(e) { if (e.key === 'Escape') onClose() }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [onClose])
+
+  return (
+    <div className="verse-popup-backdrop" onClick={handleBackdrop}>
+      <div className="verse-popup" role="dialog" aria-modal="true">
+        <div className="verse-popup-header">
+          <span className="verse-popup-ref">{formatRef(ref)}</span>
+          <button className="verse-popup-close" onClick={onClose} aria-label="Close">✕</button>
+        </div>
+        <div className="verse-popup-body">
+          {verseText === null && popup.loading
+            ? <span className="verse-popup-loading">Loading verse…</span>
+            : verseText
+              ? renderVerse(verseText, targetWord)
+              : <span className="verse-popup-missing greek">Verse text not available.</span>
+          }
+        </div>
+        <div className="verse-popup-footer">
+          <span className="verse-popup-source">Greek NT (STEPBible TAGNT · CC BY)</span>
+          <button className="verse-popup-gnt-btn" disabled title="Greek NT Reader — coming in Phase 2">
+            Open in GNT Reader
+          </button>
+        </div>
       </div>
     </div>
   )
