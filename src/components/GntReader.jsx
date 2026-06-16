@@ -38,13 +38,37 @@ function describeMorph(m) {
   return parts.join(' · ')
 }
 
-export default function GntReader({ book, chapter, onOpenLexicon, onClose }) {
+// Shared refs.json cache — loaded once, shared across mounts
+let biblosStrongsCache = null
+let biblosStrongsLoading = false
+let biblosStrongsCallbacks = []
+
+function loadBiblosStrongs(cb) {
+  if (biblosStrongsCache) { cb(biblosStrongsCache); return }
+  biblosStrongsCallbacks.push(cb)
+  if (biblosStrongsLoading) return
+  biblosStrongsLoading = true
+  fetch('/refs.json')
+    .then(r => r.json())
+    .then(data => {
+      biblosStrongsCache = new Set(Object.keys(data))
+      biblosStrongsCallbacks.forEach(fn => fn(biblosStrongsCache))
+      biblosStrongsCallbacks = []
+    })
+    .catch(() => {
+      biblosStrongsCallbacks = []
+    })
+}
+
+export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon, onClose }) {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [popup, setPopup] = useState(null) // { word, anchorRect }
-  const [showGloss, setShowGloss] = useState(true)
+  const [showGloss, setShowGloss] = useState(false) // default hidden
+  const [biblosStrongs, setBiblosStrongs] = useState(biblosStrongsCache)
   const popupRef = useRef(null)
+  const highlightRef = useRef(null)
 
   useEffect(() => {
     setLoading(true)
@@ -57,6 +81,21 @@ export default function GntReader({ book, chapter, onOpenLexicon, onClose }) {
       .catch(e => setError(e.message))
       .finally(() => setLoading(false))
   }, [book, chapter])
+
+  // Load Biblos Strong's set once
+  useEffect(() => {
+    if (!biblosStrongsCache) loadBiblosStrongs(setBiblosStrongs)
+  }, [])
+
+  // Scroll to highlighted verse after data loads
+  useEffect(() => {
+    if (!highlightVerse || !data) return
+    // Small delay to allow DOM to paint
+    const timer = setTimeout(() => {
+      highlightRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    }, 120)
+    return () => clearTimeout(timer)
+  }, [data, highlightVerse])
 
   // Close popup on outside click
   useEffect(() => {
@@ -109,25 +148,37 @@ export default function GntReader({ book, chapter, onOpenLexicon, onClose }) {
       <div className="gnt-reader-body">
         {loading && <div className="gnt-loading">Loading…</div>}
         {error && <div className="gnt-error">Could not load chapter ({error})</div>}
-        {data && data.verses.map(verse => (
-          <div key={verse.verse} className="gnt-verse">
-            <span className="gnt-verse-num">{verse.verse}</span>
-            <span className="gnt-words">
-              {verse.words.map((w, wi) => (
-                <button
-                  key={wi}
-                  className="gnt-word"
-                  onClick={e => handleWordClick({ ...w, verse: verse.verse }, e)}
-                >
-                  <span className="gnt-word-greek greek">{w.w}</span>
-                  {showGloss && w.g && (
-                    <span className="gnt-word-gloss">{w.g.replace(/[<>\[\]]/g, '').replace(/[.,;]+$/, '')}</span>
-                  )}
-                </button>
-              ))}
-            </span>
-          </div>
-        ))}
+        {data && data.verses.map(vObj => {
+          const isHighlighted = highlightVerse && vObj.verse === highlightVerse
+          return (
+            <div
+              key={vObj.verse}
+              ref={isHighlighted ? highlightRef : null}
+              className={`gnt-verse${isHighlighted ? ' gnt-verse--highlight' : ''}`}
+            >
+              <span className="gnt-verse-num">{vObj.verse}</span>
+              <span className="gnt-words">
+                {vObj.words.map((w, wi) => {
+                  const isBiblos = biblosStrongs && w.s && biblosStrongs.has(w.s)
+                  return (
+                    <button
+                      key={wi}
+                      className={`gnt-word${isBiblos ? ' gnt-word--biblos' : ''}`}
+                      onClick={e => handleWordClick({ ...w, verse: vObj.verse }, e)}
+                      title={isBiblos ? 'In Biblos vocabulary' : undefined}
+                    >
+                      <span className="gnt-word-greek greek">{w.w}</span>
+                      {isBiblos && <span className="gnt-biblos-dot" aria-hidden="true" />}
+                      {showGloss && w.g && (
+                        <span className="gnt-word-gloss">{w.g.replace(/[<>\[\]]/g, '').replace(/[.,;]+$/, '')}</span>
+                      )}
+                    </button>
+                  )
+                })}
+              </span>
+            </div>
+          )
+        })}
       </div>
 
       {popup && (

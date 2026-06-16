@@ -56,8 +56,8 @@ function AppInner() {
     setSidebarOpen(false)
   }
 
-  function handleOpenGnt(book, chapter) {
-    setGntView({ book, chapter })
+  function handleOpenGnt(book, chapter, verse = null) {
+    setGntView({ book, chapter, verse })
     setShowVocabIndex(false)
     setSidebarOpen(false)
   }
@@ -183,6 +183,7 @@ function AppInner() {
             <GntReader
               book={gntView.book}
               chapter={gntView.chapter}
+              highlightVerse={gntView.verse}
               onOpenLexicon={handleOpenLexiconByStrongs}
               onClose={() => setGntView(null)}
             />

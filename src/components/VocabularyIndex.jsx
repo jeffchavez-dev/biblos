@@ -1093,7 +1093,7 @@ function RefsPanel({ word, refsData, loading, onRefClick }) {
 
 function VersePopup({ popup, onClose, onOpenGnt }) {
   const { ref, targetWord, verseText } = popup
-  const [book, chapter] = ref.split('.')
+  const [book, chapter, verse] = ref.split('.')
 
   // Highlight the target word inside the verse text
   function renderVerse(text, target) {
@@ -1147,7 +1147,7 @@ function VersePopup({ popup, onClose, onOpenGnt }) {
           <button
             className="verse-popup-gnt-btn"
             disabled={!onOpenGnt}
-            onClick={() => { onOpenGnt?.(book, parseInt(chapter, 10)); onClose() }}
+            onClick={() => { onOpenGnt?.(book, parseInt(chapter, 10), parseInt(verse, 10)); onClose() }}
             title={onOpenGnt ? `Open ${book} ${chapter} in the GNT Reader` : 'Greek NT Reader — coming soon'}
           >
             Open in GNT Reader
