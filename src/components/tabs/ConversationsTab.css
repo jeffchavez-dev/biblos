@@ -115,3 +115,10 @@
   display: flex; align-items: center; justify-content: center;
   min-height: 300px; color: var(--grey); font-size: 0.95rem;
 }
+
+/* ── Mobile responsive ──────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .conv-card { padding: 20px 16px; }
+  .conv-question { font-size: 1.25rem; }
+  .conv-list-row { padding: 10px 12px; }
+}

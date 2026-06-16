@@ -866,3 +866,42 @@
   text-transform: uppercase;
   font-family: sans-serif;
 }
+
+/* ── Mobile responsive ──────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .vocab-index { padding: 16px 12px 40px; overflow-x: hidden; }
+  .vocab-table { table-layout: fixed; width: 100%; }
+  .vocab-index-title-row h2 { font-size: 1.3rem; }
+
+  /* Search */
+  .vocab-search-row { gap: 6px; }
+  .vocab-search-input { font-size: 0.9rem; padding: 9px 0; }
+  .gk-toggle-btn { height: 38px; padding: 0 10px; font-size: 0.9rem; }
+
+  /* Toolbar */
+  .vocab-toolbar-row { gap: 4px; flex-wrap: wrap; }
+  .filter-select-wrap { min-width: 120px; max-width: none; flex: 1; }
+  .filter-select { font-size: 0.78rem; padding: 6px 10px 6px 26px; }
+  .sort-btn { font-size: 0.75rem; padding: 5px 8px; }
+  .display-toggle-btn { font-size: 0.75rem; padding: 5px 9px; }
+  .toolbar-divider { display: none; }
+
+  /* Table columns — hide less-critical columns, prevent overflow */
+  .vt-pos { display: none; }
+  .vt-source { display: none; }
+  .vt-3sg { display: none; }
+  .vt-3sg-form { display: none; }
+  .vt-3sg-missing { display: none; }
+  .vt-greek { min-width: 0; }
+
+  /* Paradigm */
+  .para-panel { padding: 10px 10px 14px; }
+  .para-verb-grid { grid-template-columns: 1fr !important; }
+  .para-verb-bottom { flex-direction: column; gap: 8px; }
+  .para-table { min-width: 0; font-size: 0.78rem; }
+  .para-table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+  /* Context panel */
+  .ctx-panel { padding: 8px 10px; }
+  .ctx-greek { font-size: 0.95rem; }
+}

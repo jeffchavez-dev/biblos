@@ -181,3 +181,17 @@
 }
 .lock-icon { font-size: 3rem; }
 .locked-view h2 { color: var(--ink); }
+
+/* ── Mobile responsive ──────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .app-header {
+    padding: 0 12px;
+    gap: 8px;
+  }
+  .app-title-greek { font-size: 1.1rem; }
+  .app-title-sub { display: none; }
+  .app-breadcrumb { max-width: 28vw; font-size: 0.72rem; }
+  .font-size-ctrl { display: none; }
+  .lang-select { font-size: 0.7rem; padding: 3px 4px; }
+  .sidebar-backdrop { top: 58px; }
+}

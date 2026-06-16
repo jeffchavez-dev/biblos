@@ -764,3 +764,13 @@
   text-underline-offset: 3px;
 }
 .lexicon-link-btn:hover { opacity: 1; background: rgba(26,54,93,0.06); }
+
+/* ── Mobile responsive ──────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .flashcard { height: auto; min-height: 220px; }
+  .flashcard-front, .flashcard-back { padding: 18px; }
+  .practice-image { max-height: 220px; }
+  .practice-prompt { padding: 16px; min-height: 80px; }
+  .practice-options--2col { grid-template-columns: 1fr; }
+  .pick-image-grid { height: auto; grid-template-columns: 1fr 1fr; grid-template-rows: auto; gap: 6px; }
+}

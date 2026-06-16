@@ -272,3 +272,12 @@
   display: flex; align-items: center; justify-content: center;
   min-height: 300px; color: var(--grey); font-size: 0.95rem;
 }
+
+/* ── Mobile responsive ──────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .story-title { font-size: 1.3rem; }
+  .para-greek { font-size: 1.1rem; line-height: 1.9; }
+  .story-paragraph { padding: 14px 14px; }
+  .para-number { width: 24px; padding-top: 18px; font-size: 0.72rem; }
+  .story-instruction { font-size: 0.75rem; }
+}

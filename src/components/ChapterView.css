@@ -110,3 +110,10 @@
   .tab-content { padding: 20px 16px; }
   .tab-btn { padding: 8px 12px; }
 }
+
+@media (max-width: 480px) {
+  .tab-content { padding: 14px 12px; }
+  .tab-btn { padding: 8px 10px; font-size: 0.72rem; }
+  .tab-emoji { font-size: 0.95rem; }
+  .tab-label { font-size: 0.68rem; }
+}

@@ -115,3 +115,11 @@
   font-size: 0.9rem;
   margin-top: 2px;
 }
+
+/* ── Mobile responsive ──────────────────────────────────────────────────── */
+@media (max-width: 480px) {
+  .fs-arrow { width: 44px; height: 44px; }
+  .fs-caption { padding: 24px 16px 16px; }
+  .fs-close { top: 10px; right: 12px; }
+  .fs-desc-toggle { top: 10px; right: 56px; }
+}
