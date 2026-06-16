@@ -6,12 +6,12 @@
     "transliteration": "opsia",
     "definition": "evening",
     "partOfSpeech": "noun (feminine, 1st decl.)",
-    "image": "ch3-opsia.jpeg",
     "translations": {
       "es": "tarde, noche",
       "pl": "wieczór",
       "fil": "gabi, hapon"
-    }
+    },
+    "image": "ch3a-noun-1.jpeg"
   },
   {
     "id": 2,
@@ -20,12 +20,12 @@
     "transliteration": "selēnē",
     "definition": "moon",
     "partOfSpeech": "noun (feminine, 1st decl.)",
-    "image": "ch3-selene.jpeg",
     "translations": {
       "es": "luna",
       "pl": "księżyc",
       "fil": "buwan"
-    }
+    },
+    "image": "ch3a-noun-5.jpeg"
   },
   {
     "id": 3,
@@ -34,12 +34,12 @@
     "transliteration": "thyra",
     "definition": "door",
     "partOfSpeech": "noun (feminine, 1st decl.)",
-    "image": "ch3-thyra.jpeg",
     "translations": {
       "es": "puerta",
       "pl": "drzwi",
       "fil": "pinto"
-    }
+    },
+    "image": "ch3a-noun-6.jpeg"
   },
   {
     "id": 4,
@@ -48,12 +48,12 @@
     "transliteration": "trapeza",
     "definition": "table",
     "partOfSpeech": "noun (feminine, 1st decl.)",
-    "image": "ch3-trapeza.jpeg",
     "translations": {
       "es": "mesa",
       "pl": "stół",
       "fil": "mesa"
-    }
+    },
+    "image": "ch3a-noun-9.jpeg"
   },
   {
     "id": 5,
@@ -62,12 +62,12 @@
     "transliteration": "kathedra",
     "definition": "chair, seat",
     "partOfSpeech": "noun (feminine, 1st decl.)",
-    "image": "ch3-kathedra.jpeg",
     "translations": {
       "es": "silla, asiento",
       "pl": "krzesło, siedzenie",
       "fil": "silya, upuan"
-    }
+    },
+    "image": "ch3a-noun-11.jpeg"
   },
   {
     "id": 6,
@@ -76,12 +76,12 @@
     "transliteration": "klinē",
     "definition": "bed, couch",
     "partOfSpeech": "noun (feminine, 1st decl.)",
-    "image": "ch3-kline.jpeg",
     "translations": {
       "es": "cama, lecho",
       "pl": "łóżko, łoże",
       "fil": "higaan, kama"
-    }
+    },
+    "image": "ch3a-noun-13.jpeg"
   },
   {
     "id": 7,
@@ -90,12 +90,12 @@
     "transliteration": "skotia",
     "definition": "darkness",
     "partOfSpeech": "noun (feminine, 1st decl.)",
-    "image": "ch3-skotia.jpeg",
     "translations": {
       "es": "oscuridad",
       "pl": "ciemność",
       "fil": "kadiliman"
-    }
+    },
+    "image": "ch3a-noun-7.jpeg"
   },
   {
     "id": 8,
@@ -104,12 +104,12 @@
     "transliteration": "hodos",
     "definition": "road, way",
     "partOfSpeech": "noun (feminine, 2nd decl.)",
-    "image": "ch3-hodos.jpeg",
     "translations": {
       "es": "camino, vía",
       "pl": "droga, ścieżka",
       "fil": "daan, landas"
-    }
+    },
+    "image": "ch3a-noun-4.jpeg"
   },
   {
     "id": 9,
@@ -118,12 +118,12 @@
     "transliteration": "lychnos",
     "definition": "lamp",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch3-lychnos.jpeg",
     "translations": {
       "es": "lámpara",
       "pl": "lampa",
       "fil": "ilawan, lampara"
-    }
+    },
+    "image": "ch3a-noun-8.jpeg"
   },
   {
     "id": 10,
@@ -132,12 +132,12 @@
     "transliteration": "ōmos",
     "definition": "shoulder",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch3-omos.jpeg",
     "translations": {
       "es": "hombro",
       "pl": "ramię, bark",
       "fil": "balikat"
-    }
+    },
+    "image": "ch3a-noun-3.jpeg"
   },
   {
     "id": 11,
@@ -146,12 +146,12 @@
     "transliteration": "chronos",
     "definition": "time",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch3-chronos.jpeg",
     "translations": {
       "es": "tiempo",
       "pl": "czas",
       "fil": "oras, panahon"
-    }
+    },
+    "image": "ch3a-noun-12.jpeg"
   },
   {
     "id": 12,
@@ -160,12 +160,12 @@
     "transliteration": "phōs",
     "definition": "light",
     "partOfSpeech": "noun (neuter, 3rd decl.)",
-    "image": "ch3-phos.jpeg",
     "translations": {
       "es": "luz",
       "pl": "światło",
       "fil": "liwanag, ilaw"
-    }
+    },
+    "image": "ch3a-noun-10.jpeg"
   },
   {
     "id": 13,
@@ -174,12 +174,12 @@
     "transliteration": "nyx",
     "definition": "night",
     "partOfSpeech": "noun (feminine, 3rd decl.)",
-    "image": "ch3-opsia.jpeg",
     "translations": {
       "es": "noche",
       "pl": "noc",
       "fil": "gabi"
-    }
+    },
+    "image": "ch3a-noun-2.jpeg"
   },
   {
     "id": 14,
@@ -188,12 +188,12 @@
     "transliteration": "makros",
     "definition": "long",
     "partOfSpeech": "adjective",
-    "image": "ch3-opsia.jpeg",
     "translations": {
       "es": "largo",
       "pl": "długi",
       "fil": "mahaba"
-    }
+    },
+    "image": "ch3a-adj-1.jpeg"
   },
   {
     "id": 15,
@@ -202,12 +202,12 @@
     "transliteration": "monos",
     "definition": "alone, only",
     "partOfSpeech": "adjective",
-    "image": "ch3-monos.jpeg",
     "translations": {
       "es": "solo, único",
       "pl": "sam, jedyny",
       "fil": "nag-iisa, tanging"
-    }
+    },
+    "image": "ch3a-adj-3.jpeg"
   },
   {
     "id": 16,
@@ -216,12 +216,12 @@
     "transliteration": "holos",
     "definition": "whole, entire",
     "partOfSpeech": "adjective",
-    "image": "ch3-holos.jpeg",
     "translations": {
       "es": "entero, todo",
       "pl": "cały, wszystek",
       "fil": "buong, lahat"
-    }
+    },
+    "image": "ch3a-adj-2.jpeg"
   },
   {
     "id": 17,
@@ -230,13 +230,13 @@
     "transliteration": "kopiaō",
     "definition": "I labor, am weary",
     "partOfSpeech": "verb (contract, -άω)",
-    "image": "ch3-kopiao.jpeg",
     "translations": {
       "es": "yo me canso, me fatigo",
       "pl": "pracuję ciężko, jestem zmęczony",
       "fil": "napapagod"
     },
-    "thirdSingular": "κοπιᾷ"
+    "thirdSingular": "κοπιᾷ",
+    "image": "ch3a-verb-1.jpeg"
   },
   {
     "id": 18,
@@ -245,13 +245,13 @@
     "transliteration": "katheudō",
     "definition": "I sleep",
     "partOfSpeech": "verb",
-    "image": "ch3-katheudo.jpeg",
     "translations": {
       "es": "yo duermo",
       "pl": "śpię",
       "fil": "natutulog"
     },
-    "thirdSingular": "καθεύδει"
+    "thirdSingular": "καθεύδει",
+    "image": "ch3a-verb-3.jpeg"
   },
   {
     "id": 19,
@@ -260,13 +260,13 @@
     "transliteration": "anatellō",
     "definition": "I rise (of sun/moon)",
     "partOfSpeech": "verb",
-    "image": "ch3-selene.jpeg",
     "translations": {
       "es": "yo salgo (del sol/luna)",
       "pl": "wschodzę (o słońcu/księżycu)",
       "fil": "sumisinag, sumasalang"
     },
-    "thirdSingular": "ἀνατέλλει"
+    "thirdSingular": "ἀνατέλλει",
+    "image": "ch3a-verb-2.jpeg"
   },
   {
     "id": 20,
@@ -275,13 +275,13 @@
     "transliteration": "hēkō",
     "definition": "I have come, arrive",
     "partOfSpeech": "verb",
-    "image": "ch3-heko.jpeg",
     "translations": {
       "es": "he venido, llego",
       "pl": "przybyłem, przychodzę",
       "fil": "dumating"
     },
-    "thirdSingular": "ἥκει"
+    "thirdSingular": "ἥκει",
+    "image": "ch3a-verb-4.jpeg"
   },
   {
     "id": 21,
@@ -290,13 +290,13 @@
     "transliteration": "anoigō",
     "definition": "I open",
     "partOfSpeech": "verb",
-    "image": "ch3-thyra.jpeg",
     "translations": {
       "es": "yo abro",
       "pl": "otwieram",
       "fil": "nagbubukas"
     },
-    "thirdSingular": "ἀνοίγει"
+    "thirdSingular": "ἀνοίγει",
+    "image": "ch3a-verb-5.jpeg"
   },
   {
     "id": 22,
@@ -305,13 +305,13 @@
     "transliteration": "zēteō",
     "definition": "I seek, look for",
     "partOfSpeech": "verb (contract, -έω)",
-    "image": "ch3-zeteo.jpeg",
     "translations": {
       "es": "yo busco",
       "pl": "szukam",
       "fil": "naghahanap"
     },
-    "thirdSingular": "ζητεῖ"
+    "thirdSingular": "ζητεῖ",
+    "image": "ch3a-verb-6.jpeg"
   },
   {
     "id": 23,
@@ -320,13 +320,13 @@
     "transliteration": "haptō",
     "definition": "I kindle, light",
     "partOfSpeech": "verb",
-    "image": "ch3-hapto.jpeg",
     "translations": {
       "es": "yo enciendo",
       "pl": "zapalm, rozświetlam",
       "fil": "nagpapaningas, nagsusunog"
     },
-    "thirdSingular": "ἅπτει"
+    "thirdSingular": "ἅπτει",
+    "image": "ch3a-verb-7.jpeg"
   },
   {
     "id": 24,
@@ -391,12 +391,12 @@
     "transliteration": "hypnos",
     "definition": "sleep",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch3b-hypnos.jpeg",
     "translations": {
       "es": "sueño",
       "pl": "sen",
       "fil": "tulog, panaginip"
-    }
+    },
+    "image": "ch3b-noun-1.jpeg"
   },
   {
     "id": 29,
@@ -405,12 +405,12 @@
     "transliteration": "phobos",
     "definition": "fear",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch3b-phobos.jpeg",
     "translations": {
       "es": "miedo",
       "pl": "strach",
       "fil": "takot"
-    }
+    },
+    "image": "ch3b-noun-2.jpeg"
   },
   {
     "id": 30,
@@ -419,12 +419,12 @@
     "transliteration": "eirēnē",
     "definition": "peace",
     "partOfSpeech": "noun (feminine, 1st decl.)",
-    "image": "ch3b-hypnos.jpeg",
     "translations": {
       "es": "paz",
       "pl": "pokój",
       "fil": "kapayapaan"
-    }
+    },
+    "image": "ch3b-noun-4.jpeg"
   },
   {
     "id": 31,
@@ -437,7 +437,8 @@
       "es": "corazón",
       "pl": "serce",
       "fil": "puso"
-    }
+    },
+    "image": "ch3b-noun-5.jpeg"
   },
   {
     "id": 32,
@@ -446,12 +447,12 @@
     "transliteration": "ophthalmos",
     "definition": "eye",
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch3b-ophthalmos.jpeg",
     "translations": {
       "es": "ojo",
       "pl": "oko",
       "fil": "mata"
-    }
+    },
+    "image": "ch3b-noun-3.jpeg"
   },
   {
     "id": 33,
@@ -460,12 +461,15 @@
     "transliteration": "heis, mia, hen",
     "definition": "one",
     "partOfSpeech": "numeral (all genders)",
-    "image": "ch3b-heis.jpeg",
     "translations": {
       "es": "uno",
       "pl": "jeden",
       "fil": "isa"
-    }
+    },
+    "images": [
+      "ch3b-heis-1.jpeg",
+      "ch3b-mia-1.jpeg"
+    ]
   },
   {
     "id": 34,
@@ -474,12 +478,12 @@
     "transliteration": "prōtos",
     "definition": "first",
     "partOfSpeech": "adjective (ordinal)",
-    "image": "ch3b-protos.jpeg",
     "translations": {
       "es": "primero",
       "pl": "pierwszy",
       "fil": "una, paunang"
-    }
+    },
+    "image": "ch3b-adj-3.jpeg"
   },
   {
     "id": 35,
@@ -488,12 +492,12 @@
     "transliteration": "deuteros",
     "definition": "second",
     "partOfSpeech": "adjective (ordinal)",
-    "image": "ch3b-deuteros.jpeg",
     "translations": {
       "es": "segundo",
       "pl": "drugi",
       "fil": "ikalawa"
-    }
+    },
+    "image": "ch3b-adj-3.jpeg"
   },
   {
     "id": 36,
@@ -502,12 +506,12 @@
     "transliteration": "tritos",
     "definition": "third",
     "partOfSpeech": "adjective (ordinal)",
-    "image": "ch3b-tritos.jpeg",
     "translations": {
       "es": "tercero",
       "pl": "trzeci",
       "fil": "ikatlo"
-    }
+    },
+    "image": "ch3b-adj-3.jpeg"
   },
   {
     "id": 37,
@@ -516,12 +520,12 @@
     "transliteration": "polys",
     "definition": "much, many",
     "partOfSpeech": "adjective (irregular)",
-    "image": "ch3b-heis.jpeg",
     "translations": {
       "es": "mucho, muchos",
       "pl": "dużo, wielu",
       "fil": "marami"
-    }
+    },
+    "image": "ch3a-adj-4.jpeg"
   },
   {
     "id": 38,
@@ -530,12 +534,12 @@
     "transliteration": "pas",
     "definition": "all, every",
     "partOfSpeech": "adjective (irregular)",
-    "image": "ch3b-dynatos.jpeg",
     "translations": {
       "es": "todo, cada",
       "pl": "wszystko, każdy",
       "fil": "lahat, bawat"
-    }
+    },
+    "image": "ch3b-adj-2.jpeg"
   },
   {
     "id": 39,
@@ -544,12 +548,12 @@
     "transliteration": "dynatos",
     "definition": "possible, able",
     "partOfSpeech": "adjective",
-    "image": "ch3b-dynatos.jpeg",
     "translations": {
       "es": "posible, capaz",
       "pl": "możliwy, zdolny",
       "fil": "kaya, posible"
-    }
+    },
+    "image": "ch3b-adj-1.jpeg"
   },
   {
     "id": 40,
@@ -598,13 +602,13 @@
     "transliteration": "stenazō",
     "definition": "I groan, sigh",
     "partOfSpeech": "verb",
-    "image": "ch3b-stenazo.jpeg",
     "translations": {
       "es": "yo gimo, suspiro",
       "pl": "wzdycham, jeczę",
       "fil": "humihinga nang malalim, nagbubuntong-hininga"
     },
-    "thirdSingular": "στενάζει"
+    "thirdSingular": "στενάζει",
+    "image": "ch3b-verb-1.jpeg"
   },
   {
     "id": 44,
@@ -613,13 +617,13 @@
     "transliteration": "diabainō",
     "definition": "I cross over",
     "partOfSpeech": "verb",
-    "image": "ch3b-diabaino.jpeg",
     "translations": {
       "es": "yo cruzo",
       "pl": "przekraczam, przechodzę",
       "fil": "tumatawid"
     },
-    "thirdSingular": "διαβαίνει"
+    "thirdSingular": "διαβαίνει",
+    "image": "ch3b-verb-6.jpeg"
   },
   {
     "id": 45,
@@ -633,7 +637,8 @@
       "pl": "uczę się, rozumiem",
       "fil": "natututo, nakakaunawa"
     },
-    "thirdSingular": "μανθάνει"
+    "thirdSingular": "μανθάνει",
+    "image": "ch3b-verb-5.jpeg"
   },
   {
     "id": 46,
@@ -642,13 +647,13 @@
     "transliteration": "thaumazō",
     "definition": "I marvel, am amazed",
     "partOfSpeech": "verb",
-    "image": "ch3b-thaumazo.jpeg",
     "translations": {
       "es": "yo me maravillo",
       "pl": "dziwię się, jestem zdumiony",
       "fil": "nagtataka, namumangha"
     },
-    "thirdSingular": "θαυμάζει"
+    "thirdSingular": "θαυμάζει",
+    "image": "ch3b-verb-2.jpeg"
   },
   {
     "id": 47,
@@ -657,13 +662,13 @@
     "transliteration": "egeirō",
     "definition": "I raise, wake up",
     "partOfSpeech": "verb",
-    "image": "ch3b-egeiro.jpeg",
     "translations": {
       "es": "yo levanto, despierto",
       "pl": "podnoszę, budzę",
       "fil": "nagpupunan, ginigising"
     },
-    "thirdSingular": "ἐγείρει"
+    "thirdSingular": "ἐγείρει",
+    "image": "ch3b-verb-4.jpeg"
   },
   {
     "id": 48,
@@ -672,13 +677,13 @@
     "transliteration": "piptō",
     "definition": "I fall",
     "partOfSpeech": "verb",
-    "image": "ch3b-pipto.jpeg",
     "translations": {
       "es": "yo caigo",
       "pl": "padam, upadam",
       "fil": "nahuhulog"
     },
-    "thirdSingular": "πίπτει"
+    "thirdSingular": "πίπτει",
+    "image": "ch3b-verb-3.jpeg"
   },
   {
     "id": 49,
@@ -687,12 +692,12 @@
     "transliteration": "pantachou",
     "definition": "everywhere",
     "partOfSpeech": "adverb",
-    "image": "ch3b-pantachou.jpeg",
     "translations": {
       "es": "en todas partes",
       "pl": "wszędzie",
       "fil": "sa lahat ng dako"
-    }
+    },
+    "image": "ch3b-adv-2.jpeg"
   },
   {
     "id": 50,
@@ -701,12 +706,12 @@
     "transliteration": "esō",
     "definition": "inside, within",
     "partOfSpeech": "adverb",
-    "image": "ch3b-eso.jpeg",
     "translations": {
       "es": "adentro, dentro",
       "pl": "wewnątrz, w środku",
       "fil": "sa loob"
-    }
+    },
+    "image": "ch3b-eso.jpeg"
   },
   {
     "id": 51,
@@ -715,12 +720,12 @@
     "transliteration": "exaiphnēs",
     "definition": "suddenly",
     "partOfSpeech": "adverb",
-    "image": "ch3b-exaiphnes.jpeg",
     "translations": {
       "es": "de repente",
       "pl": "nagle",
       "fil": "biglaan, kaagad"
-    }
+    },
+    "image": "ch3b-adv-3.jpeg"
   },
   {
     "id": 52,
@@ -729,12 +734,12 @@
     "transliteration": "pou?",
     "definition": "where?",
     "partOfSpeech": "interrogative adverb",
-    "image": "ch3b-pou.jpeg",
     "translations": {
       "es": "¿dónde?",
       "pl": "gdzie?",
       "fil": "saan?"
-    }
+    },
+    "image": "ch3b-adv-1.jpeg"
   },
   {
     "id": 53,
@@ -743,12 +748,12 @@
     "transliteration": "hōs",
     "definition": "as, like",
     "partOfSpeech": "conjunction/adverb",
-    "image": "ch3b-hos.jpeg",
     "translations": {
       "es": "como, así como",
       "pl": "jak, tak jak",
       "fil": "tulad ng, gaya ng"
-    }
+    },
+    "image": "ch3b-hos.jpeg"
   },
   {
     "id": 54,
