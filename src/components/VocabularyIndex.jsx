@@ -84,6 +84,21 @@ const VERB_GROUPS = [
   },
 ]
 
+// Noun sub-groups shown as filter below Noun category
+const NOUN_GROUPS = [
+  { id: 'noun-1st', label: '1st Declension', tip: '1st declension nouns typically have -η or -α nominative singular (feminine) or -ης/-ας (masculine). Genitive singular ends in -ης or -ας.' },
+  { id: 'noun-2nd', label: '2nd Declension', tip: '2nd declension nouns have -ος (masc./fem.) or -ον (neut.) nominative singular. Genitive singular ends in -ου.' },
+  { id: 'noun-3rd', label: '3rd Declension', tip: '3rd declension nouns have varied endings. The stem is found from the genitive singular. Includes many important NT words.' },
+]
+
+function getNounGroup(partOfSpeech = '') {
+  const pos = partOfSpeech.toLowerCase()
+  if (/1st decl/.test(pos)) return 'noun-1st'
+  if (/2nd decl/.test(pos)) return 'noun-2nd'
+  if (/3rd decl/.test(pos)) return 'noun-3rd'
+  return null
+}
+
 function getCategory(partOfSpeech = '') {
   const pos = partOfSpeech.toLowerCase()
   for (const cat of CATEGORIES) {
@@ -274,6 +289,7 @@ export default function VocabularyIndex({ onNavigate, target }) {
   const [query, setQuery] = useState('')
   const [activeCats, setActiveCats] = useState(new Set())
   const [activeVerbGroup, setActiveVerbGroup] = useState(null)
+  const [activeNounGroup, setActiveNounGroup] = useState(null)
   const [targetFilter, setTargetFilter] = useState(target || null)
   const [loading, setLoading] = useState(true)
   const [fsWord, setFsWord] = useState(null)
@@ -303,6 +319,7 @@ export default function VocabularyIndex({ onNavigate, target }) {
             lessonOrder: chapter * 10 + (w.part === 'A' ? 1 : 2),
             category: getCategory(w.partOfSpeech),
             verbGroup: getVerbGroup(w.partOfSpeech || ''),
+            nounGroup: getNounGroup(w.partOfSpeech || ''),
           }))
         )
         setWords(all)
@@ -352,21 +369,32 @@ export default function VocabularyIndex({ onNavigate, target }) {
 
   function selectVerbGroup(id) {
     setActiveVerbGroup(prev => prev === id ? null : id)
+    setActiveNounGroup(null)
     setActiveCats(new Set())
   }
 
-  const selectValue = activeVerbGroup || (activeCats.size === 1 ? [...activeCats][0] : '')
+  function selectNounGroup(id) {
+    setActiveNounGroup(prev => prev === id ? null : id)
+    setActiveVerbGroup(null)
+    setActiveCats(new Set())
+  }
+
+  const selectValue = activeVerbGroup || activeNounGroup || (activeCats.size === 1 ? [...activeCats][0] : '')
 
   function handleFilterChange(e) {
     const val = e.target.value
     if (VERB_GROUPS.find(g => g.id === val)) {
       selectVerbGroup(val)
+    } else if (NOUN_GROUPS.find(g => g.id === val)) {
+      selectNounGroup(val)
     } else if (val) {
       setActiveCats(new Set([val]))
       setActiveVerbGroup(null)
+      setActiveNounGroup(null)
     } else {
       setActiveCats(new Set())
       setActiveVerbGroup(null)
+      setActiveNounGroup(null)
     }
   }
 
@@ -377,6 +405,10 @@ export default function VocabularyIndex({ onNavigate, target }) {
   const verbGroupCounts = {}
   for (const g of VERB_GROUPS) {
     verbGroupCounts[g.id] = words.filter(w => w.verbGroup === g.id).length
+  }
+  const nounGroupCounts = {}
+  for (const g of NOUN_GROUPS) {
+    nounGroupCounts[g.id] = words.filter(w => w.nounGroup === g.id).length
   }
 
   const sorted = [...words].sort((a, b) =>
@@ -389,12 +421,13 @@ export default function VocabularyIndex({ onNavigate, target }) {
     .filter(w => {
       if (targetFilter) return w.chapter === targetFilter.chapterId && w.part === targetFilter.part && matches(w, query)
       if (activeVerbGroup) return w.verbGroup === activeVerbGroup && matches(w, query)
+      if (activeNounGroup) return w.nounGroup === activeNounGroup && matches(w, query)
       return (activeCats.size === 0 || activeCats.has(w.category)) && matches(w, query)
     })
     .map(w => ({ ...w, _key: `${w.chapter}-${w.id}` }))
 
   const total = words.length
-  const isFiltered = query.trim().length > 0 || activeCats.size > 0 || !!activeVerbGroup || !!targetFilter
+  const isFiltered = query.trim().length > 0 || activeCats.size > 0 || !!activeVerbGroup || !!activeNounGroup || !!targetFilter
   const activeGroup = VERB_GROUPS.find(g => g.id === activeVerbGroup)
   // Column count for colSpan on ctx rows
   const colCount = 5 + (activeGroup ? 1 : 0) + 1 // base + 3sg + ctx
@@ -476,6 +509,13 @@ export default function VocabularyIndex({ onNavigate, target }) {
                   {ui(cat.labelKey)} ({catCounts[cat.id]})
                 </option>
               ))}
+              {NOUN_GROUPS.some(g => nounGroupCounts[g.id] > 0) && (
+                NOUN_GROUPS.filter(g => nounGroupCounts[g.id] > 0).map(g => (
+                  <option key={g.id} value={g.id}>
+                    ↳ {g.label} ({nounGroupCounts[g.id]})
+                  </option>
+                ))
+              )}
               {VERB_GROUPS.some(g => verbGroupCounts[g.id] > 0) && (
                 VERB_GROUPS.filter(g => verbGroupCounts[g.id] > 0).map(g => (
                   <option key={g.id} value={g.id}>
@@ -485,8 +525,8 @@ export default function VocabularyIndex({ onNavigate, target }) {
               )}
             </select>
           </div>
-          {(activeCats.size > 0 || activeVerbGroup) && (
-            <button className="filter-clear-btn" onClick={() => { setActiveCats(new Set()); setActiveVerbGroup(null) }}>
+          {(activeCats.size > 0 || activeVerbGroup || activeNounGroup) && (
+            <button className="filter-clear-btn" onClick={() => { setActiveCats(new Set()); setActiveVerbGroup(null); setActiveNounGroup(null) }}>
               Clear ✕
             </button>
           )}
@@ -741,6 +781,18 @@ function buildParadigm(word) {
         infinitive: stem + 'ᾶν',
         participle: { masc: stem+'ῶν', fem: stem+'ῶσα', neut: stem+'ῶν' },
         note: 'Present subjunctive forms are identical to indicative in α-contract verbs.',
+      }
+    }
+    if (s.endsWith('ομαι')) {
+      const stem = lemma.slice(0, -4)
+      const isIrreg = /ἔρχ|γίν|δύν/.test(stem)
+      return { type: 'verb-full', title: 'Present Middle — deponent (-ομαι)', stem: stem + '-',
+        indicative:  [['1ST', stem+'ομαι', stem+'όμεθα'], ['2ND', stem+'ῃ',    stem+'εσθε'], ['3RD', stem+'εται',  stem+'ονται']],
+        subjunctive: [['1ST', stem+'ωμαι', stem+'ώμεθα'], ['2ND', stem+'ῃ',    stem+'ησθε'], ['3RD', stem+'ηται',  stem+'ωνται']],
+        imperative:  [['2ND', stem+'ου',   stem+'εσθε'],  ['3RD', stem+'έσθω', stem+'έσθωσαν']],
+        infinitive: stem + 'εσθαι',
+        participle: { masc: stem+'όμενος', fem: stem+'ομένη', neut: stem+'όμενον' },
+        note: isIrreg ? 'Some forms of this verb are irregular — consult a full lexicon.' : null,
       }
     }
     if (s.endsWith('ω')) {
