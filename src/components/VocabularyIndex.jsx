@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react'
+import React, { useState, useEffect, useRef, useCallback } from 'react'
 import { useUI, useLanguage, t } from '../context/LanguageContext.jsx'
 import FullscreenViewer from './FullscreenViewer.jsx'
 import './VocabularyIndex.css'
@@ -106,9 +106,30 @@ function matches(word, query) {
 // ── Context helpers ────────────────────────────────────────────────────────────
 
 function getStem(greekField) {
-  // Take first token before any comma/space/dash, strip accents, first 4 chars
+  // Take first token before any comma/space/dash, strip accents
   const lemma = greekField.split(/[,\s\-–—]/)[0].trim()
-  return stripAccents(lemma).slice(0, 4)
+  let s = stripAccents(lemma)
+  // Strip verb -ω ending so ἄγω → αγ, ὑπάγω → υπαγ, but only if stem ≥ 3 chars
+  if (s.endsWith('ω') && s.length > 3) s = s.slice(0, -1)
+  return s.slice(0, 4)
+}
+
+// Returns true if a story word (stripped) matches a vocab lemma stem
+function stemMatches(storyWordStripped, lemmaStripped) {
+  // Exact or prefix match on first 4 chars of stem (only reliable when stem ≥ 4 chars)
+  const stem = lemmaStripped.slice(0, 4)
+  if (stem.length >= 4 && storyWordStripped.startsWith(stem)) return true
+  // For the exact lemma form (e.g., lexical form appears in story)
+  if (storyWordStripped === lemmaStripped) return true
+  return false
+}
+
+// Extract the primary matchable English root from a vocab definition
+// e.g., "I lead, bring" → "lead"; "I go away" → "go"
+function defKeyword(definition) {
+  const words = definition.toLowerCase().replace(/[,;()]/g, ' ').split(/\s+/)
+  const skip = new Set(['i', 'a', 'an', 'the', 'to', 'not', 'be', 'am', 'is', 'are'])
+  return words.find(w => w.length >= 3 && !skip.has(w)) || ''
 }
 
 function extractSentences(words) {
@@ -129,7 +150,7 @@ function extractSentences(words) {
 function findContexts(vocabWord, storyData) {
   if (!storyData) return []
   const stem = getStem(vocabWord.greek)
-  if (stem.length < 3) return []
+  if (stem.length < 2) return []
 
   const results = []
 
@@ -140,7 +161,15 @@ function findContexts(vocabWord, storyData) {
       const part = para.label?.includes('Βʹ') ? 'B' : 'A'
       const sentences = extractSentences(words)
       for (const sent of sentences) {
-        const hit = sent.find(w => stripAccents(w.greek).startsWith(stem))
+        const lemmaStripped = stripAccents(vocabWord.greek.split(/[,\s\-–—]/)[0].trim())
+        const keyword = defKeyword(vocabWord.definition)
+        const hit = sent.find(w => {
+          const ws = stripAccents(w.greek)
+          if (stemMatches(ws, lemmaStripped)) return true
+          // For short-stem verbs: match via story word definition containing vocab keyword
+          if (keyword && w.definition && w.definition.toLowerCase().includes(keyword)) return true
+          return false
+        })
         if (hit) {
           const greek = sent.map(w => w.greek).join(' ')
           // avoid duplicate sentences
@@ -168,7 +197,7 @@ function findContexts(vocabWord, storyData) {
 
 function ContextPanel({ word, stories, storiesLoading, onNavigate }) {
   const matches = stories ? findContexts(word, stories) : []
-  const stem = getStem(word.greek)
+  const lemmaStripped = stripAccents(word.greek.split(/[,\s\-–—]/)[0].trim())
 
   if (storiesLoading) {
     return <div className="ctx-panel ctx-loading">Loading story examples…</div>
@@ -183,7 +212,7 @@ function ContextPanel({ word, stories, storiesLoading, onNavigate }) {
       {matches.map((m, i) => (
         <div key={i} className="ctx-item">
           <div className="ctx-greek greek">
-            <CtxHighlight text={m.greek} stem={stem} />
+            <CtxHighlight text={m.greek} lemmaStripped={lemmaStripped} keyword={defKeyword(word.definition)} />
           </div>
           <button
             className="ctx-source-btn"
@@ -198,14 +227,19 @@ function ContextPanel({ word, stories, storiesLoading, onNavigate }) {
   )
 }
 
-function CtxHighlight({ text, stem }) {
-  // Highlight all words in the sentence whose stem matches
+function CtxHighlight({ text, lemmaStripped, keyword }) {
+  // Highlight words that match the lemma stem
+  // For short-stem verbs we can't do definition-lookup here, so use a loose stem
+  const shortStem = (lemmaStripped.endsWith('ω') && lemmaStripped.length <= 4)
+    ? lemmaStripped.slice(0, -1) : null
   const tokens = text.split(/(\s+)/)
   return (
     <>
       {tokens.map((tok, i) => {
         if (/^\s+$/.test(tok)) return tok
-        const isMatch = stripAccents(tok).startsWith(stem)
+        const ws = stripAccents(tok)
+        const isMatch = stemMatches(ws, lemmaStripped)
+          || (shortStem && shortStem.length >= 2 && ws.startsWith(shortStem) && ws.length > shortStem.length)
         return isMatch
           ? <mark key={i} className="ctx-word-highlight">{tok}</mark>
           : <span key={i}>{tok}</span>
@@ -514,8 +548,8 @@ export default function VocabularyIndex({ onNavigate, target }) {
               {filtered.map((w, i) => {
                 const ctxOpen = openCtx === w._key
                 return (
-                  <>
-                    <tr key={w._key} className={i % 2 === 0 ? 'vt-row-even' : ''}>
+                  <React.Fragment key={w._key}>
+                    <tr className={i % 2 === 0 ? 'vt-row-even' : ''}>
                       <td className="vt-ctx">
                         <button
                           className={`ctx-btn${ctxOpen ? ' ctx-btn--active' : ''}`}
@@ -568,7 +602,7 @@ export default function VocabularyIndex({ onNavigate, target }) {
                       </td>
                     </tr>
                     {ctxOpen && (
-                      <tr key={`${w._key}-ctx`} className="ctx-row">
+                      <tr className="ctx-row">
                         <td colSpan={colCount}>
                           <ContextPanel
                             word={w}
@@ -580,13 +614,13 @@ export default function VocabularyIndex({ onNavigate, target }) {
                       </tr>
                     )}
                     {openParadigm === w._key && (
-                      <tr key={`${w._key}-para`} className="para-row">
+                      <tr className="para-row">
                         <td colSpan={colCount}>
                           <ParadigmPanel paradigm={buildParadigm(w)} />
                         </td>
                       </tr>
                     )}
-                  </>
+                  </React.Fragment>
                 )
               })}
             </tbody>
