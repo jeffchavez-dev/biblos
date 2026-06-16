@@ -306,6 +306,12 @@ export default function VocabularyIndex({ onNavigate, target }) {
   const [openParadigm, setOpenParadigm] = useState(null)
   const [showKeyboard, setShowKeyboard] = useState(false)
 
+  // Search history
+  const [searchHistory, setSearchHistory] = useState(() => {
+    try { return JSON.parse(localStorage.getItem('lexicon-search-history') || '[]') } catch { return [] }
+  })
+  const [showHistory, setShowHistory] = useState(false)
+
   const searchRef = useRef(null)
 
   useEffect(() => {
@@ -452,9 +458,9 @@ export default function VocabularyIndex({ onNavigate, target }) {
         </div>
         <p className="vocab-index-subtitle">{ui('vocabSubtitle')}</p>
 
-        {/* Search */}
+        {/* Search row */}
         <div className="vocab-search-row">
-          <div className="vocab-search-box">
+          <div className="vocab-search-box" style={{ position: 'relative' }}>
             <span className="vocab-search-icon">🔍</span>
             <input
               ref={searchRef}
@@ -463,6 +469,16 @@ export default function VocabularyIndex({ onNavigate, target }) {
               placeholder={ui('searchPlaceholder')}
               value={query}
               onChange={e => setQuery(e.target.value)}
+              onFocus={() => setShowHistory(true)}
+              onBlur={() => setTimeout(() => setShowHistory(false), 150)}
+              onKeyDown={e => {
+                if (e.key === 'Enter' && query.trim()) {
+                  const h = [query.trim(), ...searchHistory.filter(s => s !== query.trim())].slice(0, 8)
+                  setSearchHistory(h)
+                  localStorage.setItem('lexicon-search-history', JSON.stringify(h))
+                  setShowHistory(false)
+                }
+              }}
               spellCheck={false}
               autoComplete="off"
             />
@@ -472,6 +488,20 @@ export default function VocabularyIndex({ onNavigate, target }) {
                 onClick={() => { setQuery(''); searchRef.current?.focus() }}
                 aria-label="Clear"
               >✕</button>
+            )}
+            {showHistory && !query && searchHistory.length > 0 && (
+              <div className="search-history-dropdown">
+                <div className="search-history-label">Recent searches</div>
+                {searchHistory.map((h, i) => (
+                  <button key={i} className="search-history-item" onMouseDown={() => { setQuery(h); setShowHistory(false) }}>
+                    <span className="search-history-icon">🕐</span>
+                    <span className="greek">{h}</span>
+                  </button>
+                ))}
+                <button className="search-history-clear" onMouseDown={() => { setSearchHistory([]); localStorage.removeItem('lexicon-search-history') }}>
+                  Clear history
+                </button>
+              </div>
             )}
           </div>
           <button
@@ -494,8 +524,8 @@ export default function VocabularyIndex({ onNavigate, target }) {
           />
         )}
 
-        {/* Filter dropdown */}
-        <div className="filter-dropdown-row">
+        {/* Filter · Sort · Gloss — single toolbar row */}
+        <div className="vocab-toolbar-row">
           <div className="filter-select-wrap">
             <span className="filter-select-icon">▾</span>
             <select
@@ -528,23 +558,15 @@ export default function VocabularyIndex({ onNavigate, target }) {
           </div>
           {(activeCats.size > 0 || activeVerbGroup || activeNounGroup) && (
             <button className="filter-clear-btn" onClick={() => { setActiveCats(new Set()); setActiveVerbGroup(null); setActiveNounGroup(null) }}>
-              Clear ✕
+              ✕
             </button>
           )}
-        </div>
-
-        {/* Sort + display toggles row */}
-        <div className="vocab-index-toolbar">
+          <div className="toolbar-divider" />
           <div className="vocab-index-sort">
-            <button
-              className={`sort-btn ${sort === 'lesson' ? 'sort-btn--active' : ''}`}
-              onClick={() => setSort('lesson')}
-            >{ui('byLesson')}</button>
-            <button
-              className={`sort-btn ${sort === 'alpha' ? 'sort-btn--active' : ''}`}
-              onClick={() => setSort('alpha')}
-            >{ui('alphabetical')}</button>
+            <button className={`sort-btn ${sort === 'lesson' ? 'sort-btn--active' : ''}`} onClick={() => setSort('lesson')}>{ui('byLesson')}</button>
+            <button className={`sort-btn ${sort === 'alpha' ? 'sort-btn--active' : ''}`} onClick={() => setSort('alpha')}>{ui('alphabetical')}</button>
           </div>
+          <div className="toolbar-divider" />
           <button
             className={`display-toggle-btn ${hideGloss ? 'display-toggle-btn--active' : ''}`}
             onClick={() => setHideGloss(v => !v)}

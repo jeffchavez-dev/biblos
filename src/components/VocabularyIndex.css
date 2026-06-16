@@ -114,6 +114,58 @@
   background: #eee;
 }
 
+/* Search history dropdown */
+.search-history-dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1.5px solid #dde0ea;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  z-index: 200;
+  overflow: hidden;
+  padding: 4px 0;
+}
+.search-history-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #aaa;
+  padding: 6px 14px 4px;
+}
+.search-history-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 7px 14px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-align: left;
+  color: #333;
+  transition: background 0.1s;
+}
+.search-history-item:hover { background: #f5f6fa; }
+.search-history-icon { font-size: 0.8rem; opacity: 0.5; }
+.search-history-clear {
+  display: block;
+  width: 100%;
+  background: none;
+  border: none;
+  border-top: 1px solid #f0f0f0;
+  padding: 7px 14px;
+  font-size: 0.78rem;
+  color: #aaa;
+  cursor: pointer;
+  text-align: left;
+  transition: color 0.1s;
+}
+.search-history-clear:hover { color: #d44; }
+
 .vocab-index-result-count {
   font-size: 0.78rem;
   color: var(--grey);
@@ -605,24 +657,25 @@
 .gloss-hidden-cell:hover {
   color: #888;
 }
-.vocab-index-toolbar {
+/* ── Unified toolbar row: Filter · Sort · Gloss ────────────────────────── */
+.vocab-toolbar-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  margin-top: 8px;
+  gap: 6px;
+  margin-top: 10px;
+  flex-wrap: wrap;
 }
-
-/* ── Filter dropdown ─────────────────────────────────────────────────────── */
-.filter-dropdown-row {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 4px;
+.toolbar-divider {
+  width: 1px;
+  height: 20px;
+  background: var(--border, #ddd);
+  flex-shrink: 0;
+  margin: 0 2px;
 }
 .filter-select-wrap {
   position: relative;
-  flex: 1;
+  min-width: 160px;
+  max-width: 220px;
 }
 .filter-select-icon {
   position: absolute;
