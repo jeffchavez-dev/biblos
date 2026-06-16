@@ -34,7 +34,83 @@
 
 /* Search */
 .vocab-search-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   margin-bottom: 12px;
+}
+
+/* Greek keyboard toggle button */
+.gk-toggle-btn {
+  flex-shrink: 0;
+  padding: 0 12px;
+  height: 42px;
+  border: 1.5px solid #dde0ea;
+  border-radius: 10px;
+  background: #fff;
+  color: #555;
+  font-size: 1rem;
+  font-family: 'Gentium Plus', 'GFS Didot', serif;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+  line-height: 1;
+}
+.gk-toggle-btn:hover {
+  border-color: var(--deep-blue);
+  color: var(--deep-blue);
+}
+.gk-toggle-btn--active {
+  background: var(--deep-blue);
+  border-color: var(--deep-blue);
+  color: #fff;
+}
+
+/* Greek keyboard panel */
+.gk-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px;
+  background: #f5f6fa;
+  border: 1.5px solid #dde0ea;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+.gk-row {
+  display: flex;
+  gap: 4px;
+}
+.gk-key {
+  padding: 6px 10px;
+  min-width: 36px;
+  border: 1.5px solid #dde0ea;
+  border-radius: 6px;
+  background: #fff;
+  font-size: 1rem;
+  font-family: 'Gentium Plus', 'GFS Didot', serif;
+  cursor: pointer;
+  color: #222;
+  transition: background 0.1s, border-color 0.1s;
+  line-height: 1.2;
+}
+.gk-key:hover {
+  background: var(--deep-blue);
+  border-color: var(--deep-blue);
+  color: #fff;
+}
+.gk-key--back {
+  font-family: inherit;
+  font-size: 0.9rem;
+  margin-left: auto;
+  min-width: 44px;
+  background: #eee;
+  border-color: #ccc;
+  color: #555;
+}
+.gk-key--back:hover {
+  background: #d44;
+  border-color: #d44;
+  color: #fff;
 }
 .vocab-search-box {
   display: flex;

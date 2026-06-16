@@ -287,6 +287,7 @@ export default function VocabularyIndex({ onNavigate, target }) {
   // Display toggle state
   const [hideGloss, setHideGloss] = useState(false)
   const [openParadigm, setOpenParadigm] = useState(null)
+  const [showKeyboard, setShowKeyboard] = useState(false)
 
   const searchRef = useRef(null)
 
@@ -439,7 +440,25 @@ export default function VocabularyIndex({ onNavigate, target }) {
               >✕</button>
             )}
           </div>
+          <button
+            className={`gk-toggle-btn${showKeyboard ? ' gk-toggle-btn--active' : ''}`}
+            onClick={() => setShowKeyboard(v => !v)}
+            title="Greek keyboard"
+            aria-label="Toggle Greek keyboard"
+          >αβ</button>
         </div>
+        {showKeyboard && (
+          <GreekKeyboard
+            onKey={ch => {
+              setQuery(q => q + ch)
+              searchRef.current?.focus()
+            }}
+            onBackspace={() => {
+              setQuery(q => [...q].slice(0, -1).join(''))
+              searchRef.current?.focus()
+            }}
+          />
+        )}
 
         {/* Filter dropdown */}
         <div className="filter-dropdown-row">
@@ -874,6 +893,34 @@ function ParadigmPanel({ paradigm }) {
   )
 }
 
+
+// ── Greek virtual keyboard ────────────────────────────────────────────────────
+
+const GK_ROWS = [
+  ['α','β','γ','δ','ε','ζ','η','θ','ι','κ','λ','μ'],
+  ['ν','ξ','ο','π','ρ','σ','τ','υ','φ','χ','ψ','ω'],
+]
+
+function GreekKeyboard({ onKey, onBackspace }) {
+  return (
+    <div className="gk-panel">
+      {GK_ROWS.map((row, ri) => (
+        <div key={ri} className="gk-row">
+          {row.map(ch => (
+            <button key={ch} className="gk-key greek" onMouseDown={e => { e.preventDefault(); onKey(ch) }}>
+              {ch}
+            </button>
+          ))}
+          {ri === GK_ROWS.length - 1 && (
+            <button className="gk-key gk-key--back" onMouseDown={e => { e.preventDefault(); onBackspace() }} aria-label="Backspace">
+              ⌫
+            </button>
+          )}
+        </div>
+      ))}
+    </div>
+  )
+}
 
 function Highlight({ text, query, isGreek }) {
   if (!query.trim()) return text
