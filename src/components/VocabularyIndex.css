@@ -742,6 +742,97 @@
 .para-btn--active { background: var(--deep-blue); color: #fff; opacity: 1; border-color: var(--deep-blue); }
 .para-btn--disabled { opacity: 0.2; cursor: default; }
 
+/* ── Refs button ─────────────────────────────────────────────────────────── */
+.refs-btn {
+  display: block;
+  margin-top: 3px;
+  background: none;
+  border: 1.5px solid var(--border, #ddd);
+  border-radius: 4px;
+  width: 24px;
+  height: 20px;
+  font-size: 0.7rem;
+  cursor: pointer;
+  opacity: 0.55;
+  transition: opacity 0.15s, background 0.15s, border-color 0.15s;
+  line-height: 1;
+  padding: 0;
+}
+.refs-btn:hover { opacity: 1; border-color: var(--gold, #c9a84c); }
+.refs-btn--active { background: var(--gold, #c9a84c); opacity: 1; border-color: var(--gold, #c9a84c); }
+
+/* ── Scripture refs expansion row ───────────────────────────────────────── */
+.refs-row td { padding: 0; background: #fffbf0; border-top: 1px solid #e8d88c; }
+
+.refs-panel {
+  padding: 12px 16px 14px;
+}
+.refs-panel--loading {
+  color: var(--grey);
+  font-size: 0.85rem;
+  font-style: italic;
+  padding: 10px 16px;
+}
+.refs-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.refs-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--deep-blue);
+}
+.refs-strongs {
+  font-size: 0.7rem;
+  color: var(--grey);
+  font-family: monospace;
+}
+.refs-count {
+  font-size: 0.7rem;
+  color: var(--grey);
+}
+.refs-empty {
+  font-size: 0.85rem;
+  color: var(--grey);
+  font-style: italic;
+}
+.refs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 320px;
+  overflow-y: auto;
+}
+.refs-item {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 0.85rem;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+.refs-ref {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--deep-blue);
+  min-width: 130px;
+  flex-shrink: 0;
+}
+.refs-word {
+  color: #333;
+  min-width: 100px;
+  flex-shrink: 0;
+}
+.refs-gloss {
+  color: var(--grey);
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
 /* ── Paradigm expansion row ──────────────────────────────────────────────── */
 .para-row td { padding: 0; background: #f0f4ff; border-top: 1px solid #c8d4f0; }
 

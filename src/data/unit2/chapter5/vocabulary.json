@@ -10,7 +10,8 @@
       "es": "boca",
       "pl": "usta",
       "fil": "bibig"
-    }
+    },
+    "strongsNum": "G4750"
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
       "es": "espíritu, aliento, viento",
       "pl": "duch, oddech, wiatr",
       "fil": "espiritu, hininga, hangin"
-    }
+    },
+    "strongsNum": "G4151"
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
       "es": "comida",
       "pl": "pokarm, jedzenie",
       "fil": "pagkain"
-    }
+    },
+    "strongsNum": "G1033"
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
       "es": "bebida",
       "pl": "napój",
       "fil": "inumin"
-    }
+    },
+    "strongsNum": "G4188"
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
       "es": "palabra, dicho",
       "pl": "słowo, powiedzenie",
       "fil": "salita, kasabihan"
-    }
+    },
+    "strongsNum": "G4487"
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
       "es": "voluntad, propósito",
       "pl": "wola, cel",
       "fil": "kalooban, layunin"
-    }
+    },
+    "strongsNum": "G2307"
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
       "es": "rama (de vid)",
       "pl": "gałąź (winorośli)",
       "fil": "sanga (ng ubas)"
-    }
+    },
+    "strongsNum": "G2814"
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
       "es": "verdad",
       "pl": "prawda",
       "fil": "katotohanan"
-    }
+    },
+    "strongsNum": "G0225"
   },
   {
     "id": 9,
@@ -114,7 +122,8 @@
       "es": "vida",
       "pl": "życie",
       "fil": "buhay"
-    }
+    },
+    "strongsNum": "G2222"
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
       "es": "amor",
       "pl": "miłość",
       "fil": "pagmamahal, pag-ibig"
-    }
+    },
+    "strongsNum": "G0026"
   },
   {
     "id": 11,
@@ -140,7 +150,8 @@
       "es": "mandamiento",
       "pl": "przykazanie",
       "fil": "utos, kautusan"
-    }
+    },
+    "strongsNum": "G1785"
   },
   {
     "id": 12,
@@ -153,7 +164,8 @@
       "es": "vid, parra",
       "pl": "winorośl",
       "fil": "ubas, puno ng ubas"
-    }
+    },
+    "strongsNum": "G0288"
   },
   {
     "id": 13,
@@ -166,7 +178,8 @@
       "es": "muerte",
       "pl": "śmierć",
       "fil": "kamatayan"
-    }
+    },
+    "strongsNum": "G2288"
   },
   {
     "id": 14,
@@ -179,7 +192,8 @@
       "es": "hijo",
       "pl": "syn",
       "fil": "anak na lalaki"
-    }
+    },
+    "strongsNum": "G5207"
   },
   {
     "id": 15,
@@ -192,7 +206,8 @@
       "es": "señor, amo",
       "pl": "pan, władca",
       "fil": "panginoon, amo"
-    }
+    },
+    "strongsNum": "G2962"
   },
   {
     "id": 16,
@@ -205,7 +220,8 @@
       "es": "hermano",
       "pl": "brat",
       "fil": "kapatid na lalaki"
-    }
+    },
+    "strongsNum": "G0080"
   },
   {
     "id": 17,
@@ -218,7 +234,8 @@
       "es": "mentiroso",
       "pl": "kłamca",
       "fil": "sinungaling"
-    }
+    },
+    "strongsNum": "G5583"
   },
   {
     "id": 18,
@@ -231,7 +248,8 @@
       "es": "hermana",
       "pl": "siostra",
       "fil": "kapatid na babae"
-    }
+    },
+    "strongsNum": "G0079"
   },
   {
     "id": 19,
@@ -244,7 +262,8 @@
       "es": "padre",
       "pl": "ojciec",
       "fil": "ama"
-    }
+    },
+    "strongsNum": "G3962"
   },
   {
     "id": 20,
@@ -257,7 +276,8 @@
       "es": "verdadero, genuino",
       "pl": "prawdziwy",
       "fil": "tunay, totoo"
-    }
+    },
+    "strongsNum": "G0228"
   },
   {
     "id": 21,
@@ -270,7 +290,8 @@
       "es": "perfecto, completo",
       "pl": "doskonały, pełny",
       "fil": "perpekto, buo"
-    }
+    },
+    "strongsNum": "G5046"
   },
   {
     "id": 22,
@@ -283,7 +304,8 @@
       "es": "nadie, nada",
       "pl": "nikt, nic",
       "fil": "walang sinuman, wala"
-    }
+    },
+    "strongsNum": "G3762"
   },
   {
     "id": 23,
@@ -296,7 +318,8 @@
       "es": "alguien, algo",
       "pl": "ktoś, coś",
       "fil": "may isa, may isang bagay"
-    }
+    },
+    "strongsNum": "G5100"
   },
   {
     "id": 24,
@@ -309,7 +332,8 @@
       "es": "quienquiera, cualquier",
       "pl": "ktokolwiek, cokolwiek",
       "fil": "sinuman, anuman"
-    }
+    },
+    "strongsNum": "G3748"
   },
   {
     "id": 25,
@@ -322,7 +346,8 @@
       "es": "el uno al otro",
       "pl": "jeden drugiego, wzajemnie",
       "fil": "isa't isa, sa isa't isa"
-    }
+    },
+    "strongsNum": "G0240"
   },
   {
     "id": 26,
@@ -336,7 +361,8 @@
       "pl": "kłaniam się, wielbię",
       "fil": "sumasamba"
     },
-    "thirdSingular": "προσκυνεῖ"
+    "thirdSingular": "προσκυνεῖ",
+    "strongsNum": "G4352"
   },
   {
     "id": 27,
@@ -350,7 +376,8 @@
       "pl": "wierzę, ufam",
       "fil": "naniniwala"
     },
-    "thirdSingular": "πιστεύει"
+    "thirdSingular": "πιστεύει",
+    "strongsNum": "G4100"
   },
   {
     "id": 28,
@@ -364,7 +391,8 @@
       "pl": "milczę",
       "fil": "tumatahimik"
     },
-    "thirdSingular": "σιγᾷ"
+    "thirdSingular": "σιγᾷ",
+    "strongsNum": "G4601"
   },
   {
     "id": 29,
@@ -378,7 +406,8 @@
       "pl": "nienawidzę",
       "fil": "nagagalit, namumuhi"
     },
-    "thirdSingular": "μισεῖ"
+    "thirdSingular": "μισεῖ",
+    "strongsNum": "G3404"
   },
   {
     "id": 30,
@@ -392,7 +421,8 @@
       "pl": "powinienem, jestem zobowiązany",
       "fil": "dapat, may utang"
     },
-    "thirdSingular": "ὀφείλει"
+    "thirdSingular": "ὀφείλει",
+    "strongsNum": "G3784"
   },
   {
     "id": 31,
@@ -406,7 +436,8 @@
       "pl": "rzucam, wyrzucam",
       "fil": "naghahagis, nagpapalayas"
     },
-    "thirdSingular": "βάλλει"
+    "thirdSingular": "βάλλει",
+    "strongsNum": "G0906"
   },
   {
     "id": 32,
@@ -419,7 +450,8 @@
       "es": "para que, a fin de que",
       "pl": "żeby, aby",
       "fil": "upang, para"
-    }
+    },
+    "strongsNum": "G2443"
   },
   {
     "id": 33,
@@ -432,7 +464,8 @@
       "es": "si (condicional)",
       "pl": "jeśli (warunkowe)",
       "fil": "kung (kondisyonal)"
-    }
+    },
+    "strongsNum": "G1437"
   },
   {
     "id": 34,
@@ -445,7 +478,8 @@
       "es": "cuando sea, cuando",
       "pl": "kiedykolwiek",
       "fil": "anumang oras, kapag"
-    }
+    },
+    "strongsNum": "G3752"
   },
   {
     "id": 35,
@@ -458,7 +492,8 @@
       "es": "así como, igual que",
       "pl": "tak jak",
       "fil": "tulad ng, katulad"
-    }
+    },
+    "strongsNum": "G5618"
   },
   {
     "id": 36,
@@ -471,7 +506,8 @@
       "es": "sin, aparte de",
       "pl": "bez, poza",
       "fil": "wala, maliban sa"
-    }
+    },
+    "strongsNum": "G5565"
   },
   {
     "id": 37,
@@ -484,7 +520,8 @@
       "es": "excepto, a menos que",
       "pl": "chyba że, o ile nie",
       "fil": "maliban kung"
-    }
+    },
+    "strongsNum": "G1508"
   },
   {
     "id": 38,
@@ -497,7 +534,8 @@
       "es": "o",
       "pl": "lub, albo",
       "fil": "o"
-    }
+    },
+    "strongsNum": "G2228"
   },
   {
     "id": 39,
@@ -510,7 +548,8 @@
       "es": "y no, ni, ni siquiera",
       "pl": "i nie, ani, nawet nie",
       "fil": "at hindi, ni, maging"
-    }
+    },
+    "strongsNum": "G3761"
   },
   {
     "id": 40,
@@ -523,7 +562,8 @@
       "es": "fuera, afuera",
       "pl": "na zewnątrz",
       "fil": "sa labas, palabas"
-    }
+    },
+    "strongsNum": "G1854"
   },
   {
     "id": 41,
@@ -536,7 +576,8 @@
       "es": "luego, después",
       "pl": "potem, następnie",
       "fil": "pagkatapos, kalaunan"
-    }
+    },
+    "strongsNum": "G1899"
   },
   {
     "id": 42,
@@ -549,7 +590,8 @@
       "es": "más",
       "pl": "więcej",
       "fil": "higit pa"
-    }
+    },
+    "strongsNum": "G4119"
   },
   {
     "id": 43,
@@ -562,7 +604,8 @@
       "es": "alma, vida",
       "pl": "dusza, życie",
       "fil": "kaluluwa, buhay"
-    }
+    },
+    "strongsNum": "G5590"
   },
   {
     "id": 44,
@@ -575,7 +618,8 @@
       "es": "pecado",
       "pl": "grzech",
       "fil": "kasalanan"
-    }
+    },
+    "strongsNum": "G0266"
   },
   {
     "id": 45,
@@ -588,7 +632,8 @@
       "es": "injusticia",
       "pl": "niesprawiedliwość",
       "fil": "kasamaan, hindi makatarungan"
-    }
+    },
+    "strongsNum": "G0093"
   },
   {
     "id": 46,
@@ -601,7 +646,8 @@
       "es": "comunión, compañerismo",
       "pl": "wspólnota, komunia",
       "fil": "pakikipag-ugnayan, komunyon"
-    }
+    },
+    "strongsNum": "G2842"
   },
   {
     "id": 47,
@@ -614,7 +660,8 @@
       "es": "resurrección",
       "pl": "zmartwychwstanie",
       "fil": "muling pagkabuhay"
-    }
+    },
+    "strongsNum": "G0386"
   },
   {
     "id": 48,
@@ -627,7 +674,8 @@
       "es": "era, eternidad",
       "pl": "wiek, wieczność",
       "fil": "panahon, kawalang-hanggan"
-    }
+    },
+    "strongsNum": "G0165"
   },
   {
     "id": 49,
@@ -640,7 +688,8 @@
       "es": "mundo",
       "pl": "świat",
       "fil": "mundo"
-    }
+    },
+    "strongsNum": "G2889"
   },
   {
     "id": 50,
@@ -653,7 +702,8 @@
       "es": "hierba, forraje",
       "pl": "trawa, siano",
       "fil": "damo, dayami"
-    }
+    },
+    "strongsNum": "G5528"
   },
   {
     "id": 51,
@@ -666,7 +716,8 @@
       "es": "jornalero, asalariado",
       "pl": "robotnik najemny",
       "fil": "manggagawa, bayad-araw"
-    }
+    },
+    "strongsNum": "G3411"
   },
   {
     "id": 52,
@@ -679,7 +730,8 @@
       "es": "pastor",
       "pl": "pasterz",
       "fil": "pastol"
-    }
+    },
+    "strongsNum": "G4166"
   },
   {
     "id": 53,
@@ -692,7 +744,8 @@
       "es": "sangre",
       "pl": "krew",
       "fil": "dugo"
-    }
+    },
+    "strongsNum": "G0129"
   },
   {
     "id": 54,
@@ -705,7 +758,8 @@
       "es": "eterno, sempiterno",
       "pl": "wieczny",
       "fil": "walang hanggan"
-    }
+    },
+    "strongsNum": "G0166"
   },
   {
     "id": 55,
@@ -718,7 +772,8 @@
       "es": "justo, recto",
       "pl": "sprawiedliwy",
       "fil": "matuwid"
-    }
+    },
+    "strongsNum": "G1342"
   },
   {
     "id": 56,
@@ -731,7 +786,8 @@
       "es": "muerto",
       "pl": "martwy",
       "fil": "patay"
-    }
+    },
+    "strongsNum": "G3498"
   },
   {
     "id": 57,
@@ -744,7 +800,8 @@
       "es": "nosotros mismos, ellos mismos",
       "pl": "my sami, oni sami",
       "fil": "tayo mismo, sila mismo"
-    }
+    },
+    "strongsNum": "G1438"
   },
   {
     "id": 58,
@@ -758,7 +815,8 @@
       "pl": "kładę; oddaję życie",
       "fil": "naglalagay; ibinibigay ang buhay"
     },
-    "thirdSingular": "τίθησιν"
+    "thirdSingular": "τίθησιν",
+    "strongsNum": "G5087"
   },
   {
     "id": 59,
@@ -772,7 +830,8 @@
       "pl": "daję",
       "fil": "nagbibigay"
     },
-    "thirdSingular": "δίδωσιν"
+    "thirdSingular": "δίδωσιν",
+    "strongsNum": "G1325"
   },
   {
     "id": 60,
@@ -786,7 +845,8 @@
       "pl": "przebaczam, puszczam",
       "fil": "nagpapatawad"
     },
-    "thirdSingular": "ἀφίησιν"
+    "thirdSingular": "ἀφίησιν",
+    "strongsNum": "G0863"
   },
   {
     "id": 61,
@@ -800,7 +860,8 @@
       "pl": "pokazuję",
       "fil": "nagpapakita"
     },
-    "thirdSingular": "δείκνυσιν"
+    "thirdSingular": "δείκνυσιν",
+    "strongsNum": "G1166"
   },
   {
     "id": 62,
@@ -814,7 +875,8 @@
       "pl": "ratuję",
       "fil": "nagliligtas"
     },
-    "thirdSingular": "σῴζει"
+    "thirdSingular": "σῴζει",
+    "strongsNum": "G4982"
   },
   {
     "id": 63,
@@ -828,7 +890,8 @@
       "pl": "uciekam",
       "fil": "tumakas, lumikas"
     },
-    "thirdSingular": "φεύγει"
+    "thirdSingular": "φεύγει",
+    "strongsNum": "G5343"
   },
   {
     "id": 64,
@@ -842,7 +905,8 @@
       "pl": "chwytam, porywam",
       "fil": "sinasagit"
     },
-    "thirdSingular": "ἁρπάζει"
+    "thirdSingular": "ἁρπάζει",
+    "strongsNum": "G0726"
   },
   {
     "id": 65,
@@ -856,7 +920,8 @@
       "pl": "rozpraszam",
       "fil": "nagkakalat"
     },
-    "thirdSingular": "σκορπίζει"
+    "thirdSingular": "σκορπίζει",
+    "strongsNum": "G4650"
   },
   {
     "id": 66,
@@ -870,7 +935,8 @@
       "pl": "wchodzę",
       "fil": "pumapasok"
     },
-    "thirdSingular": "εἰσέρχεται"
+    "thirdSingular": "εἰσέρχεται",
+    "strongsNum": "G1525"
   },
   {
     "id": 67,
@@ -884,7 +950,8 @@
       "pl": "wyznaję, uznaję",
       "fil": "nagtatapat, nagpapahayag"
     },
-    "thirdSingular": "ὁμολογεῖ"
+    "thirdSingular": "ὁμολογεῖ",
+    "strongsNum": "G3670"
   },
   {
     "id": 68,
@@ -898,7 +965,8 @@
       "pl": "oczyszczam",
       "fil": "naglilinis"
     },
-    "thirdSingular": "καθαρίζει"
+    "thirdSingular": "καθαρίζει",
+    "strongsNum": "G2511"
   },
   {
     "id": 69,
@@ -912,7 +980,8 @@
       "pl": "oszukuję, zwodzę",
       "fil": "nandaraya"
     },
-    "thirdSingular": "πλανᾷ"
+    "thirdSingular": "πλανᾷ",
+    "strongsNum": "G4105"
   },
   {
     "id": 70,
@@ -926,7 +995,8 @@
       "pl": "jaśnieję, ukazuję się",
       "fil": "sumisinag, lumilitaw"
     },
-    "thirdSingular": "φαίνει"
+    "thirdSingular": "φαίνει",
+    "strongsNum": "G5316"
   },
   {
     "id": 71,
@@ -940,7 +1010,8 @@
       "pl": "oświecam",
       "fil": "nagliliwanag"
     },
-    "thirdSingular": "φωτίζει"
+    "thirdSingular": "φωτίζει",
+    "strongsNum": "G5461"
   },
   {
     "id": 72,
@@ -954,7 +1025,8 @@
       "pl": "umieram",
       "fil": "namamatay"
     },
-    "thirdSingular": "ἀποθνῄσκει"
+    "thirdSingular": "ἀποθνῄσκει",
+    "strongsNum": "G0599"
   },
   {
     "id": 73,
@@ -968,7 +1040,8 @@
       "pl": "żyję",
       "fil": "nabubuhay"
     },
-    "thirdSingular": "ζῇ"
+    "thirdSingular": "ζῇ",
+    "strongsNum": "G2198"
   },
   {
     "id": 74,
@@ -981,7 +1054,8 @@
       "es": "en favor de, por",
       "pl": "za, dla",
       "fil": "para sa"
-    }
+    },
+    "strongsNum": "G5228"
   },
   {
     "id": 75,
@@ -994,7 +1068,8 @@
       "es": "porque, por esta razón",
       "pl": "ponieważ, bo",
       "fil": "dahil, sapagkat"
-    }
+    },
+    "strongsNum": "G1360"
   },
   {
     "id": 76,
@@ -1007,7 +1082,8 @@
       "es": "siempre",
       "pl": "zawsze",
       "fil": "palagi, lagi"
-    }
+    },
+    "strongsNum": "G3842"
   },
   {
     "id": 77,
@@ -1020,7 +1096,8 @@
       "es": "para siempre",
       "pl": "na wieki",
       "fil": "magpakailanman"
-    }
+    },
+    "strongsNum": "G1519"
   },
   {
     "id": 78,
@@ -1033,7 +1110,8 @@
       "es": "junto a, al lado de",
       "pl": "obok, przy",
       "fil": "sa tabi, katabi"
-    }
+    },
+    "strongsNum": "G3844"
   },
   {
     "id": 79,
@@ -1046,6 +1124,7 @@
       "es": "como, igual que",
       "pl": "jak, tak jak",
       "fil": "tulad ng, gaya ng"
-    }
+    },
+    "strongsNum": "G5613"
   }
 ]

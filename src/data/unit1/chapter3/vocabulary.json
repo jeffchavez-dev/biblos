@@ -11,7 +11,8 @@
       "pl": "wieczór",
       "fil": "gabi, hapon"
     },
-    "image": "ch3a-noun-1.jpeg"
+    "image": "ch3a-noun-1.jpeg",
+    "strongsNum": "G3798"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
       "pl": "księżyc",
       "fil": "buwan"
     },
-    "image": "ch3a-noun-5.jpeg"
+    "image": "ch3a-noun-5.jpeg",
+    "strongsNum": "G4582"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
       "pl": "drzwi",
       "fil": "pinto"
     },
-    "image": "ch3a-noun-6.jpeg"
+    "image": "ch3a-noun-6.jpeg",
+    "strongsNum": "G2374"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
       "pl": "stół",
       "fil": "mesa"
     },
-    "image": "ch3a-noun-9.jpeg"
+    "image": "ch3a-noun-9.jpeg",
+    "strongsNum": "G5132"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
       "pl": "krzesło, siedzenie",
       "fil": "silya, upuan"
     },
-    "image": "ch3a-noun-11.jpeg"
+    "image": "ch3a-noun-11.jpeg",
+    "strongsNum": "G2515"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
       "pl": "łóżko, łoże",
       "fil": "higaan, kama"
     },
-    "image": "ch3a-noun-13.jpeg"
+    "image": "ch3a-noun-13.jpeg",
+    "strongsNum": "G2825"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
       "pl": "ciemność",
       "fil": "kadiliman"
     },
-    "image": "ch3a-noun-7.jpeg"
+    "image": "ch3a-noun-7.jpeg",
+    "strongsNum": "G4653"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
       "pl": "droga, ścieżka",
       "fil": "daan, landas"
     },
-    "image": "ch3a-noun-4.jpeg"
+    "image": "ch3a-noun-4.jpeg",
+    "strongsNum": "G3598"
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
       "pl": "lampa",
       "fil": "ilawan, lampara"
     },
-    "image": "ch3a-noun-8.jpeg"
+    "image": "ch3a-noun-8.jpeg",
+    "strongsNum": "G3088"
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@
       "pl": "ramię, bark",
       "fil": "balikat"
     },
-    "image": "ch3a-noun-3.jpeg"
+    "image": "ch3a-noun-3.jpeg",
+    "strongsNum": "G5606"
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@
       "pl": "czas",
       "fil": "oras, panahon"
     },
-    "image": "ch3a-noun-12.jpeg"
+    "image": "ch3a-noun-12.jpeg",
+    "strongsNum": "G5550"
   },
   {
     "id": 12,
@@ -165,7 +176,8 @@
       "pl": "światło",
       "fil": "liwanag, ilaw"
     },
-    "image": "ch3a-noun-10.jpeg"
+    "image": "ch3a-noun-10.jpeg",
+    "strongsNum": "G5457"
   },
   {
     "id": 13,
@@ -179,7 +191,8 @@
       "pl": "noc",
       "fil": "gabi"
     },
-    "image": "ch3a-noun-2.jpeg"
+    "image": "ch3a-noun-2.jpeg",
+    "strongsNum": "G3571"
   },
   {
     "id": 14,
@@ -193,7 +206,8 @@
       "pl": "długi",
       "fil": "mahaba"
     },
-    "image": "ch3a-adj-1.jpeg"
+    "image": "ch3a-adj-1.jpeg",
+    "strongsNum": "G3117"
   },
   {
     "id": 15,
@@ -207,7 +221,8 @@
       "pl": "sam, jedyny",
       "fil": "nag-iisa, tanging"
     },
-    "image": "ch3a-adj-3.jpeg"
+    "image": "ch3a-adj-3.jpeg",
+    "strongsNum": "G3441"
   },
   {
     "id": 16,
@@ -221,7 +236,8 @@
       "pl": "cały, wszystek",
       "fil": "buong, lahat"
     },
-    "image": "ch3a-adj-2.jpeg"
+    "image": "ch3a-adj-2.jpeg",
+    "strongsNum": "G3650"
   },
   {
     "id": 17,
@@ -236,7 +252,8 @@
       "fil": "napapagod"
     },
     "thirdSingular": "κοπιᾷ",
-    "image": "ch3a-verb-1.jpeg"
+    "image": "ch3a-verb-1.jpeg",
+    "strongsNum": "G2872"
   },
   {
     "id": 18,
@@ -251,7 +268,8 @@
       "fil": "natutulog"
     },
     "thirdSingular": "καθεύδει",
-    "image": "ch3a-verb-3.jpeg"
+    "image": "ch3a-verb-3.jpeg",
+    "strongsNum": "G2518"
   },
   {
     "id": 19,
@@ -266,7 +284,8 @@
       "fil": "sumisinag, sumasalang"
     },
     "thirdSingular": "ἀνατέλλει",
-    "image": "ch3a-verb-2.jpeg"
+    "image": "ch3a-verb-2.jpeg",
+    "strongsNum": "G0393"
   },
   {
     "id": 20,
@@ -281,7 +300,8 @@
       "fil": "dumating"
     },
     "thirdSingular": "ἥκει",
-    "image": "ch3a-verb-4.jpeg"
+    "image": "ch3a-verb-4.jpeg",
+    "strongsNum": "G2240"
   },
   {
     "id": 21,
@@ -296,7 +316,8 @@
       "fil": "nagbubukas"
     },
     "thirdSingular": "ἀνοίγει",
-    "image": "ch3a-verb-5.jpeg"
+    "image": "ch3a-verb-5.jpeg",
+    "strongsNum": "G0455"
   },
   {
     "id": 22,
@@ -311,7 +332,8 @@
       "fil": "naghahanap"
     },
     "thirdSingular": "ζητεῖ",
-    "image": "ch3a-verb-6.jpeg"
+    "image": "ch3a-verb-6.jpeg",
+    "strongsNum": "G2212"
   },
   {
     "id": 23,
@@ -326,7 +348,8 @@
       "fil": "nagpapaningas, nagsusunog"
     },
     "thirdSingular": "ἅπτει",
-    "image": "ch3a-verb-7.jpeg"
+    "image": "ch3a-verb-7.jpeg",
+    "strongsNum": "G0680"
   },
   {
     "id": 24,
@@ -340,7 +363,8 @@
       "es": "bien, bellamente",
       "pl": "dobrze, pięknie",
       "fil": "maayos, maganda"
-    }
+    },
+    "strongsNum": "G2573"
   },
   {
     "id": 25,
@@ -354,7 +378,8 @@
       "es": "aún, todavía",
       "pl": "jeszcze",
       "fil": "pa rin, hanggang ngayon"
-    }
+    },
+    "strongsNum": "G2089"
   },
   {
     "id": 26,
@@ -368,7 +393,8 @@
       "es": "ya no",
       "pl": "już nie",
       "fil": "hindi na"
-    }
+    },
+    "strongsNum": "G3765"
   },
   {
     "id": 27,
@@ -382,7 +408,8 @@
       "es": "muy, sumamente",
       "pl": "bardzo, niezwykle",
       "fil": "napakarami, labis"
-    }
+    },
+    "strongsNum": "G4970"
   },
   {
     "id": 28,
@@ -396,7 +423,8 @@
       "pl": "sen",
       "fil": "tulog, panaginip"
     },
-    "image": "ch3b-noun-1.jpeg"
+    "image": "ch3b-noun-1.jpeg",
+    "strongsNum": "G5258"
   },
   {
     "id": 29,
@@ -410,7 +438,8 @@
       "pl": "strach",
       "fil": "takot"
     },
-    "image": "ch3b-noun-2.jpeg"
+    "image": "ch3b-noun-2.jpeg",
+    "strongsNum": "G5401"
   },
   {
     "id": 30,
@@ -424,7 +453,8 @@
       "pl": "pokój",
       "fil": "kapayapaan"
     },
-    "image": "ch3b-noun-4.jpeg"
+    "image": "ch3b-noun-4.jpeg",
+    "strongsNum": "G1515"
   },
   {
     "id": 31,
@@ -438,7 +468,8 @@
       "pl": "serce",
       "fil": "puso"
     },
-    "image": "ch3b-noun-5.jpeg"
+    "image": "ch3b-noun-5.jpeg",
+    "strongsNum": "G2588"
   },
   {
     "id": 32,
@@ -452,7 +483,8 @@
       "pl": "oko",
       "fil": "mata"
     },
-    "image": "ch3b-noun-3.jpeg"
+    "image": "ch3b-noun-3.jpeg",
+    "strongsNum": "G3788"
   },
   {
     "id": 33,
@@ -469,7 +501,8 @@
     "images": [
       "ch3b-heis-1.jpeg",
       "ch3b-mia-1.jpeg"
-    ]
+    ],
+    "strongsNum": "G1520"
   },
   {
     "id": 34,
@@ -483,7 +516,8 @@
       "pl": "pierwszy",
       "fil": "una, paunang"
     },
-    "image": "ch3b-adj-3.jpeg"
+    "image": "ch3b-adj-3.jpeg",
+    "strongsNum": "G4413"
   },
   {
     "id": 35,
@@ -497,7 +531,8 @@
       "pl": "drugi",
       "fil": "ikalawa"
     },
-    "image": "ch3b-adj-3.jpeg"
+    "image": "ch3b-adj-3.jpeg",
+    "strongsNum": "G1208"
   },
   {
     "id": 36,
@@ -511,7 +546,8 @@
       "pl": "trzeci",
       "fil": "ikatlo"
     },
-    "image": "ch3b-adj-3.jpeg"
+    "image": "ch3b-adj-3.jpeg",
+    "strongsNum": "G5154"
   },
   {
     "id": 37,
@@ -525,7 +561,8 @@
       "pl": "dużo, wielu",
       "fil": "marami"
     },
-    "image": "ch3a-adj-4.jpeg"
+    "image": "ch3a-adj-4.jpeg",
+    "strongsNum": "G4183"
   },
   {
     "id": 38,
@@ -539,7 +576,8 @@
       "pl": "wszystko, każdy",
       "fil": "lahat, bawat"
     },
-    "image": "ch3b-adj-2.jpeg"
+    "image": "ch3b-adj-2.jpeg",
+    "strongsNum": "G3956"
   },
   {
     "id": 39,
@@ -553,7 +591,8 @@
       "pl": "możliwy, zdolny",
       "fil": "kaya, posible"
     },
-    "image": "ch3b-adj-1.jpeg"
+    "image": "ch3b-adj-1.jpeg",
+    "strongsNum": "G1415"
   },
   {
     "id": 40,
@@ -566,7 +605,8 @@
       "es": "yo, nosotros",
       "pl": "ja, my",
       "fil": "ako, kami"
-    }
+    },
+    "strongsNum": "G1473"
   },
   {
     "id": 41,
@@ -579,7 +619,8 @@
       "es": "tú (singular)",
       "pl": "ty",
       "fil": "ikaw"
-    }
+    },
+    "strongsNum": "G4771"
   },
   {
     "id": 42,
@@ -593,7 +634,8 @@
       "es": "¿quién? ¿qué?",
       "pl": "kto? co?",
       "fil": "sino? ano?"
-    }
+    },
+    "strongsNum": "G5101"
   },
   {
     "id": 43,
@@ -608,7 +650,8 @@
       "fil": "humihinga nang malalim, nagbubuntong-hininga"
     },
     "thirdSingular": "στενάζει",
-    "image": "ch3b-verb-1.jpeg"
+    "image": "ch3b-verb-1.jpeg",
+    "strongsNum": "G4727"
   },
   {
     "id": 44,
@@ -623,7 +666,8 @@
       "fil": "tumatawid"
     },
     "thirdSingular": "διαβαίνει",
-    "image": "ch3b-verb-6.jpeg"
+    "image": "ch3b-verb-6.jpeg",
+    "strongsNum": "G1224"
   },
   {
     "id": 45,
@@ -638,7 +682,8 @@
       "fil": "natututo, nakakaunawa"
     },
     "thirdSingular": "μανθάνει",
-    "image": "ch3b-verb-5.jpeg"
+    "image": "ch3b-verb-5.jpeg",
+    "strongsNum": "G3129"
   },
   {
     "id": 46,
@@ -653,7 +698,8 @@
       "fil": "nagtataka, namumangha"
     },
     "thirdSingular": "θαυμάζει",
-    "image": "ch3b-verb-2.jpeg"
+    "image": "ch3b-verb-2.jpeg",
+    "strongsNum": "G2296"
   },
   {
     "id": 47,
@@ -668,7 +714,8 @@
       "fil": "nagpupunan, ginigising"
     },
     "thirdSingular": "ἐγείρει",
-    "image": "ch3b-verb-4.jpeg"
+    "image": "ch3b-verb-4.jpeg",
+    "strongsNum": "G1453"
   },
   {
     "id": 48,
@@ -683,7 +730,8 @@
       "fil": "nahuhulog"
     },
     "thirdSingular": "πίπτει",
-    "image": "ch3b-verb-3.jpeg"
+    "image": "ch3b-verb-3.jpeg",
+    "strongsNum": "G4098"
   },
   {
     "id": 49,
@@ -697,7 +745,8 @@
       "pl": "wszędzie",
       "fil": "sa lahat ng dako"
     },
-    "image": "ch3b-adv-2.jpeg"
+    "image": "ch3b-adv-2.jpeg",
+    "strongsNum": "G3837"
   },
   {
     "id": 50,
@@ -711,7 +760,8 @@
       "pl": "wewnątrz, w środku",
       "fil": "sa loob"
     },
-    "image": "ch3b-eso.jpeg"
+    "image": "ch3b-eso.jpeg",
+    "strongsNum": "G2080"
   },
   {
     "id": 51,
@@ -725,7 +775,8 @@
       "pl": "nagle",
       "fil": "biglaan, kaagad"
     },
-    "image": "ch3b-adv-3.jpeg"
+    "image": "ch3b-adv-3.jpeg",
+    "strongsNum": "G1810"
   },
   {
     "id": 52,
@@ -739,7 +790,8 @@
       "pl": "gdzie?",
       "fil": "saan?"
     },
-    "image": "ch3b-adv-1.jpeg"
+    "image": "ch3b-adv-1.jpeg",
+    "strongsNum": "G4226"
   },
   {
     "id": 53,
@@ -753,7 +805,8 @@
       "pl": "jak, tak jak",
       "fil": "tulad ng, gaya ng"
     },
-    "image": "ch3b-hos.jpeg"
+    "image": "ch3b-hos.jpeg",
+    "strongsNum": "G5613"
   },
   {
     "id": 54,
@@ -766,7 +819,8 @@
       "es": "no (antes de vocal)",
       "pl": "nie (przed samogłoską)",
       "fil": "hindi (bago ang patinig)"
-    }
+    },
+    "strongsNum": "G3780"
   },
   {
     "id": 55,
@@ -783,7 +837,8 @@
       "es": "dos",
       "pl": "dwa",
       "fil": "dalawa"
-    }
+    },
+    "strongsNum": "G1417"
   },
   {
     "id": 56,
@@ -797,6 +852,7 @@
       "es": "verdadero",
       "pl": "prawdziwy",
       "fil": "totoo"
-    }
+    },
+    "strongsNum": "G0227"
   }
 ]

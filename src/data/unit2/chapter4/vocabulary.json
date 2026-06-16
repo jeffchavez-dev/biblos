@@ -10,7 +10,8 @@
       "es": "cuerpo",
       "pl": "ciało",
       "fil": "katawan"
-    }
+    },
+    "strongsNum": "G4983"
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
       "es": "agua",
       "pl": "woda",
       "fil": "tubig"
-    }
+    },
+    "strongsNum": "G5204"
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
       "es": "nombre",
       "pl": "imię",
       "fil": "pangalan"
-    }
+    },
+    "strongsNum": "G3686"
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
       "es": "aldea, pueblo",
       "pl": "wioska",
       "fil": "nayon, baryo"
-    }
+    },
+    "strongsNum": "G2968"
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
       "es": "casa, hogar",
       "pl": "dom, rodzina",
       "fil": "tahanan, sambahayan"
-    }
+    },
+    "strongsNum": "G3614"
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
       "es": "amigo",
       "pl": "przyjaciel",
       "fil": "kaibigan"
-    }
+    },
+    "strongsNum": "G5384"
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
       "es": "Jacob",
       "pl": "Jakub",
       "fil": "Jacob"
-    }
+    },
+    "strongsNum": "G2385"
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
       "es": "Galilea",
       "pl": "Galilea",
       "fil": "Galilea"
-    }
+    },
+    "strongsNum": "G1056"
   },
   {
     "id": 9,
@@ -114,7 +122,8 @@
       "es": "Felipe",
       "pl": "Filip",
       "fil": "Felipe"
-    }
+    },
+    "strongsNum": "G5376"
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
       "es": "Marta",
       "pl": "Marta",
       "fil": "Marta"
-    }
+    },
+    "strongsNum": "G3136"
   },
   {
     "id": 11,
@@ -141,7 +151,8 @@
       "pl": "przychodzę, idę",
       "fil": "pumupunta"
     },
-    "thirdSingular": "ἔρχεται"
+    "thirdSingular": "ἔρχεται",
+    "strongsNum": "G2064"
   },
   {
     "id": 12,
@@ -155,7 +166,8 @@
       "pl": "myję, kąpię się",
       "fil": "naliligo, naglilinis"
     },
-    "thirdSingular": "λούει"
+    "thirdSingular": "λούει",
+    "strongsNum": "G3068"
   },
   {
     "id": 13,
@@ -169,7 +181,8 @@
       "pl": "idę, podróżuję",
       "fil": "pumupunta, nagbibiyahe"
     },
-    "thirdSingular": "πορεύεται"
+    "thirdSingular": "πορεύεται",
+    "strongsNum": "G4198"
   },
   {
     "id": 14,
@@ -183,7 +196,8 @@
       "pl": "mieszkam, zamieszkuję",
       "fil": "naninirahan, nakatira"
     },
-    "thirdSingular": "κατοικεῖ"
+    "thirdSingular": "κατοικεῖ",
+    "strongsNum": "G2730"
   },
   {
     "id": 15,
@@ -197,7 +211,8 @@
       "pl": "pracuję",
       "fil": "nagtatrabaho"
     },
-    "thirdSingular": "ἐργάζεται"
+    "thirdSingular": "ἐργάζεται",
+    "strongsNum": "G2038"
   },
   {
     "id": 16,
@@ -211,7 +226,8 @@
       "pl": "pozdrawiam",
       "fil": "bumabati"
     },
-    "thirdSingular": "ἀσπάζεται"
+    "thirdSingular": "ἀσπάζεται",
+    "strongsNum": "G0782"
   },
   {
     "id": 17,
@@ -225,7 +241,8 @@
       "pl": "całuję",
       "fil": "humahalík"
     },
-    "thirdSingular": "καταφιλεῖ"
+    "thirdSingular": "καταφιλεῖ",
+    "strongsNum": "G2705"
   },
   {
     "id": 18,
@@ -239,7 +256,8 @@
       "pl": "odpowiadam",
       "fil": "sumasagot"
     },
-    "thirdSingular": "ἀποκρίνεται"
+    "thirdSingular": "ἀποκρίνεται",
+    "strongsNum": "G0611"
   },
   {
     "id": 19,
@@ -253,7 +271,8 @@
       "pl": "kocham, miłuję",
       "fil": "nagmamahal"
     },
-    "thirdSingular": "ἀγαπᾷ"
+    "thirdSingular": "ἀγαπᾷ",
+    "strongsNum": "G0025"
   },
   {
     "id": 20,
@@ -267,7 +286,8 @@
       "pl": "chcę, pragnę",
       "fil": "nais ko, gusto ko"
     },
-    "thirdSingular": "βούλεται"
+    "thirdSingular": "βούλεται",
+    "strongsNum": "G1014"
   },
   {
     "id": 21,
@@ -281,7 +301,8 @@
       "pl": "martwię się",
       "fil": "nag-aalala"
     },
-    "thirdSingular": "μεριμνᾷ"
+    "thirdSingular": "μεριμνᾷ",
+    "strongsNum": "G3309"
   },
   {
     "id": 22,
@@ -295,7 +316,8 @@
       "pl": "jestem obecny, jestem tutaj",
       "fil": "narito, naririto"
     },
-    "thirdSingular": "πάρεστιν"
+    "thirdSingular": "πάρεστιν",
+    "strongsNum": "G3918"
   },
   {
     "id": 23,
@@ -309,7 +331,8 @@
       "pl": "pomagam",
       "fil": "tumutulong"
     },
-    "thirdSingular": "βοηθεῖ"
+    "thirdSingular": "βοηθεῖ",
+    "strongsNum": "G0997"
   },
   {
     "id": 24,
@@ -323,7 +346,8 @@
       "pl": "mogę, jestem w stanie",
       "fil": "kaya ko"
     },
-    "thirdSingular": "δύναται"
+    "thirdSingular": "δύναται",
+    "strongsNum": "G1410"
   },
   {
     "id": 25,
@@ -337,7 +361,8 @@
       "pl": "odchodzę",
       "fil": "umaalis, nagdepartura"
     },
-    "thirdSingular": "ἀπέρχεται"
+    "thirdSingular": "ἀπέρχεται",
+    "strongsNum": "G0565"
   },
   {
     "id": 26,
@@ -351,7 +376,8 @@
       "pl": "staję się, zdarza się",
       "fil": "nagiging, nangyayari"
     },
-    "thirdSingular": "γίνεται"
+    "thirdSingular": "γίνεται",
+    "strongsNum": "G1096"
   },
   {
     "id": 27,
@@ -364,7 +390,8 @@
       "es": "galileo",
       "pl": "Galilejczyk",
       "fil": "Galileo"
-    }
+    },
+    "strongsNum": "G1057"
   },
   {
     "id": 28,
@@ -377,7 +404,8 @@
       "es": "ambos, los dos",
       "pl": "obaj, oboje",
       "fil": "kapwa, pareho"
-    }
+    },
+    "strongsNum": "G0297"
   },
   {
     "id": 29,
@@ -390,7 +418,8 @@
       "es": "temprano, por la mañana",
       "pl": "wcześnie, rano",
       "fil": "maaga, sa umaga"
-    }
+    },
+    "strongsNum": "G4404"
   },
   {
     "id": 30,
@@ -403,7 +432,8 @@
       "es": "¿cómo?",
       "pl": "jak?",
       "fil": "paano?"
-    }
+    },
+    "strongsNum": "G4459"
   },
   {
     "id": 31,
@@ -416,7 +446,8 @@
       "es": "aquí",
       "pl": "tutaj",
       "fil": "dito, rito"
-    }
+    },
+    "strongsNum": "G5602"
   },
   {
     "id": 32,
@@ -429,7 +460,8 @@
       "es": "ya, ahora",
       "pl": "już, teraz",
       "fil": "na, ngayon na"
-    }
+    },
+    "strongsNum": "G2235"
   },
   {
     "id": 33,
@@ -442,7 +474,8 @@
       "es": "y yo",
       "pl": "i ja",
       "fil": "at ako"
-    }
+    },
+    "strongsNum": "G2504"
   },
   {
     "id": 34,
@@ -455,7 +488,8 @@
       "es": "a través de; a causa de",
       "pl": "przez; z powodu",
       "fil": "sa pamamagitan ng; dahil sa"
-    }
+    },
+    "strongsNum": "G1223"
   },
   {
     "id": 35,
@@ -468,7 +502,8 @@
       "es": "con; después de",
       "pl": "z; po",
       "fil": "kasama; pagkatapos ng"
-    }
+    },
+    "strongsNum": "G3326"
   },
   {
     "id": 36,
@@ -481,7 +516,8 @@
       "es": "acerca de; alrededor de",
       "pl": "o; wokół",
       "fil": "tungkol sa; sa paligid ng"
-    }
+    },
+    "strongsNum": "G4012"
   },
   {
     "id": 37,
@@ -494,7 +530,8 @@
       "es": "sí",
       "pl": "tak",
       "fil": "oo"
-    }
+    },
+    "strongsNum": "G3483"
   },
   {
     "id": 38,
@@ -507,7 +544,8 @@
       "es": "(partícula de pregunta)",
       "pl": "(partykuła pytajna)",
       "fil": "(pananda ng tanong)"
-    }
+    },
+    "strongsNum": "G0687"
   },
   {
     "id": 39,
@@ -520,7 +558,8 @@
       "es": "así, de esta manera",
       "pl": "tak, w ten sposób",
       "fil": "ganito, ganyan"
-    }
+    },
+    "strongsNum": "G3779"
   },
   {
     "id": 40,
@@ -533,7 +572,8 @@
       "es": "no (con imperativo)",
       "pl": "nie (z trybem rozkazującym)",
       "fil": "huwag, hindi"
-    }
+    },
+    "strongsNum": "G3361"
   },
   {
     "id": 41,
@@ -546,7 +586,8 @@
       "es": "alegría, gozo",
       "pl": "radość",
       "fil": "kagalakan"
-    }
+    },
+    "strongsNum": "G5479"
   },
   {
     "id": 42,
@@ -559,7 +600,8 @@
       "es": "mujer, esposa",
       "pl": "kobieta, żona",
       "fil": "babae, asawa"
-    }
+    },
+    "strongsNum": "G1135"
   },
   {
     "id": 43,
@@ -572,7 +614,8 @@
       "es": "bolsa, mochila",
       "pl": "torba, sakwa",
       "fil": "supot, bag"
-    }
+    },
+    "strongsNum": "G4082"
   },
   {
     "id": 44,
@@ -585,7 +628,8 @@
       "es": "obra, tarea, acción",
       "pl": "praca, dzieło, czyn",
       "fil": "gawa, trabaho, kilos"
-    }
+    },
+    "strongsNum": "G2041"
   },
   {
     "id": 45,
@@ -598,7 +642,8 @@
       "es": "tierra, suelo",
       "pl": "ziemia, gleba",
       "fil": "lupa, lupain"
-    }
+    },
+    "strongsNum": "G1093"
   },
   {
     "id": 46,
@@ -611,7 +656,8 @@
       "es": "sombra",
       "pl": "cień",
       "fil": "lilim, anino"
-    }
+    },
+    "strongsNum": "G4639"
   },
   {
     "id": 47,
@@ -624,7 +670,8 @@
       "es": "esclavo, siervo",
       "pl": "niewolnik, sługa",
       "fil": "alipin, lingkod"
-    }
+    },
+    "strongsNum": "G1401"
   },
   {
     "id": 48,
@@ -637,7 +684,8 @@
       "es": "calor, ardor",
       "pl": "upał, żar",
       "fil": "init, matinding init"
-    }
+    },
+    "strongsNum": "G2738"
   },
   {
     "id": 49,
@@ -650,7 +698,8 @@
       "es": "lugar",
       "pl": "miejsce",
       "fil": "lugar, pook"
-    }
+    },
+    "strongsNum": "G5117"
   },
   {
     "id": 50,
@@ -663,7 +712,8 @@
       "es": "manantial, pozo, fuente",
       "pl": "źródło, studnia",
       "fil": "bukal, balon"
-    }
+    },
+    "strongsNum": "G4077"
   },
   {
     "id": 51,
@@ -676,7 +726,8 @@
       "es": "cántaro, tinaja",
       "pl": "dzban, garnek na wodę",
       "fil": "tapayan, garapon"
-    }
+    },
+    "strongsNum": "G5201"
   },
   {
     "id": 52,
@@ -690,7 +741,8 @@
       "pl": "mówię, rozmawiam",
       "fil": "nagsasalita, nakikipag-usap"
     },
-    "thirdSingular": "λαλεῖ"
+    "thirdSingular": "λαλεῖ",
+    "strongsNum": "G2980"
   },
   {
     "id": 53,
@@ -704,7 +756,8 @@
       "pl": "odpoczywam",
       "fil": "nagpapahinga"
     },
-    "thirdSingular": "ἀναπαύεται"
+    "thirdSingular": "ἀναπαύεται",
+    "strongsNum": "G0373"
   },
   {
     "id": 54,
@@ -718,7 +771,8 @@
       "pl": "przyjmuję, witam",
       "fil": "tumatanggap, tinatanggap"
     },
-    "thirdSingular": "δέχεται"
+    "thirdSingular": "δέχεται",
+    "strongsNum": "G1209"
   },
   {
     "id": 55,
@@ -732,7 +786,8 @@
       "pl": "daję, dostarczam",
       "fil": "nagbibigay, nagsusuplay"
     },
-    "thirdSingular": "παρέχει"
+    "thirdSingular": "παρέχει",
+    "strongsNum": "G3930"
   },
   {
     "id": 56,
@@ -746,7 +801,8 @@
       "pl": "palę, oparzam",
       "fil": "nagsusunog, nagpapainit"
     },
-    "thirdSingular": "καυματίζει"
+    "thirdSingular": "καυματίζει",
+    "strongsNum": "G2739"
   },
   {
     "id": 57,
@@ -760,7 +816,8 @@
       "pl": "jestem głodny",
       "fil": "nagugutom"
     },
-    "thirdSingular": "πεινᾷ"
+    "thirdSingular": "πεινᾷ",
+    "strongsNum": "G3983"
   },
   {
     "id": 58,
@@ -774,7 +831,8 @@
       "pl": "jestem spragniony",
       "fil": "nauuhaw"
     },
-    "thirdSingular": "διψᾷ"
+    "thirdSingular": "διψᾷ",
+    "strongsNum": "G1372"
   },
   {
     "id": 59,
@@ -788,7 +846,8 @@
       "pl": "czerpię wodę",
       "fil": "kumukuha ng tubig"
     },
-    "thirdSingular": "ἀντλεῖ"
+    "thirdSingular": "ἀντλεῖ",
+    "strongsNum": "G0501"
   },
   {
     "id": 60,
@@ -801,7 +860,8 @@
       "es": "otro, otra",
       "pl": "inny, inna",
       "fil": "iba, isa pa"
-    }
+    },
+    "strongsNum": "G0243"
   },
   {
     "id": 61,
@@ -814,7 +874,8 @@
       "es": "rico, adinerado",
       "pl": "bogaty",
       "fil": "mayaman"
-    }
+    },
+    "strongsNum": "G4145"
   },
   {
     "id": 62,
@@ -827,7 +888,8 @@
       "es": "pobre",
       "pl": "biedny, ubogi",
       "fil": "mahirap, dukha"
-    }
+    },
+    "strongsNum": "G4434"
   },
   {
     "id": 63,
@@ -840,7 +902,8 @@
       "es": "otro (distinto)",
       "pl": "inny (odmienny)",
       "fil": "iba, kaibahan"
-    }
+    },
+    "strongsNum": "G2087"
   },
   {
     "id": 64,
@@ -853,7 +916,8 @@
       "es": "propio, particular",
       "pl": "własny",
       "fil": "sarili, pag-aari"
-    }
+    },
+    "strongsNum": "G2398"
   },
   {
     "id": 65,
@@ -866,7 +930,8 @@
       "es": "medio, en el centro",
       "pl": "środkowy, w środku",
       "fil": "gitna, nasa gitna"
-    }
+    },
+    "strongsNum": "G3319"
   },
   {
     "id": 66,
@@ -879,7 +944,8 @@
       "es": "limpio, puro",
       "pl": "czysty",
       "fil": "malinis, dalisay"
-    }
+    },
+    "strongsNum": "G2513"
   },
   {
     "id": 67,
@@ -892,7 +958,8 @@
       "es": "luego, después",
       "pl": "potem, następnie",
       "fil": "pagkatapos, saka"
-    }
+    },
+    "strongsNum": "G1534"
   },
   {
     "id": 68,
@@ -905,7 +972,8 @@
       "es": "donde (relativo)",
       "pl": "gdzie (względne)",
       "fil": "kung saan"
-    }
+    },
+    "strongsNum": "G3699"
   },
   {
     "id": 69,
@@ -918,7 +986,8 @@
       "es": "este, esta, esto",
       "pl": "ten, ta, to",
       "fil": "ito, itong"
-    }
+    },
+    "strongsNum": "G3778"
   },
   {
     "id": 70,
@@ -931,7 +1000,8 @@
       "es": "por eso, por esto",
       "pl": "dlatego, z tego powodu",
       "fil": "dahil dito, kaya nga"
-    }
+    },
+    "strongsNum": "G1223"
   },
   {
     "id": 71,
@@ -944,6 +1014,7 @@
       "es": "cada día, diariamente",
       "pl": "codziennie, każdego dnia",
       "fil": "araw-araw, daan-araw"
-    }
+    },
+    "strongsNum": "G2596"
   }
 ]

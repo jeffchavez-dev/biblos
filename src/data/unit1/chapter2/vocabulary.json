@@ -11,7 +11,8 @@
       "es": "jardín",
       "pl": "ogród",
       "fil": "hardin"
-    }
+    },
+    "strongsNum": "G2779"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
       "pl": "gałąź",
       "fil": "sanga"
     },
-    "image": "ch2a-noun-04.jpeg"
+    "image": "ch2a-noun-04.jpeg",
+    "strongsNum": "G2798"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
       "es": "asno, burro",
       "pl": "osioł",
       "fil": "asno, buriko"
-    }
+    },
+    "strongsNum": "G3688"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
       "es": "lobo",
       "pl": "wilk",
       "fil": "lobo"
-    }
+    },
+    "strongsNum": "G3074"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
       "es": "verdura, hierba",
       "pl": "warzywo, zioło",
       "fil": "gulay, halaman"
-    }
+    },
+    "strongsNum": "G3001"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
       "es": "árbol",
       "pl": "drzewo",
       "fil": "puno"
-    }
+    },
+    "strongsNum": "G1186"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
       "es": "hoz",
       "pl": "sierp",
       "fil": "karit"
-    }
+    },
+    "strongsNum": "G1407"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
       "es": "oveja",
       "pl": "owca",
       "fil": "tupa"
-    }
+    },
+    "strongsNum": "G4263"
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
       "es": "cordero",
       "pl": "jagnię, baranek",
       "fil": "kordero, tupa"
-    }
+    },
+    "strongsNum": "G0721"
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@
       "es": "bestia salvaje",
       "pl": "dzikie zwierzę",
       "fil": "mabangis na hayop"
-    }
+    },
+    "strongsNum": "G2342"
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@
       "es": "criatura viviente, animal",
       "pl": "żywa istota, zwierzę",
       "fil": "nabubuhay na nilalang, hayop"
-    }
+    },
+    "strongsNum": "G2226"
   },
   {
     "id": 12,
@@ -165,7 +176,8 @@
       "es": "niño, hijo",
       "pl": "dziecko, potomek",
       "fil": "bata, anak"
-    }
+    },
+    "strongsNum": "G5043"
   },
   {
     "id": 13,
@@ -179,7 +191,8 @@
       "es": "buey",
       "pl": "wół",
       "fil": "baka, toro"
-    }
+    },
+    "strongsNum": "G1016"
   },
   {
     "id": 14,
@@ -194,7 +207,8 @@
       "pl": "sadzę",
       "fil": "nagtatanim"
     },
-    "thirdSingular": "φυτεύει"
+    "thirdSingular": "φυτεύει",
+    "strongsNum": "G5452"
   },
   {
     "id": 15,
@@ -209,7 +223,8 @@
       "pl": "żnę, zbieram plony",
       "fil": "nag-aani"
     },
-    "thirdSingular": "θερίζει"
+    "thirdSingular": "θερίζει",
+    "strongsNum": "G2325"
   },
   {
     "id": 16,
@@ -224,7 +239,8 @@
       "pl": "piję",
       "fil": "umiinom"
     },
-    "thirdSingular": "πίνει"
+    "thirdSingular": "πίνει",
+    "strongsNum": "G4095"
   },
   {
     "id": 17,
@@ -239,7 +255,8 @@
       "pl": "biegnę",
       "fil": "tumatakbo"
     },
-    "thirdSingular": "τρέχει"
+    "thirdSingular": "τρέχει",
+    "strongsNum": "G5143"
   },
   {
     "id": 18,
@@ -254,7 +271,8 @@
       "pl": "strzegę, pilnuję",
       "fil": "nagbabantay"
     },
-    "thirdSingular": "φυλάσσει"
+    "thirdSingular": "φυλάσσει",
+    "strongsNum": "G5442"
   },
   {
     "id": 19,
@@ -268,7 +286,8 @@
       "pl": "na, nad",
       "fil": "sa, sa ibabaw"
     },
-    "image": "ch2a-prep-epi.jpeg"
+    "image": "ch2a-prep-epi.jpeg",
+    "strongsNum": "G1909"
   },
   {
     "id": 20,
@@ -282,7 +301,8 @@
       "pl": "blisko",
       "fil": "malapit"
     },
-    "image": "ch2a-adv-01.jpeg"
+    "image": "ch2a-adv-01.jpeg",
+    "strongsNum": "G1451"
   },
   {
     "id": 21,
@@ -296,7 +316,8 @@
       "pl": "po drugiej stronie, za",
       "fil": "sa kabilang dako, lampas"
     },
-    "image": "ch2a-adv-03.jpeg"
+    "image": "ch2a-adv-03.jpeg",
+    "strongsNum": "G4008"
   },
   {
     "id": 22,
@@ -310,7 +331,8 @@
       "pl": "szybko",
       "fil": "mabilis"
     },
-    "image": "ch2a-adv-02.jpeg"
+    "image": "ch2a-adv-02.jpeg",
+    "strongsNum": "G5030"
   },
   {
     "id": 23,
@@ -324,7 +346,8 @@
       "pl": "dzień",
       "fil": "araw"
     },
-    "image": "ch2b-noun-01.jpeg"
+    "image": "ch2b-noun-01.jpeg",
+    "strongsNum": "G2250"
   },
   {
     "id": 24,
@@ -338,7 +361,8 @@
       "es": "voz, sonido",
       "pl": "głos, dźwięk",
       "fil": "boses, tunog"
-    }
+    },
+    "strongsNum": "G5456"
   },
   {
     "id": 25,
@@ -352,7 +376,8 @@
       "es": "vara, bastón",
       "pl": "laska, kij",
       "fil": "tungkod, pamalo"
-    }
+    },
+    "strongsNum": "G4464"
   },
   {
     "id": 26,
@@ -366,7 +391,8 @@
       "es": "señor, amo",
       "pl": "pan, władca",
       "fil": "panginoon, amo"
-    }
+    },
+    "strongsNum": "G2962"
   },
   {
     "id": 27,
@@ -380,7 +406,8 @@
       "es": "malo, malvado",
       "pl": "zły, niegodziwy",
       "fil": "masama, masamang-loob"
-    }
+    },
+    "strongsNum": "G4190"
   },
   {
     "id": 28,
@@ -394,7 +421,8 @@
       "pl": "sprawiedliwy",
       "fil": "matuwid, makatarungan"
     },
-    "image": "ch2b-adj-01.jpeg"
+    "image": "ch2b-adj-01.jpeg",
+    "strongsNum": "G1342"
   },
   {
     "id": 29,
@@ -408,7 +436,8 @@
       "pl": "on, ona, ono",
       "fil": "siya"
     },
-    "image": "ch2b-pron-autos.jpeg"
+    "image": "ch2b-pron-autos.jpeg",
+    "strongsNum": "G0846"
   },
   {
     "id": 30,
@@ -423,7 +452,8 @@
       "pl": "chcę, pragnę",
       "fil": "nais ko, gusto ko"
     },
-    "thirdSingular": "θέλει"
+    "thirdSingular": "θέλει",
+    "strongsNum": "G2309"
   },
   {
     "id": 31,
@@ -438,7 +468,8 @@
       "fil": "malapit nang"
     },
     "image": "ch2b-verb-03.jpeg",
-    "thirdSingular": "μέλλει"
+    "thirdSingular": "μέλλει",
+    "strongsNum": "G3195"
   },
   {
     "id": 32,
@@ -453,7 +484,8 @@
       "pl": "chwytam, porywam",
       "fil": "sinasagit, inaabot"
     },
-    "thirdSingular": "ἁρπάζει"
+    "thirdSingular": "ἁρπάζει",
+    "strongsNum": "G0726"
   },
   {
     "id": 33,
@@ -468,7 +500,8 @@
       "pl": "ratuję",
       "fil": "nagliligtas"
     },
-    "thirdSingular": "σῴζει"
+    "thirdSingular": "σῴζει",
+    "strongsNum": "G4982"
   },
   {
     "id": 34,
@@ -483,7 +516,8 @@
       "fil": "iniiwan, pinababayaan"
     },
     "image": "ch2b-verb-05.jpeg",
-    "thirdSingular": "καταλείπει"
+    "thirdSingular": "καταλείπει",
+    "strongsNum": "G2641"
   },
   {
     "id": 35,
@@ -498,7 +532,8 @@
       "pl": "uciekam",
       "fil": "tumatakbo palayo, tumakas"
     },
-    "thirdSingular": "φεύγει"
+    "thirdSingular": "φεύγει",
+    "strongsNum": "G5343"
   },
   {
     "id": 36,
@@ -513,7 +548,8 @@
       "pl": "krzyczę, wołam",
       "fil": "sumisigaw"
     },
-    "thirdSingular": "κράζει"
+    "thirdSingular": "κράζει",
+    "strongsNum": "G2896"
   },
   {
     "id": 37,
@@ -528,7 +564,8 @@
       "pl": "rzucam",
       "fil": "naghahagis"
     },
-    "thirdSingular": "βάλλει"
+    "thirdSingular": "βάλλει",
+    "strongsNum": "G0906"
   },
   {
     "id": 38,
@@ -543,7 +580,8 @@
       "pl": "gonię, ścigam",
       "fil": "hinahabol"
     },
-    "thirdSingular": "διώκει"
+    "thirdSingular": "διώκει",
+    "strongsNum": "G1377"
   },
   {
     "id": 39,
@@ -558,7 +596,8 @@
       "fil": "tumatawag"
     },
     "image": "ch2b-verb-11.jpeg",
-    "thirdSingular": "καλεῖ"
+    "thirdSingular": "καλεῖ",
+    "strongsNum": "G2564"
   },
   {
     "id": 40,
@@ -573,7 +612,8 @@
       "fil": "nakakakilala"
     },
     "image": "ch2b-verb-12.jpeg",
-    "thirdSingular": "γινώσκει"
+    "thirdSingular": "γινώσκει",
+    "strongsNum": "G1097"
   },
   {
     "id": 41,
@@ -588,7 +628,8 @@
       "fil": "sumusunod"
     },
     "image": "ch2b-verb-13.jpeg",
-    "thirdSingular": "ἀκολουθεῖ"
+    "thirdSingular": "ἀκολουθεῖ",
+    "strongsNum": "G0190"
   },
   {
     "id": 42,
@@ -603,7 +644,8 @@
       "fil": "nangunguna, nag-aakay"
     },
     "image": "ch2b-verb-14.jpeg",
-    "thirdSingular": "ἄγει"
+    "thirdSingular": "ἄγει",
+    "strongsNum": "G0071"
   },
   {
     "id": 43,
@@ -618,7 +660,8 @@
       "pl": "odchodzę",
       "fil": "umaalis"
     },
-    "thirdSingular": "ὑπάγει"
+    "thirdSingular": "ὑπάγει",
+    "strongsNum": "G5217"
   },
   {
     "id": 44,
@@ -635,7 +678,8 @@
     "images": [
       "ch2b-prep-eis-1.jpeg",
       "ch2b-prep-eis-2.jpeg"
-    ]
+    ],
+    "strongsNum": "G1519"
   },
   {
     "id": 45,
@@ -653,7 +697,8 @@
       "ch2b-prep-apo-1.jpeg",
       "ch2b-prep-apo-2.jpeg",
       "ch2b-prep-apo-3.jpeg"
-    ]
+    ],
+    "strongsNum": "G0575"
   },
   {
     "id": 46,
@@ -667,7 +712,8 @@
       "pl": "pod",
       "fil": "sa ilalim"
     },
-    "image": "ch2b-prep-hypo.jpeg"
+    "image": "ch2b-prep-hypo.jpeg",
+    "strongsNum": "G5259"
   },
   {
     "id": 47,
@@ -680,7 +726,8 @@
       "es": "afuera",
       "pl": "na zewnątrz",
       "fil": "sa labas"
-    }
+    },
+    "strongsNum": "G1854"
   },
   {
     "id": 48,
@@ -693,7 +740,8 @@
       "es": "¡mira! ¡he aquí!",
       "pl": "oto! patrz!",
       "fil": "narito! tingnan!"
-    }
+    },
+    "strongsNum": "G2400"
   },
   {
     "id": 49,
@@ -707,7 +755,8 @@
       "pl": "natychmiast",
       "fil": "agad, kaagad"
     },
-    "image": "ch2b-adv-03.jpeg"
+    "image": "ch2b-adv-03.jpeg",
+    "strongsNum": "G2117"
   },
   {
     "id": 50,
@@ -721,7 +770,8 @@
       "pl": "znowu, ponownie",
       "fil": "muli, uli"
     },
-    "image": "ch2b-adv-04.jpeg"
+    "image": "ch2b-adv-04.jpeg",
+    "strongsNum": "G3825"
   },
   {
     "id": 51,
@@ -734,6 +784,7 @@
       "es": "finalmente, al final",
       "pl": "w końcu, wreszcie",
       "fil": "sa wakas"
-    }
+    },
+    "strongsNum": "G5056"
   }
 ]

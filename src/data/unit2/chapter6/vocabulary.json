@@ -10,7 +10,8 @@
       "es": "fuente, manantial",
       "pl": "źródło, studnia",
       "fil": "bukal, balon"
-    }
+    },
+    "strongsNum": "G4077"
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
       "es": "calor abrasador",
       "pl": "żar, upał",
       "fil": "matinding init"
-    }
+    },
+    "strongsNum": "G2738"
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
       "es": "asno, burro",
       "pl": "osioł",
       "fil": "asno, buriko"
-    }
+    },
+    "strongsNum": "G3688"
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
       "es": "extranjero, huésped",
       "pl": "cudzoziemiec, gość",
       "fil": "dayuhan, panauhin"
-    }
+    },
+    "strongsNum": "G3581"
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
       "es": "cántaro de agua",
       "pl": "dzban na wodę",
       "fil": "banga ng tubig"
-    }
+    },
+    "strongsNum": "G5201"
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
       "es": "espíritu, aliento",
       "pl": "duch, oddech",
       "fil": "espiritu, hininga"
-    }
+    },
+    "strongsNum": "G4151"
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
       "es": "corazón",
       "pl": "serce",
       "fil": "puso"
-    }
+    },
+    "strongsNum": "G2588"
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
       "es": "verdad",
       "pl": "prawda",
       "fil": "katotohanan"
-    }
+    },
+    "strongsNum": "G0225"
   },
   {
     "id": 9,
@@ -114,7 +122,8 @@
       "es": "mundo",
       "pl": "świat",
       "fil": "mundo, sanlibutan"
-    }
+    },
+    "strongsNum": "G2889"
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
       "es": "Paráclito, Consolador",
       "pl": "Paraklet, Pomocnik",
       "fil": "Parakleto, Mang-aaliw"
-    }
+    },
+    "strongsNum": "G3875"
   },
   {
     "id": 11,
@@ -140,7 +150,8 @@
       "es": "paz",
       "pl": "pokój",
       "fil": "kapayapaan"
-    }
+    },
+    "strongsNum": "G1515"
   },
   {
     "id": 12,
@@ -153,7 +164,8 @@
       "es": "comunión, comunidad",
       "pl": "wspólnota, komunia",
       "fil": "komunyon, pakikisama"
-    }
+    },
+    "strongsNum": "G2842"
   },
   {
     "id": 13,
@@ -166,7 +178,8 @@
       "es": "pecado",
       "pl": "grzech",
       "fil": "kasalanan"
-    }
+    },
+    "strongsNum": "G0266"
   },
   {
     "id": 14,
@@ -179,7 +192,8 @@
       "es": "don, regalo",
       "pl": "dar, darmo",
       "fil": "regalo, kaloob"
-    }
+    },
+    "strongsNum": "G1431"
   },
   {
     "id": 15,
@@ -192,7 +206,8 @@
       "es": "sangre",
       "pl": "krew",
       "fil": "dugo"
-    }
+    },
+    "strongsNum": "G0129"
   },
   {
     "id": 16,
@@ -205,7 +220,8 @@
       "es": "evangelio, buenas noticias",
       "pl": "ewangelia, dobra nowina",
       "fil": "ebanghelyo, mabuting balita"
-    }
+    },
+    "strongsNum": "G2098"
   },
   {
     "id": 17,
@@ -218,7 +234,8 @@
       "es": "alma, vida",
       "pl": "dusza, życie",
       "fil": "kaluluwa, buhay"
-    }
+    },
+    "strongsNum": "G5590"
   },
   {
     "id": 18,
@@ -231,7 +248,8 @@
       "es": "voluntad",
       "pl": "wola",
       "fil": "kalooban"
-    }
+    },
+    "strongsNum": "G2307"
   },
   {
     "id": 19,
@@ -244,7 +262,8 @@
       "es": "tener sed",
       "pl": "pragnąć, być spragnionym",
       "fil": "mauhaw"
-    }
+    },
+    "strongsNum": "G1372"
   },
   {
     "id": 20,
@@ -257,7 +276,8 @@
       "es": "dar testimonio",
       "pl": "świadczyć, zaświadczać",
       "fil": "magpatotoo, sumaksi"
-    }
+    },
+    "strongsNum": "G3140"
   },
   {
     "id": 21,
@@ -270,7 +290,8 @@
       "es": "salvar, rescatar",
       "pl": "zbawić, ocalić",
       "fil": "iligtas, ipagtanggol"
-    }
+    },
+    "strongsNum": "G4982"
   },
   {
     "id": 22,
@@ -283,7 +304,8 @@
       "es": "arrepentirse",
       "pl": "nawracać się, żałować",
       "fil": "magsisi, magsimba"
-    }
+    },
+    "strongsNum": "G3340"
   },
   {
     "id": 23,
@@ -296,6 +318,7 @@
       "es": "siglo, eternidad",
       "pl": "wiek, wieczność",
       "fil": "panahon, kawalang-hanggan"
-    }
+    },
+    "strongsNum": "G0165"
   }
 ]

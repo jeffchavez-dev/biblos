@@ -306,6 +306,23 @@ export default function VocabularyIndex({ onNavigate, target }) {
   const [openParadigm, setOpenParadigm] = useState(null)
   const [showKeyboard, setShowKeyboard] = useState(false)
 
+  // Scripture refs state
+  const [openRefs, setOpenRefs] = useState(null)
+  const [refsData, setRefsData] = useState(null)
+  const [refsLoading, setRefsLoading] = useState(false)
+  const refsDataRef = useRef(null)
+
+  function toggleRefs(key) {
+    setOpenRefs(prev => prev === key ? null : key)
+    if (!refsDataRef.current && !refsLoading) {
+      setRefsLoading(true)
+      fetch('/refs.json')
+        .then(r => r.json())
+        .then(data => { refsDataRef.current = data; setRefsData(data) })
+        .finally(() => setRefsLoading(false))
+    }
+  }
+
   // Search history
   const [searchHistory, setSearchHistory] = useState(() => {
     try { return JSON.parse(localStorage.getItem('lexicon-search-history') || '[]') } catch { return [] }
@@ -660,6 +677,13 @@ export default function VocabularyIndex({ onNavigate, target }) {
                           title="Show paradigm table"
                           disabled={!buildParadigm(w)}
                         >Ω</button>
+                        {w.strongsNum && (
+                          <button
+                            className={`refs-btn${openRefs === w._key ? ' refs-btn--active' : ''}`}
+                            onClick={() => toggleRefs(w._key)}
+                            title="Show NT scripture references"
+                          >📖</button>
+                        )}
                       </td>
                       <td className="vt-img-col">
                         {wordImages(w).length > 0 && (
@@ -715,6 +739,13 @@ export default function VocabularyIndex({ onNavigate, target }) {
                       <tr className="para-row">
                         <td colSpan={colCount}>
                           <ParadigmPanel paradigm={buildParadigm(w)} />
+                        </td>
+                      </tr>
+                    )}
+                    {openRefs === w._key && (
+                      <tr className="refs-row">
+                        <td colSpan={colCount}>
+                          <RefsPanel word={w} refsData={refsData} loading={refsLoading} />
                         </td>
                       </tr>
                     )}
@@ -967,6 +998,60 @@ function ParadigmPanel({ paradigm }) {
 }
 
 
+
+// ── Scripture refs panel ──────────────────────────────────────────────────────
+
+const BOOK_ABBR = {
+  Mat: 'Matthew', Mrk: 'Mark', Luk: 'Luke', Jhn: 'John',
+  Act: 'Acts', Rom: 'Romans', '1Co': '1 Corinthians', '2Co': '2 Corinthians',
+  Gal: 'Galatians', Eph: 'Ephesians', Php: 'Philippians', Col: 'Colossians',
+  '1Th': '1 Thessalonians', '2Th': '2 Thessalonians', '1Ti': '1 Timothy',
+  '2Ti': '2 Timothy', Tit: 'Titus', Phm: 'Philemon', Heb: 'Hebrews',
+  Jas: 'James', '1Pe': '1 Peter', '2Pe': '2 Peter', '1Jn': '1 John',
+  '2Jn': '2 John', '3Jn': '3 John', Jud: 'Jude', Rev: 'Revelation',
+}
+
+function formatRef(ref) {
+  const [book, ch, v] = ref.split('.')
+  return `${BOOK_ABBR[book] || book} ${ch}:${v}`
+}
+
+function RefsPanel({ word, refsData, loading }) {
+  if (loading) return <div className="refs-panel refs-panel--loading">Loading scripture references…</div>
+  if (!refsData) return null
+
+  const entry = refsData[word.strongsNum]
+  if (!entry || entry.refs.length === 0) {
+    return (
+      <div className="refs-panel">
+        <div className="refs-header">
+          <span className="refs-title">NT References — <span className="greek">{word.greek.split(',')[0]}</span></span>
+          <span className="refs-strongs">{word.strongsNum}</span>
+        </div>
+        <div className="refs-empty">No NT occurrences found in this dataset.</div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="refs-panel">
+      <div className="refs-header">
+        <span className="refs-title">NT References — <span className="greek">{word.greek.split(',')[0]}</span></span>
+        <span className="refs-strongs">{word.strongsNum}</span>
+        <span className="refs-count">{entry.refs.length} occurrence{entry.refs.length !== 1 ? 's' : ''}</span>
+      </div>
+      <div className="refs-list">
+        {entry.refs.map((r, i) => (
+          <div key={i} className="refs-item">
+            <span className="refs-ref">{formatRef(r.ref)}</span>
+            <span className="refs-word greek">{r.word}</span>
+            <span className="refs-gloss">{r.gloss.replace(/[.,;]+$/, '')}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
 
 function Highlight({ text, query, isGreek }) {
   if (!query.trim()) return text

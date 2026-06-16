@@ -11,7 +11,8 @@
       "fil": "tao, nilalang"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch1a-noun-1.jpeg"
+    "image": "ch1a-noun-1.jpeg",
+    "strongsNum": "G0444"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
       "fil": "magsasaka"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch1a-noun-2.jpeg"
+    "image": "ch1a-noun-2.jpeg",
+    "strongsNum": "G1092"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
       "fil": "bahay"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch1a-noun-3.jpeg"
+    "image": "ch1a-noun-3.jpeg",
+    "strongsNum": "G3624"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
       "fil": "bukid, taniman"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch1a-noun-4.jpeg"
+    "image": "ch1a-noun-4.jpeg",
+    "strongsNum": "G0068"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
       "fil": "langit, kalangitan"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch1a-noun-5.jpeg"
+    "image": "ch1a-noun-5.jpeg",
+    "strongsNum": "G3772"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
       "fil": "araw"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch1a-noun-6.jpeg"
+    "image": "ch1a-noun-6.jpeg",
+    "strongsNum": "G2246"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
       "fil": "ilog"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch1a-noun-7.jpeg"
+    "image": "ch1a-noun-7.jpeg",
+    "strongsNum": "G4215"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
       "fil": "tinapay"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch1a-noun-8.jpeg"
+    "image": "ch1a-noun-8.jpeg",
+    "strongsNum": "G0740"
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
       "fil": "bunga, ani"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch1a-noun-9.jpeg"
+    "image": "ch1a-noun-9.jpeg",
+    "strongsNum": "G2590"
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@
       "fil": "bato"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch1a-noun-10.jpeg"
+    "image": "ch1a-noun-10.jpeg",
+    "strongsNum": "G3037"
   },
   {
     "id": 11,
@@ -150,7 +160,8 @@
       "pl": "bóg, Bóg",
       "fil": "diyos, Diyos"
     },
-    "partOfSpeech": "noun (masculine, 2nd decl.)"
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "strongsNum": "G2316"
   },
   {
     "id": 12,
@@ -165,7 +176,8 @@
     },
     "partOfSpeech": "verb (irregular)",
     "image": "ch1a-verb-1.jpeg",
-    "thirdSingular": "ἐστίν"
+    "thirdSingular": "ἐστίν",
+    "strongsNum": "G1510"
   },
   {
     "id": 13,
@@ -180,7 +192,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1a-verb-2.jpeg",
-    "thirdSingular": "λάμπει"
+    "thirdSingular": "λάμπει",
+    "strongsNum": "G2989"
   },
   {
     "id": 14,
@@ -195,7 +208,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1a-verb-3.jpeg",
-    "thirdSingular": "ῥεῖ"
+    "thirdSingular": "ῥεῖ",
+    "strongsNum": "G4482"
   },
   {
     "id": 15,
@@ -210,7 +224,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1a-verb-4.jpeg",
-    "thirdSingular": "λαμβάνει"
+    "thirdSingular": "λαμβάνει",
+    "strongsNum": "G2983"
   },
   {
     "id": 16,
@@ -225,7 +240,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1a-verb-5.jpeg",
-    "thirdSingular": "ἐσθίει"
+    "thirdSingular": "ἐσθίει",
+    "strongsNum": "G2068"
   },
   {
     "id": 17,
@@ -240,7 +256,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1a-verb-6.jpeg",
-    "thirdSingular": "χαίρει"
+    "thirdSingular": "χαίρει",
+    "strongsNum": "G5463"
   },
   {
     "id": 18,
@@ -255,7 +272,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1a-verb-7.jpeg",
-    "thirdSingular": "ἔχει"
+    "thirdSingular": "ἔχει",
+    "strongsNum": "G2192"
   },
   {
     "id": 19,
@@ -270,7 +288,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1a-verb-8.jpeg",
-    "thirdSingular": "βλέπει"
+    "thirdSingular": "βλέπει",
+    "strongsNum": "G0991"
   },
   {
     "id": 20,
@@ -285,7 +304,8 @@
     },
     "partOfSpeech": "verb (contract, -έω)",
     "image": "ch1a-verb-9.jpeg",
-    "thirdSingular": "φιλεῖ"
+    "thirdSingular": "φιλεῖ",
+    "strongsNum": "G5368"
   },
   {
     "id": 21,
@@ -300,7 +320,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1a-verb-10.jpeg",
-    "thirdSingular": "σκάπτει"
+    "thirdSingular": "σκάπτει",
+    "strongsNum": "G4626"
   },
   {
     "id": 22,
@@ -315,7 +336,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1a-verb-11.jpeg",
-    "thirdSingular": "αἴρει"
+    "thirdSingular": "αἴρει",
+    "strongsNum": "G0142"
   },
   {
     "id": 23,
@@ -330,7 +352,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1a-verb-12.jpeg",
-    "thirdSingular": "φέρει"
+    "thirdSingular": "φέρει",
+    "strongsNum": "G5342"
   },
   {
     "id": 24,
@@ -345,7 +368,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1a-verb-13.jpeg",
-    "thirdSingular": "λέγει"
+    "thirdSingular": "λέγει",
+    "strongsNum": "G3004"
   },
   {
     "id": 25,
@@ -359,7 +383,8 @@
       "fil": "mabuti"
     },
     "partOfSpeech": "adjective",
-    "image": "ch1a-adj-1.jpeg"
+    "image": "ch1a-adj-1.jpeg",
+    "strongsNum": "G0018"
   },
   {
     "id": 26,
@@ -373,7 +398,8 @@
       "fil": "malakas"
     },
     "partOfSpeech": "adjective",
-    "image": "ch1a-adj-2.jpeg"
+    "image": "ch1a-adj-2.jpeg",
+    "strongsNum": "G2478"
   },
   {
     "id": 27,
@@ -391,7 +417,8 @@
     "images": [
       "ch1a-adj-3.jpeg",
       "ch1a-adj-5.jpeg"
-    ]
+    ],
+    "strongsNum": "G3398"
   },
   {
     "id": 28,
@@ -409,7 +436,8 @@
     "images": [
       "ch1a-adj-4.jpeg",
       "ch1a-adj-6.jpeg"
-    ]
+    ],
+    "strongsNum": "G3173"
   },
   {
     "id": 29,
@@ -423,7 +451,8 @@
       "fil": "maganda, mabuti"
     },
     "partOfSpeech": "adjective",
-    "image": "ch1a-adj-7.jpeg"
+    "image": "ch1a-adj-7.jpeg",
+    "strongsNum": "G2570"
   },
   {
     "id": 30,
@@ -437,7 +466,8 @@
       "fil": "tapat, mapagkakatiwalaan"
     },
     "partOfSpeech": "adjective",
-    "image": "ch1a-adj-8.jpeg"
+    "image": "ch1a-adj-8.jpeg",
+    "strongsNum": "G4103"
   },
   {
     "id": 31,
@@ -451,7 +481,8 @@
       "fil": "sa isang banda … sa kabilang banda"
     },
     "partOfSpeech": "particles (contrast pair)",
-    "image": "ch1a-men-de.jpeg"
+    "image": "ch1a-men-de.jpeg",
+    "strongsNum": "G3303"
   },
   {
     "id": 32,
@@ -464,7 +495,8 @@
       "pl": "zatem, więc",
       "fil": "kaya, samakatuwid"
     },
-    "partOfSpeech": "particle (postpositive)"
+    "partOfSpeech": "particle (postpositive)",
+    "strongsNum": "G3767"
   },
   {
     "id": 33,
@@ -477,7 +509,8 @@
       "pl": "bowiem, bo",
       "fil": "sapagkat, dahil"
     },
-    "partOfSpeech": "particle (postpositive)"
+    "partOfSpeech": "particle (postpositive)",
+    "strongsNum": "G1063"
   },
   {
     "id": 34,
@@ -490,7 +523,8 @@
       "pl": "i, też, nawet",
       "fil": "at, din, maging"
     },
-    "partOfSpeech": "conjunction"
+    "partOfSpeech": "conjunction",
+    "strongsNum": "G2532"
   },
   {
     "id": 35,
@@ -503,7 +537,8 @@
       "pl": "ale, lecz",
       "fil": "ngunit, kundi"
     },
-    "partOfSpeech": "conjunction"
+    "partOfSpeech": "conjunction",
+    "strongsNum": "G0235"
   },
   {
     "id": 36,
@@ -516,7 +551,8 @@
       "pl": "nie",
       "fil": "hindi"
     },
-    "partOfSpeech": "negative particle"
+    "partOfSpeech": "negative particle",
+    "strongsNum": "G3756"
   },
   {
     "id": 37,
@@ -530,7 +566,8 @@
       "fil": "pagsisikap, pagod, sakit"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch1b-noun-1.jpeg"
+    "image": "ch1b-noun-1.jpeg",
+    "strongsNum": "G4192"
   },
   {
     "id": 38,
@@ -544,7 +581,8 @@
       "fil": "buhay, kabuhayan"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch1b-noun-2.jpeg"
+    "image": "ch1b-noun-2.jpeg",
+    "strongsNum": "G0979"
   },
   {
     "id": 39,
@@ -558,7 +596,8 @@
       "fil": "damo, dayami"
     },
     "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "image": "ch1b-noun-3.jpeg"
+    "image": "ch1b-noun-3.jpeg",
+    "strongsNum": "G5528"
   },
   {
     "id": 40,
@@ -572,7 +611,8 @@
       "fil": "mahirap, mabigat"
     },
     "partOfSpeech": "adjective",
-    "image": "ch1b-adj-1.jpeg"
+    "image": "ch1b-adj-1.jpeg",
+    "strongsNum": "G5467"
   },
   {
     "id": 41,
@@ -586,7 +626,8 @@
       "fil": "madali"
     },
     "partOfSpeech": "adjective",
-    "image": "ch1b-adj-2.jpeg"
+    "image": "ch1b-adj-2.jpeg",
+    "strongsNum": "G4642"
   },
   {
     "id": 42,
@@ -601,7 +642,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1b-verb-1.jpeg",
-    "thirdSingular": "καθίζει"
+    "thirdSingular": "καθίζει",
+    "strongsNum": "G2523"
   },
   {
     "id": 43,
@@ -616,7 +658,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1b-verb-2.jpeg",
-    "thirdSingular": "μένει"
+    "thirdSingular": "μένει",
+    "strongsNum": "G3306"
   },
   {
     "id": 44,
@@ -631,7 +674,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1b-verb-3.jpeg",
-    "thirdSingular": "ἐκβαίνει"
+    "thirdSingular": "ἐκβαίνει",
+    "strongsNum": "G6092"
   },
   {
     "id": 45,
@@ -646,7 +690,8 @@
     },
     "partOfSpeech": "verb (contract, -έω)",
     "image": "ch1b-verb-4.jpeg",
-    "thirdSingular": "περιπατεῖ"
+    "thirdSingular": "περιπατεῖ",
+    "strongsNum": "G4043"
   },
   {
     "id": 46,
@@ -661,7 +706,8 @@
     },
     "partOfSpeech": "verb",
     "thirdSingular": "εὑρίσκει",
-    "image": "ch1b-verb-5.jpeg"
+    "image": "ch1b-verb-5.jpeg",
+    "strongsNum": "G2147"
   },
   {
     "id": 47,
@@ -676,7 +722,8 @@
     },
     "partOfSpeech": "verb",
     "image": "ch1b-verb-6.jpeg",
-    "thirdSingular": "ἡσυχάζει"
+    "thirdSingular": "ἡσυχάζει",
+    "strongsNum": "G2270"
   },
   {
     "id": 48,
@@ -691,7 +738,8 @@
     },
     "partOfSpeech": "verb (+ acc. or gen.)",
     "thirdSingular": "ἀκούει",
-    "image": "ch1b-verb-7.jpeg"
+    "image": "ch1b-verb-7.jpeg",
+    "strongsNum": "G0191"
   },
   {
     "id": 49,
@@ -706,7 +754,8 @@
     },
     "partOfSpeech": "verb (contract, -έω)",
     "thirdSingular": "ποιεῖ",
-    "image": "ch1b-verb-8.jpeg"
+    "image": "ch1b-verb-8.jpeg",
+    "strongsNum": "G4160"
   },
   {
     "id": 50,
@@ -721,7 +770,8 @@
     },
     "partOfSpeech": "verb (+ dative)",
     "image": "ch1b-verb-9.jpeg",
-    "thirdSingular": "εὐχαριστεῖ"
+    "thirdSingular": "εὐχαριστεῖ",
+    "strongsNum": "G2168"
   },
   {
     "id": 51,
@@ -735,7 +785,8 @@
       "fil": "sa, sa loob"
     },
     "partOfSpeech": "preposition",
-    "image": "ch1b-prep-en.jpeg"
+    "image": "ch1b-prep-en.jpeg",
+    "strongsNum": "G1722"
   },
   {
     "id": 52,
@@ -749,7 +800,8 @@
       "fil": "mula sa, palabas"
     },
     "partOfSpeech": "preposition",
-    "image": "ch1b-prep-ek.jpeg"
+    "image": "ch1b-prep-ek.jpeg",
+    "strongsNum": "G1537"
   },
   {
     "id": 53,
@@ -763,7 +815,8 @@
       "fil": "patungo sa"
     },
     "partOfSpeech": "preposition",
-    "image": "ch1b-prep-pros.jpeg"
+    "image": "ch1b-prep-pros.jpeg",
+    "strongsNum": "G4314"
   },
   {
     "id": 54,
@@ -777,7 +830,8 @@
       "fil": "ngayon, ngayong araw"
     },
     "partOfSpeech": "adverb",
-    "image": "ch1b-adv-1.jpeg"
+    "image": "ch1b-adv-1.jpeg",
+    "strongsNum": "G4594"
   },
   {
     "id": 55,
@@ -791,7 +845,8 @@
       "fil": "ngayon"
     },
     "partOfSpeech": "adverb",
-    "image": "ch1b-adv-4.jpeg"
+    "image": "ch1b-adv-4.jpeg",
+    "strongsNum": "G3568"
   },
   {
     "id": 56,
@@ -805,7 +860,8 @@
       "fil": "pagkatapos, susunod"
     },
     "partOfSpeech": "adverb",
-    "image": "ch1b-adv-2.jpeg"
+    "image": "ch1b-adv-2.jpeg",
+    "strongsNum": "G1899"
   },
   {
     "id": 57,
@@ -819,7 +875,8 @@
       "fil": "tunay, talagang"
     },
     "partOfSpeech": "adverb",
-    "image": "ch1b-adv-3.jpeg"
+    "image": "ch1b-adv-3.jpeg",
+    "strongsNum": "G0230"
   },
   {
     "id": 58,
@@ -832,7 +889,8 @@
       "pl": "kiedy, gdy",
       "fil": "noong (pansamantalang)"
     },
-    "partOfSpeech": "conjunction"
+    "partOfSpeech": "conjunction",
+    "strongsNum": "G3753"
   },
   {
     "id": 59,
@@ -845,7 +903,8 @@
       "pl": "bo, że",
       "fil": "dahil, na"
     },
-    "partOfSpeech": "conjunction"
+    "partOfSpeech": "conjunction",
+    "strongsNum": "G3754"
   },
   {
     "id": 60,
@@ -858,6 +917,7 @@
       "pl": "ani, też nie",
       "fil": "at hindi, ni, maging"
     },
-    "partOfSpeech": "conjunction"
+    "partOfSpeech": "conjunction",
+    "strongsNum": "G3761"
   }
 ]
