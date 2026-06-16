@@ -236,6 +236,7 @@ export default function VocabularyIndex({ onNavigate, target }) {
 
   // Display toggle state
   const [hideGloss, setHideGloss] = useState(false)
+  const [openParadigm, setOpenParadigm] = useState(null)
 
   const searchRef = useRef(null)
 
@@ -285,6 +286,10 @@ export default function VocabularyIndex({ onNavigate, target }) {
     if (!storiesRef.current && !storiesLoading) loadStories()
   }
 
+  function toggleParadigm(key) {
+    setOpenParadigm(prev => prev === key ? null : key)
+  }
+
   function toggleCat(id) {
     setActiveCats(prev => {
       const next = new Set(prev)
@@ -297,6 +302,21 @@ export default function VocabularyIndex({ onNavigate, target }) {
   function selectVerbGroup(id) {
     setActiveVerbGroup(prev => prev === id ? null : id)
     setActiveCats(new Set())
+  }
+
+  const selectValue = activeVerbGroup || (activeCats.size === 1 ? [...activeCats][0] : '')
+
+  function handleFilterChange(e) {
+    const val = e.target.value
+    if (VERB_GROUPS.find(g => g.id === val)) {
+      selectVerbGroup(val)
+    } else if (val) {
+      setActiveCats(new Set([val]))
+      setActiveVerbGroup(null)
+    } else {
+      setActiveCats(new Set())
+      setActiveVerbGroup(null)
+    }
   }
 
   const catCounts = {}
@@ -371,43 +391,37 @@ export default function VocabularyIndex({ onNavigate, target }) {
           </div>
         </div>
 
-        {/* POS filter chips */}
-        <div className="pos-filter-row">
-          {CATEGORIES.filter(c => catCounts[c.id] > 0).map(cat => (
-            <button
-              key={cat.id}
-              className={`pos-chip pos-chip--${cat.id} ${activeCats.has(cat.id) ? 'pos-chip--active' : ''}`}
-              onClick={() => toggleCat(cat.id)}
+        {/* Filter dropdown */}
+        <div className="filter-dropdown-row">
+          <div className="filter-select-wrap">
+            <span className="filter-select-icon">▾</span>
+            <select
+              className="filter-select"
+              value={selectValue}
+              onChange={handleFilterChange}
+              aria-label="Filter by part of speech"
             >
-              {ui(cat.labelKey)}
-              <span className="pos-chip-count">{catCounts[cat.id]}</span>
-            </button>
-          ))}
+              <option value="">All parts of speech</option>
+              {CATEGORIES.filter(c => catCounts[c.id] > 0).map(cat => (
+                <option key={cat.id} value={cat.id}>
+                  {ui(cat.labelKey)} ({catCounts[cat.id]})
+                </option>
+              ))}
+              {VERB_GROUPS.some(g => verbGroupCounts[g.id] > 0) && (
+                VERB_GROUPS.filter(g => verbGroupCounts[g.id] > 0).map(g => (
+                  <option key={g.id} value={g.id}>
+                    ↳ {g.label} ({verbGroupCounts[g.id]})
+                  </option>
+                ))
+              )}
+            </select>
+          </div>
           {(activeCats.size > 0 || activeVerbGroup) && (
-            <button className="pos-chip-clear" onClick={() => { setActiveCats(new Set()); setActiveVerbGroup(null) }}>
-              {ui('clearFilters')}
+            <button className="filter-clear-btn" onClick={() => { setActiveCats(new Set()); setActiveVerbGroup(null) }}>
+              Clear ✕
             </button>
           )}
         </div>
-
-        {/* Verb sub-groups */}
-        {VERB_GROUPS.some(g => verbGroupCounts[g.id] > 0) && (
-          <div className="verb-group-section">
-            <span className="verb-group-label">Contract Verbs</span>
-            <div className="verb-group-chips">
-              {VERB_GROUPS.filter(g => verbGroupCounts[g.id] > 0).map(g => (
-                <button
-                  key={g.id}
-                  className={`verb-group-chip verb-group-chip--${g.id.replace('verb-','')} ${activeVerbGroup === g.id ? 'verb-group-chip--active' : ''}`}
-                  onClick={() => selectVerbGroup(g.id)}
-                >
-                  {g.label}
-                  <span className="pos-chip-count">{verbGroupCounts[g.id]}</span>
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
 
         {/* Sort + display toggles row */}
         <div className="vocab-index-toolbar">
@@ -508,6 +522,12 @@ export default function VocabularyIndex({ onNavigate, target }) {
                           onClick={() => handleCtxClick(w)}
                           title="Show in story context"
                         >❝</button>
+                        <button
+                          className={`para-btn${openParadigm === w._key ? ' para-btn--active' : ''}${!buildParadigm(w) ? ' para-btn--disabled' : ''}`}
+                          onClick={() => buildParadigm(w) && toggleParadigm(w._key)}
+                          title="Show paradigm table"
+                          disabled={!buildParadigm(w)}
+                        >Ω</button>
                       </td>
                       <td className="vt-img-col">
                         {wordImages(w).length > 0 && (
@@ -559,6 +579,13 @@ export default function VocabularyIndex({ onNavigate, target }) {
                         </td>
                       </tr>
                     )}
+                    {openParadigm === w._key && (
+                      <tr key={`${w._key}-para`} className="para-row">
+                        <td colSpan={colCount}>
+                          <ParadigmPanel paradigm={buildParadigm(w)} />
+                        </td>
+                      </tr>
+                    )}
                   </>
                 )
               })}
@@ -569,6 +596,165 @@ export default function VocabularyIndex({ onNavigate, target }) {
     </div>
   )
 }
+
+// ── Paradigm builder ──────────────────────────────────────────────────────────
+
+function buildParadigm(word) {
+  const pos = (word.partOfSpeech || '').toLowerCase()
+  const lemma = word.greek.split(/[,\s]/)[0].trim()
+  const s = stripAccents(lemma)
+
+  if (/^noun/.test(pos)) {
+    const is2nd = pos.includes('2nd decl')
+    const is1st = pos.includes('1st decl')
+    const is3rd = pos.includes('3rd decl')
+    const isNeut = pos.includes('neut')
+
+    if (is2nd && isNeut && s.endsWith('ον')) {
+      const stem = lemma.slice(0, -2)
+      return { title: '2nd Declension — Neuter', stem: stem + '-', type: '2col',
+        headers: ['CASE', 'SINGULAR', 'PLURAL'],
+        rows: [['NOM.', '-ον', '-α'], ['ACC.', '-ον', '-α'], ['GEN.', '-ου', '-ων'], ['DAT.', '-ῳ', '-οις']],
+        articles: [['τό', 'τά'], ['τό', 'τά'], ['τοῦ', 'τῶν'], ['τῷ', 'τοῖς']],
+      }
+    }
+    if (is2nd && s.endsWith('ος')) {
+      const stem = lemma.slice(0, -2)
+      return { title: '2nd Declension — Masculine', stem: stem + '-', type: '2col',
+        headers: ['CASE', 'SINGULAR', 'PLURAL'],
+        rows: [['NOM.', '-ος', '-οι'], ['ACC.', '-ον', '-ους'], ['GEN.', '-ου', '-ων'], ['DAT.', '-ῳ', '-οις']],
+        articles: [['ὁ', 'οἱ'], ['τόν', 'τούς'], ['τοῦ', 'τῶν'], ['τῷ', 'τοῖς']],
+      }
+    }
+    if (is1st && s.endsWith('η')) {
+      const stem = lemma.slice(0, -1)
+      return { title: '1st Declension — Feminine (η-stem)', stem: stem + '-', type: '2col',
+        headers: ['CASE', 'SINGULAR', 'PLURAL'],
+        rows: [['NOM.', '-η', '-αι'], ['ACC.', '-ην', '-ας'], ['GEN.', '-ης', '-ων'], ['DAT.', '-ῃ', '-αις']],
+        articles: [['ἡ', 'αἱ'], ['τήν', 'τάς'], ['τῆς', 'τῶν'], ['τῇ', 'ταῖς']],
+      }
+    }
+    if (is1st && s.endsWith('α')) {
+      const stem = lemma.slice(0, -1)
+      return { title: '1st Declension — Feminine (α-stem)', stem: stem + '-', type: '2col',
+        headers: ['CASE', 'SINGULAR', 'PLURAL'],
+        rows: [['NOM.', '-α', '-αι'], ['ACC.', '-αν', '-ας'], ['GEN.', '-ας', '-ων'], ['DAT.', '-ᾳ', '-αις']],
+        articles: [['ἡ', 'αἱ'], ['τήν', 'τάς'], ['τῆς', 'τῶν'], ['τῇ', 'ταῖς']],
+      }
+    }
+    if (is3rd) {
+      const parts = word.greek.split(/,\s*/)
+      const gen = parts[1]?.trim() || '—'
+      return { title: '3rd Declension', type: '3rd', nom: lemma, gen,
+        note: 'Stem from genitive. See grammar for full paradigm.' }
+    }
+  }
+
+  if (/^verb/.test(pos)) {
+    if (pos.includes('-έω') || s.endsWith('εω')) {
+      const stem = lemma.slice(0, -2)
+      return { title: 'Present Active — ε-contract (-έω)', type: 'verb',
+        headers: ['PERSON', 'SINGULAR', 'PLURAL'],
+        rows: [['1ST', stem + 'ῶ', stem + 'οῦμεν'], ['2ND', stem + 'εῖς', stem + 'εῖτε'], ['3RD', stem + 'εῖ', stem + 'οῦσι(ν)']],
+      }
+    }
+    if (pos.includes('-άω') || s.endsWith('αω')) {
+      const stem = lemma.slice(0, -2)
+      return { title: 'Present Active — α-contract (-άω)', type: 'verb',
+        headers: ['PERSON', 'SINGULAR', 'PLURAL'],
+        rows: [['1ST', stem + 'ῶ', stem + 'ῶμεν'], ['2ND', stem + 'ᾷς', stem + 'ᾶτε'], ['3RD', stem + 'ᾷ', stem + 'ῶσι(ν)']],
+      }
+    }
+    if (s.endsWith('ω')) {
+      const stem = lemma.slice(0, -1)
+      return { title: 'Present Active Indicative', type: 'verb',
+        headers: ['PERSON', 'SINGULAR', 'PLURAL'],
+        rows: [['1ST', stem + 'ω', stem + 'ομεν'], ['2ND', stem + 'εις', stem + 'ετε'], ['3RD', stem + 'ει', stem + 'ουσι(ν)']],
+      }
+    }
+  }
+
+  if (/^adjective/.test(pos) && s.endsWith('ος')) {
+    const stem = lemma.slice(0, -2)
+    return { title: 'Adjective — 2–1–2 Declension', stem: stem + '-', type: '3col',
+      headers: ['CASE', 'MASC.', 'FEM.', 'NEUT.'],
+      rows: [
+        ['NOM. SG.', '-ος', '-η / -α', '-ον'],
+        ['ACC. SG.', '-ον', '-ην / -αν', '-ον'],
+        ['GEN. SG.', '-ου', '-ης / -ας', '-ου'],
+        ['DAT. SG.', '-ῳ', '-ῃ / -ᾳ', '-ῳ'],
+        ['NOM. PL.', '-οι', '-αι', '-α'],
+        ['ACC. PL.', '-ους', '-ας', '-α'],
+        ['GEN. PL.', '-ων', '-ων', '-ων'],
+        ['DAT. PL.', '-οις', '-αις', '-οις'],
+      ]
+    }
+  }
+
+  return null
+}
+
+function ParadigmPanel({ paradigm }) {
+  if (!paradigm) return null
+
+  if (paradigm.type === '3rd') {
+    return (
+      <div className="para-panel">
+        <div className="para-header-row">
+          <span className="para-title">{paradigm.title}</span>
+        </div>
+        <div className="para-3rd-row">
+          <span className="para-3rd-cell"><span className="para-case-label">NOM.</span><span className="greek">{paradigm.nom}</span></span>
+          <span className="para-3rd-cell"><span className="para-case-label">GEN.</span><span className="greek">{paradigm.gen}</span></span>
+        </div>
+        {paradigm.note && <div className="para-note">{paradigm.note}</div>}
+      </div>
+    )
+  }
+
+  const isVerb = paradigm.type === 'verb'
+  const is3col = paradigm.type === '3col'
+
+  return (
+    <div className="para-panel">
+      <div className="para-header-row">
+        <span className="para-title">{paradigm.title}</span>
+        {paradigm.stem && <span className="para-stem-label greek">stem: <strong>{paradigm.stem}</strong></span>}
+      </div>
+      <div className="para-table-scroll">
+        <table className="para-table">
+          <thead>
+            <tr>
+              {paradigm.headers.map((h, i) => <th key={i}>{h}</th>)}
+              {paradigm.articles && <th>ARTICLE</th>}
+            </tr>
+          </thead>
+          <tbody>
+            {paradigm.rows.map((row, ri) => (
+              <tr key={ri} className={ri % 2 === 0 ? 'para-row-even' : ''}>
+                <td className="para-case-td">{row[0]}</td>
+                {row.slice(1).map((cell, ci) => (
+                  <td key={ci} className="para-form-td greek">
+                    {isVerb ? cell : (
+                      <>
+                        <span className="para-stem-part">{paradigm.stem?.slice(0, -1)}</span>
+                        <span className="para-end-part">{cell.replace(/^-/, '')}</span>
+                      </>
+                    )}
+                  </td>
+                ))}
+                {paradigm.articles && (
+                  <td className="para-art-td greek">{paradigm.articles[ri]?.join(' / ')}</td>
+                )}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  )
+}
+
 
 function Highlight({ text, query, isGreek }) {
   if (!query.trim()) return text

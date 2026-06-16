@@ -583,3 +583,150 @@
   gap: 8px;
   margin-top: 8px;
 }
+
+/* ── Filter dropdown ─────────────────────────────────────────────────────── */
+.filter-dropdown-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.filter-select-wrap {
+  position: relative;
+  flex: 1;
+}
+.filter-select-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 0.75rem;
+  color: var(--deep-blue);
+  opacity: 0.5;
+}
+.filter-select {
+  width: 100%;
+  appearance: none;
+  -webkit-appearance: none;
+  background: var(--surface, #fff);
+  border: 1.5px solid var(--border, #ddd);
+  border-radius: 999px;
+  padding: 7px 14px 7px 32px;
+  font-size: 0.85rem;
+  color: var(--deep-blue);
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.filter-select:focus {
+  border-color: var(--deep-blue);
+}
+.filter-select:has(option[value=""]:not(:checked)) {
+  font-weight: 500;
+  border-color: var(--gold);
+}
+.filter-clear-btn {
+  background: none;
+  border: 1.5px solid var(--border, #ddd);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  color: var(--deep-blue);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+.filter-clear-btn:hover { background: rgba(0,0,0,0.04); }
+
+/* ── Paradigm button in word row ─────────────────────────────────────────── */
+.para-btn {
+  display: block;
+  margin-top: 3px;
+  background: none;
+  border: 1.5px solid var(--border, #ddd);
+  border-radius: 4px;
+  width: 24px;
+  height: 20px;
+  font-size: 0.75rem;
+  font-family: serif;
+  color: var(--deep-blue);
+  cursor: pointer;
+  opacity: 0.55;
+  transition: opacity 0.15s, background 0.15s, border-color 0.15s;
+  line-height: 1;
+}
+.para-btn:hover:not(.para-btn--disabled) { opacity: 1; border-color: var(--deep-blue); }
+.para-btn--active { background: var(--deep-blue); color: #fff; opacity: 1; border-color: var(--deep-blue); }
+.para-btn--disabled { opacity: 0.2; cursor: default; }
+
+/* ── Paradigm expansion row ──────────────────────────────────────────────── */
+.para-row td { padding: 0; background: #f0f4ff; border-top: 1px solid #c8d4f0; }
+
+.para-panel {
+  padding: 14px 16px 12px;
+}
+.para-header-row {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+.para-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--deep-blue);
+}
+.para-stem-label {
+  font-size: 0.82rem;
+  color: #555;
+}
+.para-stem-label strong { color: var(--deep-blue); }
+
+/* Table */
+.para-table-scroll { overflow-x: auto; }
+.para-table {
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  min-width: 280px;
+}
+.para-table thead tr {
+  background: var(--deep-blue);
+  color: #fff;
+}
+.para-table thead th {
+  padding: 6px 12px;
+  font-size: 0.68rem;
+  letter-spacing: 0.07em;
+  font-weight: 700;
+  text-align: left;
+}
+.para-table tbody tr { border-bottom: 1px solid #d0d8ec; }
+.para-row-even { background: #e8edfa; }
+.para-case-td {
+  padding: 5px 12px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #666;
+  white-space: nowrap;
+}
+.para-form-td {
+  padding: 5px 14px;
+  color: var(--deep-blue);
+}
+.para-stem-part { opacity: 0.45; }
+.para-end-part  { font-weight: 700; color: #1a3a7a; }
+.para-art-td {
+  padding: 5px 14px;
+  font-size: 0.82rem;
+  color: #888;
+}
+
+/* 3rd decl simplified view */
+.para-3rd-row { display: flex; gap: 24px; align-items: center; margin-bottom: 6px; }
+.para-3rd-cell { display: flex; gap: 6px; align-items: center; }
+.para-case-label { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.07em; color: #888; }
+.para-note { font-size: 0.75rem; color: #888; margin-top: 4px; font-style: italic; }
