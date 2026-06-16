@@ -536,24 +536,22 @@ export default function VocabularyIndex({ onNavigate, target }) {
             >
               <option value="">All parts of speech</option>
               {CATEGORIES.filter(c => catCounts[c.id] > 0).map(cat => (
-                <option key={cat.id} value={cat.id}>
-                  {ui(cat.labelKey)} ({catCounts[cat.id]})
-                </option>
+                <React.Fragment key={cat.id}>
+                  <option value={cat.id}>
+                    {ui(cat.labelKey)} ({catCounts[cat.id]})
+                  </option>
+                  {cat.id === 'noun' && NOUN_GROUPS.filter(g => nounGroupCounts[g.id] > 0).map(g => (
+                    <option key={g.id} value={g.id}>
+                      ↳ {g.label} ({nounGroupCounts[g.id]})
+                    </option>
+                  ))}
+                  {cat.id === 'verb' && VERB_GROUPS.filter(g => verbGroupCounts[g.id] > 0).map(g => (
+                    <option key={g.id} value={g.id}>
+                      ↳ {g.label} ({verbGroupCounts[g.id]})
+                    </option>
+                  ))}
+                </React.Fragment>
               ))}
-              {NOUN_GROUPS.some(g => nounGroupCounts[g.id] > 0) && (
-                NOUN_GROUPS.filter(g => nounGroupCounts[g.id] > 0).map(g => (
-                  <option key={g.id} value={g.id}>
-                    ↳ {g.label} ({nounGroupCounts[g.id]})
-                  </option>
-                ))
-              )}
-              {VERB_GROUPS.some(g => verbGroupCounts[g.id] > 0) && (
-                VERB_GROUPS.filter(g => verbGroupCounts[g.id] > 0).map(g => (
-                  <option key={g.id} value={g.id}>
-                    ↳ {g.label} ({verbGroupCounts[g.id]})
-                  </option>
-                ))
-              )}
             </select>
           </div>
           {(activeCats.size > 0 || activeVerbGroup || activeNounGroup) && (
