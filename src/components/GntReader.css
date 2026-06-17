@@ -34,6 +34,10 @@
   font-weight: 700;
   color: var(--deep-blue);
   flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
 }
 
 .gnt-gloss-toggle {
@@ -238,9 +242,10 @@
 
 /* ── Mobile ──────────────────────────────────────────────────────────────── */
 @media (max-width: 600px) {
-  .gnt-reader-header { padding: 10px 12px; }
+  .gnt-reader-header { padding: 10px 12px; gap: 6px 8px; }
   .gnt-reader-body { padding: 12px 8px 60px; }
   .gnt-word-greek { font-size: 0.95rem; }
   .gnt-word-gloss { font-size: 0.58rem; }
   .gnt-word-popup { width: calc(100vw - 24px); left: 12px !important; }
+  .gnt-gloss-toggle { padding: 4px 8px; font-size: 0.7rem; }
 }
