@@ -320,5 +320,229 @@
       "fil": "panahon, kawalang-hanggan"
     },
     "strongsNum": "G0165"
+  },
+  {
+    "id": 24,
+    "part": "B",
+    "greek": "σάρξ, σαρκός, ἡ",
+    "transliteration": "sarx",
+    "definition": "flesh; the sinful human nature",
+    "partOfSpeech": "noun (fem., 3rd decl.)",
+    "translations": {
+      "es": "carne; la naturaleza pecaminosa",
+      "pl": "ciało; grzeszna natura",
+      "fil": "laman; makasalanang kalikasan"
+    },
+    "strongsNum": "G4561"
+  },
+  {
+    "id": 25,
+    "part": "B",
+    "greek": "θάνατος, -ου, ὁ",
+    "transliteration": "thanatos",
+    "definition": "death",
+    "partOfSpeech": "noun (masc., 2nd decl.)",
+    "translations": {
+      "es": "muerte",
+      "pl": "śmierć",
+      "fil": "kamatayan"
+    },
+    "strongsNum": "G2288"
+  },
+  {
+    "id": 26,
+    "part": "B",
+    "greek": "ζωή, -ῆς, ἡ",
+    "transliteration": "zōē",
+    "definition": "life",
+    "partOfSpeech": "noun (fem., 1st decl.)",
+    "translations": {
+      "es": "vida",
+      "pl": "życie",
+      "fil": "buhay"
+    },
+    "strongsNum": "G2222"
+  },
+  {
+    "id": 27,
+    "part": "B",
+    "greek": "καρπός, -οῦ, ὁ",
+    "transliteration": "karpos",
+    "definition": "fruit; result, outcome",
+    "partOfSpeech": "noun (masc., 2nd decl.)",
+    "translations": {
+      "es": "fruto",
+      "pl": "owoc",
+      "fil": "bunga"
+    },
+    "strongsNum": "G2590"
+  },
+  {
+    "id": 28,
+    "part": "B",
+    "greek": "χάρισμα, -ατος, τό",
+    "transliteration": "charisma",
+    "definition": "gift of grace, charismatic gift",
+    "partOfSpeech": "noun (neut., 3rd decl. -μα)",
+    "translations": {
+      "es": "don, carisma",
+      "pl": "dar łaski, charyzmat",
+      "fil": "kaloob ng biyaya"
+    },
+    "strongsNum": "G5486"
+  },
+  {
+    "id": 29,
+    "part": "B",
+    "greek": "ἀγάπη, -ης, ἡ",
+    "transliteration": "agapē",
+    "definition": "love (self-giving, unconditional)",
+    "partOfSpeech": "noun (fem., 1st decl.)",
+    "translations": {
+      "es": "amor",
+      "pl": "miłość",
+      "fil": "pagmamahal, pag-ibig"
+    },
+    "strongsNum": "G0026"
+  },
+  {
+    "id": 30,
+    "part": "B",
+    "greek": "χαρά, -ᾶς, ἡ",
+    "transliteration": "chara",
+    "definition": "joy, gladness",
+    "partOfSpeech": "noun (fem., 1st decl.)",
+    "translations": {
+      "es": "gozo, alegría",
+      "pl": "radość",
+      "fil": "kagalakan, tuwa"
+    },
+    "strongsNum": "G5479"
+  },
+  {
+    "id": 31,
+    "part": "B",
+    "greek": "τέκνον, -ου, τό",
+    "transliteration": "teknon",
+    "definition": "child, offspring",
+    "partOfSpeech": "noun (neut., 2nd decl.)",
+    "translations": {
+      "es": "hijo, niño",
+      "pl": "dziecko",
+      "fil": "anak"
+    },
+    "strongsNum": "G5043"
+  },
+  {
+    "id": 32,
+    "part": "B",
+    "greek": "δοῦλος, -ου, ὁ",
+    "transliteration": "doulos",
+    "definition": "slave, servant, bondservant",
+    "partOfSpeech": "noun (masc., 2nd decl.)",
+    "translations": {
+      "es": "esclavo, siervo",
+      "pl": "niewolnik, sługa",
+      "fil": "alipin, utusan"
+    },
+    "strongsNum": "G1401"
+  },
+  {
+    "id": 33,
+    "part": "B",
+    "greek": "περιπατέω",
+    "transliteration": "peripateō",
+    "definition": "to walk; to live, conduct oneself",
+    "partOfSpeech": "verb (contract, -εω)",
+    "translations": {
+      "es": "caminar; vivir, conducirse",
+      "pl": "chodzić; żyć, postępować",
+      "fil": "lumakad; mamuhay, kumilos"
+    },
+    "strongsNum": "G4043"
+  },
+  {
+    "id": 34,
+    "part": "B",
+    "greek": "ἐπιθυμέω",
+    "transliteration": "epithumeō",
+    "definition": "to desire, crave, long for",
+    "partOfSpeech": "verb (contract, -εω)",
+    "translations": {
+      "es": "desear, codiciar",
+      "pl": "pożądać, pragnąć",
+      "fil": "magnasa, masabik"
+    },
+    "strongsNum": "G1937"
+  },
+  {
+    "id": 35,
+    "part": "B",
+    "greek": "ζάω",
+    "transliteration": "zaō",
+    "definition": "to live, be alive",
+    "partOfSpeech": "verb (contract, -αω; irregular: ζῇ, ζῶμεν)",
+    "translations": {
+      "es": "vivir, estar vivo",
+      "pl": "żyć, być żywym",
+      "fil": "mabuhay, mamuhay"
+    },
+    "strongsNum": "G2198"
+  },
+  {
+    "id": 36,
+    "part": "B",
+    "greek": "μισέω",
+    "transliteration": "miseō",
+    "definition": "to hate, detest",
+    "partOfSpeech": "verb (contract, -εω)",
+    "translations": {
+      "es": "odiar, detestar",
+      "pl": "nienawidzić",
+      "fil": "kamuhian, mapoot"
+    },
+    "strongsNum": "G3404"
+  },
+  {
+    "id": 37,
+    "part": "B",
+    "greek": "οἰκέω",
+    "transliteration": "oikeō",
+    "definition": "to dwell in, live in, inhabit",
+    "partOfSpeech": "verb (contract, -εω)",
+    "translations": {
+      "es": "habitar, morar en",
+      "pl": "mieszkać w, zamieszkiwać",
+      "fil": "manirahan, tumahan"
+    },
+    "strongsNum": "G3611"
+  },
+  {
+    "id": 38,
+    "part": "B",
+    "greek": "κράζω",
+    "transliteration": "krazō",
+    "definition": "to cry out, call out",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "clamar, gritar",
+      "pl": "wołać, krzyczeć",
+      "fil": "sumigaw, humiyaw"
+    },
+    "strongsNum": "G2896"
+  },
+  {
+    "id": 39,
+    "part": "B",
+    "greek": "οἰκοδομέω",
+    "transliteration": "oikodomeō",
+    "definition": "to build up, edify",
+    "partOfSpeech": "verb (contract, -εω)",
+    "translations": {
+      "es": "edificar, construir",
+      "pl": "budować, budować duchowo",
+      "fil": "itayo, palakasin"
+    },
+    "strongsNum": "G3618"
   }
 ]

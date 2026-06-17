@@ -216,6 +216,164 @@
           ]
         }
       ]
+    },
+    {
+      "label": "Μέρος Βʹ — Τὸ Ἔργον τοῦ Πνεύματος καὶ ἡ Σάρξ",
+      "sections": [
+        {
+          "id": 6,
+          "heading": "1. κατά + accusative — 'according to'",
+          "content": "κατά with the accusative means 'according to,' 'in accordance with,' or 'along.' In Part B it appears in the key contrast περιπατεῖν κατὰ τὴν σάρκα / κατὰ τὸ πνεῦμα — to walk according to the flesh / according to the Spirit. This is the Pauline idiom for one's moral orientation or way of life.",
+          "examples": [
+            {
+              "greek": "περιπατεῖ κατὰ τὴν σάρκα",
+              "note": "he walks according to the flesh (moral conduct governed by fleshly desires)",
+              "noteTranslations": {
+                "es": "camina según la carne",
+                "pl": "chodzi według ciała",
+                "fil": "lumalakad ayon sa laman"
+              }
+            },
+            {
+              "greek": "περιπατεῖ κατὰ τὸ πνεῦμα",
+              "note": "he walks according to the Spirit",
+              "noteTranslations": {
+                "es": "camina según el Espíritu",
+                "pl": "chodzi według Ducha",
+                "fil": "lumalakad ayon sa Espiritu"
+              }
+            },
+            {
+              "greek": "τὸ φρόνημα τῆς σαρκὸς θάνατός ἐστιν",
+              "note": "the mindset of the flesh is death (genitive of source/description)",
+              "noteTranslations": {
+                "es": "la mentalidad de la carne es muerte",
+                "pl": "nastawienie ciała to śmierć",
+                "fil": "ang isip ng laman ay kamatayan"
+              }
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "heading": "2. ἐάν + subjunctive — real conditional",
+          "content": "ἐάν ('if') introduces a conditional clause and is always followed by the subjunctive mood. This is called a third-class condition in Greek — it expresses a possible or likely future event. The main clause uses the indicative. The subjunctive form often looks like the present indicative but may have a slightly different vowel.",
+          "examples": [
+            {
+              "greek": "ἐὰν περιπατῶμεν τῷ πνεύματι, οὐ ποιοῦμεν τὰ τῆς σαρκός",
+              "note": "if we walk by the Spirit, we do not do the things of the flesh (ἐάν + subj.; main clause = indicative)",
+              "noteTranslations": {
+                "es": "si andamos en el Espíritu, no hacemos las cosas de la carne",
+                "pl": "jeśli kroczymy w Duchu, nie czynimy rzeczy ciała",
+                "fil": "kung lumalakad tayo sa Espiritu, hindi natin ginagawa ang mga bagay ng laman"
+              }
+            },
+            {
+              "greek": "ἐὰν ζῶμεν τῷ πνεύματι, καὶ τῷ πνεύματι στοιχῶμεν",
+              "note": "if we live by the Spirit, let us also walk in step with the Spirit",
+              "noteTranslations": {
+                "es": "si vivimos en el Espíritu, andemos también en el Espíritu",
+                "pl": "jeśli żyjemy Duchem, postępujmy też według Ducha",
+                "fil": "kung tayo ay nabubuhay sa Espiritu, lumakad din tayo ayon sa Espiritu"
+              }
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "heading": "3. ζάω — irregular contract verb 'to live'",
+          "content": "ζάω ('to live') is a contract verb whose stem ends in -α, but contracts unusually. The 3rd singular is ζῇ (not ζᾷ as expected) and the 1st plural is ζῶμεν. These forms appear directly in the story. The dative ζῶ τῷ πνεύματι means 'I live by/for the Spirit' — dative of means or instrument.",
+          "table": {
+            "caption": "ζάω — selected present active forms",
+            "headers": ["Person", "Singular", "Plural"],
+            "rows": [
+              ["1st", "ζῶ  (I live)", "ζῶμεν  (we live)"],
+              ["2nd", "ζῇς  (you live)", "ζῆτε  (you pl. live)"],
+              ["3rd", "ζῇ  (he/she lives)", "ζῶσι(ν)  (they live)"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ὃς περιπατεῖ κατὰ τὸ πνεῦμα, οὗτος ζῇ",
+              "note": "the one who walks according to the Spirit, this one lives (3rd sg. ζῇ)",
+              "noteTranslations": {
+                "es": "el que camina según el Espíritu, éste vive",
+                "pl": "kto chodzi według Ducha, ten żyje",
+                "fil": "ang lumalakad ayon sa Espiritu, siya ay nabubuhay"
+              }
+            },
+            {
+              "greek": "ἐὰν ζῶμεν τῷ πνεύματι",
+              "note": "if we live by the Spirit (1st pl. subjunctive ζῶμεν; dative of instrument: τῷ πνεύματι)",
+              "noteTranslations": {
+                "es": "si vivimos en el Espíritu",
+                "pl": "jeśli żyjemy Duchem",
+                "fil": "kung tayo ay nabubuhay sa Espiritu"
+              }
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "heading": "4. The relative pronoun ὅς, ἥ, ὅ — 'who, which, that'",
+          "content": "The relative pronoun ὅς (masc.), ἥ (fem.), ὅ (neut.) introduces a relative clause and agrees with its antecedent in gender and number, but takes its case from its role within the clause. Part B uses it heavily — particularly ὅς (whoever walks…) and ὃ (which dwells in us…). The indefinite relative ὅς with a general antecedent often translates 'whoever.'",
+          "table": {
+            "caption": "Relative pronoun — nominative and accusative",
+            "headers": ["", "Masc.", "Fem.", "Neut."],
+            "rows": [
+              ["Nom. sg.", "ὅς", "ἥ", "ὅ"],
+              ["Acc. sg.", "ὅν", "ἥν", "ὅ"],
+              ["Nom. pl.", "οἵ", "αἵ", "ἅ"],
+              ["Acc. pl.", "οὕς", "ἅς", "ἅ"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ὃς περιπατεῖ κατὰ τὸ πνεῦμα, οὗτος ἀγαπᾷ τὸν θεόν",
+              "note": "the one who walks according to the Spirit, this one loves God (ὅς agrees with the implied masc. subject)",
+              "noteTranslations": {
+                "es": "el que camina según el Espíritu, éste ama a Dios",
+                "pl": "kto chodzi według Ducha, ten miłuje Boga",
+                "fil": "ang lumalakad ayon sa Espiritu, siya ay nagmamahal sa Diyos"
+              }
+            },
+            {
+              "greek": "τὸ πνεῦμα, ὃ οἰκεῖ ἐν ἡμῖν",
+              "note": "the Spirit, which dwells in us (ὅ is neut. agreeing with τὸ πνεῦμα; nominative in the relative clause)",
+              "noteTranslations": {
+                "es": "el Espíritu, que habita en nosotros",
+                "pl": "Duch, który mieszka w nas",
+                "fil": "ang Espiritu, na nananahan sa atin"
+              }
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "heading": "5. The fruit of the Spirit — vocabulary",
+          "content": "Paul's list of the fruit of the Spirit in Galatians 5:22–23 appears in James's speech. Each noun is worth learning: ἀγάπη (love), χαρά (joy), εἰρήνη (peace), μακροθυμία (patience/longsuffering), χρηστότης (kindness), ἀγαθωσύνη (goodness), πίστις (faithfulness), πραΰτης (gentleness), ἐγκράτεια (self-control). Note that ὁ καρπός is singular — the Spirit bears one fruit with nine qualities.",
+          "examples": [
+            {
+              "greek": "ὁ καρπὸς τοῦ πνεύματός ἐστιν ἀγάπη καὶ χαρὰ καὶ εἰρήνη",
+              "note": "the fruit of the Spirit is love and joy and peace",
+              "noteTranslations": {
+                "es": "el fruto del Espíritu es amor, gozo y paz",
+                "pl": "owocem Ducha jest miłość, radość i pokój",
+                "fil": "ang bunga ng Espiritu ay pagmamahal, kagalakan, at kapayapaan"
+              }
+            },
+            {
+              "greek": "μακροθυμία καὶ χρηστότης καὶ ἀγαθωσύνη, πίστις καὶ πραΰτης καὶ ἐγκράτεια",
+              "note": "patience and kindness and goodness, faithfulness and gentleness and self-control",
+              "noteTranslations": {
+                "es": "paciencia, benignidad, bondad, fe, mansedumbre, templanza",
+                "pl": "cierpliwość, uprzejmość, dobroć, wierność, łagodność, powściągliwość",
+                "fil": "tiyaga, kabaitan, kabutihan, katapatan, kaamuan, pagpipigil sa sarili"
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
