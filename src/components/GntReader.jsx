@@ -117,7 +117,8 @@ export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon
 
   function handleWordClick(wordObj, e) {
     const rect = e.currentTarget.getBoundingClientRect()
-    setPopup({ word: wordObj, anchorRect: rect })
+    const isBiblos = biblosStrongs && wordObj.s && biblosStrongs.has(wordObj.s)
+    setPopup({ word: wordObj, anchorRect: rect, isBiblos })
   }
 
   const BOOK_NAMES = {
@@ -196,6 +197,7 @@ export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon
           book={book}
           chapter={chapter}
           onClose={() => setPopup(null)}
+          isBiblos={popup.isBiblos}
           onOpenLexicon={onOpenLexicon}
         />
       )}
@@ -204,7 +206,7 @@ export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon
 }
 
 import { forwardRef } from 'react'
-const WordPopup = forwardRef(function WordPopup({ word, anchor, book, chapter, onClose, onOpenLexicon }, ref) {
+const WordPopup = forwardRef(function WordPopup({ word, anchor, book, chapter, onClose, isBiblos, onOpenLexicon }, ref) {
   const morphDesc = describeMorph(word.m)
 
   // Position popup below the word tile, clamped to viewport
@@ -236,7 +238,7 @@ const WordPopup = forwardRef(function WordPopup({ word, anchor, book, chapter, o
       <div className="gnt-wp-ref">
         {book} {chapter}:{word.verse}
       </div>
-      {onOpenLexicon && word.s && (
+      {onOpenLexicon && word.s && isBiblos && (
         <button
           className="gnt-wp-lexicon-btn"
           onClick={() => { onOpenLexicon(word.s); onClose() }}

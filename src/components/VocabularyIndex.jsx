@@ -291,7 +291,8 @@ export default function VocabularyIndex({ onNavigate, target, onOpenGnt }) {
   const [activeCats, setActiveCats] = useState(new Set())
   const [activeVerbGroup, setActiveVerbGroup] = useState(null)
   const [activeNounGroup, setActiveNounGroup] = useState(null)
-  const [targetFilter, setTargetFilter] = useState(target || null)
+  // Only use target as a lesson filter if it has chapterId (not when it's a strongsNum lookup)
+  const [targetFilter, setTargetFilter] = useState(target?.chapterId ? target : null)
   const [loading, setLoading] = useState(true)
   const [fsWord, setFsWord] = useState(null)
 
@@ -372,8 +373,13 @@ export default function VocabularyIndex({ onNavigate, target, onOpenGnt }) {
         )
         setWords(all)
         setLoading(false)
+        // If opened via "Open in Lexicon" from GNT reader, auto-open that word
+        if (target?.strongsNum) {
+          const match = all.find(w => w.strongsNum === target.strongsNum)
+          if (match) setFsWord(match)
+        }
       })
-  }, [])
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if (!loading) searchRef.current?.focus()
