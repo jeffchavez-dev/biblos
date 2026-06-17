@@ -205,6 +205,14 @@
 }
 .gnt-wp-close:hover { color: #fff; }
 
+.gnt-wp-image {
+  display: block;
+  width: 100%;
+  max-height: 160px;
+  object-fit: cover;
+  object-position: center;
+}
+
 .gnt-wp-morph {
   padding: 6px 12px 2px;
   font-size: 0.72rem;

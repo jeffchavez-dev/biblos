@@ -39,12 +39,13 @@ function describeMorph(m) {
 }
 
 // Shared refs.json cache — loaded once, shared across mounts
-let biblosStrongsCache = null
+let biblosStrongsCache = null   // Set<strongsNum>
+let biblosImageCache = null     // Map<strongsNum, imageFilename>
 let biblosStrongsLoading = false
 let biblosStrongsCallbacks = []
 
 function loadBiblosStrongs(cb) {
-  if (biblosStrongsCache) { cb(biblosStrongsCache); return }
+  if (biblosStrongsCache) { cb(biblosStrongsCache, biblosImageCache); return }
   biblosStrongsCallbacks.push(cb)
   if (biblosStrongsLoading) return
   biblosStrongsLoading = true
@@ -52,7 +53,10 @@ function loadBiblosStrongs(cb) {
     .then(r => r.json())
     .then(data => {
       biblosStrongsCache = new Set(Object.keys(data))
-      biblosStrongsCallbacks.forEach(fn => fn(biblosStrongsCache))
+      biblosImageCache = new Map(
+        Object.entries(data).filter(([, v]) => v.image).map(([k, v]) => [k, v.image])
+      )
+      biblosStrongsCallbacks.forEach(fn => fn(biblosStrongsCache, biblosImageCache))
       biblosStrongsCallbacks = []
     })
     .catch(() => {
@@ -68,6 +72,7 @@ export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon
   const [showGloss, setShowGloss] = useState(false)
   const [showBiblos, setShowBiblos] = useState(false)
   const [biblosStrongs, setBiblosStrongs] = useState(biblosStrongsCache)
+  const [biblosImages, setBiblosImages] = useState(biblosImageCache)
   const popupRef = useRef(null)
   const highlightRef = useRef(null)
 
@@ -83,9 +88,12 @@ export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon
       .finally(() => setLoading(false))
   }, [book, chapter])
 
-  // Load Biblos Strong's set once
+  // Load Biblos Strong's set + image map once
   useEffect(() => {
-    if (!biblosStrongsCache) loadBiblosStrongs(setBiblosStrongs)
+    if (!biblosStrongsCache) loadBiblosStrongs((strongs, images) => {
+      setBiblosStrongs(strongs)
+      setBiblosImages(images)
+    })
   }, [])
 
   // Scroll to highlighted verse after data loads
@@ -118,7 +126,8 @@ export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon
   function handleWordClick(wordObj, e) {
     const rect = e.currentTarget.getBoundingClientRect()
     const isBiblos = biblosStrongs && wordObj.s && biblosStrongs.has(wordObj.s)
-    setPopup({ word: wordObj, anchorRect: rect, isBiblos })
+    const image = isBiblos && biblosImages ? biblosImages.get(wordObj.s) : null
+    setPopup({ word: wordObj, anchorRect: rect, isBiblos, image })
   }
 
   const BOOK_NAMES = {
@@ -198,6 +207,7 @@ export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon
           chapter={chapter}
           onClose={() => setPopup(null)}
           isBiblos={popup.isBiblos}
+          image={popup.image}
           onOpenLexicon={onOpenLexicon}
         />
       )}
@@ -206,14 +216,14 @@ export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon
 }
 
 import { forwardRef } from 'react'
-const WordPopup = forwardRef(function WordPopup({ word, anchor, book, chapter, onClose, isBiblos, onOpenLexicon }, ref) {
+const WordPopup = forwardRef(function WordPopup({ word, anchor, book, chapter, onClose, isBiblos, image, onOpenLexicon }, ref) {
   const morphDesc = describeMorph(word.m)
 
   // Position popup below the word tile, clamped to viewport
   const style = {}
   if (anchor) {
     const popupW = 260
-    const popupH = 200 // approx height for clamping
+    const popupH = image ? 360 : 200 // approx height for clamping
     let top = anchor.bottom + 6
     let left = anchor.left
     // Flip above word if too close to bottom
@@ -233,6 +243,13 @@ const WordPopup = forwardRef(function WordPopup({ word, anchor, book, chapter, o
         {word.s && <span className="gnt-wp-strongs">{word.s}</span>}
         <button className="gnt-wp-close" onClick={onClose}>✕</button>
       </div>
+      {image && (
+        <img
+          className="gnt-wp-image"
+          src={`/vocab-images/${image}`}
+          alt=""
+        />
+      )}
       {morphDesc && <div className="gnt-wp-morph">{morphDesc}</div>}
       {word.g && <div className="gnt-wp-gloss">{word.g.replace(/[<>\[\].,;]+$/g, '')}</div>}
       <div className="gnt-wp-ref">

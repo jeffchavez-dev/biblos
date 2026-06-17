@@ -90,7 +90,8 @@ function collectVocabLemmas() {
         const lemma = citationLemma(w.greek || '')
         if (!lemma) continue
         if (!lemmas.has(lemma)) {
-          lemmas.set(lemma, { greek: w.greek, definition: w.definition, chapters: [] })
+          const images = w.images || (w.image ? [w.image] : [])
+          lemmas.set(lemma, { greek: w.greek, definition: w.definition, image: images[0] || null, chapters: [] })
         }
         lemmas.get(lemma).chapters.push(`${unit}/${chapter}`)
       }
@@ -196,7 +197,7 @@ function mapLemmasToStrongs(vocabLemmas, tbesgMap) {
     }
 
     if (strongs) {
-      mapped.set(strongs, { greek: info.greek, definition: info.definition, lemma })
+      mapped.set(strongs, { greek: info.greek, definition: info.definition, lemma, image: info.image || null })
     } else {
       unmapped.push({ lemma, greek: info.greek })
     }
@@ -398,6 +399,7 @@ async function main() {
     output[strongs] = {
       lemma: info.lemma,
       definition: info.definition,
+      ...(info.image ? { image: info.image } : {}),
       refs,
     }
   }
