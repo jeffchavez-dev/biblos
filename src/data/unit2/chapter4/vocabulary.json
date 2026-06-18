@@ -11,7 +11,8 @@
       "pl": "ciało",
       "fil": "katawan"
     },
-    "strongsNum": "G4983"
+    "strongsNum": "G4983",
+    "image": "c4a-noun-1.jpeg"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
       "pl": "woda",
       "fil": "tubig"
     },
-    "strongsNum": "G5204"
+    "strongsNum": "G5204",
+    "image": "c4a-noun-2.jpeg"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
       "pl": "imię",
       "fil": "pangalan"
     },
-    "strongsNum": "G3686"
+    "strongsNum": "G3686",
+    "image": "c4a-noun-3.jpeg"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
       "pl": "wioska",
       "fil": "nayon, baryo"
     },
-    "strongsNum": "G2968"
+    "strongsNum": "G2968",
+    "image": "c4a-noun-4.jpeg"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
       "pl": "dom, rodzina",
       "fil": "tahanan, sambahayan"
     },
-    "strongsNum": "G3614"
+    "strongsNum": "G3614",
+    "image": "c4a-noun-5.jpeg"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
       "pl": "przyjaciel",
       "fil": "kaibigan"
     },
-    "strongsNum": "G5384"
+    "strongsNum": "G5384",
+    "image": "c4a-noun-6.jpeg"
   },
   {
     "id": 7,
@@ -109,7 +115,8 @@
       "pl": "Galilea",
       "fil": "Galilea"
     },
-    "strongsNum": "G1056"
+    "strongsNum": "G1056",
+    "image": "c4a-prop-galilaia.jpeg"
   },
   {
     "id": 9,
@@ -137,7 +144,8 @@
       "pl": "Marta",
       "fil": "Marta"
     },
-    "strongsNum": "G3136"
+    "strongsNum": "G3136",
+    "image": "c4a-prop-martha.jpeg"
   },
   {
     "id": 11,
@@ -152,7 +160,8 @@
       "fil": "pumupunta"
     },
     "thirdSingular": "ἔρχεται",
-    "strongsNum": "G2064"
+    "strongsNum": "G2064",
+    "image": "c4a-verb-1.jpeg"
   },
   {
     "id": 12,
@@ -167,7 +176,8 @@
       "fil": "naliligo, naglilinis"
     },
     "thirdSingular": "λούει",
-    "strongsNum": "G3068"
+    "strongsNum": "G3068",
+    "image": "c4a-verb-2.jpeg"
   },
   {
     "id": 13,
@@ -182,7 +192,8 @@
       "fil": "pumupunta, nagbibiyahe"
     },
     "thirdSingular": "πορεύεται",
-    "strongsNum": "G4198"
+    "strongsNum": "G4198",
+    "image": "c4a-verb-3.jpeg"
   },
   {
     "id": 14,
@@ -197,7 +208,8 @@
       "fil": "naninirahan, nakatira"
     },
     "thirdSingular": "κατοικεῖ",
-    "strongsNum": "G2730"
+    "strongsNum": "G2730",
+    "image": "c4a-verb-4.jpeg"
   },
   {
     "id": 15,
@@ -212,7 +224,8 @@
       "fil": "nagtatrabaho"
     },
     "thirdSingular": "ἐργάζεται",
-    "strongsNum": "G2038"
+    "strongsNum": "G2038",
+    "image": "c4a-verb-5.jpeg"
   },
   {
     "id": 16,
@@ -227,7 +240,8 @@
       "fil": "bumabati"
     },
     "thirdSingular": "ἀσπάζεται",
-    "strongsNum": "G0782"
+    "strongsNum": "G0782",
+    "image": "c4a-verb-6.jpeg"
   },
   {
     "id": 17,
@@ -242,7 +256,8 @@
       "fil": "humahalík"
     },
     "thirdSingular": "καταφιλεῖ",
-    "strongsNum": "G2705"
+    "strongsNum": "G2705",
+    "image": "c4a-verb-7.jpeg"
   },
   {
     "id": 18,
@@ -257,7 +272,8 @@
       "fil": "sumasagot"
     },
     "thirdSingular": "ἀποκρίνεται",
-    "strongsNum": "G0611"
+    "strongsNum": "G0611",
+    "image": "c4a-verb-8.jpeg"
   },
   {
     "id": 19,
@@ -272,7 +288,8 @@
       "fil": "nagmamahal"
     },
     "thirdSingular": "ἀγαπᾷ",
-    "strongsNum": "G0025"
+    "strongsNum": "G0025",
+    "image": "c4a-verb-9.jpeg"
   },
   {
     "id": 20,
@@ -287,7 +304,8 @@
       "fil": "nais ko, gusto ko"
     },
     "thirdSingular": "βούλεται",
-    "strongsNum": "G1014"
+    "strongsNum": "G1014",
+    "image": "c4a-verb-10.jpeg"
   },
   {
     "id": 21,
@@ -302,7 +320,8 @@
       "fil": "nag-aalala"
     },
     "thirdSingular": "μεριμνᾷ",
-    "strongsNum": "G3309"
+    "strongsNum": "G3309",
+    "image": "c4a-verb-11.jpeg"
   },
   {
     "id": 22,
@@ -317,7 +336,8 @@
       "fil": "narito, naririto"
     },
     "thirdSingular": "πάρεστιν",
-    "strongsNum": "G3918"
+    "strongsNum": "G3918",
+    "image": "c4a-verb-12.jpeg"
   },
   {
     "id": 23,
@@ -332,7 +352,8 @@
       "fil": "tumutulong"
     },
     "thirdSingular": "βοηθεῖ",
-    "strongsNum": "G0997"
+    "strongsNum": "G0997",
+    "image": "c4a-verb-13.jpeg"
   },
   {
     "id": 24,
@@ -347,7 +368,8 @@
       "fil": "kaya ko"
     },
     "thirdSingular": "δύναται",
-    "strongsNum": "G1410"
+    "strongsNum": "G1410",
+    "image": "c4a-verb-14.jpeg"
   },
   {
     "id": 25,
@@ -362,7 +384,8 @@
       "fil": "umaalis, nagdepartura"
     },
     "thirdSingular": "ἀπέρχεται",
-    "strongsNum": "G0565"
+    "strongsNum": "G0565",
+    "image": "c4a-verb-15.jpeg"
   },
   {
     "id": 26,
@@ -377,7 +400,8 @@
       "fil": "nagiging, nangyayari"
     },
     "thirdSingular": "γίνεται",
-    "strongsNum": "G1096"
+    "strongsNum": "G1096",
+    "image": "c4a-verb-16.jpeg"
   },
   {
     "id": 27,
@@ -391,7 +415,8 @@
       "pl": "Galilejczyk",
       "fil": "Galileo"
     },
-    "strongsNum": "G1057"
+    "strongsNum": "G1057",
+    "image": "c4a-adj-1.jpeg"
   },
   {
     "id": 28,
@@ -405,7 +430,8 @@
       "pl": "obaj, oboje",
       "fil": "kapwa, pareho"
     },
-    "strongsNum": "G0297"
+    "strongsNum": "G0297",
+    "image": "c4a-adj-2.jpeg"
   },
   {
     "id": 29,
@@ -433,7 +459,8 @@
       "pl": "jak?",
       "fil": "paano?"
     },
-    "strongsNum": "G4459"
+    "strongsNum": "G4459",
+    "image": "c4a-adv-2.jpeg"
   },
   {
     "id": 31,
@@ -447,7 +474,8 @@
       "pl": "tutaj",
       "fil": "dito, rito"
     },
-    "strongsNum": "G5602"
+    "strongsNum": "G5602",
+    "image": "c4a-adv-3.jpeg"
   },
   {
     "id": 32,
@@ -461,7 +489,8 @@
       "pl": "już, teraz",
       "fil": "na, ngayon na"
     },
-    "strongsNum": "G2235"
+    "strongsNum": "G2235",
+    "image": "c4a-adv-4.jpeg"
   },
   {
     "id": 33,
@@ -489,7 +518,8 @@
       "pl": "przez; z powodu",
       "fil": "sa pamamagitan ng; dahil sa"
     },
-    "strongsNum": "G1223"
+    "strongsNum": "G1223",
+    "image": "c4a-prep-dia.jpeg"
   },
   {
     "id": 35,
@@ -503,7 +533,8 @@
       "pl": "z; po",
       "fil": "kasama; pagkatapos ng"
     },
-    "strongsNum": "G3326"
+    "strongsNum": "G3326",
+    "image": "c4a-prep-meta-gen.jpeg"
   },
   {
     "id": 36,
@@ -517,7 +548,8 @@
       "pl": "o; wokół",
       "fil": "tungkol sa; sa paligid ng"
     },
-    "strongsNum": "G4012"
+    "strongsNum": "G4012",
+    "image": "c4a-prep-peri.jpeg"
   },
   {
     "id": 37,
@@ -531,7 +563,8 @@
       "pl": "tak",
       "fil": "oo"
     },
-    "strongsNum": "G3483"
+    "strongsNum": "G3483",
+    "image": "c4a-part-nai.jpeg"
   },
   {
     "id": 38,
@@ -573,7 +606,8 @@
       "pl": "nie (z trybem rozkazującym)",
       "fil": "huwag, hindi"
     },
-    "strongsNum": "G3361"
+    "strongsNum": "G3361",
+    "image": "c4a-part-me.jpeg"
   },
   {
     "id": 41,
@@ -601,7 +635,8 @@
       "pl": "kobieta, żona",
       "fil": "babae, asawa"
     },
-    "strongsNum": "G1135"
+    "strongsNum": "G1135",
+    "image": "c4a-noun-7.jpeg"
   },
   {
     "id": 43,
