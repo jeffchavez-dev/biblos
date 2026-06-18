@@ -72,6 +72,31 @@
 }
 .menu-btn:hover { background: rgba(255,255,255,0.1); }
 
+.nav-history-btns {
+  display: flex;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.nav-hist-btn {
+  background: rgba(255,255,255,0.10);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.85);
+  font-size: 1.15rem;
+  line-height: 1;
+  height: 28px;
+  width: 28px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  padding: 0;
+}
+.nav-hist-btn:hover:not(:disabled) { background: rgba(255,255,255,0.2); color: #fff; }
+.nav-hist-btn:disabled { opacity: 0.25; cursor: not-allowed; }
+
 .app-title {
   display: flex;
   flex-direction: column;

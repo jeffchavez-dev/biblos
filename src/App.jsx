@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import Sidebar from './components/Sidebar.jsx'
 import ChapterView from './components/ChapterView.jsx'
 import VocabularyIndex from './components/VocabularyIndex.jsx'
@@ -16,14 +16,24 @@ const VOCAB_SOURCES = [
   () => import('./data/unit2/chapter6/vocabulary.json'),
 ]
 
+function makeSnap(fields) {
+  return {
+    selectedUnit: 1,
+    selectedChapter: 1,
+    activePart: 'A',
+    showVocabIndex: false,
+    lexiconTarget: null,
+    gntView: null,
+    ...fields,
+  }
+}
+
 function AppInner() {
-  const [selectedUnit, setSelectedUnit] = useState(1)
-  const [selectedChapter, setSelectedChapter] = useState(1)
-  const [activePart, setActivePart] = useState('A')
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [desktopSidebarHidden, setDesktopSidebarHidden] = useState(false)
   const [navHidden, setNavHidden] = useState(false)
   const [fontSize, setFontSize] = useState(16)
+  const [totalWords, setTotalWords] = useState(0)
 
   const FONT_SIZES = [14, 16, 19, 22, 26, 30]
 
@@ -35,10 +45,39 @@ function AppInner() {
       return next
     })
   }
-  const [showVocabIndex, setShowVocabIndex] = useState(false)
-  const [lexiconTarget, setLexiconTarget] = useState(null)
-  const [totalWords, setTotalWords] = useState(0)
-  const [gntView, setGntView] = useState(null) // { book, chapter } or null
+
+  // ── Navigation history ──────────────────────────────────────────────
+  const [navStack, setNavStack] = useState([makeSnap({})])
+  const [navIdx, setNavIdx] = useState(0)
+  const current = navStack[navIdx]
+  const { selectedUnit, selectedChapter, activePart, showVocabIndex, lexiconTarget, gntView } = current
+
+  const canBack = navIdx > 0
+  const canForward = navIdx < navStack.length - 1
+
+  function pushNav(snap) {
+    setNavStack(prev => [...prev.slice(0, navIdx + 1), snap])
+    setNavIdx(prev => prev + 1)
+  }
+
+  const goBack = useCallback(() => {
+    if (canBack) setNavIdx(prev => prev - 1)
+  }, [canBack])
+
+  const goForward = useCallback(() => {
+    if (canForward) setNavIdx(prev => prev + 1)
+  }, [canForward])
+
+  // Keyboard shortcuts: Alt+Left / Alt+Right
+  useEffect(() => {
+    function handler(e) {
+      if (e.altKey && e.key === 'ArrowLeft') { e.preventDefault(); goBack() }
+      if (e.altKey && e.key === 'ArrowRight') { e.preventDefault(); goForward() }
+    }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [goBack, goForward])
+  // ───────────────────────────────────────────────────────────────────
 
   useEffect(() => {
     Promise.all(VOCAB_SOURCES.map(fn => fn().then(m => m.default)))
@@ -50,49 +89,37 @@ function AppInner() {
   const isLocked = currentUnit?.locked || currentChapter?.locked
 
   function handleOpenLexicon(unitId, chapterId, part) {
-    setLexiconTarget({ unitId, chapterId, part })
-    setShowVocabIndex(true)
-    setGntView(null)
+    pushNav(makeSnap({ selectedUnit: unitId, selectedChapter: chapterId, activePart: part, showVocabIndex: true, lexiconTarget: { unitId, chapterId, part } }))
     setSidebarOpen(false)
   }
 
   function handleOpenGnt(book, chapter, verse = null) {
-    setGntView({ book, chapter, verse })
-    setShowVocabIndex(false)
+    pushNav(makeSnap({ selectedUnit, selectedChapter, activePart, gntView: { book, chapter, verse } }))
     setSidebarOpen(false)
   }
 
   function handleOpenLexiconByStrongs(strongsNum) {
-    setLexiconTarget({ strongsNum })
-    setShowVocabIndex(true)
-    setGntView(null)
+    pushNav(makeSnap({ selectedUnit, selectedChapter, activePart, showVocabIndex: true, lexiconTarget: { strongsNum } }))
     setSidebarOpen(false)
   }
 
   function handleSelect(unitId, chapterId) {
-    setSelectedUnit(unitId)
-    setSelectedChapter(chapterId)
-    setActivePart('A')
-    setShowVocabIndex(false)
-    setGntView(null)
-    setLexiconTarget(null)
+    pushNav(makeSnap({ selectedUnit: unitId, selectedChapter: chapterId, activePart: 'A' }))
     setSidebarOpen(false)
   }
 
   function handlePartSelect(partId) {
-    setActivePart(partId)
-    setShowVocabIndex(false)
-    setGntView(null)
+    pushNav(makeSnap({ selectedUnit, selectedChapter, activePart: partId }))
     setSidebarOpen(false)
   }
 
   function handleVocabIndexNavigate(unitId, chapterId, part) {
-    setSelectedUnit(unitId)
-    setSelectedChapter(chapterId)
-    setActivePart(part)
-    setShowVocabIndex(false)
-    setGntView(null)
-    setLexiconTarget(null)
+    pushNav(makeSnap({ selectedUnit: unitId, selectedChapter: chapterId, activePart: part }))
+    setSidebarOpen(false)
+  }
+
+  function handleOpenVocabIndex() {
+    pushNav(makeSnap({ selectedUnit, selectedChapter, activePart, showVocabIndex: true }))
     setSidebarOpen(false)
   }
 
@@ -121,6 +148,25 @@ function AppInner() {
         }} aria-label="Menu">
           <span /><span /><span />
         </button>
+
+        {/* Back / Forward */}
+        <div className="nav-history-btns">
+          <button
+            className="nav-hist-btn"
+            onClick={goBack}
+            disabled={!canBack}
+            aria-label="Go back"
+            title="Go back (Alt+←)"
+          >‹</button>
+          <button
+            className="nav-hist-btn"
+            onClick={goForward}
+            disabled={!canForward}
+            aria-label="Go forward"
+            title="Go forward (Alt+→)"
+          >›</button>
+        </div>
+
         <div className="app-title">
           <span className="app-title-greek greek">Βίβλος</span>
           <span className="app-title-sub">{ui('appSubtitle')}</span>
@@ -168,7 +214,7 @@ function AppInner() {
           desktopHidden={desktopSidebarHidden}
           onClose={() => setSidebarOpen(false)}
           totalWords={totalWords}
-          onVocabIndex={() => { setShowVocabIndex(true); setGntView(null); setLexiconTarget(null); setSidebarOpen(false) }}
+          onVocabIndex={handleOpenVocabIndex}
           showingVocabIndex={showVocabIndex}
           onOpenGnt={handleOpenGnt}
           activeGnt={gntView}
@@ -185,7 +231,7 @@ function AppInner() {
               chapter={gntView.chapter}
               highlightVerse={gntView.verse}
               onOpenLexicon={handleOpenLexiconByStrongs}
-              onClose={() => setGntView(null)}
+              onClose={goBack}
             />
           ) : showVocabIndex ? (
             <VocabularyIndex
