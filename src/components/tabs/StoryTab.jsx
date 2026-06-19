@@ -158,7 +158,6 @@ export default function StoryTab({ story, vocabulary, activePart }) {
           <img className="story-hero-img" src={`/${story.heroImage}`} alt="" />
           <div className="story-hero-overlay">
             <h2 className="greek story-hero-title">{story.title}</h2>
-            <p className="story-hero-subtitle">{t(story.titleTranslation, story.titleTranslations, lang)}</p>
           </div>
         </div>
       ) : (
