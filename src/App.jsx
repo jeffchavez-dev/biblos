@@ -34,6 +34,21 @@ function AppInner() {
   const [navHidden, setNavHidden] = useState(false)
   const [fontSize, setFontSize] = useState(16)
   const [totalWords, setTotalWords] = useState(0)
+  const [isFullscreen, setIsFullscreen] = useState(false)
+
+  useEffect(() => {
+    function onFsChange() { setIsFullscreen(!!document.fullscreenElement) }
+    document.addEventListener('fullscreenchange', onFsChange)
+    return () => document.removeEventListener('fullscreenchange', onFsChange)
+  }, [])
+
+  function toggleFullscreen() {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen()
+    } else {
+      document.exitFullscreen()
+    }
+  }
 
   const FONT_SIZES = [14, 16, 19, 22, 26, 30]
 
@@ -200,6 +215,15 @@ function AppInner() {
             <option key={l.code} value={l.code}>{l.label} — {l.name}</option>
           ))}
         </select>
+
+        <button
+          className="fullscreen-btn"
+          onClick={toggleFullscreen}
+          aria-label={isFullscreen ? 'Exit fullscreen' : 'Enter fullscreen'}
+          title={isFullscreen ? 'Exit fullscreen (Esc)' : 'Fullscreen'}
+        >
+          {isFullscreen ? '⊠' : '⛶'}
+        </button>
       </header>
 
       <div className="app-body">
