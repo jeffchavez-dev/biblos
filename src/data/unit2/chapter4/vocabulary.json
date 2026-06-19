@@ -653,7 +653,8 @@
       "pl": "torba, sakwa",
       "fil": "supot, bag"
     },
-    "strongsNum": "G4082"
+    "strongsNum": "G4082",
+    "image": "c4b-noun-1.jpeg"
   },
   {
     "id": 44,
@@ -667,7 +668,8 @@
       "pl": "praca, dzieło, czyn",
       "fil": "gawa, trabaho, kilos"
     },
-    "strongsNum": "G2041"
+    "strongsNum": "G2041",
+    "image": "c4b-noun-2.jpeg"
   },
   {
     "id": 45,
@@ -681,7 +683,8 @@
       "pl": "ziemia, gleba",
       "fil": "lupa, lupain"
     },
-    "strongsNum": "G1093"
+    "strongsNum": "G1093",
+    "image": "c4b-noun-3.jpeg"
   },
   {
     "id": 46,
@@ -695,7 +698,8 @@
       "pl": "cień",
       "fil": "lilim, anino"
     },
-    "strongsNum": "G4639"
+    "strongsNum": "G4639",
+    "image": "c4b-noun-4.jpeg"
   },
   {
     "id": 47,
@@ -709,7 +713,8 @@
       "pl": "niewolnik, sługa",
       "fil": "alipin, lingkod"
     },
-    "strongsNum": "G1401"
+    "strongsNum": "G1401",
+    "image": "c4b-noun-5.jpeg"
   },
   {
     "id": 48,
@@ -723,7 +728,8 @@
       "pl": "upał, żar",
       "fil": "init, matinding init"
     },
-    "strongsNum": "G2738"
+    "strongsNum": "G2738",
+    "image": "c4b-noun-6.jpeg"
   },
   {
     "id": 49,
@@ -737,7 +743,8 @@
       "pl": "miejsce",
       "fil": "lugar, pook"
     },
-    "strongsNum": "G5117"
+    "strongsNum": "G5117",
+    "image": "c4b-noun-7.jpeg"
   },
   {
     "id": 50,
@@ -751,7 +758,8 @@
       "pl": "źródło, studnia",
       "fil": "bukal, balon"
     },
-    "strongsNum": "G4077"
+    "strongsNum": "G4077",
+    "image": "c4b-noun-8.jpeg"
   },
   {
     "id": 51,
@@ -765,7 +773,8 @@
       "pl": "dzban, garnek na wodę",
       "fil": "tapayan, garapon"
     },
-    "strongsNum": "G5201"
+    "strongsNum": "G5201",
+    "image": "c4b-noun-9.jpeg"
   },
   {
     "id": 52,
@@ -780,7 +789,8 @@
       "fil": "nagsasalita, nakikipag-usap"
     },
     "thirdSingular": "λαλεῖ",
-    "strongsNum": "G2980"
+    "strongsNum": "G2980",
+    "image": "c4b-verb-1.jpeg"
   },
   {
     "id": 53,
@@ -795,7 +805,8 @@
       "fil": "nagpapahinga"
     },
     "thirdSingular": "ἀναπαύεται",
-    "strongsNum": "G0373"
+    "strongsNum": "G0373",
+    "image": "c4b-verb-2.jpeg"
   },
   {
     "id": 54,
@@ -810,7 +821,8 @@
       "fil": "tumatanggap, tinatanggap"
     },
     "thirdSingular": "δέχεται",
-    "strongsNum": "G1209"
+    "strongsNum": "G1209",
+    "image": "c4b-verb-3.jpeg"
   },
   {
     "id": 55,
@@ -825,7 +837,8 @@
       "fil": "nagbibigay, nagsusuplay"
     },
     "thirdSingular": "παρέχει",
-    "strongsNum": "G3930"
+    "strongsNum": "G3930",
+    "image": "c4b-verb-4.jpeg"
   },
   {
     "id": 56,
@@ -840,7 +853,8 @@
       "fil": "nagsusunog, nagpapainit"
     },
     "thirdSingular": "καυματίζει",
-    "strongsNum": "G2739"
+    "strongsNum": "G2739",
+    "image": "c4b-verb-5.jpeg"
   },
   {
     "id": 57,
@@ -855,7 +869,8 @@
       "fil": "nagugutom"
     },
     "thirdSingular": "πεινᾷ",
-    "strongsNum": "G3983"
+    "strongsNum": "G3983",
+    "image": "c4b-verb-6.jpeg"
   },
   {
     "id": 58,
@@ -870,7 +885,8 @@
       "fil": "nauuhaw"
     },
     "thirdSingular": "διψᾷ",
-    "strongsNum": "G1372"
+    "strongsNum": "G1372",
+    "image": "c4b-verb-7.jpeg"
   },
   {
     "id": 59,
@@ -885,7 +901,8 @@
       "fil": "kumukuha ng tubig"
     },
     "thirdSingular": "ἀντλεῖ",
-    "strongsNum": "G0501"
+    "strongsNum": "G0501",
+    "image": "c4b-verb-8.jpeg"
   },
   {
     "id": 60,
@@ -899,7 +916,8 @@
       "pl": "inny, inna",
       "fil": "iba, isa pa"
     },
-    "strongsNum": "G0243"
+    "strongsNum": "G0243",
+    "image": "c4b-adj-1.jpeg"
   },
   {
     "id": 61,
@@ -913,7 +931,8 @@
       "pl": "bogaty",
       "fil": "mayaman"
     },
-    "strongsNum": "G4145"
+    "strongsNum": "G4145",
+    "image": "c4b-adj-2.jpeg"
   },
   {
     "id": 62,
@@ -927,7 +946,8 @@
       "pl": "biedny, ubogi",
       "fil": "mahirap, dukha"
     },
-    "strongsNum": "G4434"
+    "strongsNum": "G4434",
+    "image": "c4b-adj-3.jpeg"
   },
   {
     "id": 63,
@@ -955,7 +975,8 @@
       "pl": "własny",
       "fil": "sarili, pag-aari"
     },
-    "strongsNum": "G2398"
+    "strongsNum": "G2398",
+    "image": "c4b-adj-5.jpeg"
   },
   {
     "id": 65,
@@ -969,7 +990,8 @@
       "pl": "środkowy, w środku",
       "fil": "gitna, nasa gitna"
     },
-    "strongsNum": "G3319"
+    "strongsNum": "G3319",
+    "image": "c4b-adj-6.jpeg"
   },
   {
     "id": 66,
@@ -983,7 +1005,8 @@
       "pl": "czysty",
       "fil": "malinis, dalisay"
     },
-    "strongsNum": "G2513"
+    "strongsNum": "G2513",
+    "image": "c4b-adj-7.jpeg"
   },
   {
     "id": 67,
@@ -997,7 +1020,8 @@
       "pl": "potem, następnie",
       "fil": "pagkatapos, saka"
     },
-    "strongsNum": "G1534"
+    "strongsNum": "G1534",
+    "image": "c4b-adv-eita.jpeg"
   },
   {
     "id": 68,
@@ -1011,7 +1035,8 @@
       "pl": "gdzie (względne)",
       "fil": "kung saan"
     },
-    "strongsNum": "G3699"
+    "strongsNum": "G3699",
+    "image": "c4b-adv-hopou.jpeg"
   },
   {
     "id": 69,
@@ -1025,7 +1050,8 @@
       "pl": "ten, ta, to",
       "fil": "ito, itong"
     },
-    "strongsNum": "G3778"
+    "strongsNum": "G3778",
+    "image": "c4b-pron-houtos.jpeg"
   },
   {
     "id": 70,
@@ -1039,7 +1065,8 @@
       "pl": "dlatego, z tego powodu",
       "fil": "dahil dito, kaya nga"
     },
-    "strongsNum": "G1223"
+    "strongsNum": "G1223",
+    "image": "c4b-phrase-dia-touto.jpeg"
   },
   {
     "id": 71,
@@ -1053,6 +1080,7 @@
       "pl": "codziennie, każdego dnia",
       "fil": "araw-araw, daan-araw"
     },
-    "strongsNum": "G2596"
+    "strongsNum": "G2596",
+    "image": "c4b-phrase-kath-hemeran.jpeg"
   }
 ]
