@@ -224,13 +224,6 @@ export default function StoryTab({ story, vocabulary, activePart }) {
                 ))}
               </p>
             </div>
-            {para.notes?.length > 0 && (
-              <div className="story-margin">
-                {para.notes.map((note, ni) => (
-                  <MarginNote key={ni} note={note} vocabMap={vocabMap} />
-                ))}
-              </div>
-            )}
           </div>
         </div>
       ))}

@@ -213,16 +213,7 @@
         "es": "Hay una casa. La casa es pequeña, no grande.",
         "pl": "Jest dom. Dom jest mały, nie wielki.",
         "fil": "May bahay. Ang bahay ay maliit, hindi malaki."
-      },
-      "notes": [
-        {
-          "type": "antonym",
-          "words": [
-            "μικρός",
-            "μέγας"
-          ]
-        }
-      ]
+      }
     },
     {
       "id": 3,
