@@ -168,7 +168,6 @@ export default function StoryTab({ story, vocabulary, activePart }) {
         </div>
       )}
 
-      <div className="story-instruction">{ui('clickInstruction')}</div>
 
       {paragraphs.map((para, i) => (
         <div key={para.id}>
