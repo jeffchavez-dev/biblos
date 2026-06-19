@@ -20,6 +20,39 @@ function normalizeGreek(s) {
     .toLowerCase()
 }
 
+function MarginNote({ note, vocabMap }) {
+  if (note.type === 'antonym' || note.type === 'synonym') {
+    const [wordA, wordB] = note.words
+    const entryA = vocabMap[wordA.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase()] ||
+      Object.values(vocabMap).find(e => e.greek.split(/[,\s]/)[0].normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().startsWith(
+        wordA.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().slice(0,4)
+      ))
+    const entryB = vocabMap[wordB.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase()] ||
+      Object.values(vocabMap).find(e => e.greek.split(/[,\s]/)[0].normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().startsWith(
+        wordB.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().slice(0,4)
+      ))
+    const symbol = note.type === 'antonym' ? '↔' : '≈'
+    const label  = note.type === 'antonym' ? 'ἀντώνυμον' : 'συνώνυμον'
+    return (
+      <div className="margin-note margin-note--pair">
+        <div className="margin-note-label">{label}</div>
+        <div className="margin-note-pair">
+          <div className="margin-note-word">
+            {entryA?.image && <img src={`/vocab-images/${entryA.image}`} alt={wordA} />}
+            <span className="greek">{wordA}</span>
+          </div>
+          <span className="margin-note-symbol">{symbol}</span>
+          <div className="margin-note-word">
+            {entryB?.image && <img src={`/vocab-images/${entryB.image}`} alt={wordB} />}
+            <span className="greek">{wordB}</span>
+          </div>
+        </div>
+      </div>
+    )
+  }
+  return null
+}
+
 export default function StoryTab({ story, vocabulary, activePart }) {
   const { lang } = useLanguage()
   const ui = useUI()
@@ -169,7 +202,7 @@ export default function StoryTab({ story, vocabulary, activePart }) {
 
 
       {paragraphs.map((para, i) => (
-        <div key={para.id}>
+        <div key={para.id} className="story-row-outer">
           {para.label && (
             <div className="part-divider">
               <span className="part-label greek">{para.label}</span>
@@ -191,6 +224,13 @@ export default function StoryTab({ story, vocabulary, activePart }) {
                 ))}
               </p>
             </div>
+            {para.notes?.length > 0 && (
+              <div className="story-margin">
+                {para.notes.map((note, ni) => (
+                  <MarginNote key={ni} note={note} vocabMap={vocabMap} />
+                ))}
+              </div>
+            )}
           </div>
         </div>
       ))}
