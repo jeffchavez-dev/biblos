@@ -167,15 +167,31 @@
           "definition": "fields (dat. pl.)"
         }
       ],
-      "sideNote": {
-        "type": "antonym",
-        "pairs": [
-          {
-            "a": "οὐρανός",
-            "b": "γῆ"
-          }
-        ]
-      }
+      "sideNotes": [
+        {
+          "type": "antonym",
+          "pairs": [
+            {
+              "a": "οὐρανός",
+              "b": "γῆ"
+            }
+          ]
+        },
+        {
+          "type": "paradigm",
+          "title": "λαλέω — to speak",
+          "rows": [
+            {
+              "greek": "λαλεῖ",
+              "label": "3s"
+            },
+            {
+              "greek": "λαλοῦσιν",
+              "label": "3pl"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 2,
@@ -388,7 +404,21 @@
           "greek": "ἡλίου.",
           "definition": "sun (gen.)"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "καυματίζω — to scorch",
+        "rows": [
+          {
+            "greek": "καυματίζεται",
+            "label": "3s"
+          },
+          {
+            "greek": "καυματίζονται",
+            "label": "3pl"
+          }
+        ]
+      }
     },
     {
       "id": 3,
@@ -521,7 +551,21 @@
           "greek": "πίνω;\"",
           "definition": "I may drink"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ἀσπάζομαι — to greet",
+        "rows": [
+          {
+            "greek": "ἀσπάζεται",
+            "label": "3s"
+          },
+          {
+            "greek": "ἀσπάζονται",
+            "label": "3pl"
+          }
+        ]
+      }
     },
     {
       "id": 4,
@@ -1760,7 +1804,21 @@
           "greek": "Ἰησοῦ.\"",
           "definition": "Jesus (gen.)"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "γινώσκω — to know",
+        "rows": [
+          {
+            "greek": "γινώσκει",
+            "label": "3s"
+          },
+          {
+            "greek": "γινώσκομεν",
+            "label": "1pl"
+          }
+        ]
+      }
     },
     {
       "id": 11,
@@ -5481,7 +5539,25 @@
           "greek": "ποιεῖν.\"",
           "definition": "to do, make"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "δύναμαι — to be able",
+        "rows": [
+          {
+            "greek": "δύναμαι",
+            "label": "1s"
+          },
+          {
+            "greek": "δύνασαι",
+            "label": "2s"
+          },
+          {
+            "greek": "δύναται",
+            "label": "3s"
+          }
+        ]
+      }
     },
     {
       "id": 29,
@@ -6973,7 +7049,21 @@
           "greek": "πνεύματι.",
           "definition": "spirit (dat.)"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ἐργάζομαι — to work",
+        "rows": [
+          {
+            "greek": "ἐργάζεται",
+            "label": "3s"
+          },
+          {
+            "greek": "ἐργαζόμεθα",
+            "label": "1pl"
+          }
+        ]
+      }
     },
     {
       "id": 36,

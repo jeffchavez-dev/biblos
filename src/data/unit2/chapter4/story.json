@@ -2966,6 +2966,20 @@
         "es": "Y Jacob responde: 'O Felipe, verdaderamente eres un buen y fiel amigo, y también te amo.'",
         "pl": "I Jakub odpowiada: «O Filipie, naprawdę jesteś dobrym i wiernym przyjacielem i też cię kocham.»",
         "fil": "At sumasagot si Jacob: 'O Felipe, tunay na ikaw ay isang mabuti at tapat na kaibigan, at mahal din kita.'"
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "δύναμαι — to be able",
+        "rows": [
+          {
+            "greek": "δύναμαι",
+            "label": "1s"
+          },
+          {
+            "greek": "δύνασαι",
+            "label": "2s"
+          }
+        ]
       }
     },
     {
@@ -4133,6 +4147,20 @@
         "es": "En el camino ve a muchos otros agricultores. Muchos agricultores están en el camino y en los campos.",
         "pl": "Na drodze widzi wielu innych rolników. Wielu rolników jest na drodze i na polach.",
         "fil": "Sa daan nakikita niya ang maraming ibang magsasaka. Maraming magsasaka ang nasa daan at sa mga bukid."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ἀσπάζομαι — to greet",
+        "rows": [
+          {
+            "greek": "ἀσπάζεται",
+            "label": "3s"
+          },
+          {
+            "greek": "ἀσπάζονται",
+            "label": "3pl"
+          }
+        ]
       }
     },
     {

@@ -264,39 +264,43 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
               </p>
             </div>
             <div className="story-margin-gutter">
-              {para.sideNote?.type === 'paradigm' && (
-                <div className="side-note side-note--paradigm">
-                  <div className="side-note-title greek">{para.sideNote.title}</div>
-                  <table className="side-note-table">
-                    <tbody>
-                      {para.sideNote.rows.map((row, ri) => (
-                        <tr key={ri}>
-                          <td className="side-note-label">{row.label}</td>
-                          <td className="side-note-greek greek">
-                            {withEndingHighlight(row.greek, para.sideNote.rows.map(r => r.greek))}
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
+              {(para.sideNotes ?? (para.sideNote ? [para.sideNote] : [])).map((note, ni) => (
+                <div key={ni}>
+                  {note.type === 'paradigm' && (
+                    <div className="side-note side-note--paradigm">
+                      <div className="side-note-title greek">{note.title}</div>
+                      <table className="side-note-table">
+                        <tbody>
+                          {note.rows.map((row, ri) => (
+                            <tr key={ri}>
+                              <td className="side-note-label">{row.label}</td>
+                              <td className="side-note-greek greek">
+                                {withEndingHighlight(row.greek, note.rows.map(r => r.greek))}
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+                  {note.type === 'antonym' && (
+                    <div className="side-note side-note--antonym">
+                      <div className="side-note-title">ἐναντίον</div>
+                      <table className="side-note-table">
+                        <tbody>
+                          {note.pairs.map((pair, pi) => (
+                            <tr key={pi}>
+                              <td className="side-note-greek greek">{pair.a}</td>
+                              <td className="side-note-sym">⇔</td>
+                              <td className="side-note-greek greek">{pair.b}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
                 </div>
-              )}
-              {para.sideNote?.type === 'antonym' && (
-                <div className="side-note side-note--antonym">
-                  <div className="side-note-title">ἐναντίον</div>
-                  <table className="side-note-table">
-                    <tbody>
-                      {para.sideNote.pairs.map((pair, pi) => (
-                        <tr key={pi}>
-                          <td className="side-note-greek greek">{pair.a}</td>
-                          <td className="side-note-sym">⇔</td>
-                          <td className="side-note-greek greek">{pair.b}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              )}
+              ))}
             </div>
           </div>
         </div>
