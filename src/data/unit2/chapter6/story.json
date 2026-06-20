@@ -698,7 +698,29 @@
           "greek": "ὕδωρ.",
           "definition": "water"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "δίδωμι — to give",
+        "rows": [
+          {
+            "greek": "διδόναι",
+            "label": "inf."
+          },
+          {
+            "greek": "δίδωσιν",
+            "label": "3s"
+          },
+          {
+            "greek": "δίδομεν",
+            "label": "1pl"
+          },
+          {
+            "greek": "διδόασιν",
+            "label": "3pl"
+          }
+        ]
+      }
     },
     {
       "id": 5,
@@ -1555,7 +1577,21 @@
           "greek": "πνεύματος.\"",
           "definition": "spirit (gen.)"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "δίδωμι — to give",
+        "rows": [
+          {
+            "greek": "δίδωσιν",
+            "label": "3s act."
+          },
+          {
+            "greek": "δίδοται",
+            "label": "3s pass."
+          }
+        ]
+      }
     },
     {
       "id": 10,
@@ -2498,15 +2534,31 @@
           "definition": "Jesus (dat.)"
         }
       ],
-      "sideNote": {
-        "type": "antonym",
-        "pairs": [
-          {
-            "a": "λαμβάνω",
-            "b": "δίδωμι"
-          }
-        ]
-      }
+      "sideNotes": [
+        {
+          "type": "antonym",
+          "pairs": [
+            {
+              "a": "λαμβάνω",
+              "b": "δίδωμι"
+            }
+          ]
+        },
+        {
+          "type": "paradigm",
+          "title": "τίθημι — to lay down",
+          "rows": [
+            {
+              "greek": "τιθέναι",
+              "label": "inf."
+            },
+            {
+              "greek": "τίθησιν",
+              "label": "3s"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 14,
@@ -6314,15 +6366,31 @@
           "definition": "fruit (acc.)"
         }
       ],
-      "sideNote": {
-        "type": "antonym",
-        "pairs": [
-          {
-            "a": "λαμβάνω",
-            "b": "δίδωμι"
-          }
-        ]
-      }
+      "sideNotes": [
+        {
+          "type": "antonym",
+          "pairs": [
+            {
+              "a": "λαμβάνω",
+              "b": "δίδωμι"
+            }
+          ]
+        },
+        {
+          "type": "paradigm",
+          "title": "δίδωμι — to give",
+          "rows": [
+            {
+              "greek": "δίδωσιν",
+              "label": "3s act."
+            },
+            {
+              "greek": "δίδοται",
+              "label": "3s pass."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 33,
