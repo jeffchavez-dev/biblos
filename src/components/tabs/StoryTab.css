@@ -30,7 +30,7 @@
 }
 
 .side-note-title {
-  font-size: 0.78rem;
+  font-size: 0.68rem;
   font-weight: 700;
   color: var(--gold, #c9a84c);
   margin-bottom: 8px;
@@ -44,13 +44,13 @@
 
 .side-note-table td {
   padding: 2px 4px;
-  font-size: 0.88rem;
+  font-size: 0.78rem;
   vertical-align: middle;
 }
 
 .side-note-label {
   color: var(--grey);
-  font-size: 0.72rem;
+  font-size: 0.64rem;
   font-style: italic;
   white-space: nowrap;
   padding-right: 8px;
@@ -60,7 +60,7 @@
 .side-note-greek {
   color: var(--deep-blue);
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 0.82rem;
 }
 
 .paradigm-ending {
@@ -480,4 +480,15 @@
   .story-paragraph { padding: 14px 14px; }
   .para-number { width: 24px; padding-top: 18px; font-size: 0.72rem; }
   .story-instruction { font-size: 0.75rem; }
+  .story-margin-gutter {
+    width: 130px;
+    margin-left: 8px;
+    padding-left: 8px;
+  }
+  .side-note {
+    padding: 6px 8px;
+  }
+  .side-note-greek { font-size: 0.75rem; }
+  .side-note-label  { font-size: 0.58rem; }
+  .side-note-table td { font-size: 0.72rem; }
 }
