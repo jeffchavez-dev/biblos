@@ -5772,6 +5772,24 @@
         "es": "El agricultor oye la voz del asno y se maravilla mucho; un gran miedo lo toma.",
         "pl": "Rolnik słyszy głos osła i bardzo się dziwi; ogarnia go wielki strach.",
         "fil": "Narinig ng magsasaka ang boses ng asno at lubos siyang namumangha; puno siya ng malaking takot."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ὄνος — donkey",
+        "rows": [
+          {
+            "greek": "ὄνος",
+            "label": "Nom."
+          },
+          {
+            "greek": "ὄνου",
+            "label": "Gen."
+          },
+          {
+            "greek": "ὄνον",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {

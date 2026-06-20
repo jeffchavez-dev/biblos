@@ -6620,6 +6620,20 @@
         "es": "Jacob se alegra mucho en su corazón porque Salomé quiere escuchar. Dice entonces: '¿Ves ese pastor y sus ovejas?'",
         "pl": "Jakub bardzo się cieszy w sercu, bo Salome chce słuchać. Mówi więc: «Czy widzisz tego pasterza i jego owce?»",
         "fil": "Lubos na nagagalak si Jacob sa kanyang puso dahil gusto ni Salome na makinig. Sinabi niya kung gayon: 'Nakikita mo ba ang pastol na iyon at ang kanyang mga tupa?'"
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "λέγω — to say",
+        "rows": [
+          {
+            "greek": "λέγω",
+            "label": "1s"
+          },
+          {
+            "greek": "λέγει",
+            "label": "3s"
+          }
+        ]
       }
     },
     {

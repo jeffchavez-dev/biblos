@@ -7161,7 +7161,21 @@
           "greek": "θεοῦ.\"",
           "definition": "God (gen.)"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ζάω — to live",
+        "rows": [
+          {
+            "greek": "ζῇ",
+            "label": "3s"
+          },
+          {
+            "greek": "ζῶμεν",
+            "label": "1pl"
+          }
+        ]
+      }
     },
     {
       "id": 37,
@@ -7529,5 +7543,6 @@
         }
       ]
     }
-  ]
+  ],
+  "heroImage": "story-images/ch6a/1.jpeg"
 }
