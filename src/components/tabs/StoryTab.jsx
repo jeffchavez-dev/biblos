@@ -259,6 +259,22 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
                   </table>
                 </div>
               )}
+              {para.sideNote?.type === 'antonym' && (
+                <div className="side-note side-note--antonym">
+                  <div className="side-note-title">ἀντώνυμα</div>
+                  <table className="side-note-table">
+                    <tbody>
+                      {para.sideNote.pairs.map((pair, pi) => (
+                        <tr key={pi}>
+                          <td className="side-note-greek greek">{pair.a}</td>
+                          <td className="side-note-sym">⇔</td>
+                          <td className="side-note-greek greek">{pair.b}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
             </div>
           </div>
         </div>

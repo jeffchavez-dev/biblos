@@ -63,6 +63,23 @@
   font-size: 0.95rem;
 }
 
+.side-note--antonym .side-note-title {
+  color: var(--deep-blue);
+  font-family: sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.side-note-sym {
+  color: var(--gold, #c9a84c);
+  font-size: 0.85rem;
+  padding: 0 6px;
+  white-space: nowrap;
+}
+
 .story-margin {
   flex-shrink: 0;
   width: 240px;
