@@ -87,8 +87,8 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
 
   // Verb endings (longest first to avoid partial matches)
   const VERB_SUFFIXES = ['ουσιν', 'ουσι', 'ομεν', 'ετε', 'εις', 'ει', 'ω']
-  // Noun/adjective case endings (longest first)
-  const NOUN_SUFFIXES = ['ους', 'οις', 'αις', 'ων', 'ου', 'ης', 'ος', 'ον', 'αν', 'ην', 'ας', 'ω', 'α', 'η', 'ε']
+  // Noun/adjective case endings (longest first); αι/οι cover fem/masc nom. plural (e.g. πολλαί, πολλοί)
+  const NOUN_SUFFIXES = ['ους', 'οις', 'αις', 'ων', 'ου', 'ης', 'ος', 'ον', 'αν', 'ην', 'ας', 'αι', 'οι', 'ω', 'α', 'η', 'ε']
 
   function findVocabEntry(greekWord) {
     // 1. Exact match (diacritics preserved) — differentiates εἷς vs εἰς, μία → numeral, etc.
@@ -110,15 +110,19 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
         }
       }
     }
-    // 4. Noun/adjective stem: strip case ending, match lemma with similar stem length
+    // 4. Noun/adjective stem: strip case ending, search both normalized map and exact map.
+    // Searching exact map handles irregular adjectives where plural stem differs from lemma
+    // (e.g. πολλαί → stem πολλ → matches exact key πολλη from πολύς, πολλή, πολύ).
     for (const suffix of NOUN_SUFFIXES) {
       if (normalized.endsWith(suffix)) {
         const stem = normalized.slice(0, -suffix.length)
         if (stem.length < 2) continue
         for (const [key, entry] of Object.entries(vocabMap.map)) {
-          if (key.startsWith(stem) && key.length <= stem.length + 4) {
-            return entry
-          }
+          if (key.startsWith(stem) && key.length <= stem.length + 4) return entry
+        }
+        for (const [key, entry] of Object.entries(vocabMap.exact)) {
+          const normKey = normalizeGreek(key)
+          if (normKey.startsWith(stem) && normKey.length <= stem.length + 4) return entry
         }
       }
     }
