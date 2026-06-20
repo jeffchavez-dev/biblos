@@ -53,7 +53,7 @@ function MarginNote({ note, vocabMap }) {
   return null
 }
 
-export default function StoryTab({ story, vocabulary, activePart }) {
+export default function StoryTab({ story, vocabulary, allVocabulary, activePart }) {
   const { lang } = useLanguage()
   const ui = useUI()
   const [showTranslation, setShowTranslation] = useState(false)
@@ -62,16 +62,21 @@ export default function StoryTab({ story, vocabulary, activePart }) {
   const [popoverPos, setPopoverPos] = useState({ top: 0, left: 0 })
   const popoverRef = useRef(null)
 
-  // Build a lookup: normalized Greek base form → vocab entry (all entries)
+  // Build a lookup: normalized Greek base form → vocab entry
+  // Uses allVocabulary (all chapters merged) so words from prior chapters
+  // still resolve their images and definitions in later chapters.
+  // Falls back to current chapter vocabulary if allVocabulary not yet loaded.
   const vocabMap = useMemo(() => {
-    if (!vocabulary) return {}
+    const source = allVocabulary?.length ? allVocabulary : (vocabulary || [])
     const map = {}
-    for (const entry of vocabulary) {
+    for (const entry of source) {
       const base = entry.greek.split(/[,\s]/)[0]
-      map[normalizeGreek(base)] = entry
+      const key = normalizeGreek(base)
+      // Earlier chapters take priority for duplicate stems (first occurrence wins)
+      if (!map[key]) map[key] = entry
     }
     return map
-  }, [vocabulary])
+  }, [allVocabulary, vocabulary])
 
   // Verb endings (longest first to avoid partial matches)
   const VERB_SUFFIXES = ['ουσιν', 'ουσι', 'ομεν', 'ετε', 'εις', 'ει', 'ω']

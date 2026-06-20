@@ -32,7 +32,7 @@ async function loadData(unitId, chapterId, type) {
   }
 }
 
-export default function ChapterView({ unitId, chapterId, activePart, navHidden, onToggleNav, onOpenLexicon }) {
+export default function ChapterView({ unitId, chapterId, activePart, navHidden, onToggleNav, onOpenLexicon, allVocabulary }) {
   const ui = useUI()
   const [activeTab, setActiveTab] = useState('story')
   const [data, setData] = useState({})
@@ -90,7 +90,7 @@ export default function ChapterView({ unitId, chapterId, activePart, navHidden, 
           <>
             {/* All tabs stay mounted — hidden with CSS so position is remembered when switching */}
             <div hidden={activeTab !== 'story'}>
-              <StoryTab key={key} story={data.story} vocabulary={data.vocabulary} activePart={activePart} />
+              <StoryTab key={key} story={data.story} vocabulary={data.vocabulary} allVocabulary={allVocabulary} activePart={activePart} />
             </div>
             <div hidden={activeTab !== 'vocabulary'}>
               <VocabularyTab key={key} words={data.vocabulary} activePart={activePart} unitId={unitId} chapterId={chapterId} onOpenLexicon={onOpenLexicon} />

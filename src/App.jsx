@@ -34,6 +34,7 @@ function AppInner() {
   const [navHidden, setNavHidden] = useState(false)
   const [fontSize, setFontSize] = useState(16)
   const [totalWords, setTotalWords] = useState(0)
+  const [allVocabulary, setAllVocabulary] = useState([])
   const [isFullscreen, setIsFullscreen] = useState(false)
 
   useEffect(() => {
@@ -96,7 +97,10 @@ function AppInner() {
 
   useEffect(() => {
     Promise.all(VOCAB_SOURCES.map(fn => fn().then(m => m.default)))
-      .then(results => setTotalWords(results.reduce((sum, arr) => sum + arr.length, 0)))
+      .then(results => {
+        setTotalWords(results.reduce((sum, arr) => sum + arr.length, 0))
+        setAllVocabulary(results.flat())
+      })
   }, [])
 
   const currentUnit = units.find(u => u.id === selectedUnit)
@@ -273,6 +277,7 @@ function AppInner() {
               navHidden={navHidden}
               onToggleNav={() => setNavHidden(v => !v)}
               onOpenLexicon={handleOpenLexicon}
+              allVocabulary={allVocabulary}
             />
           )}
         </main>
