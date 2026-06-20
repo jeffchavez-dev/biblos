@@ -4183,6 +4183,24 @@
         "es": "¡Y mira! El lobo corre hacia el río y sale del río hacia el campo. El agricultor lo ve y corre rápidamente hacia el lobo.",
         "pl": "I patrz! Wilk biegnie do rzeki i wychodzi z rzeki na pole. Rolnik widzi go i szybko biegnie ku wilkowi.",
         "fil": "At tingnan! Tumatakbo ang lobo patungo sa ilog at lumalabas mula sa ilog papunta sa bukid. Nakikita ito ng magsasaka at mabilis na tumatakbo patungo sa lobo."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ποταμός — river",
+        "rows": [
+          {
+            "greek": "ποταμός",
+            "label": "Nom."
+          },
+          {
+            "greek": "ποταμοῦ",
+            "label": "Gen."
+          },
+          {
+            "greek": "ποταμόν",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {

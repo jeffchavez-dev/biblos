@@ -2358,6 +2358,20 @@
         "es": "El agricultor se sienta y permanece en la casa. Toma el pan en la casa y come. Luego sale de la casa y camina hacia el campo.",
         "pl": "Rolnik siada i pozostaje w domu. Bierze chleb w domu i je. Następnie wychodzi z domu i idzie ku polu.",
         "fil": "Nakaupo ang magsasaka at nananatili sa bahay. Kinukuha niya ang tinapay sa bahay at kumakain. Pagkatapos lumalabas siya mula sa bahay at lumalakad patungo sa bukid."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "οἶκος — house",
+        "rows": [
+          {
+            "greek": "οἴκου",
+            "label": "Gen."
+          },
+          {
+            "greek": "οἴκῳ",
+            "label": "Dat."
+          }
+        ]
       }
     },
     {
@@ -3054,6 +3068,15 @@
         "es": "El trabajo es difícil. No fácil. Él ama el campo, pero el trabajo es difícil en el campo. Por lo tanto la vida es difícil, no fácil.",
         "pl": "Trud jest ciężki. Nie łatwy. Kocha pole, ale trud na polu jest ciężki. Dlatego życie jest ciężkie, nie łatwe.",
         "fil": "Mahirap ang pagsisikap. Hindi madali. Minamahal niya ang bukid, ngunit mahirap ang pagsisikap sa bukid. Kaya ang buhay ay mahirap, hindi madali."
+      },
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "χαλεπός",
+            "b": "ῥᾴδιος"
+          }
+        ]
       }
     },
     {
@@ -3974,6 +3997,24 @@
         "es": "Y sale del campo y camina hacia la casa. Ahora no cava el campo ni lleva la piedra grande; sino que en la casa se sienta, descansa y se alegra.",
         "pl": "Wychodzi z pola i idzie ku domowi. Teraz nie kopie pola ani nie niesie wielkiego kamienia; lecz w domu siada, odpoczywa i raduje się.",
         "fil": "At lumalabas siya mula sa bukid at lumalakad patungo sa bahay. Ngayon ay hindi na siya humuhukay ng bukid o nagdadala ng malaking bato; kundi sa bahay ay nakaupo, nagpapahinga at nagagalak siya."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ἀγρός — field",
+        "rows": [
+          {
+            "greek": "ἀγρός",
+            "label": "Nom."
+          },
+          {
+            "greek": "ἀγροῦ",
+            "label": "Gen."
+          },
+          {
+            "greek": "ἀγρόν",
+            "label": "Acc."
+          }
+        ]
       }
     }
   ],
