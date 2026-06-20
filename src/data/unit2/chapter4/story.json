@@ -1,7 +1,10 @@
 {
   "title": "Κεφάλαιον Δʹ — Ὁ Φίλος καὶ Οἱ Γεωργοί",
   "titleTranslation": "Chapter 4 — The Friend and the Farmers",
-  "heroImages": { "A": "story-images/ch4a/1.jpeg", "B": "story-images/ch4b/1.jpeg" },
+  "heroImages": {
+    "A": "story-images/ch4a/1.jpeg",
+    "B": "story-images/ch4b/1.jpeg"
+  },
   "paragraphs": [
     {
       "id": 1,
@@ -670,6 +673,24 @@
         "es": "Ahora es temprano por la mañana. La luna ya no brilla; el sol sale en el cielo.",
         "pl": "Teraz jest wczesny ranek. Księżyc już nie świeci; słońce wschodzi na niebie.",
         "fil": "Maaga na ngayon sa umaga. Hindi na sumisinag ang buwan; sumisinag ang araw sa langit."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "οἶκος — house",
+        "rows": [
+          {
+            "greek": "οἴκου",
+            "label": "Gen."
+          },
+          {
+            "greek": "οἴκῳ",
+            "label": "Dat."
+          },
+          {
+            "greek": "οἶκον",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {
@@ -1271,6 +1292,24 @@
         "es": "El nombre del agricultor es Jacob. Jacob es galileo y vive en Galilea. Y tiene un amigo en Galilea — su nombre es Felipe.",
         "pl": "Imię rolnika to Jakub. Jakub jest Galilejczykiem i mieszka w Galilei. Ma przyjaciela w Galilei — jego imię to Filip.",
         "fil": "Ang pangalan ng magsasaka ay Jacob. Si Jacob ay Galileano at naninirahan sa Galilea. At may kaibigan siya sa Galilea — ang pangalan nito ay Felipe."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "φίλος — friend",
+        "rows": [
+          {
+            "greek": "φίλος",
+            "label": "Nom."
+          },
+          {
+            "greek": "φίλου",
+            "label": "Gen."
+          },
+          {
+            "greek": "φίλον",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {
@@ -4301,6 +4340,15 @@
         "es": "Otros ya trabajan en los campos; pues hay muchas tareas en los campos.",
         "pl": "Inni już pracują na polach; jest bowiem wiele zadań na polach.",
         "fil": "Ang iba ay nagtatrabaho na sa mga bukid; marami kasi ang mga gawain sa mga bukid."
+      },
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "μέγας",
+            "b": "μικρός"
+          }
+        ]
       }
     },
     {
@@ -5148,6 +5196,15 @@
         "es": "Pero tanto los ricos como los pobres trabajan todo el día. Pues aman la tierra y a sus familias.",
         "pl": "Ale zarówno bogaci, jak i biedni pracują cały dzień. Kochają bowiem ziemię i swoje rodziny.",
         "fil": "Ngunit kapwa ang mayaman at mahirap ay nagtatrabaho buong araw. Mahal kasi nila ang lupa at kanilang mga pamilya."
+      },
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "πλούσιος",
+            "b": "πτωχός"
+          }
+        ]
       }
     },
     {
@@ -5820,6 +5877,24 @@
         "es": "El camino es largo, y el sol brilla mucho en medio del cielo y quema.",
         "pl": "Droga jest długa, a słońce świeci mocno w środku nieba i pali.",
         "fil": "Mahaba ang daan, at napakalakas ng sikat ng araw sa kalagitnaan ng langit at nagsusunog."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ὁδός — road/way",
+        "rows": [
+          {
+            "greek": "ὁδός",
+            "label": "Nom."
+          },
+          {
+            "greek": "ὁδῷ",
+            "label": "Dat."
+          },
+          {
+            "greek": "ὁδόν",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {

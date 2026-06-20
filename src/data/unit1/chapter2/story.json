@@ -1,7 +1,10 @@
 {
   "title": "Κεφάλαιον Βʹ — Ὁ Κῆπος καὶ Τὰ Ζῷα",
   "titleTranslation": "Chapter 2 — The Garden and the Animals",
-  "heroImages": { "A": "story-images/ch2a/1.jpeg", "B": "story-images/ch2b/1.jpeg" },
+  "heroImages": {
+    "A": "story-images/ch2a/1.jpeg",
+    "B": "story-images/ch2b/1.jpeg"
+  },
   "paragraphs": [
     {
       "id": 1,
@@ -601,6 +604,24 @@
         "es": "Hay un árbol en el campo. El árbol es grande. Hay frutos en el árbol; los frutos son buenos.",
         "pl": "W polu jest drzewo. Drzewo jest duże. Na drzewie są owoce; owoce są dobre.",
         "fil": "May puno sa bukid. Malaki ang puno. May mga bunga sa puno; mabuti ang mga bunga."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "δένδρον — tree",
+        "rows": [
+          {
+            "greek": "δένδρον",
+            "label": "Nom./Acc."
+          },
+          {
+            "greek": "δένδρου",
+            "label": "Gen."
+          },
+          {
+            "greek": "δένδρῳ",
+            "label": "Dat."
+          }
+        ]
       }
     },
     {
@@ -1522,6 +1543,20 @@
         "es": "La oveja tiene un cordero. El cordero es cría de la oveja y es pequeño. Y el cordero sigue a la oveja.",
         "pl": "Owca ma jagnię. Jagnię jest potomkiem owcy i jest małe. Jagnię podąża za owcą.",
         "fil": "May kordero ang tupa. Ang kordero ay anak ng tupa at maliit. At sumusunod ang kordero sa tupa."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "πρόβατον — sheep",
+        "rows": [
+          {
+            "greek": "πρόβατον",
+            "label": "Nom./Acc."
+          },
+          {
+            "greek": "προβάτου",
+            "label": "Gen."
+          }
+        ]
       }
     },
     {
@@ -1758,6 +1793,20 @@
         "es": "El río fluye cerca del campo. Y al otro lado del río hay una bestia salvaje. El animal salvaje es un lobo.",
         "pl": "Rzeka płynie blisko pola. Po drugiej stronie rzeki jest dzikie zwierzę. Tym dzikim zwierzęciem jest wilk.",
         "fil": "Umaagos ang ilog malapit sa bukid. At sa kabilang dako ng ilog ay may mabangis na hayop. Lobo ang mabangis na hayop."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ποταμός — river",
+        "rows": [
+          {
+            "greek": "ποταμός",
+            "label": "Nom."
+          },
+          {
+            "greek": "ποταμοῦ",
+            "label": "Gen."
+          }
+        ]
       }
     },
     {
@@ -2021,6 +2070,15 @@
         "es": "Pues el lobo ve al cordero y a la oveja en el campo. El buey es grande y fuerte, pero no puede ver al lobo.",
         "pl": "Wilk widzi jagnię i owcę na polu. Wół jest duży i silny, ale nie może zobaczyć wilka.",
         "fil": "Kita ng lobo ang kordero at tupa sa bukid. Malaki at malakas ang baka, ngunit hindi nito makita ang lobo."
+      },
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "μέγας",
+            "b": "μικρός"
+          }
+        ]
       }
     },
     {
@@ -2738,6 +2796,20 @@
         "es": "El agricultor dice: 'Tengo un hermoso jardín cerca de la casa. Hay verduras y frutas en el jardín...'",
         "pl": "Rolnik mówi: «Mam piękny ogród blisko domu. W ogrodzie są warzywa i owoce...»",
         "fil": "Sinabi ng magsasaka: 'May magandang hardin ako malapit sa bahay. May mga gulay at bunga sa hardin...'"
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "βλέπω — to see",
+        "rows": [
+          {
+            "greek": "βλέπω",
+            "label": "1s"
+          },
+          {
+            "greek": "βλέπει",
+            "label": "3s"
+          }
+        ]
       }
     },
     {

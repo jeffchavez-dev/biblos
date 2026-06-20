@@ -1,7 +1,10 @@
 {
   "title": "Κεφάλαιον Γʹ — Ἡ Ὀψία",
   "titleTranslation": "Chapter 3 — The Evening",
-  "heroImages": { "A": "story-images/ch3a/1.jpeg", "B": "story-images/ch3b/1.jpeg" },
+  "heroImages": {
+    "A": "story-images/ch3a/1.jpeg",
+    "B": "story-images/ch3b/1.jpeg"
+  },
   "paragraphs": [
     {
       "id": 1,
@@ -78,6 +81,15 @@
         "es": "Es tarde y el día ha sido largo; la noche está cerca.",
         "pl": "Jest wieczór i dzień był długi; noc jest blisko.",
         "fil": "Gabi na at matagal ang araw; malapit na ang gabi."
+      },
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "ἐγγύς",
+            "b": "μακράν"
+          }
+        ]
       }
     },
     {
@@ -747,6 +759,20 @@
         "es": "La luna sale en el cielo y brilla bellamente sobre el campo y sobre el río.",
         "pl": "Księżyc wschodzi na niebie i pięknie świeci nad polem i nad rzeką.",
         "fil": "Sumisinag ang buwan sa langit at maganda ang liwanag nito sa bukid at sa ilog."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "σελήνη — moon",
+        "rows": [
+          {
+            "greek": "σελήνη",
+            "label": "Nom."
+          },
+          {
+            "greek": "σελήνην",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {
@@ -951,6 +977,24 @@
         "es": "El agricultor está cansado y está a punto de descansar en la casa. Pues el día ha sido largo.",
         "pl": "Rolnik jest zmęczony i zaraz odpocznie w domu. Dzień był bowiem długi.",
         "fil": "Pagod ang magsasaka at malapit na siyang magpahinga sa bahay. Matagal kasi ang araw."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "οἶκος — house",
+        "rows": [
+          {
+            "greek": "οἴκου",
+            "label": "Gen."
+          },
+          {
+            "greek": "οἴκῳ",
+            "label": "Dat."
+          },
+          {
+            "greek": "οἶκον",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {
@@ -1498,6 +1542,15 @@
         "es": "Así que enciende la lámpara; la lámpara brilla sobre la mesa y hay luz en la casa.",
         "pl": "Zapala więc lampę; lampa świeci na stole i w domu jest światło.",
         "fil": "Kaya sinindihan niya ang ilawan; sumisinag ang ilawan sa mesa at may liwanag sa bahay."
+      },
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "φῶς",
+            "b": "σκοτία"
+          }
+        ]
       }
     },
     {
@@ -2718,8 +2771,14 @@
       "sideNote": {
         "type": "antonym",
         "pairs": [
-          { "a": "καλός", "b": "κακός" },
-          { "a": "ἀγαθός", "b": "πονηρός" }
+          {
+            "a": "καλός",
+            "b": "κακός"
+          },
+          {
+            "a": "ἀγαθός",
+            "b": "πονηρός"
+          }
         ]
       },
       "words": [
@@ -3781,9 +3840,18 @@
         "type": "paradigm",
         "title": "εἷς, μία, ἕν — one",
         "rows": [
-          { "greek": "εἷς ἄνθρωπος", "label": "masc." },
-          { "greek": "μία γυνή", "label": "fem." },
-          { "greek": "ἕν πρόβατον", "label": "neut." }
+          {
+            "greek": "εἷς ἄνθρωπος",
+            "label": "masc."
+          },
+          {
+            "greek": "μία γυνή",
+            "label": "fem."
+          },
+          {
+            "greek": "ἕν πρόβατον",
+            "label": "neut."
+          }
         ]
       },
       "words": [
@@ -4168,8 +4236,14 @@
       "sideNote": {
         "type": "antonym",
         "pairs": [
-          { "a": "ταχέως", "b": "βραδέως" },
-          { "a": "μέγας", "b": "μικρός" }
+          {
+            "a": "ταχέως",
+            "b": "βραδέως"
+          },
+          {
+            "a": "μέγας",
+            "b": "μικρός"
+          }
         ]
       },
       "words": [
@@ -4773,8 +4847,14 @@
       "sideNote": {
         "type": "antonym",
         "pairs": [
-          { "a": "φῶς", "b": "σκοτία" },
-          { "a": "ἔξω", "b": "ἔσω" }
+          {
+            "a": "φῶς",
+            "b": "σκοτία"
+          },
+          {
+            "a": "ἔξω",
+            "b": "ἔσω"
+          }
         ]
       },
       "words": [
@@ -5832,6 +5912,20 @@
         "es": "Así que le dice al asno: '¿Qué estás diciendo? ¡Pues eres un animal!' El asno dice de nuevo: 'Estás en mi casa.'",
         "pl": "Mówi więc do osła: «Co mówisz? Jesteś bowiem zwierzęciem!» Osioł mówi znowu: «Jesteś w moim domu.»",
         "fil": "Kaya sinabi niya sa asno: 'Ano ang sinasabi mo? Hayop ka kasi!' Sinabi muli ng asno: 'Nasa bahay ko ka.'"
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "λέγω — to say",
+        "rows": [
+          {
+            "greek": "λέγεις",
+            "label": "2s"
+          },
+          {
+            "greek": "λέγει",
+            "label": "3s"
+          }
+        ]
       }
     },
     {
@@ -6359,6 +6453,15 @@
         "es": "Así que abre sus ojos y ve la casa; pues la lámpara aún brilla sobre la mesa.",
         "pl": "Otwiera więc oczy i widzi dom; lampa bowiem wciąż świeci na stole.",
         "fil": "Kaya binuksan niya ang kanyang mga mata at nakita ang bahay; sumisinag pa rin kasi ang ilawan sa mesa."
+      },
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "φῶς",
+            "b": "σκοτία"
+          }
+        ]
       }
     },
     {

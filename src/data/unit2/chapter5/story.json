@@ -1,7 +1,10 @@
 {
   "title": "Κεφάλαιον Εʹ — Ὁ Ἰησοῦς",
   "titleTranslation": "Chapter 5 — Jesus",
-  "heroImages": { "A": "story-images/ch5a/1.jpeg", "B": "story-images/ch5b/1.jpeg" },
+  "heroImages": {
+    "A": "story-images/ch5a/1.jpeg",
+    "B": "story-images/ch5b/1.jpeg"
+  },
   "paragraphs": [
     {
       "id": 1,
@@ -1509,6 +1512,24 @@
         "es": "Entonces Jacob le dice: 'Te doy gracias, O Salomé. Dios es bueno.' Salomé lo escucha.",
         "pl": "Potem Jakub mówi do niej: «Dziękuję ci, O Salome. Bóg jest dobry.» Salome słucha go.",
         "fil": "Pagkatapos sinabi ni Jacob sa kanya: 'Nagpapasalamat ako sa iyo, O Salome. Ang Diyos ay mabuti.' Nakikinig si Salome sa kanya."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "πνεῦμα — spirit",
+        "rows": [
+          {
+            "greek": "πνεῦμα",
+            "label": "Nom./Acc."
+          },
+          {
+            "greek": "πνεύματος",
+            "label": "Gen."
+          },
+          {
+            "greek": "πνεύματι",
+            "label": "Dat."
+          }
+        ]
       }
     },
     {
@@ -1985,6 +2006,20 @@
         "es": "Él le dice: 'Sí, te digo: Dios no es como el sol ni la tierra. Pues es espíritu y verdad.'",
         "pl": "On mówi do niej: «Tak, mówię ci: Bóg nie jest jak słońce ani ziemia. Jest bowiem duchem i prawdą.»",
         "fil": "Sinabi niya sa kanya: 'Oo, sinasabi ko sa iyo: ang Diyos ay hindi tulad ng araw o lupa. Espiritu at katotohanan kasi siya.'"
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "λέγω — to say",
+        "rows": [
+          {
+            "greek": "λέγω",
+            "label": "1s"
+          },
+          {
+            "greek": "λέγει",
+            "label": "3s"
+          }
+        ]
       }
     },
     {
@@ -3578,6 +3613,15 @@
         "es": "Jacob dice: 'Y Jesús es el camino y la verdad y la vida; nadie viene al Padre sino por Él.'",
         "pl": "Jakub mówi: «A Jezus jest drogą i prawdą i życiem; nikt nie przychodzi do Ojca, jak tylko przez Niego.»",
         "fil": "Sinabi ni Jacob: 'At si Hesus ang daan at ang katotohanan at ang buhay; walang sinuman ang pumupunta sa Ama maliban sa pamamagitan Niya.'"
+      },
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "ζωή",
+            "b": "θάνατος"
+          }
+        ]
       }
     },
     {
@@ -4762,6 +4806,20 @@
         "es": "'Dios, que es el Padre de Jesús y nuestro, ama a su Hijo, y el Hijo nos ama. Y Jesús dice: permanezcan en mi amor.'",
         "pl": "«Bóg, który jest Ojcem Jezusa i naszym, kocha swojego Syna, a Syn nas kocha. I Jezus mówi: trwajcie w mojej miłości.»",
         "fil": "'Ang Diyos, na siyang Ama ni Hesus at atin, ay nagmamahal sa kanyang Anak, at ang Anak ay nagmamahal sa atin. At sinasabi ni Hesus: manatili kayo sa aking pagmamahal.'"
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "υἱός — son",
+        "rows": [
+          {
+            "greek": "υἱός",
+            "label": "Nom."
+          },
+          {
+            "greek": "υἱόν",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {
@@ -5206,6 +5264,15 @@
         "es": "'Dios es amor, y quien permanece en el amor permanece en Dios, y Dios permanece en él.'",
         "pl": "«Bóg jest miłością, i kto trwa w miłości, trwa w Bogu, a Bóg trwa w nim.»",
         "fil": "'Ang Diyos ay pag-ibig, at ang sinumang nananatili sa pag-ibig ay nananatili sa Diyos, at ang Diyos ay nananatili sa kanya.'"
+      },
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "ἀγάπη",
+            "b": "μῖσος"
+          }
+        ]
       }
     },
     {
@@ -8619,6 +8686,20 @@
         "es": "Jacob le dice: 'Por nuestros pecados, O Salomé. Pues todos los hombres tienen pecados.'",
         "pl": "Jakub mówi do niej: «Z powodu naszych grzechów, O Salome. Wszyscy ludzie mają bowiem grzechy.»",
         "fil": "Sinabi ni Jacob sa kanya: 'Dahil sa ating mga kasalanan, O Salome. Lahat kasi ng tao ay may kasalanan.'"
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ἔχω — to have",
+        "rows": [
+          {
+            "greek": "ἔχομεν",
+            "label": "1pl"
+          },
+          {
+            "greek": "ἔχουσιν",
+            "label": "3pl"
+          }
+        ]
       }
     },
     {
@@ -9332,6 +9413,15 @@
         "es": "Jacob habla de nuevo: 'Y Jesús es la luz del mundo. Pues sin Jesús, la gente camina en la oscuridad.'",
         "pl": "Jakub mówi znowu: «A Jezus jest światłością świata. Bez Jezusa bowiem ludzie chodzą w ciemności.»",
         "fil": "Nagsalita muli si Jacob: 'At si Hesus ang liwanag ng mundo. Kasi kung wala si Hesus, naglalakad ang mga tao sa kadiliman.'"
+      },
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "φῶς",
+            "b": "σκοτία"
+          }
+        ]
       }
     },
     {

@@ -166,7 +166,16 @@
           "greek": "ἀγροῖς.",
           "definition": "fields (dat. pl.)"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "οὐρανός",
+            "b": "γῆ"
+          }
+        ]
+      }
     },
     {
       "id": 2,
@@ -2430,7 +2439,16 @@
           "greek": "Ἰησοῦ.\"",
           "definition": "Jesus (dat.)"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "λαμβάνω",
+            "b": "δίδωμι"
+          }
+        ]
+      }
     },
     {
       "id": 14,
@@ -3246,7 +3264,21 @@
           "greek": "αὐτοῦ.\"",
           "definition": "his, of him"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ἔχω — to have",
+        "rows": [
+          {
+            "greek": "ἔχει",
+            "label": "3s"
+          },
+          {
+            "greek": "ἔχομεν",
+            "label": "1pl"
+          }
+        ]
+      }
     },
     {
       "id": 18,
@@ -3988,7 +4020,16 @@
           "greek": "εἰρήνη.\"",
           "definition": "peace"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "ζωή",
+            "b": "θάνατος"
+          }
+        ]
+      }
     },
     {
       "id": 23,
@@ -4418,7 +4459,16 @@
           "greek": "μόνον.",
           "definition": "only"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "ἀγάπη",
+            "b": "μῖσος"
+          }
+        ]
+      }
     },
     {
       "id": 25,
@@ -6178,7 +6228,16 @@
           "greek": "καρπόν\"",
           "definition": "fruit (acc.)"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "λαμβάνω",
+            "b": "δίδωμι"
+          }
+        ]
+      }
     },
     {
       "id": 33,

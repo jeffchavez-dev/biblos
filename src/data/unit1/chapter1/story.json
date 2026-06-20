@@ -1,7 +1,10 @@
 {
   "title": "Κεφάλαιον Αʹ — Ὁ Γεωργός",
   "titleTranslation": "Chapter 1 — The Farmer",
-  "heroImages": { "A": "story-images/ch1/1.1/01.jpeg", "B": "story-images/ch1/1.2/01.jpeg" },
+  "heroImages": {
+    "A": "story-images/ch1/1.1/01.jpeg",
+    "B": "story-images/ch1/1.2/01.jpeg"
+  },
   "paragraphs": [
     {
       "id": 1,
@@ -137,7 +140,10 @@
       "sideNote": {
         "type": "antonym",
         "pairs": [
-          { "a": "μέγας", "b": "μικρός" }
+          {
+            "a": "μέγας",
+            "b": "μικρός"
+          }
         ]
       },
       "words": [
@@ -2079,6 +2085,20 @@
         "es": "El agricultor dice: «Soy un agricultor. Soy una persona buena y fuerte. Tengo la casa. La casa no es grande, sino buena. También tengo el campo — pequeño pero bueno. Amo la casa y el campo. Así que cavo el campo. Veo la piedra grande. Así que levanto la piedra y la llevo. Pues soy fuerte. Veo el cielo y el gran sol. El sol brilla y es hermoso. Tengo pan y fruta. Como y me alegro. Dios es bueno y fiel.»",
         "pl": "Rolnik mówi: «Jestem rolnikiem. Jestem dobrym i silnym człowiekiem. Mam ten dom. Dom nie jest wielki, ale dobry. Mam też pole — małe, ale dobre. Kocham dom i pole. Kopię więc pole. Widzę wielki kamień. Podnoszę więc kamień i niosę go. Bo jestem silny. Widzę niebo i wielkie słońce. Słońce świeci i jest piękne. Mam chleb i owoce. Jem i raduję się. Bóg jest dobry i wierny.»",
         "fil": "Sinabi ng magsasaka: 'Ako ay isang magsasaka. Ako ay isang mabuti at malakas na tao. Mayroon akong bahay. Ang bahay ay hindi malaki, ngunit mabuti. Mayroon din akong bukid — maliit ngunit mabuti. Mahal ko ang bahay at ang bukid. Kaya humuhukay ako ng bukid. Nakikita ko ang malaking bato. Kaya itinaas ko ang bato at dinala ito. Sapagkat ako ay malakas. Nakikita ko ang langit at ang malaking araw. Sumisinag ang araw at maganda ito. Mayroon akong tinapay at bunga. Kumakain ako at nagagalak ako. Ang Diyos ay mabuti at tapat.'"
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "οἶκος — house",
+        "rows": [
+          {
+            "greek": "οἶκος",
+            "label": "Nom."
+          },
+          {
+            "greek": "οἶκον",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {
