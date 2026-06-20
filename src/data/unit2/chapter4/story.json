@@ -3408,6 +3408,24 @@
         "es": "Y parte de Felipe hacia su campo. En el campo llama al asno con una voz y el asno viene.",
         "pl": "I odchodzi od Filipa na swoje pole. Na polu woła osła głosem i osioł przychodzi.",
         "fil": "At umalis siya mula kay Felipe patungo sa kanyang bukid. Sa bukid tinawag niya ang asno at pumunta ang asno."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ἀγρός — field",
+        "rows": [
+          {
+            "greek": "ἀγρός",
+            "label": "Nom."
+          },
+          {
+            "greek": "ἀγρῷ",
+            "label": "Dat."
+          },
+          {
+            "greek": "ἀγρόν",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {
@@ -3584,6 +3602,24 @@
         "es": "Mientras viajan, Jacob camina con su vara y lleva la bolsa; en la bolsa hay pan y frutas.",
         "pl": "Podczas podróży Jakub idzie z laską i niesie torbę; w torbie jest chleb i owoce.",
         "fil": "Habang naglalakbay, lumalakad si Jacob kasama ang kanyang tungkod at dinadala ang bag; may tinapay at mga bunga sa bag."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "πήρα — bag/pack",
+        "rows": [
+          {
+            "greek": "πήρα",
+            "label": "Nom."
+          },
+          {
+            "greek": "πήρᾳ",
+            "label": "Dat."
+          },
+          {
+            "greek": "πήραν",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {

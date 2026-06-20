@@ -3975,6 +3975,15 @@
         "es": "Pues el buen agricultor no abandona a sus animales y no huye de la bestia salvaje. Así que agarra rápidamente su vara.",
         "pl": "Dobry rolnik bowiem nie porzuca swoich zwierząt i nie ucieka przed dzikim zwierzęciem. Szybko więc chwyta swój kij.",
         "fil": "Hindi kasi iniiwanan ng mabuting magsasaka ang kanyang mga hayop at hindi tumakatakbo mula sa mabangis na hayop. Kaya mabilis na sinagit niya ang kanyang tungkod."
+      },
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "μένω",
+            "b": "φεύγω"
+          }
+        ]
       }
     },
     {
@@ -5698,6 +5707,20 @@
         "es": "Así que el agricultor se sienta en la piedra bajo el árbol y da gracias a Dios. Dice: 'Dios es bueno y fiel...'",
         "pl": "Rolnik siada więc na kamieniu pod drzewem i dziękuje Bogu. Mówi: «Bóg jest dobry i wierny...»",
         "fil": "Kaya umupo ang magsasaka sa bato sa ilalim ng puno at nagpapasalamat sa Diyos. Sinabi niya: 'Ang Diyos ay mabuti at tapat...'"
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "εὐχαριστέω — to thank",
+        "rows": [
+          {
+            "greek": "εὐχαριστῶ",
+            "label": "1s"
+          },
+          {
+            "greek": "εὐχαριστεῖ",
+            "label": "3s"
+          }
+        ]
       }
     },
     {

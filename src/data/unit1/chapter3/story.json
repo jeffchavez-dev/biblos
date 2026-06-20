@@ -3537,6 +3537,20 @@
         "es": "Pero aún quedan muchas piedras en el campo; no le es posible levantarlas todas.",
         "pl": "Ale w polu wciąż pozostaje wiele kamieni; nie jest mu możliwe podniesienie wszystkich.",
         "fil": "Ngunit marami pa ring bato sa bukid; hindi niya kayang iangat ang lahat."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ἀγρός — field",
+        "rows": [
+          {
+            "greek": "ἀγροῦ",
+            "label": "Gen."
+          },
+          {
+            "greek": "ἀγρῷ",
+            "label": "Dat."
+          }
+        ]
       }
     },
     {
@@ -6271,6 +6285,20 @@
         "es": "Y el agricultor grita con gran voz: '¡No quiero!' Y su propia voz lo despierta.",
         "pl": "I rolnik krzyczy wielkim głosem: «Nie chcę!» I jego własny głos go budzi.",
         "fil": "At sumigaw ang magsasaka nang malakas: 'Ayaw ko!' At ginising siya ng kanyang sariling boses."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "φωνή — voice",
+        "rows": [
+          {
+            "greek": "φωνή",
+            "label": "Nom."
+          },
+          {
+            "greek": "φωνῇ",
+            "label": "Dat."
+          }
+        ]
       }
     },
     {

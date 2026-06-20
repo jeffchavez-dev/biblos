@@ -147,6 +147,24 @@
         "es": "Después de un momento llega una mujer del pueblo hacia el manantial. Tiene un cántaro para sacar agua.",
         "pl": "Po chwili kobieta przychodzi z wioski ku źródłu. Ma dzban do czerpania wody.",
         "fil": "Pagkatapos ng ilang sandali ay may babaeng nagmula sa nayon patungo sa bukal. May tapayan siya para sa pagkuha ng tubig."
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "πηγή — spring/well",
+        "rows": [
+          {
+            "greek": "πηγή",
+            "label": "Nom."
+          },
+          {
+            "greek": "πηγῆς",
+            "label": "Gen."
+          },
+          {
+            "greek": "πηγήν",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {
@@ -4159,6 +4177,24 @@
         "es": "Dice entonces a Salomé: '¿Ves esa vid, que está cerca del manantial? La vid es hermosa.'",
         "pl": "Mówi więc do Salome: «Czy widzisz tę winorośl, która jest blisko źródła? Winorośl jest piękna.»",
         "fil": "Sinabi niya kung gayon kay Salome: 'Nakikita mo ba ang ubas na iyon, na malapit sa bukal? Maganda ang ubas.'"
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ἄμπελος — vine",
+        "rows": [
+          {
+            "greek": "ἄμπελος",
+            "label": "Nom."
+          },
+          {
+            "greek": "ἀμπέλῳ",
+            "label": "Dat."
+          },
+          {
+            "greek": "ἄμπελον",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {
@@ -7468,6 +7504,24 @@
         "es": "'¿Ves estas ovejas, que comen la hierba? ¿Y ves al pastor que guarda a las ovejas?'",
         "pl": "«Czy widzisz te owce, które jedzą trawę? I czy widzisz pasterza, który strzeże owiec?»",
         "fil": "'Nakikita mo ba ang mga tupang ito, na kumakain ng damo? At nakikita mo ba ang pastol na nagbabantay ng mga tupa?'"
+      },
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ποιμήν — shepherd",
+        "rows": [
+          {
+            "greek": "ποιμήν",
+            "label": "Nom."
+          },
+          {
+            "greek": "ποιμένος",
+            "label": "Gen."
+          },
+          {
+            "greek": "ποιμένα",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {

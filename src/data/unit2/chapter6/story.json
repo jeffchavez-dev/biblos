@@ -4717,7 +4717,16 @@
           "greek": "σαρκός.\"",
           "definition": "flesh (gen.)"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "σάρξ",
+            "b": "πνεῦμα"
+          }
+        ]
+      }
     },
     {
       "id": 26,
