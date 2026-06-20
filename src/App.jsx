@@ -277,6 +277,7 @@ function AppInner() {
               navHidden={navHidden}
               onToggleNav={() => setNavHidden(v => !v)}
               onOpenLexicon={handleOpenLexicon}
+              onOpenGnt={handleOpenGnt}
               allVocabulary={allVocabulary}
             />
           )}

@@ -5,22 +5,18 @@ import StoryTab from './tabs/StoryTab.jsx'
 import ExercisesTab from './tabs/ExercisesTab.jsx'
 import GrammarTab from './tabs/GrammarTab.jsx'
 import VisualStoryTab from './tabs/VisualStoryTab.jsx'
-import BibleTranslationTab from './tabs/BibleTranslationTab.jsx'
-import LinguisticsTab from './tabs/LinguisticsTab.jsx'
-import ExegesisTab from './tabs/ExegesisTab.jsx'
 import VideoTab from './tabs/VideoTab.jsx'
+import VocabularyIndex from './VocabularyIndex.jsx'
 import { useUI } from '../context/LanguageContext.jsx'
 
 const TAB_CONFIG = [
-  { id: 'story',            labelKey: 'tabStory',            emoji: '📖' },
-  { id: 'vocabulary',       labelKey: 'tabVocabulary',       emoji: '📚' },
-  { id: 'visual',           labelKey: 'tabVisual',           emoji: '🎨' },
-  { id: 'exercises',        labelKey: 'tabExercises',        emoji: '✏️' },
-  { id: 'grammar',          labelKey: 'tabGrammar',          emoji: '📐' },
-  { id: 'bibletranslation', labelKey: 'tabBibleTranslation', emoji: '📜' },
-  { id: 'linguistics',      labelKey: 'tabLinguistics',      emoji: '🔤' },
-  { id: 'exegesis',         labelKey: 'tabExegesis',         emoji: '🔍' },
-  { id: 'video',            labelKey: 'tabVideo',            emoji: '🎬' },
+  { id: 'story',      labelKey: 'tabStory',     emoji: '📖' },
+  { id: 'vocabulary', labelKey: 'tabVocabulary', emoji: '📚' },
+  { id: 'lexicon',    labelKey: 'tabLexicon',    emoji: '🔍' },
+  { id: 'visual',     labelKey: 'tabVisual',     emoji: '🎨' },
+  { id: 'exercises',  labelKey: 'tabExercises',  emoji: '✏️' },
+  { id: 'grammar',    labelKey: 'tabGrammar',    emoji: '📐' },
+  { id: 'video',      labelKey: 'tabVideo',      emoji: '🎬' },
 ]
 
 async function loadData(unitId, chapterId, type) {
@@ -32,7 +28,7 @@ async function loadData(unitId, chapterId, type) {
   }
 }
 
-export default function ChapterView({ unitId, chapterId, activePart, navHidden, onToggleNav, onOpenLexicon, allVocabulary }) {
+export default function ChapterView({ unitId, chapterId, activePart, navHidden, onToggleNav, onOpenLexicon, onOpenGnt, allVocabulary }) {
   const ui = useUI()
   const [activeTab, setActiveTab] = useState('story')
   const [data, setData] = useState({})
@@ -101,17 +97,16 @@ export default function ChapterView({ unitId, chapterId, activePart, navHidden, 
             <div hidden={activeTab !== 'exercises'}>
               <ExercisesTab key={key} exercises={data.exercises} activePart={activePart} />
             </div>
+            <div hidden={activeTab !== 'lexicon'} style={{ height: '100%' }}>
+              <VocabularyIndex
+                key={`${key}-${activePart}`}
+                target={{ chapterId, part: activePart }}
+                onNavigate={(u, c, p) => onOpenLexicon?.(u, c, p)}
+                onOpenGnt={onOpenGnt}
+              />
+            </div>
             <div hidden={activeTab !== 'visual'}>
               <VisualStoryTab key={key} story={data.visualstory} activePart={activePart} />
-            </div>
-            <div hidden={activeTab !== 'bibletranslation'}>
-              <BibleTranslationTab />
-            </div>
-            <div hidden={activeTab !== 'linguistics'}>
-              <LinguisticsTab />
-            </div>
-            <div hidden={activeTab !== 'exegesis'}>
-              <ExegesisTab />
             </div>
             <div hidden={activeTab !== 'video'}>
               <VideoTab />
