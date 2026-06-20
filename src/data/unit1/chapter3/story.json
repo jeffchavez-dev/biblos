@@ -3770,6 +3770,15 @@
     },
     {
       "id": 17,
+      "sideNote": {
+        "type": "paradigm",
+        "title": "εἷς, μία, ἕν — one",
+        "rows": [
+          { "greek": "εἷς ἄνθρωπος", "label": "masc." },
+          { "greek": "μία γυνή", "label": "fem." },
+          { "greek": "ἕν πρόβατον", "label": "neut." }
+        ]
+      },
       "words": [
         {
           "greek": "καὶ",

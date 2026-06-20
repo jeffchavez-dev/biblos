@@ -14,8 +14,53 @@
   width: 200px;
   margin-left: 12px;
   align-self: stretch;
-  border-left: 2px dashed var(--border);
-  opacity: 0.5;
+  border-left: 2px dashed rgba(0,0,0,0.15);
+  padding-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.side-note {
+  background: #fff;
+  border: 1.5px solid var(--gold);
+  border-radius: 8px;
+  padding: 10px 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.side-note-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--gold, #c9a84c);
+  margin-bottom: 8px;
+  letter-spacing: 0.01em;
+}
+
+.side-note-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.side-note-table td {
+  padding: 2px 4px;
+  font-size: 0.88rem;
+  vertical-align: middle;
+}
+
+.side-note-label {
+  color: var(--grey);
+  font-size: 0.72rem;
+  font-style: italic;
+  white-space: nowrap;
+  padding-right: 8px;
+  font-family: sans-serif;
+}
+
+.side-note-greek {
+  color: var(--deep-blue);
+  font-weight: 500;
+  font-size: 0.95rem;
 }
 
 .story-margin {

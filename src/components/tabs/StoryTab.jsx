@@ -68,14 +68,21 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
   // Falls back to current chapter vocabulary if allVocabulary not yet loaded.
   const vocabMap = useMemo(() => {
     const source = allVocabulary?.length ? allVocabulary : (vocabulary || [])
-    const map = {}
+    const map = {}     // normalized (diacritics stripped) → entry
+    const exact = {}   // NFD lowercase, punctuation stripped, diacritics KEPT → entry
     for (const entry of source) {
-      const base = entry.greek.split(/[,\s]/)[0]
+      // Index all comma-separated forms (e.g. εἷς, μία, ἕν each become keys)
+      const forms = entry.greek.split(/,\s*/).map(f => f.trim().split(/\s/)[0]).filter(Boolean)
+      for (const form of forms) {
+        const exactKey = form.normalize('NFD').toLowerCase().replace(/[,.'·;!?\s]/g, '')
+        if (!exact[exactKey]) exact[exactKey] = entry
+      }
+      // Normalized map uses first form only (for stem-matching fallback)
+      const base = forms[0]
       const key = normalizeGreek(base)
-      // Earlier chapters take priority for duplicate stems (first occurrence wins)
       if (!map[key]) map[key] = entry
     }
-    return map
+    return { map, exact }
   }, [allVocabulary, vocabulary])
 
   // Verb endings (longest first to avoid partial matches)
@@ -84,28 +91,31 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
   const NOUN_SUFFIXES = ['ους', 'οις', 'αις', 'ων', 'ου', 'ης', 'ος', 'ον', 'αν', 'ην', 'ας', 'ω', 'α', 'η', 'ε']
 
   function findVocabEntry(greekWord) {
+    // 1. Exact match (diacritics preserved) — differentiates εἷς vs εἰς, μία → numeral, etc.
+    const exactKey = greekWord.normalize('NFD').toLowerCase().replace(/[,.'·;!?\s]/g, '')
+    if (vocabMap.exact[exactKey]) return vocabMap.exact[exactKey]
+
     const normalized = normalizeGreek(greekWord)
-    // 1. Direct match
-    if (vocabMap[normalized]) return vocabMap[normalized]
-    // 2. Verb stem: strip ending, match lemma ending in -ω or -μι
+    // 2. Normalized direct match
+    if (vocabMap.map[normalized]) return vocabMap.map[normalized]
+    // 3. Verb stem: strip ending, match lemma ending in -ω or -μι
     for (const suffix of VERB_SUFFIXES) {
       if (normalized.endsWith(suffix)) {
         const stem = normalized.slice(0, -suffix.length)
         if (stem.length < 2) continue
-        for (const [key, entry] of Object.entries(vocabMap)) {
+        for (const [key, entry] of Object.entries(vocabMap.map)) {
           if (key.startsWith(stem) && (key.endsWith('ω') || key.endsWith('μι'))) {
             return entry
           }
         }
       }
     }
-    // 3. Noun/adjective stem: strip case ending, match lemma with similar stem length
+    // 4. Noun/adjective stem: strip case ending, match lemma with similar stem length
     for (const suffix of NOUN_SUFFIXES) {
       if (normalized.endsWith(suffix)) {
         const stem = normalized.slice(0, -suffix.length)
         if (stem.length < 2) continue
-        for (const [key, entry] of Object.entries(vocabMap)) {
-          // key must start with stem and not be much longer (avoids false broad matches)
+        for (const [key, entry] of Object.entries(vocabMap.map)) {
           if (key.startsWith(stem) && key.length <= stem.length + 4) {
             return entry
           }
@@ -229,7 +239,23 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
                 ))}
               </p>
             </div>
-            <div className="story-margin-gutter" aria-hidden="true" />
+            <div className="story-margin-gutter">
+              {para.sideNote?.type === 'paradigm' && (
+                <div className="side-note side-note--paradigm">
+                  <div className="side-note-title greek">{para.sideNote.title}</div>
+                  <table className="side-note-table">
+                    <tbody>
+                      {para.sideNote.rows.map((row, ri) => (
+                        <tr key={ri}>
+                          <td className="side-note-label">{row.label}</td>
+                          <td className="side-note-greek greek">{row.greek}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       ))}
