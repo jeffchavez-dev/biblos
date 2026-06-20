@@ -9,6 +9,15 @@
   position: relative;
 }
 
+.story-margin-gutter {
+  flex-shrink: 0;
+  width: 200px;
+  margin-left: 12px;
+  align-self: stretch;
+  border-left: 2px dashed var(--border);
+  opacity: 0.5;
+}
+
 .story-margin {
   flex-shrink: 0;
   width: 240px;

@@ -1,6 +1,7 @@
 {
   "title": "Κεφάλαιον Βʹ — Ὁ Κῆπος καὶ Τὰ Ζῷα",
   "titleTranslation": "Chapter 2 — The Garden and the Animals",
+  "heroImages": { "A": "story-images/ch2a/1.jpeg", "B": "story-images/ch2b/1.jpeg" },
   "paragraphs": [
     {
       "id": 1,

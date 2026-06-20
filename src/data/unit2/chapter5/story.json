@@ -1,6 +1,7 @@
 {
   "title": "Κεφάλαιον Εʹ — Ὁ Ἰησοῦς",
   "titleTranslation": "Chapter 5 — Jesus",
+  "heroImages": { "A": "story-images/ch5a/1.jpeg", "B": "story-images/ch5b/1.jpeg" },
   "paragraphs": [
     {
       "id": 1,

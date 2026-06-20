@@ -1,6 +1,7 @@
 {
   "title": "Κεφάλαιον Γʹ — Ἡ Ὀψία",
   "titleTranslation": "Chapter 3 — The Evening",
+  "heroImages": { "A": "story-images/ch3a/1.jpeg", "B": "story-images/ch3b/1.jpeg" },
   "paragraphs": [
     {
       "id": 1,

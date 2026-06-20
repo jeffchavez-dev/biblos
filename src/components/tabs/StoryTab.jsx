@@ -188,12 +188,13 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
   }
 
   const paragraphs = getParagraphParts(story.paragraphs).filter(p => p._part === activePart)
+  const heroImage = story.heroImages?.[activePart] || story.heroImage || null
 
   return (
     <div className="story-tab">
-      {story.heroImage ? (
+      {heroImage ? (
         <div className="story-hero">
-          <img className="story-hero-img" src={`/${story.heroImage}`} alt="" />
+          <img className="story-hero-img" src={`/${heroImage}`} alt="" />
           <div className="story-hero-overlay">
             <h2 className="greek story-hero-title">{story.title}</h2>
           </div>
@@ -204,7 +205,6 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
           <p className="story-title-en">{t(story.titleTranslation, story.titleTranslations, lang)}</p>
         </div>
       )}
-
 
       {paragraphs.map((para, i) => (
         <div key={para.id} className="story-row-outer">
@@ -229,6 +229,7 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
                 ))}
               </p>
             </div>
+            <div className="story-margin-gutter" aria-hidden="true" />
           </div>
         </div>
       ))}
