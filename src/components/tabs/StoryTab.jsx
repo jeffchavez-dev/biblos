@@ -20,6 +20,26 @@ function normalizeGreek(s) {
     .toLowerCase()
 }
 
+function stripDiacritics(s) {
+  return s.normalize('NFD').replace(/[̀-ͯ]/g, '')
+}
+
+// Returns JSX with the inflectional ending bolded, stem plain.
+// Uses diacritic-stripped comparison to find common stem, applies split to NFC form.
+function withEndingHighlight(form, allForms) {
+  const stripped = allForms.map(f => stripDiacritics(f.normalize('NFC')))
+  const strippedForm = stripDiacritics(form.normalize('NFC'))
+  const minLen = Math.min(...stripped.map(f => f.length))
+  let stemLen = 0
+  while (stemLen < minLen && stripped.every(f => f[stemLen] === stripped[0][stemLen])) stemLen++
+  if (stemLen === 0) return <>{form}</>
+  const nfc = form.normalize('NFC')
+  const stem = nfc.slice(0, stemLen)
+  const ending = nfc.slice(stemLen)
+  if (!ending) return <>{nfc}</>
+  return <>{stem}<strong className="paradigm-ending">{ending}</strong></>
+}
+
 function MarginNote({ note, vocabMap }) {
   if (note.type === 'antonym' || note.type === 'synonym') {
     const [wordA, wordB] = note.words
@@ -252,7 +272,9 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
                       {para.sideNote.rows.map((row, ri) => (
                         <tr key={ri}>
                           <td className="side-note-label">{row.label}</td>
-                          <td className="side-note-greek greek">{row.greek}</td>
+                          <td className="side-note-greek greek">
+                            {withEndingHighlight(row.greek, para.sideNote.rows.map(r => r.greek))}
+                          </td>
                         </tr>
                       ))}
                     </tbody>

@@ -63,6 +63,11 @@
   font-size: 0.95rem;
 }
 
+.paradigm-ending {
+  color: var(--gold);
+  font-weight: 800;
+}
+
 .side-note--antonym .side-note-title {
   color: var(--deep-blue);
   font-family: sans-serif;
