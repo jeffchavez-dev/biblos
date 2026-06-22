@@ -2,19 +2,40 @@ import { useState, useEffect, useCallback } from 'react'
 import Sidebar from './components/Sidebar.jsx'
 import ChapterView from './components/ChapterView.jsx'
 import VocabularyIndex from './components/VocabularyIndex.jsx'
+import VocabularyTab from './components/tabs/VocabularyTab.jsx'
 import GntReader from './components/GntReader.jsx'
 import { LanguageProvider, LANGUAGES, useLanguage, useUI } from './context/LanguageContext.jsx'
 import units from './data/units.json'
 import './App.css'
 
 const VOCAB_SOURCES = [
-  () => import('./data/unit1/chapter1/vocabulary.json'),
-  () => import('./data/unit1/chapter2/vocabulary.json'),
-  () => import('./data/unit1/chapter3/vocabulary.json'),
-  () => import('./data/unit2/chapter4/vocabulary.json'),
-  () => import('./data/unit2/chapter5/vocabulary.json'),
-  () => import('./data/unit2/chapter6/vocabulary.json'),
+  { file: () => import('./data/unit1/chapter1/vocabulary.json'), unit: 1, chapter: 1 },
+  { file: () => import('./data/unit1/chapter2/vocabulary.json'), unit: 1, chapter: 2 },
+  { file: () => import('./data/unit1/chapter3/vocabulary.json'), unit: 1, chapter: 3 },
+  { file: () => import('./data/unit2/chapter4/vocabulary.json'), unit: 2, chapter: 4 },
+  { file: () => import('./data/unit2/chapter5/vocabulary.json'), unit: 2, chapter: 5 },
+  { file: () => import('./data/unit2/chapter6/vocabulary.json'), unit: 2, chapter: 6 },
 ]
+
+function UnitVocabReview({ unitId, allVocabulary, units, onOpenLexicon }) {
+  const unit = units.find(u => u.id === unitId)
+  const words = allVocabulary.filter(w => w.unit === unitId)
+  return (
+    <div style={{ padding: '24px', display: 'flex', flexDirection: 'column', gap: '16px', maxWidth: '860px', margin: '0 auto' }}>
+      <div style={{ textAlign: 'center' }}>
+        <h2 style={{ fontSize: '1.4rem', color: 'var(--deep-blue)', margin: 0 }}>{unit?.title} — Vocabulary Review</h2>
+        <p style={{ color: 'var(--grey)', fontSize: '0.9rem', margin: '4px 0 0', fontStyle: 'italic' }}>{words.length} words · all chapters</p>
+      </div>
+      <VocabularyTab
+        words={words}
+        unitId={unitId}
+        chapterId={null}
+        activePart={null}
+        onOpenLexicon={onOpenLexicon}
+      />
+    </div>
+  )
+}
 
 function makeSnap(fields) {
   return {
@@ -24,6 +45,7 @@ function makeSnap(fields) {
     showVocabIndex: false,
     lexiconTarget: null,
     gntView: null,
+    unitReviewId: null,
     ...fields,
   }
 }
@@ -66,7 +88,7 @@ function AppInner() {
   const [navStack, setNavStack] = useState([makeSnap({})])
   const [navIdx, setNavIdx] = useState(0)
   const current = navStack[navIdx]
-  const { selectedUnit, selectedChapter, activePart, showVocabIndex, lexiconTarget, gntView } = current
+  const { selectedUnit, selectedChapter, activePart, showVocabIndex, lexiconTarget, gntView, unitReviewId } = current
 
   const canBack = navIdx > 0
   const canForward = navIdx < navStack.length - 1
@@ -96,10 +118,11 @@ function AppInner() {
   // ───────────────────────────────────────────────────────────────────
 
   useEffect(() => {
-    Promise.all(VOCAB_SOURCES.map(fn => fn().then(m => m.default)))
+    Promise.all(VOCAB_SOURCES.map(s => s.file().then(m => ({ data: m.default, unit: s.unit, chapter: s.chapter }))))
       .then(results => {
-        setTotalWords(results.reduce((sum, arr) => sum + arr.length, 0))
-        setAllVocabulary(results.flat())
+        const all = results.flatMap(({ data, unit, chapter }) => data.map(w => ({ ...w, unit, chapter })))
+        setTotalWords(all.length)
+        setAllVocabulary(all)
       })
   }, [])
 
@@ -143,7 +166,7 @@ function AppInner() {
   }
 
   function handleUnitVocabReview(unitId) {
-    pushNav(makeSnap({ selectedUnit: unitId, selectedChapter, activePart, showVocabIndex: true, lexiconTarget: { unitId } }))
+    pushNav(makeSnap({ selectedUnit: unitId, selectedChapter, activePart, unitReviewId: unitId }))
     setSidebarOpen(false)
   }
 
@@ -266,6 +289,14 @@ function AppInner() {
               highlightVerse={gntView.verse}
               onOpenLexicon={handleOpenLexiconByStrongs}
               onClose={goBack}
+            />
+          ) : unitReviewId ? (
+            <UnitVocabReview
+              key={unitReviewId}
+              unitId={unitReviewId}
+              allVocabulary={allVocabulary}
+              units={units}
+              onOpenLexicon={handleOpenLexicon}
             />
           ) : showVocabIndex ? (
             <VocabularyIndex

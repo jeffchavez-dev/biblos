@@ -931,7 +931,7 @@ export default function VocabularyTab({ words, unitId, chapterId, activePart, on
   const ui = useUI()
   const [mode, setMode] = useState('learn')
   const [allDone, setAllDone] = useState(false)
-  const filtered = words ? words.filter(w => !w.part || w.part === activePart) : []
+  const filtered = words ? (activePart == null ? words : words.filter(w => !w.part || w.part === activePart)) : []
 
   useEffect(() => { setMode('learn'); setAllDone(false) }, [unitId, chapterId, activePart])
 
