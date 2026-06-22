@@ -291,8 +291,10 @@ export default function VocabularyIndex({ onNavigate, target, onOpenGnt }) {
   const [activeCats, setActiveCats] = useState(new Set())
   const [activeVerbGroup, setActiveVerbGroup] = useState(null)
   const [activeNounGroup, setActiveNounGroup] = useState(null)
-  // Only use target as a lesson filter if it has chapterId (not when it's a strongsNum lookup)
-  const [targetFilter, setTargetFilter] = useState(target?.chapterId ? target : null)
+  // Only use target as a lesson filter if it has chapterId or unitId (not when it's a strongsNum lookup)
+  const [targetFilter, setTargetFilter] = useState(
+    target?.chapterId ? target : target?.unitId ? target : null
+  )
   const [loading, setLoading] = useState(true)
   const [fsWord, setFsWord] = useState(null)
 
@@ -473,6 +475,7 @@ export default function VocabularyIndex({ onNavigate, target, onOpenGnt }) {
 
   const filtered = sorted
     .filter(w => {
+      if (targetFilter?.unitId && !targetFilter.chapterId) return w.unit === targetFilter.unitId && matches(w, query)
       if (targetFilter) return w.chapter === targetFilter.chapterId && w.part === targetFilter.part && matches(w, query)
       if (activeVerbGroup) return w.verbGroup === activeVerbGroup && matches(w, query)
       if (activeNounGroup) return w.nounGroup === activeNounGroup && matches(w, query)
@@ -641,8 +644,10 @@ export default function VocabularyIndex({ onNavigate, target, onOpenGnt }) {
           {targetFilter && (
             <div className="lexicon-target-banner">
               <span>
-                Showing vocabulary for lesson <strong>{targetFilter.chapterId}.{targetFilter.part === 'A' ? '1' : '2'}</strong>
-                {' '}· {filtered.length} {filtered.length === 1 ? 'word' : 'words'}
+                {targetFilter.unitId && !targetFilter.chapterId
+                  ? <>Showing all vocabulary for <strong>Unit {targetFilter.unitId}</strong> · {filtered.length} {filtered.length === 1 ? 'word' : 'words'}</>
+                  : <>Showing vocabulary for lesson <strong>{targetFilter.chapterId}.{targetFilter.part === 'A' ? '1' : '2'}</strong> · {filtered.length} {filtered.length === 1 ? 'word' : 'words'}</>
+                }
               </span>
               <button className="lexicon-target-clear" onClick={() => setTargetFilter(null)}>
                 View all →

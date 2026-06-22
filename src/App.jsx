@@ -142,6 +142,11 @@ function AppInner() {
     setSidebarOpen(false)
   }
 
+  function handleUnitVocabReview(unitId) {
+    pushNav(makeSnap({ selectedUnit: unitId, selectedChapter, activePart, showVocabIndex: true, lexiconTarget: { unitId } }))
+    setSidebarOpen(false)
+  }
+
   const currentPart = currentChapter?.parts?.find(p => p.id === activePart)
 
   const { lang, setLang } = useLanguage()
@@ -243,6 +248,7 @@ function AppInner() {
           onClose={() => setSidebarOpen(false)}
           totalWords={totalWords}
           onVocabIndex={handleOpenVocabIndex}
+          onUnitVocabReview={handleUnitVocabReview}
           showingVocabIndex={showVocabIndex}
           onOpenGnt={handleOpenGnt}
           activeGnt={gntView}

@@ -32,7 +32,7 @@ const NT_BOOKS = [
   { abbr: 'Rev', name: 'Revelation',      ch: 22, group: 'General' },
 ]
 
-export default function Sidebar({ units, selectedUnit, selectedChapter, activePart, onSelect, onPartSelect, open, desktopHidden, onClose, totalWords, onVocabIndex, showingVocabIndex, onOpenGnt, activeGnt }) {
+export default function Sidebar({ units, selectedUnit, selectedChapter, activePart, onSelect, onPartSelect, open, desktopHidden, onClose, totalWords, onVocabIndex, onUnitVocabReview, showingVocabIndex, onOpenGnt, activeGnt }) {
   const ui = useUI()
   const { lang } = useLanguage()
   const [collapsed, setCollapsed] = useState({})
@@ -68,9 +68,10 @@ export default function Sidebar({ units, selectedUnit, selectedChapter, activePa
                 </span>
               </button>
 
-              {!isCollapsed && unit.chapters.map(chapter => {
+              {!isCollapsed && unit.chapters.map((chapter, chIdx) => {
                 const active = selectedUnit === unit.id && selectedChapter === chapter.id
                 const locked = unit.locked || chapter.locked
+                const isLastChapter = chIdx === unit.chapters.length - 1
                 return (
                   <div key={chapter.id}>
                     <button
@@ -99,6 +100,18 @@ export default function Sidebar({ units, selectedUnit, selectedChapter, activePa
                           </button>
                         ))}
                       </div>
+                    )}
+
+                    {isLastChapter && !unit.locked && (
+                      <button
+                        className="unit-vocab-review-btn"
+                        onClick={() => onUnitVocabReview(unit.id)}
+                      >
+                        <span className="unit-vocab-review-icon">★</span>
+                        <span className="unit-vocab-review-text">
+                          {unit.title} Vocabulary Review
+                        </span>
+                      </button>
                     )}
                   </div>
                 )
