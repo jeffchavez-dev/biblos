@@ -2,34 +2,6 @@
   {
     "id": 1,
     "part": "A",
-    "greek": "στόμα, -ατος, τό",
-    "transliteration": "stoma",
-    "definition": "mouth",
-    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
-    "translations": {
-      "es": "boca",
-      "pl": "usta",
-      "fil": "bibig"
-    },
-    "strongsNum": "G4750"
-  },
-  {
-    "id": 2,
-    "part": "A",
-    "greek": "πνεῦμα, -ατος, τό",
-    "transliteration": "pneuma",
-    "definition": "spirit, breath, wind",
-    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
-    "translations": {
-      "es": "espíritu, aliento, viento",
-      "pl": "duch, oddech, wiatr",
-      "fil": "espiritu, hininga, hangin"
-    },
-    "strongsNum": "G4151"
-  },
-  {
-    "id": 3,
-    "part": "A",
     "greek": "βρῶμα, -ατος, τό",
     "transliteration": "brōma",
     "definition": "food",
@@ -39,10 +11,11 @@
       "pl": "pokarm, jedzenie",
       "fil": "pagkain"
     },
-    "strongsNum": "G1033"
+    "strongsNum": "G1033",
+    "image": "c5a-noun-1.jpeg"
   },
   {
-    "id": 4,
+    "id": 2,
     "part": "A",
     "greek": "πόμα, -ατος, τό",
     "transliteration": "poma",
@@ -53,66 +26,26 @@
       "pl": "napój",
       "fil": "inumin"
     },
-    "strongsNum": "G4188"
+    "strongsNum": "G4188",
+    "image": "c5a-noun-2.jpeg"
   },
   {
-    "id": 5,
+    "id": 3,
     "part": "A",
-    "greek": "ῥῆμα, -ατος, τό",
-    "transliteration": "rhēma",
-    "definition": "word, saying",
+    "greek": "πνεῦμα, -ατος, τό",
+    "transliteration": "pneuma",
+    "definition": "spirit, breath, wind",
     "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
     "translations": {
-      "es": "palabra, dicho",
-      "pl": "słowo, powiedzenie",
-      "fil": "salita, kasabihan"
+      "es": "espíritu, aliento, viento",
+      "pl": "duch, oddech, wiatr",
+      "fil": "espiritu, hininga, hangin"
     },
-    "strongsNum": "G4487"
+    "strongsNum": "G4151",
+    "image": "c5a-noun-3.jpeg"
   },
   {
-    "id": 6,
-    "part": "A",
-    "greek": "θέλημα, -ατος, τό",
-    "transliteration": "thelēma",
-    "definition": "will, purpose",
-    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
-    "translations": {
-      "es": "voluntad, propósito",
-      "pl": "wola, cel",
-      "fil": "kalooban, layunin"
-    },
-    "strongsNum": "G2307"
-  },
-  {
-    "id": 7,
-    "part": "A",
-    "greek": "κλῆμα, -ατος, τό",
-    "transliteration": "klēma",
-    "definition": "branch (of a vine)",
-    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
-    "translations": {
-      "es": "rama (de vid)",
-      "pl": "gałąź (winorośli)",
-      "fil": "sanga (ng ubas)"
-    },
-    "strongsNum": "G2814"
-  },
-  {
-    "id": 8,
-    "part": "A",
-    "greek": "ἀλήθεια, -ας, ἡ",
-    "transliteration": "alētheia",
-    "definition": "truth",
-    "partOfSpeech": "noun (feminine, 1st decl.)",
-    "translations": {
-      "es": "verdad",
-      "pl": "prawda",
-      "fil": "katotohanan"
-    },
-    "strongsNum": "G0225"
-  },
-  {
-    "id": 9,
+    "id": 4,
     "part": "A",
     "greek": "ζωή, -ῆς, ἡ",
     "transliteration": "zōē",
@@ -123,66 +56,56 @@
       "pl": "życie",
       "fil": "buhay"
     },
-    "strongsNum": "G2222"
+    "strongsNum": "G2222",
+    "image": "c5a-noun-4.jpeg"
   },
   {
-    "id": 10,
+    "id": 5,
     "part": "A",
-    "greek": "ἀγάπη, -ης, ἡ",
-    "transliteration": "agapē",
-    "definition": "love",
-    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "greek": "θέλημα, -ατος, τό",
+    "transliteration": "thelēma",
+    "definition": "will, purpose",
+    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
     "translations": {
-      "es": "amor",
-      "pl": "miłość",
-      "fil": "pagmamahal, pag-ibig"
+      "es": "voluntad, propósito",
+      "pl": "wola, zamiar",
+      "fil": "kalooban, layunin"
     },
-    "strongsNum": "G0026"
+    "strongsNum": "G2307",
+    "image": "c5a-noun-5.jpeg"
   },
   {
-    "id": 11,
+    "id": 6,
     "part": "A",
-    "greek": "ἐντολή, -ῆς, ἡ",
-    "transliteration": "entolē",
-    "definition": "commandment",
-    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "greek": "ῥῆμα, -ατος, τό",
+    "transliteration": "rhēma",
+    "definition": "word, saying",
+    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
     "translations": {
-      "es": "mandamiento",
-      "pl": "przykazanie",
-      "fil": "utos, kautusan"
+      "es": "palabra, dicho",
+      "pl": "słowo, powiedzenie",
+      "fil": "salita, pahayag"
     },
-    "strongsNum": "G1785"
+    "strongsNum": "G4487",
+    "image": "c5a-noun-6.jpeg"
   },
   {
-    "id": 12,
+    "id": 7,
     "part": "A",
-    "greek": "ἄμπελος, -ου, ἡ",
-    "transliteration": "ampelos",
-    "definition": "vine, grapevine",
-    "partOfSpeech": "noun (feminine, 2nd decl.)",
+    "greek": "στόμα, -ατος, τό",
+    "transliteration": "stoma",
+    "definition": "mouth",
+    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
     "translations": {
-      "es": "vid, parra",
-      "pl": "winorośl",
-      "fil": "ubas, puno ng ubas"
+      "es": "boca",
+      "pl": "usta",
+      "fil": "bibig"
     },
-    "strongsNum": "G0288"
+    "strongsNum": "G4750",
+    "image": "c5a-noun-7.jpeg"
   },
   {
-    "id": 13,
-    "part": "A",
-    "greek": "θάνατος, -ου, ὁ",
-    "transliteration": "thanatos",
-    "definition": "death",
-    "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "translations": {
-      "es": "muerte",
-      "pl": "śmierć",
-      "fil": "kamatayan"
-    },
-    "strongsNum": "G2288"
-  },
-  {
-    "id": 14,
+    "id": 8,
     "part": "A",
     "greek": "υἱός, -οῦ, ὁ",
     "transliteration": "huios",
@@ -193,408 +116,427 @@
       "pl": "syn",
       "fil": "anak na lalaki"
     },
-    "strongsNum": "G5207"
+    "strongsNum": "G5207",
+    "image": "c5a-noun-8.jpeg"
   },
   {
-    "id": 15,
+    "id": 9,
     "part": "A",
-    "greek": "κύριος, -ου, ὁ",
-    "transliteration": "kyrios",
-    "definition": "lord, master",
-    "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "translations": {
-      "es": "señor, amo",
-      "pl": "pan, władca",
-      "fil": "panginoon, amo"
-    },
-    "strongsNum": "G2962"
-  },
-  {
-    "id": 16,
-    "part": "A",
-    "greek": "ἀδελφός, -οῦ, ὁ",
-    "transliteration": "adelphos",
-    "definition": "brother",
-    "partOfSpeech": "noun (masculine, 2nd decl.)",
-    "translations": {
-      "es": "hermano",
-      "pl": "brat",
-      "fil": "kapatid na lalaki"
-    },
-    "strongsNum": "G0080"
-  },
-  {
-    "id": 17,
-    "part": "A",
-    "greek": "ψεύστης, -ου, ὁ",
-    "transliteration": "pseustēs",
-    "definition": "liar",
-    "partOfSpeech": "noun (masculine, 1st decl.)",
-    "translations": {
-      "es": "mentiroso",
-      "pl": "kłamca",
-      "fil": "sinungaling"
-    },
-    "strongsNum": "G5583"
-  },
-  {
-    "id": 18,
-    "part": "A",
-    "greek": "ἀδελφή, -ῆς, ἡ",
-    "transliteration": "adelphē",
-    "definition": "sister",
+    "greek": "ἀλήθεια, -ας, ἡ",
+    "transliteration": "alētheia",
+    "definition": "truth",
     "partOfSpeech": "noun (feminine, 1st decl.)",
     "translations": {
-      "es": "hermana",
-      "pl": "siostra",
-      "fil": "kapatid na babae"
+      "es": "verdad",
+      "pl": "prawda",
+      "fil": "katotohanan"
     },
-    "strongsNum": "G0079"
+    "strongsNum": "G225",
+    "image": "c5a-noun-9.jpeg"
   },
   {
-    "id": 19,
+    "id": 10,
     "part": "A",
-    "greek": "πατήρ, πατρός, ὁ",
-    "transliteration": "patēr",
-    "definition": "father",
-    "partOfSpeech": "noun (masculine, 3rd decl.)",
+    "greek": "δίδωμι",
+    "transliteration": "didōmi",
+    "definition": "I give",
+    "partOfSpeech": "verb (μι-verb)",
+    "note": "irreg. μι-verb; 3s δίδωσιν, 1pl δίδομεν, 2pl δίδοτε",
     "translations": {
-      "es": "padre",
-      "pl": "ojciec",
-      "fil": "ama"
+      "es": "yo doy",
+      "pl": "daję",
+      "fil": "ibinibigay ko"
     },
-    "strongsNum": "G3962"
+    "strongsNum": "G1325",
+    "image": "c5a-verb-1.jpeg"
   },
   {
-    "id": 20,
+    "id": 11,
     "part": "A",
-    "greek": "ἀληθινός, -ή, -όν",
-    "transliteration": "alēthinos",
-    "definition": "true, genuine, real",
-    "partOfSpeech": "adjective",
+    "greek": "συνίημι",
+    "transliteration": "syniēmi",
+    "definition": "I understand",
+    "partOfSpeech": "verb (μι-verb)",
+    "note": "μι-verb; 1s συνίημι, 2s συνίης",
     "translations": {
-      "es": "verdadero, genuino",
-      "pl": "prawdziwy",
-      "fil": "tunay, totoo"
+      "es": "yo entiendo",
+      "pl": "rozumiem",
+      "fil": "naiintindihan ko"
     },
-    "strongsNum": "G0228"
+    "strongsNum": "G4920",
+    "image": "c5a-verb-2.jpeg"
   },
   {
-    "id": 21,
+    "id": 12,
     "part": "A",
-    "greek": "τέλειος, -α, -ον",
-    "transliteration": "teleios",
-    "definition": "perfect, complete",
-    "partOfSpeech": "adjective",
-    "translations": {
-      "es": "perfecto, completo",
-      "pl": "doskonały, pełny",
-      "fil": "perpekto, buo"
-    },
-    "strongsNum": "G5046"
-  },
-  {
-    "id": 22,
-    "part": "A",
-    "greek": "οὐδείς, οὐδεμία, οὐδέν",
-    "transliteration": "oudeis",
-    "definition": "no one, nothing",
-    "partOfSpeech": "pronoun/adjective (negative)",
-    "translations": {
-      "es": "nadie, nada",
-      "pl": "nikt, nic",
-      "fil": "walang sinuman, wala"
-    },
-    "strongsNum": "G3762"
-  },
-  {
-    "id": 23,
-    "part": "A",
-    "greek": "τις, τι",
-    "transliteration": "tis, ti",
-    "definition": "someone, something; a certain",
-    "partOfSpeech": "pronoun/adjective (indefinite, enclitic)",
-    "translations": {
-      "es": "alguien, algo",
-      "pl": "ktoś, coś",
-      "fil": "may isa, may isang bagay"
-    },
-    "strongsNum": "G5100"
-  },
-  {
-    "id": 24,
-    "part": "A",
-    "greek": "ὅστις, ἥτις, ὅτι",
-    "transliteration": "hostis",
-    "definition": "whoever, whatever",
-    "partOfSpeech": "indefinite relative pronoun",
-    "translations": {
-      "es": "quienquiera, cualquier",
-      "pl": "ktokolwiek, cokolwiek",
-      "fil": "sinuman, anuman"
-    },
-    "strongsNum": "G3748"
-  },
-  {
-    "id": 25,
-    "part": "A",
-    "greek": "ἀλλήλους, -ας, -α",
-    "transliteration": "allēlous",
-    "definition": "one another, each other",
-    "partOfSpeech": "reciprocal pronoun (no nominative)",
-    "translations": {
-      "es": "el uno al otro",
-      "pl": "jeden drugiego, wzajemnie",
-      "fil": "isa't isa, sa isa't isa"
-    },
-    "strongsNum": "G0240"
-  },
-  {
-    "id": 26,
-    "part": "A",
-    "greek": "προσκυνέω, -ῶ",
+    "greek": "προσκυνέω",
     "transliteration": "proskyneō",
     "definition": "I worship, bow before",
-    "partOfSpeech": "verb (contract, -έω; + dative)",
+    "partOfSpeech": "verb (contract -έω; + dat.)",
     "translations": {
-      "es": "yo adoro, me postro",
-      "pl": "kłaniam się, wielbię",
-      "fil": "sumasamba"
+      "es": "yo adoro",
+      "pl": "wielbię",
+      "fil": "sinasamba ko"
     },
-    "thirdSingular": "προσκυνεῖ",
-    "strongsNum": "G4352"
+    "strongsNum": "G4352",
+    "image": "c5a-verb-3.jpeg"
   },
   {
-    "id": 27,
+    "id": 13,
     "part": "A",
     "greek": "πιστεύω",
     "transliteration": "pisteuō",
     "definition": "I believe, trust",
-    "partOfSpeech": "verb (+ dative of person)",
+    "partOfSpeech": "verb (+ dat.)",
     "translations": {
-      "es": "yo creo, confío",
-      "pl": "wierzę, ufam",
-      "fil": "naniniwala"
+      "es": "yo creo",
+      "pl": "wierzę",
+      "fil": "naniniwala ako"
     },
-    "thirdSingular": "πιστεύει",
-    "strongsNum": "G4100"
+    "strongsNum": "G4100",
+    "image": "c5a-verb-4.jpeg"
   },
   {
-    "id": 28,
+    "id": 14,
     "part": "A",
-    "greek": "σιγάω, -ῶ",
-    "transliteration": "sigaō",
-    "definition": "I am silent, keep quiet",
-    "partOfSpeech": "verb (contract, -άω)",
+    "greek": "ζάω",
+    "transliteration": "zaō",
+    "definition": "I live",
+    "partOfSpeech": "verb (contract -άω)",
     "translations": {
-      "es": "yo estoy callado",
-      "pl": "milczę",
-      "fil": "tumatahimik"
+      "es": "yo vivo",
+      "pl": "żyję",
+      "fil": "nabubuhay ako"
     },
-    "thirdSingular": "σιγᾷ",
-    "strongsNum": "G4601"
+    "strongsNum": "G2198",
+    "image": "c5a-verb-5.jpeg"
   },
   {
-    "id": 29,
+    "id": 15,
     "part": "A",
-    "greek": "μισέω, -ῶ",
-    "transliteration": "miseō",
-    "definition": "I hate",
-    "partOfSpeech": "verb (contract, -έω)",
-    "translations": {
-      "es": "yo odio",
-      "pl": "nienawidzę",
-      "fil": "nagagalit, namumuhi"
-    },
-    "thirdSingular": "μισεῖ",
-    "strongsNum": "G3404"
-  },
-  {
-    "id": 30,
-    "part": "A",
-    "greek": "ὀφείλω",
-    "transliteration": "opheilō",
-    "definition": "I ought, owe, am obligated",
-    "partOfSpeech": "verb (+ infinitive)",
-    "translations": {
-      "es": "yo debo, estoy obligado",
-      "pl": "powinienem, jestem zobowiązany",
-      "fil": "dapat, may utang"
-    },
-    "thirdSingular": "ὀφείλει",
-    "strongsNum": "G3784"
-  },
-  {
-    "id": 31,
-    "part": "A",
-    "greek": "βάλλω",
-    "transliteration": "ballō",
-    "definition": "I throw, cast, drive out",
+    "greek": "ἀποθνῄσκω",
+    "transliteration": "apothnēiskō",
+    "definition": "I die",
     "partOfSpeech": "verb",
     "translations": {
-      "es": "yo lanzo, expulso",
-      "pl": "rzucam, wyrzucam",
-      "fil": "naghahagis, nagpapalayas"
+      "es": "yo muero",
+      "pl": "umieram",
+      "fil": "namamatay ako"
     },
-    "thirdSingular": "βάλλει",
-    "strongsNum": "G0906"
+    "strongsNum": "G599",
+    "image": "c5a-verb-6.jpeg"
   },
   {
-    "id": 32,
+    "id": 16,
+    "part": "A",
+    "greek": "ἐρωτάω",
+    "transliteration": "erōtaō",
+    "definition": "I ask, inquire",
+    "partOfSpeech": "verb (contract -άω)",
+    "translations": {
+      "es": "yo pregunto",
+      "pl": "pytam",
+      "fil": "nagtatanong ako"
+    },
+    "strongsNum": "G2065",
+    "image": "c5a-verb-7.jpeg"
+  },
+  {
+    "id": 17,
+    "part": "A",
+    "greek": "σημαίνω",
+    "transliteration": "sēmainō",
+    "definition": "I mean, signify",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "yo significo",
+      "pl": "oznaczam",
+      "fil": "nangangahulugan ako"
+    },
+    "strongsNum": "G4591",
+    "image": "c5a-verb-8.jpeg"
+  },
+  {
+    "id": 18,
+    "part": "A",
+    "greek": "σιγάω",
+    "transliteration": "sigaō",
+    "definition": "I am silent, keep quiet",
+    "partOfSpeech": "verb (contract -άω)",
+    "translations": {
+      "es": "yo callo",
+      "pl": "milczę",
+      "fil": "tumatahimik ako"
+    },
+    "strongsNum": "G4601",
+    "image": "c5a-verb-9.jpeg"
+  },
+  {
+    "id": 19,
+    "part": "A",
+    "greek": "ταράσσω",
+    "transliteration": "tarassō",
+    "definition": "I trouble, stir up",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "yo turbo",
+      "pl": "niepokoję",
+      "fil": "nag-aabala ako"
+    },
+    "strongsNum": "G5015",
+    "image": "c5a-verb-10.jpeg"
+  },
+  {
+    "id": 20,
+    "part": "A",
+    "greek": "γελάω",
+    "transliteration": "gelaō",
+    "definition": "I laugh",
+    "partOfSpeech": "verb (contract -άω)",
+    "translations": {
+      "es": "yo río",
+      "pl": "śmieję się",
+      "fil": "tumatawa ako"
+    },
+    "strongsNum": "G1070",
+    "image": "c5a-verb-11.jpeg"
+  },
+  {
+    "id": 21,
+    "part": "A",
+    "greek": "ἀγαπάω",
+    "transliteration": "agapaō",
+    "definition": "I love",
+    "partOfSpeech": "verb (contract -άω)",
+    "translations": {
+      "es": "yo amo",
+      "pl": "kocham",
+      "fil": "minamahal ko"
+    },
+    "strongsNum": "G25",
+    "image": "c5a-verb-12.jpeg"
+  },
+  {
+    "id": 22,
+    "part": "A",
+    "greek": "χριστιανός, -οῦ, ὁ",
+    "transliteration": "christianos",
+    "definition": "Christian",
+    "partOfSpeech": "noun/adjective (masculine, 2nd decl.)",
+    "translations": {
+      "es": "cristiano",
+      "pl": "chrześcijanin",
+      "fil": "Kristiyano"
+    },
+    "strongsNum": "G5546",
+    "image": "c5a-adj-1.jpeg"
+  },
+  {
+    "id": 23,
+    "part": "A",
+    "greek": "ὅστις, ἥτις, ὅ τι",
+    "transliteration": "hostis",
+    "definition": "whoever, whichever",
+    "partOfSpeech": "indefinite relative pronoun",
+    "translations": {
+      "es": "cualquiera que",
+      "pl": "ktokolwiek",
+      "fil": "sinumang, kahit sino"
+    },
+    "strongsNum": "G3748",
+    "image": "c5a-adj-2.jpeg"
+  },
+  {
+    "id": 24,
+    "part": "A",
+    "greek": "ἀλλήλων (recip.)",
+    "transliteration": "allēlōn",
+    "definition": "one another, each other",
+    "partOfSpeech": "reciprocal pronoun",
+    "translations": {
+      "es": "el uno al otro",
+      "pl": "nawzajem, jeden drugiego",
+      "fil": "isa't isa"
+    },
+    "strongsNum": "G240",
+    "image": "c5a-adj-3.jpeg"
+  },
+  {
+    "id": 25,
     "part": "A",
     "greek": "ἵνα",
     "transliteration": "hina",
     "definition": "in order that, so that",
-    "partOfSpeech": "conjunction (+ subjunctive, purpose)",
-    "translations": {
-      "es": "para que, a fin de que",
-      "pl": "żeby, aby",
-      "fil": "upang, para"
-    },
-    "strongsNum": "G2443"
-  },
-  {
-    "id": 33,
-    "part": "A",
-    "greek": "ἐάν",
-    "transliteration": "ean",
-    "definition": "if (conditional)",
     "partOfSpeech": "conjunction (+ subjunctive)",
     "translations": {
-      "es": "si (condicional)",
-      "pl": "jeśli (warunkowe)",
-      "fil": "kung (kondisyonal)"
+      "es": "para que",
+      "pl": "żeby, aby",
+      "fil": "upang, nang"
     },
-    "strongsNum": "G1437"
+    "strongsNum": "G2443",
+    "image": "c5a-par-1.jpeg"
   },
   {
-    "id": 34,
+    "id": 26,
     "part": "A",
     "greek": "ὅταν",
     "transliteration": "hotan",
     "definition": "whenever, when",
-    "partOfSpeech": "conjunction (+ subjunctive; ὅτε + ἄν)",
+    "partOfSpeech": "conjunction (+ subjunctive)",
     "translations": {
-      "es": "cuando sea, cuando",
-      "pl": "kiedykolwiek",
-      "fil": "anumang oras, kapag"
+      "es": "cuando, siempre que",
+      "pl": "kiedy, ilekroć",
+      "fil": "tuwing, kapag"
     },
-    "strongsNum": "G3752"
+    "strongsNum": "G3752",
+    "image": "c5a-par-2.jpeg"
+  },
+  {
+    "id": 27,
+    "part": "A",
+    "greek": "οὕτως",
+    "transliteration": "houtōs",
+    "definition": "thus, in this way",
+    "partOfSpeech": "adverb",
+    "translations": {
+      "es": "así, de esta manera",
+      "pl": "tak, w ten sposób",
+      "fil": "ganito, kaya"
+    },
+    "strongsNum": "G3779"
+  },
+  {
+    "id": 28,
+    "part": "A",
+    "greek": "μᾶλλον",
+    "transliteration": "mallon",
+    "definition": "more, rather",
+    "partOfSpeech": "adverb",
+    "translations": {
+      "es": "más, antes bien",
+      "pl": "bardziej, raczej",
+      "fil": "higit pa, sa halip"
+    },
+    "strongsNum": "G3123",
+    "image": "c5a-par-4.jpeg"
+  },
+  {
+    "id": 29,
+    "part": "A",
+    "greek": "βραδέως",
+    "transliteration": "bradeōs",
+    "definition": "slowly",
+    "partOfSpeech": "adverb",
+    "translations": {
+      "es": "despacio, lentamente",
+      "pl": "wolno, powoli",
+      "fil": "dahan-dahan"
+    },
+    "strongsNum": "G1019",
+    "image": "c5a-par-5.jpeg"
+  },
+  {
+    "id": 30,
+    "part": "A",
+    "greek": "ἀκριβῶς",
+    "transliteration": "akribōs",
+    "definition": "accurately, exactly",
+    "partOfSpeech": "adverb",
+    "translations": {
+      "es": "exactamente, con precisión",
+      "pl": "dokładnie, precyzyjnie",
+      "fil": "tumpak, eksakto"
+    },
+    "strongsNum": "G199",
+    "image": "c5a-par-6.jpeg"
+  },
+  {
+    "id": 31,
+    "part": "A",
+    "greek": "πάντοτε",
+    "transliteration": "pantote",
+    "definition": "always, at all times",
+    "partOfSpeech": "adverb",
+    "translations": {
+      "es": "siempre",
+      "pl": "zawsze",
+      "fil": "palagi, lagi"
+    },
+    "strongsNum": "G3842",
+    "image": "c5a-par-7.jpeg"
+  },
+  {
+    "id": 32,
+    "part": "A",
+    "greek": "Ἰησοῦς, -οῦ, ὁ",
+    "transliteration": "Iēsous",
+    "definition": "Jesus",
+    "partOfSpeech": "proper noun (masculine)",
+    "translations": {
+      "es": "Jesús",
+      "pl": "Jezus",
+      "fil": "Jesus"
+    },
+    "strongsNum": "G2424"
+  },
+  {
+    "id": 33,
+    "part": "A",
+    "greek": "Χριστός, -οῦ, ὁ",
+    "transliteration": "Christos",
+    "definition": "Christ, Messiah",
+    "partOfSpeech": "proper noun (masculine, 2nd decl.)",
+    "translations": {
+      "es": "Cristo, Mesías",
+      "pl": "Chrystus, Mesjasz",
+      "fil": "Kristo, Mesiyas"
+    },
+    "strongsNum": "G5547"
+  },
+  {
+    "id": 34,
+    "part": "A",
+    "greek": "Σαλώμη, -ης, ἡ",
+    "transliteration": "Salōmē",
+    "definition": "Salome",
+    "partOfSpeech": "proper noun (feminine, 1st decl.)",
+    "translations": {
+      "es": "Salomé",
+      "pl": "Salome",
+      "fil": "Salome"
+    },
+    "strongsNum": "G4539"
   },
   {
     "id": 35,
     "part": "A",
-    "greek": "ὥσπερ",
-    "transliteration": "hōsper",
-    "definition": "just as, like",
-    "partOfSpeech": "comparative conjunction",
+    "greek": "Ἀβραάμ (indecl.)",
+    "transliteration": "Abraam",
+    "definition": "Abraham",
+    "partOfSpeech": "proper noun (indeclinable)",
     "translations": {
-      "es": "así como, igual que",
-      "pl": "tak jak",
-      "fil": "tulad ng, katulad"
+      "es": "Abraham",
+      "pl": "Abraham",
+      "fil": "Abraham"
     },
-    "strongsNum": "G5618"
+    "strongsNum": "G11"
   },
   {
     "id": 36,
     "part": "A",
-    "greek": "χωρίς",
-    "transliteration": "chōris",
-    "definition": "without, apart from — χωρὶς αὐτοῦ",
-    "partOfSpeech": "preposition (+ genitive)",
+    "greek": "Ἰσαάκ (indecl.)",
+    "transliteration": "Isaak",
+    "definition": "Isaac",
+    "partOfSpeech": "proper noun (indeclinable)",
     "translations": {
-      "es": "sin, aparte de",
-      "pl": "bez, poza",
-      "fil": "wala, maliban sa"
+      "es": "Isaac",
+      "pl": "Izaak",
+      "fil": "Isaac"
     },
-    "strongsNum": "G5565"
+    "strongsNum": "G2464"
   },
   {
     "id": 37,
-    "part": "A",
-    "greek": "εἰ μή",
-    "transliteration": "ei mē",
-    "definition": "except, unless",
-    "partOfSpeech": "expression (negative exception)",
-    "translations": {
-      "es": "excepto, a menos que",
-      "pl": "chyba że, o ile nie",
-      "fil": "maliban kung"
-    },
-    "strongsNum": "G1508"
-  },
-  {
-    "id": 38,
-    "part": "A",
-    "greek": "ἢ",
-    "transliteration": "ē",
-    "definition": "or",
-    "partOfSpeech": "disjunctive conjunction",
-    "translations": {
-      "es": "o",
-      "pl": "lub, albo",
-      "fil": "o"
-    },
-    "strongsNum": "G2228"
-  },
-  {
-    "id": 39,
-    "part": "A",
-    "greek": "οὐδέ",
-    "transliteration": "oude",
-    "definition": "and not, nor, not even",
-    "partOfSpeech": "negative conjunction",
-    "translations": {
-      "es": "y no, ni, ni siquiera",
-      "pl": "i nie, ani, nawet nie",
-      "fil": "at hindi, ni, maging"
-    },
-    "strongsNum": "G3761"
-  },
-  {
-    "id": 40,
-    "part": "A",
-    "greek": "ἔξω",
-    "transliteration": "exō",
-    "definition": "outside, out",
-    "partOfSpeech": "adverb/preposition",
-    "translations": {
-      "es": "fuera, afuera",
-      "pl": "na zewnątrz",
-      "fil": "sa labas, palabas"
-    },
-    "strongsNum": "G1854"
-  },
-  {
-    "id": 41,
-    "part": "A",
-    "greek": "ἔπειτα",
-    "transliteration": "epeita",
-    "definition": "then, next, afterwards",
-    "partOfSpeech": "adverb",
-    "translations": {
-      "es": "luego, después",
-      "pl": "potem, następnie",
-      "fil": "pagkatapos, kalaunan"
-    },
-    "strongsNum": "G1899"
-  },
-  {
-    "id": 42,
-    "part": "A",
-    "greek": "πλέον",
-    "transliteration": "pleon",
-    "definition": "more",
-    "partOfSpeech": "adverb/comparative adjective (neuter of πλείων)",
-    "translations": {
-      "es": "más",
-      "pl": "więcej",
-      "fil": "higit pa"
-    },
-    "strongsNum": "G4119"
-  },
-  {
-    "id": 43,
     "part": "B",
     "greek": "ψυχή, -ῆς, ἡ",
     "transliteration": "psychē",
@@ -608,7 +550,7 @@
     "strongsNum": "G5590"
   },
   {
-    "id": 44,
+    "id": 38,
     "part": "B",
     "greek": "ἁμαρτία, -ας, ἡ",
     "transliteration": "hamartia",
@@ -622,7 +564,7 @@
     "strongsNum": "G0266"
   },
   {
-    "id": 45,
+    "id": 39,
     "part": "B",
     "greek": "ἀδικία, -ας, ἡ",
     "transliteration": "adikia",
@@ -636,7 +578,7 @@
     "strongsNum": "G0093"
   },
   {
-    "id": 46,
+    "id": 40,
     "part": "B",
     "greek": "κοινωνία, -ας, ἡ",
     "transliteration": "koinōnia",
@@ -650,7 +592,7 @@
     "strongsNum": "G2842"
   },
   {
-    "id": 47,
+    "id": 41,
     "part": "B",
     "greek": "ἀνάστασις, -εως, ἡ",
     "transliteration": "anastasis",
@@ -664,7 +606,7 @@
     "strongsNum": "G0386"
   },
   {
-    "id": 48,
+    "id": 42,
     "part": "B",
     "greek": "αἰών, -ῶνος, ὁ",
     "transliteration": "aiōn",
@@ -678,7 +620,7 @@
     "strongsNum": "G0165"
   },
   {
-    "id": 49,
+    "id": 43,
     "part": "B",
     "greek": "κόσμος, -ου, ὁ",
     "transliteration": "kosmos",
@@ -692,7 +634,7 @@
     "strongsNum": "G2889"
   },
   {
-    "id": 50,
+    "id": 44,
     "part": "B",
     "greek": "χόρτος, -ου, ὁ",
     "transliteration": "chortos",
@@ -706,7 +648,7 @@
     "strongsNum": "G5528"
   },
   {
-    "id": 51,
+    "id": 45,
     "part": "B",
     "greek": "μισθωτός, -οῦ, ὁ",
     "transliteration": "misthotos",
@@ -720,7 +662,7 @@
     "strongsNum": "G3411"
   },
   {
-    "id": 52,
+    "id": 46,
     "part": "B",
     "greek": "ποιμήν, -ένος, ὁ",
     "transliteration": "poimēn",
@@ -734,7 +676,7 @@
     "strongsNum": "G4166"
   },
   {
-    "id": 53,
+    "id": 47,
     "part": "B",
     "greek": "αἷμα, -ατος, τό",
     "transliteration": "haima",
@@ -748,7 +690,7 @@
     "strongsNum": "G0129"
   },
   {
-    "id": 54,
+    "id": 48,
     "part": "B",
     "greek": "αἰώνιος, -α, -ον",
     "transliteration": "aiōnios",
@@ -762,7 +704,7 @@
     "strongsNum": "G0166"
   },
   {
-    "id": 55,
+    "id": 49,
     "part": "B",
     "greek": "δίκαιος, -α, -ον",
     "transliteration": "dikaios",
@@ -776,7 +718,7 @@
     "strongsNum": "G1342"
   },
   {
-    "id": 56,
+    "id": 50,
     "part": "B",
     "greek": "νεκρός, -ά, -όν",
     "transliteration": "nekros",
@@ -790,7 +732,7 @@
     "strongsNum": "G3498"
   },
   {
-    "id": 57,
+    "id": 51,
     "part": "B",
     "greek": "ἑαυτούς, -άς, -ά",
     "transliteration": "heautous",
@@ -804,7 +746,7 @@
     "strongsNum": "G1438"
   },
   {
-    "id": 58,
+    "id": 52,
     "part": "B",
     "greek": "τίθημι",
     "transliteration": "tithēmi",
@@ -819,7 +761,7 @@
     "strongsNum": "G5087"
   },
   {
-    "id": 59,
+    "id": 53,
     "part": "B",
     "greek": "δίδωμι",
     "transliteration": "didōmi",
@@ -834,7 +776,7 @@
     "strongsNum": "G1325"
   },
   {
-    "id": 60,
+    "id": 54,
     "part": "B",
     "greek": "ἀφίημι",
     "transliteration": "aphiēmi",
@@ -849,7 +791,7 @@
     "strongsNum": "G0863"
   },
   {
-    "id": 61,
+    "id": 55,
     "part": "B",
     "greek": "δείκνυμι",
     "transliteration": "deiknymi",
@@ -864,7 +806,7 @@
     "strongsNum": "G1166"
   },
   {
-    "id": 62,
+    "id": 56,
     "part": "B",
     "greek": "σῴζω",
     "transliteration": "sōzō",
@@ -879,7 +821,7 @@
     "strongsNum": "G4982"
   },
   {
-    "id": 63,
+    "id": 57,
     "part": "B",
     "greek": "φεύγω",
     "transliteration": "pheugō",
@@ -894,7 +836,7 @@
     "strongsNum": "G5343"
   },
   {
-    "id": 64,
+    "id": 58,
     "part": "B",
     "greek": "ἁρπάζω",
     "transliteration": "harpazō",
@@ -909,7 +851,7 @@
     "strongsNum": "G0726"
   },
   {
-    "id": 65,
+    "id": 59,
     "part": "B",
     "greek": "σκορπίζω",
     "transliteration": "skorpizō",
@@ -924,7 +866,7 @@
     "strongsNum": "G4650"
   },
   {
-    "id": 66,
+    "id": 60,
     "part": "B",
     "greek": "εἰσέρχομαι",
     "transliteration": "eiserchomai",
@@ -939,7 +881,7 @@
     "strongsNum": "G1525"
   },
   {
-    "id": 67,
+    "id": 61,
     "part": "B",
     "greek": "ὁμολογέω, -ῶ",
     "transliteration": "homologeō",
@@ -954,7 +896,7 @@
     "strongsNum": "G3670"
   },
   {
-    "id": 68,
+    "id": 62,
     "part": "B",
     "greek": "καθαρίζω",
     "transliteration": "katharizō",
@@ -969,7 +911,7 @@
     "strongsNum": "G2511"
   },
   {
-    "id": 69,
+    "id": 63,
     "part": "B",
     "greek": "πλανάω, -ῶ",
     "transliteration": "planaō",
@@ -984,7 +926,7 @@
     "strongsNum": "G4105"
   },
   {
-    "id": 70,
+    "id": 64,
     "part": "B",
     "greek": "φαίνω",
     "transliteration": "phainō",
@@ -999,7 +941,7 @@
     "strongsNum": "G5316"
   },
   {
-    "id": 71,
+    "id": 65,
     "part": "B",
     "greek": "φωτίζω",
     "transliteration": "phōtizō",
@@ -1014,7 +956,7 @@
     "strongsNum": "G5461"
   },
   {
-    "id": 72,
+    "id": 66,
     "part": "B",
     "greek": "ἀποθνῄσκω",
     "transliteration": "apothnēskō",
@@ -1029,7 +971,7 @@
     "strongsNum": "G0599"
   },
   {
-    "id": 73,
+    "id": 67,
     "part": "B",
     "greek": "ζάω, -ῶ",
     "transliteration": "zaō",
@@ -1044,7 +986,7 @@
     "strongsNum": "G2198"
   },
   {
-    "id": 74,
+    "id": 68,
     "part": "B",
     "greek": "ὑπέρ",
     "transliteration": "hyper",
@@ -1058,7 +1000,7 @@
     "strongsNum": "G5228"
   },
   {
-    "id": 75,
+    "id": 69,
     "part": "B",
     "greek": "διότι",
     "transliteration": "dioti",
@@ -1072,7 +1014,7 @@
     "strongsNum": "G1360"
   },
   {
-    "id": 76,
+    "id": 70,
     "part": "B",
     "greek": "πάντοτε",
     "transliteration": "pantote",
@@ -1086,7 +1028,7 @@
     "strongsNum": "G3842"
   },
   {
-    "id": 77,
+    "id": 71,
     "part": "B",
     "greek": "εἰς τὸν αἰῶνα",
     "transliteration": "eis ton aiōna",
@@ -1100,7 +1042,7 @@
     "strongsNum": "G1519"
   },
   {
-    "id": 78,
+    "id": 72,
     "part": "B",
     "greek": "παρά",
     "transliteration": "para",
@@ -1114,7 +1056,7 @@
     "strongsNum": "G3844"
   },
   {
-    "id": 79,
+    "id": 73,
     "part": "B",
     "greek": "ὡς",
     "transliteration": "hōs",
