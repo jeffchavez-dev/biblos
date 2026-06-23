@@ -5116,24 +5116,29 @@
     },
     {
       "id": 26,
-      "label": "Μέρος Βʹ — Ὁ Ἰησοῦς; (Part B — Jesus?)",
+      "label": "Μέρος Βʹ — Ἡ Ἄμπελος ἡ Ἀληθινή (Part B — The True Vine)",
       "words": [
         {
-          "greek": "μετὰ",
-          "definition": "after"
+          "greek": "ὁ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
-          "greek": "δὲ",
+          "greek": "Ἰάκωβος",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "καὶ",
           "definition": "and",
           "translations": {
             "es": "y",
             "pl": "i",
             "fil": "at"
           }
-        },
-        {
-          "greek": "μικρὸν",
-          "definition": "a little (time)"
         },
         {
           "greek": "ἡ",
@@ -5149,43 +5154,20 @@
           "definition": "Salome"
         },
         {
-          "greek": "ἀνοίγει",
-          "definition": "opens"
+          "greek": "ἔτι",
+          "definition": "still, yet"
         },
         {
-          "greek": "τὸ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
+          "greek": "διαλέγονται",
+          "definition": "they converse"
         },
         {
-          "greek": "στόμα",
-          "definition": "mouth"
+          "greek": "ἀλλήλοις",
+          "definition": "one another"
         },
         {
-          "greek": "αὐτῆς",
-          "definition": "her"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "λέγει",
-          "definition": "says",
-          "translations": {
-            "es": "dice",
-            "pl": "mówi",
-            "fil": "sinasabi"
-          }
+          "greek": "ὑπὸ",
+          "definition": "under"
         },
         {
           "greek": "τῷ",
@@ -5197,24 +5179,25 @@
           }
         },
         {
-          "greek": "Ἰακώβῳ·",
-          "definition": "Jacob"
+          "greek": "μεγάλῳ",
+          "definition": "great, large"
         },
         {
-          "greek": "\"λέγεις",
-          "definition": "you speak"
+          "greek": "δένδρῳ",
+          "definition": "tree (dat.)"
         },
         {
-          "greek": "πολλὰ",
-          "definition": "many things"
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
         },
         {
-          "greek": "περὶ",
-          "definition": "about"
-        },
-        {
-          "greek": "τοῦ",
-          "definition": "the",
+          "greek": "τῇ",
+          "definition": "the (dat.)",
           "translations": {
             "es": "el/la",
             "pl": "rodz.",
@@ -5222,42 +5205,8 @@
           }
         },
         {
-          "greek": "Ἰησοῦ,",
-          "definition": "Jesus"
-        },
-        {
-          "greek": "ὦ",
-          "definition": "O"
-        },
-        {
-          "greek": "ἄνερ.",
-          "definition": "man (vocative)"
-        },
-        {
-          "greek": "ἀλλὰ",
-          "definition": "but",
-          "translations": {
-            "es": "pero",
-            "pl": "ale",
-            "fil": "ngunit"
-          }
-        },
-        {
-          "greek": "τίς",
-          "definition": "who"
-        },
-        {
-          "greek": "ἐστιν",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
-        },
-        {
-          "greek": "οὗτος",
-          "definition": "this"
+          "greek": "σκίᾳ.",
+          "definition": "shade"
         },
         {
           "greek": "ὁ",
@@ -5269,27 +5218,247 @@
           }
         },
         {
-          "greek": "Ἰησοῦς;",
-          "definition": "Jesus"
+          "greek": "δὲ",
+          "definition": "and/but",
+          "translations": {
+            "es": "y/pero",
+            "pl": "i/ale",
+            "fil": "at/ngunit"
+          }
         },
         {
-          "greek": "βούλομαι",
-          "definition": "I want"
+          "greek": "ἥλιος",
+          "definition": "sun",
+          "translations": {
+            "es": "sol",
+            "pl": "słońce",
+            "fil": "araw"
+          }
         },
         {
-          "greek": "γινώσκειν",
-          "definition": "to know"
+          "greek": "λάμπει",
+          "definition": "shines"
         },
         {
-          "greek": "πλέον.\"",
+          "greek": "σφόδρα",
+          "definition": "greatly"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "καῦμα",
+          "definition": "heat"
+        },
+        {
+          "greek": "ἔτι",
+          "definition": "still, yet"
+        },
+        {
+          "greek": "μένει",
+          "definition": "remains"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "τῇ",
+          "definition": "the (dat.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ὁδῷ",
+          "definition": "road (dat.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "τοῖς",
+          "definition": "the (dat.pl)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἀγροῖς.",
+          "definition": "fields (dat.)"
+        },
+        {
+          "greek": "λαμβάνει",
+          "definition": "takes"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "Σαλώμη",
+          "definition": "Salome"
+        },
+        {
+          "greek": "πάλιν",
+          "definition": "again"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ὑδρίαν",
+          "definition": "water jar"
+        },
+        {
+          "greek": "ἵνα",
+          "definition": "so that"
+        },
+        {
+          "greek": "ἀντλῇ",
+          "definition": "may draw"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ὕδωρ.",
+          "definition": "water"
+        },
+        {
+          "greek": "βούλεται",
+          "definition": "wants"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for",
+          "translations": {
+            "es": "pues",
+            "pl": "bowiem",
+            "fil": "sapagkat"
+          }
+        },
+        {
+          "greek": "διδόναι",
+          "definition": "to give"
+        },
+        {
+          "greek": "πλέον",
           "definition": "more"
+        },
+        {
+          "greek": "ὕδωρ",
+          "definition": "water"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to the",
+          "translations": {
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "ὄνῳ",
+          "definition": "donkey (dat.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "Ἰακώβου.",
+          "definition": "Jacob (gen.)"
         }
       ],
-      "translation": "After a little while Salome opens her mouth and says to Jacob: \"You speak many things about Jesus, O man. But who is this Jesus? I want to know more.\"",
-      "translations": {
-        "es": "Después de un momento Salomé abre su boca y dice a Jacob: 'Dices muchas cosas grandes, O Jacob.'",
-        "pl": "Po chwili Salome otwiera usta i mówi do Jakuba: «Mówisz wiele wielkich rzeczy, O Jakubie.»",
-        "fil": "Pagkatapos ng ilang sandali, binuksan ni Salome ang kanyang bibig at sinabi kay Jacob: 'Marami kang sinasabing malalaking bagay, O Jacob.'"
+      "translation": "Jacob and Salome are still conversing with each other under the great tree in the shade. The sun is shining greatly and the heat still remains on the road and in the fields. So Salome takes the water jar again in order to draw water. For she wants to give more water to Jacob's donkey.",
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ἄμπελος — vine",
+        "rows": [
+          {
+            "greek": "ἄμπελος",
+            "label": "Nom."
+          },
+          {
+            "greek": "ἀμπέλου",
+            "label": "Gen."
+          },
+          {
+            "greek": "ἀμπέλῳ",
+            "label": "Dat."
+          },
+          {
+            "greek": "ἄμπελον",
+            "label": "Acc."
+          }
+        ]
       }
     },
     {
@@ -5306,6 +5475,121 @@
         },
         {
           "greek": "δὲ",
+          "definition": "and/but",
+          "translations": {
+            "es": "y/pero",
+            "pl": "i/ale",
+            "fil": "at/ngunit"
+          }
+        },
+        {
+          "greek": "Ἰάκωβος",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "ἀφίησιν",
+          "definition": "leaves, sets down"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "πήραν",
+          "definition": "bag, knapsack"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "him (gen.)"
+        },
+        {
+          "greek": "ὑπὸ",
+          "definition": "under"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to the",
+          "translations": {
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "δένδρῳ",
+          "definition": "tree (dat.)"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because/that"
+        },
+        {
+          "greek": "βούλεται",
+          "definition": "wants"
+        },
+        {
+          "greek": "ἀναπαύεσθαι",
+          "definition": "to rest"
+        },
+        {
+          "greek": "πλέον.",
+          "definition": "more"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for",
+          "translations": {
+            "es": "pues",
+            "pl": "bowiem",
+            "fil": "sapagkat"
+          }
+        },
+        {
+          "greek": "θέλει",
+          "definition": "he wishes, wants"
+        },
+        {
+          "greek": "πορεύεσθαι",
+          "definition": "to go, travel"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to the",
+          "translations": {
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "καύματι.",
+          "definition": "heat (dat.)"
+        },
+        {
+          "greek": "καὶ",
           "definition": "and",
           "translations": {
             "es": "y",
@@ -5314,21 +5598,146 @@
           }
         },
         {
-          "greek": "Ἰάκωβος",
-          "definition": "Jacob"
-        },
-        {
-          "greek": "σφόδρα",
-          "definition": "greatly"
-        },
-        {
-          "greek": "χαίρει",
-          "definition": "rejoices",
+          "greek": "ἡ",
+          "definition": "the",
           "translations": {
-            "es": "se alegra",
-            "pl": "cieszy się",
-            "fil": "nagagalak"
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
           }
+        },
+        {
+          "greek": "Σαλώμη",
+          "definition": "Salome"
+        },
+        {
+          "greek": "δίδωσιν",
+          "definition": "gives"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ὕδωρ",
+          "definition": "water"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to the",
+          "translations": {
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "ὄνῳ",
+          "definition": "donkey (dat.)"
+        },
+        {
+          "greek": "ἵνα",
+          "definition": "so that"
+        },
+        {
+          "greek": "πίνῃ.",
+          "definition": "may drink"
+        },
+        {
+          "greek": "εἶτα",
+          "definition": "then",
+          "translations": {
+            "es": "luego",
+            "pl": "potem",
+            "fil": "pagkatapos"
+          }
+        },
+        {
+          "greek": "τίθησιν",
+          "definition": "places, sets"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ὑδρίαν",
+          "definition": "water jar"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "upon, on"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.masc.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "λίθον",
+          "definition": "stone"
+        },
+        {
+          "greek": "ὑπὸ",
+          "definition": "under"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to the",
+          "translations": {
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "δένδρῳ.",
+          "definition": "tree (dat.)"
+        }
+      ],
+      "translation": "Jacob sets down his bag under the tree because he wants to rest more. For he does not want to travel in the heat. And Salome gives the water to the donkey so that he may drink. Then she places the water jar upon the stone under the tree."
+    },
+    {
+      "id": 28,
+      "words": [
+        {
+          "greek": "μετὰ",
+          "definition": "after/with"
+        },
+        {
+          "greek": "τοῦτο",
+          "definition": "this"
+        },
+        {
+          "greek": "καθίζουσιν",
+          "definition": "they sit down"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
+        },
+        {
+          "greek": "πάλιν",
+          "definition": "again"
         },
         {
           "greek": "ἐν",
@@ -5341,7 +5750,7 @@
         },
         {
           "greek": "τῇ",
-          "definition": "the",
+          "definition": "the (dat.)",
           "translations": {
             "es": "el/la",
             "pl": "rodz.",
@@ -5349,16 +5758,42 @@
           }
         },
         {
-          "greek": "καρδίᾳ",
-          "definition": "heart"
+          "greek": "σκίᾳ",
+          "definition": "shade"
         },
         {
-          "greek": "αὐτοῦ",
-          "definition": "his"
+          "greek": "ἀπὸ",
+          "definition": "from"
         },
         {
-          "greek": "ὅτι",
-          "definition": "because"
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "καύματος",
+          "definition": "heat (gen.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "ἡλίου.",
+          "definition": "sun (gen.)",
+          "translations": {
+            "es": "sol",
+            "pl": "słońce",
+            "fil": "araw"
+          }
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ἡ",
@@ -5378,12 +5813,39 @@
           "definition": "wants"
         },
         {
-          "greek": "ἀκούειν.",
+          "greek": "ἀκούειν",
           "definition": "to hear"
         },
         {
+          "greek": "πλέον",
+          "definition": "more"
+        },
+        {
+          "greek": "περὶ",
+          "definition": "about"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "Ἰησοῦ.",
+          "definition": "Jesus (gen.)"
+        }
+      ],
+      "translation": "After this they sit down again in the shade away from the heat of the sun. And Salome wants to hear more about Jesus."
+    },
+    {
+      "id": 29,
+      "words": [
+        {
           "greek": "λέγει",
-          "definition": "he says"
+          "definition": "says",
+          "translations": {
+            "es": "dice",
+            "pl": "mówi",
+            "fil": "sinasabi"
+          }
         },
         {
           "greek": "οὖν",
@@ -5395,24 +5857,187 @@
           }
         },
         {
-          "greek": "αὐτῇ·",
-          "definition": "to her"
+          "greek": "τῷ",
+          "definition": "to the",
+          "translations": {
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "Ἰακώβῳ·",
+          "definition": "Jacob (dat.)"
+        },
+        {
+          "greek": "\"ἆρα",
+          "definition": "(question particle)"
+        },
+        {
+          "greek": "δύνασαι",
+          "definition": "are you able"
+        },
+        {
+          "greek": "διδάσκειν",
+          "definition": "to teach"
+        },
+        {
+          "greek": "με",
+          "definition": "me"
+        },
+        {
+          "greek": "πλέον",
+          "definition": "more"
+        },
+        {
+          "greek": "περὶ",
+          "definition": "about"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "Ἰησοῦ;",
+          "definition": "Jesus (gen.)"
+        },
+        {
+          "greek": "ἀρέσκει",
+          "definition": "it pleases"
+        },
+        {
+          "greek": "μοι",
+          "definition": "me, to me"
+        },
+        {
+          "greek": "ἀκούειν",
+          "definition": "to hear"
+        },
+        {
+          "greek": "περὶ",
+          "definition": "about"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "Ἰησοῦ",
+          "definition": "Jesus (gen.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "μανθάνειν.\"",
+          "definition": "to learn"
+        }
+      ],
+      "translation": "She says then to Jacob: \"Are you able to teach me more about Jesus? It pleases me to hear about Jesus and to learn.\""
+    },
+    {
+      "id": 30,
+      "words": [
+        {
+          "greek": "ἀποκρίνεται",
+          "definition": "answers"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "Ἰάκωβος·",
+          "definition": "Jacob"
         },
         {
           "greek": "\"ναί,",
           "definition": "yes"
         },
         {
-          "greek": "ὦ",
-          "definition": "O"
+          "greek": "δύναμαι",
+          "definition": "I am able"
         },
         {
-          "greek": "Σαλώμη,",
-          "definition": "Salome"
+          "greek": "λέγειν",
+          "definition": "to say"
         },
         {
-          "greek": "πάλιν",
-          "definition": "again"
+          "greek": "σοι",
+          "definition": "to you"
+        },
+        {
+          "greek": "περὶ",
+          "definition": "about"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "Ἰησοῦ.",
+          "definition": "Jesus (gen.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "χαίρω",
+          "definition": "I rejoice"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because/that"
+        },
+        {
+          "greek": "ἀρέσκει",
+          "definition": "it pleases"
+        },
+        {
+          "greek": "σοι",
+          "definition": "to you"
+        },
+        {
+          "greek": "ἀκούειν",
+          "definition": "to hear"
+        },
+        {
+          "greek": "περὶ",
+          "definition": "about"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "Ἰησοῦ.",
+          "definition": "Jesus (gen.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "λέγω",
@@ -5432,11 +6057,1124 @@
           "definition": "so that"
         },
         {
-          "greek": "γινώσκῃς.",
-          "definition": "you may know"
+          "greek": "μανθάνῃς.\"",
+          "definition": "you may learn"
+        }
+      ],
+      "translation": "Jacob answers: \"Yes, I am able to speak to you about Jesus. And I rejoice that it pleases you to hear about Jesus. And I speak to you so that you may learn.\""
+    },
+    {
+      "id": 31,
+      "words": [
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ὁ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "Ἰάκωβος",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "looks at, sees"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc.pl)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἀγροὺς",
+          "definition": "fields (acc.)"
+        },
+        {
+          "greek": "περὶ",
+          "definition": "about"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "πηγήν,",
+          "definition": "spring (acc.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "looks at, sees"
+        },
+        {
+          "greek": "ἄμπελον",
+          "definition": "vine"
+        },
+        {
+          "greek": "ἐγγὺς",
+          "definition": "near"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ὁδοῦ.",
+          "definition": "road (gen.)"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἄμπελος",
+          "definition": "vine"
+        },
+        {
+          "greek": "ἔχει",
+          "definition": "has"
+        },
+        {
+          "greek": "πολλὰ",
+          "definition": "many"
+        },
+        {
+          "greek": "κλήματα,",
+          "definition": "branches"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the (neut.pl)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "κλήματα",
+          "definition": "branches"
+        },
+        {
+          "greek": "φέρουσιν",
+          "definition": "they bear"
+        },
+        {
+          "greek": "πολὺν",
+          "definition": "much"
+        },
+        {
+          "greek": "καρπόν.",
+          "definition": "fruit"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says",
+          "translations": {
+            "es": "dice",
+            "pl": "mówi",
+            "fil": "sinasabi"
+          }
+        },
+        {
+          "greek": "οὖν·",
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
+        },
+        {
+          "greek": "\"ἆρα",
+          "definition": "(question particle)"
+        },
+        {
+          "greek": "βλέπεις",
+          "definition": "do you see"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἄμπελον",
+          "definition": "vine"
+        },
+        {
+          "greek": "ἐκείνην,",
+          "definition": "that (one, acc.)"
+        },
+        {
+          "greek": "ἣ",
+          "definition": "which (rel.pron.)"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
+        },
+        {
+          "greek": "ἐγγὺς",
+          "definition": "near"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "πηγῆς;",
+          "definition": "spring (gen.)"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἄμπελος",
+          "definition": "vine"
+        },
+        {
+          "greek": "ἔχει",
+          "definition": "has"
+        },
+        {
+          "greek": "κλήματα.",
+          "definition": "branches"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the (neut.pl)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "κλήματα,",
+          "definition": "branches"
+        },
+        {
+          "greek": "ἃ",
+          "definition": "which (neut.pl rel.pron.)"
+        },
+        {
+          "greek": "μένει",
+          "definition": "remains"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "τῇ",
+          "definition": "the (dat.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἀμπέλῳ,",
+          "definition": "vine (dat.)"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "bears"
+        },
+        {
+          "greek": "πολὺν",
+          "definition": "much"
+        },
+        {
+          "greek": "καρπόν.\"",
+          "definition": "fruit"
+        }
+      ],
+      "translation": "And Jacob looks at the fields around the spring, and he sees a vine near the road. The vine has many branches, and the branches bear much fruit. He says then: \"Do you see that vine, which is near the spring? The vine has branches. And the branches, which remain in the vine, bear much fruit.\"",
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ἔχω — to have",
+        "rows": [
+          {
+            "greek": "ἔχω",
+            "label": "1s"
+          },
+          {
+            "greek": "ἔχει",
+            "label": "3s"
+          },
+          {
+            "greek": "ἔχομεν",
+            "label": "1pl"
+          },
+          {
+            "greek": "ἔχουσιν",
+            "label": "3pl"
+          }
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "words": [
+        {
+          "greek": "ἀποκρίνεται",
+          "definition": "answers"
+        },
+        {
+          "greek": "Σαλώμη·",
+          "definition": "Salome"
+        },
+        {
+          "greek": "\"ναί,",
+          "definition": "yes"
+        },
+        {
+          "greek": "βλέπω.\"",
+          "definition": "I see"
+        }
+      ],
+      "translation": "Salome answers: \"Yes, I see.\""
+    },
+    {
+      "id": 33,
+      "words": [
+        {
+          "greek": "\"ἄκουε,",
+          "definition": "listen!"
+        },
+        {
+          "greek": "ὦ",
+          "definition": "O"
+        },
+        {
+          "greek": "Σαλώμη,\"",
+          "definition": "Salome"
+        },
+        {
+          "greek": "φησίν.",
+          "definition": "says"
+        },
+        {
+          "greek": "\"ἐὰν",
+          "definition": "if"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "κλῆμα",
+          "definition": "branch"
+        },
+        {
+          "greek": "μένῃ",
+          "definition": "remains"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "τῇ",
+          "definition": "the (dat.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἀμπέλῳ,",
+          "definition": "vine (dat.)"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "bears"
+        },
+        {
+          "greek": "καρπόν·",
+          "definition": "fruit"
+        },
+        {
+          "greek": "ἐὰν",
+          "definition": "if"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and/but",
+          "translations": {
+            "es": "y/pero",
+            "pl": "i/ale",
+            "fil": "at/ngunit"
+          }
+        },
+        {
+          "greek": "μὴ",
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
+        },
+        {
+          "greek": "μένῃ",
+          "definition": "remains"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "τῇ",
+          "definition": "the (dat.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἀμπέλῳ,",
+          "definition": "vine (dat.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
+        },
+        {
+          "greek": "δύναται",
+          "definition": "is able"
+        },
+        {
+          "greek": "φέρειν",
+          "definition": "to bear"
+        },
+        {
+          "greek": "καρπόν.",
+          "definition": "fruit"
+        },
+        {
+          "greek": "χωρὶς",
+          "definition": "apart from, without"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for",
+          "translations": {
+            "es": "pues",
+            "pl": "bowiem",
+            "fil": "sapagkat"
+          }
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἀμπέλου",
+          "definition": "vine (gen.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "κλῆμα",
+          "definition": "branch"
+        },
+        {
+          "greek": "οὐδέν",
+          "definition": "nothing"
+        },
+        {
+          "greek": "ἐστιν.",
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "ὅταν",
+          "definition": "whenever"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "κλῆμα",
+          "definition": "branch"
+        },
+        {
+          "greek": "μένῃ",
+          "definition": "remains"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "τῇ",
+          "definition": "the (dat.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἀμπέλῳ,",
+          "definition": "vine (dat.)"
+        },
+        {
+          "greek": "ζῇ",
+          "definition": "lives"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "αὐξάνει",
+          "definition": "grows"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "φέρει",
+          "definition": "bears"
+        },
+        {
+          "greek": "καρπόν·",
+          "definition": "fruit"
+        },
+        {
+          "greek": "ὅταν",
+          "definition": "whenever"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and/but",
+          "translations": {
+            "es": "y/pero",
+            "pl": "i/ale",
+            "fil": "at/ngunit"
+          }
+        },
+        {
+          "greek": "μὴ",
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
+        },
+        {
+          "greek": "μένῃ,",
+          "definition": "remains"
+        },
+        {
+          "greek": "οὐκ",
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
+        },
+        {
+          "greek": "αὐξάνει",
+          "definition": "grows"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
+        },
+        {
+          "greek": "ἀποθνῄσκει.\"",
+          "definition": "dies"
+        }
+      ],
+      "translation": "\"Listen, O Salome,\" he says. \"If the branch remains in the vine, it bears fruit; but if it does not remain in the vine, it is not able to bear fruit. For apart from the vine the branch is nothing. And whenever the branch remains in the vine, it lives and grows and bears fruit; but whenever it does not remain, it does not grow but dies.\""
+    },
+    {
+      "id": 34,
+      "words": [
+        {
+          "greek": "ἡ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and/but",
+          "translations": {
+            "es": "y/pero",
+            "pl": "i/ale",
+            "fil": "at/ngunit"
+          }
+        },
+        {
+          "greek": "Σαλώμη",
+          "definition": "Salome"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "looks at, sees"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἄμπελον",
+          "definition": "vine"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the (neut.pl)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "κλήματα.",
+          "definition": "branches"
+        },
+        {
+          "greek": "\"τοῦτο",
+          "definition": "this"
+        },
+        {
+          "greek": "συνίημι,\"",
+          "definition": "I understand"
+        },
+        {
+          "greek": "φησίν.",
+          "definition": "says"
+        },
+        {
+          "greek": "\"τὸ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "κλῆμα",
+          "definition": "branch"
+        },
+        {
+          "greek": "ζῇ",
+          "definition": "lives"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "αὐξάνει",
+          "definition": "grows"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "τῇ",
+          "definition": "the (dat.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἀμπέλῳ.",
+          "definition": "vine (dat.)"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
+        },
+        {
+          "greek": "τί",
+          "definition": "what"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says",
+          "translations": {
+            "es": "dice",
+            "pl": "mówi",
+            "fil": "sinasabi"
+          }
+        },
+        {
+          "greek": "τοῦτο",
+          "definition": "this"
+        },
+        {
+          "greek": "περὶ",
+          "definition": "about"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "Ἰησοῦ;\"",
+          "definition": "Jesus (gen.)"
+        }
+      ],
+      "translation": "Salome looks at the vine and the branches. \"This I understand,\" she says. \"The branch lives and grows in the vine. But what does this say about Jesus?\""
+    },
+    {
+      "id": 35,
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and/but",
+          "translations": {
+            "es": "y/pero",
+            "pl": "i/ale",
+            "fil": "at/ngunit"
+          }
+        },
+        {
+          "greek": "Ἰάκωβος",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "χαίρει·",
+          "definition": "rejoices"
+        },
+        {
+          "greek": "\"καλῶς",
+          "definition": "well, rightly"
+        },
+        {
+          "greek": "ἐρωτᾷς,",
+          "definition": "you ask"
+        },
+        {
+          "greek": "ὦ",
+          "definition": "O"
+        },
+        {
+          "greek": "Σαλώμη.",
+          "definition": "Salome"
+        },
+        {
+          "greek": "λέγω",
+          "definition": "I say",
+          "translations": {
+            "es": "yo digo",
+            "pl": "mówię",
+            "fil": "sinasabi ko"
+          }
+        },
+        {
+          "greek": "τοῦτο",
+          "definition": "this"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because/that"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "Ἰησοῦς",
+          "definition": "Jesus"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says",
+          "translations": {
+            "es": "dice",
+            "pl": "mówi",
+            "fil": "sinasabi"
+          }
+        },
+        {
+          "greek": "ἐγώ",
+          "definition": "I",
+          "translations": {
+            "es": "yo",
+            "pl": "ja",
+            "fil": "ako"
+          }
+        },
+        {
+          "greek": "εἰμι",
+          "definition": "I am",
+          "translations": {
+            "es": "yo soy",
+            "pl": "jestem",
+            "fil": "ako ay"
+          }
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἄμπελος",
+          "definition": "vine"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἀληθινὴ",
+          "definition": "true"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "πατήρ",
+          "definition": "father"
+        },
+        {
+          "greek": "μου",
+          "definition": "my"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "γεωργός",
+          "definition": "farmer",
+          "translations": {
+            "es": "campesino",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
+        },
+        {
+          "greek": "ἐστιν.\"",
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
+        }
+      ],
+      "translation": "Jacob rejoices: \"You ask well, O Salome. I say this because Jesus says: I am the true vine and my Father is the farmer.\"",
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "ἀληθινός",
+            "b": "ψευδής"
+          }
+        ]
+      }
+    },
+    {
+      "id": 36,
+      "words": [
+        {
+          "greek": "λέγει",
+          "definition": "says",
+          "translations": {
+            "es": "dice",
+            "pl": "mówi",
+            "fil": "sinasabi"
+          }
+        },
+        {
+          "greek": "Σαλώμη·",
+          "definition": "Salome"
+        },
+        {
+          "greek": "\"ἀλλὰ",
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
+        },
+        {
+          "greek": "τί",
+          "definition": "what"
+        },
+        {
+          "greek": "σημαίνει",
+          "definition": "does it mean"
+        },
+        {
+          "greek": "τοῦτο;\"",
+          "definition": "this"
+        }
+      ],
+      "translation": "Salome says: \"But what does this mean?\""
+    },
+    {
+      "id": 37,
+      "words": [
+        {
+          "greek": "ἀποκρίνεται",
+          "definition": "answers"
+        },
+        {
+          "greek": "Ἰάκωβος·",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "\"ναί!\"",
+          "definition": "yes!"
+        },
+        {
+          "greek": "φησίν.",
+          "definition": "says"
+        },
+        {
+          "greek": "\"ὁ",
           "definition": "the",
           "translations": {
             "es": "el/la",
@@ -5458,6 +7196,271 @@
           }
         },
         {
+          "greek": "ἡ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἄμπελος",
+          "definition": "vine"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἀληθινή,",
+          "definition": "true"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "ἡμεῖς",
+          "definition": "we"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (masc.pl)",
+          "translations": {
+            "es": "los",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "χριστιανοί",
+          "definition": "Christians"
+        },
+        {
+          "greek": "ἐσμεν",
+          "definition": "we are"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the (neut.pl)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "κλήματα.",
+          "definition": "branches"
+        },
+        {
+          "greek": "ἐὰν",
+          "definition": "if"
+        },
+        {
+          "greek": "μένωμεν",
+          "definition": "we remain"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to the",
+          "translations": {
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "Ἰησοῦ,",
+          "definition": "Jesus (gen.)"
+        },
+        {
+          "greek": "φέρομεν",
+          "definition": "we bear"
+        },
+        {
+          "greek": "πολὺν",
+          "definition": "much"
+        },
+        {
+          "greek": "καρπόν.",
+          "definition": "fruit"
+        },
+        {
+          "greek": "ἐὰν",
+          "definition": "if"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and/but",
+          "translations": {
+            "es": "y/pero",
+            "pl": "i/ale",
+            "fil": "at/ngunit"
+          }
+        },
+        {
+          "greek": "μὴ",
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
+        },
+        {
+          "greek": "μένωμεν",
+          "definition": "we remain"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "αὐτῷ,",
+          "definition": "him (dat.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
+        },
+        {
+          "greek": "δυνάμεθα",
+          "definition": "we are able"
+        },
+        {
+          "greek": "ποιεῖν",
+          "definition": "to do"
+        },
+        {
+          "greek": "οὐδέν·",
+          "definition": "nothing"
+        },
+        {
+          "greek": "χωρὶς",
+          "definition": "apart from, without"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for",
+          "translations": {
+            "es": "pues",
+            "pl": "bowiem",
+            "fil": "sapagkat"
+          }
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "him (gen.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
+        },
+        {
+          "greek": "δυνάμεθα",
+          "definition": "we are able"
+        },
+        {
+          "greek": "φέρειν",
+          "definition": "to bear"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.masc.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "καρπόν,",
+          "definition": "fruit"
+        },
+        {
+          "greek": "ὥσπερ",
+          "definition": "just as"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "κλῆμα",
+          "definition": "branch"
+        },
+        {
+          "greek": "χωρὶς",
+          "definition": "apart from, without"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἀμπέλου.",
+          "definition": "vine (gen.)"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because/that"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
           "greek": "ὁ",
           "definition": "the",
           "translations": {
@@ -5467,33 +7470,554 @@
           }
         },
         {
-          "greek": "υἱὸς",
-          "definition": "son"
+          "greek": "Ἰησοῦς",
+          "definition": "Jesus"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says",
+          "translations": {
+            "es": "dice",
+            "pl": "mówi",
+            "fil": "sinasabi"
+          }
+        },
+        {
+          "greek": "ἐγώ",
+          "definition": "I",
+          "translations": {
+            "es": "yo",
+            "pl": "ja",
+            "fil": "ako"
+          }
+        },
+        {
+          "greek": "εἰμι",
+          "definition": "I am",
+          "translations": {
+            "es": "yo soy",
+            "pl": "jestem",
+            "fil": "ako ay"
+          }
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἄμπελος,",
+          "definition": "vine"
+        },
+        {
+          "greek": "ὑμεῖς",
+          "definition": "you (pl.)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the (neut.pl)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "κλήματα.",
+          "definition": "branches"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἄνθρωπος",
+          "definition": "a person",
+          "translations": {
+            "es": "una persona",
+            "pl": "osoba",
+            "fil": "isang tao"
+          }
+        },
+        {
+          "greek": "ὃς",
+          "definition": "who (rel. pron.)"
+        },
+        {
+          "greek": "μένει",
+          "definition": "remains"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "ἐμοὶ",
+          "definition": "me (dat.)"
+        },
+        {
+          "greek": "κἀγὼ",
+          "definition": "and I"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "αὐτῷ,",
+          "definition": "him (dat.)"
+        },
+        {
+          "greek": "οὗτος",
+          "definition": "this one"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "bears"
+        },
+        {
+          "greek": "καρπὸν",
+          "definition": "fruit"
+        },
+        {
+          "greek": "πολύν,",
+          "definition": "much"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because/that"
+        },
+        {
+          "greek": "χωρὶς",
+          "definition": "apart from, without"
+        },
+        {
+          "greek": "ἐμοῦ",
+          "definition": "me (gen.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
+        },
+        {
+          "greek": "δύνασθε",
+          "definition": "you (pl.) are able"
+        },
+        {
+          "greek": "ποιεῖν",
+          "definition": "to do"
+        },
+        {
+          "greek": "οὐδέν.\"",
+          "definition": "nothing"
+        }
+      ],
+      "translation": "Jacob answers: \"Yes!\" he says. \"Jesus is the true vine, and we Christians are the branches. If we remain in Jesus, we bear much fruit. But if we do not remain in him, we are not able to do anything; for apart from him we are not able to bear fruit, just as the branch [cannot] apart from the vine. For Jesus also says: I am the vine, you are the branches. The person who remains in me and I in him, he bears much fruit, because apart from me you are not able to do anything.\""
+    },
+    {
+      "id": 38,
+      "words": [
+        {
+          "greek": "θαυμάζει",
+          "definition": "marvels"
+        },
+        {
+          "greek": "Σαλώμη",
+          "definition": "Salome"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "ἐρωτᾷ",
+          "definition": "asks"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.masc.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "Ἰάκωβον·",
+          "definition": "Jacob (acc.)"
+        },
+        {
+          "greek": "\"ἀλλὰ",
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
+        },
+        {
+          "greek": "τί",
+          "definition": "what"
+        },
+        {
+          "greek": "γίνεται",
+          "definition": "happens"
+        },
+        {
+          "greek": "ἐὰν",
+          "definition": "if"
+        },
+        {
+          "greek": "μὴ",
+          "definition": "not",
+          "translations": {
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
+          }
+        },
+        {
+          "greek": "μένωμεν",
+          "definition": "we remain"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to the",
+          "translations": {
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "Ἰησοῦ;\"",
+          "definition": "Jesus (gen.)"
+        }
+      ],
+      "translation": "Salome marvels and asks Jacob: \"But what happens if we do not remain in Jesus?\""
+    },
+    {
+      "id": 39,
+      "words": [
+        {
+          "greek": "λέγει",
+          "definition": "says",
+          "translations": {
+            "es": "dice",
+            "pl": "mówi",
+            "fil": "sinasabi"
+          }
+        },
+        {
+          "greek": "Ἰάκωβος·",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "\"ἐκεῖνό",
+          "definition": "that"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
+        },
+        {
+          "greek": "ὥσπερ",
+          "definition": "just as"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to the",
+          "translations": {
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "ἀγρῷ·",
+          "definition": "field (dat.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer",
+          "translations": {
+            "es": "campesino",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
+        },
+        {
+          "greek": "ἐκκόπτει",
+          "definition": "cuts off"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "κλῆμα",
+          "definition": "branch"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "from, out of"
         },
         {
           "greek": "τοῦ",
           "definition": "of the"
         },
         {
-          "greek": "θεοῦ,",
-          "definition": "God",
+          "greek": "δένδρου,",
+          "definition": "tree (gen.)"
+        },
+        {
+          "greek": "ὃ",
+          "definition": "which (rel.pron.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not",
           "translations": {
-            "es": "Dios",
-            "pl": "Bóg",
-            "fil": "Diyos"
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
           }
         },
         {
-          "greek": "ὅς",
-          "definition": "who"
+          "greek": "φέρει",
+          "definition": "bears"
         },
         {
-          "greek": "ἐστιν",
-          "definition": "is",
+          "greek": "καρπόν,",
+          "definition": "fruit"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
           "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "βάλλει",
+          "definition": "throws"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into",
+          "translations": {
+            "es": "en",
+            "pl": "do",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "πῦρ.",
+          "definition": "fire"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but",
+          "translations": {
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
+          }
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "κλῆμα",
+          "definition": "branch"
+        },
+        {
+          "greek": "ὃ",
+          "definition": "which (rel.pron.)"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "bears"
+        },
+        {
+          "greek": "καρπόν,",
+          "definition": "fruit"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer",
+          "translations": {
+            "es": "campesino",
+            "pl": "rolnik",
+            "fil": "magsasaka"
+          }
+        },
+        {
+          "greek": "καθαίρει",
+          "definition": "prunes, purifies"
+        },
+        {
+          "greek": "αὐτὸ",
+          "definition": "it"
+        },
+        {
+          "greek": "ἵνα",
+          "definition": "so that"
+        },
+        {
+          "greek": "φέρῃ",
+          "definition": "may bear"
+        },
+        {
+          "greek": "πολὺν",
+          "definition": "much"
+        },
+        {
+          "greek": "καρπόν.",
+          "definition": "fruit"
+        },
+        {
+          "greek": "ἐὰν",
+          "definition": "if"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore",
+          "translations": {
+            "es": "por lo tanto",
+            "pl": "zatem",
+            "fil": "kaya"
+          }
+        },
+        {
+          "greek": "ἡμεῖς",
+          "definition": "we"
+        },
+        {
+          "greek": "μένωμεν",
+          "definition": "we remain"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in",
+          "translations": {
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to the",
+          "translations": {
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
+          }
+        },
+        {
+          "greek": "Ἰησοῦ",
+          "definition": "Jesus (gen.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
           }
         },
         {
@@ -5506,34 +8030,37 @@
           }
         },
         {
-          "greek": "χριστός.",
-          "definition": "Christ"
+          "greek": "Ἰησοῦς",
+          "definition": "Jesus"
         },
         {
-          "greek": "αὐτός",
-          "definition": "he himself"
-        },
-        {
-          "greek": "ἐστιν",
-          "definition": "is",
+          "greek": "ἐν",
+          "definition": "in",
           "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
+            "es": "en",
+            "pl": "w",
+            "fil": "sa"
           }
         },
         {
-          "greek": "ἡ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
+          "greek": "ἡμῖν,",
+          "definition": "us (dat.)"
         },
         {
-          "greek": "ὁδὸς",
-          "definition": "way"
+          "greek": "δυνάμεθα",
+          "definition": "we are able"
+        },
+        {
+          "greek": "φέρειν",
+          "definition": "to bear"
+        },
+        {
+          "greek": "πολὺν",
+          "definition": "much"
+        },
+        {
+          "greek": "καρπὸν",
+          "definition": "fruit"
         },
         {
           "greek": "καὶ",
@@ -5545,17 +8072,16 @@
           }
         },
         {
-          "greek": "ἡ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
+          "greek": "ζῶμεν",
+          "definition": "we live"
         },
         {
-          "greek": "ἀλήθεια",
-          "definition": "truth"
+          "greek": "μετὰ",
+          "definition": "after/with"
+        },
+        {
+          "greek": "χαρᾶς",
+          "definition": "joy (gen.)"
         },
         {
           "greek": "καὶ",
@@ -5567,47 +8093,80 @@
           }
         },
         {
-          "greek": "ἡ",
-          "definition": "the",
+          "greek": "εἰρήνης.\"",
+          "definition": "peace (gen.)"
+        }
+      ],
+      "translation": "Jacob says: \"That is just like it is in the field; the farmer cuts off the branch from the vine which does not bear fruit, and throws it into the fire. But the branch which bears fruit, the farmer prunes it so that it may bear much fruit. If then we remain in Jesus and Jesus in us, we are able to bear much fruit and we live with joy and peace.\""
+    },
+    {
+      "id": 40,
+      "words": [
+        {
+          "greek": "ἀποκρίνεται",
+          "definition": "answers"
+        },
+        {
+          "greek": "Σαλώμη·",
+          "definition": "Salome"
+        },
+        {
+          "greek": "\"νῦν",
+          "definition": "now",
           "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
+            "es": "ahora",
+            "pl": "teraz",
+            "fil": "ngayon"
           }
         },
         {
-          "greek": "ζωή.",
-          "definition": "life",
+          "greek": "θαυμάζω",
+          "definition": "I marvel"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because/that"
+        },
+        {
+          "greek": "οὐδέποτε",
+          "definition": "never"
+        },
+        {
+          "greek": "ἐγὼ",
+          "definition": "I",
           "translations": {
-            "es": "vida",
-            "pl": "życie",
-            "fil": "buhay"
+            "es": "yo",
+            "pl": "ja",
+            "fil": "ako"
           }
         },
         {
-          "greek": "οὐδεὶς",
-          "definition": "no one"
+          "greek": "οἶδα",
+          "definition": "I know"
         },
         {
-          "greek": "ἔρχεται",
-          "definition": "comes"
+          "greek": "τοῦτο.",
+          "definition": "this"
         },
         {
-          "greek": "πρὸς",
-          "definition": "to"
+          "greek": "μόνον",
+          "definition": "only"
         },
         {
-          "greek": "τὸν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
+          "greek": "οἶδα",
+          "definition": "I know"
         },
         {
-          "greek": "θεὸν",
-          "definition": "God",
+          "greek": "περὶ",
+          "definition": "about"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "θεοῦ",
+          "definition": "God (gen.)",
           "translations": {
             "es": "Dios",
             "pl": "Bóg",
@@ -5615,42 +8174,12 @@
           }
         },
         {
-          "greek": "τὸν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "πατέρα",
-          "definition": "Father (accusative)"
-        },
-        {
-          "greek": "εἰ",
-          "definition": "except"
-        },
-        {
-          "greek": "μὴ",
-          "definition": "(with εἰ) except"
-        },
-        {
-          "greek": "διὰ",
-          "definition": "through"
-        },
-        {
           "greek": "τοῦ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
+          "definition": "of the"
         },
         {
-          "greek": "Ἰησοῦ.",
-          "definition": "Jesus"
+          "greek": "Ἀβραὰμ",
+          "definition": "Abraham"
         },
         {
           "greek": "καὶ",
@@ -5662,8 +8191,83 @@
           }
         },
         {
-          "greek": "αὐτός",
-          "definition": "he"
+          "greek": "Ἰσαὰκ",
+          "definition": "Isaac"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "Ἰακὼβ",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "Δαυίδ.\"",
+          "definition": "David"
+        }
+      ],
+      "translation": "Salome answers: \"Now I marvel that I have never known this. I only know about the God of Abraham and Isaac and Jacob and David.\""
+    },
+    {
+      "id": 41,
+      "words": [
+        {
+          "greek": "λέγει",
+          "definition": "says",
+          "translations": {
+            "es": "dice",
+            "pl": "mówi",
+            "fil": "sinasabi"
+          }
+        },
+        {
+          "greek": "Ἰάκωβος·",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "\"νῦν",
+          "definition": "now",
+          "translations": {
+            "es": "ahora",
+            "pl": "teraz",
+            "fil": "ngayon"
+          }
+        },
+        {
+          "greek": "οἶδας",
+          "definition": "you know"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because/that"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "Ἰησοῦς",
+          "definition": "Jesus"
         },
         {
           "greek": "ἐστιν",
@@ -5694,51 +8298,28 @@
         },
         {
           "greek": "τῆς",
-          "definition": "of"
-        },
-        {
-          "greek": "ζωῆς·",
-          "definition": "life",
+          "definition": "the (gen.)",
           "translations": {
-            "es": "vida",
-            "pl": "życie",
-            "fil": "buhay"
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
           }
         },
         {
-          "greek": "ὅστις",
-          "definition": "whoever"
+          "greek": "ζωῆς",
+          "definition": "life (gen.)"
         },
         {
-          "greek": "πιστεύει",
-          "definition": "believes"
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
-          "greek": "αὐτῷ",
-          "definition": "in him"
-        },
-        {
-          "greek": "οὐκέτι",
-          "definition": "no longer"
-        },
-        {
-          "greek": "πεινᾷ",
-          "definition": "is hungry"
-        },
-        {
-          "greek": "οὐδὲ",
-          "definition": "nor"
-        },
-        {
-          "greek": "διψᾷ",
-          "definition": "is thirsty"
-        },
-        {
-          "greek": "εἰς",
-          "definition": "into"
-        },
-        {
-          "greek": "τὸν",
+          "greek": "ἡ",
           "definition": "the",
           "translations": {
             "es": "el/la",
@@ -5747,886 +8328,41 @@
           }
         },
         {
-          "greek": "αἰῶνα.\"",
-          "definition": "age, forever"
+          "greek": "ἄμπελος",
+          "definition": "vine"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ἀληθινή.\"",
+          "definition": "true"
         }
       ],
-      "translation": "Jacob greatly rejoices in his heart because Salome wants to hear. He says therefore to her: \"Yes, O Salome, I say again to you so that you may know. Jesus is the Son of God, who is the Christ. He himself is the way and the truth and the life. No one comes to God the Father except through Jesus. And he himself is the bread of life; whoever believes in him will no longer be hungry nor thirsty forever.\"",
-      "translations": {
-        "es": "Jacob se alegra mucho en su corazón porque Salomé quiere escuchar. Dice entonces: '¿Ves ese pastor y sus ovejas?'",
-        "pl": "Jakub bardzo się cieszy w sercu, bo Salome chce słuchać. Mówi więc: «Czy widzisz tego pasterza i jego owce?»",
-        "fil": "Lubos na nagagalak si Jacob sa kanyang puso dahil gusto ni Salome na makinig. Sinabi niya kung gayon: 'Nakikita mo ba ang pastol na iyon at ang kanyang mga tupa?'"
-      },
-      "sideNote": {
-        "type": "paradigm",
-        "title": "λέγω — to say",
-        "rows": [
-          {
-            "greek": "λέγω",
-            "label": "1s"
-          },
-          {
-            "greek": "λέγει",
-            "label": "3s"
-          }
-        ]
-      }
+      "translation": "Jacob says: \"Now you know that Jesus is the bread of life and the true vine.\""
     },
     {
-      "id": 28,
+      "id": 42,
       "words": [
-        {
-          "greek": "ἐν",
-          "definition": "on"
-        },
-        {
-          "greek": "δὲ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "τῇ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ὁδῷ",
-          "definition": "road"
-        },
-        {
-          "greek": "ἐγγὺς",
-          "definition": "near"
-        },
-        {
-          "greek": "τῆς",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "πηγῆς",
-          "definition": "spring"
-        },
-        {
-          "greek": "εἰσιν",
-          "definition": "are"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ποιμὴν",
-          "definition": "shepherd"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "τὰ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "πρόβατα.",
-          "definition": "sheep"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "μὲν",
-          "definition": "(on one hand)"
-        },
-        {
-          "greek": "ποιμὴν",
-          "definition": "shepherd"
-        },
-        {
-          "greek": "ἄγει",
-          "definition": "leads"
-        },
-        {
-          "greek": "τὰ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "πρόβατα.",
-          "definition": "sheep"
-        },
-        {
-          "greek": "τὰ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "δὲ",
-          "definition": "(on the other hand)"
-        },
-        {
-          "greek": "πρόβατα",
-          "definition": "sheep"
-        },
-        {
-          "greek": "ἀκολουθεῖ",
-          "definition": "follow"
-        },
-        {
-          "greek": "αὐτῷ.",
-          "definition": "him"
-        },
-        {
-          "greek": "βλέπει",
-          "definition": "sees",
-          "translations": {
-            "es": "ve",
-            "pl": "widzi",
-            "fil": "nakikita"
-          }
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "Ἰάκωβος",
-          "definition": "Jacob"
-        },
-        {
-          "greek": "τὰ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "πρόβατα",
-          "definition": "sheep"
-        },
-        {
-          "greek": "ἃ",
-          "definition": "which"
-        },
-        {
-          "greek": "ἐσθίει",
-          "definition": "eat"
-        },
-        {
-          "greek": "τὸν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "χόρτον",
-          "definition": "grass",
-          "translations": {
-            "es": "hierba",
-            "pl": "trawa",
-            "fil": "damo"
-          }
-        },
-        {
-          "greek": "ἐν",
-          "definition": "in",
-          "translations": {
-            "es": "en",
-            "pl": "w",
-            "fil": "sa"
-          }
-        },
-        {
-          "greek": "τῷ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἀγρῷ.",
-          "definition": "field",
-          "translations": {
-            "es": "campo",
-            "pl": "pole",
-            "fil": "bukid"
-          }
-        },
-        {
-          "greek": "βλέπει",
-          "definition": "sees",
-          "translations": {
-            "es": "ve",
-            "pl": "widzi",
-            "fil": "nakikita"
-          }
-        },
-        {
-          "greek": "καὶ",
-          "definition": "also",
-          "translations": {
-            "es": "también",
-            "pl": "też",
-            "fil": "din"
-          }
-        },
-        {
-          "greek": "τὸν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ποιμένα",
-          "definition": "shepherd (accusative)"
-        },
-        {
-          "greek": "ὅς",
-          "definition": "who"
-        },
-        {
-          "greek": "ἄγει",
-          "definition": "leads"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "φυλάσσει",
-          "definition": "guards"
-        },
-        {
-          "greek": "αὐτά.",
-          "definition": "them"
-        },
         {
           "greek": "λέγει",
-          "definition": "he says"
-        },
-        {
-          "greek": "οὖν",
-          "definition": "therefore",
+          "definition": "says",
           "translations": {
-            "es": "por lo tanto",
-            "pl": "zatem",
-            "fil": "kaya"
+            "es": "dice",
+            "pl": "mówi",
+            "fil": "sinasabi"
           }
         },
         {
-          "greek": "τῇ",
-          "definition": "to the",
-          "translations": {
-            "es": "al",
-            "pl": "do",
-            "fil": "sa"
-          }
-        },
-        {
-          "greek": "Σαλώμῃ·",
+          "greek": "Σαλώμη·",
           "definition": "Salome"
-        }
-      ],
-      "translation": "On the road near the spring are the shepherd and the sheep. The shepherd leads the sheep. The sheep follow him. Jacob sees the sheep which eat the grass in the field. He also sees the shepherd who leads and guards them. He says therefore to Salome:",
-      "translations": {
-        "es": "En el camino cerca del manantial están el pastor y las ovejas. El pastor guía a las ovejas.",
-        "pl": "Na drodze blisko źródła są pasterz i owce. Pasterz prowadzi owce.",
-        "fil": "Sa daan malapit sa bukal ay ang pastol at ang mga tupa. Inaaakay ng pastol ang mga tupa."
-      }
-    },
-    {
-      "id": 29,
-      "words": [
-        {
-          "greek": "\"βλέπεις",
-          "definition": "do you see"
         },
-        {
-          "greek": "τὰ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "πρόβατα",
-          "definition": "sheep"
-        },
-        {
-          "greek": "ταῦτα,",
-          "definition": "these"
-        },
-        {
-          "greek": "ἃ",
-          "definition": "which"
-        },
-        {
-          "greek": "ἐσθίει",
-          "definition": "eat"
-        },
-        {
-          "greek": "τὸν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "χόρτον;",
-          "definition": "grass",
-          "translations": {
-            "es": "hierba",
-            "pl": "trawa",
-            "fil": "damo"
-          }
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "βλέπεις",
-          "definition": "do you see"
-        },
-        {
-          "greek": "τὸν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ποιμένα",
-          "definition": "shepherd"
-        },
-        {
-          "greek": "ὅς",
-          "definition": "who"
-        },
-        {
-          "greek": "φυλάσσει",
-          "definition": "guards"
-        },
-        {
-          "greek": "αὐτά;",
-          "definition": "them"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "Ἰησοῦς",
-          "definition": "Jesus"
-        },
-        {
-          "greek": "ἐστιν",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ποιμὴν",
-          "definition": "shepherd"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "καλός.",
-          "definition": "good",
-          "translations": {
-            "es": "bueno",
-            "pl": "dobry",
-            "fil": "mabuti"
-          }
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "καλὸς",
-          "definition": "good",
-          "translations": {
-            "es": "bueno",
-            "pl": "dobry",
-            "fil": "mabuti"
-          }
-        },
-        {
-          "greek": "ποιμὴν",
-          "definition": "shepherd"
-        },
-        {
-          "greek": "γινώσκει",
-          "definition": "knows"
-        },
-        {
-          "greek": "τὰ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "πρόβατα",
-          "definition": "sheep"
-        },
-        {
-          "greek": "αὐτοῦ,",
-          "definition": "his"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "τὰ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "πρόβατα",
-          "definition": "sheep"
-        },
-        {
-          "greek": "γινώσκει",
-          "definition": "know"
-        },
-        {
-          "greek": "τὴν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "φωνὴν",
-          "definition": "voice"
-        },
-        {
-          "greek": "τοῦ",
-          "definition": "of the"
-        },
-        {
-          "greek": "ποιμένος.",
-          "definition": "shepherd"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "καλὸς",
-          "definition": "good",
-          "translations": {
-            "es": "bueno",
-            "pl": "dobry",
-            "fil": "mabuti"
-          }
-        },
-        {
-          "greek": "ποιμὴν",
-          "definition": "shepherd"
-        },
-        {
-          "greek": "τίθησιν",
-          "definition": "lays down"
-        },
-        {
-          "greek": "τὴν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ψυχὴν",
-          "definition": "soul, life"
-        },
-        {
-          "greek": "αὐτοῦ",
-          "definition": "his"
-        },
-        {
-          "greek": "ὑπὲρ",
-          "definition": "on behalf of"
-        },
-        {
-          "greek": "τῶν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "προβάτων·",
-          "definition": "sheep"
-        },
-        {
-          "greek": "οὐ",
-          "definition": "not",
-          "translations": {
-            "es": "no",
-            "pl": "nie",
-            "fil": "hindi"
-          }
-        },
-        {
-          "greek": "φεύγει",
-          "definition": "he flees"
-        },
-        {
-          "greek": "ὅταν",
-          "definition": "whenever"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "λύκος",
-          "definition": "wolf"
-        },
-        {
-          "greek": "ἔρχηται,",
-          "definition": "comes"
-        },
-        {
-          "greek": "ἀλλὰ",
-          "definition": "but",
-          "translations": {
-            "es": "pero",
-            "pl": "ale",
-            "fil": "ngunit"
-          }
-        },
-        {
-          "greek": "μένει",
-          "definition": "remains"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "φυλάσσει",
-          "definition": "guards"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "σῴζει",
-          "definition": "saves"
-        },
-        {
-          "greek": "αὐτά.",
-          "definition": "them"
-        },
-        {
-          "greek": "οὕτως",
-          "definition": "in this way"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "also",
-          "translations": {
-            "es": "también",
-            "pl": "też",
-            "fil": "din"
-          }
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "Ἰησοῦς",
-          "definition": "Jesus"
-        },
-        {
-          "greek": "τίθησιν",
-          "definition": "lays down"
-        },
-        {
-          "greek": "τὴν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ψυχὴν",
-          "definition": "life",
-          "translations": {
-            "es": "vida",
-            "pl": "życie",
-            "fil": "buhay"
-          }
-        },
-        {
-          "greek": "αὐτοῦ",
-          "definition": "his"
-        },
-        {
-          "greek": "ὑπὲρ",
-          "definition": "on behalf of"
-        },
-        {
-          "greek": "ἡμῶν,",
-          "definition": "us"
-        },
-        {
-          "greek": "διότι",
-          "definition": "because"
-        },
-        {
-          "greek": "ἀγαπᾷ",
-          "definition": "he loves"
-        },
-        {
-          "greek": "ἡμᾶς.",
-          "definition": "us"
-        },
-        {
-          "greek": "ἡμεῖς",
-          "definition": "we"
-        },
-        {
-          "greek": "ἐσμὲν",
-          "definition": "are"
-        },
-        {
-          "greek": "τὰ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "πρόβατα",
-          "definition": "sheep"
-        },
-        {
-          "greek": "αὐτοῦ,",
-          "definition": "his"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "αὐτός",
-          "definition": "he himself"
-        },
-        {
-          "greek": "ἐστιν",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ποιμὴν",
-          "definition": "shepherd"
-        },
-        {
-          "greek": "ἡμῶν.",
-          "definition": "our"
-        }
-      ],
-      "translation": "\"Do you see these sheep, which eat the grass? And do you see the shepherd who guards them? Jesus is the good shepherd. The good shepherd knows his sheep, and the sheep know the voice of the shepherd. The good shepherd lays down his life on behalf of the sheep; he does not flee when the wolf comes, but remains and guards and saves them. In the same way Jesus also lays down his life on behalf of us, because he loves us. We are his sheep, and he himself is our shepherd.\"",
-      "translations": {
-        "es": "'¿Ves estas ovejas, que comen la hierba? ¿Y ves al pastor que guarda a las ovejas?'",
-        "pl": "«Czy widzisz te owce, które jedzą trawę? I czy widzisz pasterza, który strzeże owiec?»",
-        "fil": "'Nakikita mo ba ang mga tupang ito, na kumakain ng damo? At nakikita mo ba ang pastol na nagbabantay ng mga tupa?'"
-      },
-      "sideNote": {
-        "type": "paradigm",
-        "title": "ποιμήν — shepherd",
-        "rows": [
-          {
-            "greek": "ποιμήν",
-            "label": "Nom."
-          },
-          {
-            "greek": "ποιμένος",
-            "label": "Gen."
-          },
-          {
-            "greek": "ποιμένα",
-            "label": "Acc."
-          }
-        ]
-      }
-    },
-    {
-      "id": 30,
-      "words": [
         {
           "greek": "\"ἀλλὰ",
           "definition": "but",
@@ -6637,153 +8373,6 @@
           }
         },
         {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "μισθωτὸς",
-          "definition": "hired worker"
-        },
-        {
-          "greek": "οὐκ",
-          "definition": "not",
-          "translations": {
-            "es": "no",
-            "pl": "nie",
-            "fil": "hindi"
-          }
-        },
-        {
-          "greek": "ἔστιν",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
-        },
-        {
-          "greek": "ὡς",
-          "definition": "like"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ποιμὴν",
-          "definition": "shepherd"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "καλός·",
-          "definition": "good",
-          "translations": {
-            "es": "bueno",
-            "pl": "dobry",
-            "fil": "mabuti"
-          }
-        },
-        {
-          "greek": "τὰ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "πρόβατα",
-          "definition": "sheep"
-        },
-        {
-          "greek": "οὐκ",
-          "definition": "not",
-          "translations": {
-            "es": "no",
-            "pl": "nie",
-            "fil": "hindi"
-          }
-        },
-        {
-          "greek": "ἐστιν",
-          "definition": "are"
-        },
-        {
-          "greek": "αὐτοῦ,",
-          "definition": "his"
-        },
-        {
-          "greek": "διὰ",
-          "definition": "for this"
-        },
-        {
-          "greek": "τοῦτο",
-          "definition": "reason"
-        },
-        {
-          "greek": "ὅταν",
-          "definition": "whenever"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "λύκος",
-          "definition": "wolf"
-        },
-        {
-          "greek": "ἔρχηται,",
-          "definition": "comes"
-        },
-        {
-          "greek": "βλέπει",
-          "definition": "he sees",
-          "translations": {
-            "es": "él ve",
-            "pl": "on widzi",
-            "fil": "nakikita niya"
-          }
-        },
-        {
-          "greek": "τὸν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "λύκον",
-          "definition": "wolf"
-        },
-        {
           "greek": "καὶ",
           "definition": "and",
           "translations": {
@@ -6793,257 +8382,12 @@
           }
         },
         {
-          "greek": "ἀφίησιν",
-          "definition": "leaves, abandons"
-        },
-        {
-          "greek": "τὰ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "πρόβατα",
-          "definition": "sheep"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "φεύγει.",
-          "definition": "flees"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "οὖν",
-          "definition": "therefore",
-          "translations": {
-            "es": "por lo tanto",
-            "pl": "zatem",
-            "fil": "kaya"
-          }
-        },
-        {
-          "greek": "λύκος",
-          "definition": "wolf"
-        },
-        {
-          "greek": "ἁρπάζει",
-          "definition": "seizes"
-        },
-        {
-          "greek": "αὐτὰ",
-          "definition": "them"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "σκορπίζει.",
-          "definition": "scatters"
-        },
-        {
-          "greek": "τοῦτο",
-          "definition": "this"
-        },
-        {
-          "greek": "γίνεται",
-          "definition": "happens"
+          "greek": "οἶδα",
+          "definition": "I know"
         },
         {
           "greek": "ὅτι",
-          "definition": "because"
-        },
-        {
-          "greek": "μισθωτός",
-          "definition": "a hireling"
-        },
-        {
-          "greek": "ἐστιν",
-          "definition": "he is"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "οὐ",
-          "definition": "not",
-          "translations": {
-            "es": "no",
-            "pl": "nie",
-            "fil": "hindi"
-          }
-        },
-        {
-          "greek": "ἀγαπᾷ",
-          "definition": "he loves"
-        },
-        {
-          "greek": "τὰ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "πρόβατα",
-          "definition": "sheep"
-        },
-        {
-          "greek": "ὥσπερ",
-          "definition": "just as"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ποιμὴν",
-          "definition": "shepherd"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "καλός.\"",
-          "definition": "good",
-          "translations": {
-            "es": "bueno",
-            "pl": "dobry",
-            "fil": "mabuti"
-          }
-        }
-      ],
-      "translation": "\"But the hired worker is not like the good shepherd; the sheep are not his, therefore when the wolf comes, he sees the wolf and abandons the sheep and flees. The wolf therefore seizes them and scatters them. This happens because he is a hireling and does not love the sheep as the good shepherd does.\"",
-      "translations": {
-        "es": "'Pero el jornalero no es como el buen pastor; las ovejas no son suyas, por eso cuando ve al lobo, huye.'",
-        "pl": "«Ale najemnik nie jest jak dobry pasterz; owce nie są jego, dlatego gdy widzi wilka, ucieka.»",
-        "fil": "'Ngunit ang manggagawa ay hindi tulad ng mabuting pastol; hindi kanya ang mga tupa, kaya kapag nakita niya ang lobo, tumakas siya.'"
-      }
-    },
-    {
-      "id": 31,
-      "words": [
-        {
-          "greek": "\"οὐ",
-          "definition": "not",
-          "translations": {
-            "es": "no",
-            "pl": "nie",
-            "fil": "hindi"
-          }
-        },
-        {
-          "greek": "μόνον",
-          "definition": "only"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ποιμὴν",
-          "definition": "shepherd"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "καλός",
-          "definition": "good",
-          "translations": {
-            "es": "bueno",
-            "pl": "dobry",
-            "fil": "mabuti"
-          }
-        },
-        {
-          "greek": "ἐστιν",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "Ἰησοῦς",
-          "definition": "Jesus"
-        },
-        {
-          "greek": "ἀλλὰ",
-          "definition": "but also"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
+          "definition": "because/that"
         },
         {
           "greek": "ἡ",
@@ -7055,31 +8399,23 @@
           }
         },
         {
-          "greek": "θύρα",
-          "definition": "door"
+          "greek": "γραφὴ",
+          "definition": "Scripture"
         },
         {
-          "greek": "τῶν",
-          "definition": "of the"
+          "greek": "διδάσκει",
+          "definition": "teaches"
         },
         {
-          "greek": "προβάτων.",
-          "definition": "sheep"
+          "greek": "ἡμᾶς",
+          "definition": "us (acc.)"
         },
         {
-          "greek": "ὅστις",
-          "definition": "whoever"
+          "greek": "ὅτι",
+          "definition": "because/that"
         },
         {
-          "greek": "εἰσέρχεται",
-          "definition": "enters"
-        },
-        {
-          "greek": "διὰ",
-          "definition": "through"
-        },
-        {
-          "greek": "τοῦ",
+          "greek": "ὁ",
           "definition": "the",
           "translations": {
             "es": "el/la",
@@ -7088,15 +8424,20 @@
           }
         },
         {
-          "greek": "Ἰησοῦ,",
-          "definition": "Jesus"
+          "greek": "θεὸς",
+          "definition": "God",
+          "translations": {
+            "es": "Dios",
+            "pl": "Bóg",
+            "fil": "Diyos"
+          }
         },
         {
-          "greek": "τοῦτό",
-          "definition": "this"
+          "greek": "εἷς",
+          "definition": "one"
         },
         {
-          "greek": "ἐστιν",
+          "greek": "ἐστιν.",
           "definition": "is",
           "translations": {
             "es": "es",
@@ -7105,133 +8446,8 @@
           }
         },
         {
-          "greek": "διὰ",
-          "definition": "through"
-        },
-        {
-          "greek": "τῆς",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "θύρας,",
-          "definition": "door"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "Ἰησοῦς",
-          "definition": "Jesus"
-        },
-        {
-          "greek": "σῴζει.",
-          "definition": "saves"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἄνθρωπος",
-          "definition": "person",
-          "translations": {
-            "es": "persona",
-            "pl": "osoba",
-            "fil": "tao"
-          }
-        },
-        {
-          "greek": "ἔχει",
-          "definition": "has",
-          "translations": {
-            "es": "tiene",
-            "pl": "ma",
-            "fil": "mayroon"
-          }
-        },
-        {
-          "greek": "ζωὴν",
-          "definition": "life",
-          "translations": {
-            "es": "vida",
-            "pl": "życie",
-            "fil": "buhay"
-          }
-        },
-        {
-          "greek": "αἰώνιον.\"",
-          "definition": "eternal"
-        }
-      ],
-      "translation": "\"Not only is Jesus the good shepherd, but also the door of the sheep. Whoever enters through Jesus — that is, through the door — Jesus saves. And the person has eternal life.\"",
-      "translations": {
-        "es": "'Jesús no solo es el buen pastor, sino también la puerta de las ovejas. Quien entra por la puerta es salvo.'",
-        "pl": "«Jezus nie tylko jest dobrym pasterzem, ale też drzwiami owiec. Kto wchodzi przez drzwi, jest zbawiony.»",
-        "fil": "'Hindi lamang si Hesus ang mabuting pastol, kundi pati na rin ang pintuan ng mga tupa. Ang sinumang pumapasok sa pintuan ay naliligtas.'"
-      }
-    },
-    {
-      "id": 32,
-      "words": [
-        {
-          "greek": "ἡ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "δὲ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "Σαλώμη",
-          "definition": "Salome"
-        },
-        {
-          "greek": "ἀκούει",
-          "definition": "listens"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
+          "greek": "ὅτι",
+          "definition": "because/that"
         },
         {
           "greek": "λέγει·",
@@ -7243,20 +8459,19 @@
           }
         },
         {
-          "greek": "\"καλὰ",
-          "definition": "good, beautiful",
-          "translations": {
-            "es": "bueno, hermoso",
-            "pl": "dobry, piękny",
-            "fil": "mabuti, maganda"
-          }
+          "greek": "ἄκουε,",
+          "definition": "listen!"
         },
         {
-          "greek": "ταῦτα",
-          "definition": "these"
+          "greek": "Ἰσραήλ·",
+          "definition": "Israel"
         },
         {
-          "greek": "τὰ",
+          "greek": "κύριος",
+          "definition": "Lord"
+        },
+        {
+          "greek": "ὁ",
           "definition": "the",
           "translations": {
             "es": "el/la",
@@ -7265,11 +8480,273 @@
           }
         },
         {
-          "greek": "ῥήματα.",
-          "definition": "words"
+          "greek": "θεὸς",
+          "definition": "God",
+          "translations": {
+            "es": "Dios",
+            "pl": "Bóg",
+            "fil": "Diyos"
+          }
         },
         {
-          "greek": "ἀλλὰ",
+          "greek": "ἡμῶν",
+          "definition": "our"
+        },
+        {
+          "greek": "κύριος",
+          "definition": "Lord"
+        },
+        {
+          "greek": "εἷς",
+          "definition": "one"
+        },
+        {
+          "greek": "ἐστιν·",
+          "definition": "is",
+          "translations": {
+            "es": "es",
+            "pl": "jest",
+            "fil": "ay"
+          }
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "ἀγαπήσεις",
+          "definition": "you shall love"
+        },
+        {
+          "greek": "κύριον",
+          "definition": "Lord (acc.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.masc.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "θεόν",
+          "definition": "God",
+          "translations": {
+            "es": "Dios",
+            "pl": "Bóg",
+            "fil": "Diyos"
+          }
+        },
+        {
+          "greek": "σου",
+          "definition": "your"
+        },
+        {
+          "greek": "ἐξ",
+          "definition": "from, out of"
+        },
+        {
+          "greek": "ὅλης",
+          "definition": "whole"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "καρδίας",
+          "definition": "heart (gen.)"
+        },
+        {
+          "greek": "σου",
+          "definition": "your"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "ἐξ",
+          "definition": "from, out of"
+        },
+        {
+          "greek": "ὅλης",
+          "definition": "whole"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ψυχῆς",
+          "definition": "soul (gen.)"
+        },
+        {
+          "greek": "σου",
+          "definition": "your"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "ἐξ",
+          "definition": "from, out of"
+        },
+        {
+          "greek": "ὅλης",
+          "definition": "whole"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "δυνάμεώς",
+          "definition": "strength (gen.)"
+        },
+        {
+          "greek": "σου.\"",
+          "definition": "your"
+        }
+      ],
+      "translation": "Salome says: \"But I also know that the Scripture teaches us that God is one. For it says: Hear, O Israel: the Lord our God, the Lord is one; and you shall love the Lord your God with all your heart and with all your soul and with all your strength.\"",
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ψυχή — soul",
+        "rows": [
+          {
+            "greek": "ψυχή",
+            "label": "Nom."
+          },
+          {
+            "greek": "ψυχῆς",
+            "label": "Gen."
+          },
+          {
+            "greek": "ψυχήν",
+            "label": "Acc."
+          }
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "words": [
+        {
+          "greek": "\"ναί,\"",
+          "definition": "yes"
+        },
+        {
+          "greek": "φησὶν",
+          "definition": "says"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "Ἰάκωβος·",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "\"καλῶς",
+          "definition": "well, rightly"
+        },
+        {
+          "greek": "οἶδας",
+          "definition": "you know"
+        },
+        {
+          "greek": "τὰς",
+          "definition": "the (acc.fem.pl)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "γραφὰς",
+          "definition": "Scriptures (acc.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "ὀρθῶς",
+          "definition": "rightly"
+        },
+        {
+          "greek": "λέγεις.",
+          "definition": "you say",
+          "translations": {
+            "es": "tú dices",
+            "pl": "mówisz",
+            "fil": "sinasabi mo"
+          }
+        },
+        {
+          "greek": "ἀρέσκει",
+          "definition": "it pleases"
+        },
+        {
+          "greek": "μοι",
+          "definition": "me, to me"
+        },
+        {
+          "greek": "ἀκούειν",
+          "definition": "to hear"
+        },
+        {
+          "greek": "τούτου.",
+          "definition": "this"
+        },
+        {
+          "greek": "ἀλλ᾽",
           "definition": "but",
           "translations": {
             "es": "pero",
@@ -7278,12 +8755,16 @@
           }
         },
         {
-          "greek": "λέγεις",
-          "definition": "you say"
+          "greek": "ἄκουέ",
+          "definition": "listen!"
         },
         {
-          "greek": "ὅτι",
-          "definition": "that"
+          "greek": "μου",
+          "definition": "my"
+        },
+        {
+          "greek": "πάλιν.",
+          "definition": "again"
         },
         {
           "greek": "ὁ",
@@ -7297,422 +8778,6 @@
         {
           "greek": "Ἰησοῦς",
           "definition": "Jesus"
-        },
-        {
-          "greek": "τίθησιν",
-          "definition": "lays down"
-        },
-        {
-          "greek": "τὴν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ψυχὴν",
-          "definition": "life",
-          "translations": {
-            "es": "vida",
-            "pl": "życie",
-            "fil": "buhay"
-          }
-        },
-        {
-          "greek": "αὐτοῦ",
-          "definition": "his"
-        },
-        {
-          "greek": "ὑπὲρ",
-          "definition": "on behalf of"
-        },
-        {
-          "greek": "ἡμῶν.",
-          "definition": "us"
-        },
-        {
-          "greek": "διὰ",
-          "definition": "for what"
-        },
-        {
-          "greek": "τί",
-          "definition": "reason"
-        },
-        {
-          "greek": "τοῦτο",
-          "definition": "this"
-        },
-        {
-          "greek": "ποιεῖ;\"",
-          "definition": "does he do"
-        }
-      ],
-      "translation": "Salome listens and says: \"These are good words. But you say that Jesus lays down his life on behalf of us. Why does he do this?\"",
-      "translations": {
-        "es": "Salomé escucha y dice: 'Estas son buenas palabras. Pero dices que Jesús da su vida por las ovejas. ¿Por qué?'",
-        "pl": "Salome słucha i mówi: «To są dobre słowa. Ale mówisz, że Jezus oddaje swoje życie za owce. Dlaczego?»",
-        "fil": "Nakikinig si Salome at sinabi: 'Mabuting salita ito. Ngunit sinasabi mo na ibinibigay ni Hesus ang kanyang buhay para sa mga tupa. Bakit?'"
-      }
-    },
-    {
-      "id": 33,
-      "words": [
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "δὲ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "Ἰάκωβος",
-          "definition": "Jacob"
-        },
-        {
-          "greek": "λέγει",
-          "definition": "says",
-          "translations": {
-            "es": "dice",
-            "pl": "mówi",
-            "fil": "sinasabi"
-          }
-        },
-        {
-          "greek": "αὐτῇ·",
-          "definition": "to her"
-        },
-        {
-          "greek": "\"διὰ",
-          "definition": "because of"
-        },
-        {
-          "greek": "τὰς",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἁμαρτίας",
-          "definition": "sins"
-        },
-        {
-          "greek": "ἡμῶν,",
-          "definition": "our"
-        },
-        {
-          "greek": "ὦ",
-          "definition": "O"
-        },
-        {
-          "greek": "Σαλώμη.",
-          "definition": "Salome"
-        },
-        {
-          "greek": "πάντες",
-          "definition": "all"
-        },
-        {
-          "greek": "γὰρ",
-          "definition": "for",
-          "translations": {
-            "es": "pues",
-            "pl": "bowiem",
-            "fil": "sapagkat"
-          }
-        },
-        {
-          "greek": "οἱ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἄνθρωποι",
-          "definition": "people"
-        },
-        {
-          "greek": "ἔχουσιν",
-          "definition": "have"
-        },
-        {
-          "greek": "ἁμαρτίας.",
-          "definition": "sins"
-        },
-        {
-          "greek": "ἐὰν",
-          "definition": "if"
-        },
-        {
-          "greek": "λέγωμεν",
-          "definition": "we say"
-        },
-        {
-          "greek": "ὅτι",
-          "definition": "that"
-        },
-        {
-          "greek": "οὐκ",
-          "definition": "not",
-          "translations": {
-            "es": "no",
-            "pl": "nie",
-            "fil": "hindi"
-          }
-        },
-        {
-          "greek": "ἔχομεν",
-          "definition": "we have"
-        },
-        {
-          "greek": "ἁμαρτίαν,",
-          "definition": "sin"
-        },
-        {
-          "greek": "πλανῶμεν",
-          "definition": "we deceive"
-        },
-        {
-          "greek": "ἑαυτοὺς",
-          "definition": "ourselves"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "ἡ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἀλήθεια",
-          "definition": "truth"
-        },
-        {
-          "greek": "οὐκ",
-          "definition": "not",
-          "translations": {
-            "es": "no",
-            "pl": "nie",
-            "fil": "hindi"
-          }
-        },
-        {
-          "greek": "ἔστιν",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
-        },
-        {
-          "greek": "ἐν",
-          "definition": "in",
-          "translations": {
-            "es": "en",
-            "pl": "w",
-            "fil": "sa"
-          }
-        },
-        {
-          "greek": "ἡμῖν.",
-          "definition": "us"
-        },
-        {
-          "greek": "ἀλλὰ",
-          "definition": "but",
-          "translations": {
-            "es": "pero",
-            "pl": "ale",
-            "fil": "ngunit"
-          }
-        },
-        {
-          "greek": "ἐὰν",
-          "definition": "if"
-        },
-        {
-          "greek": "ὁμολογῶμεν",
-          "definition": "we confess"
-        },
-        {
-          "greek": "τὰς",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἁμαρτίας",
-          "definition": "sins"
-        },
-        {
-          "greek": "ἡμῶν,",
-          "definition": "our"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "θεός,",
-          "definition": "God",
-          "translations": {
-            "es": "Dios",
-            "pl": "Bóg",
-            "fil": "Diyos"
-          }
-        },
-        {
-          "greek": "ὅς",
-          "definition": "who"
-        },
-        {
-          "greek": "ἐστιν",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
-        },
-        {
-          "greek": "πιστὸς",
-          "definition": "faithful",
-          "translations": {
-            "es": "fiel",
-            "pl": "wierny",
-            "fil": "tapat"
-          }
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "δίκαιος,",
-          "definition": "righteous"
-        },
-        {
-          "greek": "ἀφίησιν",
-          "definition": "forgives"
-        },
-        {
-          "greek": "ἡμῖν",
-          "definition": "us"
-        },
-        {
-          "greek": "τὰς",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἁμαρτίας",
-          "definition": "sins"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "καθαρίζει",
-          "definition": "cleanses"
-        },
-        {
-          "greek": "ἡμᾶς",
-          "definition": "us"
-        },
-        {
-          "greek": "ἀπὸ",
-          "definition": "from"
-        },
-        {
-          "greek": "πάσης",
-          "definition": "all"
-        },
-        {
-          "greek": "ἀδικίας.",
-          "definition": "unrighteousness"
-        },
-        {
-          "greek": "τὸ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "γὰρ",
-          "definition": "for",
-          "translations": {
-            "es": "pues",
-            "pl": "bowiem",
-            "fil": "sapagkat"
-          }
-        },
-        {
-          "greek": "αἷμα",
-          "definition": "blood"
-        },
-        {
-          "greek": "Ἰησοῦ,",
-          "definition": "of Jesus"
-        },
-        {
-          "greek": "ὅς",
-          "definition": "who"
         },
         {
           "greek": "ἐστιν",
@@ -7737,40 +8802,39 @@
           "definition": "son"
         },
         {
-          "greek": "αὐτοῦ,",
-          "definition": "his"
+          "greek": "τοῦ",
+          "definition": "of the"
         },
         {
-          "greek": "καθαρίζει",
-          "definition": "cleanses"
+          "greek": "θεοῦ.",
+          "definition": "God (gen.)",
+          "translations": {
+            "es": "Dios",
+            "pl": "Bóg",
+            "fil": "Diyos"
+          }
         },
         {
-          "greek": "ἡμᾶς",
-          "definition": "us"
+          "greek": "ὁ",
+          "definition": "the",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
         },
         {
-          "greek": "ἀπὸ",
-          "definition": "from"
+          "greek": "θεὸς",
+          "definition": "God",
+          "translations": {
+            "es": "Dios",
+            "pl": "Bóg",
+            "fil": "Diyos"
+          }
         },
         {
-          "greek": "πάσης",
-          "definition": "all"
-        },
-        {
-          "greek": "ἁμαρτίας.",
-          "definition": "sin"
-        },
-        {
-          "greek": "ἡμεῖς",
-          "definition": "we"
-        },
-        {
-          "greek": "νεκροί",
-          "definition": "dead"
-        },
-        {
-          "greek": "ἐσμεν",
-          "definition": "are"
+          "greek": "μένει",
+          "definition": "remains"
         },
         {
           "greek": "ἐν",
@@ -7782,25 +8846,26 @@
           }
         },
         {
-          "greek": "ταῖς",
-          "definition": "the",
+          "greek": "τῷ",
+          "definition": "to the",
           "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
           }
         },
         {
-          "greek": "ἁμαρτίαις",
-          "definition": "sins"
+          "greek": "Ἰησοῦ",
+          "definition": "Jesus (gen.)"
         },
         {
-          "greek": "ἡμῶν.",
-          "definition": "our"
-        },
-        {
-          "greek": "μόνον",
-          "definition": "only"
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
         },
         {
           "greek": "ὁ",
@@ -7816,144 +8881,8 @@
           "definition": "Jesus"
         },
         {
-          "greek": "δύναται",
-          "definition": "is able"
-        },
-        {
-          "greek": "σῴζειν",
-          "definition": "to save"
-        },
-        {
-          "greek": "ἡμᾶς",
-          "definition": "us"
-        },
-        {
-          "greek": "ἀπὸ",
-          "definition": "from"
-        },
-        {
-          "greek": "τῶν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἁμαρτιῶν",
-          "definition": "sins"
-        },
-        {
-          "greek": "ἡμῶν.\"",
-          "definition": "our"
-        }
-      ],
-      "translation": "Jacob says to her: \"Because of our sins, O Salome. For all people have sins. If we say that we have no sin, we deceive ourselves and the truth is not in us. But if we confess our sins, God, who is faithful and righteous, forgives us our sins and cleanses us from all unrighteousness. For the blood of Jesus, who is his Son, cleanses us from all sin. We are dead in our sins. Only Jesus is able to save us from our sins.\"",
-      "translations": {
-        "es": "Jacob le dice: 'Por nuestros pecados, O Salomé. Pues todos los hombres tienen pecados.'",
-        "pl": "Jakub mówi do niej: «Z powodu naszych grzechów, O Salome. Wszyscy ludzie mają bowiem grzechy.»",
-        "fil": "Sinabi ni Jacob sa kanya: 'Dahil sa ating mga kasalanan, O Salome. Lahat kasi ng tao ay may kasalanan.'"
-      },
-      "sideNote": {
-        "type": "paradigm",
-        "title": "ἔχω — to have",
-        "rows": [
-          {
-            "greek": "ἔχομεν",
-            "label": "1pl"
-          },
-          {
-            "greek": "ἔχουσιν",
-            "label": "3pl"
-          }
-        ]
-      }
-    },
-    {
-      "id": 34,
-      "words": [
-        {
-          "greek": "ἡ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "δὲ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "Σαλώμη",
-          "definition": "Salome"
-        },
-        {
-          "greek": "σιγᾷ",
-          "definition": "is silent"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "ἀκούει",
-          "definition": "listens"
-        },
-        {
-          "greek": "ἔτι.",
-          "definition": "still"
-        },
-        {
-          "greek": "βλέπει",
-          "definition": "she sees"
-        },
-        {
-          "greek": "τὰ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "πρόβατα",
-          "definition": "sheep"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "τὸν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ποιμένα",
-          "definition": "shepherd"
+          "greek": "μένει",
+          "definition": "remains"
         },
         {
           "greek": "ἐν",
@@ -7966,97 +8895,57 @@
         },
         {
           "greek": "τῷ",
-          "definition": "the",
+          "definition": "to the",
           "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
+            "es": "al",
+            "pl": "do",
+            "fil": "sa"
           }
         },
         {
-          "greek": "ἀγρῷ.",
-          "definition": "field",
+          "greek": "θεῷ.",
+          "definition": "God (dat.)",
           "translations": {
-            "es": "campo",
-            "pl": "pole",
-            "fil": "bukid"
+            "es": "Dios",
+            "pl": "Bóg",
+            "fil": "Diyos"
           }
         },
         {
-          "greek": "εἶτα",
-          "definition": "then",
+          "greek": "οὐ",
+          "definition": "not",
           "translations": {
-            "es": "luego",
-            "pl": "potem",
-            "fil": "pagkatapos"
+            "es": "no",
+            "pl": "nie",
+            "fil": "hindi"
           }
         },
         {
-          "greek": "βλέπει",
-          "definition": "she sees"
+          "greek": "μόνον",
+          "definition": "only"
         },
         {
-          "greek": "τὸ",
-          "definition": "the",
+          "greek": "τοῦτο,",
+          "definition": "this"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "but",
           "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
+            "es": "pero",
+            "pl": "ale",
+            "fil": "ngunit"
           }
         },
         {
-          "greek": "φῶς",
-          "definition": "light"
-        },
-        {
-          "greek": "τοῦ",
-          "definition": "of the"
-        },
-        {
-          "greek": "ἡλίου",
-          "definition": "sun",
+          "greek": "καὶ",
+          "definition": "and",
           "translations": {
-            "es": "sol",
-            "pl": "słońce",
-            "fil": "araw"
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
           }
         },
-        {
-          "greek": "ὅ",
-          "definition": "which"
-        },
-        {
-          "greek": "ἔρχεται",
-          "definition": "comes"
-        },
-        {
-          "greek": "διὰ",
-          "definition": "through"
-        },
-        {
-          "greek": "τοῦ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "δένδρου.",
-          "definition": "tree"
-        }
-      ],
-      "translation": "Salome is silent and still listens. She sees the sheep and the shepherd in the field. Then she sees the light of the sun which comes through the tree.",
-      "translations": {
-        "es": "Salomé está callada y aún escucha. Ve a las ovejas y al pastor en el campo.",
-        "pl": "Salome milczy i wciąż słucha. Widzi owce i pasterza na polu.",
-        "fil": "Tumatahimik si Salome at nakikinig pa rin. Nakikita niya ang mga tupa at ang pastol sa bukid."
-      }
-    },
-    {
-      "id": 35,
-      "words": [
         {
           "greek": "ὁ",
           "definition": "the",
@@ -8067,17 +8956,8 @@
           }
         },
         {
-          "greek": "δὲ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "Ἰάκωβος",
-          "definition": "Jacob"
+          "greek": "Ἰησοῦς",
+          "definition": "Jesus"
         },
         {
           "greek": "λέγει",
@@ -8089,20 +8969,29 @@
           }
         },
         {
-          "greek": "πάλιν·",
-          "definition": "again"
+          "greek": "τοῦτο·",
+          "definition": "this"
         },
         {
-          "greek": "\"καὶ",
-          "definition": "and",
+          "greek": "ἐγώ",
+          "definition": "I",
           "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
+            "es": "yo",
+            "pl": "ja",
+            "fil": "ako"
           }
         },
         {
-          "greek": "ὁ",
+          "greek": "εἰμι",
+          "definition": "I am",
+          "translations": {
+            "es": "yo soy",
+            "pl": "jestem",
+            "fil": "ako ay"
+          }
+        },
+        {
+          "greek": "ἡ",
           "definition": "the",
           "translations": {
             "es": "el/la",
@@ -8111,247 +9000,8 @@
           }
         },
         {
-          "greek": "Ἰησοῦς",
-          "definition": "Jesus"
-        },
-        {
-          "greek": "ἐστιν",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
-        },
-        {
-          "greek": "τὸ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "φῶς",
-          "definition": "light"
-        },
-        {
-          "greek": "τοῦ",
-          "definition": "of the"
-        },
-        {
-          "greek": "κόσμου.",
-          "definition": "world"
-        },
-        {
-          "greek": "χωρὶς",
-          "definition": "without"
-        },
-        {
-          "greek": "γὰρ",
-          "definition": "for",
-          "translations": {
-            "es": "pues",
-            "pl": "bowiem",
-            "fil": "sapagkat"
-          }
-        },
-        {
-          "greek": "τοῦ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "Ἰησοῦ,",
-          "definition": "Jesus"
-        },
-        {
-          "greek": "οἱ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἄνθρωποι",
-          "definition": "people"
-        },
-        {
-          "greek": "ἐν",
-          "definition": "in",
-          "translations": {
-            "es": "en",
-            "pl": "w",
-            "fil": "sa"
-          }
-        },
-        {
-          "greek": "τῇ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "σκοτίᾳ",
-          "definition": "darkness"
-        },
-        {
-          "greek": "εἰσίν.",
-          "definition": "are"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "δὲ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "Ἰησοῦς",
-          "definition": "Jesus"
-        },
-        {
-          "greek": "δείκνυσιν",
-          "definition": "shows"
-        },
-        {
-          "greek": "ἡμῖν",
-          "definition": "us"
-        },
-        {
-          "greek": "τὸ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "φῶς.",
-          "definition": "light"
-        },
-        {
-          "greek": "ὅστις",
-          "definition": "whoever"
-        },
-        {
-          "greek": "ἀκολουθεῖ",
-          "definition": "follows"
-        },
-        {
-          "greek": "τῷ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "Ἰησοῦ",
-          "definition": "Jesus"
-        },
-        {
-          "greek": "οὐ",
-          "definition": "not",
-          "translations": {
-            "es": "no",
-            "pl": "nie",
-            "fil": "hindi"
-          }
-        },
-        {
-          "greek": "περιπατεῖ",
-          "definition": "walks",
-          "translations": {
-            "es": "camina",
-            "pl": "chodzi",
-            "fil": "lumalakad"
-          }
-        },
-        {
-          "greek": "ἐν",
-          "definition": "in",
-          "translations": {
-            "es": "en",
-            "pl": "w",
-            "fil": "sa"
-          }
-        },
-        {
-          "greek": "τῇ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "σκοτίᾳ",
-          "definition": "darkness"
-        },
-        {
-          "greek": "ἀλλὰ",
-          "definition": "but",
-          "translations": {
-            "es": "pero",
-            "pl": "ale",
-            "fil": "ngunit"
-          }
-        },
-        {
-          "greek": "περιπατεῖ",
-          "definition": "walks",
-          "translations": {
-            "es": "camina",
-            "pl": "chodzi",
-            "fil": "lumalakad"
-          }
-        },
-        {
-          "greek": "ἐν",
-          "definition": "in",
-          "translations": {
-            "es": "en",
-            "pl": "w",
-            "fil": "sa"
-          }
-        },
-        {
-          "greek": "τῷ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "φωτὶ",
-          "definition": "light (dative)"
+          "greek": "ὁδὸς",
+          "definition": "road, way"
         },
         {
           "greek": "καὶ",
@@ -8363,16 +9013,7 @@
           }
         },
         {
-          "greek": "ἔχει",
-          "definition": "has",
-          "translations": {
-            "es": "tiene",
-            "pl": "ma",
-            "fil": "mayroon"
-          }
-        },
-        {
-          "greek": "τὸ",
+          "greek": "ἡ",
           "definition": "the",
           "translations": {
             "es": "el/la",
@@ -8381,56 +9022,8 @@
           }
         },
         {
-          "greek": "φῶς",
-          "definition": "light"
-        },
-        {
-          "greek": "τῆς",
-          "definition": "of"
-        },
-        {
-          "greek": "ζωῆς.",
-          "definition": "life",
-          "translations": {
-            "es": "vida",
-            "pl": "życie",
-            "fil": "buhay"
-          }
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "γὰρ",
-          "definition": "for",
-          "translations": {
-            "es": "pues",
-            "pl": "bowiem",
-            "fil": "sapagkat"
-          }
-        },
-        {
-          "greek": "Ἰησοῦς",
-          "definition": "Jesus"
-        },
-        {
-          "greek": "φῶς",
-          "definition": "light"
-        },
-        {
-          "greek": "ἐστιν,",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
+          "greek": "ἀλήθεια",
+          "definition": "truth"
         },
         {
           "greek": "καὶ",
@@ -8442,46 +9035,7 @@
           }
         },
         {
-          "greek": "σκοτία",
-          "definition": "darkness"
-        },
-        {
-          "greek": "ἐν",
-          "definition": "in",
-          "translations": {
-            "es": "en",
-            "pl": "w",
-            "fil": "sa"
-          }
-        },
-        {
-          "greek": "αὐτῷ",
-          "definition": "him"
-        },
-        {
-          "greek": "οὐκ",
-          "definition": "not",
-          "translations": {
-            "es": "no",
-            "pl": "nie",
-            "fil": "hindi"
-          }
-        },
-        {
-          "greek": "ἔστιν.",
-          "definition": "there is"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "τὸ",
+          "greek": "ἡ",
           "definition": "the",
           "translations": {
             "es": "el/la",
@@ -8490,81 +9044,29 @@
           }
         },
         {
-          "greek": "φῶς",
-          "definition": "light"
+          "greek": "ζωή·",
+          "definition": "life"
         },
         {
-          "greek": "φαίνει",
-          "definition": "shines",
-          "translations": {
-            "es": "brilla",
-            "pl": "świeci",
-            "fil": "sumisinag"
-          }
-        },
-        {
-          "greek": "ἐν",
-          "definition": "in",
-          "translations": {
-            "es": "en",
-            "pl": "w",
-            "fil": "sa"
-          }
-        },
-        {
-          "greek": "τῇ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "σκοτίᾳ",
-          "definition": "darkness"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "φωτίζει",
-          "definition": "enlightens"
-        },
-        {
-          "greek": "πάντα",
-          "definition": "every"
-        },
-        {
-          "greek": "ἄνθρωπον",
-          "definition": "person",
-          "translations": {
-            "es": "persona",
-            "pl": "osoba",
-            "fil": "tao"
-          }
-        },
-        {
-          "greek": "ὅς",
-          "definition": "who"
+          "greek": "οὐδεὶς",
+          "definition": "no one"
         },
         {
           "greek": "ἔρχεται",
           "definition": "comes"
         },
         {
-          "greek": "εἰς",
-          "definition": "into"
+          "greek": "πρὸς",
+          "definition": "toward, to",
+          "translations": {
+            "es": "hacia",
+            "pl": "ku",
+            "fil": "patungo sa"
+          }
         },
         {
           "greek": "τὸν",
-          "definition": "the",
+          "definition": "the (acc.masc.)",
           "translations": {
             "es": "el/la",
             "pl": "rodz.",
@@ -8572,937 +9074,12 @@
           }
         },
         {
-          "greek": "κόσμον.\"",
-          "definition": "world"
-        }
-      ],
-      "translation": "Jacob speaks again: \"And Jesus is the light of the world. For without Jesus, people are in darkness. And Jesus shows us the light. Whoever follows Jesus does not walk in darkness but walks in the light and has the light of life. For Jesus is light, and there is no darkness in him. And the light shines in the darkness and enlightens every person who comes into the world.\"",
-      "translations": {
-        "es": "Jacob habla de nuevo: 'Y Jesús es la luz del mundo. Pues sin Jesús, la gente camina en la oscuridad.'",
-        "pl": "Jakub mówi znowu: «A Jezus jest światłością świata. Bez Jezusa bowiem ludzie chodzą w ciemności.»",
-        "fil": "Nagsalita muli si Jacob: 'At si Hesus ang liwanag ng mundo. Kasi kung wala si Hesus, naglalakad ang mga tao sa kadiliman.'"
-      },
-      "sideNote": {
-        "type": "antonym",
-        "pairs": [
-          {
-            "a": "φῶς",
-            "b": "σκοτία"
-          }
-        ]
-      }
-    },
-    {
-      "id": 36,
-      "words": [
+          "greek": "πατέρα",
+          "definition": "father (acc.)"
+        },
         {
-          "greek": "\"ἐὰν",
+          "greek": "εἰ",
           "definition": "if"
-        },
-        {
-          "greek": "οὖν",
-          "definition": "therefore",
-          "translations": {
-            "es": "por lo tanto",
-            "pl": "zatem",
-            "fil": "kaya"
-          }
-        },
-        {
-          "greek": "λέγωμεν",
-          "definition": "we say"
-        },
-        {
-          "greek": "ὅτι",
-          "definition": "that"
-        },
-        {
-          "greek": "κοινωνίαν",
-          "definition": "fellowship"
-        },
-        {
-          "greek": "ἔχομεν",
-          "definition": "we have"
-        },
-        {
-          "greek": "μετὰ",
-          "definition": "with"
-        },
-        {
-          "greek": "τοῦ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "θεοῦ,",
-          "definition": "God",
-          "translations": {
-            "es": "Dios",
-            "pl": "Bóg",
-            "fil": "Diyos"
-          }
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "ἐν",
-          "definition": "in",
-          "translations": {
-            "es": "en",
-            "pl": "w",
-            "fil": "sa"
-          }
-        },
-        {
-          "greek": "τῇ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "σκοτίᾳ",
-          "definition": "darkness"
-        },
-        {
-          "greek": "περιπατῶμεν,",
-          "definition": "we walk"
-        },
-        {
-          "greek": "οὐ",
-          "definition": "not",
-          "translations": {
-            "es": "no",
-            "pl": "nie",
-            "fil": "hindi"
-          }
-        },
-        {
-          "greek": "λέγομεν",
-          "definition": "we speak"
-        },
-        {
-          "greek": "τὴν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἀλήθειαν.",
-          "definition": "truth"
-        },
-        {
-          "greek": "ἐὰν",
-          "definition": "if"
-        },
-        {
-          "greek": "δὲ",
-          "definition": "but",
-          "translations": {
-            "es": "pero",
-            "pl": "ale",
-            "fil": "ngunit"
-          }
-        },
-        {
-          "greek": "ἐν",
-          "definition": "in",
-          "translations": {
-            "es": "en",
-            "pl": "w",
-            "fil": "sa"
-          }
-        },
-        {
-          "greek": "τῷ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "φωτὶ",
-          "definition": "light"
-        },
-        {
-          "greek": "περιπατῶμεν,",
-          "definition": "we walk"
-        },
-        {
-          "greek": "ὥσπερ",
-          "definition": "just as"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "θεός",
-          "definition": "God",
-          "translations": {
-            "es": "Dios",
-            "pl": "Bóg",
-            "fil": "Diyos"
-          }
-        },
-        {
-          "greek": "ἐστιν",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
-        },
-        {
-          "greek": "ἐν",
-          "definition": "in",
-          "translations": {
-            "es": "en",
-            "pl": "w",
-            "fil": "sa"
-          }
-        },
-        {
-          "greek": "τῷ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "φωτί,",
-          "definition": "light"
-        },
-        {
-          "greek": "ἔχομεν",
-          "definition": "we have"
-        },
-        {
-          "greek": "κοινωνίαν",
-          "definition": "fellowship"
-        },
-        {
-          "greek": "μετὰ",
-          "definition": "with"
-        },
-        {
-          "greek": "αὐτοῦ",
-          "definition": "him"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "μετ᾽",
-          "definition": "with"
-        },
-        {
-          "greek": "ἀλλήλων,",
-          "definition": "one another"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "τὸ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "αἷμα",
-          "definition": "blood"
-        },
-        {
-          "greek": "τοῦ",
-          "definition": "of the"
-        },
-        {
-          "greek": "Ἰησοῦ",
-          "definition": "Jesus"
-        },
-        {
-          "greek": "καθαρίζει",
-          "definition": "cleanses"
-        },
-        {
-          "greek": "ἡμᾶς.",
-          "definition": "us"
-        },
-        {
-          "greek": "αὕτη",
-          "definition": "this"
-        },
-        {
-          "greek": "γάρ",
-          "definition": "for",
-          "translations": {
-            "es": "pues",
-            "pl": "bowiem",
-            "fil": "sapagkat"
-          }
-        },
-        {
-          "greek": "ἐστιν",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
-        },
-        {
-          "greek": "ἡ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἐντολὴ",
-          "definition": "commandment"
-        },
-        {
-          "greek": "τοῦ",
-          "definition": "of the"
-        },
-        {
-          "greek": "θεοῦ,",
-          "definition": "God",
-          "translations": {
-            "es": "Dios",
-            "pl": "Bóg",
-            "fil": "Diyos"
-          }
-        },
-        {
-          "greek": "ἥν",
-          "definition": "which"
-        },
-        {
-          "greek": "ἀκούομεν",
-          "definition": "we hear"
-        },
-        {
-          "greek": "πάντοτε·",
-          "definition": "always"
-        },
-        {
-          "greek": "ἵνα",
-          "definition": "that"
-        },
-        {
-          "greek": "ἀγαπῶμεν",
-          "definition": "we love"
-        },
-        {
-          "greek": "ἀλλήλους.",
-          "definition": "one another"
-        },
-        {
-          "greek": "ὅστις",
-          "definition": "whoever"
-        },
-        {
-          "greek": "ἀγαπᾷ",
-          "definition": "loves",
-          "translations": {
-            "es": "ama",
-            "pl": "kocha",
-            "fil": "minamahal"
-          }
-        },
-        {
-          "greek": "τὸν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἀδελφὸν",
-          "definition": "brother"
-        },
-        {
-          "greek": "αὐτοῦ",
-          "definition": "his"
-        },
-        {
-          "greek": "ἐν",
-          "definition": "in",
-          "translations": {
-            "es": "en",
-            "pl": "w",
-            "fil": "sa"
-          }
-        },
-        {
-          "greek": "τῷ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "φωτὶ",
-          "definition": "light"
-        },
-        {
-          "greek": "μένει·",
-          "definition": "remains"
-        },
-        {
-          "greek": "ὅστις",
-          "definition": "whoever"
-        },
-        {
-          "greek": "δὲ",
-          "definition": "but",
-          "translations": {
-            "es": "pero",
-            "pl": "ale",
-            "fil": "ngunit"
-          }
-        },
-        {
-          "greek": "μισεῖ",
-          "definition": "hates"
-        },
-        {
-          "greek": "τὸν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἀδελφὸν",
-          "definition": "brother"
-        },
-        {
-          "greek": "αὐτοῦ",
-          "definition": "his"
-        },
-        {
-          "greek": "ἐν",
-          "definition": "in",
-          "translations": {
-            "es": "en",
-            "pl": "w",
-            "fil": "sa"
-          }
-        },
-        {
-          "greek": "τῇ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "σκοτίᾳ",
-          "definition": "darkness"
-        },
-        {
-          "greek": "ἐστίν.\"",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
-        }
-      ],
-      "translation": "\"If therefore we say that we have fellowship with God and we walk in darkness, we do not speak the truth. But if we walk in the light, just as God is in the light, we have fellowship with him and with one another, and the blood of Jesus cleanses us. For this is the commandment of God, which we hear always: that we love one another. Whoever loves his brother remains in the light; but whoever hates his brother is in the darkness.\"",
-      "translations": {
-        "es": "'Si decimos que tenemos comunión con Dios y caminamos en la oscuridad, decimos una mentira.'",
-        "pl": "«Jeśli mówimy, że mamy wspólnotę z Bogiem, a chodzimy w ciemności, mówimy kłamstwo.»",
-        "fil": "'Kung sinasabi natin na may pakikipag-ugnayan tayo sa Diyos at naglalakad tayo sa kadiliman, nagsisinungaling tayo.'"
-      }
-    },
-    {
-      "id": 37,
-      "words": [
-        {
-          "greek": "ἡ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "δὲ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "Σαλώμη",
-          "definition": "Salome"
-        },
-        {
-          "greek": "λέγει·",
-          "definition": "says",
-          "translations": {
-            "es": "dice",
-            "pl": "mówi",
-            "fil": "sinasabi"
-          }
-        },
-        {
-          "greek": "\"λέγεις",
-          "definition": "you say"
-        },
-        {
-          "greek": "ταῦτα",
-          "definition": "these things"
-        },
-        {
-          "greek": "περὶ",
-          "definition": "about"
-        },
-        {
-          "greek": "τοῦ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "Ἰησοῦ",
-          "definition": "Jesus"
-        },
-        {
-          "greek": "ὅτι",
-          "definition": "that"
-        },
-        {
-          "greek": "ἐστὶν",
-          "definition": "he is"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἄρτος,",
-          "definition": "bread",
-          "translations": {
-            "es": "pan",
-            "pl": "chleb",
-            "fil": "tinapay"
-          }
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ποιμήν,",
-          "definition": "shepherd"
-        },
-        {
-          "greek": "τὸ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "φῶς.",
-          "definition": "light"
-        },
-        {
-          "greek": "ἀλλὰ",
-          "definition": "but",
-          "translations": {
-            "es": "pero",
-            "pl": "ale",
-            "fil": "ngunit"
-          }
-        },
-        {
-          "greek": "καὶ",
-          "definition": "also",
-          "translations": {
-            "es": "también",
-            "pl": "też",
-            "fil": "din"
-          }
-        },
-        {
-          "greek": "ζωή;",
-          "definition": "life",
-          "translations": {
-            "es": "vida",
-            "pl": "życie",
-            "fil": "buhay"
-          }
-        },
-        {
-          "greek": "πῶς",
-          "definition": "how"
-        },
-        {
-          "greek": "ἐστιν",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
-        },
-        {
-          "greek": "αὐτὸς",
-          "definition": "he himself"
-        },
-        {
-          "greek": "ἡ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ζωή;\"",
-          "definition": "life",
-          "translations": {
-            "es": "vida",
-            "pl": "życie",
-            "fil": "buhay"
-          }
-        }
-      ],
-      "translation": "Salome says: \"You say these things about Jesus — that he is the bread, the shepherd, the light. But also life? How is he himself the life?\"",
-      "translations": {
-        "es": "Salomé dice: 'Dices estas cosas sobre Jesús — que es el pan, el pastor, la luz.'",
-        "pl": "Salome mówi: «Mówisz te rzeczy o Jezusie — że jest chlebem, pasterzem, światłością.»",
-        "fil": "Sinabi ni Salome: 'Sinasabi mo ang mga bagay na ito tungkol kay Hesus — na siya ang tinapay, ang pastol, ang liwanag.'"
-      }
-    },
-    {
-      "id": 38,
-      "words": [
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "δὲ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "Ἰάκωβος",
-          "definition": "Jacob"
-        },
-        {
-          "greek": "ἀποκρίνεται·",
-          "definition": "answers"
-        },
-        {
-          "greek": "\"ναί,",
-          "definition": "yes"
-        },
-        {
-          "greek": "ὦ",
-          "definition": "O"
-        },
-        {
-          "greek": "Σαλώμη.",
-          "definition": "Salome"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "Ἰησοῦς",
-          "definition": "Jesus"
-        },
-        {
-          "greek": "ἐστιν",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
-        },
-        {
-          "greek": "ἡ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ἀνάστασις",
-          "definition": "resurrection"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "ἡ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ζωή.",
-          "definition": "life",
-          "translations": {
-            "es": "vida",
-            "pl": "życie",
-            "fil": "buhay"
-          }
-        },
-        {
-          "greek": "ὅστις",
-          "definition": "whoever"
-        },
-        {
-          "greek": "πιστεύει",
-          "definition": "believes"
-        },
-        {
-          "greek": "αὐτῷ",
-          "definition": "in him"
-        },
-        {
-          "greek": "ζῇ,",
-          "definition": "lives"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "ζῇ",
-          "definition": "lives"
-        },
-        {
-          "greek": "εἰς",
-          "definition": "into"
-        },
-        {
-          "greek": "τὸν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "αἰῶνα.",
-          "definition": "age, forever"
-        },
-        {
-          "greek": "ὁ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "γὰρ",
-          "definition": "for",
-          "translations": {
-            "es": "pues",
-            "pl": "bowiem",
-            "fil": "sapagkat"
-          }
-        },
-        {
-          "greek": "θεός,",
-          "definition": "God",
-          "translations": {
-            "es": "Dios",
-            "pl": "Bóg",
-            "fil": "Diyos"
-          }
-        },
-        {
-          "greek": "ὅς",
-          "definition": "who"
-        },
-        {
-          "greek": "ἀγαπᾷ",
-          "definition": "loves",
-          "translations": {
-            "es": "ama",
-            "pl": "kocha",
-            "fil": "minamahal"
-          }
-        },
-        {
-          "greek": "τὸν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "κόσμον,",
-          "definition": "world"
-        },
-        {
-          "greek": "δίδωσιν",
-          "definition": "gives"
-        },
-        {
-          "greek": "τὸν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "υἱὸν",
-          "definition": "son"
-        },
-        {
-          "greek": "αὐτοῦ",
-          "definition": "his"
-        },
-        {
-          "greek": "ἡμῖν,",
-          "definition": "to us"
-        },
-        {
-          "greek": "ἵνα",
-          "definition": "so that"
-        },
-        {
-          "greek": "ἄνθρωπος",
-          "definition": "a person",
-          "translations": {
-            "es": "una persona",
-            "pl": "osoba",
-            "fil": "isang tao"
-          }
-        },
-        {
-          "greek": "ὅς",
-          "definition": "who"
-        },
-        {
-          "greek": "πιστεύῃ",
-          "definition": "believes"
-        },
-        {
-          "greek": "αὐτῷ",
-          "definition": "in him"
         },
         {
           "greek": "μὴ",
@@ -9514,34 +9091,92 @@
           }
         },
         {
-          "greek": "ἀποθνῄσκῃ",
-          "definition": "may die"
+          "greek": "δι᾽",
+          "definition": "through"
         },
         {
-          "greek": "ἀλλὰ",
-          "definition": "but",
+          "greek": "ἐμοῦ.",
+          "definition": "me (gen.)"
+        },
+        {
+          "greek": "διὰ",
+          "definition": "through/because of"
+        },
+        {
+          "greek": "τοῦτο",
+          "definition": "this"
+        },
+        {
+          "greek": "ἡμεῖς",
+          "definition": "we"
+        },
+        {
+          "greek": "μόνον",
+          "definition": "only"
+        },
+        {
+          "greek": "δυνάμεθα",
+          "definition": "we are able"
+        },
+        {
+          "greek": "ἔρχεσθαι",
+          "definition": "to come"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward, to",
           "translations": {
-            "es": "pero",
-            "pl": "ale",
-            "fil": "ngunit"
+            "es": "hacia",
+            "pl": "ku",
+            "fil": "patungo sa"
           }
         },
         {
-          "greek": "ἔχῃ",
-          "definition": "may have"
-        },
-        {
-          "greek": "ζωὴν",
-          "definition": "life",
+          "greek": "τὸν",
+          "definition": "the (acc.masc.)",
           "translations": {
-            "es": "vida",
-            "pl": "życie",
-            "fil": "buhay"
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
           }
         },
         {
-          "greek": "αἰώνιον.",
-          "definition": "eternal"
+          "greek": "θεὸν",
+          "definition": "God (acc.)",
+          "translations": {
+            "es": "Dios",
+            "pl": "Bóg",
+            "fil": "Diyos"
+          }
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.masc.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "πατέρα",
+          "definition": "father (acc.)"
+        },
+        {
+          "greek": "διὰ",
+          "definition": "through/because of"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "Ἰησοῦ,",
+          "definition": "Jesus (gen.)"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because/that"
         },
         {
           "greek": "ὁ",
@@ -9555,15 +9190,6 @@
         {
           "greek": "Ἰησοῦς",
           "definition": "Jesus"
-        },
-        {
-          "greek": "οὖν",
-          "definition": "therefore",
-          "translations": {
-            "es": "por lo tanto",
-            "pl": "zatem",
-            "fil": "kaya"
-          }
         },
         {
           "greek": "ἐστιν",
@@ -9584,13 +9210,8 @@
           }
         },
         {
-          "greek": "ζωὴ",
-          "definition": "life",
-          "translations": {
-            "es": "vida",
-            "pl": "życie",
-            "fil": "buhay"
-          }
+          "greek": "ὁδός.",
+          "definition": "way, road"
         },
         {
           "greek": "καὶ",
@@ -9600,213 +9221,6 @@
             "pl": "i",
             "fil": "at"
           }
-        },
-        {
-          "greek": "ἀνάστασις.\"",
-          "definition": "resurrection"
-        }
-      ],
-      "translation": "Jacob answers: \"Yes, O Salome. Jesus is the resurrection and the life. Whoever believes in him lives, and lives forever. For God, who loves the world, gives his Son to us, so that a person who believes in him may not die but may have eternal life. Jesus therefore is the life and resurrection.\"",
-      "translations": {
-        "es": "Jacob responde: 'Sí, O Salomé. Jesús es la resurrección y la vida. Quien cree en Él, aunque muera, vivirá.'",
-        "pl": "Jakub odpowiada: «Tak, O Salome. Jezus jest zmartwychwstaniem i życiem. Kto w Niego wierzy, choćby umarł, żyć będzie.»",
-        "fil": "Sumasagot si Jacob: 'Oo, O Salome. Si Hesus ang muling pagkabuhay at ang buhay. Ang naniniwala sa Kanya, kahit mamatay, mabubuhay.'"
-      }
-    },
-    {
-      "id": 39,
-      "words": [
-        {
-          "greek": "ἡ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "δὲ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "Σαλώμη",
-          "definition": "Salome"
-        },
-        {
-          "greek": "βλέπει",
-          "definition": "looks at"
-        },
-        {
-          "greek": "τὸν",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "Ἰάκωβον",
-          "definition": "Jacob"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "λέγει·",
-          "definition": "says",
-          "translations": {
-            "es": "dice",
-            "pl": "mówi",
-            "fil": "sinasabi"
-          }
-        },
-        {
-          "greek": "\"λέγεις",
-          "definition": "you say"
-        },
-        {
-          "greek": "πολλὰ",
-          "definition": "many"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "μεγάλα",
-          "definition": "great",
-          "translations": {
-            "es": "grande",
-            "pl": "wielki",
-            "fil": "dakila"
-          }
-        },
-        {
-          "greek": "ῥήματα,",
-          "definition": "words"
-        },
-        {
-          "greek": "ὦ",
-          "definition": "O"
-        },
-        {
-          "greek": "Ἰάκωβε.",
-          "definition": "Jacob (vocative)"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "τὰ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ῥήματά",
-          "definition": "words"
-        },
-        {
-          "greek": "σου",
-          "definition": "your"
-        },
-        {
-          "greek": "εἰσιν",
-          "definition": "are"
-        },
-        {
-          "greek": "καλά.",
-          "definition": "good",
-          "translations": {
-            "es": "bueno",
-            "pl": "dobry",
-            "fil": "mabuti"
-          }
-        },
-        {
-          "greek": "ἀλλὰ",
-          "definition": "but",
-          "translations": {
-            "es": "pero",
-            "pl": "ale",
-            "fil": "ngunit"
-          }
-        },
-        {
-          "greek": "θαυμάζω",
-          "definition": "I marvel"
-        },
-        {
-          "greek": "σφόδρα.\"",
-          "definition": "greatly"
-        }
-      ],
-      "translation": "Salome looks at Jacob and says: \"You speak many and great words, O Jacob. And your words are good. But I marvel greatly.\"",
-      "translations": {
-        "es": "Salomé mira a Jacob y dice: 'Dices muchas y grandes palabras, O Jacob. ¿Crees en todo esto?'",
-        "pl": "Salome patrzy na Jakuba i mówi: «Mówisz wiele i wielkie słowa, O Jakubie. Czy wierzysz w to wszystko?»",
-        "fil": "Tinitingnan ni Salome si Jacob at sinabi: 'Marami at malalaking salita ang sinasabi mo, O Jacob. Naniniwala ka ba sa lahat ng ito?'"
-      }
-    },
-    {
-      "id": 40,
-      "words": [
-        {
-          "greek": "ἡ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "δὲ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "Σαλώμη",
-          "definition": "Salome"
-        },
-        {
-          "greek": "σιγᾷ",
-          "definition": "is silent"
-        },
-        {
-          "greek": "πάλιν.",
-          "definition": "again"
         },
         {
           "greek": "ὁ",
@@ -9818,72 +9232,11 @@
           }
         },
         {
-          "greek": "δὲ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
+          "greek": "Ἰησοῦς",
+          "definition": "Jesus"
         },
         {
-          "greek": "ἥλιος",
-          "definition": "sun",
-          "translations": {
-            "es": "sol",
-            "pl": "słońce",
-            "fil": "araw"
-          }
-        },
-        {
-          "greek": "ἔτι",
-          "definition": "still"
-        },
-        {
-          "greek": "λάμπει",
-          "definition": "shines",
-          "translations": {
-            "es": "brilla",
-            "pl": "świeci",
-            "fil": "sumisinag"
-          }
-        },
-        {
-          "greek": "σφόδρα·",
-          "definition": "greatly"
-        },
-        {
-          "greek": "ἡ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "δὲ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "ὑδρία",
-          "definition": "water jar"
-        },
-        {
-          "greek": "αὐτῆς",
-          "definition": "her"
-        },
-        {
-          "greek": "ἔτι",
-          "definition": "still"
-        },
-        {
-          "greek": "ἐστὶν",
+          "greek": "ἐστιν",
           "definition": "is",
           "translations": {
             "es": "es",
@@ -9892,11 +9245,7 @@
           }
         },
         {
-          "greek": "παρὰ",
-          "definition": "beside"
-        },
-        {
-          "greek": "τὴν",
+          "greek": "ὁ",
           "definition": "the",
           "translations": {
             "es": "el/la",
@@ -9905,43 +9254,8 @@
           }
         },
         {
-          "greek": "πηγήν,",
-          "definition": "spring"
-        },
-        {
-          "greek": "καὶ",
-          "definition": "and",
-          "translations": {
-            "es": "y",
-            "pl": "i",
-            "fil": "at"
-          }
-        },
-        {
-          "greek": "τὸ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ὕδωρ",
-          "definition": "water"
-        },
-        {
-          "greek": "ἔτι",
-          "definition": "still"
-        },
-        {
-          "greek": "ἐστὶν",
-          "definition": "is",
-          "translations": {
-            "es": "es",
-            "pl": "jest",
-            "fil": "ay"
-          }
+          "greek": "Χριστός,",
+          "definition": "Christ"
         },
         {
           "greek": "ἐν",
@@ -9953,110 +9267,93 @@
           }
         },
         {
-          "greek": "αὐτῇ.",
-          "definition": "it"
+          "greek": "ᾧ",
+          "definition": "whom/which (dat.)"
         },
         {
-          "greek": "ἀλλὰ",
-          "definition": "but",
-          "translations": {
-            "es": "pero",
-            "pl": "ale",
-            "fil": "ngunit"
-          }
+          "greek": "ἡμεῖς",
+          "definition": "we"
         },
         {
-          "greek": "ἡ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "Σαλώμη",
-          "definition": "Salome"
-        },
-        {
-          "greek": "οὐ",
-          "definition": "not",
-          "translations": {
-            "es": "no",
-            "pl": "nie",
-            "fil": "hindi"
-          }
-        },
-        {
-          "greek": "μεριμνᾷ",
-          "definition": "worries"
-        },
-        {
-          "greek": "περὶ",
-          "definition": "about"
-        },
-        {
-          "greek": "τοῦ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ὕδατος",
-          "definition": "water (gen.)"
-        },
-        {
-          "greek": "τῆς",
-          "definition": "of the"
-        },
-        {
-          "greek": "ὑδρίας·",
-          "definition": "jar"
-        },
-        {
-          "greek": "μεριμνᾷ",
-          "definition": "she thinks"
-        },
-        {
-          "greek": "περὶ",
-          "definition": "about"
-        },
-        {
-          "greek": "τοῦ",
-          "definition": "the",
-          "translations": {
-            "es": "el/la",
-            "pl": "rodz.",
-            "fil": "ang"
-          }
-        },
-        {
-          "greek": "ὕδατος",
-          "definition": "water (gen.)"
-        },
-        {
-          "greek": "τῆς",
-          "definition": "of the"
-        },
-        {
-          "greek": "ζωῆς.",
-          "definition": "life",
-          "translations": {
-            "es": "vida",
-            "pl": "życie",
-            "fil": "buhay"
-          }
+          "greek": "μένομεν.\"",
+          "definition": "we remain"
         }
       ],
-      "translation": "Salome is silent again. But the sun still shines greatly; her water jar is still beside the spring, and the water is still in it. But Salome does not worry about the water of the jar; she thinks about the water of life.",
-      "translations": {
-        "es": "Salomé está callada de nuevo. El sol ya no brilla con fuerza; pues se acerca la tarde.",
-        "pl": "Salome milczy znowu. Słońce już nie świeci mocno; zbliża się bowiem wieczór.",
-        "fil": "Tumatahimik muli si Salome. Hindi na napakalakas ng sikat ng araw; papalapit na kasi ang gabi."
-      }
+      "translation": "\"Yes,\" says Jacob. \"You know the Scriptures well and you speak rightly. It pleases me to hear this. But listen to me again. Jesus is the Son of God. God remains in Jesus and Jesus remains in God. Not only this, but Jesus also says this: I am the way and the truth and the life; no one comes to the Father except through me. For this reason we are only able to come to God the Father through Jesus, because Jesus is the way. And Jesus is the Christ, in whom we remain.\""
+    },
+    {
+      "id": 44,
+      "words": [
+        {
+          "greek": "ταῦτα",
+          "definition": "these"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the (neut.pl)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "ῥήματα",
+          "definition": "words"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the"
+        },
+        {
+          "greek": "Ἰακώβου",
+          "definition": "Jacob (gen.)"
+        },
+        {
+          "greek": "ἐγείρει",
+          "definition": "stirs up, raises"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and",
+          "translations": {
+            "es": "y",
+            "pl": "i",
+            "fil": "at"
+          }
+        },
+        {
+          "greek": "ταράσσει",
+          "definition": "disturbs"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "καρδίαν",
+          "definition": "heart (acc.)"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)",
+          "translations": {
+            "es": "el/la",
+            "pl": "rodz.",
+            "fil": "ang"
+          }
+        },
+        {
+          "greek": "Σαλώμης.",
+          "definition": "Salome (gen.)"
+        }
+      ],
+      "translation": "These words of Jacob stir up and disturb the heart of Salome."
     }
   ],
   "titleTranslations": {
