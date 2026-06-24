@@ -8414,5 +8414,65 @@
         "n": "ἕτερα"
       }
     ]
+  },
+  "G1520": {
+    "lemma": "εἷς",
+    "type": "adj",
+    "label": "εἷς, μία, ἕν — one (numeral, singular only)",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "m": "εἷς",
+        "f": "μία",
+        "n": "ἕν"
+      },
+      {
+        "case": "Gen.",
+        "m": "ἑνός",
+        "f": "μιᾶς",
+        "n": "ἑνός"
+      },
+      {
+        "case": "Dat.",
+        "m": "ἑνί",
+        "f": "μιᾷ",
+        "n": "ἑνί"
+      },
+      {
+        "case": "Acc.",
+        "m": "ἕνα",
+        "f": "μίαν",
+        "n": "ἕν"
+      }
+    ]
+  },
+  "G1417": {
+    "lemma": "δύο",
+    "type": "verb",
+    "label": "δύο — two (numeral, all genders)",
+    "headers": [
+      "",
+      "Form"
+    ],
+    "rows": [
+      {
+        "person": "Nom./Acc.",
+        "form": "δύο"
+      },
+      {
+        "person": "Gen.",
+        "form": "δύο"
+      },
+      {
+        "person": "Dat.",
+        "form": "δυσίν"
+      }
+    ]
   }
 }
