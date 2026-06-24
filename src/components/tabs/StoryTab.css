@@ -495,7 +495,15 @@
 
 /* ── In-popover paradigm ─────────────────────────────────────────────────── */
 .word-popover--with-paradigm {
-  max-width: min(420px, 95vw);
+  max-width: min(440px, 95vw);
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.tooltip-gloss-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .tooltip-paradigm-section {
@@ -570,3 +578,7 @@
   vertical-align: middle;
 }
 .tooltip-paradigm-table tr:nth-child(odd) td { background: rgba(255,255,255,0.04); }
+
+.tooltip-paradigm-table--adj .tpt-form { padding: 2px 5px; font-size: 0.75rem; }
+.tooltip-paradigm-table--adj .tpt-case { font-size: 0.6rem; }
+.word-popover--with-paradigm.word-popover--adj { max-width: min(500px, 97vw); }

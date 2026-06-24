@@ -96,7 +96,7 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
       // Index all comma-separated forms (e.g. εἷς, μία, ἕν each become keys)
       const forms = entry.greek.split(/,\s*/).map(f => f.trim().split(/\s/)[0]).filter(Boolean)
       for (const form of forms) {
-        const exactKey = form.normalize('NFD').toLowerCase().replace(/[,.'·;!?\s]/g, '')
+        const exactKey = form.normalize('NFD').toLowerCase().replace(/[^\p{L}]/gu, '')
         if (!exact[exactKey]) exact[exactKey] = entry
       }
       // Normalized map uses first form only (for stem-matching fallback)
@@ -127,7 +127,7 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
 
   function findVocabEntry(greekWord) {
     // 1. Exact match (diacritics preserved) — differentiates εἷς vs εἰς, μία → numeral, etc.
-    const exactKey = greekWord.normalize('NFD').toLowerCase().replace(/[,.'·;!?\s]/g, '')
+    const exactKey = greekWord.normalize('NFD').toLowerCase().replace(/[^\p{L}]/gu, '')
     if (vocabMap.exact[exactKey]) return vocabMap.exact[exactKey]
 
     const normalized = normalizeGreek(greekWord)
@@ -355,7 +355,7 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
       </div>
 
       {activeWord && (
-        <div className={`word-popover ${showImage && activeWord.vocabEntry?.image ? 'word-popover--with-image' : ''} ${showImage && activeWord.vocabEntry && !activeWord.vocabEntry.image ? 'word-popover--vocab' : ''} ${showParadigm ? 'word-popover--with-paradigm' : ''}`} ref={popoverRef} style={{ opacity: 0 }}>
+        <div className={`word-popover ${showImage && activeWord.vocabEntry?.image ? 'word-popover--with-image' : ''} ${showImage && activeWord.vocabEntry && !activeWord.vocabEntry.image ? 'word-popover--vocab' : ''} ${showParadigm ? 'word-popover--with-paradigm' : ''} ${showParadigm && getParadigm(activeWord.vocabEntry)?.type === 'adj' ? 'word-popover--adj' : ''}`} ref={popoverRef} style={{ opacity: 0 }}>
           {showImage && activeWord.vocabEntry?.image ? (
             <div className="tooltip-image-layout">
               <img
@@ -387,12 +387,12 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
               <button className="tooltip-close" onClick={() => { setActiveWord(null); setShowImage(false); setShowParadigm(false) }}>✕</button>
             </div>
           ) : (
-            <>
+            <div className="tooltip-gloss-row">
               <span className="tooltip-greek greek">{activeWord.greek}</span>
               <span className="tooltip-arrow">→</span>
               <span className="tooltip-def">{t(activeWord.definition, activeWord.translations, lang)}</span>
               <button className="tooltip-close" onClick={() => { setActiveWord(null); setShowImage(false); setShowParadigm(false) }}>✕</button>
-            </>
+            </div>
           )}
 
           {/* Paradigm button — shown when a table exists for this word */}
@@ -412,19 +412,27 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
                     <div className="tooltip-paradigm-label greek">{p.label}</div>
                     {p.type === 'noun' ? (
                       <table className="tooltip-paradigm-table">
-                        <thead>
-                          <tr>
-                            <th></th>
-                            <th>Sg.</th>
-                            <th>Pl.</th>
-                          </tr>
-                        </thead>
+                        <thead><tr><th></th><th>Sg.</th><th>Pl.</th></tr></thead>
                         <tbody>
                           {p.rows.map(row => (
                             <tr key={row.case}>
                               <td className="tpt-case">{row.case}</td>
                               <td className="tpt-form greek">{withEndingHighlight(row.sg, p.rows.map(r => r.sg))}</td>
                               <td className="tpt-form greek">{withEndingHighlight(row.pl, p.rows.map(r => r.pl))}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    ) : p.type === 'adj' ? (
+                      <table className="tooltip-paradigm-table tooltip-paradigm-table--adj">
+                        <thead><tr><th></th>{p.headers.slice(1).map(h => <th key={h}>{h}</th>)}</tr></thead>
+                        <tbody>
+                          {p.rows.map(row => (
+                            <tr key={row.case}>
+                              <td className="tpt-case">{row.case}</td>
+                              <td className="tpt-form greek">{withEndingHighlight(row.m, p.rows.map(r => r.m))}</td>
+                              <td className="tpt-form greek">{withEndingHighlight(row.f, p.rows.map(r => r.f))}</td>
+                              {'n' in row && <td className="tpt-form greek">{withEndingHighlight(row.n, p.rows.map(r => r.n))}</td>}
                             </tr>
                           ))}
                         </tbody>
