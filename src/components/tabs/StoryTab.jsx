@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
 import { useLanguage, useUI, t } from '../../context/LanguageContext.jsx'
+import PARADIGMS from '../../data/paradigms.json'
 import './StoryTab.css'
 
 function getParagraphParts(paragraphs) {
@@ -79,6 +80,7 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
   const [showTranslation, setShowTranslation] = useState(false)
   const [activeWord, setActiveWord] = useState(null)
   const [showImage, setShowImage] = useState(false)
+  const [showParadigm, setShowParadigm] = useState(false)
   const [popoverPos, setPopoverPos] = useState({ top: 0, left: 0 })
   const popoverRef = useRef(null)
 
@@ -160,6 +162,7 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
     setPopoverPos({ anchorTop: rect.bottom, anchorBottom: rect.top, anchorLeft: rect.left + rect.width / 2 })
     setActiveWord({ ...word, key, vocabEntry: findVocabEntry(word.greek) })
     setShowImage(false)
+    setShowParadigm(false)
   }
 
   function handleWordDoubleClick(e, word, paragraphId, wordIdx) {
@@ -169,6 +172,12 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
     setPopoverPos({ anchorTop: rect.bottom, anchorBottom: rect.top, anchorLeft: rect.left + rect.width / 2 })
     setActiveWord({ ...word, key, vocabEntry: findVocabEntry(word.greek) })
     setShowImage(true)
+    setShowParadigm(false)
+  }
+
+  function getParadigm(vocabEntry) {
+    if (!vocabEntry?.strongsNum) return null
+    return PARADIGMS[vocabEntry.strongsNum] || null
   }
 
   // Close on outside click
@@ -215,7 +224,7 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
     pop.style.left = `${left}px`
     pop.style.top = `${top}px`
     pop.style.opacity = '1'
-  }, [activeWord, popoverPos])
+  }, [activeWord, popoverPos, showParadigm])
 
   if (!story) {
     return <div className="empty-tab">📖 Story text for this chapter has not been added yet.</div>
@@ -346,7 +355,7 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
                 )}
                 <span className="tooltip-def">{t(activeWord.vocabEntry.definition, activeWord.vocabEntry.translations, lang)}</span>
               </div>
-              <button className="tooltip-close" onClick={() => { setActiveWord(null); setShowImage(false) }}>✕</button>
+              <button className="tooltip-close" onClick={() => { setActiveWord(null); setShowImage(false); setShowParadigm(false) }}>✕</button>
             </div>
           ) : showImage && activeWord.vocabEntry ? (
             <div className="tooltip-vocab-layout">
@@ -360,15 +369,67 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
                 <span className="tooltip-pos">{activeWord.vocabEntry.partOfSpeech}</span>
               )}
               <span className="tooltip-def">{t(activeWord.vocabEntry.definition, activeWord.vocabEntry.translations, lang)}</span>
-              <button className="tooltip-close" onClick={() => { setActiveWord(null); setShowImage(false) }}>✕</button>
+              <button className="tooltip-close" onClick={() => { setActiveWord(null); setShowImage(false); setShowParadigm(false) }}>✕</button>
             </div>
           ) : (
             <>
               <span className="tooltip-greek greek">{activeWord.greek}</span>
               <span className="tooltip-arrow">→</span>
               <span className="tooltip-def">{t(activeWord.definition, activeWord.translations, lang)}</span>
-              <button className="tooltip-close" onClick={() => { setActiveWord(null); setShowImage(false) }}>✕</button>
+              <button className="tooltip-close" onClick={() => { setActiveWord(null); setShowImage(false); setShowParadigm(false) }}>✕</button>
             </>
+          )}
+
+          {/* Paradigm button — shown when a table exists for this word */}
+          {getParadigm(activeWord.vocabEntry) && (
+            <div className="tooltip-paradigm-section">
+              <button
+                className="tooltip-paradigm-btn"
+                onClick={() => setShowParadigm(v => !v)}
+              >
+                <span className="tooltip-paradigm-btn-icon">{showParadigm ? '▾' : '▸'}</span>
+                {showParadigm ? 'Hide paradigm' : 'Full paradigm'}
+              </button>
+              {showParadigm && (() => {
+                const p = getParadigm(activeWord.vocabEntry)
+                return (
+                  <div className="tooltip-paradigm-table-wrap">
+                    <div className="tooltip-paradigm-label greek">{p.label}</div>
+                    {p.type === 'noun' ? (
+                      <table className="tooltip-paradigm-table">
+                        <thead>
+                          <tr>
+                            <th></th>
+                            <th>Sg.</th>
+                            <th>Pl.</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {p.rows.map(row => (
+                            <tr key={row.case}>
+                              <td className="tpt-case">{row.case}</td>
+                              <td className="tpt-form greek">{withEndingHighlight(row.sg, p.rows.map(r => r.sg))}</td>
+                              <td className="tpt-form greek">{withEndingHighlight(row.pl, p.rows.map(r => r.pl))}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    ) : (
+                      <table className="tooltip-paradigm-table">
+                        <tbody>
+                          {p.rows.map(row => (
+                            <tr key={row.person}>
+                              <td className="tpt-case">{row.person}</td>
+                              <td className="tpt-form greek">{withEndingHighlight(row.form, p.rows.map(r => r.form))}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    )}
+                  </div>
+                )
+              })()}
+            </div>
           )}
         </div>
       )}

@@ -492,3 +492,77 @@
   .side-note-label  { font-size: 0.58rem; }
   .side-note-table td { font-size: 0.72rem; }
 }
+
+/* ── In-popover paradigm ─────────────────────────────────────────────────── */
+.tooltip-paradigm-section {
+  border-top: 1px solid rgba(255,255,255,0.15);
+  margin-top: 8px;
+  padding-top: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tooltip-paradigm-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  border-radius: 5px;
+  color: rgba(255,255,255,0.85);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 9px;
+  cursor: pointer;
+  transition: background 0.15s;
+  letter-spacing: 0.01em;
+  align-self: flex-start;
+}
+.tooltip-paradigm-btn:hover { background: rgba(255,255,255,0.2); }
+
+.tooltip-paradigm-btn-icon {
+  font-size: 0.7rem;
+  opacity: 0.8;
+}
+
+.tooltip-paradigm-table-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.tooltip-paradigm-label {
+  font-size: 0.72rem;
+  color: var(--gold-light, #f0d98a);
+  font-style: italic;
+}
+
+.tooltip-paradigm-table {
+  border-collapse: collapse;
+  font-size: 0.8rem;
+  width: 100%;
+}
+.tooltip-paradigm-table th {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgba(255,255,255,0.5);
+  padding: 1px 6px 3px;
+  text-align: center;
+}
+.tpt-case {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.5);
+  padding: 2px 8px 2px 0;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.tpt-form {
+  color: #fff;
+  padding: 2px 8px;
+  vertical-align: middle;
+}
+.tooltip-paradigm-table tr:nth-child(odd) td { background: rgba(255,255,255,0.04); }

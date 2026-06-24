@@ -1,0 +1,278 @@
+{
+  "G1033": {
+    "lemma": "βρῶμα",
+    "type": "noun",
+    "label": "βρῶμα, -ατος, τό — food",
+    "headers": ["", "Sg.", "Pl."],
+    "rows": [
+      { "case": "Nom.", "sg": "βρῶμα",    "pl": "βρώματα"   },
+      { "case": "Gen.", "sg": "βρώματος", "pl": "βρωμάτων"  },
+      { "case": "Dat.", "sg": "βρώματι",  "pl": "βρώμασιν"  },
+      { "case": "Acc.", "sg": "βρῶμα",    "pl": "βρώματα"   }
+    ]
+  },
+  "G4188": {
+    "lemma": "πόμα",
+    "type": "noun",
+    "label": "πόμα, -ατος, τό — drink",
+    "headers": ["", "Sg.", "Pl."],
+    "rows": [
+      { "case": "Nom.", "sg": "πόμα",    "pl": "πόματα"   },
+      { "case": "Gen.", "sg": "πόματος", "pl": "πομάτων"  },
+      { "case": "Dat.", "sg": "πόματι",  "pl": "πόμασιν"  },
+      { "case": "Acc.", "sg": "πόμα",    "pl": "πόματα"   }
+    ]
+  },
+  "G4151": {
+    "lemma": "πνεῦμα",
+    "type": "noun",
+    "label": "πνεῦμα, -ατος, τό — spirit",
+    "headers": ["", "Sg.", "Pl."],
+    "rows": [
+      { "case": "Nom.", "sg": "πνεῦμα",    "pl": "πνεύματα"   },
+      { "case": "Gen.", "sg": "πνεύματος", "pl": "πνευμάτων"  },
+      { "case": "Dat.", "sg": "πνεύματι",  "pl": "πνεύμασιν"  },
+      { "case": "Acc.", "sg": "πνεῦμα",    "pl": "πνεύματα"   }
+    ]
+  },
+  "G2222": {
+    "lemma": "ζωή",
+    "type": "noun",
+    "label": "ζωή, -ῆς, ἡ — life",
+    "headers": ["", "Sg.", "Pl."],
+    "rows": [
+      { "case": "Nom.", "sg": "ζωή",  "pl": "ζωαί"  },
+      { "case": "Gen.", "sg": "ζωῆς", "pl": "ζωῶν"  },
+      { "case": "Dat.", "sg": "ζωῇ",  "pl": "ζωαῖς" },
+      { "case": "Acc.", "sg": "ζωήν", "pl": "ζωάς"  }
+    ]
+  },
+  "G2307": {
+    "lemma": "θέλημα",
+    "type": "noun",
+    "label": "θέλημα, -ατος, τό — will",
+    "headers": ["", "Sg.", "Pl."],
+    "rows": [
+      { "case": "Nom.", "sg": "θέλημα",    "pl": "θελήματα"   },
+      { "case": "Gen.", "sg": "θελήματος", "pl": "θελημάτων"  },
+      { "case": "Dat.", "sg": "θελήματι",  "pl": "θελήμασιν"  },
+      { "case": "Acc.", "sg": "θέλημα",    "pl": "θελήματα"   }
+    ]
+  },
+  "G4487": {
+    "lemma": "ῥῆμα",
+    "type": "noun",
+    "label": "ῥῆμα, -ατος, τό — word, saying",
+    "headers": ["", "Sg.", "Pl."],
+    "rows": [
+      { "case": "Nom.", "sg": "ῥῆμα",    "pl": "ῥήματα"   },
+      { "case": "Gen.", "sg": "ῥήματος", "pl": "ῥημάτων"  },
+      { "case": "Dat.", "sg": "ῥήματι",  "pl": "ῥήμασιν"  },
+      { "case": "Acc.", "sg": "ῥῆμα",    "pl": "ῥήματα"   }
+    ]
+  },
+  "G4750": {
+    "lemma": "στόμα",
+    "type": "noun",
+    "label": "στόμα, -ατος, τό — mouth",
+    "headers": ["", "Sg.", "Pl."],
+    "rows": [
+      { "case": "Nom.", "sg": "στόμα",    "pl": "στόματα"   },
+      { "case": "Gen.", "sg": "στόματος", "pl": "στομάτων"  },
+      { "case": "Dat.", "sg": "στόματι",  "pl": "στόμασιν"  },
+      { "case": "Acc.", "sg": "στόμα",    "pl": "στόματα"   }
+    ]
+  },
+  "G5207": {
+    "lemma": "υἱός",
+    "type": "noun",
+    "label": "υἱός, -οῦ, ὁ — son",
+    "headers": ["", "Sg.", "Pl."],
+    "rows": [
+      { "case": "Nom.", "sg": "υἱός",  "pl": "υἱοί"  },
+      { "case": "Gen.", "sg": "υἱοῦ",  "pl": "υἱῶν"  },
+      { "case": "Dat.", "sg": "υἱῷ",   "pl": "υἱοῖς" },
+      { "case": "Acc.", "sg": "υἱόν",  "pl": "υἱούς" }
+    ]
+  },
+  "G225": {
+    "lemma": "ἀλήθεια",
+    "type": "noun",
+    "label": "ἀλήθεια, -ας, ἡ — truth",
+    "headers": ["", "Sg.", "Pl."],
+    "rows": [
+      { "case": "Nom.", "sg": "ἀλήθεια",  "pl": "ἀλήθειαι"  },
+      { "case": "Gen.", "sg": "ἀληθείας", "pl": "ἀληθειῶν"  },
+      { "case": "Dat.", "sg": "ἀληθείᾳ",  "pl": "ἀληθείαις" },
+      { "case": "Acc.", "sg": "ἀλήθειαν", "pl": "ἀληθείας"  }
+    ]
+  },
+  "G1325": {
+    "lemma": "δίδωμι",
+    "type": "verb",
+    "label": "δίδωμι — I give (μι-verb)",
+    "headers": ["", "Pres. Act."],
+    "rows": [
+      { "person": "1sg", "form": "δίδωμι"    },
+      { "person": "2sg", "form": "δίδως"     },
+      { "person": "3sg", "form": "δίδωσιν"   },
+      { "person": "1pl", "form": "δίδομεν"   },
+      { "person": "2pl", "form": "δίδοτε"    },
+      { "person": "3pl", "form": "διδόασιν"  }
+    ]
+  },
+  "G4920": {
+    "lemma": "συνίημι",
+    "type": "verb",
+    "label": "συνίημι — I understand (μι-verb)",
+    "headers": ["", "Pres. Act."],
+    "rows": [
+      { "person": "1sg", "form": "συνίημι"   },
+      { "person": "2sg", "form": "συνίης"    },
+      { "person": "3sg", "form": "συνίησιν"  },
+      { "person": "1pl", "form": "συνίεμεν"  },
+      { "person": "2pl", "form": "συνίετε"   },
+      { "person": "3pl", "form": "συνιᾶσιν"  }
+    ]
+  },
+  "G4352": {
+    "lemma": "προσκυνέω",
+    "type": "verb",
+    "label": "προσκυνέω — I worship (+ dat.)",
+    "headers": ["", "Pres. Act."],
+    "rows": [
+      { "person": "1sg", "form": "προσκυνῶ"     },
+      { "person": "2sg", "form": "προσκυνεῖς"   },
+      { "person": "3sg", "form": "προσκυνεῖ"    },
+      { "person": "1pl", "form": "προσκυνοῦμεν" },
+      { "person": "2pl", "form": "προσκυνεῖτε"  },
+      { "person": "3pl", "form": "προσκυνοῦσιν" }
+    ]
+  },
+  "G4100": {
+    "lemma": "πιστεύω",
+    "type": "verb",
+    "label": "πιστεύω — I believe, trust (+ dat.)",
+    "headers": ["", "Pres. Act."],
+    "rows": [
+      { "person": "1sg", "form": "πιστεύω"     },
+      { "person": "2sg", "form": "πιστεύεις"   },
+      { "person": "3sg", "form": "πιστεύει"    },
+      { "person": "1pl", "form": "πιστεύομεν"  },
+      { "person": "2pl", "form": "πιστεύετε"   },
+      { "person": "3pl", "form": "πιστεύουσιν" }
+    ]
+  },
+  "G2198": {
+    "lemma": "ζάω",
+    "type": "verb",
+    "label": "ζάω — I live (contract -άω)",
+    "headers": ["", "Pres. Act."],
+    "rows": [
+      { "person": "1sg", "form": "ζῶ"     },
+      { "person": "2sg", "form": "ζῇς"    },
+      { "person": "3sg", "form": "ζῇ"     },
+      { "person": "1pl", "form": "ζῶμεν"  },
+      { "person": "2pl", "form": "ζῆτε"   },
+      { "person": "3pl", "form": "ζῶσιν"  }
+    ]
+  },
+  "G599": {
+    "lemma": "ἀποθνῄσκω",
+    "type": "verb",
+    "label": "ἀποθνῄσκω — I die",
+    "headers": ["", "Pres. Act."],
+    "rows": [
+      { "person": "1sg", "form": "ἀποθνῄσκω"     },
+      { "person": "2sg", "form": "ἀποθνῄσκεις"   },
+      { "person": "3sg", "form": "ἀποθνῄσκει"    },
+      { "person": "1pl", "form": "ἀποθνῄσκομεν"  },
+      { "person": "2pl", "form": "ἀποθνῄσκετε"   },
+      { "person": "3pl", "form": "ἀποθνῄσκουσιν" }
+    ]
+  },
+  "G2065": {
+    "lemma": "ἐρωτάω",
+    "type": "verb",
+    "label": "ἐρωτάω — I ask (contract -άω)",
+    "headers": ["", "Pres. Act."],
+    "rows": [
+      { "person": "1sg", "form": "ἐρωτῶ"    },
+      { "person": "2sg", "form": "ἐρωτᾷς"   },
+      { "person": "3sg", "form": "ἐρωτᾷ"    },
+      { "person": "1pl", "form": "ἐρωτῶμεν" },
+      { "person": "2pl", "form": "ἐρωτᾶτε"  },
+      { "person": "3pl", "form": "ἐρωτῶσιν" }
+    ]
+  },
+  "G4591": {
+    "lemma": "σημαίνω",
+    "type": "verb",
+    "label": "σημαίνω — I mean, signify",
+    "headers": ["", "Pres. Act."],
+    "rows": [
+      { "person": "1sg", "form": "σημαίνω"     },
+      { "person": "2sg", "form": "σημαίνεις"   },
+      { "person": "3sg", "form": "σημαίνει"    },
+      { "person": "1pl", "form": "σημαίνομεν"  },
+      { "person": "2pl", "form": "σημαίνετε"   },
+      { "person": "3pl", "form": "σημαίνουσιν" }
+    ]
+  },
+  "G4601": {
+    "lemma": "σιγάω",
+    "type": "verb",
+    "label": "σιγάω — I am silent (contract -άω)",
+    "headers": ["", "Pres. Act."],
+    "rows": [
+      { "person": "1sg", "form": "σιγῶ"    },
+      { "person": "2sg", "form": "σιγᾷς"   },
+      { "person": "3sg", "form": "σιγᾷ"    },
+      { "person": "1pl", "form": "σιγῶμεν" },
+      { "person": "2pl", "form": "σιγᾶτε"  },
+      { "person": "3pl", "form": "σιγῶσιν" }
+    ]
+  },
+  "G5015": {
+    "lemma": "ταράσσω",
+    "type": "verb",
+    "label": "ταράσσω — I trouble, stir up",
+    "headers": ["", "Pres. Act."],
+    "rows": [
+      { "person": "1sg", "form": "ταράσσω"     },
+      { "person": "2sg", "form": "ταράσσεις"   },
+      { "person": "3sg", "form": "ταράσσει"    },
+      { "person": "1pl", "form": "ταράσσομεν"  },
+      { "person": "2pl", "form": "ταράσσετε"   },
+      { "person": "3pl", "form": "ταράσσουσιν" }
+    ]
+  },
+  "G1070": {
+    "lemma": "γελάω",
+    "type": "verb",
+    "label": "γελάω — I laugh (contract -άω)",
+    "headers": ["", "Pres. Act."],
+    "rows": [
+      { "person": "1sg", "form": "γελῶ"    },
+      { "person": "2sg", "form": "γελᾷς"   },
+      { "person": "3sg", "form": "γελᾷ"    },
+      { "person": "1pl", "form": "γελῶμεν" },
+      { "person": "2pl", "form": "γελᾶτε"  },
+      { "person": "3pl", "form": "γελῶσιν" }
+    ]
+  },
+  "G25": {
+    "lemma": "ἀγαπάω",
+    "type": "verb",
+    "label": "ἀγαπάω — I love (contract -άω)",
+    "headers": ["", "Pres. Act."],
+    "rows": [
+      { "person": "1sg", "form": "ἀγαπῶ"    },
+      { "person": "2sg", "form": "ἀγαπᾷς"   },
+      { "person": "3sg", "form": "ἀγαπᾷ"    },
+      { "person": "1pl", "form": "ἀγαπῶμεν" },
+      { "person": "2pl", "form": "ἀγαπᾶτε"  },
+      { "person": "3pl", "form": "ἀγαπῶσιν" }
+    ]
+  }
+}
