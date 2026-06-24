@@ -518,25 +518,21 @@
 .tooltip-paradigm-btn {
   display: flex;
   align-items: center;
-  gap: 5px;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
   background: rgba(255,255,255,0.1);
   border: none;
   border-radius: 5px;
   color: rgba(255,255,255,0.85);
-  font-size: 0.75rem;
-  font-weight: 600;
-  padding: 4px 9px;
+  font-size: 1rem;
   cursor: pointer;
   transition: background 0.15s;
-  letter-spacing: 0.01em;
   align-self: flex-start;
+  flex-shrink: 0;
 }
 .tooltip-paradigm-btn:hover { background: rgba(255,255,255,0.2); }
-
-.tooltip-paradigm-btn-icon {
-  font-size: 0.7rem;
-  opacity: 0.8;
-}
+.tooltip-paradigm-btn--active { background: rgba(255,255,255,0.25); color: #fff; }
 
 .tooltip-paradigm-table-wrap {
   display: flex;

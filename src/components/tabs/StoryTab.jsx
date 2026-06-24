@@ -399,11 +399,12 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
           {getParadigm(activeWord.vocabEntry) && (
             <div className="tooltip-paradigm-section">
               <button
-                className="tooltip-paradigm-btn"
+                className={`tooltip-paradigm-btn${showParadigm ? ' tooltip-paradigm-btn--active' : ''}`}
                 onClick={() => setShowParadigm(v => !v)}
+                title={showParadigm ? 'Hide paradigm' : 'Full paradigm'}
+                aria-label={showParadigm ? 'Hide paradigm' : 'Full paradigm'}
               >
-                <span className="tooltip-paradigm-btn-icon">{showParadigm ? '▾' : '▸'}</span>
-                {showParadigm ? 'Hide paradigm' : 'Full paradigm'}
+                <i className="ti ti-table" aria-hidden="true" />
               </button>
               {showParadigm && (() => {
                 const p = getParadigm(activeWord.vocabEntry)
