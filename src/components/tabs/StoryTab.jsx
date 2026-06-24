@@ -110,7 +110,20 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
   // Verb endings (longest first to avoid partial matches)
   const VERB_SUFFIXES = ['ουσιν', 'ουσι', 'ομεν', 'ετε', 'εις', 'ει', 'ω']
   // Noun/adjective case endings (longest first); αι/οι cover fem/masc nom. plural (e.g. πολλαί, πολλοί)
-  const NOUN_SUFFIXES = ['ους', 'οις', 'αις', 'ων', 'ου', 'ης', 'ος', 'ον', 'αν', 'ην', 'ας', 'αι', 'οι', 'ω', 'α', 'η', 'ε']
+  const NOUN_SUFFIXES = [
+    // 3rd declension -μα/-ατ- stems (σῶμα, πνεῦμα, etc.)
+    'ατων', 'ασιν', 'ατος', 'ατι', 'ατα',
+    // 3rd declension -ις/-εως stems (ἀνάστασις etc.)
+    'εσιν', 'εων', 'εως', 'σεων', 'σει', 'σεις', 'σιν',
+    // 3rd declension -ων/-ον- stems (αἰών, ποιμήν)
+    'ονος', 'ονι', 'ονα', 'ονες', 'ονων', 'οσιν',
+    'ενος', 'ενι', 'ενα', 'ενες', 'ενων', 'εσιν',
+    // 3rd declension consonant stems (σάρξ, νύξ, φῶς)
+    'κος', 'κι', 'κα', 'κες', 'κων', 'ξιν',
+    'τος', 'τι', 'τα', 'τες', 'των', 'σιν',
+    // Standard 1st/2nd declension (longest first)
+    'ους', 'οις', 'αις', 'ων', 'ου', 'ης', 'ος', 'ον', 'αν', 'ην', 'ας', 'αι', 'οι', 'ω', 'α', 'η', 'ε'
+  ]
 
   function findVocabEntry(greekWord) {
     // 1. Exact match (diacritics preserved) — differentiates εἷς vs εἰς, μία → numeral, etc.
@@ -342,7 +355,7 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
       </div>
 
       {activeWord && (
-        <div className={`word-popover ${showImage && activeWord.vocabEntry?.image ? 'word-popover--with-image' : ''} ${showImage && activeWord.vocabEntry && !activeWord.vocabEntry.image ? 'word-popover--vocab' : ''}`} ref={popoverRef} style={{ opacity: 0 }}>
+        <div className={`word-popover ${showImage && activeWord.vocabEntry?.image ? 'word-popover--with-image' : ''} ${showImage && activeWord.vocabEntry && !activeWord.vocabEntry.image ? 'word-popover--vocab' : ''} ${showParadigm ? 'word-popover--with-paradigm' : ''}`} ref={popoverRef} style={{ opacity: 0 }}>
           {showImage && activeWord.vocabEntry?.image ? (
             <div className="tooltip-image-layout">
               <img

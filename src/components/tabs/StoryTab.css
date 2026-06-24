@@ -494,6 +494,10 @@
 }
 
 /* ── In-popover paradigm ─────────────────────────────────────────────────── */
+.word-popover--with-paradigm {
+  max-width: min(420px, 95vw);
+}
+
 .tooltip-paradigm-section {
   border-top: 1px solid rgba(255,255,255,0.15);
   margin-top: 8px;
