@@ -177,7 +177,9 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
 
   function getParadigm(vocabEntry) {
     if (!vocabEntry?.strongsNum) return null
-    return PARADIGMS[vocabEntry.strongsNum] || null
+    const sn = vocabEntry.strongsNum
+    const num = parseInt(sn.slice(1))
+    return PARADIGMS[sn] || PARADIGMS[`G${num}`] || PARADIGMS[`G${String(num).padStart(4, '0')}`] || null
   }
 
   // Close on outside click
