@@ -516,7 +516,25 @@
           "greek": "Σαλώμης.",
           "definition": "of Salome"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "διψάω — to thirst",
+        "rows": [
+          {
+            "greek": "διψᾷ",
+            "label": "3s"
+          },
+          {
+            "greek": "διψῶν",
+            "label": "part.m."
+          },
+          {
+            "greek": "διψώσῃ",
+            "label": "part.f.dat."
+          }
+        ]
+      }
     },
     {
       "id": 4,
@@ -884,7 +902,25 @@
           "greek": "Ἰησοῦ.\"",
           "definition": "of Jesus"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "πιστεύω — to believe",
+        "rows": [
+          {
+            "greek": "ὁ πιστεύων",
+            "label": "part.nom."
+          },
+          {
+            "greek": "τῷ πιστεύοντι",
+            "label": "part.dat."
+          },
+          {
+            "greek": "τὸν πιστεύοντα",
+            "label": "part.acc."
+          }
+        ]
+      }
     },
     {
       "id": 8,
@@ -2030,7 +2066,25 @@
           "greek": "ἐστιν.\"",
           "definition": "is"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "παράκλητος — advocate/helper",
+        "rows": [
+          {
+            "greek": "παράκλητος",
+            "label": "Nom."
+          },
+          {
+            "greek": "παρακλήτου",
+            "label": "Gen."
+          },
+          {
+            "greek": "παράκλητον",
+            "label": "Acc."
+          }
+        ]
+      }
     },
     {
       "id": 14,
@@ -3839,7 +3893,25 @@
           "greek": "καθαρίζεται.\"",
           "definition": "is cleansed"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "δεῖ + infinitive — it is necessary",
+        "rows": [
+          {
+            "greek": "δεῖ … μετανοεῖν",
+            "label": "to repent"
+          },
+          {
+            "greek": "δεῖ … πιστεύειν",
+            "label": "to believe"
+          },
+          {
+            "greek": "δεῖ … βαπτίζεσθαι",
+            "label": "to be baptized"
+          }
+        ]
+      }
     },
     {
       "id": 26,

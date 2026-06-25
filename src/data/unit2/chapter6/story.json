@@ -1584,7 +1584,16 @@
           "greek": "ποιμένος.\"",
           "definition": "of a shepherd"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "ποιμήν",
+            "b": "μισθωτός"
+          }
+        ]
+      }
     },
     {
       "id": 8,
@@ -1789,7 +1798,29 @@
           "greek": "ἡλίου.\"",
           "definition": "of the sun"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "ποιμήν — shepherd",
+        "rows": [
+          {
+            "greek": "ποιμήν",
+            "label": "Nom."
+          },
+          {
+            "greek": "ποιμένος",
+            "label": "Gen."
+          },
+          {
+            "greek": "ποιμένι",
+            "label": "Dat."
+          },
+          {
+            "greek": "ποιμένα",
+            "label": "Acc."
+          }
+        ]
+      }
     },
     {
       "id": 9,
@@ -2175,7 +2206,25 @@
           "greek": "προβάτων.",
           "definition": "of sheep"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "τίθημι — to lay down/place",
+        "rows": [
+          {
+            "greek": "τίθημι",
+            "label": "1s"
+          },
+          {
+            "greek": "τίθησιν",
+            "label": "3s"
+          },
+          {
+            "greek": "τίθεμεν",
+            "label": "1pl"
+          }
+        ]
+      }
     },
     {
       "id": 11,
@@ -4033,7 +4082,21 @@
           "greek": "ἔχωσιν.",
           "definition": "may they have (subj.)"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "paradigm",
+        "title": "εἰσέρχομαι — to enter",
+        "rows": [
+          {
+            "greek": "εἰσέρχεται",
+            "label": "3s"
+          },
+          {
+            "greek": "εἰσέρχονται",
+            "label": "3pl"
+          }
+        ]
+      }
     },
     {
       "id": 20,
@@ -4699,7 +4762,16 @@
           "greek": "θεοῦ.",
           "definition": "of God"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "φῶς",
+            "b": "σκοτία"
+          }
+        ]
+      }
     },
     {
       "id": 22,
@@ -5686,7 +5758,16 @@
           "greek": "αἰώνιον.",
           "definition": "eternal (acc.)"
         }
-      ]
+      ],
+      "sideNote": {
+        "type": "antonym",
+        "pairs": [
+          {
+            "a": "ζωή",
+            "b": "θάνατος"
+          }
+        ]
+      }
     },
     {
       "id": 25,
