@@ -160,7 +160,20 @@
             "subtitle": "Τὸ Φῶς, ἡ Ἀνάστασις, ἡ Θύρα"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Unit 3",
+    "subtitle": "Τὸ Πνεῦμα — The Spirit",
+    "translations": {
+      "es": "Τὸ Πνεῦμα — El Espíritu",
+      "pl": "Τὸ Πνεῦμα — Duch",
+      "fil": "Τὸ Πνεῦμα — Ang Espiritu"
+    },
+    "locked": false,
+    "chapters": [
       {
         "id": 7,
         "title": "Κεφάλαιον Ζʹ",
