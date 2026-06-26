@@ -548,526 +548,468 @@
       "pl": "dusza, życie",
       "fil": "kaluluwa, buhay"
     },
-    "strongsNum": "G5590"
+    "strongsNum": "G5590",
+    "image": "c5b-noun-1.jpeg"
   },
   {
     "id": 38,
     "part": "B",
-    "greek": "ἁμαρτία, -ας, ἡ",
-    "transliteration": "hamartia",
-    "definition": "sin",
-    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "greek": "πατήρ, πατρός, ὁ",
+    "transliteration": "patēr",
+    "definition": "father",
+    "partOfSpeech": "noun (masculine, 3rd decl.)",
     "translations": {
-      "es": "pecado",
-      "pl": "grzech",
-      "fil": "kasalanan"
+      "es": "padre",
+      "pl": "ojciec",
+      "fil": "ama"
     },
-    "strongsNum": "G0266"
+    "strongsNum": "G3962",
+    "image": "c5b-noun-2.jpeg"
   },
   {
     "id": 39,
     "part": "B",
-    "greek": "ἀδικία, -ας, ἡ",
-    "transliteration": "adikia",
-    "definition": "unrighteousness, injustice",
-    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "greek": "κύριος, -ου, ὁ",
+    "transliteration": "kyrios",
+    "definition": "lord, master",
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
     "translations": {
-      "es": "injusticia",
-      "pl": "niesprawiedliwość",
-      "fil": "kasamaan, hindi makatarungan"
+      "es": "señor, maestro",
+      "pl": "pan, władca",
+      "fil": "panginoon, amo"
     },
-    "strongsNum": "G0093"
+    "strongsNum": "G2962",
+    "image": "c5b-noun-3.jpeg"
   },
   {
     "id": 40,
     "part": "B",
-    "greek": "κοινωνία, -ας, ἡ",
-    "transliteration": "koinōnia",
-    "definition": "fellowship, communion",
-    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "greek": "ἄμπελος, -ου, ἡ",
+    "transliteration": "ampelos",
+    "definition": "vine",
+    "partOfSpeech": "noun (feminine, 2nd decl.)",
     "translations": {
-      "es": "comunión, compañerismo",
-      "pl": "wspólnota, komunia",
-      "fil": "pakikipag-ugnayan, komunyon"
+      "es": "vid",
+      "pl": "winorośl",
+      "fil": "ubas"
     },
-    "strongsNum": "G2842"
+    "strongsNum": "G288",
+    "image": "c5b-noun-4.jpeg"
   },
   {
     "id": 41,
     "part": "B",
-    "greek": "ἀνάστασις, -εως, ἡ",
-    "transliteration": "anastasis",
-    "definition": "resurrection",
-    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "greek": "κλῆμα, -ατος, τό",
+    "transliteration": "klēma",
+    "definition": "branch (of vine)",
+    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
     "translations": {
-      "es": "resurrección",
-      "pl": "zmartwychwstanie",
-      "fil": "muling pagkabuhay"
+      "es": "sarmiento, rama",
+      "pl": "latorośl, gałąź",
+      "fil": "sanga"
     },
-    "strongsNum": "G0386"
+    "strongsNum": "G2814",
+    "image": "c5b-noun-5.jpeg"
   },
   {
     "id": 42,
     "part": "B",
-    "greek": "αἰών, -ῶνος, ὁ",
-    "transliteration": "aiōn",
-    "definition": "age, eternity",
-    "partOfSpeech": "noun (masculine, 3rd decl.)",
+    "greek": "γραφή, -ῆς, ἡ",
+    "transliteration": "graphē",
+    "definition": "scripture, writing",
+    "partOfSpeech": "noun (feminine, 1st decl.)",
     "translations": {
-      "es": "era, eternidad",
-      "pl": "wiek, wieczność",
-      "fil": "panahon, kawalang-hanggan"
+      "es": "escritura",
+      "pl": "pismo",
+      "fil": "kasulatan"
     },
-    "strongsNum": "G0165"
+    "strongsNum": "G1124",
+    "image": "c5b-noun-6.jpeg"
   },
   {
     "id": 43,
     "part": "B",
-    "greek": "κόσμος, -ου, ὁ",
-    "transliteration": "kosmos",
-    "definition": "world",
-    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "greek": "δύναμις, -εως, ἡ",
+    "transliteration": "dynamis",
+    "definition": "power, strength, miracle",
+    "partOfSpeech": "noun (feminine, 3rd decl. -ις)",
     "translations": {
-      "es": "mundo",
-      "pl": "świat",
-      "fil": "mundo"
+      "es": "poder, fuerza, milagro",
+      "pl": "moc, siła, cud",
+      "fil": "kapangyarihan, lakas"
     },
-    "strongsNum": "G2889"
+    "strongsNum": "G1411",
+    "image": "c5b-noun-7.jpeg"
   },
   {
     "id": 44,
     "part": "B",
-    "greek": "χόρτος, -ου, ὁ",
-    "transliteration": "chortos",
-    "definition": "grass, fodder",
-    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "greek": "πῦρ, πυρός, τό",
+    "transliteration": "pyr",
+    "definition": "fire",
+    "partOfSpeech": "noun (neuter, 3rd decl.)",
     "translations": {
-      "es": "hierba, forraje",
-      "pl": "trawa, siano",
-      "fil": "damo, dayami"
+      "es": "fuego",
+      "pl": "ogień",
+      "fil": "apoy"
     },
-    "strongsNum": "G5528"
+    "strongsNum": "G4442",
+    "image": "c5b-noun-8.jpeg"
   },
   {
     "id": 45,
     "part": "B",
-    "greek": "μισθωτός, -οῦ, ὁ",
-    "transliteration": "misthotos",
-    "definition": "hired worker, hireling",
-    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "greek": "τίθημι",
+    "transliteration": "tithēmi",
+    "definition": "place, put, lay down",
+    "partOfSpeech": "verb (μι-verb; τίθησιν 3sg)",
     "translations": {
-      "es": "jornalero, asalariado",
-      "pl": "robotnik najemny",
-      "fil": "manggagawa, bayad-araw"
+      "es": "poner, colocar",
+      "pl": "kłaść, stawiać",
+      "fil": "ilagay, ipatong"
     },
-    "strongsNum": "G3411"
+    "strongsNum": "G5087",
+    "image": "c5b-verb-1.jpeg"
   },
   {
     "id": 46,
     "part": "B",
-    "greek": "ποιμήν, -ένος, ὁ",
-    "transliteration": "poimēn",
-    "definition": "shepherd",
-    "partOfSpeech": "noun (masculine, 3rd decl.)",
+    "greek": "ἀφίημι",
+    "transliteration": "aphiēmi",
+    "definition": "let go, forgive, leave, send away",
+    "partOfSpeech": "verb (μι-verb; ἀφίησιν 3sg)",
     "translations": {
-      "es": "pastor",
-      "pl": "pasterz",
-      "fil": "pastol"
+      "es": "dejar, perdonar, enviar",
+      "pl": "odpuszczać, zostawiać",
+      "fil": "pabayaan, patawarin"
     },
-    "strongsNum": "G4166"
+    "strongsNum": "G863",
+    "image": "c5b-verb-2.jpeg"
   },
   {
     "id": 47,
     "part": "B",
-    "greek": "αἷμα, -ατος, τό",
-    "transliteration": "haima",
-    "definition": "blood",
-    "partOfSpeech": "noun (neuter, 3rd decl. -μα)",
+    "greek": "φημί",
+    "transliteration": "phēmi",
+    "definition": "say, declare",
+    "partOfSpeech": "verb (μι-verb; φησίν 3sg)",
     "translations": {
-      "es": "sangre",
-      "pl": "krew",
-      "fil": "dugo"
+      "es": "decir, declarar",
+      "pl": "mówić, twierdzić",
+      "fil": "sabihin, ipahayag"
     },
-    "strongsNum": "G0129"
+    "strongsNum": "G5346",
+    "image": "c5b-verb-3.jpeg"
   },
   {
     "id": 48,
     "part": "B",
-    "greek": "αἰώνιος, -α, -ον",
-    "transliteration": "aiōnios",
-    "definition": "eternal, everlasting",
-    "partOfSpeech": "adjective",
+    "greek": "διδάσκω",
+    "transliteration": "didaskō",
+    "definition": "teach",
+    "partOfSpeech": "verb",
     "translations": {
-      "es": "eterno, sempiterno",
-      "pl": "wieczny",
-      "fil": "walang hanggan"
+      "es": "enseñar",
+      "pl": "uczyć, nauczać",
+      "fil": "magturo"
     },
-    "strongsNum": "G0166"
+    "strongsNum": "G1321",
+    "image": "c5b-verb-4.jpeg"
   },
   {
     "id": 49,
     "part": "B",
-    "greek": "δίκαιος, -α, -ον",
-    "transliteration": "dikaios",
-    "definition": "righteous, just",
-    "partOfSpeech": "adjective",
+    "greek": "ἀρέσκω",
+    "transliteration": "areskō",
+    "definition": "please (+ dative)",
+    "partOfSpeech": "verb (+ dative)",
     "translations": {
-      "es": "justo, recto",
-      "pl": "sprawiedliwy",
-      "fil": "matuwid"
+      "es": "agradar, complacer",
+      "pl": "podobać się, sprawiać przyjemność",
+      "fil": "magpasaya, magbigay-kasiyahan"
     },
-    "strongsNum": "G1342"
+    "strongsNum": "G700",
+    "image": "c5b-verb-5.jpeg"
   },
   {
     "id": 50,
     "part": "B",
-    "greek": "νεκρός, -ά, -όν",
-    "transliteration": "nekros",
-    "definition": "dead",
-    "partOfSpeech": "adjective (also used as noun: the dead)",
+    "greek": "διαλέγομαι",
+    "transliteration": "dialegomai",
+    "definition": "converse, discuss, reason",
+    "partOfSpeech": "verb (deponent)",
     "translations": {
-      "es": "muerto",
-      "pl": "martwy",
-      "fil": "patay"
+      "es": "conversar, discutir, razonar",
+      "pl": "rozmawiać, dyskutować",
+      "fil": "makipag-usap, talakayin"
     },
-    "strongsNum": "G3498"
+    "strongsNum": "G1256",
+    "image": "c5b-verb-6.jpeg"
   },
   {
     "id": 51,
     "part": "B",
-    "greek": "ἑαυτούς, -άς, -ά",
-    "transliteration": "heautous",
-    "definition": "ourselves, themselves",
-    "partOfSpeech": "reflexive pronoun (3rd person, no nominative)",
+    "greek": "αὐξάνω",
+    "transliteration": "auxanō",
+    "definition": "grow, increase",
+    "partOfSpeech": "verb",
     "translations": {
-      "es": "nosotros mismos, ellos mismos",
-      "pl": "my sami, oni sami",
-      "fil": "tayo mismo, sila mismo"
+      "es": "crecer, aumentar",
+      "pl": "rosnąć, wzrastać",
+      "fil": "lumago, dumami"
     },
-    "strongsNum": "G1438"
+    "strongsNum": "G837",
+    "image": "c5b-verb-7.jpeg"
   },
   {
     "id": 52,
     "part": "B",
-    "greek": "τίθημι",
-    "transliteration": "tithēmi",
-    "definition": "I place, put; lay down (life)",
-    "partOfSpeech": "verb (μι-verb)",
+    "greek": "ἐκκόπτω",
+    "transliteration": "ekkoptō",
+    "definition": "cut off, cut down",
+    "partOfSpeech": "verb",
     "translations": {
-      "es": "yo pongo; doy la vida",
-      "pl": "kładę; oddaję życie",
-      "fil": "naglalagay; ibinibigay ang buhay"
+      "es": "cortar, talar",
+      "pl": "odcinać, ścinać",
+      "fil": "putulin, ibaba"
     },
-    "thirdSingular": "τίθησιν",
-    "strongsNum": "G5087"
+    "strongsNum": "G1581",
+    "image": "c5b-verb-8.jpeg"
   },
   {
     "id": 53,
     "part": "B",
-    "greek": "δίδωμι",
-    "transliteration": "didōmi",
-    "definition": "I give",
-    "partOfSpeech": "verb (μι-verb)",
+    "greek": "καθαίρω",
+    "transliteration": "kathairō",
+    "definition": "prune, cleanse",
+    "partOfSpeech": "verb",
     "translations": {
-      "es": "yo doy",
-      "pl": "daję",
-      "fil": "nagbibigay"
+      "es": "podar, limpiar",
+      "pl": "czyścić, oczyścić",
+      "fil": "linisin, putulin ang sanga"
     },
-    "thirdSingular": "δίδωσιν",
-    "strongsNum": "G1325"
+    "strongsNum": "G2508",
+    "image": "c5b-verb-9.jpeg"
   },
   {
     "id": 54,
     "part": "B",
-    "greek": "ἀφίημι",
-    "transliteration": "aphiēmi",
-    "definition": "I forgive, release, let go",
-    "partOfSpeech": "verb (μι-verb, compound of ἀπό + ἵημι)",
+    "greek": "οἶδα",
+    "transliteration": "oida",
+    "definition": "know (perf. with pres. meaning)",
+    "partOfSpeech": "verb (perfect with present meaning)",
     "translations": {
-      "es": "yo perdono, suelto",
-      "pl": "przebaczam, puszczam",
-      "fil": "nagpapatawad"
+      "es": "saber, conocer",
+      "pl": "wiedzieć, znać",
+      "fil": "malaman, makilala"
     },
-    "thirdSingular": "ἀφίησιν",
-    "strongsNum": "G0863"
+    "strongsNum": "G1492",
+    "image": "c5b-verb-10.jpeg"
   },
   {
     "id": 55,
     "part": "B",
-    "greek": "δείκνυμι",
-    "transliteration": "deiknymi",
-    "definition": "I show, point out",
-    "partOfSpeech": "verb (μι-verb)",
+    "greek": "ἀληθινός, -ή, -όν",
+    "transliteration": "alēthinos",
+    "definition": "true, genuine, real",
+    "partOfSpeech": "adjective",
     "translations": {
-      "es": "yo muestro, señalo",
-      "pl": "pokazuję",
-      "fil": "nagpapakita"
+      "es": "verdadero, genuino",
+      "pl": "prawdziwy, autentyczny",
+      "fil": "tunay, totoong-totoo"
     },
-    "thirdSingular": "δείκνυσιν",
-    "strongsNum": "G1166"
+    "strongsNum": "G228",
+    "image": "c5b-adj-1.jpeg"
   },
   {
     "id": 56,
     "part": "B",
-    "greek": "σῴζω",
-    "transliteration": "sōzō",
-    "definition": "I save, rescue",
-    "partOfSpeech": "verb",
+    "greek": "ὅς, ἥ, ὅ",
+    "transliteration": "hos, hē, ho",
+    "definition": "who, which, that (relative pronoun)",
+    "partOfSpeech": "pronoun (relative)",
     "translations": {
-      "es": "yo salvo, rescato",
-      "pl": "ratuję",
-      "fil": "nagliligtas"
+      "es": "quien, que, el cual",
+      "pl": "który, która, które",
+      "fil": "sino, kung sino, na"
     },
-    "thirdSingular": "σῴζει",
-    "strongsNum": "G4982"
+    "strongsNum": "G3739"
   },
   {
     "id": 57,
     "part": "B",
-    "greek": "φεύγω",
-    "transliteration": "pheugō",
-    "definition": "I flee, escape",
-    "partOfSpeech": "verb",
+    "greek": "οὐδείς, οὐδεμία, οὐδέν",
+    "transliteration": "oudeis",
+    "definition": "no one, nothing, none",
+    "partOfSpeech": "pronoun / adjective",
     "translations": {
-      "es": "yo huyo, escapo",
-      "pl": "uciekam",
-      "fil": "tumakas, lumikas"
+      "es": "nadie, nada, ninguno",
+      "pl": "nikt, nic, żaden",
+      "fil": "walang sinuman, wala"
     },
-    "thirdSingular": "φεύγει",
-    "strongsNum": "G5343"
+    "strongsNum": "G3762",
+    "image": "c5b-pron-1.jpeg"
   },
   {
     "id": 58,
     "part": "B",
-    "greek": "ἁρπάζω",
-    "transliteration": "harpazō",
-    "definition": "I seize, snatch",
-    "partOfSpeech": "verb",
+    "greek": "ἐμός, -ή, -όν",
+    "transliteration": "emos",
+    "definition": "my, mine (emphatic)",
+    "partOfSpeech": "adjective (possessive pronoun)",
     "translations": {
-      "es": "yo agarro, arrebato",
-      "pl": "chwytam, porywam",
-      "fil": "sinasagit"
+      "es": "mío, mía",
+      "pl": "mój, moja, moje",
+      "fil": "akin, sarili ko"
     },
-    "thirdSingular": "ἁρπάζει",
-    "strongsNum": "G0726"
+    "strongsNum": "G1699",
+    "image": "c5b-pron-2.jpeg"
   },
   {
     "id": 59,
     "part": "B",
-    "greek": "σκορπίζω",
-    "transliteration": "skorpizō",
-    "definition": "I scatter",
-    "partOfSpeech": "verb",
+    "greek": "ἐκεῖνος, -η, -ο",
+    "transliteration": "ekeinos",
+    "definition": "that one, that (demonstrative)",
+    "partOfSpeech": "pronoun / adjective (demonstrative)",
     "translations": {
-      "es": "yo disperso",
-      "pl": "rozpraszam",
-      "fil": "nagkakalat"
+      "es": "aquel, aquella, aquello",
+      "pl": "tamten, ów",
+      "fil": "iyon, yun"
     },
-    "thirdSingular": "σκορπίζει",
-    "strongsNum": "G4650"
+    "strongsNum": "G1565",
+    "image": "c5b-pron-3.jpeg"
   },
   {
     "id": 60,
     "part": "B",
-    "greek": "εἰσέρχομαι",
-    "transliteration": "eiserchomai",
-    "definition": "I enter, go in",
-    "partOfSpeech": "verb (mid. deponent, compound of εἰς + ἔρχομαι)",
+    "greek": "ἐάν",
+    "transliteration": "ean",
+    "definition": "if (+ subjunctive)",
+    "partOfSpeech": "conjunction (conditional, + subjunctive)",
     "translations": {
-      "es": "yo entro",
-      "pl": "wchodzę",
-      "fil": "pumapasok"
+      "es": "si (condicional)",
+      "pl": "jeśli, jeżeli",
+      "fil": "kung (kondisyonal)"
     },
-    "thirdSingular": "εἰσέρχεται",
-    "strongsNum": "G1525"
+    "strongsNum": "G1437"
   },
   {
     "id": 61,
     "part": "B",
-    "greek": "ὁμολογέω, -ῶ",
-    "transliteration": "homologeō",
-    "definition": "I confess, acknowledge",
-    "partOfSpeech": "verb (contract, -έω)",
+    "greek": "χωρίς",
+    "transliteration": "chōris",
+    "definition": "without, apart from (+ genitive)",
+    "partOfSpeech": "preposition (+ genitive)",
     "translations": {
-      "es": "yo confieso, reconozco",
-      "pl": "wyznaję, uznaję",
-      "fil": "nagtatapat, nagpapahayag"
+      "es": "sin, aparte de",
+      "pl": "bez, z dala od",
+      "fil": "wala, bukod sa"
     },
-    "thirdSingular": "ὁμολογεῖ",
-    "strongsNum": "G3670"
+    "strongsNum": "G5565",
+    "image": "c5b-par-1.jpeg"
   },
   {
     "id": 62,
     "part": "B",
-    "greek": "καθαρίζω",
-    "transliteration": "katharizō",
-    "definition": "I cleanse, purify",
-    "partOfSpeech": "verb",
+    "greek": "πλέον",
+    "transliteration": "pleon",
+    "definition": "more (comparative adverb)",
+    "partOfSpeech": "adverb (comparative)",
     "translations": {
-      "es": "yo limpio, purifico",
-      "pl": "oczyszczam",
-      "fil": "naglilinis"
+      "es": "más",
+      "pl": "więcej, bardziej",
+      "fil": "higit, mas marami"
     },
-    "thirdSingular": "καθαρίζει",
-    "strongsNum": "G2511"
+    "strongsNum": "G4183",
+    "image": "c5b-par-2.jpeg"
   },
   {
     "id": 63,
     "part": "B",
-    "greek": "πλανάω, -ῶ",
-    "transliteration": "planaō",
-    "definition": "I deceive, lead astray",
-    "partOfSpeech": "verb (contract, -άω)",
+    "greek": "ὀρθῶς",
+    "transliteration": "orthōs",
+    "definition": "rightly, correctly",
+    "partOfSpeech": "adverb",
     "translations": {
-      "es": "yo engaño",
-      "pl": "oszukuję, zwodzę",
-      "fil": "nandaraya"
+      "es": "correctamente, debidamente",
+      "pl": "słusznie, prawidłowo",
+      "fil": "nang tama, nang wasto"
     },
-    "thirdSingular": "πλανᾷ",
-    "strongsNum": "G4105"
+    "strongsNum": "G3723"
   },
   {
     "id": 64,
     "part": "B",
-    "greek": "φαίνω",
-    "transliteration": "phainō",
-    "definition": "I shine, appear",
-    "partOfSpeech": "verb",
+    "greek": "οὐδέποτε",
+    "transliteration": "oudepote",
+    "definition": "never",
+    "partOfSpeech": "adverb",
     "translations": {
-      "es": "yo brillo, aparezco",
-      "pl": "jaśnieję, ukazuję się",
-      "fil": "sumisinag, lumilitaw"
+      "es": "nunca",
+      "pl": "nigdy",
+      "fil": "kailanman hindi"
     },
-    "thirdSingular": "φαίνει",
-    "strongsNum": "G5316"
+    "strongsNum": "G3763",
+    "image": "c5b-par-3.jpeg"
   },
   {
     "id": 65,
     "part": "B",
-    "greek": "φωτίζω",
-    "transliteration": "phōtizō",
-    "definition": "I enlighten, illuminate",
-    "partOfSpeech": "verb",
+    "greek": "ἤ",
+    "transliteration": "ē",
+    "definition": "or; than (in comparisons)",
+    "partOfSpeech": "conjunction / particle",
     "translations": {
-      "es": "yo ilumino",
-      "pl": "oświecam",
-      "fil": "nagliliwanag"
+      "es": "o; que (en comparaciones)",
+      "pl": "lub; niż",
+      "fil": "o; kaysa"
     },
-    "thirdSingular": "φωτίζει",
-    "strongsNum": "G5461"
+    "strongsNum": "G2228",
+    "image": "c5b-par-4.jpeg"
   },
   {
     "id": 66,
     "part": "B",
-    "greek": "ἀποθνῄσκω",
-    "transliteration": "apothnēskō",
-    "definition": "I die",
-    "partOfSpeech": "verb (compound of ἀπό + θνῄσκω)",
+    "greek": "ἐξ (= ἐκ before vowel)",
+    "transliteration": "ex",
+    "definition": "out of, from (+ genitive)",
+    "partOfSpeech": "preposition (+ genitive)",
     "translations": {
-      "es": "yo muero",
-      "pl": "umieram",
-      "fil": "namamatay"
+      "es": "de, fuera de",
+      "pl": "z, spośród",
+      "fil": "mula sa, labas ng"
     },
-    "thirdSingular": "ἀποθνῄσκει",
-    "strongsNum": "G0599"
+    "strongsNum": "G1537"
   },
   {
     "id": 67,
     "part": "B",
-    "greek": "ζάω, -ῶ",
-    "transliteration": "zaō",
-    "definition": "I live",
-    "partOfSpeech": "verb (contract, -άω; irregular: ζῇ 3rd sg.)",
+    "greek": "Ἰσραήλ (indecl.)",
+    "transliteration": "Israēl",
+    "definition": "Israel",
+    "partOfSpeech": "proper noun (indeclinable)",
     "translations": {
-      "es": "yo vivo",
-      "pl": "żyję",
-      "fil": "nabubuhay"
+      "es": "Israel",
+      "pl": "Izrael",
+      "fil": "Israel"
     },
-    "thirdSingular": "ζῇ",
-    "strongsNum": "G2198"
+    "strongsNum": "G2474",
+    "image": "c5b-prop-1.jpeg"
   },
   {
     "id": 68,
     "part": "B",
-    "greek": "ὑπέρ",
-    "transliteration": "hyper",
-    "definition": "on behalf of, for — ὑπὲρ αὐτοῦ",
-    "partOfSpeech": "preposition (+ genitive)",
+    "greek": "Δαυίδ (indecl.)",
+    "transliteration": "Dauid",
+    "definition": "David",
+    "partOfSpeech": "proper noun (indeclinable)",
     "translations": {
-      "es": "en favor de, por",
-      "pl": "za, dla",
-      "fil": "para sa"
+      "es": "David",
+      "pl": "Dawid",
+      "fil": "David"
     },
-    "strongsNum": "G5228"
-  },
-  {
-    "id": 69,
-    "part": "B",
-    "greek": "διότι",
-    "transliteration": "dioti",
-    "definition": "because, for (this reason)",
-    "partOfSpeech": "conjunction (causal)",
-    "translations": {
-      "es": "porque, por esta razón",
-      "pl": "ponieważ, bo",
-      "fil": "dahil, sapagkat"
-    },
-    "strongsNum": "G1360"
-  },
-  {
-    "id": 70,
-    "part": "B",
-    "greek": "πάντοτε",
-    "transliteration": "pantote",
-    "definition": "always, at all times",
-    "partOfSpeech": "adverb",
-    "translations": {
-      "es": "siempre",
-      "pl": "zawsze",
-      "fil": "palagi, lagi"
-    },
-    "strongsNum": "G3842"
-  },
-  {
-    "id": 71,
-    "part": "B",
-    "greek": "εἰς τὸν αἰῶνα",
-    "transliteration": "eis ton aiōna",
-    "definition": "forever, into the age",
-    "partOfSpeech": "adverbial phrase",
-    "translations": {
-      "es": "para siempre",
-      "pl": "na wieki",
-      "fil": "magpakailanman"
-    },
-    "strongsNum": "G1519"
-  },
-  {
-    "id": 72,
-    "part": "B",
-    "greek": "παρά",
-    "transliteration": "para",
-    "definition": "beside; from; with — παρ' αὐτόν (acc.) · παρ' αὐτοῦ (gen.) · παρ' αὐτῷ (dat.)",
-    "partOfSpeech": "preposition (+ acc. = beside; + gen. = from; + dat. = with)",
-    "translations": {
-      "es": "junto a, al lado de",
-      "pl": "obok, przy",
-      "fil": "sa tabi, katabi"
-    },
-    "strongsNum": "G3844"
-  },
-  {
-    "id": 73,
-    "part": "B",
-    "greek": "ὡς",
-    "transliteration": "hōs",
-    "definition": "as, like (comparison)",
-    "partOfSpeech": "comparative conjunction/adverb",
-    "translations": {
-      "es": "como, igual que",
-      "pl": "jak, tak jak",
-      "fil": "tulad ng, gaya ng"
-    },
-    "strongsNum": "G5613"
+    "strongsNum": "G1138",
+    "image": "c5b-prop-2.jpeg"
   }
 ]
