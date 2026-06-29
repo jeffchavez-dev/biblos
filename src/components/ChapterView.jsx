@@ -28,7 +28,7 @@ async function loadData(unitId, chapterId, type) {
   }
 }
 
-export default function ChapterView({ unitId, chapterId, activePart, navHidden, onToggleNav, onOpenLexicon, onOpenGnt, allVocabulary }) {
+export default function ChapterView({ unitId, chapterId, activePart, navHidden, onToggleNav, onOpenLexicon, onOpenGnt, allVocabulary, canBack, canForward, onBack, onForward }) {
   const ui = useUI()
   const [activeTab, setActiveTab] = useState('story')
   const [data, setData] = useState({})
@@ -77,6 +77,11 @@ export default function ChapterView({ unitId, chapterId, activePart, navHidden, 
             </button>
           ))}
         </nav>
+      </div>
+
+      <div className="study-nav-pill" aria-label="Page navigation">
+        <button className="study-nav-btn" onClick={onBack} disabled={!canBack} aria-label="Go back" title="Go back (Alt+←)">‹</button>
+        <button className="study-nav-btn" onClick={onForward} disabled={!canForward} aria-label="Go forward" title="Go forward (Alt+→)">›</button>
       </div>
 
       <div className="tab-content">

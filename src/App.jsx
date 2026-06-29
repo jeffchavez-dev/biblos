@@ -199,24 +199,6 @@ function AppInner() {
           <span /><span /><span />
         </button>
 
-        {/* Back / Forward */}
-        <div className="nav-history-btns">
-          <button
-            className="nav-hist-btn"
-            onClick={goBack}
-            disabled={!canBack}
-            aria-label="Go back"
-            title="Go back (Alt+←)"
-          >‹</button>
-          <button
-            className="nav-hist-btn"
-            onClick={goForward}
-            disabled={!canForward}
-            aria-label="Go forward"
-            title="Go forward (Alt+→)"
-          >›</button>
-        </div>
-
         <div className="app-title">
           <span className="app-title-greek greek">Βίβλος</span>
           <span className="app-title-sub">{ui('appSubtitle')}</span>
@@ -319,6 +301,10 @@ function AppInner() {
               onOpenLexicon={handleOpenLexicon}
               onOpenGnt={handleOpenGnt}
               allVocabulary={allVocabulary}
+              canBack={canBack}
+              canForward={canForward}
+              onBack={goBack}
+              onForward={goForward}
             />
           )}
         </main>

@@ -2,7 +2,40 @@
   display: flex;
   flex-direction: column;
   min-height: calc(100vh - 58px);
+  position: relative;
 }
+
+.study-nav-pill {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  gap: 4px;
+  background: var(--deep-blue);
+  border-radius: 24px;
+  padding: 4px;
+  z-index: 50;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+}
+
+.study-nav-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 20px;
+  border: none;
+  background: transparent;
+  color: #c9a84c;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+
+.study-nav-btn:hover:not(:disabled) { background: rgba(255,255,255,0.12); }
+.study-nav-btn:disabled { opacity: 0.25; cursor: not-allowed; }
 
 /* Tab bar wrapper */
 .tab-bar-wrapper {
