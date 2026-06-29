@@ -54,7 +54,7 @@ function makeSnap(fields) {
   }
 }
 
-function AppInner() {
+function AppInner({ onSignOut }) {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [desktopSidebarHidden, setDesktopSidebarHidden] = useState(false)
   const [navHidden, setNavHidden] = useState(false)
@@ -261,7 +261,7 @@ function AppInner() {
           showingVocabIndex={showVocabIndex}
           onOpenGnt={handleOpenGnt}
           activeGnt={gntView}
-          onOpenAccount={() => { clearSession(); setSession(null) }}
+          onOpenAccount={onSignOut}
         />
 
         {sidebarOpen && (
@@ -329,9 +329,14 @@ export default function App() {
   if (!session) return <LoginPage onEnter={handleEnter} />
   if (session === 'admin') return <AdminPage onExit={handleExit} />
 
+  function handleSignOut() {
+    clearSession()
+    setSession(null)
+  }
+
   return (
     <LanguageProvider>
-      <AppInner />
+      <AppInner onSignOut={handleSignOut} />
     </LanguageProvider>
   )
 }
