@@ -32,7 +32,7 @@ const NT_BOOKS = [
   { abbr: 'Rev', name: 'Revelation',      ch: 22, group: 'General' },
 ]
 
-export default function Sidebar({ units, selectedUnit, selectedChapter, activePart, onSelect, onPartSelect, open, desktopHidden, onClose, totalWords, onVocabIndex, onUnitVocabReview, showingVocabIndex, onOpenGnt, activeGnt }) {
+export default function Sidebar({ units, selectedUnit, selectedChapter, activePart, onSelect, onPartSelect, open, desktopHidden, onClose, totalWords, onVocabIndex, onUnitVocabReview, showingVocabIndex, onOpenGnt, activeGnt, onOpenAccount }) {
   const ui = useUI()
   const { lang } = useLanguage()
   const [collapsed, setCollapsed] = useState({})
@@ -168,19 +168,29 @@ export default function Sidebar({ units, selectedUnit, selectedChapter, activePa
       </div>
 
       <div className="sidebar-footer">
-        <button
-          className={`vocab-index-link ${showingVocabIndex ? 'vocab-index-link--active' : ''}`}
-          onClick={onVocabIndex}
-        >
-          <span className="vocab-index-link-icon">📖</span>
-          <span className="vocab-index-link-text">
-            <span className="greek">Λεξικόν</span>
-            <span className="vocab-index-link-sub">{ui('allVocabulary')}</span>
-          </span>
-          {totalWords > 0 && (
-            <span className="vocab-index-link-count">{totalWords}</span>
-          )}
-        </button>
+        <div className="sidebar-footer-row">
+          <button
+            className={`vocab-index-link ${showingVocabIndex ? 'vocab-index-link--active' : ''}`}
+            onClick={onVocabIndex}
+          >
+            <span className="vocab-index-link-icon">📖</span>
+            <span className="vocab-index-link-text">
+              <span className="greek">Λεξικόν</span>
+              <span className="vocab-index-link-sub">{ui('allVocabulary')}</span>
+            </span>
+            {totalWords > 0 && (
+              <span className="vocab-index-link-count">{totalWords}</span>
+            )}
+          </button>
+          <button
+            className="sidebar-account-btn"
+            onClick={onOpenAccount}
+            aria-label="Account / login"
+            title="Account"
+          >
+            <i className="ti ti-settings" aria-hidden="true" />
+          </button>
+        </div>
       </div>
     </aside>
   )

@@ -7,6 +7,7 @@ import VocabularyIndex from './components/VocabularyIndex.jsx'
 import VocabularyTab from './components/tabs/VocabularyTab.jsx'
 import GntReader from './components/GntReader.jsx'
 import { LanguageProvider, LANGUAGES, useLanguage, useUI } from './context/LanguageContext.jsx'
+import { clearSession } from './auth.js'
 import units from './data/units.json'
 import './App.css'
 
@@ -260,6 +261,7 @@ function AppInner() {
           showingVocabIndex={showVocabIndex}
           onOpenGnt={handleOpenGnt}
           activeGnt={gntView}
+          onOpenAccount={() => { clearSession(); setSession(null) }}
         />
 
         {sidebarOpen && (

@@ -255,6 +255,37 @@
   margin-top: auto;
   flex-shrink: 0;
 }
+
+.sidebar-footer-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sidebar-footer-row .vocab-index-link {
+  flex: 1;
+}
+
+.sidebar-account-btn {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255,255,255,0.07);
+  color: rgba(255,255,255,0.7);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.sidebar-account-btn:hover {
+  background: rgba(255,255,255,0.13);
+  color: #fff;
+}
 .sidebar {
   display: flex;
   flex-direction: column;
