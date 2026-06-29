@@ -1,16 +1,29 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
+import { checkAdminCredentials, recordLoginEvent, setSession } from '../auth.js'
 import './LoginPage.css'
 
 export default function LoginPage({ onEnter }) {
-  const [loginMsg, setLoginMsg] = useState('')
+  const [error, setError] = useState('')
+  const emailRef = useRef()
+  const passRef = useRef()
 
   function handleSignIn(e) {
     e.preventDefault()
-    setLoginMsg('Account login coming soon. Use guest access for now.')
+    const email = emailRef.current.value.trim()
+    const pass = passRef.current.value
+
+    if (checkAdminCredentials(email, pass)) {
+      setSession('admin')
+      recordLoginEvent('admin', email)
+      onEnter()
+    } else {
+      setError('Incorrect email or password.')
+    }
   }
 
   function handleGuest() {
-    localStorage.setItem('biblos_session', 'guest')
+    setSession('guest')
+    recordLoginEvent('guest')
     onEnter()
   }
 
@@ -44,14 +57,30 @@ export default function LoginPage({ onEnter }) {
           <form onSubmit={handleSignIn} noValidate>
             <div className="lp-field">
               <label className="lp-label" htmlFor="lp-email">Email</label>
-              <input id="lp-email" className="lp-input" type="email" placeholder="you@example.com" autoComplete="email" />
+              <input
+                id="lp-email"
+                ref={emailRef}
+                className="lp-input"
+                type="email"
+                placeholder="you@example.com"
+                autoComplete="email"
+                onChange={() => setError('')}
+              />
             </div>
             <div className="lp-field">
               <button type="button" className="lp-forgot">Forgot password?</button>
               <label className="lp-label" htmlFor="lp-pass">Password</label>
-              <input id="lp-pass" className="lp-input" type="password" placeholder="••••••••" autoComplete="current-password" />
+              <input
+                id="lp-pass"
+                ref={passRef}
+                className="lp-input"
+                type="password"
+                placeholder="••••••••"
+                autoComplete="current-password"
+                onChange={() => setError('')}
+              />
             </div>
-            {loginMsg && <p className="lp-msg">{loginMsg}</p>}
+            {error && <p className="lp-msg lp-msg--error">{error}</p>}
             <button type="submit" className="lp-btn-primary">Sign in</button>
           </form>
 
