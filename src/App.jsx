@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
+import LoginPage from './components/LoginPage.jsx'
 import Sidebar from './components/Sidebar.jsx'
 import ChapterView from './components/ChapterView.jsx'
 import VocabularyIndex from './components/VocabularyIndex.jsx'
@@ -326,6 +327,12 @@ function AppInner() {
 }
 
 export default function App() {
+  const [authed, setAuthed] = useState(() => !!localStorage.getItem('biblos_session'))
+
+  if (!authed) {
+    return <LoginPage onEnter={() => setAuthed(true)} />
+  }
+
   return (
     <LanguageProvider>
       <AppInner />
