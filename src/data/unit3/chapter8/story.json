@@ -1,0 +1,5970 @@
+{
+  "title": "Κεφάλαιον Ηʹ — Ἡ Σὰρξ καὶ τὸ Πνεῦμα",
+  "titleTranslation": "Chapter 8 — The Flesh and the Spirit",
+  "paragraphs": [
+    {
+      "id": 1,
+      "words": [
+        {
+          "greek": "οἱ",
+          "definition": "the (nom.m.pl.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "δύο",
+          "definition": "two"
+        },
+        {
+          "greek": "μένοντες",
+          "definition": "remaining (ptc.m.pl.)"
+        },
+        {
+          "greek": "ὑπὸ",
+          "definition": "by (+ gen.), under (+ dat.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "δένδρῳ",
+          "definition": "at/in the tree (dat.)"
+        },
+        {
+          "greek": "βλέπουσιν",
+          "definition": "they see"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "ξένον",
+          "definition": "stranger (acc.)"
+        },
+        {
+          "greek": "ἀπερχόμενον",
+          "definition": "going away (ptc.acc.m.)"
+        },
+        {
+          "greek": "ἀπὸ",
+          "definition": "from (+ gen.)"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "of the (gen.f.sg.)"
+        },
+        {
+          "greek": "πηγῆς",
+          "definition": "of the spring"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into, to (+ acc.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "ἀγρόν.",
+          "definition": "field (acc.)"
+        },
+        {
+          "greek": "βουλόμενος",
+          "definition": "wanting (ptc.m.sg.)"
+        },
+        {
+          "greek": "μὲν",
+          "definition": "on the one hand"
+        },
+        {
+          "greek": "Ἰάκωβος",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "ἀναπαύεσθαι,",
+          "definition": "to rest"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.f.sg.)"
+        },
+        {
+          "greek": "κεφαλὴν",
+          "definition": "head (acc.)"
+        },
+        {
+          "greek": "κλίνει",
+          "definition": "leans (3sg.)"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on, over (+ dat./acc./gen.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "δένδρον.",
+          "definition": "tree"
+        },
+        {
+          "greek": "βουλομένη",
+          "definition": "wanting (ptc.f.sg.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "Σαλώμη",
+          "definition": "Salome"
+        },
+        {
+          "greek": "ἔτι",
+          "definition": "still, yet"
+        },
+        {
+          "greek": "πλέον",
+          "definition": "more, further"
+        },
+        {
+          "greek": "ἀκούειν",
+          "definition": "to hear (inf.)"
+        },
+        {
+          "greek": "περὶ",
+          "definition": "about, concerning (+ gen.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματος",
+          "definition": "of the spirit"
+        },
+        {
+          "greek": "ἐρωτᾷ·",
+          "definition": "asks (3sg.)"
+        },
+        {
+          "greek": "\"λέγεις",
+          "definition": "you say"
+        },
+        {
+          "greek": "πολλὰ",
+          "definition": "many things"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "καλὰ",
+          "definition": "good things (n.pl.)"
+        },
+        {
+          "greek": "περὶ",
+          "definition": "about, concerning (+ gen.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματος",
+          "definition": "of the spirit"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "ἁγίου.",
+          "definition": "of the holy"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "τί",
+          "definition": "what? why?"
+        },
+        {
+          "greek": "ποιεῖ",
+          "definition": "does, makes"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "to/in the (dat.f.sg.)"
+        },
+        {
+          "greek": "ζωῇ",
+          "definition": "life (nom./dat.f.)"
+        },
+        {
+          "greek": "ἡμῶν",
+          "definition": "of us (gen.)"
+        },
+        {
+          "greek": "καθ᾽",
+          "definition": "according to, each (before vowel)"
+        },
+        {
+          "greek": "ἡμέραν;",
+          "definition": "day (acc.)"
+        },
+        {
+          "greek": "πῶς",
+          "definition": "how?"
+        },
+        {
+          "greek": "περιπατοῦσιν",
+          "definition": "they walk"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (nom.m.pl.)"
+        },
+        {
+          "greek": "πιστεύοντες",
+          "definition": "believing (ptc.m.pl.)"
+        },
+        {
+          "greek": "καθ᾽",
+          "definition": "according to, each (before vowel)"
+        },
+        {
+          "greek": "ἡμέραν;\"",
+          "definition": "day (acc.)"
+        }
+      ],
+      "label": "Μέρος Αʹ — Ἡ Σὰρξ καὶ τὸ Πνεῦμα (Part A — The Flesh and the Spirit)"
+    },
+    {
+      "id": 2,
+      "words": [
+        {
+          "greek": "καίπερ",
+          "definition": "although, even though"
+        },
+        {
+          "greek": "κοπιῶν",
+          "definition": "laboring (ptc.m.sg.)"
+        },
+        {
+          "greek": "Ἰάκωβος",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "χαίρει",
+          "definition": "rejoices (3sg.)"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "that, because"
+        },
+        {
+          "greek": "αὐτὴ",
+          "definition": "this, this one (f.)"
+        },
+        {
+          "greek": "βούλεται",
+          "definition": "wants, wishes (3sg.)"
+        },
+        {
+          "greek": "μανθάνειν",
+          "definition": "to learn (inf.)"
+        },
+        {
+          "greek": "πλέον.",
+          "definition": "more, further"
+        },
+        {
+          "greek": "ἀποκρινόμενος",
+          "definition": "answering (ptc.m.sg.)"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "\"ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "ἄνθρωπος",
+          "definition": "person, man"
+        },
+        {
+          "greek": "ἔχει",
+          "definition": "has"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "σῶμα",
+          "definition": "body"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "πνεῦμα·",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "καλεῖ",
+          "definition": "calls (3sg.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "ἀπόστολος",
+          "definition": "apostle"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "σῶμα",
+          "definition": "body"
+        },
+        {
+          "greek": "τοῦτο",
+          "definition": "this (n.)"
+        },
+        {
+          "greek": "σάρκα.",
+          "definition": "flesh (acc.)"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "μὲν",
+          "definition": "on the one hand"
+        },
+        {
+          "greek": "σὰρξ",
+          "definition": "flesh"
+        },
+        {
+          "greek": "ἐπιθυμεῖ",
+          "definition": "desires (3sg.)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "πράγματα",
+          "definition": "things (nom./acc.pl.)"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "of the (gen.f.sg.)"
+        },
+        {
+          "greek": "σαρκός,",
+          "definition": "of the flesh"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "πράγματα",
+          "definition": "things (nom./acc.pl.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματος,",
+          "definition": "of the spirit"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἀντίκεινται",
+          "definition": "are opposed (3pl.)"
+        },
+        {
+          "greek": "ἀλλήλοις.",
+          "definition": "to one another (dat.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "περιπατῶν",
+          "definition": "walking (ptc.m.sg.)"
+        },
+        {
+          "greek": "κατὰ",
+          "definition": "according to (+ acc.), against (+ gen.)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.f.sg.)"
+        },
+        {
+          "greek": "σάρκα",
+          "definition": "flesh (acc.)"
+        },
+        {
+          "greek": "ζητεῖ",
+          "definition": "seeks"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "of the (gen.f.sg.)"
+        },
+        {
+          "greek": "σαρκὸς",
+          "definition": "of the flesh"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἀποθνῄσκει·",
+          "definition": "dies"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "περιπατῶν",
+          "definition": "walking (ptc.m.sg.)"
+        },
+        {
+          "greek": "κατὰ",
+          "definition": "according to (+ acc.), against (+ gen.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "ζητεῖ",
+          "definition": "seeks"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματος",
+          "definition": "of the spirit"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ζῇ.",
+          "definition": "lives (3sg. pres.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "φρόνημα",
+          "definition": "mindset, way of thinking"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "of the (gen.f.sg.)"
+        },
+        {
+          "greek": "σαρκὸς",
+          "definition": "of the flesh"
+        },
+        {
+          "greek": "θάνατός",
+          "definition": "death"
+        },
+        {
+          "greek": "ἐστιν,",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "φρόνημα",
+          "definition": "mindset, way of thinking"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματος",
+          "definition": "of the spirit"
+        },
+        {
+          "greek": "ζωὴ",
+          "definition": "life (nom./dat.f.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "εἰρήνη.\"",
+          "definition": "peace"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "words": [
+        {
+          "greek": "ἐρωτῶσα",
+          "definition": "asking (ptc.f.sg.)"
+        },
+        {
+          "greek": "Σαλώμη",
+          "definition": "Salome"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "\"ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "τίνα",
+          "definition": "what things? (acc.pl.n.)"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "πράγματα",
+          "definition": "things (nom./acc.pl.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματος;\"",
+          "definition": "of the spirit"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "words": [
+        {
+          "greek": "ἀποκρινόμενος",
+          "definition": "answering (ptc.m.sg.)"
+        },
+        {
+          "greek": "Ἰάκωβος",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "\"ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "ζῶν",
+          "definition": "living (ptc.m.sg.)"
+        },
+        {
+          "greek": "κατὰ",
+          "definition": "according to (+ acc.), against (+ gen.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "ἀγαπᾷ",
+          "definition": "loves (3sg.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "θεὸν",
+          "definition": "God (acc.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc.m.pl.)"
+        },
+        {
+          "greek": "ἀδελφοὺς",
+          "definition": "brothers (acc.pl.)"
+        },
+        {
+          "greek": "αὐτοῦ.",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "μισεῖ",
+          "definition": "hates"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "ἀγαπᾷ·",
+          "definition": "loves (3sg.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "μεριμνᾷ",
+          "definition": "worries (3sg.)"
+        },
+        {
+          "greek": "περὶ",
+          "definition": "about, concerning (+ gen.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "βίου",
+          "definition": "of life (gen.)"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "πιστεύων",
+          "definition": "believing (ptc.m.sg.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "θεῷ",
+          "definition": "to/in God (dat.)"
+        },
+        {
+          "greek": "ἔχει",
+          "definition": "has"
+        },
+        {
+          "greek": "εἰρήνην",
+          "definition": "peace (acc.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "to/in the (dat.f.sg.)"
+        },
+        {
+          "greek": "καρδίᾳ.",
+          "definition": "heart (dat.)"
+        },
+        {
+          "greek": "ἀκούων",
+          "definition": "hearing (ptc.m.sg.)"
+        },
+        {
+          "greek": "τῶν",
+          "definition": "of the (gen.pl.)"
+        },
+        {
+          "greek": "ῥημάτων",
+          "definition": "of words"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "Ἰησοῦ",
+          "definition": "of Jesus"
+        },
+        {
+          "greek": "ποιεῖ",
+          "definition": "does, makes"
+        },
+        {
+          "greek": "αὐτά,",
+          "definition": "them (n.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἀκολουθῶν",
+          "definition": "following (ptc.m.sg.)"
+        },
+        {
+          "greek": "αὐτῷ",
+          "definition": "to him"
+        },
+        {
+          "greek": "τηρεῖ",
+          "definition": "keeps"
+        },
+        {
+          "greek": "τὰς",
+          "definition": "the (acc.f.pl.)"
+        },
+        {
+          "greek": "ἐντολὰς",
+          "definition": "commandments (acc.pl.)"
+        },
+        {
+          "greek": "αὐτοῦ.",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ὅταν",
+          "definition": "whenever (+ subj.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "ἀδελφὸς",
+          "definition": "brother"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "ἁμαρτίαν",
+          "definition": "sin (acc.sg.)"
+        },
+        {
+          "greek": "ποιῇ",
+          "definition": "might do (subj.)"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into, to (+ acc.)"
+        },
+        {
+          "greek": "αὐτόν,",
+          "definition": "him"
+        },
+        {
+          "greek": "ἀφίησιν",
+          "definition": "forgives (3sg.)"
+        },
+        {
+          "greek": "αὐτῷ,",
+          "definition": "to him"
+        },
+        {
+          "greek": "καθὼς",
+          "definition": "just as"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "θεὸς",
+          "definition": "God"
+        },
+        {
+          "greek": "ἀφίησιν",
+          "definition": "forgives (3sg.)"
+        },
+        {
+          "greek": "ἡμῖν.",
+          "definition": "to us (dat.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "ζῶν",
+          "definition": "living (ptc.m.sg.)"
+        },
+        {
+          "greek": "κατὰ",
+          "definition": "according to (+ acc.), against (+ gen.)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.f.sg.)"
+        },
+        {
+          "greek": "σάρκα",
+          "definition": "flesh (acc.)"
+        },
+        {
+          "greek": "μισεῖ",
+          "definition": "hates"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "ἀδελφὸν",
+          "definition": "brother (acc.)"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ζητεῖ",
+          "definition": "seeks"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "ἑαυτοῦ",
+          "definition": "of himself"
+        },
+        {
+          "greek": "μόνον.",
+          "definition": "only (adv.)"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "words": [
+        {
+          "greek": "ἡμεῖς",
+          "definition": "we"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (nom.m.pl.)"
+        },
+        {
+          "greek": "χριστιανοί,",
+          "definition": "Christians (nom.pl.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "οἷς",
+          "definition": "to whom/which (dat.pl.)"
+        },
+        {
+          "greek": "οἰκεῖ",
+          "definition": "dwells (3sg.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "θεοῦ,",
+          "definition": "of God"
+        },
+        {
+          "greek": "οὐκ",
+          "definition": "not (before vowel)"
+        },
+        {
+          "greek": "ἐσμὲν",
+          "definition": "we are"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "to/in the (dat.f.sg.)"
+        },
+        {
+          "greek": "σαρκὶ",
+          "definition": "in/by the flesh (dat.)"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματι.",
+          "definition": "in/by the spirit (dat.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "ἀγαπῶν",
+          "definition": "loving (ptc.m.sg.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "θεὸν",
+          "definition": "God (acc.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "περιπατεῖ",
+          "definition": "walks (3sg.)"
+        },
+        {
+          "greek": "κατὰ",
+          "definition": "according to (+ acc.), against (+ gen.)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.f.sg.)"
+        },
+        {
+          "greek": "σάρκα",
+          "definition": "flesh (acc.)"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "κατὰ",
+          "definition": "according to (+ acc.), against (+ gen.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πνεῦμα·",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "ἀκολουθῶν",
+          "definition": "following (ptc.m.sg.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "Ἰησοῦ",
+          "definition": "of Jesus"
+        },
+        {
+          "greek": "διδάσκεται",
+          "definition": "is taught (3sg.pass.)"
+        },
+        {
+          "greek": "ὑπὸ",
+          "definition": "by (+ gen.), under (+ dat.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματος",
+          "definition": "of the spirit"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ὁδηγεῖται",
+          "definition": "is guided (3sg.pass.)"
+        },
+        {
+          "greek": "ὑπ᾽",
+          "definition": "by (+ gen.)"
+        },
+        {
+          "greek": "αὐτοῦ.",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "δεῖ",
+          "definition": "it is necessary"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ἡμᾶς",
+          "definition": "us (acc.)"
+        },
+        {
+          "greek": "περιπατεῖν",
+          "definition": "to walk, live (inf.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματι·",
+          "definition": "in/by the spirit (dat.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἐὰν",
+          "definition": "if (+ subj.)"
+        },
+        {
+          "greek": "περιπατῶμεν",
+          "definition": "we walk (subj.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματι,",
+          "definition": "in/by the spirit (dat.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "ποιοῦμεν",
+          "definition": "we make"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "of the (gen.f.sg.)"
+        },
+        {
+          "greek": "σαρκός.\"",
+          "definition": "of the flesh"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "words": [
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "Σαλώμη,",
+          "definition": "Salome"
+        },
+        {
+          "greek": "λογιζομένη",
+          "definition": "considering (ptc.f.sg.)"
+        },
+        {
+          "greek": "ταῦτα,",
+          "definition": "these things"
+        },
+        {
+          "greek": "σιγᾷ",
+          "definition": "is silent (3sg.)"
+        },
+        {
+          "greek": "μικρὸν",
+          "definition": "small, little (acc.)"
+        },
+        {
+          "greek": "χρόνον.",
+          "definition": "time (acc.)"
+        },
+        {
+          "greek": "εἶτα",
+          "definition": "then, next"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "\"ταῦτα",
+          "definition": "these things"
+        },
+        {
+          "greek": "χαλεπά",
+          "definition": "difficult things (n.pl.)"
+        },
+        {
+          "greek": "ἐστιν,",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "ὦ",
+          "definition": "in whom/which (dat.)"
+        },
+        {
+          "greek": "Ἰάκωβε.",
+          "definition": "Jacob! (voc.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "γινώσκω",
+          "definition": "know"
+        },
+        {
+          "greek": "εἰ",
+          "definition": "if / you are"
+        },
+        {
+          "greek": "δύναμαι",
+          "definition": "I am able"
+        },
+        {
+          "greek": "ποιεῖν",
+          "definition": "to do (inf.)"
+        },
+        {
+          "greek": "αὐτά.",
+          "definition": "them (n.)"
+        },
+        {
+          "greek": "πολλάκις",
+          "definition": "often"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "οὐκ",
+          "definition": "not (before vowel)"
+        },
+        {
+          "greek": "ἀγαπῶ",
+          "definition": "I love (1sg.)"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "μισῶ,",
+          "definition": "I hate (1sg.)"
+        },
+        {
+          "greek": "οὐδὲ",
+          "definition": "and not, nor"
+        },
+        {
+          "greek": "ἔχω",
+          "definition": "have, hold"
+        },
+        {
+          "greek": "εἰρήνην",
+          "definition": "peace (acc.)"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "πολλάκις",
+          "definition": "often"
+        },
+        {
+          "greek": "μεριμνῶ.",
+          "definition": "I am anxious (1sg.)"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "σάρξ",
+          "definition": "flesh"
+        },
+        {
+          "greek": "ἐπιθυμεῖ",
+          "definition": "desires (3sg.)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "ἑαυτῆς.",
+          "definition": "of herself"
+        },
+        {
+          "greek": "πῶς",
+          "definition": "how?"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "δύναμαι",
+          "definition": "I am able"
+        },
+        {
+          "greek": "ποιεῖν",
+          "definition": "to do (inf.)"
+        },
+        {
+          "greek": "ταῦτα;\"",
+          "definition": "these things"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "words": [
+        {
+          "greek": "βλέπων",
+          "definition": "seeing (ptc.m.sg.)"
+        },
+        {
+          "greek": "αὐτὴν",
+          "definition": "her"
+        },
+        {
+          "greek": "Ἰάκωβος",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "\"ἀληθῶς",
+          "definition": "truly"
+        },
+        {
+          "greek": "λέγεις,",
+          "definition": "you say"
+        },
+        {
+          "greek": "ὦ",
+          "definition": "in whom/which (dat.)"
+        },
+        {
+          "greek": "Σαλώμη.",
+          "definition": "Salome"
+        },
+        {
+          "greek": "χωρὶς",
+          "definition": "without, apart from"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματος",
+          "definition": "of the spirit"
+        },
+        {
+          "greek": "οὐδεὶς",
+          "definition": "no one, nothing"
+        },
+        {
+          "greek": "δύναται",
+          "definition": "is able"
+        },
+        {
+          "greek": "ποιεῖν",
+          "definition": "to do (inf.)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "θεοῦ.",
+          "definition": "of God"
+        },
+        {
+          "greek": "σὺ",
+          "definition": "you (sg.)"
+        },
+        {
+          "greek": "μόνη",
+          "definition": "alone (f.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "δύνασαι,",
+          "definition": "you are able"
+        },
+        {
+          "greek": "οὐδὲ",
+          "definition": "and not, nor"
+        },
+        {
+          "greek": "ἐγὼ",
+          "definition": "I"
+        },
+        {
+          "greek": "μόνος",
+          "definition": "alone, only"
+        },
+        {
+          "greek": "δύναμαι·",
+          "definition": "I am able"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "τοῦτό",
+          "definition": "this (n.)"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "ἔργον",
+          "definition": "work, deed"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματος",
+          "definition": "of the spirit"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "ἁγίου.",
+          "definition": "of the holy"
+        },
+        {
+          "greek": "ἃ",
+          "definition": "what, which (rel.n.pl.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "ἄνθρωπος",
+          "definition": "person, man"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "δύναται",
+          "definition": "is able"
+        },
+        {
+          "greek": "ποιεῖν,",
+          "definition": "to do (inf.)"
+        },
+        {
+          "greek": "ταῦτα",
+          "definition": "these things"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "ποιεῖ",
+          "definition": "does, makes"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "αὐτῷ.",
+          "definition": "to him"
+        },
+        {
+          "greek": "τοῖς",
+          "definition": "to the (dat.m.pl.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "ἀνθρώποις",
+          "definition": "to people (dat.pl.)"
+        },
+        {
+          "greek": "οἷς",
+          "definition": "to whom/which (dat.pl.)"
+        },
+        {
+          "greek": "δίδοται",
+          "definition": "is given (pass.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "πάντα",
+          "definition": "all things (acc.pl.)"
+        },
+        {
+          "greek": "ταῦτα",
+          "definition": "these things"
+        },
+        {
+          "greek": "δυνατά",
+          "definition": "possible things (n.pl.)"
+        },
+        {
+          "greek": "ἐστιν,",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "that, because"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "παράκλητος",
+          "definition": "advocate, helper, Paraclete"
+        },
+        {
+          "greek": "βοηθεῖ",
+          "definition": "helps (3sg.)"
+        },
+        {
+          "greek": "αὐτοῖς.",
+          "definition": "to them (m./n.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "ἡμεῖς",
+          "definition": "we"
+        },
+        {
+          "greek": "μόνοι",
+          "definition": "alone (pl.)"
+        },
+        {
+          "greek": "ἐργαζόμεθα,",
+          "definition": "we work (1pl.)"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "ἐργαζόμενον",
+          "definition": "working (ptc.acc.n.)"
+        },
+        {
+          "greek": "μεθ᾽",
+          "definition": "with (+ gen.)"
+        },
+        {
+          "greek": "ἡμῶν",
+          "definition": "of us (gen.)"
+        },
+        {
+          "greek": "βοηθεῖ",
+          "definition": "helps (3sg.)"
+        },
+        {
+          "greek": "ἡμῖν",
+          "definition": "to us (dat.)"
+        },
+        {
+          "greek": "ἵνα",
+          "definition": "in order that (+ subj.)"
+        },
+        {
+          "greek": "δυνώμεθα",
+          "definition": "we may be able (subj.)"
+        },
+        {
+          "greek": "ποιεῖν",
+          "definition": "to do (inf.)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "θεοῦ.",
+          "definition": "of God"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "πιστεύων",
+          "definition": "believing (ptc.m.sg.)"
+        },
+        {
+          "greek": "παραδίδωσιν",
+          "definition": "hands over (3sg.)"
+        },
+        {
+          "greek": "ἑαυτὸν",
+          "definition": "himself (acc.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "θεῷ.",
+          "definition": "to/in God (dat.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "θεὸς",
+          "definition": "God"
+        },
+        {
+          "greek": "ἀποδίδωσιν",
+          "definition": "gives back, repays (3sg.)"
+        },
+        {
+          "greek": "ἡμῖν",
+          "definition": "to us (dat.)"
+        },
+        {
+          "greek": "ζωὴν",
+          "definition": "life (acc.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "εἰρήνην",
+          "definition": "peace (acc.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "δύναμιν",
+          "definition": "power, ability (acc.)"
+        },
+        {
+          "greek": "ἵνα",
+          "definition": "in order that (+ subj.)"
+        },
+        {
+          "greek": "περιπατῶμεν",
+          "definition": "we walk (subj.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "φωτί,",
+          "definition": "in the light (dat.)"
+        },
+        {
+          "greek": "οὐκ",
+          "definition": "not (before vowel)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "to/in the (dat.f.sg.)"
+        },
+        {
+          "greek": "σκοτίᾳ·\"",
+          "definition": "darkness"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "words": [
+        {
+          "greek": "ἀκούουσα",
+          "definition": "hearing (ptc.f.sg.)"
+        },
+        {
+          "greek": "ταῦτα",
+          "definition": "these things"
+        },
+        {
+          "greek": "Σαλώμη",
+          "definition": "Salome"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "\"οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "καλῶς",
+          "definition": "well, rightly"
+        },
+        {
+          "greek": "συνίημι.",
+          "definition": "I understand"
+        },
+        {
+          "greek": "διὰ",
+          "definition": "through (+ gen.), because of (+ acc.)"
+        },
+        {
+          "greek": "τί",
+          "definition": "what? why?"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "θεὸς",
+          "definition": "God"
+        },
+        {
+          "greek": "ποιεῖ",
+          "definition": "does, makes"
+        },
+        {
+          "greek": "ταῦτα;\"",
+          "definition": "these things"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "words": [
+        {
+          "greek": "ἀποκρίνεται",
+          "definition": "answers (3sg.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "Ἰάκωβος·",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "\"ταῦτα",
+          "definition": "these things"
+        },
+        {
+          "greek": "πάντα",
+          "definition": "all things (acc.pl.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "Ἰησοῦ",
+          "definition": "of Jesus"
+        },
+        {
+          "greek": "ἕνεκεν.",
+          "definition": "for the sake of (+ gen.)"
+        },
+        {
+          "greek": "καίπερ",
+          "definition": "although, even though"
+        },
+        {
+          "greek": "ἁμαρτωλοὶ",
+          "definition": "sinners (nom.pl.)"
+        },
+        {
+          "greek": "ὄντες,",
+          "definition": "being (ptc.m.pl.)"
+        },
+        {
+          "greek": "διὰ",
+          "definition": "through (+ gen.), because of (+ acc.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "Ἰησοῦν",
+          "definition": "Jesus (acc.)"
+        },
+        {
+          "greek": "ἡμεῖς",
+          "definition": "we"
+        },
+        {
+          "greek": "ἔχομεν",
+          "definition": "we have"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.f.sg.)"
+        },
+        {
+          "greek": "ἄφεσιν",
+          "definition": "forgiveness (acc.)"
+        },
+        {
+          "greek": "τῶν",
+          "definition": "of the (gen.pl.)"
+        },
+        {
+          "greek": "ἁμαρτιῶν",
+          "definition": "of sins (gen.pl.)"
+        },
+        {
+          "greek": "ἡμῶν.",
+          "definition": "of us (gen.)"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (nom.m.pl.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "ἀγόμενοι",
+          "definition": "being led (ptc.pass.m.pl.)"
+        },
+        {
+          "greek": "ὑπὸ",
+          "definition": "by (+ gen.), under (+ dat.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματος",
+          "definition": "of the spirit"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "θεοῦ",
+          "definition": "of God"
+        },
+        {
+          "greek": "τέκνα",
+          "definition": "children"
+        },
+        {
+          "greek": "θεοῦ",
+          "definition": "of God"
+        },
+        {
+          "greek": "εἰσιν.",
+          "definition": "they are"
+        },
+        {
+          "greek": "ἡμεῖς",
+          "definition": "we"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (nom.m.pl.)"
+        },
+        {
+          "greek": "πιστεύοντες",
+          "definition": "believing (ptc.m.pl.)"
+        },
+        {
+          "greek": "οὐκ",
+          "definition": "not (before vowel)"
+        },
+        {
+          "greek": "ἐσμὲν",
+          "definition": "we are"
+        },
+        {
+          "greek": "δοῦλοι",
+          "definition": "slaves (nom.pl.)"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "τέκνα·",
+          "definition": "children"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "δοῦλος",
+          "definition": "slave, servant"
+        },
+        {
+          "greek": "φοβεῖται",
+          "definition": "fears (3sg.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "κύριον,",
+          "definition": "Lord (acc.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "τέκνον,",
+          "definition": "child"
+        },
+        {
+          "greek": "ἀγαπώμενον",
+          "definition": "being loved (ptc.pass.acc.m.)"
+        },
+        {
+          "greek": "ὑπὸ",
+          "definition": "by (+ gen.), under (+ dat.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πατρός,",
+          "definition": "of the father"
+        },
+        {
+          "greek": "ἀγαπᾷ",
+          "definition": "loves (3sg.)"
+        },
+        {
+          "greek": "αὐτόν.",
+          "definition": "him"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "λαμβάνομεν",
+          "definition": "we receive"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "ὃ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "ποιεῖ",
+          "definition": "does, makes"
+        },
+        {
+          "greek": "ἡμᾶς",
+          "definition": "us (acc.)"
+        },
+        {
+          "greek": "δούλους",
+          "definition": "slaves (acc.pl.)"
+        },
+        {
+          "greek": "πάλιν",
+          "definition": "again"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into, to (+ acc.)"
+        },
+        {
+          "greek": "φόβον,",
+          "definition": "fear (acc.)"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "λαμβάνομεν",
+          "definition": "we receive"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "ὃ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "ποιεῖ",
+          "definition": "does, makes"
+        },
+        {
+          "greek": "ἡμᾶς",
+          "definition": "us (acc.)"
+        },
+        {
+          "greek": "τέκνα",
+          "definition": "children"
+        },
+        {
+          "greek": "θεοῦ,",
+          "definition": "of God"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "ᾧ",
+          "definition": "in whom/which (dat.)"
+        },
+        {
+          "greek": "κράζομεν·",
+          "definition": "we cry out (1pl.)"
+        },
+        {
+          "greek": "Ἀββᾶ,",
+          "definition": "Abba (Aramaic: Father)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "πατήρ.",
+          "definition": "father"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "words": [
+        {
+          "greek": "αὐτὸ",
+          "definition": "it; self"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "μαρτυρεῖ",
+          "definition": "testifies (3sg.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματι",
+          "definition": "in/by the spirit (dat.)"
+        },
+        {
+          "greek": "ἡμῶν",
+          "definition": "of us (gen.)"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "that, because"
+        },
+        {
+          "greek": "ἐσμὲν",
+          "definition": "we are"
+        },
+        {
+          "greek": "τέκνα",
+          "definition": "children"
+        },
+        {
+          "greek": "θεοῦ.",
+          "definition": "of God"
+        },
+        {
+          "greek": "εἰ",
+          "definition": "if / you are"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "τέκνα",
+          "definition": "children"
+        },
+        {
+          "greek": "ἐσμέν,",
+          "definition": "we are"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "κληρονόμοι",
+          "definition": "heirs (nom.pl.)"
+        },
+        {
+          "greek": "ἐσμέν·",
+          "definition": "we are"
+        },
+        {
+          "greek": "κληρονόμοι",
+          "definition": "heirs (nom.pl.)"
+        },
+        {
+          "greek": "μὲν",
+          "definition": "on the one hand"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "θεοῦ,",
+          "definition": "of God"
+        },
+        {
+          "greek": "συγκληρονόμοι",
+          "definition": "co-heirs (nom.pl.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "Χριστοῦ.",
+          "definition": "of Christ"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ἀγαπώμενος",
+          "definition": "being loved (ptc.pass.nom.m.)"
+        },
+        {
+          "greek": "ὑπὸ",
+          "definition": "by (+ gen.), under (+ dat.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πατρὸς",
+          "definition": "of the father"
+        },
+        {
+          "greek": "τέκνον",
+          "definition": "child"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "ἐστιν,",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "μαθητὴς",
+          "definition": "disciple"
+        },
+        {
+          "greek": "ἢ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "μαθήτρια",
+          "definition": "female disciple"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "Ἰησοῦ.",
+          "definition": "of Jesus"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "οἰκοῦν",
+          "definition": "dwelling (ptc.n.acc.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "ἡμῖν",
+          "definition": "to us (dat.)"
+        },
+        {
+          "greek": "δείκνυσιν",
+          "definition": "shows (3sg.)"
+        },
+        {
+          "greek": "ἡμῖν",
+          "definition": "to us (dat.)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.f.sg.)"
+        },
+        {
+          "greek": "ὁδὸν",
+          "definition": "road (acc.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "θεοῦ,",
+          "definition": "of God"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "δίδωσιν",
+          "definition": "gives (3sg.)"
+        },
+        {
+          "greek": "ἡμῖν",
+          "definition": "to us (dat.)"
+        },
+        {
+          "greek": "δύναμιν",
+          "definition": "power, ability (acc.)"
+        },
+        {
+          "greek": "ἵνα",
+          "definition": "in order that (+ subj.)"
+        },
+        {
+          "greek": "ποιῶμεν",
+          "definition": "we might do (subj.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "θέλημα",
+          "definition": "will"
+        },
+        {
+          "greek": "αὐτοῦ.",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries, bears"
+        },
+        {
+          "greek": "καρπὸν",
+          "definition": "fruit (acc.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "ἡμῖν.\"",
+          "definition": "to us (dat.)"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "words": [
+        {
+          "greek": "ταῦτα",
+          "definition": "these things"
+        },
+        {
+          "greek": "λέγοντος",
+          "definition": "of [him] saying (ptc.gen.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "Ἰακώβου,",
+          "definition": "of Jacob (gen.)"
+        },
+        {
+          "greek": "θαυμάζει",
+          "definition": "marvels (3sg.)"
+        },
+        {
+          "greek": "λίαν",
+          "definition": "very much, greatly"
+        },
+        {
+          "greek": "Σαλώμη",
+          "definition": "Salome"
+        },
+        {
+          "greek": "γινώσκουσα",
+          "definition": "knowing (ptc.f.sg.)"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "that, because"
+        },
+        {
+          "greek": "δύναται",
+          "definition": "is able"
+        },
+        {
+          "greek": "ἀγαπᾶσθαι",
+          "definition": "to be loved (pass.inf.)"
+        },
+        {
+          "greek": "ὑπὸ",
+          "definition": "by (+ gen.), under (+ dat.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "θεοῦ",
+          "definition": "of God"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "γίνεσθαι",
+          "definition": "to become (inf.)"
+        },
+        {
+          "greek": "θυγάτηρ",
+          "definition": "daughter"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "θεοῦ.",
+          "definition": "of God"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "χαίρει",
+          "definition": "rejoices (3sg.)"
+        },
+        {
+          "greek": "ἀκούουσα",
+          "definition": "hearing (ptc.f.sg.)"
+        },
+        {
+          "greek": "ταῦτα.",
+          "definition": "these things"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "words": [
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "ἡλίου",
+          "definition": "of the sun"
+        },
+        {
+          "greek": "ἔτι",
+          "definition": "still, yet"
+        },
+        {
+          "greek": "λάμποντος",
+          "definition": "shining (ptc.gen.m.)"
+        },
+        {
+          "greek": "ὑπὲρ",
+          "definition": "over, above, for (+ gen.)"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc.m.pl.)"
+        },
+        {
+          "greek": "ἀγρούς,",
+          "definition": "fields (acc.pl.)"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "Σαλώμη",
+          "definition": "Salome"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "Ἰακώβῳ·",
+          "definition": "to Jacob (dat.)"
+        },
+        {
+          "greek": "\"λέγεις",
+          "definition": "you say"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "that, because"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "βοηθεῖ",
+          "definition": "helps (3sg.)"
+        },
+        {
+          "greek": "ἡμῖν",
+          "definition": "to us (dat.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries, bears"
+        },
+        {
+          "greek": "καρπὸν",
+          "definition": "fruit (acc.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "ἡμῖν.",
+          "definition": "to us (dat.)"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "πῶς",
+          "definition": "how?"
+        },
+        {
+          "greek": "τοῦτο",
+          "definition": "this (n.)"
+        },
+        {
+          "greek": "γίνεται;\"",
+          "definition": "becomes, happens"
+        }
+      ],
+      "label": "Μέρος Βʹ — Ὁ Καρπὸς τοῦ Πνεύματος (Part B — The Fruit of the Spirit)"
+    },
+    {
+      "id": 13,
+      "words": [
+        {
+          "greek": "σπουδαζούσης",
+          "definition": "of [her] being eager (ptc.gen.f.)"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "of the (gen.f.sg.)"
+        },
+        {
+          "greek": "Σαλώμης",
+          "definition": "of Salome (gen.)"
+        },
+        {
+          "greek": "μανθάνειν",
+          "definition": "to learn (inf.)"
+        },
+        {
+          "greek": "περὶ",
+          "definition": "about, concerning (+ gen.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "καρποῦ",
+          "definition": "of the fruit"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματος,",
+          "definition": "of the spirit"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "Ἰάκωβος",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "αὐτῇ·",
+          "definition": "this, this one (f.)"
+        },
+        {
+          "greek": "\"ὥσπερ",
+          "definition": "just as"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "δένδρον",
+          "definition": "tree"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries, bears"
+        },
+        {
+          "greek": "καρπόν,",
+          "definition": "fruit (acc.)"
+        },
+        {
+          "greek": "οὕτως",
+          "definition": "thus, in this way"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries, bears"
+        },
+        {
+          "greek": "καρπὸν",
+          "definition": "fruit (acc.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "πιστεύοντι.",
+          "definition": "to the one believing (ptc.dat.m.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (nom.m.pl.)"
+        },
+        {
+          "greek": "ἄνθρωποι,",
+          "definition": "people (nom.pl.)"
+        },
+        {
+          "greek": "ἀγόμενοι",
+          "definition": "being led (ptc.pass.m.pl.)"
+        },
+        {
+          "greek": "ὑπὸ",
+          "definition": "by (+ gen.), under (+ dat.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματος,",
+          "definition": "of the spirit"
+        },
+        {
+          "greek": "φέρουσιν",
+          "definition": "they bear"
+        },
+        {
+          "greek": "τοῦτον",
+          "definition": "this one (acc.m.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "καρπόν.",
+          "definition": "fruit (acc.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "καρπὸς",
+          "definition": "fruit"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματός",
+          "definition": "of the spirit"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "ἀγάπη,",
+          "definition": "love (dat.)"
+        },
+        {
+          "greek": "χαρά,",
+          "definition": "joy (dat.)"
+        },
+        {
+          "greek": "εἰρήνη,",
+          "definition": "peace"
+        },
+        {
+          "greek": "μακροθυμία,",
+          "definition": "patience, long-suffering"
+        },
+        {
+          "greek": "χρηστότης,",
+          "definition": "kindness"
+        },
+        {
+          "greek": "ἀγαθωσύνη,",
+          "definition": "goodness"
+        },
+        {
+          "greek": "πίστις,",
+          "definition": "faith, faithfulness"
+        },
+        {
+          "greek": "πραΰτης,",
+          "definition": "gentleness, meekness"
+        },
+        {
+          "greek": "ἐγκράτεια·",
+          "definition": "self-control"
+        },
+        {
+          "greek": "ταῦτά",
+          "definition": "these things"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "ἐννέα.\"",
+          "definition": "nine"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "words": [
+        {
+          "greek": "ἀποκρινομένη",
+          "definition": "answering (ptc.f.sg.)"
+        },
+        {
+          "greek": "Σαλώμη",
+          "definition": "Salome"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "\"πολλὰ",
+          "definition": "many things"
+        },
+        {
+          "greek": "ταῦτα",
+          "definition": "these things"
+        },
+        {
+          "greek": "ὀνόματα·",
+          "definition": "names"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "συνίημι",
+          "definition": "I understand"
+        },
+        {
+          "greek": "πάντα.",
+          "definition": "all things (acc.pl.)"
+        },
+        {
+          "greek": "λέγε",
+          "definition": "say! (impv.)"
+        },
+        {
+          "greek": "μοι.\"",
+          "definition": "to me (dat.)"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "words": [
+        {
+          "greek": "ἀποκρινόμενος",
+          "definition": "answering (ptc.m.sg.)"
+        },
+        {
+          "greek": "Ἰάκωβος",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "\"ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "ἀγάπη",
+          "definition": "love (dat.)"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πρῶτον.",
+          "definition": "first (n.sg./adv.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "θεὸς",
+          "definition": "God"
+        },
+        {
+          "greek": "ἀγάπη",
+          "definition": "love (dat.)"
+        },
+        {
+          "greek": "ἐστιν.",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "ἀγαπῶν",
+          "definition": "loving (ptc.m.sg.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "ἀδελφὸν",
+          "definition": "brother (acc.)"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "μισεῖ",
+          "definition": "hates"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "ἀγαπᾷ,",
+          "definition": "loves (3sg.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "τίθησιν",
+          "definition": "puts, lays down (3sg.)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.f.sg.)"
+        },
+        {
+          "greek": "ψυχὴν",
+          "definition": "soul (acc.)"
+        },
+        {
+          "greek": "ὑπὲρ",
+          "definition": "over, above, for (+ gen.)"
+        },
+        {
+          "greek": "τῶν",
+          "definition": "of the (gen.pl.)"
+        },
+        {
+          "greek": "φίλων",
+          "definition": "of friends (gen.pl.)"
+        },
+        {
+          "greek": "αὐτοῦ.",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "ἀγάπη",
+          "definition": "love (dat.)"
+        },
+        {
+          "greek": "μακροθυμεῖ,",
+          "definition": "is patient (3sg.)"
+        },
+        {
+          "greek": "χρηστεύεται",
+          "definition": "is kind (3sg.)"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "ἀγάπη,",
+          "definition": "love (dat.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "ζηλοῖ,",
+          "definition": "is jealous (3sg.)"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "ἀγάπη",
+          "definition": "love (dat.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "ζητεῖ",
+          "definition": "seeks"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "ἑαυτῆς,",
+          "definition": "of herself"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "λογίζεται",
+          "definition": "reckons, thinks (3sg.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "κακόν,",
+          "definition": "evil (acc./nom.n.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "χαίρει",
+          "definition": "rejoices (3sg.)"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on, over (+ dat./acc./gen.)"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "to/in the (dat.f.sg.)"
+        },
+        {
+          "greek": "ἀδικίᾳ,",
+          "definition": "injustice (dat.)"
+        },
+        {
+          "greek": "συγχαίρει",
+          "definition": "rejoices with (3sg.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "to/in the (dat.f.sg.)"
+        },
+        {
+          "greek": "ἀληθείᾳ·",
+          "definition": "truth (dat.)"
+        },
+        {
+          "greek": "πάντα",
+          "definition": "all things (acc.pl.)"
+        },
+        {
+          "greek": "πιστεύει,",
+          "definition": "he/she believes"
+        },
+        {
+          "greek": "πάντα",
+          "definition": "all things (acc.pl.)"
+        },
+        {
+          "greek": "ἐλπίζει,",
+          "definition": "hopes (3sg.)"
+        },
+        {
+          "greek": "πάντα",
+          "definition": "all things (acc.pl.)"
+        },
+        {
+          "greek": "ὑπομένει.",
+          "definition": "endures (3sg.)"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "words": [
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "χαρά",
+          "definition": "joy (dat.)"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "χαίρειν",
+          "definition": "to rejoice (inf.)"
+        },
+        {
+          "greek": "πάντοτε",
+          "definition": "always"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "κυρίῳ.",
+          "definition": "to the Lord (dat.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "ἔχων",
+          "definition": "having (ptc.m.sg.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "χαίρει,",
+          "definition": "rejoices (3sg.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "κόπῳ",
+          "definition": "in the labor (dat.)"
+        },
+        {
+          "greek": "χαίρει.",
+          "definition": "rejoices (3sg.)"
+        },
+        {
+          "greek": "ὥσπερ",
+          "definition": "just as"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "γεωργός,",
+          "definition": "farmer"
+        },
+        {
+          "greek": "καίπερ",
+          "definition": "although, even though"
+        },
+        {
+          "greek": "κοπιῶν",
+          "definition": "laboring (ptc.m.sg.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "ἀγρῷ,",
+          "definition": "in the field (dat.)"
+        },
+        {
+          "greek": "χαίρει",
+          "definition": "rejoices (3sg.)"
+        },
+        {
+          "greek": "ἕνεκα",
+          "definition": "for the sake of (+ gen.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "καρποῦ,",
+          "definition": "of the fruit"
+        },
+        {
+          "greek": "οὕτως",
+          "definition": "thus, in this way"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "πιστεύων",
+          "definition": "believing (ptc.m.sg.)"
+        },
+        {
+          "greek": "χαίρει",
+          "definition": "rejoices (3sg.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "κυρίῳ,",
+          "definition": "to the Lord (dat.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἐργαζόμενος",
+          "definition": "working (ptc.m.sg.)"
+        },
+        {
+          "greek": "χαίρει.",
+          "definition": "rejoices (3sg.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "κύριος",
+          "definition": "Lord"
+        },
+        {
+          "greek": "δίδωσιν",
+          "definition": "gives (3sg.)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.f.sg.)"
+        },
+        {
+          "greek": "χαράν,",
+          "definition": "joy (acc.)"
+        },
+        {
+          "greek": "ἣν",
+          "definition": "was (3sg.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "κόσμος",
+          "definition": "world"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "δύναται",
+          "definition": "is able"
+        },
+        {
+          "greek": "διδόναι.\"",
+          "definition": "to give (inf.)"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "words": [
+        {
+          "greek": "Σαλώμη",
+          "definition": "Salome"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "\"καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "εἰρήνη;",
+          "definition": "peace"
+        },
+        {
+          "greek": "ταύτην",
+          "definition": "this (acc.f.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "ζητῶ.\"",
+          "definition": "I seek (1sg.)"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "Ἰάκωβος",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "\"ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "εἰρήνη",
+          "definition": "peace"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "καρδία",
+          "definition": "heart (dat.)"
+        },
+        {
+          "greek": "ἣ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "φοβεῖται",
+          "definition": "fears (3sg.)"
+        },
+        {
+          "greek": "οὐδὲ",
+          "definition": "and not, nor"
+        },
+        {
+          "greek": "ταράσσεται·",
+          "definition": "is troubled (pass.)"
+        },
+        {
+          "greek": "ἔστιν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "ἀναπαύεσθαι",
+          "definition": "to rest"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "θεῷ.",
+          "definition": "to/in God (dat.)"
+        },
+        {
+          "greek": "ὅταν",
+          "definition": "whenever (+ subj.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "ἄνθρωπος",
+          "definition": "person, man"
+        },
+        {
+          "greek": "ἔχῃ",
+          "definition": "might have (subj.)"
+        },
+        {
+          "greek": "φόβον",
+          "definition": "fear (acc.)"
+        },
+        {
+          "greek": "ἢ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "μεριμνᾷ,",
+          "definition": "worries (3sg.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "μὴ",
+          "definition": "not (with subj./inf.)"
+        },
+        {
+          "greek": "δύνηται",
+          "definition": "might be able (subj.)"
+        },
+        {
+          "greek": "καθεύδειν",
+          "definition": "to sleep (inf.)"
+        },
+        {
+          "greek": "ἢ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "ἀναπαύεσθαι,",
+          "definition": "to rest"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "πνεῦμα",
+          "definition": "spirit, Spirit"
+        },
+        {
+          "greek": "δίδωσιν",
+          "definition": "gives (3sg.)"
+        },
+        {
+          "greek": "εἰρήνην,",
+          "definition": "peace (acc.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "καρδία",
+          "definition": "heart (dat.)"
+        },
+        {
+          "greek": "οὐκέτι",
+          "definition": "no longer"
+        },
+        {
+          "greek": "ταράσσεται.",
+          "definition": "is troubled (pass.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "ἔχων",
+          "definition": "having (ptc.m.sg.)"
+        },
+        {
+          "greek": "εἰρήνην",
+          "definition": "peace (acc.)"
+        },
+        {
+          "greek": "ἀναπαύεται",
+          "definition": "rests"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "θεῷ,",
+          "definition": "to/in God (dat.)"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "that, because"
+        },
+        {
+          "greek": "οἶδεν",
+          "definition": "he knows"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "that, because"
+        },
+        {
+          "greek": "πάντα",
+          "definition": "all things (acc.pl.)"
+        },
+        {
+          "greek": "γίνεται",
+          "definition": "becomes, happens"
+        },
+        {
+          "greek": "κατὰ",
+          "definition": "according to (+ acc.), against (+ gen.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "θέλημα",
+          "definition": "will"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "θεοῦ.",
+          "definition": "of God"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "θεός,",
+          "definition": "God"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "βλέπων",
+          "definition": "seeing (ptc.m.sg.)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "τέκνα",
+          "definition": "children"
+        },
+        {
+          "greek": "αὐτοῦ,",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "φυλάσσει",
+          "definition": "guards, keeps (3sg.)"
+        },
+        {
+          "greek": "αὐτά.",
+          "definition": "them (n.)"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "words": [
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "μακροθυμία",
+          "definition": "patience, long-suffering"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "μένειν",
+          "definition": "to remain (inf.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "μὴ",
+          "definition": "not (with subj./inf.)"
+        },
+        {
+          "greek": "ταράσσεσθαι,",
+          "definition": "to be troubled (pass.inf.)"
+        },
+        {
+          "greek": "καίπερ",
+          "definition": "although, even though"
+        },
+        {
+          "greek": "πάσχων",
+          "definition": "suffering (ptc.m.sg.)"
+        },
+        {
+          "greek": "κακά.",
+          "definition": "evil things"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "μακροθυμῶν",
+          "definition": "being patient (ptc.m.sg.)"
+        },
+        {
+          "greek": "μένει",
+          "definition": "remains"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "μεριμνᾷ,",
+          "definition": "worries (3sg.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "μακροθυμεῖ",
+          "definition": "is patient (3sg.)"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "to, toward (+ acc.)"
+        },
+        {
+          "greek": "πάντας.",
+          "definition": "all (acc.m.pl.)"
+        },
+        {
+          "greek": "ὥσπερ",
+          "definition": "just as"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "γεωργός,",
+          "definition": "farmer"
+        },
+        {
+          "greek": "ἐργαζόμενος",
+          "definition": "working (ptc.m.sg.)"
+        },
+        {
+          "greek": "πολὺν",
+          "definition": "much, many (acc.m.sg.)"
+        },
+        {
+          "greek": "χρόνον,",
+          "definition": "time (acc.)"
+        },
+        {
+          "greek": "μένει",
+          "definition": "remains"
+        },
+        {
+          "greek": "ἕως",
+          "definition": "until, as long as"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "γῆ",
+          "definition": "earth, land"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries, bears"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "καρπόν,",
+          "definition": "fruit (acc.)"
+        },
+        {
+          "greek": "οὕτως",
+          "definition": "thus, in this way"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "πιστεύων",
+          "definition": "believing (ptc.m.sg.)"
+        },
+        {
+          "greek": "μένει",
+          "definition": "remains"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "ταράσσεται.",
+          "definition": "is troubled (pass.)"
+        },
+        {
+          "greek": "μένων",
+          "definition": "remaining (ptc.m.sg.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "προσδεχόμενος,",
+          "definition": "waiting (ptc.m.sg.)"
+        },
+        {
+          "greek": "ἔχει",
+          "definition": "has"
+        },
+        {
+          "greek": "μακροθυμίαν.\"",
+          "definition": "patience (acc.)"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "words": [
+        {
+          "greek": "λέγει",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "Σαλώμη·",
+          "definition": "Salome"
+        },
+        {
+          "greek": "\"ταῦτα",
+          "definition": "these things"
+        },
+        {
+          "greek": "συνίημι·",
+          "definition": "I understand"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "ἔτι",
+          "definition": "still, yet"
+        },
+        {
+          "greek": "ἄλλα",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "ὀνόματα",
+          "definition": "names"
+        },
+        {
+          "greek": "λέγεις,",
+          "definition": "you say"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "μνημονεύω",
+          "definition": "I remember (1sg.)"
+        },
+        {
+          "greek": "πάντα.\"",
+          "definition": "all things (acc.pl.)"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "words": [
+        {
+          "greek": "λέγει",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "Ἰάκωβος",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "αὐτῇ·",
+          "definition": "this, this one (f.)"
+        },
+        {
+          "greek": "\"ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "χρηστότης",
+          "definition": "kindness"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "ποιεῖν",
+          "definition": "to do (inf.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "ἀγαθὸν",
+          "definition": "good (n.)"
+        },
+        {
+          "greek": "ἔργον",
+          "definition": "work, deed"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "to, toward (+ acc.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "ἄλλον",
+          "definition": "another, other (acc.m.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "βοηθεῖν",
+          "definition": "to help (inf.)"
+        },
+        {
+          "greek": "αὐτῷ.",
+          "definition": "to him"
+        },
+        {
+          "greek": "ὥσπερ",
+          "definition": "just as"
+        },
+        {
+          "greek": "σὺ",
+          "definition": "you (sg.)"
+        },
+        {
+          "greek": "δίδως",
+          "definition": "you give (2sg.)"
+        },
+        {
+          "greek": "ὕδωρ",
+          "definition": "water"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "διψῶντι",
+          "definition": "thirsting (ptc.dat.m.sg.)"
+        },
+        {
+          "greek": "ξένῳ,",
+          "definition": "to the stranger (dat.)"
+        },
+        {
+          "greek": "οὕτως",
+          "definition": "thus, in this way"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "χρηστὸς",
+          "definition": "kind, good (person)"
+        },
+        {
+          "greek": "ποιεῖ",
+          "definition": "does, makes"
+        },
+        {
+          "greek": "ἀγαθὰ",
+          "definition": "good things (n.pl.)"
+        },
+        {
+          "greek": "τοῖς",
+          "definition": "to the (dat.m.pl.)"
+        },
+        {
+          "greek": "ἀδελφοῖς",
+          "definition": "to brothers (dat.pl.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ταῖς",
+          "definition": "to/in the (dat.f.pl.)"
+        },
+        {
+          "greek": "ἀδελφαῖς.",
+          "definition": "to the sisters (dat.pl.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "χρηστευόμενος",
+          "definition": "being kind (ptc.m.sg.)"
+        },
+        {
+          "greek": "πάντοτε",
+          "definition": "always"
+        },
+        {
+          "greek": "βοηθεῖ",
+          "definition": "helps (3sg.)"
+        },
+        {
+          "greek": "τοῖς",
+          "definition": "to the (dat.m.pl.)"
+        },
+        {
+          "greek": "ἄλλοις.",
+          "definition": "to others (dat.pl.)"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "words": [
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "ἀγαθωσύνη",
+          "definition": "goodness"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "καρδία",
+          "definition": "heart (dat.)"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "ἀγαθή,",
+          "definition": "good (f.)"
+        },
+        {
+          "greek": "ἣ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "ποιεῖ",
+          "definition": "does, makes"
+        },
+        {
+          "greek": "ἀγαθὰ",
+          "definition": "good things (n.pl.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ζητεῖ",
+          "definition": "seeks"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "ἀγαθὸν",
+          "definition": "good (n.)"
+        },
+        {
+          "greek": "τῶν",
+          "definition": "of the (gen.pl.)"
+        },
+        {
+          "greek": "ἄλλων.",
+          "definition": "of others (gen.pl.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "ἀγαθός,",
+          "definition": "good"
+        },
+        {
+          "greek": "ἀγόμενος",
+          "definition": "being led (ptc.pass.m.sg.)"
+        },
+        {
+          "greek": "ὑπὸ",
+          "definition": "by (+ gen.), under (+ dat.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματος,",
+          "definition": "of the spirit"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "μόνον",
+          "definition": "only (adv.)"
+        },
+        {
+          "greek": "ποιεῖ",
+          "definition": "does, makes"
+        },
+        {
+          "greek": "ἀγαθὰ",
+          "definition": "good things (n.pl.)"
+        },
+        {
+          "greek": "πᾶσιν,",
+          "definition": "to all (dat.pl.)"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "μεταδίδωσιν",
+          "definition": "shares, gives (3sg.)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "ἑαυτοῦ",
+          "definition": "of himself"
+        },
+        {
+          "greek": "τοῖς",
+          "definition": "to the (dat.m.pl.)"
+        },
+        {
+          "greek": "ἄλλοις.",
+          "definition": "to others (dat.pl.)"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "words": [
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "πίστις",
+          "definition": "faith, faithfulness"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "εἶναι",
+          "definition": "to be (inf.)"
+        },
+        {
+          "greek": "πιστόν.",
+          "definition": "faithful (acc.m.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "πιστός",
+          "definition": "faithful"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "ἄνθρωπος",
+          "definition": "person, man"
+        },
+        {
+          "greek": "ᾧ",
+          "definition": "in whom/which (dat.)"
+        },
+        {
+          "greek": "δύναταί",
+          "definition": "is able"
+        },
+        {
+          "greek": "τις",
+          "definition": "someone, anyone"
+        },
+        {
+          "greek": "πιστεύειν.",
+          "definition": "to believe (inf.)"
+        },
+        {
+          "greek": "ὥσπερ",
+          "definition": "just as"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "πιστὸς",
+          "definition": "faithful"
+        },
+        {
+          "greek": "γεωργὸς",
+          "definition": "farmer"
+        },
+        {
+          "greek": "πάντοτε",
+          "definition": "always"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "καλῶς",
+          "definition": "well, rightly"
+        },
+        {
+          "greek": "ἐργάζεται",
+          "definition": "works (3sg.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "ἀγρῷ,",
+          "definition": "in the field (dat.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "πιστὸς",
+          "definition": "faithful"
+        },
+        {
+          "greek": "δοῦλος",
+          "definition": "slave, servant"
+        },
+        {
+          "greek": "τηρεῖ",
+          "definition": "keeps"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "ῥήματα",
+          "definition": "words (nom./acc.pl.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "κυρίου",
+          "definition": "of the Lord"
+        },
+        {
+          "greek": "αὐτοῦ,",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "οὕτως",
+          "definition": "thus, in this way"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "πιστὸς",
+          "definition": "faithful"
+        },
+        {
+          "greek": "ἄνθρωπος",
+          "definition": "person, man"
+        },
+        {
+          "greek": "μένει",
+          "definition": "remains"
+        },
+        {
+          "greek": "πιστὸς",
+          "definition": "faithful"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "παντὶ",
+          "definition": "in every (dat.sg.)"
+        },
+        {
+          "greek": "καιρῷ.",
+          "definition": "in every season (dat.)"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "words": [
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "πραΰτης",
+          "definition": "gentleness, meekness"
+        },
+        {
+          "greek": "ἐστὶν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "εἶναι",
+          "definition": "to be (inf.)"
+        },
+        {
+          "greek": "πραῢν",
+          "definition": "meek (acc.)"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "to, toward (+ acc.)"
+        },
+        {
+          "greek": "πάντας.",
+          "definition": "all (acc.m.pl.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "πραῢς",
+          "definition": "meek, gentle"
+        },
+        {
+          "greek": "οὐκ",
+          "definition": "not (before vowel)"
+        },
+        {
+          "greek": "ἀποδίδωσιν",
+          "definition": "gives back, repays (3sg.)"
+        },
+        {
+          "greek": "κακὸν",
+          "definition": "evil (acc./nom.n.)"
+        },
+        {
+          "greek": "ἀντὶ",
+          "definition": "instead of, in exchange for (+ gen.)"
+        },
+        {
+          "greek": "κακοῦ·",
+          "definition": "bad (gen.sg.)"
+        },
+        {
+          "greek": "καίπερ",
+          "definition": "although, even though"
+        },
+        {
+          "greek": "ἀκούων",
+          "definition": "hearing (ptc.m.sg.)"
+        },
+        {
+          "greek": "κακὰ",
+          "definition": "evil things"
+        },
+        {
+          "greek": "ῥήματα,",
+          "definition": "words (nom./acc.pl.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "ταράσσεται",
+          "definition": "is troubled (pass.)"
+        },
+        {
+          "greek": "οὐδὲ",
+          "definition": "and not, nor"
+        },
+        {
+          "greek": "ἀποδίδωσιν",
+          "definition": "gives back, repays (3sg.)"
+        },
+        {
+          "greek": "κακά,",
+          "definition": "evil things"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "σιγᾷ",
+          "definition": "is silent (3sg.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "πραΰτητι.",
+          "definition": "in gentleness (dat.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "πραῢς",
+          "definition": "meek, gentle"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "of whom, whose"
+        },
+        {
+          "greek": "ζητεῖ",
+          "definition": "seeks"
+        },
+        {
+          "greek": "εἶναι",
+          "definition": "to be (inf.)"
+        },
+        {
+          "greek": "μέγας",
+          "definition": "great, large"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τοῖς",
+          "definition": "to the (dat.m.pl.)"
+        },
+        {
+          "greek": "ἀνθρώποις.\"",
+          "definition": "to people (dat.pl.)"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "words": [
+        {
+          "greek": "λέγει",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "Σαλώμη·",
+          "definition": "Salome"
+        },
+        {
+          "greek": "\"καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "ἔσχατον,",
+          "definition": "last (n.sg./adv.)"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "ἐγκράτεια;\"",
+          "definition": "self-control"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "words": [
+        {
+          "greek": "λέγει",
+          "definition": "says (3sg.)"
+        },
+        {
+          "greek": "Ἰάκωβος·",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "\"ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "ἐγκράτειά",
+          "definition": "self-control"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is (3sg.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "κρατεῖν",
+          "definition": "to hold, seize (inf.)"
+        },
+        {
+          "greek": "ἑαυτόν.",
+          "definition": "himself (acc.)"
+        },
+        {
+          "greek": "ὅταν",
+          "definition": "whenever (+ subj.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "ἄνθρωπος",
+          "definition": "person, man"
+        },
+        {
+          "greek": "κρατῇ",
+          "definition": "might hold (subj.)"
+        },
+        {
+          "greek": "τὰς",
+          "definition": "the (acc.f.pl.)"
+        },
+        {
+          "greek": "ἐπιθυμίας",
+          "definition": "of desire, desires (gen./acc.pl.)"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "of the (gen.f.sg.)"
+        },
+        {
+          "greek": "σαρκός,",
+          "definition": "of the flesh"
+        },
+        {
+          "greek": "οὗτος",
+          "definition": "this, this one (m.)"
+        },
+        {
+          "greek": "ἔχει",
+          "definition": "has"
+        },
+        {
+          "greek": "ἐγκράτειαν.",
+          "definition": "self-control (acc.)"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "μὲν",
+          "definition": "on the one hand"
+        },
+        {
+          "greek": "γὰρ",
+          "definition": "for, because"
+        },
+        {
+          "greek": "σὰρξ",
+          "definition": "flesh"
+        },
+        {
+          "greek": "ἐπιθυμεῖ",
+          "definition": "desires (3sg.)"
+        },
+        {
+          "greek": "πολλά,",
+          "definition": "many things"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "κρατῶν",
+          "definition": "holding (ptc.m.sg.)"
+        },
+        {
+          "greek": "τὰς",
+          "definition": "the (acc.f.pl.)"
+        },
+        {
+          "greek": "ἐπιθυμίας",
+          "definition": "of desire, desires (gen./acc.pl.)"
+        },
+        {
+          "greek": "οὐκ",
+          "definition": "not (before vowel)"
+        },
+        {
+          "greek": "ἀκολουθεῖ",
+          "definition": "follows"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "to/in the (dat.f.sg.)"
+        },
+        {
+          "greek": "σαρκὶ",
+          "definition": "in/by the flesh (dat.)"
+        },
+        {
+          "greek": "ἀλλὰ",
+          "definition": "other things (n.pl.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματι.",
+          "definition": "in/by the spirit (dat.)"
+        },
+        {
+          "greek": "οὕτως",
+          "definition": "thus, in this way"
+        },
+        {
+          "greek": "οὖν,",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ἐὰν",
+          "definition": "if (+ subj.)"
+        },
+        {
+          "greek": "ζῶμεν",
+          "definition": "we live (1pl.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματι,",
+          "definition": "in/by the spirit (dat.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "to/in the (dat.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματι",
+          "definition": "in/by the spirit (dat.)"
+        },
+        {
+          "greek": "στοιχῶμεν·",
+          "definition": "we walk in step (subj.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "καρπὸς",
+          "definition": "fruit"
+        },
+        {
+          "greek": "οὗτος",
+          "definition": "this, this one (m.)"
+        },
+        {
+          "greek": "φέρεται",
+          "definition": "is borne (pass.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τοῖς",
+          "definition": "to the (dat.m.pl.)"
+        },
+        {
+          "greek": "πιστοῖς,",
+          "definition": "to the faithful (dat.pl.)"
+        },
+        {
+          "greek": "ἀγομένοις",
+          "definition": "to those being led (ptc.dat.pl.)"
+        },
+        {
+          "greek": "ὑπὸ",
+          "definition": "by (+ gen.), under (+ dat.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "πνεύματος",
+          "definition": "of the spirit"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "θεοῦ.\"",
+          "definition": "of God"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "words": [
+        {
+          "greek": "αὐτῶν",
+          "definition": "of them"
+        },
+        {
+          "greek": "λαλούντων",
+          "definition": "of [them] speaking (ptc.gen.pl.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "ἥλιος",
+          "definition": "sun"
+        },
+        {
+          "greek": "βραδέως",
+          "definition": "slowly"
+        },
+        {
+          "greek": "καταβαίνει.",
+          "definition": "goes down (3sg.)"
+        },
+        {
+          "greek": "ὀψίας",
+          "definition": "of evening (gen.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "γινομένης,",
+          "definition": "becoming, happening (ptc.gen.f.)"
+        },
+        {
+          "greek": "δεῖ",
+          "definition": "it is necessary"
+        },
+        {
+          "greek": "αὐτοὺς",
+          "definition": "them (m.)"
+        },
+        {
+          "greek": "πορεύεσθαι",
+          "definition": "to go (inf.)"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into, to (+ acc.)"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc.m.pl.)"
+        },
+        {
+          "greek": "οἴκους",
+          "definition": "houses (acc.pl.)"
+        },
+        {
+          "greek": "αὐτῶν.",
+          "definition": "of them"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "Ἰάκωβος",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "Σαλώμη",
+          "definition": "Salome"
+        },
+        {
+          "greek": "ἀνίστανται",
+          "definition": "they rise up (3pl.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "βλέπουσιν",
+          "definition": "they see"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc.m.pl.)"
+        },
+        {
+          "greek": "γεωργοὺς",
+          "definition": "farmers (acc.pl.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τοῖς",
+          "definition": "to the (dat.m.pl.)"
+        },
+        {
+          "greek": "ἀγροῖς.",
+          "definition": "in the fields (dat.pl.)"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (nom.m.pl.)"
+        },
+        {
+          "greek": "μὲν",
+          "definition": "on the one hand"
+        },
+        {
+          "greek": "γεωργοί,",
+          "definition": "farmers (nom.pl.)"
+        },
+        {
+          "greek": "τελοῦντες",
+          "definition": "completing (ptc.m.pl.)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "ἔργα",
+          "definition": "works (nom./acc.pl.)"
+        },
+        {
+          "greek": "αὐτῶν,",
+          "definition": "of them"
+        },
+        {
+          "greek": "παύονται",
+          "definition": "they cease (3pl.mid.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "κόπου·",
+          "definition": "of the toil (gen.)"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (nom.m.pl.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "ἄνθρωποι,",
+          "definition": "people (nom.pl.)"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "out of, from (+ gen.)"
+        },
+        {
+          "greek": "τῶν",
+          "definition": "of the (gen.pl.)"
+        },
+        {
+          "greek": "ἀγρῶν",
+          "definition": "of the fields (gen.pl.)"
+        },
+        {
+          "greek": "ἐρχόμενοι,",
+          "definition": "coming (ptc.m.pl.)"
+        },
+        {
+          "greek": "πορεύονται",
+          "definition": "they go"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "to/in the (dat.f.sg.)"
+        },
+        {
+          "greek": "ὁδῷ",
+          "definition": "on the road (dat.)"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "to, toward (+ acc.)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.f.sg.)"
+        },
+        {
+          "greek": "κώμην.",
+          "definition": "village (acc.)"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "words": [
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "καύματος",
+          "definition": "of the heat"
+        },
+        {
+          "greek": "παυομένου,",
+          "definition": "ceasing (ptc.gen.m.sg.)"
+        },
+        {
+          "greek": "ἄνεμος",
+          "definition": "wind"
+        },
+        {
+          "greek": "ἔρχεται",
+          "definition": "comes"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on, over (+ dat./acc./gen.)"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc.m.pl.)"
+        },
+        {
+          "greek": "ἀγρούς,",
+          "definition": "fields (acc.pl.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "γῆ",
+          "definition": "earth, land"
+        },
+        {
+          "greek": "ἀναπαύεται.",
+          "definition": "rests"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "πετεινὰ",
+          "definition": "birds (nom./acc.pl.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "οὐρανοῦ",
+          "definition": "of heaven"
+        },
+        {
+          "greek": "ἔρχεται",
+          "definition": "comes"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "to, toward (+ acc.)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "δένδρα.",
+          "definition": "trees (nom./acc.pl.)"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "Σαλώμη",
+          "definition": "Salome"
+        },
+        {
+          "greek": "λαμβάνει",
+          "definition": "receives"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.f.sg.)"
+        },
+        {
+          "greek": "ὑδρίαν",
+          "definition": "water jar (acc.)"
+        },
+        {
+          "greek": "αὐτῆς,",
+          "definition": "of her, hers"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "Ἰάκωβος",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "αἴρει",
+          "definition": "takes up (3sg.)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.f.sg.)"
+        },
+        {
+          "greek": "πήραν",
+          "definition": "bag (acc.)"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἄγει",
+          "definition": "leads"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "ὄνον.",
+          "definition": "donkey (acc.)"
+        },
+        {
+          "greek": "ἀσπαζόμενοι",
+          "definition": "greeting (ptc.m.pl.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "ἀλλήλους",
+          "definition": "one another (acc.)"
+        },
+        {
+          "greek": "λέγουσιν·",
+          "definition": "they say"
+        },
+        {
+          "greek": "\"εἰρήνη",
+          "definition": "peace"
+        },
+        {
+          "greek": "σοι.\"",
+          "definition": "to you (dat.sg.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "μὲν",
+          "definition": "on the one hand"
+        },
+        {
+          "greek": "Σαλώμη",
+          "definition": "Salome"
+        },
+        {
+          "greek": "πορεύεται",
+          "definition": "goes, travels"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "to, toward (+ acc.)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.f.sg.)"
+        },
+        {
+          "greek": "κώμην,",
+          "definition": "village (acc.)"
+        },
+        {
+          "greek": "φέρουσα",
+          "definition": "carrying (ptc.f.sg.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "τηροῦσα",
+          "definition": "keeping (ptc.f.sg.)"
+        },
+        {
+          "greek": "πάντα",
+          "definition": "all things (acc.pl.)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "ῥήματα",
+          "definition": "words (nom./acc.pl.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "Ἰακώβου",
+          "definition": "of Jacob (gen.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "to/in the (dat.f.sg.)"
+        },
+        {
+          "greek": "καρδίᾳ",
+          "definition": "heart (dat.)"
+        },
+        {
+          "greek": "αὐτῆς.",
+          "definition": "of her, hers"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "Ἰάκωβος,",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "ἄγων",
+          "definition": "leading (ptc.m.sg.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "ὄνον,",
+          "definition": "donkey (acc.)"
+        },
+        {
+          "greek": "ἀπέρχεται",
+          "definition": "goes away (3sg.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "to/in the (dat.f.sg.)"
+        },
+        {
+          "greek": "ὁδῷ.",
+          "definition": "on the road (dat.)"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "Ἰάκωβος,",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "πορευόμενος",
+          "definition": "going (ptc.m.sg.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "to/in the (dat.f.sg.)"
+        },
+        {
+          "greek": "ὁδῷ,",
+          "definition": "on the road (dat.)"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "sees (3sg.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "φῶς",
+          "definition": "light"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the (nom./acc.n.sg.)"
+        },
+        {
+          "greek": "ἔσχατον",
+          "definition": "last (n.sg./adv.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "ἡλίου",
+          "definition": "of the sun"
+        },
+        {
+          "greek": "ὑπὲρ",
+          "definition": "over, above, for (+ gen.)"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc.m.pl.)"
+        },
+        {
+          "greek": "ἀγρούς.",
+          "definition": "fields (acc.pl.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in (+ dat.)"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "to/in the (dat.f.sg.)"
+        },
+        {
+          "greek": "ὁδῷ",
+          "definition": "on the road (dat.)"
+        },
+        {
+          "greek": "ἄλλοι",
+          "definition": "others (nom.m.pl.)"
+        },
+        {
+          "greek": "ἄνθρωποι",
+          "definition": "people (nom.pl.)"
+        },
+        {
+          "greek": "πορεύονται",
+          "definition": "they go"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "to, toward (+ acc.)"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc.m.pl.)"
+        },
+        {
+          "greek": "οἴκους",
+          "definition": "houses (acc.pl.)"
+        },
+        {
+          "greek": "αὐτῶν,",
+          "definition": "of them"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (nom.m.pl.)"
+        },
+        {
+          "greek": "μὲν",
+          "definition": "on the one hand"
+        },
+        {
+          "greek": "φέροντες",
+          "definition": "carrying (ptc.m.pl.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "καρπὸν",
+          "definition": "fruit (acc.)"
+        },
+        {
+          "greek": "τῶν",
+          "definition": "of the (gen.pl.)"
+        },
+        {
+          "greek": "ἀγρῶν,",
+          "definition": "of the fields (gen.pl.)"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (nom.m.pl.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "ἄγοντες",
+          "definition": "leading (ptc.m.pl.)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "πρόβατα·",
+          "definition": "sheep (pl.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "πάντες,",
+          "definition": "all (nom.m.pl.)"
+        },
+        {
+          "greek": "παυόμενοι",
+          "definition": "ceasing (ptc.m.pl.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "ἔργου,",
+          "definition": "of the work"
+        },
+        {
+          "greek": "πορεύονται",
+          "definition": "they go"
+        },
+        {
+          "greek": "μετὰ",
+          "definition": "with (+ gen.), after (+ acc.)"
+        },
+        {
+          "greek": "χαρᾶς",
+          "definition": "of joy (gen.)"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "to, toward (+ acc.)"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc.m.pl.)"
+        },
+        {
+          "greek": "οἴκους.",
+          "definition": "houses (acc.pl.)"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "words": [
+        {
+          "greek": "ἐρχομένου",
+          "definition": "of [him] coming (ptc.gen.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "Ἰακώβου",
+          "definition": "of Jacob (gen.)"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into, to (+ acc.)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.f.sg.)"
+        },
+        {
+          "greek": "κώμην,",
+          "definition": "village (acc.)"
+        },
+        {
+          "greek": "ἰδού,",
+          "definition": "behold! look!"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "τέκνα",
+          "definition": "children"
+        },
+        {
+          "greek": "αὐτοῦ,",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "βλέποντα",
+          "definition": "seeing (ptc.n.pl.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "πατέρα,",
+          "definition": "father (acc.)"
+        },
+        {
+          "greek": "τρέχει",
+          "definition": "runs (3sg.)"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "to, toward (+ acc.)"
+        },
+        {
+          "greek": "αὐτὸν",
+          "definition": "him"
+        },
+        {
+          "greek": "μετὰ",
+          "definition": "with (+ gen.), after (+ acc.)"
+        },
+        {
+          "greek": "χαρᾶς.",
+          "definition": "of joy (gen.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "Μάρθα,",
+          "definition": "Martha"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "who, which (rel.f.)"
+        },
+        {
+          "greek": "γυνὴ",
+          "definition": "woman, wife"
+        },
+        {
+          "greek": "αὐτοῦ,",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "ἐξέρχεται",
+          "definition": "goes out (3sg.)"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "out of, from (+ gen.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "οἴκου",
+          "definition": "of the house"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "ἀσπάζεται",
+          "definition": "greets (3sg.)"
+        },
+        {
+          "greek": "αὐτόν.",
+          "definition": "him"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "which (rel.n.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "but, and"
+        },
+        {
+          "greek": "Ἰάκωβος,",
+          "definition": "Jacob, James"
+        },
+        {
+          "greek": "βλέπων",
+          "definition": "seeing (ptc.m.sg.)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (acc.f.sg.)"
+        },
+        {
+          "greek": "Μάρθαν",
+          "definition": "Martha (acc.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the things (neut.pl.)"
+        },
+        {
+          "greek": "τέκνα,",
+          "definition": "children"
+        },
+        {
+          "greek": "χαίρει",
+          "definition": "rejoices (3sg.)"
+        },
+        {
+          "greek": "σφόδρα,",
+          "definition": "greatly, very much"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and, also"
+        },
+        {
+          "greek": "εἰσερχόμενος",
+          "definition": "entering (ptc.m.sg.)"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into, to (+ acc.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.m.sg.)"
+        },
+        {
+          "greek": "οἶκον",
+          "definition": "house (acc.)"
+        },
+        {
+          "greek": "αὐτοῦ,",
+          "definition": "of him, his"
+        },
+        {
+          "greek": "ἀναπαύεται",
+          "definition": "rests"
+        },
+        {
+          "greek": "ἀπὸ",
+          "definition": "from (+ gen.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "of the (gen.m./n.sg.)"
+        },
+        {
+          "greek": "κόπου",
+          "definition": "of the toil (gen.)"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "of the (gen.f.sg.)"
+        },
+        {
+          "greek": "ἡμέρας.",
+          "definition": "of the day (gen.), days (acc.pl.)"
+        }
+      ]
+    }
+  ]
+}

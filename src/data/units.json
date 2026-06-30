@@ -196,6 +196,29 @@
             "subtitle": "Ἡ Δωρεὰ τοῦ Πνεύματος"
           }
         ]
+      },
+      {
+        "id": 8,
+        "title": "Κεφάλαιον Ηʹ",
+        "subtitle": "Ἡ Σὰρξ καὶ τὸ Πνεῦμα — The Flesh and the Spirit",
+        "translations": {
+          "es": "Ἡ Σὰρξ καὶ τὸ Πνεῦμα — La Carne y el Espíritu",
+          "pl": "Ἡ Σὰρξ καὶ τὸ Πνεῦμα — Ciało i Duch",
+          "fil": "Ἡ Σὰρξ καὶ τὸ Πνεῦμα — Ang Laman at ang Espiritu"
+        },
+        "locked": false,
+        "parts": [
+          {
+            "id": "A",
+            "label": "Μέρος Αʹ",
+            "subtitle": "Ἡ Σὰρξ καὶ τὸ Πνεῦμα"
+          },
+          {
+            "id": "B",
+            "label": "Μέρος Βʹ",
+            "subtitle": "Ὁ Καρπὸς τοῦ Πνεύματος"
+          }
+        ]
       }
     ]
   }
