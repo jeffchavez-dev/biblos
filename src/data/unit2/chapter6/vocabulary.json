@@ -2,201 +2,125 @@
   {
     "id": 1,
     "part": "A",
-    "greek": "πηγή, -ῆς, ἡ",
-    "transliteration": "pēgē",
-    "definition": "spring, well, fountain",
-    "partOfSpeech": "noun (fem., 1st decl.)",
+    "greek": "ἀδελφός, -οῦ, ὁ",
+    "transliteration": "adelphos",
+    "definition": "brother",
+    "partOfSpeech": "noun (masc., 2nd decl.)",
     "translations": {
-      "es": "fuente, manantial",
-      "pl": "źródło, studnia",
-      "fil": "bukal, balon"
+      "es": "hermano",
+      "pl": "brat",
+      "fil": "kapatid na lalaki"
     },
-    "strongsNum": "G4077"
+    "strongsNum": "G0080",
+    "image": "c6a-noun-1.jpeg"
   },
   {
     "id": 2,
     "part": "A",
-    "greek": "καῦμα, -ατος, τό",
-    "transliteration": "kauma",
-    "definition": "burning heat, scorching",
-    "partOfSpeech": "noun (neut., 3rd decl. -μα)",
+    "greek": "ἀδελφή, -ῆς, ἡ",
+    "transliteration": "adelphē",
+    "definition": "sister",
+    "partOfSpeech": "noun (fem., 1st decl.)",
     "translations": {
-      "es": "calor abrasador",
-      "pl": "żar, upał",
-      "fil": "matinding init"
+      "es": "hermana",
+      "pl": "siostra",
+      "fil": "kapatid na babae"
     },
-    "strongsNum": "G2738"
+    "strongsNum": "G0079",
+    "image": "c6a-noun-2.jpeg"
   },
   {
     "id": 3,
     "part": "A",
-    "greek": "ὄνος, -ου, ὁ",
-    "transliteration": "onos",
-    "definition": "donkey, ass",
-    "partOfSpeech": "noun (masc., 2nd decl.)",
+    "greek": "ἐντολή, -ῆς, ἡ",
+    "transliteration": "entolē",
+    "definition": "commandment",
+    "partOfSpeech": "noun (fem., 1st decl.)",
     "translations": {
-      "es": "asno, burro",
-      "pl": "osioł",
-      "fil": "asno, buriko"
+      "es": "mandamiento",
+      "pl": "przykazanie",
+      "fil": "utos, kautusan"
     },
-    "strongsNum": "G3688"
+    "strongsNum": "G1785",
+    "image": "c6a-noun-3.jpeg"
   },
   {
     "id": 4,
     "part": "A",
-    "greek": "ξένος, -ου, ὁ",
-    "transliteration": "xenos",
-    "definition": "stranger, foreigner, guest",
-    "partOfSpeech": "noun (masc., 2nd decl.)",
+    "greek": "ψεύστης, -ου, ὁ",
+    "transliteration": "pseustēs",
+    "definition": "liar",
+    "partOfSpeech": "noun (masc., 1st decl.)",
     "translations": {
-      "es": "extranjero, huésped",
-      "pl": "cudzoziemiec, gość",
-      "fil": "dayuhan, panauhin"
+      "es": "mentiroso",
+      "pl": "kłamca",
+      "fil": "sinungaling"
     },
-    "strongsNum": "G3581"
+    "strongsNum": "G5583",
+    "image": "c6a-noun-4.jpeg"
   },
   {
     "id": 5,
     "part": "A",
-    "greek": "ὑδρία, -ας, ἡ",
-    "transliteration": "hudria",
-    "definition": "water jar, water pot",
-    "partOfSpeech": "noun (fem., 1st decl.)",
+    "greek": "μισθωτός, -οῦ, ὁ",
+    "transliteration": "misthōtos",
+    "definition": "hired man, hireling",
+    "partOfSpeech": "noun (masc., 2nd decl.)",
     "translations": {
-      "es": "cántaro de agua",
-      "pl": "dzban na wodę",
-      "fil": "banga ng tubig"
+      "es": "jornalero, asalariado",
+      "pl": "najemnik",
+      "fil": "upahang manggagawa"
     },
-    "strongsNum": "G5201"
+    "strongsNum": "G3411",
+    "image": "c6a-noun-5.jpeg"
   },
   {
     "id": 6,
     "part": "A",
-    "greek": "πνεῦμα, -ατος, τό",
-    "transliteration": "pneuma",
-    "definition": "spirit, breath, wind",
-    "partOfSpeech": "noun (neut., 3rd decl. -μα)",
+    "greek": "αὐλή, -ῆς, ἡ",
+    "transliteration": "aulē",
+    "definition": "courtyard, sheepfold",
+    "partOfSpeech": "noun (fem., 1st decl.)",
     "translations": {
-      "es": "espíritu, aliento",
-      "pl": "duch, oddech",
-      "fil": "espiritu, hininga"
+      "es": "patio, redil",
+      "pl": "dziedziniec, owczarnia",
+      "fil": "bakuran, kulungan ng tupa"
     },
-    "strongsNum": "G4151"
+    "strongsNum": "G0833",
+    "image": "c6a-noun-6.jpeg"
   },
   {
     "id": 7,
     "part": "A",
-    "greek": "καρδία, -ας, ἡ",
-    "transliteration": "kardia",
-    "definition": "heart",
+    "greek": "ἐξουσία, -ας, ἡ",
+    "transliteration": "exousia",
+    "definition": "authority, right",
     "partOfSpeech": "noun (fem., 1st decl.)",
     "translations": {
-      "es": "corazón",
-      "pl": "serce",
-      "fil": "puso"
+      "es": "autoridad, derecho",
+      "pl": "władza, prawo",
+      "fil": "awtoridad, kapangyarihan"
     },
-    "strongsNum": "G2588"
+    "strongsNum": "G1849",
+    "image": "c6a-noun-7.jpeg"
   },
   {
     "id": 8,
     "part": "A",
-    "greek": "ἀλήθεια, -ας, ἡ",
-    "transliteration": "alētheia",
-    "definition": "truth",
-    "partOfSpeech": "noun (fem., 1st decl.)",
+    "greek": "χρῆμα, -ατος, τό",
+    "transliteration": "chrēma",
+    "definition": "money, possessions",
+    "partOfSpeech": "noun (neut., 3rd decl. -μα)",
     "translations": {
-      "es": "verdad",
-      "pl": "prawda",
-      "fil": "katotohanan"
+      "es": "dinero, posesiones",
+      "pl": "pieniądze, majątek",
+      "fil": "pera, pag-aari"
     },
-    "strongsNum": "G0225"
+    "strongsNum": "G5536",
+    "image": "c6a-noun-8.jpeg"
   },
   {
     "id": 9,
-    "part": "A",
-    "greek": "κόσμος, -ου, ὁ",
-    "transliteration": "kosmos",
-    "definition": "world, cosmos",
-    "partOfSpeech": "noun (masc., 2nd decl.)",
-    "translations": {
-      "es": "mundo",
-      "pl": "świat",
-      "fil": "mundo, sanlibutan"
-    },
-    "strongsNum": "G2889"
-  },
-  {
-    "id": 10,
-    "part": "A",
-    "greek": "παράκλητος, -ου, ὁ",
-    "transliteration": "paraklētos",
-    "definition": "Paraclete, Helper, Advocate, Comforter",
-    "partOfSpeech": "noun (masc., 2nd decl.)",
-    "translations": {
-      "es": "Paráclito, Consolador",
-      "pl": "Paraklet, Pomocnik",
-      "fil": "Parakleto, Mang-aaliw"
-    },
-    "strongsNum": "G3875"
-  },
-  {
-    "id": 11,
-    "part": "A",
-    "greek": "εἰρήνη, -ης, ἡ",
-    "transliteration": "eirēnē",
-    "definition": "peace",
-    "partOfSpeech": "noun (fem., 1st decl.)",
-    "translations": {
-      "es": "paz",
-      "pl": "pokój",
-      "fil": "kapayapaan"
-    },
-    "strongsNum": "G1515"
-  },
-  {
-    "id": 12,
-    "part": "A",
-    "greek": "κοινωνία, -ας, ἡ",
-    "transliteration": "koinōnia",
-    "definition": "fellowship, communion, sharing",
-    "partOfSpeech": "noun (fem., 1st decl.)",
-    "translations": {
-      "es": "comunión, comunidad",
-      "pl": "wspólnota, komunia",
-      "fil": "komunyon, pakikisama"
-    },
-    "strongsNum": "G2842"
-  },
-  {
-    "id": 13,
-    "part": "A",
-    "greek": "ἁμαρτία, -ας, ἡ",
-    "transliteration": "hamartia",
-    "definition": "sin, failure, error",
-    "partOfSpeech": "noun (fem., 1st decl.)",
-    "translations": {
-      "es": "pecado",
-      "pl": "grzech",
-      "fil": "kasalanan"
-    },
-    "strongsNum": "G0266"
-  },
-  {
-    "id": 14,
-    "part": "A",
-    "greek": "δωρεά, -ᾶς, ἡ",
-    "transliteration": "dōrea",
-    "definition": "gift, free gift",
-    "partOfSpeech": "noun (fem., 1st decl.)",
-    "translations": {
-      "es": "don, regalo",
-      "pl": "dar, darmo",
-      "fil": "regalo, kaloob"
-    },
-    "strongsNum": "G1431"
-  },
-  {
-    "id": 15,
     "part": "A",
     "greek": "αἷμα, -ατος, τό",
     "transliteration": "haima",
@@ -207,342 +131,530 @@
       "pl": "krew",
       "fil": "dugo"
     },
-    "strongsNum": "G0129"
+    "strongsNum": "G0129",
+    "image": "c6a-noun-9.jpeg"
+  },
+  {
+    "id": 10,
+    "part": "A",
+    "greek": "ἀνάστασις, -εως, ἡ",
+    "transliteration": "anastasis",
+    "definition": "resurrection",
+    "partOfSpeech": "noun (fem., 3rd decl. -σις)",
+    "translations": {
+      "es": "resurrección",
+      "pl": "zmartwychwstanie",
+      "fil": "muling pagkabuhay"
+    },
+    "strongsNum": "G0386",
+    "image": "c6a-noun-10.jpeg"
+  },
+  {
+    "id": 11,
+    "part": "A",
+    "greek": "καιρός, -οῦ, ὁ",
+    "transliteration": "kairos",
+    "definition": "time, season",
+    "partOfSpeech": "noun (masc., 2nd decl.)",
+    "translations": {
+      "es": "tiempo, época",
+      "pl": "czas, pora",
+      "fil": "panahon, takdang oras"
+    },
+    "strongsNum": "G2540",
+    "image": "c6a-noun-11.jpeg"
+  },
+  {
+    "id": 12,
+    "part": "A",
+    "greek": "ποιμήν, -ένος, ὁ",
+    "transliteration": "poimēn",
+    "definition": "shepherd",
+    "partOfSpeech": "noun (masc., 3rd decl.)",
+    "translations": {
+      "es": "pastor",
+      "pl": "pasterz",
+      "fil": "pastol, pastor"
+    },
+    "strongsNum": "G4166",
+    "image": "c6a-noun-12.jpeg"
+  },
+  {
+    "id": 13,
+    "part": "A",
+    "greek": "ἡγέομαι",
+    "transliteration": "hēgeomai",
+    "definition": "to consider, regard (as) (+2 acc.)",
+    "partOfSpeech": "verb (deponent)",
+    "translations": {
+      "es": "considerar, estimar",
+      "pl": "uważać, uznawać",
+      "fil": "ituring, ipalagay"
+    },
+    "strongsNum": "G2233",
+    "image": "c6a-verb-1.jpeg"
+  },
+  {
+    "id": 14,
+    "part": "A",
+    "greek": "μισέω",
+    "transliteration": "miseō",
+    "definition": "to hate",
+    "partOfSpeech": "verb (contract, -εω)",
+    "translations": {
+      "es": "odiar",
+      "pl": "nienawidzić",
+      "fil": "kamuhian, mapoot"
+    },
+    "strongsNum": "G3404",
+    "image": "c6a-verb-2.jpeg"
+  },
+  {
+    "id": 15,
+    "part": "A",
+    "greek": "θεωρέω",
+    "transliteration": "theōreō",
+    "definition": "to look at, behold",
+    "partOfSpeech": "verb (contract, -εω)",
+    "translations": {
+      "es": "mirar, contemplar",
+      "pl": "patrzeć, przyglądać się",
+      "fil": "masdan, pagmasdan"
+    },
+    "strongsNum": "G2334",
+    "image": "c6a-verb-3.jpeg"
   },
   {
     "id": 16,
     "part": "A",
-    "greek": "εὐαγγέλιον, -ου, τό",
-    "transliteration": "euangelion",
-    "definition": "gospel, good news",
-    "partOfSpeech": "noun (neut., 2nd decl.)",
+    "greek": "σκορπίζω",
+    "transliteration": "skorpizō",
+    "definition": "to scatter",
+    "partOfSpeech": "verb",
     "translations": {
-      "es": "evangelio, buenas noticias",
-      "pl": "ewangelia, dobra nowina",
-      "fil": "ebanghelyo, mabuting balita"
+      "es": "dispersar, esparcir",
+      "pl": "rozpraszać",
+      "fil": "kalatin, ipangalat"
     },
-    "strongsNum": "G2098"
+    "strongsNum": "G4650",
+    "image": "c6a-verb-4.jpeg"
   },
   {
     "id": 17,
     "part": "A",
-    "greek": "ψυχή, -ῆς, ἡ",
-    "transliteration": "psuchē",
-    "definition": "soul, life, self",
-    "partOfSpeech": "noun (fem., 1st decl.)",
+    "greek": "μέλει",
+    "transliteration": "melei",
+    "definition": "it is a care/concern to (+dat.)",
+    "partOfSpeech": "verb (impersonal)",
     "translations": {
-      "es": "alma, vida",
-      "pl": "dusza, życie",
-      "fil": "kaluluwa, buhay"
+      "es": "importar, preocupar",
+      "pl": "zależy, troszczy się",
+      "fil": "nagmamalasakit, may malasakit"
     },
-    "strongsNum": "G5590"
+    "strongsNum": "G3199",
+    "image": "c6a-verb-5.jpeg"
   },
   {
     "id": 18,
     "part": "A",
-    "greek": "θέλημα, -ατος, τό",
-    "transliteration": "thelēma",
-    "definition": "will, desire, purpose",
-    "partOfSpeech": "noun (neut., 3rd decl. -μα)",
+    "greek": "ἀναβαίνω",
+    "transliteration": "anabainō",
+    "definition": "to go up, climb up",
+    "partOfSpeech": "verb",
     "translations": {
-      "es": "voluntad",
-      "pl": "wola",
-      "fil": "kalooban"
+      "es": "subir, ascender",
+      "pl": "wstępować, wchodzić w górę",
+      "fil": "umakyat, pumanhik"
     },
-    "strongsNum": "G2307"
+    "strongsNum": "G0305",
+    "image": "c6a-verb-6.jpeg"
   },
   {
     "id": 19,
     "part": "A",
-    "greek": "διψάω",
-    "transliteration": "dipsaō",
-    "definition": "to thirst, be thirsty",
-    "partOfSpeech": "verb (contract, -αω)",
+    "greek": "ἀποκτείνω",
+    "transliteration": "apokteinō",
+    "definition": "to kill",
+    "partOfSpeech": "verb",
     "translations": {
-      "es": "tener sed",
-      "pl": "pragnąć, być spragnionym",
-      "fil": "mauhaw"
+      "es": "matar",
+      "pl": "zabijać, uśmiercać",
+      "fil": "patayin, pumatay"
     },
-    "strongsNum": "G1372"
+    "strongsNum": "G0615",
+    "image": "c6a-verb-7.jpeg"
   },
   {
     "id": 20,
     "part": "A",
-    "greek": "μαρτυρέω",
-    "transliteration": "martureō",
-    "definition": "to bear witness, testify",
-    "partOfSpeech": "verb (contract, -εω)",
+    "greek": "τέλειος, -α, -ον",
+    "transliteration": "teleios",
+    "definition": "perfect, complete",
+    "partOfSpeech": "adjective (2-1-2 decl.)",
     "translations": {
-      "es": "dar testimonio",
-      "pl": "świadczyć, zaświadczać",
-      "fil": "magpatotoo, sumaksi"
+      "es": "perfecto, completo",
+      "pl": "doskonały, pełny",
+      "fil": "perpekto, ganap"
     },
-    "strongsNum": "G3140"
+    "strongsNum": "G5046",
+    "image": "c6a-adj-1.jpeg"
   },
   {
     "id": 21,
     "part": "A",
-    "greek": "σῴζω",
-    "transliteration": "sōzō",
-    "definition": "to save, rescue, preserve",
-    "partOfSpeech": "verb",
+    "greek": "περισσός, -ή, -όν",
+    "transliteration": "perissos",
+    "definition": "abundant, exceeding",
+    "partOfSpeech": "adjective (2-1-2 decl.)",
     "translations": {
-      "es": "salvar, rescatar",
-      "pl": "zbawić, ocalić",
-      "fil": "iligtas, ipagtanggol"
+      "es": "abundante, en demasía",
+      "pl": "obfity, nadmierny",
+      "fil": "sagana, labis"
     },
-    "strongsNum": "G4982"
+    "strongsNum": "G4053",
+    "image": "c6a-adj-2.jpeg"
   },
   {
     "id": 22,
     "part": "A",
-    "greek": "μετανοέω",
-    "transliteration": "metanoeō",
-    "definition": "to repent, change one's mind",
-    "partOfSpeech": "verb (contract, -εω)",
+    "greek": "μείζων, -ον",
+    "transliteration": "meizōn",
+    "definition": "greater (comparative of μέγας)",
+    "partOfSpeech": "adjective (comparative, 3rd decl.)",
     "translations": {
-      "es": "arrepentirse",
-      "pl": "nawracać się, żałować",
-      "fil": "magsisi, magsimba"
+      "es": "mayor, más grande",
+      "pl": "większy",
+      "fil": "mas dakila, mas malaki"
     },
-    "strongsNum": "G3340"
+    "strongsNum": "G3187",
+    "image": "c6a-adj-3.jpeg"
   },
   {
     "id": 23,
     "part": "A",
-    "greek": "αἰών, -ῶνος, ὁ",
-    "transliteration": "aiōn",
-    "definition": "age, eternity; εἰς τὸν αἰῶνα — forever",
-    "partOfSpeech": "noun (masc., 3rd decl.)",
+    "greek": "ἑαυτοῦ, -ῆς, -οῦ",
+    "transliteration": "heautou",
+    "definition": "himself, herself, itself (reflexive pronoun)",
+    "partOfSpeech": "pronoun (reflexive)",
     "translations": {
-      "es": "siglo, eternidad",
-      "pl": "wiek, wieczność",
-      "fil": "panahon, kawalang-hanggan"
+      "es": "sí mismo, sí misma",
+      "pl": "siebie, samego siebie",
+      "fil": "sarili niya, kanyang sarili"
     },
-    "strongsNum": "G0165"
+    "strongsNum": "G1438",
+    "image": "c6a-adj-4.jpeg"
   },
   {
     "id": 24,
-    "part": "B",
-    "greek": "σάρξ, σαρκός, ἡ",
-    "transliteration": "sarx",
-    "definition": "flesh; the sinful human nature",
-    "partOfSpeech": "noun (fem., 3rd decl.)",
+    "part": "A",
+    "greek": "καθώς",
+    "transliteration": "kathōs",
+    "definition": "just as, as",
+    "partOfSpeech": "conjunction/particle",
     "translations": {
-      "es": "carne; la naturaleza pecaminosa",
-      "pl": "ciało; grzeszna natura",
-      "fil": "laman; makasalanang kalikasan"
+      "es": "así como, tal como",
+      "pl": "tak jak, podobnie jak",
+      "fil": "tulad ng, kung paano"
     },
-    "strongsNum": "G4561"
+    "strongsNum": "G2531",
+    "image": "c6a-par-1.jpeg"
   },
   {
     "id": 25,
-    "part": "B",
-    "greek": "θάνατος, -ου, ὁ",
-    "transliteration": "thanatos",
-    "definition": "death",
-    "partOfSpeech": "noun (masc., 2nd decl.)",
+    "part": "A",
+    "greek": "λίαν",
+    "transliteration": "lian",
+    "definition": "very, exceedingly",
+    "partOfSpeech": "adverb",
     "translations": {
-      "es": "muerte",
-      "pl": "śmierć",
-      "fil": "kamatayan"
+      "es": "muy, en gran manera",
+      "pl": "bardzo, nader",
+      "fil": "lubha, napaka"
     },
-    "strongsNum": "G2288"
+    "strongsNum": "G3029",
+    "image": "c6a-par-2.jpeg"
   },
   {
     "id": 26,
-    "part": "B",
-    "greek": "ζωή, -ῆς, ἡ",
-    "transliteration": "zōē",
-    "definition": "life",
-    "partOfSpeech": "noun (fem., 1st decl.)",
+    "part": "A",
+    "greek": "εἰ",
+    "transliteration": "ei",
+    "definition": "if",
+    "partOfSpeech": "conjunction",
     "translations": {
-      "es": "vida",
-      "pl": "życie",
-      "fil": "buhay"
+      "es": "si",
+      "pl": "jeśli, jeżeli",
+      "fil": "kung, kapag"
     },
-    "strongsNum": "G2222"
+    "strongsNum": "G1487",
+    "image": "c6a-par-3.jpeg"
   },
   {
     "id": 27,
-    "part": "B",
-    "greek": "καρπός, -οῦ, ὁ",
-    "transliteration": "karpos",
-    "definition": "fruit; result, outcome",
-    "partOfSpeech": "noun (masc., 2nd decl.)",
+    "part": "A",
+    "greek": "οὐχ",
+    "transliteration": "ouch",
+    "definition": "not (used before rough breathing)",
+    "partOfSpeech": "particle (negation)",
     "translations": {
-      "es": "fruto",
-      "pl": "owoc",
-      "fil": "bunga"
+      "es": "no",
+      "pl": "nie",
+      "fil": "hindi"
     },
-    "strongsNum": "G2590"
+    "strongsNum": "G3756"
   },
   {
     "id": 28,
     "part": "B",
-    "greek": "χάρισμα, -ατος, τό",
-    "transliteration": "charisma",
-    "definition": "gift of grace, charismatic gift",
-    "partOfSpeech": "noun (neut., 3rd decl. -μα)",
+    "greek": "κλέπτης, -ου, ὁ",
+    "transliteration": "kleptēs",
+    "definition": "thief",
+    "partOfSpeech": "noun (masc., 1st decl.)",
     "translations": {
-      "es": "don, carisma",
-      "pl": "dar łaski, charyzmat",
-      "fil": "kaloob ng biyaya"
+      "es": "ladrón",
+      "pl": "złodziej",
+      "fil": "magnanakaw"
     },
-    "strongsNum": "G5486"
+    "strongsNum": "G2812",
+    "image": "c6b-noun-1.jpeg"
   },
   {
     "id": 29,
     "part": "B",
-    "greek": "ἀγάπη, -ης, ἡ",
-    "transliteration": "agapē",
-    "definition": "love (self-giving, unconditional)",
-    "partOfSpeech": "noun (fem., 1st decl.)",
+    "greek": "λῃστής, -οῦ, ὁ",
+    "transliteration": "lēstēs",
+    "definition": "robber",
+    "partOfSpeech": "noun (masc., 1st decl.)",
     "translations": {
-      "es": "amor",
-      "pl": "miłość",
-      "fil": "pagmamahal, pag-ibig"
+      "es": "ladrón, bandido",
+      "pl": "rozbójnik",
+      "fil": "tulisan, bandido"
     },
-    "strongsNum": "G0026"
+    "strongsNum": "G3027",
+    "image": "c6b-noun-2.jpeg"
   },
   {
     "id": 30,
     "part": "B",
-    "greek": "χαρά, -ᾶς, ἡ",
-    "transliteration": "chara",
-    "definition": "joy, gladness",
-    "partOfSpeech": "noun (fem., 1st decl.)",
+    "greek": "θυρωρός, -οῦ, ὁ",
+    "transliteration": "thyrōros",
+    "definition": "doorkeeper, gatekeeper",
+    "partOfSpeech": "noun (masc., 2nd decl.)",
     "translations": {
-      "es": "gozo, alegría",
-      "pl": "radość",
-      "fil": "kagalakan, tuwa"
+      "es": "portero, guardián de la puerta",
+      "pl": "odźwierny, strażnik bramy",
+      "fil": "tagabantay ng pintuan"
     },
-    "strongsNum": "G5479"
+    "strongsNum": "G2377",
+    "image": "c6b-noun-3.jpeg"
   },
   {
     "id": 31,
     "part": "B",
-    "greek": "τέκνον, -ου, τό",
-    "transliteration": "teknon",
-    "definition": "child, offspring",
-    "partOfSpeech": "noun (neut., 2nd decl.)",
+    "greek": "κοινωνία, -ας, ἡ",
+    "transliteration": "koinōnia",
+    "definition": "fellowship, communion, sharing",
+    "partOfSpeech": "noun (fem., 1st decl.)",
     "translations": {
-      "es": "hijo, niño",
-      "pl": "dziecko",
-      "fil": "anak"
+      "es": "comunión, comunidad",
+      "pl": "wspólnota, komunia",
+      "fil": "komunyon, pakikisama"
     },
-    "strongsNum": "G5043"
+    "strongsNum": "G2842",
+    "image": "c6b-noun-4.jpeg"
   },
   {
     "id": 32,
     "part": "B",
-    "greek": "δοῦλος, -ου, ὁ",
-    "transliteration": "doulos",
-    "definition": "slave, servant, bondservant",
+    "greek": "κόσμος, -ου, ὁ",
+    "transliteration": "kosmos",
+    "definition": "world, cosmos",
     "partOfSpeech": "noun (masc., 2nd decl.)",
     "translations": {
-      "es": "esclavo, siervo",
-      "pl": "niewolnik, sługa",
-      "fil": "alipin, utusan"
+      "es": "mundo",
+      "pl": "świat",
+      "fil": "mundo, sanlibutan"
     },
-    "strongsNum": "G1401"
+    "strongsNum": "G2889",
+    "image": "c6b-noun-5.jpeg"
   },
   {
     "id": 33,
     "part": "B",
-    "greek": "περιπατέω",
-    "transliteration": "peripateō",
-    "definition": "to walk; to live, conduct oneself",
-    "partOfSpeech": "verb (contract, -εω)",
+    "greek": "εἰσάγω",
+    "transliteration": "eisagō",
+    "definition": "to lead in, bring in",
+    "partOfSpeech": "verb",
     "translations": {
-      "es": "caminar; vivir, conducirse",
-      "pl": "chodzić; żyć, postępować",
-      "fil": "lumakad; mamuhay, kumilos"
+      "es": "introducir, llevar adentro",
+      "pl": "wprowadzać, wprowadzić",
+      "fil": "dalhin sa loob, iparito"
     },
-    "strongsNum": "G4043"
+    "strongsNum": "G1521",
+    "image": "c6b-verb-1.jpeg"
   },
   {
     "id": 34,
     "part": "B",
-    "greek": "ἐπιθυμέω",
-    "transliteration": "epithumeō",
-    "definition": "to desire, crave, long for",
-    "partOfSpeech": "verb (contract, -εω)",
+    "greek": "ἐξάγω",
+    "transliteration": "exagō",
+    "definition": "to lead out, bring out",
+    "partOfSpeech": "verb",
     "translations": {
-      "es": "desear, codiciar",
-      "pl": "pożądać, pragnąć",
-      "fil": "magnasa, masabik"
+      "es": "sacar, llevar afuera",
+      "pl": "wyprowadzać, wyprowadzić",
+      "fil": "ilabas, ipalabas"
     },
-    "strongsNum": "G1937"
+    "strongsNum": "G1806",
+    "image": "c6b-verb-2.jpeg"
   },
   {
     "id": 35,
     "part": "B",
-    "greek": "ζάω",
-    "transliteration": "zaō",
-    "definition": "to live, be alive",
-    "partOfSpeech": "verb (contract, -αω; irregular: ζῇ, ζῶμεν)",
+    "greek": "εἰσέρχομαι",
+    "transliteration": "eiserchomai",
+    "definition": "to enter, go in",
+    "partOfSpeech": "verb (deponent)",
     "translations": {
-      "es": "vivir, estar vivo",
-      "pl": "żyć, być żywym",
-      "fil": "mabuhay, mamuhay"
+      "es": "entrar, ir adentro",
+      "pl": "wchodzić, wejść",
+      "fil": "pumasok, sumailalim"
     },
-    "strongsNum": "G2198"
+    "strongsNum": "G1525",
+    "image": "c6b-verb-3.jpeg"
   },
   {
     "id": 36,
     "part": "B",
-    "greek": "μισέω",
-    "transliteration": "miseō",
-    "definition": "to hate, detest",
-    "partOfSpeech": "verb (contract, -εω)",
+    "greek": "ἐξέρχομαι",
+    "transliteration": "exerchomai",
+    "definition": "to go out, come out",
+    "partOfSpeech": "verb (deponent)",
     "translations": {
-      "es": "odiar, detestar",
-      "pl": "nienawidzić",
-      "fil": "kamuhian, mapoot"
+      "es": "salir, ir afuera",
+      "pl": "wychodzić, wyjść",
+      "fil": "lumabas, lumisan"
     },
-    "strongsNum": "G3404"
+    "strongsNum": "G1831",
+    "image": "c6b-verb-4.jpeg"
   },
   {
     "id": 37,
     "part": "B",
-    "greek": "οἰκέω",
-    "transliteration": "oikeō",
-    "definition": "to dwell in, live in, inhabit",
-    "partOfSpeech": "verb (contract, -εω)",
+    "greek": "κλέπτω",
+    "transliteration": "kleptō",
+    "definition": "to steal",
+    "partOfSpeech": "verb",
     "translations": {
-      "es": "habitar, morar en",
-      "pl": "mieszkać w, zamieszkiwać",
-      "fil": "manirahan, tumahan"
+      "es": "robar, hurtar",
+      "pl": "kraść",
+      "fil": "magnakaw, nakawin"
     },
-    "strongsNum": "G3611"
+    "strongsNum": "G2813",
+    "image": "c6b-verb-5.jpeg"
   },
   {
     "id": 38,
     "part": "B",
-    "greek": "κράζω",
-    "transliteration": "krazō",
-    "definition": "to cry out, call out",
+    "greek": "θύω",
+    "transliteration": "thuō",
+    "definition": "to slaughter, sacrifice, kill",
     "partOfSpeech": "verb",
     "translations": {
-      "es": "clamar, gritar",
-      "pl": "wołać, krzyczeć",
-      "fil": "sumigaw, humiyaw"
+      "es": "sacrificar, matar",
+      "pl": "składać ofiarę, zabijać",
+      "fil": "maghandog, pumatay"
     },
-    "strongsNum": "G2896"
+    "strongsNum": "G2380",
+    "image": "c6b-verb-6.jpeg"
   },
   {
     "id": 39,
     "part": "B",
-    "greek": "οἰκοδομέω",
-    "transliteration": "oikodomeō",
-    "definition": "to build up, edify",
+    "greek": "φωνέω",
+    "transliteration": "phōneō",
+    "definition": "to call, summon",
     "partOfSpeech": "verb (contract, -εω)",
     "translations": {
-      "es": "edificar, construir",
-      "pl": "budować, budować duchowo",
-      "fil": "itayo, palakasin"
+      "es": "llamar, convocar",
+      "pl": "wołać, wzywać",
+      "fil": "tumawag, tawagin"
     },
-    "strongsNum": "G3618"
+    "strongsNum": "G5455",
+    "image": "c6b-verb-7.jpeg"
+  },
+  {
+    "id": 40,
+    "part": "B",
+    "greek": "φαίνω",
+    "transliteration": "phainō",
+    "definition": "to shine; to appear",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "brillar; aparecer",
+      "pl": "świecić; ukazywać się",
+      "fil": "sumikat; lumitaw"
+    },
+    "strongsNum": "G5316",
+    "image": "c6b-verb-8.jpeg"
+  },
+  {
+    "id": 41,
+    "part": "B",
+    "greek": "φωτίζω",
+    "transliteration": "phōtizō",
+    "definition": "to give light, illumine",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "iluminar, dar luz",
+      "pl": "oświecać, rozświetlać",
+      "fil": "liwanagan, magbigay liwanag"
+    },
+    "strongsNum": "G5461",
+    "image": "c6b-verb-9.jpeg"
+  },
+  {
+    "id": 42,
+    "part": "B",
+    "greek": "καθαρίζω",
+    "transliteration": "katharizō",
+    "definition": "to cleanse, make clean",
+    "partOfSpeech": "verb",
+    "translations": {
+      "es": "limpiar, purificar",
+      "pl": "czyścić, oczyszczać",
+      "fil": "linisin, dalisayin"
+    },
+    "strongsNum": "G2511",
+    "image": "c6b-verb-10.jpeg"
+  },
+  {
+    "id": 43,
+    "part": "B",
+    "greek": "θαυμαστός, -ή, -όν",
+    "transliteration": "thaumastos",
+    "definition": "wonderful, marvelous",
+    "partOfSpeech": "adjective (2-1-2 decl.)",
+    "translations": {
+      "es": "maravilloso, admirable",
+      "pl": "cudowny, zadziwiający",
+      "fil": "kahanga-hanga, kamangha-mangha"
+    },
+    "strongsNum": "G2298",
+    "image": "c6b-adj-1.jpeg"
+  },
+  {
+    "id": 44,
+    "part": "B",
+    "greek": "ἔμπροσθεν",
+    "transliteration": "emprosthen",
+    "definition": "before, in front of (+gen.)",
+    "partOfSpeech": "preposition/adverb",
+    "translations": {
+      "es": "delante de, en frente de",
+      "pl": "przed, z przodu",
+      "fil": "sa harap ng, sa unahan ng"
+    },
+    "strongsNum": "G1715"
   }
 ]
