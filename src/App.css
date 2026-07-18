@@ -91,15 +91,47 @@
   text-transform: uppercase;
 }
 
-.app-breadcrumb {
-  margin-left: auto;
-  font-size: 0.8rem;
-  color: rgba(255,255,255,0.55);
+/* Breadcrumb trail (replaces old .app-breadcrumb) */
+.app-bc-trail {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
   min-width: 0;
   overflow: hidden;
-  text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 40vw;
+  font-size: 0.8rem;
+}
+.app-bc-home {
+  color: var(--gold-light);
+  font-family: 'Gentium Plus', 'Gentium', Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: opacity 0.15s;
+}
+.app-bc-home:hover { opacity: 0.8; }
+.app-bc-sep {
+  color: rgba(255,255,255,0.3);
+  flex-shrink: 0;
+}
+.app-bc-seg {
+  color: rgba(255,255,255,0.5);
+  flex-shrink: 0;
+}
+.app-bc-current {
+  color: rgba(255,255,255,0.85);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+
+/* No-sidebar layout */
+.app-shell--no-sidebar .app-body { display: block; }
+.app-shell--no-sidebar .main-content {
+  height: calc(100dvh - 58px);
+  overflow-y: auto;
 }
 
 .font-size-ctrl {

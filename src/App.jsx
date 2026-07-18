@@ -57,8 +57,6 @@ function makeSnap(fields) {
 }
 
 function AppInner({ onSignOut, initialNav, onGoHome }) {
-  const [sidebarOpen, setSidebarOpen] = useState(false)
-  const [desktopSidebarHidden, setDesktopSidebarHidden] = useState(false)
   const [navHidden, setNavHidden] = useState(false)
   const [fontSize, setFontSize] = useState(16)
   const [totalWords, setTotalWords] = useState(0)
@@ -174,12 +172,10 @@ function AppInner({ onSignOut, initialNav, onGoHome }) {
 
   function handleOpenVocabIndex() {
     pushNav(makeSnap({ selectedUnit, selectedChapter, activePart, showVocabIndex: true }))
-    setSidebarOpen(false)
   }
 
   function handleUnitVocabReview(unitId) {
     pushNav(makeSnap({ selectedUnit: unitId, selectedChapter, activePart, unitReviewId: unitId }))
-    setSidebarOpen(false)
   }
 
   const currentPart = currentChapter?.parts?.find(p => p.id === activePart)
@@ -187,35 +183,39 @@ function AppInner({ onSignOut, initialNav, onGoHome }) {
   const { lang, setLang } = useLanguage()
   const ui = useUI()
 
-  const desktopFullyHidden = navHidden && desktopSidebarHidden
+  function headerBreadcrumb() {
+    if (showVocabIndex) return <><span className="app-bc-sep">›</span><span className="app-bc-current">Λεξικόν</span></>
+    if (gntView)        return <><span className="app-bc-sep">›</span><span className="app-bc-current">Greek NT</span></>
+    if (unitReviewId)   return <><span className="app-bc-sep">›</span><span className="app-bc-current greek">{currentUnit?.title} — Vocabulary</span></>
+    return (
+      <>
+        <span className="app-bc-sep">›</span>
+        <span className="app-bc-seg greek">{currentUnit?.title}</span>
+        <span className="app-bc-sep">›</span>
+        <span className="app-bc-current greek">
+          {currentChapter?.title}
+          {currentPart && <> · {currentPart.label}</>}
+        </span>
+      </>
+    )
+  }
 
   return (
-    <div className={`app-shell ${navHidden ? 'app-shell--nav-hidden' : ''}`}>
-      {desktopFullyHidden && (
+    <div className={`app-shell app-shell--no-sidebar ${navHidden ? 'app-shell--nav-hidden' : ''}`}>
+      {navHidden && (
         <button
           className="nav-restore-btn"
-          onClick={() => { setDesktopSidebarHidden(false); setNavHidden(false) }}
+          onClick={() => setNavHidden(false)}
           aria-label="Show navigation"
         >
           <span /><span /><span />
         </button>
       )}
       <header className={`app-header ${navHidden ? 'app-header--hidden' : ''}`}>
-        <button className="menu-btn" onClick={() => {
-          if (window.innerWidth <= 768) setSidebarOpen(v => !v)
-          else { setDesktopSidebarHidden(v => !v); setNavHidden(v => !v) }
-        }} aria-label="Menu">
-          <span /><span /><span />
-        </button>
-
-        <div className="app-title" onClick={onGoHome} style={{ cursor: onGoHome ? 'pointer' : 'default' }} title="Home">
-          <span className="app-title-greek greek">Βίβλος</span>
-          <span className="app-title-sub">{ui('appSubtitle')}</span>
-        </div>
-        <div className="app-breadcrumb greek">
-          {currentChapter?.title}
-          {currentPart && <> · {currentPart.label} — {currentPart.subtitle}</>}
-        </div>
+        <nav className="app-bc-trail" aria-label="Breadcrumb">
+          <span className="app-bc-home" onClick={onGoHome} title="Home">Βίβλος</span>
+          {headerBreadcrumb()}
+        </nav>
         <div className="font-size-ctrl" aria-label="Font size">
           <button
             className="font-size-btn"
@@ -253,29 +253,6 @@ function AppInner({ onSignOut, initialNav, onGoHome }) {
       </header>
 
       <div className="app-body">
-        <Sidebar
-          units={units}
-          selectedUnit={selectedUnit}
-          selectedChapter={selectedChapter}
-          activePart={activePart}
-          onSelect={handleSelect}
-          onPartSelect={handlePartSelect}
-          open={sidebarOpen}
-          desktopHidden={desktopSidebarHidden}
-          onClose={() => setSidebarOpen(false)}
-          totalWords={totalWords}
-          onVocabIndex={handleOpenVocabIndex}
-          onUnitVocabReview={handleUnitVocabReview}
-          showingVocabIndex={showVocabIndex}
-          onOpenGnt={handleOpenGnt}
-          activeGnt={gntView}
-          onOpenAccount={onSignOut}
-        />
-
-        {sidebarOpen && (
-          <div className="sidebar-backdrop" onClick={() => setSidebarOpen(false)} />
-        )}
-
         <main className="main-content">
           {gntView ? (
             <GntReader
