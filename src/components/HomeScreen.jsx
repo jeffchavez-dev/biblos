@@ -28,14 +28,27 @@ export default function HomeScreen({ onEnterApp, initialNav }) {
   return (
     <div className="hs-root">
 
-      {/* ── App header ── */}
-      <header className="hs-header">
-        <div className="hs-header-logo">
-          <span className="hs-logo-greek greek">Βίβλος</span>
-          <span className="hs-logo-sub">{ui('appSubtitle')}</span>
-        </div>
+      {/* ── App header — same structure as AppInner ── */}
+      <header className="app-header">
+        <nav className="app-bc-trail" aria-label="Breadcrumb">
+          <span className="app-bc-home" onClick={() => setPage('home')}>Βίβλος</span>
+          {page === 'units' && (
+            <>
+              <span className="app-bc-sep">›</span>
+              <span className="app-bc-current">Βίβλος Stories</span>
+            </>
+          )}
+          {page === 'chapters' && (
+            <>
+              <span className="app-bc-sep">›</span>
+              <span className="app-bc-link" onClick={() => setPage('units')}>Βίβλος Stories</span>
+              <span className="app-bc-sep">›</span>
+              <span className="app-bc-current greek">{t(activeUnit?.title, activeUnit?.translations, lang)}</span>
+            </>
+          )}
+        </nav>
         <select
-          className="hs-lang-select"
+          className="lang-select"
           value={lang}
           onChange={e => setLang(e.target.value)}
           aria-label="Language"
@@ -45,29 +58,6 @@ export default function HomeScreen({ onEnterApp, initialNav }) {
           ))}
         </select>
       </header>
-
-      {/* ── Breadcrumb bar ── */}
-      <div className="hs-topbar">
-        {page === 'home' && (
-          <span className="hs-welcome">Welcome back</span>
-        )}
-        {page !== 'home' && (
-          <nav className="hs-breadcrumb" aria-label="Breadcrumb">
-            <span className="hs-bc-link" onClick={() => setPage('home')}>Home</span>
-            <span className="hs-bc-sep" aria-hidden="true">›</span>
-            {page === 'units' && (
-              <span className="hs-bc-current">Βίβλος Stories</span>
-            )}
-            {page === 'chapters' && (
-              <>
-                <span className="hs-bc-link" onClick={() => setPage('units')}>Βίβλος Stories</span>
-                <span className="hs-bc-sep" aria-hidden="true">›</span>
-                <span className="hs-bc-current">{t(activeUnit?.title, activeUnit?.translations, lang)}</span>
-              </>
-            )}
-          </nav>
-        )}
-      </div>
 
       {/* ── Page: Home ── */}
       {page === 'home' && (
