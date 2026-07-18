@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import LoginPage from './components/LoginPage.jsx'
 import AdminPage from './components/AdminPage.jsx'
+import HomeScreen from './components/HomeScreen.jsx'
 import Sidebar from './components/Sidebar.jsx'
 import ChapterView from './components/ChapterView.jsx'
 import VocabularyIndex from './components/VocabularyIndex.jsx'
@@ -55,7 +56,7 @@ function makeSnap(fields) {
   }
 }
 
-function AppInner({ onSignOut }) {
+function AppInner({ onSignOut, initialNav, onGoHome }) {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [desktopSidebarHidden, setDesktopSidebarHidden] = useState(false)
   const [navHidden, setNavHidden] = useState(false)
@@ -90,7 +91,13 @@ function AppInner({ onSignOut }) {
   }
 
   // ── Navigation history ──────────────────────────────────────────────
-  const [navStack, setNavStack] = useState([makeSnap({})])
+  const [navStack, setNavStack] = useState([makeSnap({
+    selectedUnit:    initialNav?.unitId    ?? 1,
+    selectedChapter: initialNav?.chapterId ?? 1,
+    activePart:      initialNav?.part      ?? 'A',
+    showVocabIndex:  initialNav?.type === 'lexicon',
+    gntView:         initialNav?.type === 'gnt' ? { book: 'Mat', chapter: 1 } : null,
+  })])
   const [navIdx, setNavIdx] = useState(0)
   const current = navStack[navIdx]
   const { selectedUnit, selectedChapter, activePart, showVocabIndex, lexiconTarget, gntView, unitReviewId } = current
@@ -201,7 +208,7 @@ function AppInner({ onSignOut }) {
           <span /><span /><span />
         </button>
 
-        <div className="app-title">
+        <div className="app-title" onClick={onGoHome} style={{ cursor: onGoHome ? 'pointer' : 'default' }} title="Home">
           <span className="app-title-greek greek">Βίβλος</span>
           <span className="app-title-sub">{ui('appSubtitle')}</span>
         </div>
@@ -317,27 +324,43 @@ function AppInner({ onSignOut }) {
 }
 
 export default function App() {
-  const [session, setSession] = useState(() => localStorage.getItem('biblos_session') || null)
+  const [session, setSession]     = useState(() => localStorage.getItem('biblos_session') || null)
+  const [homeScreen, setHomeScreen] = useState(true)
+  const [initialNav, setInitialNav] = useState(null)
 
   function handleEnter() {
     setSession(localStorage.getItem('biblos_session'))
+    setHomeScreen(true)
   }
 
   function handleExit() {
     setSession(null)
   }
 
-  if (!session) return <LoginPage onEnter={handleEnter} />
-  if (session === 'admin') return <AdminPage onExit={handleExit} />
+  function handleEnterApp(nav) {
+    setInitialNav(nav)
+    setHomeScreen(false)
+  }
+
+  function handleGoHome() {
+    setHomeScreen(true)
+  }
 
   function handleSignOut() {
     clearSession()
     setSession(null)
+    setHomeScreen(true)
   }
+
+  if (!session) return <LoginPage onEnter={handleEnter} />
+  if (session === 'admin') return <AdminPage onExit={handleExit} />
 
   return (
     <LanguageProvider>
-      <AppInner onSignOut={handleSignOut} />
+      {homeScreen
+        ? <HomeScreen onEnterApp={handleEnterApp} />
+        : <AppInner onSignOut={handleSignOut} initialNav={initialNav} onGoHome={handleGoHome} />
+      }
     </LanguageProvider>
   )
 }
