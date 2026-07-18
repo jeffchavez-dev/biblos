@@ -56,7 +56,7 @@ function makeSnap(fields) {
   }
 }
 
-function AppInner({ onSignOut, initialNav, onGoHome }) {
+function AppInner({ onSignOut, initialNav, onGoHome, onGoToUnits, onGoToUnit }) {
   const [navHidden, setNavHidden] = useState(false)
   const [fontSize, setFontSize] = useState(16)
   const [totalWords, setTotalWords] = useState(0)
@@ -186,11 +186,20 @@ function AppInner({ onSignOut, initialNav, onGoHome }) {
   function headerBreadcrumb() {
     if (showVocabIndex) return <><span className="app-bc-sep">›</span><span className="app-bc-current">Λεξικόν</span></>
     if (gntView)        return <><span className="app-bc-sep">›</span><span className="app-bc-current">Greek NT</span></>
-    if (unitReviewId)   return <><span className="app-bc-sep">›</span><span className="app-bc-current greek">{currentUnit?.title} — Vocabulary</span></>
+    if (unitReviewId)   return (
+      <>
+        <span className="app-bc-sep">›</span>
+        <span className="app-bc-link" onClick={onGoToUnits}>Βίβλος Stories</span>
+        <span className="app-bc-sep">›</span>
+        <span className="app-bc-current greek">{currentUnit?.title} — Vocabulary</span>
+      </>
+    )
     return (
       <>
         <span className="app-bc-sep">›</span>
-        <span className="app-bc-seg greek">{currentUnit?.title}</span>
+        <span className="app-bc-link" onClick={onGoToUnits}>Βίβλος Stories</span>
+        <span className="app-bc-sep">›</span>
+        <span className="app-bc-link greek" onClick={() => onGoToUnit(selectedUnit)}>{currentUnit?.title}</span>
         <span className="app-bc-sep">›</span>
         <span className="app-bc-current greek">
           {currentChapter?.title}
@@ -261,6 +270,7 @@ function AppInner({ onSignOut, initialNav, onGoHome }) {
               highlightVerse={gntView.verse}
               onOpenLexicon={handleOpenLexiconByStrongs}
               onClose={goBack}
+              onNavigate={(b, ch) => handleOpenGnt(b, ch)}
             />
           ) : unitReviewId ? (
             <UnitVocabReview
@@ -304,6 +314,7 @@ export default function App() {
   const [session, setSession]     = useState(() => localStorage.getItem('biblos_session') || null)
   const [homeScreen, setHomeScreen] = useState(true)
   const [initialNav, setInitialNav] = useState(null)
+  const [homeNav, setHomeNav] = useState(null) // { page, unitId } for HomeScreen initial state
 
   function handleEnter() {
     setSession(localStorage.getItem('biblos_session'))
@@ -320,6 +331,17 @@ export default function App() {
   }
 
   function handleGoHome() {
+    setHomeNav(null)
+    setHomeScreen(true)
+  }
+
+  function handleGoToUnits() {
+    setHomeNav({ page: 'units' })
+    setHomeScreen(true)
+  }
+
+  function handleGoToUnit(unitId) {
+    setHomeNav({ page: 'chapters', unitId })
     setHomeScreen(true)
   }
 
@@ -335,8 +357,14 @@ export default function App() {
   return (
     <LanguageProvider>
       {homeScreen
-        ? <HomeScreen onEnterApp={handleEnterApp} />
-        : <AppInner onSignOut={handleSignOut} initialNav={initialNav} onGoHome={handleGoHome} />
+        ? <HomeScreen onEnterApp={handleEnterApp} initialNav={homeNav} />
+        : <AppInner
+            onSignOut={handleSignOut}
+            initialNav={initialNav}
+            onGoHome={handleGoHome}
+            onGoToUnits={handleGoToUnits}
+            onGoToUnit={handleGoToUnit}
+          />
       }
     </LanguageProvider>
   )

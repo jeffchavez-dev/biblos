@@ -10,11 +10,11 @@ const UNIT_CH_THEMES = {
   3: ['hs-ch-amber', 'hs-ch-amber2'],
 }
 
-export default function HomeScreen({ onEnterApp }) {
+export default function HomeScreen({ onEnterApp, initialNav }) {
   const ui = useUI()
   const { lang, setLang } = useLanguage()
-  const [page, setPage]           = useState('home')
-  const [activeUnitId, setActiveUnitId] = useState(null)
+  const [page, setPage]           = useState(initialNav?.page ?? 'home')
+  const [activeUnitId, setActiveUnitId] = useState(initialNav?.unitId ?? null)
 
   const activeUnit = units.find(u => u.id === activeUnitId)
 

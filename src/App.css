@@ -120,6 +120,13 @@
   color: rgba(255,255,255,0.5);
   flex-shrink: 0;
 }
+.app-bc-link {
+  color: rgba(255,255,255,0.55);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: color 0.15s;
+}
+.app-bc-link:hover { color: rgba(255,255,255,0.9); }
 .app-bc-current {
   color: rgba(255,255,255,0.85);
   overflow: hidden;
