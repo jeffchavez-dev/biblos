@@ -5,6 +5,31 @@
   position: relative;
 }
 
+/* Part A / B switcher */
+.part-switcher {
+  display: flex;
+  gap: 6px;
+  padding: 10px 20px 0;
+  flex-shrink: 0;
+}
+.part-switcher-btn {
+  font-family: 'Gentium Plus', Georgia, serif;
+  font-size: 0.8rem;
+  padding: 4px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: none;
+  color: var(--grey);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+.part-switcher-btn:hover { border-color: var(--gold); color: var(--ink); }
+.part-switcher-btn--active {
+  background: var(--deep-blue);
+  color: #fff;
+  border-color: var(--deep-blue);
+}
+
 .study-nav-pill {
   position: fixed;
   bottom: 24px;

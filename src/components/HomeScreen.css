@@ -252,33 +252,16 @@
   color: rgba(255,255,255,0.6);
   border: 1px solid rgba(255,255,255,0.15);
 }
-
-/* Light theme overrides for non-colored blocks */
-@media (prefers-color-scheme: dark) {
-  .hs-root    { background: #111827; }
-  .hs-topbar  { border-color: rgba(201,168,76,0.14); }
-  .hs-block   { background: #1b2640; border-color: rgba(201,168,76,0.14); }
-  .hs-block-title { color: #e8e0d0; }
-  .hs-block-sub   { color: #7a7060; }
-  .hs-block-badge { color: #7a7060; border-color: rgba(201,168,76,0.14); }
-  .hs-block-watermark { color: var(--gold); opacity: 0.05; }
-  .hs-page-title { color: #e8e0d0; }
-  .hs-page-sub   { color: #7a7060; }
-  .hs-welcome    { color: #7a7060; }
-  .hs-bc-current { color: #e8e0d0; }
+.hs-ch-pill--btn {
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.hs-ch-pill--btn:hover {
+  background: rgba(255,255,255,0.25);
+  color: #fff;
 }
 
-[data-theme="dark"] .hs-root    { background: #111827; }
-[data-theme="dark"] .hs-topbar  { border-color: rgba(201,168,76,0.14); }
-[data-theme="dark"] .hs-block   { background: #1b2640; border-color: rgba(201,168,76,0.14); }
-[data-theme="dark"] .hs-block-title  { color: #e8e0d0; }
-[data-theme="dark"] .hs-block-sub    { color: #7a7060; }
-[data-theme="dark"] .hs-block-badge  { color: #7a7060; border-color: rgba(201,168,76,0.14); }
-[data-theme="dark"] .hs-block-watermark { color: var(--gold); opacity: 0.05; }
-[data-theme="dark"] .hs-page-title  { color: #e8e0d0; }
-[data-theme="dark"] .hs-page-sub    { color: #7a7060; }
-[data-theme="dark"] .hs-welcome     { color: #7a7060; }
-[data-theme="dark"] .hs-bc-current  { color: #e8e0d0; }
+/* Home screen is always light — the colored unit/chapter blocks look best on parchment */
 
 /* Responsive */
 @media (max-width: 760px) {

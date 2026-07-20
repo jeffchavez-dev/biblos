@@ -28,7 +28,7 @@ async function loadData(unitId, chapterId, type) {
   }
 }
 
-export default function ChapterView({ unitId, chapterId, activePart, navHidden, onToggleNav, onOpenLexicon, onOpenGnt, allVocabulary, canBack, canForward, onBack, onForward }) {
+export default function ChapterView({ unitId, chapterId, activePart, onPartChange, navHidden, onToggleNav, onOpenLexicon, onOpenGnt, allVocabulary, canBack, canForward, onBack, onForward }) {
   const ui = useUI()
   const [activeTab, setActiveTab] = useState('story')
   const [data, setData] = useState({})
@@ -78,6 +78,19 @@ export default function ChapterView({ unitId, chapterId, activePart, navHidden, 
           ))}
         </nav>
       </div>
+
+      {onPartChange && (
+        <div className="part-switcher">
+          <button
+            className={`part-switcher-btn ${activePart === 'A' ? 'part-switcher-btn--active' : ''}`}
+            onClick={() => onPartChange('A')}
+          >Μέρος Αʹ</button>
+          <button
+            className={`part-switcher-btn ${activePart === 'B' ? 'part-switcher-btn--active' : ''}`}
+            onClick={() => onPartChange('B')}
+          >Μέρος Βʹ</button>
+        </div>
+      )}
 
       <div className="study-nav-pill" aria-label="Page navigation">
         <button className="study-nav-btn" onClick={onBack} disabled={!canBack} aria-label="Go back" title="Go back (Alt+←)">‹</button>

@@ -293,6 +293,7 @@ function AppInner({ onSignOut, initialNav, onGoHome, onGoToUnits, onGoToUnit }) 
               unitId={selectedUnit}
               chapterId={selectedChapter}
               activePart={activePart}
+              onPartChange={handlePartSelect}
               navHidden={navHidden}
               onToggleNav={() => setNavHidden(v => !v)}
               onOpenLexicon={handleOpenLexicon}

@@ -171,7 +171,11 @@ export default function HomeScreen({ onEnterApp, initialNav }) {
                     : (
                       <div className="hs-ch-pills">
                         {ch.parts?.map(p => (
-                          <span key={p.id} className="hs-ch-pill">{p.label}</span>
+                          <span
+                            key={p.id}
+                            className="hs-ch-pill hs-ch-pill--btn"
+                            onClick={e => { e.stopPropagation(); onEnterApp({ type: 'chapter', unitId: activeUnit.id, chapterId: ch.id, part: p.id }) }}
+                          >{p.label}</span>
                         ))}
                       </div>
                     )
