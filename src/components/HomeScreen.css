@@ -108,7 +108,7 @@
   display: grid;
   gap: 16px;
 }
-.hs-grid--home     { grid-template-columns: 1fr 1.5fr 1fr; align-items: stretch; }
+.hs-grid--home     { grid-template-columns: 1fr 1.5fr 1fr 1fr; align-items: stretch; }
 .hs-grid--units    { grid-template-columns: repeat(3, 1fr); }
 .hs-grid--chapters { grid-template-columns: repeat(3, 1fr); }
 
@@ -263,6 +263,56 @@
 
 /* Home screen is always light — the colored unit/chapter blocks look best on parchment */
 
+/* ── Biblos Kids block ── */
+.hs-block--kids {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  padding: 28px 22px;
+  justify-content: flex-end;
+  pointer-events: none;
+}
+.hs-block--kids:hover {
+  transform: none;
+  box-shadow: var(--shadow);
+  border-color: var(--border);
+}
+.hs-kids-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center top;
+  background-color: #fde8c2;
+}
+.hs-kids-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.08) 0%, rgba(0,0,0,0.45) 100%);
+}
+.hs-block--kids > *:not(.hs-kids-bg):not(.hs-kids-overlay) {
+  position: relative;
+  z-index: 1;
+}
+.hs-kids-eyebrow {
+  color: rgba(255,255,255,0.9) !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+.hs-kids-title {
+  color: #fff !important;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.35);
+  font-size: 1.4rem !important;
+}
+.hs-kids-sub {
+  color: rgba(255,255,255,0.85) !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.25);
+}
+.hs-kids-badge {
+  color: #fff !important;
+  border-color: rgba(255,255,255,0.5) !important;
+  background: rgba(0,0,0,0.2);
+  backdrop-filter: blur(4px);
+}
+
 /* Unit Vocabulary Review button */
 .hs-vocab-review-btn {
   display: flex;
@@ -286,6 +336,9 @@
 }
 
 /* Responsive */
+@media (max-width: 900px) {
+  .hs-grid--home { grid-template-columns: 1fr 1fr; }
+}
 @media (max-width: 760px) {
   .hs-page { padding: 24px 16px 48px; }
   .hs-grid--home     { grid-template-columns: 1fr; }

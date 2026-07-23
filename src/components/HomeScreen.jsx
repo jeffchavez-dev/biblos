@@ -98,6 +98,15 @@ export default function HomeScreen({ onEnterApp, initialNav }) {
               <span className="hs-block-badge">27 books · NA28</span>
             </button>
 
+            <div className="hs-block hs-block--kids" style={{ cursor: 'default' }}>
+              <div className="hs-kids-bg" style={{ backgroundImage: 'url(/biblos-kids-thumb.png)' }} />
+              <div className="hs-kids-overlay" />
+              <span className="hs-block-eyebrow hs-kids-eyebrow">For Children</span>
+              <span className="hs-block-title hs-kids-title">Βίβλος Kids</span>
+              <span className="hs-block-sub hs-kids-sub">Learn the Greek alphabet and first words through fun, interactive lessons.</span>
+              <span className="hs-block-badge hs-kids-badge">Coming soon</span>
+            </div>
+
           </div>
         </div>
       )}
