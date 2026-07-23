@@ -5,6 +5,89 @@
   min-height: 0;
 }
 
+/* ── Nav toggle button ── */
+.gnt-nav-toggle {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: var(--deep-blue);
+  padding: 2px 8px 2px 0;
+  opacity: 0.65;
+  transition: opacity 0.15s;
+  flex-shrink: 0;
+  line-height: 1;
+}
+.gnt-nav-toggle:hover { opacity: 1; }
+
+/* ── Main area (nav + body side by side) ── */
+.gnt-reader-main {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ── Nav panel ── */
+.gnt-nav-panel {
+  width: 200px;
+  flex-shrink: 0;
+  overflow-y: auto;
+  border-right: 1px solid #e0e4f0;
+  background: #f8f9fc;
+  padding: 12px 0 24px;
+}
+
+.gnt-nav-group { margin-bottom: 4px; }
+
+.gnt-nav-group-label {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #9a96a0;
+  padding: 8px 14px 4px;
+  font-weight: 600;
+}
+
+.gnt-nav-book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 5px 14px;
+  font-size: 0.8rem;
+  color: var(--ink);
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.12s;
+}
+.gnt-nav-book:hover { background: rgba(0,0,0,0.04); }
+.gnt-nav-book--active { color: var(--deep-blue); font-weight: 600; }
+
+.gnt-nav-chevron { font-size: 0.65rem; opacity: 0.5; }
+
+.gnt-nav-chapters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  padding: 4px 14px 8px;
+}
+
+.gnt-nav-ch {
+  background: none;
+  border: 1px solid #dde0ea;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  padding: 2px 6px;
+  cursor: pointer;
+  color: var(--ink);
+  transition: background 0.1s, border-color 0.1s;
+}
+.gnt-nav-ch:hover { background: #e8ecf8; border-color: var(--blue); }
+.gnt-nav-ch--active { background: var(--deep-blue); color: #fff; border-color: var(--deep-blue); }
+
 .gnt-reader-header {
   display: flex;
   align-items: center;

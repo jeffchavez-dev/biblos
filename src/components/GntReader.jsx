@@ -64,13 +64,45 @@ function loadBiblosStrongs(cb) {
     })
 }
 
-export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon, onClose }) {
+const NT_BOOKS = [
+  { abbr: 'Mat', name: 'Matthew',         ch: 28, group: 'Gospels' },
+  { abbr: 'Mrk', name: 'Mark',            ch: 16, group: 'Gospels' },
+  { abbr: 'Luk', name: 'Luke',            ch: 24, group: 'Gospels' },
+  { abbr: 'Jhn', name: 'John',            ch: 21, group: 'Gospels' },
+  { abbr: 'Act', name: 'Acts',            ch: 28, group: 'Acts' },
+  { abbr: 'Rom', name: 'Romans',          ch: 16, group: 'Letters' },
+  { abbr: '1Co', name: '1 Corinthians',   ch: 16, group: 'Letters' },
+  { abbr: '2Co', name: '2 Corinthians',   ch: 13, group: 'Letters' },
+  { abbr: 'Gal', name: 'Galatians',       ch:  6, group: 'Letters' },
+  { abbr: 'Eph', name: 'Ephesians',       ch:  6, group: 'Letters' },
+  { abbr: 'Php', name: 'Philippians',     ch:  4, group: 'Letters' },
+  { abbr: 'Col', name: 'Colossians',      ch:  4, group: 'Letters' },
+  { abbr: '1Th', name: '1 Thessalonians', ch:  5, group: 'Letters' },
+  { abbr: '2Th', name: '2 Thessalonians', ch:  3, group: 'Letters' },
+  { abbr: '1Ti', name: '1 Timothy',       ch:  6, group: 'Letters' },
+  { abbr: '2Ti', name: '2 Timothy',       ch:  4, group: 'Letters' },
+  { abbr: 'Tit', name: 'Titus',           ch:  3, group: 'Letters' },
+  { abbr: 'Phm', name: 'Philemon',        ch:  1, group: 'Letters' },
+  { abbr: 'Heb', name: 'Hebrews',         ch: 13, group: 'Letters' },
+  { abbr: 'Jas', name: 'James',           ch:  5, group: 'General' },
+  { abbr: '1Pe', name: '1 Peter',         ch:  5, group: 'General' },
+  { abbr: '2Pe', name: '2 Peter',         ch:  3, group: 'General' },
+  { abbr: '1Jn', name: '1 John',          ch:  5, group: 'General' },
+  { abbr: '2Jn', name: '2 John',          ch:  1, group: 'General' },
+  { abbr: '3Jn', name: '3 John',          ch:  1, group: 'General' },
+  { abbr: 'Jud', name: 'Jude',            ch:  1, group: 'General' },
+  { abbr: 'Rev', name: 'Revelation',      ch: 22, group: 'General' },
+]
+
+export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon, onClose, onNavigate }) {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [popup, setPopup] = useState(null) // { word, anchorRect }
   const [showGloss, setShowGloss] = useState(false)
   const [showBiblos, setShowBiblos] = useState(false)
+  const [navOpen, setNavOpen] = useState(true)
+  const [expandedBook, setExpandedBook] = useState(book)
   const [biblosStrongs, setBiblosStrongs] = useState(biblosStrongsCache)
   const [biblosImages, setBiblosImages] = useState(biblosImageCache)
   const popupRef = useRef(null)
@@ -140,10 +172,18 @@ export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon
     '1Jn':'1 John', '2Jn':'2 John', '3Jn':'3 John', Jud:'Jude', Rev:'Revelation',
   }
 
+  function navigate(newBook, newCh) {
+    if (onNavigate) onNavigate(newBook, newCh)
+  }
+
+  const groups = [...new Set(NT_BOOKS.map(b => b.group))]
+
   return (
     <div className="gnt-reader">
       <div className="gnt-reader-header">
-        <button className="gnt-back-btn" onClick={onClose} aria-label="Back">←</button>
+        <button className="gnt-nav-toggle" onClick={() => setNavOpen(v => !v)} aria-label="Toggle book list" title="Books">
+          ☰
+        </button>
         <span className="gnt-reader-title greek">
           {BOOK_NAMES[book] || book} {chapter}
         </span>
@@ -163,7 +203,41 @@ export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon
         </button>
       </div>
 
-      <div className="gnt-reader-body">
+      <div className="gnt-reader-main">
+        {navOpen && (
+          <nav className="gnt-nav-panel">
+            {groups.map(group => (
+              <div key={group} className="gnt-nav-group">
+                <div className="gnt-nav-group-label">{group}</div>
+                {NT_BOOKS.filter(b => b.group === group).map(b => (
+                  <div key={b.abbr}>
+                    <button
+                      className={`gnt-nav-book ${b.abbr === book ? 'gnt-nav-book--active' : ''}`}
+                      onClick={() => setExpandedBook(expandedBook === b.abbr ? null : b.abbr)}
+                    >
+                      {b.name}
+                      <span className="gnt-nav-chevron">{expandedBook === b.abbr ? '▾' : '›'}</span>
+                    </button>
+                    {expandedBook === b.abbr && (
+                      <div className="gnt-nav-chapters">
+                        {Array.from({ length: b.ch }, (_, i) => i + 1).map(ch => (
+                          <button
+                            key={ch}
+                            className={`gnt-nav-ch ${b.abbr === book && ch === chapter ? 'gnt-nav-ch--active' : ''}`}
+                            onClick={() => navigate(b.abbr, ch)}
+                          >
+                            {ch}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            ))}
+          </nav>
+        )}
+        <div className="gnt-reader-body">
         {loading && <div className="gnt-loading">Loading…</div>}
         {error && <div className="gnt-error">Could not load chapter ({error})</div>}
         {data && data.verses.map(vObj => {
@@ -196,6 +270,7 @@ export default function GntReader({ book, chapter, highlightVerse, onOpenLexicon
             </div>
           )
         })}
+        </div>
       </div>
 
       {popup && (
