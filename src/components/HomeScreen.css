@@ -263,6 +263,28 @@
 
 /* Home screen is always light — the colored unit/chapter blocks look best on parchment */
 
+/* Unit Vocabulary Review button */
+.hs-vocab-review-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--deep-blue);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: fit-content;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  box-shadow: var(--shadow);
+}
+.hs-vocab-review-btn:hover {
+  border-color: var(--gold);
+  box-shadow: var(--shadow-md);
+}
+
 /* Responsive */
 @media (max-width: 760px) {
   .hs-page { padding: 24px 16px 48px; }

@@ -95,6 +95,7 @@ function AppInner({ onSignOut, initialNav, onGoHome, onGoToUnits, onGoToUnit }) 
     activePart:      initialNav?.part      ?? 'A',
     showVocabIndex:  initialNav?.type === 'lexicon',
     gntView:         initialNav?.type === 'gnt' ? { book: 'Mat', chapter: 1 } : null,
+    unitReviewId:    initialNav?.type === 'unitReview' ? initialNav.unitId : null,
   })])
   const [navIdx, setNavIdx] = useState(0)
   const current = navStack[navIdx]
@@ -327,7 +328,11 @@ export default function App() {
   }
 
   function handleEnterApp(nav) {
-    setInitialNav(nav)
+    if (nav.type === 'unitReview') {
+      setInitialNav({ ...nav, unitId: nav.unitId })
+    } else {
+      setInitialNav(nav)
+    }
     setHomeScreen(false)
   }
 

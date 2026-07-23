@@ -184,6 +184,14 @@ export default function HomeScreen({ onEnterApp, initialNav }) {
               )
             })}
           </div>
+
+          {/* Unit Vocabulary Review */}
+          <button
+            className="hs-vocab-review-btn"
+            onClick={() => onEnterApp({ type: 'unitReview', unitId: activeUnit.id })}
+          >
+            ⭐ {activeUnit.title} — Vocabulary Review
+          </button>
         </div>
       )}
 
