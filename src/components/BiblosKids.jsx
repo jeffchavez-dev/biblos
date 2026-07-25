@@ -3,54 +3,42 @@ import './BiblosKids.css'
 
 const B = '/biblos-kids-images/'
 
-const LETTERS = [
+const ROUNDS = [
   {
-    letter: 'α', name: 'alpha',
-    intro:     B + '1.α and name.jpeg',
-    letterImg: B + '2.α letter.jpeg',
-    nameImg:   B + '3.α name.jpeg',
-    audioSrc:  null,
+    label: 'Round 1',
+    letters: ['α','β','γ','δ'],
+    letterNames: ['alpha','beta','gamma','delta'],
   },
   {
-    letter: 'β', name: 'beta',
-    intro:     B + '1.β and name.jpeg',
-    letterImg: B + '2.β letter.jpeg',
-    nameImg:   B + '3.β name.jpeg',
-    audioSrc:  null,
-  },
-  {
-    letter: 'γ', name: 'gamma',
-    intro:     B + '1.γ and name.jpeg',
-    letterImg: B + '2.γ letter.jpeg',
-    nameImg:   B + '3.γ name.jpeg',
-    audioSrc:  null,
-  },
-  {
-    letter: 'δ', name: 'delta',
-    intro:     B + '1.δ and name.jpeg',
-    letterImg: B + '2.δ letter.jpeg',
-    nameImg:   B + '3.δ name.jpeg',
-    audioSrc:  null,
+    label: 'Round 2',
+    letters: ['ε','ζ','η','θ'],
+    letterNames: ['epsilon','zeta','eta','theta'],
   },
 ]
 
-function buildQuestions() {
-  const modeA = LETTERS.map(l => ({
-    mode: 'A',
+function getLetterData(letter) {
+  return {
+    letter,
+    intro:     B + `1.${letter} and name.jpeg`,
+    letterImg: B + `2.${letter} letter.jpeg`,
+    nameImg:   B + `3.${letter} name.jpeg`,
+  }
+}
+
+function buildQuestions(letters) {
+  const data = letters.map(getLetterData)
+  const modeA = data.map(l => ({
     correct: l.letter,
     stimulus: l.letterImg,
-    options: LETTERS.map(o => ({ letter: o.letter, img: o.nameImg })),
+    options: data.map(o => ({ letter: o.letter, img: o.nameImg })),
   }))
-  const modeB = LETTERS.map(l => ({
-    mode: 'B',
+  const modeB = data.map(l => ({
     correct: l.letter,
     stimulus: l.nameImg,
-    options: LETTERS.map(o => ({ letter: o.letter, img: o.letterImg })),
+    options: data.map(o => ({ letter: o.letter, img: o.letterImg })),
   }))
   return [...modeA, ...modeB]
 }
-
-const QUESTIONS = buildQuestions()
 
 const CORRECT_SND  = '/sounds/correct.mp3'
 const WRONG_SND    = '/sounds/wrong.mp3'
@@ -67,12 +55,10 @@ function Confetti() {
     const canvas = canvasRef.current
     if (!canvas) return
     const ctx = canvas.getContext('2d')
-
     canvas.width  = window.innerWidth
     canvas.height = window.innerHeight
     const W = canvas.width
     const H = canvas.height
-
     const COLORS = ['#f59e0b','#3b82f6','#22c55e','#ef4444','#a855f7','#ec4899','#14b8a6']
     const pieces = Array.from({ length: 120 }, () => ({
       x:     Math.random() * W,
@@ -85,17 +71,13 @@ function Confetti() {
       vy:    2.5 + Math.random() * 3,
       vx:    (Math.random() - 0.5) * 1.5,
     }))
-
     let raf
     let stopped = false
-
     function draw() {
       ctx.clearRect(0, 0, W, H)
       let allOut = true
       for (const p of pieces) {
-        p.y   += p.vy
-        p.x   += p.vx
-        p.rot += p.rotV
+        p.y += p.vy; p.x += p.vx; p.rot += p.rotV
         if (p.y < H + 20) allOut = false
         ctx.save()
         ctx.translate(p.x, p.y)
@@ -106,7 +88,6 @@ function Confetti() {
       }
       if (!allOut && !stopped) raf = requestAnimationFrame(draw)
     }
-
     raf = requestAnimationFrame(draw)
     return () => { stopped = true; cancelAnimationFrame(raf) }
   }, [])
@@ -129,47 +110,57 @@ function shuffle(arr) {
 }
 
 export default function BiblosKids({ onGoHome }) {
+  // screen: 'home' | 'letter' | 'quiz' | 'done'
   const [screen, setScreen]       = useState('home')
+  const [roundIdx, setRoundIdx]   = useState(0)
   const [letterIdx, setLetterIdx] = useState(0)
   const [qIndex, setQIndex]       = useState(0)
   const [selected, setSelected]   = useState(null)
   const [phase, setPhase]         = useState('asking')
-  const [opts, setOpts]           = useState(() => shuffle(QUESTIONS[0].options))
+  const [opts, setOpts]           = useState([])
 
-  function startLetterIntro() {
+  const round = ROUNDS[roundIdx]
+  const letters = round.letters.map(getLetterData)
+  const questions = buildQuestions(round.letters)
+
+  function startRound(idx) {
+    setRoundIdx(idx)
     setLetterIdx(0)
     setScreen('letter')
   }
 
   function nextLetter() {
-    if (letterIdx < LETTERS.length - 1) {
+    if (letterIdx < letters.length - 1) {
       setLetterIdx(i => i + 1)
     } else {
+      const qs = buildQuestions(ROUNDS[roundIdx].letters)
       setQIndex(0)
       setSelected(null)
       setPhase('asking')
-      setOpts(shuffle(QUESTIONS[0].options))
+      setOpts(shuffle(qs[0].options))
       setScreen('quiz')
     }
   }
 
   function advance() {
+    const qs = buildQuestions(ROUNDS[roundIdx].letters)
     const next = qIndex + 1
-    if (next >= QUESTIONS.length) {
+    if (next >= qs.length) {
       setScreen('done')
     } else {
       setQIndex(next)
       setSelected(null)
       setPhase('asking')
-      setOpts(shuffle(QUESTIONS[next].options))
+      setOpts(shuffle(qs[next].options))
     }
   }
 
   function handleSelect(opt) {
     if (phase !== 'asking') return
+    const qs = buildQuestions(ROUNDS[roundIdx].letters)
     setSelected(opt.letter)
     setPhase('feedback')
-    const correct = opt.letter === QUESTIONS[qIndex].correct
+    const correct = opt.letter === qs[qIndex].correct
     playSound(correct ? CORRECT_SND : WRONG_SND)
     setTimeout(() => advance(), correct ? 900 : 1500)
   }
@@ -180,39 +171,53 @@ export default function BiblosKids({ onGoHome }) {
     setQIndex(0)
     setSelected(null)
     setPhase('asking')
-    setOpts(shuffle(QUESTIONS[0].options))
+    setOpts([])
   }
 
-  const q = QUESTIONS[qIndex]
+  const qs = buildQuestions(round.letters)
+  const q  = qs[qIndex] || qs[0]
   const isQuiz = screen === 'quiz'
 
   return (
     <div className={`bk-root${isQuiz ? ' bk-root--quiz' : ''}`}>
 
-      {/* Header — hidden during quiz */}
+      {/* Header */}
       {!isQuiz && screen !== 'done' && (
         <header className="bk-header">
-          <button className="bk-back-btn" onClick={onGoHome}>← Home</button>
+          <button className="bk-back-btn" onClick={screen === 'home' ? onGoHome : reset}>
+            {screen === 'home' ? '← Home' : '← Rounds'}
+          </button>
           <span className="bk-header-title greek">Βίβλος Kids</span>
           <span className="bk-header-spacer" />
         </header>
       )}
 
-      {/* ── Home ── */}
+      {/* ── Home: two round cards ── */}
       {screen === 'home' && (
         <div className="bk-intro">
           <div className="bk-intro-heading">
             <h1 className="bk-intro-title">Learn the Greek Alphabet</h1>
-            <p className="bk-intro-sub">The first four letters — α β γ δ</p>
+            <p className="bk-intro-sub">Choose a round to begin</p>
           </div>
-          <div className="bk-intro-grid">
-            {LETTERS.map(l => (
-              <div key={l.letter} className="bk-intro-card">
-                <img src={l.intro} alt={`${l.letter} — ${l.name}`} className="bk-intro-img" />
-              </div>
-            ))}
+          <div className="bk-rounds-grid">
+            {ROUNDS.map((r, ri) => {
+              const data = r.letters.map(getLetterData)
+              return (
+                <button key={ri} className="bk-round-card" onClick={() => startRound(ri)}>
+                  <div className="bk-round-label">{r.label}</div>
+                  <div className="bk-round-letters greek">{r.letters.join(' ')}</div>
+                  <div className="bk-round-grid">
+                    {data.map(l => (
+                      <div key={l.letter} className="bk-intro-card">
+                        <img src={l.intro} alt={l.letter} className="bk-intro-img" />
+                      </div>
+                    ))}
+                  </div>
+                  <div className="bk-round-cta">Start →</div>
+                </button>
+              )
+            })}
           </div>
-          <button className="bk-start-btn" onClick={startLetterIntro}>Learn →</button>
         </div>
       )}
 
@@ -221,8 +226,8 @@ export default function BiblosKids({ onGoHome }) {
         <div className="bk-letter-screen">
           <div className="bk-letter-card">
             <img
-              src={LETTERS[letterIdx].intro}
-              alt={LETTERS[letterIdx].letter}
+              src={letters[letterIdx].intro}
+              alt={letters[letterIdx].letter}
               className="bk-letter-img"
             />
           </div>
@@ -233,7 +238,7 @@ export default function BiblosKids({ onGoHome }) {
               aria-label="Previous"
             >‹</button>
             <div className="bk-letter-dots">
-              {LETTERS.map((_, i) => (
+              {letters.map((_, i) => (
                 <div
                   key={i}
                   className={`bk-progress-dot ${i < letterIdx ? 'bk-progress-dot--done' : i === letterIdx ? 'bk-progress-dot--active' : ''}`}
@@ -241,7 +246,7 @@ export default function BiblosKids({ onGoHome }) {
               ))}
             </div>
             <button className="bk-next-btn" onClick={nextLetter} aria-label="Next">
-              {letterIdx < LETTERS.length - 1 ? '›' : '▶'}
+              {letterIdx < letters.length - 1 ? '›' : '▶'}
             </button>
           </div>
         </div>
@@ -250,9 +255,9 @@ export default function BiblosKids({ onGoHome }) {
       {/* ── Quiz ── */}
       {screen === 'quiz' && (
         <div className="bk-quiz">
-          <button className="bk-quiz-back" onClick={onGoHome}>← Home</button>
+          <button className="bk-quiz-back" onClick={reset}>← Rounds</button>
           <div className="bk-progress" aria-label="Progress">
-            {QUESTIONS.map((_, i) => (
+            {qs.map((_, i) => (
               <div
                 key={i}
                 className={`bk-progress-dot ${i < qIndex ? 'bk-progress-dot--done' : i === qIndex ? 'bk-progress-dot--active' : ''}`}
@@ -290,14 +295,20 @@ export default function BiblosKids({ onGoHome }) {
 
       {/* ── Done ── */}
       {screen === 'done' && (
-        <DoneScreen onReset={reset} onGoHome={onGoHome} />
+        <DoneScreen
+          round={round}
+          hasNextRound={roundIdx < ROUNDS.length - 1}
+          onNextRound={() => startRound(roundIdx + 1)}
+          onReset={() => startRound(roundIdx)}
+          onGoHome={reset}
+        />
       )}
 
     </div>
   )
 }
 
-function DoneScreen({ onReset, onGoHome }) {
+function DoneScreen({ round, hasNextRound, onNextRound, onReset, onGoHome }) {
   useEffect(() => {
     playSound(CONGRATS_SND)
   }, [])
@@ -308,10 +319,15 @@ function DoneScreen({ onReset, onGoHome }) {
       <div className="bk-done">
         <div className="bk-done-emoji">🎉</div>
         <h2 className="bk-done-title">Well done!</h2>
-        <p className="bk-done-sub">You finished all 8 questions on <span className="greek">α β γ δ</span></p>
+        <p className="bk-done-sub">
+          You finished <span className="greek">{round.letters.join(' ')}</span>
+        </p>
         <div className="bk-done-actions">
+          {hasNextRound && (
+            <button className="bk-start-btn" onClick={onNextRound}>Next Round →</button>
+          )}
           <button className="bk-start-btn" onClick={onReset}>Play Again</button>
-          <button className="bk-home-btn" onClick={onGoHome}>← Home</button>
+          <button className="bk-home-btn" onClick={onGoHome}>← Rounds</button>
         </div>
       </div>
     </div>
