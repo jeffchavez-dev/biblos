@@ -6,30 +6,30 @@ const B = '/biblos-kids-images/'
 const LETTERS = [
   {
     letter: 'α', name: 'alpha',
-    intro:     B + '1.⁠α and name.jpeg',
+    intro:     B + '1.α and name.jpeg',
     letterImg: B + '2.α letter.jpeg',
     nameImg:   B + '3.α name.jpeg',
     audioSrc:  null,
   },
   {
     letter: 'β', name: 'beta',
-    intro:     B + '1.⁠β and name.jpeg',
+    intro:     B + '1.β and name.jpeg',
     letterImg: B + '2.β letter.jpeg',
     nameImg:   B + '3.β name.jpeg',
     audioSrc:  null,
   },
   {
     letter: 'γ', name: 'gamma',
-    intro:     B + '1.⁠γ and name.jpeg',
+    intro:     B + '1.γ and name.jpeg',
     letterImg: B + '2.γ letter.jpeg',
     nameImg:   B + '3.γ name.jpeg',
     audioSrc:  null,
   },
   {
     letter: 'δ', name: 'delta',
-    intro:     B + '1.⁠δ and name.jpeg',
+    intro:     B + '1.δ and name.jpeg',
     letterImg: B + '2.δ letter.jpeg',
-    nameImg:   B + '3.⁠δ name.jpeg',
+    nameImg:   B + '3.δ name.jpeg',
     audioSrc:  null,
   },
 ]
