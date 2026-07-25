@@ -7,6 +7,7 @@ import ChapterView from './components/ChapterView.jsx'
 import VocabularyIndex from './components/VocabularyIndex.jsx'
 import VocabularyTab from './components/tabs/VocabularyTab.jsx'
 import GntReader from './components/GntReader.jsx'
+import BiblosKids from './components/BiblosKids.jsx'
 import { LanguageProvider, LANGUAGES, useLanguage, useUI } from './context/LanguageContext.jsx'
 import { clearSession } from './auth.js'
 import units from './data/units.json'
@@ -315,6 +316,7 @@ function AppInner({ onSignOut, initialNav, onGoHome, onGoToUnits, onGoToUnit }) 
 export default function App() {
   const [session, setSession]     = useState(() => localStorage.getItem('biblos_session') || null)
   const [homeScreen, setHomeScreen] = useState(true)
+  const [kidsScreen, setKidsScreen] = useState(false)
   const [initialNav, setInitialNav] = useState(null)
   const [homeNav, setHomeNav] = useState(null) // { page, unitId } for HomeScreen initial state
 
@@ -328,6 +330,11 @@ export default function App() {
   }
 
   function handleEnterApp(nav) {
+    if (nav.type === 'kids') {
+      setKidsScreen(true)
+      setHomeScreen(false)
+      return
+    }
     if (nav.type === 'unitReview') {
       setInitialNav({ ...nav, unitId: nav.unitId })
     } else {
@@ -338,6 +345,7 @@ export default function App() {
 
   function handleGoHome() {
     setHomeNav(null)
+    setKidsScreen(false)
     setHomeScreen(true)
   }
 
@@ -362,7 +370,9 @@ export default function App() {
 
   return (
     <LanguageProvider>
-      {homeScreen
+      {kidsScreen
+        ? <BiblosKids onGoHome={handleGoHome} />
+        : homeScreen
         ? <HomeScreen onEnterApp={handleEnterApp} initialNav={homeNav} />
         : <AppInner
             onSignOut={handleSignOut}
@@ -374,6 +384,7 @@ export default function App() {
       }
     </LanguageProvider>
   )
+
 }
 
 function LockedView() {
