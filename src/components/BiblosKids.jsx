@@ -204,8 +204,11 @@ export default function BiblosKids({ onGoHome }) {
               const data = r.letters.map(getLetterData)
               return (
                 <button key={ri} className="bk-round-card" onClick={() => startRound(ri)}>
-                  <div className="bk-round-label">{r.label}</div>
-                  <div className="bk-round-letters greek">{r.letters.join(' ')}</div>
+                  <div className="bk-round-info">
+                    <div className="bk-round-label">{r.label}</div>
+                    <div className="bk-round-letters greek">{r.letters.join(' ')}</div>
+                    <div className="bk-round-cta">Start →</div>
+                  </div>
                   <div className="bk-round-grid">
                     {data.map(l => (
                       <div key={l.letter} className="bk-intro-card">
@@ -213,7 +216,6 @@ export default function BiblosKids({ onGoHome }) {
                       </div>
                     ))}
                   </div>
-                  <div className="bk-round-cta">Start →</div>
                 </button>
               )
             })}
@@ -256,16 +258,18 @@ export default function BiblosKids({ onGoHome }) {
       {screen === 'quiz' && (
         <div className="bk-quiz">
           <button className="bk-quiz-back" onClick={reset}>← Rounds</button>
-          <div className="bk-progress" aria-label="Progress">
-            {qs.map((_, i) => (
-              <div
-                key={i}
-                className={`bk-progress-dot ${i < qIndex ? 'bk-progress-dot--done' : i === qIndex ? 'bk-progress-dot--active' : ''}`}
-              />
-            ))}
-          </div>
-          <div className="bk-stimulus-wrap">
-            <img src={q.stimulus} alt="stimulus" className="bk-stimulus-img" />
+          <div className="bk-quiz-left">
+            <div className="bk-progress" aria-label="Progress">
+              {qs.map((_, i) => (
+                <div
+                  key={i}
+                  className={`bk-progress-dot ${i < qIndex ? 'bk-progress-dot--done' : i === qIndex ? 'bk-progress-dot--active' : ''}`}
+                />
+              ))}
+            </div>
+            <div className="bk-stimulus-wrap">
+              <img src={q.stimulus} alt="stimulus" className="bk-stimulus-img" />
+            </div>
           </div>
           <div className="bk-options-grid">
             {opts.map(opt => {
