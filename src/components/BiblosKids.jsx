@@ -14,30 +14,52 @@ const ROUNDS = [
     letters: ['ε','ζ','η','θ'],
     letterNames: ['epsilon','zeta','eta','theta'],
   },
+  {
+    label: 'Round 3',
+    letters: ['ι','κ','λ','μ'],
+    letterNames: ['iota','kappa','lambda','mu'],
+  },
+  {
+    label: 'Round 4',
+    letters: ['ν','ξ','ο','π','ρ','ς'],
+    letterNames: ['nu','xi','omicron','pi','rho','sigma'],
+  },
+  {
+    label: 'Round 5',
+    letters: ['τ','υ','φ','χ','ψ','ω'],
+    letterNames: ['tau','upsilon','phi','chi','psi','omega'],
+  },
 ]
 
+// ς (final sigma) shares image files with σ
+function fileKey(letter) {
+  return letter === 'ς' ? 'σ' : letter
+}
+
 function getLetterData(letter) {
+  const k = fileKey(letter)
   return {
     letter,
-    intro:     B + `1.${letter} and name.jpeg`,
-    letterImg: B + `2.${letter} letter.jpeg`,
-    nameImg:   B + `3.${letter} name.jpeg`,
+    intro:        B + `1.${k} and name.jpeg`,
+    letterImg:    B + `2.${k} letter.jpeg`,
+    nameImg:      B + `3.${k} name.jpeg`,
+    newLetterImg: B + `${k} new letter.jpeg`,
   }
 }
 
 function buildQuestions(letters) {
   const data = letters.map(getLetterData)
-  const modeA = data.map(l => ({
+  const pass1 = data.map(l => ({
     correct: l.letter,
-    stimulus: l.letterImg,
+    stimulus: l.newLetterImg,
     options: data.map(o => ({ letter: o.letter, img: o.nameImg })),
   }))
-  const modeB = data.map(l => ({
+  const pass2 = data.map(l => ({
     correct: l.letter,
     stimulus: l.nameImg,
-    options: data.map(o => ({ letter: o.letter, img: o.letterImg })),
+    options: data.map(o => ({ letter: o.letter, img: o.newLetterImg })),
   }))
-  return [...modeA, ...modeB]
+  return [...pass1, ...pass2]
 }
 
 const CORRECT_SND  = '/sounds/correct.mp3'
