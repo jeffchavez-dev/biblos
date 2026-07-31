@@ -47,17 +47,23 @@ function getLetterData(letter) {
   }
 }
 
+function pickOptions(data, correctLetter, imgKey) {
+  const correct = data.find(o => o.letter === correctLetter)
+  const others = shuffle(data.filter(o => o.letter !== correctLetter)).slice(0, 3)
+  return [correct, ...others].map(o => ({ letter: o.letter, img: o[imgKey] }))
+}
+
 function buildQuestions(letters) {
   const data = letters.map(getLetterData)
   const pass1 = data.map(l => ({
     correct: l.letter,
     stimulus: l.newLetterImg,
-    options: data.map(o => ({ letter: o.letter, img: o.nameImg })),
+    options: pickOptions(data, l.letter, 'nameImg'),
   }))
   const pass2 = data.map(l => ({
     correct: l.letter,
     stimulus: l.nameImg,
-    options: data.map(o => ({ letter: o.letter, img: o.newLetterImg })),
+    options: pickOptions(data, l.letter, 'newLetterImg'),
   }))
   return [...pass1, ...pass2]
 }
