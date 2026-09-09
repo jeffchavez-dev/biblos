@@ -82,6 +82,7 @@ const UI = {
     catConjunction:        'Conjunction',
     catPronoun:            'Pronoun',
     catParticle:           'Particle',
+    catGrammar:            'Grammar Term',
     catOther:              'Other',
   },
   es: {
@@ -151,6 +152,7 @@ const UI = {
     catConjunction:        'Conjunción',
     catPronoun:            'Pronombre',
     catParticle:           'Partícula',
+    catGrammar:            'Término gramatical',
     catOther:              'Otro',
   },
   pl: {
@@ -220,6 +222,7 @@ const UI = {
     catConjunction:        'Spójnik',
     catPronoun:            'Zaimek',
     catParticle:           'Partykuła',
+    catGrammar:            'Termin gramatyczny',
     catOther:              'Inne',
   },
   fil: {
@@ -289,6 +292,7 @@ const UI = {
     catConjunction:        'Pangatnig',
     catPronoun:            'Panghalip',
     catParticle:           'Partikula',
+    catGrammar:            'Terminong panggramar',
     catOther:              'Iba pa',
   },
 }

@@ -14,6 +14,7 @@ const SOURCES = [
   { file: () => import('../data/unit2/chapter4/vocabulary.json'), unit: 2, chapter: 4 },
   { file: () => import('../data/unit2/chapter5/vocabulary.json'), unit: 2, chapter: 5 },
   { file: () => import('../data/unit2/chapter6/vocabulary.json'), unit: 2, chapter: 6 },
+  { file: () => import('../data/grammar-terms.json'), unit: 0, chapter: 0 },
 ]
 
 // Story sources — loaded lazily for context feature
@@ -36,6 +37,7 @@ const CATEGORIES = [
   { id: 'conjunction', labelKey: 'catConjunction', test: p => /conjunction/.test(p) },
   { id: 'pronoun',     labelKey: 'catPronoun',     test: p => /^pronoun/.test(p) },
   { id: 'particle',    labelKey: 'catParticle',    test: p => /^particle/.test(p) },
+  { id: 'grammar',     labelKey: 'catGrammar',     test: p => /^grammar term/.test(p) },
   { id: 'other',       labelKey: 'catOther',       test: () => true },
 ]
 
@@ -366,8 +368,8 @@ export default function VocabularyIndex({ onNavigate, target, onOpenGnt }) {
             ...w,
             unit,
             chapter,
-            source: sourceLabel(chapter, w.part),
-            lessonOrder: chapter * 10 + (w.part === 'A' ? 1 : 2),
+            source: chapter === 0 ? 'gram.' : sourceLabel(chapter, w.part),
+            lessonOrder: chapter === 0 ? 99999 : chapter * 10 + (w.part === 'A' ? 1 : 2),
             category: getCategory(w.partOfSpeech),
             verbGroup: getVerbGroup(w.partOfSpeech || ''),
             nounGroup: getNounGroup(w.partOfSpeech || ''),
@@ -708,24 +710,26 @@ export default function VocabularyIndex({ onNavigate, target, onOpenGnt }) {
                   <React.Fragment key={w._key}>
                     <tr className={i % 2 === 0 ? 'vt-row-even' : ''}>
                       <td className="vt-ctx">
-                        <button
-                          className={`ctx-btn${ctxOpen ? ' ctx-btn--active' : ''}`}
-                          onClick={() => handleCtxClick(w)}
-                          title="Show in story context"
-                        >❝</button>
-                        <button
-                          className={`para-btn${openParadigm === w._key ? ' para-btn--active' : ''}${!buildParadigm(w) ? ' para-btn--disabled' : ''}`}
-                          onClick={() => buildParadigm(w) && toggleParadigm(w._key)}
-                          title="Show paradigm table"
-                          disabled={!buildParadigm(w)}
-                        >Ω</button>
-                        {w.strongsNum && (
+                        {w.chapter !== 0 && <>
                           <button
-                            className={`refs-btn${openRefs === w._key ? ' refs-btn--active' : ''}`}
-                            onClick={() => toggleRefs(w._key)}
-                            title="Show NT scripture references"
-                          >📖</button>
-                        )}
+                            className={`ctx-btn${ctxOpen ? ' ctx-btn--active' : ''}`}
+                            onClick={() => handleCtxClick(w)}
+                            title="Show in story context"
+                          >❝</button>
+                          <button
+                            className={`para-btn${openParadigm === w._key ? ' para-btn--active' : ''}${!buildParadigm(w) ? ' para-btn--disabled' : ''}`}
+                            onClick={() => buildParadigm(w) && toggleParadigm(w._key)}
+                            title="Show paradigm table"
+                            disabled={!buildParadigm(w)}
+                          >Ω</button>
+                          {w.strongsNum && (
+                            <button
+                              className={`refs-btn${openRefs === w._key ? ' refs-btn--active' : ''}`}
+                              onClick={() => toggleRefs(w._key)}
+                              title="Show NT scripture references"
+                            >📖</button>
+                          )}
+                        </>}
                       </td>
                       <td className="vt-img-col">
                         {wordImages(w).length > 0 && (
@@ -756,13 +760,17 @@ export default function VocabularyIndex({ onNavigate, target, onOpenGnt }) {
                         </span>
                       </td>
                       <td className="vt-source">
-                        <button
-                          className="vt-source-btn"
-                          onClick={() => onNavigate(w.unit, w.chapter, w.part)}
-                          title={`Go to Chapter ${w.chapter}, Part ${w.part}`}
-                        >
-                          {w.source}
-                        </button>
+                        {w.chapter === 0 ? (
+                          <span className="vt-source-label">{w.source}</span>
+                        ) : (
+                          <button
+                            className="vt-source-btn"
+                            onClick={() => onNavigate(w.unit, w.chapter, w.part)}
+                            title={`Go to Chapter ${w.chapter}, Part ${w.part}`}
+                          >
+                            {w.source}
+                          </button>
+                        )}
                       </td>
                     </tr>
                     {ctxOpen && (

@@ -255,6 +255,7 @@
 .pos-tag--conjunction { background: #fce7f3; color: #9d174d; }
 .pos-tag--pronoun     { background: #e0f2fe; color: #0c4a6e; }
 .pos-tag--particle    { background: #f0fdf4; color: #166534; }
+.pos-tag--grammar     { background: #fdf4ff; color: #7e22ce; }
 .pos-tag--other       { background: #f1f5f9; color: #334155; }
 
 /* Sort toggle */
@@ -358,6 +359,15 @@
 .vt-source-btn:hover {
   background: var(--gold, #c9a84c);
   color: #fff;
+}
+.vt-source-label {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  border: 1.5px solid #d8b4fe;
+  color: #7e22ce;
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 
 .vocab-index-loading {
