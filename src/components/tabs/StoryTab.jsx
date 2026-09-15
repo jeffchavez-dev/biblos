@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
 import { useLanguage, useUI, t } from '../../context/LanguageContext.jsx'
 import PARADIGMS from '../../data/paradigms.json'
-import { parseDefinition } from '../../utils/grammarGreek.js'
+import { parseDefinition, inferVerbChips } from '../../utils/grammarGreek.js'
 import './StoryTab.css'
 
 function getParagraphParts(paragraphs) {
@@ -392,16 +392,17 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
               <span className="tooltip-greek greek">{activeWord.greek}</span>
               <span className="tooltip-arrow">→</span>
               {(() => {
-                const parsed = parseDefinition(t(activeWord.definition, activeWord.translations, lang))
+                const rawDef = t(activeWord.definition, activeWord.translations, lang)
+                const parsed = parseDefinition(rawDef) || inferVerbChips(rawDef)
                 if (!parsed) return (
-                  <span className="tooltip-def">{t(activeWord.definition, activeWord.translations, lang)}</span>
+                  <span className="tooltip-def">{rawDef}</span>
                 )
                 return (
                   <span className="tooltip-def tooltip-def--parsed">
                     <span className="tooltip-gloss">{parsed.gloss}</span>
                     <span className="tooltip-grammar-chips">
                       {parsed.chips.map((chip, i) => (
-                        <span key={i} className="grammar-chip greek">{chip}</span>
+                        <span key={i} className={`grammar-chip greek${parsed.inferred ? ' grammar-chip--inferred' : ''}`}>{chip}</span>
                       ))}
                     </span>
                   </span>

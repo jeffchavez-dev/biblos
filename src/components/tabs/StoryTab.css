@@ -534,6 +534,11 @@
   line-height: 1.6;
 }
 
+.grammar-chip--inferred {
+  opacity: 0.6;
+  font-style: italic;
+}
+
 .tooltip-paradigm-section {
   border-top: 1px solid rgba(255,255,255,0.15);
   margin-top: 8px;

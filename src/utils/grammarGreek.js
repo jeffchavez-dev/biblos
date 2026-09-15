@@ -145,6 +145,34 @@ export function parseDefinition(definition) {
   return chips.length ? { gloss, chips } : null
 }
 
+// Subject-pronoun → person + number inference for verb glosses that lack parenthetical parsing
+const GLOSS_PERSON = [
+  { pattern: /^i\s/i,              person: 'πρῶτον πρόσωπον',  number: 'ἑνικός' },
+  { pattern: /^you\s/i,            person: 'δεύτερον πρόσωπον', number: 'ἑνικός' },
+  { pattern: /^he\s|^she\s|^it\s/i, person: 'τρίτον πρόσωπον',  number: 'ἑνικός' },
+  { pattern: /^we\s/i,             person: 'πρῶτον πρόσωπον',  number: 'πληθυντικός' },
+  { pattern: /^they\s/i,           person: 'τρίτον πρόσωπον',  number: 'πληθυντικός' },
+]
+
+/**
+ * For verb glosses with no parenthetical (e.g. "they see"), infers person and number
+ * from the English subject pronoun.
+ * Returns { gloss, chips, inferred: true } or null.
+ */
+export function inferVerbChips(definition) {
+  if (!definition) return null
+  // Skip if there's already a parenthetical — parseDefinition handles those
+  if (/\([^)]+\)\s*$/.test(definition)) return null
+
+  const def = definition.trim()
+  for (const { pattern, person, number } of GLOSS_PERSON) {
+    if (pattern.test(def)) {
+      return { gloss: def, chips: [person, number], inferred: true }
+    }
+  }
+  return null
+}
+
 // Greek labels for grammar-term subcategories (for the Lexicon)
 export const SUBCATEGORY_GREEK = {
   'case'          : 'πτῶσις',
