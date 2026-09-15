@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
 import { useLanguage, useUI, t } from '../../context/LanguageContext.jsx'
 import PARADIGMS from '../../data/paradigms.json'
-import { parseDefinition, inferVerbChips } from '../../utils/grammarGreek.js'
+import { parseDefinition, inferVerbChips, matchParadigmChips } from '../../utils/grammarGreek.js'
 import './StoryTab.css'
 
 function getParagraphParts(paragraphs) {
@@ -393,7 +393,10 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
               <span className="tooltip-arrow">→</span>
               {(() => {
                 const rawDef = t(activeWord.definition, activeWord.translations, lang)
-                const parsed = parseDefinition(rawDef) || inferVerbChips(rawDef)
+                const paradigm = getParadigm(activeWord.vocabEntry)
+                const parsed = parseDefinition(rawDef)
+                  || matchParadigmChips(activeWord.greek, paradigm, rawDef)
+                  || inferVerbChips(rawDef)
                 if (!parsed) return (
                   <span className="tooltip-def">{rawDef}</span>
                 )

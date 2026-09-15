@@ -145,6 +145,52 @@ export function parseDefinition(definition) {
   return chips.length ? { gloss, chips } : null
 }
 
+// Strip Greek diacritics for accent-insensitive form matching
+function stripAccents(str) {
+  return str.normalize('NFD').replace(/[̀-ͯ]/g, '').normalize('NFC')
+}
+
+const CASE_LABEL_MAP = {
+  'Nom.': 'ὀνομαστική', 'Gen.': 'γενική', 'Dat.': 'δοτική',
+  'Acc.': 'αἰτιατική', 'Voc.': 'κλητική',
+}
+const ARTICLE_GENDER_MAP = { 'ὁ': 'ἀρσενικόν', 'ἡ': 'θηλυκόν', 'τό': 'οὐδέτερον' }
+
+/**
+ * Matches activeWord.greek against a paradigm table (noun/adj) to determine
+ * case and number. Gender is extracted from the paradigm label.
+ * Returns { gloss, chips } in canonical γένος · ἀριθμός · πτῶσις order, or null.
+ */
+export function matchParadigmChips(greek, paradigm, gloss) {
+  if (!greek || !paradigm || paradigm.type === 'verb') return null
+
+  const bare = stripAccents(greek.toLowerCase())
+
+  // Extract gender from label: "πηγή, -ῆς, ἡ — spring" → "ἡ" → θηλυκόν
+  let gender = null
+  const labelParts = (paradigm.label || '').split('—')[0].trim()
+  for (const [article, g] of Object.entries(ARTICLE_GENDER_MAP)) {
+    if (labelParts.includes(article)) { gender = g; break }
+  }
+
+  for (const row of (paradigm.rows || [])) {
+    const caseChip = CASE_LABEL_MAP[row.case]
+    if (!caseChip) continue
+    const sgBare = stripAccents((row.sg || '').toLowerCase())
+    const plBare = stripAccents((row.pl || '').toLowerCase())
+
+    if (bare === sgBare) {
+      const chips = [gender, 'ἑνικός', caseChip].filter(Boolean)
+      return { gloss, chips, inferred: true }
+    }
+    if (plBare && bare === plBare) {
+      const chips = [gender, 'πληθυντικός', caseChip].filter(Boolean)
+      return { gloss, chips, inferred: true }
+    }
+  }
+  return null
+}
+
 // Subject-pronoun → person + number inference for verb glosses that lack parenthetical parsing
 const GLOSS_PERSON = [
   { pattern: /^i\s/i,              person: 'πρῶτον πρόσωπον',  number: 'ἑνικός' },
