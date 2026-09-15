@@ -258,6 +258,23 @@
 .pos-tag--grammar     { background: #fdf4ff; color: #7e22ce; }
 .pos-tag--other       { background: #f1f5f9; color: #334155; }
 
+.pos-subcategory {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-top: 3px;
+}
+.pos-subcategory-en {
+  font-size: 0.7rem;
+  color: var(--text-muted, #888);
+  text-transform: lowercase;
+}
+.pos-subcategory-gr {
+  font-size: 0.75rem;
+  color: #7e22ce;
+  opacity: 0.8;
+}
+
 /* Sort toggle */
 .vocab-index-sort {
   display: flex;

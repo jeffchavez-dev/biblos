@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react'
 import { useLanguage, useUI, t } from '../../context/LanguageContext.jsx'
 import PARADIGMS from '../../data/paradigms.json'
+import { parseDefinition } from '../../utils/grammarGreek.js'
 import './StoryTab.css'
 
 function getParagraphParts(paragraphs) {
@@ -390,7 +391,22 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
             <div className="tooltip-gloss-row">
               <span className="tooltip-greek greek">{activeWord.greek}</span>
               <span className="tooltip-arrow">→</span>
-              <span className="tooltip-def">{t(activeWord.definition, activeWord.translations, lang)}</span>
+              {(() => {
+                const parsed = parseDefinition(t(activeWord.definition, activeWord.translations, lang))
+                if (!parsed) return (
+                  <span className="tooltip-def">{t(activeWord.definition, activeWord.translations, lang)}</span>
+                )
+                return (
+                  <span className="tooltip-def tooltip-def--parsed">
+                    <span className="tooltip-gloss">{parsed.gloss}</span>
+                    <span className="tooltip-grammar-chips">
+                      {parsed.chips.map((chip, i) => (
+                        <span key={i} className="grammar-chip greek">{chip}</span>
+                      ))}
+                    </span>
+                  </span>
+                )
+              })()}
               <button className="tooltip-close" onClick={() => { setActiveWord(null); setShowImage(false); setShowParadigm(false) }}>✕</button>
             </div>
           )}

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef, useCallback } from 'react'
 import { useUI, useLanguage, t } from '../context/LanguageContext.jsx'
 import FullscreenViewer from './FullscreenViewer.jsx'
 import GreekKeyboard from './GreekKeyboard.jsx'
+import { SUBCATEGORY_GREEK } from '../utils/grammarGreek.js'
 import './VocabularyIndex.css'
 
 function wordImages(w) { return w.images || (w.image ? [w.image] : []) }
@@ -760,6 +761,12 @@ export default function VocabularyIndex({ onNavigate, target, onOpenGnt }) {
                         <span className={`pos-tag pos-tag--${w.category}`}>
                           {ui(CATEGORIES.find(c => c.id === w.category)?.labelKey)}
                         </span>
+                        {w.chapter === 0 && w.subcategory && SUBCATEGORY_GREEK[w.subcategory] && (
+                          <span className="pos-subcategory">
+                            <span className="pos-subcategory-en">{w.subcategory}</span>
+                            <span className="pos-subcategory-gr greek">{SUBCATEGORY_GREEK[w.subcategory]}</span>
+                          </span>
+                        )}
                       </td>
                       <td className="vt-source">
                         {w.chapter === 0 ? (

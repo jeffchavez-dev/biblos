@@ -506,6 +506,34 @@
   gap: 10px;
 }
 
+.tooltip-def--parsed {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tooltip-gloss {
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.tooltip-grammar-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.grammar-chip {
+  display: inline-block;
+  font-size: 0.72rem;
+  padding: 1px 7px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+}
+
 .tooltip-paradigm-section {
   border-top: 1px solid rgba(255,255,255,0.15);
   margin-top: 8px;
