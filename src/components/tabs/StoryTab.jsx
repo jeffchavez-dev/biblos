@@ -308,6 +308,18 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
                       </table>
                     </div>
                   )}
+                  {note.type === 'word' && (
+                    <div className="side-note side-note--word">
+                      <div className="side-note-phrase greek">{note.word}</div>
+                      {note.lemma && (
+                        <div className="side-note-lemma greek">ἀπό: {note.lemma}</div>
+                      )}
+                      <div className="side-note-means-row">
+                        <span className="side-note-means-label greek">σημαίνει</span>
+                        <span className="side-note-means-value greek">{note.means}</span>
+                      </div>
+                    </div>
+                  )}
                   {note.type === 'construction' && (
                     <div className="side-note side-note--construction">
                       <div className="side-note-title greek">{note.title}</div>
