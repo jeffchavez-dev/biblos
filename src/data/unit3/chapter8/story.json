@@ -2600,6 +2600,15 @@
     },
     {
       "id": 12,
+      "label": "Μέρος Βʹ — Ὁ Καρπὸς τοῦ Πνεύματος (Part B — The Fruit of the Spirit)",
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "γενικὴ ἀπόλυτος",
+          "phrase": "τοῦ ἡλίου λάμποντος",
+          "means": "ἐν ᾧ (ὅτε) ὁ ἥλιος λάμπει"
+        }
+      ],
       "words": [
         {
           "greek": "τοῦ",

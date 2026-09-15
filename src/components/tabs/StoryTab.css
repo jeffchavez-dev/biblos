@@ -77,6 +77,40 @@
   opacity: 0.6;
 }
 
+.side-note--construction .side-note-title {
+  color: var(--deep-blue);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 4px;
+}
+
+.side-note-phrase {
+  font-size: 0.82rem;
+  color: var(--deep-blue);
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+.side-note-means-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.side-note-means-label {
+  font-size: 0.65rem;
+  opacity: 0.55;
+  letter-spacing: 0.02em;
+}
+
+.side-note-means-value {
+  font-size: 0.8rem;
+  color: var(--deep-blue);
+  line-height: 1.4;
+  opacity: 0.8;
+}
+
 .side-note-sym {
   color: var(--gold, #c9a84c);
   font-size: 0.85rem;
