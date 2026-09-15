@@ -1,1 +1,422 @@
-[]
+[
+  {
+    "id": 1,
+    "part": "A",
+    "greek": "ἅγιος, -α, -ον",
+    "transliteration": "hagios",
+    "definition": "holy, sacred, set apart",
+    "translations": {
+      "es": "santo, sagrado",
+      "pl": "święty, poświęcony",
+      "fil": "banal, sagrado"
+    },
+    "partOfSpeech": "adjective",
+    "image": null,
+    "strongsNum": "G0040"
+  },
+  {
+    "id": 2,
+    "part": "A",
+    "greek": "παράκλητος, -ου, ὁ",
+    "transliteration": "paraklētos",
+    "definition": "helper, advocate, Paraclete",
+    "translations": {
+      "es": "consolador, abogado, paráclito",
+      "pl": "pocieszyciel, rzecznik, paraklet",
+      "fil": "tagapagtanggol, mang-aaliw, paraklit"
+    },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G3875"
+  },
+  {
+    "id": 3,
+    "part": "A",
+    "greek": "μαθητής, -οῦ, ὁ",
+    "transliteration": "mathētēs",
+    "definition": "disciple, student, follower",
+    "translations": {
+      "es": "discípulo, estudiante",
+      "pl": "uczeń, naśladowca",
+      "fil": "alagad, estudyante"
+    },
+    "partOfSpeech": "noun (masculine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G3101"
+  },
+  {
+    "id": 4,
+    "part": "A",
+    "greek": "ἁμαρτία, -ας, ἡ",
+    "transliteration": "hamartia",
+    "definition": "sin, wrongdoing, failure",
+    "translations": {
+      "es": "pecado, falta",
+      "pl": "grzech, wykroczenie",
+      "fil": "kasalanan, pagkakamali"
+    },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G0266"
+  },
+  {
+    "id": 5,
+    "part": "A",
+    "greek": "πέμπω",
+    "transliteration": "pempō",
+    "definition": "I send",
+    "translations": {
+      "es": "envío",
+      "pl": "posyłam",
+      "fil": "nagpapadala ako"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G3992"
+  },
+  {
+    "id": 6,
+    "part": "A",
+    "greek": "δοξάζω",
+    "transliteration": "doxazō",
+    "definition": "I glorify, honor, praise",
+    "translations": {
+      "es": "glorifico, honro",
+      "pl": "wychwaliam, czczę",
+      "fil": "niluluwalhati ko, pinupuri ko"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G1392"
+  },
+  {
+    "id": 7,
+    "part": "A",
+    "greek": "μαρτυρέω, -ῶ",
+    "transliteration": "martyreō",
+    "definition": "I testify, bear witness",
+    "translations": {
+      "es": "testifico, doy testimonio",
+      "pl": "świadczę, daję świadectwo",
+      "fil": "nagpapatotoo ako, sumasaksi ako"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G3140"
+  },
+  {
+    "id": 8,
+    "part": "A",
+    "greek": "ὁδηγέω, -ῶ",
+    "transliteration": "hodēgeō",
+    "definition": "I guide, lead, direct",
+    "translations": {
+      "es": "guío, dirijo",
+      "pl": "prowadzę, kieruję",
+      "fil": "ginagabayan ko, inaakay ko"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G3594"
+  },
+  {
+    "id": 9,
+    "part": "A",
+    "greek": "ὁμολογέω, -ῶ",
+    "transliteration": "homologeō",
+    "definition": "I confess, acknowledge, declare",
+    "translations": {
+      "es": "confieso, reconozco",
+      "pl": "wyznaję, przyznaję",
+      "fil": "inamin ko, ipinahayag ko"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G3670"
+  },
+  {
+    "id": 10,
+    "part": "A",
+    "greek": "ἐλέγχω",
+    "transliteration": "elenchō",
+    "definition": "I convict, reprove, expose",
+    "translations": {
+      "es": "convenzo, reprendo, expongo",
+      "pl": "przekonuję, ganię, ujawniam",
+      "fil": "kinukumbinsi ko, sinisisi ko"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G1651"
+  },
+  {
+    "id": 11,
+    "part": "A",
+    "greek": "αἰτέω, -ῶ",
+    "transliteration": "aiteō",
+    "definition": "I ask, request, demand",
+    "translations": {
+      "es": "pido, solicito",
+      "pl": "proszę, żądam",
+      "fil": "humihingi ako, nagtatanong ako"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G0154"
+  },
+  {
+    "id": 12,
+    "part": "A",
+    "greek": "κρούω",
+    "transliteration": "krouō",
+    "definition": "I knock",
+    "translations": {
+      "es": "llamo a la puerta, golpeo",
+      "pl": "pukam",
+      "fil": "kumakatok ako"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G2925"
+  },
+  {
+    "id": 13,
+    "part": "A",
+    "greek": "δεῖ",
+    "transliteration": "dei",
+    "definition": "it is necessary, one must",
+    "translations": {
+      "es": "es necesario, hay que",
+      "pl": "trzeba, jest konieczne",
+      "fil": "kailangang-kailangan, dapat"
+    },
+    "partOfSpeech": "verb (impersonal)",
+    "image": null,
+    "strongsNum": "G1163"
+  },
+  {
+    "id": 14,
+    "part": "A",
+    "greek": "ἄξιος, -α, -ον",
+    "transliteration": "axios",
+    "definition": "worthy, deserving",
+    "translations": {
+      "es": "digno, merecedor",
+      "pl": "godny, zasługujący",
+      "fil": "karapat-dapat, nararapat"
+    },
+    "partOfSpeech": "adjective",
+    "image": null,
+    "strongsNum": "G0514"
+  },
+  {
+    "id": 15,
+    "part": "A",
+    "greek": "ξένος, -ου, ὁ",
+    "transliteration": "xenos",
+    "definition": "stranger, foreigner, guest",
+    "translations": {
+      "es": "extranjero, forastero, huésped",
+      "pl": "obcy, cudzoziemiec, gość",
+      "fil": "dayuhan, estranghero, panauhin"
+    },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G3581"
+  },
+  {
+    "id": 16,
+    "part": "B",
+    "greek": "αἰών, -ῶνος, ὁ",
+    "transliteration": "aiōn",
+    "definition": "age, era, eternity",
+    "translations": {
+      "es": "siglo, era, eternidad",
+      "pl": "wiek, epoka, wieczność",
+      "fil": "kapanahunan, walang hanggan"
+    },
+    "partOfSpeech": "noun (masculine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G0165"
+  },
+  {
+    "id": 17,
+    "part": "B",
+    "greek": "χάρις, χάριτος, ἡ",
+    "transliteration": "charis",
+    "definition": "grace, favor, gift",
+    "translations": {
+      "es": "gracia, favor",
+      "pl": "łaska, przychylność",
+      "fil": "biyaya, kagandahang-loob"
+    },
+    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G5485"
+  },
+  {
+    "id": 18,
+    "part": "B",
+    "greek": "χείρ, χειρός, ἡ",
+    "transliteration": "cheir",
+    "definition": "hand",
+    "translations": {
+      "es": "mano",
+      "pl": "ręka",
+      "fil": "kamay"
+    },
+    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G5495"
+  },
+  {
+    "id": 19,
+    "part": "B",
+    "greek": "ἀνήρ, ἀνδρός, ὁ",
+    "transliteration": "anēr",
+    "definition": "man, husband",
+    "translations": {
+      "es": "hombre, esposo, varón",
+      "pl": "mężczyzna, mąż",
+      "fil": "lalaki, asawang lalaki"
+    },
+    "partOfSpeech": "noun (masculine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G0435"
+  },
+  {
+    "id": 20,
+    "part": "B",
+    "greek": "ἐλπίς, ἐλπίδος, ἡ",
+    "transliteration": "elpis",
+    "definition": "hope, expectation",
+    "translations": {
+      "es": "esperanza, expectativa",
+      "pl": "nadzieja, oczekiwanie",
+      "fil": "pag-asa, inaasahan"
+    },
+    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G1680"
+  },
+  {
+    "id": 21,
+    "part": "B",
+    "greek": "ἀπαγγέλλω",
+    "transliteration": "apangellō",
+    "definition": "I announce, report, proclaim",
+    "translations": {
+      "es": "anuncio, reporto, proclamo",
+      "pl": "ogłaszam, oznajmiam",
+      "fil": "inihahayag ko, iniuulat ko"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G0518"
+  },
+  {
+    "id": 22,
+    "part": "B",
+    "greek": "ἐλπίζω",
+    "transliteration": "elpizō",
+    "definition": "I hope, expect, trust",
+    "translations": {
+      "es": "espero, confío",
+      "pl": "mam nadzieję, ufam",
+      "fil": "umaasa ako, nagtitiwala ako"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G1679"
+  },
+  {
+    "id": 23,
+    "part": "B",
+    "greek": "μνημονεύω",
+    "transliteration": "mnēmoneuō",
+    "definition": "I remember, keep in mind",
+    "translations": {
+      "es": "recuerdo, tengo en mente",
+      "pl": "pamiętam, mam na uwadze",
+      "fil": "naalala ko, iniisip ko"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G3421"
+  },
+  {
+    "id": 24,
+    "part": "B",
+    "greek": "φοβέομαι, -οῦμαι",
+    "transliteration": "phobeomai",
+    "definition": "I fear, am afraid, reverence",
+    "translations": {
+      "es": "temo, me da miedo",
+      "pl": "boję się, lękam się",
+      "fil": "natatakot ako, nangangamba ako"
+    },
+    "partOfSpeech": "verb (deponent)",
+    "image": null,
+    "strongsNum": "G5399"
+  },
+  {
+    "id": 25,
+    "part": "B",
+    "greek": "ἀνίστημι",
+    "transliteration": "anistēmi",
+    "definition": "I rise, stand up, raise up",
+    "translations": {
+      "es": "me levanto, resucito",
+      "pl": "wstaję, zmartwychwstaję",
+      "fil": "bumabangon ako, nagbabangon ako"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G0450"
+  },
+  {
+    "id": 26,
+    "part": "B",
+    "greek": "κενός, -ή, -όν",
+    "transliteration": "kenos",
+    "definition": "empty, vain, without result",
+    "translations": {
+      "es": "vacío, vano, inútil",
+      "pl": "pusty, próżny, bezużyteczny",
+      "fil": "walang laman, walang kabuluhan"
+    },
+    "partOfSpeech": "adjective",
+    "image": null,
+    "strongsNum": "G2756"
+  },
+  {
+    "id": 27,
+    "part": "B",
+    "greek": "σπουδαῖος, -α, -ον",
+    "transliteration": "spoudaios",
+    "definition": "diligent, eager, earnest",
+    "translations": {
+      "es": "diligente, entusiasta, aplicado",
+      "pl": "pilny, gorliwy, zaangażowany",
+      "fil": "masipag, masigasig, tapat"
+    },
+    "partOfSpeech": "adjective",
+    "image": null,
+    "strongsNum": "G4705"
+  },
+  {
+    "id": 28,
+    "part": "B",
+    "greek": "δωρεάν",
+    "transliteration": "dōrean",
+    "definition": "freely, as a gift, without cost",
+    "translations": {
+      "es": "gratuitamente, de gracia, sin costo",
+      "pl": "bezpłatnie, za darmo, jako dar",
+      "fil": "libre, walang bayad, bilang regalo"
+    },
+    "partOfSpeech": "adverb",
+    "image": null,
+    "strongsNum": "G1432"
+  }
+]

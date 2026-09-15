@@ -1,1 +1,422 @@
-[]
+[
+  {
+    "id": 1,
+    "part": "A",
+    "greek": "σάρξ, σαρκός, ἡ",
+    "transliteration": "sarx",
+    "definition": "flesh, human nature, bodily existence",
+    "translations": {
+      "es": "carne, naturaleza humana",
+      "pl": "ciało, ludzka natura",
+      "fil": "laman, katawang-tao"
+    },
+    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G4561"
+  },
+  {
+    "id": 2,
+    "part": "A",
+    "greek": "θάνατος, -ου, ὁ",
+    "transliteration": "thanatos",
+    "definition": "death",
+    "translations": {
+      "es": "muerte",
+      "pl": "śmierć",
+      "fil": "kamatayan"
+    },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G2288"
+  },
+  {
+    "id": 3,
+    "part": "A",
+    "greek": "ἐπιθυμία, -ας, ἡ",
+    "transliteration": "epithymia",
+    "definition": "desire, craving, lust",
+    "translations": {
+      "es": "deseo, codicia, concupiscencia",
+      "pl": "pożądanie, pragnienie, żądza",
+      "fil": "pagnanasa, pagnanais, kahalayan"
+    },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G1939"
+  },
+  {
+    "id": 4,
+    "part": "A",
+    "greek": "φρόνημα, -ατος, τό",
+    "transliteration": "phronēma",
+    "definition": "mindset, way of thinking, orientation of the mind",
+    "translations": {
+      "es": "mentalidad, manera de pensar",
+      "pl": "nastawienie umysłu, sposób myślenia",
+      "fil": "pag-iisip, kaisipan, oryentasyon ng isip"
+    },
+    "partOfSpeech": "noun (neuter, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G5427"
+  },
+  {
+    "id": 5,
+    "part": "A",
+    "greek": "κακός, -ή, -όν",
+    "transliteration": "kakos",
+    "definition": "bad, evil, harmful, wrong",
+    "translations": {
+      "es": "malo, malvado, dañino",
+      "pl": "zły, szkodliwy, niedobry",
+      "fil": "masama, masamang-loob, mapanganib"
+    },
+    "partOfSpeech": "adjective",
+    "image": null,
+    "strongsNum": "G2556"
+  },
+  {
+    "id": 6,
+    "part": "A",
+    "greek": "ἀδικία, -ας, ἡ",
+    "transliteration": "adikia",
+    "definition": "injustice, unrighteousness, wrongdoing",
+    "translations": {
+      "es": "injusticia, iniquidad, maldad",
+      "pl": "niesprawiedliwość, nieprawość",
+      "fil": "kawalan ng katarungan, kasamaan, kalikuan"
+    },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G0093"
+  },
+  {
+    "id": 7,
+    "part": "A",
+    "greek": "ἄφεσις, -εως, ἡ",
+    "transliteration": "aphesis",
+    "definition": "forgiveness, release, pardon",
+    "translations": {
+      "es": "perdón, remisión, liberación",
+      "pl": "przebaczenie, odpuszczenie, uwolnienie",
+      "fil": "kapatawaran, pagpapatawad, palaya"
+    },
+    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G0859"
+  },
+  {
+    "id": 8,
+    "part": "A",
+    "greek": "ἀπόστολος, -ου, ὁ",
+    "transliteration": "apostolos",
+    "definition": "apostle, messenger, sent one",
+    "translations": {
+      "es": "apóstol, mensajero",
+      "pl": "apostoł, posłaniec",
+      "fil": "apostol, mensahero"
+    },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G0652"
+  },
+  {
+    "id": 9,
+    "part": "A",
+    "greek": "Ἀββᾶ",
+    "transliteration": "Abba",
+    "definition": "Abba, Father (Aramaic term of address)",
+    "translations": {
+      "es": "Abba, Padre",
+      "pl": "Abba, Ojcze",
+      "fil": "Abba, Ama"
+    },
+    "partOfSpeech": "noun (indeclinable, Aramaic)",
+    "image": null,
+    "strongsNum": "G0005"
+  },
+  {
+    "id": 10,
+    "part": "A",
+    "greek": "κληρονόμος, -ου, ὁ",
+    "transliteration": "klēronomos",
+    "definition": "heir, inheritor",
+    "translations": {
+      "es": "heredero",
+      "pl": "dziedzic, spadkobierca",
+      "fil": "tagapagmana, kahalili"
+    },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G2818"
+  },
+  {
+    "id": 11,
+    "part": "A",
+    "greek": "λογίζομαι",
+    "transliteration": "logizomai",
+    "definition": "I reckon, consider, think, count",
+    "translations": {
+      "es": "considero, calculo, pienso",
+      "pl": "uznaję, liczę, myślę",
+      "fil": "isinasaalang-alang ko, iniisip ko"
+    },
+    "partOfSpeech": "verb (deponent)",
+    "image": null,
+    "strongsNum": "G3049"
+  },
+  {
+    "id": 12,
+    "part": "A",
+    "greek": "ἀντίκειμαι",
+    "transliteration": "antikeimai",
+    "definition": "I oppose, am opposed to, am hostile to",
+    "translations": {
+      "es": "me opongo a, soy contrario a",
+      "pl": "sprzeciwiam się, jestem wrogi",
+      "fil": "lumalaban ako, tutol ako"
+    },
+    "partOfSpeech": "verb (deponent)",
+    "image": null,
+    "strongsNum": "G0480"
+  },
+  {
+    "id": 13,
+    "part": "A",
+    "greek": "ὑπομένω",
+    "transliteration": "hypomenō",
+    "definition": "I endure, persevere, remain under",
+    "translations": {
+      "es": "soporto, persevero, aguanto",
+      "pl": "znoszę, wytrwam, pozostaję",
+      "fil": "nagtitiis ako, nagtitiis ako, nagpupumilit"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G5278"
+  },
+  {
+    "id": 14,
+    "part": "A",
+    "greek": "ἄνεμος, -ου, ὁ",
+    "transliteration": "anemos",
+    "definition": "wind",
+    "translations": {
+      "es": "viento",
+      "pl": "wiatr",
+      "fil": "hangin"
+    },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G0417"
+  },
+  {
+    "id": 15,
+    "part": "B",
+    "greek": "ἀγάπη, -ης, ἡ",
+    "transliteration": "agapē",
+    "definition": "love (selfless, unconditional)",
+    "translations": {
+      "es": "amor, caridad",
+      "pl": "miłość, agape",
+      "fil": "pagmamahal, pag-ibig"
+    },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G0026"
+  },
+  {
+    "id": 16,
+    "part": "B",
+    "greek": "πίστις, πίστεως, ἡ",
+    "transliteration": "pistis",
+    "definition": "faith, trust, faithfulness, belief",
+    "translations": {
+      "es": "fe, confianza, fidelidad",
+      "pl": "wiara, zaufanie, wierność",
+      "fil": "pananampalataya, tiwala, katapatan"
+    },
+    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G4102"
+  },
+  {
+    "id": 17,
+    "part": "B",
+    "greek": "πραΰτης, -ητος, ἡ",
+    "transliteration": "prautēs",
+    "definition": "gentleness, meekness, humility",
+    "translations": {
+      "es": "mansedumbre, suavidad, humildad",
+      "pl": "łagodność, pokora, cichość",
+      "fil": "kahinahunan, kababaang-loob, lambot"
+    },
+    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G4240"
+  },
+  {
+    "id": 18,
+    "part": "B",
+    "greek": "χρηστότης, -ητος, ἡ",
+    "transliteration": "chrēstotēs",
+    "definition": "kindness, goodness, generosity",
+    "translations": {
+      "es": "bondad, amabilidad, generosidad",
+      "pl": "dobroć, łaskawość, życzliwość",
+      "fil": "kabaitan, kagandahang-asal, kabutihan"
+    },
+    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G5544"
+  },
+  {
+    "id": 19,
+    "part": "B",
+    "greek": "ἀγαθωσύνη, -ης, ἡ",
+    "transliteration": "agathōsynē",
+    "definition": "goodness, moral excellence, virtue",
+    "translations": {
+      "es": "bondad, benevolencia, virtud",
+      "pl": "dobroć, prawość, cnota",
+      "fil": "kabutihan, kabutihang-asal"
+    },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G0019"
+  },
+  {
+    "id": 20,
+    "part": "B",
+    "greek": "μακροθυμία, -ας, ἡ",
+    "transliteration": "makrothymia",
+    "definition": "patience, long-suffering, forbearance",
+    "translations": {
+      "es": "paciencia, longanimidad, tolerancia",
+      "pl": "cierpliwość, wytrwałość, długomyślność",
+      "fil": "pagtitiis, pasensya, pagpapaubaya"
+    },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G3115"
+  },
+  {
+    "id": 21,
+    "part": "B",
+    "greek": "ἐγκράτεια, -ας, ἡ",
+    "transliteration": "enkrateia",
+    "definition": "self-control, temperance, mastery over oneself",
+    "translations": {
+      "es": "dominio propio, templanza",
+      "pl": "powściągliwość, panowanie nad sobą",
+      "fil": "pagpipigil sa sarili, temperansya"
+    },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G1466"
+  },
+  {
+    "id": 22,
+    "part": "B",
+    "greek": "θυγάτηρ, θυγατρός, ἡ",
+    "transliteration": "thygatēr",
+    "definition": "daughter",
+    "translations": {
+      "es": "hija",
+      "pl": "córka",
+      "fil": "anak na babae"
+    },
+    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G2364"
+  },
+  {
+    "id": 23,
+    "part": "B",
+    "greek": "κεφαλή, -ῆς, ἡ",
+    "transliteration": "kephalē",
+    "definition": "head",
+    "translations": {
+      "es": "cabeza",
+      "pl": "głowa",
+      "fil": "ulo"
+    },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G2776"
+  },
+  {
+    "id": 24,
+    "part": "B",
+    "greek": "ἁμαρτωλός, -οῦ, ὁ",
+    "transliteration": "hamartōlos",
+    "definition": "sinner, one who sins",
+    "translations": {
+      "es": "pecador",
+      "pl": "grzesznik",
+      "fil": "makasalanan"
+    },
+    "partOfSpeech": "noun (masculine, 2nd decl.) / adjective",
+    "image": null,
+    "strongsNum": "G0268"
+  },
+  {
+    "id": 25,
+    "part": "B",
+    "greek": "μαθήτρια, -ας, ἡ",
+    "transliteration": "mathētria",
+    "definition": "female disciple, woman follower",
+    "translations": {
+      "es": "discípula, seguidora",
+      "pl": "uczennica, naśladowczyni",
+      "fil": "babaeng alagad, babaeng tagasunod"
+    },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G3102"
+  },
+  {
+    "id": 26,
+    "part": "B",
+    "greek": "πολλάκις",
+    "transliteration": "pollakis",
+    "definition": "often, many times, frequently",
+    "translations": {
+      "es": "muchas veces, frecuentemente",
+      "pl": "często, wielokrotnie",
+      "fil": "madalas, maraming beses"
+    },
+    "partOfSpeech": "adverb",
+    "image": null,
+    "strongsNum": "G4178"
+  },
+  {
+    "id": 27,
+    "part": "B",
+    "greek": "καίπερ",
+    "transliteration": "kaiper",
+    "definition": "although, even though, though",
+    "translations": {
+      "es": "aunque, a pesar de que",
+      "pl": "chociaż, mimo że",
+      "fil": "kahit, bagaman, sa kabila ng"
+    },
+    "partOfSpeech": "conjunction",
+    "image": null,
+    "strongsNum": "G2539"
+  },
+  {
+    "id": 28,
+    "part": "B",
+    "greek": "ἕνεκα / ἕνεκεν (+ gen.)",
+    "transliteration": "heneka / heneken",
+    "definition": "for the sake of, because of, on account of",
+    "translations": {
+      "es": "por causa de, a causa de",
+      "pl": "ze względu na, z powodu",
+      "fil": "dahil sa, alang-alang sa"
+    },
+    "partOfSpeech": "preposition (+ genitive)",
+    "image": null,
+    "strongsNum": "G1752"
+  }
+]
