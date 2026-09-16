@@ -182,10 +182,15 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
 
   function handleWordDoubleClick(e, word, paragraphId, wordIdx) {
     e.preventDefault()
+    const ve = findVocabEntry(word.greek)
+    if (ve?.image) {
+      setZoomedImage(`/vocab-images/${ve.image}`)
+      return
+    }
     const key = `${paragraphId}-${wordIdx}`
     const rect = e.currentTarget.getBoundingClientRect()
     setPopoverPos({ anchorTop: rect.bottom, anchorBottom: rect.top, anchorLeft: rect.left + rect.width / 2 })
-    setActiveWord({ ...word, key, vocabEntry: findVocabEntry(word.greek) })
+    setActiveWord({ ...word, key, vocabEntry: ve })
     setShowImage(true)
     setShowParadigm(false)
   }
