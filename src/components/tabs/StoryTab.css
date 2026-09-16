@@ -381,6 +381,26 @@
   border-radius: 6px;
   flex-shrink: 0;
   background: rgba(255,255,255,0.08);
+  cursor: zoom-in;
+}
+
+.image-zoom-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+}
+
+.image-zoom-img {
+  width: min(80vw, 600px);
+  height: min(80vh, 600px);
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.5);
 }
 .tooltip-image-text {
   display: flex;

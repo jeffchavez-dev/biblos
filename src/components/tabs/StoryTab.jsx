@@ -82,6 +82,7 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
   const [activeWord, setActiveWord] = useState(null)
   const [showImage, setShowImage] = useState(false)
   const [showParadigm, setShowParadigm] = useState(false)
+  const [zoomedImage, setZoomedImage] = useState(null)
   const [popoverPos, setPopoverPos] = useState({ top: 0, left: 0 })
   const popoverRef = useRef(null)
 
@@ -385,6 +386,8 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
                 className="tooltip-vocab-image"
                 src={`/vocab-images/${activeWord.vocabEntry.image}`}
                 alt={activeWord.vocabEntry.definition}
+                onDoubleClick={() => setZoomedImage(`/vocab-images/${activeWord.vocabEntry.image}`)}
+                title="Double-click to zoom"
               />
               <div className="tooltip-image-text">
                 <span className="tooltip-greek greek">{activeWord.vocabEntry.greek}</span>
@@ -497,6 +500,12 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
               })()}
             </div>
           )}
+        </div>
+      )}
+
+      {zoomedImage && (
+        <div className="image-zoom-overlay" onClick={() => setZoomedImage(null)}>
+          <img className="image-zoom-img" src={zoomedImage} alt="" />
         </div>
       )}
     </div>
