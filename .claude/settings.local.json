@@ -31,7 +31,14 @@
       "Bash(git commit *)",
       "Bash(git remote *)",
       "Bash(git branch *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(python3)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/jeffchavez/Documents/biblos/src/data/grammar-terms.json'\\)\\); [print\\(f'  {e[\\\\\"greek\\\\\"]:25} {e[\\\\\"definition\\\\\"]:30} [{e[\\\\\"subcategory\\\\\"]}]'\\) for e in d]\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/Users/jeffchavez/Documents/biblos/src/data/grammar-terms.json'\\)\\); print\\(d[0]\\)\")",
+      "Bash(node --input-type=module)",
+      "Bash(node -e \"const p = require\\('/Users/jeffchavez/Documents/biblos/src/data/paradigms.json'\\); const k = Object.keys\\(p\\).find\\(k => p[k].type === 'verb'\\); console.log\\(JSON.stringify\\(p[k], null, 2\\)\\)\")",
+      "Bash(npm ls *)",
+      "Bash(git rm *)"
     ]
   }
 }
