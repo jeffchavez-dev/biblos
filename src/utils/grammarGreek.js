@@ -3,7 +3,7 @@
 const CASE_MAP   = { gen: 'γενική', acc: 'αἰτιατική', dat: 'δοτική', nom: 'ὀνομαστική', voc: 'κλητική' }
 const GENDER_MAP = { m: 'ἀρσενικόν', f: 'θηλυκόν', n: 'οὐδέτερον', neut: 'οὐδέτερον' }
 const NUMBER_MAP = { sg: 'ἑνικός', pl: 'πληθυντικός' }
-const MOOD_MAP   = { ptc: 'μετοχή', inf: 'ἀπαρέμφατος', subj: 'ὑποτακτική', impv: 'προστακτική' }
+const MOOD_MAP   = { ptc: 'μετοχή', inf: 'ἀπαρέμφατος', subj: 'ὑποτακτική', impv: 'προστακτική', ind: 'ὁριστική', opt: 'εὐκτική' }
 const VOICE_MAP  = { pass: 'παθητική', mid: 'μέση', act: 'ἐνεργητική' }
 const TENSE_MAP  = { pres: 'ἐνεστώς', aor: 'ἀόριστος', fut: 'μέλλων', impf: 'παρατατικός', perf: 'παρακείμενος', plpf: 'ὑπερσυντέλικος' }
 const MISC_MAP   = { adv: 'ἐπίρρημα', rel: 'ἀντώνυμον' }
@@ -201,8 +201,9 @@ const GLOSS_PERSON = [
 ]
 
 /**
- * For verb glosses with no parenthetical (e.g. "they see"), infers person and number
- * from the English subject pronoun.
+ * For verb glosses with no parenthetical (e.g. "they see"), infers tense, mood,
+ * person and number from the English subject pronoun.
+ * English present-tense pronoun patterns → ἐνεστώς · ὁριστική · πρόσωπον · ἀριθμός
  * Returns { gloss, chips, inferred: true } or null.
  */
 export function inferVerbChips(definition) {
@@ -213,7 +214,11 @@ export function inferVerbChips(definition) {
   const def = definition.trim()
   for (const { pattern, person, number } of GLOSS_PERSON) {
     if (pattern.test(def)) {
-      return { gloss: def, chips: [person, number], inferred: true }
+      return {
+        gloss: def,
+        chips: ['ἐνεστώς', 'ὁριστική', person, number],
+        inferred: true,
+      }
     }
   }
   return null
