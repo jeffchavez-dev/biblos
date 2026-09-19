@@ -424,7 +424,19 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
               {(() => {
                 const rawDef = t(activeWord.definition, activeWord.translations, lang)
                 const paradigm = getParadigm(activeWord.vocabEntry)
-                const parsed = parseDefinition(rawDef)
+                const GENDER_CHIPS = new Set(['ἀρσενικόν', 'θηλυκόν', 'οὐδέτερον'])
+                const NUMBER_CHIPS = new Set(['ἑνικός', 'πληθυντικός'])
+                let parsed = parseDefinition(rawDef)
+                // If parseDefinition got only a case chip (no gender/number), try
+                // to get the complete set from the paradigm table
+                if (parsed && paradigm && paradigm.type !== 'verb') {
+                  const hasGender = parsed.chips.some(c => GENDER_CHIPS.has(c))
+                  const hasNumber = parsed.chips.some(c => NUMBER_CHIPS.has(c))
+                  if (!hasGender || !hasNumber) {
+                    parsed = matchParadigmChips(activeWord.greek, paradigm, parsed.gloss) || parsed
+                  }
+                }
+                parsed = parsed
                   || matchParadigmChips(activeWord.greek, paradigm, rawDef)
                   || inferVerbChips(rawDef)
                 if (!parsed) return (
