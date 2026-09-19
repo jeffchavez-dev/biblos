@@ -216,7 +216,7 @@ export function inferVerbChips(definition) {
     if (pattern.test(def)) {
       return {
         gloss: def,
-        chips: ['ἐνεστώς', 'ὁριστική', person, number],
+        chips: ['ἐνεστώς', 'ἐνεργητική', 'ὁριστική', person, number],
         inferred: true,
       }
     }
