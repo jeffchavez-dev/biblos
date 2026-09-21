@@ -158,7 +158,8 @@
 
 .hs-unit-blue  { background: linear-gradient(145deg, #1d3557, #2d6a9f); }
 .hs-unit-green { background: linear-gradient(145deg, #1a3d2b, #2d6a4f); }
-.hs-unit-amber { background: linear-gradient(145deg, #3a2610, #7a4e18); }
+.hs-unit-amber   { background: linear-gradient(145deg, #3a2610, #7a4e18); }
+.hs-unit-crimson { background: linear-gradient(145deg, #3a1020, #8b2040); }
 
 .hs-ch-blue   { background: linear-gradient(145deg, #1d3557, #2d6a9f); }
 .hs-ch-blue2  { background: linear-gradient(145deg, #192e4a, #245880); }

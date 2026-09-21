@@ -119,7 +119,7 @@ export default function HomeScreen({ onEnterApp, initialNav }) {
           </div>
           <div className="hs-grid hs-grid--units">
             {units.map((unit, i) => {
-              const themes = ['hs-unit-blue', 'hs-unit-green', 'hs-unit-amber']
+              const themes = ['hs-unit-blue', 'hs-unit-green', 'hs-unit-amber', 'hs-unit-crimson']
               const locked = unit.locked
               return (
                 <button
@@ -128,7 +128,7 @@ export default function HomeScreen({ onEnterApp, initialNav }) {
                   onClick={() => openUnit(unit.id)}
                   disabled={locked}
                 >
-                  <div className="hs-block-watermark">{['Αʹ','Βʹ','Γʹ'][i]}</div>
+                  <div className="hs-block-watermark">{['Αʹ','Βʹ','Γʹ','Δʹ'][i]}</div>
                   <span className="hs-block-eyebrow">Unit {unit.id}</span>
                   <span className="hs-block-title large greek">{unit.title}</span>
                   <span className="hs-block-sub">{unit.subtitle}</span>
