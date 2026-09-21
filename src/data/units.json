@@ -219,20 +219,7 @@
             "subtitle": "Ὁ Καρπὸς τοῦ Πνεύματος"
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Unit 4",
-    "subtitle": "Ὁ Οἶκος — The House",
-    "translations": {
-      "es": "Ὁ Οἶκος — La Casa",
-      "pl": "Ὁ Οἶκος — Dom",
-      "fil": "Ὁ Οἶκος — Ang Bahay"
-    },
-    "locked": false,
-    "chapters": [
+      },
       {
         "id": 9,
         "title": "Κεφάλαιον Θʹ",
