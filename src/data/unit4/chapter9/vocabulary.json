@@ -557,281 +557,301 @@
   {
     "id": 38,
     "part": "B",
-    "lemma": "ὁ ἰχθύς",
-    "strongs": "G2486",
-    "gloss": "fish",
     "definition": "A fish; used of fish as food and as a symbol in early Christianity.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "pez",
       "pl": "ryba",
       "fil": "isda"
-    }
+    },
+    "greek": "ὁ ἰχθύς",
+    "strongsNum": "G2486",
+    "transliteration": "ichthys",
+    "partOfSpeech": "noun (masculine, 3rd decl.)"
   },
   {
     "id": 39,
     "part": "B",
-    "lemma": "ἡ ἐλαία",
-    "strongs": "G1636",
-    "gloss": "olive",
     "definition": "An olive tree or olive fruit; central to Mediterranean agriculture and worship.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "aceituna",
       "pl": "oliwka",
       "fil": "olibo"
-    }
+    },
+    "greek": "ἡ ἐλαία",
+    "strongsNum": "G1636",
+    "transliteration": "elaia",
+    "partOfSpeech": "noun (feminine, 1st decl.)"
   },
   {
     "id": 40,
     "part": "B",
-    "lemma": "τὸ σῦκον",
-    "strongs": "G4810",
-    "gloss": "fig",
     "definition": "A fig fruit; figs were a staple food in the ancient Near East.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "higo",
       "pl": "figa",
       "fil": "igos"
-    }
+    },
+    "greek": "τὸ σῦκον",
+    "strongsNum": "G4810",
+    "transliteration": "sykon",
+    "partOfSpeech": "noun (neuter, 2nd decl.)"
   },
   {
     "id": 41,
     "part": "B",
-    "lemma": "ἡ σταφυλή",
-    "strongs": "G4718",
-    "gloss": "grape",
     "definition": "A bunch of grapes; grapes were used for food, wine, and as a sign of blessing.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "uva",
       "pl": "winogrono",
       "fil": "ubas"
-    }
+    },
+    "greek": "ἡ σταφυλή",
+    "strongsNum": "G4718",
+    "transliteration": "staphylē",
+    "partOfSpeech": "noun (feminine, 1st decl.)"
   },
   {
     "id": 42,
     "part": "B",
-    "lemma": "τὸ γάλα",
-    "strongs": "G1051",
-    "gloss": "milk",
     "definition": "Milk; used literally of dairy and figuratively of nourishment for new believers.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "leche",
       "pl": "mleko",
       "fil": "gatas"
-    }
+    },
+    "greek": "τὸ γάλα",
+    "strongsNum": "G1051",
+    "transliteration": "gala",
+    "partOfSpeech": "noun (neuter, 3rd decl.)"
   },
   {
     "id": 43,
     "part": "B",
-    "lemma": "ὁ οἶνος",
-    "strongs": "G3631",
-    "gloss": "wine",
     "definition": "Wine; the common drink of the ancient world, used in meals and religious rites.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "vino",
       "pl": "wino",
       "fil": "alak"
-    }
+    },
+    "greek": "ὁ οἶνος",
+    "strongsNum": "G3631",
+    "transliteration": "oinos",
+    "partOfSpeech": "noun (masculine, 2nd decl.)"
   },
   {
     "id": 44,
     "part": "B",
-    "lemma": "τὸ ἔλαιον",
-    "strongs": "G1637",
-    "gloss": "olive oil",
     "definition": "Olive oil; used for cooking, lamps, anointing, and medicine.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "aceite",
       "pl": "oliwa",
       "fil": "langis ng olibo"
-    }
+    },
+    "greek": "τὸ ἔλαιον",
+    "strongsNum": "G1637",
+    "transliteration": "elaion",
+    "partOfSpeech": "noun (neuter, 2nd decl.)"
   },
   {
     "id": 45,
     "part": "B",
-    "lemma": "τὸ μέλι",
-    "strongs": "G3192",
-    "gloss": "honey",
     "definition": "Honey; a symbol of sweetness, pleasure, and the promised land.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "miel",
       "pl": "miód",
       "fil": "pulot"
-    }
+    },
+    "greek": "τὸ μέλι",
+    "strongsNum": "G3192",
+    "transliteration": "meli",
+    "partOfSpeech": "noun (neuter, 3rd decl.)"
   },
   {
     "id": 46,
     "part": "B",
-    "lemma": "τὸ ποτήριον",
-    "strongs": "G4221",
-    "gloss": "cup",
     "definition": "A drinking cup; used of cups at meals and of the cup of suffering or blessing.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "copa",
       "pl": "kubek",
       "fil": "tasa"
-    }
+    },
+    "greek": "τὸ ποτήριον",
+    "strongsNum": "G4221",
+    "transliteration": "potērion",
+    "partOfSpeech": "noun (neuter, 2nd decl.)"
   },
   {
     "id": 47,
     "part": "B",
-    "lemma": "ὁ κόπος",
-    "strongs": "G2873",
-    "gloss": "toil, weariness",
     "definition": "Labor that is wearisome; exhausting work or the fatigue it produces.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "fatiga",
       "pl": "trud",
       "fil": "pagod"
-    }
+    },
+    "greek": "ὁ κόπος",
+    "strongsNum": "G2873",
+    "transliteration": "kopos",
+    "partOfSpeech": "noun (masculine, 2nd decl.)"
   },
   {
     "id": 48,
     "part": "B",
-    "lemma": "προσεύχομαι",
-    "strongs": "G4336",
-    "gloss": "pray",
     "definition": "To pray; to address God in petition, intercession, or thanksgiving.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "orar",
       "pl": "modlić się",
       "fil": "manalangin"
-    }
+    },
+    "greek": "προσεύχομαι",
+    "strongsNum": "G4336",
+    "transliteration": "proseuchomai",
+    "partOfSpeech": "verb"
   },
   {
     "id": 49,
     "part": "B",
-    "lemma": "εὐλογέω",
-    "strongs": "G2127",
-    "gloss": "bless",
     "definition": "To bless; to speak well of, to give thanks over, or to bestow divine favor.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "bendecir",
       "pl": "błogosławić",
       "fil": "pagpalain"
-    }
+    },
+    "greek": "εὐλογέω",
+    "strongsNum": "G2127",
+    "transliteration": "eulogeō",
+    "partOfSpeech": "verb"
   },
   {
     "id": 50,
     "part": "B",
-    "lemma": "κλάω",
-    "strongs": "G2806",
-    "gloss": "break (bread)",
     "definition": "To break; typically used of breaking bread at a meal or in the Eucharist.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "partir",
       "pl": "łamać",
       "fil": "bali-baliin"
-    }
+    },
+    "greek": "κλάω",
+    "strongsNum": "G2806",
+    "transliteration": "klaō",
+    "partOfSpeech": "verb"
   },
   {
     "id": 51,
     "part": "B",
-    "lemma": "μεταδίδωμι",
-    "strongs": "G3330",
-    "gloss": "share, give",
     "definition": "To give a share of; to distribute or impart something to another.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "compartir",
       "pl": "dzielić się",
       "fil": "ibahagi"
-    }
+    },
+    "greek": "μεταδίδωμι",
+    "strongsNum": "G3330",
+    "transliteration": "metadidōmi",
+    "partOfSpeech": "verb"
   },
   {
     "id": 52,
     "part": "B",
-    "lemma": "γεύομαι",
-    "strongs": "G1089",
-    "gloss": "taste",
     "definition": "To taste or eat; to experience something firsthand, literally or figuratively.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "probar",
       "pl": "smakować",
       "fil": "lasapin"
-    }
+    },
+    "greek": "γεύομαι",
+    "strongsNum": "G1089",
+    "transliteration": "geuomai",
+    "partOfSpeech": "verb"
   },
   {
     "id": 53,
     "part": "B",
-    "lemma": "ἐξηγέομαι",
-    "strongs": "G1834",
-    "gloss": "explain, narrate",
     "definition": "To lead out, to explain fully; to describe or narrate in detail.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "explicar",
       "pl": "wyjaśniać",
       "fil": "ipaliwanag"
-    }
+    },
+    "greek": "ἐξηγέομαι",
+    "strongsNum": "G1834",
+    "transliteration": "exēgeomai",
+    "partOfSpeech": "verb"
   },
   {
     "id": 54,
     "part": "B",
-    "lemma": "ὀλίγος",
-    "strongs": "G3641",
-    "gloss": "little, few",
     "definition": "Little in amount, few in number; used of small quantities or short duration.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "poco",
       "pl": "mały",
       "fil": "kaunti"
-    }
+    },
+    "greek": "ὀλίγος",
+    "strongsNum": "G3641",
+    "transliteration": "oligos",
+    "partOfSpeech": "adjective (2-1-2)"
   },
   {
     "id": 55,
     "part": "B",
-    "lemma": "ἕκαστος",
-    "strongs": "G1538",
-    "gloss": "each, every one",
     "definition": "Each one, every individual; used of persons or things considered one by one.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "cada uno",
       "pl": "każdy",
       "fil": "bawat isa"
-    }
+    },
+    "greek": "ἕκαστος",
+    "strongsNum": "G1538",
+    "transliteration": "hekastos",
+    "partOfSpeech": "adjective (2-1-2)"
   },
   {
     "id": 56,
     "part": "B",
-    "lemma": "ἴσως",
-    "strongs": "G2481",
-    "gloss": "perhaps, probably",
     "definition": "Equally, perhaps, probably; expressing uncertainty or possibility.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "quizás",
       "pl": "może",
       "fil": "marahil"
-    }
+    },
+    "greek": "ἴσως",
+    "strongsNum": "G2481",
+    "transliteration": "isōs",
+    "partOfSpeech": "adverb"
   },
   {
     "id": 57,
     "part": "B",
-    "lemma": "τάχα",
-    "strongs": "G5029",
-    "gloss": "perhaps, possibly",
     "definition": "Perhaps, possibly, maybe; expressing a tentative or uncertain assertion.",
-    "image": "",
+    "image": null,
     "translations": {
       "es": "tal vez",
       "pl": "być może",
       "fil": "siguro"
-    }
+    },
+    "greek": "τάχα",
+    "strongsNum": "G5029",
+    "transliteration": "tacha",
+    "partOfSpeech": "adverb"
   }
 ]
