@@ -44,6 +44,34 @@ function UnitVocabReview({ unitId, allVocabulary, units, onOpenLexicon }) {
   )
 }
 
+// ── URL ↔ nav state ─────────────────────────────────────────────────────────
+
+function snapToUrl(snap) {
+  if (snap.gntView)       return '/gnt'
+  if (snap.showVocabIndex) return '/lexicon'
+  if (snap.unitReviewId)  return `/review/${snap.unitReviewId}`
+  return `/stories/${snap.selectedUnit}/${snap.selectedChapter}/${snap.activePart}`
+}
+
+export function parseUrl(pathname) {
+  const p = pathname.replace(/\/$/, '') || '/'
+  if (p === '/lexicon')  return { type: 'lexicon' }
+  if (p === '/gnt')      return { type: 'gnt' }
+  if (p === '/kids')     return { type: 'kids' }
+  const m = p.match(/^\/stories(?:\/(\d+)(?:\/(\d+)(?:\/(A|B))?)?)?$/)
+  if (m) return { type: 'chapter', unitId: Number(m[1]||1), chapterId: Number(m[2]||1), part: m[3]||'A' }
+  const r = p.match(/^\/review\/(\d+)$/)
+  if (r) return { type: 'unitReview', unitId: Number(r[1]) }
+  return null
+}
+
+export function syncUrl(snap) {
+  const url = snapToUrl(snap)
+  window.history.replaceState(null, '', url)
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+
 function makeSnap(fields) {
   return {
     selectedUnit: 1,
@@ -108,15 +136,25 @@ function AppInner({ onSignOut, initialNav, onGoHome, onGoToUnits, onGoToUnit }) 
   function pushNav(snap) {
     setNavStack(prev => [...prev.slice(0, navIdx + 1), snap])
     setNavIdx(prev => prev + 1)
+    syncUrl(snap)
   }
 
+  // Sync URL on back/forward through the app's own nav stack
   const goBack = useCallback(() => {
-    if (canBack) setNavIdx(prev => prev - 1)
-  }, [canBack])
+    if (canBack) {
+      const prev = navStack[navIdx - 1]
+      setNavIdx(i => i - 1)
+      syncUrl(prev)
+    }
+  }, [canBack, navStack, navIdx])
 
   const goForward = useCallback(() => {
-    if (canForward) setNavIdx(prev => prev + 1)
-  }, [canForward])
+    if (canForward) {
+      const next = navStack[navIdx + 1]
+      setNavIdx(i => i + 1)
+      syncUrl(next)
+    }
+  }, [canForward, navStack, navIdx])
 
   // Keyboard shortcuts: Alt+Left / Alt+Right
   useEffect(() => {
@@ -315,14 +353,24 @@ function AppInner({ onSignOut, initialNav, onGoHome, onGoToUnits, onGoToUnit }) 
 
 export default function App() {
   const [session, setSession]     = useState(() => localStorage.getItem('biblos_session') || null)
-  const [homeScreen, setHomeScreen] = useState(true)
-  const [kidsScreen, setKidsScreen] = useState(false)
-  const [initialNav, setInitialNav] = useState(null)
-  const [homeNav, setHomeNav] = useState(null) // { page, unitId } for HomeScreen initial state
+  const [initialNav, setInitialNav] = useState(() => parseUrl(window.location.pathname))
+  // Skip HomeScreen when a specific URL was navigated to directly
+  const [homeScreen, setHomeScreen] = useState(() => !parseUrl(window.location.pathname))
+  const [kidsScreen, setKidsScreen] = useState(() => parseUrl(window.location.pathname)?.type === 'kids')
+  const [homeNav, setHomeNav] = useState(null)
 
   function handleEnter() {
     setSession(localStorage.getItem('biblos_session'))
-    setHomeScreen(true)
+    const nav = parseUrl(window.location.pathname)
+    if (nav && nav.type !== 'kids') {
+      setInitialNav(nav)
+      setHomeScreen(false)
+    } else if (nav?.type === 'kids') {
+      setKidsScreen(true)
+      setHomeScreen(false)
+    } else {
+      setHomeScreen(true)
+    }
   }
 
   function handleExit() {
@@ -344,22 +392,26 @@ export default function App() {
   }
 
   function handleGoHome() {
+    window.history.replaceState(null, '', '/')
     setHomeNav(null)
     setKidsScreen(false)
     setHomeScreen(true)
   }
 
   function handleGoToUnits() {
+    window.history.replaceState(null, '', '/')
     setHomeNav({ page: 'units' })
     setHomeScreen(true)
   }
 
   function handleGoToUnit(unitId) {
+    window.history.replaceState(null, '', '/')
     setHomeNav({ page: 'chapters', unitId })
     setHomeScreen(true)
   }
 
   function handleSignOut() {
+    window.history.replaceState(null, '', '/')
     clearSession()
     setSession(null)
     setHomeScreen(true)
