@@ -1,0 +1,837 @@
+[
+  {
+    "id": 1,
+    "part": "A",
+    "greek": "ἑσπέρα, -ας, ἡ",
+    "transliteration": "hespera",
+    "definition": "evening",
+    "translations": {
+      "es": "tarde, noche",
+      "pl": "wieczór",
+      "fil": "gabi"
+    },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G2073"
+  },
+  {
+    "id": 2,
+    "part": "A",
+    "greek": "θάλασσα, -ης, ἡ",
+    "transliteration": "thalassa",
+    "definition": "sea, lake",
+    "translations": {
+      "es": "mar, lago",
+      "pl": "morze, jezioro",
+      "fil": "dagat, lawa"
+    },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G2281"
+  },
+  {
+    "id": 3,
+    "part": "A",
+    "greek": "μήτηρ, μητρός, ἡ",
+    "transliteration": "mētēr",
+    "definition": "mother",
+    "translations": {
+      "es": "madre",
+      "pl": "matka",
+      "fil": "ina"
+    },
+    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G3384"
+  },
+  {
+    "id": 4,
+    "part": "A",
+    "greek": "δεῖπνον, -ου, τό",
+    "transliteration": "deipnon",
+    "definition": "dinner, supper",
+    "translations": {
+      "es": "cena",
+      "pl": "kolacja",
+      "fil": "hapunan"
+    },
+    "partOfSpeech": "noun (neuter, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G1173"
+  },
+  {
+    "id": 5,
+    "part": "A",
+    "greek": "πρόσωπον, -ου, τό",
+    "transliteration": "prosōpon",
+    "definition": "face, appearance",
+    "translations": {
+      "es": "rostro, cara",
+      "pl": "twarz",
+      "fil": "mukha"
+    },
+    "partOfSpeech": "noun (neuter, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G4383"
+  },
+  {
+    "id": 6,
+    "part": "A",
+    "greek": "ποῦς, ποδός, ὁ",
+    "transliteration": "pous",
+    "definition": "foot",
+    "translations": {
+      "es": "pie",
+      "pl": "stopa",
+      "fil": "paa"
+    },
+    "partOfSpeech": "noun (masculine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G4228"
+  },
+  {
+    "id": 7,
+    "part": "A",
+    "greek": "ἔτος, -ους, τό",
+    "transliteration": "etos",
+    "definition": "year",
+    "translations": {
+      "es": "año",
+      "pl": "rok",
+      "fil": "taon"
+    },
+    "partOfSpeech": "noun (neuter, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G2094"
+  },
+  {
+    "id": 8,
+    "part": "A",
+    "greek": "σῖτος, -ου, ὁ",
+    "transliteration": "sitos",
+    "definition": "grain, wheat",
+    "translations": {
+      "es": "trigo, grano",
+      "pl": "zboże, pszenica",
+      "fil": "trigo, butil"
+    },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G4621"
+  },
+  {
+    "id": 9,
+    "part": "A",
+    "greek": "ἐργάτης, -ου, ὁ",
+    "transliteration": "ergatēs",
+    "definition": "worker, laborer",
+    "translations": {
+      "es": "obrero, trabajador",
+      "pl": "robotnik, pracownik",
+      "fil": "manggagawa"
+    },
+    "partOfSpeech": "noun (masculine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G2040"
+  },
+  {
+    "id": 10,
+    "part": "A",
+    "greek": "σπόρος, -ου, ὁ",
+    "transliteration": "sporos",
+    "definition": "seed, sowing",
+    "translations": {
+      "es": "semilla, siembra",
+      "pl": "nasienie, siew",
+      "fil": "binhi, paghahasik"
+    },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G4701"
+  },
+  {
+    "id": 11,
+    "part": "A",
+    "greek": "σπέρμα, -ατος, τό",
+    "transliteration": "sperma",
+    "definition": "seed, offspring",
+    "translations": {
+      "es": "semilla, descendencia",
+      "pl": "nasienie, potomstwo",
+      "fil": "binhi, lahi"
+    },
+    "partOfSpeech": "noun (neuter, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G4690"
+  },
+  {
+    "id": 12,
+    "part": "A",
+    "greek": "παιδίον, -ου, τό",
+    "transliteration": "paidion",
+    "definition": "small child, little one",
+    "translations": {
+      "es": "niño pequeño",
+      "pl": "małe dziecko",
+      "fil": "maliit na bata"
+    },
+    "partOfSpeech": "noun (neuter, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G3813"
+  },
+  {
+    "id": 13,
+    "part": "A",
+    "greek": "κίνδυνος, -ου, ὁ",
+    "transliteration": "kindynos",
+    "definition": "danger, peril",
+    "translations": {
+      "es": "peligro",
+      "pl": "niebezpieczeństwo",
+      "fil": "panganib"
+    },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G2794"
+  },
+  {
+    "id": 14,
+    "part": "A",
+    "greek": "ὀργή, -ῆς, ἡ",
+    "transliteration": "orgē",
+    "definition": "anger, wrath",
+    "translations": {
+      "es": "ira, enojo",
+      "pl": "gniew",
+      "fil": "galit"
+    },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G3709"
+  },
+  {
+    "id": 15,
+    "part": "A",
+    "greek": "θυμός, -οῦ, ὁ",
+    "transliteration": "thymos",
+    "definition": "anger, wrath, passion",
+    "translations": {
+      "es": "ira, pasión",
+      "pl": "gniew, namiętność",
+      "fil": "galit, sigasig"
+    },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G2372"
+  },
+  {
+    "id": 16,
+    "part": "A",
+    "greek": "τύπος, -ου, ὁ",
+    "transliteration": "typos",
+    "definition": "mark, impression, pattern",
+    "translations": {
+      "es": "marca, huella",
+      "pl": "ślad, wzór",
+      "fil": "marka, bakas"
+    },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G5179"
+  },
+  {
+    "id": 17,
+    "part": "A",
+    "greek": "νίπτω",
+    "transliteration": "niptō",
+    "definition": "to wash (hands, feet, face)",
+    "translations": {
+      "es": "lavar",
+      "pl": "myć",
+      "fil": "hugasan"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G3538"
+  },
+  {
+    "id": 18,
+    "part": "A",
+    "greek": "ἑτοιμάζω",
+    "transliteration": "hetoimazō",
+    "definition": "to prepare, make ready",
+    "translations": {
+      "es": "preparar",
+      "pl": "przygotować",
+      "fil": "ihanda"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G2090"
+  },
+  {
+    "id": 19,
+    "part": "A",
+    "greek": "προσέρχομαι",
+    "transliteration": "proserchomai",
+    "definition": "to come to, approach",
+    "translations": {
+      "es": "acercarse, venir a",
+      "pl": "podchodzić, zbliżać się",
+      "fil": "lumapit, pumunta"
+    },
+    "partOfSpeech": "verb (deponent)",
+    "image": null,
+    "strongsNum": "G4334"
+  },
+  {
+    "id": 20,
+    "part": "A",
+    "greek": "κάθημαι",
+    "transliteration": "kathēmai",
+    "definition": "to sit, sit down",
+    "translations": {
+      "es": "sentarse",
+      "pl": "siedzieć",
+      "fil": "umupo"
+    },
+    "partOfSpeech": "verb (deponent)",
+    "image": null,
+    "strongsNum": "G2521"
+  },
+  {
+    "id": 21,
+    "part": "A",
+    "greek": "σπείρω",
+    "transliteration": "speirō",
+    "definition": "to sow (seed)",
+    "translations": {
+      "es": "sembrar",
+      "pl": "siać",
+      "fil": "maghasik"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G4687"
+  },
+  {
+    "id": 22,
+    "part": "A",
+    "greek": "δρέπω",
+    "transliteration": "drepō",
+    "definition": "to pluck, harvest (with a sickle)",
+    "translations": {
+      "es": "cosechar, recoger",
+      "pl": "żąć, zbierać",
+      "fil": "mag-ani, pumitas"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G1195"
+  },
+  {
+    "id": 23,
+    "part": "A",
+    "greek": "πληθύνω",
+    "transliteration": "plēthynō",
+    "definition": "to multiply, increase",
+    "translations": {
+      "es": "multiplicar, aumentar",
+      "pl": "mnożyć, powiększać",
+      "fil": "paramihin, dumami"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G4129"
+  },
+  {
+    "id": 24,
+    "part": "A",
+    "greek": "παίζω",
+    "transliteration": "paizō",
+    "definition": "to play, joke",
+    "translations": {
+      "es": "jugar, bromear",
+      "pl": "bawić się, żartować",
+      "fil": "maglaro, magbiro"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G3815"
+  },
+  {
+    "id": 25,
+    "part": "A",
+    "greek": "βοάω, -ῶ",
+    "transliteration": "boaō",
+    "definition": "to cry out, shout",
+    "translations": {
+      "es": "gritar, clamar",
+      "pl": "krzyczeć, wołać",
+      "fil": "sumigaw, humiyaw"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G0994"
+  },
+  {
+    "id": 26,
+    "part": "A",
+    "greek": "διηγέομαι",
+    "transliteration": "diēgeomai",
+    "definition": "to narrate, tell, describe",
+    "translations": {
+      "es": "narrar, contar",
+      "pl": "opowiadać, relacjonować",
+      "fil": "ikuwento, ilarawan"
+    },
+    "partOfSpeech": "verb (deponent)",
+    "image": null,
+    "strongsNum": "G1334"
+  },
+  {
+    "id": 27,
+    "part": "A",
+    "greek": "δάκνω",
+    "transliteration": "daknō",
+    "definition": "to bite",
+    "translations": {
+      "es": "morder",
+      "pl": "gryźć",
+      "fil": "kagatin"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G1143"
+  },
+  {
+    "id": 28,
+    "part": "A",
+    "greek": "τύπτω",
+    "transliteration": "typtō",
+    "definition": "to strike, hit, beat",
+    "translations": {
+      "es": "golpear, pegar",
+      "pl": "uderzać, bić",
+      "fil": "hampasin, suntukan"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G5180"
+  },
+  {
+    "id": 29,
+    "part": "A",
+    "greek": "μακροθυμέω, -ῶ",
+    "transliteration": "makrothymeō",
+    "definition": "to be patient, endure long",
+    "translations": {
+      "es": "ser paciente, tener paciencia",
+      "pl": "być cierpliwym, znosić",
+      "fil": "magtiis, magpasensya"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G3114"
+  },
+  {
+    "id": 30,
+    "part": "A",
+    "greek": "κρατέω, -ῶ",
+    "transliteration": "krateō",
+    "definition": "to hold, control, grasp",
+    "translations": {
+      "es": "sostener, controlar",
+      "pl": "trzymać, kontrolować",
+      "fil": "hawakan, kontrolin"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G2902"
+  },
+  {
+    "id": 31,
+    "part": "A",
+    "greek": "νέος, -α, -ον",
+    "transliteration": "neos",
+    "definition": "young, new",
+    "translations": {
+      "es": "joven, nuevo",
+      "pl": "młody, nowy",
+      "fil": "bata, bago"
+    },
+    "partOfSpeech": "adjective",
+    "image": null,
+    "strongsNum": "G3501"
+  },
+  {
+    "id": 32,
+    "part": "A",
+    "greek": "πραΰς, πραεῖα, πραΰ",
+    "transliteration": "praÿs",
+    "definition": "gentle, meek",
+    "translations": {
+      "es": "manso, suave",
+      "pl": "łagodny, pokorny",
+      "fil": "maamo, banayad"
+    },
+    "partOfSpeech": "adjective",
+    "image": null,
+    "strongsNum": "G4239"
+  },
+  {
+    "id": 33,
+    "part": "A",
+    "greek": "χρηστός, -ή, -όν",
+    "transliteration": "chrēstos",
+    "definition": "kind, good, pleasant",
+    "translations": {
+      "es": "bondadoso, bueno",
+      "pl": "dobry, życzliwy",
+      "fil": "mabuti, mapagmahal"
+    },
+    "partOfSpeech": "adjective",
+    "image": null,
+    "strongsNum": "G5543"
+  },
+  {
+    "id": 34,
+    "part": "A",
+    "greek": "δέκα (indecl.)",
+    "transliteration": "deka",
+    "definition": "ten",
+    "translations": {
+      "es": "diez",
+      "pl": "dziesięć",
+      "fil": "sampu"
+    },
+    "partOfSpeech": "numeral (indeclinable)",
+    "image": null,
+    "strongsNum": "G1176"
+  },
+  {
+    "id": 35,
+    "part": "A",
+    "greek": "πέντε (indecl.)",
+    "transliteration": "pente",
+    "definition": "five",
+    "translations": {
+      "es": "cinco",
+      "pl": "pięć",
+      "fil": "lima"
+    },
+    "partOfSpeech": "numeral (indeclinable)",
+    "image": null,
+    "strongsNum": "G4002"
+  },
+  {
+    "id": 36,
+    "part": "A",
+    "greek": "ἑπτά (indecl.)",
+    "transliteration": "hepta",
+    "definition": "seven",
+    "translations": {
+      "es": "siete",
+      "pl": "siedem",
+      "fil": "pito"
+    },
+    "partOfSpeech": "numeral (indeclinable)",
+    "image": null,
+    "strongsNum": "G2033"
+  },
+  {
+    "id": 37,
+    "part": "A",
+    "greek": "ὅμως",
+    "transliteration": "homōs",
+    "definition": "yet, nevertheless, still",
+    "translations": {
+      "es": "sin embargo, aún así",
+      "pl": "jednak, mimo to",
+      "fil": "gayunpaman, subalit"
+    },
+    "partOfSpeech": "adverb / particle",
+    "image": null,
+    "strongsNum": "G3676"
+  },
+  {
+    "id": 38,
+    "part": "B",
+    "lemma": "ὁ ἰχθύς",
+    "strongs": "G2486",
+    "gloss": "fish",
+    "definition": "A fish; used of fish as food and as a symbol in early Christianity.",
+    "image": "",
+    "translations": {
+      "es": "pez",
+      "pl": "ryba",
+      "fil": "isda"
+    }
+  },
+  {
+    "id": 39,
+    "part": "B",
+    "lemma": "ἡ ἐλαία",
+    "strongs": "G1636",
+    "gloss": "olive",
+    "definition": "An olive tree or olive fruit; central to Mediterranean agriculture and worship.",
+    "image": "",
+    "translations": {
+      "es": "aceituna",
+      "pl": "oliwka",
+      "fil": "olibo"
+    }
+  },
+  {
+    "id": 40,
+    "part": "B",
+    "lemma": "τὸ σῦκον",
+    "strongs": "G4810",
+    "gloss": "fig",
+    "definition": "A fig fruit; figs were a staple food in the ancient Near East.",
+    "image": "",
+    "translations": {
+      "es": "higo",
+      "pl": "figa",
+      "fil": "igos"
+    }
+  },
+  {
+    "id": 41,
+    "part": "B",
+    "lemma": "ἡ σταφυλή",
+    "strongs": "G4718",
+    "gloss": "grape",
+    "definition": "A bunch of grapes; grapes were used for food, wine, and as a sign of blessing.",
+    "image": "",
+    "translations": {
+      "es": "uva",
+      "pl": "winogrono",
+      "fil": "ubas"
+    }
+  },
+  {
+    "id": 42,
+    "part": "B",
+    "lemma": "τὸ γάλα",
+    "strongs": "G1051",
+    "gloss": "milk",
+    "definition": "Milk; used literally of dairy and figuratively of nourishment for new believers.",
+    "image": "",
+    "translations": {
+      "es": "leche",
+      "pl": "mleko",
+      "fil": "gatas"
+    }
+  },
+  {
+    "id": 43,
+    "part": "B",
+    "lemma": "ὁ οἶνος",
+    "strongs": "G3631",
+    "gloss": "wine",
+    "definition": "Wine; the common drink of the ancient world, used in meals and religious rites.",
+    "image": "",
+    "translations": {
+      "es": "vino",
+      "pl": "wino",
+      "fil": "alak"
+    }
+  },
+  {
+    "id": 44,
+    "part": "B",
+    "lemma": "τὸ ἔλαιον",
+    "strongs": "G1637",
+    "gloss": "olive oil",
+    "definition": "Olive oil; used for cooking, lamps, anointing, and medicine.",
+    "image": "",
+    "translations": {
+      "es": "aceite",
+      "pl": "oliwa",
+      "fil": "langis ng olibo"
+    }
+  },
+  {
+    "id": 45,
+    "part": "B",
+    "lemma": "τὸ μέλι",
+    "strongs": "G3192",
+    "gloss": "honey",
+    "definition": "Honey; a symbol of sweetness, pleasure, and the promised land.",
+    "image": "",
+    "translations": {
+      "es": "miel",
+      "pl": "miód",
+      "fil": "pulot"
+    }
+  },
+  {
+    "id": 46,
+    "part": "B",
+    "lemma": "τὸ ποτήριον",
+    "strongs": "G4221",
+    "gloss": "cup",
+    "definition": "A drinking cup; used of cups at meals and of the cup of suffering or blessing.",
+    "image": "",
+    "translations": {
+      "es": "copa",
+      "pl": "kubek",
+      "fil": "tasa"
+    }
+  },
+  {
+    "id": 47,
+    "part": "B",
+    "lemma": "ὁ κόπος",
+    "strongs": "G2873",
+    "gloss": "toil, weariness",
+    "definition": "Labor that is wearisome; exhausting work or the fatigue it produces.",
+    "image": "",
+    "translations": {
+      "es": "fatiga",
+      "pl": "trud",
+      "fil": "pagod"
+    }
+  },
+  {
+    "id": 48,
+    "part": "B",
+    "lemma": "προσεύχομαι",
+    "strongs": "G4336",
+    "gloss": "pray",
+    "definition": "To pray; to address God in petition, intercession, or thanksgiving.",
+    "image": "",
+    "translations": {
+      "es": "orar",
+      "pl": "modlić się",
+      "fil": "manalangin"
+    }
+  },
+  {
+    "id": 49,
+    "part": "B",
+    "lemma": "εὐλογέω",
+    "strongs": "G2127",
+    "gloss": "bless",
+    "definition": "To bless; to speak well of, to give thanks over, or to bestow divine favor.",
+    "image": "",
+    "translations": {
+      "es": "bendecir",
+      "pl": "błogosławić",
+      "fil": "pagpalain"
+    }
+  },
+  {
+    "id": 50,
+    "part": "B",
+    "lemma": "κλάω",
+    "strongs": "G2806",
+    "gloss": "break (bread)",
+    "definition": "To break; typically used of breaking bread at a meal or in the Eucharist.",
+    "image": "",
+    "translations": {
+      "es": "partir",
+      "pl": "łamać",
+      "fil": "bali-baliin"
+    }
+  },
+  {
+    "id": 51,
+    "part": "B",
+    "lemma": "μεταδίδωμι",
+    "strongs": "G3330",
+    "gloss": "share, give",
+    "definition": "To give a share of; to distribute or impart something to another.",
+    "image": "",
+    "translations": {
+      "es": "compartir",
+      "pl": "dzielić się",
+      "fil": "ibahagi"
+    }
+  },
+  {
+    "id": 52,
+    "part": "B",
+    "lemma": "γεύομαι",
+    "strongs": "G1089",
+    "gloss": "taste",
+    "definition": "To taste or eat; to experience something firsthand, literally or figuratively.",
+    "image": "",
+    "translations": {
+      "es": "probar",
+      "pl": "smakować",
+      "fil": "lasapin"
+    }
+  },
+  {
+    "id": 53,
+    "part": "B",
+    "lemma": "ἐξηγέομαι",
+    "strongs": "G1834",
+    "gloss": "explain, narrate",
+    "definition": "To lead out, to explain fully; to describe or narrate in detail.",
+    "image": "",
+    "translations": {
+      "es": "explicar",
+      "pl": "wyjaśniać",
+      "fil": "ipaliwanag"
+    }
+  },
+  {
+    "id": 54,
+    "part": "B",
+    "lemma": "ὀλίγος",
+    "strongs": "G3641",
+    "gloss": "little, few",
+    "definition": "Little in amount, few in number; used of small quantities or short duration.",
+    "image": "",
+    "translations": {
+      "es": "poco",
+      "pl": "mały",
+      "fil": "kaunti"
+    }
+  },
+  {
+    "id": 55,
+    "part": "B",
+    "lemma": "ἕκαστος",
+    "strongs": "G1538",
+    "gloss": "each, every one",
+    "definition": "Each one, every individual; used of persons or things considered one by one.",
+    "image": "",
+    "translations": {
+      "es": "cada uno",
+      "pl": "każdy",
+      "fil": "bawat isa"
+    }
+  },
+  {
+    "id": 56,
+    "part": "B",
+    "lemma": "ἴσως",
+    "strongs": "G2481",
+    "gloss": "perhaps, probably",
+    "definition": "Equally, perhaps, probably; expressing uncertainty or possibility.",
+    "image": "",
+    "translations": {
+      "es": "quizás",
+      "pl": "może",
+      "fil": "marahil"
+    }
+  },
+  {
+    "id": 57,
+    "part": "B",
+    "lemma": "τάχα",
+    "strongs": "G5029",
+    "gloss": "perhaps, possibly",
+    "definition": "Perhaps, possibly, maybe; expressing a tentative or uncertain assertion.",
+    "image": "",
+    "translations": {
+      "es": "tal vez",
+      "pl": "być może",
+      "fil": "siguro"
+    }
+  }
+]
