@@ -538,5 +538,425 @@
     "partOfSpeech": "numeral",
     "image": null,
     "strongsNum": "G1540"
+  },
+  {
+    "id": 37,
+    "part": "B",
+    "greek": "τὸ μυστήριον",
+    "transliteration": "to mystérion",
+    "definition": "A mystery; a hidden truth revealed only to the initiated.",
+    "translations": {
+      "es": "el misterio",
+      "pl": "tajemnica",
+      "fil": "ang misteryo"
+    },
+    "partOfSpeech": "noun",
+    "image": "",
+    "strongsNum": "G3466"
+  },
+  {
+    "id": 38,
+    "part": "B",
+    "greek": "ἡ βασιλεία",
+    "transliteration": "hē basileía",
+    "definition": "Kingdom; reign; the domain or rule of a king.",
+    "translations": {
+      "es": "el reino",
+      "pl": "królestwo",
+      "fil": "ang kaharian"
+    },
+    "partOfSpeech": "noun",
+    "image": "",
+    "strongsNum": "G0932"
+  },
+  {
+    "id": 39,
+    "part": "B",
+    "greek": "συνίημι",
+    "transliteration": "syníēmi",
+    "definition": "To understand; to bring together in the mind; to comprehend.",
+    "translations": {
+      "es": "entender",
+      "pl": "rozumieć",
+      "fil": "umintindi"
+    },
+    "partOfSpeech": "verb",
+    "image": "",
+    "strongsNum": "G4920"
+  },
+  {
+    "id": 40,
+    "part": "B",
+    "greek": "ὁ ὀφθαλμός",
+    "transliteration": "ho ophthalmos",
+    "definition": "The eye; the organ of sight.",
+    "translations": {
+      "es": "el ojo",
+      "pl": "oko",
+      "fil": "ang mata"
+    },
+    "partOfSpeech": "noun",
+    "image": "",
+    "strongsNum": "G3788"
+  },
+  {
+    "id": 41,
+    "part": "B",
+    "greek": "τὸ οὖς (ὦτα)",
+    "transliteration": "to ous (ōta)",
+    "definition": "The ear; the organ of hearing. Plural: ὦτα.",
+    "translations": {
+      "es": "el oído",
+      "pl": "ucho",
+      "fil": "ang tainga"
+    },
+    "partOfSpeech": "noun",
+    "image": "",
+    "strongsNum": "G3775"
+  },
+  {
+    "id": 42,
+    "part": "B",
+    "greek": "κλείω",
+    "transliteration": "kleíō",
+    "definition": "To close, shut; to lock.",
+    "translations": {
+      "es": "cerrar",
+      "pl": "zamknąć",
+      "fil": "isara"
+    },
+    "partOfSpeech": "verb",
+    "image": "",
+    "strongsNum": "G2808"
+  },
+  {
+    "id": 43,
+    "part": "B",
+    "greek": "ἐπιστρέφω",
+    "transliteration": "epistréphō",
+    "definition": "To turn back, return; to convert; to turn toward.",
+    "translations": {
+      "es": "convertirse, volverse",
+      "pl": "nawrócić się",
+      "fil": "bumalik, magbalik-loob"
+    },
+    "partOfSpeech": "verb",
+    "image": "",
+    "strongsNum": "G1994"
+  },
+  {
+    "id": 44,
+    "part": "B",
+    "greek": "μακάριος",
+    "transliteration": "makários",
+    "definition": "Blessed, happy; divinely favored.",
+    "translations": {
+      "es": "bienaventurado, dichoso",
+      "pl": "błogosławiony",
+      "fil": "mapalad, pinagpala"
+    },
+    "partOfSpeech": "adjective",
+    "image": "",
+    "strongsNum": "G3107"
+  },
+  {
+    "id": 45,
+    "part": "B",
+    "greek": "ἐπιθυμέω",
+    "transliteration": "epithyméō",
+    "definition": "To desire, long for; to crave; to set one's heart on.",
+    "translations": {
+      "es": "desear, anhelar",
+      "pl": "pragnąć",
+      "fil": "magnasa, magnanasa"
+    },
+    "partOfSpeech": "verb",
+    "image": "",
+    "strongsNum": "G1937"
+  },
+  {
+    "id": 46,
+    "part": "B",
+    "greek": "ἀνοίγω",
+    "transliteration": "anoígō",
+    "definition": "To open; to open up.",
+    "translations": {
+      "es": "abrir",
+      "pl": "otworzyć",
+      "fil": "buksan"
+    },
+    "partOfSpeech": "verb",
+    "image": "",
+    "strongsNum": "G0455"
+  },
+  {
+    "id": 47,
+    "part": "B",
+    "greek": "ὁ σατανᾶς",
+    "transliteration": "ho Satanãs",
+    "definition": "Satan; the adversary; the accuser.",
+    "translations": {
+      "es": "Satanás",
+      "pl": "szatan",
+      "fil": "si Satanas"
+    },
+    "partOfSpeech": "noun",
+    "image": "",
+    "strongsNum": "G4567"
+  },
+  {
+    "id": 48,
+    "part": "B",
+    "greek": "ἁρπάζω",
+    "transliteration": "harpázō",
+    "definition": "To snatch, seize; to take by force; to carry off suddenly.",
+    "translations": {
+      "es": "arrebatar",
+      "pl": "porwać, chwycić",
+      "fil": "agawin, kunin nang biglaan"
+    },
+    "partOfSpeech": "verb",
+    "image": "",
+    "strongsNum": "G0726"
+  },
+  {
+    "id": 49,
+    "part": "B",
+    "greek": "σῴζω",
+    "transliteration": "sṓzō",
+    "definition": "To save, rescue; to deliver from danger or destruction.",
+    "translations": {
+      "es": "salvar",
+      "pl": "zbawić, uratować",
+      "fil": "iligtas, i救"
+    },
+    "partOfSpeech": "verb",
+    "image": "",
+    "strongsNum": "G4982"
+  },
+  {
+    "id": 50,
+    "part": "B",
+    "greek": "ὁ διάβολος",
+    "transliteration": "ho diábolos",
+    "definition": "The devil; the slanderer; the accuser; one who throws things across.",
+    "translations": {
+      "es": "el diablo",
+      "pl": "diabeł",
+      "fil": "ang diyablo"
+    },
+    "partOfSpeech": "noun",
+    "image": "",
+    "strongsNum": "G1228"
+  },
+  {
+    "id": 51,
+    "part": "B",
+    "greek": "ὁ νοῦς",
+    "transliteration": "ho nous",
+    "definition": "The mind, understanding; the intellect; the faculty of reasoning.",
+    "translations": {
+      "es": "la mente",
+      "pl": "umysł",
+      "fil": "ang isip"
+    },
+    "partOfSpeech": "noun",
+    "image": "",
+    "strongsNum": "G3563"
+  },
+  {
+    "id": 52,
+    "part": "B",
+    "greek": "τηρέω",
+    "transliteration": "tēréō",
+    "definition": "To keep, guard, observe; to watch over; to preserve.",
+    "translations": {
+      "es": "guardar, observar",
+      "pl": "zachowywać, strzec",
+      "fil": "ingatan, sundin"
+    },
+    "partOfSpeech": "verb",
+    "image": "",
+    "strongsNum": "G5083"
+  },
+  {
+    "id": 53,
+    "part": "B",
+    "greek": "φυλάσσω",
+    "transliteration": "phylássō",
+    "definition": "To guard, protect; to keep watch; to defend from harm.",
+    "translations": {
+      "es": "proteger, guardar",
+      "pl": "strzec, chronić",
+      "fil": "bantayan, pangalagaan"
+    },
+    "partOfSpeech": "verb",
+    "image": "",
+    "strongsNum": "G5442"
+  },
+  {
+    "id": 54,
+    "part": "B",
+    "greek": "ὁ διωγμός",
+    "transliteration": "ho diōgmós",
+    "definition": "Persecution; pursuit for the sake of harming; harassment on account of faith.",
+    "translations": {
+      "es": "la persecución",
+      "pl": "prześladowanie",
+      "fil": "ang pag-uusig"
+    },
+    "partOfSpeech": "noun",
+    "image": "",
+    "strongsNum": "G1375"
+  },
+  {
+    "id": 55,
+    "part": "B",
+    "greek": "σκανδαλίζω",
+    "transliteration": "skandalízō",
+    "definition": "To cause to stumble or fall; to take offense; to fall away from faith.",
+    "translations": {
+      "es": "tropezar, ofenderse",
+      "pl": "zgorszyć się, upaść",
+      "fil": "matisod, mapagtambal"
+    },
+    "partOfSpeech": "verb",
+    "image": "",
+    "strongsNum": "G4624"
+  },
+  {
+    "id": 56,
+    "part": "B",
+    "greek": "ἐξανατέλλω",
+    "transliteration": "exanatéllō",
+    "definition": "To spring up, shoot up; to rise suddenly from the ground.",
+    "translations": {
+      "es": "brotar, surgir",
+      "pl": "wyrosnąć szybko",
+      "fil": "sumibol, tumubo nang biglaan"
+    },
+    "partOfSpeech": "verb",
+    "image": "",
+    "strongsNum": "G1816"
+  },
+  {
+    "id": 57,
+    "part": "B",
+    "greek": "ξηραίνω",
+    "transliteration": "xēraínō",
+    "definition": "To dry up, wither; to make or become dry.",
+    "translations": {
+      "es": "secar, marchitarse",
+      "pl": "uschnąć, wysychać",
+      "fil": "matuyo, malanta"
+    },
+    "partOfSpeech": "verb",
+    "image": "",
+    "strongsNum": "G3583"
+  },
+  {
+    "id": 58,
+    "part": "B",
+    "greek": "ἡ ἀπάτη",
+    "transliteration": "hē apátē",
+    "definition": "Deceit, deception; the act of leading astray; delusion.",
+    "translations": {
+      "es": "el engaño",
+      "pl": "oszustwo, zwodniczość",
+      "fil": "ang panlilinlang"
+    },
+    "partOfSpeech": "noun",
+    "image": "",
+    "strongsNum": "G0539"
+  },
+  {
+    "id": 59,
+    "part": "B",
+    "greek": "ἡ ἡδονή",
+    "transliteration": "hē hēdonḗ",
+    "definition": "Pleasure; the enjoyment of sensory gratification; desire for pleasure.",
+    "translations": {
+      "es": "el placer",
+      "pl": "przyjemność",
+      "fil": "ang kasiyahan"
+    },
+    "partOfSpeech": "noun",
+    "image": "",
+    "strongsNum": "G2237"
+  },
+  {
+    "id": 60,
+    "part": "B",
+    "greek": "ἡ ἐπιθυμία",
+    "transliteration": "hē epithymía",
+    "definition": "Desire, craving, lust; a strong longing for something, often sinful.",
+    "translations": {
+      "es": "el deseo, la concupiscencia",
+      "pl": "pożądanie, pragnienie",
+      "fil": "ang pagnanasa"
+    },
+    "partOfSpeech": "noun",
+    "image": "",
+    "strongsNum": "G1939"
+  },
+  {
+    "id": 61,
+    "part": "B",
+    "greek": "ἄκαρπος",
+    "transliteration": "ákarpos",
+    "definition": "Unfruitful, barren; without fruit or result.",
+    "translations": {
+      "es": "infructuoso, estéril",
+      "pl": "bezowocny",
+      "fil": "walang bunga"
+    },
+    "partOfSpeech": "adjective",
+    "image": "",
+    "strongsNum": "G0175"
+  },
+  {
+    "id": 62,
+    "part": "B",
+    "greek": "ἡ πίστις",
+    "transliteration": "hē pístis",
+    "definition": "Faith, trust, belief; faithfulness; the conviction of things not seen.",
+    "translations": {
+      "es": "la fe",
+      "pl": "wiara",
+      "fil": "ang pananampalataya"
+    },
+    "partOfSpeech": "noun",
+    "image": "",
+    "strongsNum": "G4102"
+  },
+  {
+    "id": 63,
+    "part": "B",
+    "greek": "καρποφορέω",
+    "transliteration": "karpophoréō",
+    "definition": "To bear fruit; to produce results; to be fruitful in word and deed.",
+    "translations": {
+      "es": "dar fruto, fructificar",
+      "pl": "przynosić owoc",
+      "fil": "magbunga, mamunga"
+    },
+    "partOfSpeech": "verb",
+    "image": "",
+    "strongsNum": "G2592"
+  },
+  {
+    "id": 64,
+    "part": "B",
+    "greek": "παραδέχομαι",
+    "transliteration": "paradéchomai",
+    "definition": "To receive, welcome, accept; to take something offered with a willing heart.",
+    "translations": {
+      "es": "recibir, acoger",
+      "pl": "przyjmować, akceptować",
+      "fil": "tanggapin, yakapin"
+    },
+    "partOfSpeech": "verb",
+    "image": "",
+    "strongsNum": "G3858"
   }
 ]

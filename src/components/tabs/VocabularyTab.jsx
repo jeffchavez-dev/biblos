@@ -158,7 +158,18 @@ function LearnMode({ filtered, unitId, chapterId, activePart, lang, ui, onComple
             <div className="flashcard-hint">{ui('tapToFlipBack')}</div>
             <div className="flashcard-greek greek">{word.greek}</div>
             <div className="flashcard-definition">{t(word.definition, word.translations, lang)}</div>
-            <div className="flashcard-pos">{word.partOfSpeech}</div>
+            <div className="flashcard-pos">{({
+              noun: 'ὀνοματική',
+              verb: 'ῥῆμα',
+              adjective: 'ἐπίθετον',
+              adverb: 'ἐπίρρημα',
+              pronoun: 'ἀντωνυμία',
+              preposition: 'πρόθεσις',
+              conjunction: 'σύνδεσμος',
+              particle: 'μόριον',
+              numeral: 'ἀριθμητικόν',
+              interjection: 'ἐπιφώνημα',
+            })[word.partOfSpeech?.toLowerCase()] ?? word.partOfSpeech}</div>
           </div>
         </div>
       </div>
