@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "part": "A",
+    "greek": "τὸ ἄριστον",
+    "transliteration": "to ariston",
+    "definition": "breakfast, the morning meal",
+    "translations": {
+      "es": "el desayuno",
+      "pl": "śniadanie",
+      "fil": "agahan"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G712"
+  },
+  {
+    "id": 2,
+    "part": "A",
+    "greek": "ἡ γαλήνη",
+    "transliteration": "hē galēnē",
+    "definition": "calm, tranquility, stillness (of the sea)",
+    "translations": {
+      "es": "la calma",
+      "pl": "cisza",
+      "fil": "katahimikan"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G1055"
+  },
+  {
+    "id": 3,
+    "part": "A",
+    "greek": "ὁ ἄνεμος",
+    "transliteration": "ho anemos",
+    "definition": "wind",
+    "translations": {
+      "es": "el viento",
+      "pl": "wiatr",
+      "fil": "hangin"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G417"
+  },
+  {
+    "id": 4,
+    "part": "A",
+    "greek": "ὁ κλάδος",
+    "transliteration": "ho klados",
+    "definition": "branch, bough",
+    "translations": {
+      "es": "la rama",
+      "pl": "gałąź",
+      "fil": "sanga"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G2798"
+  },
+  {
+    "id": 5,
+    "part": "A",
+    "greek": "ὁ χόρτος",
+    "transliteration": "ho chortos",
+    "definition": "grass, hay",
+    "translations": {
+      "es": "la hierba",
+      "pl": "trawa",
+      "fil": "damo"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G5528"
+  },
+  {
+    "id": 6,
+    "part": "A",
+    "greek": "ὁ ἀλέκτωρ",
+    "transliteration": "ho alektōr",
+    "definition": "rooster, cock",
+    "translations": {
+      "es": "el gallo",
+      "pl": "kogut",
+      "fil": "manok"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G220"
+  },
+  {
+    "id": 7,
+    "part": "A",
+    "greek": "ἡ θύρις",
+    "transliteration": "hē thuris",
+    "definition": "window",
+    "translations": {
+      "es": "la ventana",
+      "pl": "okno",
+      "fil": "bintana"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G2376"
+  },
+  {
+    "id": 8,
+    "part": "A",
+    "greek": "τὸ γνωστόν",
+    "transliteration": "to gnōston",
+    "definition": "that which is known, knowledge",
+    "translations": {
+      "es": "lo conocido",
+      "pl": "to, co poznane",
+      "fil": "ang kilala"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G1110"
+  },
+  {
+    "id": 9,
+    "part": "A",
+    "greek": "ἡ κτίσις",
+    "transliteration": "hē ktisis",
+    "definition": "creation (< κτίζω, to create)",
+    "translations": {
+      "es": "la creación",
+      "pl": "stworzenie",
+      "fil": "paglikha"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G2937"
+  },
+  {
+    "id": 10,
+    "part": "A",
+    "greek": "τὸ ποίημα",
+    "transliteration": "to poiēma",
+    "definition": "work, creation, what is made",
+    "translations": {
+      "es": "la obra",
+      "pl": "dzieło",
+      "fil": "gawa"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G4161"
+  },
+  {
+    "id": 11,
+    "part": "A",
+    "greek": "ὁ ποιητής",
+    "transliteration": "ho poiētēs",
+    "definition": "maker, creator, poet",
+    "translations": {
+      "es": "el creador",
+      "pl": "twórca",
+      "fil": "manlalalang"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G4163"
+  },
+  {
+    "id": 12,
+    "part": "A",
+    "greek": "ἡ ὑδρία",
+    "transliteration": "hē hudria",
+    "definition": "water jar, water pot",
+    "translations": {
+      "es": "el cántaro",
+      "pl": "dzban",
+      "fil": "banga"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G5201"
+  },
+  {
+    "id": 13,
+    "part": "A",
+    "greek": "ὁ ὄχλος",
+    "transliteration": "ho ochlos",
+    "definition": "crowd, multitude",
+    "translations": {
+      "es": "la multitud",
+      "pl": "tłum",
+      "fil": "karamihan"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G3793"
+  },
+  {
+    "id": 14,
+    "part": "A",
+    "greek": "τὸ πλοῖον",
+    "transliteration": "to ploion",
+    "definition": "boat, ship",
+    "translations": {
+      "es": "el barco",
+      "pl": "łódź",
+      "fil": "barko"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G4143"
+  },
+  {
+    "id": 15,
+    "part": "A",
+    "greek": "ἡ κεφαλή",
+    "transliteration": "hē kephalē",
+    "definition": "head",
+    "translations": {
+      "es": "la cabeza",
+      "pl": "głowa",
+      "fil": "ulo"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G2776"
+  },
+  {
+    "id": 16,
+    "part": "A",
+    "greek": "ἡ παραβολή",
+    "transliteration": "hē parabolē",
+    "definition": "parable, comparison",
+    "translations": {
+      "es": "la parábola",
+      "pl": "przypowieść",
+      "fil": "talinghaga"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G3850"
+  },
+  {
+    "id": 17,
+    "part": "A",
+    "greek": "ἡ πέτρα",
+    "transliteration": "hē petra",
+    "definition": "rock, bedrock",
+    "translations": {
+      "es": "la roca",
+      "pl": "skała",
+      "fil": "bato"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G4073"
+  },
+  {
+    "id": 18,
+    "part": "A",
+    "greek": "ἡ ῥίζα",
+    "transliteration": "hē rhiza",
+    "definition": "root",
+    "translations": {
+      "es": "la raíz",
+      "pl": "korzeń",
+      "fil": "ugat"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G4491"
+  },
+  {
+    "id": 19,
+    "part": "A",
+    "greek": "ἡ ἄκανθα",
+    "transliteration": "hē akantha",
+    "definition": "thorn, thornbush",
+    "translations": {
+      "es": "la espina",
+      "pl": "cierń",
+      "fil": "tinik"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G173"
+  },
+  {
+    "id": 20,
+    "part": "A",
+    "greek": "ἡ θλῖψις",
+    "transliteration": "hē thlipsis",
+    "definition": "tribulation, affliction, persecution",
+    "translations": {
+      "es": "la tribulación",
+      "pl": "utrapienie",
+      "fil": "kapighatian"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G2347"
+  },
+  {
+    "id": 21,
+    "part": "A",
+    "greek": "ὁ πλοῦτος",
+    "transliteration": "ho ploutos",
+    "definition": "wealth, riches",
+    "translations": {
+      "es": "la riqueza",
+      "pl": "bogactwo",
+      "fil": "kayamanan"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G4149"
+  },
+  {
+    "id": 22,
+    "part": "A",
+    "greek": "ἡ μέριμνα",
+    "transliteration": "hē merimna",
+    "definition": "worry, anxiety, care",
+    "translations": {
+      "es": "la preocupación",
+      "pl": "troska",
+      "fil": "pag-aalala"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G3308"
+  },
+  {
+    "id": 23,
+    "part": "A",
+    "greek": "ἁμαρτάνω",
+    "transliteration": "hamartanō",
+    "definition": "I sin, I miss the mark",
+    "translations": {
+      "es": "pecar",
+      "pl": "grzeszyć",
+      "fil": "magkasala"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G264"
+  },
+  {
+    "id": 24,
+    "part": "A",
+    "greek": "παραγίνομαι",
+    "transliteration": "paraginomai",
+    "definition": "I come, I arrive, I appear",
+    "translations": {
+      "es": "llegar",
+      "pl": "przybywać",
+      "fil": "dumating"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G3854"
+  },
+  {
+    "id": 25,
+    "part": "A",
+    "greek": "ἐπανέρχομαι",
+    "transliteration": "epanerchomai",
+    "definition": "I return, I come back",
+    "translations": {
+      "es": "regresar",
+      "pl": "wracać",
+      "fil": "bumalik"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G1880"
+  },
+  {
+    "id": 26,
+    "part": "A",
+    "greek": "συμπνίγω",
+    "transliteration": "sumpnigō",
+    "definition": "I choke, I crowd out, I strangle",
+    "translations": {
+      "es": "sofocar",
+      "pl": "dusić",
+      "fil": "sisihin"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G4846"
+  },
+  {
+    "id": 27,
+    "part": "A",
+    "greek": "ἐπιτίθημι",
+    "transliteration": "epitithēmi",
+    "definition": "I place upon, I lay on",
+    "translations": {
+      "es": "poner sobre",
+      "pl": "kłaść na",
+      "fil": "ipatong"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G2007"
+  },
+  {
+    "id": 28,
+    "part": "A",
+    "greek": "φανερόω",
+    "transliteration": "phaneroō",
+    "definition": "I reveal, I manifest, I make known",
+    "translations": {
+      "es": "revelar",
+      "pl": "objawiać",
+      "fil": "ipahayag"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G5319"
+  },
+  {
+    "id": 29,
+    "part": "A",
+    "greek": "μεριμνάω",
+    "transliteration": "merimnaō",
+    "definition": "I worry, I am anxious",
+    "translations": {
+      "es": "preocuparse",
+      "pl": "troszczyć się",
+      "fil": "mag-alala"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G3309"
+  },
+  {
+    "id": 30,
+    "part": "A",
+    "greek": "ἀγαπητός",
+    "transliteration": "agapētos",
+    "definition": "beloved, dear",
+    "translations": {
+      "es": "amado",
+      "pl": "umiłowany",
+      "fil": "minamahal"
+    },
+    "partOfSpeech": "adjective",
+    "image": null,
+    "strongsNum": "G27"
+  },
+  {
+    "id": 31,
+    "part": "A",
+    "greek": "φανερός",
+    "transliteration": "phaneros",
+    "definition": "evident, manifest, clear",
+    "translations": {
+      "es": "evidente",
+      "pl": "oczywisty",
+      "fil": "malinaw"
+    },
+    "partOfSpeech": "adjective",
+    "image": null,
+    "strongsNum": "G5318"
+  },
+  {
+    "id": 32,
+    "part": "A",
+    "greek": "πρόσκαιρος",
+    "transliteration": "proskairos",
+    "definition": "temporary, for a season, lasting only for a time",
+    "translations": {
+      "es": "temporal",
+      "pl": "przemijający",
+      "fil": "pansamantala"
+    },
+    "partOfSpeech": "adjective",
+    "image": null,
+    "strongsNum": "G4340"
+  },
+  {
+    "id": 33,
+    "part": "A",
+    "greek": "ἀεί",
+    "transliteration": "aei",
+    "definition": "always, ever, continually",
+    "translations": {
+      "es": "siempre",
+      "pl": "zawsze",
+      "fil": "palagi"
+    },
+    "partOfSpeech": "adverb",
+    "image": null,
+    "strongsNum": "G104"
+  },
+  {
+    "id": 34,
+    "part": "A",
+    "greek": "τριάκοντα",
+    "transliteration": "triakonta",
+    "definition": "thirty",
+    "translations": {
+      "es": "treinta",
+      "pl": "trzydzieści",
+      "fil": "tatlumpu"
+    },
+    "partOfSpeech": "numeral",
+    "image": null,
+    "strongsNum": "G5144"
+  },
+  {
+    "id": 35,
+    "part": "A",
+    "greek": "ἑξήκοντα",
+    "transliteration": "hexēkonta",
+    "definition": "sixty",
+    "translations": {
+      "es": "sesenta",
+      "pl": "sześćdziesiąt",
+      "fil": "animnapu"
+    },
+    "partOfSpeech": "numeral",
+    "image": null,
+    "strongsNum": "G1835"
+  },
+  {
+    "id": 36,
+    "part": "A",
+    "greek": "ἑκατόν",
+    "transliteration": "hekaton",
+    "definition": "a hundred, one hundred",
+    "translations": {
+      "es": "cien",
+      "pl": "sto",
+      "fil": "isang daan"
+    },
+    "partOfSpeech": "numeral",
+    "image": null,
+    "strongsNum": "G1540"
+  }
+]

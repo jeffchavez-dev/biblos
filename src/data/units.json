@@ -244,5 +244,36 @@
         ]
       }
     ]
+  },
+  {
+    "id": 4,
+    "title": "Unit 4",
+    "subtitle": "Ὁ Σπείρων — The Sower",
+    "translations": {
+      "es": "Ὁ Σπείρων — El Sembrador",
+      "pl": "Ὁ Σπείρων — Siewca",
+      "fil": "Ὁ Σπείρων — Ang Maysemai"
+    },
+    "locked": false,
+    "chapters": [
+      {
+        "id": 10,
+        "title": "Κεφάλαιον Ιʹ",
+        "subtitle": "Ὁ Σπείρων — The Sower",
+        "translations": {
+          "es": "Ὁ Σπείρων — El Sembrador",
+          "pl": "Ὁ Σπείρων — Siewca",
+          "fil": "Ὁ Σπείρων — Ang Maysemai"
+        },
+        "locked": false,
+        "parts": [
+          {
+            "id": "A",
+            "label": "Μέρος Αʹ",
+            "subtitle": "Τὸ Ἄριστον"
+          }
+        ]
+      }
+    ]
   }
 ]

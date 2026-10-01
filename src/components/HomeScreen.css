@@ -169,6 +169,11 @@
 .hs-ch-green3 { background: linear-gradient(145deg, #102c20, #1e5038); }
 .hs-ch-amber  { background: linear-gradient(145deg, #3a2610, #7a4e18); }
 .hs-ch-amber2 { background: linear-gradient(145deg, #312010, #6a4215); }
+.hs-ch-amber3 { background: linear-gradient(145deg, #281a0a, #5a3812); }
+
+.hs-ch-crimson  { background: linear-gradient(145deg, #3a1020, #8b2040); }
+.hs-ch-crimson2 { background: linear-gradient(145deg, #320e1c, #7a1c38); }
+.hs-ch-crimson3 { background: linear-gradient(145deg, #280c16, #691630); }
 
 /* ── Block internals ── */
 .hs-block-accent {

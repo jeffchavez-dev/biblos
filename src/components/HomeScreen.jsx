@@ -7,7 +7,8 @@ import './HomeScreen.css'
 const UNIT_CH_THEMES = {
   1: ['hs-ch-blue', 'hs-ch-blue2', 'hs-ch-blue3'],
   2: ['hs-ch-green', 'hs-ch-green2', 'hs-ch-green3'],
-  3: ['hs-ch-amber', 'hs-ch-amber2'],
+  3: ['hs-ch-amber', 'hs-ch-amber2', 'hs-ch-amber3'],
+  4: ['hs-ch-crimson', 'hs-ch-crimson2', 'hs-ch-crimson3'],
 }
 
 export default function HomeScreen({ onEnterApp, initialNav }) {
@@ -85,7 +86,7 @@ export default function HomeScreen({ onEnterApp, initialNav }) {
               <span className="hs-block-eyebrow">Narrative Curriculum</span>
               <span className="hs-block-title greek">Βίβλος Stories</span>
               <span className="hs-block-sub">Read original Koine Greek stories chapter by chapter with word-click definitions.</span>
-              <span className="hs-block-badge">3 units · 8 chapters</span>
+              <span className="hs-block-badge">4 units · 10 chapters</span>
             </button>
 
             <button className="hs-block" onClick={() => onEnterApp({ type: 'gnt' })}>
@@ -170,7 +171,7 @@ export default function HomeScreen({ onEnterApp, initialNav }) {
                   onClick={() => !locked && onEnterApp({ type: 'chapter', unitId: activeUnit.id, chapterId: ch.id, part: 'A' })}
                   disabled={locked}
                 >
-                  <div className="hs-block-watermark">{['Αʹ','Βʹ','Γʹ','Δʹ','Εʹ','Ϛʹ','Ζʹ','Ηʹ'][ch.id - 1]}</div>
+                  <div className="hs-block-watermark">{['Αʹ','Βʹ','Γʹ','Δʹ','Εʹ','Ϛʹ','Ζʹ','Ηʹ','Θʹ','Ιʹ'][ch.id - 1]}</div>
                   <span className="hs-block-eyebrow">Chapter {ch.id}</span>
                   <span className="hs-block-title large greek">{ch.title}</span>
                   <span className="hs-block-sub">{ch.subtitle}</span>
