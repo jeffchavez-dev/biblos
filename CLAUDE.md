@@ -192,6 +192,7 @@ const VOCAB_SOURCES = [
 - **Tabler icons:** Use outline class names only — e.g., `ti ti-settings`. No `-filled` suffix. Check at tabler.io/icons if unsure a name exists.
 - **visualstory.json:** Key must be `"panels"`, not `"scenes"`.
 - **story.json part split:** The `label` field on a paragraph (containing `Αʹ` or `Βʹ`) triggers the part switch in StoryTab. No `label` = stays in current part.
+- **story.json punctuation:** When tokenizing Greek text into word tokens, ALWAYS preserve punctuation attached to each word. The `greek` field must include: `·` (middle dot after verbs of saying), `"…"` (curly quotes around speech), `,` `,` `.` `!` `?` `;` as attached trailing/leading chars. Do NOT strip punctuation to bare words — the reader displays each `greek` field verbatim. Check an existing chapter (e.g. Ch1) as reference.
 - **JSON trailing commas:** Invalid in JSON — Vite will crash silently or with an unhelpful error. Always validate with `python3 -c "import json; json.load(open('file.json'))"`.
 - **HMR stale modules:** If you delete a data file that was previously imported, restart the Vite server (`preview_stop` + `preview_start`).
 - **Favicon:** Defined in `index.html` with both `.ico` and `.png` variants. `apple-touch-icon` is iOS home screen only — not enough for browser tabs.
