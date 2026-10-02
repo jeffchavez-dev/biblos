@@ -42,6 +42,7 @@
   color: var(--deep-blue);
   border-bottom: 2px solid var(--gold);
   padding-bottom: 6px;
+  font-family: 'Gentium Plus', 'Gentium', Georgia, serif;
 }
 
 .grammar-content {
@@ -55,10 +56,9 @@
 .table-caption {
   font-size: 0.8rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
   color: var(--grey);
   margin-bottom: 8px;
+  font-family: 'Gentium Plus', 'Gentium', Georgia, serif;
 }
 .grammar-table {
   width: 100%;
@@ -76,9 +76,8 @@
   background: var(--deep-blue);
   color: #fff;
   font-weight: 600;
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  font-family: 'Gentium Plus', 'Gentium', Georgia, serif;
 }
 .grammar-table .row-header {
   background: var(--blue-light);
