@@ -535,6 +535,18 @@
   min-height: 300px; color: var(--grey); font-size: 0.95rem;
 }
 
+/* ── ⓘ button (mobile only) ─────────────────────────────────────────────── */
+.story-paragraph { position: relative; }
+
+.para-info-btn {
+  display: none; /* hidden on desktop */
+}
+
+/* Notes panel (mobile only, shown when open) */
+.para-notes-panel {
+  display: none;
+}
+
 /* ── Mobile responsive ──────────────────────────────────────────────────── */
 @media (max-width: 600px) {
   .story-title { font-size: 1.3rem; }
@@ -542,17 +554,55 @@
   .story-paragraph { padding: 14px 14px; }
   .para-number { width: 24px; padding-top: 18px; font-size: 0.72rem; }
   .story-instruction { font-size: 0.75rem; }
-  .story-margin-gutter {
-    width: 130px;
-    margin-left: 8px;
-    padding-left: 8px;
+
+  /* Hide the side gutter on mobile */
+  .story-margin-gutter { display: none; }
+
+  /* ⓘ button */
+  .para-info-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1.5px solid var(--gold);
+    background: #fff;
+    color: var(--gold);
+    font-size: 0.78rem;
+    font-weight: 700;
+    font-style: italic;
+    font-family: Georgia, serif;
+    cursor: pointer;
+    line-height: 1;
+    transition: background 0.15s, color 0.15s;
+    flex-shrink: 0;
+    z-index: 1;
   }
-  .side-note {
-    padding: 6px 8px;
+  .para-info-btn--active {
+    background: var(--gold);
+    color: #fff;
   }
-  .side-note-greek { font-size: 0.75rem; }
-  .side-note-label  { font-size: 0.58rem; }
-  .side-note-table td { font-size: 0.72rem; }
+
+  /* Notes panel */
+  .para-notes-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1.5px dashed rgba(0,0,0,0.12);
+  }
+
+  .para-notes-panel .side-note {
+    padding: 8px 10px;
+  }
+  .para-notes-panel .side-note-greek { font-size: 0.8rem; }
+  .para-notes-panel .side-note-label { font-size: 0.6rem; }
+  .para-notes-panel .side-note-table td { font-size: 0.78rem; }
 }
 
 /* ── In-popover paradigm ─────────────────────────────────────────────────── */

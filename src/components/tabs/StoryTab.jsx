@@ -84,6 +84,7 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
   const [showParadigm, setShowParadigm] = useState(false)
   const [zoomedImage, setZoomedImage] = useState(null)
   const [popoverPos, setPopoverPos] = useState({ top: 0, left: 0 })
+  const [openNotesPara, setOpenNotesPara] = useState(null)
   const popoverRef = useRef(null)
 
   // Build a lookup: normalized Greek base form → vocab entry
@@ -248,6 +249,68 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
     pop.style.opacity = '1'
   }, [activeWord, popoverPos, showParadigm])
 
+  function renderSideNotes(notes) {
+    return notes.map((note, ni) => (
+      <div key={ni}>
+        {note.type === 'paradigm' && (
+          <div className="side-note side-note--paradigm">
+            <div className="side-note-title greek">{note.title}</div>
+            <table className="side-note-table">
+              <tbody>
+                {note.rows.map((row, ri) => (
+                  <tr key={ri}>
+                    <td className="side-note-label">{row.label}</td>
+                    <td className="side-note-greek greek">
+                      {withEndingHighlight(row.greek, note.rows.map(r => r.greek))}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+        {note.type === 'word' && (
+          <div className="side-note side-note--word">
+            <div className="side-note-phrase greek">{note.word}</div>
+            {note.lemma && (
+              <div className="side-note-lemma greek">ἀπό: {note.lemma}</div>
+            )}
+            <div className="side-note-means-row">
+              <span className="side-note-means-label greek">σημαίνει</span>
+              <span className="side-note-means-value greek">{note.means}</span>
+            </div>
+          </div>
+        )}
+        {note.type === 'construction' && (
+          <div className="side-note side-note--construction">
+            <div className="side-note-title greek">{note.title}</div>
+            <div className="side-note-phrase greek">{note.phrase}</div>
+            <div className="side-note-means-row">
+              <span className="side-note-means-label greek">σημαίνει</span>
+              <span className="side-note-means-value greek">{note.means}</span>
+            </div>
+          </div>
+        )}
+        {note.type === 'antonym' && (
+          <div className="side-note side-note--antonym">
+            <div className="side-note-title">ἐναντίον</div>
+            <table className="side-note-table">
+              <tbody>
+                {note.pairs.map((pair, pi) => (
+                  <tr key={pi}>
+                    <td className="side-note-greek greek">{pair.a}</td>
+                    <td className="side-note-sym">⇔</td>
+                    <td className="side-note-greek greek">{pair.b}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </div>
+    ))
+  }
+
   if (!story) {
     return <div className="empty-tab">📖 Story text for this chapter has not been added yet.</div>
   }
@@ -281,79 +344,43 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
           <div className="story-paragraph-row">
             <span className="para-number">{i + 1}</span>
             <div className="story-paragraph">
-              <p className="para-greek greek">
-                {para.words.map((word, wi) => (
-                  <span
-                    key={wi}
-                    className={(() => { const ve = findVocabEntry(word.greek); return `story-word ${activeWord?.key === `${para.id}-${wi}` ? 'story-word--active' : ''} ${ve?.image ? 'story-word--has-image' : ve ? 'story-word--has-vocab' : ''}` })()}
-                    onClick={(e) => handleWordClick(e, word, para.id, wi)}
-                    onDoubleClick={(e) => handleWordDoubleClick(e, word, para.id, wi)}
-                  >
-                    {word.greek}{wi < para.words.length - 1 ? ' ' : ''}
-                  </span>
-                ))}
-              </p>
+              {(() => {
+                const sideNotes = para.sideNotes ?? (para.sideNote ? [para.sideNote] : [])
+                const notesOpen = openNotesPara === para.id
+                return (
+                  <>
+                    <p className="para-greek greek">
+                      {para.words.map((word, wi) => (
+                        <span
+                          key={wi}
+                          className={(() => { const ve = findVocabEntry(word.greek); return `story-word ${activeWord?.key === `${para.id}-${wi}` ? 'story-word--active' : ''} ${ve?.image ? 'story-word--has-image' : ve ? 'story-word--has-vocab' : ''}` })()}
+                          onClick={(e) => handleWordClick(e, word, para.id, wi)}
+                          onDoubleClick={(e) => handleWordDoubleClick(e, word, para.id, wi)}
+                        >
+                          {word.greek}{wi < para.words.length - 1 ? ' ' : ''}
+                        </span>
+                      ))}
+                    </p>
+                    {sideNotes.length > 0 && (
+                      <button
+                        className={`para-info-btn${notesOpen ? ' para-info-btn--active' : ''}`}
+                        onClick={() => setOpenNotesPara(id => id === para.id ? null : para.id)}
+                        aria-label={notesOpen ? 'Hide notes' : 'Show notes'}
+                      >
+                        i
+                      </button>
+                    )}
+                    {notesOpen && sideNotes.length > 0 && (
+                      <div className="para-notes-panel">
+                        {renderSideNotes(sideNotes)}
+                      </div>
+                    )}
+                  </>
+                )
+              })()}
             </div>
             <div className="story-margin-gutter">
-              {(para.sideNotes ?? (para.sideNote ? [para.sideNote] : [])).map((note, ni) => (
-                <div key={ni}>
-                  {note.type === 'paradigm' && (
-                    <div className="side-note side-note--paradigm">
-                      <div className="side-note-title greek">{note.title}</div>
-                      <table className="side-note-table">
-                        <tbody>
-                          {note.rows.map((row, ri) => (
-                            <tr key={ri}>
-                              <td className="side-note-label">{row.label}</td>
-                              <td className="side-note-greek greek">
-                                {withEndingHighlight(row.greek, note.rows.map(r => r.greek))}
-                              </td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  )}
-                  {note.type === 'word' && (
-                    <div className="side-note side-note--word">
-                      <div className="side-note-phrase greek">{note.word}</div>
-                      {note.lemma && (
-                        <div className="side-note-lemma greek">ἀπό: {note.lemma}</div>
-                      )}
-                      <div className="side-note-means-row">
-                        <span className="side-note-means-label greek">σημαίνει</span>
-                        <span className="side-note-means-value greek">{note.means}</span>
-                      </div>
-                    </div>
-                  )}
-                  {note.type === 'construction' && (
-                    <div className="side-note side-note--construction">
-                      <div className="side-note-title greek">{note.title}</div>
-                      <div className="side-note-phrase greek">{note.phrase}</div>
-                      <div className="side-note-means-row">
-                        <span className="side-note-means-label greek">σημαίνει</span>
-                        <span className="side-note-means-value greek">{note.means}</span>
-                      </div>
-                    </div>
-                  )}
-                  {note.type === 'antonym' && (
-                    <div className="side-note side-note--antonym">
-                      <div className="side-note-title">ἐναντίον</div>
-                      <table className="side-note-table">
-                        <tbody>
-                          {note.pairs.map((pair, pi) => (
-                            <tr key={pi}>
-                              <td className="side-note-greek greek">{pair.a}</td>
-                              <td className="side-note-sym">⇔</td>
-                              <td className="side-note-greek greek">{pair.b}</td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  )}
-                </div>
-              ))}
+              {renderSideNotes(para.sideNotes ?? (para.sideNote ? [para.sideNote] : []))}
             </div>
           </div>
         </div>
