@@ -140,6 +140,9 @@
   height: calc(100dvh - 58px);
   overflow-y: auto;
 }
+.app-shell--nav-hidden .main-content {
+  height: 100dvh;
+}
 
 .font-size-ctrl {
   display: flex;
