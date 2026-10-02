@@ -109,7 +109,8 @@ function AppInner({ onSignOut, initialNav, onGoHome, onGoToUnits, onGoToUnit }) 
       document.documentElement.requestFullscreen()
       setNavHidden(true)
     } else {
-      document.exitFullscreen()
+      // Already fullscreen — toggle focus mode; press Esc to exit fullscreen
+      setNavHidden(v => !v)
     }
   }
 
@@ -301,8 +302,8 @@ function AppInner({ onSignOut, initialNav, onGoHome, onGoToUnits, onGoToUnit }) 
         <button
           className="fullscreen-btn"
           onClick={toggleFullscreen}
-          aria-label={isFullscreen ? 'Exit fullscreen' : 'Enter fullscreen'}
-          title={isFullscreen ? 'Exit fullscreen (Esc)' : 'Fullscreen'}
+          aria-label={isFullscreen ? (navHidden ? 'Show navigation' : 'Hide navigation') : 'Enter fullscreen'}
+          title={isFullscreen ? (navHidden ? 'Show navigation' : 'Hide navigation (Esc to exit fullscreen)') : 'Fullscreen'}
         >
           {isFullscreen ? '⊠' : '⛶'}
         </button>
