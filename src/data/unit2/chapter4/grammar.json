@@ -1,36 +1,20 @@
 {
-  "title": "Grammar — Κεφάλαιον Δʹ (The Friend and the Farmers)",
+  "title": "Γραμματική — Κεφάλαιον Δʹ (The Friend and the Farmers)",
   "parts": [
     {
       "label": "Μέρος Αʹ — Ὁ Φίλος",
       "sections": [
         {
           "id": 1,
-          "heading": "1. Middle deponent verbs",
+          "heading": "1. τὸ ῥῆμα μέσης διαθέσεως (middle deponent verb) — active meaning, middle form",
           "content": "Many Greek verbs have middle or passive forms but active meaning. These are called deponents. They are listed in the lexicon with a middle ending (-ομαι, -ομαι, -αι) but translated as active. Most of the new verbs in this chapter are deponents: ἔρχομαι (come), πορεύομαι (go), ἀσπάζομαι (greet), ἀποκρίνομαι (answer), βούλομαι (want), γίνομαι (become), δύναμαι (be able), ἀπέρχομαι (depart).",
           "table": {
-            "caption": "πορεύομαι — present indicative middle",
-            "headers": [
-              "Person",
-              "Singular",
-              "Plural"
-            ],
+            "caption": "πορεύομαι — ὁ ἐνεστὼς μέση ὁριστική (Present Middle Indicative)",
+            "headers": ["τὸ πρόσωπον", "ἑνικόν (singular)", "πληθυντικόν (plural)"],
             "rows": [
-              [
-                "1st",
-                "πορεύομαι (I go)",
-                "πορευόμεθα (we go)"
-              ],
-              [
-                "2nd",
-                "πορεύῃ / πορεύει (you go)",
-                "πορεύεσθε (you all go)"
-              ],
-              [
-                "3rd",
-                "πορεύεται (he/she/it goes)",
-                "πορεύονται (they go)"
-              ]
+              ["αʹ (1st)", "πορεύομαι (I go)", "πορευόμεθα (we go)"],
+              ["βʹ (2nd)", "πορεύῃ / πορεύει (you go)", "πορεύεσθε (you all go)"],
+              ["γʹ (3rd)", "πορεύεται (he/she/it goes)", "πορεύονται (they go)"]
             ]
           },
           "examples": [
@@ -75,31 +59,15 @@
         },
         {
           "id": 2,
-          "heading": "2. δύναμαι — a special deponent",
+          "heading": "2. δύναμαι — irregular middle deponent, 'to be able'",
           "content": "δύναμαι (I am able, I can) is a middle deponent with irregular present forms. Notice that the stem vowel alternates: δύνα- in some forms. It takes an infinitive to complete its meaning.",
           "table": {
-            "caption": "δύναμαι — present indicative",
-            "headers": [
-              "Person",
-              "Singular",
-              "Plural"
-            ],
+            "caption": "δύναμαι — ὁ ἐνεστὼς ὁριστική (Present Indicative)",
+            "headers": ["τὸ πρόσωπον", "ἑνικόν (singular)", "πληθυντικόν (plural)"],
             "rows": [
-              [
-                "1st",
-                "δύναμαι (I am able)",
-                "δυνάμεθα (we are able)"
-              ],
-              [
-                "2nd",
-                "δύνασαι (you are able)",
-                "δύνασθε (you all are able)"
-              ],
-              [
-                "3rd",
-                "δύναται (he/she/it is able)",
-                "δύνανται (they are able)"
-              ]
+              ["αʹ (1st)", "δύναμαι (I am able)", "δυνάμεθα (we are able)"],
+              ["βʹ (2nd)", "δύνασαι (you are able)", "δύνασθε (you all are able)"],
+              ["γʹ (3rd)", "δύναται (he/she/it is able)", "δύνανται (they are able)"]
             ]
           },
           "examples": [
@@ -144,31 +112,15 @@
         },
         {
           "id": 3,
-          "heading": "3. Contract verbs in -άω and -έω (review and expansion)",
+          "heading": "3. τὸ συνηρημένον ῥῆμα (contract verb) — -άω and -έω in the present",
           "content": "Several new verbs belong to the contract classes: ἀγαπάω, μεριμνάω (both -άω contracts) and κατοικέω, βοηθέω, καταφιλέω (all -έω contracts). In the present indicative, the stem vowel contracts with the ending. The resulting long vowel or diphthong takes a circumflex accent.",
           "table": {
-            "caption": "ἀγαπάω (-άω contract) — present indicative active",
-            "headers": [
-              "Person",
-              "Singular",
-              "Plural"
-            ],
+            "caption": "ἀγαπάω (-άω contract) — ὁ ἐνεστὼς ἐνεργετικὴ ὁριστική (Present Active Indicative)",
+            "headers": ["τὸ πρόσωπον", "ἑνικόν (singular)", "πληθυντικόν (plural)"],
             "rows": [
-              [
-                "1st",
-                "ἀγαπῶ (I love)",
-                "ἀγαπῶμεν (we love)"
-              ],
-              [
-                "2nd",
-                "ἀγαπᾷς (you love)",
-                "ἀγαπᾶτε (you all love)"
-              ],
-              [
-                "3rd",
-                "ἀγαπᾷ (he/she loves)",
-                "ἀγαπῶσιν (they love)"
-              ]
+              ["αʹ (1st)", "ἀγαπῶ (I love)", "ἀγαπῶμεν (we love)"],
+              ["βʹ (2nd)", "ἀγαπᾷς (you love)", "ἀγαπᾶτε (you all love)"],
+              ["γʹ (3rd)", "ἀγαπᾷ (he/she loves)", "ἀγαπῶσιν (they love)"]
             ]
           },
           "examples": [
@@ -213,36 +165,16 @@
         },
         {
           "id": 4,
-          "heading": "4. 3rd-declension -μα nouns (σῶμα, ὄνομα)",
+          "heading": "4. τὸ οὐδέτερον ὄνομα -μα (neuter -μα noun) — 3rd declension, -ατος stem",
           "content": "Neuter nouns ending in -μα (gen. -ματος) are among the most common 3rd-declension nouns in Greek. The key feature is the -τ- that appears in all oblique cases. The nominative and accusative are identical (as with all Greek neuters), and the neuter plural nominative/accusative ends in -α.",
           "table": {
-            "caption": "ὄνομα, -ατος, τό — declension",
-            "headers": [
-              "Case",
-              "Singular",
-              "Plural"
-            ],
+            "caption": "ὄνομα, -ατος, τό — 3rd declension",
+            "headers": ["ἡ πτῶσις", "ἑνικόν (sg.)", "πληθυντικόν (pl.)"],
             "rows": [
-              [
-                "Nom.",
-                "ὄνομα",
-                "ὀνόματα"
-              ],
-              [
-                "Gen.",
-                "ὀνόματος",
-                "ὀνομάτων"
-              ],
-              [
-                "Dat.",
-                "ὀνόματι",
-                "ὀνόμασι(ν)"
-              ],
-              [
-                "Acc.",
-                "ὄνομα",
-                "ὀνόματα"
-              ]
+              ["ὀνομαστική (nom.)", "ὄνομα", "ὀνόματα"],
+              ["γενική (gen.)", "ὀνόματος", "ὀνομάτων"],
+              ["δοτική (dat.)", "ὀνόματι", "ὀνόμασι(ν)"],
+              ["αἰτιατική (acc.)", "ὄνομα", "ὀνόματα"]
             ]
           },
           "examples": [
@@ -287,27 +219,15 @@
         },
         {
           "id": 5,
-          "heading": "5. ὕδωρ — a 3rd-declension neuter with stem change",
+          "heading": "5. ὕδωρ, ὕδατος, τό (water) — 3rd declension neuter, stem change",
           "content": "ὕδωρ (water) is a 3rd-declension neuter with an irregular stem. The nominative/accusative is ὕδωρ, but the genitive reveals the true stem: ὕδατ-. This -τ- stem pattern parallels the -μα nouns.",
           "table": {
             "caption": "ὕδωρ, ὕδατος, τό",
-            "headers": [
-              "Case",
-              "Singular"
-            ],
+            "headers": ["ἡ πτῶσις", "ἑνικόν (sg.)"],
             "rows": [
-              [
-                "Nom./Acc.",
-                "ὕδωρ"
-              ],
-              [
-                "Gen.",
-                "ὕδατος"
-              ],
-              [
-                "Dat.",
-                "ὕδατι"
-              ]
+              ["ὀνομαστική / αἰτιατική (nom./acc.)", "ὕδωρ"],
+              ["γενική (gen.)", "ὕδατος"],
+              ["δοτική (dat.)", "ὕδατι"]
             ]
           },
           "examples": [
@@ -352,53 +272,18 @@
         },
         {
           "id": 6,
-          "heading": "6. The prepositions διά, μετά, and περί with two cases",
+          "heading": "6. ἡ προθέσις (preposition) — διά, μετά, περί with two cases",
           "content": "Three important prepositions each take two different cases with different meanings. Learning both meanings is essential.",
           "table": {
-            "caption": "Prepositions with two cases",
-            "headers": [
-              "Preposition",
-              "Case",
-              "Meaning",
-              "Example"
-            ],
+            "caption": "αἱ προθέσεις (prepositions) — διά, μετά, περί",
+            "headers": ["ἡ προθέσις", "ἡ πτῶσις", "σημαίνει", "παράδειγμα (example)"],
             "rows": [
-              [
-                "διά",
-                "+ Gen.",
-                "through (space/time)",
-                "πορεύεται διὰ τῶν ἀγρῶν — through the fields"
-              ],
-              [
-                "διά",
-                "+ Acc.",
-                "because of, on account of",
-                "διὰ τὸ καῦμα — because of the heat"
-              ],
-              [
-                "μετά",
-                "+ Gen.",
-                "with",
-                "πορεύου μετὰ χαρᾶς — go with joy"
-              ],
-              [
-                "μετά",
-                "+ Acc.",
-                "after",
-                "μετὰ τοῦτο — after this"
-              ],
-              [
-                "περί",
-                "+ Gen.",
-                "about, concerning",
-                "μεριμνῶ περὶ τοῦ ἀγροῦ — I worry about the field"
-              ],
-              [
-                "περί",
-                "+ Acc.",
-                "around",
-                "περὶ τὴν ὁδόν — around the road"
-              ]
+              ["διά", "+ γενική (gen.)", "through (space/time)", "πορεύεται διὰ τῶν ἀγρῶν — through the fields"],
+              ["διά", "+ αἰτιατική (acc.)", "because of, on account of", "διὰ τὸ καῦμα — because of the heat"],
+              ["μετά", "+ γενική (gen.)", "with", "πορεύου μετὰ χαρᾶς — go with joy"],
+              ["μετά", "+ αἰτιατική (acc.)", "after", "μετὰ τοῦτο — after this"],
+              ["περί", "+ γενική (gen.)", "about, concerning", "μεριμνῶ περὶ τοῦ ἀγροῦ — I worry about the field"],
+              ["περί", "+ αἰτιατική (acc.)", "around", "περὶ τὴν ὁδόν — around the road"]
             ]
           },
           "examples": [
@@ -434,7 +319,7 @@
         },
         {
           "id": 7,
-          "heading": "7. The negative particle μή with imperatives and infinitives",
+          "heading": "7. μή — negation with ἡ προστακτική (imperative) and ὁ ἀπαρέμφατος (infinitive)",
           "content": "Greek uses two different words for \"not\": οὐ / οὐκ / οὐχ negates indicative verbs (statements of fact). μή negates non-indicative forms: imperatives, infinitives, and later participles and subjunctives.",
           "examples": [
             {
@@ -466,9 +351,9 @@
             }
           ],
           "headingTranslations": {
-            "es": "7. La partícula negativa μή con imperativos e infinitivos",
-            "pl": "7. Partykuła przecząca μή z trybem rozkazującym i bezokolicznikami",
-            "fil": "7. Ang negatibong partikula μή kasama ang mga imperative at infinitive"
+            "es": "7. μή — negación con el imperativo y el infinitivo",
+            "pl": "7. μή — przeczenie z trybem rozkazującym i bezokolicznikiem",
+            "fil": "7. μή — pagtanggi kasama ang imperative at infinitive"
           },
           "contentTranslations": {
             "es": "El griego usa dos palabras distintas para «no»: οὐ / οὐκ / οὐχ niega verbos en indicativo (afirmaciones de hecho). μή niega formas no indicativas: imperativos, infinitivos y, más adelante, participios y subjuntivos.",
@@ -478,7 +363,7 @@
         },
         {
           "id": 8,
-          "heading": "8. ἆρα and πῶς — question words",
+          "heading": "8. τὸ ἐρωτηματικόν (interrogative) — ἆρα (yes/no) and πῶς (how?)",
           "content": "ἆρα is an interrogative particle placed at the beginning of a yes/no question. It does not translate directly — it simply signals that a question follows. πῶς is an interrogative adverb meaning \"how\" and introduces questions about manner.",
           "examples": [
             {
@@ -501,9 +386,9 @@
             }
           ],
           "headingTranslations": {
-            "es": "8. ἆρα y πῶς — palabras interrogativas",
-            "pl": "8. ἆρα i πῶς — wyrazy pytajne",
-            "fil": "8. ἆρα at πῶς — mga salitang interrogative"
+            "es": "8. El interrogativo — ἆρα (sí/no) y πῶς (¿cómo?)",
+            "pl": "8. Zaimki pytajne — ἆρα (tak/nie) i πῶς (jak?)",
+            "fil": "8. Ang interrogative — ἆρα (oo/hindi) at πῶς (paano?)"
           },
           "contentTranslations": {
             "es": "ἆρα es una partícula interrogativa que se coloca al inicio de una pregunta de sí/no. No se traduce directamente; simplemente señala que sigue una pregunta. πῶς es un adverbio interrogativo que significa «cómo» e introduce preguntas sobre el modo.",
@@ -518,7 +403,7 @@
       "sections": [
         {
           "id": 9,
-          "heading": "9. The μέν … δέ construction",
+          "heading": "9. μέν … δέ — contrast construction ('on the one hand … on the other')",
           "content": "The pair μέν … δέ is used to contrast two items or clauses. μέν signals \"on the one hand\" and δέ signals \"on the other hand.\" Neither word is strongly translated in English; together they create a balanced contrast. They always come second in their clause (postpositive).",
           "examples": [
             {
@@ -562,7 +447,7 @@
         },
         {
           "id": 10,
-          "heading": "10. The relative adverbs ὅπου and ὅτε",
+          "heading": "10. τὸ ἐπίρρημα (adverb) — ὅπου (where) and ὅτε (when), relative",
           "content": "ὅπου means \"where\" (relative, not interrogative — that is ποῦ;). ὅτε means \"when\" (relative conjunction). Both introduce subordinate clauses describing location or time.",
           "examples": [
             {
@@ -594,9 +479,9 @@
             }
           ],
           "headingTranslations": {
-            "es": "10. Los adverbios relativos ὅπου y ὅτε",
-            "pl": "10. Względne przysłówki ὅπου i ὅτε",
-            "fil": "10. Ang mga relative adverb ὅπου at ὅτε"
+            "es": "10. El adverbio relativo — ὅπου (donde) y ὅτε (cuando)",
+            "pl": "10. Przysłówki względne — ὅπου (gdzie) i ὅτε (gdy)",
+            "fil": "10. Ang relative adverb — ὅπου (kung saan) at ὅτε (kapag)"
           },
           "contentTranslations": {
             "es": "ὅπου significa «donde» (relativo, no interrogativo — ese es ποῦ;). ὅτε significa «cuando» (conjunción relativa). Ambos introducen cláusulas subordinadas que describen lugar o tiempo.",
@@ -606,7 +491,7 @@
         },
         {
           "id": 11,
-          "heading": "11. καθ᾽ ἡμέραν — elision and crasis",
+          "heading": "11. καθ᾽ ἡμέραν — elision (κατά + vowel) and crasis",
           "content": "καθ᾽ ἡμέραν is a contracted phrase from κατά + ἡμέραν. When κατά precedes a word beginning with a vowel, the final -α drops (elision) and leaves an apostrophe. κατά + ἡμέραν (accusative) = \"according to each day\" = \"daily, every day.\" This same crasis pattern is seen with κἀγώ (καὶ + ἐγώ) and κἀγω (καὶ + ἐγώ) in the dialogue.",
           "examples": [
             {
@@ -641,7 +526,7 @@
         },
         {
           "id": 12,
-          "heading": "12. Adjectives used as nouns (substantive adjectives)",
+          "heading": "12. τὸ ἐπίθετον (adjective) — substantive use with τὸ ἄρθρον (article)",
           "content": "Greek adjectives can stand alone without a noun when the article is present. The article signals that the adjective is being used as a noun. The gender of the article tells you who is meant: masculine = men/people, feminine = women, neuter = things.",
           "examples": [
             {
@@ -673,9 +558,9 @@
             }
           ],
           "headingTranslations": {
-            "es": "12. Adjetivos usados como sustantivos (adjetivos sustantivados)",
-            "pl": "12. Przymiotniki używane jako rzeczowniki (przymiotniki substantywowane)",
-            "fil": "12. Mga pang-uri na ginagamit bilang pangngalan (substantive adjective)"
+            "es": "12. El adjetivo — uso sustantivado con el artículo",
+            "pl": "12. Przymiotnik — użycie rzeczownikowe z rodzajnikiem",
+            "fil": "12. Ang pang-uri — substantive na paggamit kasama ang pantukoy"
           },
           "contentTranslations": {
             "es": "Los adjetivos griegos pueden aparecer solos sin un sustantivo cuando hay artículo. El artículo señala que el adjetivo se está usando como sustantivo. El género del artículo indica a quién se refiere: masculino = hombres/personas, femenino = mujeres, neutro = cosas.",
@@ -685,7 +570,7 @@
         },
         {
           "id": 13,
-          "heading": "13. The verb πάρειμι — compound of εἰμί",
+          "heading": "13. τὸ ῥῆμα (verb) πάρειμι — compound of εἰμί",
           "content": "πάρειμι is formed from the prefix παρά- (beside, near) + εἰμί. It means \"I am present\" or \"I am here.\" It conjugates like εἰμί: πάρειμι, πάρει, πάρεστιν, πάρεσμεν, πάρεστε, πάρεισιν. Similar compounds: ἄπειμι (be absent), σύνειμι (be with).",
           "examples": [
             {
@@ -720,7 +605,7 @@
         },
         {
           "id": 14,
-          "heading": "14. ἴδιος — \"one's own\"",
+          "heading": "14. τὸ ἐπίθετον ἴδιος (adjective ἴδιος) — 'one's own, private'",
           "content": "ἴδιος, -α, -ον is an adjective meaning \"one's own\" or \"private.\" It emphasizes that something belongs to the subject personally. It is often used without a possessive pronoun because it already implies possession.",
           "examples": [
             {
@@ -743,9 +628,9 @@
             }
           ],
           "headingTranslations": {
-            "es": "14. ἴδιος — «el propio»",
-            "pl": "14. ἴδιος — «własny»",
-            "fil": "14. ἴδιος — «sarili»"
+            "es": "14. El adjetivo ἴδιος — «el propio, privado»",
+            "pl": "14. Przymiotnik ἴδιος — «własny, prywatny»",
+            "fil": "14. Ang pang-uri ἴδιος — «sarili, pribado»"
           },
           "contentTranslations": {
             "es": "ἴδιος, -α, -ον es un adjetivo que significa «propio» o «privado». Enfatiza que algo pertenece personalmente al sujeto. A menudo se usa sin pronombre posesivo porque ya implica posesión.",
@@ -755,7 +640,7 @@
         },
         {
           "id": 15,
-          "heading": "15. The infinitive as subject or object",
+          "heading": "15. ὁ ἀπαρέμφατος (infinitive) — as subject or object of the verb",
           "content": "Greek infinitives function as verbal nouns. They can be the subject of a sentence (often with a neuter article or alone) or the object of verbs of wanting, being able, intending (θέλω, βούλομαι, δύναμαι, μέλλω).",
           "examples": [
             {
