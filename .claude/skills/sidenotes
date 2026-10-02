@@ -1,0 +1,127 @@
+# SideNote Workflow — Βίβλος
+
+Use this skill when adding or reviewing `sideNotes` in any `story.json` file.
+
+---
+
+## Four note types (implemented in StoryTab)
+
+### `type: "word"`
+Shows a gold word, **σημαίνει** label, and a Greek definition.
+
+```json
+{
+  "type": "word",
+  "word": "ἐνεγκεῖν",
+  "lemma": "φέρω",
+  "means": "φέρειν · μεταφέρειν τι ἀπὸ τόπου εἰς τόπον"
+}
+```
+
+- `lemma` — optional; shows as **ἀπό: …** to give the dictionary form when the text has an inflected form
+- Use when a single word needs defining or its lexical form is non-obvious
+
+### `type: "construction"`
+Shows a title, a phrase, **σημαίνει**, and a Greek explanation.
+
+```json
+{
+  "type": "construction",
+  "title": "φανερός · φανερόω",
+  "phrase": "τὸ φανερὸν ποιεῖν",
+  "means": "δηλοῦν · ἀποκαλύπτειν"
+}
+```
+
+- Use for word families, compound verbs, citation notes (scripture references), or multi-word phrases
+
+### `type: "antonym"`
+Shows **ἐναντίον** header and a table of opposite pairs.
+
+```json
+{
+  "type": "antonym",
+  "pairs": [
+    { "a": "ἀγαθός", "b": "κακός" },
+    { "a": "φῶς", "b": "σκότος" }
+  ]
+}
+```
+
+### `type: "paradigm"`
+Shows a title and a table of grammatical forms.
+
+```json
+{
+  "type": "paradigm",
+  "title": "ἔρχομαι (ἀόριστος)",
+  "rows": [
+    { "label": "ὁριστική", "greek": "ἦλθον" },
+    { "label": "ἀπαρέμφατος", "greek": "ἐλθεῖν" },
+    { "label": "προστακτική", "greek": "ἐλθέ · ἔλθετε" },
+    { "label": "μετοχή", "greek": "ἐλθών · οῦσα · όν" }
+  ]
+}
+```
+
+- Use for irregular verb forms, case declensions, or any paradigm worth memorizing
+- Apply **selectively** — only where the word actually appears in the text and the form is notable
+
+---
+
+## Content rules
+
+| Concept | Greek label | Notes |
+|---|---|---|
+| definition | σημαίνει | Always in Greek. English after `·` only when needed |
+| antonym | ἐναντίον | Use `type: "antonym"` |
+| synonym | τὸ συνώνυμον | Include in `means` field with `·` separator |
+| indicative | ὁριστική | Paradigm row label |
+| infinitive | ἀπαρέμφατος | Paradigm row label |
+| imperative | προστακτική | Paradigm row label |
+| participle | μετοχή | Paradigm row label |
+| nominative | ὀνομαστική | Case label |
+| accusative | αἰτιατική | Case label |
+| dative | δοτική | Case label |
+| genitive | γενική | Case label |
+
+**`means` field is always in Greek.** Never write an English definition as the primary value. English only after `·` for extra clarity when the Greek alone won't be enough for a student.
+
+---
+
+## Placement rules
+
+1. **Match paragraph to word.** Attach the sideNote to the paragraph where the target word **actually appears** in the text. Check the `story.json` — do not assume.
+2. **Spread across the story.** Do not pile multiple notes onto paragraph 1. Each note lives where its word lives.
+3. **Verify before committing.** If a word appears in para 2, the note goes on para 2, not para 1 (even if para 1 feels like the "intro").
+
+---
+
+## Tokenization rule (story.json `greek` field)
+
+When writing or re-tokenizing Greek text into word tokens, **preserve all punctuation attached to each word**. The `greek` field is displayed verbatim in the reader — stripping it produces bare unreadable prose.
+
+| Preserve | Examples |
+|---|---|
+| Middle dot after λέγει/εἶπεν | `λέγει·` `εἶπεν·` |
+| Curly opening quote on speech start | `"πάτερ,` `"ναί,` |
+| Curly closing quote on speech end | `ἐστιν;"` `ἀκούω!"` |
+| Comma, period, question mark | `πάτερ,` `παραβολήν.` `ἐστιν;` |
+| Elision apostrophe (keep, part of word) | `κατ᾽` `ἀλλ᾽` |
+
+**Reference:** Ch1 story.json shows the correct pattern — words like `ἐστιν.` and `γεωργός.` retain their periods.
+
+**Never strip punctuation** from source text when building word token arrays. If punctuation was accidentally stripped, use a re-tokenization script to restore it from the original source.
+
+---
+
+## Checklist when adding sideNotes to a new story
+
+- [ ] Read the story paragraphs and locate each target word's paragraph number
+- [ ] Choose note type: word · construction · antonym · paradigm
+- [ ] Write `means` / `phrase` / `pairs` / `rows` in Greek
+- [ ] Attach note to the correct paragraph (verify word is present)
+- [ ] Apply paradigm notes only to notable/irregular forms — not every common verb
+- [ ] Validate JSON: `python3 -c "import json; json.load(open('story.json'))"`
+- [ ] Verify in browser: scroll to each note's paragraph and confirm it renders in the right column
+- [ ] Spot-check that quotes and punctuation appear in the rendered text (not stripped bare words)

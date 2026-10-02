@@ -100,7 +100,7 @@ export default function GrammarTab({ grammar, words, activePart }) {
                         <tr key={ri}>
                           {row.map((cell, ci) => (
                             ci === 0
-                              ? <th key={ci} className="row-header">{cell}</th>
+                              ? <th key={ci} className="row-header greek">{cell}</th>
                               : ci === 1
                                 ? <td key={ci} className="greek">{cell}</td>
                                 : <td key={ci}>{tRow(section.table, ri, cell)}</td>
@@ -128,7 +128,7 @@ export default function GrammarTab({ grammar, words, activePart }) {
                         <tr key={ri}>
                           {row.map((cell, ci) => (
                             ci === 0
-                              ? <th key={ci} className="row-header">{cell}</th>
+                              ? <th key={ci} className="row-header greek">{cell}</th>
                               : ci === 1
                                 ? <td key={ci} className="greek">{cell}</td>
                                 : <td key={ci}>{tRow(tbl, ri, cell)}</td>

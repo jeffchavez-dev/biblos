@@ -85,9 +85,7 @@
   color: var(--deep-blue);
   font-weight: 600;
   text-align: left;
-  font-size: 0.82rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
+  font-size: 0.95rem;
 }
 .grammar-table td {
   font-size: 1.05rem;
