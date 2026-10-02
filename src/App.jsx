@@ -95,7 +95,11 @@ function AppInner({ onSignOut, initialNav, onGoHome, onGoToUnits, onGoToUnit }) 
   const [isFullscreen, setIsFullscreen] = useState(false)
 
   useEffect(() => {
-    function onFsChange() { setIsFullscreen(!!document.fullscreenElement) }
+    function onFsChange() {
+      const inFs = !!document.fullscreenElement
+      setIsFullscreen(inFs)
+      if (!inFs) setNavHidden(false)
+    }
     document.addEventListener('fullscreenchange', onFsChange)
     return () => document.removeEventListener('fullscreenchange', onFsChange)
   }, [])
@@ -103,6 +107,7 @@ function AppInner({ onSignOut, initialNav, onGoHome, onGoToUnits, onGoToUnit }) 
   function toggleFullscreen() {
     if (!document.fullscreenElement) {
       document.documentElement.requestFullscreen()
+      setNavHidden(true)
     } else {
       document.exitFullscreen()
     }
