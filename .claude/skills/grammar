@@ -183,6 +183,21 @@ Always use Greek headers in grammar tables:
 
 ---
 
+## Γλωσσάριον Γραμματικῆς (Grammar Terms Reference Panel)
+
+The Grammar tab automatically renders a collapsible **Γλωσσάριον Γραμματικῆς** panel between the grammar sections and the vocabulary list. It requires no extra data — it reads the current part's sections and matches any Greek grammar terms from the master list against the text found in:
+
+- Section `heading` fields
+- Table `caption` fields
+- Table `headers` arrays
+- First cell of each table `rows` array (the row label)
+
+Only matched terms are shown. If a chapter's grammar touches ὁριστική, αἰτιατική, and τὸ ῥῆμα, only those three appear in the panel. Students click the toggle to open it and look up any term used in the sections above.
+
+**This means: if you want a term to appear in the panel, it must appear somewhere in the section text.** The heading pattern `"Greek term (English)"` already ensures this — terms in headings are always picked up automatically. No extra work needed.
+
+---
+
 ## Checklist when writing a grammar.json
 
 - [ ] Each section heading follows: `"{n}. {Greek term} ({English}) — {point}"`
