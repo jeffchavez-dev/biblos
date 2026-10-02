@@ -1,5 +1,109 @@
+import { useState } from 'react'
 import { useLanguage, t } from '../../context/LanguageContext.jsx'
 import './GrammarTab.css'
+
+// Master list of Greek grammar terms → English equivalents
+const GRAMMAR_TERMS = [
+  // Cases
+  { greek: 'ἡ πτῶσις',       en: 'case' },
+  { greek: 'ὀνομαστική',     en: 'nominative' },
+  { greek: 'αἰτιατική',      en: 'accusative' },
+  { greek: 'γενική',         en: 'genitive' },
+  { greek: 'δοτική',         en: 'dative' },
+  { greek: 'κλητική',        en: 'vocative' },
+  // Tense
+  { greek: 'ὁ χρόνος',       en: 'tense' },
+  { greek: 'ἐνεστώς',        en: 'present' },
+  { greek: 'παρατατικός',    en: 'imperfect' },
+  { greek: 'ἀόριστος',       en: 'aorist' },
+  { greek: 'μέλλων',         en: 'future' },
+  { greek: 'παρακείμενος',   en: 'perfect' },
+  // Voice
+  { greek: 'ἡ διάθεσις',     en: 'voice' },
+  { greek: 'ἐνεργετική',     en: 'active' },
+  { greek: 'μέση',           en: 'middle' },
+  { greek: 'παθητική',       en: 'passive' },
+  // Mood
+  { greek: 'ἡ ἔγκλισις',     en: 'mood' },
+  { greek: 'ὁριστική',       en: 'indicative' },
+  { greek: 'προστακτική',    en: 'imperative' },
+  { greek: 'ὑποτακτική',     en: 'subjunctive' },
+  { greek: 'εὐκτική',        en: 'optative' },
+  { greek: 'μετοχή',         en: 'participle' },
+  { greek: 'ἀπαρέμφατος',    en: 'infinitive' },
+  // Number
+  { greek: 'ὁ ἀριθμός',      en: 'number' },
+  { greek: 'ἑνικόν',         en: 'singular' },
+  { greek: 'πληθυντικός',    en: 'plural' },
+  // Person
+  { greek: 'τὸ πρόσωπον',    en: 'person' },
+  { greek: 'πρῶτον πρόσωπον',   en: '1st person' },
+  { greek: 'δεύτερον πρόσωπον', en: '2nd person' },
+  { greek: 'τρίτον πρόσωπον',   en: '3rd person' },
+  // Gender
+  { greek: 'τὸ γένος',       en: 'gender' },
+  { greek: 'ἀρσενικόν',      en: 'masculine' },
+  { greek: 'θηλυκόν',        en: 'feminine' },
+  { greek: 'οὐδέτερον',      en: 'neuter' },
+  // Parts of speech
+  { greek: 'τὸ ῥῆμα',        en: 'verb' },
+  { greek: 'τὸ ὄνομα',       en: 'noun' },
+  { greek: 'τὸ ἐπίθετον',    en: 'adjective' },
+  { greek: 'τὸ ἀντώνυμον',   en: 'pronoun' },
+  { greek: 'τὸ ἐπίρρημα',    en: 'adverb' },
+  { greek: 'ὁ συνδεσμός',    en: 'conjunction' },
+  { greek: 'τὸ ἄρθρον',      en: 'article' },
+  { greek: 'ἡ προθέσις',     en: 'preposition' },
+  // Table column headers
+  { greek: 'ὁ τύπος',        en: 'form / type' },
+  { greek: 'ἡ χρεία',        en: 'function / use' },
+  { greek: 'σημαίνει',       en: 'means / definition' },
+]
+
+function extractSectionText(sections) {
+  const parts = []
+  for (const s of sections) {
+    if (s.heading) parts.push(s.heading)
+    if (s.table) {
+      if (s.table.caption) parts.push(s.table.caption)
+      parts.push(...(s.table.headers ?? []))
+      for (const row of s.table.rows ?? []) parts.push(row[0] ?? '')
+    }
+    for (const tbl of s.tables ?? []) {
+      if (tbl.caption) parts.push(tbl.caption)
+      parts.push(...(tbl.headers ?? []))
+      for (const row of tbl.rows ?? []) parts.push(row[0] ?? '')
+    }
+  }
+  return parts.join(' ')
+}
+
+function GrammarTermsRef({ sections }) {
+  const [open, setOpen] = useState(false)
+  const text = extractSectionText(sections)
+  const matched = GRAMMAR_TERMS.filter(({ greek }) => text.includes(greek))
+  if (matched.length === 0) return null
+
+  return (
+    <div className="grammar-terms-ref">
+      <button className="grammar-terms-toggle" onClick={() => setOpen(v => !v)}>
+        <span className="greek">Γλωσσάριον Γραμματικῆς</span>
+        <span className="grammar-terms-sub">Grammar Terms</span>
+        <span className="grammar-terms-chevron">{open ? '▲' : '▼'}</span>
+      </button>
+      {open && (
+        <div className="grammar-terms-grid">
+          {matched.map(({ greek, en }) => (
+            <div key={greek} className="grammar-term-row">
+              <span className="grammar-term-greek greek">{greek}</span>
+              <span className="grammar-term-en">{en}</span>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
 
 export default function GrammarTab({ grammar, words, activePart }) {
   const { lang } = useLanguage()
@@ -169,6 +273,8 @@ export default function GrammarTab({ grammar, words, activePart }) {
           ))}
         </div>
       ))}
+
+      <GrammarTermsRef sections={parts.flatMap(p => p?.sections ?? [])} />
 
       {renderVocabList()}
     </div>

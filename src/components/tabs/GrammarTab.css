@@ -152,6 +152,67 @@
 .grammar-vocab-greek { font-size: 1.05rem; color: var(--deep-blue); font-weight: 500; min-width: 160px; flex-shrink: 0; }
 .grammar-vocab-def { flex: 1; color: var(--ink); }
 
+/* Grammar Terms Reference */
+.grammar-terms-ref {
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #fff;
+}
+.grammar-terms-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 18px;
+  background: var(--parchment);
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+.grammar-terms-toggle:hover { background: var(--blue-light); }
+.grammar-terms-toggle .greek {
+  font-size: 1rem;
+  color: var(--deep-blue);
+  font-weight: 600;
+}
+.grammar-terms-sub {
+  font-size: 0.78rem;
+  color: var(--grey);
+  letter-spacing: 0.04em;
+}
+.grammar-terms-chevron {
+  margin-left: auto;
+  font-size: 0.7rem;
+  color: var(--grey);
+}
+.grammar-terms-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  padding: 4px 0 8px;
+}
+.grammar-term-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 6px 18px;
+  border-bottom: 1px solid var(--border);
+}
+.grammar-term-row:nth-child(odd) { background: #fafafa; }
+.grammar-term-row:last-child,
+.grammar-term-row:nth-last-child(2):nth-child(odd) { border-bottom: none; }
+.grammar-term-greek {
+  font-size: 0.95rem;
+  color: var(--deep-blue);
+  font-weight: 500;
+  min-width: 160px;
+}
+.grammar-term-en {
+  font-size: 0.82rem;
+  color: var(--grey);
+}
+
 .empty-tab {
   display: flex; align-items: center; justify-content: center;
   min-height: 300px; color: var(--grey); font-size: 0.95rem;

@@ -1,0 +1,195 @@
+# Grammar Workflow — Βίβλος
+
+Use this skill when writing or updating any `grammar.json` file.
+
+---
+
+## grammar.json structure
+
+Each file is an array of **part objects**, one per story part (A, B):
+
+```json
+[
+  {
+    "part": "A",
+    "sections": [
+      {
+        "heading": "1. τὸ ῥῆμα εἰμί (verb 'to be') — ἐστιν and the predicate nominative",
+        "content": "Explanation in English for the student...",
+        "table": { ... },
+        "examples": [ ... ],
+        "list": [ ... ]
+      }
+    ]
+  },
+  {
+    "part": "B",
+    "sections": [ ... ]
+  }
+]
+```
+
+---
+
+## Section heading pattern
+
+Format: `"{number}. {Greek term} ({English in parentheses}) — {brief English description}"`
+
+The Greek term comes first, English equivalent in parentheses immediately after, then a dash and the specific point being taught.
+
+**Examples:**
+```
+"1. τὸ ῥῆμα εἰμί (verb 'to be') — ἐστιν and the predicate nominative"
+"2. τὸ ἄρθρον (article) — ὁ (the), masculine"
+"3. τὸ ἐπίθετον (adjective) — agreement in gender, number, case"
+"4. ὁ ἐνεστὼς ἐνεργετικὴ ὁριστική (Present Active Indicative) — τρίτον ἑνικόν (3rd singular)"
+"5. ὁ ἐνεστὼς ἐνεργετικὴ ὁριστική (Present Active Indicative) — πρῶτον ἑνικόν (1st singular)"
+"1. ἡ δοτική (dative) — location (ἐν) and indirect object"
+"2. ἡ γενική (genitive) — source (ἐκ) and possession"
+```
+
+**Rule:** Greek term always first, English always in `(parentheses)` immediately after. Never put English before the Greek term.
+
+---
+
+## Greek grammar terms (authoritative)
+
+### Cases — ἡ πτῶσις (case)
+| Greek | English |
+|---|---|
+| ὀνομαστική | Nominative |
+| αἰτιατική | Accusative |
+| γενική | Genitive |
+| δοτική | Dative |
+| κλητική | Vocative |
+
+### Tense — ὁ χρόνος (tense)
+| Greek | English |
+|---|---|
+| ὁ ἐνεστώς | Present |
+| ὁ παρατατικός | Imperfect |
+| ὁ ἀόριστος | Aorist |
+| ὁ μέλλων | Future |
+| ὁ παρακείμενος | Perfect |
+
+### Voice — ἡ διάθεσις (voice)
+| Greek | English |
+|---|---|
+| ἐνεργετική | Active |
+| μέση | Middle |
+| παθητική | Passive |
+
+### Mood — ἡ ἔγκλισις (mood)
+| Greek | English |
+|---|---|
+| ὁριστική | Indicative |
+| προστακτική | Imperative (**NOT** προστατική — that is a typo) |
+| ὑποτακτική | Subjunctive |
+| εὐκτική | Optative |
+| μετοχή | Participle |
+| ἀπαρέμφατος | Infinitive |
+
+### Number — ὁ ἀριθμός (number)
+| Greek | English | Table abbrev |
+|---|---|---|
+| ἑνικός | Singular | αʹ ἑνικόν / βʹ ἑνικόν / γʹ ἑνικόν |
+| πληθυντικός | Plural | αʹ πληθ. / βʹ πληθ. / γʹ πληθ. |
+
+### Person — τὸ πρόσωπον (person)
+| Greek | English |
+|---|---|
+| πρῶτον πρόσωπον | First Person |
+| δεύτερον πρόσωπον | Second Person |
+| τρίτον πρόσωπον | Third Person |
+
+### Gender — τὸ γένος (gender)
+| Greek | English |
+|---|---|
+| ἀρσενικόν | Masculine |
+| θηλυκόν | Feminine |
+| οὐδέτερον | Neuter |
+
+### Parts of speech — τὸ μέρος τοῦ λόγου
+| Greek | English |
+|---|---|
+| τὸ ῥῆμα | Verb |
+| τὸ ὄνομα | Noun |
+| τὸ ἐπίθετον | Adjective |
+| τὸ ἀντώνυμον | Pronoun |
+| τὸ ἐπίρρημα | Adverb |
+| ὁ συνδεσμός | Conjunction |
+| τὸ ἄρθρον | Article |
+| ἡ προθέσις | Preposition |
+
+---
+
+## Table column headers
+
+Always use Greek headers in grammar tables:
+
+| Column meaning | Greek header |
+|---|---|
+| Case | ἡ πτῶσις |
+| Form / Type | ὁ τύπος |
+| Function / Use | ἡ χρεία |
+| Person | τὸ πρόσωπον |
+| Meaning | σημαίνει |
+| Tense | ὁ χρόνος |
+| Voice | ἡ διάθεσις |
+| Mood | ἡ ἔγκλισις |
+| Number | ὁ ἀριθμός |
+| Gender | τὸ γένος |
+
+---
+
+## Table structure in grammar.json
+
+```json
+"table": {
+  "caption": "ὁ ἐνεστὼς ἐνεργετικὴ ὁριστική (Present Active Indicative) — introduced so far",
+  "headers": ["τὸ πρόσωπον", "Regular (-ω)", "Contract (-έω)"],
+  "rows": [
+    ["αʹ ἑνικόν (1sg)", "λύω", "φιλέω > φιλῶ"],
+    ["γʹ ἑνικόν (3sg)", "λύει", "φιλέει > φιλεῖ"]
+  ]
+}
+```
+
+**Table caption:** Greek term first, English in parentheses, then `— introduced so far` or similar.
+
+**Row labels (column 0):** Greek person/case label first, English abbreviation in parentheses: `"αʹ ἑνικόν (1sg)"`, `"ὀνομαστική (nom.)"`.
+
+**Column 1 (index 1):** Greek form — rendered in Gentium Plus font automatically.
+
+**Column 2+ (index 2+):** Translation or additional forms — rendered in regular font.
+
+---
+
+## CSS rendering rules (do not violate)
+
+- Row headers (`ci === 0`) have class `row-header greek` — Gentium Plus, no uppercase
+- Column 1 (`ci === 1`) has class `greek` — Gentium Plus
+- **Never use `text-transform: uppercase` on any element containing Greek text** — it breaks polytonic diacritics
+- Grammar headings use `font-family: 'Gentium Plus'` — do not override
+
+---
+
+## Content rules
+
+- **English for the student, Greek for the data.** The `content` field (prose explanation) is in English. All table headers, row labels, and captions use Greek terms first.
+- **Only use vocabulary already learned.** Any Greek word in examples or content must be from vocabulary students have already encountered. Never introduce a new word through a grammar note.
+- **Keep `content` brief.** One or two sentences explaining the pattern. Students read the story; the grammar note reinforces, not replaces, comprehension.
+- **Examples use story sentences.** Pull example phrases directly from the chapter's story wherever possible.
+
+---
+
+## Checklist when writing a grammar.json
+
+- [ ] Each section heading follows: `"{n}. {Greek term} ({English}) — {point}"`
+- [ ] All table headers in Greek
+- [ ] Row labels: Greek first, `(English abbrev.)` in parentheses
+- [ ] Table caption: Greek term first with English in parentheses
+- [ ] No `text-transform: uppercase` will touch Greek content (it is already removed in CSS)
+- [ ] Content prose in English, examples from the chapter's story
+- [ ] Validate JSON: `python3 -c "import json; json.load(open('grammar.json'))"`
+- [ ] Verify in browser: headings render without broken omega/diacritics

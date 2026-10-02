@@ -87,6 +87,15 @@ Shows a title and a table of grammatical forms.
 
 **`means` field is always in Greek.** Never write an English definition as the primary value. English only after `·` for extra clarity when the Greek alone won't be enough for a student.
 
+### Vocabulary rule — only use words already learned
+
+Every word that appears in a `means`, `phrase`, or `rows[].greek` field must be a word the student has **already encountered** in a previous chapter or earlier in the current chapter. Never introduce new vocabulary through a gloss.
+
+- ❌ `"means": "φυλάσσει ὡς φύλαξ ἀπὸ κινδύνου"` — κινδύνου not yet learned
+- ✅ `"means": "φυλάσσει τὸν λόγον"` — simple, uses known words only
+
+**Strip `·` extensions** — anything after the first `·` in a `means` field is likely an explanatory phrase that introduces unseen vocabulary. Keep only what's before the first `·`.
+
 ---
 
 ## Placement rules
