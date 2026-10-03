@@ -1,4 +1,485 @@
 {
-  "title": "Grammar — Κεφάλαιον Ζʹ (The Holy Spirit)",
-  "parts": []
+  "title": "Γραμματική — Κεφάλαιον Ζʹ (The Holy Spirit)",
+  "parts": [
+    {
+      "label": "Μέρος Αʹ — Ὁ Παράκλητος",
+      "sections": [
+        {
+          "id": 1,
+          "heading": "1. ἡ μετοχὴ ἐνεργετικὴ ἐνεστώς (Present Active Participle) — formation, -ων/-ουσα/-ον",
+          "content": "The present active participle expresses an ongoing action and agrees with the noun it modifies in gender, number, and case. It is formed by adding -ων (masc.), -ουσα (fem.), or -ον (neut.) to the present stem. The masculine and neuter forms decline like a 3rd-declension noun (stem in -οντ-); the feminine declines like a 1st-declension noun (stem in -ουσ-).",
+          "table": {
+            "caption": "ἡ μετοχὴ ἐνεργετικὴ ἐνεστώς — λύω, ἀρσενικόν (masculine)",
+            "headers": ["ἡ πτῶσις", "ἑνικόν (singular)", "πληθυντικόν (plural)"],
+            "rows": [
+              ["ὀνομαστική (nom.)", "λύων", "λύοντες"],
+              ["γενική (gen.)", "λύοντος", "λυόντων"],
+              ["δοτική (dat.)", "λύοντι", "λύουσι(ν)"],
+              ["αἰτιατική (acc.)", "λύοντα", "λύοντας"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ὁ ἥλιος ὁ λάμπων ἐν τῷ οὐρανῷ",
+              "note": "the sun shining in the sky (nom. masc. sg.)",
+              "noteTranslations": {
+                "es": "el sol que brilla en el cielo (nom. masc. sg.)",
+                "pl": "słońce świecące na niebie (mianownik, rodz. męski, l.poj.)",
+                "fil": "ang araw na nagniningning sa langit (nom. masc. sg.)"
+              }
+            },
+            {
+              "greek": "ἡ Σαλώμη ἡ καθίζουσα",
+              "note": "Salome who is sitting down (nom. fem. sg.)",
+              "noteTranslations": {
+                "es": "Salomé que está sentada (nom. fem. sg.)",
+                "pl": "Salome siedząca (mianownik, rodz. żeński, l.poj.)",
+                "fil": "si Salome na nakaupo (nom. fem. sg.)"
+              }
+            },
+            {
+              "greek": "τῷ ξένῳ τῷ διψῶντι",
+              "note": "to the stranger who is thirsty (dat. masc. sg.)",
+              "noteTranslations": {
+                "es": "al forastero que tiene sed (dat. masc. sg.)",
+                "pl": "obcemu, który jest spragniony (celownik, rodz. męski, l.poj.)",
+                "fil": "sa estranghero na nauuhaw (dat. masc. sg.)"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "1. El participio de presente activo — formación, -ων/-ουσα/-ον",
+            "pl": "1. Imiesłów czynny czasu teraźniejszego — tworzenie, -ων/-ουσα/-ον",
+            "fil": "1. Ang present active participle — pagbuo, -ων/-ουσα/-ον"
+          },
+          "contentTranslations": {
+            "es": "El participio de presente activo expresa una acción en curso y concuerda con el sustantivo que modifica en género, número y caso. Se forma añadiendo -ων (masc.), -ουσα (fem.) u -ον (neut.) al tema del presente.",
+            "pl": "Imiesłów czynny czasu teraźniejszego wyraża trwające działanie i zgadza się z rzeczownikiem, który modyfikuje w rodzaju, liczbie i przypadku. Tworzy się przez dodanie -ων (rodz. męski), -ουσα (rodz. żeński) lub -ον (rodz. nijaki) do tematu czasu teraźniejszego.",
+            "fil": "Ang present active participle ay nagpapahayag ng patuloy na kilos at sumasang-ayon sa pangngalang binabago nito sa uri, bilang, at kaso. Ito ay binubuo sa pamamagitan ng pagdaragdag ng -ων (masc.), -ουσα (fem.), o -ον (neut.) sa present stem."
+          }
+        },
+        {
+          "id": 2,
+          "heading": "2. ἡ μετοχὴ κατὰ τρία γένη (Participle in all three genders) — full nom./acc. chart",
+          "content": "The present active participle changes its ending to agree with the noun it modifies. The feminine uses -ουσα (nom. sg.) and declines like a 1st-declension noun. The neuter nominative and accusative singular are always the same form: -ον (shortened from -οντ-). Knowing these three nominative forms lets you recognize any participle in the text.",
+          "table": {
+            "caption": "ἡ μετοχὴ ἐνεργετικὴ ἐνεστώς — λύω, ὀνομαστική and αἰτιατική",
+            "headers": ["ἡ πτῶσις", "ἀρσενικόν (masc.)", "θηλυκόν (fem.)", "οὐδέτερον (neut.)"],
+            "rows": [
+              ["ὀνομαστική ἑνικόν (nom. sg.)", "λύων", "λύουσα", "λῦον"],
+              ["γενική ἑνικόν (gen. sg.)", "λύοντος", "λυούσης", "λύοντος"],
+              ["δοτική ἑνικόν (dat. sg.)", "λύοντι", "λυούσῃ", "λύοντι"],
+              ["αἰτιατική ἑνικόν (acc. sg.)", "λύοντα", "λύουσαν", "λῦον"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ὁ πιστεύων (masc.) — ἡ πιστεύουσα (fem.) — τὸ πιστεῦον (neut.)",
+              "note": "the one believing — three genders",
+              "noteTranslations": {
+                "es": "el/la que cree — tres géneros",
+                "pl": "wierzący/wierząca/wierzące — trzy rodzaje",
+                "fil": "ang naniniwala — tatlong uri"
+              }
+            },
+            {
+              "greek": "τῇ ψυχῇ τῇ διψώσῃ",
+              "note": "to the soul that is thirsty (dat. fem. sg.)",
+              "noteTranslations": {
+                "es": "al alma que tiene sed (dat. fem. sg.)",
+                "pl": "duszy, która jest spragniona (celownik, rodz. żeński, l.poj.)",
+                "fil": "sa kaluluwang nauuhaw (dat. fem. sg.)"
+              }
+            },
+            {
+              "greek": "τοῦ θεοῦ τοῦ ζῶντος",
+              "note": "of the living God (gen. masc. sg.)",
+              "noteTranslations": {
+                "es": "del Dios vivo (gen. masc. sg.)",
+                "pl": "Boga żywego (dopełniacz, rodz. męski, l.poj.)",
+                "fil": "ng Diyos na buhay (gen. masc. sg.)"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "2. El participio en los tres géneros — cuadro de nominativo/acusativo",
+            "pl": "2. Imiesłów we wszystkich trzech rodzajach — tabela mianownika/biernika",
+            "fil": "2. Ang participle sa tatlong uri — buong nom./acc. na tsart"
+          },
+          "contentTranslations": {
+            "es": "El participio de presente activo cambia su desinencia para concordar con el sustantivo que modifica. El femenino usa -ουσα (nom. sg.) y se declina como un sustantivo de la 1ª declinación.",
+            "pl": "Imiesłów czynny czasu teraźniejszego zmienia swoją końcówkę, aby zgadzać się z rzeczownikiem, który modyfikuje. Rodzaj żeński używa -ουσα (mianownik l.poj.) i odmienia się jak rzeczownik 1. deklinacji.",
+            "fil": "Ang present active participle ay nagbabago ng ending para sumang-ayon sa pangngalang binabago nito. Ang feminine ay gumagamit ng -ουσα (nom. sg.) at nagde-decline tulad ng 1st-declension noun."
+          }
+        },
+        {
+          "id": 3,
+          "heading": "3. ἡ μετοχὴ ὡς οὐσιαστικόν (Participle as substantive) — ὁ πιστεύων = 'the one who believes'",
+          "content": "When an article is placed before a participle with no noun, the participle becomes a noun phrase: ὁ πιστεύων = 'the one who believes / the believer.' This is extremely common in Chapter 7. The case of the article tells you the grammatical role; the gender tells you who is meant. The plural forms (οἱ πιστεύοντες) mean 'those who believe / the believers.'",
+          "examples": [
+            {
+              "greek": "ὁ πιστεύων τῷ Ἰησοῦ λαμβάνει τὸ πνεῦμα",
+              "note": "the one who believes in Jesus receives the Spirit (nom. — subject)",
+              "noteTranslations": {
+                "es": "el que cree en Jesús recibe el Espíritu (nom. — sujeto)",
+                "pl": "ten, kto wierzy Jezusowi, otrzymuje Ducha (mianownik — podmiot)",
+                "fil": "ang naniniwala kay Jesus ay tumatanggap ng Espiritu (nom. — paksa)"
+              }
+            },
+            {
+              "greek": "τὸ πνεῦμα διδάσκει τὸν πιστεύοντα",
+              "note": "the Spirit teaches the one who believes (acc. — direct object)",
+              "noteTranslations": {
+                "es": "el Espíritu enseña al que cree (ac. — objeto directo)",
+                "pl": "Duch uczy wierzącego (biernik — dopełnienie bliższe)",
+                "fil": "tinuturuan ng Espiritu ang naniniwala (acc. — direktang object)"
+              }
+            },
+            {
+              "greek": "δίδοται τὸ πνεῦμα τῷ πιστεύοντι καὶ ζητοῦντι τὸν θεόν",
+              "note": "the Spirit is given to the one who believes and seeks God (dat. — indirect object)",
+              "noteTranslations": {
+                "es": "el Espíritu es dado al que cree y busca a Dios (dat. — objeto indirecto)",
+                "pl": "Duch jest dawany temu, kto wierzy i szuka Boga (celownik — dopełnienie dalsze)",
+                "fil": "ibinibigay ang Espiritu sa naniniwala at naghahanap ng Diyos (dat. — indirect object)"
+              }
+            },
+            {
+              "greek": "οἱ πιστεύοντες γινώσκουσιν αὐτό",
+              "note": "those who believe know it (nom. pl.)",
+              "noteTranslations": {
+                "es": "los que creen lo conocen (nom. pl.)",
+                "pl": "wierzący go znają (mianownik, l.mn.)",
+                "fil": "ang mga naniniwala ay nakikilala ito (nom. pl.)"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "3. El participio como sustantivo — ὁ πιστεύων = 'el que cree'",
+            "pl": "3. Imiesłów jako rzeczownik — ὁ πιστεύων = 'ten, kto wierzy'",
+            "fil": "3. Ang participle bilang pangngalan — ὁ πιστεύων = 'ang naniniwala'"
+          },
+          "contentTranslations": {
+            "es": "Cuando se pone un artículo delante de un participio sin sustantivo, el participio se convierte en una frase nominal: ὁ πιστεύων = 'el que cree / el creyente.' Este uso es muy frecuente en el capítulo 7.",
+            "pl": "Gdy przed imiesłowem bez rzeczownika stoi rodzajnik, imiesłów staje się frazą rzeczownikową: ὁ πιστεύων = 'ten, kto wierzy / wierzący.' Ten użytek jest bardzo częsty w rozdziale 7.",
+            "fil": "Kapag may article bago ang isang participle nang walang pangngalan, ang participle ay nagiging noun phrase: ὁ πιστεύων = 'ang naniniwala.' Ito ay napaka-karaniwang nagagamit sa Kabanata 7."
+          }
+        },
+        {
+          "id": 4,
+          "heading": "4. ἡ μετοχὴ ὡς ἐπίθετον (Participle as attributive adjective) — article + noun + article + participle",
+          "content": "The participle can also be used attributively — placed after a repeated article to modify a specific noun. The pattern is: noun + article + participle, just like the attributive adjective. Both noun and participle must agree in gender, number, and case. This is called the attributive position.",
+          "examples": [
+            {
+              "greek": "ὁ ἥλιος ὁ λάμπων",
+              "note": "the sun that is shining (lit. 'the sun the shining')",
+              "noteTranslations": {
+                "es": "el sol que brilla (lit. 'el sol el brillante')",
+                "pl": "słońce, które świeci (dosł. 'słońce świecące')",
+                "fil": "ang araw na nagniningning (lit. 'ang araw ang nagniningning')"
+              }
+            },
+            {
+              "greek": "ὁ θεὸς ὁ ποιῶν τὸν οὐρανὸν καὶ τὴν γῆν",
+              "note": "God who makes heaven and earth",
+              "noteTranslations": {
+                "es": "Dios que hace el cielo y la tierra",
+                "pl": "Bóg, który tworzy niebo i ziemię",
+                "fil": "ang Diyos na gumagawa ng langit at lupa"
+              }
+            },
+            {
+              "greek": "ὁ ἄρτος ὁ καταβαίνων ἐκ τοῦ οὐρανοῦ",
+              "note": "the bread that descends from heaven",
+              "noteTranslations": {
+                "es": "el pan que desciende del cielo",
+                "pl": "chleb, który zstępuje z nieba",
+                "fil": "ang tinapay na bumababang mula sa langit"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "4. El participio como adjetivo atributivo — artículo + sustantivo + artículo + participio",
+            "pl": "4. Imiesłów jako przydawka — rodzajnik + rzeczownik + rodzajnik + imiesłów",
+            "fil": "4. Ang participle bilang attributive adjective — article + pangngalan + article + participle"
+          },
+          "contentTranslations": {
+            "es": "El participio también puede usarse atributivamente — colocado después de un artículo repetido para modificar un sustantivo específico. El patrón es: sustantivo + artículo + participio. Ambos deben concordar en género, número y caso.",
+            "pl": "Imiesłów może być też używany atrybutywnie — umieszczony po powtórzonym rodzajniku, aby modyfikować określony rzeczownik. Wzorzec to: rzeczownik + rodzajnik + imiesłów. Oba muszą zgadzać się w rodzaju, liczbie i przypadku.",
+            "fil": "Ang participle ay maaari ring gamitin nang attributively — inilalagay pagkatapos ng paulit na article para baguhin ang isang tiyak na pangngalan. Ang pattern ay: pangngalan + article + participle. Dapat sumang-ayon ang pareho sa uri, bilang, at kaso."
+          }
+        },
+        {
+          "id": 5,
+          "heading": "5. μέν…δέ — coordinating contrast between two subjects or ideas",
+          "content": "μέν (on the one hand) and δέ (on the other hand / but) are a paired contrast structure. They are postpositive — they never appear first in their clause. μέν anticipates a δέ clause to follow. The contrast can be between two persons, two actions, or two states. δέ alone (without a preceding μέν) simply means 'and' or 'but.'",
+          "examples": [
+            {
+              "greek": "ὁ μὲν Ἰάκωβος μένει παρὰ τῇ πηγῇ· ὁ δὲ ξένος ἔρχεται ἐκ τῆς ὁδοῦ",
+              "note": "Jacob remains beside the spring; the stranger comes from the road",
+              "noteTranslations": {
+                "es": "Jacob permanece junto a la fuente; el forastero viene del camino",
+                "pl": "Jakub trwa przy źródle; obcy przychodzi z drogi",
+                "fil": "si Jacob ay nananatili sa tabi ng bukal; ang estranghero ay nanggagaling sa daan"
+              }
+            },
+            {
+              "greek": "ὁ μὲν κόσμος οὐ δύναται λαμβάνειν αὐτό· ἡμεῖς δὲ οἱ πιστεύοντες γινώσκομεν αὐτό",
+              "note": "the world is not able to receive it; but we who believe know it",
+              "noteTranslations": {
+                "es": "el mundo no puede recibirlo; pero nosotros los que creemos lo conocemos",
+                "pl": "świat nie może go przyjąć; my zaś, wierzący, znamy go",
+                "fil": "ang mundo ay hindi makatanggap nito; ngunit tayo na mga naniniwala ay nakikilala ito"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "5. μέν…δέ — contraste coordinante entre dos sujetos o ideas",
+            "pl": "5. μέν…δέ — koordynujący kontrast między dwoma podmiotami lub ideami",
+            "fil": "5. μέν…δέ — coordinating na kontraste sa pagitan ng dalawang paksa o ideya"
+          },
+          "contentTranslations": {
+            "es": "μέν ('por un lado') y δέ ('por el otro / pero') forman una estructura de contraste emparejada. Son postpositivos — nunca aparecen en primer lugar en su cláusula. μέν anticipa una cláusula δέ que seguirá.",
+            "pl": "μέν ('z jednej strony') i δέ ('z drugiej strony / ale') tworzą sparowaną strukturę kontrastu. Są postpozytywne — nigdy nie pojawiają się na pierwszym miejscu w zdaniu. μέν zapowiada następujące zdanie z δέ.",
+            "fil": "Ang μέν ('sa isang banda') at δέ ('sa kabilang banda / ngunit') ay isang magkasamang kontrasteng istruktura. Sila ay postpositive — hindi kailanman lumilitaw nang una sa kanilang sugnay. Inaasahan ng μέν ang susunod na δέ clause."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Μέρος Βʹ — Ἡ Δωρεὰ τοῦ Πνεύματος",
+      "sections": [
+        {
+          "id": 6,
+          "heading": "6. ἡ μετοχὴ μετὰ ἀρνήσεως (Participle with negation) — ὁ μὴ πιστεύων",
+          "content": "Participles are negated with μή (not οὐ). This is because participles, like infinitives and subjunctives, belong to the domain of μή-negation rather than οὐ. The negated substantive participle ὁ μὴ πιστεύων means 'the one who does not believe.' The pattern appears directly in the story.",
+          "examples": [
+            {
+              "greek": "ὁ μὴ πιστεύων οὐ λαμβάνει τὸ πνεῦμα",
+              "note": "the one who does not believe does not receive the Spirit",
+              "noteTranslations": {
+                "es": "el que no cree no recibe el Espíritu",
+                "pl": "ten, kto nie wierzy, nie otrzymuje Ducha",
+                "fil": "ang hindi naniniwala ay hindi tumatanggap ng Espiritu"
+              }
+            },
+            {
+              "greek": "τὸν ἄνθρωπον τὸν μὴ μνημονεύοντα τὰ ῥήματα",
+              "note": "the person who is not remembering the words (acc. attributive)",
+              "noteTranslations": {
+                "es": "la persona que no recuerda las palabras (ac. atributivo)",
+                "pl": "człowieka, który nie pamięta słów (biernik, atrybutywny)",
+                "fil": "ang taong hindi naaalala ang mga salita (acc. attributive)"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "6. El participio con negación — ὁ μὴ πιστεύων",
+            "pl": "6. Imiesłów z przeczeniem — ὁ μὴ πιστεύων",
+            "fil": "6. Ang participle na may pagtanggi — ὁ μὴ πιστεύων"
+          },
+          "contentTranslations": {
+            "es": "Los participios se niegan con μή (no con οὐ). El participio sustantivado negado ὁ μὴ πιστεύων significa 'el que no cree.'",
+            "pl": "Imiesłowy są przeczane za pomocą μή (nie οὐ). Przeczony imiesłów rzeczownikowy ὁ μὴ πιστεύων oznacza 'ten, kto nie wierzy.'",
+            "fil": "Ang mga participle ay tinatanggihan gamit ang μή (hindi οὐ). Ang tinanggihang substantive participle na ὁ μὴ πιστεύων ay nangangahulugang 'ang hindi naniniwala.'"
+          }
+        },
+        {
+          "id": 7,
+          "heading": "7. ἡ μετοχὴ τῶν συνηρημένων ῥημάτων (Participle of contract verbs) — ἀγαπῶν, ζητοῦσα, ζῶν",
+          "content": "Contract verbs (-άω, -έω, -όω) form participles by contracting the stem vowel with the participle ending. The accent falls on the contracted syllable. Three contract participles appear prominently in Chapter 7: ἀγαπῶν (loving, from ἀγαπάω), ζητοῦσα (seeking, from ζητέω), and ζῶν (living, from ζάω). The contracted form keeps the circumflex on the contracted vowel.",
+          "table": {
+            "caption": "Μετοχαὶ συνηρημένων ῥημάτων (Contract verb participles) in Chapter 7",
+            "headers": ["τὸ ῥῆμα", "ἀρσενικόν nom. sg.", "θηλυκόν nom. sg.", "παράδειγμα (example)"],
+            "rows": [
+              ["ἀγαπάω (love)", "ἀγαπῶν", "ἀγαπῶσα", "ὁ Ἰησοῦς ὁ ἀγαπῶν τοὺς ἀνθρώπους"],
+              ["ζητέω (seek)", "ζητῶν", "ζητοῦσα", "ἡ γυνὴ ἡ ζητοῦσα τὸν θεόν"],
+              ["ζάω (live)", "ζῶν", "ζῶσα", "τοῦ θεοῦ τοῦ ζῶντος"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ὁ Ἰησοῦς ὁ ἀγαπῶν τοὺς ἀνθρώπους τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ αὐτῶν",
+              "note": "Jesus, the one loving people, lays down his life for them",
+              "noteTranslations": {
+                "es": "Jesús, el que ama a las personas, pone su vida por ellos",
+                "pl": "Jezus, miłujący ludzi, kładzie za nich swoje życie",
+                "fil": "si Jesus na nagmamahal sa mga tao ay inilalagay ang kanyang buhay para sa kanila"
+              }
+            },
+            {
+              "greek": "ἡ γυνὴ ἡ ζητοῦσα τὸν θεὸν λαμβάνει τὸ πνεῦμα",
+              "note": "the woman who seeks God receives the Spirit",
+              "noteTranslations": {
+                "es": "la mujer que busca a Dios recibe el Espíritu",
+                "pl": "kobieta szukająca Boga otrzymuje Ducha",
+                "fil": "ang babaeng naghahanap ng Diyos ay tumatanggap ng Espiritu"
+              }
+            },
+            {
+              "greek": "ἀκούομεν τῆς φωνῆς τοῦ θεοῦ τοῦ ζῶντος",
+              "note": "we hear the voice of the living God",
+              "noteTranslations": {
+                "es": "escuchamos la voz del Dios vivo",
+                "pl": "słyszymy głos Boga żywego",
+                "fil": "naririnig natin ang tinig ng Diyos na nabubuhay"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "7. El participio de los verbos contractos — ἀγαπῶν, ζητοῦσα, ζῶν",
+            "pl": "7. Imiesłów czasowników ściąganych — ἀγαπῶν, ζητοῦσα, ζῶν",
+            "fil": "7. Ang participle ng mga contract verb — ἀγαπῶν, ζητοῦσα, ζῶν"
+          },
+          "contentTranslations": {
+            "es": "Los verbos contractos (-άω, -έω, -όω) forman participios contrayendo la vocal del tema con la desinencia del participio. El acento cae sobre la sílaba contraída.",
+            "pl": "Czasowniki ściągane (-άω, -έω, -όω) tworzą imiesłowy przez ściągnięcie samogłoski tematu z końcówką imiesłowu. Akcent pada na ściągniętą sylabę.",
+            "fil": "Ang mga contract verb (-άω, -έω, -όω) ay bumubuo ng mga participle sa pamamagitan ng pagkontrata ng stem vowel kasama ang participle ending. Ang accent ay nahuhulog sa naka-kontrata na pantig."
+          }
+        },
+        {
+          "id": 8,
+          "heading": "8. ὅτι — two uses: content clause ('that') vs. causal ('because')",
+          "content": "ὅτι has two distinct uses in Greek. (1) After verbs of knowing, saying, and believing, ὅτι introduces an indirect statement: 'that.' (2) After a main clause, ὅτι gives the reason: 'because.' Context determines which meaning applies: if the main verb is cognitive or communicative, ὅτι = 'that'; if it follows a statement of fact that needs explanation, ὅτι = 'because.'",
+          "examples": [
+            {
+              "greek": "γινώσκω ὅτι ἀληθῆ ἐστιν τὰ ῥήματα ταῦτα",
+              "note": "I know that these words are true (ὅτι = 'that,' content clause)",
+              "noteTranslations": {
+                "es": "sé que estas palabras son verdaderas (ὅτι = 'que', cláusula de contenido)",
+                "pl": "wiem, że te słowa są prawdziwe (ὅτι = 'że', zdanie dopełniające)",
+                "fil": "alam ko na ang mga salitang ito ay totoo (ὅτι = 'na,' content clause)"
+              }
+            },
+            {
+              "greek": "ὁ κόσμος οὐ δύναται λαμβάνειν αὐτό, ὅτι οὐ βλέπει αὐτό",
+              "note": "the world cannot receive it, because it does not see it (ὅτι = 'because,' causal)",
+              "noteTranslations": {
+                "es": "el mundo no puede recibirlo, porque no lo ve (ὅτι = 'porque', causal)",
+                "pl": "świat nie może go przyjąć, bo go nie widzi (ὅτι = 'bo', przyczynowe)",
+                "fil": "ang mundo ay hindi makatanggap nito, dahil hindi nito nakikita ito (ὅτι = 'dahil,' causal)"
+              }
+            },
+            {
+              "greek": "λέγεις ὅτι ὁ Ἰησοῦς ἐστιν ὁ υἱὸς τοῦ θεοῦ",
+              "note": "you say that Jesus is the Son of God (ὅτι = 'that,' after λέγεις)",
+              "noteTranslations": {
+                "es": "dices que Jesús es el Hijo de Dios (ὅτι = 'que', después de λέγεις)",
+                "pl": "mówisz, że Jezus jest Synem Bożym (ὅτι = 'że', po λέγεις)",
+                "fil": "sinasabi mo na si Jesus ang Anak ng Diyos (ὅτι = 'na,' pagkatapos ng λέγεις)"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "8. ὅτι — dos usos: cláusula de contenido ('que') vs. causal ('porque')",
+            "pl": "8. ὅτι — dwa użycia: zdanie dopełniające ('że') vs. przyczynowe ('bo')",
+            "fil": "8. ὅτι — dalawang gamit: content clause ('na') vs. causal ('dahil')"
+          },
+          "contentTranslations": {
+            "es": "ὅτι tiene dos usos distintos en griego. (1) Después de verbos de conocimiento, habla y creencia, introduce una declaración indirecta: 'que.' (2) Después de una cláusula principal, da la razón: 'porque.'",
+            "pl": "ὅτι ma dwa odrębne użycia w grece. (1) Po czasownikach poznania, mówienia i wierzenia wprowadza mowę zależną: 'że.' (2) Po zdaniu głównym podaje przyczynę: 'bo/ponieważ.'",
+            "fil": "Ang ὅτι ay may dalawang magkaibang gamit sa Griyego. (1) Pagkatapos ng mga pandiwa ng pagkilala, pagsasalita, at paniniwala, nagpapakilala ito ng indirect statement: 'na.' (2) Pagkatapos ng main clause, nagbibigay ito ng dahilan: 'dahil.'"
+          }
+        },
+        {
+          "id": 9,
+          "heading": "9. ὁ παράκλητος — meaning, forms, and key sentence patterns",
+          "content": "παράκλητος (Paraclete, Advocate, Helper) is a 2nd-declension masculine noun. The word comes from παρα-καλέω (to call alongside) and refers to one who is called to stand beside another — an advocate or helper. In John's Gospel and this narrative, it refers to the Holy Spirit sent by the Father in Jesus' name.",
+          "table": {
+            "caption": "παράκλητος, -ου, ὁ — key forms",
+            "headers": ["ἡ πτῶσις", "ἑνικόν (sg.)"],
+            "rows": [
+              ["ὀνομαστική (nom.)", "παράκλητος"],
+              ["γενική (gen.)", "παρακλήτου"],
+              ["δοτική (dat.)", "παρακλήτῳ"],
+              ["αἰτιατική (acc.)", "παράκλητον"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ὁ πατὴρ δίδωσιν ἡμῖν ἄλλον παράκλητον",
+              "note": "the Father gives us another Paraclete (acc.)",
+              "noteTranslations": {
+                "es": "el Padre nos da otro Paráclito (ac.)",
+                "pl": "Ojciec daje nam innego Parakleta (biernik)",
+                "fil": "ibinibigay ng Ama sa atin ang isa pang Paraclete (acc.)"
+              }
+            },
+            {
+              "greek": "ὁ παράκλητος διδάσκει τὸν πιστεύοντα πάντα",
+              "note": "the Paraclete teaches the believer all things (nom. — subject)",
+              "noteTranslations": {
+                "es": "el Paráclito enseña todas las cosas al creyente (nom. — sujeto)",
+                "pl": "Paraklet uczy wierzącego wszystkich rzeczy (mianownik — podmiot)",
+                "fil": "tinuturuan ng Paraclete ang naniniwala ng lahat ng bagay (nom. — paksa)"
+              }
+            },
+            {
+              "greek": "ὁ παράκλητος, ὃν πέμπει ὁ πατὴρ ἐν τῷ ὀνόματί μου",
+              "note": "the Paraclete, whom the Father sends in my name (acc. in relative clause)",
+              "noteTranslations": {
+                "es": "el Paráclito, a quien el Padre envía en mi nombre (ac. en cláusula relativa)",
+                "pl": "Paraklet, którego Ojciec posyła w moim imieniu (biernik w zdaniu względnym)",
+                "fil": "ang Paraclete, na isinusugo ng Ama sa aking pangalan (acc. sa relative clause)"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "9. ὁ παράκλητος — significado, formas y patrones de oración clave",
+            "pl": "9. ὁ παράκλητος — znaczenie, formy i kluczowe wzorce zdaniowe",
+            "fil": "9. ὁ παράκλητος — kahulugan, mga anyo, at pangunahing mga pattern ng pangungusap"
+          },
+          "contentTranslations": {
+            "es": "παράκλητος (Paráclito, Abogado, Ayudador) es un sustantivo masculino de la 2ª declinación. Proviene de παρα-καλέω (llamar al lado) y se refiere al que es llamado a ponerse al lado de otro.",
+            "pl": "παράκλητος (Paraklet, Adwokat, Pomocnik) to rzeczownik 2. deklinacji rodzaju męskiego. Pochodzi od παρα-καλέω (wezwać na bok) i oznacza tego, który jest wzywany, by stanąć u boku drugiego.",
+            "fil": "Ang παράκλητος (Paraclete, Tagapagtanggol, Katulong) ay isang 2nd-declension masculine noun. Nagmumula ito sa παρα-καλέω (tawagin sa tabi) at tumutukoy sa isa na tinatawag upang tumayo sa tabi ng isa pa."
+          }
+        },
+        {
+          "id": 10,
+          "heading": "10. ἐν τῷ ὀνόματι — ἐν + δοτική (dative) for sphere or name",
+          "content": "ἐν + dative has multiple uses in Chapter 7. (1) Sphere/location: ἐν τῷ οὐρανῷ (in the sky), ἐν τῇ καρδίᾳ (in the heart), ἐν ἐμοί (in me). (2) Name: ἐν τῷ ὀνόματι τοῦ Ἰησοῦ (in the name of Jesus) — expressing the authority or identity under which something is done.",
+          "examples": [
+            {
+              "greek": "πέμπεται ὁ παράκλητος ἐν τῷ ὀνόματι τοῦ Ἰησοῦ",
+              "note": "the Paraclete is sent in the name of Jesus",
+              "noteTranslations": {
+                "es": "el Paráclito es enviado en el nombre de Jesús",
+                "pl": "Paraklet jest posyłany w imię Jezusa",
+                "fil": "isinusugo ang Paraclete sa pangalan ni Jesus"
+              }
+            },
+            {
+              "greek": "τὸ πνεῦμα μαρτυρεῖ ἐν τῇ καρδίᾳ τῇ πιστευούσῃ",
+              "note": "the Spirit bears witness in the believing heart",
+              "noteTranslations": {
+                "es": "el Espíritu da testimonio en el corazón creyente",
+                "pl": "Duch świadczy w sercu wierzącym",
+                "fil": "nagpapatotoo ang Espiritu sa naniniwalaing puso"
+              }
+            },
+            {
+              "greek": "μένει παρ᾽ ἡμῖν καὶ ἐν ἡμῖν ἐστιν",
+              "note": "it remains with us and is in us (ἐν + ἡμῖν = location: in us)",
+              "noteTranslations": {
+                "es": "permanece con nosotros y está en nosotros",
+                "pl": "trwa z nami i jest w nas",
+                "fil": "nananatili ito sa atin at nasa atin ito"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "10. ἐν τῷ ὀνόματι — ἐν + dativo para esfera o nombre",
+            "pl": "10. ἐν τῷ ὀνόματι — ἐν + celownik dla sfery lub imienia",
+            "fil": "10. ἐν τῷ ὀνόματι — ἐν + dative para sa sphere o pangalan"
+          },
+          "contentTranslations": {
+            "es": "ἐν + dativo tiene múltiples usos en el capítulo 7. (1) Esfera/ubicación: ἐν τῷ οὐρανῷ (en el cielo). (2) Nombre: ἐν τῷ ὀνόματι τοῦ Ἰησοῦ (en el nombre de Jesús).",
+            "pl": "ἐν + celownik ma wiele zastosowań w rozdziale 7. (1) Sfera/miejsce: ἐν τῷ οὐρανῷ (na niebie). (2) Imię: ἐν τῷ ὀνόματι τοῦ Ἰησοῦ (w imieniu Jezusa).",
+            "fil": "Ang ἐν + dative ay may maraming gamit sa Kabanata 7. (1) Sphere/lokasyon: ἐν τῷ οὐρανῷ (sa langit). (2) Pangalan: ἐν τῷ ὀνόματι τοῦ Ἰησοῦ (sa pangalan ni Jesus)."
+          }
+        }
+      ]
+    }
+  ]
 }
