@@ -201,12 +201,12 @@ const VOCAB_SOURCES = [
 
 ## Pending / Future Work
 
-- **Ch7 vocabulary** — vocab images not yet added; `vocabulary.json` is empty `[]`
+- **Ch7 vocabulary** — 28 words present (15A / 13B), all `"image": null`; images not yet added
 - **Ch8 vocabulary** — vocab images not yet added; `vocabulary.json` is empty `[]`
 - **Ch6 grammar.json** — still contains old grammar notes from prior story; needs update to match current Ch6 content
 - **Real backend for admin login tracking** — currently per-device localStorage only. Recommended: Supabase `login_events` table + `@supabase/supabase-js`. See auth.js for the insertion point (`recordLoginEvent`).
 - **User registration / real auth** — "Sign up free" on LoginPage is not yet wired up; only the hardcoded admin can sign in beyond guest mode.
-- **Exercises & grammar content** — exercises.json stubs are empty `[]` for all chapters; grammar is filled for Ch1–Ch8.
+- **Exercises & grammar content** — exercises.json stubs are empty `[]` for all chapters; grammar is filled for Ch1–Ch9.
 - **Visual story panels** — all chapters have empty `panels: []`; artwork/panels not yet added.
 
 ---

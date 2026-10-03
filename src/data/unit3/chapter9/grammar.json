@@ -1,1 +1,460 @@
-[]
+{
+  "title": "Γραμματική — Κεφάλαιον Θʹ (The House of James)",
+  "parts": [
+    {
+      "label": "Μέρος Αʹ — Ὁ Πατὴρ ἐν τῷ Οἴκῳ",
+      "sections": [
+        {
+          "id": 1,
+          "heading": "1. ἡ παρατατικὴ ἔγκλισις ἐνεργετική (Imperfect Active Indicative) — formation",
+          "content": "The imperfect indicative (ὁ παρατατικός) expresses continuous or repeated action in the past — 'I was doing' or 'I used to do.' It is formed from the present stem by adding (1) an augment (ἡ αὔξησις) at the beginning and (2) secondary active endings (-ον, -ες, -ε, -ομεν, -ετε, -ον) instead of the primary endings. The identical 1st and 3rd person plural (ἔλυον) is disambiguated by context.",
+          "table": {
+            "caption": "παρατατικὴ ἐνεργετική — λύω",
+            "headers": ["τὸ πρόσωπον", "ἑνικόν (sg.)", "πληθυντικόν (pl.)"],
+            "rows": [
+              ["αʹ (1st)", "ἔλυον", "ἐλύομεν"],
+              ["βʹ (2nd)", "ἔλυες", "ἐλύετε"],
+              ["γʹ (3rd)", "ἔλυε(ν)", "ἔλυον"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ἐκοπίων ἐν τῷ ἀγρῷ ὅλην τὴν ἡμέραν",
+              "note": "I was toiling in the field all day (continuous past action)",
+              "noteTranslations": {
+                "es": "estaba fatigándome en el campo todo el día",
+                "pl": "trudziłem się na polu przez cały dzień",
+                "fil": "nagtatrabaho ako sa bukid buong araw"
+              }
+            },
+            {
+              "greek": "ἔσκαπτον τὴν γῆν καὶ ᾖρον τοὺς λίθους",
+              "note": "I was digging the earth and lifting the stones (two simultaneous past actions)",
+              "noteTranslations": {
+                "es": "estaba cavando la tierra y levantando las piedras",
+                "pl": "kopałem ziemię i podnosiłem kamienie",
+                "fil": "humuhukay ako ng lupa at nagbubuhat ng mga bato"
+              }
+            },
+            {
+              "greek": "ὅλην τὴν ἡμέραν ἐποίουμεν τὰ ἔργα τοῦ ἀγροῦ",
+              "note": "all day long we were doing the works of the field (1pl.)",
+              "noteTranslations": {
+                "es": "todo el día hacíamos los trabajos del campo",
+                "pl": "przez cały dzień wykonywaliśmy prace na polu",
+                "fil": "buong araw ginagawa namin ang mga gawain sa bukid"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "1. El imperfecto activo indicativo — formación",
+            "pl": "1. Czas niedokonany czynny oznajmujący — tworzenie",
+            "fil": "1. Ang imperfect active indicative — pagbuo"
+          },
+          "contentTranslations": {
+            "es": "El imperfecto indicativo expresa acción continua o repetida en el pasado — 'estaba haciendo' o 'solía hacer.' Se forma a partir del tema del presente añadiendo (1) un aumento al principio y (2) desinencias secundarias activas.",
+            "pl": "Tryb oznajmujący czasu niedokonanego wyraża ciągłe lub powtarzające się działanie w przeszłości — 'robiłem' lub 'zwykłem robić.' Tworzy się od tematu czasu teraźniejszego dodając (1) augment na początku i (2) wtórne końcówki czynne.",
+            "fil": "Ang imperfect indicative ay nagpapahayag ng tuluy-tuloy o paulit-ulit na kilos sa nakaraan — 'ginagawa ko' o 'dati kong ginagawa.' Ito ay binuo mula sa present stem sa pamamagitan ng pagdaragdag ng (1) augment sa simula at (2) secondary active endings."
+          }
+        },
+        {
+          "id": 2,
+          "heading": "2. ὁ παρατατικὸς τοῦ εἰμί — ἦν, ἤμην, ἦσαν (Imperfect of εἰμί)",
+          "content": "The verb εἰμί (I am) has its own imperfect forms, which do not follow the regular pattern. They are suppletive — built from a different base (ἦ-). These forms are very frequent in narrative: ἦν and ἤμην both mean 'was' (3sg. and 1sg. respectively in this story); ἦσαν = 'they were.' Both ἦν and ἤμην appear for 1sg. in different dialects and texts — Ch9 uses ἤμην throughout for 1sg.",
+          "table": {
+            "caption": "παρατατικὸς τοῦ εἰμί",
+            "headers": ["τὸ πρόσωπον", "ἑνικόν (sg.)", "πληθυντικόν (pl.)"],
+            "rows": [
+              ["αʹ (1st)", "ἤμην", "ἦμεν"],
+              ["βʹ (2nd)", "ἦσθα", "ἦτε"],
+              ["γʹ (3rd)", "ἦν", "ἦσαν"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ὅτε ἤμην νέος, ὥσπερ σὺ νῦν",
+              "note": "when I was young, just as you are now (1sg.)",
+              "noteTranslations": {
+                "es": "cuando yo era joven, igual que tú ahora",
+                "pl": "gdy byłem młody, tak jak ty teraz",
+                "fil": "noong bata pa ako, tulad mo ngayon"
+              }
+            },
+            {
+              "greek": "χαλεπὸς μὲν ἦν ὁ πόνος",
+              "note": "the labor was difficult (3sg.)",
+              "noteTranslations": {
+                "es": "el trabajo era difícil",
+                "pl": "praca była trudna",
+                "fil": "mahirap ang trabaho"
+              }
+            },
+            {
+              "greek": "μεγάλοι ἦσαν οἱ λίθοι",
+              "note": "the stones were large (3pl.)",
+              "noteTranslations": {
+                "es": "las piedras eran grandes",
+                "pl": "kamienie były duże",
+                "fil": "malaki ang mga bato"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "2. El imperfecto de εἰμί — ἦν, ἤμην, ἦσαν",
+            "pl": "2. Czas niedokonany od εἰμί — ἦν, ἤμην, ἦσαν",
+            "fil": "2. Ang imperfect ng εἰμί — ἦν, ἤμην, ἦσαν"
+          },
+          "contentTranslations": {
+            "es": "El verbo εἰμί tiene sus propias formas de imperfecto, construidas desde una base diferente (ἦ-). Son muy frecuentes en la narrativa.",
+            "pl": "Czasownik εἰμί ma własne formy czasu niedokonanego, zbudowane od innej podstawy (ἦ-). Są bardzo częste w narracji.",
+            "fil": "Ang pandiwa εἰμί ay may sariling imperfect forms, na binuo mula sa ibang base (ἦ-). Napakaraming ginagamit ang mga ito sa salaysay."
+          }
+        },
+        {
+          "id": 3,
+          "heading": "3. ἡ αὔξησις (Augment) — syllabic and temporal",
+          "content": "The augment (ἡ αὔξησις) marks past time in Greek. There are two types: (1) Syllabic augment (ἡ συλλαβικὴ αὔξησις): verbs beginning with a consonant add ἔ- to the front — σκάπτω → ἔσκαπτον. (2) Temporal augment (ἡ χρονικὴ αὔξησις): verbs beginning with a vowel lengthen that vowel — α/ε → η, ο → ω, αυ/εὐ → ηυ/ηὐ. The imperfect ηὐχαρίστουν (from εὐχαριστέω) shows the εὐ → ηὐ pattern.",
+          "table": {
+            "caption": "χρονικὴ αὔξησις — examples",
+            "headers": ["ἐνεστώς", "παρατατικός", "σημαίνει"],
+            "rows": [
+              ["σκάπτω", "ἔσκαπτον", "I was digging (+ ἔ-)"],
+              ["φέρω", "ἔφερον", "I was carrying (+ ἔ-)"],
+              ["αἴρω", "ᾖρον", "I was lifting (α → η)"],
+              ["εὑρίσκω", "ηὕρισκον", "I was finding (εὑ → ηὑ)"],
+              ["εὐχαριστέω", "ηὐχαρίστουν", "I was giving thanks (εὐ → ηὐ)"],
+              ["ἔχω", "εἶχον", "I had/was having (ἐ → εἰ, irregular)"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "τοῦ ἡλίου ἀνατέλλοντος, ἐγὼ ἤδη ἔσκαπτον τὸν ἀγρόν",
+              "note": "while the sun was rising, I was already digging the field (syllabic augment ἔ- on σκάπτω)",
+              "noteTranslations": {
+                "es": "cuando salía el sol, yo ya estaba cavando el campo",
+                "pl": "gdy słońce wschodziło, ja już kopałem pole",
+                "fil": "habang sumisinag ang araw, naghuhukay na ako ng bukid"
+              }
+            },
+            {
+              "greek": "διὰ τοῦτο ηὐχαρίστουν αὐτῷ",
+              "note": "because of this I was giving thanks to him (temporal augment: εὐ → ηὐ)",
+              "noteTranslations": {
+                "es": "por eso le daba gracias",
+                "pl": "dlatego dziękowałem mu",
+                "fil": "kaya nagpapasalamat ako sa kanya"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "3. El aumento — silábico y temporal",
+            "pl": "3. Augment — sylabiczny i czasowy",
+            "fil": "3. Ang augment — syllabic at temporal"
+          },
+          "contentTranslations": {
+            "es": "El aumento marca el tiempo pasado en griego. (1) Aumento silábico: verbos que comienzan con consonante añaden ἔ- al inicio. (2) Aumento temporal: verbos que comienzan con vocal alargan esa vocal.",
+            "pl": "Augment zaznacza czas przeszły w grece. (1) Augment sylabiczny: czasowniki zaczynające się od spółgłoski dodają ἔ- na początku. (2) Augment czasowy: czasowniki zaczynające się od samogłoski wydłużają tę samogłoskę.",
+            "fil": "Ang augment ay nagmamarka ng nakaraang panahon sa Griyego. (1) Syllabic augment: ang mga pandiwang nagsisimula sa katinig ay nagdaragdag ng ἔ- sa harap. (2) Temporal augment: ang mga pandiwang nagsisimula sa patinig ay nagpapalaba ng patinig na iyon."
+          }
+        },
+        {
+          "id": 4,
+          "heading": "4. παρατατικὸς vs. ἐνεστώς — aspect: continuous past vs. present",
+          "content": "The present indicative (ὁ ἐνεστώς) describes ongoing present action or timeless facts. The imperfect (ὁ παρατατικός) describes ongoing or habitual past action — what was happening or what used to happen. In Chapter 9, James shifts between imperfect (his past farm life) and present (talking to his children now). The aspect difference is more important than the time difference: both tenses emphasize duration or repetition, not a completed point in time.",
+          "examples": [
+            {
+              "greek": "νῦν μὲν ὧδε κάθημαι — τότε δὲ ἐκοπίων ἐν τῷ ἀγρῷ",
+              "note": "now I sit here — but then I was toiling in the field (ἐνεστώς for present; παρατατικός for past)",
+              "noteTranslations": {
+                "es": "ahora me siento aquí — pero entonces me fatigaba en el campo",
+                "pl": "teraz siedzę tu — a wtedy trudziłem się na polu",
+                "fil": "ngayon umuupo ako rito — noon nagtatrabaho ako sa bukid"
+              }
+            },
+            {
+              "greek": "ὁ θεὸς ποιεῖ πάντα καλά — ηὔξανεν δὲ τὸν σπόρον",
+              "note": "God makes all things good (timeless) — but he was causing the seed to grow (past, ongoing)",
+              "noteTranslations": {
+                "es": "Dios hace todas las cosas buenas — pero hacía crecer la semilla",
+                "pl": "Bóg czyni wszystko dobrym — a wzrastało ziarno",
+                "fil": "ginagawa ng Diyos ang lahat ng mabuti — at pinapalago niya ang binhi"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "4. Imperfecto vs. presente — aspecto: pasado continuo vs. presente",
+            "pl": "4. Czas niedokonany vs. teraźniejszy — aspekt: przeszłość ciągła vs. teraźniejszość",
+            "fil": "4. Imperfect vs. present — aspect: tuluy-tuloy na nakaraan vs. kasalukuyan"
+          },
+          "contentTranslations": {
+            "es": "El presente indicativo describe la acción en curso o los hechos intemporales. El imperfecto describe la acción continua o habitual en el pasado.",
+            "pl": "Czas teraźniejszy oznajmujący opisuje bieżące działanie lub ponadczasowe fakty. Czas niedokonany opisuje ciągłe lub nawykowe działanie w przeszłości.",
+            "fil": "Ang present indicative ay naglalarawan ng kasalukuyang nagaganap o walang hanggang katotohanan. Ang imperfect ay naglalarawan ng tuloy-tuloy o karaniwang kilos sa nakaraan."
+          }
+        },
+        {
+          "id": 5,
+          "heading": "5. ὅτε + παρατατικός — temporal clause 'when X was happening'",
+          "content": "ὅτε (when) introduces a temporal clause. When the main clause is in the imperfect, the ὅτε clause also typically takes the imperfect, expressing simultaneous or habitual past situations. This is James's narrative pattern in Chapter 9: ὅτε δὲ ἤμην νέος… = 'when I was young…' The clause establishes the time frame within which the imperfect actions of the main clause occurred.",
+          "examples": [
+            {
+              "greek": "ὅτε ἤμην νέος, ὥσπερ σὺ νῦν, ὁ πατήρ μου ἔσπειρεν τὸν σῖτον",
+              "note": "when I was young, just as you are now, my father was sowing the grain",
+              "noteTranslations": {
+                "es": "cuando era joven, igual que tú ahora, mi padre sembraba el trigo",
+                "pl": "gdy byłem młody, tak jak ty teraz, mój ojciec siał ziarno",
+                "fil": "noong bata pa ako, tulad mo ngayon, ang aking ama ay naghahasik ng trigo"
+              }
+            },
+            {
+              "greek": "ὅτε δὲ ἐκοπίων, μικρὸν χρόνον ἐκάθιζον καὶ ἡσύχαζον",
+              "note": "but when I was toiling, I used to sit for a short time and rest",
+              "noteTranslations": {
+                "es": "pero cuando me fatigaba, me sentaba un rato y descansaba",
+                "pl": "a gdy się trudziłem, przez chwilę siadałem i odpoczywałem",
+                "fil": "ngunit noong nagtatrabaho ako, umuupo muna ako sandali at nagpapahinga"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "5. ὅτε + imperfecto — cláusula temporal 'cuando X estaba sucediendo'",
+            "pl": "5. ὅτε + czas niedokonany — zdanie okolicznikowe czasu 'gdy X się działo'",
+            "fil": "5. ὅτε + imperfect — temporal clause na 'noong nangyayari ang X'"
+          },
+          "contentTranslations": {
+            "es": "ὅτε («cuando») introduce una cláusula temporal. Cuando la cláusula principal está en imperfecto, la cláusula con ὅτε también toma el imperfecto, expresando situaciones pasadas simultáneas o habituales.",
+            "pl": "ὅτε («gdy») wprowadza zdanie okolicznikowe czasu. Gdy zdanie główne jest w czasie niedokonanym, zdanie z ὅτε przyjmuje zwykle też czas niedokonany, wyrażając jednoczesne lub nawykowe sytuacje z przeszłości.",
+            "fil": "Ang ὅτε («noong, nang') ay nagpapakilala ng temporal clause. Kapag ang main clause ay nasa imperfect, ang ὅτε clause ay karaniwang gumagamit din ng imperfect, nagpapahayag ng magkasabay o karaniwang sitwasyon sa nakaraan."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Μέρος Βʹ — Τὸ Δεῖπνον",
+      "sections": [
+        {
+          "id": 6,
+          "heading": "6. ἡ γενικὴ ἀπόλυτος μετὰ παρατατικοῦ — genitive absolute with imperfect context",
+          "content": "The genitive absolute construction (introduced in Ch8) continues in Chapter 9 with present active participles in the genitive. Two genitive absolutes frame key narrative moments: τοῦ ἡλίου ἀνατέλλοντος (while the sun was rising) and τοῦ πατρὸς λαλοῦντος (while the father was speaking). The main clause is in the imperfect, and the genitive absolute participle (ἀνατέλλοντος, λαλοῦντος) describes a simultaneous background action.",
+          "examples": [
+            {
+              "greek": "τοῦ ἡλίου ἀνατέλλοντος, ἐγὼ ἤδη ἔσκαπτον τὸν ἀγρόν",
+              "note": "while the sun was rising, I was already digging the field (gen. abs. = τοῦ ἡλίου + ἀνατέλλοντος, gen.m.sg.)",
+              "noteTranslations": {
+                "es": "mientras salía el sol, yo ya estaba cavando el campo",
+                "pl": "gdy słońce wschodziło, ja już kopałem pole",
+                "fil": "habang sumisinag ang araw, naghuhukay na ako ng bukid"
+              }
+            },
+            {
+              "greek": "τοῦ δὲ πατρὸς λαλοῦντος, ἡ Μάρθα καὶ ἡ Μαγδαληνή βλέπουσιν τὰ παιδία",
+              "note": "while the father was speaking, Martha and Magdalene see the little children",
+              "noteTranslations": {
+                "es": "mientras el padre hablaba, Marta y Magdalena ven a los niños",
+                "pl": "gdy ojciec mówił, Marta i Magdalena patrzą na dzieci",
+                "fil": "habang nagsasalita ang ama, nakikita ni Martha at Magdalena ang mga bata"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "6. El genitivo absoluto con contexto imperfecto",
+            "pl": "6. Genetivus absolutus z kontekstem czasu niedokonanego",
+            "fil": "6. Ang genitive absolute na may imperfect na konteksto"
+          },
+          "contentTranslations": {
+            "es": "La construcción del genitivo absoluto (introducida en el Cap. 8) continúa en el Cap. 9. Dos genitivos absolutos enmarcan momentos narrativos clave: mientras el sol salía, y mientras el padre hablaba.",
+            "pl": "Konstrukcja genetivus absolutus (wprowadzona w rozdz. 8) kontynuuje się w rozdz. 9. Dwa genetivi absoluti wyznaczają kluczowe momenty narracyjne.",
+            "fil": "Ang genitive absolute construction (ipinakilala sa Kabanata 8) ay nagpapatuloy sa Kabanata 9. Dalawang genitive absolute ang nagbalangkas ng mga pangunahing sandali ng salaysay."
+          }
+        },
+        {
+          "id": 7,
+          "heading": "7. ἰχθύς, ἰχθύος, ὁ (fish) — 3rd declension υ-stem noun",
+          "content": "ἰχθύς (fish) is a 3rd-declension masculine noun with a stem in -υ-. It introduces the υ-stem pattern, which differs from both the consonant-stem nouns and the σ-stem nouns learned earlier. Note the nominative singular -ύς (short υ), the genitive -ύος, the dative -ύι, and the accusative -ύν. This noun becomes theologically significant in early Christian use (ΙΧΘΥΣ as an acrostic).",
+          "table": {
+            "caption": "ἰχθύς, ἰχθύος, ὁ — declension",
+            "headers": ["ἡ πτῶσις", "ἑνικόν (sg.)", "πληθυντικόν (pl.)"],
+            "rows": [
+              ["ὀνομαστική (nom.)", "ἰχθύς", "ἰχθύες"],
+              ["γενική (gen.)", "ἰχθύος", "ἰχθύων"],
+              ["δοτική (dat.)", "ἰχθύι", "ἰχθύσι(ν)"],
+              ["αἰτιατική (acc.)", "ἰχθύν", "ἰχθύς"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ἰχθὺς ἐκ τῆς θαλάσσης ἐστὶν ἐπὶ τῆς τραπέζης",
+              "note": "fish from the sea is on the table (nom. sg.)",
+              "noteTranslations": {
+                "es": "hay pescado del mar sobre la mesa",
+                "pl": "na stole leży ryba z morza",
+                "fil": "may isda mula sa dagat sa mesa"
+              }
+            },
+            {
+              "greek": "ἔφαγον τοὺς ἰχθύας",
+              "note": "they ate the fish (acc. pl.)",
+              "noteTranslations": {
+                "es": "comieron los peces",
+                "pl": "zjedli ryby",
+                "fil": "kinain nila ang mga isda"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "7. ἰχθύς, ἰχθύος, ὁ (pez) — 3ª declinación, tema en υ",
+            "pl": "7. ἰχθύς, ἰχθύος, ὁ (ryba) — 3. deklinacja, temat na υ",
+            "fil": "7. ἰχθύς, ἰχθύος, ὁ (isda) — 3rd declension, υ-stem noun"
+          },
+          "contentTranslations": {
+            "es": "ἰχθύς (pez) es un sustantivo masculino de 3ª declinación con tema en -υ-. Nótense el nominativo -ύς, el genitivo -ύος, el dativo -ύι y el acusativo -ύν.",
+            "pl": "ἰχθύς (ryba) to rzeczownik męski 3. deklinacji z tematem na -υ-. Należy zwrócić uwagę na mianownik -ύς, dopełniacz -ύος, celownik -ύι i biernik -ύν.",
+            "fil": "Ang ἰχθύς (isda) ay isang 3rd-declension masculine noun na may stem na -υ-. Tandaan ang nominative -ύς, genitive -ύος, dative -ύι, at accusative -ύν."
+          }
+        },
+        {
+          "id": 8,
+          "heading": "8. τὸ δεῖπνον vocabulary — supper foods and the table",
+          "content": "Chapter 9's supper scene introduces a rich cluster of household and food vocabulary. Many of these words appear in the New Testament in significant contexts (bread and fish at the feeding of the 5000; the Last Supper). The items on James's table — ἄρτος, ἰχθύς, ἐλαῖαι, σῦκα, σταφυλαί, γάλα, οἶνος, ἔλαιον, μέλι — are typical of a 1st-century Palestinian household meal.",
+          "table": {
+            "caption": "δεῖπνον vocabulary",
+            "headers": ["ἡ λέξις", "ἡ μορφή", "σημαίνει"],
+            "rows": [
+              ["τράπεζα, -ης, ἡ", "1st decl. fem.", "table"],
+              ["ἄρτος, -ου, ὁ", "2nd decl. masc.", "bread, loaf"],
+              ["ἰχθύς, -ύος, ὁ", "3rd decl. υ-stem", "fish"],
+              ["ἐλαῖαι, -ῶν, αἱ", "1st decl. fem. pl.", "olives"],
+              ["σῦκα, -ων, τά", "2nd decl. neut. pl.", "figs"],
+              ["σταφυλαί, -ῶν, αἱ", "1st decl. fem. pl.", "grapes"],
+              ["γάλα, γάλακτος, τό", "3rd decl. neut.", "milk"],
+              ["οἶνος, -ου, ὁ", "2nd decl. masc.", "wine"],
+              ["ἔλαιον, -ου, τό", "2nd decl. neut.", "olive oil"],
+              ["μέλι, μέλιτος, τό", "3rd decl. neut.", "honey"],
+              ["ποτήριον, -ου, τό", "2nd decl. neut.", "cup"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ἐπὶ δὲ τῆς τραπέζης ἐστὶν ἄρτος καὶ ἰχθὺς ἐκ τῆς θαλάσσης",
+              "note": "and on the table is bread and fish from the sea",
+              "noteTranslations": {
+                "es": "y sobre la mesa hay pan y pescado del mar",
+                "pl": "a na stole jest chleb i ryba z morza",
+                "fil": "at sa mesa ay may tinapay at isdang mula sa dagat"
+              }
+            },
+            {
+              "greek": "ἕκαστος δὲ ἔχει τὸ ποτήριον αὐτοῦ",
+              "note": "and each one has his cup",
+              "noteTranslations": {
+                "es": "y cada uno tiene su copa",
+                "pl": "a każdy ma swój kubek",
+                "fil": "at bawat isa ay may kanya-kanyang tasa"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "8. Vocabulario del δεῖπνον — alimentos de la cena y la mesa",
+            "pl": "8. Słownictwo δεῖπνον — potrawy i stół",
+            "fil": "8. Ang bokabularyo ng δεῖπνον — pagkain sa hapunan at mesa"
+          },
+          "contentTranslations": {
+            "es": "La escena de la cena introduce un rico grupo de vocabulario doméstico y de alimentos. Muchas de estas palabras aparecen en el Nuevo Testamento en contextos significativos.",
+            "pl": "Scena kolacji wprowadza bogate słownictwo domowe i żywnościowe. Wiele z tych słów pojawia się w Nowym Testamencie w znaczących kontekstach.",
+            "fil": "Ang eksena ng hapunan ay nagpapakilala ng mayamang pangkat ng bokabularyo ng tahanan at pagkain. Marami sa mga salitang ito ay lilitaw sa Bagong Tipan sa mahahalagang konteksto."
+          }
+        },
+        {
+          "id": 9,
+          "heading": "9. μήτηρ, θυγάτηρ, ἀνήρ — 3rd declension, irregular -τρ- stems",
+          "content": "Three family-member nouns introduced in Chapter 9 follow an irregular 3rd-declension pattern with a -τρ- stem. They alternate between a full stem (μητρ-/θυγατρ-/ἀνδρ-) in most cases and a shortened stem in the nominative/vocative singular. Martha is called ἡ μήτηρ (the mother) and ἡ γυνή (the wife); Magdalene is ἡ θυγάτηρ (the daughter).",
+          "table": {
+            "caption": "μήτηρ, θυγάτηρ, ἀνήρ — key forms",
+            "headers": ["ἡ πτῶσις", "μήτηρ (mother)", "θυγάτηρ (daughter)", "ἀνήρ (man)"],
+            "rows": [
+              ["ὀνομαστική (nom.)", "μήτηρ", "θυγάτηρ", "ἀνήρ"],
+              ["γενική (gen.)", "μητρός", "θυγατρός", "ἀνδρός"],
+              ["δοτική (dat.)", "μητρί", "θυγατρί", "ἀνδρί"],
+              ["αἰτιατική (acc.)", "μητέρα", "θυγατέρα", "ἄνδρα"],
+              ["κλητική (voc.)", "μῆτερ", "θύγατερ", "ἄνερ"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ἡ Μάρθα, ἡ μήτηρ τῶν τέκνων καὶ γυνὴ τοῦ Ἰακώβου",
+              "note": "Martha, the mother of the children and wife of James (nom. sg.)",
+              "noteTranslations": {
+                "es": "Marta, la madre de los hijos y esposa de Jacob",
+                "pl": "Marta, matka dzieci i żona Jakuba",
+                "fil": "si Martha, ang ina ng mga anak at asawa ni Jacob"
+              }
+            },
+            {
+              "greek": "ἡ Μαγδαληνή, ἡ θυγάτηρ, βοηθεῖ τῇ μητρί",
+              "note": "Magdalene, the daughter, helps the mother (dat. μητρί after βοηθέω)",
+              "noteTranslations": {
+                "es": "Magdalena, la hija, ayuda a la madre",
+                "pl": "Magdalena, córka, pomaga matce",
+                "fil": "si Magdalena, ang anak na babae, tumutulong sa kanyang ina"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "9. μήτηρ, θυγάτηρ, ἀνήρ — 3ª declinación, temas irregulares en -τρ-",
+            "pl": "9. μήτηρ, θυγάτηρ, ἀνήρ — 3. deklinacja, nieregularne tematy na -τρ-",
+            "fil": "9. μήτηρ, θυγάτηρ, ἀνήρ — 3rd declension, irregular -τρ- stems"
+          },
+          "contentTranslations": {
+            "es": "Tres sustantivos de miembros de la familia siguen un patrón irregular de 3ª declinación con tema en -τρ-, alternando entre un tema completo en la mayoría de los casos y un tema acortado en el nominativo/vocativo singular.",
+            "pl": "Trzy rzeczowniki oznaczające członków rodziny podążają za nieregularnym wzorcem 3. deklinacji z tematem na -τρ-, naprzemiennie używając pełnego tematu w większości przypadków i skróconego w mianowniku/wołaczu l.poj.",
+            "fil": "Tatlong pangngalan ng miyembro ng pamilya ang sumusunod sa irregular na 3rd-declension pattern na may -τρ- stem, nagpapalitan sa pagitan ng buong stem sa karamihan ng kaso at pinaikling stem sa nominative/vocative singular."
+          }
+        },
+        {
+          "id": 10,
+          "heading": "10. ἕκαστος, -η, -ον — 'each, each one'",
+          "content": "ἕκαστος is a pronominal adjective meaning 'each' or 'each one.' It declines like a regular 2nd/1st declension adjective and typically stands in apposition to or replaces a noun. In Chapter 9, ἕκαστος δὲ ἔχει τὸ ποτήριον αὐτοῦ singles out each family member at the supper table individually. When used as a pronoun (without a noun), ἕκαστος stands alone: ἕκαστος ἔλαβεν = 'each one took.'",
+          "examples": [
+            {
+              "greek": "ἕκαστος δὲ ἔχει τὸ ποτήριον αὐτοῦ",
+              "note": "and each one has his cup (masc. nom. sg. pronoun)",
+              "noteTranslations": {
+                "es": "y cada uno tiene su copa",
+                "pl": "a każdy ma swój kubek",
+                "fil": "at bawat isa ay may kanya-kanyang tasa"
+              }
+            },
+            {
+              "greek": "ἕκαστος τῶν υἱῶν ἔλαβεν ἄρτον",
+              "note": "each of the sons took bread (+ partitive genitive τῶν υἱῶν)",
+              "noteTranslations": {
+                "es": "cada uno de los hijos tomó pan",
+                "pl": "każdy z synów wziął chleb",
+                "fil": "bawat isa sa mga anak na lalaki ay kumuha ng tinapay"
+              }
+            },
+            {
+              "greek": "ὁ Ἰάκωβος λέγει πρὸς ἕκαστον τῶν τέκνων",
+              "note": "James speaks to each of the children (masc. acc. sg.)",
+              "noteTranslations": {
+                "es": "Jacob habla a cada uno de los hijos",
+                "pl": "Jakub mówi do każdego z dzieci",
+                "fil": "nagsalita si Jacob sa bawat isa sa mga anak"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "10. ἕκαστος, -η, -ον — 'cada uno'",
+            "pl": "10. ἕκαστος, -η, -ον — 'każdy, każda, każde'",
+            "fil": "10. ἕκαστος, -η, -ον — 'bawat isa'"
+          },
+          "contentTranslations": {
+            "es": "ἕκαστος es un adjetivo pronominal que significa 'cada' o 'cada uno.' Se declina como un adjetivo regular de 2ª/1ª declinación y normalmente se usa en aposición o en lugar de un sustantivo.",
+            "pl": "ἕκαστος to przymiotnik zaimkowy oznaczający 'każdy' lub 'każdy z osobna.' Odmienia się jak zwykły przymiotnik 2./1. deklinacji i zwykle stoi w opozycji lub zastępuje rzeczownik.",
+            "fil": "Ang ἕκαστος ay isang pronominal adjective na nangangahulugang 'bawat' o 'bawat isa.' Ito ay nagde-decline tulad ng regular na 2nd/1st declension adjective at karaniwang nakatayo nang kasabay o kapalit ng isang pangngalan."
+          }
+        }
+      ]
+    }
+  ]
+}
