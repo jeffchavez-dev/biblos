@@ -1,1 +1,421 @@
-[]
+{
+  "title": "Γραμματική — Κεφάλαιον Ηʹ (The Holy Spirit)",
+  "parts": [
+    {
+      "label": "Μέρος Αʹ — Ἡ Σὰρξ καὶ τὸ Πνεῦμα",
+      "sections": [
+        {
+          "id": 1,
+          "heading": "1. ἡ μετοχὴ μέσης/παθητικῆς διαθέσεως (Middle/Passive Participle) — -όμενος/-ομένη/-όμενον",
+          "content": "The present middle and passive participles share the same form: -όμενος (masc.), -ομένη (fem.), -όμενον (neut.). They decline exactly like a 2nd/1st declension adjective. Whether the participle is middle or passive is determined by context — a deponent verb (which has no active form) is middle; a normal verb used with ὑπό + genitive is passive. The accent falls consistently on the -ό- of the ending.",
+          "table": {
+            "caption": "ἡ μετοχὴ μέσης/παθητικῆς ἐνεστώς — λύω",
+            "headers": ["ἡ πτῶσις", "ἀρσενικόν (masc.)", "θηλυκόν (fem.)", "οὐδέτερον (neut.)"],
+            "rows": [
+              ["ὀνομαστική (nom.)", "λυόμενος", "λυομένη", "λυόμενον"],
+              ["γενική (gen.)", "λυομένου", "λυομένης", "λυομένου"],
+              ["δοτική (dat.)", "λυομένῳ", "λυομένῃ", "λυομένῳ"],
+              ["αἰτιατική (acc.)", "λυόμενον", "λυομένην", "λυόμενον"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "οἱ ἄνθρωποι ἀγόμενοι ὑπὸ τοῦ πνεύματος",
+              "note": "the people being led by the Spirit (nom. masc. pl. passive)",
+              "noteTranslations": {
+                "es": "las personas guiadas por el Espíritu (nom. masc. pl. pasivo)",
+                "pl": "ludzie prowadzeni przez Ducha (mianownik, rodz. męski, l.mn., strona bierna)",
+                "fil": "ang mga taong pinapatnubayan ng Espiritu (nom. masc. pl. passive)"
+              }
+            },
+            {
+              "greek": "τὸν ξένον ἀπερχόμενον εἰς τὸν ἀγρόν",
+              "note": "the stranger going away to the field (acc. masc. sg. middle/deponent)",
+              "noteTranslations": {
+                "es": "al forastero que se va al campo (ac. masc. sg. medio/deponente)",
+                "pl": "obcego odchodzącego na pole (biernik, rodz. męski, l.poj., strona środkowa/deponens)",
+                "fil": "ang estranghero na umaalis patungo sa bukid (acc. masc. sg. middle/deponent)"
+              }
+            },
+            {
+              "greek": "βουλομένη Σαλώμη ἀκούειν πλέον",
+              "note": "Salome wanting to hear more (nom. fem. sg. deponent)",
+              "noteTranslations": {
+                "es": "Salomé queriendo escuchar más (nom. fem. sg. deponente)",
+                "pl": "Salome chcąca słuchać więcej (mianownik, rodz. żeński, l.poj., deponens)",
+                "fil": "si Salome na gustong makinig pa (nom. fem. sg. deponent)"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "1. El participio de voz media/pasiva — -όμενος/-ομένη/-όμενον",
+            "pl": "1. Imiesłów strony środkowej/biernej — -όμενος/-ομένη/-όμενον",
+            "fil": "1. Ang middle/passive participle — -όμενος/-ομένη/-όμενον"
+          },
+          "contentTranslations": {
+            "es": "El participio de presente de voz media y pasiva comparten la misma forma: -όμενος (masc.), -ομένη (fem.), -όμενον (neut.). Se declina exactamente como un adjetivo de la 2ª/1ª declinación.",
+            "pl": "Imiesłowy strony środkowej i biernej czasu teraźniejszego mają tę samą formę: -όμενος (rodz. męski), -ομένη (rodz. żeński), -όμενον (rodz. nijaki). Odmieniają się dokładnie jak przymiotnik 2./1. deklinacji.",
+            "fil": "Ang present middle at passive participle ay may parehong anyo: -όμενος (masc.), -ομένη (fem.), -όμενον (neut.). Nagde-decline sila nang eksakto tulad ng 2nd/1st declension adjective."
+          }
+        },
+        {
+          "id": 2,
+          "heading": "2. ἡ μετοχὴ τῶν ἀποθετικῶν ῥημάτων (Participle of deponent verbs) — βουλόμενος, ἀποκρινόμενος",
+          "content": "Deponent verbs (τὰ ἀποθετικὰ ῥήματα) have middle forms but active meanings — they have 'laid aside' (ἀπόθετος) the active voice. Their participles use the middle ending -όμενος but translate actively. Two deponents recur throughout Chapter 8: βούλομαι (I want) and ἀποκρίνομαι (I answer). Both are extremely common in the New Testament.",
+          "examples": [
+            {
+              "greek": "βουλόμενος μὲν Ἰάκωβος ἀναπαύεσθαι",
+              "note": "Jacob wanting to rest (βούλομαι = deponent, middle form, active meaning)",
+              "noteTranslations": {
+                "es": "Jacob queriendo descansar (βούλομαι = deponente, forma media, significado activo)",
+                "pl": "Jakub chcący odpocząć (βούλομαι = deponens, forma środkowa, znaczenie czynne)",
+                "fil": "si Jacob na gustong magpahinga (βούλομαι = deponent, middle form, active meaning)"
+              }
+            },
+            {
+              "greek": "ἀποκρινόμενος Ἰάκωβος λέγει",
+              "note": "Jacob answering, says (ἀποκρίνομαι = deponent; participle precedes main verb)",
+              "noteTranslations": {
+                "es": "Jacob respondiendo, dice (ἀποκρίνομαι = deponente; el participio precede al verbo principal)",
+                "pl": "Jakub odpowiadając, mówi (ἀποκρίνομαι = deponens; imiesłów poprzedza orzeczenie)",
+                "fil": "si Jacob na sumasagot, nagsabi (ἀποκρίνομαι = deponent; participle ang nauuna bago ang main verb)"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "2. El participio de verbos deponentes — βουλόμενος, ἀποκρινόμενος",
+            "pl": "2. Imiesłów czasowników deponentnych — βουλόμενος, ἀποκρινόμενος",
+            "fil": "2. Ang participle ng mga deponent verb — βουλόμενος, ἀποκρινόμενος"
+          },
+          "contentTranslations": {
+            "es": "Los verbos deponentes tienen formas medias pero significados activos. Sus participios usan la desinencia media -όμενος pero se traducen de manera activa.",
+            "pl": "Czasowniki deponentne mają formy strony środkowej, ale znaczenia czynne. Ich imiesłowy używają środkowej końcówki -όμενος, ale tłumaczy się je aktywnie.",
+            "fil": "Ang mga deponent verb ay may middle form ngunit active na kahulugan. Ang kanilang mga participle ay gumagamit ng middle ending -όμενος ngunit isinalin nang aktibo."
+          }
+        },
+        {
+          "id": 3,
+          "heading": "3. ἡ γενικὴ ἀπόλυτος (Genitive Absolute) — noun/pronoun + participle both in genitive",
+          "content": "The genitive absolute is a participial phrase in which both the noun (or pronoun) and the participle are in the genitive case — and the noun is not the subject of the main clause. It expresses time, cause, or circumstance: 'while X was doing Y…', 'since X did Y…' It is called 'absolute' because it is grammatically detached (ἀπόλυτος = set free) from the main clause.",
+          "examples": [
+            {
+              "greek": "τοῦ ἡλίου λάμποντος ὑπὲρ τοὺς ἀγρούς, ἡ Σαλώμη λέγει τῷ Ἰακώβῳ",
+              "note": "while the sun is still shining over the fields, Salome says to Jacob (gen. abs.: τοῦ ἡλίου + λάμποντος)",
+              "noteTranslations": {
+                "es": "mientras el sol todavía brilla sobre los campos, Salomé le dice a Jacob",
+                "pl": "gdy słońce jeszcze świeci nad polami, Salome mówi do Jakuba",
+                "fil": "habang nagniningning pa ang araw sa ibabaw ng mga bukid, sinabi ni Salome kay Jacob"
+              }
+            },
+            {
+              "greek": "σπουδαζούσης τῆς Σαλώμης μανθάνειν",
+              "note": "since Salome was eager to learn (gen. abs.: τῆς Σαλώμης + σπουδαζούσης)",
+              "noteTranslations": {
+                "es": "como Salomé estaba ansiosa por aprender",
+                "pl": "ponieważ Salome gorliwie pragnęła się uczyć",
+                "fil": "dahil sabik si Salome na matuto"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "3. El genitivo absoluto — sustantivo/pronombre + participio ambos en genitivo",
+            "pl": "3. Genetivus absolutus — rzeczownik/zaimek + imiesłów oba w dopełniaczu",
+            "fil": "3. Ang genitive absolute — pangngalan/panghalip + participle parehong nasa genitive"
+          },
+          "contentTranslations": {
+            "es": "El genitivo absoluto es una frase participial en la que tanto el sustantivo (o pronombre) como el participio están en genitivo — y el sustantivo no es el sujeto de la cláusula principal. Expresa tiempo, causa o circunstancia.",
+            "pl": "Genetivus absolutus to fraza imiesłowowa, w której zarówno rzeczownik (lub zaimek), jak i imiesłów są w dopełniaczu — a rzeczownik nie jest podmiotem zdania głównego. Wyraża czas, przyczynę lub okoliczność.",
+            "fil": "Ang genitive absolute ay isang participial phrase kung saan ang parehong pangngalan (o panghalip) at participle ay nasa genitive case — at ang pangngalan ay hindi ang paksa ng main clause. Nagpapahayag ito ng panahon, dahilan, o pangyayari."
+          }
+        },
+        {
+          "id": 4,
+          "heading": "4. καίπερ + μετοχή (μετοχὴ ἐναντιωματική) — concessive participle ('although')",
+          "content": "καίπερ (\"although, even though\") is used with a participle to express concession — acknowledging one fact while asserting another. The participle agrees with the subject of the main clause in gender, number, and case. This construction is common in classical Greek and appears in the opening of Chapter 8.",
+          "examples": [
+            {
+              "greek": "καίπερ κοπιῶν Ἰάκωβος χαίρει",
+              "note": "although laboring, Jacob rejoices (masc. nom. sg. participle agreeing with Ἰάκωβος)",
+              "noteTranslations": {
+                "es": "aunque Jacob está fatigado, se alegra",
+                "pl": "chociaż Jakub się trudzi, raduje się",
+                "fil": "kahit nagtatrabaho si Jacob, nagagalak siya"
+              }
+            },
+            {
+              "greek": "καίπερ κοπιῶσα, ἡ Σαλώμη οὐ παύεται ἐρωτῶσα",
+              "note": "although laboring, Salome does not stop asking (fem. nom. sg.)",
+              "noteTranslations": {
+                "es": "aunque fatigada, Salomé no deja de preguntar",
+                "pl": "choć się trudząc, Salome nie przestaje pytać",
+                "fil": "kahit pagod, si Salome ay hindi tumitigil ng pagtatanong"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "4. καίπερ + participio — participio concesivo ('aunque')",
+            "pl": "4. καίπερ + imiesłów — imiesłów przyzwalający ('chociaż')",
+            "fil": "4. καίπερ + participle — concessive participle ('kahit')"
+          },
+          "contentTranslations": {
+            "es": "καίπερ («aunque, a pesar de que») se usa con un participio para expresar concesión — reconociendo un hecho mientras se afirma otro. El participio concuerda con el sujeto de la cláusula principal.",
+            "pl": "καίπερ («chociaż, mimo że») używa się z imiesłowem dla wyrażenia przyzwolenia — uznając jeden fakt, jednocześnie stwierdzając inny. Imiesłów zgadza się z podmiotem zdania głównego.",
+            "fil": "Ang καίπερ («kahit, bagaman») ay ginagamit kasama ang participle para ipahayag ang konsesyon — kinikilala ang isang katotohanan habang ipinapagtibay ang isa pa."
+          }
+        },
+        {
+          "id": 5,
+          "heading": "5. σάρξ, σαρκός, ἡ (flesh) — 3rd declension, stem in σαρκ-",
+          "content": "σάρξ (flesh) is a 3rd-declension feminine noun. The nominative singular ends in -ξ (from σαρκ- + ς), but the stem σαρκ- appears in all oblique forms. The dative plural σαρξί(ν) contracts the stem. This word is theologically central to Part A: it refers not just to physical flesh but to the whole orientation of life apart from God.",
+          "table": {
+            "caption": "σάρξ, σαρκός, ἡ — declension",
+            "headers": ["ἡ πτῶσις", "ἑνικόν (sg.)", "πληθυντικόν (pl.)"],
+            "rows": [
+              ["ὀνομαστική (nom.)", "σάρξ", "σάρκες"],
+              ["γενική (gen.)", "σαρκός", "σαρκῶν"],
+              ["δοτική (dat.)", "σαρκί", "σαρξί(ν)"],
+              ["αἰτιατική (acc.)", "σάρκα", "σάρκας"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ἡ σὰρξ ἐπιθυμεῖ τὰ πράγματα τῆς σαρκός",
+              "note": "the flesh desires the things of the flesh",
+              "noteTranslations": {
+                "es": "la carne desea las cosas de la carne",
+                "pl": "ciało pożąda rzeczy ciała",
+                "fil": "ang laman ay nagnanasa sa mga bagay ng laman"
+              }
+            },
+            {
+              "greek": "τὸ φρόνημα τῆς σαρκὸς θάνατός ἐστιν",
+              "note": "the mindset of the flesh is death (gen. sg.)",
+              "noteTranslations": {
+                "es": "la mentalidad de la carne es muerte",
+                "pl": "nastawienie ciała to śmierć",
+                "fil": "ang isip ng laman ay kamatayan"
+              }
+            },
+            {
+              "greek": "περιπατεῖ κατὰ τὴν σάρκα",
+              "note": "he walks according to the flesh (acc. sg.)",
+              "noteTranslations": {
+                "es": "camina según la carne",
+                "pl": "chodzi według ciała",
+                "fil": "lumalakad ayon sa laman"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "5. σάρξ, σαρκός, ἡ (carne) — 3ª declinación, tema en σαρκ-",
+            "pl": "5. σάρξ, σαρκός, ἡ (ciało) — 3. deklinacja, temat na σαρκ-",
+            "fil": "5. σάρξ, σαρκός, ἡ (laman) — 3rd declension, stem na σαρκ-"
+          },
+          "contentTranslations": {
+            "es": "σάρξ (carne) es un sustantivo femenino de la 3ª declinación. El nominativo singular termina en -ξ (de σαρκ- + ς), pero el tema σαρκ- aparece en todas las formas oblicuas.",
+            "pl": "σάρξ (ciało) to rzeczownik żeński 3. deklinacji. Mianownik l.poj. kończy się na -ξ (od σαρκ- + ς), ale temat σαρκ- pojawia się we wszystkich przypadkach zależnych.",
+            "fil": "Ang σάρξ (laman) ay isang 3rd-declension feminine noun. Ang nominative singular ay nagtatapos sa -ξ (mula sa σαρκ- + ς), ngunit ang tema σαρκ- ay lumalabas sa lahat ng oblique form."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Μέρος Βʹ — Ὁ Καρπὸς τοῦ Πνεύματος",
+      "sections": [
+        {
+          "id": 6,
+          "heading": "6. τὰ τῆς σαρκός / τὰ τοῦ πνεύματος — articular genitive as noun phrase",
+          "content": "Greek can use the article + genitive phrase as a complete noun phrase, without an explicit noun: τὰ τῆς σαρκός = 'the things of the flesh,' τὰ τοῦ πνεύματος = 'the things of the Spirit.' The neuter plural article τὰ turns the genitive phrase into 'the [things] of…' This construction is very common in Paul's letters and appears throughout Chapter 8.",
+          "examples": [
+            {
+              "greek": "ἡ σὰρξ ἐπιθυμεῖ τὰ πράγματα τῆς σαρκός",
+              "note": "the flesh desires the things of the flesh",
+              "noteTranslations": {
+                "es": "la carne desea las cosas de la carne",
+                "pl": "ciało pożąda rzeczy ciała",
+                "fil": "ang laman ay nagnanasa sa mga bagay ng laman"
+              }
+            },
+            {
+              "greek": "ὁ περιπατῶν κατὰ τὴν σάρκα ζητεῖ τὰ τῆς σαρκός",
+              "note": "the one walking according to the flesh seeks the things of the flesh",
+              "noteTranslations": {
+                "es": "el que camina según la carne busca las cosas de la carne",
+                "pl": "ten, kto chodzi według ciała, szuka rzeczy ciała",
+                "fil": "ang lumalakad ayon sa laman ay naghahanap ng mga bagay ng laman"
+              }
+            },
+            {
+              "greek": "ὁ δὲ περιπατῶν κατὰ τὸ πνεῦμα ζητεῖ τὰ τοῦ πνεύματος",
+              "note": "but the one walking according to the Spirit seeks the things of the Spirit",
+              "noteTranslations": {
+                "es": "pero el que camina según el Espíritu busca las cosas del Espíritu",
+                "pl": "a ten, kto chodzi według Ducha, szuka rzeczy Ducha",
+                "fil": "ngunit ang lumalakad ayon sa Espiritu ay naghahanap ng mga bagay ng Espiritu"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "6. τὰ τῆς σαρκός / τὰ τοῦ πνεύματος — genitivo articular como sintagma nominal",
+            "pl": "6. τὰ τῆς σαρκός / τὰ τοῦ πνεύματος — artykularny dopełniacz jako fraza rzeczownikowa",
+            "fil": "6. τὰ τῆς σαρκός / τὰ τοῦ πνεύματος — articular genitive bilang noun phrase"
+          },
+          "contentTranslations": {
+            "es": "El griego puede usar el artículo + frase genitiva como sintagma nominal completo: τὰ τῆς σαρκός = 'las cosas de la carne.' El artículo neutro plural τὰ convierte la frase genitiva en 'las [cosas] de…'",
+            "pl": "Greka może używać rodzajnika + frazy dopełniaczowej jako pełnej frazy rzeczownikowej: τὰ τῆς σαρκός = 'rzeczy ciała.' Rodzajnik nijaki l.mn. τὰ przekształca frazę dopełniaczową w 'rzeczy [należące do]…'",
+            "fil": "Ang Griyego ay maaaring gumamit ng article + genitive phrase bilang isang kumpletong noun phrase: τὰ τῆς σαρκός = 'ang mga bagay ng laman.' Ang neuter plural article na τὰ ay ginagawang noun phrase ang genitive phrase."
+          }
+        },
+        {
+          "id": 7,
+          "heading": "7. ἡ μετοχὴ παθητική (Passive Participle) — ἀγόμενοι ὑπὸ τοῦ πνεύματος",
+          "content": "The passive participle uses the same -όμενος/-ομένη/-όμενον ending as the middle. The key to recognizing it as passive (not middle/deponent) is the presence of ὑπό + genitive expressing the agent. The plural ἀγόμενοι (being led) agrees with οἱ ἄνθρωποι — it functions as an attributive or circumstantial participle.",
+          "examples": [
+            {
+              "greek": "οἱ ἄνθρωποι ἀγόμενοι ὑπὸ τοῦ πνεύματος φέρουσιν τὸν καρπόν",
+              "note": "the people being led by the Spirit bear the fruit (nom. masc. pl.; ὑπό marks agent = passive)",
+              "noteTranslations": {
+                "es": "las personas guiadas por el Espíritu llevan el fruto",
+                "pl": "ludzie prowadzeni przez Ducha przynoszą owoc",
+                "fil": "ang mga taong pinapatnubayan ng Espiritu ay nagbubunga"
+              }
+            },
+            {
+              "greek": "ὁ ἄνθρωπος ὁ ἀγόμενος ὑπὸ τοῦ πνεύματος ζῇ",
+              "note": "the person who is being led by the Spirit lives",
+              "noteTranslations": {
+                "es": "la persona guiada por el Espíritu vive",
+                "pl": "człowiek prowadzony przez Ducha żyje",
+                "fil": "ang taong pinapatnubayan ng Espiritu ay nabubuhay"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "7. El participio pasivo — ἀγόμενοι ὑπὸ τοῦ πνεύματος",
+            "pl": "7. Imiesłów strony biernej — ἀγόμενοι ὑπὸ τοῦ πνεύματος",
+            "fil": "7. Ang passive participle — ἀγόμενοι ὑπὸ τοῦ πνεύματος"
+          },
+          "contentTranslations": {
+            "es": "El participio pasivo usa la misma desinencia -όμενος/-ομένη/-όμενον que el medio. La clave para reconocerlo como pasivo es la presencia de ὑπό + genitivo que expresa el agente.",
+            "pl": "Imiesłów bierny używa tej samej końcówki -όμενος/-ομένη/-όμενον co środkowy. Kluczem do rozpoznania go jako biernego jest obecność ὑπό + dopełniacz wyrażający sprawcę.",
+            "fil": "Ang passive participle ay gumagamit ng parehong -όμενος/-ομένη/-όμενον ending tulad ng middle. Ang susi sa pagkilala nito bilang passive ay ang presensya ng ὑπό + genitive na nagpapahayag ng ahente."
+          }
+        },
+        {
+          "id": 8,
+          "heading": "8. ὥσπερ…οὕτως — comparison structure ('just as X…so also Y')",
+          "content": "ὥσπερ (just as) paired with οὕτως (so, thus) forms a comparison between two parallel actions or situations. Jacob uses this structure to explain the fruit of the Spirit: just as a tree naturally bears fruit, so the Spirit naturally produces fruit in the believer. This pattern also appeared in Ch5 and Ch7 with καθώς…οὕτως.",
+          "examples": [
+            {
+              "greek": "ὥσπερ τὸ δένδρον φέρει καρπόν, οὕτως τὸ πνεῦμα φέρει καρπὸν ἐν τῷ πιστεύοντι",
+              "note": "just as the tree bears fruit, so the Spirit bears fruit in the one who believes",
+              "noteTranslations": {
+                "es": "así como el árbol da fruto, así el Espíritu produce fruto en el creyente",
+                "pl": "jak drzewo przynosi owoc, tak Duch przynosi owoc w wierzącym",
+                "fil": "tulad ng pagbubunga ng puno, gayon din ang Espiritu ay nagbubunga sa naniniwala"
+              }
+            },
+            {
+              "greek": "καθὼς ἡ Σαλώμη δίδωσιν ὕδωρ σοι, οὕτως ὁ Ἰησοῦς δίδωσιν ζωήν",
+              "note": "just as Salome gives water to you, so Jesus gives life (καθώς variant)",
+              "noteTranslations": {
+                "es": "así como Salomé te da agua, así Jesús da vida",
+                "pl": "jak Salome daje ci wodę, tak Jezus daje życie",
+                "fil": "tulad ng pagbibigay ni Salome ng tubig sa iyo, gayon din si Jesus ay nagbibigay ng buhay"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "8. ὥσπερ…οὕτως — estructura comparativa ('así como X…así también Y')",
+            "pl": "8. ὥσπερ…οὕτως — struktura porównawcza ('podobnie jak X…tak też Y')",
+            "fil": "8. ὥσπερ…οὕτως — comparison structure ('tulad ng X…gayon din ang Y')"
+          },
+          "contentTranslations": {
+            "es": "ὥσπερ («así como») junto con οὕτως («así, de este modo») forma una comparación entre dos acciones o situaciones paralelas.",
+            "pl": "ὥσπερ («podobnie jak») w parze z οὕτως («tak, w ten sposób») tworzy porównanie między dwoma równoległymi działaniami lub sytuacjami.",
+            "fil": "Ang ὥσπερ («tulad ng») kasama ang οὕτως («gayon, sa gayon») ay bumubuo ng paghahambing sa pagitan ng dalawang magkatulad na kilos o sitwasyon."
+          }
+        },
+        {
+          "id": 9,
+          "heading": "9. καθ᾽ ἡμέραν — idiomatic 'every day / daily' (κατά elided before vowel)",
+          "content": "καθ᾽ ἡμέραν is an idiomatic expression meaning 'every day, daily.' It is formed from κατά + ἡμέραν (accusative of ἡμέρα). When κατά precedes a word beginning with a vowel, the final -α elides to give καθ᾽ (the apostrophe marks the elision). This idiom appears in Salome's question about daily life in the Spirit.",
+          "examples": [
+            {
+              "greek": "τί ποιεῖ τὸ πνεῦμα ἐν τῇ ζωῇ ἡμῶν καθ᾽ ἡμέραν;",
+              "note": "what does the Spirit do in our life each day? (lit. 'according to day')",
+              "noteTranslations": {
+                "es": "¿qué hace el Espíritu en nuestra vida cada día?",
+                "pl": "co Duch czyni w naszym życiu każdego dnia?",
+                "fil": "ano ang ginagawa ng Espiritu sa ating buhay araw-araw?"
+              }
+            },
+            {
+              "greek": "πῶς περιπατοῦσιν οἱ πιστεύοντες καθ᾽ ἡμέραν;",
+              "note": "how do the believers walk each day?",
+              "noteTranslations": {
+                "es": "¿cómo caminan los creyentes cada día?",
+                "pl": "jak chodzą wierzący każdego dnia?",
+                "fil": "paano lumalakad ang mga naniniwala araw-araw?"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "9. καθ᾽ ἡμέραν — expresión idiomática 'cada día / diariamente'",
+            "pl": "9. καθ᾽ ἡμέραν — idiom 'każdego dnia / codziennie'",
+            "fil": "9. καθ᾽ ἡμέραν — idyoma na 'bawat araw / araw-araw'"
+          },
+          "contentTranslations": {
+            "es": "καθ᾽ ἡμέραν es una expresión idiomática que significa 'cada día, diariamente.' Se forma de κατά + ἡμέραν. Cuando κατά precede una vocal, la -α final se elide para dar καθ᾽.",
+            "pl": "καθ᾽ ἡμέραν to idiomatyczne wyrażenie oznaczające 'każdego dnia, codziennie.' Tworzy się z κατά + ἡμέραν. Gdy κατά poprzedza samogłoskę, ostatnie -α ulega elizji, dając καθ᾽.",
+            "fil": "Ang καθ᾽ ἡμέραν ay isang idyomang nangangahulugang 'bawat araw, araw-araw.' Ito ay nabuo mula sa κατά + ἡμέραν. Kapag ang κατά ay nauuna sa isang patinig, ang huling -α ay nag-elide upang magbigay ng καθ᾽."
+          }
+        },
+        {
+          "id": 10,
+          "heading": "10. ὁ καρπὸς τοῦ πνεύματος (fruit of the Spirit) — the nine qualities revisited",
+          "content": "Chapter 8 revisits the fruit of the Spirit from Paul's letter to the Galatians (5:22–23), now fully in context. Note that ὁ καρπός is singular — one fruit with nine aspects. Each quality is a noun in the nominative: ἀγάπη (love), χαρά (joy), εἰρήνη (peace), μακροθυμία (patience), χρηστότης (kindness), ἀγαθωσύνη (goodness), πίστις (faithfulness), πραΰτης (gentleness), ἐγκράτεια (self-control). These are the natural output of walking κατὰ τὸ πνεῦμα.",
+          "examples": [
+            {
+              "greek": "ὁ καρπὸς τοῦ πνεύματός ἐστιν ἀγάπη, χαρά, εἰρήνη",
+              "note": "the fruit of the Spirit is love, joy, peace",
+              "noteTranslations": {
+                "es": "el fruto del Espíritu es amor, gozo, paz",
+                "pl": "owocem Ducha jest miłość, radość, pokój",
+                "fil": "ang bunga ng Espiritu ay pagmamahal, kagalakan, kapayapaan"
+              }
+            },
+            {
+              "greek": "μακροθυμία, χρηστότης, ἀγαθωσύνη, πίστις, πραΰτης, ἐγκράτεια",
+              "note": "patience, kindness, goodness, faithfulness, gentleness, self-control",
+              "noteTranslations": {
+                "es": "paciencia, benignidad, bondad, fe, mansedumbre, templanza",
+                "pl": "cierpliwość, uprzejmość, dobroć, wierność, łagodność, powściągliwość",
+                "fil": "tiyaga, kabaitan, kabutihan, katapatan, kaamuan, pagpipigil sa sarili"
+              }
+            },
+            {
+              "greek": "οἱ ἀγόμενοι ὑπὸ τοῦ πνεύματος φέρουσιν τοῦτον τὸν καρπόν",
+              "note": "those who are led by the Spirit bear this fruit",
+              "noteTranslations": {
+                "es": "los que son guiados por el Espíritu dan este fruto",
+                "pl": "ci, którzy są prowadzeni przez Ducha, przynoszą ten owoc",
+                "fil": "ang mga pinapatnubayan ng Espiritu ay nagbubunga"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "10. El fruto del Espíritu — las nueve cualidades revisadas",
+            "pl": "10. Owoc Ducha — dziewięć cech ponownie",
+            "fil": "10. Ang bunga ng Espiritu — ang siyam na katangian muli"
+          },
+          "contentTranslations": {
+            "es": "El capítulo 8 retoma el fruto del Espíritu de la carta de Pablo a los Gálatas (5:22–23). ὁ καρπός es singular — un solo fruto con nueve aspectos.",
+            "pl": "Rozdział 8 powraca do owocu Ducha z listu Pawła do Galatów (5:22–23). ὁ καρπός jest w liczbie pojedynczej — jeden owoc z dziewięcioma aspektami.",
+            "fil": "Binibisita muli ng Kabanata 8 ang bunga ng Espiritu mula sa liham ni Pablo sa mga taga-Galacia (5:22–23). Ang ὁ καρπός ay singular — isang bunga na may siyam na aspeto."
+          }
+        }
+      ]
+    }
+  ]
+}
