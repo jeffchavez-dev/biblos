@@ -1,36 +1,20 @@
 {
-  "title": "Grammar — Κεφάλαιον Ϛʹ (The Holy Spirit)",
+  "title": "Γραμματική — Κεφάλαιον Ϛʹ (The Holy Spirit)",
   "parts": [
     {
       "label": "Μέρος Αʹ — Ὁ Παράκλητος",
       "sections": [
         {
           "id": 1,
-          "heading": "1. Present Passive Voice — form",
+          "heading": "1. ἡ παθητικὴ διάθεσις (passive voice) — ὁ ἐνεστώς, form and endings",
           "content": "Greek verbs have a passive voice in the present tense formed by replacing the active endings with passive endings. The key marker is the mediopassive ending: -ομαι / -εται / -ονται (instead of -ω / -ει / -ουσι). The passive expresses that the subject receives the action rather than performs it.",
           "table": {
-            "caption": "Present passive — λύω (to loose → to be loosed)",
-            "headers": [
-              "Person",
-              "Passive Singular",
-              "Passive Plural"
-            ],
+            "caption": "ἡ παθητικὴ ἐνεστώς (Present Passive) — λύω (to loose → to be loosed)",
+            "headers": ["τὸ πρόσωπον", "παθητικὴ ἑνικόν (passive sg.)", "παθητικὴ πληθυντικόν (passive pl.)"],
             "rows": [
-              [
-                "1st",
-                "λύ-ομαι  (I am loosed)",
-                "λύ-ομεθα  (we are loosed)"
-              ],
-              [
-                "2nd",
-                "λύ-ῃ  (you are loosed)",
-                "λύ-εσθε  (you pl. are loosed)"
-              ],
-              [
-                "3rd",
-                "λύ-εται  (he/she is loosed)",
-                "λύ-ονται  (they are loosed)"
-              ]
+              ["αʹ (1st)", "λύ-ομαι  (I am loosed)", "λύ-ομεθα  (we are loosed)"],
+              ["βʹ (2nd)", "λύ-ῃ  (you are loosed)", "λύ-εσθε  (you pl. are loosed)"],
+              ["γʹ (3rd)", "λύ-εται  (he/she is loosed)", "λύ-ονται  (they are loosed)"]
             ]
           },
           "examples": [
@@ -74,7 +58,7 @@
         },
         {
           "id": 2,
-          "heading": "2. Agent with Passive — ὑπό + genitive",
+          "heading": "2. ὑπό + γενική (genitive) — agent with passive verb",
           "content": "When a passive verb names the agent (the one performing the action), Greek uses ὑπό + genitive. This is the standard way to express 'by someone' with a passive verb. Compare: ἐν + dative expresses location, not agency.",
           "examples": [
             {
@@ -99,7 +83,7 @@
         },
         {
           "id": 3,
-          "heading": "3. δεῖ + Infinitive — 'it is necessary'",
+          "heading": "3. δεῖ + ὁ ἀπαρέμφατος (infinitive) — 'it is necessary'",
           "content": "δεῖ (impersonal verb, 'it is necessary') is always followed by the accusative + infinitive: the person required to act is in the accusative, and the action is the infinitive. δεῖ itself never changes form.",
           "examples": [
             {
@@ -133,7 +117,7 @@
         },
         {
           "id": 4,
-          "heading": "4. ὅστις — 'whoever'",
+          "heading": "4. ὅστις — indefinite relative pronoun ('whoever')",
           "content": "ὅστις (masc. sg.) / ἥτις (fem. sg.) / ὅ τι (neut. sg.) means 'whoever, anyone who.' It combines the relative pronoun with τις (someone). It refers to a class of people, not a specific individual, and takes an indicative verb when the statement is a general truth.",
           "examples": [
             {
@@ -158,31 +142,15 @@
         },
         {
           "id": 5,
-          "heading": "5. δίδωμι — present active forms",
+          "heading": "5. τὸ ῥῆμα -μι δίδωμι (μι-verb δίδωμι) — present active forms",
           "content": "δίδωμι ('I give') is a -μι verb — it follows a different conjugation pattern from regular -ω verbs. The stem is δο-/δι- and the endings are athematic (no thematic vowel before the ending). These forms appear frequently in this chapter.",
           "table": {
-            "caption": "δίδωμι — present active indicative",
-            "headers": [
-              "Person",
-              "Singular",
-              "Plural"
-            ],
+            "caption": "δίδωμι — ὁ ἐνεστὼς ἐνεργετικὴ ὁριστική (Present Active Indicative)",
+            "headers": ["τὸ πρόσωπον", "ἑνικόν (singular)", "πληθυντικόν (plural)"],
             "rows": [
-              [
-                "1st",
-                "δίδωμι  (I give)",
-                "δίδομεν  (we give)"
-              ],
-              [
-                "2nd",
-                "δίδως  (you give)",
-                "δίδοτε  (you pl. give)"
-              ],
-              [
-                "3rd",
-                "δίδωσι(ν)  (he/she gives)",
-                "διδόασι(ν)  (they give)"
-              ]
+              ["αʹ (1st)", "δίδωμι  (I give)", "δίδομεν  (we give)"],
+              ["βʹ (2nd)", "δίδως  (you give)", "δίδοτε  (you pl. give)"],
+              ["γʹ (3rd)", "δίδωσι(ν)  (he/she gives)", "διδόασι(ν)  (they give)"]
             ]
           },
           "examples": [
@@ -222,7 +190,7 @@
       "sections": [
         {
           "id": 6,
-          "heading": "1. κατά + accusative — 'according to'",
+          "heading": "6. ἡ προθέσις κατά (preposition κατά) — + αἰτιατική (accusative), 'according to'",
           "content": "κατά with the accusative means 'according to,' 'in accordance with,' or 'along.' In Part B it appears in the key contrast περιπατεῖν κατὰ τὴν σάρκα / κατὰ τὸ πνεῦμα — to walk according to the flesh / according to the Spirit. This is the Pauline idiom for one's moral orientation or way of life.",
           "examples": [
             {
@@ -256,7 +224,7 @@
         },
         {
           "id": 7,
-          "heading": "2. ἐάν + subjunctive — real conditional",
+          "heading": "7. ἐάν + ἡ ὑποτακτική (subjunctive) — conditional clauses",
           "content": "ἐάν ('if') introduces a conditional clause and is always followed by the subjunctive mood. This is called a third-class condition in Greek — it expresses a possible or likely future event. The main clause uses the indicative. The subjunctive form often looks like the present indicative but may have a slightly different vowel.",
           "examples": [
             {
@@ -281,15 +249,15 @@
         },
         {
           "id": 8,
-          "heading": "3. ζάω — irregular contract verb 'to live'",
+          "heading": "8. τὸ συνηρημένον ῥῆμα ζάω (contract verb ζάω) — irregular -άω",
           "content": "ζάω ('to live') is a contract verb whose stem ends in -α, but contracts unusually. The 3rd singular is ζῇ (not ζᾷ as expected) and the 1st plural is ζῶμεν. These forms appear directly in the story. The dative ζῶ τῷ πνεύματι means 'I live by/for the Spirit' — dative of means or instrument.",
           "table": {
-            "caption": "ζάω — selected present active forms",
-            "headers": ["Person", "Singular", "Plural"],
+            "caption": "ζάω — ὁ ἐνεστὼς ἐνεργετικὴ ὁριστική (Present Active Indicative)",
+            "headers": ["τὸ πρόσωπον", "ἑνικόν (singular)", "πληθυντικόν (plural)"],
             "rows": [
-              ["1st", "ζῶ  (I live)", "ζῶμεν  (we live)"],
-              ["2nd", "ζῇς  (you live)", "ζῆτε  (you pl. live)"],
-              ["3rd", "ζῇ  (he/she lives)", "ζῶσι(ν)  (they live)"]
+              ["αʹ (1st)", "ζῶ  (I live)", "ζῶμεν  (we live)"],
+              ["βʹ (2nd)", "ζῇς  (you live)", "ζῆτε  (you pl. live)"],
+              ["γʹ (3rd)", "ζῇ  (he/she lives)", "ζῶσι(ν)  (they live)"]
             ]
           },
           "examples": [
@@ -315,16 +283,16 @@
         },
         {
           "id": 9,
-          "heading": "4. The relative pronoun ὅς, ἥ, ὅ — 'who, which, that'",
+          "heading": "9. τὸ ἀντώνυμον (pronoun) ὅς, ἥ, ὅ — relative, selected forms",
           "content": "The relative pronoun ὅς (masc.), ἥ (fem.), ὅ (neut.) introduces a relative clause and agrees with its antecedent in gender and number, but takes its case from its role within the clause. Part B uses it heavily — particularly ὅς (whoever walks…) and ὃ (which dwells in us…). The indefinite relative ὅς with a general antecedent often translates 'whoever.'",
           "table": {
-            "caption": "Relative pronoun — nominative and accusative",
-            "headers": ["", "Masc.", "Fem.", "Neut."],
+            "caption": "ὅς, ἥ, ὅ — ὀνομαστική and αἰτιατική",
+            "headers": ["ἡ πτῶσις", "ἀρσενικόν (masc.)", "θηλυκόν (fem.)", "οὐδέτερον (neut.)"],
             "rows": [
-              ["Nom. sg.", "ὅς", "ἥ", "ὅ"],
-              ["Acc. sg.", "ὅν", "ἥν", "ὅ"],
-              ["Nom. pl.", "οἵ", "αἵ", "ἅ"],
-              ["Acc. pl.", "οὕς", "ἅς", "ἅ"]
+              ["ὀνομαστική ἑνικόν (nom. sg.)", "ὅς", "ἥ", "ὅ"],
+              ["αἰτιατική ἑνικόν (acc. sg.)", "ὅν", "ἥν", "ὅ"],
+              ["ὀνομαστική πληθυντικόν (nom. pl.)", "οἵ", "αἵ", "ἅ"],
+              ["αἰτιατική πληθυντικόν (acc. pl.)", "οὕς", "ἅς", "ἅ"]
             ]
           },
           "examples": [
@@ -350,7 +318,7 @@
         },
         {
           "id": 10,
-          "heading": "5. The fruit of the Spirit — vocabulary",
+          "heading": "10. ὁ καρπὸς τοῦ πνεύματος (fruit of the Spirit) — nine qualities",
           "content": "Paul's list of the fruit of the Spirit in Galatians 5:22–23 appears in James's speech. Each noun is worth learning: ἀγάπη (love), χαρά (joy), εἰρήνη (peace), μακροθυμία (patience/longsuffering), χρηστότης (kindness), ἀγαθωσύνη (goodness), πίστις (faithfulness), πραΰτης (gentleness), ἐγκράτεια (self-control). Note that ὁ καρπός is singular — the Spirit bears one fruit with nine qualities.",
           "examples": [
             {
