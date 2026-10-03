@@ -1,5 +1,6 @@
 {
-  "trueFalse": [],
   "multipleChoice": [],
-  "fillInTheBlank": []
+  "trueFalse": [],
+  "yesNo": [],
+  "conversationQuestions": []
 }
