@@ -37,12 +37,12 @@
               }
             },
             {
-              "greek": "ηὕρηκεν ἰχθύας, ὦ Μαθθαῖε; — ναί, εὗρον",
-              "note": "did he find fish, O Matthew? — yes, I found (them)",
+              "greek": "ἤνεγκα τὸ ὕδωρ καὶ ἐπανῆλθον",
+              "note": "I brought the water and returned (ἤνεγκα = suppletive 1st aor. of φέρω, with -α ending)",
               "noteTranslations": {
-                "es": "¿encontraste peces, Mateo? — sí, encontré",
-                "pl": "czy znalazłeś ryby, Mateuszu? — tak, znalazłem",
-                "fil": "nakahanap ka ba ng isda, Mateo? — oo, nakahanap ako"
+                "es": "traje el agua y regresé",
+                "pl": "przyniosłam wodę i wróciłam",
+                "fil": "dinala ko ang tubig at bumalik ako"
               }
             }
           ],

@@ -292,12 +292,12 @@
               }
             },
             {
-              "greek": "ἔφαγον τοὺς ἰχθύας",
-              "note": "they ate the fish (acc. pl.)",
+              "greek": "ἤσθιον τοὺς ἰχθύας",
+              "note": "they were eating the fish (acc. pl. — impf. of ἐσθίω, as in the story)",
               "noteTranslations": {
-                "es": "comieron los peces",
-                "pl": "zjedli ryby",
-                "fil": "kinain nila ang mga isda"
+                "es": "estaban comiendo los peces",
+                "pl": "jedli ryby",
+                "fil": "kinakain nila ang mga isda"
               }
             }
           ],
