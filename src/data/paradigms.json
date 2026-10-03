@@ -6024,9 +6024,9 @@
     ]
   },
   "G0863": {
-    "lemma": "ἀφίημι",
     "type": "verb",
-    "label": "ἀφίημι — I forgive, let go (μι-verb)",
+    "label": "ἀφίημι — I forgive, I release",
+    "lemma": "ἀφίημι",
     "headers": [
       "",
       "Pres. Act."
@@ -10518,5 +10518,4885 @@
     "lemma": "ἑκατόν",
     "headers": [],
     "rows": []
+  },
+  "G599": {
+    "type": "verb",
+    "label": "ἀποθνῄσκω — I die",
+    "lemma": "ἀποθνῄσκω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἀποθνῄσκω"
+      },
+      {
+        "person": "2sg",
+        "form": "ἀποθνῄσκεις"
+      },
+      {
+        "person": "3sg",
+        "form": "ἀποθνῄσκει"
+      },
+      {
+        "person": "1pl",
+        "form": "ἀποθνῄσκομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "ἀποθνῄσκετε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἀποθνῄσκουσιν"
+      }
+    ]
+  },
+  "G1321": {
+    "type": "verb",
+    "label": "διδάσκω — I teach",
+    "lemma": "διδάσκω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "διδάσκω"
+      },
+      {
+        "person": "2sg",
+        "form": "διδάσκεις"
+      },
+      {
+        "person": "3sg",
+        "form": "διδάσκει"
+      },
+      {
+        "person": "1pl",
+        "form": "διδάσκομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "διδάσκετε"
+      },
+      {
+        "person": "3pl",
+        "form": "διδάσκουσιν"
+      }
+    ]
+  },
+  "G700": {
+    "type": "verb",
+    "label": "ἀρέσκω — I please",
+    "lemma": "ἀρέσκω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἀρέσκω"
+      },
+      {
+        "person": "2sg",
+        "form": "ἀρέσκεις"
+      },
+      {
+        "person": "3sg",
+        "form": "ἀρέσκει"
+      },
+      {
+        "person": "1pl",
+        "form": "ἀρέσκομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "ἀρέσκετε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἀρέσκουσιν"
+      }
+    ]
+  },
+  "G837": {
+    "type": "verb",
+    "label": "αὐξάνω — I grow, I increase",
+    "lemma": "αὐξάνω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "αὐξάνω"
+      },
+      {
+        "person": "2sg",
+        "form": "αὐξάνεις"
+      },
+      {
+        "person": "3sg",
+        "form": "αὐξάνει"
+      },
+      {
+        "person": "1pl",
+        "form": "αὐξάνομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "αὐξάνετε"
+      },
+      {
+        "person": "3pl",
+        "form": "αὐξάνουσιν"
+      }
+    ]
+  },
+  "G1581": {
+    "type": "verb",
+    "label": "ἐκκόπτω — I cut off",
+    "lemma": "ἐκκόπτω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἐκκόπτω"
+      },
+      {
+        "person": "2sg",
+        "form": "ἐκκόπτεις"
+      },
+      {
+        "person": "3sg",
+        "form": "ἐκκόπτει"
+      },
+      {
+        "person": "1pl",
+        "form": "ἐκκόπτομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "ἐκκόπτετε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἐκκόπτουσιν"
+      }
+    ]
+  },
+  "G2508": {
+    "type": "verb",
+    "label": "καθαίρω — I cleanse, I prune",
+    "lemma": "καθαίρω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "καθαίρω"
+      },
+      {
+        "person": "2sg",
+        "form": "καθαίρεις"
+      },
+      {
+        "person": "3sg",
+        "form": "καθαίρει"
+      },
+      {
+        "person": "1pl",
+        "form": "καθαίρομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "καθαίρετε"
+      },
+      {
+        "person": "3pl",
+        "form": "καθαίρουσιν"
+      }
+    ]
+  },
+  "G0305": {
+    "type": "verb",
+    "label": "ἀναβαίνω — I go up, I ascend",
+    "lemma": "ἀναβαίνω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἀναβαίνω"
+      },
+      {
+        "person": "2sg",
+        "form": "ἀναβαίνεις"
+      },
+      {
+        "person": "3sg",
+        "form": "ἀναβαίνει"
+      },
+      {
+        "person": "1pl",
+        "form": "ἀναβαίνομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "ἀναβαίνετε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἀναβαίνουσιν"
+      }
+    ]
+  },
+  "G0615": {
+    "type": "verb",
+    "label": "ἀποκτείνω — I kill",
+    "lemma": "ἀποκτείνω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἀποκτείνω"
+      },
+      {
+        "person": "2sg",
+        "form": "ἀποκτείνεις"
+      },
+      {
+        "person": "3sg",
+        "form": "ἀποκτείνει"
+      },
+      {
+        "person": "1pl",
+        "form": "ἀποκτείνομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "ἀποκτείνετε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἀποκτείνουσιν"
+      }
+    ]
+  },
+  "G1521": {
+    "type": "verb",
+    "label": "εἰσάγω — I lead in, I bring in",
+    "lemma": "εἰσάγω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "εἰσάγω"
+      },
+      {
+        "person": "2sg",
+        "form": "εἰσάγεις"
+      },
+      {
+        "person": "3sg",
+        "form": "εἰσάγει"
+      },
+      {
+        "person": "1pl",
+        "form": "εἰσάγομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "εἰσάγετε"
+      },
+      {
+        "person": "3pl",
+        "form": "εἰσάγουσιν"
+      }
+    ]
+  },
+  "G1806": {
+    "type": "verb",
+    "label": "ἐξάγω — I lead out",
+    "lemma": "ἐξάγω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἐξάγω"
+      },
+      {
+        "person": "2sg",
+        "form": "ἐξάγεις"
+      },
+      {
+        "person": "3sg",
+        "form": "ἐξάγει"
+      },
+      {
+        "person": "1pl",
+        "form": "ἐξάγομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "ἐξάγετε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἐξάγουσιν"
+      }
+    ]
+  },
+  "G2813": {
+    "type": "verb",
+    "label": "κλέπτω — I steal",
+    "lemma": "κλέπτω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "κλέπτω"
+      },
+      {
+        "person": "2sg",
+        "form": "κλέπτεις"
+      },
+      {
+        "person": "3sg",
+        "form": "κλέπτει"
+      },
+      {
+        "person": "1pl",
+        "form": "κλέπτομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "κλέπτετε"
+      },
+      {
+        "person": "3pl",
+        "form": "κλέπτουσιν"
+      }
+    ]
+  },
+  "G2380": {
+    "type": "verb",
+    "label": "θύω — I sacrifice, I slaughter",
+    "lemma": "θύω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "θύω"
+      },
+      {
+        "person": "2sg",
+        "form": "θύεις"
+      },
+      {
+        "person": "3sg",
+        "form": "θύει"
+      },
+      {
+        "person": "1pl",
+        "form": "θύομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "θύετε"
+      },
+      {
+        "person": "3pl",
+        "form": "θύουσιν"
+      }
+    ]
+  },
+  "G3992": {
+    "type": "verb",
+    "label": "πέμπω — I send",
+    "lemma": "πέμπω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "πέμπω"
+      },
+      {
+        "person": "2sg",
+        "form": "πέμπεις"
+      },
+      {
+        "person": "3sg",
+        "form": "πέμπει"
+      },
+      {
+        "person": "1pl",
+        "form": "πέμπομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "πέμπετε"
+      },
+      {
+        "person": "3pl",
+        "form": "πέμπουσιν"
+      }
+    ]
+  },
+  "G1392": {
+    "type": "verb",
+    "label": "δοξάζω — I glorify, I honor",
+    "lemma": "δοξάζω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "δοξάζω"
+      },
+      {
+        "person": "2sg",
+        "form": "δοξάζεις"
+      },
+      {
+        "person": "3sg",
+        "form": "δοξάζει"
+      },
+      {
+        "person": "1pl",
+        "form": "δοξάζομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "δοξάζετε"
+      },
+      {
+        "person": "3pl",
+        "form": "δοξάζουσιν"
+      }
+    ]
+  },
+  "G1651": {
+    "type": "verb",
+    "label": "ἐλέγχω — I rebuke, I convict",
+    "lemma": "ἐλέγχω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἐλέγχω"
+      },
+      {
+        "person": "2sg",
+        "form": "ἐλέγχεις"
+      },
+      {
+        "person": "3sg",
+        "form": "ἐλέγχει"
+      },
+      {
+        "person": "1pl",
+        "form": "ἐλέγχομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "ἐλέγχετε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἐλέγχουσιν"
+      }
+    ]
+  },
+  "G2925": {
+    "type": "verb",
+    "label": "κρούω — I knock",
+    "lemma": "κρούω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "κρούω"
+      },
+      {
+        "person": "2sg",
+        "form": "κρούεις"
+      },
+      {
+        "person": "3sg",
+        "form": "κρούει"
+      },
+      {
+        "person": "1pl",
+        "form": "κρούομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "κρούετε"
+      },
+      {
+        "person": "3pl",
+        "form": "κρούουσιν"
+      }
+    ]
+  },
+  "G0518": {
+    "type": "verb",
+    "label": "ἀπαγγέλλω — I report, I announce",
+    "lemma": "ἀπαγγέλλω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἀπαγγέλλω"
+      },
+      {
+        "person": "2sg",
+        "form": "ἀπαγγέλλεις"
+      },
+      {
+        "person": "3sg",
+        "form": "ἀπαγγέλλει"
+      },
+      {
+        "person": "1pl",
+        "form": "ἀπαγγέλλομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "ἀπαγγέλλετε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἀπαγγέλλουσιν"
+      }
+    ]
+  },
+  "G1679": {
+    "type": "verb",
+    "label": "ἐλπίζω — I hope",
+    "lemma": "ἐλπίζω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἐλπίζω"
+      },
+      {
+        "person": "2sg",
+        "form": "ἐλπίζεις"
+      },
+      {
+        "person": "3sg",
+        "form": "ἐλπίζει"
+      },
+      {
+        "person": "1pl",
+        "form": "ἐλπίζομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "ἐλπίζετε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἐλπίζουσιν"
+      }
+    ]
+  },
+  "G3421": {
+    "type": "verb",
+    "label": "μνημονεύω — I remember",
+    "lemma": "μνημονεύω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "μνημονεύω"
+      },
+      {
+        "person": "2sg",
+        "form": "μνημονεύεις"
+      },
+      {
+        "person": "3sg",
+        "form": "μνημονεύει"
+      },
+      {
+        "person": "1pl",
+        "form": "μνημονεύομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "μνημονεύετε"
+      },
+      {
+        "person": "3pl",
+        "form": "μνημονεύουσιν"
+      }
+    ]
+  },
+  "G5278": {
+    "type": "verb",
+    "label": "ὑπομένω — I endure, I persevere",
+    "lemma": "ὑπομένω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ὑπομένω"
+      },
+      {
+        "person": "2sg",
+        "form": "ὑπομένεις"
+      },
+      {
+        "person": "3sg",
+        "form": "ὑπομένει"
+      },
+      {
+        "person": "1pl",
+        "form": "ὑπομένομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "ὑπομένετε"
+      },
+      {
+        "person": "3pl",
+        "form": "ὑπομένουσιν"
+      }
+    ]
+  },
+  "G3538": {
+    "type": "verb",
+    "label": "νίπτω — I wash",
+    "lemma": "νίπτω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "νίπτω"
+      },
+      {
+        "person": "2sg",
+        "form": "νίπτεις"
+      },
+      {
+        "person": "3sg",
+        "form": "νίπτει"
+      },
+      {
+        "person": "1pl",
+        "form": "νίπτομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "νίπτετε"
+      },
+      {
+        "person": "3pl",
+        "form": "νίπτουσιν"
+      }
+    ]
+  },
+  "G2090": {
+    "type": "verb",
+    "label": "ἑτοιμάζω — I prepare",
+    "lemma": "ἑτοιμάζω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἑτοιμάζω"
+      },
+      {
+        "person": "2sg",
+        "form": "ἑτοιμάζεις"
+      },
+      {
+        "person": "3sg",
+        "form": "ἑτοιμάζει"
+      },
+      {
+        "person": "1pl",
+        "form": "ἑτοιμάζομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "ἑτοιμάζετε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἑτοιμάζουσιν"
+      }
+    ]
+  },
+  "G4687": {
+    "type": "verb",
+    "label": "σπείρω — I sow",
+    "lemma": "σπείρω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "σπείρω"
+      },
+      {
+        "person": "2sg",
+        "form": "σπείρεις"
+      },
+      {
+        "person": "3sg",
+        "form": "σπείρει"
+      },
+      {
+        "person": "1pl",
+        "form": "σπείρομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "σπείρετε"
+      },
+      {
+        "person": "3pl",
+        "form": "σπείρουσιν"
+      }
+    ]
+  },
+  "G1195": {
+    "type": "verb",
+    "label": "δρέπω — I pluck, I harvest",
+    "lemma": "δρέπω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "δρέπω"
+      },
+      {
+        "person": "2sg",
+        "form": "δρέπεις"
+      },
+      {
+        "person": "3sg",
+        "form": "δρέπει"
+      },
+      {
+        "person": "1pl",
+        "form": "δρέπομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "δρέπετε"
+      },
+      {
+        "person": "3pl",
+        "form": "δρέπουσιν"
+      }
+    ]
+  },
+  "G4129": {
+    "type": "verb",
+    "label": "πληθύνω — I multiply, I increase",
+    "lemma": "πληθύνω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "πληθύνω"
+      },
+      {
+        "person": "2sg",
+        "form": "πληθύνεις"
+      },
+      {
+        "person": "3sg",
+        "form": "πληθύνει"
+      },
+      {
+        "person": "1pl",
+        "form": "πληθύνομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "πληθύνετε"
+      },
+      {
+        "person": "3pl",
+        "form": "πληθύνουσιν"
+      }
+    ]
+  },
+  "G3815": {
+    "type": "verb",
+    "label": "παίζω — I play",
+    "lemma": "παίζω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "παίζω"
+      },
+      {
+        "person": "2sg",
+        "form": "παίζεις"
+      },
+      {
+        "person": "3sg",
+        "form": "παίζει"
+      },
+      {
+        "person": "1pl",
+        "form": "παίζομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "παίζετε"
+      },
+      {
+        "person": "3pl",
+        "form": "παίζουσιν"
+      }
+    ]
+  },
+  "G1143": {
+    "type": "verb",
+    "label": "δάκνω — I bite",
+    "lemma": "δάκνω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "δάκνω"
+      },
+      {
+        "person": "2sg",
+        "form": "δάκνεις"
+      },
+      {
+        "person": "3sg",
+        "form": "δάκνει"
+      },
+      {
+        "person": "1pl",
+        "form": "δάκνομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "δάκνετε"
+      },
+      {
+        "person": "3pl",
+        "form": "δάκνουσιν"
+      }
+    ]
+  },
+  "G5180": {
+    "type": "verb",
+    "label": "τύπτω — I strike, I beat",
+    "lemma": "τύπτω",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "τύπτω"
+      },
+      {
+        "person": "2sg",
+        "form": "τύπτεις"
+      },
+      {
+        "person": "3sg",
+        "form": "τύπτει"
+      },
+      {
+        "person": "1pl",
+        "form": "τύπτομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "τύπτετε"
+      },
+      {
+        "person": "3pl",
+        "form": "τύπτουσιν"
+      }
+    ]
+  },
+  "G2334": {
+    "type": "verb",
+    "label": "θεωρέω — I see, I observe (contract -έω)",
+    "lemma": "θεωρέω",
+    "headers": [
+      "",
+      "Pres. Act. (contract -έω)"
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "θεωρῶ"
+      },
+      {
+        "person": "2sg",
+        "form": "θεωρεῖς"
+      },
+      {
+        "person": "3sg",
+        "form": "θεωρεῖ"
+      },
+      {
+        "person": "1pl",
+        "form": "θεωροῦμεν"
+      },
+      {
+        "person": "2pl",
+        "form": "θεωρεῖτε"
+      },
+      {
+        "person": "3pl",
+        "form": "θεωροῦσιν"
+      }
+    ]
+  },
+  "G3594": {
+    "type": "verb",
+    "label": "ὁδηγέω — I guide, I lead (contract -έω)",
+    "lemma": "ὁδηγέω",
+    "headers": [
+      "",
+      "Pres. Act. (contract -έω)"
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ὁδηγῶ"
+      },
+      {
+        "person": "2sg",
+        "form": "ὁδηγεῖς"
+      },
+      {
+        "person": "3sg",
+        "form": "ὁδηγεῖ"
+      },
+      {
+        "person": "1pl",
+        "form": "ὁδηγοῦμεν"
+      },
+      {
+        "person": "2pl",
+        "form": "ὁδηγεῖτε"
+      },
+      {
+        "person": "3pl",
+        "form": "ὁδηγοῦσιν"
+      }
+    ]
+  },
+  "G0154": {
+    "type": "verb",
+    "label": "αἰτέω — I ask, I request (contract -έω)",
+    "lemma": "αἰτέω",
+    "headers": [
+      "",
+      "Pres. Act. (contract -έω)"
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "αἰτῶ"
+      },
+      {
+        "person": "2sg",
+        "form": "αἰτεῖς"
+      },
+      {
+        "person": "3sg",
+        "form": "αἰτεῖ"
+      },
+      {
+        "person": "1pl",
+        "form": "αἰτοῦμεν"
+      },
+      {
+        "person": "2pl",
+        "form": "αἰτεῖτε"
+      },
+      {
+        "person": "3pl",
+        "form": "αἰτοῦσιν"
+      }
+    ]
+  },
+  "G5455": {
+    "type": "verb",
+    "label": "φωνέω — I call, I summon (contract -έω)",
+    "lemma": "φωνέω",
+    "headers": [
+      "",
+      "Pres. Act. (contract -έω)"
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "φωνῶ"
+      },
+      {
+        "person": "2sg",
+        "form": "φωνεῖς"
+      },
+      {
+        "person": "3sg",
+        "form": "φωνεῖ"
+      },
+      {
+        "person": "1pl",
+        "form": "φωνοῦμεν"
+      },
+      {
+        "person": "2pl",
+        "form": "φωνεῖτε"
+      },
+      {
+        "person": "3pl",
+        "form": "φωνοῦσιν"
+      }
+    ]
+  },
+  "G3114": {
+    "type": "verb",
+    "label": "μακροθυμέω — I am patient (contract -έω)",
+    "lemma": "μακροθυμέω",
+    "headers": [
+      "",
+      "Pres. Act. (contract -έω)"
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "μακροθυμῶ"
+      },
+      {
+        "person": "2sg",
+        "form": "μακροθυμεῖς"
+      },
+      {
+        "person": "3sg",
+        "form": "μακροθυμεῖ"
+      },
+      {
+        "person": "1pl",
+        "form": "μακροθυμοῦμεν"
+      },
+      {
+        "person": "2pl",
+        "form": "μακροθυμεῖτε"
+      },
+      {
+        "person": "3pl",
+        "form": "μακροθυμοῦσιν"
+      }
+    ]
+  },
+  "G2902": {
+    "type": "verb",
+    "label": "κρατέω — I hold, I seize (contract -έω)",
+    "lemma": "κρατέω",
+    "headers": [
+      "",
+      "Pres. Act. (contract -έω)"
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "κρατῶ"
+      },
+      {
+        "person": "2sg",
+        "form": "κρατεῖς"
+      },
+      {
+        "person": "3sg",
+        "form": "κρατεῖ"
+      },
+      {
+        "person": "1pl",
+        "form": "κρατοῦμεν"
+      },
+      {
+        "person": "2pl",
+        "form": "κρατεῖτε"
+      },
+      {
+        "person": "3pl",
+        "form": "κρατοῦσιν"
+      }
+    ]
+  },
+  "G2127": {
+    "type": "verb",
+    "label": "εὐλογέω — I bless (contract -έω)",
+    "lemma": "εὐλογέω",
+    "headers": [
+      "",
+      "Pres. Act. (contract -έω)"
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "εὐλογῶ"
+      },
+      {
+        "person": "2sg",
+        "form": "εὐλογεῖς"
+      },
+      {
+        "person": "3sg",
+        "form": "εὐλογεῖ"
+      },
+      {
+        "person": "1pl",
+        "form": "εὐλογοῦμεν"
+      },
+      {
+        "person": "2pl",
+        "form": "εὐλογεῖτε"
+      },
+      {
+        "person": "3pl",
+        "form": "εὐλογοῦσιν"
+      }
+    ]
+  },
+  "G25": {
+    "type": "verb",
+    "label": "ἀγαπάω — I love (contract -άω)",
+    "lemma": "ἀγαπάω",
+    "headers": [
+      "",
+      "Pres. Act. (contract -άω)"
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἀγαπῶ"
+      },
+      {
+        "person": "2sg",
+        "form": "ἀγαπᾷς"
+      },
+      {
+        "person": "3sg",
+        "form": "ἀγαπᾷ"
+      },
+      {
+        "person": "1pl",
+        "form": "ἀγαπῶμεν"
+      },
+      {
+        "person": "2pl",
+        "form": "ἀγαπᾶτε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἀγαπῶσιν"
+      }
+    ]
+  },
+  "G0994": {
+    "type": "verb",
+    "label": "βοάω — I cry out (contract -άω)",
+    "lemma": "βοάω",
+    "headers": [
+      "",
+      "Pres. Act. (contract -άω)"
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "βοῶ"
+      },
+      {
+        "person": "2sg",
+        "form": "βοᾷς"
+      },
+      {
+        "person": "3sg",
+        "form": "βοᾷ"
+      },
+      {
+        "person": "1pl",
+        "form": "βοῶμεν"
+      },
+      {
+        "person": "2pl",
+        "form": "βοᾶτε"
+      },
+      {
+        "person": "3pl",
+        "form": "βοῶσιν"
+      }
+    ]
+  },
+  "G2806": {
+    "type": "verb",
+    "label": "κλάω — I break (contract -άω)",
+    "lemma": "κλάω",
+    "headers": [
+      "",
+      "Pres. Act. (contract -άω)"
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "κλῶ"
+      },
+      {
+        "person": "2sg",
+        "form": "κλᾷς"
+      },
+      {
+        "person": "3sg",
+        "form": "κλᾷ"
+      },
+      {
+        "person": "1pl",
+        "form": "κλῶμεν"
+      },
+      {
+        "person": "2pl",
+        "form": "κλᾶτε"
+      },
+      {
+        "person": "3pl",
+        "form": "κλῶσιν"
+      }
+    ]
+  },
+  "G1256": {
+    "type": "verb",
+    "label": "διαλέγομαι — I discuss, I reason",
+    "lemma": "διαλέγομαι",
+    "headers": [
+      "",
+      "Pres. Mid./Dep."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "διαλέγομαι"
+      },
+      {
+        "person": "2sg",
+        "form": "διαλέγῃ"
+      },
+      {
+        "person": "3sg",
+        "form": "διαλέγεται"
+      },
+      {
+        "person": "1pl",
+        "form": "διαλέγόμεθα"
+      },
+      {
+        "person": "2pl",
+        "form": "διαλέγεσθε"
+      },
+      {
+        "person": "3pl",
+        "form": "διαλέγονται"
+      }
+    ]
+  },
+  "G1831": {
+    "type": "verb",
+    "label": "ἐξέρχομαι — I go out, I come out",
+    "lemma": "ἐξέρχομαι",
+    "headers": [
+      "",
+      "Pres. Mid./Dep."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἐξέρχομαι"
+      },
+      {
+        "person": "2sg",
+        "form": "ἐξέρχῃ"
+      },
+      {
+        "person": "3sg",
+        "form": "ἐξέρχεται"
+      },
+      {
+        "person": "1pl",
+        "form": "ἐξέρχόμεθα"
+      },
+      {
+        "person": "2pl",
+        "form": "ἐξέρχεσθε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἐξέρχονται"
+      }
+    ]
+  },
+  "G3049": {
+    "type": "verb",
+    "label": "λογίζομαι — I reckon, I consider",
+    "lemma": "λογίζομαι",
+    "headers": [
+      "",
+      "Pres. Mid./Dep."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "λογίζομαι"
+      },
+      {
+        "person": "2sg",
+        "form": "λογίζῃ"
+      },
+      {
+        "person": "3sg",
+        "form": "λογίζεται"
+      },
+      {
+        "person": "1pl",
+        "form": "λογίζόμεθα"
+      },
+      {
+        "person": "2pl",
+        "form": "λογίζεσθε"
+      },
+      {
+        "person": "3pl",
+        "form": "λογίζονται"
+      }
+    ]
+  },
+  "G4334": {
+    "type": "verb",
+    "label": "προσέρχομαι — I come to, I approach",
+    "lemma": "προσέρχομαι",
+    "headers": [
+      "",
+      "Pres. Mid./Dep."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "προσέρχομαι"
+      },
+      {
+        "person": "2sg",
+        "form": "προσέρχῃ"
+      },
+      {
+        "person": "3sg",
+        "form": "προσέρχεται"
+      },
+      {
+        "person": "1pl",
+        "form": "προσέρχόμεθα"
+      },
+      {
+        "person": "2pl",
+        "form": "προσέρχεσθε"
+      },
+      {
+        "person": "3pl",
+        "form": "προσέρχονται"
+      }
+    ]
+  },
+  "G4336": {
+    "type": "verb",
+    "label": "προσεύχομαι — I pray",
+    "lemma": "προσεύχομαι",
+    "headers": [
+      "",
+      "Pres. Mid./Dep."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "προσεύχομαι"
+      },
+      {
+        "person": "2sg",
+        "form": "προσεύχῃ"
+      },
+      {
+        "person": "3sg",
+        "form": "προσεύχεται"
+      },
+      {
+        "person": "1pl",
+        "form": "προσεύχόμεθα"
+      },
+      {
+        "person": "2pl",
+        "form": "προσεύχεσθε"
+      },
+      {
+        "person": "3pl",
+        "form": "προσεύχονται"
+      }
+    ]
+  },
+  "G1089": {
+    "type": "verb",
+    "label": "γεύομαι — I taste",
+    "lemma": "γεύομαι",
+    "headers": [
+      "",
+      "Pres. Mid./Dep."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "γεύομαι"
+      },
+      {
+        "person": "2sg",
+        "form": "γεύῃ"
+      },
+      {
+        "person": "3sg",
+        "form": "γεύεται"
+      },
+      {
+        "person": "1pl",
+        "form": "γεύόμεθα"
+      },
+      {
+        "person": "2pl",
+        "form": "γεύεσθε"
+      },
+      {
+        "person": "3pl",
+        "form": "γεύονται"
+      }
+    ]
+  },
+  "G2233": {
+    "type": "verb",
+    "label": "ἡγέομαι — I consider, I lead (contract -έω dep.)",
+    "lemma": "ἡγέομαι",
+    "headers": [
+      "",
+      "Pres. Mid./Dep."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἡγοῦμαι"
+      },
+      {
+        "person": "2sg",
+        "form": "ἡγῇ"
+      },
+      {
+        "person": "3sg",
+        "form": "ἡγεῖται"
+      },
+      {
+        "person": "1pl",
+        "form": "ἡγούμεθα"
+      },
+      {
+        "person": "2pl",
+        "form": "ἡγεῖσθε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἡγοῦνται"
+      }
+    ]
+  },
+  "G5399": {
+    "type": "verb",
+    "label": "φοβέομαι — I fear (contract -έω dep.)",
+    "lemma": "φοβέομαι",
+    "headers": [
+      "",
+      "Pres. Mid./Dep."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "φοβοῦμαι"
+      },
+      {
+        "person": "2sg",
+        "form": "φοβῇ"
+      },
+      {
+        "person": "3sg",
+        "form": "φοβεῖται"
+      },
+      {
+        "person": "1pl",
+        "form": "φοβούμεθα"
+      },
+      {
+        "person": "2pl",
+        "form": "φοβεῖσθε"
+      },
+      {
+        "person": "3pl",
+        "form": "φοβοῦνται"
+      }
+    ]
+  },
+  "G1334": {
+    "type": "verb",
+    "label": "διηγέομαι — I describe, I narrate (contract -έω dep.)",
+    "lemma": "διηγέομαι",
+    "headers": [
+      "",
+      "Pres. Mid./Dep."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "διηγοῦμαι"
+      },
+      {
+        "person": "2sg",
+        "form": "διηγῇ"
+      },
+      {
+        "person": "3sg",
+        "form": "διηγεῖται"
+      },
+      {
+        "person": "1pl",
+        "form": "διηγούμεθα"
+      },
+      {
+        "person": "2pl",
+        "form": "διηγεῖσθε"
+      },
+      {
+        "person": "3pl",
+        "form": "διηγοῦνται"
+      }
+    ]
+  },
+  "G1834": {
+    "type": "verb",
+    "label": "ἐξηγέομαι — I explain, I make known (contract -έω dep.)",
+    "lemma": "ἐξηγέομαι",
+    "headers": [
+      "",
+      "Pres. Mid./Dep."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἐξηγοῦμαι"
+      },
+      {
+        "person": "2sg",
+        "form": "ἐξηγῇ"
+      },
+      {
+        "person": "3sg",
+        "form": "ἐξηγεῖται"
+      },
+      {
+        "person": "1pl",
+        "form": "ἐξηγούμεθα"
+      },
+      {
+        "person": "2pl",
+        "form": "ἐξηγεῖσθε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἐξηγοῦνται"
+      }
+    ]
+  },
+  "G0480": {
+    "type": "verb",
+    "label": "ἀντίκειμαι — I oppose, I am set against",
+    "lemma": "ἀντίκειμαι",
+    "headers": [
+      "",
+      "Pres. Mid./Dep."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἀντίκειμαι"
+      },
+      {
+        "person": "2sg",
+        "form": "ἀντίκεισαι"
+      },
+      {
+        "person": "3sg",
+        "form": "ἀντίκειται"
+      },
+      {
+        "person": "1pl",
+        "form": "ἀντικείμεθα"
+      },
+      {
+        "person": "2pl",
+        "form": "ἀντίκεισθε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἀντίκεινται"
+      }
+    ]
+  },
+  "G2521": {
+    "type": "verb",
+    "label": "κάθημαι — I sit",
+    "lemma": "κάθημαι",
+    "headers": [
+      "",
+      "Pres. Mid./Dep."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "κάθημαι"
+      },
+      {
+        "person": "2sg",
+        "form": "κάθησαι"
+      },
+      {
+        "person": "3sg",
+        "form": "κάθηται"
+      },
+      {
+        "person": "1pl",
+        "form": "καθήμεθα"
+      },
+      {
+        "person": "2pl",
+        "form": "κάθησθε"
+      },
+      {
+        "person": "3pl",
+        "form": "κάθηνται"
+      }
+    ]
+  },
+  "G5346": {
+    "type": "verb",
+    "label": "φημί — I say, I affirm",
+    "lemma": "φημί",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "φημί"
+      },
+      {
+        "person": "2sg",
+        "form": "φής"
+      },
+      {
+        "person": "3sg",
+        "form": "φησίν"
+      },
+      {
+        "person": "1pl",
+        "form": "φαμέν"
+      },
+      {
+        "person": "2pl",
+        "form": "φατέ"
+      },
+      {
+        "person": "3pl",
+        "form": "φασίν"
+      }
+    ]
+  },
+  "G0450": {
+    "type": "verb",
+    "label": "ἀνίστημι — I raise up, I rise",
+    "lemma": "ἀνίστημι",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "ἀνίστημι"
+      },
+      {
+        "person": "2sg",
+        "form": "ἀνίστης"
+      },
+      {
+        "person": "3sg",
+        "form": "ἀνίστησιν"
+      },
+      {
+        "person": "1pl",
+        "form": "ἀνίσταμεν"
+      },
+      {
+        "person": "2pl",
+        "form": "ἀνίστατε"
+      },
+      {
+        "person": "3pl",
+        "form": "ἀνιστᾶσιν"
+      }
+    ]
+  },
+  "G3330": {
+    "type": "verb",
+    "label": "μεταδίδωμι — I share, I give a portion",
+    "lemma": "μεταδίδωμι",
+    "headers": [
+      "",
+      "Pres. Act."
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "μεταδίδωμι"
+      },
+      {
+        "person": "2sg",
+        "form": "μεταδίδως"
+      },
+      {
+        "person": "3sg",
+        "form": "μεταδίδωσιν"
+      },
+      {
+        "person": "1pl",
+        "form": "μεταδίδομεν"
+      },
+      {
+        "person": "2pl",
+        "form": "μεταδίδοτε"
+      },
+      {
+        "person": "3pl",
+        "form": "μεταδιδόασιν"
+      }
+    ]
+  },
+  "G1492": {
+    "type": "verb",
+    "label": "οἶδα — I know (perf. with pres. meaning)",
+    "lemma": "οἶδα",
+    "headers": [
+      "",
+      "Perfect (pres. meaning)"
+    ],
+    "rows": [
+      {
+        "person": "1sg",
+        "form": "οἶδα"
+      },
+      {
+        "person": "2sg",
+        "form": "οἶδας"
+      },
+      {
+        "person": "3sg",
+        "form": "οἶδεν"
+      },
+      {
+        "person": "1pl",
+        "form": "οἴδαμεν"
+      },
+      {
+        "person": "2pl",
+        "form": "οἴδατε"
+      },
+      {
+        "person": "3pl",
+        "form": "οἴδασιν"
+      }
+    ]
+  },
+  "G1163": {
+    "type": "verb",
+    "label": "δεῖ — it is necessary (impersonal)",
+    "lemma": "δεῖ",
+    "headers": [
+      "",
+      "Form"
+    ],
+    "rows": [
+      {
+        "person": "3sg (impersonal)",
+        "form": "δεῖ"
+      }
+    ]
+  },
+  "G3199": {
+    "type": "verb",
+    "label": "μέλει — it is a care, it matters (impersonal)",
+    "lemma": "μέλει",
+    "headers": [
+      "",
+      "Form"
+    ],
+    "rows": [
+      {
+        "person": "3sg (impersonal)",
+        "form": "μέλει"
+      }
+    ]
+  },
+  "G0080": {
+    "type": "noun",
+    "label": "ἀδελφός, -οῦ, ὁ — brother",
+    "lemma": "ἀδελφός",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἀδελφός",
+        "pl": "ἀδελφοί"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἀδελφοῦ",
+        "pl": "ἀδελφῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἀδελφῷ",
+        "pl": "ἀδελφοῖς"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἀδελφόν",
+        "pl": "ἀδελφούς"
+      }
+    ]
+  },
+  "G2540": {
+    "type": "noun",
+    "label": "καιρός, -οῦ, ὁ — time, season",
+    "lemma": "καιρός",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "καιρός",
+        "pl": "καιροί"
+      },
+      {
+        "case": "Gen.",
+        "sg": "καιροῦ",
+        "pl": "καιρῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "καιρῷ",
+        "pl": "καιροῖς"
+      },
+      {
+        "case": "Acc.",
+        "sg": "καιρόν",
+        "pl": "καιρούς"
+      }
+    ]
+  },
+  "G2377": {
+    "type": "noun",
+    "label": "θυρωρός, -οῦ, ὁ — doorkeeper, gatekeeper",
+    "lemma": "θυρωρός",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "θυρωρός",
+        "pl": "θυρωροί"
+      },
+      {
+        "case": "Gen.",
+        "sg": "θυρωροῦ",
+        "pl": "θυρωρῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "θυρωρῷ",
+        "pl": "θυρωροῖς"
+      },
+      {
+        "case": "Acc.",
+        "sg": "θυρωρόν",
+        "pl": "θυρωρούς"
+      }
+    ]
+  },
+  "G0652": {
+    "type": "noun",
+    "label": "ἀπόστολος, -ου, ὁ — apostle, messenger",
+    "lemma": "ἀπόστολος",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἀπόστολος",
+        "pl": "ἀπόστολοι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἀποστόλου",
+        "pl": "ἀποστόλων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἀποστόλῳ",
+        "pl": "ἀποστόλοις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἀπόστολον",
+        "pl": "ἀποστόλους"
+      }
+    ]
+  },
+  "G2818": {
+    "type": "noun",
+    "label": "κληρονόμος, -ου, ὁ — heir",
+    "lemma": "κληρονόμος",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "κληρονόμος",
+        "pl": "κληρονόμοι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "κληρονόμου",
+        "pl": "κληρονόμων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "κληρονόμῳ",
+        "pl": "κληρονόμοις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "κληρονόμον",
+        "pl": "κληρονόμους"
+      }
+    ]
+  },
+  "G0268": {
+    "type": "noun",
+    "label": "ἁμαρτωλός, -οῦ, ὁ — sinner",
+    "lemma": "ἁμαρτωλός",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἁμαρτωλός",
+        "pl": "ἁμαρτωλοί"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἁμαρτωλοῦ",
+        "pl": "ἁμαρτωλῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἁμαρτωλῷ",
+        "pl": "ἁμαρτωλοῖς"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἁμαρτωλόν",
+        "pl": "ἁμαρτωλούς"
+      }
+    ]
+  },
+  "G4621": {
+    "type": "noun",
+    "label": "σῖτος, -ου, ὁ — grain, wheat",
+    "lemma": "σῖτος",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "σῖτος",
+        "pl": "σῖτοι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "σίτου",
+        "pl": "σίτων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "σίτῳ",
+        "pl": "σίτοις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "σῖτον",
+        "pl": "σίτους"
+      }
+    ]
+  },
+  "G4701": {
+    "type": "noun",
+    "label": "σπόρος, -ου, ὁ — seed, sowing",
+    "lemma": "σπόρος",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "σπόρος",
+        "pl": "σπόροι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "σπόρου",
+        "pl": "σπόρων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "σπόρῳ",
+        "pl": "σπόροις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "σπόρον",
+        "pl": "σπόρους"
+      }
+    ]
+  },
+  "G2794": {
+    "type": "noun",
+    "label": "κίνδυνος, -ου, ὁ — danger",
+    "lemma": "κίνδυνος",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "κίνδυνος",
+        "pl": "κίνδυνοι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "κινδύνου",
+        "pl": "κινδύνων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "κινδύνῳ",
+        "pl": "κινδύνοις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "κίνδυνον",
+        "pl": "κινδύνους"
+      }
+    ]
+  },
+  "G2372": {
+    "type": "noun",
+    "label": "θυμός, -οῦ, ὁ — anger, passion",
+    "lemma": "θυμός",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "θυμός",
+        "pl": "θυμοί"
+      },
+      {
+        "case": "Gen.",
+        "sg": "θυμοῦ",
+        "pl": "θυμῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "θυμῷ",
+        "pl": "θυμοῖς"
+      },
+      {
+        "case": "Acc.",
+        "sg": "θυμόν",
+        "pl": "θυμούς"
+      }
+    ]
+  },
+  "G5179": {
+    "type": "noun",
+    "label": "τύπος, -ου, ὁ — pattern, example",
+    "lemma": "τύπος",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "τύπος",
+        "pl": "τύποι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "τύπου",
+        "pl": "τύπων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "τύπῳ",
+        "pl": "τύποις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "τύπον",
+        "pl": "τύπους"
+      }
+    ]
+  },
+  "G3631": {
+    "type": "noun",
+    "label": "οἶνος, -ου, ὁ — wine",
+    "lemma": "οἶνος",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "οἶνος",
+        "pl": "οἶνοι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "οἴνου",
+        "pl": "οἴνων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "οἴνῳ",
+        "pl": "οἴνοις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "οἶνον",
+        "pl": "οἴνους"
+      }
+    ]
+  },
+  "G2873": {
+    "type": "noun",
+    "label": "κόπος, -ου, ὁ — labor, toil",
+    "lemma": "κόπος",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "κόπος",
+        "pl": "κόποι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "κόπου",
+        "pl": "κόπων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "κόπῳ",
+        "pl": "κόποις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "κόπον",
+        "pl": "κόπους"
+      }
+    ]
+  },
+  "G288": {
+    "type": "noun",
+    "label": "ἄμπελος, -ου, ἡ — vine, grapevine",
+    "lemma": "ἄμπελος",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἄμπελος",
+        "pl": "ἄμπελοι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἀμπέλου",
+        "pl": "ἀμπέλων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἀμπέλῳ",
+        "pl": "ἀμπέλοις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἄμπελον",
+        "pl": "ἀμπέλους"
+      }
+    ]
+  },
+  "G1173": {
+    "type": "noun",
+    "label": "δεῖπνον, -ου, τό — supper, meal",
+    "lemma": "δεῖπνον",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "δεῖπνον",
+        "pl": "δεῖπνα"
+      },
+      {
+        "case": "Gen.",
+        "sg": "δείπνου",
+        "pl": "δείπνων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "δείπνῳ",
+        "pl": "δείπνοις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "δεῖπνον",
+        "pl": "δεῖπνα"
+      }
+    ]
+  },
+  "G4383": {
+    "type": "noun",
+    "label": "πρόσωπον, -ου, τό — face",
+    "lemma": "πρόσωπον",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "πρόσωπον",
+        "pl": "πρόσωπα"
+      },
+      {
+        "case": "Gen.",
+        "sg": "προσώπου",
+        "pl": "προσώπων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "προσώπῳ",
+        "pl": "προσώποις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "πρόσωπον",
+        "pl": "πρόσωπα"
+      }
+    ]
+  },
+  "G3813": {
+    "type": "noun",
+    "label": "παιδίον, -ου, τό — child, young child",
+    "lemma": "παιδίον",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "παιδίον",
+        "pl": "παιδία"
+      },
+      {
+        "case": "Gen.",
+        "sg": "παιδίου",
+        "pl": "παιδίων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "παιδίῳ",
+        "pl": "παιδίοις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "παιδίον",
+        "pl": "παιδία"
+      }
+    ]
+  },
+  "G4810": {
+    "type": "noun",
+    "label": "σῦκον, -ου, τό — fig",
+    "lemma": "σῦκον",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "σῦκον",
+        "pl": "σῦκα"
+      },
+      {
+        "case": "Gen.",
+        "sg": "σύκου",
+        "pl": "σύκων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "σύκῳ",
+        "pl": "σύκοις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "σῦκον",
+        "pl": "σῦκα"
+      }
+    ]
+  },
+  "G1637": {
+    "type": "noun",
+    "label": "ἔλαιον, -ου, τό — olive oil",
+    "lemma": "ἔλαιον",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἔλαιον",
+        "pl": "ἔλαια"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἐλαίου",
+        "pl": "ἐλαίων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἐλαίῳ",
+        "pl": "ἐλαίοις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἔλαιον",
+        "pl": "ἔλαια"
+      }
+    ]
+  },
+  "G4221": {
+    "type": "noun",
+    "label": "ποτήριον, -ου, τό — cup",
+    "lemma": "ποτήριον",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ποτήριον",
+        "pl": "ποτήρια"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ποτηρίου",
+        "pl": "ποτηρίων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ποτηρίῳ",
+        "pl": "ποτηρίοις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ποτήριον",
+        "pl": "ποτήρια"
+      }
+    ]
+  },
+  "G0079": {
+    "type": "noun",
+    "label": "ἀδελφή, -ῆς, ἡ — sister",
+    "lemma": "ἀδελφή",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἀδελφή",
+        "pl": "ἀδελφαί"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἀδελφῆς",
+        "pl": "ἀδελφῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἀδελφῇ",
+        "pl": "ἀδελφαῖς"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἀδελφήν",
+        "pl": "ἀδελφάς"
+      }
+    ]
+  },
+  "G1785": {
+    "type": "noun",
+    "label": "ἐντολή, -ῆς, ἡ — commandment",
+    "lemma": "ἐντολή",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἐντολή",
+        "pl": "ἐντολαί"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἐντολῆς",
+        "pl": "ἐντολῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἐντολῇ",
+        "pl": "ἐντολαῖς"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἐντολήν",
+        "pl": "ἐντολάς"
+      }
+    ]
+  },
+  "G0833": {
+    "type": "noun",
+    "label": "αὐλή, -ῆς, ἡ — courtyard",
+    "lemma": "αὐλή",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "αὐλή",
+        "pl": "αὐλαί"
+      },
+      {
+        "case": "Gen.",
+        "sg": "αὐλῆς",
+        "pl": "αὐλῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "αὐλῇ",
+        "pl": "αὐλαῖς"
+      },
+      {
+        "case": "Acc.",
+        "sg": "αὐλήν",
+        "pl": "αὐλάς"
+      }
+    ]
+  },
+  "G1124": {
+    "type": "noun",
+    "label": "γραφή, -ῆς, ἡ — writing, Scripture",
+    "lemma": "γραφή",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "γραφή",
+        "pl": "γραφαί"
+      },
+      {
+        "case": "Gen.",
+        "sg": "γραφῆς",
+        "pl": "γραφῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "γραφῇ",
+        "pl": "γραφαῖς"
+      },
+      {
+        "case": "Acc.",
+        "sg": "γραφήν",
+        "pl": "γραφάς"
+      }
+    ]
+  },
+  "G3709": {
+    "type": "noun",
+    "label": "ὀργή, -ῆς, ἡ — anger, wrath",
+    "lemma": "ὀργή",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ὀργή",
+        "pl": "ὀργαί"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ὀργῆς",
+        "pl": "ὀργῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ὀργῇ",
+        "pl": "ὀργαῖς"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ὀργήν",
+        "pl": "ὀργάς"
+      }
+    ]
+  },
+  "G4718": {
+    "type": "noun",
+    "label": "σταφυλή, -ῆς, ἡ — grape, cluster of grapes",
+    "lemma": "σταφυλή",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "σταφυλή",
+        "pl": "σταφυλαί"
+      },
+      {
+        "case": "Gen.",
+        "sg": "σταφυλῆς",
+        "pl": "σταφυλῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "σταφυλῇ",
+        "pl": "σταφυλαῖς"
+      },
+      {
+        "case": "Acc.",
+        "sg": "σταφυλήν",
+        "pl": "σταφυλάς"
+      }
+    ]
+  },
+  "G0019": {
+    "type": "noun",
+    "label": "ἀγαθωσύνη, -ης, ἡ — goodness",
+    "lemma": "ἀγαθωσύνη",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἀγαθωσύνη",
+        "pl": "ἀγαθωσύναι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἀγαθωσύνης",
+        "pl": "ἀγαθωσυνῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἀγαθωσύνῃ",
+        "pl": "ἀγαθωσύναις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἀγαθωσύνην",
+        "pl": "ἀγαθωσύνας"
+      }
+    ]
+  },
+  "G3102": {
+    "type": "noun",
+    "label": "μαθήτρια, -ας, ἡ — female disciple",
+    "lemma": "μαθήτρια",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "μαθήτρια",
+        "pl": "μαθήτριαι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "μαθητρίας",
+        "pl": "μαθητριῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "μαθητρίᾳ",
+        "pl": "μαθητρίαις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "μαθήτριαν",
+        "pl": "μαθητρίας"
+      }
+    ]
+  },
+  "G225": {
+    "type": "noun",
+    "label": "ἀλήθεια, -ας, ἡ — truth",
+    "lemma": "ἀλήθεια",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἀλήθεια",
+        "pl": "ἀλήθειαι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἀληθείας",
+        "pl": "ἀληθειῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἀληθείᾳ",
+        "pl": "ἀληθείαις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἀλήθειαν",
+        "pl": "ἀληθείας"
+      }
+    ]
+  },
+  "G1849": {
+    "type": "noun",
+    "label": "ἐξουσία, -ας, ἡ — authority, power",
+    "lemma": "ἐξουσία",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἐξουσία",
+        "pl": "ἐξουσίαι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἐξουσίας",
+        "pl": "ἐξουσιῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἐξουσίᾳ",
+        "pl": "ἐξουσίαις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἐξουσίαν",
+        "pl": "ἐξουσίας"
+      }
+    ]
+  },
+  "G3115": {
+    "type": "noun",
+    "label": "μακροθυμία, -ας, ἡ — patience",
+    "lemma": "μακροθυμία",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "μακροθυμία",
+        "pl": "μακροθυμίαι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "μακροθυμίας",
+        "pl": "μακροθυμιῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "μακροθυμίᾳ",
+        "pl": "μακροθυμίαις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "μακροθυμίαν",
+        "pl": "μακροθυμίας"
+      }
+    ]
+  },
+  "G1466": {
+    "type": "noun",
+    "label": "ἐγκράτεια, -ας, ἡ — self-control",
+    "lemma": "ἐγκράτεια",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἐγκράτεια",
+        "pl": "ἐγκράτειαι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἐγκρατείας",
+        "pl": "ἐγκρατειῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἐγκρατείᾳ",
+        "pl": "ἐγκρατείαις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἐγκράτειαν",
+        "pl": "ἐγκρατείας"
+      }
+    ]
+  },
+  "G2073": {
+    "type": "noun",
+    "label": "ἑσπέρα, -ας, ἡ — evening",
+    "lemma": "ἑσπέρα",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἑσπέρα",
+        "pl": "ἑσπέραι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἑσπέρας",
+        "pl": "ἑσπερῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἑσπέρᾳ",
+        "pl": "ἑσπέραις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἑσπέραν",
+        "pl": "ἑσπέρας"
+      }
+    ]
+  },
+  "G1636": {
+    "type": "noun",
+    "label": "ἐλαία, -ας, ἡ — olive tree, olive",
+    "lemma": "ἐλαία",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἐλαία",
+        "pl": "ἐλαῖαι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἐλαίας",
+        "pl": "ἐλαιῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἐλαίᾳ",
+        "pl": "ἐλαίαις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἐλαίαν",
+        "pl": "ἐλαίας"
+      }
+    ]
+  },
+  "G2281": {
+    "type": "noun",
+    "label": "θάλασσα, -ης, ἡ — sea, lake",
+    "lemma": "θάλασσα",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "θάλασσα",
+        "pl": "θάλασσαι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "θαλάσσης",
+        "pl": "θαλασσῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "θαλάσσῃ",
+        "pl": "θαλάσσαις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "θάλασσαν",
+        "pl": "θαλάσσας"
+      }
+    ]
+  },
+  "G5583": {
+    "type": "noun",
+    "label": "ψεύστης, -ου, ὁ — liar",
+    "lemma": "ψεύστης",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ψεύστης",
+        "pl": "ψεῦσται"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ψεύστου",
+        "pl": "ψευστῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ψεύστῃ",
+        "pl": "ψεύσταις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ψεύστην",
+        "pl": "ψεύστας"
+      }
+    ]
+  },
+  "G2812": {
+    "type": "noun",
+    "label": "κλέπτης, -ου, ὁ — thief",
+    "lemma": "κλέπτης",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "κλέπτης",
+        "pl": "κλέπται"
+      },
+      {
+        "case": "Gen.",
+        "sg": "κλέπτου",
+        "pl": "κλεπτῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "κλέπτῃ",
+        "pl": "κλέπταις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "κλέπτην",
+        "pl": "κλέπτας"
+      }
+    ]
+  },
+  "G3027": {
+    "type": "noun",
+    "label": "λῃστής, -οῦ, ὁ — robber, bandit",
+    "lemma": "λῃστής",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "λῃστής",
+        "pl": "λῃσταί"
+      },
+      {
+        "case": "Gen.",
+        "sg": "λῃστοῦ",
+        "pl": "λῃστῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "λῃστῇ",
+        "pl": "λῃσταῖς"
+      },
+      {
+        "case": "Acc.",
+        "sg": "λῃστήν",
+        "pl": "λῃστάς"
+      }
+    ]
+  },
+  "G3101": {
+    "type": "noun",
+    "label": "μαθητής, -οῦ, ὁ — disciple, student",
+    "lemma": "μαθητής",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "μαθητής",
+        "pl": "μαθηταί"
+      },
+      {
+        "case": "Gen.",
+        "sg": "μαθητοῦ",
+        "pl": "μαθητῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "μαθητῇ",
+        "pl": "μαθηταῖς"
+      },
+      {
+        "case": "Acc.",
+        "sg": "μαθητήν",
+        "pl": "μαθητάς"
+      }
+    ]
+  },
+  "G2040": {
+    "type": "noun",
+    "label": "ἐργάτης, -ου, ὁ — worker, laborer",
+    "lemma": "ἐργάτης",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἐργάτης",
+        "pl": "ἐργάται"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἐργάτου",
+        "pl": "ἐργατῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἐργάτῃ",
+        "pl": "ἐργάταις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἐργάτην",
+        "pl": "ἐργάτας"
+      }
+    ]
+  },
+  "G2814": {
+    "type": "noun",
+    "label": "κλῆμα, -ατος, τό — branch (of a vine)",
+    "lemma": "κλῆμα",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "κλῆμα",
+        "pl": "κλήματα"
+      },
+      {
+        "case": "Gen.",
+        "sg": "κλήματος",
+        "pl": "κλημάτων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "κλήματι",
+        "pl": "κλήμασιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "κλῆμα",
+        "pl": "κλήματα"
+      }
+    ]
+  },
+  "G5536": {
+    "type": "noun",
+    "label": "χρῆμα, -ατος, τό — thing, (pl.) money",
+    "lemma": "χρῆμα",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "χρῆμα",
+        "pl": "χρήματα"
+      },
+      {
+        "case": "Gen.",
+        "sg": "χρήματος",
+        "pl": "χρημάτων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "χρήματι",
+        "pl": "χρήμασιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "χρῆμα",
+        "pl": "χρήματα"
+      }
+    ]
+  },
+  "G5427": {
+    "type": "noun",
+    "label": "φρόνημα, -ατος, τό — mind-set, way of thinking",
+    "lemma": "φρόνημα",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "φρόνημα",
+        "pl": "φρονήματα"
+      },
+      {
+        "case": "Gen.",
+        "sg": "φρονήματος",
+        "pl": "φρονημάτων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "φρονήματι",
+        "pl": "φρονήμασιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "φρόνημα",
+        "pl": "φρονήματα"
+      }
+    ]
+  },
+  "G4690": {
+    "type": "noun",
+    "label": "σπέρμα, -ατος, τό — seed, offspring",
+    "lemma": "σπέρμα",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "σπέρμα",
+        "pl": "σπέρματα"
+      },
+      {
+        "case": "Gen.",
+        "sg": "σπέρματος",
+        "pl": "σπερμάτων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "σπέρματι",
+        "pl": "σπέρμασιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "σπέρμα",
+        "pl": "σπέρματα"
+      }
+    ]
+  },
+  "G1411": {
+    "type": "noun",
+    "label": "δύναμις, -εως, ἡ — power, miracle",
+    "lemma": "δύναμις",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "δύναμις",
+        "pl": "δύναμεις"
+      },
+      {
+        "case": "Gen.",
+        "sg": "δύναμεως",
+        "pl": "δύναμεων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "δύναμει",
+        "pl": "δύναμεσιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "δύναμιν",
+        "pl": "δύναμεις"
+      }
+    ]
+  },
+  "G0859": {
+    "type": "noun",
+    "label": "ἄφεσις, -εως, ἡ — forgiveness, release",
+    "lemma": "ἄφεσις",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἄφεσις",
+        "pl": "ἄφεσεις"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἄφεσεως",
+        "pl": "ἄφεσεων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἄφεσει",
+        "pl": "ἄφεσεσιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἄφεσιν",
+        "pl": "ἄφεσεις"
+      }
+    ]
+  },
+  "G4240": {
+    "type": "noun",
+    "label": "πραΰτης, -ητος, ἡ — gentleness, meekness",
+    "lemma": "πραΰτης",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "πραΰτης",
+        "pl": "πραΰτητες"
+      },
+      {
+        "case": "Gen.",
+        "sg": "πραΰτητος",
+        "pl": "πραΰτητων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "πραΰτητι",
+        "pl": "πραΰτητσιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "πραΰτητα",
+        "pl": "πραΰτητας"
+      }
+    ]
+  },
+  "G5544": {
+    "type": "noun",
+    "label": "χρηστότης, -ητος, ἡ — kindness, goodness",
+    "lemma": "χρηστότης",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "χρηστότης",
+        "pl": "χρηστότητες"
+      },
+      {
+        "case": "Gen.",
+        "sg": "χρηστότητος",
+        "pl": "χρηστότητων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "χρηστότητι",
+        "pl": "χρηστότητσιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "χρηστότητα",
+        "pl": "χρηστότητας"
+      }
+    ]
+  },
+  "G5485": {
+    "type": "noun",
+    "label": "χάρις, -ιτος, ἡ — grace, favor",
+    "lemma": "χάρις",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "χάρις",
+        "pl": "χάριτες"
+      },
+      {
+        "case": "Gen.",
+        "sg": "χάριτος",
+        "pl": "χαρίτων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "χάριτι",
+        "pl": "χάρισιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "χάριν",
+        "pl": "χάριτας"
+      }
+    ]
+  },
+  "G5495": {
+    "type": "noun",
+    "label": "χείρ, χειρός, ἡ — hand",
+    "lemma": "χείρ",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "χείρ",
+        "pl": "χεῖρες"
+      },
+      {
+        "case": "Gen.",
+        "sg": "χειρός",
+        "pl": "χειρῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "χειρί",
+        "pl": "χερσίν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "χεῖρα",
+        "pl": "χεῖρας"
+      }
+    ]
+  },
+  "G1680": {
+    "type": "noun",
+    "label": "ἐλπίς, -ίδος, ἡ — hope",
+    "lemma": "ἐλπίς",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἐλπίς",
+        "pl": "ἐλπίδες"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἐλπίδος",
+        "pl": "ἐλπίδων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἐλπίδι",
+        "pl": "ἐλπίσιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἐλπίδα",
+        "pl": "ἐλπίδας"
+      }
+    ]
+  },
+  "G4228": {
+    "type": "noun",
+    "label": "ποῦς, ποδός, ὁ — foot",
+    "lemma": "ποῦς",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ποῦς",
+        "pl": "πόδες"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ποδός",
+        "pl": "ποδῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ποδί",
+        "pl": "ποσίν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "πόδα",
+        "pl": "πόδας"
+      }
+    ]
+  },
+  "G2094": {
+    "type": "noun",
+    "label": "ἔτος, -ους, τό — year",
+    "lemma": "ἔτος",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἔτος",
+        "pl": "ἔτη"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἔτους",
+        "pl": "ἐτῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἔτει",
+        "pl": "ἔτεσιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἔτος",
+        "pl": "ἔτη"
+      }
+    ]
+  },
+  "G2486": {
+    "type": "noun",
+    "label": "ἰχθύς, -ύος, ὁ — fish",
+    "lemma": "ἰχθύς",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἰχθύς",
+        "pl": "ἰχθύες"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἰχθύος",
+        "pl": "ἰχθύων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἰχθύι",
+        "pl": "ἰχθύσιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἰχθύν",
+        "pl": "ἰχθύας"
+      }
+    ]
+  },
+  "G4442": {
+    "type": "noun",
+    "label": "πῦρ, πυρός, τό — fire",
+    "lemma": "πῦρ",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "πῦρ",
+        "pl": "—"
+      },
+      {
+        "case": "Gen.",
+        "sg": "πυρός",
+        "pl": "—"
+      },
+      {
+        "case": "Dat.",
+        "sg": "πυρί",
+        "pl": "—"
+      },
+      {
+        "case": "Acc.",
+        "sg": "πῦρ",
+        "pl": "—"
+      }
+    ]
+  },
+  "G1051": {
+    "type": "noun",
+    "label": "γάλα, γάλακτος, τό — milk",
+    "lemma": "γάλα",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "γάλα",
+        "pl": "—"
+      },
+      {
+        "case": "Gen.",
+        "sg": "γάλακτος",
+        "pl": "—"
+      },
+      {
+        "case": "Dat.",
+        "sg": "γάλακτι",
+        "pl": "—"
+      },
+      {
+        "case": "Acc.",
+        "sg": "γάλα",
+        "pl": "—"
+      }
+    ]
+  },
+  "G3192": {
+    "type": "noun",
+    "label": "μέλι, μέλιτος, τό — honey",
+    "lemma": "μέλι",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "μέλι",
+        "pl": "—"
+      },
+      {
+        "case": "Gen.",
+        "sg": "μέλιτος",
+        "pl": "—"
+      },
+      {
+        "case": "Dat.",
+        "sg": "μέλιτι",
+        "pl": "—"
+      },
+      {
+        "case": "Acc.",
+        "sg": "μέλι",
+        "pl": "—"
+      }
+    ]
+  },
+  "G3962": {
+    "type": "noun",
+    "label": "πατήρ, πατρός, ὁ — father",
+    "lemma": "πατήρ",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "πατήρ",
+        "pl": "πατέρες"
+      },
+      {
+        "case": "Gen.",
+        "sg": "πατρός",
+        "pl": "πατέρων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "πατρί",
+        "pl": "πατράσιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "πατέρα",
+        "pl": "πατέρας"
+      }
+    ]
+  },
+  "G3384": {
+    "type": "noun",
+    "label": "μήτηρ, μητρός, ἡ — mother",
+    "lemma": "μήτηρ",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "μήτηρ",
+        "pl": "μητέρες"
+      },
+      {
+        "case": "Gen.",
+        "sg": "μητρός",
+        "pl": "μητέρων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "μητρί",
+        "pl": "μητράσιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "μητέρα",
+        "pl": "μητέρας"
+      }
+    ]
+  },
+  "G2364": {
+    "type": "noun",
+    "label": "θυγάτηρ, -τρός, ἡ — daughter",
+    "lemma": "θυγάτηρ",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "θυγάτηρ",
+        "pl": "θυγατέρες"
+      },
+      {
+        "case": "Gen.",
+        "sg": "θυγατρός",
+        "pl": "θυγατέρων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "θυγατρί",
+        "pl": "θυγατράσιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "θυγατέρα",
+        "pl": "θυγατέρας"
+      }
+    ]
+  },
+  "G0435": {
+    "type": "noun",
+    "label": "ἀνήρ, ἀνδρός, ὁ — man, husband",
+    "lemma": "ἀνήρ",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἀνήρ",
+        "pl": "ἄνδρες"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἀνδρός",
+        "pl": "ἀνδρῶν"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἀνδρί",
+        "pl": "ἀνδράσιν"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἄνδρα",
+        "pl": "ἄνδρας"
+      }
+    ]
+  },
+  "G0417": {
+    "type": "noun",
+    "label": "ἄνεμος, -ου, ὁ — wind",
+    "lemma": "ἄνεμος",
+    "headers": [
+      "",
+      "Sg.",
+      "Pl."
+    ],
+    "rows": [
+      {
+        "case": "Nom.",
+        "sg": "ἄνεμος",
+        "pl": "ἄνεμοι"
+      },
+      {
+        "case": "Gen.",
+        "sg": "ἀνέμου",
+        "pl": "ἀνέμων"
+      },
+      {
+        "case": "Dat.",
+        "sg": "ἀνέμῳ",
+        "pl": "ἀνέμοις"
+      },
+      {
+        "case": "Acc.",
+        "sg": "ἄνεμον",
+        "pl": "ἀνέμους"
+      }
+    ]
+  },
+  "G228": {
+    "type": "adj",
+    "label": "ἀληθινός, -ή, -όν — true, genuine",
+    "lemma": "ἀληθινός",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "ἀληθινός",
+        "f": "ἀληθινή",
+        "n": "ἀληθινόν"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "ἀληθινου",
+        "f": "ἀληθινῆς",
+        "n": "ἀληθινου"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "ἀληθινῳ",
+        "f": "ἀληθινῇ",
+        "n": "ἀληθινῳ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "ἀληθινον",
+        "f": "ἀληθινήν",
+        "n": "ἀληθινόν"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "ἀληθινοι",
+        "f": "ἀληθιναί",
+        "n": "ἀληθινα"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "ἀληθινων",
+        "f": "ἀληθινῶν",
+        "n": "ἀληθινων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "ἀληθινοις",
+        "f": "ἀληθιναῖς",
+        "n": "ἀληθινοις"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "ἀληθινους",
+        "f": "ἀληθινάς",
+        "n": "ἀληθινα"
+      }
+    ]
+  },
+  "G5046": {
+    "type": "adj",
+    "label": "τέλειος, -α, -ον — perfect, complete",
+    "lemma": "τέλειος",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "τέλειος",
+        "f": "τελεία",
+        "n": "τέλειον"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "τέλειου",
+        "f": "τελείας",
+        "n": "τέλειου"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "τέλειῳ",
+        "f": "τελείᾳ",
+        "n": "τέλειῳ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "τέλειον",
+        "f": "τελείαν",
+        "n": "τέλειον"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "τέλειοι",
+        "f": "τελείαι",
+        "n": "τέλεια"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "τέλειων",
+        "f": "τέλειων",
+        "n": "τέλειων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "τέλειοις",
+        "f": "τελείαις",
+        "n": "τέλειοις"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "τέλειους",
+        "f": "τελείας",
+        "n": "τέλεια"
+      }
+    ]
+  },
+  "G4053": {
+    "type": "adj",
+    "label": "περισσός, -ή, -όν — abundant, more than enough",
+    "lemma": "περισσός",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "περισσός",
+        "f": "περισσή",
+        "n": "περισσόν"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "περισσου",
+        "f": "περισσῆς",
+        "n": "περισσου"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "περισσῳ",
+        "f": "περισσῇ",
+        "n": "περισσῳ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "περισσον",
+        "f": "περισσήν",
+        "n": "περισσόν"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "περισσοι",
+        "f": "περισσαί",
+        "n": "περισσα"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "περισσων",
+        "f": "περισσῶν",
+        "n": "περισσων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "περισσοις",
+        "f": "περισσαῖς",
+        "n": "περισσοις"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "περισσους",
+        "f": "περισσάς",
+        "n": "περισσα"
+      }
+    ]
+  },
+  "G2298": {
+    "type": "adj",
+    "label": "θαυμαστός, -ή, -όν — wonderful, marvelous",
+    "lemma": "θαυμαστός",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "θαυμαστός",
+        "f": "θαυμαστή",
+        "n": "θαυμαστόν"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "θαυμαστου",
+        "f": "θαυμαστῆς",
+        "n": "θαυμαστου"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "θαυμαστῳ",
+        "f": "θαυμαστῇ",
+        "n": "θαυμαστῳ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "θαυμαστον",
+        "f": "θαυμαστήν",
+        "n": "θαυμαστόν"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "θαυμαστοι",
+        "f": "θαυμασταί",
+        "n": "θαυμαστα"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "θαυμαστων",
+        "f": "θαυμαστῶν",
+        "n": "θαυμαστων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "θαυμαστοις",
+        "f": "θαυμασταῖς",
+        "n": "θαυμαστοις"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "θαυμαστους",
+        "f": "θαυμαστάς",
+        "n": "θαυμαστα"
+      }
+    ]
+  },
+  "G0040": {
+    "type": "adj",
+    "label": "ἅγιος, -α, -ον — holy",
+    "lemma": "ἅγιος",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "ἅγιος",
+        "f": "ἁγία",
+        "n": "ἅγιον"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "ἅγιου",
+        "f": "ἁγίας",
+        "n": "ἅγιου"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "ἅγιῳ",
+        "f": "ἁγίᾳ",
+        "n": "ἅγιῳ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "ἅγιον",
+        "f": "ἁγίαν",
+        "n": "ἅγιον"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "ἅγιοι",
+        "f": "ἁγίαι",
+        "n": "ἅγια"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "ἅγιων",
+        "f": "ἅγιων",
+        "n": "ἅγιων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "ἅγιοις",
+        "f": "ἁγίαις",
+        "n": "ἅγιοις"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "ἅγιους",
+        "f": "ἁγίας",
+        "n": "ἅγια"
+      }
+    ]
+  },
+  "G0514": {
+    "type": "adj",
+    "label": "ἄξιος, -α, -ον — worthy",
+    "lemma": "ἄξιος",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "ἄξιος",
+        "f": "ἀξία",
+        "n": "ἄξιον"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "ἄξιου",
+        "f": "ἀξίας",
+        "n": "ἄξιου"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "ἄξιῳ",
+        "f": "ἀξίᾳ",
+        "n": "ἄξιῳ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "ἄξιον",
+        "f": "ἀξίαν",
+        "n": "ἄξιον"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "ἄξιοι",
+        "f": "ἀξίαι",
+        "n": "ἄξια"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "ἄξιων",
+        "f": "ἄξιων",
+        "n": "ἄξιων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "ἄξιοις",
+        "f": "ἀξίαις",
+        "n": "ἄξιοις"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "ἄξιους",
+        "f": "ἀξίας",
+        "n": "ἄξια"
+      }
+    ]
+  },
+  "G2756": {
+    "type": "adj",
+    "label": "κενός, -ή, -όν — empty, vain",
+    "lemma": "κενός",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "κενός",
+        "f": "κενή",
+        "n": "κενόν"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "κενου",
+        "f": "κενῆς",
+        "n": "κενου"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "κενῳ",
+        "f": "κενῇ",
+        "n": "κενῳ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "κενον",
+        "f": "κενήν",
+        "n": "κενόν"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "κενοι",
+        "f": "κεναί",
+        "n": "κενα"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "κενων",
+        "f": "κενῶν",
+        "n": "κενων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "κενοις",
+        "f": "κεναῖς",
+        "n": "κενοις"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "κενους",
+        "f": "κενάς",
+        "n": "κενα"
+      }
+    ]
+  },
+  "G4705": {
+    "type": "adj",
+    "label": "σπουδαῖος, -α, -ον — diligent, earnest",
+    "lemma": "σπουδαῖος",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "σπουδαῖος",
+        "f": "σπουδαία",
+        "n": "σπουδαῖον"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "σπουδαίου",
+        "f": "σπουδαίας",
+        "n": "σπουδαίου"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "σπουδαίῳ",
+        "f": "σπουδαίᾳ",
+        "n": "σπουδαίῳ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "σπουδαῖον",
+        "f": "σπουδαίαν",
+        "n": "σπουδαῖον"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "σπουδαῖοι",
+        "f": "σπουδαῖαι",
+        "n": "σπουδαῖα"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "κενων",
+        "f": "κενῶν",
+        "n": "κενων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "κενοις",
+        "f": "κεναῖς",
+        "n": "κενοις"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "κενους",
+        "f": "κενάς",
+        "n": "σπουδαῖα"
+      }
+    ]
+  },
+  "G2556": {
+    "type": "adj",
+    "label": "κακός, -ή, -όν — bad, evil",
+    "lemma": "κακός",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "κακός",
+        "f": "κακή",
+        "n": "κακόν"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "κακου",
+        "f": "κακῆς",
+        "n": "κακου"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "κακῳ",
+        "f": "κακῇ",
+        "n": "κακῳ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "κακον",
+        "f": "κακήν",
+        "n": "κακόν"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "κακοι",
+        "f": "κακαί",
+        "n": "κακα"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "κακων",
+        "f": "κακῶν",
+        "n": "κακων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "κακοις",
+        "f": "κακαῖς",
+        "n": "κακοις"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "κακους",
+        "f": "κακάς",
+        "n": "κακα"
+      }
+    ]
+  },
+  "G3501": {
+    "type": "adj",
+    "label": "νέος, -α, -ον — new, young",
+    "lemma": "νέος",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "νέος",
+        "f": "νέα",
+        "n": "νέον"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "νέου",
+        "f": "νέας",
+        "n": "νέου"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "νέῳ",
+        "f": "νέᾳ",
+        "n": "νέῳ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "νέον",
+        "f": "νέαν",
+        "n": "νέον"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "νέοι",
+        "f": "νέαι",
+        "n": "νέα"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "νέων",
+        "f": "νέων",
+        "n": "νέων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "νέοις",
+        "f": "νέαις",
+        "n": "νέοις"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "νέους",
+        "f": "νέας",
+        "n": "νέα"
+      }
+    ]
+  },
+  "G5543": {
+    "type": "adj",
+    "label": "χρηστός, -ή, -όν — kind, good",
+    "lemma": "χρηστός",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "χρηστός",
+        "f": "χρηστή",
+        "n": "χρηστόν"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "χρηστου",
+        "f": "χρηστῆς",
+        "n": "χρηστου"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "χρηστῳ",
+        "f": "χρηστῇ",
+        "n": "χρηστῳ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "χρηστον",
+        "f": "χρηστήν",
+        "n": "χρηστόν"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "χρηστοι",
+        "f": "χρησταί",
+        "n": "χρηστα"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "χρηστων",
+        "f": "χρηστῶν",
+        "n": "χρηστων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "χρηστοις",
+        "f": "χρησταῖς",
+        "n": "χρηστοις"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "χρηστους",
+        "f": "χρηστάς",
+        "n": "χρηστα"
+      }
+    ]
+  },
+  "G3641": {
+    "type": "adj",
+    "label": "ὀλίγος, -η, -ον — few, little",
+    "lemma": "ὀλίγος",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "ὀλίγος",
+        "f": "ὀλίγη",
+        "n": "ὀλίγον"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "ὀλίγου",
+        "f": "ὀλίγης",
+        "n": "ὀλίγου"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "ὀλίγῳ",
+        "f": "ὀλίγᾳ",
+        "n": "ὀλίγῳ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "ὀλίγον",
+        "f": "ὀλίγαν",
+        "n": "ὀλίγον"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "ὀλίγοι",
+        "f": "ὀλίγαι",
+        "n": "ὀλίγα"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "ὀλίγων",
+        "f": "ὀλίγων",
+        "n": "ὀλίγων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "ὀλίγοις",
+        "f": "ὀλίγαις",
+        "n": "ὀλίγοις"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "ὀλίγους",
+        "f": "ὀλίγας",
+        "n": "ὀλίγα"
+      }
+    ]
+  },
+  "G1538": {
+    "type": "adj",
+    "label": "ἕκαστος, -η, -ον — each, every",
+    "lemma": "ἕκαστος",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "ἕκαστος",
+        "f": "ἑκάστη",
+        "n": "ἕκαστον"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "ἕκαστου",
+        "f": "ἑκάστης",
+        "n": "ἕκαστου"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "ἕκαστῳ",
+        "f": "ἑκάστᾳ",
+        "n": "ἕκαστῳ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "ἕκαστον",
+        "f": "ἑκάσταν",
+        "n": "ἕκαστον"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "ἕκαστοι",
+        "f": "ἑκάσται",
+        "n": "ἕκαστα"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "ἕκαστων",
+        "f": "ἕκαστων",
+        "n": "ἕκαστων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "ἕκαστοις",
+        "f": "ἑκάσταις",
+        "n": "ἕκαστοις"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "ἕκαστους",
+        "f": "ἑκάστας",
+        "n": "ἕκαστα"
+      }
+    ]
+  },
+  "G1057": {
+    "type": "adj",
+    "label": "Γαλιλαῖος, -α, -ον — Galilean",
+    "lemma": "Γαλιλαῖος",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "Γαλιλαῖος",
+        "f": "Γαλιλαία",
+        "n": "Γαλιλαῖον"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "Γαλιλαίου",
+        "f": "Γαλιλαίας",
+        "n": "Γαλιλαίου"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "Γαλιλαίῳ",
+        "f": "Γαλιλαίᾳ",
+        "n": "Γαλιλαίῳ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "Γαλιλαῖον",
+        "f": "Γαλιλαίαν",
+        "n": "Γαλιλαῖον"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "Γαλιλαῖοι",
+        "f": "Γαλιλαῖαι",
+        "n": "Γαλιλαῖα"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "ἕκαστων",
+        "f": "ἕκαστων",
+        "n": "ἕκαστων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "ἕκαστοις",
+        "f": "ἑκάσταις",
+        "n": "ἕκαστοις"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "ἕκαστους",
+        "f": "ἑκάστας",
+        "n": "Γαλιλαῖα"
+      }
+    ]
+  },
+  "G4239": {
+    "type": "adj",
+    "label": "πραΰς, πραεῖα, πραΰ — gentle, meek",
+    "lemma": "πραΰς",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "πραΰς",
+        "f": "πραεῖα",
+        "n": "πραΰ"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "πραέος",
+        "f": "πραείας",
+        "n": "πραέος"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "πραεῖ",
+        "f": "πραείᾳ",
+        "n": "πραεῖ"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "πραΰν",
+        "f": "πραεῖαν",
+        "n": "πραΰ"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "πραεῖς",
+        "f": "πραεῖαι",
+        "n": "πραέα"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "πραέων",
+        "f": "πραειῶν",
+        "n": "πραέων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "πραέσιν",
+        "f": "πραείαις",
+        "n": "πραέσιν"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "πραεῖς",
+        "f": "πραείας",
+        "n": "πραέα"
+      }
+    ]
+  },
+  "G3187": {
+    "type": "adj",
+    "label": "μείζων, μεῖζον — greater, larger",
+    "lemma": "μείζων",
+    "headers": [
+      "",
+      "M.",
+      "F.",
+      "N."
+    ],
+    "rows": [
+      {
+        "case": "Nom. Sg",
+        "m": "μείζων",
+        "f": "μείζων",
+        "n": "μεῖζον"
+      },
+      {
+        "case": "Gen. Sg",
+        "m": "μείζονος",
+        "f": "μείζονος",
+        "n": "μείζονος"
+      },
+      {
+        "case": "Dat. Sg",
+        "m": "μείζονι",
+        "f": "μείζονι",
+        "n": "μείζονι"
+      },
+      {
+        "case": "Acc. Sg",
+        "m": "μείζονα / μείζω",
+        "f": "μείζονα / μείζω",
+        "n": "μεῖζον"
+      },
+      {
+        "case": "Nom. Pl",
+        "m": "μείζονες / μείζους",
+        "f": "μείζονες / μείζους",
+        "n": "μείζονα / μείζω"
+      },
+      {
+        "case": "Gen. Pl",
+        "m": "μειζόνων",
+        "f": "μειζόνων",
+        "n": "μειζόνων"
+      },
+      {
+        "case": "Dat. Pl",
+        "m": "μείζοσιν",
+        "f": "μείζοσιν",
+        "n": "μείζοσιν"
+      },
+      {
+        "case": "Acc. Pl",
+        "m": "μείζονας / μείζους",
+        "f": "μείζονας / μείζους",
+        "n": "μείζονα / μείζω"
+      }
+    ]
   }
 }
