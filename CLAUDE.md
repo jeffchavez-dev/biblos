@@ -206,7 +206,7 @@ const VOCAB_SOURCES = [
 - **Ch6 grammar.json** — still contains old grammar notes from prior story; needs update to match current Ch6 content
 - **Real backend for admin login tracking** — currently per-device localStorage only. Recommended: Supabase `login_events` table + `@supabase/supabase-js`. See auth.js for the insertion point (`recordLoginEvent`).
 - **User registration / real auth** — "Sign up free" on LoginPage is not yet wired up; only the hardcoded admin can sign in beyond guest mode.
-- **Exercises & grammar content** — exercises.json stubs are empty `[]` for all chapters; grammar is filled for Ch1–Ch9.
+- **Exercises & grammar content** — exercises.json stubs are empty `[]` for all chapters; grammar is filled for Ch1–Ch10.
 - **Visual story panels** — all chapters have empty `panels: []`; artwork/panels not yet added.
 
 ---
@@ -221,4 +221,4 @@ Or use the Claude Code preview tool (`preview_start` with name `biblos-dev`).
 
 ---
 
-*Last updated: 2026-07-05 — Added Ch8 (Κεφάλαιον Ηʹ — Τὸ Πνεῦμα τὸ Ἅγιον)*
+*Last updated: 2026-10-03 — Grammar complete through Ch10 (Κεφάλαιον Ιʹ — Ὁ Σπείρων)*
