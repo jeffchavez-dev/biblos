@@ -1,36 +1,20 @@
 {
-  "title": "Grammar — Κεφάλαιον Εʹ (Jesus)",
+  "title": "Γραμματική — Κεφάλαιον Εʹ (Jesus)",
   "parts": [
     {
       "label": "Μέρος Αʹ — Ὁ Ἰησοῦς",
       "sections": [
         {
           "id": 1,
-          "heading": "1. The Present Subjunctive — form",
+          "heading": "1. ἡ ὑποτακτική (subjunctive) — ὁ ἐνεστώς, form and endings",
           "content": "The subjunctive mood expresses possibility, purpose, condition, or indefinite time — anything less certain than a plain statement of fact (indicative). The present subjunctive is formed by lengthening the thematic vowel: -ω → -ω (1st sg.), -ει → -ῃ (3rd sg.), -ουσι → -ωσι (3rd pl.). The key marker is the long vowel -ω- / -η- throughout. Contract verbs lengthen their contracted vowel further.",
           "table": {
-            "caption": "Present subjunctive — λύω (regular)",
-            "headers": [
-              "Person",
-              "Active Singular",
-              "Active Plural"
-            ],
+            "caption": "ἡ ὑποτακτική ἐνεστώς (Present Subjunctive) — λύω (regular)",
+            "headers": ["τὸ πρόσωπον", "ἐνεργετικὴ ἑνικόν (active sg.)", "ἐνεργετικὴ πληθυντικόν (active pl.)"],
             "rows": [
-              [
-                "1st",
-                "λύω",
-                "λύωμεν"
-              ],
-              [
-                "2nd",
-                "λύῃς",
-                "λύητε"
-              ],
-              [
-                "3rd",
-                "λύῃ",
-                "λύωσι(ν)"
-              ]
+              ["αʹ (1st)", "λύω", "λύωμεν"],
+              ["βʹ (2nd)", "λύῃς", "λύητε"],
+              ["γʹ (3rd)", "λύῃ", "λύωσι(ν)"]
             ]
           },
           "examples": [
@@ -63,9 +47,9 @@
             }
           ],
           "headingTranslations": {
-            "es": "1. El subjuntivo presente — forma",
-            "pl": "1. Tryb łączący czasu teraźniejszego — forma",
-            "fil": "1. Ang present subjunctive — anyo"
+            "es": "1. El subjuntivo — ἐνεστώς, forma y desinencias",
+            "pl": "1. Tryb łączący — ἐνεστώς, forma i końcówki",
+            "fil": "1. Ang subjunctive — ἐνεστώς, anyo at ending"
           },
           "contentTranslations": {
             "es": "El modo subjuntivo expresa posibilidad, propósito, condición e hipótesis. En el presente, se forma alargando la vocal final del tema del indicativo: -ω → -ω (largo), -ει → -ῃ, -ου → -ῷ.",
@@ -75,7 +59,7 @@
         },
         {
           "id": 2,
-          "heading": "2. ἵνα + subjunctive — purpose clauses",
+          "heading": "2. ἵνα + ἡ ὑποτακτική (subjunctive) — purpose clauses",
           "content": "ἵνα (\"in order that, so that\") introduces a purpose clause and always takes the subjunctive — never the indicative. This is one of the most common constructions in the New Testament Greek tradition. The subject of the purpose clause may differ from the subject of the main verb.",
           "examples": [
             {
@@ -119,26 +103,14 @@
         },
         {
           "id": 3,
-          "heading": "3. ἐάν + subjunctive — conditional clauses",
+          "heading": "3. ἐάν + ἡ ὑποτακτική (subjunctive) — conditional clauses",
           "content": "ἐάν (= εἰ + ἄν) introduces a conditional clause with the subjunctive when the condition is possible or open (not yet determined). The main clause uses the indicative. This is the \"third-class\" condition in Greek: the outcome is uncertain but possible.",
           "table": {
             "caption": "ἐάν structure",
-            "headers": [
-              "Clause",
-              "Mood",
-              "Example"
-            ],
+            "headers": ["ἡ πρότασις (clause)", "ἡ ἔγκλισις (mood)", "παράδειγμα (example)"],
             "rows": [
-              [
-                "Condition (if…)",
-                "Subjunctive",
-                "ἐὰν κλῆμα μένῃ ἐν τῇ ἀμπέλῳ"
-              ],
-              [
-                "Result (then…)",
-                "Indicative",
-                "φέρει πολὺν καρπόν"
-              ]
+              ["Condition (if…)", "ἡ ὑποτακτική (subjunctive)", "ἐὰν κλῆμα μένῃ ἐν τῇ ἀμπέλῳ"],
+              ["Result (then…)", "ἡ ὁριστική (indicative)", "φέρει πολὺν καρπόν"]
             ]
           },
           "examples": [
@@ -183,7 +155,7 @@
         },
         {
           "id": 4,
-          "heading": "4. ὅταν + subjunctive — indefinite temporal clauses",
+          "heading": "4. ὅταν + ἡ ὑποτακτική (subjunctive) — indefinite temporal clauses",
           "content": "ὅταν (= ὅτε + ἄν) means \"whenever\" — it introduces a temporal clause expressing indefinite, repeated, or future time. Like ἐάν, it always takes the subjunctive. Compare ὅτε (\"when,\" definite past event) + indicative vs. ὅταν (\"whenever,\" general) + subjunctive.",
           "examples": [
             {
@@ -220,48 +192,23 @@
             "fil": "4. ὅταν + subjunctive — indefinite temporal clause"
           },
           "contentTranslations": {
-            "es": "ὅταν (= ὅτε + ἄν) significa «siempre que» e introduce una cláusula temporal que expresa tiempo indefinido, repetido o futuro. Como ἐάν, siempre va con subjuntivo. Compara ὅτε («cuando», evento pasado definido) + indicativo vs. ὅταν («siempre que», general) + subjuntivo.",
-            "pl": "ὅταν (= ὅτε + ἄν) oznacza «ilekroć» i wprowadza zdanie czasowe wyrażające czas nieokreślony, powtarzający się lub przyszły. Podobnie jak ἐάν, zawsze wymaga trybu łączącego. Porównaj ὅτε («gdy», określone wydarzenie przeszłe) + tryb oznajmujący z ὅταν («ilekroć», ogólnie) + tryb łączący.",
-            "fil": "Ang ὅταν (= ὅτε + ἄν) ay nangangahulugang «tuwing» — nagpapakilala ito ng temporal clause na nagpapahayag ng di-tiyak, paulit-ulit, o hinaharap na panahon. Tulad ng ἐάν, palagi itong kumukuha ng subjunctive. Ihambing ang ὅτε («noong», tiyak na nakaraang pangyayari) + indicative kumpara sa ὅταν («tuwing», pangkalahatan) + subjunctive."
+            "es": "ὅταν (= ὅτε + ἄν) significa «siempre que» e introduce una cláusula temporal que expresa tiempo indefinido, repetido o futuro. Como ἐάν, siempre va con subjuntivo.",
+            "pl": "ὅταν (= ὅτε + ἄν) oznacza «ilekroć» i wprowadza zdanie czasowe wyrażające czas nieokreślony, powtarzający się lub przyszły. Podobnie jak ἐάν, zawsze wymaga trybu łączącego.",
+            "fil": "Ang ὅταν (= ὅτε + ἄν) ay nangangahulugang «tuwing» — nagpapakilala ito ng temporal clause na nagpapahayag ng di-tiyak, paulit-ulit, o hinaharap na panahon. Tulad ng ἐάν, palagi itong kumukuha ng subjunctive."
           }
         },
         {
           "id": 5,
-          "heading": "5. The relative pronoun ὅς, ἥ, ὅ",
+          "heading": "5. τὸ ἀντώνυμον (pronoun) ὅς, ἥ, ὅ — relative, all cases",
           "content": "The relative pronoun (\"who, which, that\") agrees with its antecedent in gender and number, but takes its case from its own clause. It declines like the article with an initial rough breathing: ὅς (masc. nom. sg.), ἥ (fem. nom. sg.), ὅ (neut. nom. sg.).",
           "table": {
             "caption": "ὅς, ἥ, ὅ — selected forms",
-            "headers": [
-              "Case",
-              "Masculine",
-              "Feminine",
-              "Neuter"
-            ],
+            "headers": ["ἡ πτῶσις", "ἀρσενικόν (masc.)", "θηλυκόν (fem.)", "οὐδέτερον (neut.)"],
             "rows": [
-              [
-                "Nom.",
-                "ὅς",
-                "ἥ",
-                "ὅ"
-              ],
-              [
-                "Gen.",
-                "οὗ",
-                "ἧς",
-                "οὗ"
-              ],
-              [
-                "Dat.",
-                "ᾧ",
-                "ᾗ",
-                "ᾧ"
-              ],
-              [
-                "Acc.",
-                "ὅν",
-                "ἥν",
-                "ὅ"
-              ]
+              ["ὀνομαστική (nom.)", "ὅς", "ἥ", "ὅ"],
+              ["γενική (gen.)", "οὗ", "ἧς", "οὗ"],
+              ["δοτική (dat.)", "ᾧ", "ᾗ", "ᾧ"],
+              ["αἰτιατική (acc.)", "ὅν", "ἥν", "ὅ"]
             ]
           },
           "examples": [
@@ -306,7 +253,7 @@
         },
         {
           "id": 6,
-          "heading": "6. ὅστις — the indefinite relative pronoun",
+          "heading": "6. ὅστις — indefinite relative pronoun ('whoever')",
           "content": "ὅστις (\"whoever, anyone who\") is a compound of ὅς + τις. It is more general or indefinite than ὅς: where ὅς refers to a specific antecedent, ὅστις refers to any member of a class. In the New Testament it often functions like ὅς.",
           "examples": [
             {
@@ -338,19 +285,19 @@
             }
           ],
           "headingTranslations": {
-            "es": "6. ὅστις — el pronombre relativo indefinido",
-            "pl": "6. ὅστις — nieokreślony zaimek względny",
-            "fil": "6. ὅστις — ang indefinite relative pronoun"
+            "es": "6. ὅστις — el pronombre relativo indefinido ('quienquiera')",
+            "pl": "6. ὅστις — nieokreślony zaimek względny ('ktokolwiek')",
+            "fil": "6. ὅστις — indefinite relative pronoun ('sinuman')"
           },
           "contentTranslations": {
-            "es": "ὅστις («quien quiera que, cualquiera que») es un compuesto de ὅς + τις. Es más general o indefinido que ὅς: mientras que ὅς se refiere a un antecedente específico, ὅστις se refiere a cualquier miembro de una clase. En el Nuevo Testamento a menudo funciona como ὅς.",
-            "pl": "ὅστις («ktokolwiek, każdy kto») to złożenie ὅς + τις. Jest bardziej ogólny lub nieokreślony niż ὅς: tam gdzie ὅς odnosi się do konkretnego poprzednika, ὅστις odnosi się do dowolnego członka klasy. W Nowym Testamencie często funkcjonuje jak ὅς.",
-            "fil": "Ang ὅστις («sinuman, kahit sino») ay isang compound ng ὅς + τις. Ito ay mas pangkalahatan o di-tiyak kaysa sa ὅς: kung saan ang ὅς ay tumutukoy sa isang tiyak na antecedent, ang ὅστις ay tumutukoy sa kahit sinong miyembro ng isang klase. Sa Bagong Tipan, madalas itong gumagana tulad ng ὅς."
+            "es": "ὅστις («quien quiera que, cualquiera que») es un compuesto de ὅς + τις. Es más general o indefinido que ὅς.",
+            "pl": "ὅστις («ktokolwiek, każdy kto») to złożenie ὅς + τις. Jest bardziej ogólny lub nieokreślony niż ὅς.",
+            "fil": "Ang ὅστις («sinuman, kahit sino») ay isang compound ng ὅς + τις. Ito ay mas pangkalahatan o di-tiyak kaysa sa ὅς."
           }
         },
         {
           "id": 7,
-          "heading": "7. πιστεύω and προσκυνέω + dative",
+          "heading": "7. πιστεύω and προσκυνέω + ἡ δοτική (dative) — personal relationship",
           "content": "Both πιστεύω (believe) and προσκυνέω (worship) take the dative for the object of their action, not the accusative. This is the dative of personal relationship. Compare: ἀγαπῶ τὸν θεόν (accusative) vs. πιστεύω τῷ θεῷ (dative). English says \"believe in God\" but Greek says \"believe to/toward God\" with the dative.",
           "examples": [
             {
@@ -382,19 +329,19 @@
             }
           ],
           "headingTranslations": {
-            "es": "7. πιστεύω y προσκυνέω + dativo",
-            "pl": "7. πιστεύω i προσκυνέω + celownik",
-            "fil": "7. πιστεύω at προσκυνέω + dative"
+            "es": "7. πιστεύω y προσκυνέω + dativo — relación personal",
+            "pl": "7. πιστεύω i προσκυνέω + celownik — relacja osobowa",
+            "fil": "7. πιστεύω at προσκυνέω + dative — personal na relasyon"
           },
           "contentTranslations": {
-            "es": "Tanto πιστεύω (creer) como προσκυνέω (adorar) toman el dativo para el objeto de su acción, no el acusativo. Este es el dativo de relación personal. Compara: ἀγαπῶ τὸν θεόν (acusativo) vs. πιστεύω τῷ θεῷ (dativo).",
-            "pl": "Zarówno πιστεύω (wierzyć) jak i προσκυνέω (czcić) przyjmują celownik dla dopełnienia swojego działania, nie biernik. Jest to celownik relacji osobowej. Porównaj: ἀγαπῶ τὸν θεόν (biernik) vs. πιστεύω τῷ θεῷ (celownik).",
-            "fil": "Ang parehong πιστεύω (maniniwala) at προσκυνέω (sumamba) ay kumukuha ng dative para sa object ng kanilang kilos, hindi accusative. Ito ang dative ng personal na relasyon. Ihambing: ἀγαπῶ τὸν θεόν (accusative) kumpara sa πιστεύω τῷ θεῷ (dative)."
+            "es": "Tanto πιστεύω (creer) como προσκυνέω (adorar) toman el dativo para el objeto de su acción, no el acusativo. Este es el dativo de relación personal.",
+            "pl": "Zarówno πιστεύω (wierzyć) jak i προσκυνέω (czcić) przyjmują celownik dla dopełnienia swojego działania, nie biernik. Jest to celownik relacji osobowej.",
+            "fil": "Ang parehong πιστεύω (maniniwala) at προσκυνέω (sumamba) ay kumukuha ng dative para sa object ng kanilang kilos, hindi accusative. Ito ang dative ng personal na relasyon."
           }
         },
         {
           "id": 8,
-          "heading": "8. The dative of means/instrument",
+          "heading": "8. ἡ δοτική ὀργάνου (dative of means) — τῷ σώματι, τῷ πνεύματι",
           "content": "The dative without a preposition can express the means or instrument by which something is done. This is already familiar from the dative of manner; here it is used with body/spirit: τῷ σώματι (\"with/by the body\") and τῷ πνεύματι (\"with/by the spirit\").",
           "examples": [
             {
@@ -431,14 +378,14 @@
             "fil": "8. Ang dative ng instrumento/paraan"
           },
           "contentTranslations": {
-            "es": "El dativo sin preposición puede expresar el medio o instrumento con el que se hace algo. Este uso ya es familiar del dativo de modo; aquí se emplea con cuerpo/espíritu: τῷ σώματι («con el cuerpo») y τῷ πνεύματι («con el espíritu»).",
-            "pl": "Celownik bez przyimka może wyrażać środek lub narzędzie, za pomocą którego coś się dzieje. Ten użytek jest już znany z celownika sposobu; tutaj jest stosowany z ciałem/duchem: τῷ σώματι («ciałem») i τῷ πνεύματι («duchem»).",
-            "fil": "Ang dative nang walang preposisyon ay maaaring magpahayag ng paraan o instrumento kung saan ginagawa ang isang bagay. Ang gamit na ito ay pamilyar na mula sa dative of manner; dito ay ginagamit kasama ang katawan/espiritu: τῷ σώματι («sa/ng katawan») at τῷ πνεύματι («sa/ng espiritu»)."
+            "es": "El dativo sin preposición puede expresar el medio o instrumento con el que se hace algo. Este uso ya es familiar del dativo de modo; aquí se emplea con cuerpo/espíritu.",
+            "pl": "Celownik bez przyimka może wyrażać środek lub narzędzie, za pomocą którego coś się dzieje. Ten użytek jest już znany z celownika sposobu.",
+            "fil": "Ang dative nang walang preposisyon ay maaaring magpahayag ng paraan o instrumento kung saan ginagawa ang isang bagay."
           }
         },
         {
           "id": 9,
-          "heading": "9. τις, τι — the indefinite pronoun/adjective",
+          "heading": "9. τις, τι — indefinite τὸ ἀντώνυμον (pronoun) / τὸ ἐπίθετον (adjective)",
           "content": "τις (masculine/feminine) and τι (neuter) mean \"a certain one, someone, something.\" As an adjective it follows the noun: γυνή τις = \"a certain woman.\" As a pronoun it stands alone: ἐάν τις λέγῃ = \"if anyone says.\" It is always enclitic (clings to the preceding word for accent) and has no rough breathing.",
           "examples": [
             {
@@ -461,43 +408,27 @@
             }
           ],
           "headingTranslations": {
-            "es": "9. τις, τι — el pronombre/adjetivo indefinido",
+            "es": "9. τις, τι — pronombre/adjetivo indefinido",
             "pl": "9. τις, τι — nieokreślony zaimek/przymiotnik",
-            "fil": "9. τις, τι — ang indefinite pronoun/adjective"
+            "fil": "9. τις, τι — indefinite pronoun/adjective"
           },
           "contentTranslations": {
-            "es": "τις (masculino/femenino) y τι (neutro) significan «alguien, algo, cierto». Como adjetivo sigue al sustantivo: γυνή τις = «una cierta mujer». Como pronombre va solo: ἐάν τις λέγῃ = «si alguien dice». Siempre es enclítico (se apoya en la palabra anterior para el acento) y no lleva espíritu áspero.",
-            "pl": "τις (rodzaj męski/żeński) i τι (nijaki) oznaczają «ktoś, coś, pewien». Jako przymiotnik następuje po rzeczowniku: γυνή τις = «pewna kobieta». Jako zaimek stoi samodzielnie: ἐάν τις λέγῃ = «jeśli ktoś powie». Zawsze jest enklityką (opiera się na poprzednim słowie w zakresie akcentu) i nie ma przydechу szorstkiego.",
-            "fil": "Ang τις (masculine/feminine) at τι (neuter) ay nangangahulugang «isang tao, isang bagay, isang tiyak na.» Bilang pang-uri, sumusunod ito sa pangngalan: γυνή τις = «isang tiyak na babae.» Bilang panghalip, nakatayo ito nang mag-isa: ἐάν τις λέγῃ = «kung may magsabi.» Palagi itong enclitic (nakasalalay sa nakaraang salita para sa accent) at walang rough breathing."
+            "es": "τις (masculino/femenino) y τι (neutro) significan «alguien, algo, cierto». Como adjetivo sigue al sustantivo. Como pronombre va solo. Siempre es enclítico y no lleva espíritu áspero.",
+            "pl": "τις (rodzaj męski/żeński) i τι (nijaki) oznaczają «ktoś, coś, pewien». Jako przymiotnik następuje po rzeczowniku. Jako zaimek stoi samodzielnie. Zawsze jest enklityką i nie ma przydechu szorstkiego.",
+            "fil": "Ang τις (masculine/feminine) at τι (neuter) ay nangangahulugang «isang tao, isang bagay, isang tiyak na.» Bilang pang-uri, sumusunod ito sa pangngalan. Bilang panghalip, nakatayo ito nang mag-isa. Palagi itong enclitic at walang rough breathing."
           }
         },
         {
           "id": 10,
-          "heading": "10. ἀλλήλους — the reciprocal pronoun",
+          "heading": "10. ἀλλήλους — reciprocal τὸ ἀντώνυμον (pronoun), all cases",
           "content": "ἀλλήλους means \"one another, each other.\" It has no nominative (you cannot be the subject and object of a reciprocal action at the same time). It declines in the plural only and is used frequently with verbs of love, greeting, and mutual action.",
           "table": {
             "caption": "ἀλλήλων — declension (plural only, no nominative)",
-            "headers": [
-              "Case",
-              "M./F.",
-              "Neuter"
-            ],
+            "headers": ["ἡ πτῶσις", "ἀρσενικόν / θηλυκόν (m./f.)", "οὐδέτερον (neut.)"],
             "rows": [
-              [
-                "Gen.",
-                "ἀλλήλων",
-                "ἀλλήλων"
-              ],
-              [
-                "Dat.",
-                "ἀλλήλοις / -αις",
-                "ἀλλήλοις"
-              ],
-              [
-                "Acc.",
-                "ἀλλήλους / -άς",
-                "ἄλληλα"
-              ]
+              ["γενική (gen.)", "ἀλλήλων", "ἀλλήλων"],
+              ["δοτική (dat.)", "ἀλλήλοις / -αις", "ἀλλήλοις"],
+              ["αἰτιατική (acc.)", "ἀλλήλους / -άς", "ἄλληλα"]
             ]
           },
           "examples": [
@@ -526,14 +457,14 @@
             "fil": "10. ἀλλήλους — ang reciprocal pronoun"
           },
           "contentTranslations": {
-            "es": "ἀλλήλους significa «el uno al otro, mutuamente». No tiene nominativo (no se puede ser sujeto y objeto de una acción recíproca al mismo tiempo). Solo se declina en plural y se usa frecuentemente con verbos de amor, saludo y acción mutua.",
-            "pl": "ἀλλήλους oznacza «jeden drugiego, wzajemnie». Nie ma mianownika (nie można być jednocześnie podmiotem i dopełnieniem wzajemnego działania). Odmienia się tylko w liczbie mnogiej i jest często używany z czasownikami miłości, pozdrowień i wzajemnych działań.",
-            "fil": "Ang ἀλλήλους ay nangangahulugang «isa't isa, magkabago.» Wala itong nominative (hindi ka maaaring maging paksa at object ng isang reciprocal na kilos nang sabay-sabay). Nagde-decline lamang sa plural at madalas na ginagamit kasama ang mga pandiwang nagpapahayag ng pagmamahal, pagbati, at mutual na kilos."
+            "es": "ἀλλήλους significa «el uno al otro, mutuamente». No tiene nominativo. Solo se declina en plural.",
+            "pl": "ἀλλήλους oznacza «jeden drugiego, wzajemnie». Nie ma mianownika. Odmienia się tylko w liczbie mnogiej.",
+            "fil": "Ang ἀλλήλους ay nangangahulugang «isa't isa, magkabago.» Wala itong nominative. Nagde-decline lamang sa plural."
           }
         },
         {
           "id": 11,
-          "heading": "11. χωρίς + genitive — \"without\"",
+          "heading": "11. χωρίς + γενική (genitive) — 'without, apart from'",
           "content": "χωρίς takes the genitive and means \"without, apart from, separated from.\" It is used here in the vine-branch illustration to show that a branch apart from the vine is powerless.",
           "examples": [
             {
@@ -556,19 +487,19 @@
             }
           ],
           "headingTranslations": {
-            "es": "11. χωρίς + genitivo — «sin»",
-            "pl": "11. χωρίς + dopełniacz — «bez»",
-            "fil": "11. χωρίς + genitive — «wala»"
+            "es": "11. χωρίς + genitivo — «sin, aparte de»",
+            "pl": "11. χωρίς + dopełniacz — «bez, z dala od»",
+            "fil": "11. χωρίς + genitive — «wala, malayo sa»"
           },
           "contentTranslations": {
-            "es": "χωρίς toma el genitivo y significa «sin, aparte de, separado de». Se usa aquí en la ilustración de la vid y el sarmiento para mostrar que una rama separada de la vid es impotente.",
-            "pl": "χωρίς przyjmuje dopełniacz i oznacza «bez, poza, oddzielony od». Tutaj jest używany w obrazie winorośli i latorośli, aby pokazać, że gałąź oddzielona od winorośli jest bezsilna.",
-            "fil": "Ang χωρίς ay kumukuha ng genitive at nangangahulugang «wala, malayo sa, hiwalay sa.» Ginagamit ito dito sa ilustrasyon ng ubas at sanga upang ipakita na ang sanga na hiwalay sa puno ng ubas ay walang kapangyarihan."
+            "es": "χωρίς toma el genitivo y significa «sin, aparte de, separado de».",
+            "pl": "χωρίς przyjmuje dopełniacz i oznacza «bez, poza, oddzielony od».",
+            "fil": "Ang χωρίς ay kumukuha ng genitive at nangangahulugang «wala, malayo sa, hiwalay sa.»"
           }
         },
         {
           "id": 12,
-          "heading": "12. εἰ μή — \"except, unless\"",
+          "heading": "12. εἰ μή — exception expression ('except, unless')",
           "content": "εἰ μή is literally \"if not\" but functions as an exception expression: \"except, unless, but only.\" It is very common in the New Testament.",
           "examples": [
             {
@@ -591,19 +522,19 @@
             }
           ],
           "headingTranslations": {
-            "es": "12. εἰ μή — «excepto, a menos que»",
-            "pl": "12. εἰ μή — «chyba że, o ile nie»",
-            "fil": "12. εἰ μή — «maliban sa, maliban kung»"
+            "es": "12. εἰ μή — expresión de excepción ('excepto, a menos que')",
+            "pl": "12. εἰ μή — wyrażenie wyjątku ('z wyjątkiem, chyba że')",
+            "fil": "12. εἰ μή — expression ng pagbubukod ('maliban sa, maliban kung')"
           },
           "contentTranslations": {
             "es": "εἰ μή significa literalmente «si no», pero funciona como expresión de excepción: «excepto, a menos que, sino solo». Es muy común en el Nuevo Testamento.",
-            "pl": "εἰ μή dosłownie znaczy «jeśli nie», ale funkcjonuje jako wyrażenie wyjątku: «z wyjątkiem, chyba że, lecz tylko». Jest bardzo powszechne w Nowym Testamencie.",
-            "fil": "Ang εἰ μή ay literal na «kung hindi» ngunit gumagana bilang isang expression ng pagbubukod: «maliban sa, maliban kung, kundi lamang.» Napaka-karaniwang ito sa Bagong Tipan."
+            "pl": "εἰ μή dosłownie znaczy «jeśli nie», ale funkcjonuje jako wyrażenie wyjątku: «z wyjątkiem, chyba że, lecz tylko».",
+            "fil": "Ang εἰ μή ay literal na «kung hindi» ngunit gumagana bilang isang expression ng pagbubukod: «maliban sa, maliban kung, kundi lamang.»"
           }
         },
         {
           "id": 13,
-          "heading": "13. οὐδείς / οὐδέν and compound negatives",
+          "heading": "13. οὐδείς / οὐδέν — compound negatives, strengthened negation",
           "content": "οὐδείς (no one) and οὐδέν (nothing) are compound negatives formed from οὐδέ + εἷς/ἕν. When a sentence already has οὐ/μή, adding οὐδέ or οὐδείς strengthens the negation rather than canceling it (unlike English double negatives). Greek piles up negatives for emphasis.",
           "examples": [
             {
@@ -635,63 +566,31 @@
             }
           ],
           "headingTranslations": {
-            "es": "13. οὐδείς / οὐδέν y los negativos compuestos",
-            "pl": "13. οὐδείς / οὐδέν i złożone negacje",
-            "fil": "13. οὐδείς / οὐδέν at mga compound negative"
+            "es": "13. οὐδείς / οὐδέν — negativos compuestos, negación reforzada",
+            "pl": "13. οὐδείς / οὐδέν — złożone negacje, wzmocnione przeczenie",
+            "fil": "13. οὐδείς / οὐδέν — compound negative, pinalalakas na pagtanggi"
           },
           "contentTranslations": {
-            "es": "οὐδείς (nadie) y οὐδέν (nada) son negativos compuestos formados de οὐδέ + εἷς/ἕν. Cuando una oración ya tiene οὐ/μή, añadir οὐδέ u οὐδείς refuerza la negación en lugar de cancelarla (a diferencia de las dobles negaciones en español). El griego acumula negaciones para dar énfasis.",
-            "pl": "οὐδείς (nikt) i οὐδέν (nic) to złożone negacje tworzone z οὐδέ + εἷς/ἕν. Gdy zdanie ma już οὐ/μή, dodanie οὐδέ lub οὐδείς wzmacnia negację zamiast ją znosić (w odróżnieniu od angielskich podwójnych przeczeń). Greka nagromadza przeczenia dla podkreślenia.",
-            "fil": "Ang οὐδείς (walang isa) at οὐδέν (wala) ay mga compound negative na binuo mula sa οὐδέ + εἷς/ἕν. Kapag ang pangungusap ay mayroon nang οὐ/μή, ang pagdaragdag ng οὐδέ o οὐδείς ay nagpapalakas ng pagtanggi sa halip na pagkansela nito (hindi tulad ng double negative sa Ingles). Nagtitipon ng mga pagtanggi ang Griyego para sa diin."
+            "es": "οὐδείς (nadie) y οὐδέν (nada) son negativos compuestos formados de οὐδέ + εἷς/ἕν. El griego acumula negaciones para dar énfasis.",
+            "pl": "οὐδείς (nikt) i οὐδέν (nic) to złożone negacje tworzone z οὐδέ + εἷς/ἕν. Greka nagromadza przeczenia dla podkreślenia.",
+            "fil": "Ang οὐδείς (walang isa) at οὐδέν (wala) ay mga compound negative na binuo mula sa οὐδέ + εἷς/ἕν. Nagtitipon ng mga pagtanggi ang Griyego para sa diin."
           }
         },
         {
           "id": 14,
-          "heading": "14. The -μα noun cluster in this chapter",
+          "heading": "14. τὸ οὐδέτερον ὄνομα -μα (neuter -μα noun) — cluster in Chapter 5",
           "content": "Chapter 5 introduces a remarkable cluster of -μα nouns, all 3rd declension neuters with the -ματ- stem in oblique cases. Recognizing this pattern allows you to decline any new -μα word automatically.",
           "table": {
-            "caption": "New -μα nouns in Chapter 5",
-            "headers": [
-              "Nominative",
-              "Genitive",
-              "Meaning"
-            ],
+            "caption": "Νέα -μα ὀνόματα (New -μα nouns) in Chapter 5",
+            "headers": ["ὀνομαστική (nom.)", "γενική (gen.)", "σημαίνει"],
             "rows": [
-              [
-                "στόμα",
-                "στόματος",
-                "mouth"
-              ],
-              [
-                "πνεῦμα",
-                "πνεύματος",
-                "spirit"
-              ],
-              [
-                "βρῶμα",
-                "βρώματος",
-                "food"
-              ],
-              [
-                "πόμα",
-                "πώματος",
-                "drink"
-              ],
-              [
-                "ῥῆμα",
-                "ῥήματος",
-                "word, saying"
-              ],
-              [
-                "θέλημα",
-                "θελήματος",
-                "will"
-              ],
-              [
-                "κλῆμα",
-                "κλήματος",
-                "branch"
-              ]
+              ["στόμα", "στόματος", "mouth"],
+              ["πνεῦμα", "πνεύματος", "spirit"],
+              ["βρῶμα", "βρώματος", "food"],
+              ["πόμα", "πώματος", "drink"],
+              ["ῥῆμα", "ῥήματος", "word, saying"],
+              ["θέλημα", "θελήματος", "will"],
+              ["κλῆμα", "κλήματος", "branch"]
             ]
           },
           "examples": [
@@ -715,14 +614,14 @@
             }
           ],
           "headingTranslations": {
-            "es": "14. El grupo de sustantivos -μα en este capítulo",
-            "pl": "14. Grono rzeczowników -μα w tym rozdziale",
-            "fil": "14. Ang grupo ng -μα na pangngalan sa kabanatang ito"
+            "es": "14. Los sustantivos -μα de la 3ª declinación — grupo del capítulo 5",
+            "pl": "14. Rzeczowniki -μα 3. deklinacji — grono z rozdziału 5",
+            "fil": "14. Ang mga -μα na pangngalan ng 3rd declension — grupo ng Kabanata 5"
           },
           "contentTranslations": {
-            "es": "El capítulo 5 introduce un notable grupo de sustantivos en -μα, todos neutros de la 3ª declinación con el tema -ματ- en los casos oblicuos. Reconocer este patrón permite declinar cualquier nueva palabra en -μα automáticamente.",
-            "pl": "Rozdział 5 wprowadza niezwykłą grupę rzeczowników na -μα — wszystkie to nijakie 3. deklinacji z tematem -ματ- w przypadkach zależnych. Rozpoznanie tego wzorca pozwala automatycznie odmieniać każde nowe słowo na -μα.",
-            "fil": "Ang Kabanata 5 ay nagpapakilala ng kapansin-pansing grupo ng mga -μα na pangngalan, lahat ay 3rd declension neuter na may -ματ- stem sa mga oblique case. Ang pagkilala sa pattern na ito ay nagbibigay-daan sa iyo na mag-decline ng kahit anong bagong -μα na salita nang awtomatiko."
+            "es": "El capítulo 5 introduce un notable grupo de sustantivos en -μα, todos neutros de la 3ª declinación con el tema -ματ- en los casos oblicuos.",
+            "pl": "Rozdział 5 wprowadza niezwykłą grupę rzeczowników na -μα — wszystkie to nijakie 3. deklinacji z tematem -ματ- w przypadkach zależnych.",
+            "fil": "Ang Kabanata 5 ay nagpapakilala ng kapansin-pansing grupo ng mga -μα na pangngalan, lahat ay 3rd declension neuter na may -ματ- stem sa mga oblique case."
           }
         }
       ]
@@ -732,41 +631,16 @@
       "sections": [
         {
           "id": 15,
-          "heading": "15. μι-verbs — introduction (τίθημι, δίδωμι, ἀφίημι, δείκνυμι)",
+          "heading": "15. τὸ ῥῆμα -μι (μι-verb) — introduction: τίθημι, δίδωμι, ἀφίημι, δείκνυμι",
           "content": "A small but extremely common group of Greek verbs uses -μι endings rather than the -ω thematic conjugation. They are called μι-verbs. Their 3rd-person singular present active ends in -σι(ν) rather than -ει, and their stems often show vowel alternation (long in singular, short in plural). The four μι-verbs in this chapter are among the most frequent in the New Testament.",
           "table": {
-            "caption": "Key μι-verb forms in Chapter 5B",
-            "headers": [
-              "Verb",
-              "Meaning",
-              "3rd Sg. Pres.",
-              "3rd Pl. Pres."
-            ],
+            "caption": "Κύρια ῥήματα -μι (Key μι-verb forms) in Chapter 5B",
+            "headers": ["τὸ ῥῆμα", "σημαίνει", "γʹ ἑνικόν (3rd sg.)", "γʹ πληθυντικόν (3rd pl.)"],
             "rows": [
-              [
-                "τίθημι",
-                "I place/lay down",
-                "τίθησιν",
-                "τιθέασιν"
-              ],
-              [
-                "δίδωμι",
-                "I give",
-                "δίδωσιν",
-                "διδόασιν"
-              ],
-              [
-                "ἀφίημι",
-                "I forgive/release",
-                "ἀφίησιν",
-                "ἀφιᾶσιν"
-              ],
-              [
-                "δείκνυμι",
-                "I show",
-                "δείκνυσιν",
-                "δεικνύασιν"
-              ]
+              ["τίθημι", "I place/lay down", "τίθησιν", "τιθέασιν"],
+              ["δίδωμι", "I give", "δίδωσιν", "διδόασιν"],
+              ["ἀφίημι", "I forgive/release", "ἀφίησιν", "ἀφιᾶσιν"],
+              ["δείκνυμι", "I show", "δείκνυσιν", "δεικνύασιν"]
             ]
           },
           "examples": [
@@ -813,38 +687,22 @@
             "fil": "15. Ang mga -μι verb — panimula (τίθημι, δίδωμι, ἀφίημι, δείκνυμι)"
           },
           "contentTranslations": {
-            "es": "Un pequeño pero extremadamente común grupo de verbos griegos usa las terminaciones -μι en lugar de -ω en 1ª persona del singular. Los cuatro que aparecen en este capítulo son: τίθημι (pongo), δίδωμι (doy), ἀφίημι (perdono, suelto), δείκνυμι (muestro).",
-            "pl": "Mała, ale niezwykle częsta grupa greckich czasowników używa końcówki -μι zamiast -ω w 1. os. l.poj. Cztery, które pojawiają się w tym rozdziale, to: τίθημι (kładę), δίδωμι (daję), ἀφίημι (przebaczam, puszczam), δείκνυμι (pokazuję).",
-            "fil": "Isang maliit ngunit napaka-karaniwang grupo ng mga Griyegong pandiwa ang gumagamit ng -μι ending sa halip na -ω sa 1st person singular. Ang apat na lumabas sa kabanatang ito ay: τίθημι (naglalagay), δίδωμι (nagbibigay), ἀφίημι (nagpapatawad), δείκνυμι (nagpapakita)."
+            "es": "Un pequeño pero extremadamente común grupo de verbos griegos usa las terminaciones -μι en lugar de -ω en 1ª persona del singular.",
+            "pl": "Mała, ale niezwykle częsta grupa greckich czasowników używa końcówki -μι zamiast -ω w 1. os. l.poj.",
+            "fil": "Isang maliit ngunit napaka-karaniwang grupo ng mga Griyegong pandiwa ang gumagamit ng -μι ending sa halip na -ω sa 1st person singular."
           }
         },
         {
           "id": 16,
-          "heading": "16. ζάω — a contract verb with special forms",
+          "heading": "16. τὸ συνηρημένον ῥῆμα ζάω (contract verb ζάω) — irregular -άω",
           "content": "ζάω (I live) is a -άω contract verb, but it contracts in an unusual way. The 3rd-person singular is ζῇ (not ζᾷ as regular -άω verbs would give). This irregular form is extremely common in theological contexts.",
           "table": {
-            "caption": "ζάω — present indicative (key forms)",
-            "headers": [
-              "Person",
-              "Singular",
-              "Plural"
-            ],
+            "caption": "ζάω — ὁ ἐνεστὼς ὁριστική (Present Indicative)",
+            "headers": ["τὸ πρόσωπον", "ἑνικόν (singular)", "πληθυντικόν (plural)"],
             "rows": [
-              [
-                "1st",
-                "ζῶ",
-                "ζῶμεν"
-              ],
-              [
-                "2nd",
-                "ζῇς",
-                "ζῆτε"
-              ],
-              [
-                "3rd",
-                "ζῇ (irregular!)",
-                "ζῶσιν"
-              ]
+              ["αʹ (1st)", "ζῶ", "ζῶμεν"],
+              ["βʹ (2nd)", "ζῇς", "ζῆτε"],
+              ["γʹ (3rd)", "ζῇ (irregular!)", "ζῶσιν"]
             ]
           },
           "examples": [
@@ -868,19 +726,19 @@
             }
           ],
           "headingTranslations": {
-            "es": "16. ζάω — un verbo contracto con formas especiales",
-            "pl": "16. ζάω — czasownik ściągany o szczególnych formach",
-            "fil": "16. ζάω — isang contract verb na may espesyal na anyo"
+            "es": "16. El verbo contracto ζάω — -άω irregular",
+            "pl": "16. Czasownik ściągany ζάω — nieregularny -άω",
+            "fil": "16. Ang contract verb ζάω — di-regular na -άω"
           },
           "contentTranslations": {
-            "es": "ζάω (vivo) es un verbo contracto en -άω, pero se contrae de manera inusual. La 3ª persona del singular es ζῇ (no ζᾷ como darían los verbos regulares en -άω). Esta forma irregular es muy común en contextos teológicos.",
-            "pl": "ζάω (żyję) to czasownik ściągany na -άω, ale ściąga się w niecodzienny sposób. 3. osoba l.poj. to ζῇ (a nie ζᾷ, jak dałyby regularne czasowniki na -άω). Ta nieregularna forma jest niezwykle powszechna w kontekstach teologicznych.",
-            "fil": "Ang ζάω (nabubuhay ako) ay isang -άω contract verb, ngunit nagkokontrata ito sa di-karaniwang paraan. Ang 3rd person singular ay ζῇ (hindi ζᾷ tulad ng ibibibigay ng regular na -άω verb). Ang di-regular na anyong ito ay napaka-karaniwang sa mga teolohikal na konteksto."
+            "es": "ζάω (vivo) es un verbo contracto en -άω, pero se contrae de manera inusual. La 3ª persona del singular es ζῇ (no ζᾷ como darían los verbos regulares en -άω).",
+            "pl": "ζάω (żyję) to czasownik ściągany na -άω, ale ściąga się w niecodzienny sposób. 3. osoba l.poj. to ζῇ (a nie ζᾷ, jak dałyby regularne czasowniki na -άω).",
+            "fil": "Ang ζάω (nabubuhay ako) ay isang -άω contract verb, ngunit nagkokontrata ito sa di-karaniwang paraan. Ang 3rd person singular ay ζῇ (hindi ζᾷ tulad ng ibibibigay ng regular na -άω verb)."
           }
         },
         {
           "id": 17,
-          "heading": "17. ὑπέρ + genitive — \"on behalf of, for\"",
+          "heading": "17. ἡ προθέσις ὑπέρ (preposition ὑπέρ) — + γενική (genitive), 'on behalf of'",
           "content": "ὑπέρ with the genitive means \"on behalf of, for the sake of.\" It expresses substitution or representation. This is a key theological preposition in the New Testament, used to describe Christ's death on behalf of others.",
           "examples": [
             {
@@ -903,19 +761,19 @@
             }
           ],
           "headingTranslations": {
-            "es": "17. ὑπέρ + genitivo — «en favor de»",
-            "pl": "17. ὑπέρ + dopełniacz — «za, w obronie»",
-            "fil": "17. ὑπέρ + genitive — «para sa, alang-alang sa»"
+            "es": "17. La preposición ὑπέρ — + genitivo, 'en favor de'",
+            "pl": "17. Przyimek ὑπέρ — + dopełniacz, 'za, w obronie'",
+            "fil": "17. Ang preposisyon ὑπέρ — + genitive, 'alang-alang sa'"
           },
           "contentTranslations": {
-            "es": "ὑπέρ con el genitivo significa «en favor de, por el bien de». Expresa sustitución o representación. Esta es una preposición teológica clave en el Nuevo Testamento, usada para describir la muerte de Cristo en favor de otros.",
-            "pl": "ὑπέρ z dopełniaczem oznacza «za, w obronie, dla dobra». Wyraża zastępstwo lub reprezentację. To kluczowy przyimek teologiczny w Nowym Testamencie, używany do opisania śmierci Chrystusa za innych.",
-            "fil": "Ang ὑπέρ kasama ang genitive ay nangangahulugang «alang-alang sa, para sa kapakanan ng.» Nagpapahayag ito ng pagpapalit o representasyon. Ito ay isang mahalagang teolohikal na preposisyon sa Bagong Tipan, ginagamit upang ilarawan ang kamatayan ni Kristo alang-alang sa iba."
+            "es": "ὑπέρ con el genitivo significa «en favor de, por el bien de». Expresa sustitución o representación.",
+            "pl": "ὑπέρ z dopełniaczem oznacza «za, w obronie, dla dobra». Wyraża zastępstwo lub reprezentację.",
+            "fil": "Ang ὑπέρ kasama ang genitive ay nangangahulugang «alang-alang sa, para sa kapakanan ng.» Nagpapahayag ito ng pagpapalit o representasyon."
           }
         },
         {
           "id": 18,
-          "heading": "18. εἰς τὸν αἰῶνα — \"forever\"",
+          "heading": "18. εἰς τὸν αἰῶνα — idiomatic expression for 'forever, eternally'",
           "content": "εἰς τὸν αἰῶνα is literally \"into the age\" but functions as an idiom meaning \"forever, eternally.\" The noun αἰών (age, eternity) gives us the adjective αἰώνιος (eternal). Both appear in this chapter.",
           "examples": [
             {
@@ -947,19 +805,19 @@
             }
           ],
           "headingTranslations": {
-            "es": "18. εἰς τὸν αἰῶνα — «para siempre»",
-            "pl": "18. εἰς τὸν αἰῶνα — «na wieki»",
-            "fil": "18. εἰς τὸν αἰῶνα — «magpakailanman»"
+            "es": "18. εἰς τὸν αἰῶνα — expresión idiomática para 'para siempre'",
+            "pl": "18. εἰς τὸν αἰῶνα — idiom oznaczający 'na wieki'",
+            "fil": "18. εἰς τὸν αἰῶνα — idyoma para sa 'magpakailanman'"
           },
           "contentTranslations": {
-            "es": "εἰς τὸν αἰῶνα significa literalmente «hacia la era» pero funciona como una expresión idiomática que significa «para siempre, eternamente». El sustantivo αἰών (era, eternidad) nos da el adjetivo αἰώνιος (eterno). Ambos aparecen en este capítulo.",
-            "pl": "εἰς τὸν αἰῶνα dosłownie znaczy «w wiek» lecz funkcjonuje jako idiom oznaczający «na wieki, wiecznie». Rzeczownik αἰών (wiek, wieczność) daje nam przymiotnik αἰώνιος (wieczny). Oba pojawiają się w tym rozdziale.",
-            "fil": "Ang εἰς τὸν αἰῶνα ay literal na «sa panahon/edad» ngunit gumagana bilang isang idyoma na nangangahulugang «magpakailanman, walang katapusan.» Ang pangngalang αἰών (panahon, kawalang-hanggan) ay nagbibigay sa atin ng pang-uring αἰώνιος (walang hanggan). Parehong lumabas sa kabanatang ito."
+            "es": "εἰς τὸν αἰῶνα significa literalmente «hacia la era» pero funciona como una expresión idiomática que significa «para siempre, eternamente».",
+            "pl": "εἰς τὸν αἰῶνα dosłownie znaczy «w wiek» lecz funkcjonuje jako idiom oznaczający «na wieki, wiecznie».",
+            "fil": "Ang εἰς τὸν αἰῶνα ay literal na «sa panahon/edad» ngunit gumagana bilang isang idyoma na nangangahulugang «magpakailanman, walang katapusan.»"
           }
         },
         {
           "id": 19,
-          "heading": "19. ἑαυτούς — the reflexive pronoun",
+          "heading": "19. ἑαυτούς — reflexive τὸ ἀντώνυμον (pronoun), no nominative",
           "content": "ἑαυτόν / ἑαυτήν / ἑαυτό is the 3rd-person reflexive pronoun meaning \"himself, herself, itself, themselves, ourselves.\" It has no nominative (you cannot be the subject and object of reflexive action simultaneously). In the 1st and 2nd person, Greek often uses ἑαυτ- for all persons in colloquial usage.",
           "examples": [
             {
@@ -982,48 +840,28 @@
             }
           ],
           "headingTranslations": {
-            "es": "19. ἑαυτούς — el pronombre reflexivo",
-            "pl": "19. ἑαυτούς — zaimek zwrotny",
-            "fil": "19. ἑαυτούς — ang reflexive pronoun"
+            "es": "19. ἑαυτούς — el pronombre reflexivo, sin nominativo",
+            "pl": "19. ἑαυτούς — zaimek zwrotny, bez mianownika",
+            "fil": "19. ἑαυτούς — ang reflexive pronoun, walang nominative"
           },
           "contentTranslations": {
-            "es": "ἑαυτόν / ἑαυτήν / ἑαυτό es el pronombre reflexivo de 3ª persona que significa «él mismo, ella misma, sí mismo, nosotros mismos». No tiene nominativo (no se puede ser sujeto y objeto de una acción reflexiva al mismo tiempo). En 1ª y 2ª persona, el griego usa a menudo ἑαυτ- para todas las personas en el habla coloquial.",
-            "pl": "ἑαυτόν / ἑαυτήν / ἑαυτό to zaimek zwrotny 3. osoby znaczący «siebie, się, sobie». Nie ma mianownika (nie można być jednocześnie podmiotem i dopełnieniem zwrotnego działania). W 1. i 2. osobie greka często używa ἑαυτ- dla wszystkich osób w potocznym użyciu.",
-            "fil": "Ang ἑαυτόν / ἑαυτήν / ἑαυτό ay ang 3rd person reflexive pronoun na nangangahulugang «ang kanyang sarili, ang kanilang sarili, ang ating sarili.» Wala itong nominative (hindi ka maaaring maging paksa at object ng reflexive na kilos nang sabay-sabay). Sa 1st at 2nd person, madalas na gumagamit ang Griyego ng ἑαυτ- para sa lahat ng persona sa pang-araw-araw na paggamit."
+            "es": "ἑαυτόν / ἑαυτήν / ἑαυτό es el pronombre reflexivo de 3ª persona. No tiene nominativo. En 1ª y 2ª persona, el griego usa a menudo ἑαυτ- para todas las personas en el habla coloquial.",
+            "pl": "ἑαυτόν / ἑαυτήν / ἑαυτό to zaimek zwrotny 3. osoby. Nie ma mianownika. W 1. i 2. osobie greka często używa ἑαυτ- dla wszystkich osób w potocznym użyciu.",
+            "fil": "Ang ἑαυτόν / ἑαυτήν / ἑαυτό ay ang 3rd person reflexive pronoun. Wala itong nominative. Sa 1st at 2nd person, madalas na gumagamit ang Griyego ng ἑαυτ- para sa lahat ng persona sa pang-araw-araw na paggamit."
           }
         },
         {
           "id": 20,
-          "heading": "20. ποιμήν — a 3rd-declension noun with stem change",
+          "heading": "20. ποιμήν, -ένος, ὁ (shepherd) — 3rd declension, stem change",
           "content": "ποιμήν (shepherd) is a 3rd-declension masculine noun. The nominative singular ends in -ήν but the stem is ποιμέν- in oblique cases. This accent shift and stem alternation is typical of this noun type.",
           "table": {
             "caption": "ποιμήν, -ένος, ὁ — key forms",
-            "headers": [
-              "Case",
-              "Singular",
-              "Plural"
-            ],
+            "headers": ["ἡ πτῶσις", "ἑνικόν (sg.)", "πληθυντικόν (pl.)"],
             "rows": [
-              [
-                "Nom.",
-                "ποιμήν",
-                "ποιμένες"
-              ],
-              [
-                "Gen.",
-                "ποιμένος",
-                "ποιμένων"
-              ],
-              [
-                "Dat.",
-                "ποιμένι",
-                "ποιμέσι(ν)"
-              ],
-              [
-                "Acc.",
-                "ποιμένα",
-                "ποιμένας"
-              ]
+              ["ὀνομαστική (nom.)", "ποιμήν", "ποιμένες"],
+              ["γενική (gen.)", "ποιμένος", "ποιμένων"],
+              ["δοτική (dat.)", "ποιμένι", "ποιμέσι(ν)"],
+              ["αἰτιατική (acc.)", "ποιμένα", "ποιμένας"]
             ]
           },
           "examples": [
@@ -1056,19 +894,19 @@
             }
           ],
           "headingTranslations": {
-            "es": "20. ποιμήν — un sustantivo de la 3ª declinación con cambio de tema",
+            "es": "20. ποιμήν — sustantivo de la 3ª declinación con cambio de tema",
             "pl": "20. ποιμήν — rzeczownik 3. deklinacji ze zmianą tematu",
-            "fil": "20. ποιμήν — isang 3rd-declension na pangngalan na may pagbabago ng tema"
+            "fil": "20. ποιμήν — 3rd-declension na pangngalan na may pagbabago ng tema"
           },
           "contentTranslations": {
-            "es": "ποιμήν (pastor) es un sustantivo masculino de la 3ª declinación. El nominativo singular termina en -ήν, pero el tema es ποιμέν- en los casos oblicuos. Este cambio de acento y alternancia del tema es típico de este tipo de sustantivo.",
-            "pl": "ποιμήν (pasterz) to rzeczownik 3. deklinacji rodzaju męskiego. Mianownik l.poj. kończy się na -ήν, lecz temat w przypadkach zależnych to ποιμέν-. Ta zmiana akcentu i alternacja tematu jest typowa dla tego typu rzeczownika.",
-            "fil": "Ang ποιμήν (pastol) ay isang 3rd-declension masculine noun. Ang nominative singular ay nagtatapos sa -ήν ngunit ang tema ay ποιμέν- sa mga oblique case. Ang pagbabago ng accent at pagpapalit ng tema ay tipikal ng ganitong uri ng pangngalan."
+            "es": "ποιμήν (pastor) es un sustantivo masculino de la 3ª declinación. El nominativo singular termina en -ήν, pero el tema es ποιμέν- en los casos oblicuos.",
+            "pl": "ποιμήν (pasterz) to rzeczownik 3. deklinacji rodzaju męskiego. Mianownik l.poj. kończy się na -ήν, lecz temat w przypadkach zależnych to ποιμέν-.",
+            "fil": "Ang ποιμήν (pastol) ay isang 3rd-declension masculine noun. Ang nominative singular ay nagtatapos sa -ήν ngunit ang tema ay ποιμέν- sa mga oblique case."
           }
         },
         {
           "id": 21,
-          "heading": "21. The good shepherd vs. the hireling — a structural contrast",
+          "heading": "21. ὁ ποιμὴν ὁ καλός vs. ὁ μισθωτός — μέν…δέ structural contrast",
           "content": "Jacob's speech uses the μέν…δέ contrast at a narrative level to compare two types: the good shepherd (ὁ ποιμὴν ὁ καλός) and the hireling (ὁ μισθωτός). This is a model of Greek antithetical parallelism — two persons described in contrasting terms.",
           "examples": [
             {
@@ -1100,43 +938,28 @@
             }
           ],
           "headingTranslations": {
-            "es": "21. El buen pastor frente al jornalero — contraste estructural",
-            "pl": "21. Dobry pasterz kontra najemnik — kontrast strukturalny",
-            "fil": "21. Ang mabuting pastol kumpara sa manggagawa — istrukturang kontraste"
+            "es": "21. El buen pastor frente al jornalero — contraste μέν…δέ",
+            "pl": "21. Dobry pasterz kontra najemnik — kontrast μέν…δέ",
+            "fil": "21. Ang mabuting pastol kumpara sa manggagawa — μέν…δέ na kontraste"
           },
           "contentTranslations": {
-            "es": "El discurso de Jacob usa el contraste μέν…δέ a nivel narrativo para comparar dos tipos: el buen pastor (ὁ ποιμὴν ὁ καλός) y el jornalero (ὁ μισθωτός). Este es un modelo de paralelismo antitético griego — dos personas descritas en términos contrastantes.",
-            "pl": "Mowa Jakuba używa kontrastu μέν…δέ na poziomie narracyjnym, aby porównać dwa typy: dobrego pasterza (ὁ ποιμὴν ὁ καλός) i najemnika (ὁ μισθωτός). Jest to model greckiego paralelizmu antytetycznego — dwie osoby opisane w kontrastujących terminach.",
-            "fil": "Ang talumpati ni Jacob ay gumagamit ng μέν…δέ na kontraste sa antas ng salaysay upang ikumpara ang dalawang uri: ang mabuting pastol (ὁ ποιμὴν ὁ καλός) at ang manggagawa (ὁ μισθωτός). Ito ay isang modelo ng Griyegong antithetical parallelism — dalawang tao na inilarawan sa magkaibang termino."
+            "es": "El discurso de Jacob usa el contraste μέν…δέ a nivel narrativo para comparar dos tipos: el buen pastor y el jornalero.",
+            "pl": "Mowa Jakuba używa kontrastu μέν…δέ na poziomie narracyjnym, aby porównać dwa typy: dobrego pasterza i najemnika.",
+            "fil": "Ang talumpati ni Jacob ay gumagamit ng μέν…δέ na kontraste sa antas ng salaysay upang ikumpara ang dalawang uri: ang mabuting pastol at ang manggagawa."
           }
         },
         {
           "id": 22,
-          "heading": "22. ἀνάστασις — a 3rd-declension -σις noun",
+          "heading": "22. ἀνάστασις, -εως, ἡ — 3rd declension -σις noun, genitive in -εως",
           "content": "ἀνάστασις (resurrection) belongs to the -σις type of 3rd-declension feminine nouns. The genitive is -εως (not -ος). This genitive in -εως is characteristic of this large and important class.",
           "table": {
             "caption": "ἀνάστασις, -εως, ἡ",
-            "headers": [
-              "Case",
-              "Singular"
-            ],
+            "headers": ["ἡ πτῶσις", "ἑνικόν (sg.)"],
             "rows": [
-              [
-                "Nom.",
-                "ἀνάστασις"
-              ],
-              [
-                "Gen.",
-                "ἀναστάσεως"
-              ],
-              [
-                "Dat.",
-                "ἀναστάσει"
-              ],
-              [
-                "Acc.",
-                "ἀνάστασιν"
-              ]
+              ["ὀνομαστική (nom.)", "ἀνάστασις"],
+              ["γενική (gen.)", "ἀναστάσεως"],
+              ["δοτική (dat.)", "ἀναστάσει"],
+              ["αἰτιατική (acc.)", "ἀνάστασιν"]
             ]
           },
           "examples": [
@@ -1151,14 +974,14 @@
             }
           ],
           "headingTranslations": {
-            "es": "22. ἀνάστασις — un sustantivo -σις de la 3ª declinación",
-            "pl": "22. ἀνάστασις — rzeczownik -σις 3. deklinacji",
-            "fil": "22. ἀνάστασις — isang 3rd-declension na -σις na pangngalan"
+            "es": "22. ἀνάστασις — sustantivo -σις de la 3ª declinación, genitivo en -εως",
+            "pl": "22. ἀνάστασις — rzeczownik -σις 3. deklinacji, dopełniacz na -εως",
+            "fil": "22. ἀνάστασις — 3rd-declension na -σις na pangngalan, genitive sa -εως"
           },
           "contentTranslations": {
-            "es": "ἀνάστασις (resurrección) pertenece al tipo -σις de sustantivos femeninos de la 3ª declinación. El genitivo es -εως (no -ος). Este genitivo en -εως es característico de esta clase amplia e importante.",
-            "pl": "ἀνάστασις (zmartwychwstanie) należy do typu -σις rzeczowników żeńskich 3. deklinacji. Dopełniacz to -εως (nie -ος). Ten dopełniacz na -εως jest charakterystyczny dla tej dużej i ważnej klasy.",
-            "fil": "Ang ἀνάστασις (muling pagkabuhay) ay kabilang sa -σις na uri ng 3rd-declension feminine noun. Ang genitive ay -εως (hindi -ος). Ang genitive na ito sa -εως ay katangian ng malaki at mahalagang klase na ito."
+            "es": "ἀνάστασις (resurrección) pertenece al tipo -σις de sustantivos femeninos de la 3ª declinación. El genitivo es -εως (no -ος).",
+            "pl": "ἀνάστασις (zmartwychwstanie) należy do typu -σις rzeczowników żeńskich 3. deklinacji. Dopełniacz to -εως (nie -ος).",
+            "fil": "Ang ἀνάστασις (muling pagkabuhay) ay kabilang sa -σις na uri ng 3rd-declension feminine noun. Ang genitive ay -εως (hindi -ος)."
           }
         }
       ]
