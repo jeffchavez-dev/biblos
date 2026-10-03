@@ -206,7 +206,7 @@ const VOCAB_SOURCES = [
 - **Ch6 grammar.json** — still contains old grammar notes from prior story; needs update to match current Ch6 content
 - **Real backend for admin login tracking** — currently per-device localStorage only. Recommended: Supabase `login_events` table + `@supabase/supabase-js`. See auth.js for the insertion point (`recordLoginEvent`).
 - **User registration / real auth** — "Sign up free" on LoginPage is not yet wired up; only the hardcoded admin can sign in beyond guest mode.
-- **Exercises & grammar content** — most chapters have empty stubs; content not yet written.
+- **Exercises & grammar content** — exercises.json stubs are empty `[]` for all chapters; grammar is filled for Ch1–Ch8.
 - **Visual story panels** — all chapters have empty `panels: []`; artwork/panels not yet added.
 
 ---
