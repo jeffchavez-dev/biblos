@@ -1,1 +1,146 @@
-[]
+{
+  "trueFalse": [
+    {
+      "id": 1,
+      "statement": "Matthew woke up early and went to the spring to fetch water.",
+      "answer": false,
+      "explanation": "It was Magdalene who went to the spring: λίαν πρωΐ ἐξῆλθον πρὸς τὴν πηγήν — very early I went out to the spring. Matthew went to the sea: ἔδραμον πρὸς τὴν θάλασσαν — I ran to the sea, and brought back two fish."
+    },
+    {
+      "id": 2,
+      "statement": "The fishermen had been working all night on the sea and caught many fish.",
+      "answer": true,
+      "explanation": "Correct! Matthew explains: οἱ γὰρ ἄνδρες οἱ ἐν τοῖς πλοίοις ὅλην τὴν νύκτα ἐκοπίων ἐν τῇ θαλάσσῃ, καὶ ἔλαβον πολλοὺς ἰχθύας — the men in the boats had been toiling all night in the sea and took many fish."
+    },
+    {
+      "id": 3,
+      "statement": "Peter apologizes to Matthew for sinning against him the day before.",
+      "answer": true,
+      "explanation": "Correct! After waking and hearing about the boats, Peter looks at his brother and says: Μαθθαῖε, ἐχθὲς ἥμαρτον εἰς σέ — Matthew, yesterday I sinned against you. Matthew forgives him: ἀφίημί σοι, ὦ λύκε μικρέ — I forgive you, little wolf!"
+    },
+    {
+      "id": 4,
+      "statement": "James tells Peter that all seed falls on the road and is eaten by birds.",
+      "answer": false,
+      "explanation": "James corrects Peter's worry: μὴ μερίμνα, ὦ Πέτρε. οὐ πᾶς ὁ σπόρος πίπτει ἐπὶ τὴν ὁδόν καὶ ἐσθίεται ὑπὸ τῶν πετείνων — do not worry, Peter. Not all the seed falls on the road and is eaten by birds."
+    },
+    {
+      "id": 5,
+      "statement": "The aorist tense expresses continuous or habitual past action.",
+      "answer": false,
+      "explanation": "The aorist (ὁ ἀόριστος) expresses a single, completed past event — 'I did.' Continuous or habitual past action is expressed by the imperfect (ὁ παρατατικός). In Ch10: ἔδραμον (I ran, once), εἶδον (I saw, once), ἔλαβον (I took, once) are all completed events."
+    },
+    {
+      "id": 6,
+      "statement": "Jesus explained the parable privately to the crowd gathered by the sea.",
+      "answer": false,
+      "explanation": "The crowd was nearby but the private explanation was for the disciples: κατ᾽ ἰδίαν προσῆλθον τῷ Ἰησοῦ καὶ εἶπον αὐτῷ — privately they came to Jesus and said to him. κατ᾽ ἰδίαν (privately, alone) contrasts with the public parable told to the crowd."
+    },
+    {
+      "id": 7,
+      "statement": "According to James, the seed in the parable represents the word of God.",
+      "answer": true,
+      "explanation": "Correct! James explains: ὁ σπείρων τὸν λόγον σπείρει. ὁ σπόρος ἐστὶν ὁ λόγος τοῦ θεοῦ — the sower sows the word. The seed is the word of God. The four soils then describe four kinds of hearts that receive it differently."
+    },
+    {
+      "id": 8,
+      "statement": "The aorist infinitive and the present infinitive both express an ongoing action.",
+      "answer": false,
+      "explanation": "Only the present infinitive expresses ongoing action ('to be doing'). The aorist infinitive (ὁ ἀόριστος ἀπαρέμφατος) expresses a single, complete action: μαθεῖν = to learn (once, completely), vs. μανθάνειν = to be learning (ongoing). Peter says βουλόμενος μαθεῖν — wishing to learn it (completely)."
+    }
+  ],
+  "multipleChoice": [
+    {
+      "id": 1,
+      "question": "What does ἔδραμον mean, and which verb does it come from?",
+      "options": [
+        "I was running — imperfect of τρέχω",
+        "I ran — suppletive aorist of τρέχω",
+        "I run — present of δράμω",
+        "I had run — pluperfect of τρέχω"
+      ],
+      "answer": 1,
+      "explanation": "ἔδραμον is the suppletive aorist of τρέχω (I run). The aorist uses a completely different stem (δραμ-) rather than τρεχ-. Matthew says: ἔδραμον πρὸς τὴν θάλασσαν — I ran to the sea (a single completed action). The sideNote in the story flags the full paradigm: ὁριστική ἔδραμον, ἀπαρέμφατος δραμεῖν, προστακτική δράμε."
+    },
+    {
+      "id": 2,
+      "question": "What is the key difference in meaning between the aorist ἔλαβον and the imperfect ἐλάμβανον of λαμβάνω?",
+      "options": [
+        "ἔλαβον is passive; ἐλάμβανον is active",
+        "ἔλαβον is a completed event ('I took'); ἐλάμβανον is ongoing past ('I was taking')",
+        "ἔλαβον is singular; ἐλάμβανον is plural",
+        "They are identical in meaning but different in dialect"
+      ],
+      "answer": 1,
+      "explanation": "The difference is aspect: ἔλαβον (aorist) = 'I took' — a single completed past event. ἐλάμβανον (imperfect) = 'I was taking' — ongoing or repeated past action. In Ch10: ἔλαβον δύο παρ᾽ αὐτῶν — Matthew took two fish (one moment). Compare Ch9's imperfects for habitual farm work."
+    },
+    {
+      "id": 3,
+      "question": "In εἶπεν αὐτοῖς· ὑμῖν δίδοται γινώσκειν τὰ μυστήρια, what form is δίδοται?",
+      "options": [
+        "Present active indicative 3rd singular of δίδωμι — 'it gives'",
+        "Present passive indicative 3rd singular of δίδωμι — 'it is given'",
+        "Aorist active indicative 3rd singular of δίδωμι — 'it gave'",
+        "Perfect passive indicative 3rd singular — 'it has been given'"
+      ],
+      "answer": 1,
+      "explanation": "δίδοται is the present passive 3rd singular of δίδωμι. The passive ending -εται replaces the active -ωσι(ν). Translation: 'to you it is given to know the mysteries of the kingdom.' The agent (God) is implied but not expressed; the passive voices a divine gift."
+    },
+    {
+      "id": 4,
+      "question": "What does κατ᾽ ἰδίαν mean in: κατ᾽ ἰδίαν προσῆλθον τῷ Ἰησοῦ?",
+      "options": [
+        "In their own way — κατά + genitive",
+        "Privately, alone — κατά + accusative of ἴδιος, elided before vowel",
+        "According to their idea — κατά + dative",
+        "Against each other — κατά + accusative of ἴδιος (hostile)"
+      ],
+      "answer": 1,
+      "explanation": "κατ᾽ ἰδίαν is an idiomatic phrase: κατά (according to, by) + ἰδίαν (accusative of ἴδιος, 'one's own'). Together it means 'by oneself, privately, alone.' The κατά elides its final α before the vowel ἰ-. The disciples came to Jesus privately, away from the crowd."
+    },
+    {
+      "id": 5,
+      "question": "What form is εἰπέ in: εἰπέ μοι, τί ἐστιν ἡ παραβολή;",
+      "options": [
+        "Present imperative 2nd singular of λέγω",
+        "Aorist imperative 2nd singular of λέγω",
+        "Aorist indicative 1st singular of λέγω",
+        "Aorist infinitive of λέγω"
+      ],
+      "answer": 1,
+      "explanation": "εἰπέ is the aorist imperative 2nd singular of λέγω — a command to say or tell something, understood as a single act. λέγω uses the suppletive aorist stem εἰπ-. Compare the present imperative λέγε (keep telling, keep speaking). Peter wants James to explain the parable now, once — hence the aorist."
+    },
+    {
+      "id": 6,
+      "question": "What do the four soils in the Parable of the Sower represent?",
+      "options": [
+        "Four types of farmers in Galilee",
+        "Four seasons of the agricultural year",
+        "Four types of hearts that receive the word differently",
+        "Four disciples who followed Jesus"
+      ],
+      "answer": 2,
+      "explanation": "James explains: ὁ σπόρος ἐστὶν ὁ λόγος τοῦ θεοῦ — the seed is the word of God. The four soils represent hearts: (1) the road — the word is snatched away; (2) the rock — no root, falls away under trial; (3) the thorns — worries of life choke the word; (4) the good soil — hears and understands, and bears fruit."
+    }
+  ],
+  "fillInTheBlank": [
+    {
+      "id": 1,
+      "prompt": "ἔδραμον πρὸς τὴν θάλασσαν καὶ _______ τὰ πλοῖα ἐρχόμενα.",
+      "answers": ["εἶδον"],
+      "explanation": "εἶδον — suppletive aorist 1st singular of ὁράω (I saw). Matthew ran to the sea and saw the boats coming. εἶδον is one of the most important suppletive aorists: the present ὁράω/βλέπω gives way to the aorist εἶδον from a completely different root."
+    },
+    {
+      "id": 2,
+      "prompt": "ὁ σπείρων τὸν λόγον σπείρει. ὁ σπόρος ἐστὶν ὁ _______ τοῦ θεοῦ.",
+      "answers": ["λόγος"],
+      "explanation": "λόγος (word) — the seed in the parable is the word of God. James gives the key to the parable: the sower sows the word (τὸν λόγον), and the seed is the word of God (ὁ λόγος τοῦ θεοῦ)."
+    },
+    {
+      "id": 3,
+      "prompt": "ὑμῖν _______ γινώσκειν τὰ μυστήρια τῆς βασιλείας τῶν οὐρανῶν, ἐκείνοις δὲ οὐ _______.",
+      "answers": ["δίδοται", "δίδοται"],
+      "explanation": "δίδοται (it is given) — present passive 3rd singular of δίδωμι. The same form appears twice: once affirmed (ὑμῖν δίδοται — to you it is given) and once denied (ἐκείνοις δὲ οὐ δίδοται — but to those it is not given). The contrast between ὑμῖν (to you) and ἐκείνοις (to those) uses the near/far demonstratives."
+    }
+  ]
+}
