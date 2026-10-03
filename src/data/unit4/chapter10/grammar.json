@@ -1,1 +1,479 @@
-[]
+{
+  "title": "Γραμματική — Κεφάλαιον Ιʹ (The Sower)",
+  "parts": [
+    {
+      "label": "Μέρος Αʹ — Τὸ Ἄριστον",
+      "sections": [
+        {
+          "id": 1,
+          "heading": "1. ὁ ἀόριστος ἐνεργετικὸς πρῶτος (1st Aorist Active) — augment + stem + -σα endings",
+          "content": "The 1st aorist (ὁ ἀόριστος πρῶτος) describes a completed action in past time — 'I did,' 'I took,' 'I came.' It is formed by adding (1) an augment, (2) the aorist stem (usually present stem + σ-), and (3) the 1st aorist endings: -σα, -σας, -σε(ν), -σαμεν, -σατε, -σαν. The aorist expresses a single completed event; it does not describe ongoing or repeated action. This is its key difference from the imperfect.",
+          "table": {
+            "caption": "ἀόριστος ἐνεργετικὸς πρῶτος — λύω",
+            "headers": ["τὸ πρόσωπον", "ἑνικόν (sg.)", "πληθυντικόν (pl.)"],
+            "rows": [
+              ["αʹ (1st)", "ἔλυσα", "ἐλύσαμεν"],
+              ["βʹ (2nd)", "ἔλυσας", "ἐλύσατε"],
+              ["γʹ (3rd)", "ἔλυσε(ν)", "ἔλυσαν"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ἔλαβον δύο ἰχθύας παρ᾽ αὐτῶν",
+              "note": "I took two fish from them (single completed event)",
+              "noteTranslations": {
+                "es": "tomé dos peces de ellos",
+                "pl": "wziąłem od nich dwie ryby",
+                "fil": "kumuha ako ng dalawang isda mula sa kanila"
+              }
+            },
+            {
+              "greek": "λίαν πρωΐ ἐξῆλθον πρὸς τὴν πηγήν",
+              "note": "very early in the morning I went out to the spring",
+              "noteTranslations": {
+                "es": "muy de madrugada salí hacia el manantial",
+                "pl": "bardzo wcześnie rano wyszłam do źródła",
+                "fil": "madaling-umaga lumabas ako patungo sa bukal"
+              }
+            },
+            {
+              "greek": "ηὕρηκεν ἰχθύας, ὦ Μαθθαῖε; — ναί, εὗρον",
+              "note": "did he find fish, O Matthew? — yes, I found (them)",
+              "noteTranslations": {
+                "es": "¿encontraste peces, Mateo? — sí, encontré",
+                "pl": "czy znalazłeś ryby, Mateuszu? — tak, znalazłem",
+                "fil": "nakahanap ka ba ng isda, Mateo? — oo, nakahanap ako"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "1. El aoristo activo primero — aumento + tema + desinencias -σα",
+            "pl": "1. Aoryst czynny pierwszy — augment + temat + końcówki -σα",
+            "fil": "1. Ang 1st aorist active — augment + stem + -σα endings"
+          },
+          "contentTranslations": {
+            "es": "El 1er aoristo describe una acción completada en el pasado — 'hice', 'tomé', 'vine.' Se forma añadiendo (1) un aumento, (2) el tema del aoristo, y (3) las desinencias del 1er aoristo: -σα, -σας, -σε(ν), -σαμεν, -σατε, -σαν.",
+            "pl": "Aoryst pierwszy opisuje zakończoną czynność w przeszłości — 'zrobiłem', 'wziąłem', 'przyszedłem.' Tworzy się przez dodanie (1) augmentu, (2) tematu aorystu i (3) końcówek aorystu pierwszego: -σα, -σας, -σε(ν), -σαμεν, -σατε, -σαν.",
+            "fil": "Ang 1st aorist ay naglalarawan ng isang natapos na kilos sa nakaraan — 'ginawa ko', 'kinuha ko', 'pumunta ako.' Ito ay binuo sa pamamagitan ng pagdaragdag ng (1) augment, (2) aorist stem, at (3) 1st aorist endings: -σα, -σας, -σε(ν), -σαμεν, -σατε, -σαν."
+          }
+        },
+        {
+          "id": 2,
+          "heading": "2. ὁ ἀόριστος ἐνεργετικὸς δεύτερος (2nd / Strong Aorist) — different stem, same endings as imperfect",
+          "content": "The 2nd aorist (ὁ ἀόριστος δεύτερος) expresses the same meaning as the 1st aorist — a single completed past event — but uses a different stem from the present (not a -σα suffix). The endings look exactly like the imperfect (-ον, -ες, -ε, -ομεν, -ετε, -ον), but the aorist stem marks the difference. Common examples from Ch10: λαμβάνω → ἔλαβον (I took), εὑρίσκω → εὗρον (I found), μανθάνω → ἔμαθον (I learned). The key to distinguishing aorist from imperfect is the stem, not the ending.",
+          "table": {
+            "caption": "ἀόριστος δεύτερος — λαμβάνω → λαβ-",
+            "headers": ["τὸ πρόσωπον", "ἑνικόν (sg.)", "πληθυντικόν (pl.)"],
+            "rows": [
+              ["αʹ (1st)", "ἔλαβον", "ἐλάβομεν"],
+              ["βʹ (2nd)", "ἔλαβες", "ἐλάβετε"],
+              ["γʹ (3rd)", "ἔλαβε(ν)", "ἔλαβον"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "εἶδον τὰ πλοῖα ἐρχόμενα",
+              "note": "I saw the boats coming (εἶδον = 2nd aorist of ὁράω/βλέπω)",
+              "noteTranslations": {
+                "es": "vi los botes que venían",
+                "pl": "zobaczyłem łodzie nadpływające",
+                "fil": "nakita ko ang mga bangka na dumarating"
+              }
+            },
+            {
+              "greek": "οἱ ἄνδρες ἔλαβον πολλοὺς ἰχθύας",
+              "note": "the men took many fish (3pl.)",
+              "noteTranslations": {
+                "es": "los hombres tomaron muchos peces",
+                "pl": "mężczyźni złowili wiele ryb",
+                "fil": "kumuha ang mga lalaki ng maraming isda"
+              }
+            },
+            {
+              "greek": "εὗρες ἰχθύας, ὦ Μαθθαῖε;",
+              "note": "did you find fish, Matthew? (εὗρες = 2sg. of εὑρίσκω)",
+              "noteTranslations": {
+                "es": "¿encontraste peces, Mateo?",
+                "pl": "znalazłeś ryby, Mateuszu?",
+                "fil": "nakahanap ka ba ng isda, Mateo?"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "2. El aoristo activo segundo — tema diferente, mismas desinencias que el imperfecto",
+            "pl": "2. Aoryst czynny drugi — inny temat, te same końcówki co czas niedokonany",
+            "fil": "2. Ang 2nd / strong aorist — iba ang stem, parehong endings ng imperfect"
+          },
+          "contentTranslations": {
+            "es": "El 2do aoristo expresa el mismo significado que el 1ro — un evento pasado completado — pero usa un tema diferente al del presente. Las desinencias se parecen al imperfecto, pero el tema del aoristo marca la diferencia.",
+            "pl": "Aoryst drugi wyraża to samo znaczenie co pierwszy — pojedyncze zakończone zdarzenie w przeszłości — ale używa innego tematu niż czas teraźniejszy. Końcówki wyglądają jak czas niedokonany, ale temat aorystu stanowi różnicę.",
+            "fil": "Ang 2nd aorist ay nagpapahayag ng parehong kahulugan ng 1st aorist — isang natapos na nakaraang pangyayari — ngunit gumagamit ng ibang stem mula sa present. Ang mga ending ay mukhang katulad ng imperfect, ngunit ang aorist stem ang nagpapaiba."
+          }
+        },
+        {
+          "id": 3,
+          "heading": "3. ἀόριστος vs. παρατατικός — aspect: single completed event vs. ongoing past",
+          "content": "The imperfect (ὁ παρατατικός) and the aorist (ὁ ἀόριστος) both describe past time, but they encode different aspects. The imperfect pictures an action as ongoing, continuous, or habitual — a background state or repeated habit ('I was doing,' 'I used to do'). The aorist pictures an action as a single, completed event — a foreground action that moves the story forward ('I did,' 'I came'). In Chapter 10, James's farm memories in Ch9 used the imperfect (habitual past); here the breakfast scene moves forward with aorists.",
+          "examples": [
+            {
+              "greek": "οἱ ἄνδρες ὅλην τὴν νύκτα ἐκοπίων [impf.] — καὶ ἔλαβον [aor.] πολλοὺς ἰχθύας",
+              "note": "the men were toiling all night [ongoing] — and they took many fish [completed event]",
+              "noteTranslations": {
+                "es": "los hombres se esforzaron toda la noche — y tomaron muchos peces",
+                "pl": "mężczyźni trudzili się całą noc — i złowili wiele ryb",
+                "fil": "nagtatrabaho ang mga lalaki buong gabi — at kumuha sila ng maraming isda"
+              }
+            },
+            {
+              "greek": "ἐγὼ ἐκοπίων [impf.] ἐκεῖ ὡς νέος — σήμερον δὲ ἐξῆλθον [aor.] πρωΐ",
+              "note": "I used to toil there as a young man [habitual] — but today I went out early [single event]",
+              "noteTranslations": {
+                "es": "yo solía trabajar allí de joven — pero hoy salí temprano",
+                "pl": "zwykłem się trudzić tam jako młody — ale dzisiaj wyszłam wcześnie",
+                "fil": "dati nagtatrabaho ako doon noong bata — ngunit ngayon lumabas ako agad"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "3. Aoristo vs. imperfecto — aspecto: evento completado vs. pasado continuo",
+            "pl": "3. Aoryst vs. czas niedokonany — aspekt: pojedyncze zdarzenie vs. ciągła przeszłość",
+            "fil": "3. Aorist vs. imperfect — aspect: isang natapos na pangyayari vs. tuluy-tuloy na nakaraan"
+          },
+          "contentTranslations": {
+            "es": "El imperfecto retrata una acción como continua o habitual — un estado de fondo. El aoristo la retrata como un evento único y completado — una acción en primer plano que hace avanzar la historia.",
+            "pl": "Czas niedokonany przedstawia czynność jako ciągłą lub nawykową — stan w tle. Aoryst przedstawia ją jako pojedyncze, zakończone zdarzenie — czynność pierwszoplanową, która posuwa historię do przodu.",
+            "fil": "Ang imperfect ay nagpipinta ng kilos bilang patuloy o karaniwang nangyayari — isang estado sa likod. Ang aorist ay nagpipinta nito bilang isang natapos na pangyayari — isang kilos sa harapan na nagpapasulong ng kwento."
+          }
+        },
+        {
+          "id": 4,
+          "heading": "4. ἀόριστοι ἀνώμαλοι (Suppletive / Irregular Aorists) — completely different stems",
+          "content": "Several high-frequency Greek verbs form their aorist from an entirely different root — a phenomenon called suppletion (ἀνωμαλία). These forms must be memorized as vocabulary items. Chapter 10 features four of the most important: φέρω → ἤνεγκον (I carried/brought), τρέχω → ἔδραμον (I ran), λέγω → εἶπον (I said), ἔρχομαι → ἦλθον (I came). The story's own sideNotes flag the first three with paradigm boxes — a signal that these must be learned separately.",
+          "table": {
+            "caption": "ἀόριστοι ἀνώμαλοι",
+            "headers": ["ἐνεστώς", "ἀόριστος αʹ εν.", "ἀπαρέμφατος", "σημαίνει"],
+            "rows": [
+              ["φέρω", "ἤνεγκον", "ἐνεγκεῖν", "I carried / brought"],
+              ["τρέχω", "ἔδραμον", "δραμεῖν", "I ran"],
+              ["λέγω", "εἶπον", "εἰπεῖν", "I said"],
+              ["ἔρχομαι", "ἦλθον", "ἐλθεῖν", "I came"],
+              ["ὁράω", "εἶδον", "ἰδεῖν", "I saw"],
+              ["μανθάνω", "ἔμαθον", "μαθεῖν", "I learned"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ἤνεγκα τὸ ὕδωρ καὶ ἐπανῆλθον",
+              "note": "I brought the water and returned (ἤνεγκα = 1sg. of φέρω; ἐπανῆλθον = compound of ἦλθον)",
+              "noteTranslations": {
+                "es": "traje el agua y regresé",
+                "pl": "przyniosłam wodę i wróciłam",
+                "fil": "dinala ko ang tubig at bumalik ako"
+              }
+            },
+            {
+              "greek": "ἔδραμον πρὸς τὴν θάλασσαν καὶ εἶδον τὰ πλοῖα",
+              "note": "I ran to the sea and saw the boats (both suppletive aorists)",
+              "noteTranslations": {
+                "es": "corrí hacia el mar y vi los barcos",
+                "pl": "pobiegłem nad morze i zobaczyłem łodzie",
+                "fil": "tumakbo ako patungo sa dagat at nakita ko ang mga bangka"
+              }
+            },
+            {
+              "greek": "κατ᾽ ἰδίαν προσῆλθον τῷ Ἰησοῦ καὶ εἶπον αὐτῷ",
+              "note": "they approached Jesus privately and said to him (εἶπον = suppletive aor. of λέγω)",
+              "noteTranslations": {
+                "es": "se acercaron a Jesús en privado y le dijeron",
+                "pl": "prywatnie podeszli do Jezusa i powiedzieli mu",
+                "fil": "lumapit sila kay Jesus nang lihim at sinabi sa kanya"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "4. Aoristos irregulares (supleción) — temas completamente diferentes",
+            "pl": "4. Nieregularne aorysta (suplementacja) — zupełnie inne tematy",
+            "fil": "4. Mga irregular na aorist (suppletion) — ganap na iba ang stem"
+          },
+          "contentTranslations": {
+            "es": "Varios verbos griegos de alta frecuencia forman su aoristo desde una raíz completamente diferente. El Capítulo 10 presenta cuatro de los más importantes, y las notas al margen de la propia historia los marcan con cajas de paradigmas.",
+            "pl": "Kilka greckojęzycznych czasowników o wysokiej częstotliwości tworzy aoryst od zupełnie innego rdzenia. Rozdział 10 zawiera cztery z najważniejszych, a marginalia samej historii oznaczają je pudełkami paradygmatów.",
+            "fil": "Ilang mataas na dalas na Greek verb ang bumubuo ng kanilang aorist mula sa ganap na ibang ugat. Ang Kabanata 10 ay nagtatampok ng apat sa pinakamahalagang ito, at ang mga sideNote ng kwento mismo ay nagtatanda sa mga ito ng paradigm boxes."
+          }
+        },
+        {
+          "id": 5,
+          "heading": "5. ἡ ἀοριστικὴ προστακτική (Aorist Imperative) — a single completed command",
+          "content": "The aorist imperative (ἡ ἀοριστικὴ προστακτική) gives a command viewed as a single completed action — 'do it (once), get it done.' It contrasts with the present imperative, which commands ongoing or repeated action. The 2nd singular aorist imperative is formed by removing the augment from the aorist indicative and adding the appropriate ending. Suppletive verbs use their suppletive stems: λέγω → εἰπέ, φέρω → ἔνεγκε, ἔρχομαι → ἐλθέ.",
+          "table": {
+            "caption": "ἀοριστικὴ προστακτική — key forms from Ch10",
+            "headers": ["ἐνεστώς", "προστ. αʹ εν.", "προστ. βʹ πλ.", "σημαίνει"],
+            "rows": [
+              ["ἐγείρω", "ἔγειρε", "ἐγείρατε", "rise! get up!"],
+              ["λέγω", "εἰπέ", "εἴπατε", "say! tell!"],
+              ["φέρω", "ἔνεγκε", "ἐνέγκατε", "carry! bring!"],
+              ["ἔρχομαι", "ἐλθέ", "ἔλθατε", "come!"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "\"ἔγειρε, ὦ Πέτρε — καιρὸς ἐγείρεσθαι!\"",
+              "note": "rise, Peter — it is time to get up! (aorist imperative: single moment of action)",
+              "noteTranslations": {
+                "es": "¡levántate, Pedro! ¡es hora de levantarse!",
+                "pl": "wstań, Piotrze — czas wstać!",
+                "fil": "bumangon, Pedro — panahon na para gumising!"
+              }
+            },
+            {
+              "greek": "εἰπέ μοι, τί ἐστιν ἡ παραβολή;",
+              "note": "tell me, what is the parable? (εἰπέ = aor. impv. 2sg. of λέγω)",
+              "noteTranslations": {
+                "es": "dime, ¿qué es la parábola?",
+                "pl": "powiedz mi, czym jest ta przypowieść?",
+                "fil": "sabihin mo sa akin, ano ang talinghaga?"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "5. El imperativo aoristo — un mandato único y completado",
+            "pl": "5. Tryb rozkazujący aorystu — jeden zakończony rozkaz",
+            "fil": "5. Ang aorist imperative — isang natapos na utos"
+          },
+          "contentTranslations": {
+            "es": "El imperativo aoristo da una orden vista como una acción única completada — 'hazlo (una vez), termínalo.' Contrasta con el imperativo de presente, que ordena una acción continua o repetida.",
+            "pl": "Tryb rozkazujący aorystu wydaje polecenie postrzegane jako pojedyncza zakończona czynność — 'zrób to (raz), skończ.' Kontrastuje z trybem rozkazującym czasu teraźniejszego, który nakazuje czynność ciągłą lub powtarzającą się.",
+            "fil": "Ang aorist imperative ay nagbibigay ng utos na tinitingnan bilang isang natapos na kilos — 'gawin mo ito (isang beses), tapusin mo.' Ito ay kakaiba sa present imperative, na nag-uutos ng tuluy-tuloy o paulit-ulit na kilos."
+          }
+        }
+      ]
+    },
+    {
+      "label": "Μέρος Βʹ — Τὰ Ὦτα καὶ ἡ Καρδία",
+      "sections": [
+        {
+          "id": 6,
+          "heading": "6. ὁ ἀόριστος ἀπαρέμφατος (Aorist Infinitive) — μαθεῖν, φαγεῖν, εἰπεῖν",
+          "content": "The aorist infinitive (ὁ ἀόριστος ἀπαρέμφατος) expresses a single, complete action — 'to do (once)' — in contrast to the present infinitive, which expresses ongoing action — 'to be doing.' In Chapter 10, Peter says θέλω μαθεῖν (I want to learn [it, completely]) and βουλόμενος μαθεῖν (wishing to learn). The aorist infinitives from suppletive verbs must be learned separately: φαγεῖν (to eat, from ἐσθίω), μαθεῖν (to learn, from μανθάνω), εἰπεῖν (to say, from λέγω), ἐνεγκεῖν (to carry/bring, from φέρω).",
+          "table": {
+            "caption": "ἀόριστος ἀπαρέμφατος",
+            "headers": ["ἐνεστώς", "ἀπαρ. ἐνεστ.", "ἀπαρ. ἀορ.", "σημαίνει"],
+            "rows": [
+              ["ἐσθίω", "ἐσθίειν", "φαγεῖν", "to eat"],
+              ["μανθάνω", "μανθάνειν", "μαθεῖν", "to learn"],
+              ["λέγω", "λέγειν", "εἰπεῖν", "to say"],
+              ["φέρω", "φέρειν", "ἐνεγκεῖν", "to carry"],
+              ["τρέχω", "τρέχειν", "δραμεῖν", "to run"],
+              ["ἔρχομαι", "ἔρχεσθαι", "ἐλθεῖν", "to come"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "βουλόμενος μαθεῖν ὁ Πέτρος λέγει· θέλω μαθεῖν τὴν παραβολήν",
+              "note": "wishing to learn, Peter says: I want to learn the parable (aorist inf. = learn it completely, once)",
+              "noteTranslations": {
+                "es": "queriendo aprender, Pedro dice: quiero aprender la parábola",
+                "pl": "chcąc się nauczyć, Piotr mówi: chcę nauczyć się tej przypowieści",
+                "fil": "gustong matuto si Pedro, nagsabi: gusto kong matuto ng talinghaga"
+              }
+            },
+            {
+              "greek": "τὰ πετεινὰ ζητεῖ φαγεῖν",
+              "note": "the birds seek to eat (aorist inf. φαγεῖν = ἐσθίω)",
+              "noteTranslations": {
+                "es": "las aves buscan comer",
+                "pl": "ptaki szukają czegoś do jedzenia",
+                "fil": "hinahanap ng mga ibon ang makakain"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "6. El infinitivo aoristo — μαθεῖν, φαγεῖν, εἰπεῖν",
+            "pl": "6. Bezokolicznik aorystu — μαθεῖν, φαγεῖν, εἰπεῖν",
+            "fil": "6. Ang aorist infinitive — μαθεῖν, φαγεῖν, εἰπεῖν"
+          },
+          "contentTranslations": {
+            "es": "El infinitivo aoristo expresa una acción única y completa — 'hacer (una vez)' — en contraste con el infinitivo de presente, que expresa acción continua — 'estar haciendo.'",
+            "pl": "Bezokolicznik aorystu wyraża pojedynczą, zakończoną czynność — 'zrobić (raz)' — w przeciwieństwie do bezokolicznika czasu teraźniejszego, który wyraża czynność ciągłą — 'robić.'",
+            "fil": "Ang aorist infinitive ay nagpapahayag ng isang natapos na kilos — 'gawin (isang beses)' — kakaiba sa present infinitive, na nagpapahayag ng tuluy-tuloy na kilos — 'ginagawa.'"
+          }
+        },
+        {
+          "id": 7,
+          "heading": "7. ἵνα + ὑποτακτική (Purpose Clause) — 'in order that, so that'",
+          "content": "ἵνα (in order that, so that) introduces a purpose clause and takes the subjunctive mood (ἡ ὑποτακτική). The subjunctive is formed from the present stem with lengthened thematic vowel: present -ω → subj. -ω/-ῃ/-ῃ/-ωμεν/-ητε/-ωσιν (indicative uses short -ο-/-ε-; subjunctive uses long -ω-/-η-). In Ch10, αὐταὶ παρεγένοντο ἵνα διαλέγωνται (they came so that they might converse). The subjunctive here is present, expressing ongoing purpose.",
+          "examples": [
+            {
+              "greek": "πολλάκις αὐταὶ παρεγένοντο ἵνα διαλέγωνται",
+              "note": "they often came so that they might converse (ἵνα + present subj. 3pl.)",
+              "noteTranslations": {
+                "es": "a menudo venían para conversar",
+                "pl": "często przychodziły, żeby rozmawiać",
+                "fil": "madalas silang pumunta para makipag-usap"
+              }
+            },
+            {
+              "greek": "ὁ γεωργὸς σπείρει ἵνα καρπὸν φέρῃ",
+              "note": "the farmer sows so that he may bear fruit (ἵνα + present subj. 3sg.)",
+              "noteTranslations": {
+                "es": "el agricultor siembra para dar fruto",
+                "pl": "rolnik sieje, aby przynosić owoc",
+                "fil": "naghahasik ang magsasaka para mamunga"
+              }
+            },
+            {
+              "greek": "ὁ Ἰησοῦς λαλεῖ ἐν παραβολαῖς ἵνα βλέποντες μὴ ἴδωσιν",
+              "note": "Jesus speaks in parables so that seeing they might not see (ἵνα + aorist subj.)",
+              "noteTranslations": {
+                "es": "Jesús habla en parábolas para que viendo no vean",
+                "pl": "Jezus mówi w przypowieściach, aby patrząc nie widzieli",
+                "fil": "nagsasalita si Jesus sa pamamagitan ng mga talinghaga para sa pagmamasid ay hindi nila makita"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "7. ἵνα + subjuntivo — cláusula de propósito ('para que, a fin de que')",
+            "pl": "7. ἵνα + tryb łączący — zdanie celowe ('żeby, aby')",
+            "fil": "7. ἵνα + subjunctive — purpose clause ('upang, para')"
+          },
+          "contentTranslations": {
+            "es": "ἵνα («para que, a fin de que») introduce una cláusula de propósito y lleva el modo subjuntivo. El subjuntivo se forma a partir del tema del presente con la vocal temática alargada.",
+            "pl": "ἵνα («żeby, aby») wprowadza zdanie celowe i wymaga trybu łączącego. Tryb łączący tworzy się od tematu czasu teraźniejszego z wydłużoną samogłoską tematyczną.",
+            "fil": "Ang ἵνα ('upang, para') ay nagpapakilala ng purpose clause at gumagamit ng subjunctive mood. Ang subjunctive ay binuo mula sa present stem na may pinalahang thematic vowel."
+          }
+        },
+        {
+          "id": 8,
+          "heading": "8. ἡ παραβολὴ τοῦ σπείροντος (Parable of the Sower) — Matthew 13 vocabulary",
+          "content": "Chapter 10 retells the Parable of the Sower (Mt 13:3–23) through James explaining it to Peter. The parable uses four types of soil to describe how different hearts receive the word. Learning this vocabulary directly from the Greek connects the curriculum story to the New Testament text it is preparing students to read.",
+          "table": {
+            "caption": "παραβολὴ τοῦ σπείροντος — vocabulary",
+            "headers": ["ἡ λέξις", "ἡ μορφή", "σημαίνει"],
+            "rows": [
+              ["ὁ σπείρων", "pres.act.ptc. of σπείρω", "the sower, the one sowing"],
+              ["ὁ σπόρος, -ου", "2nd decl. masc.", "seed, act of sowing"],
+              ["ἡ ὁδός, -οῦ", "2nd decl. fem.", "road, path, way"],
+              ["ἡ πέτρα, -ας", "1st decl. fem.", "rock, rocky ground"],
+              ["αἱ ἄκανθαι, -ῶν", "1st decl. fem. pl.", "thorns, thorn-bushes"],
+              ["ἡ γῆ ἡ καλή", "1st decl. fem.", "the good soil"],
+              ["καρποφορέω, -ῶ", "contracted verb", "I bear fruit, am fruitful"],
+              ["ἡ βασιλεία, -ας", "1st decl. fem.", "kingdom, reign"],
+              ["ἡ καρδία, -ας", "1st decl. fem.", "heart (the inward person)"],
+              ["τὸ οὖς, ὠτός", "3rd decl. neut. irreg.", "ear (pl. τὰ ὦτα)"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ἐξῆλθεν ὁ σπείρων τοῦ σπεῖραι",
+              "note": "the sower went out to sow (τοῦ + inf. = purpose: 'for the purpose of sowing')",
+              "noteTranslations": {
+                "es": "salió el sembrador a sembrar",
+                "pl": "wyszedł siewca siać",
+                "fil": "lumabas ang manghahasik para maghasik"
+              }
+            },
+            {
+              "greek": "ὁ δὲ εἰς τὴν καλὴν γῆν σπαρείς, οὗτός ἐστιν ὁ τὸν λόγον ἀκούων καὶ συνιείς",
+              "note": "but the one sown on the good soil, this is the one hearing and understanding the word",
+              "noteTranslations": {
+                "es": "pero el sembrado en buena tierra, este es el que oye y entiende la palabra",
+                "pl": "ten zaś posiany na dobrej ziemi to ten, który słyszy słowo i rozumie",
+                "fil": "ngunit ang itinatanim sa mabuting lupa, siya ang nakikinig at nakauunawa ng salita"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "8. La parábola del sembrador — vocabulario de Mateo 13",
+            "pl": "8. Przypowieść o siewcy — słownictwo z Mateusza 13",
+            "fil": "8. Ang talinghaga ng manghahasik — bokabularyo ng Mateo 13"
+          },
+          "contentTranslations": {
+            "es": "El Capítulo 10 vuelve a contar la Parábola del Sembrador (Mt 13:3–23) a través de Jacob explicándola a Pedro. La parábola usa cuatro tipos de suelo para describir cómo diferentes corazones reciben la palabra.",
+            "pl": "Rozdział 10 opowiada na nowo Przypowieść o siewcy (Mt 13:3–23) poprzez Jakuba wyjaśniającego ją Piotrowi. Przypowieść używa czterech rodzajów gleby, aby opisać, jak różne serca przyjmują słowo.",
+            "fil": "Muling ikinukwento ng Kabanata 10 ang Talinghaga ng Manghahasik (Mt 13:3–23) sa pamamagitan ni Jacob na ipinaliliwanag ito kay Pedro. Ang talinghaga ay gumagamit ng apat na uri ng lupa upang ilarawan kung paano tumatanggap ng salita ang iba't ibang puso."
+          }
+        },
+        {
+          "id": 9,
+          "heading": "9. τὰ μυστήρια τῆς βασιλείας — kingdom vocabulary and δίδοται (present passive)",
+          "content": "Jesus's answer in Part B introduces two key theological terms: ἡ βασιλεία τῶν οὐρανῶν (the kingdom of the heavens) and τὰ μυστήρια (mysteries, secret things). The form δίδοται (it is given) is present passive indicative of δίδωμι — the μι-verb learned in Ch6. The passive voice (ἡ παθητικὴ διάθεσις) here expresses divine action without naming the agent: understanding the kingdom is given, not earned.",
+          "examples": [
+            {
+              "greek": "ὑμῖν δίδοται γινώσκειν τὰ μυστήρια τῆς βασιλείας τῶν οὐρανῶν",
+              "note": "to you it is given to know the mysteries of the kingdom of the heavens (Mt 13:11)",
+              "noteTranslations": {
+                "es": "a vosotros os es dado conocer los misterios del reino de los cielos",
+                "pl": "wam dano poznać tajemnice królestwa niebios",
+                "fil": "sa inyo ay ibinibigay na makilala ang mga hiwaga ng kaharian ng mga langit"
+              }
+            },
+            {
+              "greek": "ἐκείνοις δὲ οὐ δίδοται",
+              "note": "but to those it is not given (δίδοται = pres.pass.ind.3sg. of δίδωμι, μι-verb)",
+              "noteTranslations": {
+                "es": "pero a aquellos no les es dado",
+                "pl": "a tym nie jest dane",
+                "fil": "ngunit sa kanila ay hindi ibinibigay"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "9. Los misterios del reino — vocabulario del reino y δίδοται (presente pasivo)",
+            "pl": "9. Tajemnice królestwa — słownictwo królestwa i δίδοται (strona bierna czasu teraźniejszego)",
+            "fil": "9. Ang mga hiwaga ng kaharian — bokabularyo ng kaharian at δίδοται (present passive)"
+          },
+          "contentTranslations": {
+            "es": "La respuesta de Jesús en la Parte B introduce dos términos teológicos clave: ἡ βασιλεία τῶν οὐρανῶν (el reino de los cielos) y τὰ μυστήρια (misterios). δίδοται es presente pasivo de δίδωμι.",
+            "pl": "Odpowiedź Jezusa w części B wprowadza dwa kluczowe terminy teologiczne: ἡ βασιλεία τῶν οὐρανῶν (królestwo niebios) i τὰ μυστήρια (tajemnice). δίδοται to strona bierna czasu teraźniejszego od δίδωμι.",
+            "fil": "Ang sagot ni Jesus sa Bahagi B ay nagpapakilala ng dalawang pangunahing teolohikal na termino: ἡ βασιλεία τῶν οὐρανῶν (ang kaharian ng mga langit) at τὰ μυστήρια (mga hiwaga). Ang δίδοται ay present passive ng δίδωμι."
+          }
+        },
+        {
+          "id": 10,
+          "heading": "10. ἐκεῖνος vs. οὗτος — the demonstrative pronouns revisited",
+          "content": "Two demonstrative pronouns run through Chapter 10's parable explanation. οὗτος (this, the near one) points to what is close at hand; ἐκεῖνος (that, the far one) points to what is distant or contrasted. In the Jesus quotation, ὑμῖν δίδοται … ἐκείνοις δὲ οὐ δίδοται (to you it is given … but to those it is not given) uses ἐκεῖνος to mark the contrasted outsiders. Both pronouns follow 2nd/1st declension patterns with a τ- in most oblique forms.",
+          "table": {
+            "caption": "οὗτος vs. ἐκεῖνος — nominative forms",
+            "headers": ["", "ἀρσενικόν (masc.)", "θηλυκόν (fem.)", "οὐδέτερον (neut.)"],
+            "rows": [
+              ["οὗτος sg.", "οὗτος", "αὕτη", "τοῦτο"],
+              ["οὗτος pl.", "οὗτοι", "αὗται", "ταῦτα"],
+              ["ἐκεῖνος sg.", "ἐκεῖνος", "ἐκείνη", "ἐκεῖνο"],
+              ["ἐκεῖνος pl.", "ἐκεῖνοι", "ἐκεῖναι", "ἐκεῖνα"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "οὗτός ἐστιν ὁ τὸν λόγον ἀκούων καὶ συνιείς",
+              "note": "this is the one hearing and understanding the word (οὗτος = near, identifying)",
+              "noteTranslations": {
+                "es": "este es el que oye y entiende la palabra",
+                "pl": "ten jest tym, który słyszy i rozumie słowo",
+                "fil": "siya ito ang nakikinig at nakauunawa ng salita"
+              }
+            },
+            {
+              "greek": "ὑμῖν δίδοται — ἐκείνοις δὲ οὐ δίδοται",
+              "note": "to you it is given — but to those (others) it is not given (ἐκεῖνος = far, contrasting)",
+              "noteTranslations": {
+                "es": "a vosotros os es dado — pero a aquellos no",
+                "pl": "wam jest dane — a tym nie jest dane",
+                "fil": "sa inyo ay ibinibigay — ngunit sa kanila ay hindi ibinibigay"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "10. ἐκεῖνος vs. οὗτος — los pronombres demostrativos revisados",
+            "pl": "10. ἐκεῖνος vs. οὗτος — zaimki wskazujące ponownie",
+            "fil": "10. ἐκεῖνος vs. οὗτος — ang mga demonstrative pronoun muli"
+          },
+          "contentTranslations": {
+            "es": "Dos pronombres demostrativos recorren la explicación de la parábola del Capítulo 10. οὗτος (este, el cercano) señala lo que está a mano; ἐκεῖνος (aquel, el lejano) señala lo que es distante o contrastado.",
+            "pl": "Dwa zaimki wskazujące przewijają się przez wyjaśnienie przypowieści w rozdziale 10. οὗτος (ten bliski) wskazuje to, co jest pod ręką; ἐκεῖνος (tamten daleki) wskazuje to, co jest odległe lub skontrastowane.",
+            "fil": "Dalawang demonstrative pronoun ang tumatakbo sa paliwanag ng talinghaga ng Kabanata 10. Ang οὗτος (ito, ang malapit) ay tumuturo sa kung ano ang nasa kamay; ang ἐκεῖνος (iyon, ang malayo) ay tumuturo sa kung ano ang malayo o kakaiba."
+          }
+        }
+      ]
+    }
+  ]
+}
