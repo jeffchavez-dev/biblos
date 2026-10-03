@@ -97,7 +97,12 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
     const exact = {}   // NFD lowercase, punctuation stripped, diacritics KEPT → entry
     for (const entry of source) {
       // Index all comma-separated forms (e.g. εἷς, μία, ἕν each become keys)
-      const forms = entry.greek.split(/,\s*/).map(f => f.trim().split(/\s/)[0]).filter(Boolean)
+      // When a group starts with an article (ὁ/ἡ/τό/τὸ), use the second token as the key
+      const ARTICLES = new Set(['ὁ', 'ἡ', 'τό', 'τὸ'])
+      const forms = entry.greek.split(/,\s*/).map(f => {
+        const tokens = f.trim().split(/\s+/)
+        return (ARTICLES.has(tokens[0]) && tokens[1]) ? tokens[1] : tokens[0]
+      }).filter(Boolean)
       for (const form of forms) {
         const exactKey = form.normalize('NFD').toLowerCase().replace(/[^\p{L}]/gu, '')
         if (!exact[exactKey]) exact[exactKey] = entry
