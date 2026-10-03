@@ -347,7 +347,7 @@
   {
     "id": 24,
     "part": "A",
-    "greek": "παραγίνομαι",
+    "greek": "παραγίνομαι, παρεγένοντο",
     "transliteration": "paraginomai",
     "definition": "I come, I arrive, I appear",
     "translations": {
@@ -362,7 +362,7 @@
   {
     "id": 25,
     "part": "A",
-    "greek": "ἐπανέρχομαι",
+    "greek": "ἐπανέρχομαι, ἐπανῆλθον",
     "transliteration": "epanerchomai",
     "definition": "I return, I come back",
     "translations": {
