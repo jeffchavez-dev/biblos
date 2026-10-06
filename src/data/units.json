@@ -278,6 +278,24 @@
             "subtitle": "Τὰ Ὦτα καὶ ἡ Καρδία"
           }
         ]
+      },
+      {
+        "id": 11,
+        "title": "Κεφάλαιον ΙΑʹ",
+        "subtitle": "Αἱ Παραβολαί — The Parables",
+        "translations": {
+          "es": "Αἱ Παραβολαί — Las Parábolas",
+          "pl": "Αἱ Παραβολαί — Przypowieści",
+          "fil": "Αἱ Παραβολαί — Ang mga Talinghaga"
+        },
+        "locked": false,
+        "parts": [
+          {
+            "id": "A",
+            "label": "Μέρος Αʹ",
+            "subtitle": "Ἡ Παραβολὴ τῶν Ἀγρῶν"
+          }
+        ]
       }
     ]
   }
