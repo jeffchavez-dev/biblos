@@ -5,7 +5,20 @@
     {
       "id": 1,
       "label": "Μέρος Αʹ — Ἡ Παραβολὴ τῶν Ἀγρῶν (Part A — The Parable of the Fields)",
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "πραΰτητος",
+          "lemma": "ἡ πραΰτης",
+          "means": "πρᾶος · meek, gentle"
+        },
+        {
+          "type": "construction",
+          "title": "μὴ μόνον ἄκουε — ἀλλὰ ποίει",
+          "phrase": "μὴ μόνον ἄκουε τὸν λόγον, ἀλλὰ ποίει αὐτόν",
+          "means": "Ἰακώβου αʹ:κβ — γίνεσθε ποιηταὶ λόγου καὶ μὴ μόνον ἀκροαταί · be doers of the word"
+        }
+      ],
       "words": [
         {
           "greek": "ὁ",
@@ -283,7 +296,25 @@
     },
     {
       "id": 4,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "βάθος",
+          "lemma": "τὸ βάθος",
+          "means": "βαθύς · deep · ↔ ὕψος"
+        },
+        {
+          "type": "word",
+          "word": "φρόνιμος",
+          "means": "σοφός, νοήμων · wise, sensible"
+        },
+        {
+          "type": "construction",
+          "title": "Ματθαίου Ζʹ:κδ–κζ",
+          "phrase": "πᾶς ὁ ἀκούων … ὁμοιωθήσεται ἀνδρὶ φρονίμῳ",
+          "means": "Ματθαίου Ζʹ:κδ–κζ — the parable of the two builders"
+        }
+      ],
       "words": [
         {
           "greek": "εἶπεν",
@@ -461,7 +492,23 @@
     },
     {
       "id": 5,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "antonym",
+          "pairs": [
+            {
+              "a": "φρόνιμος",
+              "b": "μωρός"
+            }
+          ]
+        },
+        {
+          "type": "word",
+          "word": "πτῶσις",
+          "lemma": "ἡ πτῶσις",
+          "means": "πίπτω → ἡ πτῶσις · the fall, ruin"
+        }
+      ],
       "words": [
         {
           "greek": "ὁ",
@@ -711,7 +758,14 @@
     },
     {
       "id": 8,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "ὑπολαβών",
+          "lemma": "ὑπολαμβάνω",
+          "means": "τῶν ἄλλων λεγόντων ἐγὼ εὐθὺς λέγω ἐν μέσῳ · to take up, answer"
+        }
+      ],
       "words": [
         {
           "greek": "ὑπολαβὼν",
@@ -843,7 +897,19 @@
     },
     {
       "id": 12,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "προσέχετε",
+          "phrase": "προσέχετε",
+          "means": "πρός + ἔχω → φέρω τὸν νοῦν πρός τι · pay attention, take heed"
+        },
+        {
+          "type": "word",
+          "word": "ἀμφότεροι",
+          "means": "οἱ δύο · both"
+        }
+      ],
       "words": [
         {
           "greek": "“συνήκατε",
@@ -1213,7 +1279,14 @@
     },
     {
       "id": 17,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "γενική ἀπόλυτος",
+          "phrase": "τοῦ ἡλίου λάμποντος ἐπὶ τὸν ἀγρόν",
+          "means": "γενική + μετοχή = genitive absolute · the sun shining — a clause without a main-verb subject"
+        }
+      ],
       "words": [
         {
           "greek": "ἐν",
@@ -1311,7 +1384,31 @@
     },
     {
       "id": 18,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "antonym",
+          "pairs": [
+            {
+              "a": "πολύς",
+              "b": "ὀλίγος"
+            }
+          ]
+        },
+        {
+          "type": "paradigm",
+          "title": "δίδωμι (προστακτική ἀορίστου)",
+          "rows": [
+            {
+              "label": "2 ἑνικόν",
+              "greek": "δός"
+            },
+            {
+              "label": "2 πληθυντικόν",
+              "greek": "δότε"
+            }
+          ]
+        }
+      ],
       "words": [
         {
           "greek": "“πάτερ,",
@@ -1365,7 +1462,14 @@
     },
     {
       "id": 19,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "μείζων",
+          "lemma": "μέγας",
+          "means": "μέγας → μείζων (συγκριτικόν) · greater, older"
+        }
+      ],
       "words": [
         {
           "greek": "ὁ",
@@ -1445,7 +1549,14 @@
     },
     {
       "id": 21,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "καταφαγεῖν",
+          "lemma": "κατεσθίω",
+          "means": "κατά + ἐσθίω · to devour, eat up entirely"
+        }
+      ],
       "words": [
         {
           "greek": "ὁ",
@@ -1729,7 +1840,48 @@
     },
     {
       "id": 25,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "αὐτομάτη",
+          "means": "αὐτὴ καὶ μόνη · by itself, spontaneously"
+        },
+        {
+          "type": "word",
+          "word": "καρποφορεῖ",
+          "means": "καρπός + φέρω · bears fruit"
+        },
+        {
+          "type": "paradigm",
+          "title": "οἶδα (ἐνεστώς)",
+          "rows": [
+            {
+              "label": "1 ἑνικόν",
+              "greek": "οἶδα"
+            },
+            {
+              "label": "2 ἑνικόν",
+              "greek": "οἶδας"
+            },
+            {
+              "label": "3 ἑνικόν",
+              "greek": "οἶδεν"
+            },
+            {
+              "label": "1 πληθυντικόν",
+              "greek": "οἴδαμεν"
+            },
+            {
+              "label": "2 πληθυντικόν",
+              "greek": "οἴδατε"
+            },
+            {
+              "label": "3 πληθυντικόν",
+              "greek": "οἴδασιν"
+            }
+          ]
+        }
+      ],
       "words": [
         {
           "greek": "“ἄκουε·",
@@ -2049,7 +2201,14 @@
     },
     {
       "id": 27,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "ἡμεῖς σπείρομεν — ὁ θεὸς αὐξάνει",
+          "phrase": "ἡμεῖς βάλλοντες τὸν σπόρον καθεύδομεν, ὁ δὲ θεὸς αὐξάνει",
+          "means": "αʹ Κορ. Γʹ:Ϛ — ἐγὼ ἐφύτευσα, Ἀπολλὼς ἐπότισεν, ἀλλὰ ὁ θεὸς ηὔξανεν"
+        }
+      ],
       "words": [
         {
           "greek": "“οὐκ",
@@ -2299,7 +2458,19 @@
     },
     {
       "id": 32,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "σινάπεως",
+          "lemma": "τὸ σίναπι",
+          "means": "φυτὸν μικρὸν ποιοῦν σπέρματα · mustard plant"
+        },
+        {
+          "type": "word",
+          "word": "κατασκηνοῦν",
+          "means": "κατά + σκηνή → to dwell, to nest"
+        }
+      ],
       "words": [
         {
           "greek": "“ὁ",
@@ -2517,7 +2688,14 @@
     },
     {
       "id": 33,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "ζιζάνια",
+          "lemma": "τὸ ζιζάνιον",
+          "means": "κακὸν σπέρμα ἐν μέσῳ τοῦ σίτου · darnel, weeds (look like wheat while growing)"
+        }
+      ],
       "words": [
         {
           "greek": "ὁ",
@@ -2725,7 +2903,19 @@
     },
     {
       "id": 35,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "ἐν τῷ καθεύδειν",
+          "phrase": "ἐν τῷ καθεύδειν τοὺς ἀνθρώπους",
+          "means": "ἐν τῷ + ἀπαρέμφατος = articular infinitive · while the people were sleeping"
+        },
+        {
+          "type": "word",
+          "word": "οἰκοδεσπότης",
+          "means": "οἶκος + δεσπότης · master of the house"
+        }
+      ],
       "words": [
         {
           "greek": "ὁμοία",
@@ -3027,7 +3217,20 @@
     },
     {
       "id": 38,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "ἐργάταις",
+          "lemma": "ὁ ἐργάτης",
+          "means": "ὁ ἐν τῷ ἀγρῷ ἐργαζόμενος · laborer, worker"
+        },
+        {
+          "type": "word",
+          "word": "ἀποθήκην",
+          "lemma": "ἡ ἀποθήκη",
+          "means": "ἀπό + τίθημι → ὅπου τις ἀποτίθεται τὰ ἀγαθά · storehouse, barn"
+        }
+      ],
       "words": [
         {
           "greek": "ὁ",
@@ -3331,7 +3534,25 @@
     },
     {
       "id": 42,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "κατ᾽ ἰδίαν",
+          "phrase": "κατ᾽ ἰδίαν ἤκουον αὐτοῦ ἐξηγουμένου",
+          "means": "ἴδιος, -α, -ον = one's own · κατ᾽ ἰδίαν = ἄνευ τῶν ἄλλων · privately"
+        },
+        {
+          "type": "word",
+          "word": "ἀνομίαν",
+          "lemma": "ἡ ἀνομία",
+          "means": "ἀ- + νόμος · lawlessness, breaking of the law"
+        },
+        {
+          "type": "word",
+          "word": "συντέλεια",
+          "means": "ἡ τελευτή, τὸ τέλος · completion, end of the age"
+        }
+      ],
       "words": [
         {
           "greek": "“οὐδὲ",
@@ -3911,7 +4132,14 @@
     },
     {
       "id": 44,
-      "sideNotes": [],
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "κἀγώ (κρᾶσις)",
+          "phrase": "κἀγώ",
+          "means": "καὶ + ἐγώ = κἀγώ · crasis — two words joined into one"
+        }
+      ],
       "words": [
         {
           "greek": "ὁ",
