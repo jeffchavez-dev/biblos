@@ -1,1 +1,277 @@
-[]
+[
+  {
+    "id": 1,
+    "part": "A",
+    "greek": "φρόνιμος, -η, -ον",
+    "transliteration": "phronimos",
+    "definition": "wise, sensible, prudent",
+    "translations": { "es": "prudente, sabio", "pl": "mądry, roztropny", "fil": "matalino, matino" },
+    "partOfSpeech": "adjective (2-1-2 decl.)",
+    "image": null,
+    "strongsNum": "G5429"
+  },
+  {
+    "id": 2,
+    "part": "A",
+    "greek": "μωρός, -ά, -όν",
+    "transliteration": "mōros",
+    "definition": "foolish, stupid",
+    "translations": { "es": "necio, tonto", "pl": "głupi", "fil": "hangal, tanga" },
+    "partOfSpeech": "adjective (2-1-2 decl.)",
+    "image": null,
+    "strongsNum": "G3474"
+  },
+  {
+    "id": 3,
+    "part": "A",
+    "greek": "ἡ βροχή, -ῆς",
+    "transliteration": "hē brochē",
+    "definition": "rain",
+    "translations": { "es": "lluvia", "pl": "deszcz", "fil": "ulan" },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G1028"
+  },
+  {
+    "id": 4,
+    "part": "A",
+    "greek": "τὸ βάθος, -ους",
+    "transliteration": "to bathos",
+    "definition": "depth",
+    "translations": { "es": "profundidad", "pl": "głębokość", "fil": "kalaliman" },
+    "partOfSpeech": "noun (neuter, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G899"
+  },
+  {
+    "id": 5,
+    "part": "A",
+    "greek": "ὁ θεμέλιος, -ου",
+    "transliteration": "ho themelios",
+    "definition": "foundation",
+    "translations": { "es": "fundamento", "pl": "fundament", "fil": "pundasyon" },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G2310"
+  },
+  {
+    "id": 6,
+    "part": "A",
+    "greek": "ἡ ἄμμος, -ου",
+    "transliteration": "hē ammos",
+    "definition": "sand",
+    "translations": { "es": "arena", "pl": "piasek", "fil": "buhangin" },
+    "partOfSpeech": "noun (feminine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G285"
+  },
+  {
+    "id": 7,
+    "part": "A",
+    "greek": "ἡ πτῶσις, -εως",
+    "transliteration": "hē ptōsis",
+    "definition": "fall, ruin, collapse",
+    "translations": { "es": "caída, ruina", "pl": "upadek, ruina", "fil": "pagbagsak, pagkawasak" },
+    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G4431"
+  },
+  {
+    "id": 8,
+    "part": "A",
+    "greek": "ὁ κόκκος, -ου",
+    "transliteration": "ho kokkos",
+    "definition": "grain, kernel, seed",
+    "translations": { "es": "grano, semilla", "pl": "ziarno", "fil": "butil, binhi" },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G2848"
+  },
+  {
+    "id": 9,
+    "part": "A",
+    "greek": "ὁ στάχυς, -υος",
+    "transliteration": "ho stachys",
+    "definition": "ear of grain, head of wheat",
+    "translations": { "es": "espiga", "pl": "kłos", "fil": "uhay" },
+    "partOfSpeech": "noun (masculine, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G4719"
+  },
+  {
+    "id": 10,
+    "part": "A",
+    "greek": "ὁ θερισμός, -οῦ",
+    "transliteration": "ho therismos",
+    "definition": "harvest, reaping",
+    "translations": { "es": "cosecha", "pl": "żniwo, zbiory", "fil": "anihan, pag-aani" },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G2326"
+  },
+  {
+    "id": 11,
+    "part": "A",
+    "greek": "τὸ σίναπι, -εως",
+    "transliteration": "to sinapi",
+    "definition": "mustard (plant or seed)",
+    "translations": { "es": "mostaza", "pl": "gorczyca", "fil": "mustasa" },
+    "partOfSpeech": "noun (neuter, 3rd decl.)",
+    "image": null,
+    "strongsNum": "G4615"
+  },
+  {
+    "id": 12,
+    "part": "A",
+    "greek": "τὸ ζιζάνιον, -ου",
+    "transliteration": "to zizanion",
+    "definition": "darnel, tares (a weed resembling wheat)",
+    "translations": { "es": "cizaña", "pl": "kąkol", "fil": "damo (sukat-palay)" },
+    "partOfSpeech": "noun (neuter, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G2215"
+  },
+  {
+    "id": 13,
+    "part": "A",
+    "greek": "ὁ ἐχθρός, -οῦ",
+    "transliteration": "ho echthros",
+    "definition": "enemy, foe",
+    "translations": { "es": "enemigo", "pl": "wróg, nieprzyjaciel", "fil": "kaaway, kalaban" },
+    "partOfSpeech": "noun (masculine, 2nd decl.) / adjective",
+    "image": null,
+    "strongsNum": "G2190"
+  },
+  {
+    "id": 14,
+    "part": "A",
+    "greek": "ἡ ἀνομία, -ας",
+    "transliteration": "hē anomia",
+    "definition": "lawlessness, iniquity, violation of the law",
+    "translations": { "es": "iniquidad, maldad", "pl": "bezprawie, nieprawość", "fil": "kasamaan, paglabag sa batas" },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G458"
+  },
+  {
+    "id": 15,
+    "part": "A",
+    "greek": "ἡ συντέλεια, -ας",
+    "transliteration": "hē synteleia",
+    "definition": "completion, consummation, end of the age",
+    "translations": { "es": "consumación, fin del siglo", "pl": "dopełnienie, koniec", "fil": "katapusan ng panahon" },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G4930"
+  },
+  {
+    "id": 16,
+    "part": "A",
+    "greek": "τὸ σκάνδαλον, -ου",
+    "transliteration": "to skandalon",
+    "definition": "stumbling block, offense, cause of sin",
+    "translations": { "es": "escándalo, tropiezo", "pl": "zgorszenie, kamień obrazy", "fil": "tukso, dahilan ng pagkakasala" },
+    "partOfSpeech": "noun (neuter, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G4625"
+  },
+  {
+    "id": 17,
+    "part": "A",
+    "greek": "ἡ κάμινος, -ου",
+    "transliteration": "hē kaminos",
+    "definition": "furnace, oven",
+    "translations": { "es": "horno", "pl": "piec", "fil": "pugon, hurno" },
+    "partOfSpeech": "noun (feminine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G2575"
+  },
+  {
+    "id": 18,
+    "part": "A",
+    "greek": "ὁ ἄγγελος, -ου",
+    "transliteration": "ho angelos",
+    "definition": "angel, messenger",
+    "translations": { "es": "ángel, mensajero", "pl": "anioł, posłaniec", "fil": "anghel, sugo" },
+    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "image": null,
+    "strongsNum": "G32"
+  },
+  {
+    "id": 19,
+    "part": "A",
+    "greek": "ὁ οἰκοδεσπότης, -ου",
+    "transliteration": "ho oikodespotēs",
+    "definition": "master of the house, householder",
+    "translations": { "es": "dueño de casa, señor de la casa", "pl": "gospodarz, pan domu", "fil": "panginoon ng tahanan" },
+    "partOfSpeech": "noun (masculine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G3617"
+  },
+  {
+    "id": 20,
+    "part": "A",
+    "greek": "ἡ ἀποθήκη, -ης",
+    "transliteration": "hē apothēkē",
+    "definition": "storehouse, barn, granary",
+    "translations": { "es": "granero, almacén", "pl": "stodoła, spichlerz", "fil": "kamalig, bodega" },
+    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "image": null,
+    "strongsNum": "G596"
+  },
+  {
+    "id": 21,
+    "part": "A",
+    "greek": "βλαστάω",
+    "transliteration": "blastaō",
+    "definition": "to sprout, to bud, to grow",
+    "translations": { "es": "brotar, germinar", "pl": "kiełkować, wschodzić", "fil": "sumibol, tumubo" },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G985"
+  },
+  {
+    "id": 22,
+    "part": "A",
+    "greek": "ἐκβάλλω",
+    "transliteration": "ekballō",
+    "definition": "to cast out, throw out, drive out",
+    "translations": { "es": "echar fuera, expulsar", "pl": "wyrzucać, wypędzać", "fil": "itapon, palayasin" },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G1544"
+  },
+  {
+    "id": 23,
+    "part": "A",
+    "greek": "αὐτόματος, -η, -ον",
+    "transliteration": "automatos",
+    "definition": "by itself, spontaneously, of its own accord",
+    "translations": { "es": "por sí mismo, espontáneamente", "pl": "samoistnie, samo z siebie", "fil": "kusa, sa sarili" },
+    "partOfSpeech": "adjective (2-1-2 decl.)",
+    "image": null,
+    "strongsNum": "G844"
+  },
+  {
+    "id": 24,
+    "part": "A",
+    "greek": "πλήρης, -ες",
+    "transliteration": "plērēs",
+    "definition": "full, filled, complete",
+    "translations": { "es": "lleno, pleno", "pl": "pełny", "fil": "puno" },
+    "partOfSpeech": "adjective (3rd decl.)",
+    "image": null,
+    "strongsNum": "G4134"
+  },
+  {
+    "id": 25,
+    "part": "A",
+    "greek": "ἅμα",
+    "transliteration": "hama",
+    "definition": "together with, at the same time",
+    "translations": { "es": "al mismo tiempo, juntamente", "pl": "razem, jednocześnie", "fil": "sabay, kasabay" },
+    "partOfSpeech": "adverb / preposition (+ dat.)",
+    "image": null,
+    "strongsNum": "G260"
+  }
+]
