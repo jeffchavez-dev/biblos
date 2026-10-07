@@ -1,1 +1,366 @@
-[]
+{
+  "title": "Γραμματική — Κεφάλαιον ΙΑʹ (The Parables)",
+  "parts": [
+    {
+      "label": "Μέρος Αʹ — Ἡ Παραβολὴ τῶν Ἀγρῶν",
+      "sections": [
+        {
+          "id": 1,
+          "heading": "1. ἡ γενικὴ ἀπόλυτος μετὰ ἐνεστῶτος (Genitive Absolute with Present Participle)",
+          "content": "The genitive absolute (ἡ γενικὴ ἀπόλυτος) is a participial phrase that stands grammatically apart from the main clause — its subject is not the subject of the main verb. Chapter 9 introduced this construction with the imperfect; Chapter 11 features it with the present participle. The subject of the absolute phrase is in the genitive, and the participle agrees with it in gender, number, and case. In τοῦ ἡλίου λάμποντος ἐπὶ τὸν ἀγρόν (the sun shining upon the field), ἥλιος is not the subject of the main clause — James is. The phrase sets a background circumstance: 'while the sun was shining.' The present participle in this construction always expresses action simultaneous with the main verb.",
+          "table": {
+            "caption": "γενικὴ ἀπόλυτος — structure",
+            "headers": ["ἡ μορφή", "ἡ χρεία", "παράδειγμα"],
+            "rows": [
+              ["γενική + μετοχὴ ἐνεστῶτος", "background circumstance (simultaneous)", "τοῦ ἡλίου λάμποντος — while the sun shines"],
+              ["γενική + μετοχὴ ἀορίστου", "background circumstance (prior)", "βλαστάνοντος τοῦ χόρτου — when the stalk sprouted"],
+              ["γενική + μετοχὴ παρατατική", "ongoing background (Ch9)", "τοῦ πατρὸς λέγοντος — while the father was speaking"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "τοῦ ἡλίου λάμποντος ἐπὶ τὸν ἀγρόν, ὁ Ἰάκωβος δίδωσιν σπόρον τοῖς υἱοῖς",
+              "note": "while the sun was shining upon the field, James gives seed to his sons (the sun ≠ main subject)",
+              "noteTranslations": {
+                "es": "mientras el sol brillaba sobre el campo, Jacobo da semilla a sus hijos",
+                "pl": "gdy słońce świeciło na pole, Jakub daje ziarno swoim synom",
+                "fil": "habang sumisinag ang araw sa bukid, ibinibigay ni Jacob ang binhi sa kanyang mga anak"
+              }
+            },
+            {
+              "greek": "βλαστάνοντος δὲ τοῦ χόρτου, εἶδον οἱ δοῦλοι τὰ ζιζάνια",
+              "note": "when the stalk sprouted, the servants saw the weeds (aorist participle = prior event)",
+              "noteTranslations": {
+                "es": "cuando brotó el tallo, los siervos vieron la cizaña",
+                "pl": "gdy wzeszła trawa, słudzy zobaczyli kąkol",
+                "fil": "nang sumibol ang mga damo, nakita ng mga alipin ang mga damo"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "1. El genitivo absoluto con participio de presente",
+            "pl": "1. Genetivus absolutus z imiesłowem czasu teraźniejszego",
+            "fil": "1. Ang genitive absolute na may present participle"
+          },
+          "contentTranslations": {
+            "es": "El genitivo absoluto es una frase participial que está gramaticalmente separada de la cláusula principal — su sujeto no es el sujeto del verbo principal. El participio de presente en esta construcción siempre expresa acción simultánea con el verbo principal.",
+            "pl": "Genetivus absolutus to fraza imiesłowowa stojąca gramatycznie osobno od zdania głównego — jej podmiot nie jest podmiotem głównego czasownika. Imiesłów czasu teraźniejszego w tej konstrukcji zawsze wyraża czynność równoczesną z głównym czasownikiem.",
+            "fil": "Ang genitive absolute ay isang pariralang participial na nakatayo nang gramatikang hiwalay mula sa pangunahing sugnay — ang paksa nito ay hindi ang paksa ng pangunahing pandiwa. Ang present participle sa konstruksyong ito ay palaging nagpapahayag ng kilos na sabay sa pangunahing pandiwa."
+          }
+        },
+        {
+          "id": 2,
+          "heading": "2. ἐν τῷ + ἀπαρέμφατος (Articular Infinitive) — 'while, during'",
+          "content": "Greek can turn any infinitive into a noun by attaching the neuter article τό. With the preposition ἐν and the dative article τῷ, the articular infinitive expresses temporal circumstance: 'while doing, in the course of doing.' In ἐν τῷ καθεύδειν τοὺς ἀνθρώπους (while the men were sleeping), the infinitive καθεύδειν acts as a noun — literally 'in the sleeping of the men.' The subject of the infinitive goes into the accusative (τοὺς ἀνθρώπους). This construction is common in the New Testament, especially in Luke, and substitutes for a genitive absolute when the subject is the same as or closely related to the main clause.",
+          "table": {
+            "caption": "ἐν τῷ + ἀπαρέμφατος — pattern",
+            "headers": ["ἡ δομή", "σημαίνει", "παράδειγμα"],
+            "rows": [
+              ["ἐν τῷ + inf. (no acc. subject)", "while [main subject] was doing…", "ἐν τῷ σπείρειν — while sowing"],
+              ["ἐν τῷ + inf. + acc. subject", "while [acc. noun] was doing…", "ἐν τῷ καθεύδειν τοὺς ἀνθρώπους — while the men were sleeping"],
+              ["εἰς τό + inf.", "for the purpose of, in order to", "ἐξῆλθεν τοῦ σπεῖραι — he went out to sow"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ἐν δὲ τῷ καθεύδειν τοὺς ἀνθρώπους ἦλθεν ὁ ἐχθρὸς αὐτοῦ",
+              "note": "but while the men were sleeping, his enemy came (articular inf. with accusative subject)",
+              "noteTranslations": {
+                "es": "pero mientras los hombres dormían, vino su enemigo",
+                "pl": "gdy zaś ludzie spali, przyszedł jego wróg",
+                "fil": "ngunit habang natutulog ang mga tao, dumating ang kanyang kaaway"
+              }
+            },
+            {
+              "greek": "ἐξῆλθεν ὁ σπείρων τοῦ σπεῖραι",
+              "note": "the sower went out to sow (τοῦ + inf. = purpose; another articular infinitive pattern)",
+              "noteTranslations": {
+                "es": "el sembrador salió a sembrar",
+                "pl": "wyszedł siewca siać",
+                "fil": "lumabas ang manghahasik para maghasik"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "2. ἐν τῷ + infinitivo articular — 'mientras, durante'",
+            "pl": "2. ἐν τῷ + bezokolicznik z rodzajnikiem — 'gdy, podczas gdy'",
+            "fil": "2. ἐν τῷ + articular infinitive — 'habang, sa panahon ng'"
+          },
+          "contentTranslations": {
+            "es": "El griego puede convertir cualquier infinitivo en sustantivo añadiéndole el artículo neutro τό. Con la preposición ἐν y el artículo en dativo τῷ, el infinitivo articular expresa circunstancia temporal: 'mientras hace, en el transcurso de hacer.'",
+            "pl": "Greka może zamienić dowolny bezokolicznik w rzeczownik, dołączając do niego rodzajnik nijaki τό. Z przyimkiem ἐν i celownikowym rodzajnikiem τῷ, bezokolicznik z rodzajnikiem wyraża okoliczność czasu: 'podczas gdy coś się dzieje.'",
+            "fil": "Maaaring gawing pangngalan ng Greek ang anumang infinitive sa pamamagitan ng pagkabit ng neuter na article τό. Sa preposisyon ἐν at dative article τῷ, ang articular infinitive ay nagpapahayag ng temporal na kalagayan: 'habang ginagawa, sa panahon ng paggawa.'"
+          }
+        },
+        {
+          "id": 3,
+          "heading": "3. ὅταν + ὑποτακτική (Temporal Clause) — 'whenever, when'",
+          "content": "ὅταν (a contraction of ὅτε + ἄν) introduces a temporal clause with an indefinite or repeated reference — 'whenever this happens.' It always takes the subjunctive (ἡ ὑποτακτική). The subjunctive here is not expressing a purpose or wish, but a temporal indefiniteness: we do not know exactly when the event will occur, only that it will. Chapter 11 uses ὅταν three times in the parables: ὅταν σπείρηται (whenever it is sown), ὅταν πλήρης γένηται ὁ καρπός (whenever the fruit becomes full), and ὅταν σπείρηται ἐπὶ τῆς γῆς (whenever it is sown on the ground). Compare ὅτε (when — definite past), which takes the indicative.",
+          "table": {
+            "caption": "ὅτε vs. ὅταν",
+            "headers": ["λέξις", "ἡ ἔγκλισις", "σημαίνει", "χρεία"],
+            "rows": [
+              ["ὅτε", "ὁριστική", "when (definite)", "specific past event: ὅτε ἦλθεν — when he came"],
+              ["ὅταν", "ὑποτακτική", "whenever (indefinite)", "repeated / expected: ὅταν ἔλθῃ — whenever he comes"],
+              ["ἐὰν", "ὑποτακτική", "if (conditional)", "condition: ἐὰν μένητε — if you remain"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ὅταν δὲ πλήρης γένηται ὁ καρπός, εὐθὺς ἀποστέλλει τὸ δρέπανον",
+              "note": "but whenever the fruit becomes full, he immediately sends the sickle (indefinite future)",
+              "noteTranslations": {
+                "es": "pero cuando el fruto esté maduro, en seguida manda la hoz",
+                "pl": "gdy zaś owoc dojrzeje, zaraz posyła sierp",
+                "fil": "ngunit kapag naging puno na ang bunga, agad niyang ipinapadala ang karit"
+              }
+            },
+            {
+              "greek": "ὅταν σπείρηται, ἀναβαίνει καὶ γίνεται μεῖζον πάντων τῶν λαχάνων",
+              "note": "whenever it is sown, it goes up and becomes greater than all the garden plants",
+              "noteTranslations": {
+                "es": "cuando se siembra, crece y se hace mayor que todas las hortalizas",
+                "pl": "gdy zostaje posiane, wyrasta i staje się większe niż wszystkie jarzyny",
+                "fil": "kapag itinatanim, umaangat at nagiging mas malaki kaysa sa lahat ng halaman sa hardin"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "3. ὅταν + subjuntivo — cláusula temporal ('siempre que, cuando')",
+            "pl": "3. ὅταν + tryb łączący — zdanie czasowe ('kiedy, za każdym razem gdy')",
+            "fil": "3. ὅταν + subjunctive — temporal clause ('kapag, tuwing')"
+          },
+          "contentTranslations": {
+            "es": "ὅταν introduce una cláusula temporal con referencia indefinida o repetida — 'siempre que esto ocurra.' Siempre lleva el subjuntivo. Compárese con ὅτε (cuando — definido), que lleva el indicativo.",
+            "pl": "ὅταν wprowadza zdanie czasowe z odniesieniem nieokreślonym lub powtarzanym — 'za każdym razem gdy to się zdarza.' Zawsze wymaga trybu łączącego. Porównaj z ὅτε (gdy — określone), które wymaga trybu oznajmującego.",
+            "fil": "Ang ὅταν ay nagpapakilala ng temporal na sugnay na may walang katiyakang o paulit-ulit na sanggunian — 'tuwing mangyayari ito.' Palagi itong gumagamit ng subjunctive. Ihambing sa ὅτε (nang — tiyak), na gumagamit ng indicative."
+          }
+        },
+        {
+          "id": 4,
+          "heading": "4. τὸ συγκριτικόν (Comparative Adjectives) — μείζων, μικρότερος, μεῖζον",
+          "content": "Greek forms comparatives in two ways. The most common in Koine uses the suffix -τερος/-τέρα/-τερον added to the adjective stem: μικρός → μικρότερος (smaller). A second class uses the suffix -ων/-ον (3rd declension), which is irregular: μέγας → μείζων (greater, older). The comparative is often followed by a genitive of comparison: μείζων σοῦ (greater than you), μείζον πάντων τῶν λαχάνων (greater than all the garden plants). Alternatively, a comparison can use ἤ (than): μείζων ἢ ἐγώ. The superlative (μικρότατος, μέγιστος) is rare in Koine; comparative forms often carry superlative meaning.",
+          "table": {
+            "caption": "συγκριτικόν — key forms in Ch11",
+            "headers": ["θετικόν", "συγκριτικόν", "γένος", "σημαίνει"],
+            "rows": [
+              ["μέγας, μεγάλη, μέγα", "μείζων, μεῖζον", "masc./neut. (3rd decl.)", "greater, larger, older"],
+              ["μικρός, -ά, -όν", "μικρότερος, -α, -ον", "2-1-2 decl.", "smaller"],
+              ["πολύς, πολλή, πολύ", "πλείων, πλεῖον", "masc./neut. (3rd decl.)", "more, greater in number"],
+              ["ὀλίγος, -η, -ον", "ἐλάσσων, ἔλαττον", "masc./neut. (3rd decl.)", "fewer, less"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ἐμοὶ ἔδωκεν πολύν, ὅτι εἰμὶ μείζων σοῦ",
+              "note": "he gave me more because I am greater/older than you (genitive of comparison after comparative)",
+              "noteTranslations": {
+                "es": "me dio más porque soy mayor que tú",
+                "pl": "dał mi więcej, bo jestem starszy od ciebie",
+                "fil": "binigyan niya ako ng mas marami dahil mas matanda ako kaysa sa iyo"
+              }
+            },
+            {
+              "greek": "μικρότερον ὂν πάντων τῶν σπερμάτων … γίνεται μεῖζον πάντων τῶν λαχάνων",
+              "note": "being smaller than all the seeds … it becomes greater than all the garden plants",
+              "noteTranslations": {
+                "es": "siendo la más pequeña de todas las semillas … se hace mayor que todas las hortalizas",
+                "pl": "będąc mniejszym niż wszystkie nasiona … staje się większy niż wszystkie jarzyny",
+                "fil": "kahit pinakamaliit sa lahat ng mga buto … nagiging mas malaki kaysa sa lahat ng mga halaman"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "4. El comparativo (συγκριτικόν) — μείζων, μικρότερος, μεῖζον",
+            "pl": "4. Stopień wyższy (συγκριτικόν) — μείζων, μικρότερος, μεῖζον",
+            "fil": "4. Ang comparative (συγκριτικόν) — μείζων, μικρότερος, μεῖζον"
+          },
+          "contentTranslations": {
+            "es": "El griego forma comparativos de dos maneras. La más común en el koiné usa el sufijo -τερος/-τέρα/-τερον. Una segunda clase usa el sufijo -ων/-ον (3ª declinación), que es irregular: μέγας → μείζων. El comparativo suele ir seguido de un genitivo de comparación.",
+            "pl": "Greka tworzy stopień wyższy na dwa sposoby. Najczęstszy w Koine używa sufiksu -τερος/-τέρα/-τερον. Druga klasa używa sufiksu -ων/-ον (3. deklinacja), który jest nieregularny: μέγας → μείζων. Po stopniu wyższym często następuje genetivus comparationis.",
+            "fil": "Dalawang paraan ang ginagamit ng Greek para gumawa ng comparative. Ang pinakakaraniwang sa Koine ay gumagamit ng suffix na -τερος/-τέρα/-τερον. Ang pangalawang klase ay gumagamit ng suffix na -ων/-ον (3rd declension), na irregular: μέγας → μείζων. Ang comparative ay madalas na sinusundan ng genitive of comparison."
+          }
+        },
+        {
+          "id": 5,
+          "heading": "5. οἶδα — the Perfect with Present Meaning",
+          "content": "οἶδα (I know) is the only Greek verb whose perfect tense carries a present meaning. Historically a perfect of ὁράω (I see), it came to mean 'I have come to see,' and therefore 'I know.' It is fully conjugated in the perfect tense forms but always translated as a present. Chapter 11 uses it six times: οἶδεν (he knows), οἶδας (you know), οἶδα (I know), and οἴδαμεν (we know). The paradigm in the sideNotes of paragraph 25 must be memorized as vocabulary — there is no regular pattern to derive it from.",
+          "table": {
+            "caption": "οἶδα (ἐνεστώς — present meaning from perfect form)",
+            "headers": ["τὸ πρόσωπον", "ἑνικόν (sg.)", "πληθυντικόν (pl.)"],
+            "rows": [
+              ["αʹ", "οἶδα — I know", "οἴδαμεν — we know"],
+              ["βʹ", "οἶδας — you know", "οἴδατε — you (pl.) know"],
+              ["γʹ", "οἶδεν — he/she knows", "οἴδασιν — they know"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ὁ σπόρος βλαστᾷ καὶ αὐξάνηται ὡς οὐκ οἶδεν αὐτός",
+              "note": "the seed sprouts and grows as he himself does not know (οἶδεν = perfect form, present meaning)",
+              "noteTranslations": {
+                "es": "la semilla brota y crece sin que él lo sepa",
+                "pl": "ziarno kiełkuje i rośnie, a on sam nie wie jak",
+                "fil": "ang binhi ay sumibol at lumalaki habang hindi niya ito nalalaman"
+              }
+            },
+            {
+              "greek": "καὶ σὺ οὐκ οἶδας πῶς αὐξάνει, πάτερ;",
+              "note": "and you do not know how it grows, father? (οἶδας = 2sg., present meaning)",
+              "noteTranslations": {
+                "es": "¿y tú no sabes cómo crece, padre?",
+                "pl": "i ty nie wiesz, jak rośnie, ojcze?",
+                "fil": "at hindi mo rin alam kung paano ito lumalaki, ama?"
+              }
+            },
+            {
+              "greek": "οὐκ οἶδα· ἡμεῖς βάλλοντες τὸν σπόρον καθεύδομεν, ὁ δὲ θεὸς αὐξάνει",
+              "note": "I do not know; we throw the seed and sleep, but God makes it grow",
+              "noteTranslations": {
+                "es": "no lo sé; nosotros echamos la semilla y dormimos, pero Dios la hace crecer",
+                "pl": "nie wiem; my rzucamy ziarno i śpimy, ale Bóg sprawia wzrost",
+                "fil": "hindi ko alam; kami ay naghahasik ng binhi at natutulog, ngunit pinalaki ito ng Diyos"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "5. οἶδα — el perfecto con significado de presente",
+            "pl": "5. οἶδα — perfectum o znaczeniu teraźniejszym",
+            "fil": "5. οἶδα — ang perfect na may present na kahulugan"
+          },
+          "contentTranslations": {
+            "es": "οἶδα (yo sé) es el único verbo griego cuyo tiempo perfecto tiene un significado de presente. Históricamente es un perfecto de ὁράω (ver), llegó a significar 'he llegado a ver,' y por tanto 'sé.' Se conjuga en formas de perfecto pero siempre se traduce como presente.",
+            "pl": "οἶδα (wiem) to jedyny grecki czasownik, którego czas doskonały ma znaczenie teraźniejsze. Historycznie jest to perfectum od ὁράω (widzieć); nabrało znaczenia 'zobaczyłem i dlatego wiem.' Odmieniany jest w formach perfectum, ale zawsze tłumaczony jako czas teraźniejszy.",
+            "fil": "Ang οἶδα (alam ko) ay ang tanging Greek verb na ang perfect tense ay may present na kahulugan. Kasaysayang isang perfect ng ὁράω (makita), ito ay naging kahulugang 'nakita ko na, kaya alam ko.' Ito ay fully conjugated sa perfect tense forms ngunit palaging isinalin bilang present."
+          }
+        },
+        {
+          "id": 6,
+          "heading": "6. δίδωμι — ἀόριστος ἐνεργετικός (Aorist Active of δίδωμι)",
+          "content": "δίδωμι belongs to the μι-verb class (Ch6). Its aorist active uses a distinct stem δω-/δο- with the endings of the strong aorist (-κα endings in the singular, -καν in the plural). The aorist imperative forms δός (sg.) and δότε (pl.) are the most important for reading — they appear in the Lord's Prayer (δὸς ἡμῖν σήμερον τὸν ἄρτον) and in Chapter 11 when Peter demands more seed: δός μοι ἄλλον. The key pattern: the σ of the present (δίδω-σιν) disappears in the aorist (ἔ-δω-κα).",
+          "table": {
+            "caption": "δίδωμι — ἀόριστος ἐνεργετικός",
+            "headers": ["τὸ πρόσωπον", "ἑνικόν (sg.)", "πληθυντικόν (pl.)"],
+            "rows": [
+              ["αʹ", "ἔδωκα — I gave", "ἐδώκαμεν — we gave"],
+              ["βʹ", "ἔδωκας — you gave", "ἐδώκατε — you (pl.) gave"],
+              ["γʹ", "ἔδωκε(ν) — he/she gave", "ἔδωκαν — they gave"],
+              ["προστ. βʹ εν.", "δός — give! (sg.)", "—"],
+              ["προστ. βʹ πλ.", "—", "δότε — give! (pl.)"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "τῷ Μαθθαίῳ ἔδωκας πολὺν σπόρον, ἐμοὶ δὲ ὀλίγον· δός μοι ἄλλον!",
+              "note": "you gave Matthew much seed, but to me little; give me more! (ἔδωκας 2sg., δός aor. impv.)",
+              "noteTranslations": {
+                "es": "a Mateo le diste mucha semilla, pero a mí poca; ¡dame más!",
+                "pl": "Mateuszowi dałeś dużo ziarna, a mnie mało; daj mi więcej!",
+                "fil": "binigyan mo si Mateo ng maraming binhi, ngunit ako ay kaunti; bigyan mo ako ng isa pa!"
+              }
+            },
+            {
+              "greek": "ἀμφοτέροις ἔδωκα καλὸν σπόρον· σπείρετε οὖν",
+              "note": "I gave good seed to both; sow therefore (ἔδωκα 1sg.)",
+              "noteTranslations": {
+                "es": "a ambos les di buena semilla; sembrad pues",
+                "pl": "dałem obojgu dobre ziarno; siejcie więc",
+                "fil": "binigyan ko silang dalawa ng magandang binhi; kaya maghasik kayo"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "6. δίδωμι — el aoristo activo",
+            "pl": "6. δίδωμι — aoryst czynny",
+            "fil": "6. δίδωμι — ang aorist active"
+          },
+          "contentTranslations": {
+            "es": "δίδωμι pertenece a la clase de los verbos μι (Ch6). Su aoristo activo usa un tema distinto δω-/δο- con terminaciones del aoristo fuerte. Las formas del imperativo aoristo δός (sg.) y δότε (pl.) son las más importantes para la lectura.",
+            "pl": "δίδωμι należy do klasy czasowników μι (rozdz. 6). Jego aoryst czynny używa odrębnego tematu δω-/δο- z końcówkami silnego aorystu. Formy trybu rozkazującego aorystu δός (l.poj.) i δότε (l.mn.) są najważniejsze dla lektury.",
+            "fil": "Ang δίδωμι ay kabilang sa klase ng μι-verb (Ch6). Ang aorist active nito ay gumagamit ng natatanging stem na δω-/δο- na may mga ending ng strong aorist. Ang mga aorist imperative form na δός (sg.) at δότε (pl.) ang pinaka-importanteng matandaan para sa pagbabasa."
+          }
+        },
+        {
+          "id": 7,
+          "heading": "7. μήποτε + ὑποτακτική (Negative Purpose / Precautionary Clause)",
+          "content": "μήποτε (lest ever, in case, for fear that) introduces a negative purpose clause or a clause expressing caution. Like ἵνα μή, it takes the subjunctive, but μήποτε adds the sense of an undesired possibility — the speaker fears that the negative outcome might happen. In Chapter 11, the householder says: οὔ, μήποτε ἐκβάλλοντες τὰ ζιζάνια ἐκβάλητε ἅμα αὐτοῖς καὶ τὸν σῖτον — 'no, lest in removing the weeds you also remove the wheat with them.' The μή- is the same negative used with the subjunctive throughout; -ποτε adds 'ever, at any time,' sharpening the caution.",
+          "table": {
+            "caption": "negative purpose clauses — comparison",
+            "headers": ["ἡ μορφή", "ἡ ἔγκλισις", "σημαίνει"],
+            "rows": [
+              ["ἵνα μή + subj.", "ὑποτακτική", "in order that … not, so that … not"],
+              ["μήποτε + subj.", "ὑποτακτική", "lest, for fear that, in case"],
+              ["μή + subj.", "ὑποτακτική", "lest (simpler form, same meaning as μήποτε)"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "οὔ, μήποτε ἐκβάλλοντες τὰ ζιζάνια ἐκβάλητε ἅμα αὐτοῖς καὶ τὸν σῖτον",
+              "note": "no, lest in removing the weeds you remove the wheat together with them (μήποτε + aor. subj.)",
+              "noteTranslations": {
+                "es": "no, no sea que al arrancar la cizaña arranquéis también con ella el trigo",
+                "pl": "nie, bo zbierając kąkol, możecie razem z nim powyrywać i pszenicę",
+                "fil": "hindi, baka sa pag-aalis ng mga damo ay maisama ninyo pati ang trigo"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "7. μήποτε + subjuntivo — cláusula de propósito negativo / precaución",
+            "pl": "7. μήποτε + tryb łączący — zdanie celu negatywnego / przestrogi",
+            "fil": "7. μήποτε + subjunctive — negatibong purpose clause / pag-iingat"
+          },
+          "contentTranslations": {
+            "es": "μήποτε introduce una cláusula de propósito negativo o de cautela. Como ἵνα μή, lleva el subjuntivo, pero μήποτε añade el sentido de una posibilidad no deseada — el hablante teme que pueda ocurrir el resultado negativo.",
+            "pl": "μήποτε wprowadza negatywne zdanie celowe lub zdanie wyrażające ostrożność. Jak ἵνα μή, wymaga trybu łączącego, ale μήποτε dodaje sens niepożądanej możliwości — mówiący obawia się, że negatywny wynik może nastąpić.",
+            "fil": "Ang μήποτε ay nagpapakilala ng negatibong purpose clause o isang sugnay na nagpapahayag ng pag-iingat. Tulad ng ἵνα μή, ito ay gumagamit ng subjunctive, ngunit nagdadagdag ang μήποτε ng kahulugang isang hindi gustong posibilidad — natatakot ang nagsasalita na maaaring mangyari ang negatibong kinalabasan."
+          }
+        },
+        {
+          "id": 8,
+          "heading": "8. μέλλω + ἀπαρέμφατος (Periphrastic Future) — 'is about to, will'",
+          "content": "μέλλω (I am about to, I intend to) followed by an infinitive expresses imminent or certain future action. It is a common Koine alternative to the simple future tense and often carries the nuance of near or inevitable future — something that is going to happen. Chapter 11 uses it in James's explanation of the end of the age: μέλλει ἀποστέλλειν ὁ υἱὸς τοῦ ἀνθρώπου τοὺς ἀγγέλους (the Son of Man is about to send his angels) and in Peter's final declaration: κἀγὼ θέλω λάμπειν ὡς ὁ ἥλιος. The verb μέλλω itself is fully conjugated in all tenses; the infinitive that follows is usually present or aorist.",
+          "table": {
+            "caption": "μέλλω + inf. — forms from Ch11",
+            "headers": ["ἡ μορφή", "τὸ πρόσωπον", "παράδειγμα"],
+            "rows": [
+              ["μέλλει + pres. inf.", "3 ἑνικόν", "μέλλει ἀποστέλλειν — he is about to send"],
+              ["μέλλει + pres. inf.", "3 ἑνικόν", "μέλλει συλλέγειν — he is about to gather"],
+              ["μέλλει + pres. inf.", "3 ἑνικόν", "μέλλει βαλλεῖν — he is about to throw"],
+              ["μέλλουσιν + pres. inf.", "3 πληθυντικόν", "μέλλουσιν λάμπειν — they are about to shine"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "μέλλει ἀποστέλλειν ὁ υἱὸς τοῦ ἀνθρώπου τοὺς ἀγγέλους αὐτοῦ",
+              "note": "the Son of Man is about to send his angels (imminent / certain future)",
+              "noteTranslations": {
+                "es": "el Hijo del Hombre está a punto de enviar a sus ángeles",
+                "pl": "Syn Człowieczy ma posłać swoich aniołów",
+                "fil": "ang Anak ng Tao ay magpapadala ng kanyang mga anghel"
+              }
+            },
+            {
+              "greek": "οἱ δίκαιοι μέλλουσιν λάμπειν ὡς ὁ ἥλιος ἐν τῇ βασιλείᾳ τοῦ πατρὸς αὐτῶν",
+              "note": "the righteous are about to shine like the sun in the kingdom of their Father",
+              "noteTranslations": {
+                "es": "los justos brillarán como el sol en el reino de su Padre",
+                "pl": "sprawiedliwi będą jaśnieć jak słońce w królestwie swojego Ojca",
+                "fil": "ang mga matuwid ay magniningning tulad ng araw sa kaharian ng kanilang Ama"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "8. μέλλω + infinitivo — futuro perifrástico ('está a punto de, va a')",
+            "pl": "8. μέλλω + bezokolicznik — peryfraza przyszłości ('ma zamiar, wkrótce')",
+            "fil": "8. μέλλω + infinitive — periphrastic future ('malapit nang, gagawin')"
+          },
+          "contentTranslations": {
+            "es": "μέλλω seguido de un infinitivo expresa acción futura inminente o cierta. Es una alternativa común del Koiné al futuro simple y suele llevar el matiz de un futuro cercano o inevitable.",
+            "pl": "μέλλω z bezokolicznikiem wyraża bliską lub pewną przyszłą czynność. Jest to powszechna koine'owa alternatywa dla prostego czasu przyszłego i często niesie odcień bliskiej lub nieuchronnej przyszłości.",
+            "fil": "Ang μέλλω kasunod ng infinitive ay nagpapahayag ng malapit o tiyak na hinaharap na kilos. Ito ay isang karaniwang Koine na alternatibo sa simpleng future tense at madalas na nagdadala ng kahulugan ng malapit o hindi maiiwasang hinaharap."
+          }
+        }
+      ]
+    }
+  ]
+}
