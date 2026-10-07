@@ -10,7 +10,7 @@
       "pl": "wieczór",
       "fil": "gabi"
     },
-    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G2073"
   },
@@ -25,7 +25,7 @@
       "pl": "morze, jezioro",
       "fil": "dagat, lawa"
     },
-    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G2281"
   },
@@ -40,7 +40,7 @@
       "pl": "matka",
       "fil": "ina"
     },
-    "partOfSpeech": "noun (feminine, 3rd decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G3384"
   },
@@ -55,7 +55,7 @@
       "pl": "kolacja",
       "fil": "hapunan"
     },
-    "partOfSpeech": "noun (neuter, 2nd decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G1173"
   },
@@ -70,7 +70,7 @@
       "pl": "twarz",
       "fil": "mukha"
     },
-    "partOfSpeech": "noun (neuter, 2nd decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G4383"
   },
@@ -85,7 +85,7 @@
       "pl": "stopa",
       "fil": "paa"
     },
-    "partOfSpeech": "noun (masculine, 3rd decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G4228"
   },
@@ -100,7 +100,7 @@
       "pl": "rok",
       "fil": "taon"
     },
-    "partOfSpeech": "noun (neuter, 3rd decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G2094"
   },
@@ -115,7 +115,7 @@
       "pl": "zboże, pszenica",
       "fil": "trigo, butil"
     },
-    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G4621"
   },
@@ -130,7 +130,7 @@
       "pl": "robotnik, pracownik",
       "fil": "manggagawa"
     },
-    "partOfSpeech": "noun (masculine, 1st decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G2040"
   },
@@ -145,7 +145,7 @@
       "pl": "nasienie, siew",
       "fil": "binhi, paghahasik"
     },
-    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G4701"
   },
@@ -160,7 +160,7 @@
       "pl": "nasienie, potomstwo",
       "fil": "binhi, lahi"
     },
-    "partOfSpeech": "noun (neuter, 3rd decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G4690"
   },
@@ -175,7 +175,7 @@
       "pl": "małe dziecko",
       "fil": "maliit na bata"
     },
-    "partOfSpeech": "noun (neuter, 2nd decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G3813"
   },
@@ -190,7 +190,7 @@
       "pl": "niebezpieczeństwo",
       "fil": "panganib"
     },
-    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G2794"
   },
@@ -205,7 +205,7 @@
       "pl": "gniew",
       "fil": "galit"
     },
-    "partOfSpeech": "noun (feminine, 1st decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G3709"
   },
@@ -220,7 +220,7 @@
       "pl": "gniew, namiętność",
       "fil": "galit, sigasig"
     },
-    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G2372"
   },
@@ -235,7 +235,7 @@
       "pl": "ślad, wzór",
       "fil": "marka, bakas"
     },
-    "partOfSpeech": "noun (masculine, 2nd decl.)",
+    "partOfSpeech": "noun",
     "image": null,
     "strongsNum": "G5179"
   },
@@ -280,7 +280,7 @@
       "pl": "podchodzić, zbliżać się",
       "fil": "lumapit, pumunta"
     },
-    "partOfSpeech": "verb (deponent)",
+    "partOfSpeech": "verb",
     "image": null,
     "strongsNum": "G4334"
   },
@@ -295,7 +295,7 @@
       "pl": "siedzieć",
       "fil": "umupo"
     },
-    "partOfSpeech": "verb (deponent)",
+    "partOfSpeech": "verb",
     "image": null,
     "strongsNum": "G2521"
   },
@@ -385,7 +385,7 @@
       "pl": "opowiadać, relacjonować",
       "fil": "ikuwento, ilarawan"
     },
-    "partOfSpeech": "verb (deponent)",
+    "partOfSpeech": "verb",
     "image": null,
     "strongsNum": "G1334"
   },
@@ -550,7 +550,7 @@
       "pl": "jednak, mimo to",
       "fil": "gayunpaman, subalit"
     },
-    "partOfSpeech": "adverb / particle",
+    "partOfSpeech": "adverb",
     "image": null,
     "strongsNum": "G3676"
   },
@@ -567,7 +567,7 @@
     "greek": "ὁ ἰχθύς",
     "strongsNum": "G2486",
     "transliteration": "ichthys",
-    "partOfSpeech": "noun (masculine, 3rd decl.)"
+    "partOfSpeech": "noun"
   },
   {
     "id": 39,
@@ -582,7 +582,7 @@
     "greek": "ἡ ἐλαία",
     "strongsNum": "G1636",
     "transliteration": "elaia",
-    "partOfSpeech": "noun (feminine, 1st decl.)"
+    "partOfSpeech": "noun"
   },
   {
     "id": 40,
@@ -597,7 +597,7 @@
     "greek": "τὸ σῦκον",
     "strongsNum": "G4810",
     "transliteration": "sykon",
-    "partOfSpeech": "noun (neuter, 2nd decl.)"
+    "partOfSpeech": "noun"
   },
   {
     "id": 41,
@@ -612,7 +612,7 @@
     "greek": "ἡ σταφυλή",
     "strongsNum": "G4718",
     "transliteration": "staphylē",
-    "partOfSpeech": "noun (feminine, 1st decl.)"
+    "partOfSpeech": "noun"
   },
   {
     "id": 42,
@@ -627,7 +627,7 @@
     "greek": "τὸ γάλα",
     "strongsNum": "G1051",
     "transliteration": "gala",
-    "partOfSpeech": "noun (neuter, 3rd decl.)"
+    "partOfSpeech": "noun"
   },
   {
     "id": 43,
@@ -642,7 +642,7 @@
     "greek": "ὁ οἶνος",
     "strongsNum": "G3631",
     "transliteration": "oinos",
-    "partOfSpeech": "noun (masculine, 2nd decl.)"
+    "partOfSpeech": "noun"
   },
   {
     "id": 44,
@@ -657,7 +657,7 @@
     "greek": "τὸ ἔλαιον",
     "strongsNum": "G1637",
     "transliteration": "elaion",
-    "partOfSpeech": "noun (neuter, 2nd decl.)"
+    "partOfSpeech": "noun"
   },
   {
     "id": 45,
@@ -672,7 +672,7 @@
     "greek": "τὸ μέλι",
     "strongsNum": "G3192",
     "transliteration": "meli",
-    "partOfSpeech": "noun (neuter, 3rd decl.)"
+    "partOfSpeech": "noun"
   },
   {
     "id": 46,
@@ -687,7 +687,7 @@
     "greek": "τὸ ποτήριον",
     "strongsNum": "G4221",
     "transliteration": "potērion",
-    "partOfSpeech": "noun (neuter, 2nd decl.)"
+    "partOfSpeech": "noun"
   },
   {
     "id": 47,
@@ -702,7 +702,7 @@
     "greek": "ὁ κόπος",
     "strongsNum": "G2873",
     "transliteration": "kopos",
-    "partOfSpeech": "noun (masculine, 2nd decl.)"
+    "partOfSpeech": "noun"
   },
   {
     "id": 48,
@@ -807,7 +807,7 @@
     "greek": "ὀλίγος",
     "strongsNum": "G3641",
     "transliteration": "oligos",
-    "partOfSpeech": "adjective (2-1-2)"
+    "partOfSpeech": "adjective"
   },
   {
     "id": 55,
@@ -822,7 +822,7 @@
     "greek": "ἕκαστος",
     "strongsNum": "G1538",
     "transliteration": "hekastos",
-    "partOfSpeech": "adjective (2-1-2)"
+    "partOfSpeech": "adjective"
   },
   {
     "id": 56,
