@@ -5,6 +5,13 @@ Update it whenever a significant feature is added, changed, or removed.
 
 ---
 
+## CRITICAL STARTUP INSTRUCTION
+
+- BEFORE executing any tools, writing code, or applying changes, you MUST thoroughly read and analyze all files listed in `MEMORY.md` and existing auto-memory notes.
+- State your understanding of these constraints and memory rules in your very first internal reasoning or response prefix before performing actions.
+
+---
+
 ## Project Overview
 
 **Βίβλος** is a Koine Greek language-learning web app — a React + Vite SPA built around a narrative curriculum. Students read original Greek stories chapter by chapter, with interactive word-click definitions, vocabulary flashcards, and grammar notes.
