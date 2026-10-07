@@ -10,7 +10,7 @@
           "type": "word",
           "word": "πραΰτητος",
           "lemma": "ἡ πραΰτης",
-          "means": "πρᾶος · meek, gentle"
+          "means": "ἡ πραΰτης (Κεφ. Ηʹ) · meek, gentle"
         },
         {
           "type": "construction",
@@ -297,17 +297,6 @@
     {
       "id": 4,
       "sideNotes": [
-        {
-          "type": "word",
-          "word": "βάθος",
-          "lemma": "τὸ βάθος",
-          "means": "βαθύς · deep · ↔ ὕψος"
-        },
-        {
-          "type": "word",
-          "word": "φρόνιμος",
-          "means": "σοφός, νοήμων · wise, sensible"
-        },
         {
           "type": "construction",
           "title": "Ματθαίου Ζʹ:κδ–κζ",
@@ -2463,12 +2452,12 @@
           "type": "word",
           "word": "σινάπεως",
           "lemma": "τὸ σίναπι",
-          "means": "φυτὸν μικρὸν ποιοῦν σπέρματα · mustard plant"
+          "means": "τὸ μικρὸν σπέρμα · mustard seed/plant"
         },
         {
           "type": "word",
           "word": "κατασκηνοῦν",
-          "means": "κατά + σκηνή → to dwell, to nest"
+          "means": "κατά + σκηνή · to dwell, to nest"
         }
       ],
       "words": [
@@ -3550,7 +3539,7 @@
         {
           "type": "word",
           "word": "συντέλεια",
-          "means": "ἡ τελευτή, τὸ τέλος · completion, end of the age"
+          "means": "τὸ τέλος τοῦ αἰῶνος · end of the age"
         }
       ],
       "words": [
