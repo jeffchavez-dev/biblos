@@ -1,345 +1,415 @@
 {
-  "title": "Γραμματική — Κεφάλαιον Ϛʹ (The Holy Spirit)",
+  "title": "Γραμματική — Κεφάλαιον Ϛʹ (The Good Shepherd)",
   "parts": [
     {
-      "label": "Μέρος Αʹ — Ὁ Παράκλητος",
+      "label": "Μέρος Αʹ — Ὁ Ποιμὴν ὁ Καλός",
       "sections": [
         {
           "id": 1,
-          "heading": "1. ἡ παθητικὴ διάθεσις (passive voice) — ὁ ἐνεστώς, form and endings",
-          "content": "Greek verbs have a passive voice in the present tense formed by replacing the active endings with passive endings. The key marker is the mediopassive ending: -ομαι / -εται / -ονται (instead of -ω / -ει / -ουσι). The passive expresses that the subject receives the action rather than performs it.",
+          "heading": "1. ἡ παθητικὴ διάθεσις (Passive Voice) — ὁ ἐνεστώς",
+          "content": "Greek verbs have three voices: active (ἐνεργητική), middle (μέση), and passive (παθητική). In the present tense, the passive and middle share the same endings — called mediopassive endings. The passive voice indicates that the subject receives the action rather than performing it. Chapter 6 is full of vivid passive examples: ὁ χόρτος ἐσθίεται (the grass is eaten), τὰ πρόβατα φυλάσσεται (the sheep are guarded), ἡ γῆ σκάπτεται (the ground is dug). The mediopassive endings differ from the active endings by replacing -ω/-εις/-ει with -ομαι/-ῃ/-εται.",
           "table": {
-            "caption": "ἡ παθητικὴ ἐνεστώς (Present Passive) — λύω (to loose → to be loosed)",
-            "headers": ["τὸ πρόσωπον", "παθητικὴ ἑνικόν (passive sg.)", "παθητικὴ πληθυντικόν (passive pl.)"],
+            "caption": "ἐνεστώς παθητικός — φυλάσσω (I guard)",
+            "headers": ["τὸ πρόσωπον", "ἑνικόν (sg.)", "πληθυντικόν (pl.)"],
             "rows": [
-              ["αʹ (1st)", "λύ-ομαι  (I am loosed)", "λύ-ομεθα  (we are loosed)"],
-              ["βʹ (2nd)", "λύ-ῃ  (you are loosed)", "λύ-εσθε  (you pl. are loosed)"],
-              ["γʹ (3rd)", "λύ-εται  (he/she is loosed)", "λύ-ονται  (they are loosed)"]
+              ["αʹ", "φυλάσσ-ομαι — I am guarded", "φυλασσ-όμεθα — we are guarded"],
+              ["βʹ", "φυλάσσ-ῃ — you are guarded", "φυλάσσ-εσθε — you (pl.) are guarded"],
+              ["γʹ", "φυλάσσ-εται — he/she is guarded", "φυλάσσ-ονται — they are guarded"]
             ]
           },
           "examples": [
             {
-              "greek": "τὸ πνεῦμα δίδοται ὑπὸ τοῦ θεοῦ",
-              "note": "the Spirit is given by God (3rd sg. passive; ὑπό + gen. = agent)",
+              "greek": "ὁ χόρτος ἐσθίεται ὑπὸ τῶν προβάτων, καὶ τὰ πρόβατα φυλάσσεται ὑπὸ τοῦ ποιμένος",
+              "note": "the grass is eaten by the sheep, and the sheep are guarded by the shepherd",
               "noteTranslations": {
-                "es": "el Espíritu es dado por Dios",
-                "pl": "Duch jest dawany przez Boga",
-                "fil": "ang Espiritu ay ibinibigay ng Diyos"
+                "es": "la hierba es comida por las ovejas y las ovejas son guardadas por el pastor",
+                "pl": "trawa jest jedzona przez owce, a owce są strzeżone przez pasterza",
+                "fil": "ang damo ay kinakain ng mga tupa, at ang mga tupa ay binabantayan ng pastol"
               }
             },
             {
-              "greek": "πέμπεται ὑπὸ τοῦ πατρός",
-              "note": "it is sent by the Father (3rd sg. passive)",
+              "greek": "ἡ γῆ σκάπτεται ὑπὸ τοῦ γεωργοῦ, καὶ οἱ λίθοι αἴρονται καὶ φέρονται ὑπὸ τοῦ ἰσχυροῦ γεωργοῦ",
+              "note": "the ground is dug by the farmer, and the stones are lifted and carried by the strong farmer",
               "noteTranslations": {
-                "es": "es enviado por el Padre",
-                "pl": "jest posyłany przez Ojca",
-                "fil": "isinusugo ng Ama"
-              }
-            },
-            {
-              "greek": "σῴζεται ὑπὸ τοῦ θεοῦ",
-              "note": "he is saved by God",
-              "noteTranslations": {
-                "es": "es salvado por Dios",
-                "pl": "jest zbawiony przez Boga",
-                "fil": "nailigtas ng Diyos"
-              }
-            },
-            {
-              "greek": "καυματίζεται ὑπὸ τοῦ ἡλίου",
-              "note": "he is scorched by the sun",
-              "noteTranslations": {
-                "es": "es abrasado por el sol",
-                "pl": "jest palony przez słońce",
-                "fil": "naiinitan ng araw"
+                "es": "la tierra es cavada por el labrador, y las piedras son levantadas y llevadas por el fuerte labrador",
+                "pl": "ziemia jest kopana przez rolnika, a kamienie są podnoszone i noszone przez silnego rolnika",
+                "fil": "ang lupa ay hinuhukay ng magsasaka, at ang mga bato ay inuunat at dinadala ng matlakas na magsasaka"
               }
             }
-          ]
+          ],
+          "headingTranslations": {
+            "es": "1. La voz pasiva — presente",
+            "pl": "1. Strona bierna — czas teraźniejszy",
+            "fil": "1. Ang passive voice — present tense"
+          },
+          "contentTranslations": {
+            "es": "Los verbos griegos tienen tres voces: activa, media y pasiva. En el presente, la pasiva y la media comparten las mismas terminaciones — llamadas terminaciones mediopasivas. La voz pasiva indica que el sujeto recibe la acción en lugar de realizarla.",
+            "pl": "Greckie czasowniki mają trzy strony: czynną (ἐνεργητική), środkową (μέση) i bierną (παθητική). W czasie teraźniejszym strona bierna i środkowa dzielą te same końcówki — zwane mediopassivnymi. Strona bierna wskazuje, że podmiot odbiera czynność zamiast ją wykonywać.",
+            "fil": "Ang mga Greek verb ay may tatlong boses: active (ἐνεργητική), middle (μέση), at passive (παθητική). Sa present tense, ang passive at middle ay nagbabahagi ng parehong mga ending — tinatawag na mediopassive endings. Ang passive voice ay nagpapahiwatig na ang paksa ay tumatanggap ng kilos sa halip na gumagawa nito."
+          }
         },
         {
           "id": 2,
-          "heading": "2. ὑπό + γενική (genitive) — agent with passive verb",
-          "content": "When a passive verb names the agent (the one performing the action), Greek uses ὑπό + genitive. This is the standard way to express 'by someone' with a passive verb. Compare: ἐν + dative expresses location, not agency.",
-          "examples": [
-            {
-              "greek": "ἀφίενται ὑπὸ τοῦ θεοῦ",
-              "note": "they are forgiven by God",
-              "noteTranslations": {
-                "es": "son perdonados por Dios",
-                "pl": "są przebaczane przez Boga",
-                "fil": "pinapatawad ng Diyos"
-              }
-            },
-            {
-              "greek": "διδάσκεται ὑπὸ τοῦ πνεύματος",
-              "note": "he is taught by the Spirit",
-              "noteTranslations": {
-                "es": "es enseñado por el Espíritu",
-                "pl": "jest nauczany przez Ducha",
-                "fil": "itinuturo ng Espiritu"
-              }
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "heading": "3. δεῖ + ὁ ἀπαρέμφατος (infinitive) — 'it is necessary'",
-          "content": "δεῖ (impersonal verb, 'it is necessary') is always followed by the accusative + infinitive: the person required to act is in the accusative, and the action is the infinitive. δεῖ itself never changes form.",
-          "examples": [
-            {
-              "greek": "δεῖ τὸν ἄνθρωπον μετανοεῖν",
-              "note": "it is necessary for the person to repent (acc. + inf.)",
-              "noteTranslations": {
-                "es": "es necesario que la persona se arrepienta",
-                "pl": "człowiek musi się nawrócić",
-                "fil": "kailangang magsisi ang tao"
-              }
-            },
-            {
-              "greek": "δεῖ αὐτὸν πιστεύειν",
-              "note": "it is necessary for him to believe",
-              "noteTranslations": {
-                "es": "es necesario que él crea",
-                "pl": "on musi wierzyć",
-                "fil": "kailangang maniwala siya"
-              }
-            },
-            {
-              "greek": "δεῖ αὐτὸν βαπτίζεσθαι",
-              "note": "it is necessary for him to be baptized (passive infinitive)",
-              "noteTranslations": {
-                "es": "es necesario que él sea bautizado",
-                "pl": "on musi zostać ochrzczony",
-                "fil": "kailangang mabautismuhan siya"
-              }
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "heading": "4. ὅστις — indefinite relative pronoun ('whoever')",
-          "content": "ὅστις (masc. sg.) / ἥτις (fem. sg.) / ὅ τι (neut. sg.) means 'whoever, anyone who.' It combines the relative pronoun with τις (someone). It refers to a class of people, not a specific individual, and takes an indicative verb when the statement is a general truth.",
-          "examples": [
-            {
-              "greek": "ὅστις μετανοεῖ καὶ πιστεύει, οὗτος λαμβάνει τὸ πνεῦμα",
-              "note": "whoever repents and believes, this one receives the Spirit",
-              "noteTranslations": {
-                "es": "quien se arrepienta y crea, éste recibe el Espíritu",
-                "pl": "ktokolwiek pokutuje i wierzy, ten otrzymuje Ducha",
-                "fil": "sinumang nagsisisi at naniniwala, siya ay tumatanggap ng Espiritu"
-              }
-            },
-            {
-              "greek": "ὅστις βαπτίζεται, λαμβάνει τὴν δωρεάν",
-              "note": "whoever is baptized, receives the gift",
-              "noteTranslations": {
-                "es": "quien es bautizado, recibe el don",
-                "pl": "ktokolwiek jest ochrzczony, otrzymuje dar",
-                "fil": "sinumang nabautismuhan ay tumatanggap ng kaloob"
-              }
-            }
-          ]
-        },
-        {
-          "id": 5,
-          "heading": "5. τὸ ῥῆμα -μι δίδωμι (μι-verb δίδωμι) — present active forms",
-          "content": "δίδωμι ('I give') is a -μι verb — it follows a different conjugation pattern from regular -ω verbs. The stem is δο-/δι- and the endings are athematic (no thematic vowel before the ending). These forms appear frequently in this chapter.",
+          "heading": "2. ὑπό + γενική — agent with passive verb ('by')",
+          "content": "When a passive verb names the one performing the action, Greek uses ὑπό + genitive. This is the standard expression for 'by someone' in a passive construction. The same preposition ὑπό with the accusative means 'under' (place). With the genitive, it always means 'by' (agent). Chapter 6 chains multiple passive + ὑπό phrases to build vivid scenes: the grass eaten by the sheep, the sheep guarded by the shepherd, the ground dug by the farmer, the road scorched by the sun. When the agent is a person and the verb is passive, look for ὑπό + genitive.",
           "table": {
-            "caption": "δίδωμι — ὁ ἐνεστὼς ἐνεργετικὴ ὁριστική (Present Active Indicative)",
-            "headers": ["τὸ πρόσωπον", "ἑνικόν (singular)", "πληθυντικόν (plural)"],
+            "caption": "ὑπό — two uses",
+            "headers": ["πτῶσις", "σημαίνει", "παράδειγμα"],
             "rows": [
-              ["αʹ (1st)", "δίδωμι  (I give)", "δίδομεν  (we give)"],
-              ["βʹ (2nd)", "δίδως  (you give)", "δίδοτε  (you pl. give)"],
-              ["γʹ (3rd)", "δίδωσι(ν)  (he/she gives)", "διδόασι(ν)  (they give)"]
+              ["γενική", "by (agent with passive)", "φυλάσσεται ὑπὸ τοῦ ποιμένος — is guarded by the shepherd"],
+              ["αἰτιατική", "under (place)", "ὑπὸ τὴν γῆν — under the ground"]
             ]
           },
           "examples": [
             {
-              "greek": "ὁ πατὴρ δίδωσιν ἡμῖν τὸ πνεῦμα",
-              "note": "the Father gives us the Spirit (3rd sg.)",
+              "greek": "ἡμεῖς γινωσκόμεθα ὑπ᾽ αὐτοῦ, καὶ αὐτὸς γινώσκεται ὑφ᾽ ἡμῶν",
+              "note": "we are known by him, and he is known by us (ὑπ᾽ before vowel, ὑφ᾽ before rough breathing)",
               "noteTranslations": {
-                "es": "el Padre nos da el Espíritu",
-                "pl": "Ojciec daje nam Ducha",
-                "fil": "ibinibigay ng Ama sa atin ang Espiritu"
+                "es": "nosotros somos conocidos por él, y él es conocido por nosotros",
+                "pl": "my jesteśmy przez niego znani, a on jest znany przez nas",
+                "fil": "kami ay kilala niya, at siya ay kilala namin"
               }
             },
             {
-              "greek": "ἡμεῖς δίδομεν σοι ὕδωρ",
-              "note": "we give you water (1st pl.)",
+              "greek": "ἡ ζωὴ δίδοται ἡμῖν ὑπὸ τοῦ Ἰησοῦ",
+              "note": "life is given to us by Jesus (passive of δίδωμι + ὑπό agent)",
               "noteTranslations": {
-                "es": "nosotros te damos agua",
-                "pl": "dajemy ci wodę",
-                "fil": "binibigyan ka namin ng tubig"
-              }
-            },
-            {
-              "greek": "δίδοται ὑπὸ τοῦ θεοῦ",
-              "note": "it is given by God (3rd sg. passive — note the passive form)",
-              "noteTranslations": {
-                "es": "es dado por Dios",
-                "pl": "jest dawane przez Boga",
-                "fil": "ibinibigay ng Diyos"
+                "es": "la vida nos es dada por Jesús",
+                "pl": "życie jest nam dane przez Jezusa",
+                "fil": "ang buhay ay ibinibigay sa atin ni Jesus"
               }
             }
-          ]
+          ],
+          "headingTranslations": {
+            "es": "2. ὑπό + genitivo — el agente con verbo pasivo ('por')",
+            "pl": "2. ὑπό + genetivus — wykonawca przy stronie biernej ('przez')",
+            "fil": "2. ὑπό + genitive — ang agent kasama ang passive verb ('ni/ng')"
+          },
+          "contentTranslations": {
+            "es": "Cuando un verbo pasivo nombra al que realiza la acción, el griego usa ὑπό + genitivo. Esta es la expresión estándar para 'por alguien' en una construcción pasiva. La misma preposición ὑπό con el acusativo significa 'bajo' (lugar).",
+            "pl": "Gdy czasownik w stronie biernej wymienia wykonawcę czynności, greka używa ὑπό + genetivus. To standardowy sposób wyrażenia 'przez kogoś' w konstrukcji biernej. Ta sama przyimek ὑπό z accusativem oznacza 'pod' (miejsce).",
+            "fil": "Kapag ang passive verb ay nagngangalan ng isa na gumagawa ng kilos, gumagamit ang Greek ng ὑπό + genitive. Ito ang karaniwang paraan upang ipahayag ang 'ni/ng isang tao' sa isang passive na konstruksyon. Ang parehong preposisyon ὑπό kasama ang accusative ay nangangahulugang 'sa ilalim' (lugar)."
+          }
+        },
+        {
+          "id": 3,
+          "heading": "3. τίθημι — μι-verb (present active forms)",
+          "content": "τίθημι (I place, I lay down, I give) is a μι-verb — it belongs to the class of verbs that conjugate with athematic endings rather than the -ω endings learned in earlier chapters. Its stem alternates between τιθε- (in most present forms) and τιθε-/τιθε- (reduced in some forms). Chapter 6 uses it extensively: ὁ ποιμὴν τίθησιν τὴν ψυχὴν (the shepherd lays down his life — John 10:11), ἡμεῖς τίθεμεν τὰς ψυχὰς ἡμῶν (we lay down our lives), οἱ πιστοὶ τιθέασιν (the faithful lay down). The most important form is τίθησιν (3sg.) which appears seven times.",
+          "table": {
+            "caption": "τίθημι — ἐνεστώς ἐνεργητικός",
+            "headers": ["τὸ πρόσωπον", "ἑνικόν (sg.)", "πληθυντικόν (pl.)"],
+            "rows": [
+              ["αʹ", "τίθημι — I place/lay", "τίθεμεν — we place/lay"],
+              ["βʹ", "τίθης — you place/lay", "τίθετε — you (pl.) place/lay"],
+              ["γʹ", "τίθησιν — he/she places/lays", "τιθέασιν — they place/lay"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ὁ ποιμὴν ὁ καλὸς τὴν ψυχὴν αὐτοῦ τίθησιν ὑπὲρ τῶν προβάτων",
+              "note": "the good shepherd lays down his life for the sheep (τίθησιν 3sg.)",
+              "noteTranslations": {
+                "es": "el buen pastor da su vida por las ovejas",
+                "pl": "dobry pasterz oddaje życie za owce",
+                "fil": "ang mabuting pastol ay inihahain ang kanyang buhay para sa mga tupa"
+              }
+            },
+            {
+              "greek": "ἡμεῖς τίθεμεν τὰς ψυχὰς ἡμῶν ὅτι αὐτὸς τίθησιν",
+              "note": "we lay down our lives because he lays down (his) (τίθεμεν 1pl., τίθησιν 3sg.)",
+              "noteTranslations": {
+                "es": "nosotros damos nuestras vidas porque él la da",
+                "pl": "my oddajemy nasze życia, bo on oddaje (swoje)",
+                "fil": "inihahain namin ang aming mga buhay dahil inihahain niya (ang kanya)"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "3. τίθημι — verbo en -μι (formas del presente activo)",
+            "pl": "3. τίθημι — czasownik na -μι (formy czasu teraźniejszego czynnego)",
+            "fil": "3. τίθημι — μι-verb (mga present active form)"
+          },
+          "contentTranslations": {
+            "es": "τίθημι (coloco, pongo, ofrezco) es un verbo en -μι — pertenece a la clase de verbos que se conjugan con terminaciones atemáticas en lugar de las terminaciones -ω aprendidas en capítulos anteriores. El Capítulo 6 lo usa ampliamente en la imagen del buen pastor que da su vida.",
+            "pl": "τίθημι (kładę, oddaję) to czasownik na -μι — należy do klasy czasowników odmienianych z końcówkami atematycznymi, a nie końcówkami -ω. Rozdział 6 używa go szeroko w obrazie dobrego pasterza oddającego życie.",
+            "fil": "Ang τίθημι (naglalagay, inihahain) ay isang μι-verb — kabilang ito sa klase ng mga verb na nag-konjugate gamit ang athematic endings sa halip ng -ω endings na natutunang sa mga naunang kabanata. Malawak itong ginagamit sa Ch6 sa imahe ng mabuting pastol na inihahain ang kanyang buhay."
+          }
+        },
+        {
+          "id": 4,
+          "heading": "4. ὅς, ἥ, ὅ — relative pronoun (all genders and cases)",
+          "content": "The relative pronoun ὅς (masc.), ἥ (fem.), ὅ (neut.) means 'who, which, that.' It introduces a relative clause that describes the antecedent noun. The key rule: the relative pronoun agrees with its antecedent in gender and number, but its case is determined by its function inside the relative clause. Chapter 6 is saturated with relative clauses — the good shepherd, the hired hand, the thief, the door, the light, the resurrection are all described through ὅς/ἥ/ὅ. The dative forms (ᾧ, ᾗ, οἷς) appear in prepositional phrases: ἐν ᾧ (in which, while), ἐν ᾗ (in which), δι' ἧς (through which).",
+          "table": {
+            "caption": "ὅς, ἥ, ὅ — key forms",
+            "headers": ["πτῶσις", "ἀρσενικόν (m.)", "θηλυκόν (f.)", "οὐδέτερον (n.)"],
+            "rows": [
+              ["ὀνομαστική", "ὅς", "ἥ", "ὅ"],
+              ["γενική", "οὗ", "ἧς", "οὗ"],
+              ["δοτική", "ᾧ", "ᾗ", "ᾧ"],
+              ["αἰτιατική", "ὅν", "ἥν", "ὅ"],
+              ["ὀν. πλ.", "οἵ", "αἵ", "ἅ"],
+              ["αἰτ. πλ.", "οὕς", "ἅς", "ἅ"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ὁ ποιμήν, ὃς φυλάσσει τὰ πρόβατα — ὁ λύκος ὃς ἔρχεται — τὴν αὐλὴν εἰς ἣν εἰσέρχεται τὰ πρόβατα",
+              "note": "the shepherd who guards the sheep — the wolf which comes — the pen into which the sheep go (ὅς masc. nom., ἥν fem. acc.)",
+              "noteTranslations": {
+                "es": "el pastor que guarda las ovejas — el lobo que viene — el redil al que entran las ovejas",
+                "pl": "pasterz, który strzeże owiec — wilk, który przychodzi — zagroda, do której wchodzą owce",
+                "fil": "ang pastol na nagbabantay sa mga tupa — ang lobo na dumarating — ang kulungan na pinasok ng mga tupa"
+              }
+            },
+            {
+              "greek": "ἐν ᾧ δὲ λαλοῦσιν ὁ Ἰάκωβος καὶ ἡ Σαλώμη … ὁ ἥλιος λάμπει",
+              "note": "while James and Salome are speaking … the sun shines (ἐν ᾧ = temporal 'while, during which time')",
+              "noteTranslations": {
+                "es": "mientras Jacobo y Salomé hablan … el sol brilla",
+                "pl": "gdy Jakub i Salome rozmawiają … słońce świeci",
+                "fil": "habang nag-uusap sina Jacob at Salome … sumisinag ang araw"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "4. ὅς, ἥ, ὅ — el pronombre relativo (todos los géneros y casos)",
+            "pl": "4. ὅς, ἥ, ὅ — zaimek względny (wszystkie rodzaje i przypadki)",
+            "fil": "4. ὅς, ἥ, ὅ — ang relative pronoun (lahat ng gender at case)"
+          },
+          "contentTranslations": {
+            "es": "El pronombre relativo ὅς (m.), ἥ (f.), ὅ (n.) significa 'quien, el cual, que.' Introduce una cláusula relativa que describe al antecedente. La regla clave: el pronombre relativo concuerda con su antecedente en género y número, pero su caso está determinado por su función dentro de la cláusula relativa.",
+            "pl": "Zaimek względny ὅς (m.), ἥ (ż.), ὅ (n.) znaczy 'który, która, które.' Wprowadza zdanie przydawkowe opisujące antecedent. Kluczowa zasada: zaimek względny zgadza się z antecedentem w rodzaju i liczbie, ale jego przypadek wyznacza jego funkcja wewnątrz zdania przydawkowego.",
+            "fil": "Ang relative pronoun na ὅς (m.), ἥ (f.), ὅ (n.) ay nangangahulugang 'na, kung sinong, kung alin.' Nagpapakilala ito ng relative clause na naglalarawan sa antecedent. Ang pangunahing patakaran: ang relative pronoun ay sumasang-ayon sa antecedent nito sa gender at numero, ngunit ang case nito ay tinutukoy ng tungkulin nito sa loob ng relative clause."
+          }
+        },
+        {
+          "id": 5,
+          "heading": "5. ἐγώ εἰμι + κατηγορούμενον — the 'I AM' declarations",
+          "content": "Seven times in Chapter 6, Jesus begins a declaration with ἐγώ εἰμι (I am) followed by a predicate noun (κατηγορούμενον). These are the famous 'I AM' sayings from John's Gospel. The predicate noun after εἰμι is in the nominative case, just like the subject — Greek uses the same case for both sides of an equative (ἐστίν) verb. The emphasis in ἐγώ εἰμι falls on ἐγώ: 'I — and no other — am this thing.' The definite article before the predicate noun (ὁ ποιμὴν ὁ καλός, ἡ θύρα, τὸ φῶς) is significant: Jesus is not just a shepherd but the shepherd.",
+          "table": {
+            "caption": "ἐγώ εἰμι — the seven sayings in Ch6",
+            "headers": ["ἐγώ εἰμι …", "σημαίνει"],
+            "rows": [
+              ["ὁ ἄρτος τῆς ζωῆς", "the bread of life"],
+              ["τὸ φῶς τοῦ κόσμου", "the light of the world"],
+              ["ὁ ποιμὴν ὁ καλός", "the good shepherd"],
+              ["ἡ θύρα τῶν προβάτων", "the door of the sheep"],
+              ["ἡ ἀνάστασις καὶ ἡ ζωή", "the resurrection and the life"],
+              ["ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ ζωή", "the way and the truth and the life"],
+              ["ἡ ἄμπελος ἡ ἀληθινή", "the true vine"]
+            ]
+          },
+          "examples": [
+            {
+              "greek": "ἐγώ εἰμι ὁ ποιμὴν ὁ καλός· ὁ ποιμὴν ὁ καλὸς τὴν ψυχὴν αὐτοῦ τίθησιν ὑπὲρ τῶν προβάτων",
+              "note": "I am the good shepherd; the good shepherd lays down his life for the sheep (John 10:11)",
+              "noteTranslations": {
+                "es": "yo soy el buen pastor; el buen pastor da su vida por las ovejas",
+                "pl": "ja jestem dobrym pasterzem; dobry pasterz oddaje życie za owce",
+                "fil": "ako ang mabuting pastol; ang mabuting pastol ay inihahain ang kanyang buhay para sa mga tupa"
+              }
+            },
+            {
+              "greek": "ἐγώ εἰμι ἡ θύρα· ὅστις εἰσέρχεται δι᾽ αὐτοῦ σῴζεται",
+              "note": "I am the door; whoever enters through him is saved (John 10:9)",
+              "noteTranslations": {
+                "es": "yo soy la puerta; el que entra por mí será salvo",
+                "pl": "ja jestem drzwiami; kto wchodzi przeze mnie, będzie zbawiony",
+                "fil": "ako ang pintuan; sinumang pumasok sa pamamagitan niya ay maliligtas"
+              }
+            }
+          ],
+          "headingTranslations": {
+            "es": "5. ἐγώ εἰμι + predicado nominal — las declaraciones 'YO SOY'",
+            "pl": "5. ἐγώ εἰμι + orzecznik — deklaracje 'JA JESTEM'",
+            "fil": "5. ἐγώ εἰμι + predicate noun — ang mga 'AKO ANG' na deklarasyon"
+          },
+          "contentTranslations": {
+            "es": "Siete veces en el Capítulo 6, Jesús comienza una declaración con ἐγώ εἰμι seguido de un sustantivo predicativo. Estas son las famosas declaraciones 'YO SOY' del Evangelio de Juan. El sustantivo predicativo después de εἰμι está en caso nominativo.",
+            "pl": "Siedem razy w rozdziale 6 Jezus rozpoczyna deklarację od ἐγώ εἰμι, po którym następuje orzecznik. To słynne deklaracje 'JA JESTEM' z Ewangelii Jana. Orzecznik po εἰμι jest w mianowniku.",
+            "fil": "Pitong beses sa Kabanata 6, nagsisimula si Jesus ng isang deklarasyon gamit ang ἐγώ εἰμι kasunod ng isang predicate noun. Ito ang mga sikat na 'AKO ANG' na pahayag mula sa Ebanghelyo ni Juan. Ang predicate noun pagkatapos ng εἰμι ay nasa nominative case."
+          }
         }
       ]
     },
     {
-      "label": "Μέρος Βʹ — Τὸ Ἔργον τοῦ Πνεύματος καὶ ἡ Σάρξ",
+      "label": "Μέρος Βʹ — Τὸ Φῶς, ἡ Ἀνάστασις, ἡ Θύρα",
       "sections": [
         {
           "id": 6,
-          "heading": "6. ἡ προθέσις κατά (preposition κατά) — + αἰτιατική (accusative), 'according to'",
-          "content": "κατά with the accusative means 'according to,' 'in accordance with,' or 'along.' In Part B it appears in the key contrast περιπατεῖν κατὰ τὴν σάρκα / κατὰ τὸ πνεῦμα — to walk according to the flesh / according to the Spirit. This is the Pauline idiom for one's moral orientation or way of life.",
+          "heading": "6. ἐάν + ὑποτακτική — conditional clauses ('if')",
+          "content": "ἐάν (a contraction of εἰ + ἄν) introduces a conditional clause and always takes the subjunctive. This is called a third-class condition — it expresses a possible or open future condition: 'if (and it may well be) that….' The apodosis (main clause) is usually in the present or future indicative. Chapter 6 uses ἐάν throughout Part B, especially in James's teaching about walking in the light: ἐὰν λέγωμεν ὅτι κοινωνίαν ἔχομεν (if we say that we have fellowship) … ἐὰν δὲ ἐν τῷ φωτὶ περιπατῶμεν (but if we walk in the light). Notice that the subject is often first-person plural — drawing the students into the condition.",
+          "table": {
+            "caption": "εἰ vs. ἐάν — two conditionals",
+            "headers": ["λέξις", "ἡ ἔγκλισις", "τὸ εἶδος", "σημαίνει"],
+            "rows": [
+              ["εἰ", "ὁριστική", "1st / 2nd class", "if (assuming it is / is not true)"],
+              ["ἐάν (εἰ + ἄν)", "ὑποτακτική", "3rd class", "if (open possibility, future)"],
+              ["ἐάν + subj.", "ὑποτακτική", "general", "whoever (with relative force)"]
+            ]
+          },
           "examples": [
             {
-              "greek": "περιπατεῖ κατὰ τὴν σάρκα",
-              "note": "he walks according to the flesh (moral conduct governed by fleshly desires)",
+              "greek": "ἐὰν λέγωμεν ὅτι κοινωνίαν ἔχομεν μετὰ τοῦ θεοῦ, καὶ ἐν τῇ σκοτίᾳ περιπατῶμεν, οὐ λέγομεν τὴν ἀλήθειαν",
+              "note": "if we say that we have fellowship with God, and walk in darkness, we do not speak the truth (1 John 1:6)",
               "noteTranslations": {
-                "es": "camina según la carne",
-                "pl": "chodzi według ciała",
-                "fil": "lumalakad ayon sa laman"
+                "es": "si decimos que tenemos comunión con Dios y andamos en tinieblas, mentimos",
+                "pl": "jeśli mówimy, że mamy społeczność z Bogiem, a chodzimy w ciemności, kłamiemy",
+                "fil": "kung sinasabi nating may pakikisama tayo sa Diyos at lumalakad tayo sa kadiliman, nagsisinungaling tayo"
               }
             },
             {
-              "greek": "περιπατεῖ κατὰ τὸ πνεῦμα",
-              "note": "he walks according to the Spirit",
+              "greek": "ἐὰν δὲ ἐν τῷ φωτὶ περιπατῶμεν, ἔχομεν κοινωνίαν μετὰ αὐτοῦ καὶ μετ᾽ ἀλλήλων",
+              "note": "but if we walk in the light, we have fellowship with him and with one another (1 John 1:7)",
               "noteTranslations": {
-                "es": "camina según el Espíritu",
-                "pl": "chodzi według Ducha",
-                "fil": "lumalakad ayon sa Espiritu"
-              }
-            },
-            {
-              "greek": "τὸ φρόνημα τῆς σαρκὸς θάνατός ἐστιν",
-              "note": "the mindset of the flesh is death (genitive of source/description)",
-              "noteTranslations": {
-                "es": "la mentalidad de la carne es muerte",
-                "pl": "nastawienie ciała to śmierć",
-                "fil": "ang isip ng laman ay kamatayan"
+                "es": "pero si andamos en la luz, tenemos comunión con él y entre nosotros",
+                "pl": "ale jeśli chodzimy w świetle, mamy społeczność z nim i z sobą nawzajem",
+                "fil": "ngunit kung lumalakad tayo sa liwanag, mayroon tayong pakikisama sa kanya at sa isa't isa"
               }
             }
-          ]
+          ],
+          "headingTranslations": {
+            "es": "6. ἐάν + subjuntivo — cláusulas condicionales ('si')",
+            "pl": "6. ἐάν + tryb łączący — zdania warunkowe ('jeśli')",
+            "fil": "6. ἐάν + subjunctive — mga conditional clause ('kung')"
+          },
+          "contentTranslations": {
+            "es": "ἐάν introduce una cláusula condicional y siempre lleva el subjuntivo. Esto se llama condición de tercera clase — expresa una condición futura posible o abierta. La apódosis (cláusula principal) está generalmente en el indicativo presente o futuro.",
+            "pl": "ἐάν wprowadza zdanie warunkowe i zawsze wymaga trybu łączącego. Nazywa się to warunkiem trzeciej klasy — wyraża możliwy lub otwarty warunek przyszły. Apodoza (zdanie główne) jest zazwyczaj w trybie oznajmującym teraźniejszym lub przyszłym.",
+            "fil": "Ang ἐάν ay nagpapakilala ng conditional clause at palaging gumagamit ng subjunctive. Ito ay tinatawag na third-class condition — nagpapahayag ito ng posible o bukas na kondisyon sa hinaharap. Ang apodosis (pangunahing sugnay) ay karaniwang nasa present o future indicative."
+          }
         },
         {
           "id": 7,
-          "heading": "7. ἐάν + ἡ ὑποτακτική (subjunctive) — conditional clauses",
-          "content": "ἐάν ('if') introduces a conditional clause and is always followed by the subjunctive mood. This is called a third-class condition in Greek — it expresses a possible or likely future event. The main clause uses the indicative. The subjunctive form often looks like the present indicative but may have a slightly different vowel.",
+          "heading": "7. ἵνα + ὑποτακτική — purpose clause ('in order that, so that')",
+          "content": "ἵνα (so that, in order that) introduces a purpose clause and always takes the subjunctive. Chapter 6 uses ἵνα in two ways. First, as a direct purpose clause: ὁ κλέπτης ἔρχεται ἵνα κλέπτῃ (the thief comes in order to steal). Second, ἵνα can introduce a command content — the content of a commandment or desire: αὕτη ἐστὶν ἡ ἐντολή … ἵνα ἀγαπῶμεν ἀλλήλους (this is the commandment … that we love one another). This second use is Koine Greek's way of expressing indirect command — where classical Greek would use an infinitive, Koine prefers ἵνα + subjunctive.",
+          "table": {
+            "caption": "ἵνα + ὑποτακτική — two uses",
+            "headers": ["χρεία", "παράδειγμα", "σημαίνει"],
+            "rows": [
+              ["purpose (telic)", "ἔρχεται ἵνα κλέπτῃ", "he comes in order to steal"],
+              ["command content", "ἡ ἐντολή ἐστιν ἵνα ἀγαπῶμεν", "the commandment is that we love"],
+              ["result (with οὕτως)", "οὕτως ἠγάπησεν … ἵνα πᾶς … ζῇ", "he loved … so that everyone … may live"]
+            ]
+          },
           "examples": [
             {
-              "greek": "ἐὰν περιπατῶμεν τῷ πνεύματι, οὐ ποιοῦμεν τὰ τῆς σαρκός",
-              "note": "if we walk by the Spirit, we do not do the things of the flesh (ἐάν + subj.; main clause = indicative)",
+              "greek": "ὁ κλέπτης οὐκ ἔρχεται εἰ μὴ ἵνα κλέπτῃ καὶ θύῃ καὶ ἀποκτείνῃ",
+              "note": "the thief comes only in order to steal, kill, and destroy (three purpose subjunctives after ἵνα)",
               "noteTranslations": {
-                "es": "si andamos en el Espíritu, no hacemos las cosas de la carne",
-                "pl": "jeśli kroczymy w Duchu, nie czynimy rzeczy ciała",
-                "fil": "kung lumalakad tayo sa Espiritu, hindi natin ginagawa ang mga bagay ng laman"
+                "es": "el ladrón no viene sino para hurtar, matar y destruir",
+                "pl": "złodziej przychodzi tylko po to, żeby kraść, zabijać i niszczyć",
+                "fil": "ang magnanakaw ay dumarating lamang upang magnakaw, pumatay, at pumuksa"
               }
             },
             {
-              "greek": "ἐὰν ζῶμεν τῷ πνεύματι, καὶ τῷ πνεύματι στοιχῶμεν",
-              "note": "if we live by the Spirit, let us also walk in step with the Spirit",
+              "greek": "αὕτη ἐστὶν ἡ ἐντολὴ τοῦ Ἰησοῦ· ἵνα ἀγαπῶμεν ἀλλήλους",
+              "note": "this is the commandment of Jesus: that we love one another (ἵνα as command content, not purpose)",
               "noteTranslations": {
-                "es": "si vivimos en el Espíritu, andemos también en el Espíritu",
-                "pl": "jeśli żyjemy Duchem, postępujmy też według Ducha",
-                "fil": "kung tayo ay nabubuhay sa Espiritu, lumakad din tayo ayon sa Espiritu"
+                "es": "este es el mandamiento de Jesús: que nos amemos unos a otros",
+                "pl": "to jest przykazanie Jezusa: abyśmy miłowali się nawzajem",
+                "fil": "ito ang utos ni Jesus: na mahal-mahal natin ang isa't isa"
               }
             }
-          ]
+          ],
+          "headingTranslations": {
+            "es": "7. ἵνα + subjuntivo — cláusula de propósito ('para que, a fin de que')",
+            "pl": "7. ἵνα + tryb łączący — zdanie celowe ('żeby, aby')",
+            "fil": "7. ἵνα + subjunctive — purpose clause ('upang, nang sa gayon')"
+          },
+          "contentTranslations": {
+            "es": "ἵνα introduce una cláusula de propósito y siempre lleva el subjuntivo. El Capítulo 6 lo usa de dos maneras: como cláusula de propósito directo, y para expresar el contenido de un mandamiento o deseo.",
+            "pl": "ἵνα wprowadza zdanie celowe i zawsze wymaga trybu łączącego. Rozdział 6 używa go na dwa sposoby: jako bezpośrednie zdanie celowe i do wyrażenia treści przykazania lub pragnienia.",
+            "fil": "Ang ἵνα ay nagpapakilala ng purpose clause at palaging gumagamit ng subjunctive. Ginagamit ito ng Kabanata 6 sa dalawang paraan: bilang direktang purpose clause, at upang ipahayag ang nilalaman ng isang utos o pagnanasa."
+          }
         },
         {
           "id": 8,
-          "heading": "8. τὸ συνηρημένον ῥῆμα ζάω (contract verb ζάω) — irregular -άω",
-          "content": "ζάω ('to live') is a contract verb whose stem ends in -α, but contracts unusually. The 3rd singular is ζῇ (not ζᾷ as expected) and the 1st plural is ζῶμεν. These forms appear directly in the story. The dative ζῶ τῷ πνεύματι means 'I live by/for the Spirit' — dative of means or instrument.",
+          "heading": "8. ὅστις — indefinite relative pronoun ('whoever, anyone who')",
+          "content": "ὅστις combines the relative pronoun ὅς with the indefinite τις: 'anyone who, whoever.' Where ὅς refers to a specific person (the shepherd who…), ὅστις refers to any member of a class (whoever enters…). In Chapter 6 it appears in sweeping universal statements: ὅστις εἰσέρχεται δι᾽ αὐτοῦ σῴζεται (whoever enters through him is saved), ὅστις ἀγαπᾷ τὸν ἀδελφὸν ἐν τῷ φωτὶ μένει (whoever loves his brother remains in the light). Only the masculine singular form (ὅστις / ἥτις / ὅ τι) is common in the New Testament.",
           "table": {
-            "caption": "ζάω — ὁ ἐνεστὼς ἐνεργετικὴ ὁριστική (Present Active Indicative)",
-            "headers": ["τὸ πρόσωπον", "ἑνικόν (singular)", "πληθυντικόν (plural)"],
+            "caption": "ὅς vs. ὅστις",
+            "headers": ["λέξις", "σημαίνει", "χρεία"],
             "rows": [
-              ["αʹ (1st)", "ζῶ  (I live)", "ζῶμεν  (we live)"],
-              ["βʹ (2nd)", "ζῇς  (you live)", "ζῆτε  (you pl. live)"],
-              ["γʹ (3rd)", "ζῇ  (he/she lives)", "ζῶσι(ν)  (they live)"]
+              ["ὅς, ἥ, ὅ", "who, which, that (specific)", "ὁ ποιμήν ὃς φυλάσσει — the shepherd who guards"],
+              ["ὅστις, ἥτις, ὅ τι", "whoever, anyone who (general)", "ὅστις πιστεύει — whoever believes"],
+              ["οἵ (pl. of ὅς)", "who (specific plural)", "πάντες οἳ εἰσέρχονται — all who enter"]
             ]
           },
           "examples": [
             {
-              "greek": "ὃς περιπατεῖ κατὰ τὸ πνεῦμα, οὗτος ζῇ",
-              "note": "the one who walks according to the Spirit, this one lives (3rd sg. ζῇ)",
+              "greek": "ὅστις εἰσέρχεται δι᾽ αὐτοῦ σῴζεται, καὶ εἰσέρχεται καὶ ἐξέρχεται καὶ εὑρίσκει χόρτον",
+              "note": "whoever enters through him is saved, and goes in and out and finds pasture (John 10:9)",
               "noteTranslations": {
-                "es": "el que camina según el Espíritu, éste vive",
-                "pl": "kto chodzi według Ducha, ten żyje",
-                "fil": "ang lumalakad ayon sa Espiritu, siya ay nabubuhay"
+                "es": "el que entra por mí, será salvo; y entrará, y saldrá, y hallará pastos",
+                "pl": "kto wejdzie przeze mnie, będzie zbawiony i będzie wchodzić, wychodzić i znajdować paszę",
+                "fil": "sinumang pumasok sa pamamagitan niya ay maliligtas, at papasok at lalabas at makakahanap ng pastulan"
               }
             },
             {
-              "greek": "ἐὰν ζῶμεν τῷ πνεύματι",
-              "note": "if we live by the Spirit (1st pl. subjunctive ζῶμεν; dative of instrument: τῷ πνεύματι)",
+              "greek": "ὅστις ἀγαπᾷ τὸν ἀδελφὸν αὐτοῦ ἐν τῷ φωτὶ μένει· ὅστις δὲ μισεῖ ἐν τῇ σκοτίᾳ ἐστίν",
+              "note": "whoever loves his brother remains in the light; but whoever hates is in the darkness (1 John 2:10–11)",
               "noteTranslations": {
-                "es": "si vivimos en el Espíritu",
-                "pl": "jeśli żyjemy Duchem",
-                "fil": "kung tayo ay nabubuhay sa Espiritu"
+                "es": "el que ama a su hermano permanece en la luz; pero el que aborrece está en tinieblas",
+                "pl": "kto miłuje brata, trwa w światłości; kto zaś nienawidzi, jest w ciemności",
+                "fil": "ang sinumang umiibig sa kanyang kapatid ay nananatili sa liwanag; ngunit ang sinumang napopoot ay nasa kadiliman"
               }
             }
-          ]
+          ],
+          "headingTranslations": {
+            "es": "8. ὅστις — pronombre relativo indefinido ('quienquiera que, el que')",
+            "pl": "8. ὅστις — nieokreślony zaimek względny ('ktokolwiek, każdy kto')",
+            "fil": "8. ὅστις — indefinite relative pronoun ('sinuman, kahit sino')"
+          },
+          "contentTranslations": {
+            "es": "ὅστις combina el pronombre relativo ὅς con el indefinido τις: 'cualquiera que, quienquiera que.' Donde ὅς se refiere a una persona específica, ὅστις se refiere a cualquier miembro de una clase.",
+            "pl": "ὅστις łączy zaimek względny ὅς z nieokreślonym τις: 'ktokolwiek, każdy kto.' Tam gdzie ὅς odnosi się do konkretnej osoby, ὅστις odnosi się do dowolnego członka klasy.",
+            "fil": "Pinagsama ng ὅστις ang relative pronoun na ὅς kasama ang indefinite na τις: 'kahit sino, sinumang.' Kung saan ang ὅς ay tumutukoy sa isang partikular na tao, ang ὅστις ay tumutukoy sa anumang miyembro ng isang klase."
+          }
         },
         {
           "id": 9,
-          "heading": "9. τὸ ἀντώνυμον (pronoun) ὅς, ἥ, ὅ — relative, selected forms",
-          "content": "The relative pronoun ὅς (masc.), ἥ (fem.), ὅ (neut.) introduces a relative clause and agrees with its antecedent in gender and number, but takes its case from its role within the clause. Part B uses it heavily — particularly ὅς (whoever walks…) and ὃ (which dwells in us…). The indefinite relative ὅς with a general antecedent often translates 'whoever.'",
+          "heading": "9. ὥσπερ … οὕτως — correlative comparison ('just as … so also')",
+          "content": "ὥσπερ (just as) paired with οὕτως (so, in this way) forms a correlative comparison — the two halves mirror each other. It is the Greek equivalent of English 'just as X, so also Y.' Chapter 6 uses it to illuminate spiritual realities through natural parallels: ὥσπερ ὁ ἥλιος δείκνυσιν ἡμῖν τὴν ὁδόν, οὕτως ὁ Ἰησοῦς δείκνυσιν τὴν ὁδὸν πρὸς τὸν θεόν (just as the sun shows us the way, so Jesus shows the way to God). The first half introduces the familiar earthly reality; the second half applies it to the spiritual truth.",
           "table": {
-            "caption": "ὅς, ἥ, ὅ — ὀνομαστική and αἰτιατική",
-            "headers": ["ἡ πτῶσις", "ἀρσενικόν (masc.)", "θηλυκόν (fem.)", "οὐδέτερον (neut.)"],
+            "caption": "ὥσπερ … οὕτως — structure",
+            "headers": ["ἡ δομή", "σημαίνει", "παράδειγμα"],
             "rows": [
-              ["ὀνομαστική ἑνικόν (nom. sg.)", "ὅς", "ἥ", "ὅ"],
-              ["αἰτιατική ἑνικόν (acc. sg.)", "ὅν", "ἥν", "ὅ"],
-              ["ὀνομαστική πληθυντικόν (nom. pl.)", "οἵ", "αἵ", "ἅ"],
-              ["αἰτιατική πληθυντικόν (acc. pl.)", "οὕς", "ἅς", "ἅ"]
+              ["ὥσπερ + clause A", "just as …", "ὥσπερ ὁ ποιμὴν δίδωσιν χόρτον …"],
+              ["οὕτως + clause B", "so also …", "… οὕτως ὁ Ἰησοῦς δίδωσιν ζωήν"],
+              ["καθὼς … οὕτως", "just as … so (closer parallel)", "καθὼς γινώσκει ὁ πατήρ … οὕτως γινώσκω ἐγώ"]
             ]
           },
           "examples": [
             {
-              "greek": "ὃς περιπατεῖ κατὰ τὸ πνεῦμα, οὗτος ἀγαπᾷ τὸν θεόν",
-              "note": "the one who walks according to the Spirit, this one loves God (ὅς agrees with the implied masc. subject)",
+              "greek": "ὥσπερ ὁ ποιμὴν δίδωσιν τὸν χόρτον τοῖς προβάτοις, οὕτως ὁ Ἰησοῦς δίδωσιν ἡμῖν τὴν ζωήν",
+              "note": "just as the shepherd gives grass to the sheep, so Jesus gives us life",
               "noteTranslations": {
-                "es": "el que camina según el Espíritu, éste ama a Dios",
-                "pl": "kto chodzi według Ducha, ten miłuje Boga",
-                "fil": "ang lumalakad ayon sa Espiritu, siya ay nagmamahal sa Diyos"
+                "es": "así como el pastor da hierba a las ovejas, así Jesús nos da vida",
+                "pl": "jak pasterz daje owcom trawę, tak Jezus daje nam życie",
+                "fil": "tulad ng pagbibigay ng pastol ng damo sa mga tupa, gayon din ibinibigay ni Jesus sa atin ang buhay"
               }
             },
             {
-              "greek": "τὸ πνεῦμα, ὃ οἰκεῖ ἐν ἡμῖν",
-              "note": "the Spirit, which dwells in us (ὅ is neut. agreeing with τὸ πνεῦμα; nominative in the relative clause)",
+              "greek": "ὥσπερ ὁ ἥλιος δείκνυσιν ἡμῖν τὴν ὁδόν, οὕτως ὁ Ἰησοῦς δείκνυσιν τὴν ὁδὸν ἐν ᾗ ἔρχεται ἄνθρωπος πρὸς τὸν θεόν",
+              "note": "just as the sun shows us the way, so Jesus shows the way by which a person comes to God",
               "noteTranslations": {
-                "es": "el Espíritu, que habita en nosotros",
-                "pl": "Duch, który mieszka w nas",
-                "fil": "ang Espiritu, na nananahan sa atin"
+                "es": "así como el sol nos muestra el camino, así Jesús muestra el camino por el que el hombre llega a Dios",
+                "pl": "jak słońce pokazuje nam drogę, tak Jezus pokazuje drogę, którą człowiek przychodzi do Boga",
+                "fil": "tulad ng pagpapakita ng araw sa atin ng daan, gayon din ipinakikita ni Jesus ang daan kung saan ang tao ay lumalapit sa Diyos"
               }
             }
-          ]
-        },
-        {
-          "id": 10,
-          "heading": "10. ὁ καρπὸς τοῦ πνεύματος (fruit of the Spirit) — nine qualities",
-          "content": "Paul's list of the fruit of the Spirit in Galatians 5:22–23 appears in James's speech. Each noun is worth learning: ἀγάπη (love), χαρά (joy), εἰρήνη (peace), μακροθυμία (patience/longsuffering), χρηστότης (kindness), ἀγαθωσύνη (goodness), πίστις (faithfulness), πραΰτης (gentleness), ἐγκράτεια (self-control). Note that ὁ καρπός is singular — the Spirit bears one fruit with nine qualities.",
-          "examples": [
-            {
-              "greek": "ὁ καρπὸς τοῦ πνεύματός ἐστιν ἀγάπη καὶ χαρὰ καὶ εἰρήνη",
-              "note": "the fruit of the Spirit is love and joy and peace",
-              "noteTranslations": {
-                "es": "el fruto del Espíritu es amor, gozo y paz",
-                "pl": "owocem Ducha jest miłość, radość i pokój",
-                "fil": "ang bunga ng Espiritu ay pagmamahal, kagalakan, at kapayapaan"
-              }
-            },
-            {
-              "greek": "μακροθυμία καὶ χρηστότης καὶ ἀγαθωσύνη, πίστις καὶ πραΰτης καὶ ἐγκράτεια",
-              "note": "patience and kindness and goodness, faithfulness and gentleness and self-control",
-              "noteTranslations": {
-                "es": "paciencia, benignidad, bondad, fe, mansedumbre, templanza",
-                "pl": "cierpliwość, uprzejmość, dobroć, wierność, łagodność, powściągliwość",
-                "fil": "tiyaga, kabaitan, kabutihan, katapatan, kaamuan, pagpipigil sa sarili"
-              }
-            }
-          ]
+          ],
+          "headingTranslations": {
+            "es": "9. ὥσπερ … οὕτως — comparación correlativa ('así como … así también')",
+            "pl": "9. ὥσπερ … οὕτως — porównanie korelacyjne ('tak jak … tak też')",
+            "fil": "9. ὥσπερ … οὕτως — correlative comparison ('kung paano … gayon din')"
+          },
+          "contentTranslations": {
+            "es": "ὥσπερ (así como) emparejado con οὕτως (así, de esta manera) forma una comparación correlativa. El Capítulo 6 la usa para iluminar realidades espirituales a través de paralelos naturales.",
+            "pl": "ὥσπερ (tak jak) w parze z οὕτως (tak, w ten sposób) tworzy porównanie korelacyjne. Rozdział 6 używa go do oświetlenia duchowych rzeczywistości przez naturalne paralele.",
+            "fil": "Ang ὥσπερ (tulad ng) na ipinares sa οὕτως (gayon din) ay bumubuo ng correlative comparison. Ginagamit ito ng Kabanata 6 upang linawin ang mga espiritwal na katotohanan sa pamamagitan ng mga natural na pagkakatulad."
+          }
         }
       ]
     }
