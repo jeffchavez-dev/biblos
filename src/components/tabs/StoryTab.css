@@ -13,7 +13,7 @@
   flex-shrink: 0;
   width: 200px;
   margin-left: 12px;
-  align-self: stretch;
+  align-self: flex-start;
   border-left: 2px dashed rgba(0,0,0,0.15);
   padding-left: 12px;
   display: flex;
