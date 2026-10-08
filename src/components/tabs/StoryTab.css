@@ -4,16 +4,14 @@
 .story-row-outer { display: contents; }
 
 .story-paragraph-row {
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr) 212px;
+  align-items: start;
   position: relative;
 }
 
 .story-margin-gutter {
-  flex-shrink: 0;
-  width: 200px;
   margin-left: 12px;
-  align-self: flex-start;
   border-left: 2px dashed rgba(0,0,0,0.15);
   padding-left: 12px;
   display: flex;
@@ -299,8 +297,9 @@
 }
 
 .story-paragraph-row {
-  display: flex;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr) 212px;
+  align-items: start;
 }
 
 .para-number {
@@ -552,6 +551,7 @@
   .story-title { font-size: 1.3rem; }
   .para-greek { font-size: 1.1rem; line-height: 1.9; }
   .story-paragraph { padding: 14px 14px; }
+  .story-paragraph-row { grid-template-columns: 24px minmax(0, 1fr); }
   .para-number { width: 24px; padding-top: 18px; font-size: 0.72rem; }
   .story-instruction { font-size: 0.75rem; }
 
