@@ -17,6 +17,9 @@ const SOURCES = [
   { file: () => import('../data/unit2/chapter6/vocabulary.json'), unit: 2, chapter: 6 },
   { file: () => import('../data/unit3/chapter7/vocabulary.json'), unit: 3, chapter: 7 },
   { file: () => import('../data/unit3/chapter8/vocabulary.json'), unit: 3, chapter: 8 },
+  { file: () => import('../data/unit3/chapter9/vocabulary.json'), unit: 3, chapter: 9 },
+  { file: () => import('../data/unit4/chapter10/vocabulary.json'), unit: 4, chapter: 10 },
+  { file: () => import('../data/unit4/chapter11/vocabulary.json'), unit: 4, chapter: 11 },
   { file: () => import('../data/grammar-terms.json'), unit: 0, chapter: 0 },
 ]
 
@@ -28,6 +31,11 @@ const STORY_SOURCES = [
   { file: () => import('../data/unit2/chapter4/story.json'), unit: 2, chapter: 4 },
   { file: () => import('../data/unit2/chapter5/story.json'), unit: 2, chapter: 5 },
   { file: () => import('../data/unit2/chapter6/story.json'), unit: 2, chapter: 6 },
+  { file: () => import('../data/unit3/chapter7/story.json'), unit: 3, chapter: 7 },
+  { file: () => import('../data/unit3/chapter8/story.json'), unit: 3, chapter: 8 },
+  { file: () => import('../data/unit3/chapter9/story.json'), unit: 3, chapter: 9 },
+  { file: () => import('../data/unit4/chapter10/story.json'), unit: 4, chapter: 10 },
+  { file: () => import('../data/unit4/chapter11/story.json'), unit: 4, chapter: 11 },
 ]
 
 // Part-of-speech categories (priority order — first match wins)
