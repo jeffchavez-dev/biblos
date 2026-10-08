@@ -38,7 +38,13 @@
         },
         {
           "greek": "καθήμενος",
-          "definition": "sitting (pres.mid.ptc.nom.m.sg.)"
+          "definition": "sitting (pres.mid.ptc.nom.m.sg.)",
+          "sideNote": {
+            "type": "word",
+            "word": "καθήμενος",
+            "lemma": "κάθημαι",
+            "means": "καθήμενος · συνώνυμον: καθίζω"
+          }
         },
         {
           "greek": "παρὰ",
@@ -1783,7 +1789,13 @@
         },
         {
           "greek": "καθήμενος",
-          "definition": "sitting (pres.mid.ptc.nom.m.sg.)"
+          "definition": "sitting (pres.mid.ptc.nom.m.sg.)",
+          "sideNote": {
+            "type": "word",
+            "word": "καθήμενος",
+            "lemma": "κάθημαι",
+            "means": "καθήμενος · συνώνυμον: καθίζω"
+          }
         },
         {
           "greek": "βλέπει",

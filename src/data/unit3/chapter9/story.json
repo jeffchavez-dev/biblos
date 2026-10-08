@@ -718,7 +718,13 @@
         },
         {
           "greek": "κάθημαι",
-          "definition": "I sit (pres.mid.ind.1sg.)"
+          "definition": "I sit (pres.mid.ind.1sg.)",
+          "sideNote": {
+            "type": "word",
+            "word": "κάθημαι",
+            "lemma": "κάθημαι",
+            "means": "κάθημαι · συνώνυμον: καθίζω"
+          }
         },
         {
           "greek": "μεθ᾽",
