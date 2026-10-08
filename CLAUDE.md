@@ -164,8 +164,11 @@ const VOCAB_SOURCES = [
 4. **Copy images** to `public/vocab-images/` with naming convention
 5. **Add to `units.json`** — new chapter object with `parts` array
 6. **Add to VOCAB_SOURCES** in `src/App.jsx`
-7. **Stub the other files** — `exercises.json`, `grammar.json` → `[]`; `visualstory.json` → `{"panels":[]}`
-8. **Verify in browser** — navigate to chapter, check Story tab (both parts), Vocabulary tab
+7. **Add to SOURCES and STORY_SOURCES** in `src/components/VocabularyIndex.jsx` — or the Λεξικόν will not include the new chapter's words
+8. **Stub the other files** — `exercises.json`, `grammar.json` → `[]`; `visualstory.json` → `{"panels":[]}`
+9. **Verify in browser** — navigate to chapter, check Story tab (both parts), Vocabulary tab, Λεξικόν search
+
+**Vocabulary image path convention:** Store just the filename (e.g. `c11a-noun-3.jpeg`), NOT the full `/vocab-images/` path. StoryTab prepends the prefix at render time.
 
 ---
 
