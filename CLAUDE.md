@@ -166,7 +166,10 @@ const VOCAB_SOURCES = [
 6. **Add to VOCAB_SOURCES** in `src/App.jsx`
 7. **Add to SOURCES and STORY_SOURCES** in `src/components/VocabularyIndex.jsx` — or the Λεξικόν will not include the new chapter's words
 8. **Stub the other files** — `exercises.json`, `grammar.json` → `[]`; `visualstory.json` → `{"panels":[]}`
-9. **Verify in browser** — navigate to chapter, check Story tab (both parts), Vocabulary tab, Λεξικόν search
+9. **Rebuild NT index** — run `node scripts/build-refs.js`, then commit and push `public/refs.json` and `public/nt-verses.json`. This updates both the Λεξικόν NT references panel and the GNT Reader "Biblos words" highlight. Re-run any time vocabulary is added or changed.
+10. **Write comprehension exercises** — fill `exercises.json` with `multipleChoice`, `trueFalse`, and `yesNo` arrays covering both Part A and Part B. All vocabulary in questions/options/explanations must be attested in Ch1–ChN stories only (use `/check-exercises chN` to verify).
+11. **Write grammar notes** — fill `grammar.json` with grammar sections covering the new grammatical forms introduced in the chapter.
+12. **Verify in browser** — navigate to chapter, check Story tab (both parts), Vocabulary tab, Exercises tab, Grammar tab, Λεξικόν search, and GNT Reader "Biblos words" toggle
 
 **Vocabulary image path convention:** Store just the filename (e.g. `c11a-noun-3.jpeg`), NOT the full `/vocab-images/` path. StoryTab prepends the prefix at render time.
 
@@ -177,7 +180,8 @@ const VOCAB_SOURCES = [
 1. Add image files to `public/vocab-images/` (follow naming convention)
 2. Add entries to the chapter's `vocabulary.json`
 3. Assign sequential `id` values continuing from the last existing entry
-4. Verify word count is correct in browser (Λεξικόν badge total updates automatically)
+4. **Rebuild NT index** — run `node scripts/build-refs.js`, commit and push `public/refs.json` + `public/nt-verses.json`
+5. Verify word count is correct in browser (Λεξικόν badge total updates automatically)
 
 ---
 
@@ -231,4 +235,4 @@ Or use the Claude Code preview tool (`preview_start` with name `biblos-dev`).
 
 ---
 
-*Last updated: 2026-10-03 — Grammar complete through Ch10 (Κεφάλαιον Ιʹ — Ὁ Σπείρων)*
+*Last updated: 2026-10-13 — Checklists expanded: added NT index rebuild, exercises, and grammar steps*
