@@ -2,315 +2,302 @@
   "multipleChoice": [
     {
       "id": 1,
-      "question": "ποῦ ἐστιν ὁ Ἰάκωβος ἐν ἀρχῇ τοῦ κεφαλαίου;",
-      "options": [
-        "ἐν τῷ οἴκῳ αὐτοῦ ἐν τῇ κώμῃ τῇ ἐγγὺς τῆς θαλάσσης",
-        "ἐν τῇ πηγῇ μετὰ τῆς Σαλώμης",
-        "ἐν τῷ ἀγρῷ μετὰ τῶν ἐργατῶν",
-        "ἐν τῇ ὁδῷ πρὸς τὴν κώμην"
-      ],
-      "answer": 0,
-      "explanation": "ἑσπέρα ἐστίν· ὁ Ἰάκωβος ἐν τῷ οἴκῳ αὐτοῦ ἐστιν, ἐν τῇ κώμῃ τῇ ἐγγὺς τῆς θαλάσσης.",
-      "part": "A"
+      "part": "A",
+      "question": "What was James doing when he arrived home?",
+      "options": ["He was sleeping", "He was working in the field", "He was coming from the road", "He was eating supper"],
+      "answer": 2,
+      "explanation": "James came home from the road in the evening."
     },
     {
       "id": 2,
-      "question": "τί πρῶτον ποιεῖ ὁ Ἰάκωβος ὅτε ἔρχεται εἰς τὸν οἶκον;",
-      "options": [
-        "νίπτει τὸ πρόσωπον καὶ τὰς χεῖρας καὶ τοὺς πόδας αὐτοῦ",
-        "ἐσθίει τὸ δεῖπνον μετὰ τῶν τέκνων",
-        "λαλεῖ πρὸς τὸν Πέτρον περὶ τοῦ ἀγροῦ",
-        "ἡσυχάζει ὑπὸ τοῦ δένδρου"
-      ],
-      "answer": 0,
-      "explanation": "πρῶτον νίπτει ὁ Ἰάκωβος τὸ πρόσωπον καὶ τὰς χεῖρας καὶ τοὺς πόδας αὐτοῦ, ὅτι ἀπὸ τοῦ ἀγροῦ ἔρχεται.",
-      "part": "A"
+      "part": "A",
+      "question": "What did James do when he arrived at the house?",
+      "options": ["He went straight to eat", "He called the children", "He washed his hands and face", "He went to the field"],
+      "answer": 2,
+      "explanation": "James washed his hands and face when he arrived home."
     },
     {
       "id": 3,
-      "question": "πόσα ἔτη ἔχει ὁ Πέτρος;",
-      "options": [
-        "ἑπτὰ ἔτη",
-        "δέκα καὶ τρία ἔτη",
-        "δέκα καὶ πέντε ἔτη",
-        "δέκα ἔτη"
-      ],
-      "answer": 0,
-      "explanation": "ὁ μὲν Μαθθαῖος ἔχει δέκα καὶ τρία ἔτη, ὁ δὲ Πέτρος ἑπτὰ ἔτη μόνον.",
-      "part": "A"
+      "part": "A",
+      "question": "How old is Magdalene, the daughter of James and Martha?",
+      "options": ["Seven years old", "Ten years old", "Thirteen years old", "Fifteen years old"],
+      "answer": 3,
+      "explanation": "Magdalene is fifteen years old."
     },
     {
       "id": 4,
-      "question": "τί ἐποίει ὁ Ἰάκωβος ὅλην τὴν ἡμέραν ἐν τῷ ἀγρῷ;",
-      "options": [
-        "ἔσκαπτεν τὴν γῆν καὶ ᾖρεν καὶ ἔφερεν τοὺς λίθους",
-        "ἔσπειρεν τὸν σῖτον καὶ ἐθέριζεν τοὺς καρπούς",
-        "ἐκαθήμην παρὰ τῇ πηγῇ καὶ ἡσύχαζεν",
-        "ἐφύτευεν τὰ λάχανα ἐν τῷ κήπῳ"
-      ],
-      "answer": 0,
-      "explanation": "λέγει ὁ Ἰάκωβος· ἔσκαπτον τὴν γῆν καὶ εὑρίσκων τοὺς μικρούς τε καὶ μεγάλους λίθους ἔσκαπτον καὶ ᾖρον καὶ ἔφερον αὐτούς.",
-      "part": "A"
+      "part": "A",
+      "question": "What did James use to drive the wolf away from the field?",
+      "options": ["His staff", "Stones", "The donkey", "A fire"],
+      "answer": 1,
+      "explanation": "James threw stones at the wolf and it fled."
     },
     {
       "id": 5,
-      "question": "τίς ἐβοήθει τῷ Ἰακώβῳ φέρων τοὺς λίθους ἐκ τοῦ ἀγροῦ;",
-      "options": [
-        "ὁ ὄνος",
-        "ὁ Μαθθαῖος",
-        "οἱ ἐργάται",
-        "ὁ Πέτρος"
-      ],
-      "answer": 0,
-      "explanation": "ὁ ὄνος ἐβοήθει τῷ Ἰακώβῳ φέρων τοὺς λίθους ἐκ τοῦ ἀγροῦ ὅλην τὴν ἡμέραν.",
-      "part": "A"
+      "part": "A",
+      "question": "What did the donkey do when the wolf appeared?",
+      "options": ["It ran away", "It attacked the wolf", "It shouted out loud", "It hid behind the tree"],
+      "answer": 2,
+      "explanation": "The donkey cried out when it saw the wolf, alerting James."
     },
     {
       "id": 6,
-      "question": "τί λέγει ὁ Ἰάκωβος ὅτι μεγάλη ἐστίν;",
-      "options": [
-        "ἡ ἀγαθωσύνη τοῦ θεοῦ",
-        "ἡ δύναμις τοῦ πνεύματος",
-        "ἡ χαρὰ τῆς θερείας",
-        "ἡ εἰρήνη τοῦ θεοῦ"
-      ],
-      "answer": 0,
-      "explanation": "λέγει ὁ Ἰάκωβος· ὁ θεὸς δίδωσιν τὸν σῖτον καὶ πάντα τὰ ἀγαθά· μεγάλη ἐστὶν ἡ ἀγαθωσύνη αὐτοῦ.",
-      "part": "A"
+      "part": "A",
+      "question": "What virtue did James tell Peter he must practice toward his brother?",
+      "options": ["Courage and boldness", "Love, patience, and gentleness", "Obedience and silence", "Wisdom and learning"],
+      "answer": 1,
+      "explanation": "James told Peter he must love his brother, be patient, gentle, and control his anger."
     },
     {
       "id": 7,
-      "question": "τί εἶχεν ὁ Ἰάκωβος ἐγγὺς τοῦ οἴκου;",
-      "options": [
-        "κῆπον μικρὸν ἐν ᾧ ἐφύτευεν τὰ λάχανα",
-        "πηγὴν ὕδατος ὑπὸ τὸ δένδρον",
-        "ποταμὸν ῥέοντα ἐν τῷ ἀγρῷ",
-        "μεγάλην τράπεζαν ἔξω τοῦ οἴκου"
-      ],
-      "answer": 0,
-      "explanation": "λέγει ὁ Ἰάκωβος· εἶχον κῆπον μικρὸν ἐγγὺς τοῦ οἴκου, καὶ καθ᾽ ἡμέραν ἐν τῷ κήπῳ ἐφύτευον τὰ λάχανα.",
-      "part": "A"
+      "part": "A",
+      "question": "How did Peter respond to his father's instruction about his brother?",
+      "options": ["He argued with his father", "He went away angry", "He agreed and kissed Matthew", "He wept"],
+      "answer": 2,
+      "explanation": "Peter agreed with his father and kissed his brother Matthew."
     },
     {
       "id": 8,
-      "question": "τί ἐστιν ἐπὶ τῆς τραπέζης ἐν τῷ δείπνῳ;",
-      "options": [
-        "ἄρτος καὶ ἰχθὺς καὶ ἐλαῖαι καὶ σῦκα καὶ σταφυλαί",
-        "σῖτος καὶ ὕδωρ καὶ λάχανα",
-        "γάλα καὶ μέλι μόνον",
-        "ἄρτος καὶ ἔλαιον μόνον"
-      ],
-      "answer": 0,
-      "explanation": "ἐπὶ τῆς τραπέζης ἐστὶν ἄρτος καὶ ἰχθὺς ἐκ τῆς θαλάσσης, καὶ ἐλαῖαι καὶ σῦκα καὶ σταφυλαί, καὶ γάλα καὶ ὀλίγος οἶνος.",
-      "part": "B"
+      "part": "A",
+      "question": "What was Martha doing when James arrived home?",
+      "options": ["She was sleeping", "She was preparing the evening meal", "She was at the spring", "She was working in the field"],
+      "answer": 1,
+      "explanation": "Martha was preparing the supper inside the house."
     },
     {
       "id": 9,
-      "question": "τί ποιεῖ ὁ Ἰάκωβος πρὸ τοῦ δείπνου;",
-      "options": [
-        "εὐλογεῖ τὸν θεὸν καὶ λαμβάνει τὸν ἄρτον καὶ κλᾷ αὐτόν",
-        "ἀντλεῖ ὕδωρ ἐκ τῆς πηγῆς",
-        "ἐξηγεῖται τοῖς τέκνοις περὶ τοῦ ἀγροῦ",
-        "διαλέγεται μετὰ τῆς Μάρθας περὶ τῆς ἡμέρας"
-      ],
-      "answer": 0,
-      "explanation": "πρὸ τοῦ δείπνου λέγει ὁ Ἰάκωβος· προσευχώμεθα, ὦ τέκνα· εἶτα εὐλογεῖ τὸν θεὸν καὶ λαμβάνει τὸν ἄρτον καὶ κλᾷ αὐτόν.",
-      "part": "B"
+      "part": "B",
+      "question": "What did the family do before eating supper?",
+      "options": ["They sang a song", "They prayed and James blessed God", "They read from a scroll", "They sat in silence for a long time"],
+      "answer": 1,
+      "explanation": "James said 'let us pray' and then blessed God before breaking the bread."
     },
     {
       "id": 10,
-      "question": "τίνα εἶδεν ὁ Ἰάκωβος παρὰ τῇ πηγῇ σήμερον;",
-      "options": [
-        "γυναῖκά τινα Σαλώμην ὀνόματι ἥτις ἐζήτει τὸν θεόν",
-        "πολλοὺς γεωργοὺς ἐκ τῆς κώμης ἐρχομένους",
-        "ξένον τινὰ ἐλθόντα ἐκ τῆς ὁδοῦ",
-        "τοὺς υἱοὺς αὐτοῦ παρὰ τῇ θαλάσσῃ"
-      ],
-      "answer": 0,
-      "explanation": "λέγει ὁ Ἰάκωβος· παρὰ τῇ πηγῇ ἐκαθήμην ἐν τῇ σκιᾷ τοῦ δένδρου, καὶ γυνή τις, Σαλώμη ὀνόματι, ἤρχετο ἀντλεῖν ὕδωρ· αὕτη ἐζήτει τὸν θεόν.",
-      "part": "B"
+      "part": "B",
+      "question": "What special food did the little children receive at supper?",
+      "options": ["Fish and bread only", "Figs and honey", "Grapes and wine", "Olives and oil"],
+      "answer": 1,
+      "explanation": "The little children tasted figs and honey."
+    },
+    {
+      "id": 11,
+      "part": "B",
+      "question": "Who was Salome?",
+      "options": ["A farmer's wife from the village", "A woman who was seeking God", "A relative of Martha", "A neighbor who brought food"],
+      "answer": 1,
+      "explanation": "Salome was a woman who came to the spring to draw water and was seeking God."
+    },
+    {
+      "id": 12,
+      "part": "B",
+      "question": "Where did James meet Salome?",
+      "options": ["On the road near the village", "In the field", "By the spring under a tree", "At the house of a neighbor"],
+      "answer": 2,
+      "explanation": "James was sitting in the shade of a tree by the spring when Salome came to draw water."
+    },
+    {
+      "id": 13,
+      "part": "B",
+      "question": "What did James explain to Salome?",
+      "options": ["How to farm the land", "About Jesus and the Holy Spirit", "The story of the wolf", "How to draw water from the spring"],
+      "answer": 1,
+      "explanation": "James explained to Salome about Jesus and about the Holy Spirit."
+    },
+    {
+      "id": 14,
+      "part": "B",
+      "question": "Who asked James the first question at supper about what he had seen on the road?",
+      "options": ["Peter", "Magdalene", "Martha", "Matthew"],
+      "answer": 3,
+      "explanation": "Matthew asked his father who he was seeing on the road today."
+    },
+    {
+      "id": 15,
+      "part": "B",
+      "question": "How does the chapter end?",
+      "options": ["James goes back to the field", "The family argues", "The children sleep and the house is at rest", "Martha prepares more food"],
+      "answer": 2,
+      "explanation": "After giving thanks, the little children sleep and the house is at rest, all resting because they were being guarded by God."
     }
   ],
   "trueFalse": [
     {
       "id": 1,
-      "statement": "ὁ Ἰάκωβος ὅλην τὴν ἡμέραν ἐν τῷ οἴκῳ ἦν.",
+      "part": "A",
+      "statement": "James came home in the morning after a long journey.",
       "answer": false,
-      "explanation": "οὐκ ἀληθές! ὅλην τὴν ἡμέραν ἐν τῇ ὁδῷ ἦν ὁ Ἰάκωβος· νῦν δέ, ὀψίας γινομένης, πάρεστιν μετὰ τῆς οἰκίας αὐτοῦ.",
-      "part": "A"
+      "explanation": "James came home in the evening after working."
     },
     {
       "id": 2,
-      "statement": "ἡ Μάρθα τὸ δεῖπνον ἑτοιμάζει ἐν τῷ οἴκῳ.",
+      "part": "A",
+      "statement": "James rejoiced when he arrived at his house.",
       "answer": true,
-      "explanation": "ἀληθές! ἡ Μάρθα, ἡ μήτηρ τῶν τέκνων καὶ γυνὴ τοῦ Ἰακώβου, ἐν τῷ οἴκῳ τὸ δεῖπνον ἑτοιμάζει.",
-      "part": "A"
+      "explanation": "The story says James rejoiced when he came to his house."
     },
     {
       "id": 3,
-      "statement": "ὁ Πέτρος μικρὸς ὤν πάντα θέλει γινώσκειν καὶ πάντοτε ἐρωτᾷ.",
-      "answer": true,
-      "explanation": "ἀληθές! ὁ Πέτρος, καίπερ μικρὸς ὤν, πάντα θέλει γινώσκειν, καὶ πάντοτε ἐρωτᾷ.",
-      "part": "A"
+      "part": "A",
+      "statement": "Matthew is the younger of the two sons.",
+      "answer": false,
+      "explanation": "Matthew is thirteen and Peter is seven, so Peter is the younger son."
     },
     {
       "id": 4,
-      "statement": "ὁ Ἰάκωβος ἔχαιρεν ἐν τῷ ἀγρῷ ὅτι τὸν ἀγρὸν φιλεῖ.",
-      "answer": true,
-      "explanation": "ἀληθές! λέγει ὁ Ἰάκωβος· χαλεπὸς μὲν ἦν ὁ πόνος, ἀλλ᾽ ὅμως ἔχαιρον, ὅτι τὸν ἀγρὸν φιλῶ.",
-      "part": "A"
+      "part": "A",
+      "statement": "The wolf actually attacked the lamb and killed it.",
+      "answer": false,
+      "explanation": "The wolf only appeared across the river; James threw stones and the wolf fled before it could harm the lamb."
     },
     {
       "id": 5,
-      "statement": "ἔλεγεν ὁ Ἰάκωβος ὅτι ὁ ποταμὸς λαλεῖ.",
-      "answer": false,
-      "explanation": "οὐκ ἀληθές! ἠρώτησεν ὁ Πέτρος· ἆρα ὁ ποταμὸς λαλεῖ; εἶπεν δὲ ὁ Μαθθαῖος· οἶδας ὅτι ὁ ποταμὸς οὐ λαλεῖ.",
-      "part": "A"
+      "part": "A",
+      "statement": "James told Peter that biting and hitting are wrong.",
+      "answer": true,
+      "explanation": "James instructed Peter that he must not bite or hit his brother."
     },
     {
       "id": 6,
-      "statement": "ὁ Ἰάκωβος ἐκοπίων ἐν τῷ ἀγρῷ ὑπέμενεν καὶ ἔχαιρεν διὰ τὸν καρπόν.",
+      "part": "A",
+      "statement": "Magdalene helped her mother prepare the supper.",
       "answer": true,
-      "explanation": "ἀληθές! λέγει ὁ Ἰάκωβος· χαλεπὸν μὲν ἦν τὸ ἔργον καὶ πολλάκις ἐκοπίων· ἀλλὰ ὑπέμενον καὶ ἔχαιρον, ἔχαιρον γὰρ διὰ τὸν καρπόν.",
-      "part": "A"
+      "explanation": "Magdalene helped Martha with the supper preparation."
     },
     {
       "id": 7,
-      "statement": "ὁ ὄνος ἐσθίει τοὺς καρπούς.",
+      "part": "A",
+      "statement": "The donkey was inside the house when the wolf appeared.",
       "answer": false,
-      "explanation": "οὐκ ἀληθές! ὁ ὄνος φέρει τοὺς καρπούς, οὐκ ἐσθίει αὐτούς· λέγει ὁ Μαθθαῖος· οὐχί! ὁ ὄνος φέρει τοὺς καρπούς, οὐκ ἐσθίει αὐτούς.",
-      "part": "B"
+      "explanation": "The donkey was with James in the field area when the wolf appeared across the river."
     },
     {
       "id": 8,
-      "statement": "πρὸ τοῦ δείπνου πάντες σιγῶσιν καὶ ὁ Ἰάκωβος εὐλογεῖ τὸν θεόν.",
-      "answer": true,
-      "explanation": "ἀληθές! λέγει ὁ Ἰάκωβος· προσευχώμεθα, ὦ τέκνα· καὶ πάντες σιγῶσιν· ὁ δὲ Ἰάκωβος εὐλογεῖ τὸν θεόν.",
-      "part": "B"
+      "part": "B",
+      "statement": "The supper table had only bread and fish.",
+      "answer": false,
+      "explanation": "The table had many foods: bread, fish, olives, figs, grapes, milk, wine, oil, and honey."
     },
     {
       "id": 9,
-      "statement": "ἡ Σαλώμη ἐδιδάσκετο ὑπὸ τοῦ Ἰακώβου παρὰ τῇ πηγῇ.",
+      "part": "B",
+      "statement": "James broke the bread and gave it to the children.",
       "answer": true,
-      "explanation": "ἀληθές! λέγει ὁ Ἰάκωβος· ἐξηγούμην αὐτῇ περὶ τοῦ Ἰησοῦ καὶ περὶ τοῦ πνεύματος τοῦ ἁγίου· οὕτως οὖν ἡ Σαλώμη ἐδιδάσκετο ὑπ᾽ ἐμοῦ.",
-      "part": "B"
+      "explanation": "James took the bread, broke it, and shared it with the children."
     },
     {
       "id": 10,
-      "statement": "ἡ Σαλώμη ἐζήτει τὸν θεόν.",
+      "part": "B",
+      "statement": "Salome was a rich woman who owned many fields.",
+      "answer": false,
+      "explanation": "There is no mention of Salome being rich; she was coming to draw water from the spring."
+    },
+    {
+      "id": 11,
+      "part": "B",
+      "statement": "James and Salome talked for a long time under the tree.",
       "answer": true,
-      "explanation": "ἀληθές! λέγει ὁ Ἰάκωβος· αὕτη ἐζήτει τὸν θεόν· διὰ τοῦτο ἐξηγούμην αὐτῇ περὶ τοῦ Ἰησοῦ καὶ τοῦ πνεύματος τοῦ ἁγίου.",
-      "part": "B"
+      "explanation": "James says they were conversing a long time sitting under the tree."
+    },
+    {
+      "id": 12,
+      "part": "B",
+      "statement": "James says the rich farmers had many servants to guard their animals.",
+      "answer": true,
+      "explanation": "James explains that the rich had large fields, many animals, and many servants to guard them."
+    },
+    {
+      "id": 13,
+      "part": "B",
+      "statement": "The poor farmers rested all day while the rich worked.",
+      "answer": false,
+      "explanation": "Both rich and poor were toiling all day long in the fields."
+    },
+    {
+      "id": 14,
+      "part": "B",
+      "statement": "Martha rejoiced when she heard James's story about Salome.",
+      "answer": true,
+      "explanation": "When the little children marveled and James spoke of God's goodness, Martha was rejoicing."
+    },
+    {
+      "id": 15,
+      "part": "B",
+      "statement": "James says God guards the family like a shepherd guards a lamb from a wolf.",
+      "answer": true,
+      "explanation": "James says God guards them each day, just as he was guarding the lamb from the wolf."
     }
   ],
   "yesNo": [
     {
       "id": 1,
-      "question": "ἆρα λίαν χαίρει ὁ Ἰάκωβος τὸν οἶκον βλέπων;",
-      "answer": true,
-      "explanation": "ναί! λέγει ἡ ἱστορία· λίαν χαίρει ὁ Ἰάκωβος τὸν οἶκον βλέπων.",
-      "part": "A"
-    },
-    {
-      "id": 2,
-      "question": "ἆρα ἔσκαπτεν ὁ Ἰάκωβος τὸν ἀγρὸν ἤδη τοῦ ἡλίου ἀνατέλλοντος;",
-      "answer": true,
-      "explanation": "ναί! λέγει ὁ Ἰάκωβος· τοῦ ἡλίου ἀνατέλλοντος ἐγὼ ἤδη ἔσκαπτον τὸν ἀγρόν.",
-      "part": "A"
-    },
-    {
-      "id": 3,
-      "question": "ἆρα ὁ θεὸς ηὔξανεν τὸν σπόρον ὃν ἔσπειρεν ὁ Ἰάκωβος;",
-      "answer": true,
-      "explanation": "ναί! λέγει ὁ Ἰάκωβος· ἐγὼ μὲν ἔσπειρον τὸν σπόρον, ὁ δὲ θεὸς ηὔξανεν αὐτόν.",
-      "part": "A"
-    },
-    {
-      "id": 4,
-      "question": "ἆρα οὐχὶ ὁ λύχνος δίδωσιν φῶς ἐν τῷ οἴκῳ νυκτός;",
+      "part": "A",
+      "question": "Did the wolf succeed in harming the lamb?",
       "answer": false,
-      "explanation": "οὔ! ἀληθές ἐστιν· νυκτὸς γινομένης, ὁ λύχνος φῶς δίδωσιν ἐν τῷ οἴκῳ.",
-      "part": "A"
-    },
-    {
-      "id": 5,
-      "question": "ἆρα ἐσθίουσιν καὶ πίνουσιν μετὰ χαρᾶς οἱ τοῦ Ἰακώβου οἶκος;",
-      "answer": true,
-      "explanation": "ναί! εὐλογήσαντος τοῦ Ἰακώβου τὸν θεόν, ἐσθίουσιν καὶ πίνουσιν μετὰ χαρᾶς.",
-      "part": "B"
-    },
-    {
-      "id": 6,
-      "question": "ἆρα τὰ παιδία γεύεται τῶν σύκων καὶ τοῦ μέλιτος;",
-      "answer": true,
-      "explanation": "ναί! τὰ παιδία γεύεται τῶν σύκων καὶ τοῦ μέλιτος.",
-      "part": "B"
-    },
-    {
-      "id": 7,
-      "question": "ἆρα ὁ Μαθθαῖος ἐρωτᾷ τὸν πατέρα τίνας εἶδεν ἐν τῇ ὁδῷ σήμερον;",
-      "answer": true,
-      "explanation": "ναί! ὁ Μαθθαῖος ἐσθίων τὸν ἄρτον ἐρωτᾷ· πάτερ, σήμερον ἐν τῇ ὁδῷ τίνας ἔβλεπες;",
-      "part": "B"
-    },
-    {
-      "id": 8,
-      "question": "ἆρα πολλοὶ γεωργοὶ ἐκ τῆς κώμης ἤρχοντο πρὸς τοὺς ἀγρούς;",
-      "answer": true,
-      "explanation": "ναί! λέγει ὁ Ἰάκωβος· οἱ μὲν ἐκ τῆς κώμης ἤρχοντο καὶ πρὸς τοὺς ἀγροὺς αὐτῶν ἐπορεύοντο.",
-      "part": "B"
-    }
-  ],
-  "conversationQuestions": [
-    {
-      "id": 1,
-      "question": "ἆρα χαίρεις ὅτε βλέπεις τὸν οἶκόν σου ἐν τῇ ἑσπέρᾳ;",
-      "part": "A"
+      "explanation": "James threw stones and the wolf fled across the river before harming the lamb."
     },
     {
       "id": 2,
-      "question": "πῶς αἰσθάνῃ ὅτε κοπιᾷς ὅλην τὴν ἡμέραν καὶ ἐπανέρχῃ εἰς τὸν οἶκον;",
-      "part": "A"
+      "part": "A",
+      "question": "Did Peter obey his father's instructions?",
+      "answer": true,
+      "explanation": "Peter agreed with his father and kissed his brother Matthew."
     },
     {
       "id": 3,
-      "question": "ἆρα σύ ποτε ἐσκάπτες τὴν γῆν ἐν τῷ ἀγρῷ ἢ ἐν τῷ κήπῳ;",
-      "part": "A"
+      "part": "A",
+      "question": "Were there both sheep and a donkey among James's animals?",
+      "answer": true,
+      "explanation": "James had sheep, an ox, a lamb, and a donkey."
     },
     {
       "id": 4,
-      "question": "ὅτε ποιεῖς τὸ ἔργον σου, ἆρα ὑπομένεις καὶ χαίρεις διὰ τὸν καρπόν;",
-      "part": "A"
+      "part": "A",
+      "question": "Did Martha greet James when he came home?",
+      "answer": true,
+      "explanation": "Martha greeted James and rejoiced at his return."
     },
     {
       "id": 5,
-      "question": "ἆρα εὐχαριστεῖς τῷ θεῷ ὅτε βλέπεις τὰ καλὰ ποιήματα αὐτοῦ ἐν τῇ κτίσει;",
-      "part": "A"
+      "part": "B",
+      "question": "Did Salome already know about Jesus before meeting James?",
+      "answer": false,
+      "explanation": "Salome was seeking God but James had to explain to her about Jesus and the Holy Spirit."
     },
     {
       "id": 6,
-      "question": "ἆρα εὐλογεῖ ἡ οἰκία σου τὸν θεὸν πρὸ τοῦ δείπνου;",
-      "part": "B"
+      "part": "B",
+      "question": "Did James teach Salome about Jesus?",
+      "answer": true,
+      "explanation": "James explains that he was explaining to Salome about Jesus and about the Holy Spirit."
     },
     {
       "id": 7,
-      "question": "τί μάλιστα ἀγαπᾷς ἐν τῷ δείπνῳ μετὰ τῆς οἰκίας σου;",
-      "part": "B"
+      "part": "B",
+      "question": "Did the farmers rest during the hottest part of the day?",
+      "answer": true,
+      "explanation": "The farmers were resting in the shade of the trees because the sun was greatly shining and scorching the fields."
     },
     {
       "id": 8,
-      "question": "ἆρα ποτε ἐδίδαξάς τινα περὶ τοῦ Ἰησοῦ ὥσπερ ὁ Ἰάκωβος ἐδίδαξεν τὴν Σαλώμην;",
-      "part": "B"
+      "part": "B",
+      "question": "Was the house noisy and restless at the end of the chapter?",
+      "answer": false,
+      "explanation": "At the end, the little children sleep and the house is at rest."
     },
     {
       "id": 9,
-      "question": "πῶς ἐξηγεῖ τοῖς φίλοις σου τί ἐστιν τὸ πνεῦμα τὸ ἅγιον;",
-      "part": "B"
+      "part": "B",
+      "question": "Did Peter ask James to tell more about what he had seen on the road?",
+      "answer": true,
+      "explanation": "Peter, wanting to hear more, asked his father what else and whom else he was seeing on the road."
     },
     {
       "id": 10,
-      "question": "ἆρα βούλῃ ζητεῖν τὸν θεὸν ὥσπερ ἡ Σαλώμη ἐζήτει αὐτόν;",
-      "part": "B"
+      "part": "B",
+      "question": "Did James give thanks to God at the end of supper?",
+      "answer": true,
+      "explanation": "James said 'let us give thanks to him and let us sleep,' and they all blessed God again."
     }
   ]
 }
