@@ -1088,11 +1088,16 @@ function formatRef(ref) {
   return `${BOOK_ABBR[book] || book} ${ch}:${v}`
 }
 
+function padStrongs(s) {
+  if (!s) return s
+  return s.replace(/^G(\d+)$/, (_, n) => 'G' + n.padStart(4, '0'))
+}
+
 function RefsPanel({ word, refsData, loading, onRefClick }) {
   if (loading) return <div className="refs-panel refs-panel--loading">Loading scripture references…</div>
   if (!refsData) return null
 
-  const entry = refsData[word.strongsNum]
+  const entry = refsData[padStrongs(word.strongsNum)]
   if (!entry || entry.refs.length === 0) {
     return (
       <div className="refs-panel">
