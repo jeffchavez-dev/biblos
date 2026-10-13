@@ -68,9 +68,14 @@ function baseStrongs(s) {
   return s.replace(/=.*$/, '').replace(/[A-Z]+$/, '').replace(/_[A-Za-z]+$/, '').trim()
 }
 
+// Strip leading article (ὁ/ἡ/τό + space) to handle "ἡ γαλήνη" format
+function stripArticle(s) {
+  return s.replace(/^(ὁ|ἡ|τό|τό|τò|τὸ)\s+/, '').trim()
+}
+
 // Extract the citation lemma from a Greek dictionary entry like "ἄνθρωπος, -ου, ὁ"
 function citationLemma(greekField) {
-  return normalize(greekField.split(',')[0].trim())
+  return normalize(stripArticle(greekField.split(',')[0].trim()))
 }
 
 // ── Step 1: collect all Biblos vocabulary lemmas ───────────────────────────

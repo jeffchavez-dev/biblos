@@ -150,9 +150,14 @@ function matches(word, query) {
 
 // ── Context helpers ────────────────────────────────────────────────────────────
 
+// Strip leading article (ὁ/ἡ/τό + space) to handle "ἡ γαλήνη" format
+function stripArticle(greekField) {
+  return greekField.replace(/^(ὁ|ἡ|τό|τό|τò|τὸ)\s+/, '').trim()
+}
+
 function getStem(greekField) {
   // Take first token before any comma/space/dash, strip accents
-  const lemma = greekField.split(/[,\s\-–—]/)[0].trim()
+  const lemma = stripArticle(greekField).split(/[,\s\-–—]/)[0].trim()
   let s = stripAccents(lemma)
   // Strip verb -ω ending so ἄγω → αγ, ὑπάγω → υπαγ, but only if stem ≥ 3 chars
   if (s.endsWith('ω') && s.length > 3) s = s.slice(0, -1)
@@ -206,7 +211,7 @@ function findContexts(vocabWord, storyData) {
       const part = para.label?.includes('Βʹ') ? 'B' : 'A'
       const sentences = extractSentences(words)
       for (const sent of sentences) {
-        const lemmaStripped = stripAccents(vocabWord.greek.split(/[,\s\-–—]/)[0].trim())
+        const lemmaStripped = stripAccents(stripArticle(vocabWord.greek).split(/[,\s\-–—]/)[0].trim())
         const keyword = defKeyword(vocabWord.definition)
         const hit = sent.find(w => {
           const ws = stripAccents(w.greek)
@@ -242,7 +247,7 @@ function findContexts(vocabWord, storyData) {
 
 function ContextPanel({ word, stories, storiesLoading, onNavigate }) {
   const matches = stories ? findContexts(word, stories) : []
-  const lemmaStripped = stripAccents(word.greek.split(/[,\s\-–—]/)[0].trim())
+  const lemmaStripped = stripAccents(stripArticle(word.greek).split(/[,\s\-–—]/)[0].trim())
 
   if (storiesLoading) {
     return <div className="ctx-panel ctx-loading">Loading story examples…</div>
