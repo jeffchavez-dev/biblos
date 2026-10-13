@@ -1,0 +1,150 @@
+# Write Exercises — Βίβλος
+
+Use this skill when writing `exercises.json` for any chapter.
+
+---
+
+## Step 1 — Identify the target chapter
+
+The user invokes this skill with a chapter number, e.g. `/write-exercises ch9` or `/write-exercises chapter 9`.
+
+Determine:
+- The chapter number (e.g. 9)
+- Its unit number (Ch1–3 = Unit 1, Ch4–6 = Unit 2, Ch7–9 = Unit 3, Ch10–12 = Unit 4)
+- The path: `src/data/unit{N}/chapter{N}/exercises.json`
+
+---
+
+## Step 2 — Read the chapter story
+
+Read `src/data/unit{N}/chapter{N}/story.json` in full. Build a clear summary of:
+- Part A plot: key events, characters, dialogue, themes
+- Part B plot: key events, characters, dialogue, themes
+
+This is the primary source for question content. Every question must be answerable from the story alone.
+
+---
+
+## Step 3 — Build the attested vocabulary corpus
+
+Run this Python script to collect every Greek word token attested in Ch1 through the target chapter:
+
+```python
+import json, re, os
+
+TARGET_CHAPTER = N  # replace with actual chapter number
+
+def chapter_to_unit(ch):
+    if ch <= 3: return 1
+    if ch <= 6: return 2
+    if ch <= 9: return 3
+    return 4
+
+attested = set()
+for ch in range(1, TARGET_CHAPTER + 1):
+    unit = chapter_to_unit(ch)
+    path = f'src/data/unit{unit}/chapter{ch}/story.json'
+    if not os.path.exists(path): continue
+    data = json.load(open(path))
+    for para in data['paragraphs']:
+        for word in para['words']:
+            raw = word['greek']
+            clean = re.sub(r'^[""\'«·,\.!?;\s]+|[""\'»·,\.!?;\s]+$', '', raw).strip()
+            if clean:
+                attested.add(clean)
+
+print(f'{len(attested)} attested forms')
+```
+
+Keep this corpus in mind throughout writing. **Every Greek word in every question, option, statement, and explanation must be attested in this corpus.**
+
+---
+
+## Step 4 — Write the exercises
+
+Produce a JSON object with three arrays. Target counts per chapter:
+
+| Type | Target | Min |
+|---|---|---|
+| multipleChoice | 13–17 | 10 |
+| trueFalse | 13–17 | 10 |
+| yesNo | 9–13 | 7 |
+
+Aim for roughly equal coverage of Part A and Part B across all three types. Use `"part": "A"` or `"part": "B"` on every item.
+
+### multipleChoice format
+
+```json
+{
+  "id": 1,
+  "part": "A",
+  "question": "English question about the story?",
+  "options": ["Option A", "Option B", "Option C", "Option D"],
+  "answer": 0,
+  "explanation": "Brief English explanation citing story detail."
+}
+```
+
+- `answer` is the 0-indexed position of the correct option
+- Options are plain English (never Greek) — students read the Greek story and answer in English
+- Keep distractors plausible; avoid obviously wrong options
+- Questions test comprehension of plot, character, dialogue, and theme
+
+### trueFalse format
+
+```json
+{
+  "id": 1,
+  "part": "A",
+  "statement": "English statement about the story.",
+  "answer": true,
+  "explanation": "Brief English explanation."
+}
+```
+
+- `answer` is `true` or `false`
+- Statements must be clearly true or clearly false — no ambiguity
+- Mix true and false answers roughly 50/50
+
+### yesNo format
+
+```json
+{
+  "id": 1,
+  "part": "A",
+  "question": "English yes/no question about the story?",
+  "answer": true,
+  "explanation": "Brief English explanation."
+}
+```
+
+- `answer` is `true` (yes) or `false` (no)
+- Questions should feel natural as yes/no — not forced
+- Mix yes and no answers roughly 50/50
+
+---
+
+## Step 5 — Validate and write
+
+Before writing the file, validate the JSON mentally (no trailing commas, all arrays closed). Then write to `src/data/unit{N}/chapter{N}/exercises.json`.
+
+After writing, run:
+```bash
+python3 -c "import json; json.load(open('src/data/unit{N}/chapter{N}/exercises.json')); print('valid')"
+```
+
+---
+
+## Step 6 — Run /check-exercises
+
+After writing, run `/check-exercises chN` to verify no unattested Greek vocabulary slipped into the exercises. Fix any real violations before committing.
+
+---
+
+## Content rules
+
+- **All question and explanation text is in English.** Never put Greek in question or option text. Greek appears only in explanation fields when quoting the story directly, and only attested forms.
+- **Story-grounded.** Every question must be directly answerable from the story. No theological inference, no outside knowledge.
+- **No duplicate questions.** Vary the angle — plot facts, character motivations, sequence, contrast, dialogue.
+- **Explanations are brief.** One sentence citing the story detail that makes the answer correct.
+- **Part balance.** Do not weight one part heavily — aim for even coverage across A and B.

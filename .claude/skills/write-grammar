@@ -1,0 +1,99 @@
+# Write Grammar — Βίβλος
+
+Use this skill when writing or updating `grammar.json` for any chapter.
+Load alongside the `grammar` skill — that file holds the authoritative term list, table structure, and CSS rules. This file covers the workflow.
+
+---
+
+## Step 1 — Identify the target chapter
+
+The user invokes this skill with a chapter number, e.g. `/write-grammar ch9`.
+
+Determine:
+- The chapter number and unit
+- The path: `src/data/unit{N}/chapter{N}/grammar.json`
+
+---
+
+## Step 2 — Read the story and existing grammar
+
+Read both:
+1. `src/data/unit{N}/chapter{N}/story.json` — scan for grammatical forms that appear for the first time or deserve comment
+2. Prior chapters' grammar.json files for context on what has already been taught (so you do not re-teach covered forms)
+
+Grammar notes **reinforce** what students see in the story. Every example must come from the chapter's own story text.
+
+---
+
+## Step 3 — Identify what to teach
+
+Scan the story for:
+- **New verb forms** — tense/voice/mood combinations not yet covered
+- **New noun cases** — a case used in a new construction
+- **New pronouns, participles, infinitives, or imperatives**
+- **Key constructions** — genitive absolute, indirect statement, purpose clauses, etc.
+
+Limit to 3–5 sections per part. Do not teach everything — pick the forms most likely to confuse a student reading this story for the first time.
+
+---
+
+## Step 4 — Write the grammar.json
+
+Follow the structure from the `grammar` skill exactly. Grammar json is an array of part objects:
+
+```json
+[
+  { "part": "A", "sections": [ ... ] },
+  { "part": "B", "sections": [ ... ] }
+]
+```
+
+### Section heading pattern (from `grammar` skill)
+
+`"{n}. {Greek term} ({English}) — {specific point}"`
+
+Examples:
+- `"1. ὁ ἀόριστος ἐνεργετικὴ ὁριστική (Aorist Active Indicative) — third singular"`
+- `"2. ἡ γενική (Genitive) — source with ἐκ"`
+- `"3. ὁ ἀπαρέμφατος (Infinitive) — complementary infinitive with θέλω"`
+
+### Content field
+
+English prose, 1–2 sentences. State the pattern clearly. Reference the story naturally.
+
+### Examples field
+
+Pull directly from the story. Format:
+
+```json
+"examples": [
+  { "greek": "ὁ Ἰάκωβος εἶπεν·", "english": "James said:" }
+]
+```
+
+Greek must be attested in the story — copy word-for-word from `story.json`.
+
+### Table field (when needed)
+
+Use for paradigms: conjugation tables, declension tables, pronoun tables. See `grammar` skill for full table structure and required Greek headers.
+
+---
+
+## Step 5 — Validate and write
+
+After writing, validate JSON:
+```bash
+python3 -c "import json; json.load(open('src/data/unit{N}/chapter{N}/grammar.json')); print('valid')"
+```
+
+Verify in browser: open the Grammar tab for the chapter, check both parts render correctly, headings display without broken diacritics.
+
+---
+
+## Content rules (from `grammar` skill — enforced here)
+
+- **English for prose, Greek for data.** `content` is English. Table headers, row labels, captions use Greek terms (see `grammar` skill for the authoritative term list).
+- **Only attested vocabulary in examples.** Any Greek word in an example must appear in the chapter's story.json. Never introduce new vocabulary through grammar notes.
+- **Story sentences for examples.** Copy phrases directly from the story — do not compose new Greek sentences.
+- **3–5 sections per part.** Grammar notes are a supplement, not a textbook. Keep it focused.
+- **Check the `grammar` skill** for the full Greek term list, table structure, CSS rules, and rendering checklist before finalizing.
