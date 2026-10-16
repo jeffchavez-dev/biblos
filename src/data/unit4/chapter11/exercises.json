@@ -2,315 +2,309 @@
   "multipleChoice": [
     {
       "id": 1,
-      "question": "τί λέγει ὁ Ἰάκωβος τοῖς τέκνοις ἐν ἀρχῇ τοῦ κεφαλαίου;",
-      "options": [
-        "μὴ μόνον ἄκουε τὸν λόγον, ἀλλὰ ποίει αὐτόν",
-        "ἔρχεσθε εἰς τὸν ἀγρὸν καὶ σπείρετε",
-        "ὁ ἀκούων καὶ ποιῶν καρπὸν πολὺν ἔχει",
-        "τήρει τὴν ἐντολὴν ἐν τῇ γραφῇ"
-      ],
-      "answer": 0,
-      "explanation": "ὁ Ἰάκωβος λέγει· μὴ μόνον ἄκουε τὸν λόγον, ἀλλὰ ποίει αὐτὸν καὶ τήρει αὐτὸν ἐν τῇ καρδίᾳ σου.",
-      "part": "A"
+      "part": "A",
+      "question": "What does James tell his children at the beginning of the chapter?",
+      "options": ["Only listen to the word carefully", "Not only listen to the word, but do it and guard it in your heart", "Go immediately to the field and sow", "Keep the commandment written in scripture"],
+      "answer": 1,
+      "explanation": "James says: 'Do not only hear the word, but do it and guard it in your heart. For the one who hears and does not do has no fruit.'"
     },
     {
       "id": 2,
-      "question": "τίς ἐστιν ὅμοιος ἀνδρὶ φρονίμῳ κατὰ τὸν Ἰησοῦν;",
-      "options": [
-        "ὁ ἀκούων μόνον τοὺς λόγους",
-        "ὁ ἐρωτῶν περὶ τῆς βασιλείας",
-        "πᾶς ὁ ἀκούων τοὺς λόγους καὶ ποιῶν αὐτούς",
-        "ὁ σπείρων ἐπὶ τὴν πέτραν"
-      ],
+      "part": "A",
+      "question": "Who is like the wise man in Jesus's parable, according to Jesus?",
+      "options": ["The one who only hears the words", "The one who asks questions about the kingdom", "Everyone who hears the words and does them", "The one who sows on the rock"],
       "answer": 2,
-      "explanation": "εἶπεν ὁ Ἰησοῦς· πᾶς ὁ ἀκούων μου τοὺς λόγους καὶ ποιῶν αὐτοὺς ὅμοιός ἐστιν ἀνδρὶ φρονίμῳ.",
-      "part": "A"
+      "explanation": "Jesus said: 'Everyone who hears my words and does them is like a wise man who dug deep and laid the foundation on the rock.'"
     },
     {
       "id": 3,
-      "question": "ἐπὶ τί ἔθηκεν ὁ φρόνιμος τὸν θεμέλιον τῆς οἰκίας αὐτοῦ;",
-      "options": [
-        "ἐπὶ τὴν ἄμμον",
-        "ἐπὶ τὴν πέτραν",
-        "ἐπὶ τὴν γῆν τοῦ ἀγροῦ",
-        "ἐπὶ τοὺς λίθους τοῦ ποταμοῦ"
-      ],
+      "part": "A",
+      "question": "On what did the wise man lay the foundation of his house?",
+      "options": ["On sand", "On rock", "On the earth of the field", "On the stones of the river"],
       "answer": 1,
-      "explanation": "ὁ φρόνιμος ἔσκαπτεν εἰς βάθος καὶ ἔθηκεν τὸν θεμέλιον ἐπὶ τὴν πέτραν· καὶ κατέβη ἡ βροχὴ καὶ οὐκ ἔπεσεν ἡ οἰκία.",
-      "part": "A"
+      "explanation": "The wise man dug deep and laid the foundation on the rock. When rain came and rivers beat against the house, it did not fall."
     },
     {
       "id": 4,
-      "question": "πόθεν ἔγνω ὁ φρόνιμος ὅτι ἔρχεται ἡ βροχή, κατὰ τὸν Μαθθαῖον;",
-      "options": [
-        "ὅτι εἶδεν τοὺς ποταμούς",
-        "ὅτι ἤκουσεν τοὺς ἀνέμους",
-        "ὅτι φρόνιμος ἦν",
-        "ὅτι ἐκάθητο παρὰ τὴν θάλασσαν"
-      ],
+      "part": "A",
+      "question": "What happens to the house built on sand when rain and rivers come?",
+      "options": ["It stands firm like the house on rock", "It sinks slowly into the ground", "It falls immediately, and its ruin is great", "It is protected by the strong foundation"],
       "answer": 2,
-      "explanation": "ὑπολαβὼν ὁ Μαθθαῖος λέγει· ὅτι φρόνιμος ἦν.",
-      "part": "A"
+      "explanation": "The foolish man built his house on sand without a foundation. When rain came and rivers beat against it, the house fell immediately and its ruin was great."
     },
     {
       "id": 5,
-      "question": "τίνα σπόρον ἔδωκεν ὁ πατὴρ τῷ Πέτρῳ καὶ τῷ Μαθθαίῳ;",
-      "options": [
-        "τῷ μὲν Μαθθαίῳ ὀλίγον, τῷ δὲ Πέτρῳ οὐδέν",
-        "ἀμφοτέροις σπόρον ὀλίγον",
-        "ἀμφοτέροις καλὸν σπόρον",
-        "τῷ μὲν Πέτρῳ πολύν, τῷ δὲ Μαθθαίῳ οὐδέν"
-      ],
-      "answer": 2,
-      "explanation": "λέγει ὁ πατήρ· ἀμφοτέροις ἔδωκα καλὸν σπόρον· σπείρετε οὖν.",
-      "part": "A"
+      "part": "A",
+      "question": "Who identifies the rain as tribulation?",
+      "options": ["James", "Martha", "Peter", "Mary Magdalene"],
+      "answer": 3,
+      "explanation": "Mary Magdalene says: 'Now I understood — the rain is tribulation.'"
     },
     {
       "id": 6,
-      "question": "τί λέγει ὁ Ἰησοῦς ὅτι ἐστὶν ἡ βασιλεία τοῦ θεοῦ ὡς;",
-      "options": [
-        "ὡς γεωργὸς σπείρων ἐν τῷ ἀγρῷ ἡμέρας καὶ νυκτός",
-        "ὡς ἄνθρωπος βαλὼν τὸν σπόρον ἐπὶ τῆς γῆς",
-        "ὡς κόκκος σινάπεως μικρὸς ἐν τῇ χειρί",
-        "ὡς θεριστὴς συλλέγων τὸν σῖτον εἰς τὴν ἀποθήκην"
-      ],
+      "part": "A",
+      "question": "Why does James say the Lord speaks about houses, seeds, and fields?",
+      "options": ["Because everyone in the village is a farmer", "Because the life of the farmer shows the truth of the kingdom of heaven", "Because the children need to learn how to farm", "Because the Lord was a farmer himself"],
       "answer": 1,
-      "explanation": "εἶπεν ὁ Ἰησοῦς· οὕτως ἐστὶν ἡ βασιλεία τοῦ θεοῦ ὡς ἄνθρωπος βάλῃ τὸν σπόρον ἐπὶ τῆς γῆς καὶ καθεύδῃ καὶ ἐγείρηται, καὶ ὁ σπόρος βλαστᾷ ὡς οὐκ οἶδεν αὐτός.",
-      "part": "A"
+      "explanation": "James explains: 'Because the life of the farmer shows the truth of the kingdom of heaven. The works of the field speak about the kingdom.'"
     },
     {
       "id": 7,
-      "question": "τί εὑρίσκει ὁ Μαθθαῖος ἐν τῷ ἀγρῷ ὅπου ὁ σῖτος ἤδη ηὔξανεν;",
-      "options": [
-        "πετεινὰ καταφάγοντα τὸν σπόρον",
-        "ζιζάνια ἐν μέσῳ τοῦ σίτου",
-        "χόρτον πολὺν ἀλλὰ οὐ σῖτον",
-        "ἐχθροὺς ἐν τῷ ἀγρῷ"
-      ],
+      "part": "A",
+      "question": "What does Peter complain about when James gives out the seed?",
+      "options": ["His seed bag is too heavy", "James gave Matthew much seed but him only little", "The field is too far away to sow in", "The sun is too hot to work in the field"],
       "answer": 1,
-      "explanation": "ὁ Μαθθαῖος ἐλθὼν εἰς τὸ μέσον τοῦ ἀγροῦ κράζει· πάτερ, ἰδοὺ ζιζάνια ἐν μέσῳ τοῦ σίτου.",
-      "part": "B"
+      "explanation": "Peter says: 'Father, you gave Matthew much seed, but me little; give me more!'"
     },
     {
       "id": 8,
-      "question": "διὰ τί οὐ θέλει ὁ οἰκοδεσπότης εὐθὺς ἐκβαλεῖν τὰ ζιζάνια;",
-      "options": [
-        "ὅτι ὁ καιρὸς τοῦ θερισμοῦ ἤδη πάρεστιν",
-        "ὅτι οὐκ ἔχει ἐργάτας ἐν τῷ ἀγρῷ",
-        "μήποτε ἅμα ἐκβάλωσιν καὶ τὸν σῖτον",
-        "ὅτι τὰ ζιζάνια ὅμοιά ἐστιν τῷ σίτῳ"
-      ],
+      "part": "A",
+      "question": "According to Jesus's parable of the growing seed, how does the seed sprout and grow?",
+      "options": ["Because the farmer waters it every day", "Because the farmer works night and day in the field", "By itself, while the man sleeps, and the man does not know how", "Because God tells the farmer exactly what to do"],
       "answer": 2,
-      "explanation": "ὁ οἰκοδεσπότης λέγει· οὔ, μήποτε ἐκβάλλοντες τὰ ζιζάνια ἐκβάλητε ἅμα αὐτοῖς καὶ τὸν σῖτον.",
-      "part": "B"
+      "explanation": "The seed sprouts and grows as the man does not know how. The earth bears fruit by itself, first the stalk, then the ear, then the full grain in the ear."
     },
     {
       "id": 9,
-      "question": "τίς ἐστιν ὁ ἐχθρὸς ὁ σπείρων τὰ ζιζάνια κατὰ τὴν ἐξήγησιν τοῦ πατρός;",
-      "options": [
-        "ὁ ἐργάτης ὁ πονηρός",
-        "ὁ υἱὸς τοῦ ἀνθρώπου",
-        "ὁ διάβολος",
-        "οἱ υἱοὶ τῆς βασιλείας"
-      ],
-      "answer": 2,
-      "explanation": "ὁ πατὴρ ἐξηγεῖται· ὁ ἐχθρὸς ὁ σπείρων αὐτά ἐστιν ὁ διάβολος.",
-      "part": "B"
+      "part": "A",
+      "question": "What does James say about the word of God in the heart?",
+      "options": ["It grows only if the person works very hard", "It is now small but it grows, and the person does not see it", "It disappears quickly if not read every day", "It becomes strong only in times of suffering"],
+      "answer": 1,
+      "explanation": "James says: 'We throw the seed and sleep; God makes it grow. Thus also the word in your heart: now it is small, but it grows, and you do not see it.'"
     },
     {
       "id": 10,
-      "question": "τί θέλει ὁ Πέτρος ποιεῖν ἐν τῇ τελευτῇ τοῦ κεφαλαίου;",
-      "options": [
-        "σπείρειν σπέρμα ἐν τῷ ἀγρῷ μετὰ τοῦ Μαθθαίου",
-        "λάμπειν ὡς ὁ ἥλιος ἐν τῇ βασιλείᾳ τοῦ πατρός",
-        "ἐκβαλεῖν τὰ ζιζάνια ἐκ τοῦ ἀγροῦ εὐθύς",
-        "ἀκούειν πλέον τῶν παραβολῶν τοῦ Ἰησοῦ"
-      ],
+      "part": "B",
+      "question": "To what does Jesus compare the kingdom of God in the mustard seed parable?",
+      "options": ["A large tree that is immediately great", "A mustard seed, smallest of all seeds, that grows into the greatest plant", "A farmer who works the largest field", "A seed that only grows in rocky ground"],
       "answer": 1,
-      "explanation": "ὁ Πέτρος λέγει· κἀγὼ θέλω λάμπειν ὡς ὁ ἥλιος.",
-      "part": "B"
+      "explanation": "Jesus says the kingdom of God is like a mustard seed — smallest of all seeds — which when sown grows up and becomes greater than all vegetables, making large branches."
+    },
+    {
+      "id": 11,
+      "part": "B",
+      "question": "What do the birds of the sky do in the mustard tree?",
+      "options": ["They eat the fruit of the tree", "They attack the tree and break the branches", "They nest in the shade of its branches", "They fly away when people approach"],
+      "answer": 2,
+      "explanation": "Jesus says the mustard seed grows so large that the birds of the sky can nest in the shade of its branches."
+    },
+    {
+      "id": 12,
+      "part": "B",
+      "question": "When were the weeds sown among the wheat in the parable of the weeds?",
+      "options": ["During the harvest time", "While the people were sleeping", "When the servants were working in the field", "At the beginning of the planting season"],
+      "answer": 1,
+      "explanation": "The parable says: 'While the people were sleeping, his enemy came and sowed weeds among the wheat and went away.'"
+    },
+    {
+      "id": 13,
+      "part": "B",
+      "question": "Why does the master tell his servants NOT to pull out the weeds immediately?",
+      "options": ["Because the weeds are too deeply rooted", "Because the servants are too few and too weak", "Lest in pulling out the weeds they also pull out the wheat", "Because weeds can become wheat over time"],
+      "answer": 2,
+      "explanation": "The master says: 'No — lest in casting out the weeds you cast out the wheat along with them. Let both grow until the harvest.'"
+    },
+    {
+      "id": 14,
+      "part": "B",
+      "question": "In James's explanation of the weeds parable, who is the enemy who sowed the weeds?",
+      "options": ["A wicked servant", "A jealous neighbor", "The devil", "Death itself"],
+      "answer": 2,
+      "explanation": "James explains: 'The enemy who sowed them is the devil.' The field is the world; the son of man sows the good seed."
+    },
+    {
+      "id": 15,
+      "part": "B",
+      "question": "What does James say the righteous will do in the kingdom of the Father?",
+      "options": ["They will rule over all the earth", "They will shine like the sun", "They will harvest the wheat forever", "They will teach all the nations"],
+      "answer": 1,
+      "explanation": "James says the righteous will shine like the sun in the kingdom of their Father."
     }
   ],
   "trueFalse": [
     {
       "id": 1,
-      "statement": "ὁ ἀκούων καὶ μὴ ποιῶν τὸν λόγον καρπὸν οὐκ ἔχει.",
+      "part": "A",
+      "statement": "The one who hears the word but does not do it has no fruit.",
       "answer": true,
-      "explanation": "ἀληθές! λέγει ὁ Ἰάκωβος· ὁ γὰρ ἀκούων καὶ μὴ ποιῶν καρπὸν οὐκ ἔχει.",
-      "part": "A"
+      "explanation": "James says: 'The one who hears and does not do has no fruit.' He urges not just hearing but doing and guarding the word in the heart."
     },
     {
       "id": 2,
-      "statement": "ὁ μωρὸς ἔθηκεν τὸν θεμέλιον τῆς οἰκίας αὐτοῦ ἐπὶ τὴν πέτραν.",
+      "part": "A",
+      "statement": "The foolish man built his house on the rock but without a foundation.",
       "answer": false,
-      "explanation": "οὐκ ἀληθές! ὁ μωρὸς ᾠκοδόμει τὴν οἰκίαν αὐτοῦ ἐπὶ τὴν ἄμμον χωρὶς θεμελίου· ὁ δὲ φρόνιμος ἔθηκεν τὸν θεμέλιον ἐπὶ τὴν πέτραν.",
-      "part": "A"
+      "explanation": "The foolish man built his house on sand without a foundation. The wise man built on the rock."
     },
     {
       "id": 3,
-      "statement": "ἡ οἰκία ἡ ἐπὶ τῆς πέτρας ἔπεσεν ὅτε κατέβη ἡ βροχὴ καὶ ἦλθον οἱ ποταμοί.",
-      "answer": false,
-      "explanation": "οὐκ ἀληθές! ἡ οἰκία ἡ ἐπὶ τῆς πέτρας οὐκ ἔπεσεν· ἡ δὲ οἰκία ἡ ἐπὶ τῆς ἄμμου εὐθὺς ἔπεσεν.",
-      "part": "A"
+      "part": "A",
+      "statement": "The house built on the rock did not fall when the rain came and the rivers beat against it.",
+      "answer": true,
+      "explanation": "Jesus says that when rain came and rivers beat against the house built on rock, it did not fall — because it was founded on the rock."
     },
     {
       "id": 4,
-      "statement": "ὁ Μαθθαῖος ἔλαβεν πολὺν σπόρον παρὰ τοῦ πατρός, ὁ δὲ Πέτρος ὀλίγον.",
+      "part": "A",
+      "statement": "Matthew answers Peter's question about the wise man by saying the wise man was wise.",
       "answer": true,
-      "explanation": "ἀληθές! λέγει ὁ Πέτρος· τῷ Μαθθαίῳ ἔδωκας πολὺν σπόρον, ἐμοὶ δὲ ὀλίγον.",
-      "part": "A"
+      "explanation": "When Peter asks how the wise man knew rain was coming, Matthew answers: 'Because he was wise.'"
     },
     {
       "id": 5,
-      "statement": "ὁ σπόρος βλαστᾷ καὶ αὐξάνει ὅτι ὁ γεωργὸς εἰδὼς ποιεῖ αὐτόν.",
-      "answer": false,
-      "explanation": "οὐκ ἀληθές! αὐτομάτη ἡ γῆ καρποφορεῖ· ὁ ἄνθρωπος οὐκ οἶδεν πῶς αὐξάνει.",
-      "part": "A"
+      "part": "A",
+      "statement": "The children remain silent after hearing the parable of the two builders.",
+      "answer": true,
+      "explanation": "After James tells the parable of the two builders, the story says: 'The children are silent.'"
     },
     {
       "id": 6,
-      "statement": "ὁ κόκκος τοῦ σινάπεως μικρότερός ἐστιν πάντων τῶν σπερμάτων.",
-      "answer": true,
-      "explanation": "ἀληθές! εἶπεν ὁ Ἰησοῦς· ὁ κόκκος τοῦ σινάπεως μικρότερόν ἐστιν πάντων τῶν σπερμάτων τῶν ἐπὶ τῆς γῆς.",
-      "part": "A"
+      "part": "A",
+      "statement": "The seed grows because the farmer understands and controls how it grows.",
+      "answer": false,
+      "explanation": "Jesus's parable says the seed sprouts and grows as the man does not know how. The earth bears fruit by itself. James also says: 'We throw the seed and sleep; God makes it grow.'"
     },
     {
       "id": 7,
-      "statement": "ὁ ἐχθρὸς ἔβαλεν τὰ ζιζάνια ἐν τῷ ἀγρῷ ἐν τῷ καθεύδειν τοὺς ἀνθρώπους.",
+      "part": "A",
+      "statement": "James gave both Peter and Matthew good seed to sow.",
       "answer": true,
-      "explanation": "ἀληθές! ἐν τῷ καθεύδειν τοὺς ἀνθρώπους ἦλθεν ὁ ἐχθρὸς καὶ ἔβαλεν ζιζάνια ἐν μέσῳ τοῦ σίτου.",
-      "part": "B"
+      "explanation": "James says: 'I gave both good seed; sow therefore.' Peter received less than Matthew, but both received good seed."
     },
     {
       "id": 8,
-      "statement": "ἐν τῷ θερισμῷ οἱ ἐργάται πρῶτον συλλέγουσιν τὸν σῖτον εἰς τὴν ἀποθήκην.",
+      "part": "A",
+      "statement": "Peter immediately sows all his seed carefully across the whole field.",
       "answer": false,
-      "explanation": "οὐκ ἀληθές! λέγει ὁ οἰκοδεσπότης· λαβόντες πρῶτον τὰ ζιζάνια βάλετε αὐτὰ εἰς τὸ πῦρ, τὸν δὲ σῖτον συναγάγετε εἰς τὴν ἀποθήκην μου.",
-      "part": "B"
+      "explanation": "Peter takes only one grain and places it in the ground, then sits watching the ground for a long time, asking how it grows."
     },
     {
       "id": 9,
-      "statement": "ὁ ἀγρός ἐστιν ὁ κόσμος κατὰ τὴν ἐξήγησιν τοῦ πατρός.",
+      "part": "B",
+      "statement": "The mustard seed is the smallest of all seeds on the earth.",
       "answer": true,
-      "explanation": "ἀληθές! ἐξηγεῖται ὁ πατήρ· ὁ δὲ ἀγρός ἐστιν ὁ κόσμος.",
-      "part": "B"
+      "explanation": "Jesus says the mustard seed is the smallest of all the seeds on the earth — yet when sown it grows and becomes greater than all vegetables."
     },
     {
       "id": 10,
-      "statement": "οἱ δίκαιοι μέλλουσιν λάμπειν ὡς ἡ σελήνη ἐν τῇ βασιλείᾳ τοῦ πατρός.",
+      "part": "B",
+      "statement": "Matthew discovers the weeds growing in the middle of the field where the wheat was already growing.",
+      "answer": true,
+      "explanation": "Matthew goes into the middle of the field where the wheat was already growing and cries out: 'Father, behold — weeds among the wheat!'"
+    },
+    {
+      "id": 11,
+      "part": "B",
+      "statement": "The master of the house tells the servants to pull out the weeds right away.",
       "answer": false,
-      "explanation": "οὐκ ἀληθές! λέγει ὁ πατήρ· οἱ δίκαιοι μέλλουσιν λάμπειν ὡς ὁ ἥλιος ἐν τῇ βασιλείᾳ τοῦ πατρὸς αὐτῶν.",
-      "part": "B"
+      "explanation": "The master says no — let both grow until the harvest, lest pulling out the weeds also uproot the wheat."
+    },
+    {
+      "id": 12,
+      "part": "B",
+      "statement": "At harvest time, the workers are told to gather the weeds first and burn them.",
+      "answer": true,
+      "explanation": "The master says: 'At harvest time I will say to the workers: take first the weeds and throw them into the fire, then gather the wheat into my storehouse.'"
+    },
+    {
+      "id": 13,
+      "part": "B",
+      "statement": "In James's explanation of the parable, the field represents the kingdom of heaven.",
+      "answer": false,
+      "explanation": "James explains that the field is the world, not the kingdom of heaven. The son of man sows good seed in the world."
+    },
+    {
+      "id": 14,
+      "part": "B",
+      "statement": "Peter says he wants to shine like the sun in the Father's kingdom.",
+      "answer": true,
+      "explanation": "At the end of the chapter, Peter says: 'I want to shine like the sun.' He is referring to what James said about the righteous shining like the sun in the Father's kingdom."
+    },
+    {
+      "id": 15,
+      "part": "B",
+      "statement": "Martha is the one who first mentions that the Lord spoke a parable about hearing and doing the word.",
+      "answer": true,
+      "explanation": "Martha, lifting cups from the table, says to James: 'The Lord also spoke a parable about this, O husband.' This prompts James to tell the two builders parable."
     }
   ],
   "yesNo": [
     {
       "id": 1,
-      "question": "ἆρα ἡ οἰκία ἡ ἐπὶ τῆς ἄμμου εὐθὺς ἔπεσεν ὅτε κατέβη ἡ βροχή;",
+      "part": "A",
+      "question": "Does the house built on sand fall when the rain comes and the rivers beat against it?",
       "answer": true,
-      "explanation": "ναί! κατέβη ἡ βροχὴ καὶ ἦλθον οἱ ποταμοί, καὶ εὐθὺς ἔπεσεν, καὶ μεγάλη ἦν ἡ πτῶσις αὐτῆς.",
-      "part": "A"
+      "explanation": "Yes. The rain came and the rivers beat against the house on sand, and it fell immediately, and its ruin was great."
     },
     {
       "id": 2,
-      "question": "ἆρα ὁ Πέτρος βούλεται πλέον σπόρου παρὰ τοῦ πατρός;",
-      "answer": true,
-      "explanation": "ναί! λέγει ὁ Πέτρος· τῷ Μαθθαίῳ ἔδωκας πολύν, ἐμοὶ δὲ ὀλίγον· δός μοι ἄλλον.",
-      "part": "A"
+      "part": "A",
+      "question": "Does Peter ask James to give him more seed than Matthew gave him?",
+      "answer": false,
+      "explanation": "Peter asks James (his father) for more seed — not Matthew. He says James gave Matthew much seed but him only little."
     },
     {
       "id": 3,
-      "question": "ἆρα ὁ σπόρος αὐτομάτη αὐξάνει χωρὶς τοῦ ἀνθρώπου;",
+      "part": "A",
+      "question": "Does the seed grow by itself in Jesus's parable, without the farmer knowing how?",
       "answer": true,
-      "explanation": "ναί! αὐτομάτη ἡ γῆ καρποφορεῖ· ὁ δὲ ἄνθρωπος οὐκ οἶδεν πῶς αὐξάνει.",
-      "part": "A"
+      "explanation": "Yes. The man throws the seed, sleeps and rises, and the seed sprouts and grows as he does not know how. The earth bears fruit by itself."
     },
     {
       "id": 4,
-      "question": "ἆρα ὁ κόκκος τοῦ σινάπεως ἐν τῷ τέλει γίνεται μεῖζον πάντων τῶν λαχάνων;",
-      "answer": true,
-      "explanation": "ναί! λέγει ὁ Ἰησοῦς· ἀναβαίνει καὶ γίνεται μεῖζον πάντων τῶν λαχάνων καὶ ποιεῖ κλάδους μεγάλους.",
-      "part": "A"
+      "part": "A",
+      "question": "Is the wise man in the parable the one who only heard but did not do?",
+      "answer": false,
+      "explanation": "No. The wise man is the one who both heard and did the words of Jesus. It is the foolish man who hears and does not do."
     },
     {
       "id": 5,
-      "question": "ἆρα θέλει ὁ οἰκοδεσπότης εὐθὺς ἐκβαλεῖν τὰ ζιζάνια ἐκ τοῦ ἀγροῦ;",
-      "answer": false,
-      "explanation": "οὔ! λέγει· μήποτε ἐκβάλλοντες τὰ ζιζάνια ἐκβάλητε ἅμα καὶ τὸν σῖτον· ἄφετε ἀμφότερα αὐξάνεσθαι ἕως τοῦ θερισμοῦ.",
-      "part": "B"
-    },
-    {
-      "id": 6,
-      "question": "ἆρα συνῆκαν οἱ μαθηταὶ εὐθὺς τὴν παραβολὴν τῶν ζιζανίων;",
-      "answer": false,
-      "explanation": "οὔ! λέγει ὁ πατήρ· οὐδὲ οἱ μαθηταὶ συνῆκαν ταύτην τὴν παραβολήν· ἀλλὰ κατ᾽ ἰδίαν ἤκουον αὐτοῦ ἐξηγουμένου.",
-      "part": "B"
-    },
-    {
-      "id": 7,
-      "question": "ἆρα ὁ σπείρων τὸ καλὸν σπέρμα ἐστὶν ὁ υἱὸς τοῦ ἀνθρώπου;",
+      "part": "A",
+      "question": "Does James confirm that their own house is built on rock?",
       "answer": true,
-      "explanation": "ναί! ἐξηγεῖται ὁ πατήρ· ὁ σπείρων τὸ καλὸν σπέρμα ἐστὶν ὁ υἱὸς τοῦ ἀνθρώπου.",
-      "part": "B"
-    },
-    {
-      "id": 8,
-      "question": "ἆρα ἐν τῇ συντελείᾳ τοῦ αἰῶνος οἱ δίκαιοι βληθήσονται εἰς τὴν κάμινον τοῦ πυρός;",
-      "answer": false,
-      "explanation": "οὔ! οἱ ποιοῦντες τὴν ἀνομίαν βληθήσονται εἰς τὴν κάμινον· οἱ δὲ δίκαιοι μέλλουσιν λάμπειν ὡς ὁ ἥλιος.",
-      "part": "B"
-    }
-  ],
-  "conversationQuestions": [
-    {
-      "id": 1,
-      "question": "ἆρα σὺ ἀκούεις μόνον τὸν λόγον τοῦ θεοῦ, ἢ καὶ ποιεῖς αὐτόν;",
-      "part": "A"
-    },
-    {
-      "id": 2,
-      "question": "ἆρα ἡ οἰκία σου ἐπὶ πέτραν ᾠκοδόμηται;",
-      "part": "A"
-    },
-    {
-      "id": 3,
-      "question": "τί ἐστιν ὁ θεμέλιος τῆς ζωῆς σου;",
-      "part": "A"
-    },
-    {
-      "id": 4,
-      "question": "ἆρα βλέπεις τὸν λόγον τοῦ θεοῦ αὐξάνοντα ἐν τῇ καρδίᾳ σου;",
-      "part": "A"
-    },
-    {
-      "id": 5,
-      "question": "ἆρα θαυμάζεις ὅτι ὁ θεὸς αὐξάνει τὸν λόγον χωρὶς ἡμῶν;",
-      "part": "A"
+      "explanation": "Yes. When Peter asks 'Is our house on rock?', James says: 'Yes, on rock — for my father himself laid these stones.'"
     },
     {
       "id": 6,
-      "question": "ἆρα βλέπεις ζιζάνια ἐν τῷ κόσμῳ σήμερον;",
-      "part": "B"
+      "part": "B",
+      "question": "Does the mustard seed become greater than all other vegetables when it grows?",
+      "answer": true,
+      "explanation": "Yes. Jesus says the mustard seed, when sown, grows up and becomes greater than all the vegetables and makes large branches."
     },
     {
       "id": 7,
-      "question": "τί νομίζεις — ποῦ εἰσὶν οἱ υἱοὶ τῆς βασιλείας ἐν τῷ κόσμῳ;",
-      "part": "B"
+      "part": "B",
+      "question": "Does the master of the house want to remove the weeds immediately once they are discovered?",
+      "answer": false,
+      "explanation": "No. The master says to let both grow until the harvest, lest pulling out the weeds also uproot the wheat."
     },
     {
       "id": 8,
-      "question": "ἆρα θέλεις λάμπειν ὡς ὁ ἥλιος ἐν τῇ βασιλείᾳ τοῦ πατρός;",
-      "part": "B"
+      "part": "B",
+      "question": "Is the one who sows the good seed in the parable of the weeds the son of man?",
+      "answer": true,
+      "explanation": "Yes. James explains that the one who sows the good seed is the son of man."
     },
     {
       "id": 9,
-      "question": "τίς ἐστιν ὁ ἐχθρὸς ἐν τῇ ζωῇ σου ὁ βάλλων ζιζάνια;",
-      "part": "B"
+      "part": "B",
+      "question": "Will the righteous shine like the moon in the kingdom of the Father?",
+      "answer": false,
+      "explanation": "No. James says the righteous will shine like the sun — not the moon — in the kingdom of their Father."
     },
     {
       "id": 10,
-      "question": "ἆρα ἀγαπᾷς ἀκούειν τὰς παραβολὰς τοῦ Ἰησοῦ;",
-      "part": "B"
+      "part": "B",
+      "question": "Does Matthew ask whether the word of God growing in the heart is like the mustard seed parable?",
+      "answer": true,
+      "explanation": "Yes. After James explains about the word growing in the heart, Matthew asks: 'Like the parable of the mustard seed?' and James confirms: 'Certainly.'"
+    },
+    {
+      "id": 11,
+      "part": "B",
+      "question": "Does Matthew laugh when Peter complains about receiving less seed?",
+      "answer": true,
+      "explanation": "Yes. Matthew laughs and says: 'He gave me much because I am older than you.'"
     }
   ]
 }

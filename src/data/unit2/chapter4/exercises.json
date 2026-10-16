@@ -2,926 +2,309 @@
   "multipleChoice": [
     {
       "id": 1,
-      "question": "τί ποιεῖ ὁ Ἰάκωβος πρῶτον ὅτε πρωΐ ἐστιν;",
-      "options": [
-        "σκάπτει τὸν ἀγρόν",
-        "πορεύεται πρὸς τὸν ποταμὸν καὶ λούει τὸ σῶμα αὐτοῦ",
-        "καλεῖ τὸν ὄνον",
-        "ἀσπάζεται τὸν Φίλιππον"
-      ],
-      "answer": 1,
-      "explanation": "ἐκβαίνει ἐκ τοῦ οἴκου καὶ πορεύεται πρὸς τὸν ποταμόν· λούει οὖν τὸ σῶμα αὐτοῦ.",
-      "part": "A"
+      "part": "A",
+      "question": "What time of day does Chapter 4 begin?",
+      "options": ["Evening", "Midnight", "Early morning", "Noon"],
+      "answer": 2,
+      "explanation": "The story opens with 'Now it is early morning' — the moon no longer shines and the sun rises."
     },
     {
       "id": 2,
-      "question": "διὰ τί πορεύεται ὁ Ἰάκωβος πρὸς τὴν κώμην;",
-      "options": [
-        "ὅτι θέλει ἐργάζεσθαι ἐν τῇ κώμῃ",
-        "ὅτι θέλει βλέπειν τὸν οἶκον αὐτοῦ καὶ τὴν Μάρθαν καὶ τὰ τέκνα αὐτοῦ",
-        "ὅτι θέλει ἀγοράζειν ἄρτον",
-        "ὅτι ὁ Φίλιππος καλεῖ αὐτόν"
-      ],
+      "part": "A",
+      "question": "Where does the farmer go first thing in the morning to wash his body?",
+      "options": ["A well", "The river", "A pool in the field", "His house"],
       "answer": 1,
-      "explanation": "ἀγαπῶ τὸν οἶκόν μου, καὶ σήμερον βούλομαι βλέπειν τὴν Μάρθαν καὶ τὰ τέκνα μου.",
-      "part": "A"
+      "explanation": "The farmer wants to wash his body, so he goes out and travels toward the river, where the water is good."
     },
     {
       "id": 3,
-      "question": "τί λέγει ὁ Φίλιππος ὅτι βούλεται ποιεῖν;",
-      "options": [
-        "βούλεται πορεύεσθαι μετ᾽ αὐτοῦ εἰς τὴν κώμην",
-        "βούλεται φυλάσσειν τὸν ἀγρὸν καὶ τὰ ζῷα τοῦ Ἰακώβου",
-        "βούλεται φέρειν ἄρτον εἰς τὸν οἶκον",
-        "βούλεται καλεῖν τὸν ὄνον"
-      ],
+      "part": "A",
+      "question": "What is the farmer's name?",
+      "options": ["Philip", "Jacob", "Simon", "Andrew"],
       "answer": 1,
-      "explanation": "βούλομαι φυλάσσειν τὸν ἀγρὸν καὶ τὰ ζῷα σοῦ· μέλλω γὰρ μένειν ἐν τῷ ἀγρῷ ὅλην τὴν ἡμέραν.",
-      "part": "A"
+      "explanation": "The story reveals that the name of the farmer is Jacob."
     },
     {
       "id": 4,
-      "question": "τί λέγει ὁ Ἰάκωβος περὶ τοῦ Φιλίππου;",
-      "options": [
-        "πλούσιος καὶ ἰσχυρός",
-        "ἀγαθὸς καὶ πιστὸς φίλος",
-        "μέγας καὶ χαλεπός",
-        "πτωχὸς καὶ κακὸς γεωργός"
-      ],
-      "answer": 1,
-      "explanation": "ἀληθῶς ἀγαθὸς καὶ πιστὸς φίλος σὺ εἶ, κἀγὼ ἀγαπῶ σε.",
-      "part": "A"
+      "part": "A",
+      "question": "Where does Jacob live?",
+      "options": ["Judea", "Jerusalem", "Galilee", "Samaria"],
+      "answer": 2,
+      "explanation": "Jacob is a Galilean and dwells in Galilee."
     },
     {
       "id": 5,
-      "question": "τί ἔχει ὁ Ἰάκωβος ἐν τῇ πήρᾳ;",
-      "options": [
-        "καρπὸν καὶ λάχανα",
-        "ἄρτον",
-        "ὕδωρ",
-        "ἄρτον καὶ ὕδωρ"
-      ],
-      "answer": 1,
-      "explanation": "ἐν τῇ πήρᾳ ἔχει ἄρτον ὅτι βούλεται ἐσθίειν ἐν τῇ ὁδῷ.",
-      "part": "B"
+      "part": "A",
+      "question": "What is the name of Jacob's friend?",
+      "options": ["Andrew", "Bartholomew", "Philip", "Simon"],
+      "answer": 2,
+      "explanation": "The name of Jacob's friend is Philip."
     },
     {
       "id": 6,
-      "question": "τί φέρει ὁ ὄνος ἐκ τοῦ ἀγροῦ;",
-      "options": [
-        "λίθους μεγάλους",
-        "πολλοὺς καρποὺς καὶ πολλὰ λάχανα",
-        "ὕδωρ ἐκ τοῦ ποταμοῦ",
-        "λάχανα ἐκ τοῦ κήπου"
-      ],
-      "answer": 1,
-      "explanation": "φέρει πολλοὺς καρποὺς καὶ πολλὰ λάχανα ἐκ τοῦ ἀγροῦ.",
-      "part": "B"
+      "part": "A",
+      "question": "Why does Jacob decide not to work in the field today?",
+      "options": ["He is too tired", "It is raining", "He wants to go to the village to see his house and family", "He has no more work to do"],
+      "answer": 2,
+      "explanation": "Jacob wants to go to the village to see his house, his wife Martha, and his children."
     },
     {
       "id": 7,
-      "question": "ποῦ εὑρίσκει ὁ Ἰάκωβος τόπον ἀναπαύεσθαι;",
-      "options": [
-        "ἐν τῇ κώμῃ πλησίον τοῦ οἴκου",
-        "ὑπὸ μεγάλῳ δένδρῳ ἐγγὺς τῆς ὁδοῦ ὅπου ἐστὶν ἡ πηγή",
-        "ἐν τῷ ἀγρῷ τοῦ Φιλίππου",
-        "ἐγγὺς τοῦ ποταμοῦ ἐν σκίᾳ"
-      ],
-      "answer": 1,
-      "explanation": "εὑρίσκει τὸ μέγα δένδρον ἐγγὺς τῆς ὁδοῦ· ὑπὸ τῷ δένδρῳ ἐστὶν ἡ πηγή.",
-      "part": "B"
+      "part": "A",
+      "question": "What does Philip offer to do for Jacob?",
+      "options": ["Bring food to Jacob's family", "Travel to the village with Jacob", "Guard Jacob's field and animals while Jacob is away", "Lend Jacob his own animals"],
+      "answer": 2,
+      "explanation": "Philip says he is able and willing to guard Jacob's field and animals, and intends to stay in the field the whole day."
     },
     {
       "id": 8,
-      "question": "διὰ τί οὐ δύναται ὁ Ἰάκωβος πίνειν ἐκ τῆς πηγῆς;",
-      "options": [
-        "ὅτι τὸ ὕδωρ οὐ καθαρόν ἐστιν",
-        "ὅτι οὐκ ἔχει ὑδρίαν",
-        "ὅτι κοπιᾷ σφόδρα",
-        "ὅτι ἡ πηγὴ μακρά ἐστιν"
-      ],
+      "part": "A",
+      "question": "How does Jacob describe Philip in his response to Philip's offer?",
+      "options": ["A wealthy and generous man", "A good and faithful friend", "A wise and careful farmer", "A strong and mighty helper"],
       "answer": 1,
-      "explanation": "θέλει πίνειν ἀλλὰ οὐ δύναται ἀντλεῖν τὸ ὕδωρ ὅτι οὐκ ἔχει ὑδρίαν.",
-      "part": "B"
+      "explanation": "Jacob says 'O Philip, truly you are a good and faithful friend, and I love you.'"
     },
     {
       "id": 9,
-      "question": "τίνες εἰσὶν οἱ πλούσιοι γεωργοί;",
-      "options": [
-        "οἱ ἔχοντες μεγάλους ἀγροὺς καὶ πολλὰ ζῷα καὶ πολλοὺς δούλους",
-        "οἱ ἐργαζόμενοι μόνοι ἐν τοῖς ἰδίοις ἀγροῖς",
-        "οἱ μένοντες ἐν τῇ κώμῃ",
-        "οἱ θερίζοντες πρῶτοι τοὺς καρπούς"
-      ],
-      "answer": 0,
-      "explanation": "οἱ μὲν πλούσιοί εἰσιν καὶ ἔχουσιν μεγάλους ἀγροὺς καὶ πολλὰ ζῷα· διὰ τοῦτο αὐτοὶ ἔχουσιν πολλοὺς δούλους.",
-      "part": "B"
+      "part": "A",
+      "question": "Who does Jacob ask about when he arrives at Philip's?",
+      "options": ["Jacob's children", "Philip asks about Martha and Jacob's children", "Philip's wife", "Jacob's animals"],
+      "answer": 1,
+      "explanation": "Philip asks Jacob 'Is your wife Martha well? And your children?'"
     },
     {
       "id": 10,
-      "question": "τί λέγει ὁ Ἰάκωβος περὶ τοῦ πόνου καὶ τοῦ καρποῦ;",
-      "options": [
-        "χαλεπὸν μὲν ἐργάζεσθαι τὸ ἔργον· ἀγαθὸν δὲ δέχεσθαι τὸν καρπόν",
-        "οἱ γεωργοὶ οὐ χαίρουσιν ἐν τοῖς ἀγροῖς",
-        "ὁ πόνος χαλεπός ἐστιν καὶ οὐκ ἔχει καρπόν",
-        "χαλεπὸν καὶ τὸ ἐργάζεσθαι καὶ τὸ δέχεσθαι τὸν καρπόν"
-      ],
+      "part": "A",
+      "question": "Jacob says he worries about something as he prepares to leave for the village. What is it?",
+      "options": ["Martha and the children being alone", "The field and the animals", "The weather", "The road to the village"],
+      "answer": 1,
+      "explanation": "Jacob says 'I worry about the field and the animals; I do not know what I should do.'"
+    },
+    {
+      "id": 11,
+      "part": "B",
+      "question": "When Jacob departs from Philip, where does he first go?",
+      "options": ["Directly to the village", "To the river", "To his field", "Back to his house"],
+      "answer": 2,
+      "explanation": "Jacob departs from Philip and goes to his own field."
+    },
+    {
+      "id": 12,
+      "part": "A",
+      "question": "Besides thanking Philip, who else does Jacob give thanks to?",
+      "options": ["His wife Martha", "The village elders", "God", "The other farmers"],
+      "answer": 2,
+      "explanation": "Jacob says 'I give thanks to you... I also give thanks to God; for God is good and faithful.'"
+    },
+    {
+      "id": 13,
+      "part": "A",
+      "question": "How does Philip send Jacob off at the end of their conversation?",
+      "options": ["With bread and fruit for the journey", "Telling Jacob to hurry back", "Saying 'Go with joy and peace'", "Warning Jacob about the road"],
+      "answer": 2,
+      "explanation": "Philip says 'Greet your household. Go with joy and peace.'"
+    },
+    {
+      "id": 14,
+      "part": "A",
+      "question": "What does Jacob eat in the morning before going to Philip?",
+      "options": ["Bread and fruit", "Bread and water", "Fruit and fish", "Nothing — he leaves immediately"],
       "answer": 0,
-      "explanation": "χαλεπὸν μὲν ἐργάζεσθαι τὸ ἔργον· ἀγαθὸν δὲ δέχεσθαι τὸν καρπόν.",
-      "part": "B"
+      "explanation": "After washing and returning home, Jacob takes bread and fruit and eats."
+    },
+    {
+      "id": 15,
+      "part": "B",
+      "question": "How does Philip respond to Jacob's thanks?",
+      "options": ["He is silent", "He also rejoices because Jacob can go to the village", "He says Jacob does not need to thank him", "He asks Jacob to return quickly"],
+      "answer": 1,
+      "explanation": "Philip says 'And I also rejoice because you are able to go to the village.'"
     }
   ],
   "trueFalse": [
     {
       "id": 1,
-      "statement": "ὁ Ἰάκωβός ἐστιν Γαλιλαῖος καὶ κατοικεῖ ἐν τῇ Γαλιλαίᾳ.",
-      "answer": true,
-      "explanation": "ἀληθές! ὁ Ἰάκωβος Γαλιλαῖός ἐστιν καὶ κατοικεῖ ἐν τῇ Γαλιλαίᾳ.",
-      "part": "A"
+      "part": "A",
+      "statement": "At the start of Chapter 4, the moon is still shining in the sky.",
+      "answer": false,
+      "explanation": "The moon no longer shines; it is early morning and the sun rises in the sky."
     },
     {
       "id": 2,
-      "statement": "σήμερον ὁ Ἰάκωβος ἐργάζεται ἐν τῷ ἀγρῷ.",
+      "part": "A",
+      "statement": "When the farmer wakes up, he is still weary from the previous day.",
       "answer": false,
-      "explanation": "ψεῦδος! σήμερον οὐ ἐργάζεται ἐν τῷ ἀγρῷ ἀλλὰ πορεύεται πρὸς τὴν κώμην.",
-      "part": "A"
+      "explanation": "The farmer is no longer weary but is strong when he wakes from sleep."
     },
     {
       "id": 3,
-      "statement": "ὁ Φίλιππος οἰκεῖ πλησίον τοῦ Ἰακώβου.",
-      "answer": true,
-      "explanation": "ἀληθές! ὁ Φίλιππός ἐστιν πλησίον τοῦ Ἰακώβου.",
-      "part": "A"
+      "part": "A",
+      "statement": "The farmer has fear in his heart when he wakes up.",
+      "answer": false,
+      "explanation": "He has no fear but has peace in his heart."
     },
     {
       "id": 4,
-      "statement": "ὁ Ἰάκωβος οὐκ ἔχει φόβον ἀλλὰ ἔχει εἰρήνην ἐν τῇ καρδίᾳ αὐτοῦ.",
+      "part": "A",
+      "statement": "Jacob goes to the river because the water there is good.",
       "answer": true,
-      "explanation": "ἀληθές! οὐκ ἔχει φόβον ἀλλὰ ἔχει εἰρήνην ἐν τῇ καρδίᾳ αὐτοῦ.",
-      "part": "A"
+      "explanation": "The story says the water of the river is good, and Jacob washes his body there."
     },
     {
       "id": 5,
-      "statement": "ὁ Φίλιππος οὐ βούλεται βοηθεῖν τῷ Ἰακώβῳ.",
-      "answer": false,
-      "explanation": "ψεῦδος! ὁ Φίλιππος λέγει· δύναμαι βοηθεῖν σοι καὶ βούλομαι φυλάσσειν τὸν ἀγρὸν καὶ τὰ ζῷα σοῦ.",
-      "part": "A"
+      "part": "A",
+      "statement": "Jacob is not working in the field today because he wants to visit the village.",
+      "answer": true,
+      "explanation": "Today Jacob does not work in the field but goes toward the village to see his house and family."
     },
     {
       "id": 6,
-      "statement": "ὁ Ἰάκωβος ἀπέρχεται ἀπὸ τοῦ Φιλίππου μετὰ χαρᾶς.",
-      "answer": true,
-      "explanation": "ἀληθές! ἀπέρχεται μετὰ χαρᾶς καὶ εἰρήνης.",
-      "part": "A"
+      "part": "A",
+      "statement": "Philip lives far away from Jacob.",
+      "answer": false,
+      "explanation": "Philip is near Jacob, which is why Jacob goes to him first."
     },
     {
       "id": 7,
-      "statement": "ὁ ὄνος ἀκολουθεῖ τῷ Ἰακώβῳ ἐν τῇ ὁδῷ.",
+      "part": "A",
+      "statement": "Philip has a large field and many animals.",
       "answer": true,
-      "explanation": "ἀληθές! καλεῖ τὸν ὄνον φωνῇ μεγάλῃ, καὶ ὁ ὄνος ἀκολουθεῖ αὐτῷ.",
-      "part": "B"
+      "explanation": "Philip has a large field and many animals in the field."
     },
     {
       "id": 8,
-      "statement": "ὁ Ἰάκωβος πορεύεται ἐν τῇ ὁδῷ καὶ ὁ ἥλιος οὐ λάμπει.",
+      "part": "A",
+      "statement": "Jacob's wife's name is Mary.",
       "answer": false,
-      "explanation": "ψεῦδος! ὁ ἥλιος λάμπει σφόδρα καὶ καῦμα μέγα ἐστὶν ἐν τῇ ὁδῷ.",
-      "part": "B"
+      "explanation": "Jacob's wife's name is Martha, as Philip asks about her: 'Is your wife Martha well?'"
     },
     {
       "id": 9,
-      "statement": "οἱ πτωχοὶ γεωργοὶ ἔχουσιν δούλους.",
+      "part": "A",
+      "statement": "Jacob tells Philip that his wife and children are not well.",
       "answer": false,
-      "explanation": "ψεῦδος! οἱ πτωχοὶ ἐργάζονται ἐν τοῖς ἰδίοις ἀγροῖς ὅτι οὐκ ἔχουσιν δούλους.",
-      "part": "B"
+      "explanation": "Jacob says 'Yes, all are well' when Philip asks about Martha and the children."
     },
     {
       "id": 10,
-      "statement": "ἀμφότεροι οἱ πλούσιοι καὶ πτωχοὶ γεωργοὶ ἐργάζονται ὅλην τὴν ἡμέραν.",
+      "part": "A",
+      "statement": "Jacob has been staying in the field for a long time before this visit.",
       "answer": true,
-      "explanation": "ἀληθές! ἀμφότεροι οἱ πλούσιοι καὶ πτωχοὶ ἐργάζονται ὅλην τὴν ἡμέραν.",
-      "part": "B"
+      "explanation": "Jacob says 'For already I have stayed in the field a long time.'"
+    },
+    {
+      "id": 11,
+      "part": "A",
+      "statement": "Philip says he cannot help Jacob because he has his own work to do.",
+      "answer": false,
+      "explanation": "Philip says he is able to help Jacob and wants to guard Jacob's field and animals."
+    },
+    {
+      "id": 12,
+      "part": "A",
+      "statement": "Jacob and Philip are both farmers.",
+      "answer": true,
+      "explanation": "The story says 'They are both farmers' after describing both men's fields."
+    },
+    {
+      "id": 13,
+      "part": "B",
+      "statement": "Jacob greets Philip again with 'Peace to you, O friend' before departing.",
+      "answer": true,
+      "explanation": "Jacob greets Philip again saying 'Peace to you, O friend' before departing."
+    },
+    {
+      "id": 14,
+      "part": "A",
+      "statement": "When Jacob arrives at Philip's house, Philip does not know why he has come.",
+      "answer": true,
+      "explanation": "Philip asks 'Why do you come here early, O friend?' — he does not yet know Jacob's reason."
+    },
+    {
+      "id": 15,
+      "part": "A",
+      "statement": "Jacob gives thanks to God as well as to Philip.",
+      "answer": true,
+      "explanation": "Jacob says 'I give thanks to you... I also give thanks to God; for God is good and faithful.'"
     }
   ],
   "yesNo": [
     {
       "id": 1,
-      "question": "ἆρα ὁ Ἰάκωβος ἔχει φίλον;",
+      "part": "A",
+      "question": "Does the farmer wake up feeling strong on the morning of Chapter 4?",
       "answer": true,
-      "explanation": "ναί! τὸ ὄνομα τοῦ φίλου ἐστὶν Φίλιππος.",
-      "part": "A"
+      "explanation": "He is no longer weary but strong, and has peace in his heart, not fear."
     },
     {
       "id": 2,
-      "question": "ἆρα πορεύεται ὁ Φίλιππος μετὰ τοῦ Ἰακώβου εἰς τὴν κώμην;",
+      "part": "A",
+      "question": "Does Jacob work in the field on the day of this story?",
       "answer": false,
-      "explanation": "οὔ! μένει ἐν τῷ ἀγρῷ φυλάσσων τὰ ζῷα.",
-      "part": "A"
+      "explanation": "Today Jacob does not work in the field; he goes toward the village instead."
     },
     {
       "id": 3,
-      "question": "ἆρα χαίρει ὁ Ἰάκωβος ὅτι ὁ Φίλιππος βοηθεῖ αὐτῷ;",
+      "part": "A",
+      "question": "Is Philip Jacob's neighbor and fellow farmer?",
       "answer": true,
-      "explanation": "ναί! νῦν δὲ χαίρω σφόδρα ὅτι δύναμαι πορεύεσθαι πρὸς τὸν οἶκον.",
-      "part": "A"
+      "explanation": "Philip is near Jacob and has a large field; they are both farmers."
     },
     {
       "id": 4,
-      "question": "ἆρα ἔχει ὁ Ἰάκωβος ὕδωρ ἐν τῇ πήρᾳ;",
+      "part": "A",
+      "question": "Does Jacob know who will guard the field before he goes to Philip?",
       "answer": false,
-      "explanation": "οὔ! ἔχει ἄρτον ἐν τῇ πήρᾳ ἀλλ᾽ οὐκ ἔχει ὕδωρ.",
-      "part": "B"
+      "explanation": "Jacob wonders 'who will guard the field and the animals?' and goes to Philip first."
     },
     {
       "id": 5,
-      "question": "ἆρα ἔστιν ὕδωρ ἐν τῇ πηγῇ;",
+      "part": "A",
+      "question": "Does Philip agree to guard Jacob's field and animals?",
       "answer": true,
-      "explanation": "ναί! ἐν τῇ πηγῇ καλὸν καὶ καθαρὸν ὕδωρ ἐστίν.",
-      "part": "B"
+      "explanation": "Philip says he is able and willing to guard Jacob's field and animals and will stay the whole day."
     },
     {
       "id": 6,
-      "question": "ἆρα δύναται ὁ Ἰάκωβος ἀντλεῖν τὸ ὕδωρ;",
-      "answer": false,
-      "explanation": "οὔ! οὐ δύναται ἀντλεῖν τὸ ὕδωρ ὅτι οὐκ ἔχει ὑδρίαν.",
-      "part": "B"
-    },
-    {
-      "id": 7,
-      "question": "ἆρα ἀγαπῶσιν οἱ γεωργοὶ τὴν γῆν καὶ τὸ ἔργον τῶν ἀγρῶν;",
+      "part": "A",
+      "question": "Does Jacob love his house?",
       "answer": true,
-      "explanation": "ναί! φιλοῦσιν γὰρ τὴν γῆν καὶ τὸ ἔργον τῶν ἀγρῶν.",
-      "part": "B"
+      "explanation": "Jacob says 'I love my house' more than once in the conversation with Philip."
     },
     {
-      "id": 8,
-      "question": "ἆρα πάντες οἱ γεωργοί εἰσιν πλούσιοι;",
+      "id": 7,
+      "part": "A",
+      "question": "Is Philip's house located in the village?",
       "answer": false,
-      "explanation": "οὔ! οἱ μὲν πλούσιοί εἰσιν, ἕτεροι δὲ πτωχοί εἰσιν.",
-      "part": "B"
-    }
-  ],
-  "conversationQuestions": [
-    {
-      "id": 1,
-      "question": "ἆρα σὺ ἔχεις ἀγαθὸν φίλον;",
-      "part": "A"
-    },
-    {
-      "id": 2,
-      "question": "ἆρα ὁ φίλος σου ἀγαθός ἐστιν;",
-      "part": "A"
-    },
-    {
-      "id": 3,
-      "question": "ἆρα βοηθεῖς τοῖς φίλοις σου;",
-      "part": "A"
-    },
-    {
-      "id": 4,
-      "question": "ἆρα ἀγαπᾷς τὸν οἶκόν σου;",
-      "part": "A"
-    },
-    {
-      "id": 5,
-      "question": "ἆρα ἔχεις εἰρήνην ἐν τῇ καρδίᾳ σου;",
-      "part": "A"
-    },
-    {
-      "id": 6,
-      "question": "ἆρα σὺ κοπιᾷς ἐν τῷ ἔργῳ σου;",
-      "part": "B"
-    },
-    {
-      "id": 7,
-      "question": "ἆρα χαίρεις ἐν τῇ ὁδῷ ὅτε πορεύῃ;",
-      "part": "B"
+      "explanation": "Jacob's house is in the village; Philip's house is not mentioned — Philip is near Jacob's field."
     },
     {
       "id": 8,
-      "question": "τί βούλει δέχεσθαι ὡς καρπὸν τοῦ ἔργου σου;",
-      "part": "B"
+      "part": "B",
+      "question": "Does Jacob depart from Philip with joy and peace?",
+      "answer": true,
+      "explanation": "Philip sends Jacob off saying 'Go with joy and peace,' and Jacob departs after greeting Philip again."
     },
     {
       "id": 9,
-      "question": "ἆρα εὑρίσκεις τόπον ἀναπαύεσθαι ὅτε κοπιᾷς;",
-      "part": "B"
+      "part": "A",
+      "question": "Does Jacob say that God is good and faithful?",
+      "answer": true,
+      "explanation": "Jacob gives thanks to God and says 'for God is good and faithful.'"
     },
     {
       "id": 10,
-      "question": "τί πίνεις ὅτε διψᾷς;",
-      "part": "B"
-    }
-  ],
-  "personChange": [
-    {
-      "id": 1,
-      "original": "ὁ Ἰάκωβος ἐγείρεται ἐκ τοῦ ὕπνου.",
-      "cue": "ἐγὼ _______ (ἐγείρεται) ἐκ τοῦ ὕπνου.",
-      "answers": [
-        "ἐγείρομαι"
-      ],
-      "explanation": "3rd sg. ἐγείρεται → 1st sg. ἐγείρομαι. Middle deponent verb: the -εται ending becomes -ομαι for the 1st person singular.",
-      "part": "A"
-    },
-    {
-      "id": 2,
-      "original": "ἐκβαίνει ἐκ τοῦ οἴκου καὶ πορεύεται πρὸς τὸν ποταμόν.",
-      "cue": "_______ (ἐκβαίνει) ἐκ τοῦ οἴκου καὶ _______ (πορεύεται) πρὸς τὸν ποταμόν.",
-      "answers": [
-        "ἐκβαίνω",
-        "πορεύομαι"
-      ],
-      "explanation": "ἐκβαίνει → ἐκβαίνω (active, -ει → -ω). πορεύεται → πορεύομαι (middle deponent, -εται → -ομαι).",
-      "part": "A"
-    },
-    {
-      "id": 3,
-      "original": "λούει τὸ σῶμα αὐτοῦ.",
-      "cue": "_______ (λούει) τὸ σῶμά μου.",
-      "answers": [
-        "λούομαι"
-      ],
-      "explanation": "λούει → λούομαι. The verb shifts to middle voice when referring to washing oneself. αὐτοῦ becomes μου (my body).",
-      "part": "A"
-    },
-    {
-      "id": 4,
-      "original": "πορεύεται πρὸς τὸν φίλον αὐτοῦ καὶ ἀσπάζεται αὐτόν.",
-      "cue": "_______ (πορεύεται) πρὸς τὸν φίλον μου καὶ _______ (ἀσπάζεται) αὐτόν.",
-      "answers": [
-        "πορεύομαι",
-        "ἀσπάζομαι"
-      ],
-      "explanation": "Both are middle deponents: πορεύεται → πορεύομαι, ἀσπάζεται → ἀσπάζομαι. αὐτοῦ becomes μου (my friend).",
-      "part": "A"
-    },
-    {
-      "id": 5,
-      "original": "ὁ Φίλιππος ἀποκρίνεται αὐτῷ. ὁ Ἰάκωβος ἀπέρχεται μετὰ χαρᾶς.",
-      "cue": "ὁ Φίλιππος _______ (ἀποκρίνεται) μοι. ἐγὼ _______ (ἀπέρχεται) μετὰ χαρᾶς.",
-      "answers": [
-        "ἀποκρίνεται",
-        "ἀπέρχομαι"
-      ],
-      "explanation": "Philip stays 3rd sg. (ἀποκρίνεται — he responds to me). Jacob's verb becomes 1st sg.: ἀπέρχεται → ἀπέρχομαι. αὐτῷ (to him) becomes μοι (to me).",
-      "part": "A"
-    },
-    {
-      "id": 6,
-      "original": "ὁ Ἰάκωβος ἐγείρεται ἐκ τοῦ ὕπνου.",
-      "cue": "σὺ _______ (ἐγείρεται) ἐκ τοῦ ὕπνου.",
-      "answers": [
-        "ἐγείρῃ"
-      ],
-      "explanation": "3rd sg. ἐγείρεται → 2nd sg. ἐγείρῃ. Middle deponent 2nd singular ends in -ῃ.",
-      "part": "A"
-    },
-    {
-      "id": 7,
-      "original": "ἐκβαίνει ἐκ τοῦ οἴκου καὶ πορεύεται πρὸς τὸν ποταμόν.",
-      "cue": "_______ (ἐκβαίνει) ἐκ τοῦ οἴκου καὶ _______ (πορεύεται) πρὸς τὸν ποταμόν.",
-      "answers": [
-        "ἐκβαίνεις",
-        "πορεύῃ"
-      ],
-      "explanation": "ἐκβαίνει → ἐκβαίνεις (active, -ει + ς). πορεύεται → πορεύῃ (middle deponent 2nd sg.).",
-      "part": "A"
-    },
-    {
-      "id": 8,
-      "original": "λούει τὸ σῶμα αὐτοῦ.",
-      "cue": "_______ (λούει) τὸ σῶμά σου.",
-      "answers": [
-        "λούῃ"
-      ],
-      "explanation": "λούει → λούῃ. Middle 2nd sg. ends in -ῃ. αὐτοῦ becomes σου (your body).",
-      "part": "A"
-    },
-    {
-      "id": 9,
-      "original": "πορεύεται πρὸς τὸν φίλον αὐτοῦ καὶ ἀσπάζεται αὐτόν.",
-      "cue": "_______ (πορεύεται) πρὸς τὸν φίλον σου καὶ _______ (ἀσπάζεται) αὐτόν.",
-      "answers": [
-        "πορεύῃ",
-        "ἀσπάζῃ"
-      ],
-      "explanation": "Both middle deponents shift to 2nd sg.: πορεύεται → πορεύῃ, ἀσπάζεται → ἀσπάζῃ. αὐτοῦ becomes σου (your friend).",
-      "part": "A"
-    },
-    {
-      "id": 10,
-      "original": "ὁ Φίλιππος ἀποκρίνεται αὐτῷ. ὁ Ἰάκωβος ἀπέρχεται μετὰ χαρᾶς.",
-      "cue": "ὁ Φίλιππος _______ (ἀποκρίνεται) σοι. σὺ _______ (ἀπέρχεται) μετὰ χαρᾶς.",
-      "answers": [
-        "ἀποκρίνεται",
-        "ἀπέρχῃ"
-      ],
-      "explanation": "Philip stays 3rd sg. (ἀποκρίνεται — he responds to you). Jacob's verb becomes 2nd sg.: ἀπέρχεται → ἀπέρχῃ. αὐτῷ becomes σοι (to you).",
-      "part": "A"
-    }
-  ],
-  "infinitives": [
-    {
-      "id": 1,
-      "label": "Αʹ",
-      "isExample": true,
-      "prompt": "ὁ Ἰάκωβος βούλεται _______ (πορεύεται) πρὸς τὸν οἶκον αὐτοῦ.",
-      "answer": "πορεύεσθαι",
-      "explanation": "πορεύομαι → infinitive πορεύεσθαι. This is the model answer.",
-      "part": "A"
-    },
-    {
-      "id": 2,
-      "label": "Βʹ",
-      "prompt": "βούλομαι _______ (ἀσπάζομαι) τὸν φίλον μου.",
-      "answer": "ἀσπάζεσθαι",
-      "explanation": "ἀσπάζομαι → infinitive ἀσπάζεσθαι. Middle/deponent infinitives end in -εσθαι.",
-      "part": "A"
-    },
-    {
-      "id": 3,
-      "label": "Γʹ",
-      "prompt": "ὁ Ἰάκωβος μέλλει _______ (πορεύεται) μετὰ τοῦ ὄνου.",
-      "answer": "πορεύεσθαι",
-      "explanation": "πορεύομαι → infinitive πορεύεσθαι. μέλλει + infinitive = he is about to.",
-      "part": "A"
-    },
-    {
-      "id": 4,
-      "label": "Δʹ",
-      "prompt": "ὁ Ἰάκωβος θέλει _______ (ἐγείρεται) ἐκ τοῦ ὕπνου.",
-      "answer": "ἐγείρεσθαι",
-      "explanation": "ἐγείρομαι → infinitive ἐγείρεσθαι. θέλει + infinitive = he wants to.",
-      "part": "A"
-    },
-    {
-      "id": 5,
-      "label": "Εʹ",
-      "prompt": "ὁ Φίλιππος δύναται _______ (ἀποκρίνεται) τῷ Ἰακώβῳ.",
-      "answer": "ἀποκρίνεσθαι",
-      "explanation": "ἀποκρίνομαι → infinitive ἀποκρίνεσθαι. δύναται + infinitive = he is able to.",
-      "part": "A"
-    },
-    {
-      "id": 6,
-      "label": "Ϛʹ",
-      "prompt": "βούλομαι _______ (ἔρχομαι) πρὸς τὴν κώμην.",
-      "answer": "ἔρχεσθαι",
-      "explanation": "ἔρχομαι → infinitive ἔρχεσθαι. βούλομαι + infinitive = I want to.",
-      "part": "A"
-    },
-    {
-      "id": 7,
-      "label": "Ζʹ",
-      "prompt": "θέλεις _______ (ἀσπάζῃ) τὸν οἶκον;",
-      "answer": "ἀσπάζεσθαι",
-      "explanation": "ἀσπάζομαι → infinitive ἀσπάζεσθαι. θέλεις + infinitive = do you want to?",
-      "part": "A"
-    },
-    {
-      "id": 8,
-      "label": "Ηʹ",
-      "prompt": "ὁ Ἰάκωβος μέλλει _______ (ἀπέρχεται) ἀπὸ τοῦ Φιλίππου.",
-      "answer": "ἀπέρχεσθαι",
-      "explanation": "ἀπέρχομαι → infinitive ἀπέρχεσθαι. Compound verbs keep the prefix: ἀπο- + ἔρχεσθαι.",
-      "part": "A"
-    },
-    {
-      "id": 9,
-      "label": "Θʹ",
-      "prompt": "δύνασαι _______ (πορεύῃ) πρὸς τὴν κώμην σήμερον;",
-      "answer": "πορεύεσθαι",
-      "explanation": "πορεύομαι → infinitive πορεύεσθαι. δύνασαι + infinitive = are you able to? (2nd sg. of δύναμαι).",
-      "part": "A"
-    },
-    {
-      "id": 10,
-      "label": "Ιʹ",
-      "prompt": "ὁ Ἰάκωβος βούλεται _______ (λούεται) ἐν τῷ ποταμῷ.",
-      "answer": "λούεσθαι",
-      "explanation": "λούομαι → infinitive λούεσθαι. βούλεται + infinitive = he wants to.",
-      "part": "A"
-    }
-  ],
-  "imperatives": [
-    {
-      "id": 1,
-      "label": "Αʹ",
-      "isExample": true,
-      "student1": "βούλομαι πορεύεσθαι πρὸς τὴν κώμην.",
-      "student2": "πορεύου πρὸς τὴν κώμην.",
-      "part": "A"
-    },
-    {
-      "id": 2,
-      "label": "Βʹ",
-      "isExample": true,
-      "student1": "βούλομαι ἀσπάζεσθαι τὸν Φίλιππον.",
-      "student2": "ἀσπάζου τὸν Φίλιππον.",
-      "part": "A"
-    },
-    {
-      "id": 3,
-      "label": "Γʹ",
-      "student1": "βούλομαι ἐργάζεσθαι ἐν τῷ ἀγρῷ",
-      "answer": "ἐργάζου ἐν τῷ ἀγρῷ",
-      "explanation": "The imperative of ἐργάζομαι is ἐργάζου. Middle deponent imperatives 2nd sg. end in -ου.",
-      "part": "A"
-    },
-    {
-      "id": 4,
-      "label": "Δʹ",
-      "student1": "βούλομαι ἐγείρεσθαι ἐκ τοῦ ὕπνου.",
-      "answer": "ἐγείρου ἐκ τοῦ ὕπνου",
-      "explanation": "The imperative of ἐγείρομαι is ἐγείρου.",
-      "part": "A"
-    },
-    {
-      "id": 5,
-      "label": "Εʹ",
-      "student1": "βούλομαι πορεύεσθαι πρὸς τὸν ποταμόν.",
-      "answer": "πορεύου πρὸς τὸν ποταμόν",
-      "explanation": "The imperative of πορεύομαι is πορεύου.",
-      "part": "A"
-    },
-    {
-      "id": 6,
-      "label": "Ϛʹ",
-      "student1": "βούλομαι λούεσθαι ἐν τῷ ποταμῷ.",
-      "answer": "λούου ἐν τῷ ποταμῷ",
-      "explanation": "The imperative of λούομαι is λούου.",
-      "part": "A"
-    },
-    {
-      "id": 7,
-      "label": "Ζʹ",
-      "student1": "βούλομαι ἀπέρχεσθαι ἀπὸ τοῦ ἀγροῦ.",
-      "answer": "ἀπέρχου ἀπὸ τοῦ ἀγροῦ",
-      "explanation": "The imperative of ἀπέρχομαι is ἀπέρχου.",
-      "part": "A"
-    },
-    {
-      "id": 8,
-      "label": "Ηʹ",
-      "student1": "δύναμαι ἀποκρίνεσθαι τῷ Φίλῳ.",
-      "answer": "ἀποκρίνου τῷ Φίλῳ",
-      "explanation": "The imperative of ἀποκρίνομαι is ἀποκρίνου.",
-      "part": "A"
-    },
-    {
-      "id": 9,
-      "label": "Θʹ",
-      "student1": "βούλομαι ἔρχεσθαι πρὸς τὸν οἶκόν μου.",
-      "answer": "ἔρχου πρὸς τὸν οἶκόν σου",
-      "explanation": "The imperative of ἔρχομαι is ἔρχου. μου (my) becomes σου (your) in the reply.",
-      "part": "A"
-    },
-    {
-      "id": 10,
-      "label": "Ιʹ",
-      "student1": "βούλομαι ἀσπάζεσθαι τὴν Μάρθαν καὶ τὰ τέκνα.",
-      "answer": "ἀσπάζου τὴν Μάρθαν καὶ τὰ τέκνα",
-      "explanation": "The imperative of ἀσπάζομαι is ἀσπάζου.",
-      "part": "A"
-    }
-  ],
-  "contractVerbs": [
-    {
-      "id": 1,
-      "label": "Αʹ",
-      "prompt": "ὁ Ἰάκωβος ἀγαπᾷ τὸν οἶκον αὐτοῦ. καὶ σύ, _______ (ἀγαπάω) τὸν οἶκόν σου;",
-      "answer": "ἀγαπᾷς",
-      "explanation": "ἀγαπάω contract verb. 2nd sg.: ἀγαπά-εις → ἀγαπᾷς.",
-      "part": "A"
-    },
-    {
-      "id": 2,
-      "label": "Βʹ",
-      "prompt": "ὁ Ἰάκωβος μεριμνᾷ περὶ τῶν ζῴων. καὶ σύ, _______ (μεριμνάω) περὶ τῶν ζῴων;",
-      "answer": "μεριμνᾷς",
-      "explanation": "μεριμνάω contract verb. 2nd sg.: μεριμνά-εις → μεριμνᾷς.",
-      "part": "A"
-    },
-    {
-      "id": 3,
-      "label": "Γʹ",
-      "prompt": "ὁ Ἰάκωβος κοπιᾷ ἐν τῇ ὁδῷ. κἀγώ, _______ (κοπιάω) ἐν τῇ ὁδῷ.",
-      "answer": "κοπιῶ",
-      "explanation": "κοπιάω contract verb. 1st sg.: κοπιά-ω → κοπιῶ.",
-      "part": "A"
-    },
-    {
-      "id": 4,
-      "label": "Δʹ",
-      "prompt": "ἀγαπῶ τὴν Μάρθαν καὶ τὰ τέκνα μου. καὶ ὁ Ἰάκωβος _______ (ἀγαπάω) τὴν Μάρθαν καὶ τὰ τέκνα αὐτοῦ.",
-      "answer": "ἀγαπᾷ",
-      "explanation": "ἀγαπάω contract verb. 3rd sg.: ἀγαπά-ει → ἀγαπᾷ.",
-      "part": "A"
-    },
-    {
-      "id": 5,
-      "label": "Εʹ",
-      "prompt": "ὁ Φίλιππος λέγει· διὰ τί οὕτω μεριμνᾷς, ὦ Ἰάκωβε; ὁ Ἰάκωβος λέγει· _______ (μεριμνάω) ὅτι οὐ δύναμαι καταλείπειν τὸν ἀγρόν.",
-      "answer": "μεριμνῶ",
-      "explanation": "μεριμνάω contract verb. 1st sg.: μεριμνά-ω → μεριμνῶ.",
-      "part": "A"
-    },
-    {
-      "id": 6,
-      "label": "Ϛʹ",
-      "prompt": "ὁ Ἰάκωβος κοπιᾷ ἐν τῷ ἀγρῷ ὅλην τὴν ἡμέραν. ἀμφότεροι _______ (κοπιάω) ἐν τοῖς ἀγροῖς.",
-      "answer": "κοπιῶσιν",
-      "explanation": "κοπιάω contract verb. 3rd pl.: κοπιά-ουσιν → κοπιῶσιν. ἀμφότεροι takes 3rd person plural.",
-      "part": "A"
-    },
-    {
-      "id": 7,
-      "label": "Ζʹ",
-      "prompt": "ὁ Φίλιππος ἀγαπᾷ τὸν Ἰάκωβον. κἀγώ, _______ (ἀγαπάω) τὸν Ἰάκωβον.",
-      "answer": "ἀγαπῶ",
-      "explanation": "ἀγαπάω contract verb. 1st sg.: ἀγαπά-ω → ἀγαπῶ. κἀγώ = καὶ ἐγώ.",
-      "part": "A"
-    },
-    {
-      "id": 8,
-      "label": "Ηʹ",
-      "prompt": "ὁ Ἰάκωβος μεριμνᾷ σφόδρα. ὁ Φίλιππος λέγει· μὴ μερίμνα, ὦ φίλε. ὁ Ἰάκωβος λέγει· οὐκέτι _______ (μεριμνάω).",
-      "answer": "μεριμνῶ",
-      "explanation": "μεριμνάω contract verb. 1st sg. → μεριμνῶ. οὐκέτι = no longer.",
-      "part": "A"
-    },
-    {
-      "id": 9,
-      "label": "Θʹ",
-      "prompt": "ὁ Ἰάκωβος ἀγαπᾷ τὸν φίλον αὐτοῦ. καὶ σύ, _______ (ἀγαπάω) τὸν φίλον σου;",
-      "answer": "ἀγαπᾷς",
-      "explanation": "ἀγαπάω contract verb. 2nd sg.: ἀγαπά-εις → ἀγαπᾷς.",
-      "part": "A"
-    },
-    {
-      "id": 10,
-      "label": "Ιʹ",
-      "prompt": "ὁ ὄνος κοπιᾷ ἐν τῇ ὁδῷ. καὶ σύ, _______ (κοπιάω) ἐν τῇ ὁδῷ;",
-      "answer": "κοπιᾷς",
-      "explanation": "κοπιάω contract verb. 2nd sg.: κοπιά-εις → κοπιᾷς.",
-      "part": "A"
-    }
-  ],
-  "caseFill": [
-    {
-      "id": 1,
-      "prompt": "ὁ Φίλιππος πορεύεται διὰ _______ [ἡ κώμη] πρὸς τὸν οἶκον. (through)",
-      "answer": "τῆς κώμης",
-      "explanation": "διά + genitive = through. ἡ κώμη → τῆς κώμης (1st decl. fem. gen. sg.).",
-      "part": "A"
-    },
-    {
-      "id": 2,
-      "prompt": "ὁ ὄνος ἔρχεται διὰ _______ [ὁ ἀγρός, pl.] πρὸς τὸ ὕδωρ. (through)",
-      "answer": "τῶν ἀγρῶν",
-      "explanation": "διά + genitive = through. ὁ ἀγρός pl. → τῶν ἀγρῶν (2nd decl. masc. gen. pl.).",
-      "part": "A"
-    },
-    {
-      "id": 3,
-      "prompt": "ὁ γεωργὸς οὐκ ἔχει φόβον διὰ _______ [ὁ θεός]. (because of)",
-      "answer": "τὸν θεόν",
-      "explanation": "διά + accusative = because of. ὁ θεός → τὸν θεόν (2nd decl. masc. acc. sg.).",
-      "part": "A"
-    },
-    {
-      "id": 4,
-      "prompt": "ὁ Ἰάκωβος κοπιᾷ διὰ _______ [ὁ ἀγρός]. (because of)",
-      "answer": "τὸν ἀγρόν",
-      "explanation": "διά + accusative = because of. ὁ ἀγρός → τὸν ἀγρόν.",
-      "part": "A"
-    },
-    {
-      "id": 5,
-      "prompt": "ὁ Ἰάκωβος ἀσπάζεται τὸν Φίλιππον μετὰ _______ [ἡ εἰρήνη]. (with)",
-      "answer": "εἰρήνης",
-      "explanation": "μετά + genitive = with. ἡ εἰρήνη → εἰρήνης (1st decl. fem. gen. sg.).",
-      "part": "A"
-    },
-    {
-      "id": 6,
-      "prompt": "ὁ γεωργὸς λαμβάνει τὸν ἄρτον μετὰ _______ [ὁ καρπός]. (with)",
-      "answer": "τοῦ καρποῦ",
-      "explanation": "μετά + genitive = with. ὁ καρπός → τοῦ καρποῦ (2nd decl. masc. gen. sg.).",
-      "part": "A"
-    },
-    {
-      "id": 7,
-      "prompt": "μετὰ _______ [ἡ ἡμέρα] ἡ σελήνη λάμπει. (after)",
-      "answer": "τὴν ἡμέραν",
-      "explanation": "μετά + accusative = after. ἡ ἡμέρα → τὴν ἡμέραν (1st decl. fem. acc. sg.).",
-      "part": "A"
-    },
-    {
-      "id": 8,
-      "prompt": "μετὰ _______ [ὁ καρπός] ὁ γεωργὸς πορεύεται πρὸς τὸν ἀγρόν. (after)",
-      "answer": "τὸν καρπόν",
-      "explanation": "μετά + accusative = after. ὁ καρπός → τὸν καρπόν (2nd decl. masc. acc. sg.).",
-      "part": "A"
-    },
-    {
-      "id": 9,
-      "prompt": "ὁ Φίλιππος λέγει περὶ _______ [ὁ ἀγρός]. (about)",
-      "answer": "τοῦ ἀγροῦ",
-      "explanation": "περί + genitive = about. ὁ ἀγρός → τοῦ ἀγροῦ (2nd decl. masc. gen. sg.).",
-      "part": "A"
-    },
-    {
-      "id": 10,
-      "prompt": "ὁ Ἰάκωβος λέγει περὶ _______ [ἡ Μάρθα]. (about)",
-      "answer": "τῆς Μάρθας",
-      "explanation": "περί + genitive = about. ἡ Μάρθα → τῆς Μάρθας (1st decl. fem. gen. sg.).",
-      "part": "A"
+      "part": "A",
+      "question": "Does Jacob worry about his family while he is away?",
+      "answer": false,
+      "explanation": "Jacob worries about the field and animals, not his family — he says all his family are well."
     },
     {
       "id": 11,
-      "prompt": "τὰ ζῷα μένει περὶ _______ [ὁ ποταμός]. (around)",
-      "answer": "τὸν ποταμόν",
-      "explanation": "περί + accusative = around. ὁ ποταμός → τὸν ποταμόν (2nd decl. masc. acc. sg.).",
-      "part": "A"
-    },
-    {
-      "id": 12,
-      "prompt": "ὁ Ἰάκωβος βλέπει τὰ ζῷα περὶ _______ [ἡ κώμη]. (around)",
-      "answer": "τὴν κώμην",
-      "explanation": "περί + accusative = around. ἡ κώμη → τὴν κώμην (1st decl. fem. acc. sg.).",
-      "part": "A"
-    }
-  ],
-  "prepFill": [
-    {
-      "id": 1,
-      "prompt": "ὁ Ἰάκωβος πορεύεται _______ τῶν ἀγρῶν πρὸς τὴν κώμην. (through)",
-      "choices": [
-        "διά",
-        "μετά",
-        "περί"
-      ],
-      "answers": [
-        "διά"
-      ],
-      "explanation": "διά + genitive (τῶν ἀγρῶν) = through. He travels through the fields.",
-      "part": "A"
-    },
-    {
-      "id": 2,
-      "prompt": "ὁ Ἰάκωβος χαίρει _______ τὸν ἀγαθὸν φίλον. (because of)",
-      "choices": [
-        "διά",
-        "μετά",
-        "περί"
-      ],
-      "answers": [
-        "διά"
-      ],
-      "explanation": "διά + accusative (τὸν ἀγαθὸν φίλον) = because of. He rejoices on account of his good friend.",
-      "part": "A"
-    },
-    {
-      "id": 3,
-      "prompt": "ὁ Ἰάκωβος πορεύεται _______ τοῦ ὄνου πρὸς τὴν κώμην. (with)",
-      "choices": [
-        "διά",
-        "μετά",
-        "περί"
-      ],
-      "answers": [
-        "μετά"
-      ],
-      "explanation": "μετά + genitive (τοῦ ὄνου) = with. He travels with the donkey.",
-      "part": "A"
-    },
-    {
-      "id": 4,
-      "prompt": "_______ τὸν ὕπνον ὁ γεωργὸς λούει τὸ σῶμα αὐτοῦ. (after)",
-      "choices": [
-        "διά",
-        "μετά",
-        "περί"
-      ],
-      "answers": [
-        "μετά"
-      ],
-      "explanation": "μετά + accusative (τὸν ὕπνον) = after. After sleep, the farmer washes his body.",
-      "part": "A"
-    },
-    {
-      "id": 5,
-      "prompt": "ὁ Ἰάκωβος μεριμνᾷ _______ τοῦ ἀγροῦ καὶ τῶν ζῴων. (about)",
-      "choices": [
-        "διά",
-        "μετά",
-        "περί"
-      ],
-      "answers": [
-        "περί"
-      ],
-      "explanation": "περί + genitive (τοῦ ἀγροῦ, τῶν ζῴων) = about. He worries about the field and the animals.",
-      "part": "A"
-    },
-    {
-      "id": 6,
-      "prompt": "ὁ ὄνος μένει _______ τὸν οἶκον. (around)",
-      "choices": [
-        "διά",
-        "μετά",
-        "περί"
-      ],
-      "answers": [
-        "περί"
-      ],
-      "explanation": "περί + accusative (τὸν οἶκον) = around. The donkey stays around the house.",
-      "part": "A"
-    },
-    {
-      "id": 7,
-      "prompt": "ἀμφότεροι πορεύονται _______ τῆς ὁδοῦ πρὸς τὴν κώμην. (through)",
-      "choices": [
-        "διά",
-        "μετά",
-        "περί"
-      ],
-      "answers": [
-        "διά"
-      ],
-      "explanation": "διά + genitive (τῆς ὁδοῦ) = through. Both travel through the road toward the village.",
-      "part": "A"
-    },
-    {
-      "id": 8,
-      "prompt": "ὁ Ἰάκωβος ἀπέρχεται _______ χαρᾶς καὶ εἰρήνης. (with)",
-      "choices": [
-        "διά",
-        "μετά",
-        "περί"
-      ],
-      "answers": [
-        "μετά"
-      ],
-      "explanation": "μετά + genitive (χαρᾶς καὶ εἰρήνης) = with. He departs with joy and peace.",
-      "part": "A"
-    },
-    {
-      "id": 9,
-      "prompt": "ὁ Ἰάκωβος θέλει γινώσκειν _______ τῆς κώμης. (about)",
-      "choices": [
-        "διά",
-        "μετά",
-        "περί"
-      ],
-      "answers": [
-        "περί"
-      ],
-      "explanation": "περί + genitive (τῆς κώμης) = about. He wants to know about the village.",
-      "part": "A"
-    },
-    {
-      "id": 10,
-      "prompt": "ὁ Ἰάκωβος βούλεται βλέπειν τὸν οἶκον _______ τὴν Μάρθαν. (because of)",
-      "choices": [
-        "διά",
-        "μετά",
-        "περί"
-      ],
-      "answers": [
-        "διά"
-      ],
-      "explanation": "διά + accusative (τὴν Μάρθαν) = because of. He wants to see the house because of Martha.",
-      "part": "A"
-    },
-    {
-      "id": 11,
-      "prompt": "ὁ Ἰάκωβος βλέπει τὰ ζῷα _______ τὸν ἀγρόν. (around)",
-      "choices": [
-        "διά",
-        "μετά",
-        "περί"
-      ],
-      "answers": [
-        "περί"
-      ],
-      "explanation": "περί + accusative (τὸν ἀγρόν) = around. He sees the animals around the field.",
-      "part": "A"
-    },
-    {
-      "id": 12,
-      "prompt": "_______ τὸν ἄρτον ὁ γεωργὸς ἐκβαίνει ἐκ τοῦ οἴκου. (after)",
-      "choices": [
-        "διά",
-        "μετά",
-        "περί"
-      ],
-      "answers": [
-        "μετά"
-      ],
-      "explanation": "μετά + accusative (τὸν ἄρτον) = after. After the bread (meal), the farmer goes out.",
-      "part": "A"
+      "part": "A",
+      "question": "When Jacob greets Philip, does he embrace him?",
+      "answer": true,
+      "explanation": "Jacob comes to Philip, greets him, and Philip embraces his friend."
     }
   ]
 }

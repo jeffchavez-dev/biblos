@@ -2,384 +2,384 @@
   "multipleChoice": [
     {
       "id": 1,
-      "question": "διὰ τί ἔρχεται ὁ ξένος πρὸς τὴν πηγήν;",
+      "part": "A",
+      "question": "Why does the stranger come to the spring at the beginning of Chapter 7?",
       "options": [
-        "θέλει μανθάνειν περὶ τοῦ Ἰησοῦ",
-        "διψᾷ σφόδρα αὐτὸς καὶ ὁ ὄνος αὐτοῦ",
-        "ζητεῖ τὸν Ἰάκωβον",
-        "βούλεται καθίζειν ἐν τῇ σκίᾳ"
+        "He wants to learn about Jesus",
+        "He is very thirsty, he and his donkey",
+        "He is looking for James",
+        "He wants to sit in the shade"
       ],
       "answer": 1,
-      "explanation": "ὁ ξένος λέγει· διψῶ σφόδρα, ἐγὼ καὶ ὁ ὄνος μου — the stranger says: I am very thirsty, I and my donkey.",
-      "part": "A"
+      "explanation": "The stranger says: I am very thirsty, I and my donkey. Can you give us water to drink?"
     },
     {
       "id": 2,
-      "question": "τί δίδωσιν ἡ Σαλώμη τῷ ξένῳ;",
+      "part": "A",
+      "question": "Who draws water and gives it to the thirsty stranger?",
       "options": [
-        "ἄρτον καὶ καρπόν",
-        "ὕδωρ ἐκ τῆς πηγῆς",
-        "χρήματα",
-        "τὸ πνεῦμα τὸ ἅγιον"
+        "James",
+        "The donkey",
+        "Salome",
+        "A farmer passing by"
       ],
-      "answer": 1,
-      "explanation": "ἡ Σαλώμη ἀντλεῖ ὕδωρ καὶ δίδωσιν τῷ ξένῳ τῷ διψῶντι — Salome draws water and gives it to the thirsty stranger.",
-      "part": "A"
+      "answer": 2,
+      "explanation": "Salome draws water and gives it to the thirsty stranger. She then also gives water to the donkey."
     },
     {
       "id": 3,
-      "question": "πόθεν γινώσκει ὁ Ἰάκωβος τὴν ἀλήθειαν περὶ τοῦ Ἰησοῦ;",
+      "part": "A",
+      "question": "How does James know the things he teaches about Jesus?",
       "options": [
-        "ἀπὸ τῶν βιβλίων",
-        "ἀπὸ τοῦ ποιμένος",
-        "διὰ τὸ πνεῦμα τὸ ἅγιον",
-        "ἀπὸ τῶν γεωργῶν"
+        "From books",
+        "From the shepherd in the field",
+        "Through the Holy Spirit",
+        "From the farmers in the fields"
       ],
       "answer": 2,
-      "explanation": "ὁ Ἰάκωβος λέγει· ταῦτα γινώσκω διὰ τὸ πνεῦμα τὸ ἅγιον — I know these things through the Holy Spirit.",
-      "part": "A"
+      "explanation": "James says: I know these things through the Holy Spirit. The one who believes in Jesus receives the Holy Spirit."
     },
     {
       "id": 4,
-      "question": "τίς δίδωσιν τὸν παράκλητον τοῖς πιστεύουσιν;",
+      "part": "A",
+      "question": "What does Salome say James has been telling her about Jesus?",
       "options": [
-        "ὁ Ἰάκωβος",
-        "ὁ πατὴρ διὰ τοῦ υἱοῦ",
-        "ὁ ξένος",
-        "ὁ κόσμος"
+        "That Jesus is the good farmer",
+        "That Jesus is the Son of God, the Christ",
+        "That Jesus is a great teacher only",
+        "That Jesus is the God of Abraham alone"
       ],
       "answer": 1,
-      "explanation": "ὁ πατὴρ ὁ ἀγαπῶν τὸν υἱὸν δίδωσιν ἡμῖν ἄλλον παράκλητον — the Father who loves the Son gives us another Advocate.",
-      "part": "A"
+      "explanation": "Salome says: James is speaking to me about Jesus, who is the Son of God, the Christ."
     },
     {
       "id": 5,
-      "question": "ποῦ μένει τὸ πνεῦμα τὸ ἅγιον;",
+      "part": "A",
+      "question": "What does the stranger know about God at the start of the conversation?",
       "options": [
-        "ἐν τῷ οὐρανῷ μόνον",
-        "ἐν τῇ πηγῇ",
-        "μεθ᾽ ἡμῶν εἰς τὸν αἰῶνα",
-        "ἐν τοῖς ἀγροῖς"
+        "He knows Jesus well",
+        "He knows the God of Abraham, Isaac, and Jacob but not Jesus",
+        "He knows nothing about God",
+        "He knows the Holy Spirit"
       ],
-      "answer": 2,
-      "explanation": "ὁ πατὴρ δίδωσιν τὸ πνεῦμα ἵνα μένῃ μεθ᾽ ἡμῶν εἰς τὸν αἰῶνα — the Father gives the Spirit to abide with us forever.",
-      "part": "A"
+      "answer": 1,
+      "explanation": "The stranger says he knows the God who made heaven and earth, the God of Abraham and Isaac and Jacob, but he does not know Jesus."
     },
     {
       "id": 6,
-      "question": "ἆρα ὁ μὴ πιστεύων λαμβάνει τὸ πνεῦμα;",
+      "part": "A",
+      "question": "Who is James say is the Father of Jesus?",
       "options": [
-        "ναί, πάντες λαμβάνουσιν",
-        "οὔ, μόνον ὁ πιστεύων λαμβάνει",
-        "ναί, ἐὰν ζητῇ μόνον",
-        "οὔ, ἀλλὰ ὕστερον λαμβάνει"
+        "Abraham",
+        "The shepherd",
+        "The God who makes heaven and earth",
+        "The stranger"
       ],
-      "answer": 1,
-      "explanation": "ὁ μὴ πιστεύων οὐ λαμβάνει τὸ πνεῦμα — the one who does not believe does not receive the Spirit.",
-      "part": "A"
+      "answer": 2,
+      "explanation": "James says: the God who makes heaven and earth is the Father of Jesus."
     },
     {
       "id": 7,
-      "question": "τί λέγει ἡ Σαλώμη ὅτι ἐστιν ὁ Ἰησοῦς;",
+      "part": "A",
+      "question": "What title does James give to Jesus when comparing him to the water Salome gives the stranger?",
       "options": [
-        "ὁ υἱὸς τοῦ θεοῦ, ὁ Χριστός",
-        "ὁ ποιμὴν τῶν προβάτων μόνον",
-        "ὁ θεὸς Ἀβραάμ",
-        "ὁ ξένος τῆς ὁδοῦ"
+        "The bread of the earth",
+        "The bread of life, who gives the water of life",
+        "The living spring",
+        "The one descending into the field"
       ],
-      "answer": 0,
-      "explanation": "ἡ Σαλώμη λέγει· ὁ Ἰάκωβος λαλεῖ μοι περὶ τοῦ Ἰησοῦ, ὃς ἐστιν ὁ υἱὸς τοῦ θεοῦ, ὁ Χριστός — James is speaking to me about Jesus, who is the Son of God, the Christ.",
-      "part": "A"
+      "answer": 1,
+      "explanation": "James says Jesus is the bread of life, descending from heaven, who gives the water of life to the thirsty soul."
     },
     {
       "id": 8,
-      "question": "τί δεῖ τὸν ἄνθρωπον ποιεῖν ἵνα λαμβάνῃ τὸ πνεῦμα;",
+      "part": "A",
+      "question": "What does Salome say about Jesus and the vine?",
       "options": [
-        "φέρειν χρήματα τῷ Ἰακώβῳ",
-        "μετανοεῖν, πιστεύειν, ὁμολογεῖν, καὶ βαπτίζεσθαι",
-        "βαπτίζεσθαι μόνον",
-        "σιγᾶν καὶ ζητεῖν"
+        "Jesus plants the vine in the field",
+        "Jesus is the true vine and we are the branches",
+        "The vine guards the sheep",
+        "The branches give water like the spring"
       ],
       "answer": 1,
-      "explanation": "ὁ Ἰάκωβος λέγει· δεῖ μετανοεῖν, πιστεύειν τῷ Ἰησοῦ, ὁμολογεῖν αὐτὸν κύριον, καὶ βαπτίζεσθαι — one must repent, believe in Jesus, confess him as Lord, and be baptized.",
-      "part": "B"
+      "explanation": "Salome says: James tells me that Jesus is the true vine and we are the branches. The one who remains in Jesus bears much fruit."
     },
     {
       "id": 9,
-      "question": "τί ποιεῖ τὸ πνεῦμα τὸ ἅγιον ἐν τῷ ἀνθρώπῳ;",
+      "part": "B",
+      "question": "According to James, who cannot receive the Holy Spirit?",
       "options": [
-        "διδάσκει καὶ ὁδηγεῖ εἰς πᾶσαν τὴν ἀλήθειαν",
-        "δίδωσιν χρήματα",
-        "φυλάσσει τὴν αὐλήν",
-        "θερίζει τοὺς καρπούς"
+        "Those who are too young",
+        "Those who do not believe",
+        "Women who seek God",
+        "Those who thirst for water"
       ],
-      "answer": 0,
-      "explanation": "τὸ πνεῦμα διδάσκει τὸν ἄνθρωπον καὶ ὁδηγεῖ αὐτὸν εἰς πᾶσαν τὴν ἀλήθειαν — the Spirit teaches the person and guides them into all truth.",
-      "part": "B"
+      "answer": 1,
+      "explanation": "James confirms: the one who does not believe does not receive the Spirit. The world cannot receive it because it neither sees nor knows it."
     },
     {
       "id": 10,
-      "question": "τίνα δοξάζει τὸ πνεῦμα τὸ ἅγιον;",
+      "part": "B",
+      "question": "According to the story, who gives the Paraclete to believers?",
       "options": [
-        "ἑαυτό",
-        "τοὺς μαθητάς",
-        "τὸν Ἰησοῦν",
-        "τὸν κόσμον"
+        "James",
+        "The Father, through his love for the Son",
+        "The stranger",
+        "The world"
       ],
-      "answer": 2,
-      "explanation": "τὸ πνεῦμα τὸν Ἰησοῦν δοξάζει, οὐχ ἑαυτό — the Spirit glorifies Jesus, not itself.",
-      "part": "B"
+      "answer": 1,
+      "explanation": "Jesus asks the Father, and the Father who loves the Son gives us another Paraclete, the Spirit of truth, to abide with us forever."
     },
     {
       "id": 11,
-      "question": "τί δίδωσιν τὸ πνεῦμα τῷ πιστεύοντι;",
+      "part": "B",
+      "question": "How long does the Holy Spirit abide with believers?",
       "options": [
-        "πλοῦτον καὶ χρήματα",
-        "εἰρήνην",
-        "ὕδωρ ἐκ τῆς πηγῆς",
-        "ἰσχὺν τοῦ σώματος"
+        "Only while they are at the spring",
+        "For one generation",
+        "Forever, into the age",
+        "Until the sun sets"
       ],
-      "answer": 1,
-      "explanation": "τὸ πνεῦμα δίδωσιν εἰρήνην τῷ πιστεύοντι, οὐ καθὼς ὁ κόσμος δίδωσιν — the Spirit gives peace to the believer, not as the world gives.",
-      "part": "B"
+      "answer": 2,
+      "explanation": "The Father gives the Spirit so that it may abide with us forever, into the age."
     },
     {
       "id": 12,
-      "question": "διὰ τί λέγει ἡ Σαλώμη ὅτι οὐκ ἔστιν ἀξία;",
+      "part": "B",
+      "question": "What does the Holy Spirit do for the believer, according to James?",
       "options": [
-        "ὅτι οὐκ ἔχει ἀγρόν",
-        "ὅτι οὐ γινώσκει καλῶς τὸν Ἰησοῦν",
-        "ὅτι οὐ θέλει τὸ πνεῦμα",
-        "ὅτι φοβεῖται τὸν ξένον"
+        "It gives money and strength",
+        "It teaches all things and bears witness about Jesus",
+        "It guards the sheep",
+        "It draws water from the spring"
       ],
       "answer": 1,
-      "explanation": "ἡ Σαλώμη λέγει· οὐκ εἰμὶ ἀξία ὅτι οὐ γινώσκω καλῶς τὸν Ἰησοῦν — Salome says she is not worthy because she does not know Jesus well.",
-      "part": "B"
+      "explanation": "The Holy Spirit teaches the believer all things and bears witness about Jesus in the believing heart."
     },
     {
       "id": 13,
-      "question": "τί λέγει ὁ Ἰάκωβος τῇ Σαλώμῃ περὶ τοῦ ἄξιος εἶναι;",
+      "part": "B",
+      "question": "What does James say about a woman who seeks God?",
       "options": [
-        "δεῖ σε εἶναι ἀξίαν",
-        "οὐδεὶς ἄξιός ἐστιν δι᾽ ἑαυτόν",
-        "οἱ μαθηταὶ μόνον εἰσιν ἄξιοι",
-        "ἡ ἀξία ἐκ τῶν ἔργων ἔρχεται"
+        "She cannot receive the Spirit",
+        "She receives the Spirit just as a man does",
+        "She must ask a man to receive it for her",
+        "She must first come to the spring"
       ],
       "answer": 1,
-      "explanation": "ὁ Ἰάκωβος λέγει· οὐδεὶς ἄξιός ἐστιν δι᾽ ἑαυτόν· ἀλλὰ ὁ θεὸς ἀγαπᾷ τὸν ἄνθρωπον διὰ τὴν χάριν αὐτοῦ — no one is worthy in themselves; God loves people through his grace.",
-      "part": "B"
+      "explanation": "The woman who seeks God receives the Spirit just as the man does."
     },
     {
       "id": 14,
-      "question": "τί λέγει ὁ Ἰάκωβος τῷ ξένῳ ὅτε ἀπέρχεται;",
+      "part": "B",
+      "question": "What does the stranger say after James explains the work of the Holy Spirit?",
       "options": [
-        "δεῖ σε μένειν ἐνθάδε",
-        "ὁ ζητῶν εὑρίσκει",
-        "οὐκ ἔχεις καιρόν",
-        "βλέπε τὸν ποιμένα"
+        "He says he already has the Spirit",
+        "He says he wants to hear more about this Spirit",
+        "He says he does not believe any of it",
+        "He says the Spirit is like water"
       ],
       "answer": 1,
-      "explanation": "ὁ Ἰάκωβος λέγει· ὁ ζητῶν εὑρίσκει, ὁ αἰτῶν λαμβάνει, καὶ τῷ κρούοντι ἀνοίγεται ἡ θύρα — the one who seeks finds, the one who asks receives, and to the one who knocks the door is opened.",
-      "part": "B"
+      "explanation": "The stranger is silent and marvels, then rises and says: I want to hear more about this Spirit. What does it do in the believing person?"
     },
     {
       "id": 15,
-      "question": "τί ποιεῖ ὁ ξένος ἐν τέλει;",
+      "part": "B",
+      "question": "What does James say the Paraclete does for a person who forgets the words of Jesus?",
       "options": [
-        "μένει παρὰ τῇ πηγῇ",
-        "ἀπέρχεται ἀπὸ τῆς πηγῆς",
-        "βαπτίζεται παρὰ τῇ πηγῇ",
-        "μανθάνει πλέον ἀπὸ τοῦ Ἰακώβου"
+        "It punishes them",
+        "It teaches them again and brings the words back to their heart",
+        "It removes them from the flock",
+        "It replaces them with a hired hand"
       ],
       "answer": 1,
-      "explanation": "ὁ ξένος εὐχαριστεῖ καὶ ἀπέρχεται ἀπὸ τῆς πηγῆς — the stranger gives thanks and departs from the spring.",
-      "part": "B"
+      "explanation": "James teaches that the person who does not remember the words of Jesus — the Spirit teaches again and brings the words into his heart."
     }
   ],
   "trueFalse": [
     {
       "id": 1,
-      "statement": "ὁ ξένος ἔρχεται πρὸς τὴν πηγὴν ὅτι διψᾷ.",
+      "part": "A",
+      "statement": "The stranger and his donkey arrive at the spring and are very thirsty.",
       "answer": true,
-      "explanation": "ἀληθές! ὁ ξένος λέγει· διψῶ σφόδρα, ἐγὼ καὶ ὁ ὄνος μου — the stranger comes to the spring because he is very thirsty.",
-      "part": "A"
+      "explanation": "The stranger says: I am very thirsty, I and my donkey. Can you give us water to drink?"
     },
     {
       "id": 2,
-      "statement": "ὁ Ἰάκωβος δίδωσιν ὕδωρ τῷ ξένῳ.",
+      "part": "A",
+      "statement": "James draws water and gives it to the stranger.",
       "answer": false,
-      "explanation": "ψεῦδος. ἡ Σαλώμη ἀντλεῖ ὕδωρ καὶ δίδωσιν τῷ ξένῳ, οὐχ ὁ Ἰάκωβος — it is Salome who draws water and gives it to the stranger, not James.",
-      "part": "A"
+      "explanation": "It is Salome who draws the water and gives it to the thirsty stranger, not James."
     },
     {
       "id": 3,
-      "statement": "τὸ πνεῦμα τὸ ἅγιον λέγεται παράκλητος.",
+      "part": "A",
+      "statement": "The Holy Spirit is called the Paraclete, or Advocate.",
       "answer": true,
-      "explanation": "ἀληθές! ὁ πατὴρ δίδωσιν ἄλλον παράκλητον, τὸ πνεῦμα τῆς ἀληθείας — the Father gives another Advocate, the Spirit of truth.",
-      "part": "A"
+      "explanation": "James explains that the Father gives another Paraclete, the Spirit of truth, to abide with believers."
     },
     {
       "id": 4,
-      "statement": "ὁ κόσμος γινώσκει τὸ πνεῦμα τὸ ἅγιον.",
+      "part": "A",
+      "statement": "The world knows and receives the Holy Spirit.",
       "answer": false,
-      "explanation": "ψεῦδος. ὁ κόσμος οὐ βλέπει αὐτὸ οὐδὲ γινώσκει — the world neither sees nor knows the Holy Spirit.",
-      "part": "A"
+      "explanation": "The world cannot receive the Spirit because it neither sees it nor knows it. Only believers know it."
     },
     {
       "id": 5,
-      "statement": "τὸ πνεῦμα διδάσκει τοὺς πιστεύοντας περὶ τοῦ Ἰησοῦ.",
+      "part": "A",
+      "statement": "The Holy Spirit teaches the believer about Jesus.",
       "answer": true,
-      "explanation": "ἀληθές! τὸ πνεῦμα τὸ ἅγιον διδάσκει τὸν πιστεύοντα περὶ τοῦ Ἰησοῦ — the Holy Spirit teaches the believer about Jesus.",
-      "part": "A"
+      "explanation": "James says: the Holy Spirit teaches the believing one about Jesus."
     },
     {
       "id": 6,
-      "statement": "ὁ ξένος γινώσκει τὸν Ἰησοῦν ἐν ἀρχῇ.",
+      "part": "A",
+      "statement": "The stranger already knows Jesus when he arrives at the spring.",
       "answer": false,
-      "explanation": "ψεῦδος. ὁ ξένος λέγει· τὸν Ἰησοῦν οὐ γινώσκω — the stranger says: I do not know Jesus. He knows the God of Abraham but not Jesus.",
-      "part": "A"
+      "explanation": "The stranger says: I do not know Jesus. He knows the God of Abraham, Isaac, and Jacob but not Jesus."
     },
     {
       "id": 7,
-      "statement": "καὶ ἡ γυνὴ ἡ ζητοῦσα τὸν θεὸν λαμβάνει τὸ πνεῦμα.",
+      "part": "A",
+      "statement": "After drinking, the stranger sits under the tree with James and Salome.",
       "answer": true,
-      "explanation": "ἀληθές! ἡ γυνὴ ἡ ζητοῦσα τὸν θεὸν λαμβάνει αὐτό, καθὼς ὁ ἀνήρ — the woman who seeks God receives it, just as the man does.",
-      "part": "A"
+      "explanation": "After drinking, the stranger no longer stands but sits under the tree with James and Salome."
     },
     {
       "id": 8,
-      "statement": "δεῖ τὸν ἄνθρωπον μετανοεῖν ἵνα λαμβάνῃ τὸ πνεῦμα.",
+      "part": "A",
+      "statement": "James compares Jesus giving the water of life to Salome giving water to the stranger.",
       "answer": true,
-      "explanation": "ἀληθές! ὁ Ἰάκωβος λέγει· δεῖ τὸν ἄνθρωπον μετανοεῖν περὶ τῶν ἁμαρτιῶν αὐτοῦ — the person must repent concerning their sins.",
-      "part": "B"
+      "explanation": "James says: just as Salome gives you water, so Jesus gives the water of life to the thirsty soul."
     },
     {
       "id": 9,
-      "statement": "τὸ πνεῦμα λαλεῖ ἀφ᾽ ἑαυτοῦ.",
+      "part": "B",
+      "statement": "The one who does not believe receives the Holy Spirit.",
       "answer": false,
-      "explanation": "ψεῦδος. τὸ πνεῦμα οὐ λαλεῖ ἀφ᾽ ἑαυτοῦ, ἀλλὰ ἃ ἀκούει παρὰ τοῦ Ἰησοῦ, ταῦτα λαλεῖ — the Spirit does not speak on its own, but speaks what it hears from Jesus.",
-      "part": "B"
+      "explanation": "The one who does not believe does not receive the Spirit. The Spirit is given to the one who believes and seeks God."
     },
     {
       "id": 10,
-      "statement": "τὸ πνεῦμα δίδωσιν εἰρήνην τῷ πιστεύοντι.",
+      "part": "B",
+      "statement": "The Holy Spirit is sent by the Father in the name of Jesus.",
       "answer": true,
-      "explanation": "ἀληθές! τὸ πνεῦμα δίδωσιν εἰρήνην τῷ πιστεύοντι, οὐ καθὼς ὁ κόσμος δίδωσιν — the Spirit gives peace to the believer, not as the world gives.",
-      "part": "B"
+      "explanation": "This Spirit is sent by the Father in the name of Jesus to abide with believers forever."
     },
     {
       "id": 11,
-      "statement": "ὁ ξένος θέλει μανθάνειν πλέον ἀλλὰ οὐκ ἔχει καιρόν.",
-      "answer": true,
-      "explanation": "ἀληθές! ὁ ξένος λέγει· βούλομαι ἔτι μανθάνειν πλέον ἀλλὰ οὐκ ἔχω καιρὸν σήμερον — the stranger says he wants to learn more but does not have time today.",
-      "part": "B"
+      "part": "B",
+      "statement": "The Spirit speaks on its own authority, from itself.",
+      "answer": false,
+      "explanation": "The Spirit does not speak on its own; it speaks what it hears from Jesus."
     },
     {
       "id": 12,
-      "statement": "ἡ Σαλώμη λέγει ὅτι ἐστιν ἀξία λαμβάνειν τὸ πνεῦμα.",
-      "answer": false,
-      "explanation": "ψεῦδος. ἡ Σαλώμη λέγει ὅτι οὐκ ἐστιν ἀξία — Salome says she is not worthy, wondering how God could give her the Spirit.",
-      "part": "B"
+      "part": "B",
+      "statement": "The Spirit bears witness about Jesus in the believing heart.",
+      "answer": true,
+      "explanation": "The Spirit bears witness about Jesus in the heart of the one who believes."
     },
     {
       "id": 13,
-      "statement": "τὸ πνεῦμα δοξάζει τὸν Ἰησοῦν.",
-      "answer": true,
-      "explanation": "ἀληθές! τὸ πνεῦμα τὸν Ἰησοῦν δοξάζει — the Spirit glorifies Jesus, not itself.",
-      "part": "B"
+      "part": "B",
+      "statement": "The stranger asks no further questions and leaves immediately after hearing about the Spirit.",
+      "answer": false,
+      "explanation": "The stranger is silent and marvels, then rises and says he wants to hear more about this Spirit and what it does."
     },
     {
       "id": 14,
-      "statement": "ὁ θεὸς δίδωσιν τὸ πνεῦμα τῷ ἀνθρώπῳ διὰ τὴν χάριν αὐτοῦ.",
+      "part": "B",
+      "statement": "The Holy Spirit helps believers remember the words of Jesus.",
       "answer": true,
-      "explanation": "ἀληθές! ὁ Ἰάκωβος λέγει ὅτι ὁ θεὸς ἀγαπᾷ τὸν ἄνθρωπον διὰ τὴν χάριν αὐτοῦ, οὐ διὰ τὴν ἀξίαν τοῦ ἀνθρώπου — God loves people through his grace, not through the person's worthiness.",
-      "part": "B"
+      "explanation": "When a person does not remember the words of Jesus, the Spirit teaches again and brings the words back into his heart."
     },
     {
       "id": 15,
-      "statement": "ὁ ξένος ἀπέρχεται μὴ εὐχαριστήσας.",
-      "answer": false,
-      "explanation": "ψεῦδος. ὁ ξένος λέγει· εὐχαριστῶ σοι — the stranger says: I thank you. He departs with gratitude.",
-      "part": "B"
+      "part": "B",
+      "statement": "James says that believers know the Holy Spirit because it abides with them and in them.",
+      "answer": true,
+      "explanation": "James says: we believers know it because it abides with us and is in us."
     }
   ],
   "yesNo": [
     {
       "id": 1,
-      "question": "ἆρα ὁ ξένος διψᾷ ὅτε ἔρχεται πρὸς τὴν πηγήν;",
+      "part": "A",
+      "question": "Is the stranger thirsty when he comes to the spring?",
       "answer": true,
-      "explanation": "ναί! ὁ ξένος λέγει· διψῶ σφόδρα — the stranger says: I am very thirsty.",
-      "part": "A"
+      "explanation": "Yes. The stranger says: I am very thirsty, I and my donkey."
     },
     {
       "id": 2,
-      "question": "ἆρα γινώσκει ὁ ξένος τὸν θεὸν τὸν ποιοῦντα τὸν οὐρανὸν καὶ τὴν γῆν;",
+      "part": "A",
+      "question": "Does the stranger know the God of Abraham, Isaac, and Jacob?",
       "answer": true,
-      "explanation": "ναί! ὁ ξένος λέγει ὅτι γινώσκει τὸν θεὸν Ἀβραὰμ καὶ Ἰσαὰκ καὶ Ἰακώβ — the stranger knows the God of Abraham, Isaac, and Jacob.",
-      "part": "A"
+      "explanation": "Yes. The stranger says he knows the God who made heaven and earth, the God of Abraham and Isaac and Jacob."
     },
     {
       "id": 3,
-      "question": "ἆρα λαμβάνει ὁ κόσμος τὸ πνεῦμα τὸ ἅγιον;",
+      "part": "A",
+      "question": "Does the world receive the Holy Spirit?",
       "answer": false,
-      "explanation": "οὔ. ὁ κόσμος οὐ λαμβάνει τὸ πνεῦμα ὅτι οὐ βλέπει αὐτὸ οὐδὲ γινώσκει αὐτό — the world does not receive the Spirit because it neither sees nor knows it.",
-      "part": "A"
+      "explanation": "No. The world cannot receive the Spirit because it neither sees it nor knows it."
     },
     {
       "id": 4,
-      "question": "ἆρα διδάσκει τὸ πνεῦμα τοὺς πιστεύοντας;",
+      "part": "A",
+      "question": "Does the Holy Spirit teach the believer about Jesus?",
       "answer": true,
-      "explanation": "ναί! τὸ πνεῦμα τὸ ἅγιον διδάσκει τὸν πιστεύοντα πάντα — the Holy Spirit teaches the believer all things.",
-      "part": "A"
+      "explanation": "Yes. The Holy Spirit teaches the believing one about Jesus."
     },
     {
       "id": 5,
-      "question": "ἆρα θαυμάζει ὁ ξένος τὰ ῥήματα τοῦ Ἰακώβου;",
+      "part": "A",
+      "question": "Does the stranger marvel at what James says?",
       "answer": true,
-      "explanation": "ναί! ὁ ξένος σιγᾷ καὶ θαυμάζει — the stranger is silent and amazed at what James says.",
-      "part": "A"
+      "explanation": "Yes. The stranger marvels and asks James: From where do you know these things? How do you know they are true?"
     },
     {
       "id": 6,
-      "question": "ἆρα δεῖ τὸν ἄνθρωπον βαπτίζεσθαι ἵνα λαμβάνῃ τὸ πνεῦμα;",
-      "answer": true,
-      "explanation": "ναί! ὁ Ἰάκωβος λέγει ὅτι δεῖ βαπτίζεσθαι ἐν τῷ ὀνόματι τοῦ Ἰησοῦ — James says one must be baptized in the name of Jesus.",
-      "part": "B"
+      "part": "B",
+      "question": "Does the one who does not believe receive the Holy Spirit?",
+      "answer": false,
+      "explanation": "No. The one who does not believe does not receive the Spirit. It is given to the one who believes and seeks God."
     },
     {
       "id": 7,
-      "question": "ἆρα ὁδηγεῖ τὸ πνεῦμα εἰς πᾶσαν τὴν ἀλήθειαν;",
+      "part": "B",
+      "question": "Does the Holy Spirit abide with believers forever?",
       "answer": true,
-      "explanation": "ναί! τὸ πνεῦμα ὁδηγεῖ τὸν ἄνθρωπον εἰς πᾶσαν τὴν ἀλήθειαν — the Spirit guides the person into all truth.",
-      "part": "B"
+      "explanation": "Yes. The Father gives the Spirit so that it may abide with us forever, into the age."
     },
     {
       "id": 8,
-      "question": "ἆρα ἡ καρδία τοῦ πιστεύοντος ταράσσεται;",
+      "part": "B",
+      "question": "Does the Spirit speak from its own authority?",
       "answer": false,
-      "explanation": "οὔ. ἡ καρδία τοῦ ἀνθρώπου τοῦ πιστεύοντος οὐ ταράσσεται — the heart of the believer is not troubled, for the Spirit gives peace.",
-      "part": "B"
+      "explanation": "No. The Spirit does not speak on its own but speaks what it hears from Jesus."
     },
     {
       "id": 9,
-      "question": "ἆρα ὁ ζητῶν εὑρίσκει;",
+      "part": "B",
+      "question": "Does the stranger want to hear more about the Holy Spirit?",
       "answer": true,
-      "explanation": "ναί! ὁ Ἰάκωβος λέγει· ὁ ζητῶν εὑρίσκει — the one who seeks finds. This is what he tells the departing stranger.",
-      "part": "B"
+      "explanation": "Yes. After being silent and marveling, the stranger rises and says: I want to hear more about this Spirit."
     },
     {
       "id": 10,
-      "question": "ἆρα ὁ θεὸς δίδωσιν τὸ πνεῦμα μόνον τοῖς ἀξίοις;",
-      "answer": false,
-      "explanation": "οὔ. οὐδεὶς ἄξιός ἐστιν δι᾽ ἑαυτόν· ὁ θεὸς δίδωσιν τὸ πνεῦμα διὰ τὴν χάριν αὐτοῦ, οὐ διὰ τὴν ἀξίαν τοῦ ἀνθρώπου — no one is worthy in themselves; God gives by grace.",
-      "part": "B"
+      "part": "B",
+      "question": "Does the Spirit help believers who have forgotten the words of Jesus?",
+      "answer": true,
+      "explanation": "Yes. The Spirit teaches again and brings the words of Jesus back into the heart of the one who has forgotten."
     },
     {
       "id": 11,
-      "question": "ἆρα ὁ ξένος ἀπέρχεται μανθάνων πλέον σήμερον;",
-      "answer": false,
-      "explanation": "οὔ. ὁ ξένος λέγει· οὐκ ἔχω καιρὸν σήμερον — the stranger says: I do not have time today. He departs with what he has heard.",
-      "part": "B"
+      "part": "B",
+      "question": "Can a woman who seeks God receive the Holy Spirit?",
+      "answer": true,
+      "explanation": "Yes. The woman who seeks God receives the Spirit just as the man does."
     }
   ]
 }

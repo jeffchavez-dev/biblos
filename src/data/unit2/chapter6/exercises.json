@@ -2,405 +2,424 @@
   "multipleChoice": [
     {
       "id": 1,
-      "question": "τί ἐστιν ἡ ἐντολὴ τοῦ Ἰησοῦ κατὰ τὸν Ἰάκωβον;",
+      "part": "A",
+      "question": "Where are James and Salome when they have their conversation in Part A?",
       "options": [
-        "ἵνα πιστεύωμεν εἰς τὸν θεόν",
-        "ἵνα ἀγαπῶμεν ἀλλήλους",
-        "ἵνα μένωμεν ἐν τῷ ἀγρῷ",
-        "ἵνα φυλάσσωμεν τὰ πρόβατα"
+        "In the house in the shade",
+        "Beside the well in the shade",
+        "In the field under a tree",
+        "On the road near the village"
       ],
       "answer": 1,
-      "explanation": "αὕτη ἐστὶν ἡ ἐντολὴ τοῦ Ἰησοῦ· ἵνα ἀγαπῶμεν ἀλλήλους — this is Jesus's command: that we love one another.",
-      "part": "A"
+      "explanation": "The story says they are speaking beside the well in the shade while the sun scorches the earth."
     },
     {
       "id": 2,
-      "question": "τί ποιεῖ ὁ ποιμὴν ὁ καλὸς ὑπὲρ τῶν προβάτων;",
+      "part": "A",
+      "question": "According to James, how does the relationship between us and Jesus compare to branches and a vine?",
       "options": [
-        "τίθησιν τὴν ψυχὴν αὐτοῦ",
-        "λαμβάνει χρήματα",
-        "φεύγει ἀπὸ τοῦ λύκου",
-        "βλέπει τὰ πρόβατα μόνον"
+        "As servants remain in a house",
+        "As branches remain in a vine, so we remain in Jesus Christ",
+        "As farmers remain in a field",
+        "As sheep remain with the hired hand"
       ],
-      "answer": 0,
-      "explanation": "ὁ ποιμὴν ὁ καλὸς τὴν ψυχὴν αὐτοῦ τίθησιν ὑπὲρ τῶν προβάτων — the good shepherd lays down his life for the sheep.",
-      "part": "A"
+      "answer": 1,
+      "explanation": "James says that if we remain in Jesus Christ and he in us, just as branches remain in the vine, Jesus says we are his friends."
     },
     {
       "id": 3,
-      "question": "τί ποιεῖ ὁ μισθωτός ὅταν ἔρχηται ὁ λύκος;",
+      "part": "A",
+      "question": "How does Jesus regard us, according to James?",
       "options": [
-        "φυλάσσει τὰ πρόβατα",
-        "κράζει φωνῇ μεγάλῃ",
-        "ἀφίησιν τὰ πρόβατα καὶ φεύγει",
-        "τίθησιν τὴν ψυχὴν αὐτοῦ"
+        "As slaves who do not know his will",
+        "As servants who must earn his favor",
+        "As friends, not slaves",
+        "As strangers who must be taught"
       ],
       "answer": 2,
-      "explanation": "ὁ μισθωτὸς ἀφίησιν τὰ πρόβατα καὶ φεύγει — the hired hand abandons the sheep and flees, because the sheep are not his own.",
-      "part": "A"
+      "explanation": "Jesus does not consider us slaves but friends. A slave does not know what his master does, but a friend knows."
     },
     {
       "id": 4,
-      "question": "διὰ τί οὐ φυλάσσει τὰ πρόβατα ὁ μισθωτός;",
+      "part": "A",
+      "question": "What is God described as in Part A?",
       "options": [
-        "ὅτι φοβεῖται τὸν θεόν",
-        "ὅτι τὰ πρόβατα οὐκ ἔστιν ἴδια αὐτοῦ",
-        "ὅτι ὁ λύκος φίλος αὐτοῦ ἐστιν",
-        "ὅτι οὐκ ἔχει ῥάβδον"
+        "The shepherd",
+        "The farmer",
+        "Love",
+        "The light"
       ],
-      "answer": 1,
-      "explanation": "τὰ πρόβατα οὐκ ἔστιν ἴδια αὐτοῦ — the sheep do not belong to him, so he has no real care for them.",
-      "part": "A"
+      "answer": 2,
+      "explanation": "The story states clearly: God is love, and the one who remains in love remains in God."
     },
     {
       "id": 5,
-      "question": "ποῦ εἰσιν ὁ Ἰάκωβος καὶ ἡ Σαλώμη ὅτε λαλοῦσιν;",
+      "part": "A",
+      "question": "What is Jesus's commandment according to this chapter?",
       "options": [
-        "ἐν τῷ οἴκῳ",
-        "παρὰ τῇ πηγῇ ἐν τῇ σκίᾳ",
-        "ἐν τῷ ἀγρῷ ὑπὸ τῷ δένδρῳ",
-        "πέραν τοῦ ποταμοῦ"
+        "That we remain in the field",
+        "That we love one another as friends love one another",
+        "That we guard the sheep",
+        "That we know the shepherd's voice"
       ],
       "answer": 1,
-      "explanation": "λαλοῦσιν παρὰ τῇ πηγῇ ἐν τῇ σκίᾳ — they are speaking beside the spring in the shade.",
-      "part": "A"
+      "explanation": "The commandment of Jesus is that we love one another just as friends love one another."
     },
     {
       "id": 6,
-      "question": "τί ποιεῖ ὁ μισθωτός κατὰ τὸν Ἰάκωβον;",
+      "part": "A",
+      "question": "According to James, what happens when we remain in Jesus's love?",
       "options": [
-        "ἐργάζεται ἵνα λαμβάνῃ χρήματα",
-        "ἀγαπᾷ τὰ πρόβατα",
-        "τίθησιν τὴν ψυχὴν αὐτοῦ",
-        "μένει ἐν τῇ αὐλῇ"
+        "We receive great wealth",
+        "We become shepherds",
+        "His joy is in us",
+        "The sun no longer scorches us"
       ],
-      "answer": 0,
-      "explanation": "ὁ μισθωτὸς ἐργάζεται ἵνα λαμβάνῃ χρήματα — the hired hand works in order to receive wages; he does not truly care for the sheep.",
-      "part": "A"
+      "answer": 2,
+      "explanation": "Whenever we remain in his love, his joy is in us."
     },
     {
       "id": 7,
-      "question": "τί λέγει ὁ Ἰησοῦς περὶ ἑαυτοῦ κατὰ τὸν Ἰάκωβον ἐν Μέρει Αʹ;",
+      "part": "A",
+      "question": "What does James say about someone who claims to love God but hates his brother?",
       "options": [
-        "ἐγώ εἰμι ὁ μισθωτός",
-        "ἐγώ εἰμι ὁ ποιμὴν ὁ καλός",
-        "ἐγώ εἰμι ὁ γεωργός",
-        "ἐγώ εἰμι ὁ λύκος"
+        "He is a faithful servant",
+        "He is a liar",
+        "He is a hired hand",
+        "He is a stranger"
       ],
       "answer": 1,
-      "explanation": "ὁ Ἰησοῦς λέγει· ἐγώ εἰμι ὁ ποιμὴν ὁ καλός — Jesus says I am the good shepherd.",
-      "part": "A"
+      "explanation": "If someone says 'I love God' and hates his brother, he is a liar. The one who does not love his brother whom he sees cannot love God whom he does not see."
     },
     {
       "id": 8,
-      "question": "τίς εἰσέρχεται εἰς τὴν αὐλὴν διὰ τῆς θύρας;",
+      "part": "A",
+      "question": "What does Jesus place in our hearts, according to James?",
       "options": [
-        "ὁ κλέπτης καὶ ὁ λῃστής",
-        "ὁ ποιμὴν τῶν προβάτων",
-        "ὁ μισθωτός μόνον",
-        "ὁ λύκος"
+        "Fear",
+        "His commandments",
+        "His love",
+        "The knowledge of the shepherd"
       ],
-      "answer": 1,
-      "explanation": "ὁ εἰσερχόμενος διὰ τῆς θύρας ἐστὶν ὁ ποιμὴν τῶν προβάτων — the one who enters through the door is the shepherd of the sheep.",
-      "part": "B"
+      "answer": 2,
+      "explanation": "Jesus places his love in our hearts."
     },
     {
       "id": 9,
-      "question": "τί λέγει ὁ Ἰησοῦς ὅτι ἐστιν ἐν Μέρει Βʹ;",
+      "part": "B",
+      "question": "What does Jesus declare about himself that James quotes in Part B?",
       "options": [
-        "ἡ θύρα καὶ τὸ φῶς μόνον",
-        "ἡ θύρα τῶν προβάτων καὶ τὸ φῶς τοῦ κόσμου καὶ ἡ ἀνάστασις καὶ ἡ ζωή",
-        "ὁ ποιμὴν μόνον",
-        "ὁ ἄρτος μόνον"
+        "I am the hired hand",
+        "I am the good shepherd",
+        "I am the farmer",
+        "I am the wolf"
       ],
       "answer": 1,
-      "explanation": "ὁ Ἰησοῦς λέγει ὅτι ἐστὶν ἡ θύρα, τὸ φῶς τοῦ κόσμου, ἡ ἀνάστασις καὶ ἡ ζωή — Jesus says he is the door, the light of the world, and the resurrection and the life.",
-      "part": "B"
+      "explanation": "James quotes Jesus saying: I am the good shepherd. The good shepherd lays down his life for the sheep."
     },
     {
       "id": 10,
-      "question": "τί ποιεῖ ὁ κλέπτης κατὰ τὸν Ἰάκωβον;",
+      "part": "B",
+      "question": "What does the hired hand do when he sees the wolf coming?",
       "options": [
-        "εἰσέρχεται διὰ τῆς θύρας",
-        "φυλάσσει τὰ πρόβατα",
-        "ἀναβαίνει δι᾽ ἄλλης ὁδοῦ",
-        "ἀγαπᾷ τὰ πρόβατα"
+        "He guards the sheep bravely",
+        "He calls out to the shepherd",
+        "He abandons the sheep and flees",
+        "He takes the sheep to safety"
       ],
       "answer": 2,
-      "explanation": "ὁ κλέπτης οὐκ εἰσέρχεται διὰ τῆς θύρας ἀλλὰ δι᾽ ἄλλης ὁδοῦ ἀναβαίνει — the thief does not enter through the door but climbs up another way.",
-      "part": "B"
+      "explanation": "The hired hand sees the wolf coming, abandons the sheep, and flees, because the sheep are not his own."
     },
     {
       "id": 11,
-      "question": "τί ποιεῖ ὁ ἄνθρωπος ὅς περιπατεῖ ἐν τῷ φωτί;",
+      "part": "B",
+      "question": "According to James, why does the hired hand not care about the sheep?",
       "options": [
-        "ἔχει κοινωνίαν μετὰ τοῦ θεοῦ",
-        "μένει ἐν τῇ σκοτίᾳ",
-        "φεύγει ἀπὸ τοῦ λύκου",
-        "οὐ γινώσκει τὴν ἀλήθειαν"
+        "Because he fears the shepherd",
+        "Because the sheep do not belong to him",
+        "Because he loves only the wolf",
+        "Because the shepherd told him not to care"
       ],
-      "answer": 0,
-      "explanation": "ὁ ἐν τῷ φωτὶ περιπατῶν ἔχει κοινωνίαν μετὰ τοῦ θεοῦ — the one walking in the light has fellowship with God.",
-      "part": "B"
+      "answer": 1,
+      "explanation": "The hired hand does not care about the sheep because he only loves money; the sheep are not his own."
     },
     {
       "id": 12,
-      "question": "πόσα ῥήματα τοῦ \"ἐγώ εἰμι\" λέγει ὁ Ἰάκωβος τῇ Σαλώμῃ;",
+      "part": "B",
+      "question": "How does the good shepherd know his own sheep, according to James?",
       "options": [
-        "τέσσαρα",
-        "πέντε",
-        "ἕξ",
-        "ἑπτά"
+        "Just as the Father knows Jesus and Jesus knows the Father",
+        "Just as a farmer knows his field",
+        "Just as a stranger knows the road",
+        "Just as the sun knows the earth"
       ],
-      "answer": 3,
-      "explanation": "ὁ Ἰάκωβος λέγει ἑπτὰ ῥήματα τοῦ ἐγώ εἰμι — James recites seven I AM sayings: ὁ ἄρτος τῆς ζωῆς, τὸ φῶς τοῦ κόσμου, ὁ ποιμὴν ὁ καλός, ἡ θύρα, ἡ ἀνάστασις καὶ ἡ ζωή, ἡ ὁδός καὶ ἡ ἀλήθεια καὶ ἡ ζωή, ἡ ἄμπελος ἡ ἀληθινή.",
-      "part": "B"
+      "answer": 0,
+      "explanation": "The good shepherd knows his own and his own know him, just as the Father knows Jesus and he knows the Father."
     },
     {
       "id": 13,
-      "question": "τί λέγει ὁ Ἰησοῦς ὅτι ἐστιν ἐν τῇ τελευταίᾳ ἐντολῇ τοῦ Ἰακώβου;",
+      "part": "B",
+      "question": "Why does Salome marvel in Part B?",
       "options": [
-        "ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ ζωή",
-        "τὸ φῶς τοῦ κόσμου",
-        "ἡ θύρα τῶν προβάτων",
-        "ὁ ἄρτος τῆς ζωῆς"
+        "Because the shepherd guards so many sheep",
+        "Because the hired hand fled from the wolf",
+        "Because Jesus lays down his life for people",
+        "Because the sun is so hot"
       ],
-      "answer": 0,
-      "explanation": "τὸ τελευταῖον ῥῆμα τοῦ ἐγώ εἰμι ἐστίν· ἐγώ εἰμι ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ ζωή — the last I AM saying is: I am the way and the truth and the life.",
-      "part": "B"
+      "answer": 2,
+      "explanation": "Salome marvels and asks: 'Jesus lays down his life for people? Why does he do this?' She is amazed by this act of love."
     },
     {
       "id": 14,
-      "question": "τί θεωροῦσιν ὁ Ἰάκωβος καὶ ἡ Σαλώμη ἐν ἀρχῇ τοῦ Μέρους Βʹ;",
+      "part": "B",
+      "question": "According to James, why does the Father love Jesus?",
       "options": [
-        "τὸν λύκον ἐγγύς",
-        "τὸν ποιμένα εἰσάγοντα τὰ πρόβατα εἰς τὴν αὐλήν",
-        "τὸν γεωργὸν θερίζοντα τοὺς καρπούς",
-        "τὴν πηγὴν τοῦ ὕδατος"
+        "Because Jesus guards the sheepfold",
+        "Because Jesus lays down his life so he can take it again",
+        "Because Jesus feeds the sheep",
+        "Because Jesus knows the hired hands"
       ],
       "answer": 1,
-      "explanation": "θεωροῦσιν τὸν ποιμένα εἰσάγοντα τὰ πρόβατα εἰς τὴν αὐλήν — they see the shepherd leading the sheep into the sheepfold.",
-      "part": "B"
+      "explanation": "The Father loves Jesus because he lays down his life in order to take it again."
     },
     {
       "id": 15,
-      "question": "τίς σῴζεται κατὰ τὸν Ἰάκωβον;",
+      "part": "B",
+      "question": "What is said about Jesus's authority over his own life?",
       "options": [
-        "ὅστις λαμβάνει χρήματα",
-        "ὅστις εἰσέρχεται διὰ τοῦ Ἰησοῦ",
-        "ὅστις φυλάσσει τὴν αὐλήν",
-        "ὅστις φεύγει ἀπὸ τοῦ λύκου"
+        "Someone else takes his life from him",
+        "The Father forces him to give it",
+        "He has authority to lay it down and to take it again",
+        "Only the hired hand can take it"
+      ],
+      "answer": 2,
+      "explanation": "No one takes his life from him; rather, he lays it down of himself. He has authority to lay it down and authority to take it again."
+    },
+    {
+      "id": 16,
+      "part": "B",
+      "question": "What does James say is the reason we are able to love one another?",
+      "options": [
+        "Because the shepherd commands it",
+        "Because we are strong enough",
+        "Because Jesus himself loves us",
+        "Because love is easy"
+      ],
+      "answer": 2,
+      "explanation": "We are able to love one another and Jesus because he himself loves us, and he shows us how to love one another."
+    },
+    {
+      "id": 17,
+      "part": "B",
+      "question": "According to James, what does perfect love cast out?",
+      "options": [
+        "The hired hand",
+        "Fear",
+        "The wolf",
+        "Darkness"
       ],
       "answer": 1,
-      "explanation": "ὅστις εἰσέρχεται δι᾽ αὐτοῦ σῴζεται — whoever enters through Jesus is saved, for he is the door.",
-      "part": "B"
+      "explanation": "Perfect love casts out fear, for there is no fear in love."
     }
   ],
   "trueFalse": [
     {
       "id": 1,
-      "statement": "ὁ θεὸς ἀγάπη ἐστίν.",
+      "part": "A",
+      "statement": "James and Salome are speaking beside the well in the shade.",
       "answer": true,
-      "explanation": "ἀληθές! ὁ θεὸς ἀγάπη ἐστίν — God is love. This is the basis of the commandment to love one another.",
-      "part": "A"
+      "explanation": "The story places them beside the well in the shade while the sun shines brightly in the sky."
     },
     {
       "id": 2,
-      "statement": "ὁ μισθωτός ἐστιν ὁ ποιμὴν ὁ καλός.",
+      "part": "A",
+      "statement": "Jesus considers us slaves rather than friends.",
       "answer": false,
-      "explanation": "ψεῦδος. ὁ μισθωτὸς οὐκ ἔστιν ποιμήν — the hired hand is not a shepherd; he works for wages and flees when danger comes.",
-      "part": "A"
+      "explanation": "Jesus does not consider us slaves but friends. A slave does not know what his master does, but a friend knows."
     },
     {
       "id": 3,
-      "statement": "ὁ ποιμὴν ὁ καλὸς τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν προβάτων.",
+      "part": "A",
+      "statement": "God is love, and whoever remains in love remains in God.",
       "answer": true,
-      "explanation": "ἀληθές! ὁ ποιμὴν ὁ καλὸς τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν προβάτων — the good shepherd lays down his life for the sheep.",
-      "part": "A"
+      "explanation": "The story states: God is love, and the person who remains in love remains in God, and God remains in him."
     },
     {
       "id": 4,
-      "statement": "τὰ πρόβατα οὐ γινώσκει τὴν φωνὴν τοῦ ποιμένος.",
-      "answer": false,
-      "explanation": "ψεῦδος. τὰ πρόβατα γινώσκει τὴν φωνὴν τοῦ ποιμένος καὶ ἀκούει αὐτοῦ — the sheep know the shepherd's voice and hear him.",
-      "part": "A"
+      "part": "A",
+      "statement": "The commandment of Jesus is that we love one another.",
+      "answer": true,
+      "explanation": "This is the commandment of Jesus: that we love one another just as friends love one another."
     },
     {
       "id": 5,
-      "statement": "ὁ μισθωτὸς φεύγει ὅταν ἔρχηται ὁ λύκος.",
-      "answer": true,
-      "explanation": "ἀληθές! ὁ μισθωτὸς φεύγει ὅτι τὰ πρόβατα οὐκ ἔστιν ἴδια αὐτοῦ — the hired hand flees because the sheep do not belong to him.",
-      "part": "A"
+      "part": "A",
+      "statement": "The sun is resting and the weather is cool when James and Salome speak.",
+      "answer": false,
+      "explanation": "The sun shines very brightly in the sky and scorches the earth and the farmers in the fields."
     },
     {
       "id": 6,
-      "statement": "ὁ Ἰησοῦς ἀγαπᾷ τοὺς ἀνθρώπους ὥσπερ ὁ ποιμὴν ἀγαπᾷ τὰ πρόβατα.",
+      "part": "A",
+      "statement": "The sheep in the field eat the grass while the shepherd watches over them.",
       "answer": true,
-      "explanation": "ἀληθές! ὁ Ἰάκωβος λέγει ὅτι ὁ Ἰησοῦς ἡμᾶς ἀγαπᾷ — James says that Jesus loves us as a shepherd loves his sheep.",
-      "part": "A"
+      "explanation": "The sheep eat the grass, and the shepherd watches over them; the shepherd guards the sheep."
     },
     {
       "id": 7,
-      "statement": "ὁ ἥλιος οὐ λάμπει ἐν τῷ οὐρανῷ ὅτε λαλοῦσιν.",
+      "part": "A",
+      "statement": "A person who hates his brother can still truly love God.",
       "answer": false,
-      "explanation": "ψεῦδος. ὁ ἥλιος ἐν τῷ οὐρανῷ λίαν λάμπει — the sun shines very brightly in the sky when they are speaking.",
-      "part": "A"
+      "explanation": "Anyone who says 'I love God' and hates his brother is a liar. One cannot love God whom he does not see while failing to love his brother whom he does see."
     },
     {
       "id": 8,
-      "statement": "ὁ Ἰάκωβος καὶ ἡ Σαλώμη βλέπουσιν πρόβατα ἐν τῷ ἀγρῷ.",
+      "part": "A",
+      "statement": "Jesus places his love in our hearts.",
       "answer": true,
-      "explanation": "ἀληθές! βλέπουσιν πρόβατα ἐν τῷ ἀγρῷ, καὶ ἐγγὺς τῶν προβάτων ἐστὶν ὁ ποιμήν — they see sheep in the field with a shepherd nearby.",
-      "part": "A"
+      "explanation": "Jesus places his love in our hearts."
     },
     {
       "id": 9,
-      "statement": "ὁ κλέπτης εἰσέρχεται εἰς τὴν αὐλὴν διὰ τῆς θύρας.",
-      "answer": false,
-      "explanation": "ψεῦδος. ὁ κλέπτης οὐκ εἰσέρχεται διὰ τῆς θύρας ἀλλὰ δι᾽ ἄλλης ὁδοῦ ἀναβαίνει — the thief does not enter through the door but climbs another way.",
-      "part": "B"
+      "part": "B",
+      "statement": "The good shepherd lays down his life for the sheep.",
+      "answer": true,
+      "explanation": "Jesus himself says: I am the good shepherd, and the good shepherd lays down his life for the sheep."
     },
     {
       "id": 10,
-      "statement": "τὰ πρόβατα ἀκούει τῆς φωνῆς τοῦ κλέπτου.",
+      "part": "B",
+      "statement": "The hired hand guards the sheep bravely when the wolf comes.",
       "answer": false,
-      "explanation": "ψεῦδος. τὰ πρόβατα οὐκ ἀκούει τοῦ κλέπτου — the sheep do not listen to the thief; they know only their shepherd's voice.",
-      "part": "B"
+      "explanation": "The hired hand sees the wolf coming and abandons the sheep and flees, because the sheep are not his own and he does not care about them."
     },
     {
       "id": 11,
-      "statement": "ὁ ἄνθρωπος ὅς ἐν τῇ σκοτίᾳ περιπατεῖ λέγει τὴν ἀλήθειαν.",
-      "answer": false,
-      "explanation": "ψεῦδος. ὁ ἐν σκοτίᾳ περιπατῶν οὐ λέγει τὴν ἀλήθειαν — the one walking in darkness does not speak the truth.",
-      "part": "B"
+      "part": "B",
+      "statement": "The hired hand works for money rather than out of love for the sheep.",
+      "answer": true,
+      "explanation": "The hired hand is a person who works in order to receive money; the sheep are not his own, so he does not truly care for them."
     },
     {
       "id": 12,
-      "statement": "ὅστις πιστεύει τῷ Ἰησοῦ ζῇ εἰς τὸν αἰῶνα.",
+      "part": "B",
+      "statement": "The wolf seizes and scatters the sheep when the hired hand flees.",
       "answer": true,
-      "explanation": "ἀληθές! ὅστις πιστεύει αὐτῷ ζῇ καὶ ζῇ εἰς τὸν αἰῶνα — whoever believes in him lives and lives forever.",
-      "part": "B"
+      "explanation": "The wolf seizes and scatters the sheep, because the hired hand flees and does not protect them."
     },
     {
       "id": 13,
-      "statement": "ὁ Ἰησοῦς λέγει ὅτι ἐστιν ἡ θύρα τῶν προβάτων.",
+      "part": "B",
+      "statement": "No one is able to take Jesus's life from him against his will.",
       "answer": true,
-      "explanation": "ἀληθές! ὁ Ἰησοῦς λέγει· ἐγώ εἰμι ἡ θύρα τῶν προβάτων — Jesus says I am the door of the sheep.",
-      "part": "B"
+      "explanation": "No one takes his life from him; rather, he himself lays it down of his own will. He has authority to lay it down and to take it again."
     },
     {
       "id": 14,
-      "statement": "χωρὶς τοῦ Ἰησοῦ, οἱ ἄνθρωποι ἐν τῷ φωτί εἰσιν.",
-      "answer": false,
-      "explanation": "ψεῦδος. χωρὶς τοῦ Ἰησοῦ, οἱ ἄνθρωποι ἐν τῇ σκοτίᾳ εἰσίν — without Jesus, people are in darkness, not in the light.",
-      "part": "B"
+      "part": "B",
+      "statement": "James says we are the sheep of Jesus and he is our shepherd.",
+      "answer": true,
+      "explanation": "James says: we are his sheep and he is our shepherd. We are known by him and he is known by us."
     },
     {
       "id": 15,
-      "statement": "ὁ Ἰησοῦς λέγει ὅτι ἐστιν ἡ ἄμπελος ἡ ἀληθινή.",
-      "answer": true,
-      "explanation": "ἀληθές! ὁ Ἰησοῦς λέγει· ἐγώ εἰμι ἡ ἄμπελος ἡ ἀληθινή — one of the seven I AM sayings: I am the true vine.",
-      "part": "B"
+      "part": "B",
+      "statement": "There is great fear inside perfect love.",
+      "answer": false,
+      "explanation": "Perfect love casts out fear. There is no fear in love."
     },
     {
       "id": 16,
-      "statement": "ὁ Ἰάκωβος λέγει ὀκτὼ ῥήματα τοῦ ἐγώ εἰμι.",
-      "answer": false,
-      "explanation": "ψεῦδος. ὁ Ἰάκωβος λέγει ἑπτὰ ῥήματα τοῦ ἐγώ εἰμι, οὐκ ὀκτώ — James recites seven I AM sayings, not eight.",
-      "part": "B"
+      "part": "B",
+      "statement": "The Father loves Jesus because Jesus lays down his life for the sheep.",
+      "answer": true,
+      "explanation": "The Father loves Jesus because he lays down his life in order to take it again."
     },
     {
       "id": 17,
-      "statement": "ὁ ἐν τῷ φωτὶ περιπατῶν ἔχει κοινωνίαν μετὰ τοῦ θεοῦ.",
-      "answer": true,
-      "explanation": "ἀληθές! ἐὰν ἐν τῷ φωτὶ περιπατῶμεν ὥσπερ ὁ θεός ἐστιν ἐν τῷ φωτί, ἔχομεν κοινωνίαν μετ᾽ αὐτοῦ — walking in the light gives fellowship with God.",
-      "part": "B"
+      "part": "B",
+      "statement": "James answers Salome's wonder about the cross by saying Jesus does it because of fear.",
+      "answer": false,
+      "explanation": "James says Jesus lays down his life because of love. Jesus loves us, and greater love than this no one has."
     }
   ],
   "yesNo": [
     {
       "id": 1,
-      "question": "ἆρα ὁ θεὸς ἀγαπᾷ τοὺς ἀνθρώπους;",
+      "part": "A",
+      "question": "Does James say that we are friends of Jesus?",
       "answer": true,
-      "explanation": "ναί! ὁ θεὸς ἀγάπη ἐστίν καὶ ἀγαπᾷ τοὺς ἀνθρώπους — God is love and loves people. Jesus himself shows this love by laying down his life.",
-      "part": "A"
+      "explanation": "Yes. Jesus says we are his friends, not slaves. A friend knows what the master does; a slave does not."
     },
     {
       "id": 2,
-      "question": "ἆρα ὁ μισθωτὸς ἀγαπᾷ τὰ πρόβατα ὥσπερ ὁ ποιμήν;",
+      "part": "A",
+      "question": "Can a person truly love God while hating his brother?",
       "answer": false,
-      "explanation": "οὔ. ὁ μισθωτὸς οὐκ ἀγαπᾷ τὰ πρόβατα ὥσπερ ὁ ποιμήν — the hired hand does not love the sheep the way the shepherd does; he flees when the wolf comes.",
-      "part": "A"
+      "explanation": "No. Anyone who says he loves God but hates his brother is a liar. One who does not love the brother he sees cannot love God whom he does not see."
     },
     {
       "id": 3,
-      "question": "ἆρα ἡμεῖς δυνάμεθα ἀγαπᾶν ἀλλήλους;",
+      "part": "A",
+      "question": "Does the sun scorch the earth and the farmers in the fields?",
       "answer": true,
-      "explanation": "ναί! ἡμεῖς δυνάμεθα ἀγαπᾶν ἀλλήλους ὅτι ὁ Ἰησοῦς ἀγαπᾷ ἡμᾶς — we can love one another because Jesus first loves us.",
-      "part": "A"
+      "explanation": "Yes. The sun shines very brightly in the sky and scorches the earth and the farmers in the fields."
     },
     {
       "id": 4,
-      "question": "ἆρα ὁ Ἰησοῦς γινώσκει τὰ πρόβατα αὐτοῦ;",
+      "part": "A",
+      "question": "Are we able to love one another because Jesus loves us?",
       "answer": true,
-      "explanation": "ναί! ὁ Ἰησοῦς γινώσκει τὰ ἴδια καὶ τὰ ἴδια γινώσκουσιν αὐτόν — Jesus knows his own and his own know him.",
-      "part": "A"
+      "explanation": "Yes. We are able to love one another and Jesus because he himself loves us first and shows us how."
     },
     {
       "id": 5,
-      "question": "ἆρα ὁ φίλος τίθησιν τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν φίλων αὐτοῦ;",
+      "part": "A",
+      "question": "Does James say that God is love?",
       "answer": true,
-      "explanation": "ναί! μείζονα ἀγάπην ταύτης οὐδεὶς ἔχει, ἵνα τίθῃ τὴν ψυχὴν αὐτοῦ ὑπὲρ τῶν φίλων αὐτοῦ — no one has greater love than this: to lay down one's life for one's friends.",
-      "part": "A"
+      "explanation": "Yes. The story says directly: God is love. The one who remains in love remains in God."
     },
     {
       "id": 6,
-      "question": "ἆρα ὁ Ἰησοῦς εἰσέρχεται εἰς τὴν αὐλὴν διὰ τῆς θύρας;",
-      "answer": true,
-      "explanation": "ναί! καὶ πλέον· ὁ Ἰησοῦς αὐτός ἐστιν ἡ θύρα — and more: Jesus himself is the door through which the shepherd enters.",
-      "part": "B"
+      "part": "B",
+      "question": "Does the hired hand lay down his life for the sheep?",
+      "answer": false,
+      "explanation": "No. The hired hand abandons the sheep and flees when the wolf comes. Only the good shepherd lays down his life."
     },
     {
       "id": 7,
-      "question": "ἆρα ὁ κλέπτης εἰσέρχεται διὰ τῆς θύρας;",
-      "answer": false,
-      "explanation": "οὔ. ὁ κλέπτης οὐκ εἰσέρχεται διὰ τῆς θύρας ἀλλὰ δι᾽ ἄλλης ὁδοῦ ἀναβαίνει — the thief does not enter through the door but climbs up another way.",
-      "part": "B"
+      "part": "B",
+      "question": "Does Jesus know his own sheep?",
+      "answer": true,
+      "explanation": "Yes. The good shepherd knows his own and his own know him, just as the Father knows Jesus and Jesus knows the Father."
     },
     {
       "id": 8,
-      "question": "ἆρα ὁ Ἰησοῦς ἐστιν τὸ φῶς τοῦ κόσμου;",
+      "part": "B",
+      "question": "Does Salome marvel at the teaching that Jesus lays down his life?",
       "answer": true,
-      "explanation": "ναί! ὁ Ἰησοῦς λέγει· ἐγώ εἰμι τὸ φῶς τοῦ κόσμου — Jesus says: I am the light of the world.",
-      "part": "B"
+      "explanation": "Yes. Salome marvels and asks why Jesus would lay down his life for people."
     },
     {
       "id": 9,
-      "question": "ἆρα ὁ ἄνθρωπος ὅς περιπατεῖ ἐν τῷ φωτὶ λέγει τὴν ἀλήθειαν;",
+      "part": "B",
+      "question": "Does perfect love cast out fear?",
       "answer": true,
-      "explanation": "ναί! ὁ ἐν τῷ φωτὶ περιπατῶν λέγει τὴν ἀλήθειαν καὶ ἔχει κοινωνίαν μετὰ τοῦ θεοῦ — the one walking in the light speaks the truth and has fellowship with God.",
-      "part": "B"
+      "explanation": "Yes. Perfect love casts out fear, for there is no fear in love."
     },
     {
       "id": 10,
-      "question": "ἆρα ὁ Ἰησοῦς ἐστιν ἡ ἀνάστασις;",
-      "answer": true,
-      "explanation": "ναί! ὁ Ἰησοῦς λέγει· ἐγώ εἰμι ἡ ἀνάστασις καὶ ἡ ζωή — Jesus says: I am the resurrection and the life.",
-      "part": "B"
+      "part": "B",
+      "question": "Does the hired hand care about the sheep as much as the shepherd does?",
+      "answer": false,
+      "explanation": "No. The hired hand cares only about money. He does not care about the sheep because they are not his own."
     },
     {
       "id": 11,
-      "question": "ἆρα ὁ Σαλώμη θαυμάζει τὰ ῥήματα τοῦ Ἰακώβου;",
+      "part": "B",
+      "question": "Does James say that no one has greater love than to lay down his life for his friends?",
       "answer": true,
-      "explanation": "ναί! ἡ Σαλώμη λέγει ὅτι θαυμάζει σφόδρα — Salome says she is deeply amazed at the words James shares.",
-      "part": "B"
-    },
-    {
-      "id": 12,
-      "question": "ἆρα πολλοί εἰσιν οἱ Ἰησοῦς κατὰ τὸν Ἰάκωβον;",
-      "answer": false,
-      "explanation": "οὔ. πολλὰ ταῦτα, ἀλλὰ εἷς ἐστιν ὁ Ἰησοῦς — these are many things, but Jesus is one. The many I AM sayings all point to the same person.",
-      "part": "B"
+      "explanation": "Yes. Greater love than this no one has: whoever lays down his life for his friends has great love."
     }
   ]
 }

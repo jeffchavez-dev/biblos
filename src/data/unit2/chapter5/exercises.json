@@ -2,315 +2,213 @@
   "multipleChoice": [
     {
       "id": 1,
-      "question": "διὰ τί ἔρχεται ἡ γυνὴ πρὸς τὴν πηγήν;",
-      "options": [
-        "ἵνα ἀναπαύηται ἐν τῇ σκίᾳ",
-        "ἵνα ἀντλῇ ὕδωρ",
-        "ἵνα βλέπῃ τὸν Ἰάκωβον",
-        "ἵνα ἀκούῃ τοῦ Ἰακώβου"
-      ],
+      "part": "A",
+      "question": "Why does the woman come to the spring?",
+      "options": ["To meet James", "To draw water", "To rest in the shade", "To ask for directions"],
       "answer": 1,
-      "explanation": "ἔρχεται ἵνα ἀντλῇ ὕδωρ ἀπὸ τῆς πηγῆς.",
-      "part": "A"
+      "explanation": "The woman comes from the village to the spring to draw water with her jar."
     },
     {
       "id": 2,
-      "question": "τί ζητεῖ ὁ Ἰάκωβος παρὰ τῆς γυναικός;",
-      "options": [
-        "ἄρτον καὶ καρπόν",
-        "σκίαν ὑπὸ τῷ δένδρῳ",
-        "ὕδωρ ἐκ τῆς πηγῆς",
-        "τὴν ὑδρίαν αὐτῆς"
-      ],
-      "answer": 2,
-      "explanation": "ἆρα σὺ δύνασαι ἀντλεῖν καὶ παρέχειν ἡμῖν ὕδωρ ἐκ τῆς πηγῆς ἵνα πίνωμεν;",
-      "part": "A"
+      "part": "A",
+      "question": "What does James ask of the woman when she arrives?",
+      "options": ["He asks for food", "He asks for water", "He asks for directions to the village", "He asks her name first"],
+      "answer": 1,
+      "explanation": "James says he is thirsty and asks the woman for water."
     },
     {
       "id": 3,
-      "question": "τί ἐστιν τὸ ὄνομα τῆς γυναικός;",
-      "options": [
-        "Μάρθα",
-        "Μαγδαληνή",
-        "Σαλώμη",
-        "Μαρία"
-      ],
+      "part": "A",
+      "question": "What is the woman's name?",
+      "options": ["Martha", "Mary", "Salome", "Magdalene"],
       "answer": 2,
-      "explanation": "τὸ ὄνομά μού ἐστιν Σαλώμη.",
-      "part": "A"
+      "explanation": "The woman tells James her name is Salome."
     },
     {
       "id": 4,
-      "question": "τί ἐστιν τὸ βρῶμα καὶ πόμα τοῦ πνεύματος κατὰ τὸν Ἰάκωβον;",
-      "options": [
-        "ὁ ἄρτος καὶ τὸ ὕδωρ",
-        "τὸ γινώσκειν τὸν θεὸν καὶ προσκυνεῖν αὐτῷ ἐν πνεύματι καὶ ἀληθείᾳ",
-        "ὁ καρπὸς τοῦ ἀγροῦ",
-        "ὁ ἄρτος τῆς ζωῆς μόνον"
-      ],
+      "part": "A",
+      "question": "What does Salome say when James thanks her?",
+      "options": ["She asks him why he is alone", "She notices that both he and his donkey are very thirsty", "She invites him to the village", "She gives him food as well"],
       "answer": 1,
-      "explanation": "ἐν τῷ πνεύματι γινώσκομεν τὸν θεὸν καὶ προσκυνοῦμεν αὐτῷ, ἵνα τὸ πνεῦμα ζῇ.",
-      "part": "A"
+      "explanation": "Salome observes that both James and his donkey are giving signs of great thirst."
     },
     {
       "id": 5,
-      "question": "τί λέγει ὁ Ἰάκωβος ὅτι ἐστὶν ὁ Ἰησοῦς;",
-      "options": [
-        "ὁ υἱὸς τοῦ Ἀβραάμ",
-        "ὁ υἱὸς τοῦ θεοῦ καὶ ὁ Χριστός",
-        "ὁ γεωργὸς τοῦ Ἰσραήλ",
-        "ὁ φίλος τοῦ Ἀβραάμ"
-      ],
-      "answer": 1,
-      "explanation": "ὁ Ἰησοῦς ἐστιν ὁ υἱὸς τοῦ θεοῦ Ἀβραὰμ καὶ Ἰσαὰκ καὶ Ἰακώβ· ἐγώ εἰμι μαθητὴς τοῦ Ἰησοῦ ὅτι ὁ Ἰησοῦς ἐστιν ὁ Χριστός.",
-      "part": "A"
+      "part": "A",
+      "question": "What does Salome already know when James begins to speak about God?",
+      "options": ["She knows nothing about religion", "She knows about Jesus", "She knows the God of Abraham, Isaac, and Jacob", "She knows about the Holy Spirit"],
+      "answer": 2,
+      "explanation": "Salome says she knows the God of Abraham, Isaac, and Jacob — the same God James worships."
     },
     {
       "id": 6,
-      "question": "τί βλέπει ὁ Ἰάκωβος ἐγγὺς τῆς ὁδοῦ ἵνα διδάξῃ τὴν Σαλώμην;",
-      "options": [
-        "γεωργοὺς ἐν τοῖς ἀγροῖς",
-        "ἄμπελον ἔχουσαν πολλὰ κλήματα",
-        "μέγα δένδρον ἐν τῇ σκίᾳ",
-        "ποταμὸν μέγαν"
-      ],
+      "part": "A",
+      "question": "How does James describe his manner of teaching Salome?",
+      "options": ["Quickly and with many words", "Slowly and carefully", "With signs and parables only", "By asking her questions only"],
       "answer": 1,
-      "explanation": "ὁ Ἰάκωβος βλέπει ἄμπελον ἐγγὺς τῆς ὁδοῦ· ἡ ἄμπελος ἔχει πολλὰ κλήματα, καὶ τὰ κλήματα φέρουσιν πολὺν καρπόν.",
-      "part": "B"
+      "explanation": "James tells Salome he will speak to her slowly and carefully so she can understand."
     },
     {
       "id": 7,
-      "question": "τί γίνεται τῷ κλήματι ἐὰν μένῃ ἐν τῇ ἀμπέλῳ;",
-      "options": [
-        "ἀποθνῄσκει καὶ πίπτει",
-        "ζῇ καὶ αὐξάνει καὶ φέρει καρπόν",
-        "ἐκκόπτεται ὑπὸ τοῦ γεωργοῦ",
-        "οὐ φέρει καρπὸν ἀλλὰ ζῇ"
-      ],
+      "part": "A",
+      "question": "What does Salome realize about James midway through Part A?",
+      "options": ["That he is a farmer from a distant land", "That he is a follower of Jesus — a Christian", "That he is a scribe who knows the scriptures well", "That he is looking for work in the village"],
       "answer": 1,
-      "explanation": "ὅταν τὸ κλῆμα μένῃ ἐν τῇ ἀμπέλῳ, ζῇ καὶ αὐξάνει καὶ φέρει καρπόν.",
-      "part": "B"
+      "explanation": "Salome says 'Now I understand that you are a Christian,' recognizing that James believes in Jesus."
     },
     {
       "id": 8,
-      "question": "τίνες εἰσὶν ἡμεῖς οἱ χριστιανοὶ κατὰ τὸν λόγον τοῦ Ἰακώβου;",
-      "options": [
-        "ἡ ἄμπελος",
-        "ὁ γεωργός",
-        "τὰ κλήματα",
-        "ὁ καρπός"
-      ],
+      "part": "B",
+      "question": "What does James see in the fields near the spring that prompts his teaching in Part B?",
+      "options": ["A shepherd with sheep", "A farmer digging the earth", "A vineyard with branches", "A field of wheat ready for harvest"],
       "answer": 2,
-      "explanation": "ὁ Ἰησοῦς ἐστιν ἡ ἄμπελος ἡ ἀληθινή, καὶ ἡμεῖς οἱ χριστιανοί ἐσμεν τὰ κλήματα.",
-      "part": "B"
+      "explanation": "James looks at the fields and sees a vine, which he uses to illustrate his teaching about Jesus."
     },
     {
       "id": 9,
-      "question": "τί λέγει ὁ Ἰησοῦς περὶ τῆς ὁδοῦ πρὸς τὸν πατέρα;",
-      "options": [
-        "πᾶς ὁ ἔχων ἀγαθὴν καρδίαν δύναται ἔρχεσθαι πρὸς τὸν πατέρα",
-        "οὐδεὶς ἔρχεται πρὸς τὸν πατέρα εἰ μὴ δι᾽ ἐμοῦ",
-        "ἡ γραφὴ ἐστιν ἡ ὁδὸς πρὸς τὸν πατέρα",
-        "οἱ προσκυνοῦντες ἐν τῷ οἴκῳ τοῦ κυρίου εὑρίσκουσιν τὸν πατέρα"
-      ],
+      "part": "B",
+      "question": "What happens to a branch that remains in the vine, according to James?",
+      "options": ["It is cut off", "It bears fruit", "It grows into a new tree", "It withers from the heat"],
       "answer": 1,
-      "explanation": "ὁ Ἰησοῦς λέγει· ἐγώ εἰμι ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ ζωή· οὐδεὶς ἔρχεται πρὸς τὸν πατέρα εἰ μὴ δι᾽ ἐμοῦ.",
-      "part": "B"
+      "explanation": "James says that if the branch remains in the vine, it bears fruit."
     },
     {
       "id": 10,
-      "question": "πῶς λαμβάνει ἡ Σαλώμη τὰ ῥήματα τοῦ Ἰακώβου ἐν τῷ τέλει;",
-      "options": [
-        "χαίρει καὶ εἰρήνην ἔχει",
-        "ἐγείρεται καὶ ταράσσεται ἡ καρδία αὐτῆς",
-        "ἀποθνῄσκει ἐν τῇ καρδίᾳ αὐτῆς",
-        "οὐ λαμβάνει τοὺς λόγους αὐτοῦ"
-      ],
-      "answer": 1,
-      "explanation": "ταῦτα τὰ ῥήματα τοῦ Ἰακώβου ἐγείρει καὶ ταράσσει τὴν καρδίαν τῆς Σαλώμης.",
-      "part": "B"
+      "part": "B",
+      "question": "What does the farmer do with a branch that does not bear fruit?",
+      "options": ["He waters it more", "He ties it to a stake", "He cuts it off and throws it into the fire", "He moves it to another vine"],
+      "answer": 2,
+      "explanation": "James explains that the farmer cuts off the fruitless branch and throws it into the fire."
     }
   ],
   "trueFalse": [
     {
       "id": 1,
-      "statement": "ἡ γυνὴ ἔχει ὑδρίαν καὶ δίδωσιν τῷ Ἰακώβῳ ὕδωρ.",
+      "part": "A",
+      "statement": "The woman has a jar and draws water from the spring for James.",
       "answer": true,
-      "explanation": "ἀληθές! ἔχει ὑδρίαν· ἀντλεῖ ὕδωρ καὶ δίδωσιν τῷ Ἰακώβῳ ἵνα πίνῃ.",
-      "part": "A"
+      "explanation": "Salome draws water in her jar and gives it to James and his donkey."
     },
     {
       "id": 2,
-      "statement": "ὁ Ἰάκωβος οὐ γινώσκει τὸν θεὸν τοῦ Ἀβραὰμ καὶ Ἰσαὰκ καὶ Ἰακώβ.",
+      "part": "A",
+      "statement": "James does not know the God of Abraham, Isaac, and Jacob.",
       "answer": false,
-      "explanation": "οὐκ ἀληθές! λέγει· κἀγὼ πιστεύω καὶ προσκυνῶ τῷ θεῷ Ἀβραὰμ καὶ Ἰσαὰκ καὶ Ἰακώβ.",
-      "part": "A"
+      "explanation": "James says he also believes and worships the God of Abraham, Isaac, and Jacob."
     },
     {
       "id": 3,
-      "statement": "πνεῦμά ἐστιν ὁ θεός· οὐ γὰρ ἔχει σῶμα.",
+      "part": "A",
+      "statement": "God is spirit and does not have a body.",
       "answer": true,
-      "explanation": "ἀληθές! ὁ θεὸς οὐκ ἔστιν ὥσπερ ὁ ἥλιος ἢ ἡ γῆ· πνεῦμά ἐστιν ὁ θεός.",
-      "part": "A"
+      "explanation": "James teaches Salome that God is spirit."
     },
     {
       "id": 4,
-      "statement": "ἡ Σαλώμη συνίησιν εὐθὺς πάντα ἃ λέγει ὁ Ἰάκωβος.",
+      "part": "A",
+      "statement": "Salome understands everything James says immediately.",
       "answer": false,
-      "explanation": "οὐκ ἀληθές! ἡ Σαλώμη λέγει· οὐ συνίημι.",
-      "part": "A"
+      "explanation": "Salome says more than once that she does not yet understand well — she needs James to explain slowly."
     },
     {
       "id": 5,
-      "statement": "ὁ Ἰάκωβος ἐστιν μαθητὴς τοῦ Ἰησοῦ.",
+      "part": "A",
+      "statement": "James is a disciple of Jesus.",
       "answer": true,
-      "explanation": "ἀληθές! ἐγώ εἰμι μαθητὴς τοῦ Ἰησοῦ καὶ ἐγὼ ἀγαπῶ τὸν Ἰησοῦν καὶ ἀκούω τοῦ Ἰησοῦ.",
-      "part": "A"
+      "explanation": "James identifies himself as a Christian who believes in Jesus the Son of God."
     },
     {
       "id": 6,
-      "statement": "χωρὶς τῆς ἀμπέλου τὸ κλῆμα δύναται φέρειν καρπόν.",
+      "part": "B",
+      "statement": "Without the vine, the branch can still bear fruit on its own.",
       "answer": false,
-      "explanation": "οὐκ ἀληθές! χωρὶς γὰρ τῆς ἀμπέλου τὸ κλῆμα οὐδέν ἐστιν· ἀποθνῄσκει καὶ οὐ φέρει καρπόν.",
-      "part": "B"
+      "explanation": "James teaches that without the vine the branch is nothing and cannot bear fruit."
     },
     {
       "id": 7,
-      "statement": "ὅστις πιστεύει τῷ Ἰησοῦ οὐκέτι διψᾷ.",
+      "part": "B",
+      "statement": "Whoever remains in Jesus will bear fruit.",
       "answer": true,
-      "explanation": "ἀληθές! ὅστις πιστεύει αὐτῷ οὐκέτι διψᾷ· δίδωσιν γὰρ τὸ ὕδωρ τῆς ζωῆς.",
-      "part": "B"
+      "explanation": "James explains that remaining in Jesus — the true vine — is what enables fruit-bearing."
     },
     {
       "id": 8,
-      "statement": "τὸ κλῆμα ὃ οὐ φέρει καρπόν, ὁ γεωργὸς καθαίρει αὐτό.",
+      "part": "B",
+      "statement": "The fruitless branch is carefully pruned and kept on the vine.",
       "answer": false,
-      "explanation": "οὐκ ἀληθές! ὁ γεωργὸς ἐκκόπτει τὸ κλῆμα ὃ οὐ φέρει καρπὸν καὶ βάλλει εἰς τὸ πῦρ. τὸ κλῆμα ὃ φέρει καρπόν, ἐκεῖνο καθαίρει.",
-      "part": "B"
+      "explanation": "The farmer cuts off the branch that does not bear fruit and throws it into the fire."
     },
     {
       "id": 9,
-      "statement": "ἡ Σαλώμη γινώσκει τὰς γραφάς.",
+      "part": "B",
+      "statement": "Salome knows the scriptures and can quote the Shema.",
       "answer": true,
-      "explanation": "ἀληθές! λέγει τὸν λόγον τοῦ θεοῦ· ἄκουε, Ἰσραήλ· κύριος ὁ θεὸς ἡμῶν κύριος εἷς ἐστιν.",
-      "part": "B"
+      "explanation": "Salome shows she knows the scriptures by quoting: 'Hear, O Israel: the Lord our God, the Lord is one.'"
     },
     {
       "id": 10,
-      "statement": "ὁ Ἰησοῦς λέγει ὅτι ἐγώ εἰμι ἡ ὁδὸς καὶ ἡ ἀλήθεια καὶ ἡ ζωή.",
+      "part": "B",
+      "statement": "James says that Jesus is the true vine and we are the branches.",
       "answer": true,
-      "explanation": "ἀληθές! ὁ Ἰάκωβος παραδίδωσιν τοῦτο τὸ ῥῆμα τοῦ Ἰησοῦ τῇ Σαλώμῃ.",
-      "part": "B"
+      "explanation": "James explicitly teaches that Jesus is the true vine and his followers are the branches."
     }
   ],
   "yesNo": [
     {
       "id": 1,
-      "question": "ἆρα ἔχει ὁ Ἰάκωβος ὑδρίαν;",
+      "part": "A",
+      "question": "Does James have a jar to draw water?",
       "answer": false,
-      "explanation": "οὔ! οὐκ ἔχω ὑδρίαν ἵνα ἀντλῶ τὸ ὕδωρ.",
-      "part": "A"
+      "explanation": "James does not have a jar — that is why he asks Salome, who has her own jar."
     },
     {
       "id": 2,
-      "question": "ἆρα δίδωσιν ἡ Σαλώμη ὕδωρ τῷ ὄνῳ τοῦ Ἰακώβου;",
+      "part": "A",
+      "question": "Does Salome give water to James and his donkey?",
       "answer": true,
-      "explanation": "ναί! δίδωμι σοι ὕδωρ καὶ τῷ ὄνῳ σου.",
-      "part": "A"
+      "explanation": "Salome draws water and gives it to both James and his donkey."
     },
     {
       "id": 3,
-      "question": "ἆρα ὁ Ἰάκωβος πιστεύει τῷ Ἰησοῦ;",
+      "part": "A",
+      "question": "Does James believe in Jesus?",
       "answer": true,
-      "explanation": "ναί! πιστεύω γὰρ τῷ Ἰησοῦ καὶ περιπατῶ μετὰ τοῦ Ἰησοῦ.",
-      "part": "A"
+      "explanation": "James says he believes and worships Jesus as the Son of God."
     },
     {
       "id": 4,
-      "question": "ἆρα ἡ Σαλώμη γινώσκει τὸν Ἰησοῦν ἀκριβῶς ἐν ἀρχῇ;",
+      "part": "A",
+      "question": "Does Salome know Jesus clearly from the beginning of the conversation?",
       "answer": false,
-      "explanation": "οὔ! τὸν Ἰησοῦν οὐ καλῶς καὶ ἀκριβῶς γινώσκω οὐδὲ πιστεύω αὐτῷ.",
-      "part": "A"
+      "explanation": "Salome does not know Jesus at first — she needs James to explain who he is, slowly and carefully."
     },
     {
       "id": 5,
-      "question": "ἆρα δύναται τὸ κλῆμα φέρειν καρπὸν χωρὶς τῆς ἀμπέλου;",
+      "part": "B",
+      "question": "Can the branch bear fruit without the vine?",
       "answer": false,
-      "explanation": "οὔ! χωρὶς γὰρ τῆς ἀμπέλου τὸ κλῆμα οὐδέν ἐστιν.",
-      "part": "B"
+      "explanation": "Without the vine the branch is nothing and cannot bear fruit on its own."
     },
     {
       "id": 6,
-      "question": "ἆρα ἡ Σαλώμη βούλεται ἀκούειν πλέον περὶ τοῦ Ἰησοῦ;",
+      "part": "B",
+      "question": "Does Salome want to hear more about Jesus?",
       "answer": true,
-      "explanation": "ναί! ἀρέσκει μοι ἀκούειν περὶ τοῦ Ἰησοῦ καὶ μανθάνειν.",
-      "part": "B"
+      "explanation": "Salome asks James to teach her more and says she wants to hear in order to know about God."
     },
     {
       "id": 7,
-      "question": "ἆρα ἐὰν μένωμεν ἐν τῷ Ἰησοῦ, δυνάμεθα φέρειν καρπόν;",
+      "part": "B",
+      "question": "If we remain in Jesus, can we bear fruit?",
       "answer": true,
-      "explanation": "ναί! ἐὰν μένωμεν ἐν τῷ Ἰησοῦ καὶ ὁ Ἰησοῦς ἐν ἡμῖν, δυνάμεθα φέρειν πολὺν καρπόν.",
-      "part": "B"
+      "explanation": "James teaches that remaining in Jesus — the true vine — enables us to bear fruit."
     },
     {
       "id": 8,
-      "question": "ἆρα ἡ Σαλώμη γινώσκει πρῶτον ὅτι ὁ Ἰησοῦς ἐστιν ἡ ἄμπελος;",
+      "part": "B",
+      "question": "Does Salome already know that Jesus is the vine before James explains it?",
       "answer": false,
-      "explanation": "οὔ! νῦν θαυμάζω ὅτι οὐδέποτε ἐγὼ οἶδα τοῦτο.",
-      "part": "B"
-    }
-  ],
-  "conversationQuestions": [
-    {
-      "id": 1,
-      "question": "ἆρα σὺ διψᾷς νῦν;",
-      "part": "A"
-    },
-    {
-      "id": 2,
-      "question": "ἆρα ἔχεις εἰρήνην ἐν τῇ καρδίᾳ σου;",
-      "part": "A"
-    },
-    {
-      "id": 3,
-      "question": "ἆρα σὺ προσκυνεῖς τῷ θεῷ ἐν πνεύματι καὶ ἀληθείᾳ;",
-      "part": "A"
-    },
-    {
-      "id": 4,
-      "question": "τί ἐστιν τὸ βρῶμα τοῦ πνεύματός σου;",
-      "part": "A"
-    },
-    {
-      "id": 5,
-      "question": "ἆρα σὺ πιστεύεις ὅτι ὁ Ἰησοῦς ἐστιν ὁ υἱὸς τοῦ θεοῦ;",
-      "part": "A"
-    },
-    {
-      "id": 6,
-      "question": "ἆρα σὺ μένεις ἐν τῷ Ἰησοῦ;",
-      "part": "B"
-    },
-    {
-      "id": 7,
-      "question": "τίνα καρπὸν φέρεις ἐν τῇ ζωῇ σου;",
-      "part": "B"
-    },
-    {
-      "id": 8,
-      "question": "ἆρα ἀρέσκει σοι μανθάνειν περὶ τοῦ Ἰησοῦ;",
-      "part": "B"
-    },
-    {
-      "id": 9,
-      "question": "τίς ἐστιν ἡ ὁδός σου πρὸς τὸν θεόν;",
-      "part": "B"
-    },
-    {
-      "id": 10,
-      "question": "ἆρα γινώσκεις τὰς γραφάς;",
-      "part": "B"
+      "explanation": "Salome marvels and says she never knew this before — she only knew the Shema and the scriptures."
     }
   ]
 }
