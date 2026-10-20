@@ -4186,6 +4186,4053 @@
           "definition": "sun (nom.m.sg.)"
         }
       ]
+    },
+    {
+      "words": [
+        {
+          "greek": "αὐτῶν",
+          "definition": "their"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "λαλούντων,",
+          "definition": "of [them] speaking (ptc.gen.pl.)"
+        },
+        {
+          "greek": "ἰδοὺ",
+          "definition": "behold, look!"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the (fem.)"
+        },
+        {
+          "greek": "Μάρθα",
+          "definition": "Martha"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the (fem.)"
+        },
+        {
+          "greek": "Μαγδαληνὴ",
+          "definition": "Magdalene (nom.f.sg.)"
+        },
+        {
+          "greek": "ἔρχονται",
+          "definition": "come"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "out of"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "κώμης.",
+          "definition": "village"
+        },
+        {
+          "greek": "ἐλθοῦσαι",
+          "definition": "having come (aor.act.part.nom.f.pl)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "δένδρον,",
+          "definition": "a tree"
+        },
+        {
+          "greek": "τιθέασιν",
+          "definition": "they place"
+        },
+        {
+          "greek": "ἄρτον",
+          "definition": "bread"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὕδωρ",
+          "definition": "water"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "μέλι",
+          "definition": "honey (nom.n.sg.)"
+        },
+        {
+          "greek": "ὑπὸ",
+          "definition": "under"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (fem. acc.)"
+        },
+        {
+          "greek": "σκιάν.",
+          "definition": "shade (acc.f.sg)"
+        }
+      ],
+      "label": "Μέρος Βʹ — Οἱ Δύο Υἱοί (Part B — The Two Sons)",
+      "id": 45
+    },
+    {
+      "words": [
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the (fem.)"
+        },
+        {
+          "greek": "Μάρθα·",
+          "definition": "Martha"
+        },
+        {
+          "greek": "\"ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "Πέτρος",
+          "definition": "Peter (nom.m.sg.)"
+        },
+        {
+          "greek": "ἐπελάθετο",
+          "definition": "forgot (aor.mid.ind.3sg)"
+        },
+        {
+          "greek": "λαβεῖν",
+          "definition": "to take (aor.act.inf.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "ἄρτον.\"",
+          "definition": "bread"
+        }
+      ],
+      "id": 46
+    },
+    {
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Πέτρος·",
+          "definition": "Peter (nom.m.sg.)"
+        },
+        {
+          "greek": "\"ναί,",
+          "definition": "yes"
+        },
+        {
+          "greek": "ἐπελαθόμην.\"",
+          "definition": "I forgot (aor.mid.ind.1sg)"
+        }
+      ],
+      "id": 47
+    },
+    {
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Μαθθαῖος·",
+          "definition": "Matthew (nom.m.sg.)"
+        },
+        {
+          "greek": "\"ἀεὶ",
+          "definition": "always, ever"
+        },
+        {
+          "greek": "ἐπελάθου.\"",
+          "definition": "you forgot (aor.mid.ind.2sg)"
+        }
+      ],
+      "id": 48
+    },
+    {
+      "words": [
+        {
+          "greek": "ἡ",
+          "definition": "the (fem.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Μαγδαληνή·",
+          "definition": "Magdalene (nom.f.sg.)"
+        },
+        {
+          "greek": "\"ἐδώκαμεν",
+          "definition": "we gave (aor.act.ind.1pl)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "χόρτον",
+          "definition": "grass"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the (dat.)"
+        },
+        {
+          "greek": "ὄνῳ",
+          "definition": "donkey"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἀφήκαμεν",
+          "definition": "we left (aor.act.ind.1pl)"
+        },
+        {
+          "greek": "αὐτὸν",
+          "definition": "him"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the (dat.)"
+        },
+        {
+          "greek": "οἴκῳ,",
+          "definition": "house"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἤλθομεν",
+          "definition": "we came (aor.act.ind.1pl)"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "ὑμᾶς.\"",
+          "definition": "you (acc.pl.)"
+        }
+      ],
+      "id": 49
+    },
+    {
+      "words": [
+        {
+          "greek": "\"λάβετε",
+          "definition": "take! (aor.act.imv.2pl)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φάγετε,\"",
+          "definition": "eat! (aor.act.imv.2pl)"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the (fem.)"
+        },
+        {
+          "greek": "Μάρθα.",
+          "definition": "Martha"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐσθίουσιν",
+          "definition": "eat (pres.act.ind.3pl.)"
+        },
+        {
+          "greek": "ὑπὸ",
+          "definition": "under"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (fem. acc.)"
+        },
+        {
+          "greek": "σκιάν.",
+          "definition": "shade (acc.f.sg)"
+        }
+      ],
+      "id": 50
+    },
+    {
+      "words": [
+        {
+          "greek": "ἡ",
+          "definition": "the (fem.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Μάρθα",
+          "definition": "Martha"
+        },
+        {
+          "greek": "ἐρωτᾷ·",
+          "definition": "asks"
+        },
+        {
+          "greek": "\"τί",
+          "definition": "what"
+        },
+        {
+          "greek": "ἐποιεῖτε",
+          "definition": "you were doing (impf.act.ind.2pl)"
+        },
+        {
+          "greek": "σήμερον",
+          "definition": "today"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the (dat.)"
+        },
+        {
+          "greek": "ἀγρῷ;\"",
+          "definition": "field"
+        }
+      ],
+      "id": 51
+    },
+    {
+      "words": [
+        {
+          "greek": "\"ἐγὼ",
+          "definition": "I (emphatic)"
+        },
+        {
+          "greek": "πολὺν",
+          "definition": "much, many"
+        },
+        {
+          "greek": "σπόρον",
+          "definition": "seed, sowing (acc.m.sg.)"
+        },
+        {
+          "greek": "ἔβαλον!\"",
+          "definition": "I threw (aor.act.ind.1sg)"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "Πέτρος.",
+          "definition": "Peter (nom.m.sg.)"
+        }
+      ],
+      "id": 52
+    },
+    {
+      "words": [
+        {
+          "greek": "\"οὐχί,\"",
+          "definition": "no! certainly not!"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "Μαθθαῖος·",
+          "definition": "Matthew (nom.m.sg.)"
+        },
+        {
+          "greek": "\"σὺ",
+          "definition": "you"
+        },
+        {
+          "greek": "ὀλίγον",
+          "definition": "little, few (acc.m.sg.)"
+        },
+        {
+          "greek": "ἔλαβες,",
+          "definition": "you took (aor.act.ind.2sg)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "πολὺ",
+          "definition": "much (n.sg.)"
+        },
+        {
+          "greek": "ἔπεσεν",
+          "definition": "fell (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (fem. acc.)"
+        },
+        {
+          "greek": "ὁδόν.",
+          "definition": "way, road"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "σὺ",
+          "definition": "you"
+        },
+        {
+          "greek": "καρπόν",
+          "definition": "fruit"
+        },
+        {
+          "greek": "μου",
+          "definition": "my"
+        },
+        {
+          "greek": "ἔφαγες!\"",
+          "definition": "you ate (aor.act.ind.2sg.)"
+        }
+      ],
+      "id": 53
+    },
+    {
+      "words": [
+        {
+          "greek": "\"οὐκ",
+          "definition": "not"
+        },
+        {
+          "greek": "ἔφαγον·",
+          "definition": "I ate! (aor.act.ind.1sg.)"
+        },
+        {
+          "greek": "σὺ",
+          "definition": "you"
+        },
+        {
+          "greek": "ἔδωκάς",
+          "definition": "you gave (aor.act.ind.2sg)"
+        },
+        {
+          "greek": "μοι",
+          "definition": "me"
+        },
+        {
+          "greek": "αὐτόν.\"",
+          "definition": "it"
+        }
+      ],
+      "id": 54
+    },
+    {
+      "words": [
+        {
+          "greek": "\"οὐκ",
+          "definition": "not"
+        },
+        {
+          "greek": "ἔδωκα·",
+          "definition": "I gave (aor.act.ind.1sg.)"
+        },
+        {
+          "greek": "ἔλαβες",
+          "definition": "you took (aor.act.ind.2sg)"
+        },
+        {
+          "greek": "αὐτόν.",
+          "definition": "it"
+        },
+        {
+          "greek": "δός",
+          "definition": "give! (aor.act.impv.2sg.)"
+        },
+        {
+          "greek": "μοι",
+          "definition": "me"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "καρπόν\"",
+          "definition": "fruit"
+        }
+      ],
+      "id": 55
+    },
+    {
+      "words": [
+        {
+          "greek": "\"οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "θέλω",
+          "definition": "I want!"
+        },
+        {
+          "greek": "δοῦναί",
+          "definition": "to give (aor.act.inf.)"
+        },
+        {
+          "greek": "σοι.",
+          "definition": "to you"
+        },
+        {
+          "greek": "ἄφες",
+          "definition": "forgive! (aor.act.imv.2sg)"
+        },
+        {
+          "greek": "με.\"",
+          "definition": "me"
+        }
+      ],
+      "id": 56
+    },
+    {
+      "words": [
+        {
+          "greek": "ἡ",
+          "definition": "the (fem.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Μαγδαληνὴ",
+          "definition": "Magdalene (nom.f.sg.)"
+        },
+        {
+          "greek": "γελῶσα·",
+          "definition": "laughing (pres.act.part.nom.f.sg)"
+        },
+        {
+          "greek": "\"ἰδοὺ",
+          "definition": "behold, look!"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (masc. pl.)"
+        },
+        {
+          "greek": "ἀδελφοί!\"",
+          "definition": "brothers (nom.m.pl)"
+        }
+      ],
+      "id": 57
+    },
+    {
+      "words": [
+        {
+          "greek": "\"μὴ",
+          "definition": "do not"
+        },
+        {
+          "greek": "εἴπητε",
+          "definition": "that you say (aor.act.subj.2pl)"
+        },
+        {
+          "greek": "τοιαῦτα,",
+          "definition": "such things (acc.n.pl)"
+        },
+        {
+          "greek": "ὦ",
+          "definition": "O! (vocative)"
+        },
+        {
+          "greek": "τέκνα,\"",
+          "definition": "children"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "Ἰάκωβος·",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "\"καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "μὴ",
+          "definition": "do not"
+        },
+        {
+          "greek": "λάβῃς,",
+          "definition": "that you take (aor.act.subj.2sg)"
+        },
+        {
+          "greek": "Πέτρε,",
+          "definition": "Peter! (voc.m.sg.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "καρπὸν",
+          "definition": "fruit"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "ἀδελφοῦ",
+          "definition": "of a brother (gen.m.sg)"
+        },
+        {
+          "greek": "σου.\"",
+          "definition": "your"
+        }
+      ],
+      "id": 58
+    },
+    {
+      "words": [
+        {
+          "greek": "μετὰ",
+          "definition": "with"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "τoῦτο",
+          "definition": "this (acc.n.sg — Latin o variant in ms.)"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "Ἰάκωβος·",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "\"Μαθθαῖε,",
+          "definition": "Matthew! (voc.m.sg.)"
+        },
+        {
+          "greek": "ὕπαγε",
+          "definition": "go away!"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἄγε",
+          "definition": "lead! bring! (pres.act.imv.2sg)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the (neuter pl.)"
+        },
+        {
+          "greek": "πρόβατα",
+          "definition": "sheep"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὕδωρ.",
+          "definition": "water"
+        },
+        {
+          "greek": "σὺ",
+          "definition": "you"
+        },
+        {
+          "greek": "δέ,",
+          "definition": "and"
+        },
+        {
+          "greek": "Πέτρε,",
+          "definition": "Peter! (voc.m.sg.)"
+        },
+        {
+          "greek": "συνάγαγε",
+          "definition": "gather! (aor.act.imv.2sg)"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc. pl.)"
+        },
+        {
+          "greek": "μικροὺς",
+          "definition": "small"
+        },
+        {
+          "greek": "λίθους",
+          "definition": "stones"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "out of"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "ἀγροῦ.\"",
+          "definition": "field"
+        }
+      ],
+      "id": 59
+    },
+    {
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Μαθθαῖος·",
+          "definition": "Matthew (nom.m.sg.)"
+        },
+        {
+          "greek": "\"οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "βούλομαι·",
+          "definition": "I want"
+        },
+        {
+          "greek": "πάντοτε",
+          "definition": "always"
+        },
+        {
+          "greek": "ἐγὼ",
+          "definition": "I (emphatic)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the (neuter pl.)"
+        },
+        {
+          "greek": "ζῷα",
+          "definition": "animals"
+        },
+        {
+          "greek": "ἄγω.\"",
+          "definition": "I lead (pres.act.ind.1sg)"
+        }
+      ],
+      "id": 60
+    },
+    {
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Πέτρος·",
+          "definition": "Peter (nom.m.sg.)"
+        },
+        {
+          "greek": "\"ἐγώ,",
+          "definition": "I"
+        },
+        {
+          "greek": "πάτερ!\"",
+          "definition": "father! (voc.m.sg.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "εὐθὺς",
+          "definition": "immediately"
+        },
+        {
+          "greek": "δραμὼν",
+          "definition": "having run (aor.act.part.nom.m.sg)"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "δένδρον",
+          "definition": "a tree"
+        },
+        {
+          "greek": "βλέπει",
+          "definition": "he sees"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the (neuter pl.)"
+        },
+        {
+          "greek": "πετεινά",
+          "definition": "birds (acc.n.pl)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "φέρει",
+          "definition": "carries"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc. pl.)"
+        },
+        {
+          "greek": "λίθους.",
+          "definition": "stones"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (masc. pl.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "λίθοι",
+          "definition": "stones"
+        },
+        {
+          "greek": "ἔτι",
+          "definition": "still, yet"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the (dat.)"
+        },
+        {
+          "greek": "ἀγρῷ",
+          "definition": "field"
+        },
+        {
+          "greek": "εἰσιν.",
+          "definition": "are"
+        }
+      ],
+      "id": 61
+    },
+    {
+      "words": [
+        {
+          "greek": "ὕστερον",
+          "definition": "later, afterward (adverb)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "Μαθθαῖος",
+          "definition": "Matthew (nom.m.sg.)"
+        },
+        {
+          "greek": "λαβὼν",
+          "definition": "taking (aor.act.ptc.nom.m.sg.)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the (neuter pl.)"
+        },
+        {
+          "greek": "πρόβατα",
+          "definition": "sheep"
+        },
+        {
+          "greek": "ἄγει",
+          "definition": "leads"
+        },
+        {
+          "greek": "αὐτὰ",
+          "definition": "them (acc.neut.)"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ποταμὸν",
+          "definition": "river"
+        },
+        {
+          "greek": "ἵνα",
+          "definition": "so that"
+        },
+        {
+          "greek": "πίῃ.",
+          "definition": "that it drink (aor.act.subj.3sg)"
+        }
+      ],
+      "id": 62
+    },
+    {
+      "words": [
+        {
+          "greek": "ἡ",
+          "definition": "the (fem.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Μάρθα",
+          "definition": "Martha"
+        },
+        {
+          "greek": "καλεῖ·",
+          "definition": "calls"
+        },
+        {
+          "greek": "\"Πέτρε,",
+          "definition": "Peter! (voc.m.sg.)"
+        },
+        {
+          "greek": "ἐλθὲ",
+          "definition": "come! (aor.act.imv.2sg)"
+        },
+        {
+          "greek": "ὧδε.\"",
+          "definition": "here"
+        },
+        {
+          "greek": "ἐλθόντος",
+          "definition": "when he came (aor.act.part.gen.m.sg)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "Πέτρου,",
+          "definition": "of Peter (gen.m.sg)"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "Ἰάκωβος·",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "\"οὐκ",
+          "definition": "not"
+        },
+        {
+          "greek": "εἶπόν",
+          "definition": "I said (aor.act.ind.1sg)"
+        },
+        {
+          "greek": "σοι",
+          "definition": "to you"
+        },
+        {
+          "greek": "συναγαγεῖν",
+          "definition": "to gather (aor.act.inf.)"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc. pl.)"
+        },
+        {
+          "greek": "μικροὺς",
+          "definition": "small"
+        },
+        {
+          "greek": "λίθους;\"",
+          "definition": "stones"
+        }
+      ],
+      "id": 63
+    },
+    {
+      "words": [
+        {
+          "greek": "ἡ",
+          "definition": "the (fem.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Μάρθα",
+          "definition": "Martha"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the (dat.)"
+        },
+        {
+          "greek": "Ἰακώβῳ·",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "\"ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τίνι",
+          "definition": "in what (dat.interrog.sg)"
+        },
+        {
+          "greek": "παραβολῇ",
+          "definition": "parable (dat.f.sg)"
+        },
+        {
+          "greek": "θῶμεν",
+          "definition": "that we place (aor.act.subj.1pl)"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc. pl.)"
+        },
+        {
+          "greek": "υἱοὺς",
+          "definition": "sons (acc.m.pl)"
+        },
+        {
+          "greek": "ἡμῶν;\"",
+          "definition": "our"
+        },
+        {
+          "greek": "εἶτα",
+          "definition": "then, next"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "τοῖς",
+          "definition": "the"
+        },
+        {
+          "greek": "τέκνοις",
+          "definition": "children (dat.n.pl.)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (fem. acc.)"
+        },
+        {
+          "greek": "παραβολήν",
+          "definition": "parable (acc.f.sg.)"
+        },
+        {
+          "greek": "τινα",
+          "definition": "a certain (acc.f.sg.)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "Ἰησοῦ·",
+          "definition": "Jesus"
+        }
+      ],
+      "id": 64
+    },
+    {
+      "words": [
+        {
+          "greek": "\"ἄνθρωπος",
+          "definition": "person, man"
+        },
+        {
+          "greek": "εἶχεν",
+          "definition": "had (impf.act.ind.3sg.)"
+        },
+        {
+          "greek": "τέκνα",
+          "definition": "children"
+        },
+        {
+          "greek": "δύο.",
+          "definition": "two"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "προσελθὼν",
+          "definition": "having come to (aor.act.part.nom.m.sg)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the (dat.)"
+        },
+        {
+          "greek": "πρώτῳ",
+          "definition": "to the first (dat.m.sg)"
+        },
+        {
+          "greek": "εἶπεν·",
+          "definition": "said (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "τέκνον,",
+          "definition": "child, offspring"
+        },
+        {
+          "greek": "ὕπαγε",
+          "definition": "go away!"
+        },
+        {
+          "greek": "σήμερον",
+          "definition": "today"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐργάζου",
+          "definition": "work! (pres.mid.imv.2sg)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the (dat.)"
+        },
+        {
+          "greek": "ἀμπελῶνι.",
+          "definition": "vineyard (dat.m.sg)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "εἶπεν·",
+          "definition": "said (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "θέλω·",
+          "definition": "I want!"
+        },
+        {
+          "greek": "ὕστερον",
+          "definition": "later, afterward (adverb)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "μετανοῶν",
+          "definition": "repenting (m.)"
+        },
+        {
+          "greek": "ἀπῆλθεν.",
+          "definition": "went away (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "προσελθὼν",
+          "definition": "having come to (aor.act.part.nom.m.sg)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the (dat.)"
+        },
+        {
+          "greek": "ἑτέρῳ",
+          "definition": "to the other (dat.m.sg)"
+        },
+        {
+          "greek": "εἶπεν",
+          "definition": "said (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "αὐτό.",
+          "definition": "it"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "εἶπεν·",
+          "definition": "said (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "ἐγώ,",
+          "definition": "I"
+        },
+        {
+          "greek": "κύριε·",
+          "definition": "Lord (voc.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "οὐκ",
+          "definition": "not"
+        },
+        {
+          "greek": "ἀπῆλθεν.",
+          "definition": "went away (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "τίς",
+          "definition": "who"
+        },
+        {
+          "greek": "ἐκ",
+          "definition": "out of"
+        },
+        {
+          "greek": "τῶν",
+          "definition": "the (gen. pl.)"
+        },
+        {
+          "greek": "δύο",
+          "definition": "two"
+        },
+        {
+          "greek": "ποιεῖ",
+          "definition": "makes"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "θέλημα",
+          "definition": "will"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "πατρός;\"",
+          "definition": "of the father"
+        }
+      ],
+      "id": 65
+    },
+    {
+      "words": [
+        {
+          "greek": "\"ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "πρῶτος,\"",
+          "definition": "first (nom.m.sg)"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "ἡ",
+          "definition": "the (fem.)"
+        },
+        {
+          "greek": "Μαγδαληνή.",
+          "definition": "Magdalene (nom.f.sg.)"
+        }
+      ],
+      "id": 66
+    },
+    {
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Πέτρος,",
+          "definition": "Peter (nom.m.sg.)"
+        },
+        {
+          "greek": "ἰδὼν",
+          "definition": "seeing (aor.act.ptc.nom.m.sg.)"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc. pl.)"
+        },
+        {
+          "greek": "λίθους,",
+          "definition": "stones"
+        },
+        {
+          "greek": "σιγᾷ.",
+          "definition": "is silent"
+        },
+        {
+          "greek": "εἶτα",
+          "definition": "then, next"
+        },
+        {
+          "greek": "συνάγει",
+          "definition": "gathers (pres.act.ind.3sg)"
+        },
+        {
+          "greek": "αὐτοὺς",
+          "definition": "them"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says"
+        },
+        {
+          "greek": "\"ἰδού,",
+          "definition": "behold, look!"
+        },
+        {
+          "greek": "πάτερ,",
+          "definition": "father! (voc.m.sg.)"
+        },
+        {
+          "greek": "συνήγαγον.\"",
+          "definition": "I gathered (aor.act.ind.1sg)"
+        }
+      ],
+      "id": 67
+    },
+    {
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "πατὴρ,",
+          "definition": "father (nom.)"
+        },
+        {
+          "greek": "\"εὖ",
+          "definition": "well (adverb)"
+        },
+        {
+          "greek": "γε!",
+          "definition": "indeed, at least (particle)"
+        },
+        {
+          "greek": "καλῶς",
+          "definition": "well, beautifully"
+        },
+        {
+          "greek": "συνήγαγες.\"",
+          "definition": "you gathered (aor.act.ind.2sg)"
+        }
+      ],
+      "id": 68
+    },
+    {
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Μαθθαῖος,",
+          "definition": "Matthew (nom.m.sg.)"
+        },
+        {
+          "greek": "ἐλθὼν",
+          "definition": "going (aor.act.ptc.nom.m.sg.)"
+        },
+        {
+          "greek": "ἀπὸ",
+          "definition": "from"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "ὕδατος·",
+          "definition": "water (gen.)"
+        },
+        {
+          "greek": "\"ἐγώ",
+          "definition": "I"
+        },
+        {
+          "greek": "εἰμι",
+          "definition": "I am"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "ἀγαθὸς",
+          "definition": "good"
+        },
+        {
+          "greek": "υἱός!\"",
+          "definition": "son (nom.m.sg)"
+        }
+      ],
+      "id": 69
+    },
+    {
+      "words": [
+        {
+          "greek": "\"ἄκουε,",
+          "definition": "listen!"
+        },
+        {
+          "greek": "Μαθθαῖε,\"",
+          "definition": "Matthew! (voc.m.sg.)"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "Ἰάκωβος·",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "\"ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "Ἰησοῦς",
+          "definition": "Jesus"
+        },
+        {
+          "greek": "εἶπεν",
+          "definition": "said (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "ἄλλην",
+          "definition": "other (acc.f.)"
+        },
+        {
+          "greek": "παραβολὴν",
+          "definition": "parable (acc.f.sg.)"
+        },
+        {
+          "greek": "περὶ",
+          "definition": "about"
+        },
+        {
+          "greek": "δύο",
+          "definition": "two"
+        },
+        {
+          "greek": "υἱῶν.",
+          "definition": "of sons (gen.m.pl)"
+        },
+        {
+          "greek": "ἀκούετε",
+          "definition": "listen! (pres.act.impv.2pl.)"
+        },
+        {
+          "greek": "οὖν,",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ἵνα",
+          "definition": "so that"
+        },
+        {
+          "greek": "μάθητε.",
+          "definition": "that you learn (aor.act.subj.2pl)"
+        }
+      ],
+      "id": 70
+    },
+    {
+      "words": [
+        {
+          "greek": "Εἶπεν",
+          "definition": "said (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "δέ·",
+          "definition": "and"
+        },
+        {
+          "greek": "ἄνθρωπός",
+          "definition": "a person, human being"
+        },
+        {
+          "greek": "τις",
+          "definition": "a certain"
+        },
+        {
+          "greek": "εἶχεν",
+          "definition": "had (impf.act.ind.3sg.)"
+        },
+        {
+          "greek": "δύο",
+          "definition": "two"
+        },
+        {
+          "greek": "υἱούς.",
+          "definition": "sons (acc.m.pl)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "εἶπεν",
+          "definition": "said (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "νεώτερος",
+          "definition": "younger (nom.m.sg)"
+        },
+        {
+          "greek": "αὐτῶν",
+          "definition": "their"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the (dat.)"
+        },
+        {
+          "greek": "πατρί·",
+          "definition": "father (dat.m.sg.)"
+        },
+        {
+          "greek": "πάτερ,",
+          "definition": "father! (voc.m.sg.)"
+        },
+        {
+          "greek": "δός",
+          "definition": "give! (aor.act.impv.2sg.)"
+        },
+        {
+          "greek": "μοι",
+          "definition": "me"
+        },
+        {
+          "greek": "τὸ",
+          "definition": "the"
+        },
+        {
+          "greek": "ἐπιβάλλον",
+          "definition": "belonging to, allotted (pres.act.part.acc.n.sg)"
+        },
+        {
+          "greek": "μέρος",
+          "definition": "part, portion (acc.n.sg)"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "οὐσίας.",
+          "definition": "of the estate (gen.f.sg)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "διειλὼν",
+          "definition": "having divided (aor.act.part.nom.m.sg)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "βίον",
+          "definition": "life, property, estate (acc.m.sg)"
+        },
+        {
+          "greek": "ἔδωκεν",
+          "definition": "gave (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "αὐτῷ.",
+          "definition": "for him"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "μετ'",
+          "definition": "with (elided μετά, before rough breathing)"
+        },
+        {
+          "greek": "οὐ",
+          "definition": "not"
+        },
+        {
+          "greek": "πολλὰς",
+          "definition": "many"
+        },
+        {
+          "greek": "ἡμέρας",
+          "definition": "of the day (gen.), days (acc.pl.)"
+        },
+        {
+          "greek": "συναγαγὼν",
+          "definition": "having gathered (aor.act.part.)"
+        },
+        {
+          "greek": "πάντα",
+          "definition": "all"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "νεώτερος",
+          "definition": "younger (nom.m.sg)"
+        },
+        {
+          "greek": "υἱὸς",
+          "definition": "son"
+        },
+        {
+          "greek": "ἀπῆλθεν",
+          "definition": "went away (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "χώραν",
+          "definition": "region, country (acc.f.sg)"
+        },
+        {
+          "greek": "μακρὰν",
+          "definition": "far away (adverb)"
+        },
+        {
+          "greek": "κἀκεῖ",
+          "definition": "and there (καὶ ἐκεῖ, contracted)"
+        },
+        {
+          "greek": "διεσκόρπιζεν",
+          "definition": "was squandering (impf.act.ind.3sg)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (fem. acc.)"
+        },
+        {
+          "greek": "οὐσίαν",
+          "definition": "estate, property (acc.f.sg)"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "ζῶν",
+          "definition": "living (ptc.m.sg.)"
+        },
+        {
+          "greek": "ἀσώτως.",
+          "definition": "dissolutely, prodigally (adverb)"
+        }
+      ],
+      "id": 71
+    },
+    {
+      "words": [
+        {
+          "greek": "καταφαγόντος",
+          "definition": "when he had spent (aor.act.part.gen.m.sg)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "πάντα,",
+          "definition": "all"
+        },
+        {
+          "greek": "ἐγένετο",
+          "definition": "it came to pass (aor.mid.ind.3sg.)"
+        },
+        {
+          "greek": "λιμὸς",
+          "definition": "famine (nom.f.sg)"
+        },
+        {
+          "greek": "ἰσχυρὰ",
+          "definition": "great, severe (nom.f.sg)"
+        },
+        {
+          "greek": "κατὰ",
+          "definition": "according to (+ acc.), against (+ gen.)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (fem. acc.)"
+        },
+        {
+          "greek": "χώραν",
+          "definition": "region, country (acc.f.sg)"
+        },
+        {
+          "greek": "ἐκείνην.",
+          "definition": "that (one, acc.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "λιμῷ",
+          "definition": "in famine (dat.f.sg)"
+        },
+        {
+          "greek": "γενόμενος",
+          "definition": "having become (aor.mid.part.nom.m.sg)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "οὐδὲν",
+          "definition": "nothing (acc.n.sg.)"
+        },
+        {
+          "greek": "σκών,",
+          "definition": "having obtained (rare aor.act.part. — having nothing)"
+        },
+        {
+          "greek": "προσῆλθον",
+          "definition": "came to (aor.act.ind.3pl.)"
+        },
+        {
+          "greek": "πρός",
+          "definition": "to, toward (prep. + acc.)"
+        },
+        {
+          "greek": "τινα",
+          "definition": "a certain (acc.f.sg.)"
+        },
+        {
+          "greek": "πολιτὴν",
+          "definition": "citizen (acc.m.sg)"
+        },
+        {
+          "greek": "τῆς",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "χώρας",
+          "definition": "of a region (gen.f.sg)"
+        },
+        {
+          "greek": "ἐκείνης.",
+          "definition": "of that (gen.f.sg)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "ἔβαλεν",
+          "definition": "threw (aor.act.ind.3sg)"
+        },
+        {
+          "greek": "αὐτὸν",
+          "definition": "him"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc. pl.)"
+        },
+        {
+          "greek": "ἀγροὺς",
+          "definition": "fields"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "φυλλάσειν",
+          "definition": "to guard (pres.act.inf. — variant of φυλάσσειν)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "βόσκειν",
+          "definition": "to tend, feed (pres.act.inf.)"
+        },
+        {
+          "greek": "χοίρους.",
+          "definition": "pigs (acc.m.pl)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐπεθύμει",
+          "definition": "was longing (impf.act.ind.3sg)"
+        },
+        {
+          "greek": "φαγεῖν",
+          "definition": "to eat (aor.act.inf.)"
+        },
+        {
+          "greek": "ἀφ᾽",
+          "definition": "from (before aspirate)"
+        },
+        {
+          "greek": "ὧν",
+          "definition": "of whom/which (gen.rel.pl)"
+        },
+        {
+          "greek": "ἤσθιον",
+          "definition": "were eating (impf.act.ind.3pl.)"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (masc. pl.)"
+        },
+        {
+          "greek": "χοῖροι,",
+          "definition": "pigs (nom.m.pl)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "οὐδεὶς",
+          "definition": "no one"
+        },
+        {
+          "greek": "ἐδίδου",
+          "definition": "was giving (impf.act.ind.3sg)"
+        },
+        {
+          "greek": "αὐτῷ.",
+          "definition": "for him"
+        }
+      ],
+      "id": 72
+    },
+    {
+      "words": [
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "ἑαυτὸν",
+          "definition": "himself (acc.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "ἐλθὼν",
+          "definition": "going (aor.act.ptc.nom.m.sg.)"
+        },
+        {
+          "greek": "ἔφη·",
+          "definition": "said (imperf.act.ind.3sg. of φημί)"
+        },
+        {
+          "greek": "πόσοι",
+          "definition": "how many (nom.m.pl)"
+        },
+        {
+          "greek": "μίσθιοι",
+          "definition": "hired servants (nom.m.pl)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "πατρός",
+          "definition": "of the father"
+        },
+        {
+          "greek": "μου",
+          "definition": "my"
+        },
+        {
+          "greek": "περισσεύονται",
+          "definition": "abound, have more than enough (pres.mid.ind.3pl)"
+        },
+        {
+          "greek": "ἄρτων,",
+          "definition": "of bread (gen.m.pl)"
+        },
+        {
+          "greek": "ἐγὼ",
+          "definition": "I (emphatic)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "λιμῷ",
+          "definition": "in famine (dat.f.sg)"
+        },
+        {
+          "greek": "ὧδε",
+          "definition": "here"
+        },
+        {
+          "greek": "ἀπόλλυμαι.",
+          "definition": "I am perishing (pres.mid.ind.1sg)"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (masc. pl.)"
+        },
+        {
+          "greek": "ἐργάται",
+          "definition": "workers (nom.m.pl)"
+        },
+        {
+          "greek": "τοῦ",
+          "definition": "the (gen.)"
+        },
+        {
+          "greek": "πατρός",
+          "definition": "of the father"
+        },
+        {
+          "greek": "μου",
+          "definition": "my"
+        },
+        {
+          "greek": "ἄρτους",
+          "definition": "loaves of bread"
+        },
+        {
+          "greek": "ἔχουσιν,",
+          "definition": "they are"
+        },
+        {
+          "greek": "ἐγὼ",
+          "definition": "I (emphatic)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "λιμῷ",
+          "definition": "in famine (dat.f.sg)"
+        },
+        {
+          "greek": "ὧδε",
+          "definition": "here"
+        },
+        {
+          "greek": "ἀπόλλυμαι.",
+          "definition": "I am perishing (pres.mid.ind.1sg)"
+        },
+        {
+          "greek": "μέλλω",
+          "definition": "I intend"
+        },
+        {
+          "greek": "πορεύεσθαι",
+          "definition": "to go"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "πατέρα",
+          "definition": "father (acc.)"
+        },
+        {
+          "greek": "μου",
+          "definition": "my"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "λέγειν",
+          "definition": "to say"
+        },
+        {
+          "greek": "αὐτῷ·",
+          "definition": "for him"
+        },
+        {
+          "greek": "πάτερ,",
+          "definition": "father! (voc.m.sg.)"
+        },
+        {
+          "greek": "ἥμαρτον",
+          "definition": "I sinned (aor.act.ind.1sg.)"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "οὐρανὸν",
+          "definition": "sky"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐνώπιόν",
+          "definition": "before, in the presence of (prep. + gen.)"
+        },
+        {
+          "greek": "σου·",
+          "definition": "your"
+        },
+        {
+          "greek": "οὐκέτι",
+          "definition": "no longer"
+        },
+        {
+          "greek": "εἰμὶ",
+          "definition": "I am"
+        },
+        {
+          "greek": "ἄξιος",
+          "definition": "worthy (nom.m.sg)"
+        },
+        {
+          "greek": "καλεῖσθαι",
+          "definition": "to be called (pres.pass.inf.)"
+        },
+        {
+          "greek": "υἱός",
+          "definition": "son (nom.m.sg)"
+        },
+        {
+          "greek": "σου·",
+          "definition": "your"
+        },
+        {
+          "greek": "θές",
+          "definition": "place! put! (aor.act.imv.2sg)"
+        },
+        {
+          "greek": "με",
+          "definition": "me"
+        },
+        {
+          "greek": "ὡς",
+          "definition": "as, like"
+        },
+        {
+          "greek": "ἕνα",
+          "definition": "one (acc.m.sg.)"
+        },
+        {
+          "greek": "τῶν",
+          "definition": "the (gen. pl.)"
+        },
+        {
+          "greek": "μισθίων",
+          "definition": "of hired servants (gen.m.pl)"
+        },
+        {
+          "greek": "σου.",
+          "definition": "your"
+        }
+      ],
+      "id": 73
+    },
+    {
+      "words": [
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἦλθεν",
+          "definition": "came (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "πατέρα",
+          "definition": "father (acc.)"
+        },
+        {
+          "greek": "ἑαυτοῦ.",
+          "definition": "of himself"
+        },
+        {
+          "greek": "ἔτι",
+          "definition": "still, yet"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "μακρὰν",
+          "definition": "far away (adverb)"
+        },
+        {
+          "greek": "ἀπέχοντος",
+          "definition": "being far away (pres.act.part.gen.m.sg)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "πατὴρ",
+          "definition": "father (nom.)"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "ἰδὼν",
+          "definition": "seeing (aor.act.ptc.nom.m.sg.)"
+        },
+        {
+          "greek": "αὐτὸν",
+          "definition": "him"
+        },
+        {
+          "greek": "λίαν",
+          "definition": "very much"
+        },
+        {
+          "greek": "ἠγάπησεν,",
+          "definition": "loved (aor.act.ind.3sg)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "δραμὼν",
+          "definition": "having run (aor.act.part.nom.m.sg)"
+        },
+        {
+          "greek": "ἐπέπεσεν",
+          "definition": "fell upon (aor.act.ind.3sg)"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "τράχηλον",
+          "definition": "neck (acc.m.sg)"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "κατεφίλει",
+          "definition": "was kissing tenderly (impf.act.ind.3sg)"
+        },
+        {
+          "greek": "αὐτόν.",
+          "definition": "it"
+        },
+        {
+          "greek": "εἶπεν",
+          "definition": "said (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "υἱὸς",
+          "definition": "son"
+        },
+        {
+          "greek": "αὐτῷ·",
+          "definition": "for him"
+        },
+        {
+          "greek": "πάτερ,",
+          "definition": "father! (voc.m.sg.)"
+        },
+        {
+          "greek": "ἥμαρτον",
+          "definition": "I sinned (aor.act.ind.1sg.)"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "οὐρανὸν",
+          "definition": "sky"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐνώπιόν",
+          "definition": "before, in the presence of (prep. + gen.)"
+        },
+        {
+          "greek": "σου·",
+          "definition": "your"
+        },
+        {
+          "greek": "οὐκέτι",
+          "definition": "no longer"
+        },
+        {
+          "greek": "εἰμὶ",
+          "definition": "I am"
+        },
+        {
+          "greek": "ἄξιος",
+          "definition": "worthy (nom.m.sg)"
+        },
+        {
+          "greek": "καλεῖσθαι",
+          "definition": "to be called (pres.pass.inf.)"
+        },
+        {
+          "greek": "υἱός",
+          "definition": "son (nom.m.sg)"
+        },
+        {
+          "greek": "σου.",
+          "definition": "your"
+        },
+        {
+          "greek": "εἶπεν",
+          "definition": "said (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "πατὴρ",
+          "definition": "father (nom.)"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc. pl.)"
+        },
+        {
+          "greek": "δούλους",
+          "definition": "servants, slaves"
+        },
+        {
+          "greek": "αὐτοῦ·",
+          "definition": "his"
+        },
+        {
+          "greek": "ταχὺ",
+          "definition": "quickly (adverb)"
+        },
+        {
+          "greek": "ἐξενέγκατε",
+          "definition": "bring out! (aor.act.imv.2pl)"
+        },
+        {
+          "greek": "στολὴν",
+          "definition": "robe (acc.f.sg)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (fem. acc.)"
+        },
+        {
+          "greek": "πρώτην",
+          "definition": "first (fem.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐνδύετε",
+          "definition": "clothe! (aor.act.imv.2pl)"
+        },
+        {
+          "greek": "αὐτόν,",
+          "definition": "it"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "δότε",
+          "definition": "give! (aor.act.imv.2pl)"
+        },
+        {
+          "greek": "δακτύλιον",
+          "definition": "ring (acc.m.sg)"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (fem. acc.)"
+        },
+        {
+          "greek": "χεῖρα",
+          "definition": "hand (acc.)"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὑποδήματα",
+          "definition": "sandals (acc.n.pl)"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc. pl.)"
+        },
+        {
+          "greek": "πόδας.",
+          "definition": "feet (acc.m.pl.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "φέρετε",
+          "definition": "bring! (pres.act.imv.2pl)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "μόσχον",
+          "definition": "calf (acc.m.sg)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "σιτευτόν",
+          "definition": "fattened (acc.m.sg)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "θύετε,",
+          "definition": "slaughter! kill and feast! (pres.act.imv.2pl)"
+        },
+        {
+          "greek": "ἵνα",
+          "definition": "so that"
+        },
+        {
+          "greek": "φάγωμεν",
+          "definition": "that we eat (aor.act.subj.1pl)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "εὐφραινώμεθα·",
+          "definition": "that we rejoice (pres.mid.subj.1pl)"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because"
+        },
+        {
+          "greek": "οὗτος",
+          "definition": "this"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "υἱός",
+          "definition": "son (nom.m.sg)"
+        },
+        {
+          "greek": "μου",
+          "definition": "my"
+        },
+        {
+          "greek": "νεκρὸς",
+          "definition": "dead (nom.m.sg)"
+        },
+        {
+          "greek": "ἦν",
+          "definition": "was (impf.act.ind.3sg.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "νῦν",
+          "definition": "now"
+        },
+        {
+          "greek": "ζῇ,",
+          "definition": "may live"
+        },
+        {
+          "greek": "ἀπώλετο",
+          "definition": "was lost, perished (aor.mid.ind.3sg)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "εὗρον",
+          "definition": "I found (aor.act.ind.1sg)"
+        },
+        {
+          "greek": "αὐτόν.",
+          "definition": "it"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἔχαιρον",
+          "definition": "was rejoicing (impf.act.ind.1sg.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ηὐφραίνοντο",
+          "definition": "were rejoicing (impf.mid.ind.3pl)"
+        },
+        {
+          "greek": "λίαν",
+          "definition": "very much"
+        },
+        {
+          "greek": "πάντες",
+          "definition": "all"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the (dat.)"
+        },
+        {
+          "greek": "οἴκῳ.",
+          "definition": "house"
+        }
+      ],
+      "id": 74
+    },
+    {
+      "words": [
+        {
+          "greek": "Ἦν",
+          "definition": "was (impf.act.ind.3sg.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "υἱὸς",
+          "definition": "son"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "πρεσβύτερος",
+          "definition": "older, elder (nom.m.sg)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "ἀγρῷ·",
+          "definition": "field"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὡς",
+          "definition": "as, like"
+        },
+        {
+          "greek": "ἐρχόμενος",
+          "definition": "coming (pres.mid.part.nom.m.sg)"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (fem. acc.)"
+        },
+        {
+          "greek": "οἰκίαν",
+          "definition": "house (acc.f.sg.)"
+        },
+        {
+          "greek": "ἤκουεν",
+          "definition": "was hearing (impf.act.ind.3sg.)"
+        },
+        {
+          "greek": "συμφωνίας",
+          "definition": "music (gen.f.sg)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "χορῶν.",
+          "definition": "of dances (gen.m.pl)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "προσελθὼν",
+          "definition": "having come to (aor.act.part.nom.m.sg)"
+        },
+        {
+          "greek": "ἑνὶ",
+          "definition": "to one (dat.m.sg)"
+        },
+        {
+          "greek": "τῶν",
+          "definition": "the (gen. pl.)"
+        },
+        {
+          "greek": "δούλων",
+          "definition": "servants"
+        },
+        {
+          "greek": "ἐπυνθάνετο",
+          "definition": "was inquiring (impf.mid.ind.3sg)"
+        },
+        {
+          "greek": "τί",
+          "definition": "what"
+        },
+        {
+          "greek": "ἂν",
+          "definition": "(modal particle — conditional/potential)"
+        },
+        {
+          "greek": "εἴη",
+          "definition": "might be (opt.3sg)"
+        },
+        {
+          "greek": "ταῦτα.",
+          "definition": "these things"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "εἶπεν",
+          "definition": "said (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "αὐτῷ",
+          "definition": "for him"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "ἀδελφός",
+          "definition": "brother (nom.m.sg)"
+        },
+        {
+          "greek": "σου",
+          "definition": "your"
+        },
+        {
+          "greek": "ἥκει,",
+          "definition": "arrives"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "θύει",
+          "definition": "slaughters (pres.act.ind.3sg)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "πατήρ",
+          "definition": "father"
+        },
+        {
+          "greek": "σου",
+          "definition": "your"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "μόσχον",
+          "definition": "calf (acc.m.sg)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "σιτευτόν,",
+          "definition": "fattened (acc.m.sg)"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because"
+        },
+        {
+          "greek": "ὑγιαίνοντα",
+          "definition": "being well, safe (pres.act.part.acc.m.sg)"
+        },
+        {
+          "greek": "αὐτὸν",
+          "definition": "him"
+        },
+        {
+          "greek": "ἀπέλαβεν.",
+          "definition": "received back (aor.act.ind.3sg)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "πατήρ",
+          "definition": "father"
+        },
+        {
+          "greek": "σου",
+          "definition": "your"
+        },
+        {
+          "greek": "χαίρει,",
+          "definition": "rejoices"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because"
+        },
+        {
+          "greek": "ζῶντα",
+          "definition": "living (pres.act.part.acc.m.sg)"
+        },
+        {
+          "greek": "αὐτὸν",
+          "definition": "him"
+        },
+        {
+          "greek": "εὗρεν.",
+          "definition": "found (aor.act.ind.3sg)"
+        },
+        {
+          "greek": "πυθόμενος",
+          "definition": "having learned (aor.mid.part.nom.m.sg)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "ταῦτα",
+          "definition": "these things"
+        },
+        {
+          "greek": "οὐκ",
+          "definition": "not"
+        },
+        {
+          "greek": "ἤθελεν",
+          "definition": "wanted (impf.act.ind.3sg)"
+        },
+        {
+          "greek": "εἰσελθεῖν.",
+          "definition": "to enter (aor.act.inf.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "πατὴρ",
+          "definition": "father (nom.)"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "ἐξελθὼν",
+          "definition": "having gone out (aor.act.part.)"
+        },
+        {
+          "greek": "παρεκάλει",
+          "definition": "was urging, beseeching (impf.act.ind.3sg)"
+        },
+        {
+          "greek": "αὐτόν.",
+          "definition": "it"
+        }
+      ],
+      "id": 75
+    },
+    {
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "εἶπεν",
+          "definition": "said (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the (dat.)"
+        },
+        {
+          "greek": "πατρὶ·",
+          "definition": "to father (dat.m.sg)"
+        },
+        {
+          "greek": "ἰδοὺ",
+          "definition": "behold, look!"
+        },
+        {
+          "greek": "πολὺν",
+          "definition": "much, many"
+        },
+        {
+          "greek": "χρόνον",
+          "definition": "time"
+        },
+        {
+          "greek": "δουλεύω",
+          "definition": "I serve, am a slave (pres.act.ind.1sg)"
+        },
+        {
+          "greek": "σοι,",
+          "definition": "to you"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "οὐδέποτε",
+          "definition": "never"
+        },
+        {
+          "greek": "ἐντολήν",
+          "definition": "commandment (acc.f.sg)"
+        },
+        {
+          "greek": "σου",
+          "definition": "your"
+        },
+        {
+          "greek": "παρῆλθον,",
+          "definition": "I transgressed (aor.act.ind.1sg)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐμοὶ",
+          "definition": "me (dat.)"
+        },
+        {
+          "greek": "οὐδέποτε",
+          "definition": "never"
+        },
+        {
+          "greek": "ἔδωκας",
+          "definition": "you gave (aor.act.ind.2sg.)"
+        },
+        {
+          "greek": "ἔριφον",
+          "definition": "young goat (acc.m.sg)"
+        },
+        {
+          "greek": "ἵνα",
+          "definition": "so that"
+        },
+        {
+          "greek": "μετὰ",
+          "definition": "with"
+        },
+        {
+          "greek": "τῶν",
+          "definition": "the (gen. pl.)"
+        },
+        {
+          "greek": "φίλων",
+          "definition": "of friends"
+        },
+        {
+          "greek": "μου",
+          "definition": "my"
+        },
+        {
+          "greek": "εὐφραίνωμαι·",
+          "definition": "that I rejoice (pres.mid.subj.1sg)"
+        }
+      ],
+      "id": 76
+    },
+    {
+      "words": [
+        {
+          "greek": "ὅτε",
+          "definition": "when"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "υἱός",
+          "definition": "son (nom.m.sg)"
+        },
+        {
+          "greek": "σου",
+          "definition": "your"
+        },
+        {
+          "greek": "οὗτος",
+          "definition": "this"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "καταφαγών",
+          "definition": "having devoured (aor.act.part.nom.m.sg)"
+        },
+        {
+          "greek": "σου",
+          "definition": "your"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "βίον",
+          "definition": "life, property, estate (acc.m.sg)"
+        },
+        {
+          "greek": "μετὰ",
+          "definition": "with"
+        },
+        {
+          "greek": "πορνῶν",
+          "definition": "of prostitutes (gen.f.pl)"
+        },
+        {
+          "greek": "ἦλθεν,",
+          "definition": "came (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "θύεις",
+          "definition": "you slaughter (pres.act.ind.2sg)"
+        },
+        {
+          "greek": "αὐτῷ",
+          "definition": "for him"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "σιτευτὸν",
+          "definition": "fattened (acc.m.sg)"
+        },
+        {
+          "greek": "μόσχον.",
+          "definition": "calf (acc.m.sg)"
+        }
+      ],
+      "id": 77
+    },
+    {
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "εἶπεν",
+          "definition": "said (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "αὐτῷ·",
+          "definition": "for him"
+        },
+        {
+          "greek": "τέκνον,",
+          "definition": "child, offspring"
+        },
+        {
+          "greek": "σὺ",
+          "definition": "you"
+        },
+        {
+          "greek": "πάντοτε",
+          "definition": "always"
+        },
+        {
+          "greek": "μετ'",
+          "definition": "with (elided μετά, before rough breathing)"
+        },
+        {
+          "greek": "ἐμοῦ",
+          "definition": "me"
+        },
+        {
+          "greek": "εἶ,",
+          "definition": "you are"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "πάντα",
+          "definition": "all"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the (neuter pl.)"
+        },
+        {
+          "greek": "ἐμὰ",
+          "definition": "my things (nom.n.pl)"
+        },
+        {
+          "greek": "σά",
+          "definition": "yours (nom.n.pl)"
+        },
+        {
+          "greek": "ἐστιν·",
+          "definition": "is (3rd sg. of εἰμί)"
+        },
+        {
+          "greek": "εὐφραίνεσθαι",
+          "definition": "to rejoice (pres.mid.inf.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "χαίρειν",
+          "definition": "to rejoice (inf.)"
+        },
+        {
+          "greek": "ἔδει,",
+          "definition": "it was necessary (impf.ind.3sg of δεῖ)"
+        },
+        {
+          "greek": "ὅτι",
+          "definition": "because"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "ἀδελφός",
+          "definition": "brother (nom.m.sg)"
+        },
+        {
+          "greek": "σου",
+          "definition": "your"
+        },
+        {
+          "greek": "οὗτος",
+          "definition": "this"
+        },
+        {
+          "greek": "νεκρὸς",
+          "definition": "dead (nom.m.sg)"
+        },
+        {
+          "greek": "ἦν",
+          "definition": "was (impf.act.ind.3sg.)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "νῦν",
+          "definition": "now"
+        },
+        {
+          "greek": "ζῇ.",
+          "definition": "may live"
+        }
+      ],
+      "id": 78
+    },
+    {
+      "words": [
+        {
+          "greek": "ἀκούοντες",
+          "definition": "hearing (pres.act.ptcp.nom.m.pl. of ἀκούω)"
+        },
+        {
+          "greek": "σιγῶσιν",
+          "definition": "are silent (pres.act.ind.3pl.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the (neuter pl.)"
+        },
+        {
+          "greek": "τέκνα.",
+          "definition": "children"
+        }
+      ],
+      "id": 79
+    },
+    {
+      "words": [
+        {
+          "greek": "\"νῦν",
+          "definition": "now"
+        },
+        {
+          "greek": "συνήκατε,",
+          "definition": "you understood (aor.act.ind.2pl)"
+        },
+        {
+          "greek": "ὦ",
+          "definition": "O! (vocative)"
+        },
+        {
+          "greek": "τέκνα,\"",
+          "definition": "children"
+        },
+        {
+          "greek": "λέγει",
+          "definition": "says"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "Ἰάκωβος.",
+          "definition": "Jacob"
+        },
+        {
+          "greek": "\"ἀλλὰ",
+          "definition": "but"
+        },
+        {
+          "greek": "μάθετε",
+          "definition": "learn! (aor.act.impv.2pl. of μανθάνω)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "τοῦτο·",
+          "definition": "this"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "πατὴρ",
+          "definition": "father (nom.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "the"
+        },
+        {
+          "greek": "παραβολῇ",
+          "definition": "parable (dat.f.sg)"
+        },
+        {
+          "greek": "οὐκ",
+          "definition": "not"
+        },
+        {
+          "greek": "ἔμεινεν",
+          "definition": "stayed (aor.act.ind.3sg)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the (dat.)"
+        },
+        {
+          "greek": "οἴκῳ,",
+          "definition": "house"
+        },
+        {
+          "greek": "ἀλλ᾽",
+          "definition": "but"
+        },
+        {
+          "greek": "ἐξῆλθεν",
+          "definition": "went out (aor.act.ind.3sg.)"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "ἀμφοτέρους",
+          "definition": "both (acc.m.pl)"
+        },
+        {
+          "greek": "τοὺς",
+          "definition": "the (acc. pl.)"
+        },
+        {
+          "greek": "υἱούς.",
+          "definition": "sons (acc.m.pl)"
+        },
+        {
+          "greek": "τοιοῦτός",
+          "definition": "such a one (nom.m.sg)"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is (3rd sg. of εἰμί)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "θεός·",
+          "definition": "God"
+        },
+        {
+          "greek": "ἀγαθός",
+          "definition": "good"
+        },
+        {
+          "greek": "ἐστιν",
+          "definition": "is (3rd sg. of εἰμί)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "πιστός,",
+          "definition": "faithful"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐλεεῖ",
+          "definition": "has mercy on (pres.act.ind.3sg)"
+        },
+        {
+          "greek": "ἡμᾶς.",
+          "definition": "us (acc.)"
+        },
+        {
+          "greek": "καθὼς",
+          "definition": "just as"
+        },
+        {
+          "greek": "οὖν",
+          "definition": "therefore"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "πατὴρ",
+          "definition": "father (nom.)"
+        },
+        {
+          "greek": "ὑμῶν",
+          "definition": "you all (gen.pl.)"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τοῖς",
+          "definition": "the"
+        },
+        {
+          "greek": "οὐρανοῖς",
+          "definition": "heavens (dat.m.pl.)"
+        },
+        {
+          "greek": "ἐλεεῖ",
+          "definition": "has mercy on (pres.act.ind.3sg)"
+        },
+        {
+          "greek": "ὑμᾶς,",
+          "definition": "you (acc.pl.)"
+        },
+        {
+          "greek": "οὕτως",
+          "definition": "so, thus"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὑμεῖς",
+          "definition": "you (pl.)"
+        },
+        {
+          "greek": "ἐλεεῖτε",
+          "definition": "have mercy on one another (pres.act.imv.2pl)"
+        },
+        {
+          "greek": "ἀλλήλους.\"",
+          "definition": "one another (acc.)"
+        }
+      ],
+      "id": 80
+    },
+    {
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Πέτρος,",
+          "definition": "Peter (nom.m.sg.)"
+        },
+        {
+          "greek": "προσελθὼν",
+          "definition": "having come to (aor.act.part.nom.m.sg)"
+        },
+        {
+          "greek": "τῷ",
+          "definition": "the (dat.)"
+        },
+        {
+          "greek": "ἀδελφῷ·",
+          "definition": "to a brother (dat.m.sg)"
+        },
+        {
+          "greek": "\"Μαθθαῖε,",
+          "definition": "Matthew! (voc.m.sg.)"
+        },
+        {
+          "greek": "ἥμαρτον",
+          "definition": "I sinned (aor.act.ind.1sg.)"
+        },
+        {
+          "greek": "εἰς",
+          "definition": "into"
+        },
+        {
+          "greek": "σέ·",
+          "definition": "you (acc.sg.)"
+        },
+        {
+          "greek": "ἔδακνὸν",
+          "definition": "I was biting (impf.act.ind.1sg — ἔδακνον variant)"
+        },
+        {
+          "greek": "σε",
+          "definition": "you"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "λαβὼν",
+          "definition": "taking (aor.act.ptc.nom.m.sg.)"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "καρπόν",
+          "definition": "fruit"
+        },
+        {
+          "greek": "σου",
+          "definition": "your"
+        },
+        {
+          "greek": "ἔφαγον,",
+          "definition": "I ate! (aor.act.ind.1sg.)"
+        },
+        {
+          "greek": "ἄφες",
+          "definition": "forgive! (aor.act.imv.2sg)"
+        },
+        {
+          "greek": "μοι.\"",
+          "definition": "me"
+        }
+      ],
+      "id": 81
+    },
+    {
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Μαθθαῖος",
+          "definition": "Matthew (nom.m.sg.)"
+        },
+        {
+          "greek": "\"πάλιν",
+          "definition": "again"
+        },
+        {
+          "greek": "δεῖ",
+          "definition": "it is necessary"
+        },
+        {
+          "greek": "με",
+          "definition": "me"
+        },
+        {
+          "greek": "ἀφεῖναι",
+          "definition": "to forgive (aor.act.inf.)"
+        },
+        {
+          "greek": "αὐτῷ,",
+          "definition": "for him"
+        },
+        {
+          "greek": "πάτερ;\"",
+          "definition": "father! (voc.m.sg.)"
+        }
+      ],
+      "id": 82
+    },
+    {
+      "words": [
+        {
+          "greek": "\"ναί,",
+          "definition": "yes"
+        },
+        {
+          "greek": "ὦ",
+          "definition": "O! (vocative)"
+        },
+        {
+          "greek": "τέκνον·",
+          "definition": "child, offspring"
+        },
+        {
+          "greek": "ἀφίετε",
+          "definition": "forgive one another! (pres.act.imv.2pl)"
+        },
+        {
+          "greek": "ἀλλήλοις,",
+          "definition": "to one another"
+        },
+        {
+          "greek": "ἵνα",
+          "definition": "so that"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "πατὴρ",
+          "definition": "father (nom.)"
+        },
+        {
+          "greek": "ὑμῶν",
+          "definition": "you all (gen.pl.)"
+        },
+        {
+          "greek": "ἀφῇ",
+          "definition": "that he forgive (aor.act.subj.3sg)"
+        },
+        {
+          "greek": "ὑμῖν.\"",
+          "definition": "for you (pl.)"
+        }
+      ],
+      "id": 83
+    },
+    {
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Μαθθαῖος",
+          "definition": "Matthew (nom.m.sg.)"
+        },
+        {
+          "greek": "λέγει·",
+          "definition": "says"
+        },
+        {
+          "greek": "\"καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἀφίημί",
+          "definition": "I forgive (pres.act.ind.1sg.)"
+        },
+        {
+          "greek": "σοι.\"",
+          "definition": "to you"
+        }
+      ],
+      "id": 84
+    },
+    {
+      "words": [
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "Πέτρος,",
+          "definition": "Peter (nom.m.sg.)"
+        },
+        {
+          "greek": "χαίρων",
+          "definition": "rejoicing (pres.act.part.nom.m.sg)"
+        },
+        {
+          "greek": "μεγάλῃ",
+          "definition": "great, loud (dat.)"
+        },
+        {
+          "greek": "χαρᾷ,",
+          "definition": "joy (dat.f.sg)"
+        },
+        {
+          "greek": "δραμὼν",
+          "definition": "having run (aor.act.part.nom.m.sg)"
+        },
+        {
+          "greek": "ἐπέπεσεν",
+          "definition": "fell upon (aor.act.ind.3sg)"
+        },
+        {
+          "greek": "ἐπὶ",
+          "definition": "on"
+        },
+        {
+          "greek": "τὸν",
+          "definition": "the (acc.)"
+        },
+        {
+          "greek": "τράχηλον",
+          "definition": "neck (acc.m.sg)"
+        },
+        {
+          "greek": "αὐτοῦ",
+          "definition": "his"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "κατεφίλει",
+          "definition": "was kissing tenderly (impf.act.ind.3sg)"
+        },
+        {
+          "greek": "αὐτόν,",
+          "definition": "it"
+        },
+        {
+          "greek": "ὥσπερ",
+          "definition": "just as, like"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "πατὴρ",
+          "definition": "father (nom.)"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "the"
+        },
+        {
+          "greek": "παραβολῇ.",
+          "definition": "parable (dat.f.sg)"
+        },
+        {
+          "greek": "εὐφραίνεται",
+          "definition": "rejoices (pres.mid.ind.3sg)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ὁ",
+          "definition": "the (masc. nominative)"
+        },
+        {
+          "greek": "Μαθθαῖος.",
+          "definition": "Matthew (nom.m.sg.)"
+        }
+      ],
+      "id": 85
+    },
+    {
+      "words": [
+        {
+          "greek": "ὀψίας",
+          "definition": "of evening (gen.)"
+        },
+        {
+          "greek": "δὲ",
+          "definition": "and, but (δέ)"
+        },
+        {
+          "greek": "γενομένης,",
+          "definition": "when evening came (aor.mid.part.gen.f.sg)"
+        },
+        {
+          "greek": "λαμβάνουσιν",
+          "definition": "they take (pres.act.ind.3pl)"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (fem. acc.)"
+        },
+        {
+          "greek": "πήραν",
+          "definition": "bag"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἀπέρχονται",
+          "definition": "they go away (pres.mid.ind.3pl)"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (fem. acc.)"
+        },
+        {
+          "greek": "κώμην,",
+          "definition": "village"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "οἱ",
+          "definition": "the (masc. pl.)"
+        },
+        {
+          "greek": "δύο",
+          "definition": "two"
+        },
+        {
+          "greek": "ἀδελφοί,",
+          "definition": "brothers (nom.m.pl)"
+        },
+        {
+          "greek": "φίλοι",
+          "definition": "friends (nom.pl.)"
+        },
+        {
+          "greek": "πάλιν",
+          "definition": "again"
+        },
+        {
+          "greek": "γενόμενοι",
+          "definition": "having become (aor.mid.part.nom.m.pl)"
+        },
+        {
+          "greek": "καὶ",
+          "definition": "and"
+        },
+        {
+          "greek": "ἐπιλαθόμενοι",
+          "definition": "having forgotten (aor.mid.part.nom.m.pl)"
+        },
+        {
+          "greek": "τὰ",
+          "definition": "the (neuter pl.)"
+        },
+        {
+          "greek": "κακὰ",
+          "definition": "evil things"
+        },
+        {
+          "greek": "αὐτῶν,",
+          "definition": "their"
+        },
+        {
+          "greek": "πορεύονται",
+          "definition": "travel"
+        },
+        {
+          "greek": "ἅμα",
+          "definition": "together, at the same time"
+        },
+        {
+          "greek": "ἐν",
+          "definition": "in"
+        },
+        {
+          "greek": "τῇ",
+          "definition": "the"
+        },
+        {
+          "greek": "ὁδῷ",
+          "definition": "road, way"
+        },
+        {
+          "greek": "πρὸς",
+          "definition": "toward"
+        },
+        {
+          "greek": "τὴν",
+          "definition": "the (fem. acc.)"
+        },
+        {
+          "greek": "κώμην.",
+          "definition": "village"
+        }
+      ],
+      "id": 86
     }
   ]
 }
