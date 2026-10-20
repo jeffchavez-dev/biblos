@@ -4299,7 +4299,21 @@
         }
       ],
       "label": "Μέρος Βʹ — Οἱ Δύο Υἱοί (Part B — The Two Sons)",
-      "id": 45
+      "id": 45,
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "σκιάν",
+          "lemma": "ἡ σκιά",
+          "means": "ἡ σκιά · shade, shadow"
+        },
+        {
+          "type": "construction",
+          "title": "τιθέασιν — μι-ῥῆμα",
+          "phrase": "τιθέασιν ἄρτον ὑπὸ τὴν σκιάν",
+          "means": "τίθημι · 3pl pres: τιθέασιν — they place"
+        }
+      ]
     },
     {
       "words": [
@@ -4340,7 +4354,15 @@
           "definition": "bread"
         }
       ],
-      "id": 46
+      "id": 46,
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "ἐπελάθετο λαβεῖν",
+          "phrase": "ἐπελάθετο λαβεῖν τὸν ἄρτον",
+          "means": "ἐπιλανθάνομαι + infinitive · forgot to take"
+        }
+      ]
     },
     {
       "words": [
@@ -4365,7 +4387,8 @@
           "definition": "I forgot (aor.mid.ind.1sg)"
         }
       ],
-      "id": 47
+      "id": 47,
+      "sideNotes": []
     },
     {
       "words": [
@@ -4390,7 +4413,8 @@
           "definition": "you forgot (aor.mid.ind.2sg)"
         }
       ],
-      "id": 48
+      "id": 48,
+      "sideNotes": []
     },
     {
       "words": [
@@ -4467,7 +4491,8 @@
           "definition": "you (acc.pl.)"
         }
       ],
-      "id": 49
+      "id": 49,
+      "sideNotes": []
     },
     {
       "words": [
@@ -4516,7 +4541,8 @@
           "definition": "shade (acc.f.sg)"
         }
       ],
-      "id": 50
+      "id": 50,
+      "sideNotes": []
     },
     {
       "words": [
@@ -4561,7 +4587,8 @@
           "definition": "field"
         }
       ],
-      "id": 51
+      "id": 51,
+      "sideNotes": []
     },
     {
       "words": [
@@ -4594,7 +4621,8 @@
           "definition": "Peter (nom.m.sg.)"
         }
       ],
-      "id": 52
+      "id": 52,
+      "sideNotes": []
     },
     {
       "words": [
@@ -4671,7 +4699,8 @@
           "definition": "you ate (aor.act.ind.2sg.)"
         }
       ],
-      "id": 53
+      "id": 53,
+      "sideNotes": []
     },
     {
       "words": [
@@ -4700,7 +4729,8 @@
           "definition": "it"
         }
       ],
-      "id": 54
+      "id": 54,
+      "sideNotes": []
     },
     {
       "words": [
@@ -4737,7 +4767,8 @@
           "definition": "fruit"
         }
       ],
-      "id": 55
+      "id": 55,
+      "sideNotes": []
     },
     {
       "words": [
@@ -4766,7 +4797,8 @@
           "definition": "me"
         }
       ],
-      "id": 56
+      "id": 56,
+      "sideNotes": []
     },
     {
       "words": [
@@ -4799,7 +4831,8 @@
           "definition": "brothers (nom.m.pl)"
         }
       ],
-      "id": 57
+      "id": 57,
+      "sideNotes": []
     },
     {
       "words": [
@@ -4872,7 +4905,8 @@
           "definition": "your"
         }
       ],
-      "id": 58
+      "id": 58,
+      "sideNotes": []
     },
     {
       "words": [
@@ -4977,7 +5011,8 @@
           "definition": "field"
         }
       ],
-      "id": 59
+      "id": 59,
+      "sideNotes": []
     },
     {
       "words": [
@@ -5022,7 +5057,8 @@
           "definition": "I lead (pres.act.ind.1sg)"
         }
       ],
-      "id": 60
+      "id": 60,
+      "sideNotes": []
     },
     {
       "words": [
@@ -5135,7 +5171,15 @@
           "definition": "are"
         }
       ],
-      "id": 61
+      "id": 61,
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "δραμὼν",
+          "lemma": "τρέχω",
+          "means": "τρέχω · aor: ἔδραμον, δραμών — I run"
+        }
+      ]
     },
     {
       "words": [
@@ -5196,7 +5240,8 @@
           "definition": "that it drink (aor.act.subj.3sg)"
         }
       ],
-      "id": 62
+      "id": 62,
+      "sideNotes": []
     },
     {
       "words": [
@@ -5285,7 +5330,8 @@
           "definition": "stones"
         }
       ],
-      "id": 63
+      "id": 63,
+      "sideNotes": []
     },
     {
       "words": [
@@ -5378,7 +5424,8 @@
           "definition": "Jesus"
         }
       ],
-      "id": 64
+      "id": 64,
+      "sideNotes": []
     },
     {
       "words": [
@@ -5583,7 +5630,27 @@
           "definition": "of the father"
         }
       ],
-      "id": 65
+      "id": 65,
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "Ματθαίου ΚΑʹ:ΚΗ–ΛΑ",
+          "phrase": "ἄνθρωπος εἶχεν τέκνα δύο",
+          "means": "Ματθαίου ΚΑʹ:ΚΗ–ΛΑ · the parable of the two sons"
+        },
+        {
+          "type": "word",
+          "word": "μετανοῶν",
+          "lemma": "μετανοέω",
+          "means": "μετανοέω · to change one's mind, repent"
+        },
+        {
+          "type": "word",
+          "word": "ἀμπελῶνι",
+          "lemma": "ὁ ἀμπελών",
+          "means": "ὁ ἀμπελών · vineyard — from ἡ ἄμπελος (vine, Κεφ. Εʹ)"
+        }
+      ]
     },
     {
       "words": [
@@ -5608,7 +5675,8 @@
           "definition": "Magdalene (nom.f.sg.)"
         }
       ],
-      "id": 66
+      "id": 66,
+      "sideNotes": []
     },
     {
       "words": [
@@ -5673,7 +5741,8 @@
           "definition": "I gathered (aor.act.ind.1sg)"
         }
       ],
-      "id": 67
+      "id": 67,
+      "sideNotes": []
     },
     {
       "words": [
@@ -5706,7 +5775,8 @@
           "definition": "you gathered (aor.act.ind.2sg)"
         }
       ],
-      "id": 68
+      "id": 68,
+      "sideNotes": []
     },
     {
       "words": [
@@ -5759,7 +5829,8 @@
           "definition": "son (nom.m.sg)"
         }
       ],
-      "id": 69
+      "id": 69,
+      "sideNotes": []
     },
     {
       "words": [
@@ -5832,7 +5903,8 @@
           "definition": "that you learn (aor.act.subj.2pl)"
         }
       ],
-      "id": 70
+      "id": 70,
+      "sideNotes": []
     },
     {
       "words": [
@@ -6037,7 +6109,39 @@
           "definition": "dissolutely, prodigally (adverb)"
         }
       ],
-      "id": 71
+      "id": 71,
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "Λουκᾶ ΙΕʹ:ΙΑ–ΛΒ",
+          "phrase": "ἄνθρωπός τις εἶχεν δύο υἱούς",
+          "means": "Λουκᾶ ΙΕʹ:ΙΑ–ΛΒ · the parable of the prodigal son"
+        },
+        {
+          "type": "word",
+          "word": "βίον",
+          "lemma": "ὁ βίος",
+          "means": "ὁ βίος · earthly life, livelihood, estate — cp. ἡ ζωή (life as gift of God)"
+        },
+        {
+          "type": "word",
+          "word": "οὐσίαν",
+          "lemma": "ἡ οὐσία",
+          "means": "ἡ οὐσία · estate, property"
+        },
+        {
+          "type": "word",
+          "word": "νεώτερος",
+          "lemma": "νεώτερος",
+          "means": "νεώτερος · younger — comp. of νέος; cp. πρεσβύτερος (older)"
+        },
+        {
+          "type": "word",
+          "word": "χώραν",
+          "lemma": "ἡ χώρα",
+          "means": "ἡ χώρα · region, country"
+        }
+      ]
     },
     {
       "words": [
@@ -6238,7 +6342,27 @@
           "definition": "for him"
         }
       ],
-      "id": 72
+      "id": 72,
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "λιμὸς",
+          "lemma": "ἡ λιμός",
+          "means": "ἡ λιμός · famine, hunger"
+        },
+        {
+          "type": "word",
+          "word": "βόσκειν",
+          "lemma": "βόσκω",
+          "means": "βόσκω · to feed, tend animals"
+        },
+        {
+          "type": "word",
+          "word": "χοίρους",
+          "lemma": "ὁ χοῖρος",
+          "means": "ὁ χοῖρος · pig, swine"
+        }
+      ]
     },
     {
       "words": [
@@ -6479,7 +6603,27 @@
           "definition": "your"
         }
       ],
-      "id": 73
+      "id": 73,
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "εἰς ἑαυτὸν ἐλθών",
+          "phrase": "εἰς ἑαυτὸν δὲ ἐλθὼν ἔφη",
+          "means": "εἰς ἑαυτὸν ἐλθεῖν · to come to oneself — to come to one's senses"
+        },
+        {
+          "type": "word",
+          "word": "μίσθιοι",
+          "lemma": "ὁ μίσθιος",
+          "means": "ὁ μίσθιος · hired servant, day laborer"
+        },
+        {
+          "type": "word",
+          "word": "ἐνώπιόν",
+          "lemma": "ἐνώπιον",
+          "means": "ἐνώπιον (+ gen.) · before, in the presence of"
+        }
+      ]
     },
     {
       "words": [
@@ -6924,7 +7068,39 @@
           "definition": "house"
         }
       ],
-      "id": 74
+      "id": 74,
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "γενική ἀπόλυτος",
+          "phrase": "ἔτι δὲ αὐτοῦ μακρὰν ἀπέχοντος",
+          "means": "γενική ἀπόλυτος · while he was still far away — genitive absolute of time"
+        },
+        {
+          "type": "construction",
+          "title": "ἐπέπεσεν ἐπὶ τὸν τράχηλον",
+          "phrase": "δραμὼν ἐπέπεσεν ἐπὶ τὸν τράχηλον αὐτοῦ",
+          "means": "ἐπιπίπτω ἐπὶ τὸν τράχηλον · to fall on the neck — to embrace"
+        },
+        {
+          "type": "word",
+          "word": "μόσχον",
+          "lemma": "ὁ μόσχος",
+          "means": "ὁ μόσχος · calf, young bull"
+        },
+        {
+          "type": "word",
+          "word": "στολὴν",
+          "lemma": "ἡ στολή",
+          "means": "ἡ στολή · robe, long garment"
+        },
+        {
+          "type": "construction",
+          "title": "νεκρὸς ἦν — νῦν ζῇ",
+          "phrase": "νεκρὸς ἦν καὶ νῦν ζῇ, ἀπώλετο καὶ εὗρον αὐτόν",
+          "means": "δύο ἀντιθέσεις · two contrasts — dead / alive; lost / found"
+        }
+      ]
     },
     {
       "words": [
@@ -7221,7 +7397,21 @@
           "definition": "it"
         }
       ],
-      "id": 75
+      "id": 75,
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "πρεσβύτερος",
+          "lemma": "ὁ πρεσβύτερος",
+          "means": "ὁ πρεσβύτερος · the older, elder — comp. of πρέσβυς; cp. νεώτερος"
+        },
+        {
+          "type": "word",
+          "word": "συμφωνίας",
+          "lemma": "ἡ συμφωνία",
+          "means": "ἡ συμφωνία · music, harmony"
+        }
+      ]
     },
     {
       "words": [
@@ -7330,7 +7520,21 @@
           "definition": "that I rejoice (pres.mid.subj.1sg)"
         }
       ],
-      "id": 76
+      "id": 76,
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "ἔριφον",
+          "lemma": "ὁ ἔριφος",
+          "means": "ὁ ἔριφος · young goat, kid"
+        },
+        {
+          "type": "word",
+          "word": "εὐφραίνωμαι",
+          "lemma": "εὐφραίνω",
+          "means": "εὐφραίνω · to gladden, rejoice · cp. χαίρω"
+        }
+      ]
     },
     {
       "words": [
@@ -7411,7 +7615,8 @@
           "definition": "calf (acc.m.sg)"
         }
       ],
-      "id": 77
+      "id": 77,
+      "sideNotes": []
     },
     {
       "words": [
@@ -7540,7 +7745,8 @@
           "definition": "may live"
         }
       ],
-      "id": 78
+      "id": 78,
+      "sideNotes": []
     },
     {
       "words": [
@@ -7565,7 +7771,8 @@
           "definition": "children"
         }
       ],
-      "id": 79
+      "id": 79,
+      "sideNotes": []
     },
     {
       "words": [
@@ -7786,7 +7993,15 @@
           "definition": "one another (acc.)"
         }
       ],
-      "id": 80
+      "id": 80,
+      "sideNotes": [
+        {
+          "type": "word",
+          "word": "ἐλεεῖ",
+          "lemma": "ἐλεέω",
+          "means": "ἐλεέω · to have mercy, show compassion"
+        }
+      ]
     },
     {
       "words": [
@@ -7871,7 +8086,8 @@
           "definition": "me"
         }
       ],
-      "id": 81
+      "id": 81,
+      "sideNotes": []
     },
     {
       "words": [
@@ -7912,7 +8128,8 @@
           "definition": "father! (voc.m.sg.)"
         }
       ],
-      "id": 82
+      "id": 82,
+      "sideNotes": []
     },
     {
       "words": [
@@ -7965,7 +8182,15 @@
           "definition": "for you (pl.)"
         }
       ],
-      "id": 83
+      "id": 83,
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "ἀφίετε ἀλλήλοις",
+          "phrase": "ἀφίετε ἀλλήλοις, ἵνα καὶ ὁ πατὴρ ὑμῶν ἀφῇ ὑμῖν",
+          "means": "Ματθαίου Ϛʹ:ΙΔ · forgive one another, that your Father may also forgive you"
+        }
+      ]
     },
     {
       "words": [
@@ -7998,7 +8223,8 @@
           "definition": "to you"
         }
       ],
-      "id": 84
+      "id": 84,
+      "sideNotes": []
     },
     {
       "words": [
@@ -8103,7 +8329,15 @@
           "definition": "Matthew (nom.m.sg.)"
         }
       ],
-      "id": 85
+      "id": 85,
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "ὥσπερ ὁ πατὴρ ἐν τῇ παραβολῇ",
+          "phrase": "δραμὼν ἐπέπεσεν ἐπὶ τὸν τράχηλον αὐτοῦ...ὥσπερ ὁ πατὴρ ἐν τῇ παραβολῇ",
+          "means": "Πέτρος ποιεῖ ὃ ὁ πατὴρ ἐποίει · Peter does what the father did — the parable becomes real"
+        }
+      ]
     },
     {
       "words": [
@@ -8232,7 +8466,21 @@
           "definition": "village"
         }
       ],
-      "id": 86
+      "id": 86,
+      "sideNotes": [
+        {
+          "type": "construction",
+          "title": "ὀψίας γενομένης",
+          "phrase": "ὀψίας δὲ γενομένης",
+          "means": "γενική ἀπόλυτος · when evening came — genitive absolute of time"
+        },
+        {
+          "type": "word",
+          "word": "πήραν",
+          "lemma": "ἡ πήρα",
+          "means": "ἡ πήρα · bag, knapsack"
+        }
+      ]
     }
   ]
 }
