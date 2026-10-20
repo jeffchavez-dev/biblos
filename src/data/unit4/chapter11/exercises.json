@@ -3,308 +3,338 @@
     {
       "id": 1,
       "part": "A",
-      "question": "What does James tell his children at the beginning of the chapter?",
-      "options": ["Only listen to the word carefully", "Not only listen to the word, but do it and guard it in your heart", "Go immediately to the field and sow", "Keep the commandment written in scripture"],
+      "question": "What does James say a wise man does when he hears Jesus's words?",
+      "options": ["He teaches them to others", "He builds his house on rock", "He writes them in a scroll", "He prays about them"],
       "answer": 1,
-      "explanation": "James says: 'Do not only hear the word, but do it and guard it in your heart. For the one who hears and does not do has no fruit.'"
+      "explanation": "James quotes the parable: the wise man who hears these words and does them is like a man who builds his house on rock."
     },
     {
       "id": 2,
       "part": "A",
-      "question": "Who is like the wise man in Jesus's parable, according to Jesus?",
-      "options": ["The one who only hears the words", "The one who asks questions about the kingdom", "Everyone who hears the words and does them", "The one who sows on the rock"],
-      "answer": 2,
-      "explanation": "Jesus said: 'Everyone who hears my words and does them is like a wise man who dug deep and laid the foundation on the rock.'"
+      "question": "What happens to the house built on rock when the storm comes?",
+      "options": ["It shakes badly", "It does not fall", "It falls into the river", "It needs to be rebuilt"],
+      "answer": 1,
+      "explanation": "The house built on rock does not fall, because it was founded on rock."
     },
     {
       "id": 3,
       "part": "A",
-      "question": "On what did the wise man lay the foundation of his house?",
-      "options": ["On sand", "On rock", "On the earth of the field", "On the stones of the river"],
-      "answer": 1,
-      "explanation": "The wise man dug deep and laid the foundation on the rock. When rain came and rivers beat against the house, it did not fall."
+      "question": "What does Martha compare Peter and Matthew to when she introduces the parable?",
+      "options": ["Seed falling on different soils", "Two builders", "The sons in a parable of Jesus", "Workers who forget their tasks"],
+      "answer": 2,
+      "explanation": "Martha asks James: 'In what parable shall we place our sons?' Then she tells the children a parable of Jesus about two sons."
     },
     {
       "id": 4,
       "part": "A",
-      "question": "What happens to the house built on sand when rain and rivers come?",
-      "options": ["It stands firm like the house on rock", "It sinks slowly into the ground", "It falls immediately, and its ruin is great", "It is protected by the strong foundation"],
+      "question": "In the parable of the Growing Seed, who makes the seed sprout and grow?",
+      "options": ["The farmer by his hard work", "The rain and the sun together", "The earth by itself, automatically", "The children who water it"],
       "answer": 2,
-      "explanation": "The foolish man built his house on sand without a foundation. When rain came and rivers beat against it, the house fell immediately and its ruin was great."
+      "explanation": "The earth produces fruit by itself — automatically — the farmer does not know how."
     },
     {
       "id": 5,
       "part": "A",
-      "question": "Who identifies the rain as tribulation?",
-      "options": ["James", "Martha", "Peter", "Mary Magdalene"],
-      "answer": 3,
-      "explanation": "Mary Magdalene says: 'Now I understood — the rain is tribulation.'"
+      "question": "What does the mustard seed become in the parable?",
+      "options": ["A vine with many branches", "A great tree in whose branches birds nest", "A field full of wheat", "A tall cedar of Lebanon"],
+      "answer": 1,
+      "explanation": "The mustard seed grows into the greatest of garden plants and becomes a tree so that the birds of the sky come and nest in its branches."
     },
     {
       "id": 6,
       "part": "A",
-      "question": "Why does James say the Lord speaks about houses, seeds, and fields?",
-      "options": ["Because everyone in the village is a farmer", "Because the life of the farmer shows the truth of the kingdom of heaven", "Because the children need to learn how to farm", "Because the Lord was a farmer himself"],
+      "question": "In the parable of the Weeds, when does the enemy sow the weeds?",
+      "options": ["During the day while the farmer watches", "While the people are sleeping", "Before the wheat is planted", "After the harvest"],
       "answer": 1,
-      "explanation": "James explains: 'Because the life of the farmer shows the truth of the kingdom of heaven. The works of the field speak about the kingdom.'"
+      "explanation": "While the people were sleeping, the enemy came and sowed weeds among the wheat."
     },
     {
       "id": 7,
       "part": "A",
-      "question": "What does Peter complain about when James gives out the seed?",
-      "options": ["His seed bag is too heavy", "James gave Matthew much seed but him only little", "The field is too far away to sow in", "The sun is too hot to work in the field"],
+      "question": "What does the farmer say to do with the weeds until harvest?",
+      "options": ["Pull them up immediately", "Let them grow together with the wheat", "Burn them at once", "Move them to another field"],
       "answer": 1,
-      "explanation": "Peter says: 'Father, you gave Matthew much seed, but me little; give me more!'"
+      "explanation": "The farmer says: let both grow together until the harvest; at harvest time I will tell the reapers to collect the weeds first and burn them."
     },
     {
       "id": 8,
       "part": "A",
-      "question": "According to Jesus's parable of the growing seed, how does the seed sprout and grow?",
-      "options": ["Because the farmer waters it every day", "Because the farmer works night and day in the field", "By itself, while the man sleeps, and the man does not know how", "Because God tells the farmer exactly what to do"],
-      "answer": 2,
-      "explanation": "The seed sprouts and grows as the man does not know how. The earth bears fruit by itself, first the stalk, then the ear, then the full grain in the ear."
+      "question": "What does James say the field represents in the Weeds parable?",
+      "options": ["The synagogue", "The world", "The kingdom of Israel", "The hearts of the disciples"],
+      "answer": 1,
+      "explanation": "James explains that the field is the world, and the good seed are the sons of the kingdom."
     },
     {
       "id": 9,
-      "part": "A",
-      "question": "What does James say about the word of God in the heart?",
-      "options": ["It grows only if the person works very hard", "It is now small but it grows, and the person does not see it", "It disappears quickly if not read every day", "It becomes strong only in times of suffering"],
+      "part": "B",
+      "question": "Why does Matthew scold Peter when they are eating under the tree?",
+      "options": ["Peter spilled the water", "Peter ate Matthew's fruit after claiming he sowed more seed", "Peter forgot to feed the donkey", "Peter refused to gather the stones"],
       "answer": 1,
-      "explanation": "James says: 'We throw the seed and sleep; God makes it grow. Thus also the word in your heart: now it is small, but it grows, and you do not see it.'"
+      "explanation": "Matthew says Peter took only a little seed, much fell on the road, and then Peter ate Matthew's fruit."
     },
     {
       "id": 10,
       "part": "B",
-      "question": "To what does Jesus compare the kingdom of God in the mustard seed parable?",
-      "options": ["A large tree that is immediately great", "A mustard seed, smallest of all seeds, that grows into the greatest plant", "A farmer who works the largest field", "A seed that only grows in rocky ground"],
+      "question": "What task does James give Matthew after the argument?",
+      "options": ["Gather the small stones from the field", "Lead the sheep to the water", "Bring bread from the village", "Watch over the donkey"],
       "answer": 1,
-      "explanation": "Jesus says the kingdom of God is like a mustard seed — smallest of all seeds — which when sown grows up and becomes greater than all vegetables, making large branches."
+      "explanation": "James tells Matthew to go and lead the sheep to the water."
     },
     {
       "id": 11,
       "part": "B",
-      "question": "What do the birds of the sky do in the mustard tree?",
-      "options": ["They eat the fruit of the tree", "They attack the tree and break the branches", "They nest in the shade of its branches", "They fly away when people approach"],
-      "answer": 2,
-      "explanation": "Jesus says the mustard seed grows so large that the birds of the sky can nest in the shade of its branches."
+      "question": "Why does Peter fail to gather the stones?",
+      "options": ["He does not understand the instruction", "He runs to the tree and watches the birds", "He falls asleep under the shade", "He goes to help Matthew instead"],
+      "answer": 1,
+      "explanation": "Peter eagerly agrees but immediately runs to the tree, sees the birds, and does not bring the stones."
     },
     {
       "id": 12,
       "part": "B",
-      "question": "When were the weeds sown among the wheat in the parable of the weeds?",
-      "options": ["During the harvest time", "While the people were sleeping", "When the servants were working in the field", "At the beginning of the planting season"],
+      "question": "In the first parable Martha tells, what does the first son do after refusing to go to the vineyard?",
+      "options": ["He stays home and sleeps", "He later repents and goes", "He sends his brother instead", "He asks his father to forgive him"],
       "answer": 1,
-      "explanation": "The parable says: 'While the people were sleeping, his enemy came and sowed weeds among the wheat and went away.'"
+      "explanation": "The first son says 'I do not want to,' but later, repenting, he goes."
     },
     {
       "id": 13,
       "part": "B",
-      "question": "Why does the master tell his servants NOT to pull out the weeds immediately?",
-      "options": ["Because the weeds are too deeply rooted", "Because the servants are too few and too weak", "Lest in pulling out the weeds they also pull out the wheat", "Because weeds can become wheat over time"],
-      "answer": 2,
-      "explanation": "The master says: 'No — lest in casting out the weeds you cast out the wheat along with them. Let both grow until the harvest.'"
+      "question": "In the parable of the Prodigal Son, what does the younger son ask his father for?",
+      "options": ["Permission to travel to another country", "The part of the estate that belongs to him", "Work in his father's vineyard", "A robe and ring as a gift"],
+      "answer": 1,
+      "explanation": "The younger son asks: 'Father, give me the portion of the estate that belongs to me.'"
     },
     {
       "id": 14,
       "part": "B",
-      "question": "In James's explanation of the weeds parable, who is the enemy who sowed the weeds?",
-      "options": ["A wicked servant", "A jealous neighbor", "The devil", "Death itself"],
+      "question": "What does the younger son do after spending everything in the far country?",
+      "options": ["He writes a letter to his father", "He finds a new master and becomes rich again", "He comes to his senses and decides to return to his father", "He stays in the far country and keeps working"],
       "answer": 2,
-      "explanation": "James explains: 'The enemy who sowed them is the devil.' The field is the world; the son of man sows the good seed."
+      "explanation": "Coming to himself, he says: 'How many hired servants of my father have bread — I am perishing here with hunger. I will go to my father.'"
     },
     {
       "id": 15,
       "part": "B",
-      "question": "What does James say the righteous will do in the kingdom of the Father?",
-      "options": ["They will rule over all the earth", "They will shine like the sun", "They will harvest the wheat forever", "They will teach all the nations"],
+      "question": "What does the father do when he sees his son returning from far away?",
+      "options": ["He waits at the door and calls the servants", "He runs, falls on his neck, and kisses him", "He sends the elder son to meet him", "He closes the door and will not see him"],
       "answer": 1,
-      "explanation": "James says the righteous will shine like the sun in the kingdom of their Father."
+      "explanation": "While the son was still far away, the father saw him, loved him greatly, ran, fell on his neck, and was kissing him."
+    },
+    {
+      "id": 16,
+      "part": "B",
+      "question": "Why is the elder son angry when he returns from the field?",
+      "options": ["His brother took his room", "His father never gave him a goat to celebrate, yet kills the fattened calf for his brother", "His brother will now inherit more than him", "The servants did not tell him his brother had returned"],
+      "answer": 1,
+      "explanation": "The elder son says: 'You never gave me a young goat to celebrate with my friends, but you kill the fattened calf for this son of yours.'"
+    },
+    {
+      "id": 17,
+      "part": "B",
+      "question": "How does Peter's reconciliation with Matthew mirror the Prodigal Son parable?",
+      "options": ["Peter gives Matthew a robe and ring", "Peter runs and falls on Matthew's neck, just as the father did in the parable", "Matthew goes away and Peter waits for him", "James slaughters an animal to celebrate"],
+      "answer": 1,
+      "explanation": "Peter, rejoicing with great joy, runs and falls on Matthew's neck and kisses him — just as the father did in the parable."
     }
   ],
   "trueFalse": [
     {
       "id": 1,
       "part": "A",
-      "statement": "The one who hears the word but does not do it has no fruit.",
-      "answer": true,
-      "explanation": "James says: 'The one who hears and does not do has no fruit.' He urges not just hearing but doing and guarding the word in the heart."
+      "statement": "The foolish man builds his house on rock.",
+      "answer": false,
+      "explanation": "The foolish man builds on sand; the wise man builds on rock."
     },
     {
       "id": 2,
       "part": "A",
-      "statement": "The foolish man built his house on the rock but without a foundation.",
-      "answer": false,
-      "explanation": "The foolish man built his house on sand without a foundation. The wise man built on the rock."
+      "statement": "When the storm strikes the house built on sand, it falls with a great crash.",
+      "answer": true,
+      "explanation": "The house built on sand falls, and its fall is great."
     },
     {
       "id": 3,
       "part": "A",
-      "statement": "The house built on the rock did not fall when the rain came and the rivers beat against it.",
+      "statement": "Peter sows a single grain of seed in the field to demonstrate the parable.",
       "answer": true,
-      "explanation": "Jesus says that when rain came and rivers beat against the house built on rock, it did not fall — because it was founded on the rock."
+      "explanation": "Peter places one small grain in the ground to illustrate how a tiny seed grows into a great plant."
     },
     {
       "id": 4,
       "part": "A",
-      "statement": "Matthew answers Peter's question about the wise man by saying the wise man was wise.",
-      "answer": true,
-      "explanation": "When Peter asks how the wise man knew rain was coming, Matthew answers: 'Because he was wise.'"
+      "statement": "The mustard seed is the largest of all seeds.",
+      "answer": false,
+      "explanation": "The mustard seed is the smallest of seeds, yet it grows into the greatest plant."
     },
     {
       "id": 5,
       "part": "A",
-      "statement": "The children remain silent after hearing the parable of the two builders.",
-      "answer": true,
-      "explanation": "After James tells the parable of the two builders, the story says: 'The children are silent.'"
+      "statement": "In the Weeds parable, the servants of the householder sowed the weeds.",
+      "answer": false,
+      "explanation": "An enemy sowed the weeds among the wheat while the people were sleeping."
     },
     {
       "id": 6,
       "part": "A",
-      "statement": "The seed grows because the farmer understands and controls how it grows.",
-      "answer": false,
-      "explanation": "Jesus's parable says the seed sprouts and grows as the man does not know how. The earth bears fruit by itself. James also says: 'We throw the seed and sleep; God makes it grow.'"
+      "statement": "The righteous will shine like the sun in the kingdom of their Father.",
+      "answer": true,
+      "explanation": "James explains: 'Then the righteous will shine like the sun in the kingdom of their Father.'"
     },
     {
       "id": 7,
       "part": "A",
-      "statement": "James gave both Peter and Matthew good seed to sow.",
+      "statement": "James says farming parables are suited to the children because they work in the field.",
       "answer": true,
-      "explanation": "James says: 'I gave both good seed; sow therefore.' Peter received less than Matthew, but both received good seed."
+      "explanation": "James explains that he uses parables from farming because the children work the earth and can understand what they see."
     },
     {
       "id": 8,
-      "part": "A",
-      "statement": "Peter immediately sows all his seed carefully across the whole field.",
+      "part": "B",
+      "statement": "Matthew completes his task willingly when James first assigns it.",
       "answer": false,
-      "explanation": "Peter takes only one grain and places it in the ground, then sits watching the ground for a long time, asking how it grows."
+      "explanation": "Matthew refuses at first, saying he always leads the animals."
     },
     {
       "id": 9,
       "part": "B",
-      "statement": "The mustard seed is the smallest of all seeds on the earth.",
+      "statement": "Peter eagerly agrees to gather the stones but never actually does it.",
       "answer": true,
-      "explanation": "Jesus says the mustard seed is the smallest of all the seeds on the earth — yet when sown it grows and becomes greater than all vegetables."
+      "explanation": "Peter says 'I will, father!' but immediately runs to the tree and watches the birds instead."
     },
     {
       "id": 10,
       "part": "B",
-      "statement": "Matthew discovers the weeds growing in the middle of the field where the wheat was already growing.",
-      "answer": true,
-      "explanation": "Matthew goes into the middle of the field where the wheat was already growing and cries out: 'Father, behold — weeds among the wheat!'"
+      "statement": "In Martha's first parable, the son who said 'yes' actually did the work.",
+      "answer": false,
+      "explanation": "The son who said 'yes, lord' did not go; it was the one who first refused but later repented who actually went."
     },
     {
       "id": 11,
       "part": "B",
-      "statement": "The master of the house tells the servants to pull out the weeds right away.",
-      "answer": false,
-      "explanation": "The master says no — let both grow until the harvest, lest pulling out the weeds also uproot the wheat."
+      "statement": "The younger son spent his estate while living in a far country.",
+      "answer": true,
+      "explanation": "He went to a far country and scattered his estate there, living dissolutely."
     },
     {
       "id": 12,
       "part": "B",
-      "statement": "At harvest time, the workers are told to gather the weeds first and burn them.",
-      "answer": true,
-      "explanation": "The master says: 'At harvest time I will say to the workers: take first the weeds and throw them into the fire, then gather the wheat into my storehouse.'"
+      "statement": "The famine that struck the far country helped the younger son find good work.",
+      "answer": false,
+      "explanation": "The famine made his situation worse; he ended up feeding pigs and wanting to eat what the pigs ate."
     },
     {
       "id": 13,
       "part": "B",
-      "statement": "In James's explanation of the parable, the field represents the kingdom of heaven.",
+      "statement": "The younger son planned to return as a son and ask for his inheritance back.",
       "answer": false,
-      "explanation": "James explains that the field is the world, not the kingdom of heaven. The son of man sows good seed in the world."
+      "explanation": "He planned to return and say 'I am no longer worthy to be called your son; place me as one of your hired servants.'"
     },
     {
       "id": 14,
       "part": "B",
-      "statement": "Peter says he wants to shine like the sun in the Father's kingdom.",
+      "statement": "The father gave his returning son a robe, a ring, and sandals.",
       "answer": true,
-      "explanation": "At the end of the chapter, Peter says: 'I want to shine like the sun.' He is referring to what James said about the righteous shining like the sun in the Father's kingdom."
+      "explanation": "The father told his servants: bring the best robe and clothe him, give a ring for his hand and sandals for his feet."
     },
     {
       "id": 15,
       "part": "B",
-      "statement": "Martha is the one who first mentions that the Lord spoke a parable about hearing and doing the word.",
+      "statement": "The elder son was glad when he heard music and dancing at the house.",
+      "answer": false,
+      "explanation": "When the elder son heard music and dancing, he inquired what it was and then refused to go in."
+    },
+    {
+      "id": 16,
+      "part": "B",
+      "statement": "James says the father in the parable went out to both sons.",
       "answer": true,
-      "explanation": "Martha, lifting cups from the table, says to James: 'The Lord also spoke a parable about this, O husband.' This prompts James to tell the two builders parable."
+      "explanation": "James teaches: 'The father in the parable did not stay in the house; he went out to both sons.'"
+    },
+    {
+      "id": 17,
+      "part": "B",
+      "statement": "Matthew immediately forgives Peter without hesitation.",
+      "answer": false,
+      "explanation": "Matthew first asks his father: 'Must I forgive him again?' — then, after James says yes, he forgives."
     }
   ],
   "yesNo": [
     {
       "id": 1,
       "part": "A",
-      "question": "Does the house built on sand fall when the rain comes and the rivers beat against it?",
-      "answer": true,
-      "explanation": "Yes. The rain came and the rivers beat against the house on sand, and it fell immediately, and its ruin was great."
+      "question": "Does a house built on rock fall when storms come?",
+      "answer": false,
+      "explanation": "The house built on rock does not fall; only the house built on sand falls."
     },
     {
       "id": 2,
       "part": "A",
-      "question": "Does Peter ask James to give him more seed than Matthew gave him?",
-      "answer": false,
-      "explanation": "Peter asks James (his father) for more seed — not Matthew. He says James gave Matthew much seed but him only little."
+      "question": "Is the kingdom of heaven like a mustard seed, according to Jesus?",
+      "answer": true,
+      "explanation": "James says Jesus told the parable: the kingdom of heaven is like a mustard seed."
     },
     {
       "id": 3,
       "part": "A",
-      "question": "Does the seed grow by itself in Jesus's parable, without the farmer knowing how?",
-      "answer": true,
-      "explanation": "Yes. The man throws the seed, sleeps and rises, and the seed sprouts and grows as he does not know how. The earth bears fruit by itself."
+      "question": "Does the farmer in the Growing Seed parable understand how the seed sprouts?",
+      "answer": false,
+      "explanation": "The seed sprouts and grows — the farmer does not know how."
     },
     {
       "id": 4,
       "part": "A",
-      "question": "Is the wise man in the parable the one who only heard but did not do?",
-      "answer": false,
-      "explanation": "No. The wise man is the one who both heard and did the words of Jesus. It is the foolish man who hears and does not do."
+      "question": "Will the weeds be burned at the harvest?",
+      "answer": true,
+      "explanation": "The weeds are collected at harvest and burned."
     },
     {
       "id": 5,
-      "part": "A",
-      "question": "Does James confirm that their own house is built on rock?",
+      "part": "B",
+      "question": "Does Martha bring food and water to the family in the field?",
       "answer": true,
-      "explanation": "Yes. When Peter asks 'Is our house on rock?', James says: 'Yes, on rock — for my father himself laid these stones.'"
+      "explanation": "Martha and Magdalene come from the village and place bread, water, and honey in the shade for the family."
     },
     {
       "id": 6,
       "part": "B",
-      "question": "Does the mustard seed become greater than all other vegetables when it grows?",
-      "answer": true,
-      "explanation": "Yes. Jesus says the mustard seed, when sown, grows up and becomes greater than all the vegetables and makes large branches."
+      "question": "In the first parable, does the son who said 'I will go' actually go?",
+      "answer": false,
+      "explanation": "The son who said 'Yes, lord' did not go; the one who said 'I do not want to' later repented and went."
     },
     {
       "id": 7,
       "part": "B",
-      "question": "Does the master of the house want to remove the weeds immediately once they are discovered?",
-      "answer": false,
-      "explanation": "No. The master says to let both grow until the harvest, lest pulling out the weeds also uproot the wheat."
+      "question": "Did the younger son's father see him while he was still far away?",
+      "answer": true,
+      "explanation": "While he was still far away, his father saw him and loved him greatly."
     },
     {
       "id": 8,
       "part": "B",
-      "question": "Is the one who sows the good seed in the parable of the weeds the son of man?",
-      "answer": true,
-      "explanation": "Yes. James explains that the one who sows the good seed is the son of man."
+      "question": "Was the elder son happy that his brother had returned?",
+      "answer": false,
+      "explanation": "The elder son was angry and refused to enter the house."
     },
     {
       "id": 9,
       "part": "B",
-      "question": "Will the righteous shine like the moon in the kingdom of the Father?",
-      "answer": false,
-      "explanation": "No. James says the righteous will shine like the sun — not the moon — in the kingdom of their Father."
+      "question": "Does Peter confess to Matthew that he was wrong?",
+      "answer": true,
+      "explanation": "Peter goes to Matthew and says: 'I sinned against you; I bit you and ate your fruit — forgive me.'"
     },
     {
       "id": 10,
       "part": "B",
-      "question": "Does Matthew ask whether the word of God growing in the heart is like the mustard seed parable?",
+      "question": "Does James say that God has mercy on us, just as the father in the parable?",
       "answer": true,
-      "explanation": "Yes. After James explains about the word growing in the heart, Matthew asks: 'Like the parable of the mustard seed?' and James confirms: 'Certainly.'"
+      "explanation": "James teaches: 'Such is God — he is good and faithful and has mercy on us. As your Father in heaven has mercy on you, so also have mercy on one another.'"
     },
     {
       "id": 11,
       "part": "B",
-      "question": "Does Matthew laugh when Peter complains about receiving less seed?",
-      "answer": true,
-      "explanation": "Yes. Matthew laughs and says: 'He gave me much because I am older than you.'"
+      "question": "Do Peter and Matthew return home as enemies?",
+      "answer": false,
+      "explanation": "Having become friends again and forgetting their wrongs, the two brothers walk together on the road to the village."
     }
   ]
 }

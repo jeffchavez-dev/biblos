@@ -373,5 +373,260 @@
     "partOfSpeech": "adverb",
     "image": "c11a-adverb-25.jpeg",
     "strongsNum": "G260"
+  },
+  {
+    "id": 26,
+    "part": "B",
+    "greek": "ἡ σκιά, -ᾶς",
+    "transliteration": "hē skia",
+    "definition": "shade, shadow",
+    "translations": {
+      "es": "sombra",
+      "pl": "cień",
+      "fil": "anino"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G4639"
+  },
+  {
+    "id": 27,
+    "part": "B",
+    "greek": "ἡ λιμός, -οῦ",
+    "transliteration": "hē limos",
+    "definition": "famine, hunger",
+    "translations": {
+      "es": "hambre",
+      "pl": "głód",
+      "fil": "taggutom"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G3042"
+  },
+  {
+    "id": 28,
+    "part": "B",
+    "greek": "ὁ χοῖρος, -ου",
+    "transliteration": "ho choiros",
+    "definition": "pig, swine",
+    "translations": {
+      "es": "cerdo",
+      "pl": "świnia",
+      "fil": "baboy"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G5519"
+  },
+  {
+    "id": 29,
+    "part": "B",
+    "greek": "ὁ μόσχος, -ου",
+    "transliteration": "ho moschos",
+    "definition": "calf, young bull",
+    "translations": {
+      "es": "ternero",
+      "pl": "cielę",
+      "fil": "guya"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G3448"
+  },
+  {
+    "id": 30,
+    "part": "B",
+    "greek": "ἡ στολή, -ῆς",
+    "transliteration": "hē stolē",
+    "definition": "robe, long garment",
+    "translations": {
+      "es": "manto",
+      "pl": "szata",
+      "fil": "damit"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G4749"
+  },
+  {
+    "id": 31,
+    "part": "B",
+    "greek": "ὁ μίσθιος, -ου",
+    "transliteration": "ho misthios",
+    "definition": "hired servant, day laborer",
+    "translations": {
+      "es": "jornalero",
+      "pl": "najemnik",
+      "fil": "upahang manggagawa"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G3407"
+  },
+  {
+    "id": 32,
+    "part": "B",
+    "greek": "ὁ ἀμπελών, -ῶνος",
+    "transliteration": "ho ampelōn",
+    "definition": "vineyard",
+    "translations": {
+      "es": "viñedo",
+      "pl": "winnica",
+      "fil": "ubasan"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G290"
+  },
+  {
+    "id": 33,
+    "part": "B",
+    "greek": "ὁ βίος, -ου",
+    "transliteration": "ho bios",
+    "definition": "life, livelihood, estate",
+    "translations": {
+      "es": "vida, hacienda",
+      "pl": "życie, majątek",
+      "fil": "kabuhayan"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G979"
+  },
+  {
+    "id": 34,
+    "part": "B",
+    "greek": "ἡ χώρα, -ας",
+    "transliteration": "hē chōra",
+    "definition": "region, country, land",
+    "translations": {
+      "es": "región, país",
+      "pl": "kraj, okolica",
+      "fil": "lugar, rehiyon"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G5561"
+  },
+  {
+    "id": 35,
+    "part": "B",
+    "greek": "ἡ πήρα, -ας",
+    "transliteration": "hē pēra",
+    "definition": "bag, knapsack",
+    "translations": {
+      "es": "bolsa, morral",
+      "pl": "torba",
+      "fil": "bag, supot"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G4082"
+  },
+  {
+    "id": 36,
+    "part": "B",
+    "greek": "ὁ ἔριφος, -ου",
+    "transliteration": "ho eriphos",
+    "definition": "young goat, kid",
+    "translations": {
+      "es": "cabrito",
+      "pl": "koźlę",
+      "fil": "kambing"
+    },
+    "partOfSpeech": "noun",
+    "image": null,
+    "strongsNum": "G2056"
+  },
+  {
+    "id": 37,
+    "part": "B",
+    "greek": "μετανοέω",
+    "transliteration": "metanoeō",
+    "definition": "to repent, change one's mind",
+    "translations": {
+      "es": "arrepentirse",
+      "pl": "nawracać się",
+      "fil": "magsisi"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G3340"
+  },
+  {
+    "id": 38,
+    "part": "B",
+    "greek": "βόσκω",
+    "transliteration": "boskō",
+    "definition": "to feed, tend (animals)",
+    "translations": {
+      "es": "apacentar",
+      "pl": "paść",
+      "fil": "mag-alaga ng hayop"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G1006"
+  },
+  {
+    "id": 39,
+    "part": "B",
+    "greek": "εὐφραίνω",
+    "transliteration": "euphrainō",
+    "definition": "to gladden; (mid.) to rejoice",
+    "translations": {
+      "es": "alegrar(se)",
+      "pl": "radować się",
+      "fil": "magalak"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G2165"
+  },
+  {
+    "id": 40,
+    "part": "B",
+    "greek": "ἐλεέω",
+    "transliteration": "eleeō",
+    "definition": "to have mercy, show compassion",
+    "translations": {
+      "es": "tener misericordia",
+      "pl": "mieć miłosierdzie",
+      "fil": "maawa"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G1653"
+  },
+  {
+    "id": 41,
+    "part": "B",
+    "greek": "ἐπιλανθάνομαι",
+    "transliteration": "epilanthánomai",
+    "definition": "to forget",
+    "translations": {
+      "es": "olvidar",
+      "pl": "zapominać",
+      "fil": "malimutan"
+    },
+    "partOfSpeech": "verb",
+    "image": null,
+    "strongsNum": "G1950"
+  },
+  {
+    "id": 42,
+    "part": "B",
+    "greek": "νεώτερος, -α, -ον",
+    "transliteration": "neōteros",
+    "definition": "younger (comparative of νέος)",
+    "translations": {
+      "es": "más joven",
+      "pl": "młodszy",
+      "fil": "mas bata"
+    },
+    "partOfSpeech": "adjective",
+    "image": null,
+    "strongsNum": "G3501"
   }
 ]
