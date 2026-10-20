@@ -75,7 +75,7 @@ function MarginNote({ note, vocabMap }) {
   return null
 }
 
-export default function StoryTab({ story, vocabulary, allVocabulary, activePart }) {
+export default function StoryTab({ story, vocabulary, allVocabulary, activePart, showSideNotes = true }) {
   const { lang } = useLanguage()
   const ui = useUI()
   const [showTranslation, setShowTranslation] = useState(false)
@@ -350,7 +350,7 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
             <span className="para-number">{i + 1}</span>
             <div className="story-paragraph">
               {(() => {
-                const sideNotes = para.sideNotes ?? (para.sideNote ? [para.sideNote] : [])
+                const sideNotes = showSideNotes ? (para.sideNotes ?? (para.sideNote ? [para.sideNote] : [])) : []
                 const notesOpen = openNotesPara === para.id
                 return (
                   <>
@@ -385,7 +385,7 @@ export default function StoryTab({ story, vocabulary, allVocabulary, activePart 
               })()}
             </div>
             <div className="story-margin-gutter">
-              {renderSideNotes(para.sideNotes ?? (para.sideNote ? [para.sideNote] : []))}
+              {showSideNotes && renderSideNotes(para.sideNotes ?? (para.sideNote ? [para.sideNote] : []))}
             </div>
           </div>
         </div>

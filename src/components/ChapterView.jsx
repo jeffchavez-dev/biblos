@@ -104,7 +104,7 @@ export default function ChapterView({ unitId, chapterId, activePart, onPartChang
           <>
             {/* All tabs stay mounted — hidden with CSS so position is remembered when switching */}
             <div hidden={activeTab !== 'story'}>
-              <StoryTab key={key} story={data.story} vocabulary={data.vocabulary} allVocabulary={allVocabulary} activePart={activePart} />
+              <StoryTab key={key} story={data.story} vocabulary={data.vocabulary} allVocabulary={allVocabulary} activePart={activePart} showSideNotes={unitId < 4} />
             </div>
             <div hidden={activeTab !== 'vocabulary'}>
               <VocabularyTab key={key} words={data.vocabulary} activePart={activePart} unitId={unitId} chapterId={chapterId} onOpenLexicon={onOpenLexicon} />
