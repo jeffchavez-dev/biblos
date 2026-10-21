@@ -2,309 +2,330 @@
   "multipleChoice": [
     {
       "id": 1,
-      "part": "A",
-      "question": "What does the apostle call the human body, according to Jacob?",
-      "options": ["Spirit", "Flesh", "Soul", "Mind"],
+      "question": "τί λέγει ὁ ἀπόστολος ὅτι ἐστιν τὸ σῶμα τοῦ ἀνθρώπου;",
+      "options": [
+        "πνεῦμα",
+        "σάρξ",
+        "καρπός",
+        "ψυχή"
+      ],
       "answer": 1,
-      "explanation": "Jacob says the apostle calls the body 'flesh.' The flesh desires the things of the flesh, while the spirit desires the things of the spirit."
+      "explanation": "ὁ ἀπόστολος καλεῖ τὸ σῶμα σάρκα — the apostle calls the body 'flesh'. The flesh desires things of the flesh.",
+      "part": "A"
     },
     {
       "id": 2,
-      "part": "A",
-      "question": "What happens to the person who walks according to the flesh?",
-      "options": ["He gains great wisdom", "He receives peace in his heart", "He seeks the things of the flesh and dies", "He is guided by the Holy Spirit"],
-      "answer": 2,
-      "explanation": "Jacob explains that the one walking according to the flesh seeks the things of the flesh and dies, while the one walking according to the spirit lives."
+      "question": "τίνα ἐπιθυμεῖ ἡ σάρξ;",
+      "options": [
+        "τὰ πράγματα τοῦ πνεύματος",
+        "τὰ πράγματα τοῦ κόσμου",
+        "τὴν ἀγάπην τοῦ θεοῦ",
+        "τὸν καρπὸν τοῦ δένδρου"
+      ],
+      "answer": 1,
+      "explanation": "ἡ σὰρξ ἐπιθυμεῖ τὰ πράγματα τοῦ κόσμου, οὐ τοῦ πνεύματος — the flesh desires the things of the world, not of the Spirit.",
+      "part": "A"
     },
     {
       "id": 3,
-      "part": "A",
-      "question": "According to Jacob, what is the mindset of the spirit?",
-      "options": ["Death and darkness", "Life and peace", "Wealth and power", "Fear and worry"],
+      "question": "τί λέγει ὁ Ἰάκωβος ὅτι ἔχει ὁ ζῶν κατὰ τὸ πνεῦμα;",
+      "options": [
+        "χρήματα πολλά",
+        "εἰρήνην ἐν τῇ καρδίᾳ",
+        "ἰσχὺν τοῦ σώματος",
+        "γνῶσιν τοῦ νόμου"
+      ],
       "answer": 1,
-      "explanation": "Jacob teaches that the mindset of the flesh is death, but the mindset of the spirit is life and peace."
+      "explanation": "ὁ ζῶν κατὰ τὸ πνεῦμα ἔχει εἰρήνην ἐν τῇ καρδίᾳ — the one living according to the Spirit has peace in the heart.",
+      "part": "A"
     },
     {
       "id": 4,
-      "part": "A",
-      "question": "What does the person living according to the spirit do when his brother sins against him?",
-      "options": ["Hates him and seeks revenge", "Ignores him completely", "Forgives him, just as God forgives us", "Tells others about his wrongdoing"],
-      "answer": 2,
-      "explanation": "Jacob says the one living by the spirit forgives his brother when he sins against him, just as God forgives us."
+      "question": "τίνες εἰσιν τέκνα θεοῦ;",
+      "options": [
+        "οἱ σοφοὶ μόνον",
+        "οἱ ἀγόμενοι ὑπὸ τοῦ πνεύματος τοῦ θεοῦ",
+        "οἱ γεωργοὶ οἱ πολλοὶ κοπιῶντες",
+        "οἱ πλούσιοι"
+      ],
+      "answer": 1,
+      "explanation": "οἱ ἀγόμενοι ὑπὸ τοῦ πνεύματος τοῦ θεοῦ τέκνα θεοῦ εἰσιν — those who are led by the Spirit of God are children of God.",
+      "part": "A"
     },
     {
       "id": 5,
-      "part": "A",
-      "question": "How does Salome describe her own spiritual struggle?",
-      "options": ["She says she always loves and has peace", "She says she often hates instead of loves, and worries instead of having peace", "She says she has already overcome the flesh", "She says she doesn't care about these things"],
+      "question": "τί μαρτυρεῖ τὸ πνεῦμα;",
+      "options": [
+        "ὅτι ὁ κόσμος ἀγαθός ἐστιν",
+        "ὅτι ἐσμὲν τέκνα θεοῦ",
+        "ὅτι ἡ σὰρξ ἰσχυρά ἐστιν",
+        "ὅτι ὁ μισθωτὸς καλός ἐστιν"
+      ],
       "answer": 1,
-      "explanation": "Salome honestly admits: 'Often I do not love but hate, and I do not have peace but I am often anxious. For the flesh desires its own things.'"
+      "explanation": "αὐτὸ τὸ πνεῦμα μαρτυρεῖ τῷ πνεύματι ἡμῶν ὅτι ἐσμὲν τέκνα θεοῦ — the Spirit itself bears witness to our spirit that we are children of God.",
+      "part": "A"
     },
     {
       "id": 6,
-      "part": "A",
-      "question": "What does Jacob say about a person's ability to do the things of God without the Spirit?",
-      "options": ["Anyone can do them with enough effort", "Wise people can do them on their own", "No one can do them without the Spirit", "Only the apostles could do them"],
-      "answer": 2,
-      "explanation": "Jacob says: 'Apart from the Spirit, no one is able to do the things of God.' Neither Salome alone nor Jacob alone can do them."
+      "question": "πῶς θαυμάζει ἡ Σαλώμη ἀκούουσα ὅτι δύναται γίνεσθαι θυγάτηρ τοῦ θεοῦ;",
+      "options": [
+        "λυπεῖται",
+        "θαυμάζει λίαν καὶ χαίρει",
+        "φοβεῖται σφόδρα",
+        "σιγᾷ καὶ ἀπέρχεται"
+      ],
+      "answer": 1,
+      "explanation": "ἡ Σαλώμη θαυμάζει λίαν καὶ χαίρει ἀκούουσα ὅτι δύναται ἀγαπᾶσθαι ὑπὸ τοῦ θεοῦ — Salome is greatly amazed and rejoices hearing that she can be loved by God.",
+      "part": "A"
     },
     {
       "id": 7,
-      "part": "A",
-      "question": "What does the believer do when he surrenders himself to God?",
-      "options": ["He loses his freedom", "God gives back life, peace, and power to walk in the light", "He becomes a slave again", "He receives great wealth"],
-      "answer": 1,
-      "explanation": "The believer hands himself over to God, and God gives back to us life, peace, and power so that we may walk in the light and not in darkness."
+      "question": "τί ἐστιν ὁ πρῶτος καρπὸς τοῦ πνεύματος;",
+      "options": [
+        "ἡ χαρά",
+        "ἡ εἰρήνη",
+        "ἡ ἀγάπη",
+        "ἡ πίστις"
+      ],
+      "answer": 2,
+      "explanation": "ὁ Ἰάκωβος λέγει· ἡ ἀγάπη ἐστὶν τὸ πρῶτον — James says: love is first among the fruits of the Spirit.",
+      "part": "B"
     },
     {
       "id": 8,
-      "part": "A",
-      "question": "What does Salome realize when she hears that she can be loved by God?",
-      "options": ["She becomes sad and silent", "She becomes greatly amazed and rejoices", "She leaves the conversation", "She doubts what Jacob has said"],
+      "question": "τίνι ὁμοιοῖ ὁ Ἰάκωβος τὴν χαρὰν τοῦ πιστεύοντος;",
+      "options": [
+        "τῷ ξένῳ τῷ πίνοντι ὕδωρ",
+        "τῷ γεωργῷ χαίροντι ἐν τῷ κόπῳ ἕνεκα τοῦ καρποῦ",
+        "τῷ ποιμένι φυλάσσοντι τὰ πρόβατα",
+        "τῷ παιδίῳ τρέχοντι"
+      ],
       "answer": 1,
-      "explanation": "Salome marvels greatly, knowing that she can be loved by God and can become a daughter of God, and she rejoices hearing these things."
+      "explanation": "ὥσπερ ὁ γεωργός, καίπερ κοπιῶν, χαίρει ἕνεκα τοῦ καρποῦ, οὕτως ὁ πιστεύων χαίρει ἐν τῷ κυρίῳ — just as the farmer, though toiling, rejoices because of the fruit, so the believer rejoices in the Lord.",
+      "part": "B"
     },
     {
       "id": 9,
-      "part": "B",
-      "question": "How many fruits of the Spirit does Jacob list?",
-      "options": ["Seven", "Eight", "Nine", "Twelve"],
-      "answer": 2,
-      "explanation": "Jacob lists nine fruits: love, joy, peace, patience, kindness, goodness, faith, gentleness, and self-control."
+      "question": "τί ἐστιν ἡ χρηστότης κατὰ τὸν Ἰάκωβον;",
+      "options": [
+        "τὸ κρατεῖν ἑαυτόν",
+        "τὸ ποιεῖν τὸ ἀγαθὸν ἔργον πρὸς τὸν ἄλλον",
+        "τὸ μένειν ἐν τῷ κόπῳ",
+        "τὸ σιγᾶν ἐν πραΰτητι"
+      ],
+      "answer": 1,
+      "explanation": "ἡ χρηστότης ἐστὶν τὸ ποιεῖν τὸ ἀγαθὸν ἔργον πρὸς τὸν ἄλλον καὶ τὸ βοηθεῖν αὐτῷ — kindness is doing good work for another and helping them.",
+      "part": "B"
     },
     {
       "id": 10,
-      "part": "B",
-      "question": "Which fruit of the Spirit does Jacob name first?",
-      "options": ["Joy", "Peace", "Love", "Faith"],
+      "question": "τί ποιεῖ ὁ πραΰς ὅτε ἀκούει κακὰ ῥήματα;",
+      "options": [
+        "ἀποδίδωσιν κακὰ ἀντὶ κακῶν",
+        "κράζει φωνῇ μεγάλῃ",
+        "σιγᾷ ἐν πραΰτητι καὶ οὐ ταράσσεται",
+        "φεύγει ἀπὸ τοῦ ἄλλου"
+      ],
       "answer": 2,
-      "explanation": "Jacob says 'Love is the first.' God is love, and the one who loves his brother does not hate but loves, even laying down his soul for his friends."
+      "explanation": "ὁ πραΰς σιγᾷ ἐν πραΰτητι καὶ οὐ ταράσσεται, οὐδὲ ἀποδίδωσιν κακά — the meek person is silent in meekness and is not troubled, nor does he return evil.",
+      "part": "B"
     },
     {
       "id": 11,
-      "part": "B",
-      "question": "According to Jacob, what is joy?",
-      "options": ["Having no troubles or labor", "Rejoicing always in the Lord, even in labor", "Being free from the flesh entirely", "Laughing at one's enemies"],
+      "question": "τί ἐστιν ἡ ἐγκράτεια;",
+      "options": [
+        "τὸ ἀγαπᾶν τοὺς ἀδελφούς",
+        "τὸ κρατεῖν ἑαυτόν καὶ τὰς ἐπιθυμίας τῆς σαρκός",
+        "τὸ εἶναι πιστὸν πάντοτε",
+        "τὸ χαίρειν ἐν τῷ κόπῳ"
+      ],
       "answer": 1,
-      "explanation": "Jacob says joy is rejoicing always in the Lord. The one who has the Spirit rejoices even in labor, just as the farmer rejoices because of the fruit even while working hard."
+      "explanation": "ἡ ἐγκράτειά ἐστιν τὸ κρατεῖν ἑαυτόν — self-control is mastering oneself, holding the desires of the flesh in check.",
+      "part": "B"
     },
     {
       "id": 12,
-      "part": "B",
-      "question": "What does Jacob say about the joy that the Lord gives?",
-      "options": ["The world can also give it", "It disappears in times of suffering", "It is joy that the world cannot give", "It belongs only to the apostles"],
-      "answer": 2,
-      "explanation": "Jacob explains that the Lord gives a joy which the world is not able to give."
+      "question": "τίνι ὁμοιοῖ ὁ Ἰάκωβος τὴν χρηστότητα;",
+      "options": [
+        "τῷ γεωργῷ σκάπτοντι",
+        "τῇ Σαλώμῃ διδούσῃ ὕδωρ τῷ ξένῳ",
+        "τῷ ποιμένι μένοντι",
+        "τοῖς τέκνοις τρέχουσιν"
+      ],
+      "answer": 1,
+      "explanation": "ὥσπερ σὺ δίδως ὕδωρ τῷ διψῶντι ξένῳ, οὕτως ὁ χρηστὸς ποιεῖ ἀγαθὰ τοῖς ἀδελφοῖς — just as you gave water to the thirsty stranger, so the kind person does good to brothers and sisters.",
+      "part": "B"
     },
     {
       "id": 13,
-      "part": "B",
-      "question": "How does Jacob define peace as a fruit of the Spirit?",
-      "options": ["The absence of all hardship", "The heart that does not fear or become troubled, resting in God", "Having enough food and shelter", "Never having any conflict with others"],
+      "question": "τί ποιεῖ ὁ Ἰάκωβος ὅτε ἔρχεται εἰς τὴν κώμην;",
+      "options": [
+        "βλέπει τὴν πηγήν",
+        "ὁρᾷ τὰ τέκνα τρέχοντα πρὸς αὐτὸν καὶ ἀσπάζεται τὴν γυναῖκα",
+        "διδάσκει ἄλλους περὶ τοῦ πνεύματος",
+        "μένει ἐν τῇ ὁδῷ"
+      ],
       "answer": 1,
-      "explanation": "Jacob says peace is the heart that does not fear and is not troubled; it is resting in God, knowing that all things happen according to God's will."
-    },
-    {
-      "id": 14,
-      "part": "B",
-      "question": "According to Jacob, what does patience (long-suffering) involve?",
-      "options": ["Never experiencing hardship", "Remaining and not becoming troubled even while suffering evil", "Quickly solving all problems", "Leaving a difficult situation"],
-      "answer": 1,
-      "explanation": "Jacob says patience is remaining and not being troubled, even when suffering evil. The patient person remains and is patient toward all, like a farmer waiting for the earth to bear fruit."
-    },
-    {
-      "id": 15,
-      "part": "B",
-      "question": "What comparison does Jacob use to explain kindness?",
-      "options": ["A shepherd guarding his sheep", "The farmer who rests after his labor", "Salome giving water to the thirsty stranger", "The stranger walking to the field"],
-      "answer": 2,
-      "explanation": "Jacob says kindness is doing good deeds for others and helping them, comparing it to Salome giving water to the thirsty stranger: just as she did that, so the kind person does good to his brothers."
+      "explanation": "τὰ τέκνα τοῦ Ἰακώβου τρέχει πρὸς αὐτὸν μετὰ χαρᾶς, καὶ ἡ Μάρθα ἡ γυνὴ αὐτοῦ ἀσπάζεται αὐτόν — his children run to him with joy, and his wife Martha greets him.",
+      "part": "B"
     }
   ],
   "trueFalse": [
     {
       "id": 1,
-      "part": "A",
-      "statement": "The flesh and the spirit desire the same things and cooperate with each other.",
+      "statement": "ἡ σὰρξ ἐπιθυμεῖ τὰ πράγματα τοῦ πνεύματος.",
       "answer": false,
-      "explanation": "Jacob teaches that the flesh desires the things of the flesh and the spirit desires the things of the spirit, and they are opposed to one another."
+      "explanation": "ψεῦδος. ἡ σὰρξ ἐπιθυμεῖ τὰ πράγματα τοῦ κόσμου, οὐ τοῦ πνεύματος — the flesh desires the things of the world, not the Spirit. The Spirit and the flesh are opposed to each other.",
+      "part": "A"
     },
     {
       "id": 2,
-      "part": "A",
-      "statement": "Christians are said to be in the spirit rather than in the flesh.",
+      "statement": "χωρὶς τοῦ πνεύματος οὐδεὶς δύναται ποιεῖν τὰ τοῦ θεοῦ.",
       "answer": true,
-      "explanation": "Jacob states: 'We Christians, in whom the Spirit of God dwells, are not in the flesh but in the Spirit.'"
+      "explanation": "ἀληθές! ὁ Ἰάκωβος λέγει· χωρὶς γὰρ τοῦ πνεύματος οὐδεὶς δύναται ποιεῖν τὰ τοῦ θεοῦ — without the Spirit no one can do the things of God.",
+      "part": "A"
     },
     {
       "id": 3,
-      "part": "A",
-      "statement": "The person living according to the flesh loves his brother and seeks the good of others.",
+      "statement": "οἱ χριστιανοὶ εἰσιν ἐν τῇ σαρκὶ κατὰ τὸν Ἰάκωβον.",
       "answer": false,
-      "explanation": "Jacob says the one living according to the flesh hates his brother and seeks only his own things."
+      "explanation": "ψεῦδος. ὁ Ἰάκωβος λέγει· οὐκ ἐσμὲν ἐν τῇ σαρκὶ ἀλλὰ ἐν τῷ πνεύματι — we are not in the flesh but in the Spirit.",
+      "part": "A"
     },
     {
       "id": 4,
-      "part": "A",
-      "statement": "The one who follows Jesus is taught and guided by the Holy Spirit.",
-      "answer": true,
-      "explanation": "Jacob teaches that the one following Jesus is taught by the Spirit and guided by it."
+      "statement": "ἡ Σαλώμη λέγει ὅτι δύναται ἀγαπᾶν πάντοτε.",
+      "answer": false,
+      "explanation": "ψεῦδος. ἡ Σαλώμη λέγει· πολλάκις γὰρ οὐκ ἀγαπῶ ἀλλὰ μισῶ — Salome says: many times I do not love but hate; she acknowledges her struggle.",
+      "part": "A"
     },
     {
       "id": 5,
-      "part": "A",
-      "statement": "Those who are led by the Spirit of God are slaves of God.",
-      "answer": false,
-      "explanation": "Jacob says those led by the Spirit of God are children of God, not slaves. A slave fears the lord, but a child loves the father who loves him."
+      "statement": "οἱ ἀγόμενοι ὑπὸ τοῦ πνεύματος τοῦ θεοῦ εἰσιν τέκνα θεοῦ.",
+      "answer": true,
+      "explanation": "ἀληθές! οἱ ἀγόμενοι ὑπὸ τοῦ πνεύματος τοῦ θεοῦ τέκνα θεοῦ εἰσιν — those who are led by the Spirit of God are children of God.",
+      "part": "A"
     },
     {
       "id": 6,
-      "part": "A",
-      "statement": "Believers are described as co-heirs with Christ.",
-      "answer": true,
-      "explanation": "Jacob says that if we are children, we are also heirs — heirs of God and co-heirs of Christ."
+      "statement": "ἡ Σαλώμη λυπεῖται ἀκούουσα ὅτι δύναται γίνεσθαι θυγάτηρ τοῦ θεοῦ.",
+      "answer": false,
+      "explanation": "ψεῦδος. ἡ Σαλώμη θαυμάζει λίαν καὶ χαίρει — Salome is greatly amazed and rejoices, not saddened.",
+      "part": "A"
     },
     {
       "id": 7,
-      "part": "A",
-      "statement": "Salome says these teachings are easy and she can easily do them.",
-      "answer": false,
-      "explanation": "Salome says: 'These things are difficult, Jacob. I do not know if I am able to do them.'"
+      "statement": "ἡ ἀγάπη ἐστὶν τὸ πρῶτον τῶν καρπῶν τοῦ πνεύματος.",
+      "answer": true,
+      "explanation": "ἀληθές! ὁ Ἰάκωβος λέγει· ἡ ἀγάπη ἐστὶν τὸ πρῶτον — James says love is first among the fruits.",
+      "part": "B"
     },
     {
       "id": 8,
-      "part": "A",
-      "statement": "The Spirit testifies to our spirit that we are children of God.",
-      "answer": true,
-      "explanation": "Jacob teaches that the Spirit itself bears witness to our spirit that we are children of God."
+      "statement": "ὁ ἔχων τὸ πνεῦμα οὐ χαίρει ἐν τῷ κόπῳ.",
+      "answer": false,
+      "explanation": "ψεῦδος. ὁ ἔχων τὸ πνεῦμα χαίρει καὶ ἐν τῷ κόπῳ χαίρει — the one who has the Spirit rejoices and rejoices even in toil.",
+      "part": "B"
     },
     {
       "id": 9,
-      "part": "B",
-      "statement": "Just as a tree bears fruit, so the Spirit bears fruit in the believer.",
+      "statement": "ἡ εἰρήνη ἐστὶν ἡ καρδία ἡ μὴ φοβουμένη μηδὲ ταρασσομένη.",
       "answer": true,
-      "explanation": "Jacob uses this comparison: just as the tree bears fruit, so the Spirit bears fruit in the one who believes. People led by the Spirit bear this fruit."
+      "explanation": "ἀληθές! ὁ Ἰάκωβος λέγει· ἡ εἰρήνη ἐστὶν ἡ καρδία ἣ οὐ φοβεῖται οὐδὲ ταράσσεται — peace is the heart that does not fear and is not troubled.",
+      "part": "B"
     },
     {
       "id": 10,
-      "part": "B",
-      "statement": "Love seeks its own things and rejoices in injustice.",
+      "statement": "ὁ πραΰς ἀποδίδωσιν κακὸν ἀντὶ κακοῦ.",
       "answer": false,
-      "explanation": "Jacob says love does not seek its own things and does not rejoice in injustice, but rejoices with the truth."
+      "explanation": "ψεῦδος. ὁ πραΰς οὐκ ἀποδίδωσιν κακὸν ἀντὶ κακοῦ — the meek person does not return evil for evil. He is silent in meekness.",
+      "part": "B"
     },
     {
       "id": 11,
-      "part": "B",
-      "statement": "Love lays down one's soul for one's friends.",
+      "statement": "ἡ ἐγκράτεια ἐστὶν τὸ κρατεῖν τὰς ἐπιθυμίας τῆς σαρκός.",
       "answer": true,
-      "explanation": "Jacob says the one who loves his brother lays down his soul for his friends."
+      "explanation": "ἀληθές! ἡ ἐγκράτειά ἐστιν τὸ κρατεῖν ἑαυτόν — self-control is mastering oneself, holding the desires of the flesh in check.",
+      "part": "B"
     },
     {
       "id": 12,
-      "part": "B",
-      "statement": "The patient person is quickly troubled and worries about everything.",
+      "statement": "ὁ ἥλιος ἀνίσταται ὅτε ἀπέρχεται ὁ Ἰάκωβος εἰς τὴν κώμην.",
       "answer": false,
-      "explanation": "Jacob says the patient person remains and does not worry, and is patient toward all — even when suffering evil."
+      "explanation": "ψεῦδος. ὁ ἥλιος βραδέως καταβαίνει ὅτε ἀπέρχονται — the sun is slowly setting when they leave, it is evening.",
+      "part": "B"
     },
     {
       "id": 13,
-      "part": "B",
-      "statement": "When a person has fear or worry, the Spirit gives peace so the heart is no longer troubled.",
+      "statement": "ἡ Μάρθα ἐστὶν ἡ γυνὴ τοῦ Ἰακώβου.",
       "answer": true,
-      "explanation": "Jacob teaches: when a person has fear or worry and cannot sleep or rest, the Spirit gives peace and the heart is no longer troubled."
-    },
-    {
-      "id": 14,
-      "part": "B",
-      "statement": "Salome says she already understands all nine fruits of the Spirit immediately.",
-      "answer": false,
-      "explanation": "Salome says: 'Many names — I do not understand all of them. Tell me.' She asks Jacob to explain each one."
-    },
-    {
-      "id": 15,
-      "part": "B",
-      "statement": "God watches over and guards his children.",
-      "answer": true,
-      "explanation": "Jacob says God, seeing his children, guards them. The one who has peace rests in God, knowing all things happen according to God's will."
+      "explanation": "ἀληθές! ἡ Μάρθα, ἡ γυνὴ αὐτοῦ, ἐξέρχεται ἐκ τοῦ οἴκου καὶ ἀσπάζεται αὐτόν — Martha, his wife, comes out of the house and greets him.",
+      "part": "B"
     }
   ],
   "yesNo": [
     {
       "id": 1,
-      "part": "A",
-      "question": "Does a person have both a body and a spirit, according to Jacob?",
+      "question": "ἆρα ὁ ἄνθρωπος ἔχει καὶ σῶμα καὶ πνεῦμα;",
       "answer": true,
-      "explanation": "Yes. Jacob says a person has both a body (which the apostle calls 'flesh') and a spirit."
+      "explanation": "ναί! ὁ Ἰάκωβος λέγει· ὁ ἄνθρωπος ἔχει καὶ σῶμα καὶ πνεῦμα — a person has both a body and a spirit.",
+      "part": "A"
     },
     {
       "id": 2,
-      "part": "A",
-      "question": "Can Salome do the things of God on her own, without the Spirit?",
+      "question": "ἆρα δύναται ἡ Σαλώμη ἀγαπᾶν μόνη χωρὶς τοῦ πνεύματος;",
       "answer": false,
-      "explanation": "No. Jacob says: 'You alone are not able, nor am I alone able; but this is the work of the Holy Spirit.'"
+      "explanation": "οὔ. ὁ Ἰάκωβος λέγει· σὺ μόνη οὐ δύνασαι — you alone cannot do it; it is the work of the Spirit.",
+      "part": "A"
     },
     {
       "id": 3,
-      "part": "A",
-      "question": "Do believers have forgiveness of sins through Jesus?",
+      "question": "ἆρα ἔχομεν τὴν ἄφεσιν τῶν ἁμαρτιῶν διὰ τὸν Ἰησοῦν;",
       "answer": true,
-      "explanation": "Yes. Jacob says: 'Although we are sinners, through Jesus we have the forgiveness of our sins.'"
+      "explanation": "ναί! διὰ τὸν Ἰησοῦν ἡμεῖς ἔχομεν τὴν ἄφεσιν τῶν ἁμαρτιῶν ἡμῶν — through Jesus we have forgiveness of our sins.",
+      "part": "A"
     },
     {
       "id": 4,
-      "part": "A",
-      "question": "Does the one who walks by the Spirit fulfill the desires of the flesh?",
-      "answer": false,
-      "explanation": "No. Jacob teaches that if we walk by the Spirit, we do not do the things of the flesh."
+      "question": "ἆρα ὁ πιστεύων εἰς τὸν Ἰησοῦν γίνεται κληρονόμος τοῦ θεοῦ;",
+      "answer": true,
+      "explanation": "ναί! εἰ τέκνα ἐσμέν, καὶ κληρονόμοι ἐσμέν — if we are children, we are also heirs of God.",
+      "part": "A"
     },
     {
       "id": 5,
-      "part": "A",
-      "question": "Does the one who believes in God have peace in his heart?",
+      "question": "ἆρα φέρει τὸ πνεῦμα καρπὸν ἐν τῷ πιστεύοντι;",
       "answer": true,
-      "explanation": "Yes. Jacob says the one living according to the spirit trusts in God and has peace in his heart."
+      "explanation": "ναί! ὥσπερ τὸ δένδρον φέρει καρπόν, οὕτως τὸ πνεῦμα φέρει καρπὸν ἐν τῷ πιστεύοντι — just as a tree bears fruit, so the Spirit bears fruit in the believer.",
+      "part": "B"
     },
     {
       "id": 6,
-      "part": "B",
-      "question": "Does the Spirit bear fruit in the believer?",
+      "question": "ἆρα μακροθυμεῖ ὁ μακροθυμῶν πρὸς πάντας;",
       "answer": true,
-      "explanation": "Yes. Jacob says just as a tree bears fruit, so the Spirit bears fruit in the one who believes."
+      "explanation": "ναί! ὁ Ἰάκωβος λέγει ὅτι ὁ μακροθυμῶν μένει καὶ μακροθυμεῖ πρὸς πάντας — the patient person remains and is patient toward all.",
+      "part": "B"
     },
     {
       "id": 7,
-      "part": "B",
-      "question": "Does love rejoice in injustice?",
+      "question": "ἆρα ζητεῖ ὁ πραΰς εἶναι μέγας;",
       "answer": false,
-      "explanation": "No. Jacob says love does not rejoice in injustice, but rejoices with the truth."
+      "explanation": "οὔ. ὁ πραΰς οὐ ζητεῖ εἶναι μέγας — the meek person does not seek to be great. Meekness is opposed to pride.",
+      "part": "B"
     },
     {
       "id": 8,
-      "part": "B",
-      "question": "Is patience described as remaining and not being troubled even in suffering?",
+      "question": "ἆρα τρέχουσιν τὰ τέκνα τοῦ Ἰακώβου πρὸς αὐτὸν μετὰ χαρᾶς;",
       "answer": true,
-      "explanation": "Yes. Jacob says patience is remaining and not being troubled, even when suffering evil."
+      "explanation": "ναί! τὰ τέκνα αὐτοῦ, βλέποντα τὸν πατέρα, τρέχει πρὸς αὐτὸν μετὰ χαρᾶς — his children, seeing their father, run to him with joy.",
+      "part": "B"
     },
     {
       "id": 9,
-      "part": "B",
-      "question": "Does the patient person remain and wait, like a farmer waiting for fruit from the earth?",
-      "answer": true,
-      "explanation": "Yes. Jacob compares the patient believer to a farmer who works a long time and remains until the earth bears fruit."
-    },
-    {
-      "id": 10,
-      "part": "B",
-      "question": "Is love jealous?",
+      "question": "ἆρα ἐστιν ἡ ἀγαθωσύνη τὸ κρατεῖν τὰς ἐπιθυμίας;",
       "answer": false,
-      "explanation": "No. Jacob says love is not jealous. Love is patient, kind, not jealous, and does not seek its own things."
-    },
-    {
-      "id": 11,
-      "part": "B",
-      "question": "Does kindness involve doing good deeds for others and helping them?",
-      "answer": true,
-      "explanation": "Yes. Jacob says kindness is doing the good work toward another and helping him."
+      "explanation": "οὔ. ἡ ἀγαθωσύνη ἐστὶν ἡ καρδία ἡ ἀγαθή ἣ ποιεῖ ἀγαθὰ καὶ ζητεῖ τὸ ἀγαθὸν τῶν ἄλλων — goodness is the good heart that does good and seeks the good of others. Self-control (ἐγκράτεια) is the fruit about mastering desires.",
+      "part": "B"
     }
   ]
 }

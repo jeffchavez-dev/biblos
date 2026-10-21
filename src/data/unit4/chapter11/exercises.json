@@ -2,339 +2,315 @@
   "multipleChoice": [
     {
       "id": 1,
-      "part": "A",
-      "question": "What does James say a wise man does when he hears Jesus's words?",
-      "options": ["He teaches them to others", "He builds his house on rock", "He writes them in a scroll", "He prays about them"],
-      "answer": 1,
-      "explanation": "James quotes the parable: the wise man who hears these words and does them is like a man who builds his house on rock."
+      "question": "τί λέγει ὁ Ἰάκωβος τοῖς τέκνοις ἐν ἀρχῇ τοῦ κεφαλαίου;",
+      "options": [
+        "μὴ μόνον ἄκουε τὸν λόγον, ἀλλὰ ποίει αὐτόν",
+        "ἔρχεσθε εἰς τὸν ἀγρὸν καὶ σπείρετε",
+        "ὁ ἀκούων καὶ ποιῶν καρπὸν πολὺν ἔχει",
+        "τήρει τὴν ἐντολὴν ἐν τῇ γραφῇ"
+      ],
+      "answer": 0,
+      "explanation": "ὁ Ἰάκωβος λέγει· μὴ μόνον ἄκουε τὸν λόγον, ἀλλὰ ποίει αὐτὸν καὶ τήρει αὐτὸν ἐν τῇ καρδίᾳ σου.",
+      "part": "A"
     },
     {
       "id": 2,
-      "part": "A",
-      "question": "What happens to the house built on rock when the storm comes?",
-      "options": ["It shakes badly", "It does not fall", "It falls into the river", "It needs to be rebuilt"],
-      "answer": 1,
-      "explanation": "The house built on rock does not fall, because it was founded on rock."
+      "question": "τίς ἐστιν ὅμοιος ἀνδρὶ φρονίμῳ κατὰ τὸν Ἰησοῦν;",
+      "options": [
+        "ὁ ἀκούων μόνον τοὺς λόγους",
+        "ὁ ἐρωτῶν περὶ τῆς βασιλείας",
+        "πᾶς ὁ ἀκούων τοὺς λόγους καὶ ποιῶν αὐτούς",
+        "ὁ σπείρων ἐπὶ τὴν πέτραν"
+      ],
+      "answer": 2,
+      "explanation": "εἶπεν ὁ Ἰησοῦς· πᾶς ὁ ἀκούων μου τοὺς λόγους καὶ ποιῶν αὐτοὺς ὅμοιός ἐστιν ἀνδρὶ φρονίμῳ.",
+      "part": "A"
     },
     {
       "id": 3,
-      "part": "A",
-      "question": "What does Martha compare Peter and Matthew to when she introduces the parable?",
-      "options": ["Seed falling on different soils", "Two builders", "The sons in a parable of Jesus", "Workers who forget their tasks"],
-      "answer": 2,
-      "explanation": "Martha asks James: 'In what parable shall we place our sons?' Then she tells the children a parable of Jesus about two sons."
+      "question": "ἐπὶ τί ἔθηκεν ὁ φρόνιμος τὸν θεμέλιον τῆς οἰκίας αὐτοῦ;",
+      "options": [
+        "ἐπὶ τὴν ἄμμον",
+        "ἐπὶ τὴν πέτραν",
+        "ἐπὶ τὴν γῆν τοῦ ἀγροῦ",
+        "ἐπὶ τοὺς λίθους τοῦ ποταμοῦ"
+      ],
+      "answer": 1,
+      "explanation": "ὁ φρόνιμος ἔσκαπτεν εἰς βάθος καὶ ἔθηκεν τὸν θεμέλιον ἐπὶ τὴν πέτραν· καὶ κατέβη ἡ βροχὴ καὶ οὐκ ἔπεσεν ἡ οἰκία.",
+      "part": "A"
     },
     {
       "id": 4,
-      "part": "A",
-      "question": "In the parable of the Growing Seed, who makes the seed sprout and grow?",
-      "options": ["The farmer by his hard work", "The rain and the sun together", "The earth by itself, automatically", "The children who water it"],
+      "question": "πόθεν ἔγνω ὁ φρόνιμος ὅτι ἔρχεται ἡ βροχή, κατὰ τὸν Μαθθαῖον;",
+      "options": [
+        "ὅτι εἶδεν τοὺς ποταμούς",
+        "ὅτι ἤκουσεν τοὺς ἀνέμους",
+        "ὅτι φρόνιμος ἦν",
+        "ὅτι ἐκάθητο παρὰ τὴν θάλασσαν"
+      ],
       "answer": 2,
-      "explanation": "The earth produces fruit by itself — automatically — the farmer does not know how."
+      "explanation": "ὑπολαβὼν ὁ Μαθθαῖος λέγει· ὅτι φρόνιμος ἦν.",
+      "part": "A"
     },
     {
       "id": 5,
-      "part": "A",
-      "question": "What does the mustard seed become in the parable?",
-      "options": ["A vine with many branches", "A great tree in whose branches birds nest", "A field full of wheat", "A tall cedar of Lebanon"],
-      "answer": 1,
-      "explanation": "The mustard seed grows into the greatest of garden plants and becomes a tree so that the birds of the sky come and nest in its branches."
+      "question": "τίνα σπόρον ἔδωκεν ὁ πατὴρ τῷ Πέτρῳ καὶ τῷ Μαθθαίῳ;",
+      "options": [
+        "τῷ μὲν Μαθθαίῳ ὀλίγον, τῷ δὲ Πέτρῳ οὐδέν",
+        "ἀμφοτέροις σπόρον ὀλίγον",
+        "ἀμφοτέροις καλὸν σπόρον",
+        "τῷ μὲν Πέτρῳ πολύν, τῷ δὲ Μαθθαίῳ οὐδέν"
+      ],
+      "answer": 2,
+      "explanation": "λέγει ὁ πατήρ· ἀμφοτέροις ἔδωκα καλὸν σπόρον· σπείρετε οὖν.",
+      "part": "A"
     },
     {
       "id": 6,
-      "part": "A",
-      "question": "In the parable of the Weeds, when does the enemy sow the weeds?",
-      "options": ["During the day while the farmer watches", "While the people are sleeping", "Before the wheat is planted", "After the harvest"],
+      "question": "τί λέγει ὁ Ἰησοῦς ὅτι ἐστὶν ἡ βασιλεία τοῦ θεοῦ ὡς;",
+      "options": [
+        "ὡς γεωργὸς σπείρων ἐν τῷ ἀγρῷ ἡμέρας καὶ νυκτός",
+        "ὡς ἄνθρωπος βαλὼν τὸν σπόρον ἐπὶ τῆς γῆς",
+        "ὡς κόκκος σινάπεως μικρὸς ἐν τῇ χειρί",
+        "ὡς θεριστὴς συλλέγων τὸν σῖτον εἰς τὴν ἀποθήκην"
+      ],
       "answer": 1,
-      "explanation": "While the people were sleeping, the enemy came and sowed weeds among the wheat."
+      "explanation": "εἶπεν ὁ Ἰησοῦς· οὕτως ἐστὶν ἡ βασιλεία τοῦ θεοῦ ὡς ἄνθρωπος βάλῃ τὸν σπόρον ἐπὶ τῆς γῆς καὶ καθεύδῃ καὶ ἐγείρηται, καὶ ὁ σπόρος βλαστᾷ ὡς οὐκ οἶδεν αὐτός.",
+      "part": "A"
     },
     {
       "id": 7,
-      "part": "A",
-      "question": "What does the farmer say to do with the weeds until harvest?",
-      "options": ["Pull them up immediately", "Let them grow together with the wheat", "Burn them at once", "Move them to another field"],
+      "question": "τί εὑρίσκει ὁ Μαθθαῖος ἐν τῷ ἀγρῷ ὅπου ὁ σῖτος ἤδη ηὔξανεν;",
+      "options": [
+        "πετεινὰ καταφάγοντα τὸν σπόρον",
+        "ζιζάνια ἐν μέσῳ τοῦ σίτου",
+        "χόρτον πολὺν ἀλλὰ οὐ σῖτον",
+        "ἐχθροὺς ἐν τῷ ἀγρῷ"
+      ],
       "answer": 1,
-      "explanation": "The farmer says: let both grow together until the harvest; at harvest time I will tell the reapers to collect the weeds first and burn them."
+      "explanation": "ὁ Μαθθαῖος ἐλθὼν εἰς τὸ μέσον τοῦ ἀγροῦ κράζει· πάτερ, ἰδοὺ ζιζάνια ἐν μέσῳ τοῦ σίτου.",
+      "part": "B"
     },
     {
       "id": 8,
-      "part": "A",
-      "question": "What does James say the field represents in the Weeds parable?",
-      "options": ["The synagogue", "The world", "The kingdom of Israel", "The hearts of the disciples"],
-      "answer": 1,
-      "explanation": "James explains that the field is the world, and the good seed are the sons of the kingdom."
+      "question": "διὰ τί οὐ θέλει ὁ οἰκοδεσπότης εὐθὺς ἐκβαλεῖν τὰ ζιζάνια;",
+      "options": [
+        "ὅτι ὁ καιρὸς τοῦ θερισμοῦ ἤδη πάρεστιν",
+        "ὅτι οὐκ ἔχει ἐργάτας ἐν τῷ ἀγρῷ",
+        "μήποτε ἅμα ἐκβάλωσιν καὶ τὸν σῖτον",
+        "ὅτι τὰ ζιζάνια ὅμοιά ἐστιν τῷ σίτῳ"
+      ],
+      "answer": 2,
+      "explanation": "ὁ οἰκοδεσπότης λέγει· οὔ, μήποτε ἐκβάλλοντες τὰ ζιζάνια ἐκβάλητε ἅμα αὐτοῖς καὶ τὸν σῖτον.",
+      "part": "B"
     },
     {
       "id": 9,
-      "part": "B",
-      "question": "Why does Matthew scold Peter when they are eating under the tree?",
-      "options": ["Peter spilled the water", "Peter ate Matthew's fruit after claiming he sowed more seed", "Peter forgot to feed the donkey", "Peter refused to gather the stones"],
-      "answer": 1,
-      "explanation": "Matthew says Peter took only a little seed, much fell on the road, and then Peter ate Matthew's fruit."
+      "question": "τίς ἐστιν ὁ ἐχθρὸς ὁ σπείρων τὰ ζιζάνια κατὰ τὴν ἐξήγησιν τοῦ πατρός;",
+      "options": [
+        "ὁ ἐργάτης ὁ πονηρός",
+        "ὁ υἱὸς τοῦ ἀνθρώπου",
+        "ὁ διάβολος",
+        "οἱ υἱοὶ τῆς βασιλείας"
+      ],
+      "answer": 2,
+      "explanation": "ὁ πατὴρ ἐξηγεῖται· ὁ ἐχθρὸς ὁ σπείρων αὐτά ἐστιν ὁ διάβολος.",
+      "part": "B"
     },
     {
       "id": 10,
-      "part": "B",
-      "question": "What task does James give Matthew after the argument?",
-      "options": ["Gather the small stones from the field", "Lead the sheep to the water", "Bring bread from the village", "Watch over the donkey"],
+      "question": "τί θέλει ὁ Πέτρος ποιεῖν ἐν τῇ τελευτῇ τοῦ κεφαλαίου;",
+      "options": [
+        "σπείρειν σπέρμα ἐν τῷ ἀγρῷ μετὰ τοῦ Μαθθαίου",
+        "λάμπειν ὡς ὁ ἥλιος ἐν τῇ βασιλείᾳ τοῦ πατρός",
+        "ἐκβαλεῖν τὰ ζιζάνια ἐκ τοῦ ἀγροῦ εὐθύς",
+        "ἀκούειν πλέον τῶν παραβολῶν τοῦ Ἰησοῦ"
+      ],
       "answer": 1,
-      "explanation": "James tells Matthew to go and lead the sheep to the water."
-    },
-    {
-      "id": 11,
-      "part": "B",
-      "question": "Why does Peter fail to gather the stones?",
-      "options": ["He does not understand the instruction", "He runs to the tree and watches the birds", "He falls asleep under the shade", "He goes to help Matthew instead"],
-      "answer": 1,
-      "explanation": "Peter eagerly agrees but immediately runs to the tree, sees the birds, and does not bring the stones."
-    },
-    {
-      "id": 12,
-      "part": "B",
-      "question": "In the first parable Martha tells, what does the first son do after refusing to go to the vineyard?",
-      "options": ["He stays home and sleeps", "He later repents and goes", "He sends his brother instead", "He asks his father to forgive him"],
-      "answer": 1,
-      "explanation": "The first son says 'I do not want to,' but later, repenting, he goes."
-    },
-    {
-      "id": 13,
-      "part": "B",
-      "question": "In the parable of the Prodigal Son, what does the younger son ask his father for?",
-      "options": ["Permission to travel to another country", "The part of the estate that belongs to him", "Work in his father's vineyard", "A robe and ring as a gift"],
-      "answer": 1,
-      "explanation": "The younger son asks: 'Father, give me the portion of the estate that belongs to me.'"
-    },
-    {
-      "id": 14,
-      "part": "B",
-      "question": "What does the younger son do after spending everything in the far country?",
-      "options": ["He writes a letter to his father", "He finds a new master and becomes rich again", "He comes to his senses and decides to return to his father", "He stays in the far country and keeps working"],
-      "answer": 2,
-      "explanation": "Coming to himself, he says: 'How many hired servants of my father have bread — I am perishing here with hunger. I will go to my father.'"
-    },
-    {
-      "id": 15,
-      "part": "B",
-      "question": "What does the father do when he sees his son returning from far away?",
-      "options": ["He waits at the door and calls the servants", "He runs, falls on his neck, and kisses him", "He sends the elder son to meet him", "He closes the door and will not see him"],
-      "answer": 1,
-      "explanation": "While the son was still far away, the father saw him, loved him greatly, ran, fell on his neck, and was kissing him."
-    },
-    {
-      "id": 16,
-      "part": "B",
-      "question": "Why is the elder son angry when he returns from the field?",
-      "options": ["His brother took his room", "His father never gave him a goat to celebrate, yet kills the fattened calf for his brother", "His brother will now inherit more than him", "The servants did not tell him his brother had returned"],
-      "answer": 1,
-      "explanation": "The elder son says: 'You never gave me a young goat to celebrate with my friends, but you kill the fattened calf for this son of yours.'"
-    },
-    {
-      "id": 17,
-      "part": "B",
-      "question": "How does Peter's reconciliation with Matthew mirror the Prodigal Son parable?",
-      "options": ["Peter gives Matthew a robe and ring", "Peter runs and falls on Matthew's neck, just as the father did in the parable", "Matthew goes away and Peter waits for him", "James slaughters an animal to celebrate"],
-      "answer": 1,
-      "explanation": "Peter, rejoicing with great joy, runs and falls on Matthew's neck and kisses him — just as the father did in the parable."
+      "explanation": "ὁ Πέτρος λέγει· κἀγὼ θέλω λάμπειν ὡς ὁ ἥλιος.",
+      "part": "B"
     }
   ],
   "trueFalse": [
     {
       "id": 1,
-      "part": "A",
-      "statement": "The foolish man builds his house on rock.",
-      "answer": false,
-      "explanation": "The foolish man builds on sand; the wise man builds on rock."
+      "statement": "ὁ ἀκούων καὶ μὴ ποιῶν τὸν λόγον καρπὸν οὐκ ἔχει.",
+      "answer": true,
+      "explanation": "ἀληθές! λέγει ὁ Ἰάκωβος· ὁ γὰρ ἀκούων καὶ μὴ ποιῶν καρπὸν οὐκ ἔχει.",
+      "part": "A"
     },
     {
       "id": 2,
-      "part": "A",
-      "statement": "When the storm strikes the house built on sand, it falls with a great crash.",
-      "answer": true,
-      "explanation": "The house built on sand falls, and its fall is great."
+      "statement": "ὁ μωρὸς ἔθηκεν τὸν θεμέλιον τῆς οἰκίας αὐτοῦ ἐπὶ τὴν πέτραν.",
+      "answer": false,
+      "explanation": "οὐκ ἀληθές! ὁ μωρὸς ᾠκοδόμει τὴν οἰκίαν αὐτοῦ ἐπὶ τὴν ἄμμον χωρὶς θεμελίου· ὁ δὲ φρόνιμος ἔθηκεν τὸν θεμέλιον ἐπὶ τὴν πέτραν.",
+      "part": "A"
     },
     {
       "id": 3,
-      "part": "A",
-      "statement": "Peter sows a single grain of seed in the field to demonstrate the parable.",
-      "answer": true,
-      "explanation": "Peter places one small grain in the ground to illustrate how a tiny seed grows into a great plant."
+      "statement": "ἡ οἰκία ἡ ἐπὶ τῆς πέτρας ἔπεσεν ὅτε κατέβη ἡ βροχὴ καὶ ἦλθον οἱ ποταμοί.",
+      "answer": false,
+      "explanation": "οὐκ ἀληθές! ἡ οἰκία ἡ ἐπὶ τῆς πέτρας οὐκ ἔπεσεν· ἡ δὲ οἰκία ἡ ἐπὶ τῆς ἄμμου εὐθὺς ἔπεσεν.",
+      "part": "A"
     },
     {
       "id": 4,
-      "part": "A",
-      "statement": "The mustard seed is the largest of all seeds.",
-      "answer": false,
-      "explanation": "The mustard seed is the smallest of seeds, yet it grows into the greatest plant."
+      "statement": "ὁ Μαθθαῖος ἔλαβεν πολὺν σπόρον παρὰ τοῦ πατρός, ὁ δὲ Πέτρος ὀλίγον.",
+      "answer": true,
+      "explanation": "ἀληθές! λέγει ὁ Πέτρος· τῷ Μαθθαίῳ ἔδωκας πολὺν σπόρον, ἐμοὶ δὲ ὀλίγον.",
+      "part": "A"
     },
     {
       "id": 5,
-      "part": "A",
-      "statement": "In the Weeds parable, the servants of the householder sowed the weeds.",
+      "statement": "ὁ σπόρος βλαστᾷ καὶ αὐξάνει ὅτι ὁ γεωργὸς εἰδὼς ποιεῖ αὐτόν.",
       "answer": false,
-      "explanation": "An enemy sowed the weeds among the wheat while the people were sleeping."
+      "explanation": "οὐκ ἀληθές! αὐτομάτη ἡ γῆ καρποφορεῖ· ὁ ἄνθρωπος οὐκ οἶδεν πῶς αὐξάνει.",
+      "part": "A"
     },
     {
       "id": 6,
-      "part": "A",
-      "statement": "The righteous will shine like the sun in the kingdom of their Father.",
+      "statement": "ὁ κόκκος τοῦ σινάπεως μικρότερός ἐστιν πάντων τῶν σπερμάτων.",
       "answer": true,
-      "explanation": "James explains: 'Then the righteous will shine like the sun in the kingdom of their Father.'"
+      "explanation": "ἀληθές! εἶπεν ὁ Ἰησοῦς· ὁ κόκκος τοῦ σινάπεως μικρότερόν ἐστιν πάντων τῶν σπερμάτων τῶν ἐπὶ τῆς γῆς.",
+      "part": "A"
     },
     {
       "id": 7,
-      "part": "A",
-      "statement": "James says farming parables are suited to the children because they work in the field.",
+      "statement": "ὁ ἐχθρὸς ἔβαλεν τὰ ζιζάνια ἐν τῷ ἀγρῷ ἐν τῷ καθεύδειν τοὺς ἀνθρώπους.",
       "answer": true,
-      "explanation": "James explains that he uses parables from farming because the children work the earth and can understand what they see."
+      "explanation": "ἀληθές! ἐν τῷ καθεύδειν τοὺς ἀνθρώπους ἦλθεν ὁ ἐχθρὸς καὶ ἔβαλεν ζιζάνια ἐν μέσῳ τοῦ σίτου.",
+      "part": "B"
     },
     {
       "id": 8,
-      "part": "B",
-      "statement": "Matthew completes his task willingly when James first assigns it.",
+      "statement": "ἐν τῷ θερισμῷ οἱ ἐργάται πρῶτον συλλέγουσιν τὸν σῖτον εἰς τὴν ἀποθήκην.",
       "answer": false,
-      "explanation": "Matthew refuses at first, saying he always leads the animals."
+      "explanation": "οὐκ ἀληθές! λέγει ὁ οἰκοδεσπότης· λαβόντες πρῶτον τὰ ζιζάνια βάλετε αὐτὰ εἰς τὸ πῦρ, τὸν δὲ σῖτον συναγάγετε εἰς τὴν ἀποθήκην μου.",
+      "part": "B"
     },
     {
       "id": 9,
-      "part": "B",
-      "statement": "Peter eagerly agrees to gather the stones but never actually does it.",
+      "statement": "ὁ ἀγρός ἐστιν ὁ κόσμος κατὰ τὴν ἐξήγησιν τοῦ πατρός.",
       "answer": true,
-      "explanation": "Peter says 'I will, father!' but immediately runs to the tree and watches the birds instead."
+      "explanation": "ἀληθές! ἐξηγεῖται ὁ πατήρ· ὁ δὲ ἀγρός ἐστιν ὁ κόσμος.",
+      "part": "B"
     },
     {
       "id": 10,
-      "part": "B",
-      "statement": "In Martha's first parable, the son who said 'yes' actually did the work.",
+      "statement": "οἱ δίκαιοι μέλλουσιν λάμπειν ὡς ἡ σελήνη ἐν τῇ βασιλείᾳ τοῦ πατρός.",
       "answer": false,
-      "explanation": "The son who said 'yes, lord' did not go; it was the one who first refused but later repented who actually went."
-    },
-    {
-      "id": 11,
-      "part": "B",
-      "statement": "The younger son spent his estate while living in a far country.",
-      "answer": true,
-      "explanation": "He went to a far country and scattered his estate there, living dissolutely."
-    },
-    {
-      "id": 12,
-      "part": "B",
-      "statement": "The famine that struck the far country helped the younger son find good work.",
-      "answer": false,
-      "explanation": "The famine made his situation worse; he ended up feeding pigs and wanting to eat what the pigs ate."
-    },
-    {
-      "id": 13,
-      "part": "B",
-      "statement": "The younger son planned to return as a son and ask for his inheritance back.",
-      "answer": false,
-      "explanation": "He planned to return and say 'I am no longer worthy to be called your son; place me as one of your hired servants.'"
-    },
-    {
-      "id": 14,
-      "part": "B",
-      "statement": "The father gave his returning son a robe, a ring, and sandals.",
-      "answer": true,
-      "explanation": "The father told his servants: bring the best robe and clothe him, give a ring for his hand and sandals for his feet."
-    },
-    {
-      "id": 15,
-      "part": "B",
-      "statement": "The elder son was glad when he heard music and dancing at the house.",
-      "answer": false,
-      "explanation": "When the elder son heard music and dancing, he inquired what it was and then refused to go in."
-    },
-    {
-      "id": 16,
-      "part": "B",
-      "statement": "James says the father in the parable went out to both sons.",
-      "answer": true,
-      "explanation": "James teaches: 'The father in the parable did not stay in the house; he went out to both sons.'"
-    },
-    {
-      "id": 17,
-      "part": "B",
-      "statement": "Matthew immediately forgives Peter without hesitation.",
-      "answer": false,
-      "explanation": "Matthew first asks his father: 'Must I forgive him again?' — then, after James says yes, he forgives."
+      "explanation": "οὐκ ἀληθές! λέγει ὁ πατήρ· οἱ δίκαιοι μέλλουσιν λάμπειν ὡς ὁ ἥλιος ἐν τῇ βασιλείᾳ τοῦ πατρὸς αὐτῶν.",
+      "part": "B"
     }
   ],
   "yesNo": [
     {
       "id": 1,
-      "part": "A",
-      "question": "Does a house built on rock fall when storms come?",
-      "answer": false,
-      "explanation": "The house built on rock does not fall; only the house built on sand falls."
+      "question": "ἆρα ἡ οἰκία ἡ ἐπὶ τῆς ἄμμου εὐθὺς ἔπεσεν ὅτε κατέβη ἡ βροχή;",
+      "answer": true,
+      "explanation": "ναί! κατέβη ἡ βροχὴ καὶ ἦλθον οἱ ποταμοί, καὶ εὐθὺς ἔπεσεν, καὶ μεγάλη ἦν ἡ πτῶσις αὐτῆς.",
+      "part": "A"
     },
     {
       "id": 2,
-      "part": "A",
-      "question": "Is the kingdom of heaven like a mustard seed, according to Jesus?",
+      "question": "ἆρα ὁ Πέτρος βούλεται πλέον σπόρου παρὰ τοῦ πατρός;",
       "answer": true,
-      "explanation": "James says Jesus told the parable: the kingdom of heaven is like a mustard seed."
+      "explanation": "ναί! λέγει ὁ Πέτρος· τῷ Μαθθαίῳ ἔδωκας πολύν, ἐμοὶ δὲ ὀλίγον· δός μοι ἄλλον.",
+      "part": "A"
     },
     {
       "id": 3,
-      "part": "A",
-      "question": "Does the farmer in the Growing Seed parable understand how the seed sprouts?",
-      "answer": false,
-      "explanation": "The seed sprouts and grows — the farmer does not know how."
+      "question": "ἆρα ὁ σπόρος αὐτομάτη αὐξάνει χωρὶς τοῦ ἀνθρώπου;",
+      "answer": true,
+      "explanation": "ναί! αὐτομάτη ἡ γῆ καρποφορεῖ· ὁ δὲ ἄνθρωπος οὐκ οἶδεν πῶς αὐξάνει.",
+      "part": "A"
     },
     {
       "id": 4,
-      "part": "A",
-      "question": "Will the weeds be burned at the harvest?",
+      "question": "ἆρα ὁ κόκκος τοῦ σινάπεως ἐν τῷ τέλει γίνεται μεῖζον πάντων τῶν λαχάνων;",
       "answer": true,
-      "explanation": "The weeds are collected at harvest and burned."
+      "explanation": "ναί! λέγει ὁ Ἰησοῦς· ἀναβαίνει καὶ γίνεται μεῖζον πάντων τῶν λαχάνων καὶ ποιεῖ κλάδους μεγάλους.",
+      "part": "A"
     },
     {
       "id": 5,
-      "part": "B",
-      "question": "Does Martha bring food and water to the family in the field?",
-      "answer": true,
-      "explanation": "Martha and Magdalene come from the village and place bread, water, and honey in the shade for the family."
+      "question": "ἆρα θέλει ὁ οἰκοδεσπότης εὐθὺς ἐκβαλεῖν τὰ ζιζάνια ἐκ τοῦ ἀγροῦ;",
+      "answer": false,
+      "explanation": "οὔ! λέγει· μήποτε ἐκβάλλοντες τὰ ζιζάνια ἐκβάλητε ἅμα καὶ τὸν σῖτον· ἄφετε ἀμφότερα αὐξάνεσθαι ἕως τοῦ θερισμοῦ.",
+      "part": "B"
     },
     {
       "id": 6,
-      "part": "B",
-      "question": "In the first parable, does the son who said 'I will go' actually go?",
+      "question": "ἆρα συνῆκαν οἱ μαθηταὶ εὐθὺς τὴν παραβολὴν τῶν ζιζανίων;",
       "answer": false,
-      "explanation": "The son who said 'Yes, lord' did not go; the one who said 'I do not want to' later repented and went."
+      "explanation": "οὔ! λέγει ὁ πατήρ· οὐδὲ οἱ μαθηταὶ συνῆκαν ταύτην τὴν παραβολήν· ἀλλὰ κατ᾽ ἰδίαν ἤκουον αὐτοῦ ἐξηγουμένου.",
+      "part": "B"
     },
     {
       "id": 7,
-      "part": "B",
-      "question": "Did the younger son's father see him while he was still far away?",
+      "question": "ἆρα ὁ σπείρων τὸ καλὸν σπέρμα ἐστὶν ὁ υἱὸς τοῦ ἀνθρώπου;",
       "answer": true,
-      "explanation": "While he was still far away, his father saw him and loved him greatly."
+      "explanation": "ναί! ἐξηγεῖται ὁ πατήρ· ὁ σπείρων τὸ καλὸν σπέρμα ἐστὶν ὁ υἱὸς τοῦ ἀνθρώπου.",
+      "part": "B"
     },
     {
       "id": 8,
-      "part": "B",
-      "question": "Was the elder son happy that his brother had returned?",
+      "question": "ἆρα ἐν τῇ συντελείᾳ τοῦ αἰῶνος οἱ δίκαιοι βληθήσονται εἰς τὴν κάμινον τοῦ πυρός;",
       "answer": false,
-      "explanation": "The elder son was angry and refused to enter the house."
+      "explanation": "οὔ! οἱ ποιοῦντες τὴν ἀνομίαν βληθήσονται εἰς τὴν κάμινον· οἱ δὲ δίκαιοι μέλλουσιν λάμπειν ὡς ὁ ἥλιος.",
+      "part": "B"
+    }
+  ],
+  "conversationQuestions": [
+    {
+      "id": 1,
+      "question": "ἆρα σὺ ἀκούεις μόνον τὸν λόγον τοῦ θεοῦ, ἢ καὶ ποιεῖς αὐτόν;",
+      "part": "A"
+    },
+    {
+      "id": 2,
+      "question": "ἆρα ἡ οἰκία σου ἐπὶ πέτραν ᾠκοδόμηται;",
+      "part": "A"
+    },
+    {
+      "id": 3,
+      "question": "τί ἐστιν ὁ θεμέλιος τῆς ζωῆς σου;",
+      "part": "A"
+    },
+    {
+      "id": 4,
+      "question": "ἆρα βλέπεις τὸν λόγον τοῦ θεοῦ αὐξάνοντα ἐν τῇ καρδίᾳ σου;",
+      "part": "A"
+    },
+    {
+      "id": 5,
+      "question": "ἆρα θαυμάζεις ὅτι ὁ θεὸς αὐξάνει τὸν λόγον χωρὶς ἡμῶν;",
+      "part": "A"
+    },
+    {
+      "id": 6,
+      "question": "ἆρα βλέπεις ζιζάνια ἐν τῷ κόσμῳ σήμερον;",
+      "part": "B"
+    },
+    {
+      "id": 7,
+      "question": "τί νομίζεις — ποῦ εἰσὶν οἱ υἱοὶ τῆς βασιλείας ἐν τῷ κόσμῳ;",
+      "part": "B"
+    },
+    {
+      "id": 8,
+      "question": "ἆρα θέλεις λάμπειν ὡς ὁ ἥλιος ἐν τῇ βασιλείᾳ τοῦ πατρός;",
+      "part": "B"
     },
     {
       "id": 9,
-      "part": "B",
-      "question": "Does Peter confess to Matthew that he was wrong?",
-      "answer": true,
-      "explanation": "Peter goes to Matthew and says: 'I sinned against you; I bit you and ate your fruit — forgive me.'"
+      "question": "τίς ἐστιν ὁ ἐχθρὸς ἐν τῇ ζωῇ σου ὁ βάλλων ζιζάνια;",
+      "part": "B"
     },
     {
       "id": 10,
-      "part": "B",
-      "question": "Does James say that God has mercy on us, just as the father in the parable?",
-      "answer": true,
-      "explanation": "James teaches: 'Such is God — he is good and faithful and has mercy on us. As your Father in heaven has mercy on you, so also have mercy on one another.'"
-    },
-    {
-      "id": 11,
-      "part": "B",
-      "question": "Do Peter and Matthew return home as enemies?",
-      "answer": false,
-      "explanation": "Having become friends again and forgetting their wrongs, the two brothers walk together on the road to the village."
+      "question": "ἆρα ἀγαπᾷς ἀκούειν τὰς παραβολὰς τοῦ Ἰησοῦ;",
+      "part": "B"
     }
   ]
 }
