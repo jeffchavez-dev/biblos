@@ -25,6 +25,7 @@ const VOCAB_SOURCES = [
   { file: () => import('./data/unit3/chapter9/vocabulary.json'), unit: 3, chapter: 9 },
   { file: () => import('./data/unit4/chapter10/vocabulary.json'), unit: 4, chapter: 10 },
   { file: () => import('./data/unit4/chapter11/vocabulary.json'), unit: 4, chapter: 11 },
+  { file: () => import('./data/unit4/chapter12/vocabulary.json'), unit: 4, chapter: 12 },
 ]
 
 function UnitVocabReview({ unitId, allVocabulary, units, onOpenLexicon }) {

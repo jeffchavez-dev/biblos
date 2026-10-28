@@ -296,6 +296,24 @@
             "subtitle": "Ἡ Παραβολὴ τῶν Ἀγρῶν"
           }
         ]
+      },
+      {
+        "id": 12,
+        "title": "Κεφάλαιον ΙΒʹ",
+        "subtitle": "Ἡ Ἐξουσία τοῦ Ἰησοῦ — The Authority of Jesus",
+        "translations": {
+          "es": "Ἡ Ἐξουσία τοῦ Ἰησοῦ — La Autoridad de Jesús",
+          "pl": "Ἡ Ἐξουσία τοῦ Ἰησοῦ — Wadza Jezusa",
+          "fil": "Ἡ Ἐξουσία τοῦ Ἰησοῦ — Ang Kapangyarihan ni Hesus"
+        },
+        "locked": false,
+        "parts": [
+          {
+            "id": "A",
+            "label": "Μέρος Αʹ",
+            "subtitle": "Ὁ Πειρασμός"
+          }
+        ]
       }
     ]
   }

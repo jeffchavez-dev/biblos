@@ -20,6 +20,7 @@ const SOURCES = [
   { file: () => import('../data/unit3/chapter9/vocabulary.json'), unit: 3, chapter: 9 },
   { file: () => import('../data/unit4/chapter10/vocabulary.json'), unit: 4, chapter: 10 },
   { file: () => import('../data/unit4/chapter11/vocabulary.json'), unit: 4, chapter: 11 },
+  { file: () => import('../data/unit4/chapter12/vocabulary.json'), unit: 4, chapter: 12 },
   { file: () => import('../data/grammar-terms.json'), unit: 0, chapter: 0 },
 ]
 
@@ -36,6 +37,7 @@ const STORY_SOURCES = [
   { file: () => import('../data/unit3/chapter9/story.json'), unit: 3, chapter: 9 },
   { file: () => import('../data/unit4/chapter10/story.json'), unit: 4, chapter: 10 },
   { file: () => import('../data/unit4/chapter11/story.json'), unit: 4, chapter: 11 },
+  { file: () => import('../data/unit4/chapter12/story.json'), unit: 4, chapter: 12 },
 ]
 
 // Part-of-speech categories (priority order — first match wins)
